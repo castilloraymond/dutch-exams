@@ -1,0 +1,43 @@
+{
+  "id": "bij-de-dokter",
+  "title": "Bij de Dokter",
+  "difficulty": "A1",
+  "content": "Sara voelt zich niet lekker. Ze heeft hoofdpijn en koorts. Ze belt de huisarts voor een afspraak. De assistente vraagt: \"Kunt u om 14:00 komen?\" Sara zegt ja. Om 14:00 is Sara bij de dokter. De dokter onderzoekt haar. Hij zegt: \"U heeft griep. U moet veel rusten en veel water drinken. Ik schrijf medicijnen voor.\" Sara krijgt een recept. Ze gaat naar de apotheek om de medicijnen te halen.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Wat heeft Sara?",
+      "options": ["Buikpijn", "Hoofdpijn en koorts", "Keelpijn", "Rugpijn"],
+      "correctIndex": 1,
+      "explanation": "Sara heeft hoofdpijn en koorts."
+    },
+    {
+      "id": "q2",
+      "text": "Hoe laat is de afspraak?",
+      "options": ["Om 12:00", "Om 13:00", "Om 14:00", "Om 15:00"],
+      "correctIndex": 2,
+      "explanation": "De afspraak is om 14:00."
+    },
+    {
+      "id": "q3",
+      "text": "Wat zegt de dokter?",
+      "options": ["Sara is gezond", "Sara heeft griep", "Sara moet naar het ziekenhuis", "Sara heeft allergieën"],
+      "correctIndex": 1,
+      "explanation": "De dokter zegt dat Sara griep heeft."
+    },
+    {
+      "id": "q4",
+      "text": "Wat moet Sara doen?",
+      "options": ["Veel werken", "Veel sporten", "Veel rusten en water drinken", "Veel eten"],
+      "correctIndex": 2,
+      "explanation": "Sara moet veel rusten en veel water drinken."
+    },
+    {
+      "id": "q5",
+      "text": "Waar gaat Sara na de dokter naartoe?",
+      "options": ["Naar huis", "Naar de apotheek", "Naar het ziekenhuis", "Naar haar werk"],
+      "correctIndex": 1,
+      "explanation": "Sara gaat naar de apotheek om de medicijnen te halen."
+    }
+  ]
+}

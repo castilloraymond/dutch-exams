@@ -1,0 +1,36 @@
+{
+  "module": "Lezen",
+  "description": "Reading Comprehension",
+  "passages": [
+    {
+      "id": "de-supermarkt",
+      "title": "De Supermarkt",
+      "difficulty": "A0",
+      "questionCount": 5
+    },
+    {
+      "id": "op-het-station",
+      "title": "Op het Station",
+      "difficulty": "A0",
+      "questionCount": 5
+    },
+    {
+      "id": "bij-de-dokter",
+      "title": "Bij de Dokter",
+      "difficulty": "A1",
+      "questionCount": 5
+    },
+    {
+      "id": "een-brief",
+      "title": "Een Brief",
+      "difficulty": "A1",
+      "questionCount": 5
+    },
+    {
+      "id": "de-buurt",
+      "title": "De Buurt",
+      "difficulty": "A1",
+      "questionCount": 5
+    }
+  ]
+}

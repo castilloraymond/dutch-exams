@@ -1,0 +1,43 @@
+{
+  "id": "de-supermarkt",
+  "title": "De Supermarkt",
+  "difficulty": "A0",
+  "content": "Maria gaat naar de supermarkt. Ze heeft een boodschappenlijstje. Ze moet melk, brood, kaas en appels kopen. De melk staat in de koeling. Het brood is bij de bakkerij. Maria vindt alles. Bij de kassa betaalt ze met haar pinpas. De kassière zegt: \"Dat is 12 euro en 50 cent.\" Maria zegt: \"Dank u wel. Dag!\"",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Waar gaat Maria naartoe?",
+      "options": ["Naar de markt", "Naar de supermarkt", "Naar de bakker", "Naar het station"],
+      "correctIndex": 1,
+      "explanation": "De eerste zin zegt: 'Maria gaat naar de supermarkt.'"
+    },
+    {
+      "id": "q2",
+      "text": "Wat moet Maria kopen?",
+      "options": ["Vlees en vis", "Melk, brood, kaas en appels", "Groenten en fruit", "Water en sap"],
+      "correctIndex": 1,
+      "explanation": "Maria moet melk, brood, kaas en appels kopen."
+    },
+    {
+      "id": "q3",
+      "text": "Waar staat de melk?",
+      "options": ["Bij de kassa", "Bij de bakkerij", "In de koeling", "Bij de ingang"],
+      "correctIndex": 2,
+      "explanation": "De tekst zegt: 'De melk staat in de koeling.'"
+    },
+    {
+      "id": "q4",
+      "text": "Hoe betaalt Maria?",
+      "options": ["Met contant geld", "Met haar pinpas", "Met een cadeaubon", "Ze betaalt niet"],
+      "correctIndex": 1,
+      "explanation": "Maria betaalt met haar pinpas."
+    },
+    {
+      "id": "q5",
+      "text": "Hoeveel moet Maria betalen?",
+      "options": ["10 euro", "12 euro en 50 cent", "15 euro", "20 euro"],
+      "correctIndex": 1,
+      "explanation": "De kassière zegt: 'Dat is 12 euro en 50 cent.'"
+    }
+  ]
+}

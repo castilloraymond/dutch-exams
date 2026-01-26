@@ -1,0 +1,43 @@
+{
+  "id": "op-het-station",
+  "title": "Op het Station",
+  "difficulty": "A0",
+  "content": "Jan staat op het station. Hij wil naar Amsterdam. Hij kijkt naar het bord. De trein naar Amsterdam vertrekt om 10:15 van spoor 3. Het is nu 10:00. Jan koopt een kaartje bij de automaat. Een enkele reis kost 15 euro. Jan loopt naar spoor 3. De trein komt precies op tijd. Jan stapt in en zoekt een plaats bij het raam.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Waar wil Jan naartoe?",
+      "options": ["Naar Rotterdam", "Naar Utrecht", "Naar Amsterdam", "Naar Den Haag"],
+      "correctIndex": 2,
+      "explanation": "Jan wil naar Amsterdam."
+    },
+    {
+      "id": "q2",
+      "text": "Hoe laat vertrekt de trein?",
+      "options": ["Om 10:00", "Om 10:15", "Om 10:30", "Om 11:00"],
+      "correctIndex": 1,
+      "explanation": "De trein naar Amsterdam vertrekt om 10:15."
+    },
+    {
+      "id": "q3",
+      "text": "Van welk spoor vertrekt de trein?",
+      "options": ["Spoor 1", "Spoor 2", "Spoor 3", "Spoor 4"],
+      "correctIndex": 2,
+      "explanation": "De trein vertrekt van spoor 3."
+    },
+    {
+      "id": "q4",
+      "text": "Hoeveel kost een enkele reis?",
+      "options": ["10 euro", "12 euro", "15 euro", "20 euro"],
+      "correctIndex": 2,
+      "explanation": "Een enkele reis kost 15 euro."
+    },
+    {
+      "id": "q5",
+      "text": "Waar wil Jan zitten in de trein?",
+      "options": ["Bij de deur", "Bij het raam", "In het gangpad", "Bij de wc"],
+      "correctIndex": 1,
+      "explanation": "Jan zoekt een plaats bij het raam."
+    }
+  ]
+}

@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dutch Inburgering Prep
+
+A Duolingo-style web app helping expats prepare for the Dutch Inburgering exam, starting with reading comprehension (Lezen) exercises.
+
+## Features
+
+- Reading comprehension exercises with Dutch passages
+- Multiple choice questions with instant feedback
+- Progress tracking saved to localStorage
+- Optional cloud backup via email (Supabase)
+- Mobile-first responsive design
+- A0-A1 difficulty level content
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Optional: Cloud Progress Sync
 
-To learn more about Next.js, take a look at the following resources:
+To enable cloud progress backup:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Create a [Supabase](https://supabase.com) project
+2. Run the SQL schema in `supabase/schema.sql`
+3. Copy `.env.local.example` to `.env.local`
+4. Add your Supabase URL and anon key
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+cp .env.local.example .env.local
+```
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+/app
+├── page.tsx                 # Landing page
+├── learn/
+│   ├── page.tsx             # Module overview
+│   └── [passageId]/
+│       └── page.tsx         # Exercise view
+├── api/
+│   └── progress/
+│       └── route.ts         # Cloud sync API
+├── layout.tsx
+└── globals.css
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/components
+├── ui/                      # shadcn components
+├── PassageCard.tsx
+├── QuestionView.tsx
+├── ResultsSummary.tsx
+└── SaveProgressForm.tsx
+
+/content
+├── passages/                # JSON content files
+└── index.json
+
+/lib
+├── content.ts               # Content loading utilities
+├── progress.ts              # Progress management
+├── supabase.ts              # Supabase client
+├── types.ts                 # TypeScript types
+└── utils.ts
+
+/hooks
+├── useProgress.ts           # Progress state management
+└── usePassage.ts            # Content fetching
+```
+
+## Content
+
+The app includes 5 reading passages at A0-A1 level:
+
+1. De Supermarkt - Shopping vocabulary
+2. Op het Station - Transportation
+3. Bij de Dokter - Healthcare
+4. Een Brief - Official letters
+5. De Buurt - Neighborhood notices
+
+## Tech Stack
+
+- Next.js 14+ (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Supabase (optional)
+
+## Deploy
+
+Deploy to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-repo/dutch-inburgering-prep)
+
+## License
+
+MIT

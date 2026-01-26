@@ -1,0 +1,43 @@
+{
+  "id": "een-brief",
+  "title": "Een Brief",
+  "difficulty": "A1",
+  "content": "Ahmed krijgt een brief van de gemeente. De brief gaat over zijn paspoort. Zijn paspoort is bijna verlopen. Hij moet een nieuw paspoort aanvragen. In de brief staat: \"Maak een afspraak via onze website. Neem mee: uw oude paspoort, een pasfoto en 75 euro.\" Ahmed maakt een afspraak voor volgende week dinsdag om 11:00. Hij moet naar het gemeentehuis op de Marktstraat 10.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Van wie is de brief?",
+      "options": ["Van de bank", "Van de gemeente", "Van de dokter", "Van het werk"],
+      "correctIndex": 1,
+      "explanation": "Ahmed krijgt een brief van de gemeente."
+    },
+    {
+      "id": "q2",
+      "text": "Waarover gaat de brief?",
+      "options": ["Over zijn rijbewijs", "Over zijn paspoort", "Over zijn verzekering", "Over zijn belasting"],
+      "correctIndex": 1,
+      "explanation": "De brief gaat over zijn paspoort."
+    },
+    {
+      "id": "q3",
+      "text": "Wat moet Ahmed meenemen?",
+      "options": ["Alleen zijn oude paspoort", "Zijn oude paspoort, een pasfoto en geld", "Alleen een pasfoto", "Zijn rijbewijs"],
+      "correctIndex": 1,
+      "explanation": "Ahmed moet zijn oude paspoort, een pasfoto en 75 euro meenemen."
+    },
+    {
+      "id": "q4",
+      "text": "Wanneer is de afspraak?",
+      "options": ["Maandag om 10:00", "Dinsdag om 11:00", "Woensdag om 12:00", "Donderdag om 13:00"],
+      "correctIndex": 1,
+      "explanation": "De afspraak is volgende week dinsdag om 11:00."
+    },
+    {
+      "id": "q5",
+      "text": "Waar moet Ahmed naartoe?",
+      "options": ["Naar het postkantoor", "Naar het politiebureau", "Naar het gemeentehuis", "Naar de ambassade"],
+      "correctIndex": 2,
+      "explanation": "Ahmed moet naar het gemeentehuis op de Marktstraat 10."
+    }
+  ]
+}
