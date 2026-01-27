@@ -10,6 +10,8 @@ interface ResultsSummaryProps {
   correctAnswers: number;
   totalQuestions: number;
   onRetry: () => void;
+  backHref?: string;
+  backLabel?: string;
 }
 
 export function ResultsSummary({
@@ -17,6 +19,8 @@ export function ResultsSummary({
   correctAnswers,
   totalQuestions,
   onRetry,
+  backHref = "/learn",
+  backLabel = "Back to Passages",
 }: ResultsSummaryProps) {
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;
@@ -51,10 +55,10 @@ export function ResultsSummary({
               <RotateCcw className="mr-2 h-4 w-4" />
               Try Again
             </Button>
-            <Link href="/learn" className="block">
+            <Link href={backHref} className="block">
               <Button variant="default" className="w-full">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Passages
+                {backLabel}
               </Button>
             </Link>
           </div>

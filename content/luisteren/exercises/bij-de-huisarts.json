@@ -1,0 +1,36 @@
+{
+  "id": "bij-de-huisarts",
+  "title": "Bij de Huisarts",
+  "difficulty": "A1",
+  "transcript": "Dokter: Goedemorgen mevrouw Yilmaz, komt u binnen. Wat kan ik voor u doen? Patiënt: Goedemorgen dokter. Ik heb al een week last van mijn rug. Het doet heel erg pijn, vooral als ik lang zit. Dokter: Heeft u zwaar getild of een ongeluk gehad? Patiënt: Nee, het begon gewoon opeens. Ik werk op kantoor en zit de hele dag achter de computer. Dokter: Ik begrijp het. Ik ga even naar uw rug kijken. Kunt u uw jas uitdoen? Goed, ik voel hier spanning in de spieren. Ik denk dat het spierpijn is door de houding op uw werk. Patiënt: Wat kan ik eraan doen? Dokter: Ik schrijf pijnstillers voor en ik verwijs u naar de fysiotherapeut. Probeer ook elk uur even op te staan en te bewegen.",
+  "questions": [
+    {
+      "id": "huis-q1",
+      "text": "Waar heeft de patiënt last van?",
+      "options": ["Haar hoofd", "Haar rug", "Haar knie", "Haar schouder"],
+      "correctIndex": 1,
+      "explanation": "De patiënt heeft al een week last van haar rug."
+    },
+    {
+      "id": "huis-q2",
+      "text": "Wat is waarschijnlijk de oorzaak van de pijn?",
+      "options": ["Een ongeluk", "Verkeerde houding op het werk", "Te veel sporten", "Een ziekte"],
+      "correctIndex": 1,
+      "explanation": "De dokter denkt dat het spierpijn is door de houding op het werk (de hele dag achter de computer zitten)."
+    },
+    {
+      "id": "huis-q3",
+      "text": "Wat schrijft de dokter voor?",
+      "options": ["Antibiotica", "Pijnstillers en een verwijzing naar de fysiotherapeut", "Bedrust", "Een operatie"],
+      "correctIndex": 1,
+      "explanation": "De dokter schrijft pijnstillers voor en verwijst naar de fysiotherapeut."
+    },
+    {
+      "id": "huis-q4",
+      "text": "Welk advies geeft de dokter nog?",
+      "options": ["Stoppen met werken", "Elk uur opstaan en bewegen", "Elke dag hardlopen", "Drie weken thuisblijven"],
+      "correctIndex": 1,
+      "explanation": "De dokter adviseert om elk uur even op te staan en te bewegen."
+    }
+  ]
+}

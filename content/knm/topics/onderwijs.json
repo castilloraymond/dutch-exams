@@ -1,0 +1,90 @@
+{
+  "id": "onderwijs",
+  "title": "Onderwijs",
+  "questions": [
+    {
+      "id": "ond-q1",
+      "text": "Vanaf welke leeftijd is een kind leerplichtig in Nederland?",
+      "options": ["4 jaar", "5 jaar", "6 jaar", "7 jaar"],
+      "correctIndex": 1,
+      "explanation": "De leerplicht begint op de eerste schooldag na de 5e verjaardag. Veel kinderen gaan al op 4 jaar naar school, maar dat is niet verplicht."
+    },
+    {
+      "id": "ond-q2",
+      "text": "Tot welke leeftijd geldt de leerplicht?",
+      "options": ["14 jaar", "16 jaar", "18 jaar", "21 jaar"],
+      "correctIndex": 1,
+      "explanation": "De volledige leerplicht geldt tot 16 jaar. Daarna geldt de kwalificatieplicht tot 18 jaar (of tot je een startkwalificatie hebt)."
+    },
+    {
+      "id": "ond-q3",
+      "text": "Wat is de CITO-toets?",
+      "options": ["Een examen voor het rijbewijs", "Een toets aan het einde van de basisschool die helpt bij de keuze voor het voortgezet onderwijs", "Een taaltoets voor inburgeraars", "Een examen aan het einde van de middelbare school"],
+      "correctIndex": 1,
+      "explanation": "De CITO-eindtoets (of doorstroomtoets) wordt gemaakt in groep 8 van de basisschool en helpt bij het advies voor het niveau van het voortgezet onderwijs."
+    },
+    {
+      "id": "ond-q4",
+      "text": "Wat zijn vmbo, havo en vwo?",
+      "options": ["Typen basisscholen", "Niveaus in het voortgezet onderwijs (middelbare school)", "Universiteiten", "Beroepsopleidingen"],
+      "correctIndex": 1,
+      "explanation": "Na de basisschool gaan kinderen naar het voortgezet onderwijs: vmbo (4 jaar), havo (5 jaar) of vwo (6 jaar)."
+    },
+    {
+      "id": "ond-q5",
+      "text": "Wat is het verschil tussen MBO, HBO en WO?",
+      "options": ["Er is geen verschil", "MBO is beroepsonderwijs, HBO is hoger beroepsonderwijs, WO is universiteit", "MBO is voor kinderen, HBO en WO voor volwassenen", "MBO is gratis, HBO en WO zijn betaald"],
+      "correctIndex": 1,
+      "explanation": "MBO (middelbaar beroepsonderwijs) leidt op voor een beroep. HBO (hoger beroepsonderwijs) en WO (wetenschappelijk onderwijs/universiteit) zijn hogere opleidingen."
+    },
+    {
+      "id": "ond-q6",
+      "text": "Wat is DUO?",
+      "options": ["Een tv-zender", "De Dienst Uitvoering Onderwijs, die studiefinanciering regelt", "Een school voor volwassenen", "Een onderwijsmethode"],
+      "correctIndex": 1,
+      "explanation": "DUO regelt studiefinanciering, het inschrijven voor het hoger onderwijs en het beheer van diploma's."
+    },
+    {
+      "id": "ond-q7",
+      "text": "Wat is inburgering?",
+      "options": ["Een cursus Nederlandse geschiedenis", "Een verplicht programma voor nieuwkomers om de taal en samenleving te leren", "Een vrijwillige activiteit", "Een examen voor het rijbewijs"],
+      "correctIndex": 1,
+      "explanation": "Inburgering is een verplicht programma voor nieuwkomers. Je leert Nederlands (lezen, schrijven, luisteren, spreken) en kennis van de Nederlandse maatschappij (KNM)."
+    },
+    {
+      "id": "ond-q8",
+      "text": "Wat is een ROC?",
+      "options": ["Een soort ziekenhuis", "Een Regionaal Opleidingencentrum voor MBO-onderwijs en volwasseneneducatie", "Een sportvereniging", "Een gemeentekantoor"],
+      "correctIndex": 1,
+      "explanation": "Een ROC (Regionaal Opleidingencentrum) biedt MBO-opleidingen en cursussen voor volwassenen, waaronder taalcursussen en inburgeringslessen."
+    },
+    {
+      "id": "ond-q9",
+      "text": "Wat is NT2?",
+      "options": ["Een televisiezender", "Nederlands als Tweede Taal", "Een wiskundetoets", "Een type visum"],
+      "correctIndex": 1,
+      "explanation": "NT2 staat voor Nederlands als Tweede Taal. Het NT2-examen is onderdeel van de inburgering."
+    },
+    {
+      "id": "ond-q10",
+      "text": "Hoe lang duurt de basisschool in Nederland?",
+      "options": ["6 jaar", "7 jaar", "8 jaar (groep 1 t/m 8)", "9 jaar"],
+      "correctIndex": 2,
+      "explanation": "De basisschool duurt 8 jaar: van groep 1 (4 jaar oud) tot en met groep 8 (11-12 jaar oud)."
+    },
+    {
+      "id": "ond-q11",
+      "text": "Wat is kinderopvang?",
+      "options": ["Opvang voor zieke kinderen in het ziekenhuis", "Opvang voor jonge kinderen terwijl ouders werken", "Een school voor peuters", "Een naschools sportprogramma"],
+      "correctIndex": 1,
+      "explanation": "Kinderopvang (crèche, kinderdagverblijf) biedt opvang voor kinderen van 0-4 jaar terwijl ouders werken. De overheid geeft kinderopvangtoeslag."
+    },
+    {
+      "id": "ond-q12",
+      "text": "Mogen ouders zelf een school kiezen voor hun kind?",
+      "options": ["Nee, de gemeente wijst een school aan", "Ja, er is vrijheid van onderwijs en schoolkeuze", "Alleen als ze in dezelfde wijk wonen", "Alleen voor het voortgezet onderwijs"],
+      "correctIndex": 1,
+      "explanation": "In Nederland is er vrijheid van onderwijs. Ouders mogen zelf een school kiezen, ook een school op religieuze of pedagogische grondslag."
+    }
+  ]
+}

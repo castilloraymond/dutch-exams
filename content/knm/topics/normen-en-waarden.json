@@ -1,0 +1,90 @@
+{
+  "id": "normen-en-waarden",
+  "title": "Normen en Waarden",
+  "questions": [
+    {
+      "id": "nw-q1",
+      "text": "Zijn mannen en vrouwen gelijk in Nederland?",
+      "options": ["Nee, mannen hebben meer rechten", "Ja, mannen en vrouwen zijn wettelijk gelijk", "Alleen op het werk", "Alleen in het onderwijs"],
+      "correctIndex": 1,
+      "explanation": "In Nederland zijn mannen en vrouwen wettelijk gelijk. Discriminatie op grond van geslacht is verboden."
+    },
+    {
+      "id": "nw-q2",
+      "text": "Hoe staat Nederland tegenover LGBTQ+ rechten?",
+      "options": ["LGBTQ+ rechten bestaan niet", "Nederland was het eerste land ter wereld dat het homohuwelijk toestond (2001)", "Alleen getolereerd in grote steden", "Er zijn geen wetten over"],
+      "correctIndex": 1,
+      "explanation": "Nederland was in 2001 het eerste land ter wereld dat het huwelijk openstelde voor partners van hetzelfde geslacht."
+    },
+    {
+      "id": "nw-q3",
+      "text": "Wat betekent vrijheid van meningsuiting?",
+      "options": ["Je mag alles zeggen zonder gevolgen", "Je mag je mening uiten, maar discriminatie en belediging zijn strafbaar", "Alleen de overheid heeft vrijheid van meningsuiting", "Je mag alleen positieve dingen zeggen"],
+      "correctIndex": 1,
+      "explanation": "Vrijheid van meningsuiting is een grondrecht in Nederland. Maar discriminatie, belediging en aanzetten tot haat zijn strafbaar."
+    },
+    {
+      "id": "nw-q4",
+      "text": "Wat is godsdienstvrijheid?",
+      "options": ["Iedereen moet hetzelfde geloof hebben", "Iedereen mag zelf kiezen welk geloof hij of zij heeft, of geen geloof", "Alleen christendom is toegestaan", "Religie is verboden in Nederland"],
+      "correctIndex": 1,
+      "explanation": "In Nederland heeft iedereen het recht om een geloof te kiezen of geen geloof te hebben. De overheid is neutraal."
+    },
+    {
+      "id": "nw-q5",
+      "text": "Wanneer is Koningsdag?",
+      "options": ["1 januari", "27 april", "5 mei", "25 december"],
+      "correctIndex": 1,
+      "explanation": "Koningsdag is op 27 april, de verjaardag van Koning Willem-Alexander. Het is een nationale feestdag met vrijmarkten en feesten."
+    },
+    {
+      "id": "nw-q6",
+      "text": "Wat is Sinterklaas?",
+      "options": ["Een religieuze heilige die in de zomer gevierd wordt", "Een traditie op 5 december waarbij kinderen cadeaus krijgen", "Een nationale feestdag waarop niet gewerkt wordt", "Een carnavalsfeest"],
+      "correctIndex": 1,
+      "explanation": "Sinterklaas is een Nederlandse traditie. Op de avond van 5 december (pakjesavond) krijgen vooral kinderen cadeaus."
+    },
+    {
+      "id": "nw-q7",
+      "text": "Wat is een typisch Nederlandse eigenschap in communicatie?",
+      "options": ["Heel formeel en afstandelijk", "Direct en eerlijk zeggen wat je denkt", "Nooit je mening geven", "Altijd via een tussenpersoon communiceren"],
+      "correctIndex": 1,
+      "explanation": "Nederlanders staan bekend om hun directheid. Ze zeggen eerlijk wat ze denken, wat soms als bot kan overkomen."
+    },
+    {
+      "id": "nw-q8",
+      "text": "Wat betekent 'doe maar normaal, dan doe je al gek genoeg'?",
+      "options": ["Je moet altijd grappen maken", "Je moet je niet aanstellen of opscheppen", "Je moet altijd rustig zijn", "Je moet gek doen op feestjes"],
+      "correctIndex": 1,
+      "explanation": "Dit bekende Nederlandse gezegde betekent dat je jezelf niet boven anderen moet plaatsen. Bescheidenheid is een Nederlandse waarde."
+    },
+    {
+      "id": "nw-q9",
+      "text": "Hoe begroeten Nederlanders elkaar meestal?",
+      "options": ["Met een buiging", "Met drie zoenen op de wang of een handdruk", "Met een omhelzing", "Door te zwaaien"],
+      "correctIndex": 1,
+      "explanation": "Bij informele ontmoetingen geven Nederlanders vaak drie zoenen op de wang (rechts-links-rechts). Bij formele gelegenheden schudden ze handen."
+    },
+    {
+      "id": "nw-q10",
+      "text": "Hoe belangrijk is punctualiteit in Nederland?",
+      "options": ["Het maakt niet uit", "Heel belangrijk, op tijd komen wordt verwacht", "Alleen bij officiële afspraken", "Alleen op het werk"],
+      "correctIndex": 1,
+      "explanation": "Punctualiteit is heel belangrijk in Nederland. Te laat komen wordt als onbeleefd beschouwd, zowel voor afspraken als op het werk."
+    },
+    {
+      "id": "nw-q11",
+      "text": "Welke feestdagen zijn vrije dagen in Nederland?",
+      "options": ["Alleen Kerstmis", "Koningsdag, Bevrijdingsdag, Kerst, Pasen, Hemelvaartsdag, Pinksteren", "Alleen religieuze feestdagen", "Er zijn geen officiële vrije dagen"],
+      "correctIndex": 1,
+      "explanation": "Officiële feestdagen zijn onder andere Koningsdag (27 april), Bevrijdingsdag (5 mei), Eerste en Tweede Kerstdag, Pasen, Hemelvaartsdag en Pinksteren."
+    },
+    {
+      "id": "nw-q12",
+      "text": "Wat wordt bedoeld met tolerantie in de Nederlandse cultuur?",
+      "options": ["Iedereen moet het met elkaar eens zijn", "Respect hebben voor andere meningen, culturen en levensstijlen", "Je mag alles doen zonder regels", "Alleen de overheid moet tolerant zijn"],
+      "correctIndex": 1,
+      "explanation": "Tolerantie in Nederland betekent dat je respecteert dat anderen andere meningen, geloven en levensstijlen hebben, ook als je het er niet mee eens bent."
+    }
+  ]
+}

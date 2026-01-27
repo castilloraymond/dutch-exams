@@ -1,0 +1,90 @@
+{
+  "id": "wonen",
+  "title": "Wonen",
+  "questions": [
+    {
+      "id": "wonen-q1",
+      "text": "Wat is een woningcorporatie?",
+      "options": ["Een makelaardij", "Een organisatie die betaalbare huurwoningen aanbiedt", "Een bouwbedrijf", "Een bank die hypotheken verstrekt"],
+      "correctIndex": 1,
+      "explanation": "Een woningcorporatie is een organisatie die betaalbare sociale huurwoningen aanbiedt, vooral voor mensen met een lager inkomen."
+    },
+    {
+      "id": "wonen-q2",
+      "text": "Wat is huurtoeslag?",
+      "options": ["Extra huur die je moet betalen", "Een financiële bijdrage van de overheid voor huurders met een laag inkomen", "Een verzekering voor huurders", "Een boete bij te laat betalen"],
+      "correctIndex": 1,
+      "explanation": "Huurtoeslag is een bijdrage van de overheid om de huur betaalbaar te houden voor mensen met een laag inkomen."
+    },
+    {
+      "id": "wonen-q3",
+      "text": "Waar moet je je inschrijven als je naar een nieuwe gemeente verhuist?",
+      "options": ["Bij de politie", "Bij de Basisregistratie Personen (BRP) van de gemeente", "Bij de woningcorporatie", "Bij de belastingdienst"],
+      "correctIndex": 1,
+      "explanation": "Bij verhuizing moet je je binnen 5 dagen inschrijven bij de BRP (Basisregistratie Personen) van je nieuwe gemeente."
+    },
+    {
+      "id": "wonen-q4",
+      "text": "Wat is het waterschap?",
+      "options": ["Een zwembad", "Een overheidsorganisatie die zorgt voor waterbeheer en dijken", "Een waterleidingbedrijf", "Een milieuorganisatie"],
+      "correctIndex": 1,
+      "explanation": "Het waterschap is een overheidsorganisatie die zorgt voor waterbeheer, dijken, waterkwaliteit en waterzuivering."
+    },
+    {
+      "id": "wonen-q5",
+      "text": "Hoe moet je afval scheiden in Nederland?",
+      "options": ["Alles in één bak", "Papier, plastic, glas en restafval apart", "Alleen glas apart", "Dat bepaal je zelf"],
+      "correctIndex": 1,
+      "explanation": "In Nederland moet je afval scheiden: papier, plastic/blik/pak, glas, GFT (groente/fruit/tuin) en restafval gaan apart."
+    },
+    {
+      "id": "wonen-q6",
+      "text": "Wat is een huurcontract?",
+      "options": ["Een mondeling afspraak met de verhuurder", "Een schriftelijke overeenkomst tussen huurder en verhuurder", "Een brief van de gemeente", "Een bankafschrift"],
+      "correctIndex": 1,
+      "explanation": "Een huurcontract is een schriftelijke overeenkomst waarin de rechten en plichten van huurder en verhuurder staan."
+    },
+    {
+      "id": "wonen-q7",
+      "text": "Wat betekent huurbescherming?",
+      "options": ["Je mag de huur nooit verhogen", "De verhuurder kan je niet zomaar uit je woning zetten", "Je hoeft geen borg te betalen", "Je krijgt altijd een sociale huurwoning"],
+      "correctIndex": 1,
+      "explanation": "Huurbescherming betekent dat de verhuurder je niet zomaar mag opzeggen. Er zijn strikte regels voor het beëindigen van een huurcontract."
+    },
+    {
+      "id": "wonen-q8",
+      "text": "Mag je je huurwoning onderverhuren aan iemand anders?",
+      "options": ["Ja, altijd", "Nee, alleen met toestemming van de verhuurder", "Ja, als je het aan de gemeente meldt", "Nee, dat is altijd verboden"],
+      "correctIndex": 1,
+      "explanation": "Onderverhuur mag meestal alleen met schriftelijke toestemming van de verhuurder. Zonder toestemming kan het leiden tot ontbinding van het huurcontract."
+    },
+    {
+      "id": "wonen-q9",
+      "text": "Wat is een energielabel?",
+      "options": ["Een sticker op je energierekening", "Een label dat aangeeft hoe energiezuinig een woning is (A tot G)", "Een vergunning om zonnepanelen te plaatsen", "Een certificaat van de energieleverancier"],
+      "correctIndex": 1,
+      "explanation": "Een energielabel (A tot G) geeft aan hoe energiezuinig een woning is. A is zeer zuinig, G is zeer onzuinig."
+    },
+    {
+      "id": "wonen-q10",
+      "text": "Wie is verantwoordelijk voor groot onderhoud van een huurwoning?",
+      "options": ["De huurder", "De verhuurder", "De gemeente", "De buren"],
+      "correctIndex": 1,
+      "explanation": "De verhuurder is verantwoordelijk voor groot onderhoud, zoals het dak, de buitenmuren en de cv-installatie."
+    },
+    {
+      "id": "wonen-q11",
+      "text": "Wat moet je doen als je een storing hebt aan gas, water of elektriciteit?",
+      "options": ["De politie bellen", "Contact opnemen met je energieleverancier of netbeheerder", "Zelf repareren", "De gemeente bellen"],
+      "correctIndex": 1,
+      "explanation": "Bij storingen neem je contact op met je energieleverancier of de netbeheerder. Bij gaslekkage bel je direct de storingsdienst."
+    },
+    {
+      "id": "wonen-q12",
+      "text": "Wat zijn de regels over geluidsoverlast in Nederland?",
+      "options": ["Er zijn geen regels", "Na 22:00 uur moet je rekening houden met je buren", "Je mag altijd lawaai maken in je eigen huis", "Alleen in appartementen gelden regels"],
+      "correctIndex": 1,
+      "explanation": "In Nederland moet je rekening houden met je buren. Na 22:00 uur geldt extra stilte. Bij overlast kun je de politie of de verhuurder inschakelen."
+    }
+  ]
+}

@@ -41,3 +41,46 @@ export interface UserProgress {
   };
   email?: string;
 }
+
+// KNM types
+export interface KNMTopic {
+  id: string;
+  title: string;
+  questions: Question[];
+}
+
+export interface KNMTopicSummary {
+  id: string;
+  title: string;
+  description: string;
+  questionCount: number;
+  icon: string;
+}
+
+export interface KNMIndex {
+  module: string;
+  description: string;
+  topics: KNMTopicSummary[];
+}
+
+// Luisteren types
+export interface ListeningExercise {
+  id: string;
+  title: string;
+  difficulty: "A0" | "A1";
+  transcript: string;
+  questions: Question[];
+}
+
+export interface ListeningExerciseSummary {
+  id: string;
+  title: string;
+  difficulty: "A0" | "A1";
+  questionCount: number;
+}
+
+export interface ListeningIndex {
+  module: string;
+  description: string;
+  exercises: ListeningExerciseSummary[];
+}

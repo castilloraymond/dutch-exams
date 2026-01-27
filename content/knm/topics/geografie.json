@@ -1,0 +1,90 @@
+{
+  "id": "geografie",
+  "title": "Geografie",
+  "questions": [
+    {
+      "id": "geo-q1",
+      "text": "Hoeveel provincies heeft Nederland?",
+      "options": ["10", "12", "14", "16"],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft 12 provincies: Groningen, Friesland, Drenthe, Overijssel, Flevoland, Gelderland, Utrecht, Noord-Holland, Zuid-Holland, Zeeland, Noord-Brabant en Limburg."
+    },
+    {
+      "id": "geo-q2",
+      "text": "Wat is de hoofdstad van Nederland?",
+      "options": ["Den Haag", "Amsterdam", "Rotterdam", "Utrecht"],
+      "correctIndex": 1,
+      "explanation": "Amsterdam is de hoofdstad van Nederland. De regering en het parlement zetelen echter in Den Haag."
+    },
+    {
+      "id": "geo-q3",
+      "text": "Welke grote rivieren stromen door Nederland?",
+      "options": ["Donau en Elbe", "Rijn, Maas en Schelde", "Seine en Loire", "Theems en Rijn"],
+      "correctIndex": 1,
+      "explanation": "De Rijn, Maas en Schelde zijn de belangrijkste rivieren van Nederland. Ze monden uit in de Noordzee."
+    },
+    {
+      "id": "geo-q4",
+      "text": "Wat zijn de Waddeneilanden?",
+      "options": ["Eilanden in de Caribische Zee", "Een groep eilanden in het noorden van Nederland", "Kunstmatige eilanden bij Rotterdam", "Eilanden in het IJsselmeer"],
+      "correctIndex": 1,
+      "explanation": "De Waddeneilanden liggen in het noorden van Nederland: Texel, Vlieland, Terschelling, Ameland en Schiermonnikoog."
+    },
+    {
+      "id": "geo-q5",
+      "text": "Wat is het IJsselmeer?",
+      "options": ["Een rivier", "Een groot meer dat ontstaan is door de afsluiting van de Zuiderzee", "Een kanaal", "Een deel van de Noordzee"],
+      "correctIndex": 1,
+      "explanation": "Het IJsselmeer is het grootste meer van Nederland, ontstaan door de bouw van de Afsluitdijk in 1932."
+    },
+    {
+      "id": "geo-q6",
+      "text": "Welke landen grenzen aan Nederland?",
+      "options": ["België en Frankrijk", "Duitsland en België", "Duitsland en Denemarken", "België, Duitsland en Luxemburg"],
+      "correctIndex": 1,
+      "explanation": "Nederland grenst aan Duitsland (in het oosten) en België (in het zuiden)."
+    },
+    {
+      "id": "geo-q7",
+      "text": "Wat is de Randstad?",
+      "options": ["Een snelweg", "Het dichtbevolkte stedelijke gebied met Amsterdam, Rotterdam, Den Haag en Utrecht", "Een provincie", "Een eiland"],
+      "correctIndex": 1,
+      "explanation": "De Randstad is het verstedelijkte gebied in het westen van Nederland met de vier grote steden: Amsterdam, Rotterdam, Den Haag en Utrecht."
+    },
+    {
+      "id": "geo-q8",
+      "text": "Waarom is de haven van Rotterdam belangrijk?",
+      "options": ["Het is de oudste haven van Europa", "Het is een van de grootste havens van Europa", "Het is de enige haven van Nederland", "Het is een militaire haven"],
+      "correctIndex": 1,
+      "explanation": "De haven van Rotterdam is een van de grootste havens van Europa en een belangrijk knooppunt voor de internationale handel."
+    },
+    {
+      "id": "geo-q9",
+      "text": "Wat is Schiphol?",
+      "options": ["Een stad", "De grootste luchthaven van Nederland", "Een haven", "Een provincie"],
+      "correctIndex": 1,
+      "explanation": "Schiphol (bij Amsterdam) is de grootste luchthaven van Nederland en een van de drukste van Europa."
+    },
+    {
+      "id": "geo-q10",
+      "text": "Wat zijn dijken?",
+      "options": ["Bruggen over rivieren", "Verhoogde grondwallen die het land beschermen tegen water", "Ondergrondse tunnels", "Kanalen voor scheepvaart"],
+      "correctIndex": 1,
+      "explanation": "Dijken zijn verhoogde grondwallen die Nederland beschermen tegen overstromingen. Zonder dijken zou een groot deel van Nederland onder water staan."
+    },
+    {
+      "id": "geo-q11",
+      "text": "Welk deel van Nederland ligt onder zeeniveau?",
+      "options": ["Niets", "Ongeveer een kwart", "Ongeveer de helft", "Alles"],
+      "correctIndex": 1,
+      "explanation": "Ongeveer 26% van Nederland ligt onder zeeniveau. Zonder dijken en waterkeringen zou dit gebied overstromen."
+    },
+    {
+      "id": "geo-q12",
+      "text": "Hoe is het klimaat in Nederland?",
+      "options": ["Tropisch", "Gematigd zeeklimaat met milde winters en koele zomers", "Continentaal met strenge winters", "Mediterraan met hete zomers"],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft een gematigd zeeklimaat: milde winters, koele zomers en veel regen verspreid over het hele jaar."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "module": "Luisteren",
+  "description": "Listening Comprehension",
+  "exercises": [
+    { "id": "bij-de-bakker", "title": "Bij de Bakker", "difficulty": "A0", "questionCount": 4 },
+    { "id": "op-het-gemeentehuis", "title": "Op het Gemeentehuis", "difficulty": "A1", "questionCount": 4 },
+    { "id": "een-telefoongesprek", "title": "Een Telefoongesprek", "difficulty": "A0", "questionCount": 4 },
+    { "id": "bij-de-huisarts", "title": "Bij de Huisarts", "difficulty": "A1", "questionCount": 4 },
+    { "id": "op-het-werk", "title": "Op het Werk", "difficulty": "A1", "questionCount": 4 }
+  ]
+}

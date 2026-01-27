@@ -1,0 +1,36 @@
+{
+  "id": "bij-de-bakker",
+  "title": "Bij de Bakker",
+  "difficulty": "A0",
+  "transcript": "Klant: Goedemorgen! Ik wil graag drie broodjes en een heel wit brood. Bakker: Goedemorgen! Welke broodjes wilt u? Wij hebben kaiserbroodjes en bolletjes. Klant: Drie bolletjes alstublieft. Bakker: Prima. Dat is drie bolletjes en een wit brood. Dat wordt drie euro vijftig. Klant: Alstublieft. Mag ik ook een appeltaart? Bakker: Natuurlijk! Een hele of een halve? Klant: Een halve graag. Bakker: Dat is acht euro vijftig in totaal. Klant: Hier heeft u tien euro. Bakker: Een euro vijftig terug. Fijne dag! Klant: Dank u wel, u ook!",
+  "questions": [
+    {
+      "id": "bakker-q1",
+      "text": "Hoeveel broodjes koopt de klant?",
+      "options": ["Twee", "Drie", "Vier", "Vijf"],
+      "correctIndex": 1,
+      "explanation": "De klant vraagt om drie bolletjes."
+    },
+    {
+      "id": "bakker-q2",
+      "text": "Welk soort broodjes kiest de klant?",
+      "options": ["Kaiserbroodjes", "Bolletjes", "Croissants", "Pistoletjes"],
+      "correctIndex": 1,
+      "explanation": "De klant kiest drie bolletjes."
+    },
+    {
+      "id": "bakker-q3",
+      "text": "Hoeveel kost alles bij elkaar?",
+      "options": ["Drie euro vijftig", "Vijf euro", "Acht euro vijftig", "Tien euro"],
+      "correctIndex": 2,
+      "explanation": "Het totaal is acht euro vijftig: drie euro vijftig voor brood en broodjes, plus vijf euro voor een halve appeltaart."
+    },
+    {
+      "id": "bakker-q4",
+      "text": "Koopt de klant een hele of halve appeltaart?",
+      "options": ["Een hele", "Een halve", "Geen appeltaart", "Twee halve"],
+      "correctIndex": 1,
+      "explanation": "De klant vraagt om een halve appeltaart."
+    }
+  ]
+}

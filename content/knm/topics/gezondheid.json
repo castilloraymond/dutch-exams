@@ -1,0 +1,90 @@
+{
+  "id": "gezondheid",
+  "title": "Gezondheid",
+  "questions": [
+    {
+      "id": "gez-q1",
+      "text": "Wat is de huisarts in Nederland?",
+      "options": ["Een specialist in het ziekenhuis", "De eerste dokter die je bezoekt bij gezondheidsklachten", "Een arts die alleen kinderen behandelt", "Een arts die alleen recepten schrijft"],
+      "correctIndex": 1,
+      "explanation": "De huisarts is de eerste arts die je bezoekt. De huisarts verwijst je door naar een specialist als dat nodig is."
+    },
+    {
+      "id": "gez-q2",
+      "text": "Is een zorgverzekering verplicht in Nederland?",
+      "options": ["Nee, het is vrijwillig", "Ja, iedereen boven de 18 moet een basisverzekering hebben", "Alleen voor werknemers", "Alleen voor mensen boven de 65"],
+      "correctIndex": 1,
+      "explanation": "Iedereen die in Nederland woont of werkt en ouder is dan 18 jaar, is verplicht een basiszorgverzekering af te sluiten."
+    },
+    {
+      "id": "gez-q3",
+      "text": "Wat is het eigen risico?",
+      "options": ["De premie die je maandelijks betaalt", "Het bedrag dat je zelf betaalt voordat de verzekering vergoedt", "De kosten van een bezoek aan de huisarts", "Een boete als je geen verzekering hebt"],
+      "correctIndex": 1,
+      "explanation": "Het eigen risico is het bedrag dat je eerst zelf betaalt voor zorgkosten voordat de verzekering betaalt. De huisarts valt hier niet onder."
+    },
+    {
+      "id": "gez-q4",
+      "text": "Waar haal je medicijnen op recept?",
+      "options": ["Bij de huisarts", "Bij de apotheek", "Bij de drogist", "Bij het ziekenhuis"],
+      "correctIndex": 1,
+      "explanation": "Medicijnen op recept haal je op bij de apotheek. De huisarts schrijft het recept, de apotheek levert het medicijn."
+    },
+    {
+      "id": "gez-q5",
+      "text": "Welk telefoonnummer bel je bij een levensbedreigende situatie?",
+      "options": ["0800-1234", "112", "0900-8844", "144"],
+      "correctIndex": 1,
+      "explanation": "Bij levensgevaar of een ernstig ongeluk bel je 112. Dit is het Europese alarmnummer."
+    },
+    {
+      "id": "gez-q6",
+      "text": "Wat doet de GGD?",
+      "options": ["Geeft hypotheken", "Houdt zich bezig met publieke gezondheidszorg, vaccinaties en hygiëne", "Regelt werkvergunningen", "Beheert ziekenhuizen"],
+      "correctIndex": 1,
+      "explanation": "De GGD (Gemeentelijke Gezondheidsdienst) zorgt voor publieke gezondheid, vaccinatieprogramma's, infectieziektebestrijding en jeugdgezondheidszorg."
+    },
+    {
+      "id": "gez-q7",
+      "text": "Naar wie ga je als je zwanger bent?",
+      "options": ["Direct naar het ziekenhuis", "Naar de verloskundige of huisarts", "Naar de apotheek", "Naar de GGD"],
+      "correctIndex": 1,
+      "explanation": "Bij zwangerschap ga je naar een verloskundige of huisarts. De verloskundige begeleidt de zwangerschap en bevalling."
+    },
+    {
+      "id": "gez-q8",
+      "text": "Wat is het Rijksvaccinatieprogramma?",
+      "options": ["Een programma voor volwassenen om griepprik te krijgen", "Een programma waarin kinderen gratis vaccinaties krijgen", "Een cursus over gezondheid", "Een zorgverzekeringspakket"],
+      "correctIndex": 1,
+      "explanation": "Het Rijksvaccinatieprogramma biedt gratis vaccinaties voor kinderen tegen ernstige ziekten zoals mazelen, kinkhoest en polio."
+    },
+    {
+      "id": "gez-q9",
+      "text": "Wat is de tandarts?",
+      "options": ["Een arts in het ziekenhuis", "Een zorgverlener die zorgt voor je gebit", "Een specialist voor ogen", "Een fysiotherapeut"],
+      "correctIndex": 1,
+      "explanation": "De tandarts zorgt voor je gebit. Tandartskosten zitten niet in de basisverzekering voor volwassenen; je hebt een aanvullende verzekering nodig."
+    },
+    {
+      "id": "gez-q10",
+      "text": "Wat is zorgtoeslag?",
+      "options": ["Een korting op medicijnen", "Een financiële bijdrage van de overheid voor de zorgverzekering", "Een extra verzekering", "Een belastingvoordeel voor artsen"],
+      "correctIndex": 1,
+      "explanation": "Zorgtoeslag is een bijdrage van de overheid om de kosten van de basiszorgverzekering betaalbaar te houden voor mensen met een lager inkomen."
+    },
+    {
+      "id": "gez-q11",
+      "text": "Wat is de huisartsenpost?",
+      "options": ["Een postkantoor voor medische brieven", "Een plek waar je 's avonds, 's nachts en in het weekend terecht kunt bij spoedeisende klachten", "Een trainingsplek voor artsen", "Een kantoor van de zorgverzekeraar"],
+      "correctIndex": 1,
+      "explanation": "De huisartsenpost is voor spoedeisende medische hulp buiten kantoortijden. Bel eerst voordat je gaat."
+    },
+    {
+      "id": "gez-q12",
+      "text": "Wat is het donorregister?",
+      "options": ["Een lijst van bloeddonoren", "Een register waarin je vastlegt of je na overlijden organen wilt doneren", "Een lijst van ziekenhuizen", "Een register van artsen"],
+      "correctIndex": 1,
+      "explanation": "In het donorregister leg je vast of je na je overlijden organen en weefsel wilt doneren. Iedereen vanaf 18 jaar wordt gevraagd een keuze te maken."
+    }
+  ]
+}

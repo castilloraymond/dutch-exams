@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { BookOpen, CheckCircle2, Target } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { BookOpen, Headphones, GraduationCap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -13,59 +14,66 @@ export default function Home() {
 
       <section className="flex-1 flex flex-col items-center justify-center px-4 py-12">
         <div className="max-w-2xl mx-auto text-center space-y-6">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-            <BookOpen className="h-8 w-8 text-primary" />
-          </div>
-
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            Master Dutch Reading for Your Inburgering Exam
+            Prepare for Your Inburgering Exam
           </h2>
 
           <p className="text-lg text-muted-foreground max-w-lg mx-auto">
-            Practice reading comprehension with real-world Dutch texts. Build
-            your skills one passage at a time, from supermarket signs to
-            official letters.
+            Practice reading, listening, and Dutch society knowledge. Three modules to get you exam-ready.
           </p>
-
-          <Link href="/learn">
-            <Button size="lg" className="mt-4">
-              Start Learning
-            </Button>
-          </Link>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl w-full px-4">
-          <div className="text-center p-4">
-            <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-muted mb-3">
-              <Target className="h-5 w-5" />
-            </div>
-            <h3 className="font-semibold mb-1">Exam-Focused</h3>
-            <p className="text-sm text-muted-foreground">
-              Content aligned with A0-A1 Inburgering reading requirements
-            </p>
-          </div>
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl w-full px-4">
+          <Link href="/learn" className="block">
+            <Card className="cursor-pointer hover:border-primary transition-colors h-full">
+              <CardContent className="p-6 text-center">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
+                  <BookOpen className="h-7 w-7 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Lezen</h3>
+                <p className="text-sm text-muted-foreground">
+                  Reading comprehension with real-world Dutch texts
+                </p>
+                <Button variant="outline" className="mt-4 w-full">
+                  5 passages
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
 
-          <div className="text-center p-4">
-            <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-muted mb-3">
-              <BookOpen className="h-5 w-5" />
-            </div>
-            <h3 className="font-semibold mb-1">Real-World Topics</h3>
-            <p className="text-sm text-muted-foreground">
-              Practice with everyday scenarios you will encounter in the
-              Netherlands
-            </p>
-          </div>
+          <Link href="/learn/knm" className="block">
+            <Card className="cursor-pointer hover:border-primary transition-colors h-full">
+              <CardContent className="p-6 text-center">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
+                  <GraduationCap className="h-7 w-7 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg mb-2">KNM</h3>
+                <p className="text-sm text-muted-foreground">
+                  Kennis van de Nederlandse Maatschappij — Dutch society quiz
+                </p>
+                <Button variant="outline" className="mt-4 w-full">
+                  8 topics, 96 questions
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
 
-          <div className="text-center p-4">
-            <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-muted mb-3">
-              <CheckCircle2 className="h-5 w-5" />
-            </div>
-            <h3 className="font-semibold mb-1">Track Progress</h3>
-            <p className="text-sm text-muted-foreground">
-              Your progress is saved automatically so you can learn at your own
-              pace
-            </p>
-          </div>
+          <Link href="/learn/luisteren" className="block">
+            <Card className="cursor-pointer hover:border-primary transition-colors h-full">
+              <CardContent className="p-6 text-center">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
+                  <Headphones className="h-7 w-7 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg mb-2">Luisteren</h3>
+                <p className="text-sm text-muted-foreground">
+                  Listening comprehension with audio exercises
+                </p>
+                <Button variant="outline" className="mt-4 w-full">
+                  5 exercises
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
       </section>
 

@@ -1,0 +1,90 @@
+{
+  "id": "werk",
+  "title": "Werk",
+  "questions": [
+    {
+      "id": "werk-q1",
+      "text": "Wat is het minimumloon in Nederland?",
+      "options": ["Een vast bedrag dat de werkgever zelf bepaalt", "Het laagste loon dat een werkgever wettelijk moet betalen", "Het gemiddelde salaris in Nederland", "Het loon voor parttimewerkers"],
+      "correctIndex": 1,
+      "explanation": "Het minimumloon is het laagste bedrag dat een werkgever wettelijk verplicht is te betalen aan werknemers."
+    },
+    {
+      "id": "werk-q2",
+      "text": "Hoeveel vakantiedagen heeft een werknemer minimaal recht op per jaar bij een fulltime baan?",
+      "options": ["10 dagen", "15 dagen", "20 dagen", "25 dagen"],
+      "correctIndex": 2,
+      "explanation": "Bij een fulltime baan (40 uur) heeft een werknemer wettelijk recht op minimaal 20 vakantiedagen per jaar (4 keer het aantal werkdagen per week)."
+    },
+    {
+      "id": "werk-q3",
+      "text": "Wat is een vast contract?",
+      "options": ["Een contract voor een bepaalde periode", "Een contract zonder einddatum", "Een contract voor oproepkrachten", "Een contract voor stagiairs"],
+      "correctIndex": 1,
+      "explanation": "Een vast contract (contract voor onbepaalde tijd) heeft geen einddatum. De werknemer kan niet zomaar ontslagen worden."
+    },
+    {
+      "id": "werk-q4",
+      "text": "Wat is het UWV?",
+      "options": ["Een zorgverzekering", "Een uitkeringsinstantie voor werklozen en arbeidsongeschikten", "Een pensioenfonds", "Een belastingdienst"],
+      "correctIndex": 1,
+      "explanation": "Het UWV (Uitvoeringsinstituut Werknemersverzekeringen) regelt uitkeringen bij werkloosheid, ziekte en arbeidsongeschiktheid."
+    },
+    {
+      "id": "werk-q5",
+      "text": "Wanneer kun je een WW-uitkering krijgen?",
+      "options": ["Als je zelf ontslag neemt", "Als je ontslagen wordt en je hebt genoeg gewerkt", "Als je met pensioen gaat", "Als je ziek bent"],
+      "correctIndex": 1,
+      "explanation": "Je kunt een WW-uitkering (werkloosheidswet) krijgen als je onvrijwillig werkloos wordt en aan de wekeneis voldoet."
+    },
+    {
+      "id": "werk-q6",
+      "text": "Wat is een CAO?",
+      "options": ["Een persoonlijk arbeidscontract", "Een collectieve afspraak over arbeidsvoorwaarden voor een hele sector", "Een belastingregeling", "Een opleidingscertificaat"],
+      "correctIndex": 1,
+      "explanation": "Een CAO (Collectieve Arbeidsovereenkomst) is een afspraak tussen werkgevers en vakbonden over loon, werktijden en andere arbeidsvoorwaarden."
+    },
+    {
+      "id": "werk-q7",
+      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "options": ["Direct naar het UWV gaan", "Je werkgever zo snel mogelijk bellen", "Zelf een vervanger regelen", "Niets, het is je eigen zaak"],
+      "correctIndex": 1,
+      "explanation": "Als je ziek bent, moet je zo snel mogelijk je werkgever informeren. De werkgever betaalt je loon door (minimaal 70%) tijdens ziekte."
+    },
+    {
+      "id": "werk-q8",
+      "text": "Wat is een zzp'er?",
+      "options": ["Een werknemer met een tijdelijk contract", "Een zelfstandige ondernemer zonder personeel", "Een uitzendkracht", "Een ambtenaar"],
+      "correctIndex": 1,
+      "explanation": "Een zzp'er (zelfstandige zonder personeel) is een ondernemer die voor zichzelf werkt en geen werknemers in dienst heeft."
+    },
+    {
+      "id": "werk-q9",
+      "text": "Is discriminatie bij sollicitaties in Nederland toegestaan?",
+      "options": ["Ja, de werkgever mag kiezen wie hij wil", "Nee, discriminatie op grond van afkomst, geslacht of leeftijd is verboden", "Alleen bij kleine bedrijven", "Alleen als het in de vacature staat"],
+      "correctIndex": 1,
+      "explanation": "Discriminatie bij werving en selectie is verboden volgens de Algemene wet gelijke behandeling."
+    },
+    {
+      "id": "werk-q10",
+      "text": "Hoeveel uur per week werkt een fulltime werknemer meestal in Nederland?",
+      "options": ["32 uur", "36-40 uur", "42 uur", "45 uur"],
+      "correctIndex": 1,
+      "explanation": "Een fulltime werkweek in Nederland is meestal 36 tot 40 uur, afhankelijk van de sector en CAO."
+    },
+    {
+      "id": "werk-q11",
+      "text": "Wat is een sollicitatiegesprek?",
+      "options": ["Een gesprek met je collega's", "Een gesprek waarin je laat zien waarom jij geschikt bent voor de baan", "Een gesprek over je salaris na aanname", "Een functioneringsgesprek"],
+      "correctIndex": 1,
+      "explanation": "Een sollicitatiegesprek is een gesprek tussen de werkgever en de sollicitant om te bepalen of iemand geschikt is voor de functie."
+    },
+    {
+      "id": "werk-q12",
+      "text": "Wat is een tijdelijk contract?",
+      "options": ["Een contract voor onbepaalde tijd", "Een contract met een vaste einddatum", "Een mondeling contract", "Een vrijwilligersovereenkomst"],
+      "correctIndex": 1,
+      "explanation": "Een tijdelijk contract (contract voor bepaalde tijd) heeft een vaste begin- en einddatum."
+    }
+  ]
+}

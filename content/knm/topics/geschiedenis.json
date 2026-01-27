@@ -1,0 +1,90 @@
+{
+  "id": "geschiedenis",
+  "title": "Geschiedenis",
+  "questions": [
+    {
+      "id": "gesch-q1",
+      "text": "Wat was de Gouden Eeuw?",
+      "options": ["De periode van de Romeinen in Nederland", "De 17e eeuw, toen Nederland heel rijk en machtig was", "De periode na de Tweede Wereldoorlog", "De 19e eeuw tijdens de industrialisatie"],
+      "correctIndex": 1,
+      "explanation": "De Gouden Eeuw was de 17e eeuw (1600-1700). Nederland was toen een wereldmacht door handel, wetenschap en kunst."
+    },
+    {
+      "id": "gesch-q2",
+      "text": "Wie was Willem van Oranje?",
+      "options": ["De eerste president van Nederland", "De leider van de opstand tegen Spanje, de 'Vader des Vaderlands'", "Een beroemde schilder", "De eerste burgemeester van Amsterdam"],
+      "correctIndex": 1,
+      "explanation": "Willem van Oranje leidde de opstand tegen de Spaanse overheersing in de 16e eeuw. Hij wordt de 'Vader des Vaderlands' genoemd."
+    },
+    {
+      "id": "gesch-q3",
+      "text": "Wat gebeurde er in Nederland tijdens de Tweede Wereldoorlog?",
+      "options": ["Nederland bleef neutraal", "Nederland werd bezet door Duitsland (1940-1945)", "Nederland vocht aan de kant van Duitsland", "Er gebeurde niets bijzonders"],
+      "correctIndex": 1,
+      "explanation": "Nederland werd in mei 1940 bezet door nazi-Duitsland. De bezetting duurde tot mei 1945 (Bevrijdingsdag = 5 mei)."
+    },
+    {
+      "id": "gesch-q4",
+      "text": "Wat was de Watersnoodramp van 1953?",
+      "options": ["Een grote droogte", "Een enorme overstromingsramp in Zeeland en Zuid-Holland", "Een scheepsramp", "Een storm in Amsterdam"],
+      "correctIndex": 1,
+      "explanation": "Op 1 februari 1953 braken de dijken in Zeeland en Zuid-Holland. Meer dan 1.800 mensen kwamen om. Dit leidde tot de Deltawerken."
+    },
+    {
+      "id": "gesch-q5",
+      "text": "Wat zijn de Deltawerken?",
+      "options": ["Een kunstproject", "Een systeem van dammen en waterkeringen om Nederland te beschermen tegen overstromingen", "Een netwerk van snelwegen", "Een reeks bruggen over de rivieren"],
+      "correctIndex": 1,
+      "explanation": "De Deltawerken zijn gebouwd na de Watersnoodramp van 1953 om Nederland te beschermen tegen overstromingen vanuit de zee."
+    },
+    {
+      "id": "gesch-q6",
+      "text": "Wat was de VOC?",
+      "options": ["Een politieke partij", "De Verenigde Oost-Indische Compagnie, een handelsorganisatie uit de 17e eeuw", "Een vakbond", "Een universiteit"],
+      "correctIndex": 1,
+      "explanation": "De VOC (1602-1799) was een Nederlandse handelsorganisatie die handelde met Azië. Het was het eerste beursgenoteerde bedrijf ter wereld."
+    },
+    {
+      "id": "gesch-q7",
+      "text": "Wanneer werd Nederland bevrijd van de Duitse bezetting?",
+      "options": ["1943", "1944", "5 mei 1945", "1946"],
+      "correctIndex": 2,
+      "explanation": "Nederland werd op 5 mei 1945 bevrijd. Deze dag vieren we elk jaar als Bevrijdingsdag."
+    },
+    {
+      "id": "gesch-q8",
+      "text": "Wat is een polder?",
+      "options": ["Een heuvel", "Drooggelegd land dat onder zeeniveau ligt", "Een type brug", "Een middeleeuwse markt"],
+      "correctIndex": 1,
+      "explanation": "Een polder is een stuk land dat door het droogmalen van water is ontstaan. Veel van Nederland ligt onder zeeniveau dankzij polders."
+    },
+    {
+      "id": "gesch-q9",
+      "text": "Wanneer is de Nederlandse Grondwet ingevoerd?",
+      "options": ["1648", "1815", "1945", "1953"],
+      "correctIndex": 1,
+      "explanation": "De eerste Grondwet van het Koninkrijk der Nederlanden werd ingevoerd in 1815. De belangrijkste herziening was in 1848 door Thorbecke."
+    },
+    {
+      "id": "gesch-q10",
+      "text": "Wat was de verzuiling in Nederland?",
+      "options": ["Een bouwstijl", "De verdeling van de samenleving in groepen op basis van religie of politiek", "Een waterbeheerssysteem", "Een onderwijsmethode"],
+      "correctIndex": 1,
+      "explanation": "De verzuiling (ca. 1900-1960) was de indeling van de samenleving in protestantse, katholieke, socialistische en liberale zuilen, elk met eigen scholen, kranten en omroepen."
+    },
+    {
+      "id": "gesch-q11",
+      "text": "Is Nederland lid van de Europese Unie?",
+      "options": ["Nee", "Ja, Nederland is een van de oprichters", "Alleen als waarnemer", "Nederland is onlangs uitgetreden"],
+      "correctIndex": 1,
+      "explanation": "Nederland is een van de zes oprichters van de Europese samenwerking (1957, Verdrag van Rome) die later de EU werd."
+    },
+    {
+      "id": "gesch-q12",
+      "text": "Wat is het slavernijverleden van Nederland?",
+      "options": ["Nederland had geen slavernij", "Nederland handelde in slaafgemaakten en had slavernij in de koloniën", "Slavernij bestond alleen in de Gouden Eeuw", "Nederland schafte slavernij af in 1700"],
+      "correctIndex": 1,
+      "explanation": "Nederland was betrokken bij de trans-Atlantische slavenhandel. Slavernij werd pas op 1 juli 1863 officieel afgeschaft in de Nederlandse koloniën."
+    }
+  ]
+}

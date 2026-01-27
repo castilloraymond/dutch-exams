@@ -1,0 +1,90 @@
+{
+  "id": "politiek",
+  "title": "Politiek",
+  "questions": [
+    {
+      "id": "pol-q1",
+      "text": "Wat is de Tweede Kamer?",
+      "options": ["Een museum", "Het belangrijkste deel van het parlement dat wetten maakt en de regering controleert", "Een rechtbank", "Een afdeling van de gemeente"],
+      "correctIndex": 1,
+      "explanation": "De Tweede Kamer is het belangrijkste deel van het parlement. De 150 leden worden direct gekozen door de burgers en controleren de regering."
+    },
+    {
+      "id": "pol-q2",
+      "text": "Wat is de Eerste Kamer?",
+      "options": ["De kamer waar de koning woont", "Een deel van het parlement dat wetten toetst die de Tweede Kamer heeft aangenomen", "De rechtbank", "Het kabinet"],
+      "correctIndex": 1,
+      "explanation": "De Eerste Kamer (75 leden) controleert of wetten goed in elkaar zitten. Ze worden gekozen door de Provinciale Staten."
+    },
+    {
+      "id": "pol-q3",
+      "text": "Wat is de rol van de koning in Nederland?",
+      "options": ["De koning regeert het land", "De koning is het staatshoofd maar heeft geen politieke macht", "De koning is de rechter", "De koning is de minister-president"],
+      "correctIndex": 1,
+      "explanation": "De koning is het staatshoofd en ondertekent wetten, maar de politieke macht ligt bij de ministers en het parlement."
+    },
+    {
+      "id": "pol-q4",
+      "text": "Wie is de minister-president?",
+      "options": ["De koning", "De leider van de regering (het kabinet)", "De burgemeester van Den Haag", "De voorzitter van de Tweede Kamer"],
+      "correctIndex": 1,
+      "explanation": "De minister-president is de leider van het kabinet (de regering). Hij of zij leidt de ministerraad."
+    },
+    {
+      "id": "pol-q5",
+      "text": "Wat is een gemeente?",
+      "options": ["Een land", "De kleinste bestuurlijke eenheid, geleid door een burgemeester en wethouders", "Een provincie", "Een wijk"],
+      "correctIndex": 1,
+      "explanation": "Een gemeente is het lokale bestuur. De burgemeester en wethouders vormen het dagelijks bestuur, de gemeenteraad neemt besluiten."
+    },
+    {
+      "id": "pol-q6",
+      "text": "Hoeveel provincies heeft Nederland?",
+      "options": ["10", "12", "14", "16"],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft 12 provincies, waaronder Noord-Holland, Zuid-Holland, Utrecht, Gelderland en Limburg."
+    },
+    {
+      "id": "pol-q7",
+      "text": "Hoe vaak zijn er Tweede Kamerverkiezingen?",
+      "options": ["Elke 2 jaar", "Elke 4 jaar", "Elke 5 jaar", "Elke 6 jaar"],
+      "correctIndex": 1,
+      "explanation": "Tweede Kamerverkiezingen vinden normaal elke 4 jaar plaats. Alle Nederlanders van 18 jaar en ouder mogen stemmen."
+    },
+    {
+      "id": "pol-q8",
+      "text": "Wat staat er in de Grondwet?",
+      "options": ["De belastingregels", "De basisregels van de staat en de grondrechten van burgers", "De verkeersregels", "De regels voor het onderwijs"],
+      "correctIndex": 1,
+      "explanation": "De Grondwet bevat de belangrijkste regels over de inrichting van de staat en de grondrechten (zoals vrijheid van meningsuiting, godsdienstvrijheid, gelijkheid)."
+    },
+    {
+      "id": "pol-q9",
+      "text": "Wat doet de burgemeester?",
+      "options": ["Leidt het land", "Is voorzitter van de gemeenteraad en verantwoordelijk voor openbare orde en veiligheid", "Is rechter in de gemeente", "Is hoofd van de politie in heel Nederland"],
+      "correctIndex": 1,
+      "explanation": "De burgemeester is voorzitter van de gemeenteraad en het college van B&W, en verantwoordelijk voor openbare orde en veiligheid."
+    },
+    {
+      "id": "pol-q10",
+      "text": "Wat is de Belastingdienst?",
+      "options": ["Een bank", "De overheidsorganisatie die belastingen int en toeslagen uitkeert", "Een verzekeringsmaatschappij", "Een pensioenfonds"],
+      "correctIndex": 1,
+      "explanation": "De Belastingdienst int belastingen (inkomstenbelasting, BTW) en betaalt toeslagen uit (zorgtoeslag, huurtoeslag, kinderopvangtoeslag)."
+    },
+    {
+      "id": "pol-q11",
+      "text": "Hoe werkt de rechtspraak in Nederland?",
+      "options": ["De koning beslist", "Onafhankelijke rechters doen uitspraken op basis van de wet", "De politie beslist", "De burgemeester is de rechter"],
+      "correctIndex": 1,
+      "explanation": "De rechtspraak in Nederland is onafhankelijk. Rechters worden niet gekozen maar benoemd en oordelen op basis van de wet."
+    },
+    {
+      "id": "pol-q12",
+      "text": "Wat is de Rijksoverheid?",
+      "options": ["De gemeente", "De centrale overheid van Nederland, bestaande uit de regering en ministeries", "De provincie", "De Europese Unie"],
+      "correctIndex": 1,
+      "explanation": "De Rijksoverheid is de nationale overheid, bestaande uit de koning, ministers en staatssecretarissen, georganiseerd in ministeries."
+    }
+  ]
+}

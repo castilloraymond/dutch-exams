@@ -1,0 +1,36 @@
+{
+  "id": "op-het-gemeentehuis",
+  "title": "Op het Gemeentehuis",
+  "difficulty": "A1",
+  "transcript": "Medewerker: Goedemiddag, waarmee kan ik u helpen? Persoon: Ik ben net verhuisd naar deze gemeente en ik wil me graag inschrijven. Medewerker: Welkom! Heeft u een afspraak gemaakt? Persoon: Ja, ik heb een afspraak om twee uur. Medewerker: Heel goed. Heeft u uw paspoort en huurcontract meegenomen? Persoon: Ja, hier zijn ze. Medewerker: Dank u wel. Ik heb ook een bewijs van uitschrijving van uw vorige gemeente nodig. Heeft u dat? Persoon: Oh, dat heb ik niet bij me. Medewerker: Geen probleem, dat kunnen we digitaal opvragen. U moet zich binnen vijf dagen na uw verhuizing inschrijven. Persoon: Dat wist ik niet, bedankt voor de informatie.",
+  "questions": [
+    {
+      "id": "gem-q1",
+      "text": "Waarom is de persoon op het gemeentehuis?",
+      "options": ["Om een paspoort aan te vragen", "Om zich in te schrijven na een verhuizing", "Om te trouwen", "Om een rijbewijs te halen"],
+      "correctIndex": 1,
+      "explanation": "De persoon is net verhuisd en wil zich inschrijven bij de nieuwe gemeente."
+    },
+    {
+      "id": "gem-q2",
+      "text": "Welke documenten vraagt de medewerker?",
+      "options": ["Rijbewijs en bankafschrift", "Paspoort, huurcontract en bewijs van uitschrijving", "Alleen een paspoort", "Geboortecertificaat en diploma"],
+      "correctIndex": 1,
+      "explanation": "De medewerker vraagt om een paspoort, huurcontract en bewijs van uitschrijving van de vorige gemeente."
+    },
+    {
+      "id": "gem-q3",
+      "text": "Welk document heeft de persoon niet bij zich?",
+      "options": ["Paspoort", "Huurcontract", "Bewijs van uitschrijving", "Identiteitskaart"],
+      "correctIndex": 2,
+      "explanation": "De persoon heeft het bewijs van uitschrijving van de vorige gemeente niet bij zich."
+    },
+    {
+      "id": "gem-q4",
+      "text": "Binnen hoeveel dagen moet je je inschrijven na verhuizing?",
+      "options": ["Drie dagen", "Vijf dagen", "Tien dagen", "Dertig dagen"],
+      "correctIndex": 1,
+      "explanation": "Je moet je binnen vijf dagen na de verhuizing inschrijven bij de nieuwe gemeente."
+    }
+  ]
+}
