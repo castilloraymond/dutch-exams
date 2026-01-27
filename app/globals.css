@@ -79,6 +79,13 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* Landing Page Colors */
+  --landing-cream: #F7F5F2;
+  --landing-navy: #1E3A5F;
+  --landing-orange: #E85D04;
+  --landing-green: #22c55e;
+  --landing-red: #ef4444;
 }
 
 .dark {
@@ -119,7 +126,78 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Landing Page Typography */
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-sans-landing {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Landing Page Animations */
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-reveal {
+  animation: reveal 0.7s ease-out forwards;
+}
+
+.animate-reveal-delay-1 {
+  animation: reveal 0.7s ease-out 0.1s forwards;
+  opacity: 0;
+}
+
+.animate-reveal-delay-2 {
+  animation: reveal 0.7s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.animate-reveal-delay-3 {
+  animation: reveal 0.7s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+.animate-reveal-delay-4 {
+  animation: reveal 0.7s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+/* Landing Page Card Hover */
+.landing-card {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+}
+
+.landing-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+/* CTA Button */
+.cta-primary {
+  background: var(--landing-orange);
+  transition: all 0.3s ease;
+}
+
+.cta-primary:hover {
+  background: #d45404;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(232, 93, 4, 0.3);
 }
