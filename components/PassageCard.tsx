@@ -18,7 +18,7 @@ export function PassageCard({ passage, progress }: PassageCardProps) {
   const isCompleted = progress?.completed ?? false;
 
   return (
-    <Link href={`/learn/${passage.id}`}>
+    <Link href={`/learn/lezen/${passage.id}`}>
       <Card className="hover:shadow-md transition-shadow cursor-pointer">
         <CardHeader className="pb-2">
           <div className="flex items-center justify-between">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface EmailCaptureProps {
     variant?: "hero" | "footer";
@@ -8,6 +9,7 @@ interface EmailCaptureProps {
 }
 
 export function EmailCapture({ variant = "hero", className = "" }: EmailCaptureProps) {
+    const router = useRouter();
     const [email, setEmail] = useState("");
     const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
     const [message, setMessage] = useState("");
@@ -32,6 +34,7 @@ export function EmailCapture({ variant = "hero", className = "" }: EmailCaptureP
                 setStatus("success");
                 setMessage(data.message);
                 setEmail("");
+                router.push("/learn");
             } else {
                 setStatus("error");
                 setMessage(data.error || "Something went wrong");
