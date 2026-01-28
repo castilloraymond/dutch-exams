@@ -1,8 +1,10 @@
 import {
+  UrgencyBanner,
   LandingNav,
   LandingHero,
   TrustStats,
   ProblemSolution,
+  FeatureCards,
   ModuleGrid,
   Testimonials,
   FinalCTA,
@@ -11,11 +13,13 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--landing-cream)]">
+    <div className="min-h-screen bg-[var(--landing-cream)] text-[110%]">
+      <UrgencyBanner />
       <LandingNav />
       <LandingHero />
       <TrustStats />
       <ProblemSolution />
+      <FeatureCards />
       <div id="modules">
         <ModuleGrid />
       </div>

@@ -19,7 +19,7 @@ export function Testimonials() {
 
     return (
         <section className="py-20 bg-[var(--landing-navy)]">
-            <div className="max-w-5xl mx-auto px-8">
+            <div className="max-w-6xl mx-auto px-8">
                 <div className="font-sans-landing text-white/50 text-sm text-center mb-12 uppercase tracking-wide">
                     What Expats Say
                 </div>

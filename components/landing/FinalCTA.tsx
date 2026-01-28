@@ -1,18 +1,30 @@
-import { EmailCapture } from "./EmailCapture";
+import Link from "next/link";
 
 export function FinalCTA() {
     return (
-        <section className="py-16 bg-white">
-            <div className="max-w-2xl mx-auto px-8 text-center">
-                <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mb-4">
-                    Your Permanent Residence<br />Starts Here
+        <section className="py-20 bg-gradient-to-b from-[var(--landing-navy)] to-[#0F1D33]">
+            <div className="max-w-3xl mx-auto px-8 text-center">
+                <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
+                    Stop stressing.<br />Start practicing for free.
                 </h2>
-                <p className="font-sans-landing text-gray-500 mb-10">
-                    Join thousands of expats who chose practice over courses.
+                <p className="font-sans-landing text-white/60 mb-10">
+                    Join 2,400+ expats who have already successfully passed their exams using our platform.
                 </p>
-                <EmailCapture variant="footer" />
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <Link
+                        href="/learn"
+                        className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing"
+                    >
+                        Try a Sample Exam
+                    </Link>
+                    <Link
+                        href="#modules"
+                        className="px-8 py-4 border border-white/20 text-white rounded-full font-medium font-sans-landing hover:bg-white/5 transition-colors"
+                    >
+                        View Pricing
+                    </Link>
+                </div>
             </div>
         </section>
     );
 }
-

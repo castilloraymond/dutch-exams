@@ -1,35 +1,38 @@
 export function ProblemSolution() {
     const problems = [
-        "Duolingo teaches Dutch, not the exam format",
-        "Tutors are expensive and slow (€40-80/hour)",
-        "Courses take 6+ months you don't have",
-        "Practice books don't simulate computer-based tests",
+        "Paper exercises don't match the computer-based exam",
+        "Expensive courses (€1,500+) with exam prep as an afterthought",
+        "Failing means waiting months and paying €350 to retake",
     ];
 
     const solutions = [
-        "Computer-based interface mirrors the actual test",
-        "Questions calibrated to A0-A1 exam requirements",
-        "Practice in 15-minute sessions that fit your schedule",
-        "Instant feedback so you learn from mistakes",
+        "Same interface, same timing, same question types as DUO",
+        "Fraction of the cost — just focused exam practice",
+        "Built by expats who passed and know exactly what to expect",
     ];
 
+    const pairs = problems.map((problem, i) => ({
+        problem,
+        solution: solutions[i],
+    }));
+
     return (
-        <section className="py-20 bg-white">
-            <div className="max-w-5xl mx-auto px-8">
+        <section className="py-20 bg-[var(--landing-navy)]">
+            <div className="max-w-6xl mx-auto px-8">
                 <div className="grid md:grid-cols-2 gap-16">
                     {/* Problem */}
                     <div>
-                        <span className="font-sans-landing text-sm font-medium text-[var(--landing-navy)]/60 tracking-wide uppercase">
+                        <span className="font-sans-landing text-sm font-medium text-white/40 tracking-wide uppercase">
                             The Problem
                         </span>
-                        <h2 className="font-serif text-2xl md:text-3xl font-semibold text-[var(--landing-navy)] mt-3 mb-8">
-                            Current options don't prepare you for the actual exam
+                        <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mt-3 mb-8">
+                            Language courses don&apos;t prepare you for the actual test format
                         </h2>
                         <div className="space-y-5 font-sans-landing">
-                            {problems.map((item, i) => (
-                                <div key={i} className="flex items-start gap-4 text-[var(--landing-navy)]/80">
-                                    <span className="text-red-400 font-light text-lg">✗</span>
-                                    <span>{item}</span>
+                            {pairs.map((pair, i) => (
+                                <div key={i} className="flex items-start gap-4 text-white/70">
+                                    <span className="text-[var(--landing-red)] font-light text-lg">✗</span>
+                                    <span>{pair.problem}</span>
                                 </div>
                             ))}
                         </div>
@@ -37,17 +40,17 @@ export function ProblemSolution() {
 
                     {/* Solution */}
                     <div>
-                        <span className="font-sans-landing text-sm font-medium text-[var(--landing-navy)]/60 tracking-wide uppercase">
+                        <span className="font-sans-landing text-sm font-medium text-white/40 tracking-wide uppercase">
                             The Solution
                         </span>
-                        <h2 className="font-serif text-2xl md:text-3xl font-semibold text-[var(--landing-navy)] mt-3 mb-8">
-                            Practice like it's the real exam
+                        <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mt-3 mb-8">
+                            Practice on simulations that feel like the real thing
                         </h2>
                         <div className="space-y-5 font-sans-landing">
-                            {solutions.map((item, i) => (
-                                <div key={i} className="flex items-start gap-4 text-[var(--landing-navy)]">
+                            {pairs.map((pair, i) => (
+                                <div key={i} className="flex items-start gap-4 text-white/90">
                                     <span className="text-[var(--landing-green)] font-medium text-lg">✓</span>
-                                    <span>{item}</span>
+                                    <span>{pair.solution}</span>
                                 </div>
                             ))}
                         </div>
@@ -57,4 +60,3 @@ export function ProblemSolution() {
         </section>
     );
 }
-

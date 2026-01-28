@@ -11,7 +11,7 @@ export function ModuleGrid() {
 
     return (
         <section className="py-16 pb-8 bg-[var(--landing-cream)]">
-            <div className="max-w-5xl mx-auto px-8">
+            <div className="max-w-6xl mx-auto px-8">
                 <div className="text-center mb-12">
                     <span className="font-sans-landing text-sm font-medium text-[var(--landing-orange)] tracking-wide uppercase">
                         Complete Coverage
