@@ -1,23 +1,28 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { useParams } from "next/navigation";
-import Link from "next/link";
-import { Progress } from "@/components/ui/progress";
-import { QuestionView } from "@/components/QuestionView";
+import { useParams, useSearchParams } from "next/navigation";
+import { ExamHeader } from "@/components/ExamHeader";
+import { ExamLayout } from "@/components/ExamLayout";
+import { ExamIntroScreen } from "@/components/ExamIntroScreen";
+import { ExamQuestionPanel } from "@/components/ExamQuestionPanel";
+import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
 import { useProgress } from "@/hooks/useProgress";
-import { ArrowLeft } from "lucide-react";
 import { getKNMTopic, shuffleArray } from "@/lib/content";
+import type { ExamMode } from "@/lib/types";
 
 export default function KNMTopicPage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const topicId = params.topicId as string;
+  const mode = (searchParams.get("mode") as ExamMode) || "practice";
 
   const topic = getKNMTopic(topicId);
   const progressKey = `knm-${topicId}`;
   const { recordAnswer, resetPassage } = useProgress();
 
+  const [started, setStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [sessionCorrect, setSessionCorrect] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
@@ -31,18 +36,11 @@ export default function KNMTopicPage() {
 
   const currentQuestion = questionsOrder[currentQuestionIndex];
   const totalQuestions = questionsOrder.length;
-  const progressPercent = totalQuestions > 0
-    ? ((currentQuestionIndex) / totalQuestions) * 100
-    : 0;
 
   const handleAnswer = (isCorrect: boolean) => {
     if (!topic || !currentQuestion) return;
-
     recordAnswer(progressKey, currentQuestion.id, isCorrect, totalQuestions);
-
-    if (isCorrect) {
-      setSessionCorrect((prev) => prev + 1);
-    }
+    if (isCorrect) setSessionCorrect((prev) => prev + 1);
 
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
@@ -56,6 +54,7 @@ export default function KNMTopicPage() {
     setCurrentQuestionIndex(0);
     setSessionCorrect(0);
     setIsComplete(false);
+    setStarted(false);
     setRetryKey((prev) => prev + 1);
   };
 
@@ -64,6 +63,17 @@ export default function KNMTopicPage() {
       <main className="min-h-screen flex items-center justify-center">
         <p className="text-muted-foreground">Onderwerp niet gevonden.</p>
       </main>
+    );
+  }
+
+  if (!started) {
+    return (
+      <ExamIntroScreen
+        title={topic.title}
+        questionCount={totalQuestions}
+        mode={mode}
+        onStart={() => setStarted(true)}
+      />
     );
   }
 
@@ -76,43 +86,34 @@ export default function KNMTopicPage() {
         onRetry={handleRetry}
         backHref="/learn/knm"
         backLabel="Terug naar KNM"
+        mode={mode}
       />
     );
   }
 
   return (
     <main className="min-h-screen flex flex-col">
-      <header className="border-b sticky top-0 bg-background z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <Link
-                href="/learn/knm"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <ArrowLeft className="h-5 w-5" />
-              </Link>
-              <h1 className="text-lg font-semibold truncate">{topic.title}</h1>
-            </div>
-            <span className="text-sm text-muted-foreground whitespace-nowrap">
-              Vraag {currentQuestionIndex + 1} van {totalQuestions}
-            </span>
-          </div>
-          <Progress value={progressPercent} className="h-1 mt-3" />
-        </div>
-      </header>
-
-      <section className="flex-1 container mx-auto px-4 py-6">
-        <div className="max-w-2xl mx-auto">
-          {currentQuestion && (
-            <QuestionView
+      <ExamHeader
+        title={topic.title}
+        backHref="/learn/knm"
+        questionIndex={currentQuestionIndex}
+        totalQuestions={totalQuestions}
+        started={started}
+      />
+      <ExamLayout
+        left={<ContentPanel type="knm" />}
+        right={
+          currentQuestion ? (
+            <ExamQuestionPanel
               key={currentQuestion.id}
               question={currentQuestion}
+              mode={mode}
+              isLast={currentQuestionIndex === totalQuestions - 1}
               onAnswer={handleAnswer}
             />
-          )}
-        </div>
-      </section>
+          ) : null
+        }
+      />
     </main>
   );
 }

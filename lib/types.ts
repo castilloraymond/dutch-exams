@@ -42,6 +42,8 @@ export interface UserProgress {
   email?: string;
 }
 
+export type ExamMode = 'practice' | 'exam';
+
 // KNM types
 export interface KNMTopic {
   id: string;

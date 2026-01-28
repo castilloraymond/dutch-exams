@@ -1,30 +1,33 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { useParams } from "next/navigation";
-import Link from "next/link";
-import { Card, CardContent } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { QuestionView } from "@/components/QuestionView";
+import { useParams, useSearchParams } from "next/navigation";
+import { ExamHeader } from "@/components/ExamHeader";
+import { ExamLayout } from "@/components/ExamLayout";
+import { ExamIntroScreen } from "@/components/ExamIntroScreen";
+import { ExamQuestionPanel } from "@/components/ExamQuestionPanel";
+import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
 import { usePassage } from "@/hooks/usePassage";
 import { useProgress } from "@/hooks/useProgress";
-import { ArrowLeft } from "lucide-react";
 import { shuffleArray } from "@/lib/content";
+import type { ExamMode } from "@/lib/types";
 
 export default function PassageExercisePage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const passageId = params.passageId as string;
+  const mode = (searchParams.get("mode") as ExamMode) || "practice";
 
   const { passage } = usePassage(passageId);
   const { recordAnswer, resetPassage } = useProgress();
 
+  const [started, setStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [sessionCorrect, setSessionCorrect] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
   const [retryKey, setRetryKey] = useState(0);
 
-  // Shuffle questions once per session/retry using useMemo with retryKey as dependency
   const questionsOrder = useMemo(() => {
     if (!passage) return [];
     return shuffleArray(passage.questions);
@@ -33,18 +36,11 @@ export default function PassageExercisePage() {
 
   const currentQuestion = questionsOrder[currentQuestionIndex];
   const totalQuestions = questionsOrder.length;
-  const progressPercent = totalQuestions > 0
-    ? ((currentQuestionIndex) / totalQuestions) * 100
-    : 0;
 
   const handleAnswer = (isCorrect: boolean) => {
     if (!passage || !currentQuestion) return;
-
     recordAnswer(passageId, currentQuestion.id, isCorrect, totalQuestions);
-
-    if (isCorrect) {
-      setSessionCorrect((prev) => prev + 1);
-    }
+    if (isCorrect) setSessionCorrect((prev) => prev + 1);
 
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
@@ -58,6 +54,7 @@ export default function PassageExercisePage() {
     setCurrentQuestionIndex(0);
     setSessionCorrect(0);
     setIsComplete(false);
+    setStarted(false);
     setRetryKey((prev) => prev + 1);
   };
 
@@ -69,6 +66,17 @@ export default function PassageExercisePage() {
     );
   }
 
+  if (!started) {
+    return (
+      <ExamIntroScreen
+        title={passage.title}
+        questionCount={totalQuestions}
+        mode={mode}
+        onStart={() => setStarted(true)}
+      />
+    );
+  }
+
   if (isComplete) {
     return (
       <ResultsSummary
@@ -76,53 +84,36 @@ export default function PassageExercisePage() {
         correctAnswers={sessionCorrect}
         totalQuestions={totalQuestions}
         onRetry={handleRetry}
+        backHref="/learn/lezen"
+        backLabel="Back to Passages"
+        mode={mode}
       />
     );
   }
 
   return (
     <main className="min-h-screen flex flex-col">
-      <header className="border-b sticky top-0 bg-background z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <Link
-                href="/learn/lezen"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <ArrowLeft className="h-5 w-5" />
-              </Link>
-              <h1 className="text-lg font-semibold truncate">{passage.title}</h1>
-            </div>
-            <span className="text-sm text-muted-foreground whitespace-nowrap">
-              Question {currentQuestionIndex + 1} of {totalQuestions}
-            </span>
-          </div>
-          <Progress value={progressPercent} className="h-1 mt-3" />
-        </div>
-      </header>
-
-      <section className="flex-1 container mx-auto px-4 py-6">
-        <div className="max-w-2xl mx-auto space-y-6">
-          {/* Passage Text */}
-          <Card>
-            <CardContent className="p-4 sm:p-6">
-              <p className="text-base leading-relaxed whitespace-pre-wrap">
-                {passage.content}
-              </p>
-            </CardContent>
-          </Card>
-
-          {/* Question */}
-          {currentQuestion && (
-            <QuestionView
+      <ExamHeader
+        title={passage.title}
+        backHref="/learn/lezen"
+        questionIndex={currentQuestionIndex}
+        totalQuestions={totalQuestions}
+        started={started}
+      />
+      <ExamLayout
+        left={<ContentPanel type="lezen" content={passage.content} />}
+        right={
+          currentQuestion ? (
+            <ExamQuestionPanel
               key={currentQuestion.id}
               question={currentQuestion}
+              mode={mode}
+              isLast={currentQuestionIndex === totalQuestions - 1}
               onAnswer={handleAnswer}
             />
-          )}
-        </div>
-      </section>
+          ) : null
+        }
+      />
     </main>
   );
 }

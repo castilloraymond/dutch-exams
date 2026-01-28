@@ -16,19 +16,19 @@ export default function LezenPage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col">
-      <header className="border-b sticky top-0 bg-background z-10">
+    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/learn"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
             <div className="flex items-center gap-2">
-              <BookOpen className="h-5 w-5" />
-              <h1 className="text-xl font-bold">Lezen (Reading)</h1>
+              <BookOpen className="h-5 w-5 text-[var(--landing-orange)]" />
+              <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">Lezen (Reading)</h1>
             </div>
           </div>
         </div>
@@ -37,8 +37,8 @@ export default function LezenPage() {
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
           <div>
-            <h2 className="text-2xl font-bold mb-2">Reading Passages</h2>
-            <p className="text-muted-foreground">
+            <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)] mb-2">Reading Passages</h2>
+            <p className="text-[var(--landing-navy)]/60">
               Select a passage to practice your Dutch reading comprehension.
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function LezenPage() {
                 {[1, 2, 3, 4, 5].map((i) => (
                   <div
                     key={i}
-                    className="h-24 bg-muted animate-pulse rounded-lg"
+                    className="h-24 bg-[var(--landing-navy)]/5 animate-pulse rounded-2xl"
                   />
                 ))}
               </div>

@@ -1,9 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle2, RotateCcw, ArrowLeft } from "lucide-react";
+import { CheckCircle2, XCircle, RotateCcw, ArrowLeft } from "lucide-react";
+import type { ExamMode } from "@/lib/types";
 
 interface ResultsSummaryProps {
   title: string;
@@ -12,6 +11,7 @@ interface ResultsSummaryProps {
   onRetry: () => void;
   backHref?: string;
   backLabel?: string;
+  mode?: ExamMode;
 }
 
 export function ResultsSummary({
@@ -21,49 +21,62 @@ export function ResultsSummary({
   onRetry,
   backHref = "/learn",
   backLabel = "Back to Passages",
+  mode = "practice",
 }: ResultsSummaryProps) {
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <Card className="w-full max-w-md">
-        <CardHeader className="text-center">
-          <div className="mx-auto mb-4">
-            <CheckCircle2
-              className={`h-16 w-16 ${
-                isPassing ? "text-green-500" : "text-yellow-500"
-              }`}
-            />
-          </div>
-          <CardTitle className="text-2xl">
-            {isPassing ? "Great job!" : "Keep practicing!"}
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-6">
-          <div className="text-center">
-            <p className="text-4xl font-bold mb-2">
-              {correctAnswers} / {totalQuestions}
-            </p>
-            <p className="text-muted-foreground">
-              {percentage}% correct on &ldquo;{title}&rdquo;
-            </p>
-          </div>
+    <div className="min-h-screen flex items-center justify-center p-4 bg-[var(--landing-cream)]">
+      <div className="landing-card w-full max-w-md p-6 sm:p-8 text-center space-y-6">
+        <div className="mx-auto mb-4">
+          {isPassing ? (
+            <CheckCircle2 className="h-16 w-16 text-[var(--landing-green)] mx-auto" />
+          ) : (
+            <XCircle className="h-16 w-16 text-[var(--landing-red)] mx-auto" />
+          )}
+        </div>
 
-          <div className="space-y-3">
-            <Button onClick={onRetry} variant="outline" className="w-full">
-              <RotateCcw className="mr-2 h-4 w-4" />
-              Try Again
-            </Button>
-            <Link href={backHref} className="block">
-              <Button variant="default" className="w-full">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                {backLabel}
-              </Button>
-            </Link>
-          </div>
-        </CardContent>
-      </Card>
+        <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)]">
+          {isPassing ? "Great job!" : "Keep practicing!"}
+        </h2>
+
+        {mode === "exam" && (
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
+            Exam Result
+          </span>
+        )}
+
+        <div>
+          <p className="text-4xl font-bold text-[var(--landing-navy)] mb-2">
+            {correctAnswers} / {totalQuestions}
+          </p>
+          <p className="text-[var(--landing-navy)]/60">
+            {percentage}% correct on &ldquo;{title}&rdquo;
+          </p>
+          {mode === "exam" && (
+            <p className={`mt-2 text-sm font-semibold ${isPassing ? "text-[var(--landing-green)]" : "text-[var(--landing-red)]"}`}>
+              {isPassing ? "GESLAAGD (Passed)" : "NIET GESLAAGD (Not passed)"}
+            </p>
+          )}
+        </div>
+
+        <div className="space-y-3 pt-2">
+          <button
+            onClick={onRetry}
+            className="w-full py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors flex items-center justify-center gap-2"
+          >
+            <RotateCcw className="h-4 w-4" />
+            Try Again
+          </button>
+          <Link href={backHref} className="block">
+            <button className="cta-primary w-full py-3 flex items-center justify-center gap-2">
+              <ArrowLeft className="h-4 w-4" />
+              {backLabel}
+            </button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
