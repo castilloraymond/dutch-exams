@@ -1,0 +1,153 @@
+"use client";
+
+import { BookOpen, Landmark, Headphones, ArrowLeft } from "lucide-react";
+import Link from "next/link";
+import { ExamCard } from "./ExamCard";
+import type { MockExamSummary, Difficulty } from "@/lib/types";
+
+interface DifficultySelectorProps {
+  module: "lezen" | "knm" | "luisteren";
+  exams: MockExamSummary[];
+  completedExams?: Record<string, number>; // examId -> lastScore
+}
+
+const moduleConfig = {
+  lezen: {
+    title: "Lezen (Reading)",
+    subtitle: "Kies je niveau",
+    icon: BookOpen,
+    color: "text-[var(--landing-orange)]",
+    bgColor: "bg-[var(--landing-orange)]/10",
+  },
+  knm: {
+    title: "KNM",
+    subtitle: "Kies je niveau",
+    icon: Landmark,
+    color: "text-[var(--landing-orange)]",
+    bgColor: "bg-[var(--landing-orange)]/10",
+  },
+  luisteren: {
+    title: "Luisteren (Listening)",
+    subtitle: "Kies je niveau",
+    icon: Headphones,
+    color: "text-[var(--landing-orange)]",
+    bgColor: "bg-[var(--landing-orange)]/10",
+  },
+};
+
+const difficultyInfo: Record<Difficulty, { title: string; description: string }> = {
+  A1: {
+    title: "A1 - Beginner",
+    description: "Eenvoudige teksten en basis woordenschat",
+  },
+  A2: {
+    title: "A2 - Intermediate",
+    description: "Standaard examenniveau",
+  },
+};
+
+export function DifficultySelector({ module, exams, completedExams = {} }: DifficultySelectorProps) {
+  const config = moduleConfig[module];
+  const Icon = config.icon;
+
+  // Group exams by difficulty
+  const a1Exams = exams.filter((e) => e.difficulty === "A1");
+  const a2Exams = exams.filter((e) => e.difficulty === "A2");
+
+  return (
+    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex items-center gap-4">
+            <Link
+              href="/learn"
+              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+            >
+              <ArrowLeft className="h-5 w-5" />
+            </Link>
+            <div className="flex items-center gap-2">
+              <Icon className={`h-5 w-5 ${config.color}`} />
+              <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+                {config.title}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section className="flex-1 container mx-auto px-4 py-8">
+        <div className="max-w-2xl mx-auto">
+          <div className="text-center mb-8">
+            <div className={`w-16 h-16 mx-auto rounded-full ${config.bgColor} flex items-center justify-center mb-4`}>
+              <Icon className={`h-8 w-8 ${config.color}`} />
+            </div>
+            <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)] mb-2">
+              {config.subtitle}
+            </h2>
+            <p className="text-[var(--landing-navy)]/60">
+              Selecteer een examenniveau en oefentoets
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {/* A1 Section */}
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-green)]/10 text-[var(--landing-green)]">
+                  A1
+                </span>
+                <div>
+                  <h3 className="font-semibold text-[var(--landing-navy)]">
+                    {difficultyInfo.A1.title}
+                  </h3>
+                  <p className="text-sm text-[var(--landing-navy)]/60">
+                    {difficultyInfo.A1.description}
+                  </p>
+                </div>
+              </div>
+              <div className="space-y-3">
+                {a1Exams.map((exam) => (
+                  <ExamCard
+                    key={exam.id}
+                    exam={exam}
+                    href={`/learn/${module}/mock/${exam.id}`}
+                    completed={exam.id in completedExams}
+                    lastScore={completedExams[exam.id]}
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* A2 Section */}
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
+                  A2
+                </span>
+                <div>
+                  <h3 className="font-semibold text-[var(--landing-navy)]">
+                    {difficultyInfo.A2.title}
+                  </h3>
+                  <p className="text-sm text-[var(--landing-navy)]/60">
+                    {difficultyInfo.A2.description}
+                  </p>
+                </div>
+              </div>
+              <div className="space-y-3">
+                {a2Exams.map((exam) => (
+                  <ExamCard
+                    key={exam.id}
+                    exam={exam}
+                    href={`/learn/${module}/mock/${exam.id}`}
+                    completed={exam.id in completedExams}
+                    lastScore={completedExams[exam.id]}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

@@ -52,9 +52,9 @@ export default function LezenPage() {
               </div>
             </div>
 
-            <Link href="/learn/lezen/exam" className="block">
+            <Link href="/learn/lezen/select" className="block">
               <button className="cta-primary w-full py-3 text-base">
-                Start Oefenexamen
+                Kies Examenniveau
               </button>
             </Link>
           </div>

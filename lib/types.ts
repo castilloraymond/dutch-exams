@@ -108,3 +108,58 @@ export interface ListeningIndex {
   description: string;
   exercises: ListeningExerciseSummary[];
 }
+
+// Mock Exam types
+export type Difficulty = "A1" | "A2";
+
+export interface MockExamSummary {
+  id: string;
+  title: string;
+  difficulty: Difficulty;
+  questionCount: number;
+  recommendedTime: string;
+}
+
+export interface MockExamIndex {
+  module: string;
+  exams: MockExamSummary[];
+}
+
+export interface MockExam {
+  id: string;
+  title: string;
+  module: string;
+  difficulty: Difficulty;
+  questionCount: number;
+  recommendedTime: string;
+  questions: Question[];
+  // For lezen exams, passages with their questions
+  passages?: {
+    id: string;
+    title: string;
+    content: string;
+    contentType?: PassageContentType;
+    instruction?: string;
+    questions: Question[];
+  }[];
+  // For luisteren exams, audio content
+  transcripts?: {
+    id: string;
+    title: string;
+    transcript: string;
+    questions: Question[];
+  }[];
+}
+
+export interface ExamResult {
+  id: string;
+  examId: string;
+  module: string;
+  difficulty: Difficulty;
+  score: number;
+  totalQuestions: number;
+  percentage: number;
+  passed: boolean;
+  timeTakenSeconds: number;
+  createdAt: string;
+}

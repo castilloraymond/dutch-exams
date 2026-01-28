@@ -1,0 +1,160 @@
+{
+  "id": "lezen-a1-1",
+  "title": "Lezen A1 - Oefenexamen 1",
+  "module": "lezen",
+  "difficulty": "A1",
+  "questionCount": 15,
+  "recommendedTime": "25 min",
+  "passages": [
+    {
+      "id": "a1-1-p1",
+      "title": "Openingstijden",
+      "content": "Openingstijden Albert Heijn\n\nMaandag: 08:00 - 21:00\nDinsdag: 08:00 - 21:00\nWoensdag: 08:00 - 21:00\nDonderdag: 08:00 - 21:00\nVrijdag: 08:00 - 21:00\nZaterdag: 08:00 - 20:00\nZondag: 10:00 - 18:00\n\nOp feestdagen kunnen de tijden anders zijn.",
+      "contentType": "notice",
+      "instruction": "Lees de openingstijden van de supermarkt.",
+      "questions": [
+        {
+          "id": "a1-1-q1",
+          "text": "Hoe laat gaat de winkel open op maandag?",
+          "options": ["07:00", "08:00", "09:00", "10:00"],
+          "correctIndex": 1,
+          "explanation": "De winkel gaat op maandag om 08:00 open."
+        },
+        {
+          "id": "a1-1-q2",
+          "text": "Hoe laat sluit de winkel op zaterdag?",
+          "options": ["18:00", "19:00", "20:00", "21:00"],
+          "correctIndex": 2,
+          "explanation": "Op zaterdag sluit de winkel om 20:00."
+        },
+        {
+          "id": "a1-1-q3",
+          "text": "Hoe laat gaat de winkel open op zondag?",
+          "options": ["08:00", "09:00", "10:00", "11:00"],
+          "correctIndex": 2,
+          "explanation": "Op zondag gaat de winkel om 10:00 open."
+        }
+      ]
+    },
+    {
+      "id": "a1-1-p2",
+      "title": "Bericht op school",
+      "content": "Beste ouders,\n\nMorgen is er een feest op school.\nHet feest begint om 14:00 uur.\nKinderen mogen verkleed komen.\nWij vragen 2 euro voor eten en drinken.\n\nMet vriendelijke groet,\nDe school",
+      "contentType": "letter",
+      "instruction": "Lees het bericht van de school.",
+      "questions": [
+        {
+          "id": "a1-1-q4",
+          "text": "Wanneer is het feest?",
+          "options": ["Vandaag", "Morgen", "Volgende week", "Volgende maand"],
+          "correctIndex": 1,
+          "explanation": "In het bericht staat: 'Morgen is er een feest op school.'"
+        },
+        {
+          "id": "a1-1-q5",
+          "text": "Hoe laat begint het feest?",
+          "options": ["12:00", "13:00", "14:00", "15:00"],
+          "correctIndex": 2,
+          "explanation": "Het feest begint om 14:00 uur."
+        },
+        {
+          "id": "a1-1-q6",
+          "text": "Hoeveel geld moeten ouders meegeven?",
+          "options": ["1 euro", "2 euro", "3 euro", "5 euro"],
+          "correctIndex": 1,
+          "explanation": "De school vraagt 2 euro voor eten en drinken."
+        }
+      ]
+    },
+    {
+      "id": "a1-1-p3",
+      "title": "Boodschappenlijstje",
+      "content": "Boodschappen:\n\n- 1 liter melk\n- 6 eieren\n- 1 brood\n- 500 gram kaas\n- 2 appels\n- 1 kilo aardappelen",
+      "contentType": "list",
+      "instruction": "Lees het boodschappenlijstje.",
+      "questions": [
+        {
+          "id": "a1-1-q7",
+          "text": "Hoeveel melk staat op het lijstje?",
+          "options": ["Half liter", "1 liter", "2 liter", "3 liter"],
+          "correctIndex": 1,
+          "explanation": "Er staat 1 liter melk op het lijstje."
+        },
+        {
+          "id": "a1-1-q8",
+          "text": "Hoeveel eieren moet je kopen?",
+          "options": ["4", "5", "6", "10"],
+          "correctIndex": 2,
+          "explanation": "Er staan 6 eieren op het lijstje."
+        },
+        {
+          "id": "a1-1-q9",
+          "text": "Hoeveel appels staan op het lijstje?",
+          "options": ["1", "2", "3", "4"],
+          "correctIndex": 1,
+          "explanation": "Er staan 2 appels op het lijstje."
+        }
+      ]
+    },
+    {
+      "id": "a1-1-p4",
+      "title": "Kaartje voor de dokter",
+      "content": "Afspraak huisarts\n\nNaam: Jan de Vries\nDatum: dinsdag 15 januari\nTijd: 10:30\nAdres: Hoofdstraat 25, Amsterdam\n\nNeem uw identiteitsbewijs en zorgpas mee.",
+      "contentType": "notice",
+      "instruction": "Lees het afspraakkaartje.",
+      "questions": [
+        {
+          "id": "a1-1-q10",
+          "text": "Op welke dag is de afspraak?",
+          "options": ["Maandag", "Dinsdag", "Woensdag", "Donderdag"],
+          "correctIndex": 1,
+          "explanation": "De afspraak is op dinsdag 15 januari."
+        },
+        {
+          "id": "a1-1-q11",
+          "text": "Hoe laat is de afspraak?",
+          "options": ["09:30", "10:00", "10:30", "11:00"],
+          "correctIndex": 2,
+          "explanation": "De afspraak is om 10:30."
+        },
+        {
+          "id": "a1-1-q12",
+          "text": "Wat moet je meenemen naar de dokter?",
+          "options": ["Alleen je zorgpas", "Alleen je identiteitsbewijs", "Identiteitsbewijs en zorgpas", "Niets"],
+          "correctIndex": 2,
+          "explanation": "Je moet je identiteitsbewijs en zorgpas meenemen."
+        }
+      ]
+    },
+    {
+      "id": "a1-1-p5",
+      "title": "Korte tekst",
+      "content": "Ik heet Maria. Ik woon in Rotterdam.\nIk werk bij een supermarkt.\nIk werk van maandag tot vrijdag.\nIn het weekend ben ik vrij.",
+      "contentType": "text",
+      "instruction": "Lees de tekst over Maria.",
+      "questions": [
+        {
+          "id": "a1-1-q13",
+          "text": "Waar woont Maria?",
+          "options": ["Amsterdam", "Rotterdam", "Utrecht", "Den Haag"],
+          "correctIndex": 1,
+          "explanation": "Maria woont in Rotterdam."
+        },
+        {
+          "id": "a1-1-q14",
+          "text": "Waar werkt Maria?",
+          "options": ["Bij een ziekenhuis", "Bij een school", "Bij een supermarkt", "Bij een kantoor"],
+          "correctIndex": 2,
+          "explanation": "Maria werkt bij een supermarkt."
+        },
+        {
+          "id": "a1-1-q15",
+          "text": "Wanneer is Maria vrij?",
+          "options": ["Op maandag", "Op vrijdag", "In het weekend", "Nooit"],
+          "correctIndex": 2,
+          "explanation": "In het weekend is Maria vrij."
+        }
+      ]
+    }
+  ]
+}

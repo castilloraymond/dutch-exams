@@ -1,0 +1,33 @@
+{
+  "module": "lezen",
+  "exams": [
+    {
+      "id": "lezen-a1-1",
+      "title": "Lezen A1 - Oefenexamen 1",
+      "difficulty": "A1",
+      "questionCount": 15,
+      "recommendedTime": "25 min"
+    },
+    {
+      "id": "lezen-a1-2",
+      "title": "Lezen A1 - Oefenexamen 2",
+      "difficulty": "A1",
+      "questionCount": 15,
+      "recommendedTime": "25 min"
+    },
+    {
+      "id": "lezen-a2-1",
+      "title": "Lezen A2 - Oefenexamen 1",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "35 min"
+    },
+    {
+      "id": "lezen-a2-2",
+      "title": "Lezen A2 - Oefenexamen 2",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "35 min"
+    }
+  ]
+}

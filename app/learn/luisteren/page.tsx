@@ -52,9 +52,9 @@ export default function LuisterenPage() {
               </div>
             </div>
 
-            <Link href="/learn/luisteren/exam" className="block">
+            <Link href="/learn/luisteren/select" className="block">
               <button className="cta-primary w-full py-3 text-base">
-                Start Oefenexamen
+                Kies Examenniveau
               </button>
             </Link>
           </div>

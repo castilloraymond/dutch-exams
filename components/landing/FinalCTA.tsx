@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { useAuth } from "@/contexts/AuthContext";
+import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export function FinalCTA() {
+    const { user, isConfigured } = useAuth();
+
     return (
         <section className="py-20 bg-gradient-to-b from-[var(--landing-navy)] to-[#0F1D33]">
             <div className="max-w-3xl mx-auto px-8 text-center">
@@ -11,12 +17,25 @@ export function FinalCTA() {
                     Join 2,400+ expats who have already successfully passed their exams using our platform.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <Link
-                        href="/learn"
-                        className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing"
-                    >
-                        Try a Sample Exam
-                    </Link>
+                    {user ? (
+                        <Link
+                            href="/learn"
+                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing"
+                        >
+                            Continue to Practice
+                        </Link>
+                    ) : isConfigured ? (
+                        <GoogleSignInButton className="!bg-[var(--landing-orange)] !border-[var(--landing-orange)] !text-white hover:!bg-[var(--landing-orange)]/90">
+                            Try a Sample Exam
+                        </GoogleSignInButton>
+                    ) : (
+                        <Link
+                            href="/learn"
+                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing"
+                        >
+                            Try a Sample Exam
+                        </Link>
+                    )}
                     <Link
                         href="#modules"
                         className="px-8 py-4 border border-white/20 text-white rounded-full font-medium font-sans-landing hover:bg-white/5 transition-colors"

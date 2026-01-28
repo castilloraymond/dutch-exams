@@ -1,0 +1,185 @@
+{
+  "id": "luisteren-a2-2",
+  "title": "Luisteren A2 - Oefenexamen 2",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-2-t1",
+      "title": "Op het werk",
+      "transcript": "Chef: Goedemorgen iedereen. Even een korte vergadering. Volgende week woensdag hebben we een belangrijk bezoek van onze klant uit Duitsland. Ze komen om tien uur. Ik wil dat de kantoren schoon zijn en iedereen netjes gekleed is. Na de rondleiding is er een lunch in de kantine. Wie wil helpen met de voorbereidingen?\nMedewerker 1: Ik kan de presentatie maken.\nChef: Prima, Karin. En de lunch?\nMedewerker 2: Ik bestel wel bij de cateraar.\nChef: Goed, Mark. Vergeet niet om vegetarische opties te bestellen. Zijn er nog vragen?\nMedewerker 1: Hoe laat is de lunch?\nChef: Om twaalf uur.",
+      "questions": [
+        {
+          "id": "l-a2-2-q1",
+          "text": "Wanneer komt de klant op bezoek?",
+          "options": ["Volgende week maandag", "Volgende week woensdag", "Deze week vrijdag", "Over twee weken"],
+          "correctIndex": 1,
+          "explanation": "De klant komt volgende week woensdag."
+        },
+        {
+          "id": "l-a2-2-q2",
+          "text": "Uit welk land komt de klant?",
+          "options": ["België", "Frankrijk", "Duitsland", "Engeland"],
+          "correctIndex": 2,
+          "explanation": "De klant komt uit Duitsland."
+        },
+        {
+          "id": "l-a2-2-q3",
+          "text": "Wat gaat Karin doen?",
+          "options": ["De lunch bestellen", "De presentatie maken", "De kantoren schoonmaken", "De gasten rondleiden"],
+          "correctIndex": 1,
+          "explanation": "Karin gaat de presentatie maken."
+        },
+        {
+          "id": "l-a2-2-q4",
+          "text": "Hoe laat is de lunch?",
+          "options": ["Elf uur", "Half twaalf", "Twaalf uur", "Een uur"],
+          "correctIndex": 2,
+          "explanation": "De lunch is om twaalf uur."
+        }
+      ]
+    },
+    {
+      "id": "l-a2-2-t2",
+      "title": "In de trein",
+      "transcript": "Omroep: Dames en heren, welkom aan boord van de intercity naar Maastricht. Deze trein stopt in Utrecht Centraal, 's-Hertogenbosch, Eindhoven en Maastricht. De verwachte aankomsttijd in Maastricht is veertien uur dertig. In verband met werkzaamheden tussen Utrecht en 's-Hertogenbosch kan de trein ongeveer tien minuten vertraging oplopen. We houden u op de hoogte. Er is een restauratierijtuig in het midden van de trein. Bedankt voor het reizen met NS.",
+      "questions": [
+        {
+          "id": "l-a2-2-q5",
+          "text": "Waar gaat deze trein naartoe?",
+          "options": ["Amsterdam", "Rotterdam", "Utrecht", "Maastricht"],
+          "correctIndex": 3,
+          "explanation": "De trein gaat naar Maastricht."
+        },
+        {
+          "id": "l-a2-2-q6",
+          "text": "Waar zijn de werkzaamheden?",
+          "options": ["Tussen Amsterdam en Utrecht", "Tussen Utrecht en 's-Hertogenbosch", "Tussen Eindhoven en Maastricht", "In Utrecht"],
+          "correctIndex": 1,
+          "explanation": "De werkzaamheden zijn tussen Utrecht en 's-Hertogenbosch."
+        },
+        {
+          "id": "l-a2-2-q7",
+          "text": "Hoeveel vertraging kan er zijn?",
+          "options": ["Vijf minuten", "Tien minuten", "Vijftien minuten", "Twintig minuten"],
+          "correctIndex": 1,
+          "explanation": "De trein kan ongeveer tien minuten vertraging oplopen."
+        },
+        {
+          "id": "l-a2-2-q8",
+          "text": "Waar kun je eten en drinken kopen?",
+          "options": ["Voorin de trein", "Achterin de trein", "In het midden van de trein", "Op het perron"],
+          "correctIndex": 2,
+          "explanation": "Er is een restauratierijtuig in het midden van de trein."
+        }
+      ]
+    },
+    {
+      "id": "l-a2-2-t3",
+      "title": "Gesprek over verhuizen",
+      "transcript": "Anna: Hoi Peter, hoe gaat het met de verhuizing?\nPeter: Goed! We verhuizen volgende week zaterdag naar ons nieuwe huis in Almere.\nAnna: Wat leuk! Hoe groot is het huis?\nPeter: Het heeft drie slaapkamers, een woonkamer en een kleine tuin. Perfect voor ons en de kinderen.\nAnna: Heb je al een verhuisbedrijf?\nPeter: Ja, ze komen om acht uur 's ochtends. Hopelijk zijn we voor zes uur klaar.\nAnna: Moet ik komen helpen?\nPeter: Graag! We kunnen wel extra handen gebruiken bij het uitpakken.\nAnna: Ik kom na de lunch, rond twee uur. Oké?\nPeter: Super, tot zaterdag!",
+      "questions": [
+        {
+          "id": "l-a2-2-q9",
+          "text": "Wanneer verhuist Peter?",
+          "options": ["Deze week zaterdag", "Volgende week zaterdag", "Volgende maand", "Over twee weken"],
+          "correctIndex": 1,
+          "explanation": "Peter verhuist volgende week zaterdag."
+        },
+        {
+          "id": "l-a2-2-q10",
+          "text": "Naar welke stad verhuist Peter?",
+          "options": ["Amsterdam", "Utrecht", "Almere", "Amersfoort"],
+          "correctIndex": 2,
+          "explanation": "Peter verhuist naar Almere."
+        },
+        {
+          "id": "l-a2-2-q11",
+          "text": "Hoeveel slaapkamers heeft het nieuwe huis?",
+          "options": ["Twee", "Drie", "Vier", "Vijf"],
+          "correctIndex": 1,
+          "explanation": "Het huis heeft drie slaapkamers."
+        },
+        {
+          "id": "l-a2-2-q12",
+          "text": "Hoe laat komt Anna helpen?",
+          "options": ["'s Ochtends vroeg", "Om twaalf uur", "Rond twee uur", "'s Avonds"],
+          "correctIndex": 2,
+          "explanation": "Anna komt na de lunch, rond twee uur."
+        }
+      ]
+    },
+    {
+      "id": "l-a2-2-t4",
+      "title": "Bericht van de sportschool",
+      "transcript": "Beste leden, dit is een bericht van Sportcentrum Fit & Gezond. Van maandag vijf tot en met vrijdag negen februari zijn wij gesloten voor verbouwing. We maken het zwembad groter en vernieuwen de kleedkamers. Na de verbouwing hebben we ook nieuwe fitnessapparaten. De groepslessen gaan door in onze andere locatie aan de Hoofdstraat tweeënvijftig. Vergeet niet uw sportpas mee te nemen. Uw abonnement wordt met een week verlengd als compensatie. Heeft u vragen? Bel ons op nul-twee-nul-drie-drie-vier-vijf-zes-zeven-acht.",
+      "questions": [
+        {
+          "id": "l-a2-2-q13",
+          "text": "Hoe lang is de sportschool dicht?",
+          "options": ["Drie dagen", "Vijf dagen", "Een week", "Twee weken"],
+          "correctIndex": 1,
+          "explanation": "De sportschool is dicht van maandag 5 tot en met vrijdag 9 februari, dat zijn 5 dagen."
+        },
+        {
+          "id": "l-a2-2-q14",
+          "text": "Wat wordt er verbouwd?",
+          "options": ["Alleen het zwembad", "Alleen de kleedkamers", "Het zwembad en de kleedkamers", "De parkeerplaats"],
+          "correctIndex": 2,
+          "explanation": "Het zwembad wordt groter gemaakt en de kleedkamers worden vernieuwd."
+        },
+        {
+          "id": "l-a2-2-q15",
+          "text": "Waar zijn de groepslessen tijdens de verbouwing?",
+          "options": ["Ze gaan niet door", "In een andere locatie", "In het park", "Online"],
+          "correctIndex": 1,
+          "explanation": "De groepslessen gaan door in de andere locatie aan de Hoofdstraat."
+        },
+        {
+          "id": "l-a2-2-q16",
+          "text": "Wat krijgen de leden als compensatie?",
+          "options": ["Gratis koffie", "Een week extra abonnement", "Korting", "Nieuwe sportkleding"],
+          "correctIndex": 1,
+          "explanation": "Het abonnement wordt met een week verlengd als compensatie."
+        }
+      ]
+    },
+    {
+      "id": "l-a2-2-t5",
+      "title": "Bij de bank",
+      "transcript": "Medewerker: Goedemiddag, waarmee kan ik u helpen?\nKlant: Ik wil graag een betaalrekening openen.\nMedewerker: Natuurlijk. Heeft u een identiteitsbewijs en een bewijs van inschrijving bij de gemeente?\nKlant: Ja, hier zijn mijn paspoort en het uittreksel van de gemeente.\nMedewerker: Prima. Wilt u ook internetbankieren?\nKlant: Ja graag, dan kan ik makkelijk online betalen.\nMedewerker: Goed. De rekening is gratis voor het eerste jaar. Daarna betaalt u twee euro per maand.\nKlant: Oké, dat is prima.\nMedewerker: U ontvangt uw pinpas binnen vijf werkdagen per post. De activeringscode krijgt u in een aparte brief.",
+      "questions": [
+        {
+          "id": "l-a2-2-q17",
+          "text": "Wat wil de klant doen?",
+          "options": ["Geld wisselen", "Een lening aanvragen", "Een betaalrekening openen", "Een spaarrekening openen"],
+          "correctIndex": 2,
+          "explanation": "De klant wil een betaalrekening openen."
+        },
+        {
+          "id": "l-a2-2-q18",
+          "text": "Hoeveel kost de rekening na het eerste jaar?",
+          "options": ["Gratis", "Een euro per maand", "Twee euro per maand", "Vijf euro per maand"],
+          "correctIndex": 2,
+          "explanation": "Na het eerste jaar kost de rekening twee euro per maand."
+        },
+        {
+          "id": "l-a2-2-q19",
+          "text": "Wanneer ontvangt de klant de pinpas?",
+          "options": ["Direct", "Morgen", "Binnen vijf werkdagen", "Over twee weken"],
+          "correctIndex": 2,
+          "explanation": "De pinpas wordt binnen vijf werkdagen per post gestuurd."
+        },
+        {
+          "id": "l-a2-2-q20",
+          "text": "Hoe ontvangt de klant de activeringscode?",
+          "options": ["Per e-mail", "Per sms", "In een aparte brief", "Telefonisch"],
+          "correctIndex": 2,
+          "explanation": "De activeringscode komt in een aparte brief."
+        }
+      ]
+    }
+  ]
+}

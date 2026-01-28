@@ -1,0 +1,150 @@
+{
+  "id": "luisteren-a1-2",
+  "title": "Luisteren A1 - Oefenexamen 2",
+  "module": "luisteren",
+  "difficulty": "A1",
+  "questionCount": 15,
+  "recommendedTime": "30 min",
+  "transcripts": [
+    {
+      "id": "l-a1-2-t1",
+      "title": "Bij de bakker",
+      "transcript": "Klant: Goedemorgen! Ik wil graag drie broodjes.\nBakker: Welke broodjes? Witte of bruine?\nKlant: Drie witte broodjes, alstublieft.\nBakker: Nog iets anders?\nKlant: Ja, een heel bruin brood.\nBakker: Dat is samen drie euro twintig.",
+      "questions": [
+        {
+          "id": "l-a1-2-q1",
+          "text": "Hoeveel broodjes wil de klant?",
+          "options": ["Twee", "Drie", "Vier", "Vijf"],
+          "correctIndex": 1,
+          "explanation": "De klant zegt: 'Ik wil graag drie broodjes.'"
+        },
+        {
+          "id": "l-a1-2-q2",
+          "text": "Welke broodjes kiest de klant?",
+          "options": ["Bruine broodjes", "Witte broodjes", "Volkoren broodjes", "Kaiserbroodjes"],
+          "correctIndex": 1,
+          "explanation": "De klant kiest witte broodjes."
+        },
+        {
+          "id": "l-a1-2-q3",
+          "text": "Hoeveel moet de klant betalen?",
+          "options": ["Twee euro", "Drie euro", "Drie euro twintig", "Vier euro"],
+          "correctIndex": 2,
+          "explanation": "De bakker zegt: 'Dat is samen drie euro twintig.'"
+        }
+      ]
+    },
+    {
+      "id": "l-a1-2-t2",
+      "title": "Op de markt",
+      "transcript": "Verkoper: Mooie tomaten! Twee euro per kilo!\nKlant: Geef maar een kilo tomaten.\nVerkoper: Alstublieft. Nog iets?\nKlant: Ja, een kilo aardappelen graag.\nVerkoper: De aardappelen zijn een euro vijftig. Dat is samen drie euro vijftig.",
+      "questions": [
+        {
+          "id": "l-a1-2-q4",
+          "text": "Hoeveel kosten de tomaten per kilo?",
+          "options": ["Eén euro", "Anderhalve euro", "Twee euro", "Drie euro"],
+          "correctIndex": 2,
+          "explanation": "De verkoper roept: 'Twee euro per kilo!'"
+        },
+        {
+          "id": "l-a1-2-q5",
+          "text": "Wat koopt de klant nog meer?",
+          "options": ["Appels", "Peren", "Aardappelen", "Wortels"],
+          "correctIndex": 2,
+          "explanation": "De klant koopt ook aardappelen."
+        },
+        {
+          "id": "l-a1-2-q6",
+          "text": "Hoeveel kost alles samen?",
+          "options": ["Twee euro", "Drie euro", "Drie euro vijftig", "Vier euro"],
+          "correctIndex": 2,
+          "explanation": "De verkoper zegt: 'Dat is samen drie euro vijftig.'"
+        }
+      ]
+    },
+    {
+      "id": "l-a1-2-t3",
+      "title": "In de bus",
+      "transcript": "Passagier: Gaat deze bus naar het centrum?\nBuschauffeur: Ja, we stoppen bij het Centraal Station.\nPassagier: Hoeveel kost een kaartje?\nBuschauffeur: Drie euro vijftig.\nPassagier: Alstublieft. Hoe lang duurt de rit?\nBuschauffeur: Ongeveer vijftien minuten.",
+      "questions": [
+        {
+          "id": "l-a1-2-q7",
+          "text": "Waar stopt de bus?",
+          "options": ["Bij de school", "Bij het ziekenhuis", "Bij het Centraal Station", "Bij de supermarkt"],
+          "correctIndex": 2,
+          "explanation": "De buschauffeur zegt: 'We stoppen bij het Centraal Station.'"
+        },
+        {
+          "id": "l-a1-2-q8",
+          "text": "Hoeveel kost een buskaartje?",
+          "options": ["Twee euro", "Drie euro", "Drie euro vijftig", "Vier euro"],
+          "correctIndex": 2,
+          "explanation": "De chauffeur zegt: 'Drie euro vijftig.'"
+        },
+        {
+          "id": "l-a1-2-q9",
+          "text": "Hoe lang duurt de rit?",
+          "options": ["Tien minuten", "Vijftien minuten", "Twintig minuten", "Dertig minuten"],
+          "correctIndex": 1,
+          "explanation": "De rit duurt ongeveer vijftien minuten."
+        }
+      ]
+    },
+    {
+      "id": "l-a1-2-t4",
+      "title": "In de bibliotheek",
+      "transcript": "Bezoeker: Goedemiddag, ik wil graag lid worden.\nMedewerker: Prima! Heeft u een identiteitsbewijs bij u?\nBezoeker: Ja, hier is mijn paspoort.\nMedewerker: Dank u. U kunt maximaal vijf boeken lenen.\nBezoeker: Hoe lang mag ik de boeken houden?\nMedewerker: Drie weken.",
+      "questions": [
+        {
+          "id": "l-a1-2-q10",
+          "text": "Wat wil de bezoeker doen?",
+          "options": ["Een boek kopen", "Lid worden", "Een afspraak maken", "Een vraag stellen"],
+          "correctIndex": 1,
+          "explanation": "De bezoeker zegt: 'Ik wil graag lid worden.'"
+        },
+        {
+          "id": "l-a1-2-q11",
+          "text": "Hoeveel boeken mag je maximaal lenen?",
+          "options": ["Drie", "Vier", "Vijf", "Tien"],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'U kunt maximaal vijf boeken lenen.'"
+        },
+        {
+          "id": "l-a1-2-q12",
+          "text": "Hoe lang mag je de boeken houden?",
+          "options": ["Eén week", "Twee weken", "Drie weken", "Vier weken"],
+          "correctIndex": 2,
+          "explanation": "De boeken mag je drie weken houden."
+        }
+      ]
+    },
+    {
+      "id": "l-a1-2-t5",
+      "title": "Bericht op de telefoon",
+      "transcript": "Hallo, met de huisartsenpraktijk. De praktijk is vandaag gesloten. Voor spoedgevallen belt u de huisartsenpost op nul-acht-honderd-nul-twee-drie-nul. Morgen zijn wij weer open van acht uur 's ochtends tot vijf uur 's middags.",
+      "questions": [
+        {
+          "id": "l-a1-2-q13",
+          "text": "Is de praktijk vandaag open?",
+          "options": ["Ja", "Nee", "Alleen 's ochtends", "Alleen 's middags"],
+          "correctIndex": 1,
+          "explanation": "Het bericht zegt: 'De praktijk is vandaag gesloten.'"
+        },
+        {
+          "id": "l-a1-2-q14",
+          "text": "Wat moet je doen bij een spoedgeval?",
+          "options": ["Wachten tot morgen", "De huisartsenpost bellen", "Naar het ziekenhuis gaan", "Een e-mail sturen"],
+          "correctIndex": 1,
+          "explanation": "Bij spoedgevallen moet je de huisartsenpost bellen."
+        },
+        {
+          "id": "l-a1-2-q15",
+          "text": "Hoe laat sluit de praktijk morgen?",
+          "options": ["Vier uur", "Vijf uur", "Zes uur", "Zeven uur"],
+          "correctIndex": 1,
+          "explanation": "De praktijk is open tot vijf uur 's middags."
+        }
+      ]
+    }
+  ]
+}

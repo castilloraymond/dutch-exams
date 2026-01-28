@@ -1,0 +1,150 @@
+{
+  "id": "luisteren-a1-1",
+  "title": "Luisteren A1 - Oefenexamen 1",
+  "module": "luisteren",
+  "difficulty": "A1",
+  "questionCount": 15,
+  "recommendedTime": "30 min",
+  "transcripts": [
+    {
+      "id": "l-a1-1-t1",
+      "title": "Bij de winkel",
+      "transcript": "Klant: Goedemiddag! Heeft u appels?\nVerkoper: Ja, de appels zijn daar. Eén euro per kilo.\nKlant: Ik wil graag twee kilo.\nVerkoper: Dat is twee euro. Wilt u nog iets anders?\nKlant: Nee, dank u. Alstublieft, vijf euro.\nVerkoper: Drie euro terug. Prettige dag!",
+      "questions": [
+        {
+          "id": "l-a1-1-q1",
+          "text": "Hoeveel kost één kilo appels?",
+          "options": ["Vijftig cent", "Eén euro", "Twee euro", "Drie euro"],
+          "correctIndex": 1,
+          "explanation": "De verkoper zegt: 'Eén euro per kilo.'"
+        },
+        {
+          "id": "l-a1-1-q2",
+          "text": "Hoeveel kilo appels koopt de klant?",
+          "options": ["Eén kilo", "Twee kilo", "Drie kilo", "Vijf kilo"],
+          "correctIndex": 1,
+          "explanation": "De klant zegt: 'Ik wil graag twee kilo.'"
+        },
+        {
+          "id": "l-a1-1-q3",
+          "text": "Hoeveel geld krijgt de klant terug?",
+          "options": ["Eén euro", "Twee euro", "Drie euro", "Vier euro"],
+          "correctIndex": 2,
+          "explanation": "De klant betaalt vijf euro voor twee euro aan appels, dus krijgt drie euro terug."
+        }
+      ]
+    },
+    {
+      "id": "l-a1-1-t2",
+      "title": "Op het station",
+      "transcript": "Reiziger: Dag! Een kaartje naar Rotterdam, alstublieft.\nLoketmedewerker: Enkele reis of retour?\nReiziger: Retour, graag.\nLoketmedewerker: Dat is zeventien euro vijftig.\nReiziger: Alstublieft. Van welk perron vertrekt de trein?\nLoketmedewerker: Perron 4, over tien minuten.",
+      "questions": [
+        {
+          "id": "l-a1-1-q4",
+          "text": "Waar wil de reiziger naartoe?",
+          "options": ["Amsterdam", "Utrecht", "Rotterdam", "Den Haag"],
+          "correctIndex": 2,
+          "explanation": "De reiziger vraagt: 'Een kaartje naar Rotterdam.'"
+        },
+        {
+          "id": "l-a1-1-q5",
+          "text": "Wat voor kaartje koopt de reiziger?",
+          "options": ["Enkele reis", "Retour", "Weekkaart", "Maandkaart"],
+          "correctIndex": 1,
+          "explanation": "De reiziger zegt: 'Retour, graag.'"
+        },
+        {
+          "id": "l-a1-1-q6",
+          "text": "Van welk perron vertrekt de trein?",
+          "options": ["Perron 2", "Perron 3", "Perron 4", "Perron 5"],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'Perron 4.'"
+        }
+      ]
+    },
+    {
+      "id": "l-a1-1-t3",
+      "title": "Telefoongesprek",
+      "transcript": "Secretaresse: Tandartspraktijk De Molen, goedemorgen.\nBeller: Goedemorgen, ik wil graag een afspraak maken.\nSecretaresse: Voor wanneer?\nBeller: Volgende week dinsdag als het kan.\nSecretaresse: Om tien uur heb ik plek. Wat is uw naam?\nBeller: Jan Bakker.\nSecretaresse: Prima, meneer Bakker. Dinsdag om tien uur.",
+      "questions": [
+        {
+          "id": "l-a1-1-q7",
+          "text": "Waar belt de man naartoe?",
+          "options": ["De huisarts", "De tandarts", "Het ziekenhuis", "De apotheek"],
+          "correctIndex": 1,
+          "explanation": "De secretaresse zegt: 'Tandartspraktijk De Molen.'"
+        },
+        {
+          "id": "l-a1-1-q8",
+          "text": "Op welke dag is de afspraak?",
+          "options": ["Maandag", "Dinsdag", "Woensdag", "Donderdag"],
+          "correctIndex": 1,
+          "explanation": "De afspraak is volgende week dinsdag."
+        },
+        {
+          "id": "l-a1-1-q9",
+          "text": "Hoe laat is de afspraak?",
+          "options": ["Negen uur", "Tien uur", "Elf uur", "Twaalf uur"],
+          "correctIndex": 1,
+          "explanation": "De secretaresse zegt: 'Om tien uur heb ik plek.'"
+        }
+      ]
+    },
+    {
+      "id": "l-a1-1-t4",
+      "title": "In het restaurant",
+      "transcript": "Ober: Goedenavond, wat mag het zijn?\nKlant: Ik wil graag de soep van de dag en daarna een biefstuk.\nOber: En wat wilt u drinken?\nKlant: Een glas rode wijn, alstublieft.\nOber: Prima, komt eraan.",
+      "questions": [
+        {
+          "id": "l-a1-1-q10",
+          "text": "Wat bestelt de klant als voorgerecht?",
+          "options": ["Salade", "Brood", "Soep", "Kaas"],
+          "correctIndex": 2,
+          "explanation": "De klant bestelt 'de soep van de dag.'"
+        },
+        {
+          "id": "l-a1-1-q11",
+          "text": "Wat is het hoofdgerecht?",
+          "options": ["Vis", "Kip", "Biefstuk", "Pasta"],
+          "correctIndex": 2,
+          "explanation": "De klant bestelt 'een biefstuk.'"
+        },
+        {
+          "id": "l-a1-1-q12",
+          "text": "Wat drinkt de klant?",
+          "options": ["Bier", "Witte wijn", "Rode wijn", "Water"],
+          "correctIndex": 2,
+          "explanation": "De klant bestelt 'een glas rode wijn.'"
+        }
+      ]
+    },
+    {
+      "id": "l-a1-1-t5",
+      "title": "Weerbericht",
+      "transcript": "Goedemorgen. Het weerbericht voor vandaag. In de ochtend is het bewolkt met kans op regen. Vanmiddag wordt het droog en komt de zon erbij. De temperatuur is achttien graden. De wind komt uit het westen.",
+      "questions": [
+        {
+          "id": "l-a1-1-q13",
+          "text": "Hoe is het weer in de ochtend?",
+          "options": ["Zonnig", "Bewolkt met kans op regen", "Koud met sneeuw", "Warm en droog"],
+          "correctIndex": 1,
+          "explanation": "Het weerbericht zegt: 'In de ochtend is het bewolkt met kans op regen.'"
+        },
+        {
+          "id": "l-a1-1-q14",
+          "text": "Hoe warm wordt het?",
+          "options": ["Tien graden", "Vijftien graden", "Achttien graden", "Twintig graden"],
+          "correctIndex": 2,
+          "explanation": "De temperatuur is achttien graden."
+        },
+        {
+          "id": "l-a1-1-q15",
+          "text": "Hoe is het weer vanmiddag?",
+          "options": ["Regen", "Droog met zon", "Bewolkt", "Storm"],
+          "correctIndex": 1,
+          "explanation": "Vanmiddag wordt het droog en komt de zon erbij."
+        }
+      ]
+    }
+  ]
+}

@@ -52,9 +52,9 @@ export default function KNMPage() {
               </div>
             </div>
 
-            <Link href="/learn/knm/exam" className="block">
+            <Link href="/learn/knm/select" className="block">
               <button className="cta-primary w-full py-3 text-base">
-                Start Oefenexamen
+                Kies Examenniveau
               </button>
             </Link>
           </div>

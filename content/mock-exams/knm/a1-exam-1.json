@@ -1,0 +1,185 @@
+{
+  "id": "knm-a1-1",
+  "title": "KNM A1 - Oefenexamen 1",
+  "module": "knm",
+  "difficulty": "A1",
+  "questionCount": 25,
+  "recommendedTime": "20 min",
+  "questions": [
+    {
+      "id": "knm-a1-1-q1",
+      "text": "Wat is de hoofdstad van Nederland?",
+      "options": ["Rotterdam", "Den Haag", "Amsterdam", "Utrecht"],
+      "correctIndex": 2,
+      "explanation": "Amsterdam is de hoofdstad van Nederland."
+    },
+    {
+      "id": "knm-a1-1-q2",
+      "text": "In welke kleur is de Nederlandse vlag NIET?",
+      "options": ["Rood", "Wit", "Blauw", "Geel"],
+      "correctIndex": 3,
+      "explanation": "De Nederlandse vlag is rood, wit en blauw. Geel zit er niet in."
+    },
+    {
+      "id": "knm-a1-1-q3",
+      "text": "Wie is het staatshoofd van Nederland?",
+      "options": ["De minister-president", "De koning", "De burgemeester", "De president"],
+      "correctIndex": 1,
+      "explanation": "De koning (Willem-Alexander) is het staatshoofd van Nederland."
+    },
+    {
+      "id": "knm-a1-1-q4",
+      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "options": ["Niets zeggen", "Je baas bellen", "Naar de vakantie gaan", "Zelf medicijnen kopen"],
+      "correctIndex": 1,
+      "explanation": "Als je ziek bent, moet je je baas (werkgever) bellen om het te melden."
+    },
+    {
+      "id": "knm-a1-1-q5",
+      "text": "Wat is 112?",
+      "options": ["Het telefoonnummer van de dokter", "Het alarmnummer voor noodgevallen", "Het nummer van de gemeente", "Het nummer van de politie alleen"],
+      "correctIndex": 1,
+      "explanation": "112 is het alarmnummer voor alle noodgevallen (politie, brandweer, ambulance)."
+    },
+    {
+      "id": "knm-a1-1-q6",
+      "text": "Op welke dag is Koningsdag?",
+      "options": ["30 april", "27 april", "5 mei", "25 december"],
+      "correctIndex": 1,
+      "explanation": "Koningsdag is op 27 april, de verjaardag van koning Willem-Alexander."
+    },
+    {
+      "id": "knm-a1-1-q7",
+      "text": "Wat doe je met oud papier?",
+      "options": ["In de grijze bak", "In de groene bak", "In de blauwe bak of papiercontainer", "Bij het glas"],
+      "correctIndex": 2,
+      "explanation": "Oud papier gaat in de blauwe bak of papiercontainer."
+    },
+    {
+      "id": "knm-a1-1-q8",
+      "text": "Wanneer moet je een rijbewijs hebben?",
+      "options": ["Als je fietst", "Als je auto rijdt", "Als je wandelt", "Als je met de bus gaat"],
+      "correctIndex": 1,
+      "explanation": "Voor het rijden in een auto heb je een rijbewijs nodig."
+    },
+    {
+      "id": "knm-a1-1-q9",
+      "text": "Waar kun je een paspoort aanvragen?",
+      "options": ["Bij de supermarkt", "Bij het gemeentehuis", "Bij de school", "Bij de bank"],
+      "correctIndex": 1,
+      "explanation": "Een paspoort vraag je aan bij het gemeentehuis."
+    },
+    {
+      "id": "knm-a1-1-q10",
+      "text": "Hoeveel dagen per week werken de meeste mensen fulltime?",
+      "options": ["3 dagen", "4 dagen", "5 dagen", "6 dagen"],
+      "correctIndex": 2,
+      "explanation": "De meeste mensen werken 5 dagen per week fulltime."
+    },
+    {
+      "id": "knm-a1-1-q11",
+      "text": "Wat is een huisarts?",
+      "options": ["Een arts in het ziekenhuis", "De eerste dokter die je bezoekt bij ziekte", "Een specialist", "Een tandarts"],
+      "correctIndex": 1,
+      "explanation": "De huisarts is de eerste dokter die je bezoekt als je ziek bent."
+    },
+    {
+      "id": "knm-a1-1-q12",
+      "text": "Welke taal spreekt men in Nederland?",
+      "options": ["Duits", "Engels", "Frans", "Nederlands"],
+      "correctIndex": 3,
+      "explanation": "In Nederland spreekt men Nederlands."
+    },
+    {
+      "id": "knm-a1-1-q13",
+      "text": "Wat is een zorgverzekering?",
+      "options": ["Verzekering voor je auto", "Verzekering voor je huis", "Verzekering voor medische kosten", "Verzekering voor je werk"],
+      "correctIndex": 2,
+      "explanation": "Een zorgverzekering betaalt (een deel van) je medische kosten."
+    },
+    {
+      "id": "knm-a1-1-q14",
+      "text": "Moet je in Nederland verplicht naar school?",
+      "options": ["Nee, school is vrijwillig", "Ja, tot je 16 jaar bent", "Alleen als je wilt", "Alleen voor jongens"],
+      "correctIndex": 1,
+      "explanation": "In Nederland is er leerplicht tot 16 jaar."
+    },
+    {
+      "id": "knm-a1-1-q15",
+      "text": "Wat doe je als je een afspraak hebt bij de dokter maar niet kunt komen?",
+      "options": ["Gewoon niet komen", "De afspraak afzeggen", "Iemand anders sturen", "Een week later komen"],
+      "correctIndex": 1,
+      "explanation": "Je moet de afspraak afzeggen als je niet kunt komen."
+    },
+    {
+      "id": "knm-a1-1-q16",
+      "text": "Wat betekent BTW?",
+      "options": ["Belasting Toegevoegde Waarde", "Betaling Totale Winst", "Bedrijf Totaal Werk", "Bank Transfer Winkel"],
+      "correctIndex": 0,
+      "explanation": "BTW staat voor Belasting Toegevoegde Waarde, een belasting op producten."
+    },
+    {
+      "id": "knm-a1-1-q17",
+      "text": "Wie betaalt AOW in Nederland?",
+      "options": ["Alleen werkgevers", "Alleen werknemers", "De overheid aan 65-plussers", "De bank"],
+      "correctIndex": 2,
+      "explanation": "De AOW is een pensioen dat de overheid betaalt aan mensen vanaf de AOW-leeftijd."
+    },
+    {
+      "id": "knm-a1-1-q18",
+      "text": "Wat is de euro?",
+      "options": ["De Nederlandse taal", "De munt van Nederland", "Een Nederlandse stad", "Een feestdag"],
+      "correctIndex": 1,
+      "explanation": "De euro (€) is de munt die in Nederland (en veel andere Europese landen) wordt gebruikt."
+    },
+    {
+      "id": "knm-a1-1-q19",
+      "text": "Wat is een CV?",
+      "options": ["Een brief aan je vrienden", "Een overzicht van je werkervaring en opleiding", "Een contract", "Een rekening"],
+      "correctIndex": 1,
+      "explanation": "Een CV (curriculum vitae) is een overzicht van je werkervaring en opleiding."
+    },
+    {
+      "id": "knm-a1-1-q20",
+      "text": "Hoe heet de Nederlandse politie?",
+      "options": ["De gendarmerie", "De politie", "De carabinieri", "De sheriff"],
+      "correctIndex": 1,
+      "explanation": "In Nederland heet het de politie."
+    },
+    {
+      "id": "knm-a1-1-q21",
+      "text": "Wat is een huurcontract?",
+      "options": ["Een contract voor een baan", "Een contract voor het huren van een huis", "Een contract voor een auto", "Een contract voor school"],
+      "correctIndex": 1,
+      "explanation": "Een huurcontract is een contract voor het huren van een woning."
+    },
+    {
+      "id": "knm-a1-1-q22",
+      "text": "Welke vrijheid heb je in Nederland?",
+      "options": ["Je mag zeggen wat je denkt", "Je mag niet stemmen", "Je moet een religie hebben", "Je mag niet werken"],
+      "correctIndex": 0,
+      "explanation": "In Nederland heb je vrijheid van meningsuiting: je mag zeggen wat je denkt."
+    },
+    {
+      "id": "knm-a1-1-q23",
+      "text": "Wat is een pinpas?",
+      "options": ["Een identiteitskaart", "Een kaart om te betalen", "Een bibliotheekkaart", "Een rijbewijs"],
+      "correctIndex": 1,
+      "explanation": "Een pinpas is een bankpas waarmee je kunt betalen."
+    },
+    {
+      "id": "knm-a1-1-q24",
+      "text": "Hoeveel provincies heeft Nederland?",
+      "options": ["10", "11", "12", "13"],
+      "correctIndex": 2,
+      "explanation": "Nederland heeft 12 provincies."
+    },
+    {
+      "id": "knm-a1-1-q25",
+      "text": "Wat is een OV-chipkaart?",
+      "options": ["Een kaart voor de supermarkt", "Een kaart voor het openbaar vervoer", "Een kaart voor de bioscoop", "Een bibliotheekkaart"],
+      "correctIndex": 1,
+      "explanation": "Een OV-chipkaart gebruik je om te betalen in het openbaar vervoer (bus, tram, trein, metro)."
+    }
+  ]
+}

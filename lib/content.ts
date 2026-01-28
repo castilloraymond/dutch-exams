@@ -1,4 +1,4 @@
-import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question } from "./types";
+import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question, MockExamIndex, MockExam } from "./types";
 
 // Lezen (Reading) content
 import contentIndex from "@/content/index.json";
@@ -27,6 +27,27 @@ import eenTelefoongesprek from "@/content/luisteren/exercises/een-telefoongespre
 import bijDeHuisarts from "@/content/luisteren/exercises/bij-de-huisarts.json";
 import opHetWerk from "@/content/luisteren/exercises/op-het-werk.json";
 
+// Mock exam content - Lezen
+import lezenMockIndex from "@/content/mock-exams/lezen/index.json";
+import lezenA1Exam1 from "@/content/mock-exams/lezen/a1-exam-1.json";
+import lezenA1Exam2 from "@/content/mock-exams/lezen/a1-exam-2.json";
+import lezenA2Exam1 from "@/content/mock-exams/lezen/a2-exam-1.json";
+import lezenA2Exam2 from "@/content/mock-exams/lezen/a2-exam-2.json";
+
+// Mock exam content - KNM
+import knmMockIndex from "@/content/mock-exams/knm/index.json";
+import knmA1Exam1 from "@/content/mock-exams/knm/a1-exam-1.json";
+import knmA1Exam2 from "@/content/mock-exams/knm/a1-exam-2.json";
+import knmA2Exam1 from "@/content/mock-exams/knm/a2-exam-1.json";
+import knmA2Exam2 from "@/content/mock-exams/knm/a2-exam-2.json";
+
+// Mock exam content - Luisteren
+import luisterenMockIndex from "@/content/mock-exams/luisteren/index.json";
+import luisterenA1Exam1 from "@/content/mock-exams/luisteren/a1-exam-1.json";
+import luisterenA1Exam2 from "@/content/mock-exams/luisteren/a1-exam-2.json";
+import luisterenA2Exam1 from "@/content/mock-exams/luisteren/a2-exam-1.json";
+import luisterenA2Exam2 from "@/content/mock-exams/luisteren/a2-exam-2.json";
+
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
   "brief-van-de-gemeente": opHetStation as unknown as Passage,
@@ -52,6 +73,28 @@ const listeningExercises: Record<string, ListeningExercise> = {
   "een-telefoongesprek": eenTelefoongesprek as unknown as ListeningExercise,
   "bij-de-huisarts": bijDeHuisarts as unknown as ListeningExercise,
   "op-het-werk": opHetWerk as unknown as ListeningExercise,
+};
+
+// Mock exam data
+const mockExamIndices: Record<string, MockExamIndex> = {
+  lezen: lezenMockIndex as MockExamIndex,
+  knm: knmMockIndex as MockExamIndex,
+  luisteren: luisterenMockIndex as MockExamIndex,
+};
+
+const mockExams: Record<string, MockExam> = {
+  "lezen-a1-1": lezenA1Exam1 as unknown as MockExam,
+  "lezen-a1-2": lezenA1Exam2 as unknown as MockExam,
+  "lezen-a2-1": lezenA2Exam1 as unknown as MockExam,
+  "lezen-a2-2": lezenA2Exam2 as unknown as MockExam,
+  "knm-a1-1": knmA1Exam1 as unknown as MockExam,
+  "knm-a1-2": knmA1Exam2 as unknown as MockExam,
+  "knm-a2-1": knmA2Exam1 as unknown as MockExam,
+  "knm-a2-2": knmA2Exam2 as unknown as MockExam,
+  "luisteren-a1-1": luisterenA1Exam1 as unknown as MockExam,
+  "luisteren-a1-2": luisterenA1Exam2 as unknown as MockExam,
+  "luisteren-a2-1": luisterenA2Exam1 as unknown as MockExam,
+  "luisteren-a2-2": luisterenA2Exam2 as unknown as MockExam,
 };
 
 // Lezen functions
@@ -128,6 +171,19 @@ export function getLuisterenExamQuestions(): { exercise: ListeningExercise; ques
     }
   }
   return allQuestions;
+}
+
+// Mock Exam functions
+export function getMockExamIndex(module: string): MockExamIndex | null {
+  return mockExamIndices[module] || null;
+}
+
+export function getMockExam(examId: string): MockExam | null {
+  return mockExams[examId] || null;
+}
+
+export function getAllMockExamIds(): string[] {
+  return Object.keys(mockExams);
 }
 
 // Utility

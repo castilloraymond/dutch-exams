@@ -1,0 +1,195 @@
+{
+  "id": "lezen-a2-2",
+  "title": "Lezen A2 - Oefenexamen 2",
+  "module": "lezen",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "35 min",
+  "passages": [
+    {
+      "id": "a2-2-p1",
+      "title": "Vacature",
+      "content": "Vacature: Medewerker Klantenservice (parttime)\n\nBij Albert Heijn in Utrecht zoeken wij een vriendelijke medewerker voor de klantenservice.\n\nWat ga je doen?\n- Klanten helpen bij de servicebalie\n- Vragen beantwoorden over producten\n- Klachten behandelen\n- Retouren verwerken\n\nWat vragen wij?\n- Je spreekt goed Nederlands\n- Je bent minimaal 18 jaar\n- Je kunt 20 uur per week werken\n- Je bent vriendelijk en geduldig\n\nWat bieden wij?\n- Salaris: € 13,50 per uur\n- Flexibele werktijden\n- Korting op boodschappen (10%)\n\nInteresse? Stuur je CV naar: vacatures@ah-utrecht.nl",
+      "contentType": "notice",
+      "instruction": "Lees de vacature van Albert Heijn.",
+      "questions": [
+        {
+          "id": "a2-2-q1",
+          "text": "Hoeveel uur per week moet je kunnen werken?",
+          "options": ["10 uur", "15 uur", "20 uur", "40 uur"],
+          "correctIndex": 2,
+          "explanation": "Je moet 20 uur per week kunnen werken."
+        },
+        {
+          "id": "a2-2-q2",
+          "text": "Wat is het salaris per uur?",
+          "options": ["€ 11,50", "€ 12,50", "€ 13,50", "€ 14,50"],
+          "correctIndex": 2,
+          "explanation": "Het salaris is € 13,50 per uur."
+        },
+        {
+          "id": "a2-2-q3",
+          "text": "Hoe oud moet je minimaal zijn?",
+          "options": ["16 jaar", "17 jaar", "18 jaar", "21 jaar"],
+          "correctIndex": 2,
+          "explanation": "Je moet minimaal 18 jaar zijn."
+        },
+        {
+          "id": "a2-2-q4",
+          "text": "Hoeveel korting krijg je op boodschappen?",
+          "options": ["5%", "10%", "15%", "20%"],
+          "correctIndex": 1,
+          "explanation": "Je krijgt 10% korting op boodschappen."
+        }
+      ]
+    },
+    {
+      "id": "a2-2-p2",
+      "title": "Brief over afvalscheiding",
+      "content": "Gemeente Rotterdam\nAfdeling Milieu\n\nBeste bewoner,\n\nVanaf 1 maart 2024 veranderen de regels voor afvalscheiding in uw wijk.\n\nNieuw ophaalschema:\n- Maandag: restafval (grijze bak)\n- Woensdag: plastic en blik (oranje bak)\n- Vrijdag: papier en karton (blauwe bak)\n\nGFT-afval (groente, fruit, tuin) kunt u zelf naar de GFT-container brengen. Deze staat op het Marktplein.\n\nBelangrijk:\n- Zet uw afval pas na 20:00 uur buiten\n- Haal de bak dezelfde dag weer binnen\n- Overvolle bakken worden niet geleegd\n\nMeer informatie: www.rotterdam.nl/afval of bel 14 010.\n\nMet vriendelijke groet,\nGemeente Rotterdam",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de gemeente over afvalscheiding.",
+      "questions": [
+        {
+          "id": "a2-2-q5",
+          "text": "Wanneer wordt het plastic opgehaald?",
+          "options": ["Maandag", "Dinsdag", "Woensdag", "Vrijdag"],
+          "correctIndex": 2,
+          "explanation": "Op woensdag wordt plastic en blik opgehaald."
+        },
+        {
+          "id": "a2-2-q6",
+          "text": "Waar moet je GFT-afval brengen?",
+          "options": ["In de grijze bak", "Naar het gemeentehuis", "Naar de container op het Marktplein", "In de oranje bak"],
+          "correctIndex": 2,
+          "explanation": "GFT-afval kun je naar de GFT-container op het Marktplein brengen."
+        },
+        {
+          "id": "a2-2-q7",
+          "text": "Wanneer mag je je afval buiten zetten?",
+          "options": ["'s Morgens vroeg", "Na 18:00 uur", "Na 20:00 uur", "Wanneer je wilt"],
+          "correctIndex": 2,
+          "explanation": "Je mag je afval pas na 20:00 uur buiten zetten."
+        },
+        {
+          "id": "a2-2-q8",
+          "text": "Wat gebeurt er als je bak te vol is?",
+          "options": ["Je krijgt een grotere bak", "De bak wordt toch geleegd", "De bak wordt niet geleegd", "Je krijgt een boete"],
+          "correctIndex": 2,
+          "explanation": "Overvolle bakken worden niet geleegd."
+        }
+      ]
+    },
+    {
+      "id": "a2-2-p3",
+      "title": "Artikel over sporten",
+      "content": "Meer Nederlanders gaan sporten\n\nUit onderzoek blijkt dat steeds meer Nederlanders gaan sporten. Vooral wandelen en fietsen zijn populair. Maar ook fitness en zwemmen worden vaker gedaan.\n\nVolwassenen sporten gemiddeld 2 keer per week. Kinderen sporten nog vaker: gemiddeld 3 keer per week. De meeste mensen sporten om gezond te blijven. Anderen sporten omdat ze willen afvallen of omdat ze het leuk vinden.\n\nNiet iedereen sport even veel. Mensen met een hoog inkomen sporten vaker dan mensen met een laag inkomen. Ook is er verschil tussen mannen en vrouwen: mannen sporten iets vaker dan vrouwen.\n\nDe gemeente wil dat iedereen kan sporten. Daarom zijn er goedkope sportabonnementen voor mensen met weinig geld. Ook zijn er gratis sportlessen in het park.",
+      "contentType": "text",
+      "instruction": "Lees het artikel over sporten in Nederland.",
+      "questions": [
+        {
+          "id": "a2-2-q9",
+          "text": "Welke sporten zijn het populairst?",
+          "options": ["Voetbal en tennis", "Wandelen en fietsen", "Zwemmen en hardlopen", "Yoga en fitness"],
+          "correctIndex": 1,
+          "explanation": "Vooral wandelen en fietsen zijn populair."
+        },
+        {
+          "id": "a2-2-q10",
+          "text": "Hoe vaak sporten volwassenen gemiddeld?",
+          "options": ["1 keer per week", "2 keer per week", "3 keer per week", "4 keer per week"],
+          "correctIndex": 1,
+          "explanation": "Volwassenen sporten gemiddeld 2 keer per week."
+        },
+        {
+          "id": "a2-2-q11",
+          "text": "Waarom sporten de meeste mensen?",
+          "options": ["Om geld te verdienen", "Om vrienden te maken", "Om gezond te blijven", "Om beroemd te worden"],
+          "correctIndex": 2,
+          "explanation": "De meeste mensen sporten om gezond te blijven."
+        },
+        {
+          "id": "a2-2-q12",
+          "text": "Wie sport er vaker: mannen of vrouwen?",
+          "options": ["Mannen sporten vaker", "Vrouwen sporten vaker", "Ze sporten even vaak", "Staat niet in het artikel"],
+          "correctIndex": 0,
+          "explanation": "Mannen sporten iets vaker dan vrouwen."
+        }
+      ]
+    },
+    {
+      "id": "a2-2-p4",
+      "title": "Recept",
+      "content": "Recept: Nederlandse pannenkoeken (voor 4 personen)\n\nIngrediënten:\n- 250 gram bloem\n- 3 eieren\n- 500 ml melk\n- Een snufje zout\n- Boter om te bakken\n\nBereiding:\n1. Doe de bloem in een kom. Maak een kuiltje in het midden.\n2. Breek de eieren erbij en roer goed.\n3. Voeg langzaam de melk toe en blijf roeren.\n4. Voeg het zout toe. Het beslag moet glad zijn.\n5. Laat het beslag 30 minuten rusten.\n6. Verhit een beetje boter in een pan.\n7. Schep beslag in de pan en bak de pannenkoek aan beide kanten goudbruin.\n\nTips: Lekker met stroop, suiker of spek!",
+      "contentType": "text",
+      "instruction": "Lees het recept voor pannenkoeken.",
+      "questions": [
+        {
+          "id": "a2-2-q13",
+          "text": "Hoeveel gram bloem heb je nodig?",
+          "options": ["150 gram", "200 gram", "250 gram", "300 gram"],
+          "correctIndex": 2,
+          "explanation": "Je hebt 250 gram bloem nodig."
+        },
+        {
+          "id": "a2-2-q14",
+          "text": "Hoeveel eieren gebruik je?",
+          "options": ["2", "3", "4", "5"],
+          "correctIndex": 1,
+          "explanation": "Je gebruikt 3 eieren."
+        },
+        {
+          "id": "a2-2-q15",
+          "text": "Hoe lang moet het beslag rusten?",
+          "options": ["10 minuten", "20 minuten", "30 minuten", "1 uur"],
+          "correctIndex": 2,
+          "explanation": "Het beslag moet 30 minuten rusten."
+        },
+        {
+          "id": "a2-2-q16",
+          "text": "Wat doe je als laatste voordat je gaat bakken?",
+          "options": ["Eieren toevoegen", "Melk toevoegen", "Het beslag laten rusten", "Boter verhitten"],
+          "correctIndex": 3,
+          "explanation": "Na het rusten verhit je een beetje boter in een pan voordat je gaat bakken."
+        }
+      ]
+    },
+    {
+      "id": "a2-2-p5",
+      "title": "Informatiebrief school",
+      "content": "Basisschool De Regenboog\n\nBeste ouders/verzorgers,\n\nOver twee weken begint de voorjaarsvakantie. De school is gesloten van 19 tot en met 23 februari.\n\nBelangrijke data:\n- 16 februari: rapport mee naar huis\n- 17 februari: oudergesprekken (individuele afspraken)\n- 18 februari: laatste schooldag voor de vakantie\n- 26 februari: school begint weer\n\nDe oudergesprekken duren 10 minuten per kind. U kunt online een tijd kiezen via www.ouderportaal.nl. Doe dit voor 10 februari.\n\nNa de vakantie starten de zwemlessen voor groep 4. Vergeet niet om zwemkleding en een handdoek mee te geven.\n\nWij wensen u een fijne vakantie!\n\nMet vriendelijke groet,\nTeam De Regenboog",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de basisschool.",
+      "questions": [
+        {
+          "id": "a2-2-q17",
+          "text": "Wanneer krijgen de kinderen hun rapport?",
+          "options": ["15 februari", "16 februari", "17 februari", "18 februari"],
+          "correctIndex": 1,
+          "explanation": "Op 16 februari gaat het rapport mee naar huis."
+        },
+        {
+          "id": "a2-2-q18",
+          "text": "Hoe lang duurt een oudergesprek?",
+          "options": ["5 minuten", "10 minuten", "15 minuten", "20 minuten"],
+          "correctIndex": 1,
+          "explanation": "De oudergesprekken duren 10 minuten per kind."
+        },
+        {
+          "id": "a2-2-q19",
+          "text": "Wanneer begint de school weer na de vakantie?",
+          "options": ["24 februari", "25 februari", "26 februari", "27 februari"],
+          "correctIndex": 2,
+          "explanation": "De school begint weer op 26 februari."
+        },
+        {
+          "id": "a2-2-q20",
+          "text": "Voor welke groep beginnen de zwemlessen?",
+          "options": ["Groep 3", "Groep 4", "Groep 5", "Groep 6"],
+          "correctIndex": 1,
+          "explanation": "Na de vakantie starten de zwemlessen voor groep 4."
+        }
+      ]
+    }
+  ]
+}

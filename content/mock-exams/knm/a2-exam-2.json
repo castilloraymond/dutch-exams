@@ -1,0 +1,290 @@
+{
+  "id": "knm-a2-2",
+  "title": "KNM A2 - Oefenexamen 2",
+  "module": "knm",
+  "difficulty": "A2",
+  "questionCount": 40,
+  "recommendedTime": "30 min",
+  "questions": [
+    {
+      "id": "knm-a2-2-q1",
+      "text": "Wanneer kun je een WW-uitkering krijgen?",
+      "options": ["Als je zelf ontslag neemt", "Als je ontslagen wordt en je hebt genoeg gewerkt", "Als je met pensioen gaat", "Als je ziek bent"],
+      "correctIndex": 1,
+      "explanation": "Je kunt een WW-uitkering krijgen als je onvrijwillig werkloos wordt en aan de wekeneis voldoet."
+    },
+    {
+      "id": "knm-a2-2-q2",
+      "text": "Wat is een sollicitatiegesprek?",
+      "options": ["Een gesprek met je collega's", "Een gesprek waarin je laat zien waarom je geschikt bent voor de baan", "Een gesprek over je salaris na aanname", "Een functioneringsgesprek"],
+      "correctIndex": 1,
+      "explanation": "In een sollicitatiegesprek laat je zien waarom je geschikt bent voor een baan."
+    },
+    {
+      "id": "knm-a2-2-q3",
+      "text": "Wat is een tijdelijk contract?",
+      "options": ["Een contract voor onbepaalde tijd", "Een contract met een vaste einddatum", "Een mondeling contract", "Een vrijwilligersovereenkomst"],
+      "correctIndex": 1,
+      "explanation": "Een tijdelijk contract heeft een vaste begin- en einddatum."
+    },
+    {
+      "id": "knm-a2-2-q4",
+      "text": "Hoeveel uur per week werkt een fulltime werknemer meestal?",
+      "options": ["32 uur", "36-40 uur", "42 uur", "45 uur"],
+      "correctIndex": 1,
+      "explanation": "Een fulltime werkweek is meestal 36 tot 40 uur, afhankelijk van de sector."
+    },
+    {
+      "id": "knm-a2-2-q5",
+      "text": "Wat is een woningcorporatie?",
+      "options": ["Een makelaar", "Een organisatie die sociale huurwoningen verhuurt", "Een bank voor hypotheken", "Een bouwbedrijf"],
+      "correctIndex": 1,
+      "explanation": "Een woningcorporatie is een organisatie die sociale huurwoningen verhuurt."
+    },
+    {
+      "id": "knm-a2-2-q6",
+      "text": "Wat moet je doen als je je huur niet kunt betalen?",
+      "options": ["Niets doen en afwachten", "Contact opnemen met de verhuurder om een oplossing te zoeken", "Verhuizen zonder te zeggen", "Geld lenen bij vrienden"],
+      "correctIndex": 1,
+      "explanation": "Je moet contact opnemen met de verhuurder om samen een oplossing te zoeken."
+    },
+    {
+      "id": "knm-a2-2-q7",
+      "text": "Wat is de Woonbond?",
+      "options": ["Een verzekeringsmaatschappij", "Een organisatie die huurders helpt en adviseert", "Een bank", "Een gemeentelijke dienst"],
+      "correctIndex": 1,
+      "explanation": "De Woonbond is een organisatie die opkomt voor de belangen van huurders."
+    },
+    {
+      "id": "knm-a2-2-q8",
+      "text": "Wat is een huurcommissie?",
+      "options": ["Een organisatie die huizen verkoopt", "Een organisatie die geschillen tussen huurder en verhuurder behandelt", "Een bank voor hypotheken", "Een verzekeringsmaatschappij"],
+      "correctIndex": 1,
+      "explanation": "De huurcommissie behandelt geschillen tussen huurders en verhuurders."
+    },
+    {
+      "id": "knm-a2-2-q9",
+      "text": "Wat is de basiszorgverzekering?",
+      "options": ["Een vrijwillige verzekering", "Een verplichte verzekering die iedereen in Nederland moet hebben", "Een aanvullende verzekering", "Een verzekering alleen voor kinderen"],
+      "correctIndex": 1,
+      "explanation": "De basiszorgverzekering is verplicht voor iedereen in Nederland."
+    },
+    {
+      "id": "knm-a2-2-q10",
+      "text": "Wat vergoedt de basiszorgverzekering?",
+      "options": ["Alleen ziekenhuiskosten", "Basismedische zorg zoals huisarts, ziekenhuis en medicijnen", "Alles inclusief tandarts", "Alleen medicijnen"],
+      "correctIndex": 1,
+      "explanation": "De basiszorgverzekering vergoedt onder andere huisarts, ziekenhuis en noodzakelijke medicijnen."
+    },
+    {
+      "id": "knm-a2-2-q11",
+      "text": "Wat is een consultatiebureau?",
+      "options": ["Een plek waar je advies krijgt over je werk", "Een plek waar baby's en jonge kinderen worden gecontroleerd", "Een plek voor volwassenen om te sporten", "Een plek om taalles te krijgen"],
+      "correctIndex": 1,
+      "explanation": "Bij het consultatiebureau worden baby's en jonge kinderen gecontroleerd op gezondheid en groei."
+    },
+    {
+      "id": "knm-a2-2-q12",
+      "text": "Wat is het verschil tussen de huisarts en een specialist?",
+      "options": ["Er is geen verschil", "De huisarts is de eerste dokter, de specialist behandelt specifieke problemen", "De specialist is goedkoper", "De huisarts werkt in het ziekenhuis"],
+      "correctIndex": 1,
+      "explanation": "De huisarts is de eerste dokter die je bezoekt, de specialist behandelt specifieke medische problemen."
+    },
+    {
+      "id": "knm-a2-2-q13",
+      "text": "Wanneer bel je 112?",
+      "options": ["Bij elke vraag", "Bij levensbedreigende situaties", "Als je een afspraak wilt maken", "Als je klachten hebt over de gemeente"],
+      "correctIndex": 1,
+      "explanation": "112 bel je alleen bij levensbedreigende noodsituaties."
+    },
+    {
+      "id": "knm-a2-2-q14",
+      "text": "Wat doet de gemeenteraad?",
+      "options": ["Regeert het hele land", "Neemt beslissingen over de gemeente", "Spreekt recht", "Maakt landelijke wetten"],
+      "correctIndex": 1,
+      "explanation": "De gemeenteraad neemt beslissingen over zaken in de gemeente."
+    },
+    {
+      "id": "knm-a2-2-q15",
+      "text": "Wie kiest de burgemeester?",
+      "options": ["De inwoners van de gemeente", "De gemeenteraad op voordracht van de commissaris", "De koning", "De minister-president"],
+      "correctIndex": 1,
+      "explanation": "De burgemeester wordt benoemd door de Kroon op voordracht van de gemeenteraad."
+    },
+    {
+      "id": "knm-a2-2-q16",
+      "text": "Wat is een politieke partij?",
+      "options": ["Een feest voor politici", "Een groep mensen met dezelfde politieke ideeën", "Een rechtbank", "Een ministerie"],
+      "correctIndex": 1,
+      "explanation": "Een politieke partij is een groep mensen die dezelfde politieke ideeën hebben."
+    },
+    {
+      "id": "knm-a2-2-q17",
+      "text": "Wanneer was de Tweede Wereldoorlog?",
+      "options": ["1914-1918", "1939-1945", "1950-1955", "1960-1965"],
+      "correctIndex": 1,
+      "explanation": "De Tweede Wereldoorlog was van 1939 tot 1945."
+    },
+    {
+      "id": "knm-a2-2-q18",
+      "text": "Wat gebeurde er tijdens de bezetting van Nederland?",
+      "options": ["Nederland was vrij", "Duitsland bezette Nederland", "Frankrijk bezette Nederland", "Er was vrede"],
+      "correctIndex": 1,
+      "explanation": "Tijdens de Tweede Wereldoorlog was Nederland bezet door Duitsland (1940-1945)."
+    },
+    {
+      "id": "knm-a2-2-q19",
+      "text": "Wat is Prinsjesdag?",
+      "options": ["De verjaardag van de koning", "De dag waarop de koning de troonrede voorleest en de begroting wordt gepresenteerd", "Een feestdag in december", "Een dag voor kinderen"],
+      "correctIndex": 1,
+      "explanation": "Op Prinsjesdag (derde dinsdag van september) leest de koning de troonrede voor."
+    },
+    {
+      "id": "knm-a2-2-q20",
+      "text": "Wat is de Gouden Eeuw?",
+      "options": ["De tijd van de Romeinen", "De 17e eeuw toen Nederland rijk en machtig was", "De 19e eeuw", "De 21e eeuw"],
+      "correctIndex": 1,
+      "explanation": "De Gouden Eeuw was de 17e eeuw toen Nederland een belangrijke handelsnatie was."
+    },
+    {
+      "id": "knm-a2-2-q21",
+      "text": "Wie was Anne Frank?",
+      "options": ["Een koningin", "Een Joods meisje dat een dagboek schreef tijdens de oorlog", "Een schilderes", "Een politica"],
+      "correctIndex": 1,
+      "explanation": "Anne Frank was een Joods meisje dat tijdens de Tweede Wereldoorlog een beroemd dagboek schreef."
+    },
+    {
+      "id": "knm-a2-2-q22",
+      "text": "Wat is de basisschool-citotoets?",
+      "options": ["Een sporttest", "Een eindtoets die bepaalt naar welk niveau middelbaar onderwijs een kind gaat", "Een taaltest voor volwassenen", "Een test voor de rijschool"],
+      "correctIndex": 1,
+      "explanation": "De citotoets (eindtoets) helpt bepalen naar welk niveau middelbaar onderwijs een kind kan."
+    },
+    {
+      "id": "knm-a2-2-q23",
+      "text": "Wat is het VWO?",
+      "options": ["Een beroepsopleiding", "Het hoogste niveau middelbaar onderwijs, voorbereiding op de universiteit", "Een basisschool", "Een taalopleiding"],
+      "correctIndex": 1,
+      "explanation": "VWO (voorbereidend wetenschappelijk onderwijs) is het hoogste niveau en bereidt voor op de universiteit."
+    },
+    {
+      "id": "knm-a2-2-q24",
+      "text": "Wat is MBO?",
+      "options": ["Middelbaar algemeen onderwijs", "Middelbaar beroepsonderwijs", "Een universiteit", "Een basisschool"],
+      "correctIndex": 1,
+      "explanation": "MBO staat voor middelbaar beroepsonderwijs, gericht op een praktisch beroep."
+    },
+    {
+      "id": "knm-a2-2-q25",
+      "text": "Wat is vrijheid van onderwijs?",
+      "options": ["Je hoeft niet naar school", "Ouders mogen kiezen naar welke school hun kind gaat", "Onderwijs is gratis", "Je mag je eigen school beginnen"],
+      "correctIndex": 1,
+      "explanation": "Vrijheid van onderwijs betekent dat ouders mogen kiezen naar welke school hun kind gaat."
+    },
+    {
+      "id": "knm-a2-2-q26",
+      "text": "Wat betekent 'tolerantie' in de Nederlandse cultuur?",
+      "options": ["Je moet het met iedereen eens zijn", "Je accepteert dat anderen andere meningen en gewoontes hebben", "Je mag geen mening hebben", "Je moet je aanpassen aan anderen"],
+      "correctIndex": 1,
+      "explanation": "Tolerantie betekent dat je accepteert dat anderen andere meningen en gewoontes hebben."
+    },
+    {
+      "id": "knm-a2-2-q27",
+      "text": "Wat is geweld in relaties?",
+      "options": ["Normaal in sommige culturen", "Verboden en strafbaar in Nederland", "Toegestaan als je getrouwd bent", "Alleen verboden voor mannen"],
+      "correctIndex": 1,
+      "explanation": "Geweld in relaties is verboden en strafbaar in Nederland, ongeacht je achtergrond."
+    },
+    {
+      "id": "knm-a2-2-q28",
+      "text": "Wat is euthanasie?",
+      "options": ["Moord", "Levensbeëindiging op verzoek van een ernstig zieke patiënt, onder strikte voorwaarden toegestaan", "Zelfmoord", "Een medische behandeling"],
+      "correctIndex": 1,
+      "explanation": "Euthanasie is levensbeëindiging op verzoek van een patiënt, in Nederland onder strikte voorwaarden toegestaan."
+    },
+    {
+      "id": "knm-a2-2-q29",
+      "text": "Wat is de AOW-leeftijd?",
+      "options": ["55 jaar", "60 jaar", "Ongeveer 67 jaar, afhankelijk van je geboortejaar", "70 jaar"],
+      "correctIndex": 2,
+      "explanation": "De AOW-leeftijd is momenteel ongeveer 67 jaar en hangt af van je geboortejaar."
+    },
+    {
+      "id": "knm-a2-2-q30",
+      "text": "Wat is pensioen?",
+      "options": ["Geld dat je verdient met werken", "Geld dat je krijgt als je stopt met werken vanwege je leeftijd", "Een lening", "Geld voor je kinderen"],
+      "correctIndex": 1,
+      "explanation": "Pensioen is inkomen dat je ontvangt nadat je gestopt bent met werken vanwege je leeftijd."
+    },
+    {
+      "id": "knm-a2-2-q31",
+      "text": "Wat zijn de Waddeneilanden?",
+      "options": ["Bergen in het zuiden", "Eilanden in het noorden van Nederland", "Rivieren in het midden", "Steden in het westen"],
+      "correctIndex": 1,
+      "explanation": "De Waddeneilanden zijn eilanden in het noorden van Nederland, in de Waddenzee."
+    },
+    {
+      "id": "knm-a2-2-q32",
+      "text": "Welke grote rivieren stromen door Nederland?",
+      "options": ["De Donau en de Elbe", "De Rijn, Maas en Schelde", "De Theems en de Seine", "De Wolga en de Oder"],
+      "correctIndex": 1,
+      "explanation": "De grote rivieren die door Nederland stromen zijn de Rijn, Maas en Schelde."
+    },
+    {
+      "id": "knm-a2-2-q33",
+      "text": "Wat is een polder?",
+      "options": ["Een berg", "Land dat door dijken is ingepolderd en drooggehouden wordt", "Een bos", "Een meer"],
+      "correctIndex": 1,
+      "explanation": "Een polder is drooggelegd land dat door dijken en pompen droog wordt gehouden."
+    },
+    {
+      "id": "knm-a2-2-q34",
+      "text": "Waarom zijn windmolens belangrijk in de Nederlandse geschiedenis?",
+      "options": ["Voor elektriciteit", "Om water uit polders te pompen", "Voor transport", "Voor verwarming"],
+      "correctIndex": 1,
+      "explanation": "Windmolens werden gebruikt om water uit polders weg te pompen en het land droog te houden."
+    },
+    {
+      "id": "knm-a2-2-q35",
+      "text": "Wat is een kinderopvang?",
+      "options": ["Een school voor kinderen", "Een plek waar kinderen worden opgevangen terwijl ouders werken", "Een ziekenhuis voor kinderen", "Een speeltuin"],
+      "correctIndex": 1,
+      "explanation": "Kinderopvang is een plek waar kinderen worden opgevangen terwijl de ouders werken."
+    },
+    {
+      "id": "knm-a2-2-q36",
+      "text": "Wat is kinderopvangtoeslag?",
+      "options": ["Geld voor speelgoed", "Een toeslag van de overheid om kinderopvang te betalen", "Geld voor school", "Een lening voor ouders"],
+      "correctIndex": 1,
+      "explanation": "Kinderopvangtoeslag is een toeslag van de overheid om de kosten van kinderopvang te betalen."
+    },
+    {
+      "id": "knm-a2-2-q37",
+      "text": "Wat moet je doen als je je kind ziek meldt op school?",
+      "options": ["Niets doen", "De school bellen om te melden dat je kind ziek is", "Je kind toch naar school sturen", "Wachten tot de school belt"],
+      "correctIndex": 1,
+      "explanation": "Als je kind ziek is, moet je de school bellen om het te melden."
+    },
+    {
+      "id": "knm-a2-2-q38",
+      "text": "Wat is de Belastingtelefoon?",
+      "options": ["Een telefoon om te klagen", "Een telefoonnummer om vragen over belastingen te stellen", "Een telefoon voor noodgevallen", "Een commerciële dienst"],
+      "correctIndex": 1,
+      "explanation": "Via de Belastingtelefoon kun je vragen stellen over belastingen en toeslagen."
+    },
+    {
+      "id": "knm-a2-2-q39",
+      "text": "Wat is DigiD?",
+      "options": ["Een sociale media app", "Een digitale identiteit om in te loggen bij overheidsdiensten", "Een bank app", "Een spelletje"],
+      "correctIndex": 1,
+      "explanation": "DigiD is een digitale identiteit waarmee je kunt inloggen bij overheidsdiensten."
+    },
+    {
+      "id": "knm-a2-2-q40",
+      "text": "Wat is de betekenis van inburgeren?",
+      "options": ["Alleen een examen maken", "Meedoen in de Nederlandse samenleving: taal leren, werken en de normen en waarden kennen", "Alleen Nederlands leren", "Een visum krijgen"],
+      "correctIndex": 1,
+      "explanation": "Inburgeren betekent meedoen in de Nederlandse samenleving: de taal leren, werken en de normen en waarden kennen."
+    }
+  ]
+}
