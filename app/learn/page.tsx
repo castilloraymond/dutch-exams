@@ -1,66 +1,33 @@
 "use client";
 
 import Link from "next/link";
-import { useProgress } from "@/hooks/useProgress";
-import { getContentIndex, getKNMIndex, getListeningIndex } from "@/lib/content";
 import { ArrowLeft, BookOpen, Landmark, Headphones } from "lucide-react";
 
 const modules = [
   {
     id: "lezen",
     name: "Lezen (Reading)",
-    description: "Practice Dutch reading comprehension with real-world passages.",
+    description: "Oefen je Nederlandse leesvaardigheid met realistische teksten.",
     icon: BookOpen,
     href: "/learn/lezen",
   },
   {
     id: "knm",
     name: "KNM (Dutch Society)",
-    description: "Test your knowledge of Dutch culture, history, and values.",
+    description: "Test je kennis over Nederlandse cultuur, geschiedenis en waarden.",
     icon: Landmark,
     href: "/learn/knm",
   },
   {
     id: "luisteren",
     name: "Luisteren (Listening)",
-    description: "Listen to Dutch audio fragments and answer questions.",
+    description: "Luister naar Nederlandse audiofragmenten en beantwoord vragen.",
     icon: Headphones,
     href: "/learn/luisteren",
   },
 ];
 
 export default function LearnHubPage() {
-  const { progress, isLoaded } = useProgress();
-  const contentIndex = getContentIndex();
-  const knmIndex = getKNMIndex();
-  const listeningIndex = getListeningIndex();
-
-  function getModuleStats(id: string) {
-    if (!isLoaded) return null;
-    if (id === "lezen") {
-      const total = contentIndex.passages.length;
-      const completed = contentIndex.passages.filter(
-        (p) => progress.passageProgress[p.id]?.completed
-      ).length;
-      return { total, completed };
-    }
-    if (id === "knm") {
-      const total = knmIndex.topics.length;
-      const completed = knmIndex.topics.filter(
-        (t) => progress.passageProgress[`knm-${t.id}`]?.completed
-      ).length;
-      return { total, completed };
-    }
-    if (id === "luisteren") {
-      const total = listeningIndex.exercises.length;
-      const completed = listeningIndex.exercises.filter(
-        (e) => progress.passageProgress[`luisteren-${e.id}`]?.completed
-      ).length;
-      return { total, completed };
-    }
-    return null;
-  }
-
   return (
     <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
       <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
@@ -72,7 +39,9 @@ export default function LearnHubPage() {
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">Practice Modules</h1>
+            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+              Oefenexamens
+            </h1>
           </div>
         </div>
       </header>
@@ -80,31 +49,31 @@ export default function LearnHubPage() {
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
           <div>
-            <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)] mb-2">Choose a Module</h2>
+            <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)] mb-2">
+              Kies een Module
+            </h2>
             <p className="text-[var(--landing-navy)]/60">
-              Select a module to start practicing for your inburgering exam.
+              Selecteer een module om te oefenen voor je inburgeringsexamen.
             </p>
           </div>
 
           <div className="space-y-4">
             {modules.map((mod) => {
               const Icon = mod.icon;
-              const stats = getModuleStats(mod.id);
               return (
                 <Link key={mod.id} href={mod.href}>
-                  <div className="landing-card p-4 sm:p-6 cursor-pointer mb-4">
+                  <div className="landing-card p-4 sm:p-6 cursor-pointer mb-4 hover:shadow-lg transition-shadow">
                     <div className="flex items-center gap-4">
                       <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center">
                         <Icon className="h-6 w-6 text-[var(--landing-orange)]" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold text-lg text-[var(--landing-navy)]">{mod.name}</h3>
-                        <p className="text-sm text-[var(--landing-navy)]/60">{mod.description}</p>
-                        {stats && (
-                          <p className="text-xs text-[var(--landing-navy)]/50 mt-1">
-                            {stats.completed}/{stats.total} completed
-                          </p>
-                        )}
+                        <h3 className="font-semibold text-lg text-[var(--landing-navy)]">
+                          {mod.name}
+                        </h3>
+                        <p className="text-sm text-[var(--landing-navy)]/60">
+                          {mod.description}
+                        </p>
                       </div>
                     </div>
                   </div>

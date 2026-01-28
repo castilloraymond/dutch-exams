@@ -1,43 +1,45 @@
 {
-  "id": "de-supermarkt",
-  "title": "De Supermarkt",
-  "difficulty": "A0",
-  "content": "Maria gaat naar de supermarkt. Ze heeft een boodschappenlijstje. Ze moet melk, brood, kaas en appels kopen. De melk staat in de koeling. Het brood is bij de bakkerij. Maria vindt alles. Bij de kassa betaalt ze met haar pinpas. De kassière zegt: \"Dat is 12 euro en 50 cent.\" Maria zegt: \"Dank u wel. Dag!\"",
+  "id": "tips-om-goed-te-leren",
+  "title": "Tips om goed te leren",
+  "contentType": "list",
+  "instruction": "In een opleidingsgids staan tips om te leren.\nLees eerst de vraag.\nLees daarna de tekst.",
+  "difficulty": "A2",
+  "content": "Tips om goed te leren\n\nIedereen leert op zijn eigen manier. Toch geven we u een paar tips om beter te kunnen leren.\n\n1. Begin met het maken van een planning: wat gaat u wanneer doen? Elke dag een beetje leren is beter dan alles op één dag leren. Lees op verschillende dagen dezelfde bladzijdes een paar keer opnieuw. U onthoudt de informatie dan beter.\n\n2. Zoek uit wanneer u het beste kunt leren: 's morgens, 's middags of 's avonds.\n\n3. Leer niet langer dan een half uur. Neem daarna een pauze of ga even iets heel anders doen.\n\n4. Leer in een rustige omgeving. Denk niet teveel aan andere dingen.\n\n5. Lees eerst een stuk tekst. Denk daarna even na over de inhoud. Lees dan een nieuw stuk tekst en denk weer na over die inhoud. Ga zo verder tot het einde van de tekst.\n\n6. Leg aan iemand anders uit wat u hebt gelezen. Als u dat kunt, weet u zeker dat u het hebt begrepen. U onthoudt informatie beter als u het aan iemand hebt verteld.",
   "questions": [
     {
-      "id": "q1",
-      "text": "Waar gaat Maria naartoe?",
-      "options": ["Naar de markt", "Naar de supermarkt", "Naar de bakker", "Naar het station"],
+      "id": "tips-q1",
+      "text": "Wat is beter: elke dag een beetje leren of alles op één dag leren?",
+      "options": ["Alles op één dag leren", "Elke dag een beetje leren", "Alleen in het weekend leren", "Alleen 's avonds leren"],
       "correctIndex": 1,
-      "explanation": "De eerste zin zegt: 'Maria gaat naar de supermarkt.'"
+      "explanation": "De tekst zegt: 'Elke dag een beetje leren is beter dan alles op één dag leren.'"
     },
     {
-      "id": "q2",
-      "text": "Wat moet Maria kopen?",
-      "options": ["Vlees en vis", "Melk, brood, kaas en appels", "Groenten en fruit", "Water en sap"],
+      "id": "tips-q2",
+      "text": "Hoe lang moet je volgens de tips maximaal achter elkaar leren?",
+      "options": ["Een kwartier", "Een half uur", "Een uur", "Twee uur"],
       "correctIndex": 1,
-      "explanation": "Maria moet melk, brood, kaas en appels kopen."
+      "explanation": "Tip 3 zegt: 'Leer niet langer dan een half uur.'"
     },
     {
-      "id": "q3",
-      "text": "Waar staat de melk?",
-      "options": ["Bij de kassa", "Bij de bakkerij", "In de koeling", "Bij de ingang"],
-      "correctIndex": 2,
-      "explanation": "De tekst zegt: 'De melk staat in de koeling.'"
+      "id": "tips-q3",
+      "text": "Wat moet je doen als je te lang hebt geleerd?",
+      "options": ["Doorleren", "Een pauze nemen of iets anders doen", "Naar bed gaan", "Koffie drinken"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'Neem daarna een pauze of ga even iets heel anders doen.'"
     },
     {
-      "id": "q4",
-      "text": "Hoe betaalt Maria?",
-      "options": ["Met contant geld", "Met haar pinpas", "Met een cadeaubon", "Ze betaalt niet"],
+      "id": "tips-q4",
+      "text": "In welke omgeving kun je het beste leren?",
+      "options": ["Een drukke omgeving", "Een rustige omgeving", "In de trein", "Bij vrienden thuis"],
       "correctIndex": 1,
-      "explanation": "Maria betaalt met haar pinpas."
+      "explanation": "Tip 4 zegt: 'Leer in een rustige omgeving.'"
     },
     {
-      "id": "q5",
-      "text": "Hoeveel moet Maria betalen?",
-      "options": ["10 euro", "12 euro en 50 cent", "15 euro", "20 euro"],
+      "id": "tips-q5",
+      "text": "Hoe weet je zeker dat je iets hebt begrepen?",
+      "options": ["Als je het uit je hoofd kunt opzeggen", "Als je het aan iemand anders kunt uitleggen", "Als je het hebt opgeschreven", "Als je het twee keer hebt gelezen"],
       "correctIndex": 1,
-      "explanation": "De kassière zegt: 'Dat is 12 euro en 50 cent.'"
+      "explanation": "Tip 6 zegt: 'Leg aan iemand anders uit wat u hebt gelezen. Als u dat kunt, weet u zeker dat u het hebt begrepen.'"
     }
   ]
 }

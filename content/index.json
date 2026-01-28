@@ -3,33 +3,33 @@
   "description": "Reading Comprehension",
   "passages": [
     {
-      "id": "de-supermarkt",
-      "title": "De Supermarkt",
-      "difficulty": "A0",
+      "id": "tips-om-goed-te-leren",
+      "title": "Tips om goed te leren",
+      "difficulty": "A2",
       "questionCount": 5
     },
     {
-      "id": "op-het-station",
-      "title": "Op het Station",
-      "difficulty": "A0",
+      "id": "brief-van-de-gemeente",
+      "title": "Brief van de gemeente",
+      "difficulty": "A2",
       "questionCount": 5
     },
     {
-      "id": "bij-de-dokter",
-      "title": "Bij de Dokter",
-      "difficulty": "A1",
+      "id": "advertentie-cursus-nederlands",
+      "title": "Advertentie: Cursus Nederlands",
+      "difficulty": "A2",
       "questionCount": 5
     },
     {
-      "id": "een-brief",
-      "title": "Een Brief",
-      "difficulty": "A1",
+      "id": "artikel-fietsen-in-nederland",
+      "title": "Fietsen in Nederland",
+      "difficulty": "A2",
       "questionCount": 5
     },
     {
-      "id": "de-buurt",
-      "title": "De Buurt",
-      "difficulty": "A1",
+      "id": "huisregels-appartementencomplex",
+      "title": "Huisregels appartementencomplex",
+      "difficulty": "A2",
       "questionCount": 5
     }
   ]

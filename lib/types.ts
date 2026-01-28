@@ -6,18 +6,23 @@ export interface Question {
   explanation?: string;
 }
 
+// Content types for structured passage rendering
+export type PassageContentType = "text" | "list" | "letter" | "notice";
+
 export interface Passage {
   id: string;
   title: string;
   content: string;
-  difficulty: "A0" | "A1";
+  contentType?: PassageContentType;
+  instruction?: string;
+  difficulty: "A2";
   questions: Question[];
 }
 
 export interface PassageSummary {
   id: string;
   title: string;
-  difficulty: "A0" | "A1";
+  difficulty: "A2";
   questionCount: number;
 }
 
@@ -42,7 +47,23 @@ export interface UserProgress {
   email?: string;
 }
 
-export type ExamMode = 'practice' | 'exam';
+// Exam state for navigation and answer tracking
+export interface ExamState {
+  answers: Record<string, number | null>;
+  bookmarked: Set<string>;
+  currentQuestionIndex: number;
+  startTime: number;
+}
+
+// Answer record for results review
+export interface AnswerRecord {
+  questionId: string;
+  questionText: string;
+  options: string[];
+  userAnswer: number | null;
+  correctAnswer: number;
+  explanation?: string;
+}
 
 // KNM types
 export interface KNMTopic {
@@ -69,15 +90,16 @@ export interface KNMIndex {
 export interface ListeningExercise {
   id: string;
   title: string;
-  difficulty: "A0" | "A1";
+  difficulty: "A2";
   transcript: string;
+  audioFile?: string;
   questions: Question[];
 }
 
 export interface ListeningExerciseSummary {
   id: string;
   title: string;
-  difficulty: "A0" | "A1";
+  difficulty: "A2";
   questionCount: number;
 }
 

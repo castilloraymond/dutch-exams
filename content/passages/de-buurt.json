@@ -1,43 +1,45 @@
 {
-  "id": "de-buurt",
-  "title": "De Buurt",
-  "difficulty": "A1",
-  "content": "Lisa woont in een nieuwe buurt. Ze leest een brief in de brievenbus. Het is een uitnodiging voor een buurtfeest. Het feest is op zaterdag 15 juni van 14:00 tot 18:00. Het feest is in het park achter de school. Er is eten en drinken. Kinderen kunnen spelen. De brief zegt: \"Neem een salade of taart mee.\" Lisa wil graag haar buren ontmoeten. Ze besluit om appeltaart te maken.",
+  "id": "huisregels-appartementencomplex",
+  "title": "Huisregels appartementencomplex",
+  "contentType": "list",
+  "instruction": "U leest de huisregels van een appartementencomplex.\nLees eerst de vraag.\nLees daarna de regels.",
+  "difficulty": "A2",
+  "content": "Huisregels appartementencomplex De Zonnehoek\n\nWelkom in ons appartementencomplex. Om prettig samen te wonen, vragen wij u de volgende regels te respecteren:\n\n1. Rust: Tussen 22:00 en 07:00 uur graag geen lawaai maken. Gebruik na 22:00 uur geen wasmachine of boor.\n\n2. Gemeenschappelijke ruimtes: Houd de hal, lift en trappen schoon. Zet geen spullen in de gang. Dit is ook voor de brandveiligheid.\n\n3. Afval: Breng uw afval naar de containers achter het gebouw. Sorteer uw afval: papier, plastic, glas en restafval apart.\n\n4. Huisdieren: Honden en katten zijn toegestaan. Houd uw hond aan de lijn in de gemeenschappelijke ruimtes. Ruim de uitwerpselen van uw hond op.\n\n5. Parkeren: Parkeer uw auto alleen op de aangewezen parkeerplaatsen. Fietsen stallen in de fietsenstalling, niet bij de ingang.\n\n6. Problemen: Bij klachten of problemen kunt u contact opnemen met de beheerder via beheer@zonnehoek.nl of 020-9876543.\n\nDank u wel voor uw medewerking!",
   "questions": [
     {
-      "id": "q1",
-      "text": "Wat krijgt Lisa in de brievenbus?",
-      "options": ["Een rekening", "Een uitnodiging voor een buurtfeest", "Een brief van de gemeente", "Een pakketje"],
-      "correctIndex": 1,
-      "explanation": "Lisa krijgt een uitnodiging voor een buurtfeest."
-    },
-    {
-      "id": "q2",
-      "text": "Wanneer is het feest?",
-      "options": ["Vrijdag 14 juni", "Zaterdag 15 juni", "Zondag 16 juni", "Maandag 17 juni"],
-      "correctIndex": 1,
-      "explanation": "Het feest is op zaterdag 15 juni."
-    },
-    {
-      "id": "q3",
-      "text": "Waar is het feest?",
-      "options": ["In het buurthuis", "Op het plein", "In het park achter de school", "In de sportzaal"],
+      "id": "huis-q1",
+      "text": "Vanaf hoe laat mag je geen lawaai meer maken?",
+      "options": ["20:00 uur", "21:00 uur", "22:00 uur", "23:00 uur"],
       "correctIndex": 2,
-      "explanation": "Het feest is in het park achter de school."
+      "explanation": "Regel 1 zegt: 'Tussen 22:00 en 07:00 uur graag geen lawaai maken.'"
     },
     {
-      "id": "q4",
-      "text": "Wat moeten mensen meenemen?",
-      "options": ["Geld", "Een salade of taart", "Stoelen", "Muziek"],
+      "id": "huis-q2",
+      "text": "Waarom mag je geen spullen in de gang zetten?",
+      "options": ["Omdat het lelijk is", "Voor de brandveiligheid", "Omdat de buren klagen", "Omdat het verboden is"],
       "correctIndex": 1,
-      "explanation": "De brief zegt dat mensen een salade of taart moeten meenemen."
+      "explanation": "De tekst zegt: 'Zet geen spullen in de gang. Dit is ook voor de brandveiligheid.'"
     },
     {
-      "id": "q5",
-      "text": "Wat gaat Lisa maken?",
-      "options": ["Een salade", "Een pizza", "Appeltaart", "Soep"],
+      "id": "huis-q3",
+      "text": "Waar moet je je afval brengen?",
+      "options": ["Voor de deur", "In de gang", "Naar de containers achter het gebouw", "Naar de supermarkt"],
       "correctIndex": 2,
-      "explanation": "Lisa besluit om appeltaart te maken."
+      "explanation": "De tekst zegt: 'Breng uw afval naar de containers achter het gebouw.'"
+    },
+    {
+      "id": "huis-q4",
+      "text": "Wat moet je doen met je hond in de gemeenschappelijke ruimtes?",
+      "options": ["De hond dragen", "De hond aan de lijn houden", "De hond thuislaten", "De hond loslaten"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'Houd uw hond aan de lijn in de gemeenschappelijke ruimtes.'"
+    },
+    {
+      "id": "huis-q5",
+      "text": "Waar kun je met klachten of problemen terecht?",
+      "options": ["Bij de buren", "Bij de politie", "Bij de beheerder", "Bij de gemeente"],
+      "correctIndex": 2,
+      "explanation": "De tekst zegt: 'Bij klachten of problemen kunt u contact opnemen met de beheerder.'"
     }
   ]
 }

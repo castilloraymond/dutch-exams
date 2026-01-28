@@ -1,4 +1,4 @@
-import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise } from "./types";
+import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question } from "./types";
 
 // Lezen (Reading) content
 import contentIndex from "@/content/index.json";
@@ -28,11 +28,11 @@ import bijDeHuisarts from "@/content/luisteren/exercises/bij-de-huisarts.json";
 import opHetWerk from "@/content/luisteren/exercises/op-het-werk.json";
 
 const passages: Record<string, Passage> = {
-  "de-supermarkt": deSupermarkt as Passage,
-  "op-het-station": opHetStation as Passage,
-  "bij-de-dokter": bijDeDokter as Passage,
-  "een-brief": eenBrief as Passage,
-  "de-buurt": deBuurt as Passage,
+  "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
+  "brief-van-de-gemeente": opHetStation as unknown as Passage,
+  "advertentie-cursus-nederlands": bijDeDokter as unknown as Passage,
+  "artikel-fietsen-in-nederland": eenBrief as unknown as Passage,
+  "huisregels-appartementencomplex": deBuurt as unknown as Passage,
 };
 
 const knmTopics: Record<string, KNMTopic> = {
@@ -47,16 +47,16 @@ const knmTopics: Record<string, KNMTopic> = {
 };
 
 const listeningExercises: Record<string, ListeningExercise> = {
-  "bij-de-bakker": bijDeBakker as ListeningExercise,
-  "op-het-gemeentehuis": opHetGemeentehuis as ListeningExercise,
-  "een-telefoongesprek": eenTelefoongesprek as ListeningExercise,
-  "bij-de-huisarts": bijDeHuisarts as ListeningExercise,
-  "op-het-werk": opHetWerk as ListeningExercise,
+  "bij-de-bakker": bijDeBakker as unknown as ListeningExercise,
+  "op-het-gemeentehuis": opHetGemeentehuis as unknown as ListeningExercise,
+  "een-telefoongesprek": eenTelefoongesprek as unknown as ListeningExercise,
+  "bij-de-huisarts": bijDeHuisarts as unknown as ListeningExercise,
+  "op-het-werk": opHetWerk as unknown as ListeningExercise,
 };
 
 // Lezen functions
 export function getContentIndex(): ContentIndex {
-  return contentIndex as ContentIndex;
+  return contentIndex as unknown as ContentIndex;
 }
 
 export function getPassage(id: string): Passage | null {
@@ -65,6 +65,21 @@ export function getPassage(id: string): Passage | null {
 
 export function getAllPassageIds(): string[] {
   return Object.keys(passages);
+}
+
+export function getAllPassages(): Passage[] {
+  return Object.values(passages);
+}
+
+// Get all questions from all passages for the Lezen mock exam
+export function getLezenExamQuestions(): { passage: Passage; question: Question }[] {
+  const allQuestions: { passage: Passage; question: Question }[] = [];
+  for (const passage of Object.values(passages)) {
+    for (const question of passage.questions) {
+      allQuestions.push({ passage, question });
+    }
+  }
+  return allQuestions;
 }
 
 // KNM functions
@@ -76,13 +91,43 @@ export function getKNMTopic(id: string): KNMTopic | null {
   return knmTopics[id] || null;
 }
 
+export function getAllKNMTopics(): KNMTopic[] {
+  return Object.values(knmTopics);
+}
+
+// Get all questions from all KNM topics for the KNM mock exam
+export function getKNMExamQuestions(): { topic: KNMTopic; question: Question }[] {
+  const allQuestions: { topic: KNMTopic; question: Question }[] = [];
+  for (const topic of Object.values(knmTopics)) {
+    for (const question of topic.questions) {
+      allQuestions.push({ topic, question });
+    }
+  }
+  return allQuestions;
+}
+
 // Luisteren functions
 export function getListeningIndex(): ListeningIndex {
-  return luisterenIndex as ListeningIndex;
+  return luisterenIndex as unknown as ListeningIndex;
 }
 
 export function getListeningExercise(id: string): ListeningExercise | null {
   return listeningExercises[id] || null;
+}
+
+export function getAllListeningExercises(): ListeningExercise[] {
+  return Object.values(listeningExercises);
+}
+
+// Get all questions from all listening exercises for the Luisteren mock exam
+export function getLuisterenExamQuestions(): { exercise: ListeningExercise; question: Question }[] {
+  const allQuestions: { exercise: ListeningExercise; question: Question }[] = [];
+  for (const exercise of Object.values(listeningExercises)) {
+    for (const question of exercise.questions) {
+      allQuestions.push({ exercise, question });
+    }
+  }
+  return allQuestions;
 }
 
 // Utility
