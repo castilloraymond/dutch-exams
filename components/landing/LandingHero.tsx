@@ -18,8 +18,8 @@ export function LandingHero() {
                         </span>
 
                         <h1 className="font-serif text-4xl md:text-5xl font-semibold text-[var(--landing-navy)] leading-tight mb-6 animate-reveal-delay-2">
-                            Get the practice you need to pass the{" "}
-                            <span className="text-[var(--landing-orange)]">Inburgering Exams</span>
+                            The practice you need to pass the{" "}
+                            <span className="text-[var(--landing-orange)]">Inburgering Exam</span>
                         </h1>
 
                         <p className="font-sans-landing text-lg text-[var(--landing-navy)]/60 max-w-lg mb-8 leading-relaxed animate-reveal-delay-3">
@@ -37,7 +37,7 @@ export function LandingHero() {
                             ))}
                         </ul>
 
-                        <div className="animate-reveal-delay-4">
+                        <div id="email-capture" className="animate-reveal-delay-4">
                             <EmailCapture variant="hero" />
                         </div>
                     </div>

@@ -1,40 +1,28 @@
 export function Testimonials() {
-    const testimonials = [
-        {
-            quote: "After months of Duolingo and €500 on a tutor, I still wasn't confident. Two weeks of practice tests here and I passed first try.",
-            name: "Sarah K.",
-            role: "Software Engineer at Booking.com",
-        },
-        {
-            quote: "The computer-based practice was exactly what I needed. The real exam felt familiar, not stressful. Highly recommend for busy professionals.",
-            name: "Marco V.",
-            role: "Product Manager at ASML",
-        },
-        {
-            quote: "I have very little time between work and family. The 15-minute practice sessions fit perfectly into my lunch breaks. Passed KNM on my first attempt.",
-            name: "Priya S.",
-            role: "Finance Lead at Adyen",
-        },
-    ];
-
     return (
         <section className="py-20 bg-[var(--landing-navy)]">
-            <div className="max-w-6xl mx-auto px-8">
-                <div className="font-sans-landing text-white/50 text-sm text-center mb-12 uppercase tracking-wide">
-                    What Expats Say
+            <div className="max-w-3xl mx-auto px-8">
+                <div className="font-sans-landing text-white/50 text-sm text-center mb-8 uppercase tracking-wide">
+                    Why I Built This
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
-                    {testimonials.map((t, i) => (
-                        <div key={i} className="text-center">
-                            <blockquote className="font-serif text-lg text-white leading-relaxed mb-6">
-                                "{t.quote}"
-                            </blockquote>
-                            <div className="font-sans-landing">
-                                <div className="text-white font-medium">{t.name}</div>
-                            </div>
-                        </div>
-                    ))}
+                <div className="text-center">
+                    <blockquote className="font-serif text-xl md:text-2xl text-white leading-relaxed mb-8">
+                        "Three weeks before my exam, I panicked. I'd done Duolingo for months and even paid for a tutor, but when I took my first mock exam—I failed. Hard.
+                    </blockquote>
+
+                    <p className="font-sans-landing text-white/70 text-lg leading-relaxed mb-6">
+                        The problem wasn't vocabulary. It was that I'd never practiced under real exam conditions. I needed drills. I needed practice tests that felt like the actual thing. I needed to get comfortable with the pressure.
+                    </p>
+
+                    <p className="font-sans-landing text-white/70 text-lg leading-relaxed mb-8">
+                        I couldn't find that resource anywhere. So after I passed, I built it myself. This is the tool I wish had existed when I was preparing."
+                    </p>
+
+                    <div className="font-sans-landing">
+                        <div className="text-white font-medium">— The Creator</div>
+                        <div className="text-white/50 text-sm mt-1">Passed Inburgering 2024</div>
+                    </div>
                 </div>
             </div>
         </section>

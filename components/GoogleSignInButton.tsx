@@ -25,7 +25,7 @@ export function GoogleSignInButton({ className = "", children }: GoogleSignInBut
     <button
       onClick={handleClick}
       disabled={loading}
-      className={`inline-flex items-center justify-center gap-3 px-6 py-3 bg-white border border-gray-200 rounded-full font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm ${className}`}
+      className={`inline-flex items-center justify-center gap-3 px-6 py-3 bg-white border border-gray-200 rounded-full font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer shadow-sm ${className}`}
     >
       {/* Google Icon */}
       <svg className="w-5 h-5" viewBox="0 0 24 24">

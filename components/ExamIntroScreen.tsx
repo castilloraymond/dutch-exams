@@ -48,7 +48,7 @@ export function ExamIntroScreen({
           </div>
         )}
 
-        <button onClick={onStart} className="cta-primary w-full py-3 text-base">
+        <button onClick={onStart} className="cta-primary w-full py-3 text-base cursor-pointer">
           Start Examen
         </button>
       </div>

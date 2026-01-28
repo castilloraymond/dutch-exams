@@ -61,7 +61,7 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
           <div className="flex items-center gap-4">
             <Link
               href="/learn"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors cursor-pointer"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>

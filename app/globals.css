@@ -127,6 +127,10 @@
     @apply border-border outline-ring/50;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -194,6 +198,7 @@
 .cta-primary {
   background: var(--landing-orange);
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .cta-primary:hover {

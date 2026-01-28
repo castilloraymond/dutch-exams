@@ -36,13 +36,13 @@ export function ExitWarningModal({ isOpen, onCancel, onConfirm }: ExitWarningMod
         <div className="flex flex-col sm:flex-row gap-3">
           <button
             onClick={onCancel}
-            className="flex-1 py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors"
+            className="flex-1 py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors cursor-pointer"
           >
             Annuleren / Cancel
           </button>
           <button
             onClick={onConfirm}
-            className="flex-1 py-3 px-4 rounded-lg bg-[var(--landing-red)] text-white font-medium hover:bg-[var(--landing-red)]/90 transition-colors"
+            className="flex-1 py-3 px-4 rounded-lg bg-[var(--landing-red)] text-white font-medium hover:bg-[var(--landing-red)]/90 transition-colors cursor-pointer"
           >
             Verlaten / Exit
           </button>

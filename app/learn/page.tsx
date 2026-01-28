@@ -46,6 +46,17 @@ export default function LearnHubPage() {
         </div>
       </header>
 
+      {/* Mock-up callout */}
+      <div className="container mx-auto px-4 pt-4">
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-[var(--landing-orange)]/10 border border-[var(--landing-orange)]/30 rounded-lg p-4">
+            <p className="text-sm text-[var(--landing-navy)]">
+              <span className="font-semibold">Note:</span> This is a mock-up of the actual test. Everything you will now see is in Dutch to simulate what you will actually see when you take the test.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
           <div>

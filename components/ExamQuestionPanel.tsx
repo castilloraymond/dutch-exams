@@ -32,7 +32,7 @@ export function ExamQuestionPanel({
             key={index}
             onClick={() => onSelectAnswer(index)}
             className={cn(
-              "w-full text-left p-4 rounded-xl border-2 transition-all flex items-start gap-3 bg-white",
+              "w-full text-left p-4 rounded-xl border-2 transition-all flex items-start gap-3 bg-white cursor-pointer",
               selectedAnswer === index
                 ? "border-[var(--landing-orange)] bg-[var(--landing-orange)]/5"
                 : "border-[var(--landing-navy)]/10 hover:border-[var(--landing-navy)]/30"

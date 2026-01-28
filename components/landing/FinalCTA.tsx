@@ -20,7 +20,7 @@ export function FinalCTA() {
                     {user ? (
                         <Link
                             href="/learn"
-                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing"
+                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing cursor-pointer"
                         >
                             Continue to Practice
                         </Link>
@@ -31,14 +31,14 @@ export function FinalCTA() {
                     ) : (
                         <Link
                             href="/learn"
-                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing"
+                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing cursor-pointer"
                         >
                             Try a Sample Exam
                         </Link>
                     )}
                     <Link
                         href="#modules"
-                        className="px-8 py-4 border border-white/20 text-white rounded-full font-medium font-sans-landing hover:bg-white/5 transition-colors"
+                        className="px-8 py-4 border border-white/20 text-white rounded-full font-medium font-sans-landing hover:bg-white/5 transition-colors cursor-pointer"
                     >
                         View Pricing
                     </Link>

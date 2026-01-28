@@ -14,10 +14,10 @@ export function ModuleGrid() {
             <div className="max-w-6xl mx-auto px-8">
                 <div className="text-center mb-12">
                     <span className="font-sans-landing text-sm font-medium text-[var(--landing-orange)] tracking-wide uppercase">
-                        Complete Coverage
+                        Everything you need to prepare
                     </span>
                     <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mt-3">
-                        Every Module You Need to Pass
+                        Covers all the topics in the Inburgering Exam
                     </h2>
                 </div>
 
@@ -52,7 +52,7 @@ export function ModuleGrid() {
                         }`;
 
                         return mod.status === "live" ? (
-                            <Link key={i} href={mod.href} className={cardClass}>
+                            <Link key={i} href={mod.href} className={`${cardClass} cursor-pointer`}>
                                 {cardContent}
                             </Link>
                         ) : (

@@ -38,7 +38,7 @@ export function ExamBottomNav({
             "flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm transition-colors",
             isFirst
               ? "text-[var(--landing-navy)]/30 cursor-not-allowed"
-              : "text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5"
+              : "text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 cursor-pointer"
           )}
         >
           <ChevronLeft className="h-4 w-4" />
@@ -49,7 +49,7 @@ export function ExamBottomNav({
         <div className="flex items-center gap-3">
           <button
             onClick={onOpenGrid}
-            className="p-2 rounded-lg text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 transition-colors"
+            className="p-2 rounded-lg text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
             title="Question overview"
           >
             <Grid3X3 className="h-5 w-5" />
@@ -58,7 +58,7 @@ export function ExamBottomNav({
           <button
             onClick={onToggleBookmark}
             className={cn(
-              "p-2 rounded-lg transition-colors",
+              "p-2 rounded-lg transition-colors cursor-pointer",
               isBookmarked
                 ? "text-[var(--landing-orange)] bg-[var(--landing-orange)]/10"
                 : "text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5"
@@ -82,14 +82,14 @@ export function ExamBottomNav({
           {isLast ? (
             <button
               onClick={onSubmit}
-              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm bg-[var(--landing-orange)] text-white hover:bg-[var(--landing-orange)]/90 transition-colors"
+              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm bg-[var(--landing-orange)] text-white hover:bg-[var(--landing-orange)]/90 transition-colors cursor-pointer"
             >
               <span>INDIENEN</span>
             </button>
           ) : (
             <button
               onClick={onNext}
-              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 transition-colors"
+              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
             >
               <span className="hidden sm:inline">VOLGENDE</span>
               <ChevronRight className="h-4 w-4" />

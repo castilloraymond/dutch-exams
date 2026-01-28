@@ -64,13 +64,13 @@ export function DutchLanguageBanner({ onContinue, onGoBack }: DutchLanguageBanne
           <div className="flex flex-col sm:flex-row gap-3">
             <button
               onClick={onGoBack}
-              className="flex-1 py-3 px-6 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors"
+              className="flex-1 py-3 px-6 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors cursor-pointer"
             >
               Terug / Go Back
             </button>
             <button
               onClick={handleContinue}
-              className="flex-1 cta-primary py-3 px-6 rounded-lg"
+              className="flex-1 cta-primary py-3 px-6 rounded-lg cursor-pointer"
             >
               Doorgaan / Continue
             </button>

@@ -82,13 +82,13 @@ export function ResultsSummary({
         <div className="space-y-3 pt-2">
           <button
             onClick={onRetry}
-            className="w-full py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors flex items-center justify-center gap-2"
+            className="w-full py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors flex items-center justify-center gap-2 cursor-pointer"
           >
             <RotateCcw className="h-4 w-4" />
             Opnieuw proberen
           </button>
-          <Link href={backHref} className="block">
-            <button className="cta-primary w-full py-3 flex items-center justify-center gap-2">
+          <Link href={backHref} className="block cursor-pointer">
+            <button className="cta-primary w-full py-3 flex items-center justify-center gap-2 cursor-pointer">
               <ArrowLeft className="h-4 w-4" />
               {backLabel}
             </button>
@@ -101,7 +101,7 @@ export function ResultsSummary({
         <div className="w-full max-w-2xl mt-6">
           <button
             onClick={() => setShowReview(!showReview)}
-            className="w-full landing-card p-4 flex items-center justify-between text-left hover:bg-[var(--landing-navy)]/5 transition-colors"
+            className="w-full landing-card p-4 flex items-center justify-between text-left hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
           >
             <span className="font-semibold text-[var(--landing-navy)]">
               Bekijk je antwoorden

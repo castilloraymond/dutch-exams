@@ -39,7 +39,7 @@ export function QuestionGrid({
           </h2>
           <button
             onClick={onClose}
-            className="p-2 rounded-lg text-[var(--landing-navy)]/60 hover:bg-[var(--landing-navy)]/5 transition-colors"
+            className="p-2 rounded-lg text-[var(--landing-navy)]/60 hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
           >
             <X className="h-5 w-5" />
           </button>
@@ -77,7 +77,7 @@ export function QuestionGrid({
                   onClose();
                 }}
                 className={cn(
-                  "relative w-full aspect-square rounded-lg font-medium text-sm transition-all",
+                  "relative w-full aspect-square rounded-lg font-medium text-sm transition-all cursor-pointer",
                   "flex items-center justify-center",
                   isCurrent && "ring-2 ring-[var(--landing-navy)]",
                   isAnswered
