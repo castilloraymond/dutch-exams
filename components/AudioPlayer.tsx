@@ -11,11 +11,140 @@ interface AudioPlayerProps {
   fallbackText?: string;
 }
 
+// Parse dialogue text into segments with speaker info
+interface DialogueSegment {
+  speaker: string | null;
+  text: string;
+}
+
+// Speaker voice configuration - maps speaker types to voice preferences
+const SPEAKER_VOICE_MAP: Record<string, { gender: "male" | "female"; pitch: number }> = {
+  // Customer/patient roles (typically requesting services)
+  klant: { gender: "female", pitch: 1.1 },
+  patiënt: { gender: "female", pitch: 1.1 },
+  patient: { gender: "female", pitch: 1.1 },
+  bezoeker: { gender: "female", pitch: 1.1 },
+  student: { gender: "female", pitch: 1.15 },
+
+  // Service provider roles (typically male voices)
+  bakker: { gender: "male", pitch: 0.9 },
+  arts: { gender: "male", pitch: 0.85 },
+  dokter: { gender: "male", pitch: 0.85 },
+  medewerker: { gender: "male", pitch: 0.9 },
+  ambtenaar: { gender: "male", pitch: 0.9 },
+  receptionist: { gender: "female", pitch: 1.0 },
+  collega: { gender: "male", pitch: 0.95 },
+  baas: { gender: "male", pitch: 0.85 },
+  manager: { gender: "male", pitch: 0.85 },
+  leraar: { gender: "male", pitch: 0.9 },
+  teacher: { gender: "male", pitch: 0.9 },
+  docent: { gender: "male", pitch: 0.9 },
+
+  // Neutral/narrator
+  verteller: { gender: "female", pitch: 1.0 },
+  narrator: { gender: "female", pitch: 1.0 },
+};
+
+function parseDialogue(text: string): DialogueSegment[] {
+  // Pattern to match "Speaker:" at the beginning or after punctuation/space
+  const speakerPattern = /(?:^|(?<=[.!?]\s*))([A-Za-zÀ-ÿ]+):\s*/g;
+
+  const segments: DialogueSegment[] = [];
+  let lastIndex = 0;
+  let currentSpeaker: string | null = null;
+
+  // Find all speaker labels
+  const matches = [...text.matchAll(speakerPattern)];
+
+  if (matches.length === 0) {
+    // No dialogue format detected, return as single segment
+    return [{ speaker: null, text: text.trim() }];
+  }
+
+  for (const match of matches) {
+    // Add any text before this speaker label (shouldn't happen in well-formed dialogue)
+    if (match.index! > lastIndex && currentSpeaker !== null) {
+      const segmentText = text.slice(lastIndex, match.index).trim();
+      if (segmentText) {
+        segments.push({ speaker: currentSpeaker, text: segmentText });
+      }
+    }
+
+    currentSpeaker = match[1].toLowerCase();
+    lastIndex = match.index! + match[0].length;
+  }
+
+  // Add the final segment
+  if (lastIndex < text.length) {
+    const segmentText = text.slice(lastIndex).trim();
+    if (segmentText) {
+      segments.push({ speaker: currentSpeaker, text: segmentText });
+    }
+  }
+
+  return segments;
+}
+
+function getVoiceForSpeaker(
+  speaker: string | null,
+  voices: SpeechSynthesisVoice[],
+  speakerIndex: number
+): { voice: SpeechSynthesisVoice | null; pitch: number } {
+  // Get Dutch voices
+  const dutchVoices = voices.filter(v => v.lang.startsWith("nl"));
+
+  if (dutchVoices.length === 0) {
+    return { voice: null, pitch: 1.0 };
+  }
+
+  // Get voice config for speaker
+  const config = speaker ? SPEAKER_VOICE_MAP[speaker] : null;
+  const preferredGender = config?.gender || (speakerIndex % 2 === 0 ? "female" : "male");
+  const pitch = config?.pitch || 1.0;
+
+  // Try to find a voice matching the preferred gender
+  // Note: Voice names often contain gender hints
+  const genderVoice = dutchVoices.find(v => {
+    const nameLower = v.name.toLowerCase();
+    if (preferredGender === "female") {
+      return nameLower.includes("female") || nameLower.includes("vrouw") ||
+             nameLower.includes("ellen") || nameLower.includes("flo") ||
+             nameLower.includes("sara") || nameLower.includes("anna");
+    } else {
+      return nameLower.includes("male") || nameLower.includes("man") ||
+             nameLower.includes("xander") || nameLower.includes("ruben") ||
+             nameLower.includes("maarten") || !nameLower.includes("female");
+    }
+  });
+
+  return {
+    voice: genderVoice || dutchVoices[speakerIndex % dutchVoices.length],
+    pitch
+  };
+}
+
 export function AudioPlayer({ audioSrc, fallbackText }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const utteranceQueueRef = useRef<number>(0);
+
+  // Load available voices
+  useEffect(() => {
+    const loadVoices = () => {
+      const availableVoices = window.speechSynthesis.getVoices();
+      setVoices(availableVoices);
+    };
+
+    loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+
+    return () => {
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+  }, []);
 
   // Use Web Speech Synthesis as fallback if no audioSrc
   const useFallback = !audioSrc && !!fallbackText;
@@ -52,20 +181,76 @@ export function AudioPlayer({ audioSrc, fallbackText }: AudioPlayerProps) {
     }
   }, [audioSrc]);
 
+  // Speak dialogue with multiple voices
+  const speakDialogue = useCallback((text: string) => {
+    window.speechSynthesis.cancel();
+
+    const segments = parseDialogue(text);
+    const queueId = ++utteranceQueueRef.current;
+
+    // Track unique speakers for voice assignment
+    const speakerOrder: string[] = [];
+    segments.forEach(seg => {
+      if (seg.speaker && !speakerOrder.includes(seg.speaker)) {
+        speakerOrder.push(seg.speaker);
+      }
+    });
+
+    let currentIndex = 0;
+
+    const speakNext = () => {
+      // Check if this queue is still active
+      if (queueId !== utteranceQueueRef.current) return;
+
+      if (currentIndex >= segments.length) {
+        setIsPlaying(false);
+        return;
+      }
+
+      const segment = segments[currentIndex];
+      const speakerIndex = segment.speaker ? speakerOrder.indexOf(segment.speaker) : 0;
+      const { voice, pitch } = getVoiceForSpeaker(segment.speaker, voices, speakerIndex);
+
+      const utterance = new SpeechSynthesisUtterance(segment.text);
+      utterance.lang = "nl-NL";
+      utterance.rate = 0.9; // Slightly faster than before for more natural sound
+      utterance.pitch = pitch;
+
+      if (voice) {
+        utterance.voice = voice;
+      }
+
+      utterance.onend = () => {
+        currentIndex++;
+        // Small pause between speakers
+        if (currentIndex < segments.length && queueId === utteranceQueueRef.current) {
+          setTimeout(speakNext, 300);
+        } else if (queueId === utteranceQueueRef.current) {
+          setIsPlaying(false);
+        }
+      };
+
+      utterance.onerror = () => {
+        if (queueId === utteranceQueueRef.current) {
+          setIsPlaying(false);
+        }
+      };
+
+      window.speechSynthesis.speak(utterance);
+    };
+
+    setIsPlaying(true);
+    speakNext();
+  }, [voices]);
+
   const togglePlay = useCallback(() => {
     if (useFallback) {
       if (isPlaying) {
-        window.speechSynthesis.pause();
+        window.speechSynthesis.cancel();
+        utteranceQueueRef.current++;
         setIsPlaying(false);
       } else {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(fallbackText);
-        utterance.lang = "nl-NL";
-        utterance.rate = 0.85;
-        utterance.onend = () => setIsPlaying(false);
-        utterance.onerror = () => setIsPlaying(false);
-        setIsPlaying(true);
-        window.speechSynthesis.speak(utterance);
+        speakDialogue(fallbackText!);
       }
       return;
     }
@@ -78,18 +263,11 @@ export function AudioPlayer({ audioSrc, fallbackText }: AudioPlayerProps) {
       audioRef.current.play();
     }
     setIsPlaying(!isPlaying);
-  }, [isPlaying, useFallback, fallbackText]);
+  }, [isPlaying, useFallback, fallbackText, speakDialogue]);
 
   const replay = useCallback(() => {
     if (useFallback) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(fallbackText);
-      utterance.lang = "nl-NL";
-      utterance.rate = 0.85;
-      utterance.onend = () => setIsPlaying(false);
-      utterance.onerror = () => setIsPlaying(false);
-      setIsPlaying(true);
-      window.speechSynthesis.speak(utterance);
+      speakDialogue(fallbackText!);
       return;
     }
 
@@ -97,7 +275,7 @@ export function AudioPlayer({ audioSrc, fallbackText }: AudioPlayerProps) {
     audioRef.current.currentTime = 0;
     audioRef.current.play();
     setIsPlaying(true);
-  }, [useFallback, fallbackText]);
+  }, [useFallback, fallbackText, speakDialogue]);
 
   const skipForward = useCallback(() => {
     if (useFallback || !audioRef.current) return;

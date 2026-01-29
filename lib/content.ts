@@ -195,3 +195,46 @@ export function shuffleArray<T>(array: T[]): T[] {
   }
   return shuffled;
 }
+
+// Get suggested exams excluding the current one and optionally filtering by completed
+export interface SuggestedExamInfo {
+  id: string;
+  title: string;
+  module: "lezen" | "knm" | "luisteren";
+  difficulty: string;
+  href: string;
+}
+
+export function getSuggestedExams(
+  currentExamId: string,
+  completedExamIds: string[] = []
+): SuggestedExamInfo[] {
+  const allExams: SuggestedExamInfo[] = [];
+
+  // Add all exams from all modules
+  for (const [module, index] of Object.entries(mockExamIndices)) {
+    for (const exam of index.exams) {
+      const fullId = exam.id;
+      if (fullId !== currentExamId && !completedExamIds.includes(fullId)) {
+        allExams.push({
+          id: fullId,
+          title: exam.title,
+          module: module as "lezen" | "knm" | "luisteren",
+          difficulty: exam.difficulty,
+          href: `/learn/${module}/mock/${fullId}`,
+        });
+      }
+    }
+  }
+
+  // Shuffle and return
+  return shuffleArray(allExams);
+}
+
+export function getAllExamCount(): number {
+  let count = 0;
+  for (const index of Object.values(mockExamIndices)) {
+    count += index.exams.length;
+  }
+  return count;
+}

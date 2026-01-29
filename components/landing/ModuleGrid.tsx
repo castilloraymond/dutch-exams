@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export function ModuleGrid() {
     const modules = [
-        { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "Supermarket signs to official letters", href: "/learn/lezen" },
-        { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "Announcements & conversations", href: "/learn/luisteren" },
-        { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "Culture, history, values", href: "/learn/knm" },
+        { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "Supermarket signs to official letters", href: "/learn/lezen/select" },
+        { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "Announcements & conversations", href: "/learn/luisteren/select" },
+        { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "Culture, history, values", href: "/learn/knm/select" },
         { name: "Schrijven (Writing)", icon: "✍️", status: "soon", desc: "Forms and short messages", href: "" },
         { name: "Spreken (Speaking)", icon: "🗣️", status: "soon", desc: "Everyday scenarios", href: "" },
     ];

@@ -1,13 +1,13 @@
 export function ProblemSolution() {
     const problems = [
-        "Paper exercises don't match the computer-based exam",
-        "Expensive courses (€1,500+) with exam prep as an afterthought",
+        "Duolingo teaches Dutch, but won't prepare you for the exam format",
+        "Language tutors cost €30-50/hour and take months of your time",
         "Failing means waiting months and paying €350 to retake",
     ];
 
     const solutions = [
-        "Same interface, same timing, same question types as DUO",
-        "Fraction of the cost — just focused exam practice",
+        "Practice on the exact interface and question types you'll face",
+        "Self-paced prep at a fraction of the cost of tutoring",
         "Built by expats who passed and know exactly what to expect",
     ];
 
@@ -26,7 +26,7 @@ export function ProblemSolution() {
                             The Problem
                         </span>
                         <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mt-3 mb-8">
-                            Language courses don&apos;t prepare you for the actual test format
+                            Apps and tutors won&apos;t prepare you for the actual exam
                         </h2>
                         <div className="space-y-5 font-sans-landing">
                             {pairs.map((pair, i) => (

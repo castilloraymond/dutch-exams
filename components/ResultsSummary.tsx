@@ -2,11 +2,19 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
+import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 const LABELS = ["A", "B", "C", "D"];
+
+export interface SuggestedExam {
+  id: string;
+  title: string;
+  module: "lezen" | "knm" | "luisteren";
+  difficulty: string;
+  href: string;
+}
 
 interface ResultsSummaryProps {
   title: string;
@@ -17,7 +25,15 @@ interface ResultsSummaryProps {
   onRetry: () => void;
   backHref?: string;
   backLabel?: string;
+  suggestedExams?: SuggestedExam[];
+  allModulesCompleted?: boolean;
 }
+
+const MODULE_ICONS = {
+  lezen: BookOpen,
+  knm: Landmark,
+  luisteren: Headphones,
+};
 
 export function ResultsSummary({
   title,
@@ -28,6 +44,8 @@ export function ResultsSummary({
   onRetry,
   backHref = "/learn",
   backLabel = "Back to Modules",
+  suggestedExams = [],
+  allModulesCompleted = false,
 }: ResultsSummaryProps) {
   const [showReview, setShowReview] = useState(false);
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
@@ -95,6 +113,70 @@ export function ResultsSummary({
           </Link>
         </div>
       </div>
+
+      {/* Next Steps Section */}
+      {suggestedExams.length > 0 && !allModulesCompleted && (
+        <div className="w-full max-w-2xl mt-6">
+          <div className="landing-card p-6">
+            <h3 className="font-semibold text-[var(--landing-navy)] mb-4">
+              Doorgaan met oefenen
+            </h3>
+            <p className="text-sm text-[var(--landing-navy)]/60 mb-4">
+              Probeer deze examens om je voor te bereiden:
+            </p>
+            <div className="space-y-3">
+              {suggestedExams.slice(0, 3).map((exam) => {
+                const Icon = MODULE_ICONS[exam.module];
+                return (
+                  <Link
+                    key={exam.id}
+                    href={exam.href}
+                    className="flex items-center gap-4 p-4 rounded-lg border border-[var(--landing-navy)]/10 hover:border-[var(--landing-orange)]/50 hover:bg-[var(--landing-orange)]/5 transition-colors cursor-pointer"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center flex-shrink-0">
+                      <Icon className="h-5 w-5 text-[var(--landing-orange)]" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium text-[var(--landing-navy)] truncate">
+                        {exam.title}
+                      </p>
+                      <p className="text-xs text-[var(--landing-navy)]/50">
+                        {exam.difficulty} niveau
+                      </p>
+                    </div>
+                    <ArrowRight className="h-4 w-4 text-[var(--landing-navy)]/40" />
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* All Completed - Upgrade CTA */}
+      {allModulesCompleted && (
+        <div className="w-full max-w-2xl mt-6">
+          <div className="landing-card p-6 bg-gradient-to-br from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10 border-2 border-[var(--landing-orange)]/20">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-full bg-[var(--landing-orange)] flex items-center justify-center flex-shrink-0">
+                <Crown className="h-6 w-6 text-white" />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-[var(--landing-navy)] text-lg mb-2">
+                  Gefeliciteerd! Je hebt alle gratis examens voltooid!
+                </h3>
+                <p className="text-sm text-[var(--landing-navy)]/70 mb-4">
+                  Klaar om verder te gaan? Krijg toegang tot 50+ extra oefenexamens, gedetailleerde uitleg, en volg je voortgang.
+                </p>
+                <button className="cta-primary py-3 px-6 cursor-pointer flex items-center gap-2">
+                  <Crown className="h-4 w-4" />
+                  Upgrade naar Pro
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Answer Review Section */}
       {answerRecords.length > 0 && (

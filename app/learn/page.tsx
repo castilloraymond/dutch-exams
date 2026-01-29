@@ -9,21 +9,21 @@ const modules = [
     name: "Lezen (Reading)",
     description: "Oefen je Nederlandse leesvaardigheid met realistische teksten.",
     icon: BookOpen,
-    href: "/learn/lezen",
+    href: "/learn/lezen/select",
   },
   {
     id: "knm",
     name: "KNM (Dutch Society)",
     description: "Test je kennis over Nederlandse cultuur, geschiedenis en waarden.",
     icon: Landmark,
-    href: "/learn/knm",
+    href: "/learn/knm/select",
   },
   {
     id: "luisteren",
     name: "Luisteren (Listening)",
     description: "Luister naar Nederlandse audiofragmenten en beantwoord vragen.",
     icon: Headphones,
-    href: "/learn/luisteren",
+    href: "/learn/luisteren/select",
   },
 ];
 

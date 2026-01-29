@@ -13,7 +13,7 @@ import { ResultsSummary } from "@/components/ResultsSummary";
 import { DutchLanguageBanner } from "@/components/DutchLanguageBanner";
 import { ExitWarningModal } from "@/components/ExitWarningModal";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
-import { getMockExam, shuffleArray } from "@/lib/content";
+import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useAuth } from "@/contexts/AuthContext";
 import type { Question } from "@/lib/types";
 
@@ -172,6 +172,11 @@ export default function LezenMockExamPage({ params }: PageProps) {
   }
 
   if (results) {
+    // Get suggested exams (excluding current one)
+    const suggestedExams = getSuggestedExams(examId);
+    // For now, assume all completed if no suggestions left (simplified logic)
+    const allModulesCompleted = suggestedExams.length === 0;
+
     return (
       <ResultsSummary
         title={exam.title}
@@ -182,6 +187,8 @@ export default function LezenMockExamPage({ params }: PageProps) {
         onRetry={handleRetry}
         backHref="/learn/lezen/select"
         backLabel="Terug naar Lezen"
+        suggestedExams={suggestedExams}
+        allModulesCompleted={allModulesCompleted}
       />
     );
   }

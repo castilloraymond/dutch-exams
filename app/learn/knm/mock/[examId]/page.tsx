@@ -13,7 +13,7 @@ import { ResultsSummary } from "@/components/ResultsSummary";
 import { DutchLanguageBanner } from "@/components/DutchLanguageBanner";
 import { ExitWarningModal } from "@/components/ExitWarningModal";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
-import { getMockExam, shuffleArray } from "@/lib/content";
+import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useAuth } from "@/contexts/AuthContext";
 
 interface PageProps {
@@ -156,6 +156,9 @@ export default function KNMMockExamPage({ params }: PageProps) {
   }
 
   if (results) {
+    const suggestedExams = getSuggestedExams(examId);
+    const allModulesCompleted = suggestedExams.length === 0;
+
     return (
       <ResultsSummary
         title={exam.title}
@@ -166,6 +169,8 @@ export default function KNMMockExamPage({ params }: PageProps) {
         onRetry={handleRetry}
         backHref="/learn/knm/select"
         backLabel="Terug naar KNM"
+        suggestedExams={suggestedExams}
+        allModulesCompleted={allModulesCompleted}
       />
     );
   }

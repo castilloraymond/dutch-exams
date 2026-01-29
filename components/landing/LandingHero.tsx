@@ -2,7 +2,7 @@ import { EmailCapture } from "./EmailCapture";
 
 export function LandingHero() {
     const bullets = [
-        "Hundreds of questions and mock exams",
+        "Hundreds of questions on all exam topics",
         "Identical interface to the real DUO exam",
         "Track progress & know when you're ready",
     ];
@@ -18,12 +18,12 @@ export function LandingHero() {
                         </span>
 
                         <h1 className="font-serif text-4xl md:text-5xl font-semibold text-[var(--landing-navy)] leading-tight mb-6 animate-reveal-delay-2">
-                            The practice you need to pass the{" "}
+                            Exactly what you need to pass the{" "}
                             <span className="text-[var(--landing-orange)]">Inburgering Exam</span>
                         </h1>
 
                         <p className="font-sans-landing text-lg text-[var(--landing-navy)]/60 max-w-lg mb-8 leading-relaxed animate-reveal-delay-3">
-                            Gain the confidence you need by simulating the actual test — same interface, same format, same pressure.
+                            Gain the confidence you need by simulating the actual test — same interface, same format, 100% useful.
                         </p>
 
                         <ul className="font-sans-landing space-y-3 mb-8 animate-reveal-delay-3">
