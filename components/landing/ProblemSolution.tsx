@@ -18,8 +18,8 @@ export function ProblemSolution() {
 
     return (
         <section className="py-20 bg-[var(--landing-navy)]">
-            <div className="max-w-6xl mx-auto px-8">
-                <div className="grid md:grid-cols-2 gap-16">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid md:grid-cols-2 gap-10 md:gap-16">
                     {/* Problem */}
                     <div>
                         <span className="font-sans-landing text-sm font-medium text-white/40 tracking-wide uppercase">

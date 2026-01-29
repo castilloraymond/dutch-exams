@@ -3,7 +3,7 @@ export function TrustStats() {
 
     return (
         <section className="py-10 border-y border-[var(--landing-navy)]/5 bg-[var(--landing-cream)]">
-            <div className="max-w-5xl mx-auto px-8 text-center">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <p className="font-sans-landing text-sm text-[var(--landing-gray,#6B7280)] mb-4">
                     Trusted by expats working at
                 </p>

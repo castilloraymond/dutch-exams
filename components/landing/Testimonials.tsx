@@ -1,7 +1,7 @@
 export function Testimonials() {
     return (
         <section className="py-20 bg-[var(--landing-navy)]">
-            <div className="max-w-3xl mx-auto px-8">
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="font-sans-landing text-white/50 text-sm text-center mb-8 uppercase tracking-wide">
                     Why I Built This
                 </div>
