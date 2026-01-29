@@ -197,6 +197,7 @@
 /* CTA Button */
 .cta-primary {
   background: var(--landing-orange);
+  color: white;
   transition: all 0.3s ease;
   cursor: pointer;
 }
