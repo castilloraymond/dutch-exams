@@ -9,7 +9,7 @@ export function FinalCTA() {
 
     return (
         <section className="py-20 bg-gradient-to-b from-[var(--landing-navy)] to-[#0F1D33]">
-            <div className="max-w-3xl mx-auto px-8 text-center">
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
                     Stop stressing.<br />Start practicing for free.
                 </h2>

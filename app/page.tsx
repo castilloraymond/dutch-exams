@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--landing-cream)] text-[110%]">
+    <div className="min-h-screen bg-[var(--landing-cream)] text-[110%] overflow-x-hidden">
       <UrgencyBanner />
       <LandingNav />
       <LandingHero />

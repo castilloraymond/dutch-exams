@@ -17,7 +17,7 @@ export function LandingNav() {
     };
 
     return (
-        <nav className="font-sans-landing flex items-center justify-between px-8 py-5 max-w-7xl mx-auto">
+        <nav className="font-sans-landing flex items-center justify-between px-4 sm:px-6 lg:px-8 py-5 max-w-7xl mx-auto">
             <Link href="/" className="flex items-center cursor-pointer">
                 <span className="text-[var(--landing-navy)] text-lg">
                     <span className="font-bold text-[var(--landing-orange)]">pass</span><span className="font-semibold">inburgering</span>

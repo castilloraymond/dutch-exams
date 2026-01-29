@@ -31,7 +31,7 @@ export function FeatureCards() {
 
     return (
         <section className="py-20 bg-[var(--landing-cream)]">
-            <div className="max-w-6xl mx-auto px-8">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] text-center mb-14">
                     Complete Coverage for Every Exam
                 </h2>

@@ -9,7 +9,7 @@ export function LandingHero() {
 
     return (
         <main className="bg-gradient-to-b from-[var(--landing-cream)] to-[#FFF9F5]">
-            <div className="max-w-7xl mx-auto px-8 pt-16 pb-20">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 pb-16 sm:pb-20">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left column */}
                     <div>
