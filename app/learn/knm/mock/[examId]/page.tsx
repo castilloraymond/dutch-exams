@@ -10,7 +10,6 @@ import { ExamBottomNav } from "@/components/ExamBottomNav";
 import { QuestionGrid } from "@/components/QuestionGrid";
 import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
-import { DutchLanguageBanner } from "@/components/DutchLanguageBanner";
 import { ExitWarningModal } from "@/components/ExitWarningModal";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
@@ -24,8 +23,6 @@ export default function KNMMockExamPage({ params }: PageProps) {
   const { examId } = use(params);
   const router = useRouter();
   const { user } = useAuth();
-  const [showBanner, setShowBanner] = useState(true);
-  const [bannerHandled, setBannerHandled] = useState(false);
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
@@ -128,19 +125,6 @@ export default function KNMMockExamPage({ params }: PageProps) {
       <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
         <div className="text-[var(--landing-navy)]">Exam not found</div>
       </div>
-    );
-  }
-
-  // Show Dutch language banner first
-  if (showBanner && !bannerHandled) {
-    return (
-      <DutchLanguageBanner
-        onContinue={() => {
-          setShowBanner(false);
-          setBannerHandled(true);
-        }}
-        onGoBack={() => router.push("/learn/knm/select")}
-      />
     );
   }
 

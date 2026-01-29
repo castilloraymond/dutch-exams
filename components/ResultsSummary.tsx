@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -57,15 +58,22 @@ export function ResultsSummary({
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
+  // GIF URLs for pass/fail reactions
+  const passGif = "https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif"; // Celebration dance
+  const failGif = "https://media.giphy.com/media/Jn9Sx4LgVXzSzlGbvN/giphy.gif"; // You got this / encouraging
+
   return (
     <div className="min-h-screen flex flex-col items-center p-4 bg-[var(--landing-cream)]">
       <div className="landing-card w-full max-w-2xl p-6 sm:p-8 text-center space-y-6">
         <div className="mx-auto mb-4">
-          {isPassing ? (
-            <CheckCircle2 className="h-16 w-16 text-[var(--landing-green)] mx-auto" />
-          ) : (
-            <XCircle className="h-16 w-16 text-[var(--landing-red)] mx-auto" />
-          )}
+          <Image
+            src={isPassing ? passGif : failGif}
+            alt={isPassing ? "Celebration!" : "Keep going!"}
+            width={192}
+            height={192}
+            className="object-cover rounded-xl mx-auto"
+            unoptimized
+          />
         </div>
 
         <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)]">
