@@ -10,7 +10,7 @@ interface EmailCaptureProps {
     className?: string;
 }
 
-export function EmailCapture({ variant = "hero", className = "" }: EmailCaptureProps) {
+export function EmailCapture({ className = "" }: EmailCaptureProps) {
     const router = useRouter();
     const { user, isConfigured } = useAuth();
     const [email, setEmail] = useState("");

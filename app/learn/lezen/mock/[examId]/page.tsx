@@ -11,6 +11,7 @@ import { QuestionGrid } from "@/components/QuestionGrid";
 import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
 import { ExitWarningModal } from "@/components/ExitWarningModal";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useAuth } from "@/contexts/AuthContext";
@@ -97,14 +98,6 @@ export default function LezenMockExamPage({ params }: PageProps) {
     setRetryKey((prev) => prev + 1);
   };
 
-  const handleExit = () => {
-    if (started && !results) {
-      setShowExitModal(true);
-    } else {
-      router.push("/learn/lezen/select");
-    }
-  };
-
   const confirmExit = () => {
     router.push("/learn/lezen/select");
   };
@@ -178,61 +171,63 @@ export default function LezenMockExamPage({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen flex flex-col">
-      <ExamHeader title={exam.title} startTime={startTime} />
+    <ErrorBoundary fallbackHref="/learn/lezen/select" fallbackLabel="Terug naar Lezen">
+      <main className="min-h-screen flex flex-col">
+        <ExamHeader title={exam.title} startTime={startTime} />
 
-      <ExamLayout
-        left={
-          currentPassage && (
-            <ContentPanel
-              type="lezen"
-              content={currentPassage.content}
-              contentType={currentPassage.contentType}
-              instruction={currentPassage.instruction}
+        <ExamLayout
+          left={
+            currentPassage && (
+              <ContentPanel
+                type="lezen"
+                content={currentPassage.content}
+                contentType={currentPassage.contentType}
+                instruction={currentPassage.instruction}
+              />
+            )
+          }
+          right={
+            currentQuestion && (
+              <ExamQuestionPanel
+                question={currentQuestion}
+                questionNumber={currentQuestionIndex + 1}
+                selectedAnswer={answers[currentQuestion.id] ?? null}
+                onSelectAnswer={(idx) => selectAnswer(currentQuestion.id, idx)}
+              />
+            )
+          }
+          bottomNav={
+            <ExamBottomNav
+              currentIndex={currentQuestionIndex}
+              totalQuestions={totalQuestions}
+              isBookmarked={currentQuestion ? isQuestionBookmarked(currentQuestion.id) : false}
+              onPrevious={goPrevious}
+              onNext={goNext}
+              onOpenGrid={() => setShowGrid(true)}
+              onToggleBookmark={() => currentQuestion && toggleBookmark(currentQuestion.id)}
+              onSubmit={submitExam}
             />
-          )
-        }
-        right={
-          currentQuestion && (
-            <ExamQuestionPanel
-              question={currentQuestion}
-              questionNumber={currentQuestionIndex + 1}
-              selectedAnswer={answers[currentQuestion.id] ?? null}
-              onSelectAnswer={(idx) => selectAnswer(currentQuestion.id, idx)}
-            />
-          )
-        }
-        bottomNav={
-          <ExamBottomNav
-            currentIndex={currentQuestionIndex}
-            totalQuestions={totalQuestions}
-            isBookmarked={currentQuestion ? isQuestionBookmarked(currentQuestion.id) : false}
-            onPrevious={goPrevious}
-            onNext={goNext}
-            onOpenGrid={() => setShowGrid(true)}
-            onToggleBookmark={() => currentQuestion && toggleBookmark(currentQuestion.id)}
-            onSubmit={submitExam}
-          />
-        }
-      />
-
-      {showGrid && (
-        <QuestionGrid
-          totalQuestions={totalQuestions}
-          currentIndex={currentQuestionIndex}
-          answeredQuestions={answeredSet}
-          bookmarkedQuestions={bookmarked}
-          questionIds={questionIds}
-          onSelectQuestion={goToQuestion}
-          onClose={() => setShowGrid(false)}
+          }
         />
-      )}
 
-      <ExitWarningModal
-        isOpen={showExitModal}
-        onCancel={() => setShowExitModal(false)}
-        onConfirm={confirmExit}
-      />
-    </main>
+        {showGrid && (
+          <QuestionGrid
+            totalQuestions={totalQuestions}
+            currentIndex={currentQuestionIndex}
+            answeredQuestions={answeredSet}
+            bookmarkedQuestions={bookmarked}
+            questionIds={questionIds}
+            onSelectQuestion={goToQuestion}
+            onClose={() => setShowGrid(false)}
+          />
+        )}
+
+        <ExitWarningModal
+          isOpen={showExitModal}
+          onCancel={() => setShowExitModal(false)}
+          onConfirm={confirmExit}
+        />
+      </main>
+    </ErrorBoundary>
   );
 }

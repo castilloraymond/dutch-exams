@@ -8,15 +8,15 @@ export function Testimonials() {
 
                 <div className="text-center">
                     <blockquote className="font-serif text-xl md:text-2xl text-white leading-relaxed mb-8">
-                        "Three weeks before my exam, I panicked. I'd done Duolingo for months and even paid for a tutor, but when I took my first mock exam—I failed. Hard.
+                        &ldquo;Three weeks before my exam, I panicked. I&apos;d done Duolingo for months and even paid for a tutor, but when I took my first mock exam—I failed. Hard.
                     </blockquote>
 
                     <p className="font-sans-landing text-white/70 text-lg leading-relaxed mb-6">
-                        The problem wasn't vocabulary. It was that I'd never practiced under real exam conditions. I needed drills. I needed practice tests that felt like the actual thing. I needed to get comfortable with the pressure.
+                        The problem wasn&apos;t vocabulary. It was that I&apos;d never practiced under real exam conditions. I needed drills. I needed practice tests that felt like the actual thing. I needed to get comfortable with the pressure.
                     </p>
 
                     <p className="font-sans-landing text-white/70 text-lg leading-relaxed mb-8">
-                        I couldn't find that resource anywhere. So after I passed, I built it myself. This is the tool I wish had existed when I was preparing."
+                        I couldn&apos;t find that resource anywhere. So after I passed, I built it myself. This is the tool I wish had existed when I was preparing.&rdquo;
                     </p>
 
                     <div className="font-sans-landing">

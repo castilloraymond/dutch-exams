@@ -24,16 +24,15 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
-  const [session, setSession] = useState<Session | null>(null);
-  const [loading, setLoading] = useState(true);
-
   const supabase = useMemo(() => createClient(), []);
   const isConfigured = supabase !== null;
 
+  const [user, setUser] = useState<User | null>(null);
+  const [session, setSession] = useState<Session | null>(null);
+  const [loading, setLoading] = useState(isConfigured);
+
   useEffect(() => {
     if (!supabase) {
-      setLoading(false);
       return;
     }
 

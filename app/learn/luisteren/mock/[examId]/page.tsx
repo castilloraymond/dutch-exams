@@ -97,14 +97,6 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
     setRetryKey((prev) => prev + 1);
   };
 
-  const handleExit = () => {
-    if (started && !results) {
-      setShowExitModal(true);
-    } else {
-      router.push("/learn/luisteren/select");
-    }
-  };
-
   const confirmExit = () => {
     router.push("/learn/luisteren/select");
   };
