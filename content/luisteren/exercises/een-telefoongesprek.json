@@ -2,6 +2,7 @@
   "id": "een-telefoongesprek",
   "title": "Een Telefoongesprek",
   "difficulty": "A0",
+  "audioFile": "/audio/luisteren/een-telefoongesprek.mp3",
   "transcript": "Assistente: Huisartsenpraktijk De Linde, goedemorgen. Patiënt: Goedemorgen, ik wil graag een afspraak maken met de dokter. Assistente: Wat zijn uw klachten? Patiënt: Ik heb al drie dagen keelpijn en ik hoest veel. Assistente: Heeft u ook koorts? Patiënt: Een beetje, 37 en een half. Assistente: Ik kan u inplannen voor morgenochtend om negen uur. Past dat? Patiënt: Ja, dat is goed. Assistente: Wat is uw naam en geboortedatum? Patiënt: Maria Santos, twaalf maart negentien negentig. Assistente: Goed, mevrouw Santos. U staat ingepland voor morgen, woensdag, om negen uur. Patiënt: Dank u wel!",
   "questions": [
     {

@@ -47,6 +47,8 @@ import luisterenA1Exam1 from "@/content/mock-exams/luisteren/a1-exam-1.json";
 import luisterenA1Exam2 from "@/content/mock-exams/luisteren/a1-exam-2.json";
 import luisterenA2Exam1 from "@/content/mock-exams/luisteren/a2-exam-1.json";
 import luisterenA2Exam2 from "@/content/mock-exams/luisteren/a2-exam-2.json";
+import luisterenA2Exam3 from "@/content/mock-exams/luisteren/a2-exam-3.json";
+import luisterenA2Exam4 from "@/content/mock-exams/luisteren/a2-exam-4.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
@@ -95,6 +97,8 @@ const mockExams: Record<string, MockExam> = {
   "luisteren-a1-2": luisterenA1Exam2 as unknown as MockExam,
   "luisteren-a2-1": luisterenA2Exam1 as unknown as MockExam,
   "luisteren-a2-2": luisterenA2Exam2 as unknown as MockExam,
+  "luisteren-a2-3": luisterenA2Exam3 as unknown as MockExam,
+  "luisteren-a2-4": luisterenA2Exam4 as unknown as MockExam,
 };
 
 // Lezen functions

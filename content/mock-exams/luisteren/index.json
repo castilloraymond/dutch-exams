@@ -28,6 +28,20 @@
       "difficulty": "A2",
       "questionCount": 20,
       "recommendedTime": "45 min"
+    },
+    {
+      "id": "luisteren-a2-3",
+      "title": "Luisteren A2 - Oefenexamen 3",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "45 min"
+    },
+    {
+      "id": "luisteren-a2-4",
+      "title": "Luisteren A2 - Oefenexamen 4",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "45 min"
     }
   ]
 }

@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-3",
+  "title": "Luisteren A2 - Oefenexamen 3",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-3-t1",
+      "title": "Bij de apotheek",
+      "transcript": "Apotheker: Goedemiddag, kan ik u helpen?\nKlant: Ja, ik kom mijn medicijnen ophalen. Mijn naam is Van der Berg.\nApotheker: Even kijken... Ja, ik heb hier uw recept van de huisarts. U krijgt bloeddrukmedicijnen.\nKlant: Klopt. Hoe moet ik die innemen?\nApotheker: U neemt elke ochtend één tablet, bij het ontbijt. Niet op een lege maag.\nKlant: En als ik een keer vergeet?\nApotheker: Dan neemt u de tablet zodra u het zich herinnert, maar niet vlak voor het slapen gaan.\nKlant: Zijn er bijwerkingen?\nApotheker: Sommige mensen worden een beetje duizelig in het begin. Dat gaat meestal na een week over. Als het langer duurt, belt u de huisarts.\nKlant: Oké, dank u wel. Hoeveel moet ik betalen?\nApotheker: Niets, dit valt onder uw verzekering.",
+      "questions": [
+        {
+          "id": "l-a2-3-q1",
+          "text": "Welke medicijnen haalt de klant op?",
+          "options": [
+            "Pijnstillers",
+            "Bloeddrukmedicijnen",
+            "Antibiotica",
+            "Slaapmedicijnen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De apotheker zegt dat de klant bloeddrukmedicijnen krijgt."
+        },
+        {
+          "id": "l-a2-3-q2",
+          "text": "Wanneer moet de klant de medicijnen innemen?",
+          "options": [
+            "'s Avonds voor het slapen",
+            "'s Ochtends bij het ontbijt",
+            "Twee keer per dag",
+            "Alleen als nodig"
+          ],
+          "correctIndex": 1,
+          "explanation": "De apotheker zegt: elke ochtend één tablet, bij het ontbijt."
+        },
+        {
+          "id": "l-a2-3-q3",
+          "text": "Wat is een mogelijke bijwerking?",
+          "options": [
+            "Hoofdpijn",
+            "Duizeligheid",
+            "Misselijkheid",
+            "Slaperigheid"
+          ],
+          "correctIndex": 1,
+          "explanation": "De apotheker zegt dat sommige mensen een beetje duizelig worden."
+        },
+        {
+          "id": "l-a2-3-q4",
+          "text": "Hoeveel moet de klant betalen?",
+          "options": [
+            "Vijf euro",
+            "Tien euro",
+            "Het eigen risico",
+            "Niets"
+          ],
+          "correctIndex": 3,
+          "explanation": "De apotheker zegt dat het onder de verzekering valt, dus de klant betaalt niets."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-3-t1.mp3"
+    },
+    {
+      "id": "l-a2-3-t2",
+      "title": "Ziek melden op het werk",
+      "transcript": "Receptionist: Goedemorgen, bedrijf Jansen en Zonen.\nWerknemer: Goedemorgen, met Erik de Vries. Ik bel om me ziek te melden.\nReceptionist: Goedemorgen meneer De Vries. Wat is er aan de hand?\nWerknemer: Ik heb griep. Hoge koorts en spierpijn.\nReceptionist: Vervelend. Ik zal het doorgeven aan uw leidinggevende. Bent u al naar de dokter geweest?\nWerknemer: Nee, ik ga vanmiddag als het niet beter wordt.\nReceptionist: Goed. Hoelang denkt u thuis te blijven?\nWerknemer: Waarschijnlijk twee of drie dagen. Ik laat het weten als het langer duurt.\nReceptionist: Prima. Vergeet niet om morgen opnieuw te bellen als u nog ziek bent. Dat is de procedure.\nWerknemer: Ja, dat weet ik. Ik bel morgen voor negen uur.\nReceptionist: Beterschap!\nWerknemer: Dank u wel.",
+      "questions": [
+        {
+          "id": "l-a2-3-q5",
+          "text": "Waarom belt Erik?",
+          "options": [
+            "Om een afspraak te maken",
+            "Om zich ziek te melden",
+            "Om vakantie aan te vragen",
+            "Om informatie te vragen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Erik belt om zich ziek te melden."
+        },
+        {
+          "id": "l-a2-3-q6",
+          "text": "Wat zijn de klachten van Erik?",
+          "options": [
+            "Hoofdpijn en keelpijn",
+            "Griep met koorts en spierpijn",
+            "Buikpijn en misselijkheid",
+            "Rugpijn"
+          ],
+          "correctIndex": 1,
+          "explanation": "Erik heeft griep met hoge koorts en spierpijn."
+        },
+        {
+          "id": "l-a2-3-q7",
+          "text": "Hoe lang denkt Erik thuis te blijven?",
+          "options": [
+            "Eén dag",
+            "Twee of drie dagen",
+            "Een week",
+            "Twee weken"
+          ],
+          "correctIndex": 1,
+          "explanation": "Erik denkt twee of drie dagen thuis te blijven."
+        },
+        {
+          "id": "l-a2-3-q8",
+          "text": "Wat moet Erik doen als hij morgen nog ziek is?",
+          "options": [
+            "Naar de dokter gaan",
+            "Een e-mail sturen",
+            "Opnieuw bellen voor negen uur",
+            "Naar het werk komen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De receptionist zegt dat Erik morgen opnieuw moet bellen als hij nog ziek is."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-3-t2.mp3"
+    },
+    {
+      "id": "l-a2-3-t3",
+      "title": "Aankondiging in het winkelcentrum",
+      "transcript": "Dames en heren, welkom bij Winkelcentrum De Markt. Wij willen u informeren over onze koopavond vanavond. Alle winkels zijn open tot negen uur. In verband met verbouwingswerkzaamheden is de ingang aan de Stationsstraat tijdelijk gesloten. U kunt naar binnen via de hoofdingang aan het Marktplein of via de parkeergarage. De lift bij de noordzijde is buiten gebruik. Gebruik alstublieft de lift bij de hoofdingang of de roltrap. Vanavond is er een modeshow op het centrale plein om zeven uur. Alle bezoekers zijn welkom. Bij aankopen boven de vijftig euro maakt u kans op een cadeaubon van honderd euro. Vraag ernaar bij de kassa. Wij wensen u een prettige avond.",
+      "questions": [
+        {
+          "id": "l-a2-3-q9",
+          "text": "Hoe laat sluiten de winkels vanavond?",
+          "options": [
+            "Zes uur",
+            "Zeven uur",
+            "Acht uur",
+            "Negen uur"
+          ],
+          "correctIndex": 3,
+          "explanation": "De winkels zijn open tot negen uur."
+        },
+        {
+          "id": "l-a2-3-q10",
+          "text": "Welke ingang is gesloten?",
+          "options": [
+            "De hoofdingang",
+            "De ingang aan de Stationsstraat",
+            "De ingang bij de parkeergarage",
+            "Alle ingangen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De ingang aan de Stationsstraat is tijdelijk gesloten vanwege verbouwing."
+        },
+        {
+          "id": "l-a2-3-q11",
+          "text": "Hoe laat is de modeshow?",
+          "options": [
+            "Zes uur",
+            "Zeven uur",
+            "Acht uur",
+            "Negen uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "De modeshow is om zeven uur op het centrale plein."
+        },
+        {
+          "id": "l-a2-3-q12",
+          "text": "Wanneer maakt u kans op een cadeaubon?",
+          "options": [
+            "Bij elke aankoop",
+            "Bij aankopen boven vijfentwintig euro",
+            "Bij aankopen boven vijftig euro",
+            "Bij aankopen boven honderd euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bij aankopen boven de vijftig euro maakt u kans op een cadeaubon."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-3-t3.mp3"
+    },
+    {
+      "id": "l-a2-3-t4",
+      "title": "Gesprek met de buurvrouw",
+      "transcript": "Buurvrouw: Hallo! Bent u de nieuwe buurman?\nBuurman: Ja, ik ben vorige week verhuisd. Ik ben Mohammed.\nBuurvrouw: Welkom in de buurt! Ik ben Anja, ik woon hiernaast. Als u iets nodig heeft, klop gerust aan.\nBuurman: Dank u wel, dat is aardig. Ik heb eigenlijk een vraag. Wanneer wordt het oud papier opgehaald?\nBuurvrouw: Op de eerste woensdag van de maand. U moet het voor acht uur buiten zetten. Plastic is elke twee weken op vrijdag.\nBuurman: En de groene container?\nBuurvrouw: Die wordt elke week op dinsdag geleegd. Let wel op: de containers moeten voor half acht aan de straat staan.\nBuurman: Goed om te weten. Is er ook een containerpark in de buurt?\nBuurvrouw: Ja, aan de Industrieweg. Daar kunt u grof vuil brengen. Het is open van dinsdag tot zaterdag.\nBuurman: Perfect, heel erg bedankt voor de informatie!\nBuurvrouw: Graag gedaan. Nogmaals welkom!",
+      "questions": [
+        {
+          "id": "l-a2-3-q13",
+          "text": "Wanneer wordt het oud papier opgehaald?",
+          "options": [
+            "Elke woensdag",
+            "De eerste woensdag van de maand",
+            "Elke twee weken",
+            "De laatste vrijdag van de maand"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het oud papier wordt op de eerste woensdag van de maand opgehaald."
+        },
+        {
+          "id": "l-a2-3-q14",
+          "text": "Op welke dag wordt de groene container geleegd?",
+          "options": [
+            "Maandag",
+            "Dinsdag",
+            "Woensdag",
+            "Vrijdag"
+          ],
+          "correctIndex": 1,
+          "explanation": "De groene container wordt elke week op dinsdag geleegd."
+        },
+        {
+          "id": "l-a2-3-q15",
+          "text": "Hoe laat moeten de containers buiten staan?",
+          "options": [
+            "Voor zeven uur",
+            "Voor half acht",
+            "Voor acht uur",
+            "Voor negen uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "De containers moeten voor half acht aan de straat staan."
+        },
+        {
+          "id": "l-a2-3-q16",
+          "text": "Wanneer is het containerpark open?",
+          "options": [
+            "Elke dag",
+            "Maandag tot vrijdag",
+            "Dinsdag tot zaterdag",
+            "Alleen in het weekend"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het containerpark is open van dinsdag tot zaterdag."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-3-t4.mp3"
+    },
+    {
+      "id": "l-a2-3-t5",
+      "title": "Bericht van de kinderopvang",
+      "transcript": "Beste ouders, dit is een bericht van kinderdagverblijf De Zonnestraal. Volgende week maandag, achttien maart, zijn wij gesloten vanwege een studiedag voor het personeel. De crèche en de peutergroep zijn allebei dicht. Wij vragen u om zelf opvang te regelen voor die dag. Op dinsdag negentien maart vieren wij het lentefeest. De kinderen mogen verkleed komen als bloem of dier. Het feest begint om tien uur. Ouders zijn welkom om twee uur bij de afsluiting. Wilt u iets lekkers meebrengen? Geef dit dan door aan de leidsters. Let op: kinderen met allergieën moeten hun eigen traktatie meenemen. Heeft u vragen? Bel ons op nul-twee-nul-vijf-vijf-vijf-acht-negen-negen-negen of stuur een e-mail naar info@dezonnestraal.nl.",
+      "questions": [
+        {
+          "id": "l-a2-3-q17",
+          "text": "Waarom is de kinderopvang maandag gesloten?",
+          "options": [
+            "Vanwege een feestdag",
+            "Vanwege een studiedag",
+            "Vanwege verbouwing",
+            "Vanwege ziekte"
+          ],
+          "correctIndex": 1,
+          "explanation": "De kinderopvang is gesloten vanwege een studiedag voor het personeel."
+        },
+        {
+          "id": "l-a2-3-q18",
+          "text": "Wat wordt er dinsdag gevierd?",
+          "options": [
+            "Sinterklaas",
+            "Carnaval",
+            "Het lentefeest",
+            "Een verjaardag"
+          ],
+          "correctIndex": 2,
+          "explanation": "Op dinsdag wordt het lentefeest gevierd."
+        },
+        {
+          "id": "l-a2-3-q19",
+          "text": "Hoe laat is de afsluiting voor ouders?",
+          "options": [
+            "Tien uur",
+            "Twaalf uur",
+            "Twee uur",
+            "Vier uur"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ouders zijn welkom om twee uur bij de afsluiting."
+        },
+        {
+          "id": "l-a2-3-q20",
+          "text": "Wat moeten kinderen met allergieën doen?",
+          "options": [
+            "Thuisblijven",
+            "Medicijnen meenemen",
+            "Hun eigen traktatie meenemen",
+            "Niets bijzonders"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kinderen met allergieën moeten hun eigen traktatie meenemen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-3-t5.mp3"
+    }
+  ]
+}

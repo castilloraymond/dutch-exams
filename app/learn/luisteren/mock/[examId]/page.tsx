@@ -178,6 +178,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
             <ContentPanel
               type="luisteren"
               transcript={currentTranscript.transcript}
+              audioFile={currentTranscript.audioFile}
             />
           )
         }

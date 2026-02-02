@@ -14,32 +14,53 @@
         {
           "id": "l-a2-2-q1",
           "text": "Wanneer komt de klant op bezoek?",
-          "options": ["Volgende week maandag", "Volgende week woensdag", "Deze week vrijdag", "Over twee weken"],
+          "options": [
+            "Volgende week maandag",
+            "Volgende week woensdag",
+            "Deze week vrijdag",
+            "Over twee weken"
+          ],
           "correctIndex": 1,
           "explanation": "De klant komt volgende week woensdag."
         },
         {
           "id": "l-a2-2-q2",
           "text": "Uit welk land komt de klant?",
-          "options": ["België", "Frankrijk", "Duitsland", "Engeland"],
+          "options": [
+            "België",
+            "Frankrijk",
+            "Duitsland",
+            "Engeland"
+          ],
           "correctIndex": 2,
           "explanation": "De klant komt uit Duitsland."
         },
         {
           "id": "l-a2-2-q3",
           "text": "Wat gaat Karin doen?",
-          "options": ["De lunch bestellen", "De presentatie maken", "De kantoren schoonmaken", "De gasten rondleiden"],
+          "options": [
+            "De lunch bestellen",
+            "De presentatie maken",
+            "De kantoren schoonmaken",
+            "De gasten rondleiden"
+          ],
           "correctIndex": 1,
           "explanation": "Karin gaat de presentatie maken."
         },
         {
           "id": "l-a2-2-q4",
           "text": "Hoe laat is de lunch?",
-          "options": ["Elf uur", "Half twaalf", "Twaalf uur", "Een uur"],
+          "options": [
+            "Elf uur",
+            "Half twaalf",
+            "Twaalf uur",
+            "Een uur"
+          ],
           "correctIndex": 2,
           "explanation": "De lunch is om twaalf uur."
         }
-      ]
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-2-t1.mp3"
     },
     {
       "id": "l-a2-2-t2",
@@ -49,32 +70,53 @@
         {
           "id": "l-a2-2-q5",
           "text": "Waar gaat deze trein naartoe?",
-          "options": ["Amsterdam", "Rotterdam", "Utrecht", "Maastricht"],
+          "options": [
+            "Amsterdam",
+            "Rotterdam",
+            "Utrecht",
+            "Maastricht"
+          ],
           "correctIndex": 3,
           "explanation": "De trein gaat naar Maastricht."
         },
         {
           "id": "l-a2-2-q6",
           "text": "Waar zijn de werkzaamheden?",
-          "options": ["Tussen Amsterdam en Utrecht", "Tussen Utrecht en 's-Hertogenbosch", "Tussen Eindhoven en Maastricht", "In Utrecht"],
+          "options": [
+            "Tussen Amsterdam en Utrecht",
+            "Tussen Utrecht en 's-Hertogenbosch",
+            "Tussen Eindhoven en Maastricht",
+            "In Utrecht"
+          ],
           "correctIndex": 1,
           "explanation": "De werkzaamheden zijn tussen Utrecht en 's-Hertogenbosch."
         },
         {
           "id": "l-a2-2-q7",
           "text": "Hoeveel vertraging kan er zijn?",
-          "options": ["Vijf minuten", "Tien minuten", "Vijftien minuten", "Twintig minuten"],
+          "options": [
+            "Vijf minuten",
+            "Tien minuten",
+            "Vijftien minuten",
+            "Twintig minuten"
+          ],
           "correctIndex": 1,
           "explanation": "De trein kan ongeveer tien minuten vertraging oplopen."
         },
         {
           "id": "l-a2-2-q8",
           "text": "Waar kun je eten en drinken kopen?",
-          "options": ["Voorin de trein", "Achterin de trein", "In het midden van de trein", "Op het perron"],
+          "options": [
+            "Voorin de trein",
+            "Achterin de trein",
+            "In het midden van de trein",
+            "Op het perron"
+          ],
           "correctIndex": 2,
           "explanation": "Er is een restauratierijtuig in het midden van de trein."
         }
-      ]
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-2-t2.mp3"
     },
     {
       "id": "l-a2-2-t3",
@@ -84,32 +126,53 @@
         {
           "id": "l-a2-2-q9",
           "text": "Wanneer verhuist Peter?",
-          "options": ["Deze week zaterdag", "Volgende week zaterdag", "Volgende maand", "Over twee weken"],
+          "options": [
+            "Deze week zaterdag",
+            "Volgende week zaterdag",
+            "Volgende maand",
+            "Over twee weken"
+          ],
           "correctIndex": 1,
           "explanation": "Peter verhuist volgende week zaterdag."
         },
         {
           "id": "l-a2-2-q10",
           "text": "Naar welke stad verhuist Peter?",
-          "options": ["Amsterdam", "Utrecht", "Almere", "Amersfoort"],
+          "options": [
+            "Amsterdam",
+            "Utrecht",
+            "Almere",
+            "Amersfoort"
+          ],
           "correctIndex": 2,
           "explanation": "Peter verhuist naar Almere."
         },
         {
           "id": "l-a2-2-q11",
           "text": "Hoeveel slaapkamers heeft het nieuwe huis?",
-          "options": ["Twee", "Drie", "Vier", "Vijf"],
+          "options": [
+            "Twee",
+            "Drie",
+            "Vier",
+            "Vijf"
+          ],
           "correctIndex": 1,
           "explanation": "Het huis heeft drie slaapkamers."
         },
         {
           "id": "l-a2-2-q12",
           "text": "Hoe laat komt Anna helpen?",
-          "options": ["'s Ochtends vroeg", "Om twaalf uur", "Rond twee uur", "'s Avonds"],
+          "options": [
+            "'s Ochtends vroeg",
+            "Om twaalf uur",
+            "Rond twee uur",
+            "'s Avonds"
+          ],
           "correctIndex": 2,
           "explanation": "Anna komt na de lunch, rond twee uur."
         }
-      ]
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-2-t3.mp3"
     },
     {
       "id": "l-a2-2-t4",
@@ -119,32 +182,53 @@
         {
           "id": "l-a2-2-q13",
           "text": "Hoe lang is de sportschool dicht?",
-          "options": ["Drie dagen", "Vijf dagen", "Een week", "Twee weken"],
+          "options": [
+            "Drie dagen",
+            "Vijf dagen",
+            "Een week",
+            "Twee weken"
+          ],
           "correctIndex": 1,
           "explanation": "De sportschool is dicht van maandag 5 tot en met vrijdag 9 februari, dat zijn 5 dagen."
         },
         {
           "id": "l-a2-2-q14",
           "text": "Wat wordt er verbouwd?",
-          "options": ["Alleen het zwembad", "Alleen de kleedkamers", "Het zwembad en de kleedkamers", "De parkeerplaats"],
+          "options": [
+            "Alleen het zwembad",
+            "Alleen de kleedkamers",
+            "Het zwembad en de kleedkamers",
+            "De parkeerplaats"
+          ],
           "correctIndex": 2,
           "explanation": "Het zwembad wordt groter gemaakt en de kleedkamers worden vernieuwd."
         },
         {
           "id": "l-a2-2-q15",
           "text": "Waar zijn de groepslessen tijdens de verbouwing?",
-          "options": ["Ze gaan niet door", "In een andere locatie", "In het park", "Online"],
+          "options": [
+            "Ze gaan niet door",
+            "In een andere locatie",
+            "In het park",
+            "Online"
+          ],
           "correctIndex": 1,
           "explanation": "De groepslessen gaan door in de andere locatie aan de Hoofdstraat."
         },
         {
           "id": "l-a2-2-q16",
           "text": "Wat krijgen de leden als compensatie?",
-          "options": ["Gratis koffie", "Een week extra abonnement", "Korting", "Nieuwe sportkleding"],
+          "options": [
+            "Gratis koffie",
+            "Een week extra abonnement",
+            "Korting",
+            "Nieuwe sportkleding"
+          ],
           "correctIndex": 1,
           "explanation": "Het abonnement wordt met een week verlengd als compensatie."
         }
-      ]
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-2-t4.mp3"
     },
     {
       "id": "l-a2-2-t5",
@@ -154,32 +238,53 @@
         {
           "id": "l-a2-2-q17",
           "text": "Wat wil de klant doen?",
-          "options": ["Geld wisselen", "Een lening aanvragen", "Een betaalrekening openen", "Een spaarrekening openen"],
+          "options": [
+            "Geld wisselen",
+            "Een lening aanvragen",
+            "Een betaalrekening openen",
+            "Een spaarrekening openen"
+          ],
           "correctIndex": 2,
           "explanation": "De klant wil een betaalrekening openen."
         },
         {
           "id": "l-a2-2-q18",
           "text": "Hoeveel kost de rekening na het eerste jaar?",
-          "options": ["Gratis", "Een euro per maand", "Twee euro per maand", "Vijf euro per maand"],
+          "options": [
+            "Gratis",
+            "Een euro per maand",
+            "Twee euro per maand",
+            "Vijf euro per maand"
+          ],
           "correctIndex": 2,
           "explanation": "Na het eerste jaar kost de rekening twee euro per maand."
         },
         {
           "id": "l-a2-2-q19",
           "text": "Wanneer ontvangt de klant de pinpas?",
-          "options": ["Direct", "Morgen", "Binnen vijf werkdagen", "Over twee weken"],
+          "options": [
+            "Direct",
+            "Morgen",
+            "Binnen vijf werkdagen",
+            "Over twee weken"
+          ],
           "correctIndex": 2,
           "explanation": "De pinpas wordt binnen vijf werkdagen per post gestuurd."
         },
         {
           "id": "l-a2-2-q20",
           "text": "Hoe ontvangt de klant de activeringscode?",
-          "options": ["Per e-mail", "Per sms", "In een aparte brief", "Telefonisch"],
+          "options": [
+            "Per e-mail",
+            "Per sms",
+            "In een aparte brief",
+            "Telefonisch"
+          ],
           "correctIndex": 2,
           "explanation": "De activeringscode komt in een aparte brief."
         }
-      ]
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-2-t5.mp3"
     }
   ]
 }

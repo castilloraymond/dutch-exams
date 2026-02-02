@@ -147,6 +147,7 @@ export interface MockExam {
     id: string;
     title: string;
     transcript: string;
+    audioFile?: string;
     questions: Question[];
   }[];
 }

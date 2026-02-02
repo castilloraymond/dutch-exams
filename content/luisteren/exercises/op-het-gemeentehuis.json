@@ -2,6 +2,7 @@
   "id": "op-het-gemeentehuis",
   "title": "Op het Gemeentehuis",
   "difficulty": "A1",
+  "audioFile": "/audio/luisteren/op-het-gemeentehuis.mp3",
   "transcript": "Medewerker: Goedemiddag, waarmee kan ik u helpen? Persoon: Ik ben net verhuisd naar deze gemeente en ik wil me graag inschrijven. Medewerker: Welkom! Heeft u een afspraak gemaakt? Persoon: Ja, ik heb een afspraak om twee uur. Medewerker: Heel goed. Heeft u uw paspoort en huurcontract meegenomen? Persoon: Ja, hier zijn ze. Medewerker: Dank u wel. Ik heb ook een bewijs van uitschrijving van uw vorige gemeente nodig. Heeft u dat? Persoon: Oh, dat heb ik niet bij me. Medewerker: Geen probleem, dat kunnen we digitaal opvragen. U moet zich binnen vijf dagen na uw verhuizing inschrijven. Persoon: Dat wist ik niet, bedankt voor de informatie.",
   "questions": [
     {

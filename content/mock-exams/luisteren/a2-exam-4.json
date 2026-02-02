@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-4",
+  "title": "Luisteren A2 - Oefenexamen 4",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-4-t1",
+      "title": "Gesprek bij het UWV",
+      "transcript": "Medewerker: Goedemiddag, neemt u plaats. Ik ben mevrouw Bakker. U heeft een afspraak over uw uitkering?\nKlant: Ja, ik heb vorige maand mijn baan verloren en ik wil een WW-uitkering aanvragen.\nMedewerker: Dat is vervelend. Heeft u al een account aangemaakt op werk.nl?\nKlant: Ja, dat heb ik gedaan.\nMedewerker: Goed. Dan moet u nu de aanvraag online invullen. Heeft u uw ontslagbrief en uw laatste drie loonstroken?\nKlant: Ja, ik heb alles meegenomen.\nMedewerker: Prima. De aanvraag moet binnen een week na uw laatste werkdag worden ingediend. Wanneer was uw laatste werkdag?\nKlant: Afgelopen vrijdag, vijf dagen geleden.\nMedewerker: Dan heeft u nog twee dagen. Tijdens de uitkering moet u minimaal vier keer per week solliciteren. Houdt u dit bij in uw werkmap op werk.nl.\nKlant: Oké, en hoe lang duurt het voordat ik antwoord krijg?\nMedewerker: Meestal binnen twee weken. U krijgt bericht per e-mail.",
+      "questions": [
+        {
+          "id": "l-a2-4-q1",
+          "text": "Waarom komt de klant naar het UWV?",
+          "options": [
+            "Om een baan te zoeken",
+            "Om een WW-uitkering aan te vragen",
+            "Om een cursus te volgen",
+            "Om een klacht in te dienen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klant wil een WW-uitkering aanvragen omdat hij zijn baan heeft verloren."
+        },
+        {
+          "id": "l-a2-4-q2",
+          "text": "Welke documenten heeft de klant nodig?",
+          "options": [
+            "Paspoort en diploma's",
+            "Ontslagbrief en loonstroken",
+            "CV en motivatiebrief",
+            "Bankafschriften"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klant heeft de ontslagbrief en de laatste drie loonstroken nodig."
+        },
+        {
+          "id": "l-a2-4-q3",
+          "text": "Hoe vaak moet de klant solliciteren tijdens de uitkering?",
+          "options": [
+            "Eén keer per week",
+            "Twee keer per week",
+            "Minimaal vier keer per week",
+            "Elke dag"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant moet minimaal vier keer per week solliciteren."
+        },
+        {
+          "id": "l-a2-4-q4",
+          "text": "Hoe lang duurt het voordat de klant antwoord krijgt?",
+          "options": [
+            "Binnen een week",
+            "Meestal binnen twee weken",
+            "Binnen een maand",
+            "Binnen twee maanden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt dat de klant meestal binnen twee weken bericht krijgt."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-4-t1.mp3"
+    },
+    {
+      "id": "l-a2-4-t2",
+      "title": "Ouderavond op school",
+      "transcript": "Lerares: Goedenavond meneer en mevrouw Özdemir. Fijn dat u er bent. Ik wil het graag over Sara hebben.\nVader: Ja, hoe gaat het met haar op school?\nLerares: Sara is een lieve leerling en ze werkt hard. Haar rekenen gaat heel goed, ze is één van de beste van de klas.\nMoeder: Dat is fijn om te horen. En hoe gaat het met lezen?\nLerares: Dat kan beter. Sara leest nog langzaam en maakt soms fouten. Ik raad aan om thuis elke dag twintig minuten te lezen.\nVader: Oké, dat gaan we doen. Speelt ze goed met andere kinderen?\nLerares: Ja, ze heeft veel vriendinnen. Alleen in de gymles is ze soms verlegen. Ze doet niet graag mee met balsporten.\nMoeder: Thuis sport ze ook niet veel.\nLerares: Misschien kunt u haar aanmelden voor een sport die ze leuk vindt? Zwemmen of dansen bijvoorbeeld. Dat helpt met zelfvertrouwen.\nVader: Goed idee, we gaan erover nadenken.",
+      "questions": [
+        {
+          "id": "l-a2-4-q5",
+          "text": "Hoe gaat het met Sara's rekenen?",
+          "options": [
+            "Niet zo goed",
+            "Gemiddeld",
+            "Heel goed",
+            "Ze heeft extra hulp nodig"
+          ],
+          "correctIndex": 2,
+          "explanation": "De lerares zegt dat Sara's rekenen heel goed gaat, ze is één van de beste van de klas."
+        },
+        {
+          "id": "l-a2-4-q6",
+          "text": "Wat moet Sara thuis oefenen?",
+          "options": [
+            "Rekenen",
+            "Lezen",
+            "Schrijven",
+            "Engels"
+          ],
+          "correctIndex": 1,
+          "explanation": "De lerares adviseert om thuis elke dag twintig minuten te lezen."
+        },
+        {
+          "id": "l-a2-4-q7",
+          "text": "Waar is Sara verlegen in?",
+          "options": [
+            "In de klas",
+            "Tijdens de pauze",
+            "In de gymles",
+            "Bij het voorlezen"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sara is soms verlegen in de gymles en doet niet graag mee met balsporten."
+        },
+        {
+          "id": "l-a2-4-q8",
+          "text": "Wat adviseert de lerares voor Sara's zelfvertrouwen?",
+          "options": [
+            "Extra huiswerk",
+            "Bijles nemen",
+            "Een sport zoals zwemmen of dansen",
+            "Minder tv kijken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De lerares adviseert om Sara aan te melden voor een sport die ze leuk vindt, zoals zwemmen of dansen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-4-t2.mp3"
+    },
+    {
+      "id": "l-a2-4-t3",
+      "title": "Bericht van de woningcorporatie",
+      "transcript": "Geachte huurders van de Parkstraat, dit is een bericht van woningcorporatie WoonGoed. Van maandag tweeëntwintig tot en met vrijdag zesentwintig april voeren wij onderhoud uit aan de verwarmingsinstallatie in uw flatgebouw. Een monteur komt langs om uw radiator te controleren. U hoeft niet thuis te zijn, de monteur heeft een sleutel. Als u liever wel thuis bent, maakt u een afspraak via ons telefoonnummer. Het onderhoud duurt ongeveer dertig minuten per woning. Tijdens het onderhoud kan de verwarming tijdelijk uitvallen. Wij adviseren u om extra dekens klaar te leggen. Na het onderhoud werkt uw verwarming efficiënter en bespaart u energie. Heeft u klachten over uw verwarming? Meld dit dan vóór twintig april via onze website of bel naar nul-eight-honderd-twaalf-vierentwintig. Deze klachten worden dan direct meegenomen.",
+      "questions": [
+        {
+          "id": "l-a2-4-q9",
+          "text": "Wat gaat er gebeuren in het flatgebouw?",
+          "options": [
+            "De lift wordt gerepareerd",
+            "De verwarming wordt onderhouden",
+            "De ramen worden vervangen",
+            "Het dak wordt gerepareerd"
+          ],
+          "correctIndex": 1,
+          "explanation": "Er wordt onderhoud uitgevoerd aan de verwarmingsinstallatie."
+        },
+        {
+          "id": "l-a2-4-q10",
+          "text": "Moet de huurder thuis zijn tijdens het onderhoud?",
+          "options": [
+            "Ja, altijd",
+            "Nee, de monteur heeft een sleutel",
+            "Alleen 's ochtends",
+            "Alleen op afspraak"
+          ],
+          "correctIndex": 1,
+          "explanation": "De huurder hoeft niet thuis te zijn, de monteur heeft een sleutel."
+        },
+        {
+          "id": "l-a2-4-q11",
+          "text": "Hoe lang duurt het onderhoud per woning?",
+          "options": [
+            "Vijftien minuten",
+            "Dertig minuten",
+            "Een uur",
+            "Twee uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het onderhoud duurt ongeveer dertig minuten per woning."
+        },
+        {
+          "id": "l-a2-4-q12",
+          "text": "Wanneer moet u klachten melden?",
+          "options": [
+            "Na het onderhoud",
+            "Tijdens het onderhoud",
+            "Vóór twintig april",
+            "Vóór tweeëntwintig april"
+          ],
+          "correctIndex": 2,
+          "explanation": "Klachten moeten vóór twintig april worden gemeld."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-4-t3.mp3"
+    },
+    {
+      "id": "l-a2-4-t4",
+      "title": "Bij de huisarts - Vaccinatie",
+      "transcript": "Doktersassistente: Goedemiddag, u komt voor de griepprik?\nPatiënt: Ja, ik heb een uitnodiging gekregen.\nDoktersassistente: Klopt, u bent boven de zestig, dan krijgt u elk jaar een uitnodiging. Heeft u allergieën?\nPatiënt: Ja, ik ben allergisch voor noten.\nDoktersassistente: Dat is geen probleem voor deze vaccinatie. Bent u op dit moment ziek? Koorts of zo?\nPatiënt: Nee, ik voel me goed.\nDoktersassistente: Prima. Na de prik moet u vijftien minuten hier blijven zitten. Dat is voor de zekerheid.\nPatiënt: Oké. Kan ik daarna gewoon autorijden?\nDoktersassistente: Ja hoor, dat is geen probleem. Uw arm kan een beetje pijn doen, dat is normaal. Neem eventueel een paracetamol.\nPatiënt: En wanneer werkt de vaccinatie?\nDoktersassistente: Na ongeveer twee weken bent u beschermd. Tot die tijd moet u voorzichtig zijn.\nPatiënt: Begrepen, dank u wel.",
+      "questions": [
+        {
+          "id": "l-a2-4-q13",
+          "text": "Waarom krijgt de patiënt een uitnodiging voor de griepprik?",
+          "options": [
+            "Omdat ze ziek is",
+            "Omdat ze boven de zestig is",
+            "Omdat ze zwanger is",
+            "Omdat ze in de zorg werkt"
+          ],
+          "correctIndex": 1,
+          "explanation": "De patiënt is boven de zestig en krijgt daarom elk jaar een uitnodiging."
+        },
+        {
+          "id": "l-a2-4-q14",
+          "text": "Hoe lang moet de patiënt na de prik blijven zitten?",
+          "options": [
+            "Vijf minuten",
+            "Tien minuten",
+            "Vijftien minuten",
+            "Dertig minuten"
+          ],
+          "correctIndex": 2,
+          "explanation": "De patiënt moet vijftien minuten blijven zitten voor de zekerheid."
+        },
+        {
+          "id": "l-a2-4-q15",
+          "text": "Wat is een normale bijwerking?",
+          "options": [
+            "Koorts",
+            "Pijn in de arm",
+            "Hoofdpijn",
+            "Misselijkheid"
+          ],
+          "correctIndex": 1,
+          "explanation": "De assistente zegt dat de arm een beetje pijn kan doen, dat is normaal."
+        },
+        {
+          "id": "l-a2-4-q16",
+          "text": "Wanneer is de patiënt beschermd tegen griep?",
+          "options": [
+            "Direct na de prik",
+            "Na een week",
+            "Na ongeveer twee weken",
+            "Na een maand"
+          ],
+          "correctIndex": 2,
+          "explanation": "Na ongeveer twee weken is de patiënt beschermd."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-4-t4.mp3"
+    },
+    {
+      "id": "l-a2-4-t5",
+      "title": "Instructie op het werk",
+      "transcript": "Leidinggevende: Goedemorgen allemaal. Vandaag wil ik de nieuwe veiligheidsregels bespreken. Vanaf volgende week moet iedereen een veiligheidshelm dragen in het magazijn. Ook in de gangen naar het magazijn.\nMedewerker 1: Waar kunnen we die helmen krijgen?\nLeidinggevende: Die liggen bij de ingang van het magazijn. Schrijf uw naam erop, dan is het uw persoonlijke helm.\nMedewerker 2: En als we even snel iets moeten pakken?\nLeidinggevende: Ook dan. Geen uitzonderingen. De verzekering dekt geen ongelukken zonder helm.\nMedewerker 1: Moeten we ook veiligheidsschoenen dragen?\nLeidinggevende: Ja, die zijn verplicht sinds vorig jaar. Als uw schoenen versleten zijn, kunt u nieuwe aanvragen bij personeelszaken. Het bedrijf betaalt.\nMedewerker 2: En de vorkheftruck, wie mag daar nu op rijden?\nLeidinggevende: Alleen medewerkers met een certificaat. De cursus is volgende maand. Wie interesse heeft, kan zich opgeven bij mij.\nMedewerker 1: Ik wil graag die cursus doen.\nLeidinggevende: Mooi, ik schrijf je naam op.",
+      "questions": [
+        {
+          "id": "l-a2-4-q17",
+          "text": "Wat is vanaf volgende week verplicht in het magazijn?",
+          "options": [
+            "Veiligheidsschoenen",
+            "Een veiligheidshelm",
+            "Handschoenen",
+            "Een veiligheidsbril"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vanaf volgende week moet iedereen een veiligheidshelm dragen in het magazijn."
+        },
+        {
+          "id": "l-a2-4-q18",
+          "text": "Waar kunnen medewerkers de helmen krijgen?",
+          "options": [
+            "Bij personeelszaken",
+            "Bij de receptie",
+            "Bij de ingang van het magazijn",
+            "In de kantine"
+          ],
+          "correctIndex": 2,
+          "explanation": "De helmen liggen bij de ingang van het magazijn."
+        },
+        {
+          "id": "l-a2-4-q19",
+          "text": "Wie betaalt voor nieuwe veiligheidsschoenen?",
+          "options": [
+            "De medewerker zelf",
+            "Het bedrijf",
+            "De verzekering",
+            "De gemeente"
+          ],
+          "correctIndex": 1,
+          "explanation": "De leidinggevende zegt dat het bedrijf betaalt voor nieuwe veiligheidsschoenen."
+        },
+        {
+          "id": "l-a2-4-q20",
+          "text": "Wie mag op de vorkheftruck rijden?",
+          "options": [
+            "Iedereen",
+            "Alleen de leidinggevende",
+            "Alleen medewerkers met een certificaat",
+            "Alleen nieuwe medewerkers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alleen medewerkers met een certificaat mogen op de vorkheftruck rijden."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-4-t5.mp3"
+    }
+  ]
+}
