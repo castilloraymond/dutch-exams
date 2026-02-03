@@ -25,9 +25,17 @@ export function FinalCTA() {
                             Continue to Practice
                         </Link>
                     ) : isConfigured ? (
-                        <GoogleSignInButton className="!bg-[var(--landing-orange)] !border-[var(--landing-orange)] !text-white hover:!bg-[var(--landing-orange)]/90">
-                            Try a Sample Exam
-                        </GoogleSignInButton>
+                        <div className="flex flex-col items-center gap-3">
+                            <GoogleSignInButton className="!bg-[var(--landing-orange)] !border-[var(--landing-orange)] !text-white hover:!bg-[var(--landing-orange)]/90">
+                                Try a Sample Exam
+                            </GoogleSignInButton>
+                            <Link
+                                href="/auth/login"
+                                className="text-sm text-white/60 hover:text-white/80 transition-colors"
+                            >
+                                Or sign in with email
+                            </Link>
+                        </div>
                     ) : (
                         <Link
                             href="/learn"

@@ -12,12 +12,20 @@ import {
 import { createClient } from "@/lib/supabase-browser";
 import type { User, Session, AuthChangeEvent } from "@supabase/supabase-js";
 
+interface AuthResult {
+  error?: string;
+}
+
 interface AuthContextType {
   user: User | null;
   session: Session | null;
   loading: boolean;
   isConfigured: boolean;
   signInWithGoogle: () => Promise<void>;
+  signUp: (email: string, password: string) => Promise<AuthResult>;
+  signInWithPassword: (email: string, password: string) => Promise<AuthResult>;
+  resetPassword: (email: string) => Promise<AuthResult>;
+  updatePassword: (password: string) => Promise<AuthResult>;
   signOut: () => Promise<void>;
 }
 
@@ -74,6 +82,61 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [supabase]);
 
+  const signUp = useCallback(async (email: string, password: string): Promise<AuthResult> => {
+    if (!supabase) {
+      return { error: "Authentication is not configured." };
+    }
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
+    if (error) {
+      return { error: error.message };
+    }
+    return {};
+  }, [supabase]);
+
+  const signInWithPassword = useCallback(async (email: string, password: string): Promise<AuthResult> => {
+    if (!supabase) {
+      return { error: "Authentication is not configured." };
+    }
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+    if (error) {
+      return { error: error.message };
+    }
+    return {};
+  }, [supabase]);
+
+  const resetPassword = useCallback(async (email: string): Promise<AuthResult> => {
+    if (!supabase) {
+      return { error: "Authentication is not configured." };
+    }
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/auth/callback?type=recovery`,
+    });
+    if (error) {
+      return { error: error.message };
+    }
+    return {};
+  }, [supabase]);
+
+  const updatePassword = useCallback(async (password: string): Promise<AuthResult> => {
+    if (!supabase) {
+      return { error: "Authentication is not configured." };
+    }
+    const { error } = await supabase.auth.updateUser({ password });
+    if (error) {
+      return { error: error.message };
+    }
+    return {};
+  }, [supabase]);
+
   const signOut = useCallback(async () => {
     if (!supabase) {
       console.warn("Supabase not configured. Authentication is disabled.");
@@ -88,7 +151,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   return (
     <AuthContext.Provider
-      value={{ user, session, loading, isConfigured, signInWithGoogle, signOut }}
+      value={{
+        user,
+        session,
+        loading,
+        isConfigured,
+        signInWithGoogle,
+        signUp,
+        signInWithPassword,
+        resetPassword,
+        updatePassword,
+        signOut,
+      }}
     >
       {children}
     </AuthContext.Provider>
