@@ -24,7 +24,7 @@ config({ path: ".env.local" });
 // Dutch Neural voices available in Azure
 // Using mix of voices for realistic exam simulation
 const VOICE_MAP: Record<string, string> = {
-  // Female voices - Fenna (younger), Colette (professional)
+  // Female voices - Fenna (younger/casual), Colette (professional/mature)
   klant: "nl-NL-FennaNeural",
   patiënt: "nl-NL-FennaNeural",
   patient: "nl-NL-FennaNeural",
@@ -44,7 +44,7 @@ const VOICE_MAP: Record<string, string> = {
   moeder: "nl-NL-FennaNeural",
   lerares: "nl-NL-ColetteNeural",
   doktersassistente: "nl-NL-ColetteNeural",
-  werknemer: "nl-NL-FennaNeural",
+  receptionist: "nl-NL-ColetteNeural", // Professional female role
 
   // Male voices - Maarten
   bakker: "nl-NL-MaartenNeural",
@@ -60,10 +60,40 @@ const VOICE_MAP: Record<string, string> = {
   peter: "nl-NL-MaartenNeural",
   mark: "nl-NL-MaartenNeural",
   apotheker: "nl-NL-MaartenNeural",
-  receptionist: "nl-NL-MaartenNeural",
   buurman: "nl-NL-MaartenNeural",
   vader: "nl-NL-MaartenNeural",
   leidinggevende: "nl-NL-MaartenNeural",
+  // Named male characters
+  jan: "nl-NL-MaartenNeural",
+  erik: "nl-NL-MaartenNeural",
+  jansen: "nl-NL-MaartenNeural",
+  "meneer jansen": "nl-NL-MaartenNeural",
+  mohammed: "nl-NL-MaartenNeural",
+  werknemer: "nl-NL-MaartenNeural", // Erik de Vries in a2-exam-3
+};
+
+// Pitch variations for male voice variety (only one male voice available)
+const PITCH_MAP: Record<string, string> = {
+  // Authority figures - deeper pitch
+  dokter: "-5%",
+  chef: "-5%",
+  werkgever: "-5%",
+  leidinggevende: "-3%",
+  apotheker: "-3%",
+
+  // Service staff - neutral
+  medewerker: "0%",
+  verkoper: "0%",
+  ober: "0%",
+  loketmedewerker: "0%",
+
+  // Casual/younger - slightly higher
+  buurman: "+3%",
+  peter: "+2%",
+  mark: "+2%",
+  jan: "+2%",
+  erik: "+2%",
+  mohammed: "+2%",
 };
 
 // Default voices for unknown speakers
@@ -152,6 +182,23 @@ function getVoice(speaker: string, speakerIndex: number): string {
 }
 
 /**
+ * Get pitch adjustment for a speaker (for male voice variety)
+ */
+function getPitch(speaker: string): string {
+  const lowerSpeaker = speaker.toLowerCase().trim();
+  if (PITCH_MAP[lowerSpeaker]) {
+    return PITCH_MAP[lowerSpeaker];
+  }
+  // Check for partial matches
+  for (const [key, pitch] of Object.entries(PITCH_MAP)) {
+    if (lowerSpeaker.includes(key)) {
+      return pitch;
+    }
+  }
+  return "0%";
+}
+
+/**
  * Build SSML for multi-voice dialogue
  */
 function buildSSML(segments: DialogueSegment[]): string {
@@ -169,6 +216,7 @@ function buildSSML(segments: DialogueSegment[]): string {
     const segment = segments[i];
     const speakerIndex = speakerOrder.indexOf(segment.speaker);
     const voice = getVoice(segment.speaker, speakerIndex);
+    const pitch = getPitch(segment.speaker);
 
     // Escape special XML characters
     const escapedText = segment.text
@@ -179,7 +227,7 @@ function buildSSML(segments: DialogueSegment[]): string {
       .replace(/'/g, "&apos;");
 
     ssml += `<voice name="${voice}">`;
-    ssml += `<prosody rate="0.95">${escapedText}</prosody>`;
+    ssml += `<prosody rate="0.95" pitch="${pitch}">${escapedText}</prosody>`;
     // Add pause after each segment (except the last one) - break must be inside voice
     if (i < segments.length - 1) {
       ssml += '<break time="400ms"/>';

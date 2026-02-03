@@ -25,6 +25,8 @@ const SPEAKER_VOICE_MAP: Record<string, { gender: "male" | "female"; pitch: numb
   patient: { gender: "female", pitch: 1.1 },
   bezoeker: { gender: "female", pitch: 1.1 },
   student: { gender: "female", pitch: 1.15 },
+  beller: { gender: "female", pitch: 1.1 },
+  sollicitant: { gender: "female", pitch: 1.1 },
 
   // Service provider roles (typically male voices)
   bakker: { gender: "male", pitch: 0.9 },
@@ -39,6 +41,25 @@ const SPEAKER_VOICE_MAP: Record<string, { gender: "male" | "female"; pitch: numb
   leraar: { gender: "male", pitch: 0.9 },
   teacher: { gender: "male", pitch: 0.9 },
   docent: { gender: "male", pitch: 0.9 },
+  chef: { gender: "male", pitch: 0.85 },
+  werkgever: { gender: "male", pitch: 0.85 },
+  apotheker: { gender: "male", pitch: 0.9 },
+
+  // Named characters - female
+  anna: { gender: "female", pitch: 1.1 },
+  lisa: { gender: "female", pitch: 1.1 },
+  karin: { gender: "female", pitch: 1.0 },
+  secretaresse: { gender: "female", pitch: 1.0 },
+
+  // Named characters - male
+  jan: { gender: "male", pitch: 0.95 },
+  erik: { gender: "male", pitch: 0.95 },
+  mark: { gender: "male", pitch: 0.95 },
+  peter: { gender: "male", pitch: 0.95 },
+  jansen: { gender: "male", pitch: 0.9 },
+  "meneer jansen": { gender: "male", pitch: 0.9 },
+  mohammed: { gender: "male", pitch: 0.95 },
+  buurman: { gender: "male", pitch: 0.95 },
 
   // Neutral/narrator
   verteller: { gender: "female", pitch: 1.0 },

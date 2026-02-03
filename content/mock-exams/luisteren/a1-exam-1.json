@@ -97,7 +97,7 @@
     {
       "id": "l-a1-1-t3",
       "title": "Telefoongesprek",
-      "transcript": "Secretaresse: Tandartspraktijk De Molen, goedemorgen.\nBeller: Goedemorgen, ik wil graag een afspraak maken.\nSecretaresse: Voor wanneer?\nBeller: Volgende week dinsdag als het kan.\nSecretaresse: Om tien uur heb ik plek. Wat is uw naam?\nBeller: Jan Bakker.\nSecretaresse: Prima, meneer Bakker. Dinsdag om tien uur.",
+      "transcript": "Secretaresse: Tandartspraktijk De Molen, goedemorgen.\nJan: Goedemorgen, ik wil graag een afspraak maken.\nSecretaresse: Voor wanneer?\nJan: Volgende week dinsdag als het kan.\nSecretaresse: Om tien uur heb ik plek. Wat is uw naam?\nJan: Jan Bakker.\nSecretaresse: Prima, meneer Bakker. Dinsdag om tien uur.",
       "questions": [
         {
           "id": "l-a1-1-q7",

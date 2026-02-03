@@ -65,7 +65,7 @@
     {
       "id": "l-a2-1-t2",
       "title": "Bij de huisarts",
-      "transcript": "Dokter: Goedemiddag meneer Jansen. Wat kan ik voor u doen?\nPatiënt: Dag dokter. Ik heb al een week hoofdpijn en ik voel me moe.\nDokter: Slaapt u goed?\nPatiënt: Niet echt. Ik word vaak wakker.\nDokter: Heeft u stress op uw werk?\nPatiënt: Ja, we hebben het erg druk op kantoor.\nDokter: Ik denk dat de hoofdpijn door stress en slaapgebrek komt. Probeer meer te rusten en minder koffie te drinken. Als het over twee weken niet beter is, komt u terug.\nPatiënt: Oké, dank u wel.",
+      "transcript": "Dokter: Goedemiddag meneer Jansen. Wat kan ik voor u doen?\nMeneer Jansen: Dag dokter. Ik heb al een week hoofdpijn en ik voel me moe.\nDokter: Slaapt u goed?\nMeneer Jansen: Niet echt. Ik word vaak wakker.\nDokter: Heeft u stress op uw werk?\nMeneer Jansen: Ja, we hebben het erg druk op kantoor.\nDokter: Ik denk dat de hoofdpijn door stress en slaapgebrek komt. Probeer meer te rusten en minder koffie te drinken. Als het over twee weken niet beter is, komt u terug.\nMeneer Jansen: Oké, dank u wel.",
       "questions": [
         {
           "id": "l-a2-1-q5",
