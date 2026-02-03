@@ -5,6 +5,7 @@ export async function GET(request: NextRequest) {
   const requestUrl = new URL(request.url);
   const code = requestUrl.searchParams.get("code");
   const type = requestUrl.searchParams.get("type");
+  const redirect = requestUrl.searchParams.get("redirect");
 
   if (code) {
     const supabase = await createServerComponentClient();
@@ -18,6 +19,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.redirect(new URL("/auth/update-password", request.url));
   }
 
-  // Redirect to learn page after successful auth
-  return NextResponse.redirect(new URL("/learn", request.url));
+  // Redirect to the specified page or default to /learn
+  const redirectPath = redirect && redirect.startsWith("/") ? redirect : "/learn";
+  return NextResponse.redirect(new URL(redirectPath, request.url));
 }

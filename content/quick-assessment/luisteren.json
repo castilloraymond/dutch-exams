@@ -1,0 +1,20 @@
+{
+  "module": "luisteren",
+  "questionIds": [
+    "bakker-q1",
+    "gem-q1",
+    "bakker-q2",
+    "gem-q4",
+    "bakker-q3",
+    "gem-q2",
+    "huisarts-q2",
+    "werk-audio-q3",
+    "telefoon-q4",
+    "gem-q3"
+  ],
+  "curationNotes": {
+    "accessible": ["bakker-q1 (counting)", "gem-q1 (purpose of visit)", "bakker-q2 (choice)"],
+    "representative": ["gem-q4 (deadline)", "bakker-q3 (total cost)", "gem-q2 (documents)", "huisarts-q2 (appointment)", "werk-audio-q3 (work)"],
+    "challenging": ["telefoon-q4 (phone details)", "gem-q3 (missing document)"]
+  }
+}

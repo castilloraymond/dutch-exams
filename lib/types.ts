@@ -164,3 +164,37 @@ export interface ExamResult {
   timeTakenSeconds: number;
   createdAt: string;
 }
+
+// Quick Assessment types
+export type QuickAssessmentModule = "lezen" | "knm" | "luisteren";
+
+export interface QuickAssessmentConfig {
+  module: QuickAssessmentModule;
+  name: string;
+  nameEnglish: string;
+  description: string;
+  questionIds: string[];
+  estimatedMinutes: number;
+  icon: string;
+}
+
+export interface QuickAssessmentAnswer {
+  questionId: string;
+  selectedIndex: number;
+  correct: boolean;
+  timeSpentMs: number;
+}
+
+export interface QuickAssessmentAttempt {
+  module: QuickAssessmentModule;
+  answers: QuickAssessmentAnswer[];
+  totalTimeMs: number;
+  score: number;
+  completedAt: string;
+}
+
+export interface QuickAssessmentProgress {
+  currentQuestionIndex: number;
+  answers: QuickAssessmentAnswer[];
+  startTime: number;
+}

@@ -6,16 +6,17 @@ import { useState } from "react";
 interface GoogleSignInButtonProps {
   className?: string;
   children?: React.ReactNode;
+  redirectTo?: string;
 }
 
-export function GoogleSignInButton({ className = "", children }: GoogleSignInButtonProps) {
+export function GoogleSignInButton({ className = "", children, redirectTo }: GoogleSignInButtonProps) {
   const { signInWithGoogle } = useAuth();
   const [loading, setLoading] = useState(false);
 
   const handleClick = async () => {
     setLoading(true);
     try {
-      await signInWithGoogle();
+      await signInWithGoogle(redirectTo);
     } catch {
       setLoading(false);
     }

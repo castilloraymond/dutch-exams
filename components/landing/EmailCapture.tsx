@@ -1,9 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
-import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 interface EmailCaptureProps {
     variant?: "hero" | "footer";
@@ -12,8 +11,7 @@ interface EmailCaptureProps {
 
 export function EmailCapture({ className = "" }: EmailCaptureProps) {
     const router = useRouter();
-    const { user, isConfigured } = useAuth();
-    const [email, setEmail] = useState("");
+    const { user } = useAuth();
 
     // If user is already logged in, redirect to learn
     if (user) {
@@ -21,39 +19,18 @@ export function EmailCapture({ className = "" }: EmailCaptureProps) {
         return null;
     }
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        // Placeholder: just redirect to /learn for now (Supabase storage to be added later)
-        router.push("/learn");
-    };
-
     return (
         <div className={`font-sans-landing ${className}`}>
             <div className="flex flex-col items-center gap-4">
-                {isConfigured ? (
-                    <GoogleSignInButton className="shadow-lg cursor-pointer">
-                        Start Free Practice
-                    </GoogleSignInButton>
-                ) : (
-                    <form onSubmit={handleSubmit} className="w-full max-w-lg">
-                        <div className="flex flex-col sm:flex-row items-stretch sm:items-center bg-white rounded-2xl sm:rounded-full shadow-lg border border-[var(--landing-navy)]/10 p-1.5 sm:pl-6">
-                            <input
-                                type="email"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                                placeholder="Enter your email"
-                                className="flex-1 bg-transparent border-none outline-none text-[var(--landing-navy)] placeholder:text-[var(--landing-navy)]/40 text-base py-3 px-4 sm:px-0 sm:py-2"
-                                required
-                            />
-                            <button
-                                type="submit"
-                                className="cta-primary px-6 py-3.5 text-white rounded-xl sm:rounded-full font-semibold cursor-pointer whitespace-nowrap"
-                            >
-                                Start Free Practice
-                            </button>
-                        </div>
-                    </form>
-                )}
+                <Link
+                    href="/try"
+                    className="cta-primary px-8 py-4 text-white rounded-full font-semibold cursor-pointer whitespace-nowrap shadow-lg hover:shadow-xl transition-shadow text-lg"
+                >
+                    Start Free Practice
+                </Link>
+                <p className="text-sm text-[var(--landing-navy)]/50">
+                    No signup required — see your readiness score in 3 minutes
+                </p>
             </div>
         </div>
     );

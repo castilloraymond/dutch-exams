@@ -21,7 +21,7 @@ interface AuthContextType {
   session: Session | null;
   loading: boolean;
   isConfigured: boolean;
-  signInWithGoogle: () => Promise<void>;
+  signInWithGoogle: (redirectTo?: string) => Promise<void>;
   signUp: (email: string, password: string) => Promise<AuthResult>;
   signInWithPassword: (email: string, password: string) => Promise<AuthResult>;
   resetPassword: (email: string) => Promise<AuthResult>;
@@ -65,15 +65,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return () => subscription.unsubscribe();
   }, [supabase]);
 
-  const signInWithGoogle = useCallback(async () => {
+  const signInWithGoogle = useCallback(async (redirectTo?: string) => {
     if (!supabase) {
       console.warn("Supabase not configured. Authentication is disabled.");
       return;
     }
+    const callbackUrl = redirectTo
+      ? `${window.location.origin}/auth/callback?redirect=${encodeURIComponent(redirectTo)}`
+      : `${window.location.origin}/auth/callback`;
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
+        redirectTo: callbackUrl,
       },
     });
     if (error) {

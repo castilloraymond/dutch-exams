@@ -1,4 +1,4 @@
-import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question, MockExamIndex, MockExam } from "./types";
+import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question, MockExamIndex, MockExam, QuickAssessmentModule } from "./types";
 
 // Lezen (Reading) content
 import contentIndex from "@/content/index.json";
@@ -49,6 +49,12 @@ import luisterenA2Exam1 from "@/content/mock-exams/luisteren/a2-exam-1.json";
 import luisterenA2Exam2 from "@/content/mock-exams/luisteren/a2-exam-2.json";
 import luisterenA2Exam3 from "@/content/mock-exams/luisteren/a2-exam-3.json";
 import luisterenA2Exam4 from "@/content/mock-exams/luisteren/a2-exam-4.json";
+
+// Quick Assessment content
+import quickAssessmentIndex from "@/content/quick-assessment/index.json";
+import quickAssessmentKnm from "@/content/quick-assessment/knm.json";
+import quickAssessmentLezen from "@/content/quick-assessment/lezen.json";
+import quickAssessmentLuisteren from "@/content/quick-assessment/luisteren.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
@@ -241,4 +247,84 @@ export function getAllExamCount(): number {
     count += index.exams.length;
   }
   return count;
+}
+
+// Quick Assessment functions
+export interface QuickAssessmentModuleInfo {
+  module: QuickAssessmentModule;
+  name: string;
+  nameEnglish: string;
+  description: string;
+  estimatedMinutes: number;
+  icon: string;
+}
+
+export function getQuickAssessmentModules(): QuickAssessmentModuleInfo[] {
+  return quickAssessmentIndex.modules as QuickAssessmentModuleInfo[];
+}
+
+const quickAssessmentQuestionIds: Record<QuickAssessmentModule, string[]> = {
+  knm: quickAssessmentKnm.questionIds,
+  lezen: quickAssessmentLezen.questionIds,
+  luisteren: quickAssessmentLuisteren.questionIds,
+};
+
+// Build a map of all questions by ID for quick lookup
+function buildQuestionMap(): Record<string, Question & { context?: { passageContent?: string; passageTitle?: string; transcript?: string; audioFile?: string } }> {
+  const questionMap: Record<string, Question & { context?: { passageContent?: string; passageTitle?: string; transcript?: string; audioFile?: string } }> = {};
+
+  // Add passage questions (lezen)
+  for (const passage of Object.values(passages)) {
+    for (const question of passage.questions) {
+      questionMap[question.id] = {
+        ...question,
+        context: {
+          passageContent: passage.content,
+          passageTitle: passage.title,
+        },
+      };
+    }
+  }
+
+  // Add KNM questions
+  for (const topic of Object.values(knmTopics)) {
+    for (const question of topic.questions) {
+      questionMap[question.id] = question;
+    }
+  }
+
+  // Add listening questions
+  for (const exercise of Object.values(listeningExercises)) {
+    for (const question of exercise.questions) {
+      questionMap[question.id] = {
+        ...question,
+        context: {
+          transcript: exercise.transcript,
+          audioFile: exercise.audioFile,
+        },
+      };
+    }
+  }
+
+  return questionMap;
+}
+
+const allQuestionsMap = buildQuestionMap();
+
+export interface QuickAssessmentQuestion extends Question {
+  context?: {
+    passageContent?: string;
+    passageTitle?: string;
+    transcript?: string;
+    audioFile?: string;
+  };
+}
+
+export function getQuickAssessmentQuestions(module: QuickAssessmentModule): QuickAssessmentQuestion[] {
+  const questionIds = quickAssessmentQuestionIds[module];
+  if (!questionIds) return [];
+
+  return questionIds
+    .map((id) => allQuestionsMap[id])
+    .filter((q): q is QuickAssessmentQuestion => q !== undefined);
 }
