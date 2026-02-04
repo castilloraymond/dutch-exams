@@ -28,7 +28,12 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
   description: "Practice with realistic exam simulations on a computer—exactly like the real test. Built by expats, for expats. 93% pass rate.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
+
 
 export default function RootLayout({
   children,

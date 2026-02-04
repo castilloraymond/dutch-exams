@@ -32,9 +32,16 @@ export function FeatureCards() {
     return (
         <section className="py-20 bg-[var(--landing-cream)]">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] text-center mb-14">
-                    Complete Coverage for Every Exam
-                </h2>
+                {/* Section Header */}
+                <div className="text-center mb-14">
+                    <span className="font-sans-landing inline-block text-xs font-medium tracking-wide uppercase text-[var(--landing-orange)] bg-[var(--landing-orange)]/10 px-3 py-1.5 rounded-full mb-4">
+                        Complete Exam Coverage
+                    </span>
+                    <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)]">
+                        Master Every Module
+                    </h2>
+                </div>
+
                 <div className="grid md:grid-cols-3 gap-8">
                     {features.map((feature, i) => (
                         <div key={i} className="landing-card rounded-2xl p-8 text-center">
