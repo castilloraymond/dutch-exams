@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Landmark, Headphones, Clock } from "lucide-react";
+import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Clock } from "lucide-react";
 import { getQuickAssessmentModules } from "@/lib/content";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   BookOpen,
   Landmark,
   Headphones,
+  PenLine,
+  Mic,
 };
 
 export default function TryPage() {
@@ -69,7 +71,7 @@ export default function TryPage() {
                             <Clock className="h-3.5 w-3.5" />
                             ~{mod.estimatedMinutes} min
                           </span>
-                          <span>10 questions</span>
+                          <span>{mod.taskType === "task" ? "1 task" : "10 questions"}</span>
                           <span className="px-2 py-0.5 bg-[var(--landing-orange)]/10 text-[var(--landing-orange)] rounded-full font-medium">
                             A2 Level
                           </span>

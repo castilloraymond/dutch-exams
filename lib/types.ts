@@ -166,7 +166,7 @@ export interface ExamResult {
 }
 
 // Quick Assessment types
-export type QuickAssessmentModule = "lezen" | "knm" | "luisteren";
+export type QuickAssessmentModule = "lezen" | "knm" | "luisteren" | "schrijven" | "spreken";
 
 export interface QuickAssessmentConfig {
   module: QuickAssessmentModule;
@@ -197,4 +197,92 @@ export interface QuickAssessmentProgress {
   currentQuestionIndex: number;
   answers: QuickAssessmentAnswer[];
   startTime: number;
+}
+
+// ============================================
+// Schrijven (Writing) Types
+// ============================================
+
+export type WritingTaskType = "free-text" | "form";
+
+export interface FormField {
+  id: string;
+  label: string;
+  labelEn: string;
+  type: "text" | "date" | "select" | "textarea";
+  options?: string[];
+  required: boolean;
+  placeholder?: string;
+}
+
+export interface FormAnswer {
+  [fieldId: string]: string;
+}
+
+export interface AssessmentCriterion {
+  id: string;
+  text: string;
+  textEn: string;
+}
+
+export interface WritingTask {
+  id: string;
+  title: string;
+  titleEn: string;
+  difficulty: Difficulty;
+  taskType: WritingTaskType;
+  scenario: string;
+  scenarioEn: string;
+  prompt: string;
+  promptEn: string;
+  wordRange?: {
+    min: number;
+    max: number;
+  };
+  formFields?: FormField[];
+  selfAssessmentCriteria: AssessmentCriterion[];
+  modelAnswer: string | FormAnswer;
+  tips: string[];
+  isFreePreview: boolean;
+}
+
+// ============================================
+// Spreken (Speaking) Types
+// ============================================
+
+export type SpeakingPartNumber = 1 | 2 | 3 | 4;
+
+export interface TaskImage {
+  id: string;
+  src: string;
+  alt: string;
+  altNl: string;
+  label?: string;
+}
+
+export interface SpeakingTask {
+  id: string;
+  partNumber: SpeakingPartNumber;
+  partTitle: string;
+  partTitleNl: string;
+  title: string;
+  titleNl: string;
+  difficulty: Difficulty;
+  personStatement?: string;
+  personStatementNl?: string;
+  images?: TaskImage[];
+  questionNl: string;
+  questionEn: string;
+  questionParts?: string[];
+  recommendedDuration: number;
+  softLimitWarning: number;
+  selfAssessmentCriteria: AssessmentCriterion[];
+  modelAnswer: {
+    transcript: string;
+    transcriptNl: string;
+    audioFile?: string;
+  };
+  tips: string[];
+  sequencingWordsRequired?: boolean;
+  isFreePreview: boolean;
 }

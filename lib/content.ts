@@ -1,4 +1,4 @@
-import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question, MockExamIndex, MockExam, QuickAssessmentModule } from "./types";
+import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question, MockExamIndex, MockExam, QuickAssessmentModule, WritingTask, SpeakingTask } from "./types";
 
 // Lezen (Reading) content
 import contentIndex from "@/content/index.json";
@@ -55,6 +55,14 @@ import quickAssessmentIndex from "@/content/quick-assessment/index.json";
 import quickAssessmentKnm from "@/content/quick-assessment/knm.json";
 import quickAssessmentLezen from "@/content/quick-assessment/lezen.json";
 import quickAssessmentLuisteren from "@/content/quick-assessment/luisteren.json";
+import quickAssessmentSchrijven from "@/content/quick-assessment/schrijven.json";
+import quickAssessmentSpreken from "@/content/quick-assessment/spreken.json";
+
+// Schrijven content (for trial)
+import replyColleagueShift from "@/content/schrijven/tasks/reply-colleague-shift.json";
+
+// Spreken content (for trial)
+import part2Lunch from "@/content/spreken/tasks/part2-lunch.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
@@ -257,16 +265,28 @@ export interface QuickAssessmentModuleInfo {
   description: string;
   estimatedMinutes: number;
   icon: string;
+  taskType: "mcq" | "task";
 }
 
 export function getQuickAssessmentModules(): QuickAssessmentModuleInfo[] {
   return quickAssessmentIndex.modules as QuickAssessmentModuleInfo[];
 }
 
-const quickAssessmentQuestionIds: Record<QuickAssessmentModule, string[]> = {
+// MCQ module question IDs
+const quickAssessmentQuestionIds: Partial<Record<QuickAssessmentModule, string[]>> = {
   knm: quickAssessmentKnm.questionIds,
   lezen: quickAssessmentLezen.questionIds,
   luisteren: quickAssessmentLuisteren.questionIds,
+};
+
+// Writing task data
+const writingTasks: Record<string, WritingTask> = {
+  "reply-colleague-shift": replyColleagueShift as unknown as WritingTask,
+};
+
+// Speaking task data
+const speakingTasks: Record<string, SpeakingTask> = {
+  "part2-lunch": part2Lunch as unknown as SpeakingTask,
 };
 
 // Build a map of all questions by ID for quick lookup
@@ -327,4 +347,16 @@ export function getQuickAssessmentQuestions(module: QuickAssessmentModule): Quic
   return questionIds
     .map((id) => allQuestionsMap[id])
     .filter((q): q is QuickAssessmentQuestion => q !== undefined);
+}
+
+// Quick Assessment - Writing task getter
+export function getQuickAssessmentWritingTask(): WritingTask | null {
+  const taskId = quickAssessmentSchrijven.taskId;
+  return writingTasks[taskId] || null;
+}
+
+// Quick Assessment - Speaking task getter
+export function getQuickAssessmentSpeakingTask(): SpeakingTask | null {
+  const taskId = quickAssessmentSpreken.taskId;
+  return speakingTasks[taskId] || null;
 }

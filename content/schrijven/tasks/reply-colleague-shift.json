@@ -1,0 +1,44 @@
+{
+  "id": "reply-colleague-shift",
+  "title": "Antwoord aan collega",
+  "titleEn": "Reply to Colleague",
+  "difficulty": "A2",
+  "taskType": "free-text",
+  "scenario": "Uw collega heeft u gevraagd of u van dienst kunt ruilen. U moet antwoorden.",
+  "scenarioEn": "Your colleague has asked if you can swap shifts. You need to respond.",
+  "prompt": "Uw collega Peter vraagt: 'Kun je zaterdag voor mij werken? Dan werk ik maandag voor jou.' Schrijf een antwoord aan Peter. Zeg of u kunt helpen en waarom wel of niet.",
+  "promptEn": "Your colleague Peter asks: 'Can you work Saturday for me? Then I'll work Monday for you.' Write a response to Peter. Say whether you can help and why or why not.",
+  "wordRange": {
+    "min": 30,
+    "max": 60
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used an appropriate greeting (informal is OK for colleagues)",
+      "textEn": "I used an appropriate greeting (informal is OK for colleagues)"
+    },
+    {
+      "id": "answer",
+      "text": "I clearly said yes or no to the request",
+      "textEn": "I clearly said yes or no to the request"
+    },
+    {
+      "id": "reason",
+      "text": "I gave a reason for my answer",
+      "textEn": "I gave a reason for my answer"
+    },
+    {
+      "id": "friendly",
+      "text": "My message is friendly and polite",
+      "textEn": "My message is friendly and polite"
+    }
+  ],
+  "modelAnswer": "Hoi Peter,\n\nJa, dat is goed! Ik kan zaterdag voor je werken. Ik heb dan toch geen plannen.\n\nFijn dat jij dan maandag voor mij werkt. Dan kan ik naar de dokter.\n\nTot zaterdag!\nGroetjes,\nSarah",
+  "tips": [
+    "With colleagues, you can use informal language (je/jij instead of u).",
+    "Be clear and direct - say yes or no first, then explain.",
+    "Keep it short and friendly."
+  ],
+  "isFreePreview": true
+}

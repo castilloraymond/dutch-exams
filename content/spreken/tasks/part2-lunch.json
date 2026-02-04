@@ -1,0 +1,59 @@
+{
+  "id": "part2-lunch",
+  "partNumber": 2,
+  "partTitle": "One-Picture Prompt",
+  "partTitleNl": "Eén Afbeelding",
+  "title": "Lunch",
+  "titleNl": "Lunch",
+  "difficulty": "A2",
+  "images": [
+    {
+      "id": "lunch-salad",
+      "src": "/images/spreken/part2-lunch-salad.jpg",
+      "alt": "Person eating a healthy salad with vegetables",
+      "altNl": "Persoon eet een gezonde salade met groenten",
+      "label": "Sem"
+    }
+  ],
+  "questionNl": "Vertel wat Sem kan eten. Vertel wat jij van dit eten vindt.",
+  "questionEn": "Tell what Sem can eat. Tell what you think of this food.",
+  "questionParts": [
+    "What can Sem eat?",
+    "What do you think of this food?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "both-parts",
+      "text": "I answered both parts of the question",
+      "textEn": "I answered both parts of the question"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "described-image",
+      "text": "I described what I saw in the image",
+      "textEn": "I described what I saw in the image"
+    },
+    {
+      "id": "gave-opinion",
+      "text": "I gave my opinion about the food",
+      "textEn": "I gave my opinion about the food"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "Sem is eating a salad with vegetables. I think this is healthy food. I also like to eat salad, especially in the summer.",
+    "transcriptNl": "Sem eet een salade met groenten. Ik vind dit gezond eten. Ik eet ook graag salade, vooral in de zomer.",
+    "audioFile": "/audio/spreken/model-answers/part2-lunch.mp3"
+  },
+  "tips": [
+    "First describe what you see, then give your opinion.",
+    "Use the person's name from the question (Sem) in your answer.",
+    "You can add personal information (like 'I also like...' or 'I prefer...')."
+  ],
+  "isFreePreview": true
+}
