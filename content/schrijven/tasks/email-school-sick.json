@@ -1,0 +1,49 @@
+{
+  "id": "email-school-sick",
+  "title": "Email aan school",
+  "titleEn": "Email to School",
+  "difficulty": "A2",
+  "taskType": "free-text",
+  "scenario": "Uw kind is ziek en kan vandaag niet naar school. U moet de school informeren.",
+  "scenarioEn": "Your child is sick and cannot go to school today. You need to inform the school.",
+  "prompt": "Schrijf een email aan de leerkracht van uw kind. Vertel dat uw kind ziek is en niet naar school kan komen. Noem ook wanneer uw kind weer op school zal zijn.",
+  "promptEn": "Write an email to your child's teacher. Tell them that your child is sick and cannot come to school. Also mention when your child will be back at school.",
+  "wordRange": {
+    "min": 40,
+    "max": 80
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used an appropriate greeting (e.g., Geachte, Beste)",
+      "textEn": "I used an appropriate greeting (e.g., Geachte, Beste)"
+    },
+    {
+      "id": "reason",
+      "text": "I clearly stated that my child is sick",
+      "textEn": "I clearly stated that my child is sick"
+    },
+    {
+      "id": "details",
+      "text": "I included when my child will return",
+      "textEn": "I included when my child will return"
+    },
+    {
+      "id": "closing",
+      "text": "I used an appropriate closing (e.g., Met vriendelijke groet)",
+      "textEn": "I used an appropriate closing (e.g., Met vriendelijke groet)"
+    },
+    {
+      "id": "name",
+      "text": "I signed with my name",
+      "textEn": "I signed with my name"
+    }
+  ],
+  "modelAnswer": "Geachte mevrouw Jansen,\n\nIk schrijf u om te laten weten dat mijn zoon Thomas vandaag ziek is. Hij heeft koorts en kan niet naar school komen.\n\nAls het goed gaat, is Thomas morgen weer op school. Als hij nog ziek is, laat ik het u weten.\n\nMet vriendelijke groet,\nAnna de Vries",
+  "tips": [
+    "Keep it simple - you don't get extra points for complex vocabulary.",
+    "Always use a formal greeting when writing to a teacher.",
+    "Include specific details: your child's name, the reason, and expected return date."
+  ],
+  "isFreePreview": true
+}

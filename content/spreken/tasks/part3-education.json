@@ -1,0 +1,66 @@
+{
+  "id": "part3-education",
+  "partNumber": 3,
+  "partTitle": "Two-Picture Prompt",
+  "partTitleNl": "Twee Afbeeldingen",
+  "title": "Education Building",
+  "titleNl": "Lesgebouw",
+  "difficulty": "A2",
+  "images": [
+    {
+      "id": "old-building",
+      "src": "/images/spreken/part3-old-building.jpg",
+      "alt": "Old traditional brick school building",
+      "altNl": "Oud traditioneel bakstenen schoolgebouw",
+      "label": "A"
+    },
+    {
+      "id": "modern-building",
+      "src": "/images/spreken/part3-modern-building.jpg",
+      "alt": "Modern glass and steel school building",
+      "altNl": "Modern school gebouw van glas en staal",
+      "label": "B"
+    }
+  ],
+  "questionNl": "Je volgt een cursus. In welk gebouw heb je liever les? Vertel ook waarom.",
+  "questionEn": "You are taking a course. In which building do you prefer to have lessons? Also tell why.",
+  "questionParts": [
+    "Which building do you prefer?",
+    "Why do you prefer that building?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "made-choice",
+      "text": "I clearly stated which building I prefer",
+      "textEn": "I clearly stated which building I prefer"
+    },
+    {
+      "id": "gave-reason",
+      "text": "I explained why I prefer that building",
+      "textEn": "I explained why I prefer that building"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "complete-answer",
+      "text": "My answer was complete and made sense",
+      "textEn": "My answer was complete and made sense"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I prefer to have lessons in the modern building. It looks clean and new. There is probably also better technology, like computers and screens.",
+    "transcriptNl": "Ik heb liever les in het moderne gebouw. Het ziet er schoon en nieuw uit. Er is waarschijnlijk ook betere technologie, zoals computers en schermen.",
+    "audioFile": "/audio/spreken/model-answers/part3-education.mp3"
+  },
+  "tips": [
+    "Make a clear choice first - don't be vague about your preference.",
+    "Give at least one or two reasons for your choice.",
+    "You can mention what you think the building has or doesn't have."
+  ],
+  "isFreePreview": true
+}

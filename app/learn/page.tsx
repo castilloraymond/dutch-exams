@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Landmark, Headphones } from "lucide-react";
+import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic } from "lucide-react";
 
 const modules = [
   {
@@ -24,6 +24,20 @@ const modules = [
     description: "Luister naar Nederlandse audiofragmenten en beantwoord vragen.",
     icon: Headphones,
     href: "/learn/luisteren/select",
+  },
+  {
+    id: "schrijven",
+    name: "Schrijven (Writing)",
+    description: "Oefen schrijfopdrachten zoals emails, berichten en formulieren.",
+    icon: PenLine,
+    href: "/learn/schrijven",
+  },
+  {
+    id: "spreken",
+    name: "Spreken (Speaking)",
+    description: "Oefen spreekvaardigheden met opnameoefeningen en feedback.",
+    icon: Mic,
+    href: "/learn/spreken",
   },
 ];
 

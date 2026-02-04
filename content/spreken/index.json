@@ -1,0 +1,46 @@
+{
+  "module": "Spreken",
+  "description": "Speaking Practice",
+  "tasks": [
+    {
+      "id": "part1-homework",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "title": "Homework Habits",
+      "titleNl": "Huiswerkgewoonten",
+      "difficulty": "A2",
+      "isFreePreview": true
+    },
+    {
+      "id": "part2-lunch",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "title": "Lunch",
+      "titleNl": "Lunch",
+      "difficulty": "A2",
+      "isFreePreview": true
+    },
+    {
+      "id": "part3-education",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "title": "Education Building",
+      "titleNl": "Lesgebouw",
+      "difficulty": "A2",
+      "isFreePreview": true
+    },
+    {
+      "id": "part4-classroom",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "title": "Classroom Items",
+      "titleNl": "Klaslokaal Voorwerpen",
+      "difficulty": "A2",
+      "isFreePreview": true
+    }
+  ]
+}

@@ -44,6 +44,8 @@ export interface UserProgress {
   passageProgress: {
     [passageId: string]: PassageProgress;
   };
+  writingProgress?: WritingProgress;
+  speakingProgress?: SpeakingProgress;
   email?: string;
 }
 
@@ -246,6 +248,35 @@ export interface WritingTask {
   isFreePreview: boolean;
 }
 
+export interface WritingTaskSummary {
+  id: string;
+  title: string;
+  titleEn: string;
+  difficulty: Difficulty;
+  taskType: WritingTaskType;
+  isFreePreview: boolean;
+}
+
+export interface WritingIndex {
+  module: string;
+  description: string;
+  tasks: WritingTaskSummary[];
+}
+
+export interface WritingAttempt {
+  submission: string | FormAnswer;
+  selfAssessmentScore: number;
+  selfAssessmentTotal: number;
+  checkedCriteria: string[];
+  modelAnswerRevealed: boolean;
+  completedAt: string;
+  timeElapsed: number;
+}
+
+export interface WritingProgress {
+  [taskId: string]: WritingAttempt;
+}
+
 // ============================================
 // Spreken (Speaking) Types
 // ============================================
@@ -285,4 +316,35 @@ export interface SpeakingTask {
   tips: string[];
   sequencingWordsRequired?: boolean;
   isFreePreview: boolean;
+}
+
+export interface SpeakingTaskSummary {
+  id: string;
+  partNumber: SpeakingPartNumber;
+  partTitle: string;
+  partTitleNl: string;
+  title: string;
+  titleNl: string;
+  difficulty: Difficulty;
+  isFreePreview: boolean;
+}
+
+export interface SpeakingIndex {
+  module: string;
+  description: string;
+  tasks: SpeakingTaskSummary[];
+}
+
+export interface SpeakingAttempt {
+  recordingDuration: number;
+  selfAssessmentScore: number;
+  selfAssessmentTotal: number;
+  checkedCriteria: string[];
+  modelAnswerPlayed: boolean;
+  completedAt: string;
+  attemptCount: number;
+}
+
+export interface SpeakingProgress {
+  [taskId: string]: SpeakingAttempt;
 }

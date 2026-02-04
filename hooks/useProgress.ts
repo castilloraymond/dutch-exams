@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useSyncExternalStore } from "react";
-import type { UserProgress } from "@/lib/types";
+import type { UserProgress, WritingAttempt, SpeakingAttempt } from "@/lib/types";
 import {
   saveProgress,
   updatePassageProgress,
@@ -106,6 +106,82 @@ export function useProgress() {
     }
   }, []);
 
+  // Writing progress methods
+  const saveWritingAttempt = useCallback(
+    (taskId: string, attempt: WritingAttempt) => {
+      setProgress((prev) => {
+        const updated = {
+          ...prev,
+          writingProgress: {
+            ...prev.writingProgress,
+            [taskId]: attempt,
+          },
+        };
+        saveProgress(updated);
+        return updated;
+      });
+    },
+    []
+  );
+
+  const getWritingAttempt = useCallback(
+    (taskId: string): WritingAttempt | undefined => {
+      return progress.writingProgress?.[taskId];
+    },
+    [progress.writingProgress]
+  );
+
+  const resetWritingTask = useCallback((taskId: string) => {
+    setProgress((prev) => {
+      const newWritingProgress = { ...prev.writingProgress };
+      delete newWritingProgress[taskId];
+      const updated = {
+        ...prev,
+        writingProgress: newWritingProgress,
+      };
+      saveProgress(updated);
+      return updated;
+    });
+  }, []);
+
+  // Speaking progress methods
+  const saveSpeakingAttempt = useCallback(
+    (taskId: string, attempt: SpeakingAttempt) => {
+      setProgress((prev) => {
+        const updated = {
+          ...prev,
+          speakingProgress: {
+            ...prev.speakingProgress,
+            [taskId]: attempt,
+          },
+        };
+        saveProgress(updated);
+        return updated;
+      });
+    },
+    []
+  );
+
+  const getSpeakingAttempt = useCallback(
+    (taskId: string): SpeakingAttempt | undefined => {
+      return progress.speakingProgress?.[taskId];
+    },
+    [progress.speakingProgress]
+  );
+
+  const resetSpeakingTask = useCallback((taskId: string) => {
+    setProgress((prev) => {
+      const newSpeakingProgress = { ...prev.speakingProgress };
+      delete newSpeakingProgress[taskId];
+      const updated = {
+        ...prev,
+        speakingProgress: newSpeakingProgress,
+      };
+      saveProgress(updated);
+      return updated;
+    });
+  }, []);
+
   return {
     progress,
     isLoaded,
@@ -114,5 +190,13 @@ export function useProgress() {
     setEmail,
     syncToCloud,
     loadFromCloud,
+    // Writing methods
+    saveWritingAttempt,
+    getWritingAttempt,
+    resetWritingTask,
+    // Speaking methods
+    saveSpeakingAttempt,
+    getSpeakingAttempt,
+    resetSpeakingTask,
   };
 }

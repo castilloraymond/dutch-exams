@@ -1,0 +1,52 @@
+{
+  "id": "part1-homework",
+  "partNumber": 1,
+  "partTitle": "Personal Questions",
+  "partTitleNl": "Persoonlijke Vragen",
+  "title": "Homework Habits",
+  "titleNl": "Huiswerkgewoonten",
+  "difficulty": "A2",
+  "personStatement": "I like to do homework in my bedroom.",
+  "personStatementNl": "Ik maak graag huiswerk in mijn slaapkamer.",
+  "questionNl": "Waar maak jij graag huiswerk? Vertel ook waarom.",
+  "questionEn": "Where do you like to do homework? Also explain why.",
+  "questionParts": [
+    "Where do you like to do homework?",
+    "Why do you like that place?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "both-parts",
+      "text": "I answered both parts of the question (where AND why)",
+      "textEn": "I answered both parts of the question (where AND why)"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "vocabulary",
+      "text": "I used appropriate vocabulary",
+      "textEn": "I used appropriate vocabulary"
+    },
+    {
+      "id": "complete-sentences",
+      "text": "I used complete sentences",
+      "textEn": "I used complete sentences"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I like to do homework in the living room. It is quiet there and there is a lot of light. I can concentrate well there.",
+    "transcriptNl": "Ik maak graag huiswerk in de woonkamer. Het is daar rustig en er is veel licht. Ik kan me daar goed concentreren.",
+    "audioFile": "/audio/spreken/model-answers/part1-homework.mp3"
+  },
+  "tips": [
+    "Always answer BOTH parts of the question - this is essential for scoring.",
+    "Start with a direct answer, then give your reason.",
+    "Keep your answer simple and clear - complex vocabulary doesn't give extra points."
+  ],
+  "isFreePreview": true
+}

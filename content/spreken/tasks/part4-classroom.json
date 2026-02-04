@@ -1,0 +1,74 @@
+{
+  "id": "part4-classroom",
+  "partNumber": 4,
+  "partTitle": "Three-Picture Prompt",
+  "partTitleNl": "Drie Afbeeldingen",
+  "title": "Classroom Items",
+  "titleNl": "Klaslokaal Voorwerpen",
+  "difficulty": "A2",
+  "images": [
+    {
+      "id": "whiteboard",
+      "src": "/images/spreken/part4-whiteboard.jpg",
+      "alt": "Whiteboard in a classroom",
+      "altNl": "Whiteboard in een klaslokaal",
+      "label": "1"
+    },
+    {
+      "id": "world-map",
+      "src": "/images/spreken/part4-world-map.jpg",
+      "alt": "World map hanging on a wall",
+      "altNl": "Wereldkaart aan de muur",
+      "label": "2"
+    },
+    {
+      "id": "clock",
+      "src": "/images/spreken/part4-clock.jpg",
+      "alt": "Clock on a wall",
+      "altNl": "Klok aan de muur",
+      "label": "3"
+    }
+  ],
+  "questionNl": "Deze dingen hangen in een klaslokaal. Vertel welke dingen het zijn. Vertel ook wat leerlingen ermee kunnen doen.",
+  "questionEn": "These items hang in a classroom. Tell what items they are. Also tell what students can do with them.",
+  "questionParts": [
+    "What are these items?",
+    "What can students do with them?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "named-all",
+      "text": "I named all three items",
+      "textEn": "I named all three items"
+    },
+    {
+      "id": "described-use",
+      "text": "I described what students can do with the items",
+      "textEn": "I described what students can do with the items"
+    },
+    {
+      "id": "sequencing",
+      "text": "I used sequencing words (Eerst, Daarna, Tenslotte)",
+      "textEn": "I used sequencing words (Eerst, Daarna, Tenslotte)"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "First I see a whiteboard. Then I see a world map. Finally I see a clock. Students can write on the whiteboard. With the map they can learn countries. With the clock they know what time it is.",
+    "transcriptNl": "Eerst zie ik een whiteboard. Daarna zie ik een wereldkaart. Tenslotte zie ik een klok. Leerlingen kunnen op het whiteboard schrijven. Met de kaart kunnen ze landen leren. Met de klok weten ze hoe laat het is.",
+    "audioFile": "/audio/spreken/model-answers/part4-classroom.mp3"
+  },
+  "tips": [
+    "Use sequencing words: Eerst (First), Daarna (Then), Tenslotte (Finally) - this is important for Part 4!",
+    "Describe each item and its use - don't just list the names.",
+    "Take your time to mention all three items."
+  ],
+  "sequencingWordsRequired": true,
+  "isFreePreview": true
+}

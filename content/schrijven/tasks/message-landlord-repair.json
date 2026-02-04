@@ -1,0 +1,49 @@
+{
+  "id": "message-landlord-repair",
+  "title": "Bericht aan verhuurder",
+  "titleEn": "Message to Landlord",
+  "difficulty": "A2",
+  "taskType": "free-text",
+  "scenario": "Er is iets kapot in uw huurwoning. U moet de verhuurder informeren en vragen om reparatie.",
+  "scenarioEn": "Something is broken in your rental home. You need to inform the landlord and request a repair.",
+  "prompt": "Schrijf een bericht aan uw verhuurder. Vertel wat er kapot is en vraag wanneer het gerepareerd kan worden.",
+  "promptEn": "Write a message to your landlord. Tell them what is broken and ask when it can be repaired.",
+  "wordRange": {
+    "min": 40,
+    "max": 80
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used an appropriate greeting",
+      "textEn": "I used an appropriate greeting"
+    },
+    {
+      "id": "problem",
+      "text": "I clearly described the problem",
+      "textEn": "I clearly described the problem"
+    },
+    {
+      "id": "request",
+      "text": "I politely asked for a repair",
+      "textEn": "I politely asked for a repair"
+    },
+    {
+      "id": "availability",
+      "text": "I mentioned when I am available",
+      "textEn": "I mentioned when I am available"
+    },
+    {
+      "id": "closing",
+      "text": "I used an appropriate closing and signed my name",
+      "textEn": "I used an appropriate closing and signed my name"
+    }
+  ],
+  "modelAnswer": "Geachte heer Van den Berg,\n\nIk wil u laten weten dat de verwarming in mijn woning niet meer werkt. Het is al drie dagen kapot en het wordt koud in huis.\n\nKunt u de verwarming laten repareren? Ik ben elke dag na 17:00 uur thuis.\n\nMet vriendelijke groet,\nMohammed Yilmaz\nHuisnummer 42",
+  "tips": [
+    "Be polite but clear about the problem.",
+    "Always include your address or apartment number so they know which unit.",
+    "Mention your availability so they can schedule the repair."
+  ],
+  "isFreePreview": true
+}

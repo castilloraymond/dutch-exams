@@ -1,4 +1,22 @@
-import type { ContentIndex, Passage, KNMIndex, KNMTopic, ListeningIndex, ListeningExercise, Question, MockExamIndex, MockExam, QuickAssessmentModule, WritingTask, SpeakingTask } from "./types";
+import type {
+  ContentIndex,
+  Passage,
+  KNMIndex,
+  KNMTopic,
+  ListeningIndex,
+  ListeningExercise,
+  Question,
+  MockExamIndex,
+  MockExam,
+  QuickAssessmentModule,
+  WritingIndex,
+  WritingTask,
+  WritingTaskSummary,
+  SpeakingIndex,
+  SpeakingTask,
+  SpeakingTaskSummary,
+  SpeakingPartNumber,
+} from "./types";
 
 // Lezen (Reading) content
 import contentIndex from "@/content/index.json";
@@ -58,11 +76,19 @@ import quickAssessmentLuisteren from "@/content/quick-assessment/luisteren.json"
 import quickAssessmentSchrijven from "@/content/quick-assessment/schrijven.json";
 import quickAssessmentSpreken from "@/content/quick-assessment/spreken.json";
 
-// Schrijven content (for trial)
+// Schrijven content
+import schrijvenIndex from "@/content/schrijven/index.json";
+import emailSchoolSick from "@/content/schrijven/tasks/email-school-sick.json";
+import messageLandlordRepair from "@/content/schrijven/tasks/message-landlord-repair.json";
+import formCourseRegistration from "@/content/schrijven/tasks/form-course-registration.json";
 import replyColleagueShift from "@/content/schrijven/tasks/reply-colleague-shift.json";
 
-// Spreken content (for trial)
+// Spreken content
+import sprekenIndex from "@/content/spreken/index.json";
+import part1Homework from "@/content/spreken/tasks/part1-homework.json";
 import part2Lunch from "@/content/spreken/tasks/part2-lunch.json";
+import part3Education from "@/content/spreken/tasks/part3-education.json";
+import part4Classroom from "@/content/spreken/tasks/part4-classroom.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
@@ -113,6 +139,22 @@ const mockExams: Record<string, MockExam> = {
   "luisteren-a2-2": luisterenA2Exam2 as unknown as MockExam,
   "luisteren-a2-3": luisterenA2Exam3 as unknown as MockExam,
   "luisteren-a2-4": luisterenA2Exam4 as unknown as MockExam,
+};
+
+// Schrijven data
+const writingTasks: Record<string, WritingTask> = {
+  "email-school-sick": emailSchoolSick as unknown as WritingTask,
+  "message-landlord-repair": messageLandlordRepair as unknown as WritingTask,
+  "form-course-registration": formCourseRegistration as unknown as WritingTask,
+  "reply-colleague-shift": replyColleagueShift as unknown as WritingTask,
+};
+
+// Spreken data
+const speakingTasks: Record<string, SpeakingTask> = {
+  "part1-homework": part1Homework as unknown as SpeakingTask,
+  "part2-lunch": part2Lunch as unknown as SpeakingTask,
+  "part3-education": part3Education as unknown as SpeakingTask,
+  "part4-classroom": part4Classroom as unknown as SpeakingTask,
 };
 
 // Lezen functions
@@ -257,7 +299,10 @@ export function getAllExamCount(): number {
   return count;
 }
 
+// ============================================
 // Quick Assessment functions
+// ============================================
+
 export interface QuickAssessmentModuleInfo {
   module: QuickAssessmentModule;
   name: string;
@@ -277,16 +322,6 @@ const quickAssessmentQuestionIds: Partial<Record<QuickAssessmentModule, string[]
   knm: quickAssessmentKnm.questionIds,
   lezen: quickAssessmentLezen.questionIds,
   luisteren: quickAssessmentLuisteren.questionIds,
-};
-
-// Writing task data
-const writingTasks: Record<string, WritingTask> = {
-  "reply-colleague-shift": replyColleagueShift as unknown as WritingTask,
-};
-
-// Speaking task data
-const speakingTasks: Record<string, SpeakingTask> = {
-  "part2-lunch": part2Lunch as unknown as SpeakingTask,
 };
 
 // Build a map of all questions by ID for quick lookup
@@ -359,4 +394,56 @@ export function getQuickAssessmentWritingTask(): WritingTask | null {
 export function getQuickAssessmentSpeakingTask(): SpeakingTask | null {
   const taskId = quickAssessmentSpreken.taskId;
   return speakingTasks[taskId] || null;
+}
+
+// ============================================
+// Schrijven (Writing) functions
+// ============================================
+
+export function getWritingIndex(): WritingIndex {
+  return schrijvenIndex as WritingIndex;
+}
+
+export function getWritingTask(id: string): WritingTask | null {
+  return writingTasks[id] || null;
+}
+
+export function getAllWritingTasks(): WritingTask[] {
+  return Object.values(writingTasks);
+}
+
+export function getWritingTaskSummaries(): WritingTaskSummary[] {
+  return (schrijvenIndex as WritingIndex).tasks;
+}
+
+export function getFreeWritingTasks(): WritingTask[] {
+  return Object.values(writingTasks).filter((task) => task.isFreePreview);
+}
+
+// ============================================
+// Spreken (Speaking) functions
+// ============================================
+
+export function getSpeakingIndex(): SpeakingIndex {
+  return sprekenIndex as SpeakingIndex;
+}
+
+export function getSpeakingTask(id: string): SpeakingTask | null {
+  return speakingTasks[id] || null;
+}
+
+export function getAllSpeakingTasks(): SpeakingTask[] {
+  return Object.values(speakingTasks);
+}
+
+export function getSpeakingTaskSummaries(): SpeakingTaskSummary[] {
+  return (sprekenIndex as SpeakingIndex).tasks;
+}
+
+export function getSpeakingTasksByPart(partNumber: SpeakingPartNumber): SpeakingTask[] {
+  return Object.values(speakingTasks).filter((task) => task.partNumber === partNumber);
+}
+
+export function getFreeSpeakingTasks(): SpeakingTask[] {
+  return Object.values(speakingTasks).filter((task) => task.isFreePreview);
 }

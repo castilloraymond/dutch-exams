@@ -1,0 +1,137 @@
+{
+  "id": "form-course-registration",
+  "title": "Cursus inschrijving",
+  "titleEn": "Course Registration",
+  "difficulty": "A1",
+  "taskType": "form",
+  "scenario": "U wilt zich inschrijven voor een Nederlandse taalcursus. Vul het inschrijfformulier in.",
+  "scenarioEn": "You want to register for a Dutch language course. Fill in the registration form.",
+  "prompt": "Vul het formulier in met uw gegevens.",
+  "promptEn": "Fill in the form with your information.",
+  "formFields": [
+    {
+      "id": "voornaam",
+      "label": "Voornaam",
+      "labelEn": "First name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw voornaam"
+    },
+    {
+      "id": "achternaam",
+      "label": "Achternaam",
+      "labelEn": "Last name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw achternaam"
+    },
+    {
+      "id": "geboortedatum",
+      "label": "Geboortedatum",
+      "labelEn": "Date of birth",
+      "type": "date",
+      "required": true
+    },
+    {
+      "id": "adres",
+      "label": "Adres",
+      "labelEn": "Address",
+      "type": "text",
+      "required": true,
+      "placeholder": "Straat en huisnummer"
+    },
+    {
+      "id": "postcode",
+      "label": "Postcode",
+      "labelEn": "Postal code",
+      "type": "text",
+      "required": true,
+      "placeholder": "1234 AB"
+    },
+    {
+      "id": "woonplaats",
+      "label": "Woonplaats",
+      "labelEn": "City",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw stad"
+    },
+    {
+      "id": "telefoonnummer",
+      "label": "Telefoonnummer",
+      "labelEn": "Phone number",
+      "type": "text",
+      "required": true,
+      "placeholder": "06-12345678"
+    },
+    {
+      "id": "email",
+      "label": "E-mailadres",
+      "labelEn": "Email address",
+      "type": "text",
+      "required": true,
+      "placeholder": "uw@email.nl"
+    },
+    {
+      "id": "cursus",
+      "label": "Welke cursus wilt u volgen?",
+      "labelEn": "Which course do you want to take?",
+      "type": "select",
+      "required": true,
+      "options": ["Nederlands A1", "Nederlands A2", "Nederlands B1", "Inburgeringscursus"]
+    },
+    {
+      "id": "dagvoorkeur",
+      "label": "Voorkeur voor lesdag",
+      "labelEn": "Preferred class day",
+      "type": "select",
+      "required": true,
+      "options": ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"]
+    }
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "all-fields",
+      "text": "I filled in all required fields",
+      "textEn": "I filled in all required fields"
+    },
+    {
+      "id": "name-correct",
+      "text": "I wrote my name correctly",
+      "textEn": "I wrote my name correctly"
+    },
+    {
+      "id": "date-format",
+      "text": "I used the correct date format",
+      "textEn": "I used the correct date format"
+    },
+    {
+      "id": "address-complete",
+      "text": "My address is complete with street and number",
+      "textEn": "My address is complete with street and number"
+    },
+    {
+      "id": "contact-correct",
+      "text": "My phone and email are in the correct format",
+      "textEn": "My phone and email are in the correct format"
+    }
+  ],
+  "modelAnswer": {
+    "voornaam": "Maria",
+    "achternaam": "Garcia",
+    "geboortedatum": "1990-05-15",
+    "adres": "Hoofdstraat 123",
+    "postcode": "1012 AB",
+    "woonplaats": "Amsterdam",
+    "telefoonnummer": "06-98765432",
+    "email": "maria.garcia@email.nl",
+    "cursus": "Nederlands A2",
+    "dagvoorkeur": "Dinsdag"
+  },
+  "tips": [
+    "On the real exam, you'll write by hand. Practice your Dutch handwriting too!",
+    "Dutch postal codes have 4 numbers followed by 2 letters (e.g., 1012 AB).",
+    "Use the format DD-MM-YYYY for dates in the Netherlands."
+  ],
+  "isFreePreview": true
+}
