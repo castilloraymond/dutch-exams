@@ -26,8 +26,8 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 | Lezen (Reading) | `/learn`, `/learn/[passageId]` | 5 passages, 25 questions |
 | KNM (Society) | `/learn/knm`, `/learn/knm/[topicId]` | 8 topics, 96 questions |
 | Luisteren (Listening) | `/learn/luisteren`, `/learn/luisteren/[exerciseId]` | 5 exercises, 20 questions |
-
-Planned: Schrijven (Writing), Spreken (Speaking)
+| Schrijven (Writing) | `/learn/schrijven`, `/learn/schrijven/[taskId]` | 4 tasks (email, form, message, reply) |
+| Spreken (Speaking) | `/learn/spreken`, `/learn/spreken/[taskId]` | 4 tasks (parts 1-4) |
 
 ## Key Patterns
 
@@ -50,6 +50,35 @@ Planned: Schrijven (Writing), Spreken (Speaking)
 
 - `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anonymous key
+
+## Git Workflow
+
+Use git worktrees for parallel feature development. See `docs/WORKTREE-WORKFLOW.md` for full guide.
+
+**Key rules:**
+- Never work directly on main — always create a feature branch
+- Push branches immediately after creating them
+- Commit after each meaningful unit of work
+- Push before stepping away (lunch, meetings, end of day)
+- Clean up worktrees immediately after PR is merged
+
+**Quick start:**
+```bash
+git fetch origin && git pull
+git worktree add ../inburgering-app-feature-name -b feature/feature-name
+cd ../inburgering-app-feature-name
+git push -u origin feature/feature-name
+claude
+```
+
+**After merge:**
+```bash
+git worktree remove ../inburgering-app-feature-name
+git branch -d feature/feature-name
+git push origin --delete feature/feature-name
+```
+
+---
 
 # CLAUDE.md
 
