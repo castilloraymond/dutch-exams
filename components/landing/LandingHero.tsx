@@ -1,6 +1,12 @@
-import { EmailCapture } from "./EmailCapture";
+"use client";
+
+import Link from "next/link";
+import { useAuth } from "@/contexts/AuthContext";
+import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export function LandingHero() {
+    const { user, isConfigured } = useAuth();
+
     const bullets = [
         "Hundreds of questions on all exam topics",
         "Identical interface to the real DUO exam",
@@ -18,13 +24,15 @@ export function LandingHero() {
                         </span>
 
                         <h1 className="font-serif text-4xl md:text-5xl font-semibold text-[var(--landing-navy)] leading-tight mb-6 animate-reveal-delay-2">
-                            Exactly what you need to pass the{" "}
+                            Pass your<br />
                             <span className="text-[var(--landing-orange)]">Inburgering Exam</span>
                         </h1>
 
+
                         <p className="font-sans-landing text-lg text-[var(--landing-navy)]/60 max-w-lg mb-8 leading-relaxed animate-reveal-delay-3">
-                            Gain the confidence you need by simulating the actual test — same interface, same format, 100% useful.
+                            Eliminate the &ldquo;unknowns&rdquo; with a simulator that replicates the exact format, timing, and interface of the official test. The most efficient way for busy professionals to ensure they pass the first time.
                         </p>
+
 
                         <ul className="font-sans-landing space-y-3 mb-8 animate-reveal-delay-3">
                             {bullets.map((item, i) => (
@@ -37,14 +45,49 @@ export function LandingHero() {
                             ))}
                         </ul>
 
-                        <div id="email-capture" className="animate-reveal-delay-4">
-                            <EmailCapture variant="hero" />
+                        {/* Simplified CTA - no email required */}
+                        <div className="animate-reveal-delay-4">
+                            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                                {user ? (
+                                    <Link
+                                        href="/learn"
+                                        className="cta-primary px-8 py-4 text-white rounded-full font-semibold font-sans-landing cursor-pointer text-lg shadow-lg hover:shadow-xl transition-shadow"
+                                    >
+                                        Continue Practice
+                                    </Link>
+                                ) : isConfigured ? (
+                                    <GoogleSignInButton className="shadow-lg hover:shadow-xl transition-shadow !px-8 !py-4 !text-lg">
+                                        Try Free Exam
+                                    </GoogleSignInButton>
+                                ) : (
+                                    <Link
+                                        href="/learn"
+                                        className="cta-primary px-8 py-4 text-white rounded-full font-semibold font-sans-landing cursor-pointer text-lg shadow-lg hover:shadow-xl transition-shadow"
+                                    >
+                                        Try Free Exam
+                                    </Link>
+                                )}
+                            </div>
+                            <p className="font-sans-landing text-sm text-[var(--landing-navy)]/50 mt-3 flex items-center gap-4">
+                                <span className="flex items-center gap-1.5">
+                                    <svg className="w-4 h-4 text-[var(--landing-green)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    No credit card required
+                                </span>
+                                <span className="flex items-center gap-1.5">
+                                    <svg className="w-4 h-4 text-[var(--landing-green)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    See your score instantly
+                                </span>
+                            </p>
                         </div>
                     </div>
 
                     {/* Right column — static KNM practice card */}
-                    <div className="hidden lg:block animate-reveal-delay-3">
-                        <div className="landing-card rounded-2xl p-8">
+                    <div className="hidden lg:flex lg:justify-center animate-reveal-delay-3">
+                        <div className="landing-card rounded-2xl p-8 max-w-md shadow-xl">
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="w-10 h-10 rounded-xl bg-[var(--landing-orange)]/10 flex items-center justify-center text-[var(--landing-orange)]">
                                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -70,11 +113,10 @@ export function LandingHero() {
                                 ].map((option, i) => (
                                     <div
                                         key={i}
-                                        className={`font-sans-landing text-sm px-4 py-3 rounded-xl border transition-colors ${
-                                            i === 1
-                                                ? "border-[var(--landing-green)] bg-[var(--landing-green)]/5 text-[var(--landing-green)]"
-                                                : "border-gray-200 text-[var(--landing-navy)]/70"
-                                        }`}
+                                        className={`font-sans-landing text-sm px-4 py-3 rounded-xl border transition-colors ${i === 1
+                                            ? "border-[var(--landing-green)] bg-[var(--landing-green)]/5 text-[var(--landing-green)]"
+                                            : "border-gray-200 text-[var(--landing-navy)]/70"
+                                            }`}
                                     >
                                         <span className="font-medium mr-2">{String.fromCharCode(65 + i)}.</span>
                                         {option}

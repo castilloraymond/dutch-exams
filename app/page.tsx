@@ -3,10 +3,13 @@ import {
   LandingNav,
   LandingHero,
   TrustStats,
+  TrustedBy,
   ProblemSolution,
   FeatureCards,
+  WhyUs,
   ModuleGrid,
   Testimonials,
+  FAQ,
   FinalCTA,
   LandingFooter,
 } from "@/components/landing";
@@ -17,13 +20,17 @@ export default function Home() {
       <UrgencyBanner />
       <LandingNav />
       <LandingHero />
+      <TrustedBy />
       <TrustStats />
       <ProblemSolution />
       <FeatureCards />
+      <WhyUs />
+
       <div id="modules">
         <ModuleGrid />
       </div>
       <Testimonials />
+      <FAQ />
       <FinalCTA />
       <LandingFooter />
     </div>
