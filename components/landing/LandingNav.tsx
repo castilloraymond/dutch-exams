@@ -1,21 +1,6 @@
-"use client";
-
 import Link from "next/link";
 
 export function LandingNav() {
-    const scrollToEmailCapture = () => {
-        const element = document.getElementById("email-capture");
-        if (element) {
-            const elementRect = element.getBoundingClientRect();
-            const absoluteElementTop = elementRect.top + window.pageYOffset;
-            const middle = absoluteElementTop - (window.innerHeight / 2) + (elementRect.height / 2);
-            window.scrollTo({
-                top: middle,
-                behavior: "smooth"
-            });
-        }
-    };
-
     return (
         <nav className="font-sans-landing flex items-center justify-between px-4 sm:px-6 lg:px-8 py-5 max-w-7xl mx-auto">
             <Link href="/" className="flex items-center cursor-pointer">
@@ -30,12 +15,12 @@ export function LandingNav() {
                 >
                     Modules
                 </Link>
-                <button
-                    onClick={scrollToEmailCapture}
+                <Link
+                    href="/try"
                     className="cta-primary px-5 py-2.5 text-white rounded-lg text-sm font-medium cursor-pointer"
                 >
                     Start Practice
-                </button>
+                </Link>
             </div>
         </nav>
     );

@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { useAuth } from "@/contexts/AuthContext";
-import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export function LandingHero() {
-    const { user, isConfigured } = useAuth();
+    const { user } = useAuth();
 
     const bullets = [
         "Hundreds of questions on all exam topics",
@@ -55,13 +54,9 @@ export function LandingHero() {
                                     >
                                         Continue Practice
                                     </Link>
-                                ) : isConfigured ? (
-                                    <GoogleSignInButton className="shadow-lg hover:shadow-xl transition-shadow !px-8 !py-4 !text-lg">
-                                        Try Free Exam
-                                    </GoogleSignInButton>
                                 ) : (
                                     <Link
-                                        href="/learn"
+                                        href="/try"
                                         className="cta-primary px-8 py-4 text-white rounded-full font-semibold font-sans-landing cursor-pointer text-lg shadow-lg hover:shadow-xl transition-shadow"
                                     >
                                         Try Free Exam

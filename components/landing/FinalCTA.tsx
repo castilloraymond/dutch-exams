@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { useAuth } from "@/contexts/AuthContext";
-import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export function FinalCTA() {
-    const { user, isConfigured } = useAuth();
+    const { user } = useAuth();
 
     return (
         <section className="py-20 bg-gradient-to-b from-[var(--landing-navy)] to-[#0F1D33]">
@@ -24,21 +23,9 @@ export function FinalCTA() {
                         >
                             Continue to Practice
                         </Link>
-                    ) : isConfigured ? (
-                        <div className="flex flex-col items-center gap-3">
-                            <GoogleSignInButton className="!bg-[var(--landing-orange)] !border-[var(--landing-orange)] !text-white hover:!bg-[var(--landing-orange)]/90">
-                                Try a Sample Exam
-                            </GoogleSignInButton>
-                            <Link
-                                href="/auth/login"
-                                className="text-sm text-white/60 hover:text-white/80 transition-colors"
-                            >
-                                Or sign in with email
-                            </Link>
-                        </div>
                     ) : (
                         <Link
-                            href="/learn"
+                            href="/try"
                             className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing cursor-pointer"
                         >
                             Try a Sample Exam
