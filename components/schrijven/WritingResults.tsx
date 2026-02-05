@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
-import { Check, Lock, Lightbulb, Eye, EyeOff, Clock } from "lucide-react";
+import { Check, Lock, Lightbulb, Clock, ListChecks } from "lucide-react";
 import type { WritingTask, FormAnswer } from "@/lib/types";
 
 interface WritingResultsProps {
@@ -19,24 +19,16 @@ interface WritingResultsProps {
 export function WritingResults({
   task,
   submission,
-  checkedCriteria,
   elapsedTime,
-  modelAnswerRevealed,
   onRevealModelAnswer,
   onRetry,
   onComplete,
 }: WritingResultsProps) {
-  const [showModelAnswer, setShowModelAnswer] = useState(false);
-
-  const score = checkedCriteria.length;
-  const total = task.selfAssessmentCriteria.length;
-  const percentage = Math.round((score / total) * 100);
-  const passed = percentage >= 60;
-
-  // Call onComplete when component mounts
+  // Call onComplete and reveal model answer when component mounts
   useEffect(() => {
     onComplete();
-  }, [onComplete]);
+    onRevealModelAnswer();
+  }, [onComplete, onRevealModelAnswer]);
 
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
@@ -44,141 +36,86 @@ export function WritingResults({
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
-  const handleReveal = () => {
-    setShowModelAnswer(true);
-    onRevealModelAnswer();
-  };
-
   return (
     <div className="space-y-6">
-      {/* Score section */}
-      <div className="landing-card p-6 text-center">
-        <h2 className="text-xl font-bold text-[var(--landing-navy)] mb-4">
-          Zelfbeoordeling
-        </h2>
-
-        <div className="flex justify-center items-center gap-4 mb-4">
-          <div
-            className={`text-5xl font-bold ${
-              passed ? "text-green-500" : "text-orange-500"
-            }`}
-          >
-            {score}/{total}
-          </div>
-          <div
-            className={`px-3 py-1 rounded-full text-sm font-medium ${
-              passed
-                ? "bg-green-100 text-green-700"
-                : "bg-orange-100 text-orange-700"
-            }`}
-          >
-            {percentage}%
-          </div>
-        </div>
-
+      {/* Time taken */}
+      <div className="landing-card p-4">
         <div className="flex items-center justify-center gap-2 text-[var(--landing-navy)]/60">
           <Clock className="h-4 w-4" />
           <span>Tijd: {formatTime(elapsedTime)}</span>
         </div>
       </div>
 
-      {/* Conversion hook #1 - After self-assessment */}
-      <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
-        <div className="flex items-start gap-4">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-            <Lock className="h-5 w-5" />
-          </div>
-          <div>
-            <h3 className="font-bold text-lg mb-1">
-              Wil je weten wat je echt hebt gemist?
-            </h3>
-            <p className="text-white/80 text-sm mb-4">
-              Je gaf jezelf {score}/{total}. Maar heb je de grammaticafouten
-              opgemerkt? Pro-leden krijgen directe AI-feedback op spelling,
-              grammatica en woordkeus.
-            </p>
-            <button className="bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
-              Upgrade naar Pro
-            </button>
-          </div>
+      {/* Requirements section */}
+      <div className="landing-card p-6">
+        <div className="flex items-center gap-2 mb-4">
+          <ListChecks className="h-5 w-5 text-[var(--landing-orange)]" />
+          <h3 className="font-bold text-[var(--landing-navy)]">
+            Wat je antwoord moet bevatten
+          </h3>
         </div>
+        <ul className="space-y-2">
+          {task.selfAssessmentCriteria.map((criterion) => (
+            <li
+              key={criterion.id}
+              className="flex items-start gap-2 text-sm text-[var(--landing-navy)]"
+            >
+              <Check className="h-4 w-4 text-[var(--landing-orange)] flex-shrink-0 mt-0.5" />
+              <span>{criterion.text}</span>
+            </li>
+          ))}
+        </ul>
       </div>
 
-      {/* Model answer section */}
+      {/* Model answer section - shown by default */}
       <div className="landing-card p-6">
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="font-bold text-[var(--landing-navy)]">
-            Voorbeeldantwoord
-          </h3>
-          {!showModelAnswer ? (
-            <button
-              onClick={handleReveal}
-              className="flex items-center gap-2 text-[var(--landing-orange)] hover:text-[var(--landing-orange)]/80 transition-colors"
-            >
-              <Eye className="h-4 w-4" />
-              <span className="text-sm font-medium">Toon antwoord</span>
-            </button>
-          ) : (
-            <button
-              onClick={() => setShowModelAnswer(false)}
-              className="flex items-center gap-2 text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
-            >
-              <EyeOff className="h-4 w-4" />
-              <span className="text-sm font-medium">Verberg</span>
-            </button>
-          )}
-        </div>
+        <h3 className="font-bold text-[var(--landing-navy)] mb-4">
+          Voorbeeldantwoord
+        </h3>
 
-        {showModelAnswer ? (
-          <div className="grid md:grid-cols-2 gap-4">
-            {/* User's answer */}
-            <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
-              <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
-                Jouw antwoord:
-              </h4>
-              {task.taskType === "form" ? (
-                <div className="space-y-1 text-sm">
-                  {Object.entries(submission as FormAnswer).map(([key, value]) => (
+        <div className="grid md:grid-cols-2 gap-4">
+          {/* User's answer */}
+          <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
+            <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
+              Jouw antwoord:
+            </h4>
+            {task.taskType === "form" ? (
+              <div className="space-y-1 text-sm">
+                {Object.entries(submission as FormAnswer).map(([key, value]) => (
+                  <div key={key}>
+                    <span className="font-medium">{key}:</span> {value}
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+                {submission as string}
+              </p>
+            )}
+          </div>
+
+          {/* Model answer */}
+          <div className="p-4 rounded-lg bg-green-50 border border-green-200">
+            <h4 className="text-sm font-medium text-green-700 mb-2">
+              Voorbeeldantwoord:
+            </h4>
+            {task.taskType === "form" ? (
+              <div className="space-y-1 text-sm">
+                {Object.entries(task.modelAnswer as FormAnswer).map(
+                  ([key, value]) => (
                     <div key={key}>
                       <span className="font-medium">{key}:</span> {value}
                     </div>
-                  ))}
-                </div>
-              ) : (
-                <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
-                  {submission as string}
-                </p>
-              )}
-            </div>
-
-            {/* Model answer */}
-            <div className="p-4 rounded-lg bg-green-50 border border-green-200">
-              <h4 className="text-sm font-medium text-green-700 mb-2">
-                Voorbeeldantwoord:
-              </h4>
-              {task.taskType === "form" ? (
-                <div className="space-y-1 text-sm">
-                  {Object.entries(task.modelAnswer as FormAnswer).map(
-                    ([key, value]) => (
-                      <div key={key}>
-                        <span className="font-medium">{key}:</span> {value}
-                      </div>
-                    )
-                  )}
-                </div>
-              ) : (
-                <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
-                  {task.modelAnswer as string}
-                </p>
-              )}
-            </div>
+                  )
+                )}
+              </div>
+            ) : (
+              <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+                {task.modelAnswer as string}
+              </p>
+            )}
           </div>
-        ) : (
-          <p className="text-[var(--landing-navy)]/60 text-sm">
-            Klik op &quot;Toon antwoord&quot; om het voorbeeldantwoord te bekijken en je
-            werk te vergelijken.
-          </p>
-        )}
+        </div>
       </div>
 
       {/* Tips section */}

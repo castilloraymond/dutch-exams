@@ -95,6 +95,7 @@ export interface ListeningExercise {
   difficulty: "A2";
   transcript: string;
   audioFile?: string;
+  image?: string;
   questions: Question[];
 }
 
@@ -150,6 +151,7 @@ export interface MockExam {
     title: string;
     transcript: string;
     audioFile?: string;
+    image?: string;
     questions: Question[];
   }[];
 }

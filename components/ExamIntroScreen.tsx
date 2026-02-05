@@ -44,7 +44,7 @@ export function ExamIntroScreen({
             <p className="text-sm font-medium mb-2 text-[var(--landing-navy)]">
               Test je geluid:
             </p>
-            <AudioPlayer fallbackText="Dit is een test. Kun je mij horen?" />
+            <AudioPlayer audioSrc="/audio/test-audio.mp3" />
           </div>
         )}
 

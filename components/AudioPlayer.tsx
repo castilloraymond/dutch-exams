@@ -167,6 +167,18 @@ export function AudioPlayer({ audioSrc, fallbackText }: AudioPlayerProps) {
     };
   }, []);
 
+  // Cleanup: stop audio/speech on unmount (e.g., when navigating to next question)
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+      window.speechSynthesis.cancel();
+      utteranceQueueRef.current++;
+    };
+  }, []);
+
   // Use Web Speech Synthesis as fallback if no audioSrc
   const useFallback = !audioSrc && !!fallbackText;
 

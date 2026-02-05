@@ -9,10 +9,9 @@ import { useProgress } from "@/hooks/useProgress";
 import type { FormAnswer, WritingAttempt } from "@/lib/types";
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
-import { SelfAssessment } from "@/components/schrijven/SelfAssessment";
 import { WritingResults } from "@/components/schrijven/WritingResults";
 
-type Stage = "writing" | "self-assessment" | "results";
+type Stage = "writing" | "results";
 
 interface PageProps {
   params: Promise<{ taskId: string }>;
@@ -52,11 +51,6 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
   };
 
   const handleSubmit = () => {
-    setStage("self-assessment");
-  };
-
-  const handleSelfAssessmentComplete = (criteria: string[]) => {
-    setCheckedCriteria(criteria);
     setStage("results");
   };
 
@@ -193,15 +187,6 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
                 Versturen
               </button>
             </div>
-          )}
-
-          {stage === "self-assessment" && (
-            <SelfAssessment
-              submission={submission}
-              taskType={task.taskType}
-              criteria={task.selfAssessmentCriteria}
-              onComplete={handleSelfAssessmentComplete}
-            />
           )}
 
           {stage === "results" && (

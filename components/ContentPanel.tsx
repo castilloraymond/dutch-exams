@@ -15,6 +15,7 @@ interface ContentPanelLuisterenProps {
   type: "luisteren";
   transcript: string;
   audioFile?: string;
+  image?: string;
 }
 
 interface ContentPanelKNMProps {
@@ -131,6 +132,16 @@ export function ContentPanel(props: ContentPanelProps) {
   if (props.type === "luisteren") {
     return (
       <div className="space-y-4">
+        {props.image && (
+          <div className="landing-card overflow-hidden relative aspect-video">
+            <Image
+              src={props.image}
+              alt="Listening exercise illustration"
+              fill
+              className="object-cover"
+            />
+          </div>
+        )}
         <AudioPlayer
           audioSrc={props.audioFile}
           fallbackText={props.transcript}

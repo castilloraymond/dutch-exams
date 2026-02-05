@@ -58,9 +58,9 @@ export function ResultsSummary({
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
-  // GIF URLs for pass/fail reactions
-  const passGif = "https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif"; // Celebration dance
-  const failGif = "https://media.giphy.com/media/Jn9Sx4LgVXzSzlGbvN/giphy.gif"; // You got this / encouraging
+  // Local GIFs for pass/fail reactions
+  const passGif = "/images/pass-celebration.gif";
+  const failGif = "/images/keep-going.gif";
 
   return (
     <div className="min-h-screen flex flex-col items-center p-4 bg-[var(--landing-cream)]">

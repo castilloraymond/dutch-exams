@@ -179,6 +179,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
               type="luisteren"
               transcript={currentTranscript.transcript}
               audioFile={currentTranscript.audioFile}
+              image={currentTranscript.image}
             />
           )
         }

@@ -108,6 +108,7 @@ export default function LuisterenExamPage() {
               type="luisteren"
               transcript={currentExercise.transcript}
               audioFile={currentExercise.audioFile}
+              image={currentExercise.image}
             />
           )
         }
