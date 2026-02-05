@@ -1,12 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { useAuth } from "@/contexts/AuthContext";
 
 export function ModuleGrid() {
+    const { user, loading } = useAuth();
+    const isLoggedIn = !loading && !!user;
+
     const modules = [
-        { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "Supermarket signs to official letters", href: "/learn/lezen/select" },
-        { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "Announcements & conversations", href: "/learn/luisteren/select" },
-        { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "Culture, history, values", href: "/learn/knm/select" },
-        { name: "Schrijven (Writing)", icon: "✍️", status: "live", desc: "Forms and short messages", href: "/learn/schrijven/select" },
-        { name: "Spreken (Speaking)", icon: "🗣️", status: "live", desc: "Everyday scenarios", href: "/learn/spreken/select" },
+        { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "Supermarket signs to official letters", learnHref: "/learn/lezen", tryHref: "/try/lezen" },
+        { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "Announcements & conversations", learnHref: "/learn/luisteren", tryHref: "/try/luisteren" },
+        { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "Culture, history, values", learnHref: "/learn/knm", tryHref: "/try/knm" },
+        { name: "Schrijven (Writing)", icon: "✍️", status: "live", desc: "Forms and short messages", learnHref: "/learn/schrijven", tryHref: "/try/schrijven" },
+        { name: "Spreken (Speaking)", icon: "🗣️", status: "live", desc: "Everyday scenarios", learnHref: "/learn/spreken", tryHref: "/try/spreken" },
     ];
 
     return (
@@ -51,8 +57,10 @@ export function ModuleGrid() {
                             : "border-2 border-dashed border-[var(--landing-navy)]/20"
                         }`;
 
+                        const href = isLoggedIn ? mod.learnHref : mod.tryHref;
+
                         return mod.status === "live" ? (
-                            <Link key={i} href={mod.href} className={`${cardClass} cursor-pointer`}>
+                            <Link key={i} href={href} className={`${cardClass} cursor-pointer`}>
                                 {cardContent}
                             </Link>
                         ) : (

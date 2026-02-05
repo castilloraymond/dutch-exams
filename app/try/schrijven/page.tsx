@@ -10,17 +10,14 @@ import {
   Check,
   Lock,
   Lightbulb,
-  Eye,
-  EyeOff,
   Mail,
   ArrowRight,
 } from "lucide-react";
 import { getQuickAssessmentWritingTask, getQuickAssessmentModules } from "@/lib/content";
-import type { FormAnswer, AssessmentCriterion } from "@/lib/types";
 import { useAuth } from "@/contexts/AuthContext";
 import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
-type Stage = "writing" | "self-assessment" | "results";
+type Stage = "writing" | "results";
 
 const STORAGE_KEY = "quick-assessment-schrijven-result";
 
@@ -38,8 +35,6 @@ export default function SchrijvenTrialPage() {
   const [submission, setSubmission] = useState("");
   const [startTime] = useState(() => Date.now());
   const [elapsedTime, setElapsedTime] = useState(0);
-  const [checkedCriteria, setCheckedCriteria] = useState<Set<string>>(new Set());
-  const [showModelAnswer, setShowModelAnswer] = useState(false);
 
   // Check if user already completed this assessment
   useEffect(() => {
@@ -71,25 +66,10 @@ export default function SchrijvenTrialPage() {
   };
 
   const handleSubmit = () => {
-    setStage("self-assessment");
-  };
-
-  const toggleCriterion = (id: string) => {
-    const newChecked = new Set(checkedCriteria);
-    if (newChecked.has(id)) {
-      newChecked.delete(id);
-    } else {
-      newChecked.add(id);
-    }
-    setCheckedCriteria(newChecked);
-  };
-
-  const handleSelfAssessmentComplete = () => {
-    // Save result to localStorage
+    // Save result to localStorage and go directly to results
     const result = {
       module: "schrijven",
       submission,
-      checkedCriteria: Array.from(checkedCriteria),
       totalTimeMs: Date.now() - startTime,
       completedAt: new Date().toISOString(),
     };
@@ -98,11 +78,6 @@ export default function SchrijvenTrialPage() {
   };
 
   const isSubmitDisabled = submission.trim().length < 10;
-  const allChecked = task ? checkedCriteria.size === task.selfAssessmentCriteria.length : false;
-  const score = checkedCriteria.size;
-  const total = task?.selfAssessmentCriteria.length || 0;
-  const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
-  const passed = percentage >= 60;
   const isUnlocked = !!user;
 
   if (!task) {
@@ -193,123 +168,49 @@ export default function SchrijvenTrialPage() {
             </div>
           )}
 
-          {/* Self-Assessment Stage */}
-          {stage === "self-assessment" && (
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-xl font-bold text-[var(--landing-navy)] mb-2">
-                  Rate Your Own Work
-                </h2>
-                <p className="text-[var(--landing-navy)]/60">
-                  Read your answer and check off what you did.
-                </p>
-              </div>
-
-              {/* Submission display */}
-              <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
-                <h3 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
-                  Your answer:
-                </h3>
-                <p className="text-[var(--landing-navy)] whitespace-pre-wrap">
-                  {submission}
-                </p>
-              </div>
-
-              {/* Checklist */}
-              <div className="space-y-3">
-                <div className="flex items-center justify-between">
-                  <h3 className="font-medium text-[var(--landing-navy)]">Checklist</h3>
-                  <span className="text-sm text-[var(--landing-navy)]/60">
-                    {checkedCriteria.size}/{task.selfAssessmentCriteria.length} checked
-                  </span>
-                </div>
-
-                {task.selfAssessmentCriteria.map((criterion: AssessmentCriterion) => (
-                  <button
-                    key={criterion.id}
-                    onClick={() => toggleCriterion(criterion.id)}
-                    className={`w-full flex items-start gap-3 p-4 rounded-lg border transition-colors text-left ${
-                      checkedCriteria.has(criterion.id)
-                        ? "border-green-500 bg-green-50"
-                        : "border-[var(--landing-navy)]/20 bg-white hover:bg-[var(--landing-navy)]/5"
-                    }`}
-                  >
-                    <div
-                      className={`flex-shrink-0 w-6 h-6 rounded-md border-2 flex items-center justify-center transition-colors ${
-                        checkedCriteria.has(criterion.id)
-                          ? "border-green-500 bg-green-500"
-                          : "border-[var(--landing-navy)]/30"
-                      }`}
-                    >
-                      {checkedCriteria.has(criterion.id) && (
-                        <Check className="h-4 w-4 text-white" />
-                      )}
-                    </div>
-                    <span className="text-[var(--landing-navy)]">{criterion.textEn}</span>
-                  </button>
-                ))}
-              </div>
-
-              {/* Continue button */}
-              <button
-                onClick={handleSelfAssessmentComplete}
-                disabled={!allChecked}
-                className="w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
-              >
-                {allChecked
-                  ? "See Results"
-                  : `Check all ${task.selfAssessmentCriteria.length} items to continue`}
-              </button>
-            </div>
-          )}
-
           {/* Results Stage */}
           {stage === "results" && (
-            <div className="space-y-6">
-              {/* Score Card */}
-              <div className="landing-card p-6 text-center">
-                <h2 className="text-sm font-medium text-[var(--landing-navy)]/50 uppercase tracking-wide mb-4">
-                  Your Self-Assessment
-                </h2>
-
-                <div className="flex justify-center items-center gap-4 mb-4">
-                  <div
-                    className={`text-5xl font-bold ${
-                      passed ? "text-green-500" : "text-[var(--landing-orange)]"
-                    }`}
-                  >
-                    {score}/{total}
+            <div className="space-y-4">
+              {/* Side-by-side answer comparison - shown immediately */}
+              <div className="rounded-xl shadow-lg p-4 bg-white">
+                <h3 className="font-bold text-[var(--landing-navy)] mb-3">
+                  Compare Your Answer
+                </h3>
+                <div className="grid md:grid-cols-2 gap-3">
+                  {/* User's answer */}
+                  <div className="p-3 rounded-lg bg-[var(--landing-navy)]/5">
+                    <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
+                      Your answer:
+                    </h4>
+                    <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+                      {submission}
+                    </p>
                   </div>
-                  <div
-                    className={`px-3 py-1 rounded-full text-sm font-medium ${
-                      passed
-                        ? "bg-green-100 text-green-700"
-                        : "bg-orange-100 text-orange-700"
-                    }`}
-                  >
-                    {percentage}%
-                  </div>
-                </div>
 
-                <div className="flex items-center justify-center gap-2 text-[var(--landing-navy)]/60">
-                  <Clock className="h-4 w-4" />
-                  <span>Completed in {formatTime(elapsedTime)}</span>
+                  {/* Model answer */}
+                  <div className="p-3 rounded-lg bg-green-50 border border-green-200">
+                    <h4 className="text-sm font-medium text-green-700 mb-2">
+                      Example answer:
+                    </h4>
+                    <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+                      {task.modelAnswer as string}
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              {/* Conversion hook - AI Feedback teaser */}
-              <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-                    <Lock className="h-5 w-5" />
+              {/* AI Feedback teaser - with correct gradient styling */}
+              <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90">
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
+                    <Lock className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">
+                    <h3 className="font-bold text-white mb-1">
                       Want AI feedback on your writing?
                     </h3>
-                    <p className="text-white/80 text-sm mb-4">
-                      You rated yourself {score}/{total}. But how was your grammar really?
-                      Pro members get their writing analyzed for spelling, grammar, and word choice.
+                    <p className="text-white/80 text-sm mb-3">
+                      Get your writing analyzed for spelling, grammar, and word choice.
                     </p>
                     <Link
                       href="/auth/signup?redirect=/try/schrijven"
@@ -321,88 +222,38 @@ export default function SchrijvenTrialPage() {
                 </div>
               </div>
 
-              {/* Model answer section */}
-              <div className="landing-card p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="font-bold text-[var(--landing-navy)]">
-                    Example Answer
-                  </h3>
-                  <button
-                    onClick={() => setShowModelAnswer(!showModelAnswer)}
-                    className="flex items-center gap-2 text-[var(--landing-orange)] hover:text-[var(--landing-orange)]/80 transition-colors"
-                  >
-                    {showModelAnswer ? (
-                      <EyeOff className="h-4 w-4" />
-                    ) : (
-                      <Eye className="h-4 w-4" />
-                    )}
-                    <span className="text-sm font-medium">
-                      {showModelAnswer ? "Hide" : "Show answer"}
-                    </span>
-                  </button>
+              {/* Tips section - compact inline pills */}
+              <div className="rounded-xl shadow-lg p-4 bg-white">
+                <div className="flex items-center gap-2 mb-2">
+                  <Lightbulb className="h-4 w-4 text-[var(--landing-orange)]" />
+                  <h3 className="font-bold text-[var(--landing-navy)] text-sm">Quick Tips</h3>
                 </div>
-
-                {showModelAnswer ? (
-                  <div className="grid md:grid-cols-2 gap-4">
-                    {/* User's answer */}
-                    <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
-                      <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
-                        Your answer:
-                      </h4>
-                      <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
-                        {submission}
-                      </p>
-                    </div>
-
-                    {/* Model answer */}
-                    <div className="p-4 rounded-lg bg-green-50 border border-green-200">
-                      <h4 className="text-sm font-medium text-green-700 mb-2">
-                        Example answer:
-                      </h4>
-                      <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
-                        {task.modelAnswer as string}
-                      </p>
-                    </div>
-                  </div>
-                ) : (
-                  <p className="text-[var(--landing-navy)]/60 text-sm">
-                    Click &quot;Show answer&quot; to see the example answer and compare your work.
-                  </p>
-                )}
-              </div>
-
-              {/* Tips section */}
-              <div className="landing-card p-6">
-                <div className="flex items-center gap-2 mb-4">
-                  <Lightbulb className="h-5 w-5 text-[var(--landing-orange)]" />
-                  <h3 className="font-bold text-[var(--landing-navy)]">Tips</h3>
-                </div>
-                <ul className="space-y-2">
+                <div className="flex flex-wrap gap-2">
                   {task.tips.map((tip, index) => (
-                    <li
+                    <span
                       key={index}
-                      className="flex items-start gap-2 text-sm text-[var(--landing-navy)]"
+                      className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-[var(--landing-navy)]/5 text-xs text-[var(--landing-navy)]"
                     >
-                      <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
-                      <span>{tip}</span>
-                    </li>
+                      <Check className="h-3 w-3 text-green-500" />
+                      {tip}
+                    </span>
                   ))}
-                </ul>
+                </div>
               </div>
 
               {/* CTA Section */}
               {isUnlocked ? (
                 /* Logged in: Show next step */
-                <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10">
-                  <h3 className="font-semibold text-[var(--landing-navy)] mb-2">
+                <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10">
+                  <h3 className="font-semibold text-[var(--landing-navy)] mb-1">
                     Ready to practice more?
                   </h3>
-                  <p className="text-sm text-[var(--landing-navy)]/60 mb-4">
+                  <p className="text-sm text-[var(--landing-navy)]/60 mb-3">
                     Try more writing tasks to prepare for the real exam.
                   </p>
                   <Link
                     href="/learn/schrijven"
-                    className="inline-flex items-center gap-2 cta-primary px-6 py-3 text-white rounded-lg font-semibold"
+                    className="inline-flex items-center gap-2 cta-primary px-5 py-2.5 text-white rounded-lg font-semibold text-sm"
                   >
                     Practice More Writing
                     <ArrowRight className="h-4 w-4" />
@@ -410,20 +261,20 @@ export default function SchrijvenTrialPage() {
                 </div>
               ) : (
                 /* Not logged in: Show signup CTAs */
-                <div className="space-y-4">
+                <div className="space-y-3">
                   <div className="text-center">
-                    <h3 className="font-semibold text-[var(--landing-navy)] mb-1">
+                    <h3 className="font-semibold text-[var(--landing-navy)] mb-1 text-sm">
                       Save your progress & get AI feedback
                     </h3>
-                    <p className="text-sm text-[var(--landing-navy)]/60">
+                    <p className="text-xs text-[var(--landing-navy)]/60">
                       Create a free account to continue learning
                     </p>
                   </div>
 
-                  <div className="flex flex-col gap-3">
+                  <div className="flex flex-col gap-2">
                     {isConfigured && (
                       <GoogleSignInButton
-                        className="w-full justify-center py-3.5"
+                        className="w-full justify-center py-3"
                         redirectTo="/try/schrijven"
                       >
                         Sign up with Google
@@ -432,13 +283,13 @@ export default function SchrijvenTrialPage() {
 
                     <Link
                       href="/auth/signup?redirect=/try/schrijven"
-                      className="inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-[var(--landing-navy)] text-white rounded-full font-medium hover:bg-[var(--landing-navy)]/90 transition-colors"
+                      className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-[var(--landing-navy)] text-white rounded-full font-medium hover:bg-[var(--landing-navy)]/90 transition-colors text-sm"
                     >
                       <Mail className="h-4 w-4" />
                       Sign up with Email
                     </Link>
 
-                    <p className="text-center text-sm text-[var(--landing-navy)]/50">
+                    <p className="text-center text-xs text-[var(--landing-navy)]/50">
                       Already have an account?{" "}
                       <Link
                         href="/auth/login?redirect=/try/schrijven"
