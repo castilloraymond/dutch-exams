@@ -110,7 +110,7 @@ export default function SprekenPage() {
           </div>
 
           {/* Pro upsell */}
-          <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+          <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
             <h3 className="font-bold text-lg mb-2">
               Wil je AI-feedback op je uitspraak?
             </h3>

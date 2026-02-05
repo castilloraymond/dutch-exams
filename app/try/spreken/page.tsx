@@ -60,15 +60,21 @@ export default function SprekenTrialPage() {
     error: recorderError,
   } = useAudioRecorder();
 
-  // Check if user already completed this assessment
+  // Check authentication and completed assessment
   useEffect(() => {
     if (authLoading) return;
-    if (user) {
-      const hasCompletedResult = localStorage.getItem(STORAGE_KEY);
-      if (hasCompletedResult) {
-        router.push("/learn/spreken");
-        return;
-      }
+
+    // Require login to access try pages
+    if (!user) {
+      router.push('/auth/login?redirect=' + encodeURIComponent(window.location.pathname));
+      return;
+    }
+
+    // If user has a completed result, redirect to /learn
+    const hasCompletedResult = localStorage.getItem(STORAGE_KEY);
+    if (hasCompletedResult) {
+      router.push("/learn/spreken");
+      return;
     }
   }, [user, authLoading, router]);
 
@@ -561,7 +567,7 @@ export default function SprekenTrialPage() {
               </div>
 
               {/* Conversion hook - AI Transcript teaser */}
-              <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+              <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
                     <Lock className="h-5 w-5" />

@@ -16,6 +16,12 @@ export function LandingNav() {
                     Modules
                 </Link>
                 <Link
+                    href="/auth/login"
+                    className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors cursor-pointer"
+                >
+                    Log in
+                </Link>
+                <Link
                     href="/try"
                     className="cta-primary px-5 py-2.5 text-white rounded-lg text-sm font-medium cursor-pointer"
                 >

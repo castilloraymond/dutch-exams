@@ -36,15 +36,21 @@ export default function SchrijvenTrialPage() {
   const [startTime] = useState(() => Date.now());
   const [elapsedTime, setElapsedTime] = useState(0);
 
-  // Check if user already completed this assessment
+  // Check authentication and completed assessment
   useEffect(() => {
     if (authLoading) return;
-    if (user) {
-      const hasCompletedResult = localStorage.getItem(STORAGE_KEY);
-      if (hasCompletedResult) {
-        router.push("/learn/schrijven");
-        return;
-      }
+
+    // Require login to access try pages
+    if (!user) {
+      router.push('/auth/login?redirect=' + encodeURIComponent(window.location.pathname));
+      return;
+    }
+
+    // If user has a completed result, redirect to /learn
+    const hasCompletedResult = localStorage.getItem(STORAGE_KEY);
+    if (hasCompletedResult) {
+      router.push("/learn/schrijven");
+      return;
     }
   }, [user, authLoading, router]);
 

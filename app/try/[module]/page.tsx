@@ -39,18 +39,22 @@ export default function QuizPage() {
   const [elapsedTime, setElapsedTime] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Check if logged-in user has already completed assessment
+  // Check authentication and completed assessment
   useEffect(() => {
     if (authLoading) return;
 
-    // If user is logged in and has a completed result, redirect to /learn
-    if (user) {
-      const resultKey = `${STORAGE_KEY_PREFIX}${module}-result`;
-      const hasCompletedResult = localStorage.getItem(resultKey);
-      if (hasCompletedResult) {
-        router.push(`/learn/${module}/select`);
-        return;
-      }
+    // Require login to access try pages
+    if (!user) {
+      router.push('/auth/login?redirect=' + encodeURIComponent(window.location.pathname));
+      return;
+    }
+
+    // If user has a completed result, redirect to /learn
+    const resultKey = `${STORAGE_KEY_PREFIX}${module}-result`;
+    const hasCompletedResult = localStorage.getItem(resultKey);
+    if (hasCompletedResult) {
+      router.push(`/learn/${module}/select`);
+      return;
     }
   }, [user, authLoading, module, router]);
 

@@ -8,13 +8,13 @@
     "tips-q2",
     "huis-q2",
     "brief-q2",
-    "station-q3",
+    "brief-q3",
     "tips-q5",
     "huis-q5"
   ],
   "curationNotes": {
     "accessible": ["tips-q1 (study routine)", "huis-q1 (noise rules)", "tips-q4 (study environment)"],
-    "representative": ["huis-q3 (waste disposal)", "tips-q2 (study duration)", "huis-q2 (fire safety)", "brief-q2 (letter)", "station-q3 (schedule)"],
+    "representative": ["huis-q3 (waste disposal)", "tips-q2 (study duration)", "huis-q2 (fire safety)", "brief-q2 (letter)", "brief-q3 (letter)"],
     "challenging": ["tips-q5 (comprehension)", "huis-q5 (complaints)"]
   }
 }

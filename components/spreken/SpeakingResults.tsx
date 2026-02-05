@@ -123,7 +123,7 @@ export function SpeakingResults({
       </div>
 
       {/* Conversion hook #1 - After self-assessment */}
-      <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+      <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
         <div className="flex items-start gap-4">
           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
             <Lock className="h-5 w-5" />
