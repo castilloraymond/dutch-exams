@@ -35,7 +35,7 @@ export function FinalCTA() {
                         href="#modules"
                         className="px-8 py-4 border border-white/20 text-white rounded-full font-medium font-sans-landing hover:bg-white/5 transition-colors cursor-pointer"
                     >
-                        View Pricing
+                        Explore Modules
                     </Link>
                 </div>
             </div>

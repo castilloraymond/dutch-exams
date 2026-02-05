@@ -230,6 +230,20 @@ export default function QuizPage() {
       {/* Question */}
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto">
+          {/* Passage for lezen module */}
+          {module === "lezen" && currentQuestion.context?.passageContent && (
+            <div className="landing-card p-6 mb-4 bg-[var(--landing-navy)]/5 border-l-4 border-[var(--landing-orange)]">
+              {currentQuestion.context.passageTitle && (
+                <h3 className="font-semibold text-[var(--landing-navy)] mb-3">
+                  {currentQuestion.context.passageTitle}
+                </h3>
+              )}
+              <div className="text-[var(--landing-navy)]/80 leading-relaxed whitespace-pre-line text-sm">
+                {currentQuestion.context.passageContent}
+              </div>
+            </div>
+          )}
+
           <div className="landing-card p-6 mb-6">
             <p className="text-lg text-[var(--landing-navy)] leading-relaxed">
               {currentQuestion.text}

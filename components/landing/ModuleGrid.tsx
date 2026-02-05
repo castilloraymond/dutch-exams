@@ -5,8 +5,8 @@ export function ModuleGrid() {
         { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "Supermarket signs to official letters", href: "/learn/lezen/select" },
         { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "Announcements & conversations", href: "/learn/luisteren/select" },
         { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "Culture, history, values", href: "/learn/knm/select" },
-        { name: "Schrijven (Writing)", icon: "✍️", status: "soon", desc: "Forms and short messages", href: "" },
-        { name: "Spreken (Speaking)", icon: "🗣️", status: "soon", desc: "Everyday scenarios", href: "" },
+        { name: "Schrijven (Writing)", icon: "✍️", status: "live", desc: "Forms and short messages", href: "/learn/schrijven/select" },
+        { name: "Spreken (Speaking)", icon: "🗣️", status: "live", desc: "Everyday scenarios", href: "/learn/spreken/select" },
     ];
 
     return (

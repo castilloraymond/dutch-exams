@@ -9,7 +9,7 @@
   "images": [
     {
       "id": "lunch-salad",
-      "src": "/images/spreken/part2-lunch-salad.jpg",
+      "src": "/images/placeholder-image.svg",
       "alt": "Person eating a healthy salad with vegetables",
       "altNl": "Persoon eet een gezonde salade met groenten",
       "label": "Sem"
