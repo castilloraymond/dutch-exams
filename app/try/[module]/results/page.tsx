@@ -258,7 +258,7 @@ export default function ResultsPage() {
                 Take a full practice exam to prepare for the real test.
               </p>
               <Link
-                href={`/learn/${module}/mock`}
+                href={`/learn/${module}/select`}
                 className="inline-flex items-center gap-2 cta-primary px-6 py-3 text-white rounded-lg font-semibold"
               >
                 Start Full {moduleInfo?.name} Practice Exam

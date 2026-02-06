@@ -193,16 +193,6 @@ export default function ProfilePage() {
             </div>
           </div>
 
-          {/* Subscription */}
-          <div className="landing-card p-6">
-            <h2 className="font-semibold text-[var(--landing-navy)] mb-2">
-              Subscription
-            </h2>
-            <p className="text-sm text-[var(--landing-navy)]/60">
-              Subscription management coming soon.
-            </p>
-          </div>
-
           {/* Sign Out */}
           <div className="landing-card p-6">
             <Button

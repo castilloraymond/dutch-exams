@@ -32,6 +32,18 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
     apple: "/favicon.png",
   },
+  openGraph: {
+    title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
+    description: "Practice with realistic exam simulations on a computer—exactly like the real test. Built by expats, for expats.",
+    type: "website",
+    url: "https://passinburgering.com",
+    siteName: "passinburgering",
+  },
+  twitter: {
+    card: "summary",
+    title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
+    description: "Practice with realistic exam simulations on a computer—exactly like the real test. Built by expats, for expats.",
+  },
 };
 
 

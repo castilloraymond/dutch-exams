@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
@@ -14,8 +15,13 @@ export function EmailCapture({ className = "" }: EmailCaptureProps) {
     const { user } = useAuth();
 
     // If user is already logged in, redirect to learn
+    useEffect(() => {
+        if (user) {
+            router.push("/learn");
+        }
+    }, [user, router]);
+
     if (user) {
-        router.push("/learn");
         return null;
     }
 

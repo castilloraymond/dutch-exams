@@ -2,6 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
 import { AuthForm } from "./AuthForm";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,8 @@ import { Label } from "@/components/ui/label";
 import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export function SignupForm() {
+  const searchParams = useSearchParams();
+  const redirect = searchParams.get("redirect");
   const { signUp, isConfigured } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -34,7 +37,7 @@ export function SignupForm() {
 
     setLoading(true);
 
-    const result = await signUp(email, password);
+    const result = await signUp(email, password, redirect || undefined);
 
     if (result.error) {
       setError(result.error);
@@ -74,8 +77,13 @@ export function SignupForm() {
             We&apos;ve sent a confirmation email to <strong>{email}</strong>.
             Please click the link in the email to verify your account.
           </p>
+          {redirect && (
+            <p className="text-muted-foreground text-xs">
+              After confirming, you&apos;ll be redirected back to your results.
+            </p>
+          )}
           <Button asChild variant="outline" className="w-full">
-            <Link href="/auth/login">Back to Sign In</Link>
+            <Link href={redirect ? `/auth/login?redirect=${encodeURIComponent(redirect)}` : "/auth/login"}>Back to Sign In</Link>
           </Button>
         </div>
       </AuthForm>
@@ -89,7 +97,7 @@ export function SignupForm() {
       footer={
         <>
           Already have an account?{" "}
-          <Link href="/auth/login" className="text-primary hover:underline">
+          <Link href={redirect ? `/auth/login?redirect=${encodeURIComponent(redirect)}` : "/auth/login"} className="text-primary hover:underline">
             Sign in
           </Link>
         </>
@@ -145,6 +153,13 @@ export function SignupForm() {
           {loading ? "Creating account..." : "Create Account"}
         </Button>
 
+        <p className="text-xs text-center text-muted-foreground">
+          By creating an account, you agree to our{" "}
+          <Link href="/terms" className="text-primary hover:underline">Terms of Service</Link>{" "}
+          and{" "}
+          <Link href="/privacy" className="text-primary hover:underline">Privacy Policy</Link>.
+        </p>
+
         <div className="relative my-4">
           <div className="absolute inset-0 flex items-center">
             <span className="w-full border-t" />
@@ -154,7 +169,7 @@ export function SignupForm() {
           </div>
         </div>
 
-        <GoogleSignInButton className="w-full" />
+        <GoogleSignInButton className="w-full" redirectTo={redirect || undefined} />
       </form>
     </AuthForm>
   );

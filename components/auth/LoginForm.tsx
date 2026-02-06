@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/contexts/AuthContext";
 import { AuthForm } from "./AuthForm";
@@ -12,6 +12,8 @@ import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export function LoginForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const redirect = searchParams.get("redirect");
   const { signInWithPassword, isConfigured } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -29,7 +31,7 @@ export function LoginForm() {
       setError(result.error);
       setLoading(false);
     } else {
-      router.push("/learn");
+      router.push(redirect && redirect.startsWith("/") ? redirect : "/learn");
     }
   };
 
@@ -58,7 +60,7 @@ export function LoginForm() {
       footer={
         <>
           Don&apos;t have an account?{" "}
-          <Link href="/auth/signup" className="text-primary hover:underline">
+          <Link href={redirect ? `/auth/signup?redirect=${encodeURIComponent(redirect)}` : "/auth/signup"} className="text-primary hover:underline">
             Sign up
           </Link>
         </>
@@ -118,7 +120,7 @@ export function LoginForm() {
           </div>
         </div>
 
-        <GoogleSignInButton className="w-full" />
+        <GoogleSignInButton className="w-full" redirectTo={redirect || undefined} />
       </form>
     </AuthForm>
   );

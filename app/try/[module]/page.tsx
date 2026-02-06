@@ -42,7 +42,7 @@ export default function QuizPage() {
     const resultKey = `${STORAGE_KEY_PREFIX}${module}-result`;
     const hasCompletedResult = localStorage.getItem(resultKey);
     if (hasCompletedResult) {
-      router.push(`/learn/${module}/select`);
+      router.push("/try");
     }
   }, [module, router]);
 

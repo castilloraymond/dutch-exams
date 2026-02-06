@@ -149,7 +149,7 @@ export function ResultsSummary({
         </div>
       )}
 
-      {/* All Completed - Upgrade CTA */}
+      {/* All Completed - Congratulations */}
       {allModulesCompleted && (
         <div className="w-full max-w-2xl mt-6">
           <div className="landing-card p-6 bg-gradient-to-br from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10 border-2 border-[var(--landing-orange)]/20">
@@ -159,15 +159,15 @@ export function ResultsSummary({
               </div>
               <div className="flex-1">
                 <h3 className="font-bold text-[var(--landing-navy)] text-lg mb-2">
-                  Congratulations! You completed all free exams!
+                  Congratulations! You completed all available exams!
                 </h3>
                 <p className="text-sm text-[var(--landing-navy)]/70 mb-4">
-                  Ready to continue? Get access to 50+ extra practice exams, detailed explanations, and track your progress.
+                  More practice exams are coming soon. Have questions or feedback?
                 </p>
-                <button className="cta-primary py-3 px-6 cursor-pointer flex items-center gap-2">
-                  <Crown className="h-4 w-4" />
-                  Upgrade to Pro
-                </button>
+                <Link href="/contact" className="cta-primary py-3 px-6 cursor-pointer inline-flex items-center gap-2">
+                  Get in Touch
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </div>
             </div>
           </div>
