@@ -92,7 +92,7 @@ export default function LuisterenExamPage() {
         answerRecords={results.answerRecords}
         onRetry={handleRetry}
         backHref="/learn/luisteren"
-        backLabel="Terug naar Luisteren"
+        backLabel="Back to Listening"
       />
     );
   }

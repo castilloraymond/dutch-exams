@@ -88,7 +88,7 @@ export default function KNMExamPage() {
         answerRecords={results.answerRecords}
         onRetry={handleRetry}
         backHref="/learn/knm"
-        backLabel="Terug naar KNM"
+        backLabel="Back to KNM"
       />
     );
   }

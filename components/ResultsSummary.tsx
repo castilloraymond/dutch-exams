@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -58,30 +57,19 @@ export function ResultsSummary({
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
-  // Local GIFs for pass/fail reactions
-  const passGif = "/images/pass-celebration.gif";
-  const failGif = "/images/keep-going.gif";
-
   return (
     <div className="min-h-screen flex flex-col items-center p-4 bg-[var(--landing-cream)]">
       <div className="landing-card w-full max-w-2xl p-6 sm:p-8 text-center space-y-6">
-        <div className="mx-auto mb-4">
-          <Image
-            src={isPassing ? passGif : failGif}
-            alt={isPassing ? "Celebration!" : "Keep going!"}
-            width={192}
-            height={192}
-            className="object-cover rounded-xl mx-auto"
-            unoptimized
-          />
+        <div className="mx-auto mb-4 text-7xl">
+          {isPassing ? "🎉" : "💪"}
         </div>
 
         <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)]">
-          {isPassing ? "Gefeliciteerd!" : "Blijf oefenen!"}
+          {isPassing ? "Congratulations!" : "Keep practicing!"}
         </h2>
 
         <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
-          Examen Resultaat
+          Exam Result
         </span>
 
         <div>
@@ -89,11 +77,11 @@ export function ResultsSummary({
             {correctAnswers} / {totalQuestions}
           </p>
           <p className="text-[var(--landing-navy)]/60">
-            {percentage}% correct op &ldquo;{title}&rdquo;
+            {percentage}% correct on &ldquo;{title}&rdquo;
           </p>
           {elapsedTime !== undefined && (
             <p className="text-sm text-[var(--landing-navy)]/50 mt-1">
-              Tijd: {formatTime(elapsedTime)}
+              Time: {formatTime(elapsedTime)}
             </p>
           )}
           <p
@@ -101,7 +89,7 @@ export function ResultsSummary({
               isPassing ? "text-[var(--landing-green)]" : "text-[var(--landing-red)]"
             }`}
           >
-            {isPassing ? "GESLAAGD (Passed)" : "NIET GESLAAGD (Not passed)"}
+            {isPassing ? "PASSED" : "NOT PASSED"}
           </p>
         </div>
 
@@ -111,7 +99,7 @@ export function ResultsSummary({
             className="w-full py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors flex items-center justify-center gap-2 cursor-pointer"
           >
             <RotateCcw className="h-4 w-4" />
-            Opnieuw proberen
+            Try Again
           </button>
           <Link href={backHref} className="block cursor-pointer">
             <button className="cta-primary w-full py-3 flex items-center justify-center gap-2 cursor-pointer">
@@ -127,10 +115,10 @@ export function ResultsSummary({
         <div className="w-full max-w-2xl mt-6">
           <div className="landing-card p-6">
             <h3 className="font-semibold text-[var(--landing-navy)] mb-4">
-              Doorgaan met oefenen
+              Continue Practicing
             </h3>
             <p className="text-sm text-[var(--landing-navy)]/60 mb-4">
-              Probeer deze examens om je voor te bereiden:
+              Try these exams to prepare:
             </p>
             <div className="space-y-3">
               {suggestedExams.slice(0, 3).map((exam) => {
@@ -149,7 +137,7 @@ export function ResultsSummary({
                         {exam.title}
                       </p>
                       <p className="text-xs text-[var(--landing-navy)]/50">
-                        {exam.difficulty} niveau
+                        {exam.difficulty} level
                       </p>
                     </div>
                     <ArrowRight className="h-4 w-4 text-[var(--landing-navy)]/40" />
@@ -171,14 +159,14 @@ export function ResultsSummary({
               </div>
               <div className="flex-1">
                 <h3 className="font-bold text-[var(--landing-navy)] text-lg mb-2">
-                  Gefeliciteerd! Je hebt alle gratis examens voltooid!
+                  Congratulations! You completed all free exams!
                 </h3>
                 <p className="text-sm text-[var(--landing-navy)]/70 mb-4">
-                  Klaar om verder te gaan? Krijg toegang tot 50+ extra oefenexamens, gedetailleerde uitleg, en volg je voortgang.
+                  Ready to continue? Get access to 50+ extra practice exams, detailed explanations, and track your progress.
                 </p>
                 <button className="cta-primary py-3 px-6 cursor-pointer flex items-center gap-2">
                   <Crown className="h-4 w-4" />
-                  Upgrade naar Pro
+                  Upgrade to Pro
                 </button>
               </div>
             </div>
@@ -194,7 +182,7 @@ export function ResultsSummary({
             className="w-full landing-card p-4 flex items-center justify-between text-left hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
           >
             <span className="font-semibold text-[var(--landing-navy)]">
-              Bekijk je antwoorden
+              Review Your Answers
             </span>
             {showReview ? (
               <ChevronUp className="h-5 w-5 text-[var(--landing-navy)]/60" />
@@ -236,7 +224,7 @@ export function ResultsSummary({
                     <div className="ml-6 space-y-2 text-sm">
                       {hasAnswer ? (
                         <p>
-                          <span className="text-[var(--landing-navy)]/60">Jouw antwoord: </span>
+                          <span className="text-[var(--landing-navy)]/60">Your answer: </span>
                           <span
                             className={cn(
                               "font-medium",
@@ -248,13 +236,13 @@ export function ResultsSummary({
                         </p>
                       ) : (
                         <p className="text-[var(--landing-red)]">
-                          Niet beantwoord
+                          Not answered
                         </p>
                       )}
 
                       {!isCorrect && (
                         <p>
-                          <span className="text-[var(--landing-navy)]/60">Correct antwoord: </span>
+                          <span className="text-[var(--landing-navy)]/60">Correct answer: </span>
                           <span className="font-medium text-[var(--landing-green)]">
                             {LABELS[record.correctAnswer]}. {record.options[record.correctAnswer]}
                           </span>
@@ -263,7 +251,7 @@ export function ResultsSummary({
 
                       {record.explanation && (
                         <p className="text-[var(--landing-navy)]/70 mt-2 pt-2 border-t border-[var(--landing-navy)]/10">
-                          <span className="font-medium">Uitleg: </span>
+                          <span className="font-medium">Explanation: </span>
                           {record.explanation}
                         </p>
                       )}

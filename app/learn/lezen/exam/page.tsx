@@ -91,7 +91,7 @@ export default function LezenExamPage() {
         answerRecords={results.answerRecords}
         onRetry={handleRetry}
         backHref="/learn/lezen"
-        backLabel="Terug naar Lezen"
+        backLabel="Back to Reading"
       />
     );
   }

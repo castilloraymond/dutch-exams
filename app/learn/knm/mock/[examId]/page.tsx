@@ -145,7 +145,7 @@ export default function KNMMockExamPage({ params }: PageProps) {
         answerRecords={results.answerRecords}
         onRetry={handleRetry}
         backHref="/learn/knm/select"
-        backLabel="Terug naar KNM"
+        backLabel="Back to KNM"
         suggestedExams={suggestedExams}
         allModulesCompleted={allModulesCompleted}
       />
@@ -153,7 +153,7 @@ export default function KNMMockExamPage({ params }: PageProps) {
   }
 
   return (
-    <ErrorBoundary fallbackHref="/learn/knm/select" fallbackLabel="Terug naar KNM">
+    <ErrorBoundary fallbackHref="/learn/knm/select" fallbackLabel="Back to KNM">
       <main className="min-h-screen flex flex-col">
         <ExamHeader title={exam.title} startTime={startTime} />
 

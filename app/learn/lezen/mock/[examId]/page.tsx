@@ -163,7 +163,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
         answerRecords={results.answerRecords}
         onRetry={handleRetry}
         backHref="/learn/lezen/select"
-        backLabel="Terug naar Lezen"
+        backLabel="Back to Reading"
         suggestedExams={suggestedExams}
         allModulesCompleted={allModulesCompleted}
       />
@@ -171,7 +171,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
   }
 
   return (
-    <ErrorBoundary fallbackHref="/learn/lezen/select" fallbackLabel="Terug naar Lezen">
+    <ErrorBoundary fallbackHref="/learn/lezen/select" fallbackLabel="Back to Reading">
       <main className="min-h-screen flex flex-col">
         <ExamHeader title={exam.title} startTime={startTime} />
 

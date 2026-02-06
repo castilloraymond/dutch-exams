@@ -161,7 +161,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
         answerRecords={results.answerRecords}
         onRetry={handleRetry}
         backHref="/learn/luisteren/select"
-        backLabel="Terug naar Luisteren"
+        backLabel="Back to Listening"
         suggestedExams={suggestedExams}
         allModulesCompleted={allModulesCompleted}
       />
