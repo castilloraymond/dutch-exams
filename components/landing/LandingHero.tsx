@@ -29,7 +29,7 @@ export function LandingHero() {
 
 
                         <p className="font-sans-landing text-lg text-[var(--landing-navy)]/60 max-w-lg mb-8 leading-relaxed animate-reveal-delay-3">
-                            Eliminate the &ldquo;unknowns&rdquo; with a simulator that replicates the exact format, timing, and interface of the official test. The most efficient way for busy professionals to ensure they pass the first time.
+                            Practice on the real exam, before the real exam.
                         </p>
 
 
