@@ -23,7 +23,7 @@ const STORAGE_KEY = "quick-assessment-schrijven-result";
 
 export default function SchrijvenTrialPage() {
   const router = useRouter();
-  const { user, loading: authLoading, isConfigured } = useAuth();
+  const { user, isConfigured } = useAuth();
 
   const task = useMemo(() => getQuickAssessmentWritingTask(), []);
   const moduleInfo = useMemo(
@@ -36,23 +36,13 @@ export default function SchrijvenTrialPage() {
   const [startTime] = useState(() => Date.now());
   const [elapsedTime, setElapsedTime] = useState(0);
 
-  // Check authentication and completed assessment
+  // Check completed assessment
   useEffect(() => {
-    if (authLoading) return;
-
-    // Require login to access try pages
-    if (!user) {
-      router.push('/auth/login?redirect=' + encodeURIComponent(window.location.pathname));
-      return;
-    }
-
-    // If user has a completed result, redirect to /learn
     const hasCompletedResult = localStorage.getItem(STORAGE_KEY);
     if (hasCompletedResult) {
       router.push("/learn/schrijven");
-      return;
     }
-  }, [user, authLoading, router]);
+  }, [router]);
 
   // Timer effect
   useEffect(() => {

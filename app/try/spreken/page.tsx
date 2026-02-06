@@ -32,7 +32,7 @@ const STORAGE_KEY = "quick-assessment-spreken-result";
 
 export default function SprekenTrialPage() {
   const router = useRouter();
-  const { user, loading: authLoading, isConfigured } = useAuth();
+  const { user, isConfigured } = useAuth();
 
   const task = useMemo(() => getQuickAssessmentSpeakingTask(), []);
   const moduleInfo = useMemo(
@@ -60,23 +60,13 @@ export default function SprekenTrialPage() {
     error: recorderError,
   } = useAudioRecorder();
 
-  // Check authentication and completed assessment
+  // Check completed assessment
   useEffect(() => {
-    if (authLoading) return;
-
-    // Require login to access try pages
-    if (!user) {
-      router.push('/auth/login?redirect=' + encodeURIComponent(window.location.pathname));
-      return;
-    }
-
-    // If user has a completed result, redirect to /learn
     const hasCompletedResult = localStorage.getItem(STORAGE_KEY);
     if (hasCompletedResult) {
       router.push("/learn/spreken");
-      return;
     }
-  }, [user, authLoading, router]);
+  }, [router]);
 
   // Time warning effect
   useEffect(() => {

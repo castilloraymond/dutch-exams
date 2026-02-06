@@ -10,7 +10,6 @@ import {
   type QuickAssessmentQuestion,
 } from "@/lib/content";
 import type { QuickAssessmentModule, QuickAssessmentAnswer, QuickAssessmentProgress } from "@/lib/types";
-import { useAuth } from "@/contexts/AuthContext";
 import { AudioPlayer } from "@/components/AudioPlayer";
 import { ExamLayout } from "@/components/ExamLayout";
 
@@ -27,7 +26,6 @@ export default function QuizPage() {
   const params = useParams();
   const router = useRouter();
   const module = params.module as QuickAssessmentModule;
-  const { user, loading: authLoading } = useAuth();
 
   const [questions, setQuestions] = useState<QuickAssessmentQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,29 +37,17 @@ export default function QuizPage() {
   const [elapsedTime, setElapsedTime] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Check authentication and completed assessment
+  // Check completed assessment
   useEffect(() => {
-    if (authLoading) return;
-
-    // Require login to access try pages
-    if (!user) {
-      router.push('/auth/login?redirect=' + encodeURIComponent(window.location.pathname));
-      return;
-    }
-
-    // If user has a completed result, redirect to /learn
     const resultKey = `${STORAGE_KEY_PREFIX}${module}-result`;
     const hasCompletedResult = localStorage.getItem(resultKey);
     if (hasCompletedResult) {
       router.push(`/learn/${module}/select`);
-      return;
     }
-  }, [user, authLoading, module, router]);
+  }, [module, router]);
 
   // Load questions and restore progress on mount
   useEffect(() => {
-    if (authLoading) return;
-
     const modules = getQuickAssessmentModules();
     const validModule = modules.find((m) => m.module === module);
 
@@ -219,7 +205,7 @@ export default function QuizPage() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [showFeedback, selectedOption, questions, currentIndex, handleNext, handleSubmitAnswer]);
 
-  if (isLoading || authLoading || questions.length === 0) {
+  if (isLoading || questions.length === 0) {
     return (
       <main className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
         <div className="text-[var(--landing-navy)]/60">Loading...</div>
