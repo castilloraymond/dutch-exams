@@ -71,9 +71,12 @@ export default function QuizPage() {
     if (saved) {
       try {
         const progress: QuickAssessmentProgress = JSON.parse(saved);
+        const STALE_THRESHOLD = 30 * 60 * 1000; // 30 minutes
+        const isStale = !progress.lastActiveTime || Date.now() - progress.lastActiveTime > STALE_THRESHOLD;
+
         setCurrentIndex(progress.currentQuestionIndex);
         setAnswers(progress.answers);
-        setStartTime(progress.startTime);
+        setStartTime(isStale ? Date.now() : progress.startTime);
         setQuestionStartTime(Date.now());
       } catch {
         // Invalid saved data, start fresh
@@ -109,6 +112,7 @@ export default function QuizPage() {
         currentQuestionIndex: index,
         answers: currentAnswers,
         startTime,
+        lastActiveTime: Date.now(),
       };
       localStorage.setItem(storageKey, JSON.stringify(progress));
     },

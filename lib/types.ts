@@ -201,6 +201,7 @@ export interface QuickAssessmentProgress {
   currentQuestionIndex: number;
   answers: QuickAssessmentAnswer[];
   startTime: number;
+  lastActiveTime: number;
 }
 
 // ============================================
