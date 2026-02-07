@@ -3,6 +3,7 @@
 import { BookOpen, Landmark, Headphones, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { ExamCard } from "./ExamCard";
+import { MockupNote } from "./MockupNote";
 import type { MockExamSummary, Difficulty } from "@/lib/types";
 
 interface DifficultySelectorProps {
@@ -13,7 +14,7 @@ interface DifficultySelectorProps {
 
 const moduleConfig = {
   lezen: {
-    title: "Lezen (Reading)",
+    title: "Lezen",
     subtitle: "Kies je niveau",
     icon: BookOpen,
     color: "text-[var(--landing-orange)]",
@@ -27,7 +28,7 @@ const moduleConfig = {
     bgColor: "bg-[var(--landing-orange)]/10",
   },
   luisteren: {
-    title: "Luisteren (Listening)",
+    title: "Luisteren",
     subtitle: "Kies je niveau",
     icon: Headphones,
     color: "text-[var(--landing-orange)]",
@@ -88,6 +89,8 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
               Selecteer een examenniveau en oefentoets
             </p>
           </div>
+
+          <MockupNote />
 
           <div className="space-y-8">
             {/* A1 Section */}

@@ -3,16 +3,26 @@
 import { useState, useRef } from "react";
 import Image from "next/image";
 import { Volume2, User } from "lucide-react";
-import type { SpeakingTask } from "@/lib/types";
+import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 
 interface SpeakingPromptProps {
   task: SpeakingTask;
+  question?: SpeakingQuestion;
   compact?: boolean;
 }
 
-export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
+export function SpeakingPrompt({ task, question, compact = false }: SpeakingPromptProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
+  // Use question data if provided, otherwise fall back to task-level fields
+  const questionNl = question?.questionNl ?? task.questionNl;
+  const questionEn = question?.questionEn ?? task.questionEn;
+  const questionParts = question?.questionParts ?? task.questionParts;
+  const personStatementNl = question?.personStatementNl ?? task.personStatementNl;
+  const personStatement = question?.personStatement ?? task.personStatement;
+  const images = question?.images ?? task.images;
+  const sequencingWordsRequired = question?.sequencingWordsRequired ?? task.sequencingWordsRequired;
 
   const playTTS = () => {
     if (isPlaying) {
@@ -21,7 +31,7 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
       return;
     }
 
-    const utterance = new SpeechSynthesisUtterance(task.personStatementNl || "");
+    const utterance = new SpeechSynthesisUtterance(personStatementNl || "");
     utterance.lang = "nl-NL";
     utterance.rate = 0.9;
 
@@ -34,7 +44,7 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
   };
 
   // Part 1: Personal questions with TTS
-  if (task.partNumber === 1 && task.personStatementNl) {
+  if (task.partNumber === 1 && personStatementNl) {
     return (
       <div className={`space-y-4 ${compact ? "space-y-3" : ""}`}>
         {/* Person statement */}
@@ -45,10 +55,10 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
             </div>
             <div className="flex-1">
               <p className="text-[var(--landing-navy)] font-medium">
-                {task.personStatementNl}
+                {personStatementNl}
               </p>
               <p className="text-sm text-[var(--landing-navy)]/60 mt-1">
-                {task.personStatement}
+                {personStatement}
               </p>
             </div>
             <button
@@ -68,18 +78,18 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
         {/* Question */}
         <div className={compact ? "" : "pt-2"}>
           <h2 className="font-bold text-[var(--landing-navy)] mb-1">
-            {task.questionNl}
+            {questionNl}
           </h2>
           <p className="text-sm text-[var(--landing-navy)]/60">
-            {task.questionEn}
+            {questionEn}
           </p>
-          {task.questionParts && (
+          {questionParts && (
             <div className="mt-3 p-3 bg-[var(--landing-orange)]/10 rounded-lg">
               <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
                 Beantwoord beide delen:
               </p>
               <ul className="text-sm text-[var(--landing-navy)] space-y-1">
-                {task.questionParts.map((part, idx) => (
+                {questionParts.map((part, idx) => (
                   <li key={idx}>
                     {idx + 1}. {part}
                   </li>
@@ -96,17 +106,17 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
   return (
     <div className={`space-y-4 ${compact ? "space-y-3" : ""}`}>
       {/* Images */}
-      {task.images && task.images.length > 0 && (
+      {images && images.length > 0 && (
         <div
           className={`grid gap-3 ${
-            task.images.length === 1
+            images.length === 1
               ? "grid-cols-1"
-              : task.images.length === 2
+              : images.length === 2
               ? "grid-cols-2"
               : "grid-cols-3"
           }`}
         >
-          {task.images.map((image) => {
+          {images.map((image) => {
             const isPlaceholder = image.src.includes("placeholder");
 
             if (isPlaceholder) {
@@ -160,18 +170,18 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
       {/* Question */}
       <div className={compact ? "" : "pt-2"}>
         <h2 className="font-bold text-[var(--landing-navy)] mb-1">
-          {task.questionNl}
+          {questionNl}
         </h2>
         <p className="text-sm text-[var(--landing-navy)]/60">
-          {task.questionEn}
+          {questionEn}
         </p>
-        {task.questionParts && (
+        {questionParts && (
           <div className="mt-3 p-3 bg-[var(--landing-orange)]/10 rounded-lg">
             <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
               Beantwoord beide delen:
             </p>
             <ul className="text-sm text-[var(--landing-navy)] space-y-1">
-              {task.questionParts.map((part, idx) => (
+              {questionParts.map((part, idx) => (
                 <li key={idx}>
                   {idx + 1}. {part}
                 </li>
@@ -179,7 +189,7 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
             </ul>
           </div>
         )}
-        {task.sequencingWordsRequired && (
+        {sequencingWordsRequired && (
           <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
             <p className="text-sm text-blue-800">
               <strong>Tip:</strong> Gebruik volgorde woorden: <em>Eerst</em> (First),{" "}

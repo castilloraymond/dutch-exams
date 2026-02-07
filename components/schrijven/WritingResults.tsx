@@ -42,7 +42,7 @@ export function WritingResults({
       <div className="landing-card p-4">
         <div className="flex items-center justify-center gap-2 text-[var(--landing-navy)]/60">
           <Clock className="h-4 w-4" />
-          <span>Tijd: {formatTime(elapsedTime)}</span>
+          <span>Time: {formatTime(elapsedTime)}</span>
         </div>
       </div>
 
@@ -51,7 +51,7 @@ export function WritingResults({
         <div className="flex items-center gap-2 mb-4">
           <ListChecks className="h-5 w-5 text-[var(--landing-orange)]" />
           <h3 className="font-bold text-[var(--landing-navy)]">
-            Wat je antwoord moet bevatten
+            What your answer should include
           </h3>
         </div>
         <ul className="space-y-2">
@@ -70,14 +70,14 @@ export function WritingResults({
       {/* Model answer section - shown by default */}
       <div className="landing-card p-6">
         <h3 className="font-bold text-[var(--landing-navy)] mb-4">
-          Voorbeeldantwoord
+          Model Answer
         </h3>
 
         <div className="grid md:grid-cols-2 gap-4">
           {/* User's answer */}
           <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
             <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
-              Jouw antwoord:
+              Your Answer:
             </h4>
             {task.taskType === "form" ? (
               <div className="space-y-1 text-sm">
@@ -97,7 +97,7 @@ export function WritingResults({
           {/* Model answer */}
           <div className="p-4 rounded-lg bg-green-50 border border-green-200">
             <h4 className="text-sm font-medium text-green-700 mb-2">
-              Voorbeeldantwoord:
+              Model Answer:
             </h4>
             {task.taskType === "form" ? (
               <div className="space-y-1 text-sm">
@@ -135,8 +135,30 @@ export function WritingResults({
             </li>
           ))}
         </ul>
+
+        {/* Practical test-taking tips */}
+        <div className="mt-4 pt-4 border-t border-[var(--landing-navy)]/10">
+          <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
+            General exam tips:
+          </p>
+          <ul className="space-y-2">
+            <li className="flex items-start gap-2 text-sm text-[var(--landing-navy)]">
+              <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+              <span>Keep sentences short and clear. Complex vocabulary does not earn extra points and increases your chance of making mistakes.</span>
+            </li>
+            <li className="flex items-start gap-2 text-sm text-[var(--landing-navy)]">
+              <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+              <span>On the real exam, you write by hand on paper. Practice your Dutch handwriting.</span>
+            </li>
+            <li className="flex items-start gap-2 text-sm text-[var(--landing-navy)]">
+              <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+              <span>Always re-read your answer before submitting.</span>
+            </li>
+          </ul>
+        </div>
+
         <p className="text-sm text-[var(--landing-navy)]/60 mt-4 italic">
-          Pro-leden krijgen persoonlijke tips op basis van hun specifieke fouten.
+          Pro members get personalized tips based on their specific mistakes.
         </p>
       </div>
 
@@ -146,7 +168,7 @@ export function WritingResults({
           <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center">
             <Lock className="h-4 w-4 text-gray-500" />
           </div>
-          <h3 className="font-bold text-gray-500">AI-Feedback</h3>
+          <h3 className="font-bold text-gray-500">AI Feedback</h3>
           <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-orange)] text-white">
             Pro
           </span>
@@ -156,24 +178,24 @@ export function WritingResults({
           <div className="h-4 bg-gray-300 rounded w-1/2"></div>
           <div className="h-4 bg-gray-300 rounded w-2/3"></div>
         </div>
-        <button className="mt-4 w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
-          Ontgrendel met Pro
-        </button>
+        <Link href="/upgrade" className="mt-4 block w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
+          Unlock with Pro
+        </Link>
       </div>
 
       {/* Action buttons */}
       <div className="flex flex-col sm:flex-row gap-3">
         <button
           onClick={onRetry}
-          className="flex-1 border-2 border-[var(--landing-navy)] text-[var(--landing-navy)] hover:bg-[var(--landing-navy)] hover:text-white px-6 py-3 rounded-lg font-medium transition-colors"
+          className="flex-1 border-2 border-[var(--landing-navy)] text-[var(--landing-navy)] hover:bg-[var(--landing-navy)] hover:text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
         >
-          Opnieuw proberen
+          Try Again
         </button>
         <Link
           href="/learn/schrijven"
           className="flex-1 bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
         >
-          Andere opdracht
+          Another Task
         </Link>
       </div>
     </div>

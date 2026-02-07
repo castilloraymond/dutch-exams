@@ -6,35 +6,35 @@ import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic } from "lucide-
 const modules = [
   {
     id: "lezen",
-    name: "Lezen (Reading)",
+    name: "Lezen",
     description: "Oefen je Nederlandse leesvaardigheid met realistische teksten.",
     icon: BookOpen,
     href: "/learn/lezen/select",
   },
   {
     id: "knm",
-    name: "KNM (Dutch Society)",
+    name: "KNM",
     description: "Test je kennis over Nederlandse cultuur, geschiedenis en waarden.",
     icon: Landmark,
     href: "/learn/knm/select",
   },
   {
     id: "luisteren",
-    name: "Luisteren (Listening)",
+    name: "Luisteren",
     description: "Luister naar Nederlandse audiofragmenten en beantwoord vragen.",
     icon: Headphones,
     href: "/learn/luisteren/select",
   },
   {
     id: "schrijven",
-    name: "Schrijven (Writing)",
+    name: "Schrijven",
     description: "Oefen schrijfopdrachten zoals emails, berichten en formulieren.",
     icon: PenLine,
     href: "/learn/schrijven",
   },
   {
     id: "spreken",
-    name: "Spreken (Speaking)",
+    name: "Spreken",
     description: "Oefen spreekvaardigheden met opnameoefeningen en feedback.",
     icon: Mic,
     href: "/learn/spreken",
@@ -59,17 +59,6 @@ export default function LearnHubPage() {
           </div>
         </div>
       </header>
-
-      {/* Mock-up callout */}
-      <div className="container mx-auto px-4 pt-4">
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-[var(--landing-orange)]/10 border border-[var(--landing-orange)]/30 rounded-lg p-4">
-            <p className="text-sm text-[var(--landing-navy)]">
-              <span className="font-semibold">Note:</span> This is a mock-up of the actual test. Everything you will now see is in Dutch to simulate what you will actually see when you take the test.
-            </p>
-          </div>
-        </div>
-      </div>
 
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">

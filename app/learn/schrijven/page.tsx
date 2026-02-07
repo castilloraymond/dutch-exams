@@ -4,10 +4,14 @@ import Link from "next/link";
 import { ArrowLeft, PenLine, FileText, ClipboardList, Check } from "lucide-react";
 import { getWritingIndex } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { MockupNote } from "@/components/MockupNote";
 
 export default function SchrijvenPage() {
   const index = getWritingIndex();
   const { progress } = useProgress();
+
+  const a1Tasks = index.tasks.filter((t) => t.difficulty === "A1");
+  const a2Tasks = index.tasks.filter((t) => t.difficulty === "A2");
 
   const getTaskIcon = (taskType: string) => {
     switch (taskType) {
@@ -25,6 +29,48 @@ export default function SchrijvenPage() {
       default:
         return "Bericht";
     }
+  };
+
+  const renderTaskCard = (task: (typeof index.tasks)[number]) => {
+    const Icon = getTaskIcon(task.taskType);
+    const isCompleted = progress.writingProgress?.[task.id]?.completedAt;
+
+    return (
+      <Link key={task.id} href={`/learn/schrijven/${task.id}`}>
+        <div className="landing-card p-4 sm:p-6 cursor-pointer mb-4 hover:shadow-lg transition-shadow">
+          <div className="flex items-center gap-4">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center relative">
+              <Icon className="h-6 w-6 text-[var(--landing-orange)]" />
+              {isCompleted && (
+                <div className="absolute -top-1 -right-1 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
+                  <Check className="h-3 w-3 text-white" />
+                </div>
+              )}
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <h3 className="font-semibold text-lg text-[var(--landing-navy)]">
+                  {task.title}
+                </h3>
+              </div>
+              <p className="text-sm text-[var(--landing-navy)]/60">
+                {task.titleEn}
+              </p>
+              <div className="flex items-center gap-2 mt-2">
+                <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-orange)]/20 text-[var(--landing-orange)]">
+                  {getTaskTypeBadge(task.taskType)}
+                </span>
+                {task.isFreePreview && (
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">
+                    Gratis
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </Link>
+    );
   };
 
   return (
@@ -59,70 +105,73 @@ export default function SchrijvenPage() {
             </p>
           </div>
 
+          <MockupNote />
+
           {/* Info banner */}
           <div className="bg-[var(--landing-orange)]/10 border border-[var(--landing-orange)]/30 rounded-lg p-4">
             <p className="text-sm text-[var(--landing-navy)]">
-              <span className="font-semibold">Tip:</span> Op het echte examen schrijf je met de hand.
-              Oefen ook je Nederlandse handschrift!
+              <span className="font-semibold">Tip:</span> On the real exam you write by hand.
+              Practice your Dutch handwriting too!
             </p>
           </div>
 
-          <div className="space-y-4">
-            {index.tasks.map((task) => {
-              const Icon = getTaskIcon(task.taskType);
-              const isCompleted = progress.writingProgress?.[task.id]?.completedAt;
-
-              return (
-                <Link key={task.id} href={`/learn/schrijven/${task.id}`}>
-                  <div className="landing-card p-4 sm:p-6 cursor-pointer mb-4 hover:shadow-lg transition-shadow">
-                    <div className="flex items-center gap-4">
-                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center relative">
-                        <Icon className="h-6 w-6 text-[var(--landing-orange)]" />
-                        {isCompleted && (
-                          <div className="absolute -top-1 -right-1 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
-                            <Check className="h-3 w-3 text-white" />
-                          </div>
-                        )}
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-1">
-                          <h3 className="font-semibold text-lg text-[var(--landing-navy)]">
-                            {task.title}
-                          </h3>
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-navy)]/10 text-[var(--landing-navy)]/70">
-                            {task.difficulty}
-                          </span>
-                        </div>
-                        <p className="text-sm text-[var(--landing-navy)]/60">
-                          {task.titleEn}
-                        </p>
-                        <div className="flex items-center gap-2 mt-2">
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-orange)]/20 text-[var(--landing-orange)]">
-                            {getTaskTypeBadge(task.taskType)}
-                          </span>
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">
-                            Gratis
-                          </span>
-                        </div>
-                      </div>
-                    </div>
+          <div className="space-y-8">
+            {/* A1 Section */}
+            {a1Tasks.length > 0 && (
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-green)]/10 text-[var(--landing-green)]">
+                    A1
+                  </span>
+                  <div>
+                    <h3 className="font-semibold text-[var(--landing-navy)]">
+                      A1 - Beginner
+                    </h3>
+                    <p className="text-sm text-[var(--landing-navy)]/60">
+                      Eenvoudige schrijfopdrachten
+                    </p>
                   </div>
-                </Link>
-              );
-            })}
+                </div>
+                <div className="space-y-3">
+                  {a1Tasks.map(renderTaskCard)}
+                </div>
+              </div>
+            )}
+
+            {/* A2 Section */}
+            {a2Tasks.length > 0 && (
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
+                    A2
+                  </span>
+                  <div>
+                    <h3 className="font-semibold text-[var(--landing-navy)]">
+                      A2 - Intermediate
+                    </h3>
+                    <p className="text-sm text-[var(--landing-navy)]/60">
+                      Standaard examenniveau
+                    </p>
+                  </div>
+                </div>
+                <div className="space-y-3">
+                  {a2Tasks.map(renderTaskCard)}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Pro upsell */}
-          <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+          <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
             <h3 className="font-bold text-lg mb-2">
               Wil je AI-feedback op je schrijfwerk?
             </h3>
             <p className="text-white/80 text-sm mb-4">
               Pro-leden krijgen directe feedback op grammatica, woordenschat en schrijfstijl.
             </p>
-            <button className="bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
+            <Link href="/upgrade" className="inline-block bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
               Upgrade naar Pro
-            </button>
+            </Link>
           </div>
         </div>
       </section>
