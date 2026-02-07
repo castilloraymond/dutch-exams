@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Mic, User, Image, Images, LayoutGrid, Check } from "lucide-react";
 import { getSpeakingIndex } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { MockupNote } from "@/components/MockupNote";
 import type { SpeakingPartNumber } from "@/lib/types";
 
 const partIcons: Record<SpeakingPartNumber, React.ElementType> = {
@@ -56,11 +57,13 @@ export default function SprekenPage() {
             </p>
           </div>
 
+          <MockupNote />
+
           {/* Info banner */}
           <div className="bg-[var(--landing-orange)]/10 border border-[var(--landing-orange)]/30 rounded-lg p-4">
             <p className="text-sm text-[var(--landing-navy)]">
-              <span className="font-semibold">Tip:</span> Gebruik een rustige omgeving
-              voor de beste opnamekwaliteit. Spreek duidelijk en op een normaal tempo.
+              <span className="font-semibold">Tip:</span> Use a quiet environment
+              for the best recording quality. Speak clearly and at a normal pace.
             </p>
           </div>
 
@@ -118,9 +121,9 @@ export default function SprekenPage() {
               Pro-leden krijgen hun spraak getranscribeerd en geanalyseerd op
               grammatica, woordkeus en samenhang.
             </p>
-            <button className="bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
+            <Link href="/upgrade" className="inline-block bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
               Upgrade naar Pro
-            </button>
+            </Link>
           </div>
         </div>
       </section>

@@ -40,12 +40,29 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const startTimeRef = useRef<number>(0);
 
-  // Check browser support
+  // Check browser support and existing permission
   useEffect(() => {
     if (typeof window !== "undefined") {
       if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
         setPermissionStatus("unsupported");
         setError("Your browser does not support audio recording.");
+        return;
+      }
+
+      // Check if microphone permission was already granted
+      if (navigator.permissions && navigator.permissions.query) {
+        navigator.permissions
+          .query({ name: "microphone" as PermissionName })
+          .then((result) => {
+            if (result.state === "granted") {
+              setPermissionStatus("granted");
+            } else if (result.state === "denied") {
+              setPermissionStatus("denied");
+            }
+          })
+          .catch(() => {
+            // Permission query not supported, leave as "prompt"
+          });
       }
     }
   }, []);

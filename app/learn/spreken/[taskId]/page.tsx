@@ -1,18 +1,23 @@
 "use client";
 
-import { useState, useMemo, useEffect, use } from "react";
+import { useState, useMemo, useEffect, useCallback, use } from "react";
 import Link from "next/link";
 import { ArrowLeft, Mic, Clock, AlertCircle } from "lucide-react";
 import { getSpeakingTask } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
 import { useAudioRecorder } from "@/hooks/useAudioRecorder";
-import type { SpeakingAttempt } from "@/lib/types";
+import type { SpeakingAttempt, SpeakingQuestion } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
 import { AudioRecorder } from "@/components/spreken/AudioRecorder";
-import { SpeakingSelfAssessment } from "@/components/spreken/SpeakingSelfAssessment";
 import { SpeakingResults } from "@/components/spreken/SpeakingResults";
 
-type Stage = "prompt" | "recording" | "playback" | "self-assessment" | "results";
+type Stage = "prompt" | "recording" | "playback" | "results";
+
+interface RecordedAnswer {
+  questionIndex: number;
+  audioUrl: string | null;
+  recordingTime: number;
+}
 
 interface PageProps {
   params: Promise<{ taskId: string }>;
@@ -24,16 +29,42 @@ export default function SprekenTaskPage({ params }: PageProps) {
 
   const task = useMemo(() => getSpeakingTask(taskId), [taskId]);
 
+  // Build questions array: use task.questions if available, else build single-question from legacy fields
+  const questions: SpeakingQuestion[] = useMemo(() => {
+    if (!task) return [];
+    if (task.questions && task.questions.length > 0) return task.questions;
+    // Legacy single-question fallback
+    return [
+      {
+        id: `${task.id}-q1`,
+        questionNl: task.questionNl,
+        questionEn: task.questionEn,
+        questionParts: task.questionParts,
+        personStatement: task.personStatement,
+        personStatementNl: task.personStatementNl,
+        images: task.images,
+        recommendedDuration: task.recommendedDuration,
+        softLimitWarning: task.softLimitWarning,
+        modelAnswer: task.modelAnswer,
+        sequencingWordsRequired: task.sequencingWordsRequired,
+      },
+    ];
+  }, [task]);
+
+  const isMultiQuestion = questions.length > 1;
+
   const [stage, setStage] = useState<Stage>("prompt");
-  const [checkedCriteria, setCheckedCriteria] = useState<string[]>([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [modelAnswerPlayed, setModelAnswerPlayed] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
   const [showTimeWarning, setShowTimeWarning] = useState(false);
+  const [recordedAnswers, setRecordedAnswers] = useState<RecordedAnswer[]>([]);
+
+  const currentQuestion = questions[currentQuestionIndex];
 
   const {
     isRecording,
     recordingTime,
-    audioBlob,
     audioUrl,
     startRecording,
     stopRecording,
@@ -45,21 +76,22 @@ export default function SprekenTaskPage({ params }: PageProps) {
 
   // Time warning effect
   useEffect(() => {
+    if (!currentQuestion) return;
+
     if (
       isRecording &&
-      task &&
-      recordingTime >= task.softLimitWarning &&
+      recordingTime >= currentQuestion.softLimitWarning &&
       !showTimeWarning
     ) {
       setShowTimeWarning(true);
     }
 
     // Auto-stop at recommended duration + 10 seconds buffer
-    if (isRecording && task && recordingTime >= task.recommendedDuration + 10) {
+    if (isRecording && recordingTime >= currentQuestion.recommendedDuration + 10) {
       stopRecording();
       setStage("playback");
     }
-  }, [isRecording, recordingTime, task, showTimeWarning, stopRecording]);
+  }, [isRecording, recordingTime, currentQuestion, showTimeWarning, stopRecording]);
 
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
@@ -86,11 +118,28 @@ export default function SprekenTaskPage({ params }: PageProps) {
   };
 
   const handleSubmit = () => {
-    setStage("self-assessment");
-  };
+    if (isMultiQuestion) {
+      // Save this answer
+      setRecordedAnswers((prev) => [
+        ...prev,
+        {
+          questionIndex: currentQuestionIndex,
+          audioUrl,
+          recordingTime,
+        },
+      ]);
 
-  const handleSelfAssessmentComplete = (criteria: string[]) => {
-    setCheckedCriteria(criteria);
+      // If more questions, advance to next
+      if (currentQuestionIndex < questions.length - 1) {
+        resetRecording();
+        setShowTimeWarning(false);
+        setCurrentQuestionIndex((prev) => prev + 1);
+        setStage("prompt");
+        return;
+      }
+    }
+
+    // Last question or single-question mode: go to results
     setStage("results");
   };
 
@@ -98,31 +147,32 @@ export default function SprekenTaskPage({ params }: PageProps) {
     setModelAnswerPlayed(true);
   };
 
-  const handleComplete = () => {
+  const handleComplete = useCallback(() => {
     if (!task) return;
 
     const attempt: SpeakingAttempt = {
       recordingDuration: recordingTime,
-      selfAssessmentScore: checkedCriteria.length,
+      selfAssessmentScore: 0,
       selfAssessmentTotal: task.selfAssessmentCriteria.length,
-      checkedCriteria,
+      checkedCriteria: [],
       modelAnswerPlayed,
       completedAt: new Date().toISOString(),
       attemptCount,
     };
 
     saveSpeakingAttempt(taskId, attempt);
-  };
+  }, [task, recordingTime, modelAnswerPlayed, attemptCount, saveSpeakingAttempt, taskId]);
 
   const handleRetry = () => {
     resetRecording();
     setStage("prompt");
-    setCheckedCriteria([]);
+    setCurrentQuestionIndex(0);
     setModelAnswerPlayed(false);
     setShowTimeWarning(false);
+    setRecordedAnswers([]);
   };
 
-  if (!task) {
+  if (!task || !currentQuestion) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
         <div className="text-[var(--landing-navy)]">Opdracht niet gevonden</div>
@@ -155,23 +205,49 @@ export default function SprekenTaskPage({ params }: PageProps) {
                 </div>
               </div>
             </div>
-            {(stage === "recording" || stage === "playback") && (
-              <div
-                className={`flex items-center gap-2 ${
-                  showTimeWarning
-                    ? "text-orange-500"
-                    : "text-[var(--landing-navy)]/60"
-                }`}
-              >
-                <Clock className="h-4 w-4" />
-                <span className="font-mono text-sm">
-                  {formatTime(recordingTime)}
+            <div className="flex items-center gap-3">
+              {/* Progress indicator for multi-question */}
+              {isMultiQuestion && stage !== "results" && (
+                <span className="text-sm font-medium text-[var(--landing-navy)]/60">
+                  Vraag {currentQuestionIndex + 1}/{questions.length}
                 </span>
-              </div>
-            )}
+              )}
+              {(stage === "recording" || stage === "playback") && (
+                <div
+                  className={`flex items-center gap-2 ${
+                    showTimeWarning
+                      ? "text-orange-500"
+                      : "text-[var(--landing-navy)]/60"
+                  }`}
+                >
+                  <Clock className="h-4 w-4" />
+                  <span className="font-mono text-sm">
+                    {formatTime(recordingTime)}
+                  </span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </header>
+
+      {/* Multi-question progress bar */}
+      {isMultiQuestion && stage !== "results" && (
+        <div className="bg-[var(--landing-cream)] px-4 pt-2">
+          <div className="container mx-auto">
+            <div className="max-w-2xl mx-auto">
+              <div className="w-full h-1.5 bg-[var(--landing-navy)]/10 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-[var(--landing-orange)] rounded-full transition-all duration-300"
+                  style={{
+                    width: `${((currentQuestionIndex + (stage === "playback" ? 0.5 : 0)) / questions.length) * 100}%`,
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Time warning banner */}
       {showTimeWarning && isRecording && (
@@ -179,7 +255,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
           <div className="container mx-auto flex items-center gap-2 text-orange-700 text-sm">
             <AlertCircle className="h-4 w-4" />
             <span>
-              Nog {task.recommendedDuration - recordingTime} seconden! Rond je
+              Nog {currentQuestion.recommendedDuration - recordingTime} seconden! Rond je
               antwoord af.
             </span>
           </div>
@@ -203,7 +279,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
           {/* Prompt stage - show task and start button */}
           {stage === "prompt" && (
             <div className="space-y-6">
-              <SpeakingPrompt task={task} />
+              <SpeakingPrompt task={task} question={currentQuestion} />
 
               {/* Permission request or start button */}
               {permissionStatus === "prompt" ? (
@@ -236,12 +312,12 @@ export default function SprekenTaskPage({ params }: PageProps) {
           {/* Recording stage */}
           {stage === "recording" && (
             <div className="space-y-6">
-              <SpeakingPrompt task={task} compact />
+              <SpeakingPrompt task={task} question={currentQuestion} compact />
               <AudioRecorder
                 isRecording={isRecording}
                 recordingTime={recordingTime}
                 onStop={handleStopRecording}
-                recommendedDuration={task.recommendedDuration}
+                recommendedDuration={currentQuestion.recommendedDuration}
               />
             </div>
           )}
@@ -249,7 +325,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
           {/* Playback stage */}
           {stage === "playback" && audioUrl && (
             <div className="space-y-6">
-              <SpeakingPrompt task={task} compact />
+              <SpeakingPrompt task={task} question={currentQuestion} compact />
 
               <div className="landing-card p-6">
                 <h3 className="font-bold text-[var(--landing-navy)] mb-4">
@@ -268,29 +344,24 @@ export default function SprekenTaskPage({ params }: PageProps) {
                     onClick={handleSubmit}
                     className="flex-1 bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium transition-colors"
                   >
-                    Versturen
+                    {isMultiQuestion && currentQuestionIndex < questions.length - 1
+                      ? "Volgende vraag"
+                      : "Versturen"}
                   </button>
                 </div>
               </div>
             </div>
           )}
 
-          {/* Self-assessment stage */}
-          {stage === "self-assessment" && audioUrl && (
-            <SpeakingSelfAssessment
-              audioUrl={audioUrl}
-              criteria={task.selfAssessmentCriteria}
-              onComplete={handleSelfAssessmentComplete}
-            />
-          )}
-
           {/* Results stage */}
           {stage === "results" && (
             <SpeakingResults
               task={task}
+              questions={questions}
               audioUrl={audioUrl}
               recordingTime={recordingTime}
-              checkedCriteria={checkedCriteria}
+              recordedAnswers={recordedAnswers}
+              checkedCriteria={[]}
               modelAnswerPlayed={modelAnswerPlayed}
               onModelAnswerPlayed={handleModelAnswerPlayed}
               onRetry={handleRetry}

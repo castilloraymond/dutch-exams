@@ -294,6 +294,24 @@ export interface TaskImage {
   label?: string;
 }
 
+export interface SpeakingQuestion {
+  id: string;
+  questionNl: string;
+  questionEn: string;
+  questionParts?: string[];
+  personStatement?: string;
+  personStatementNl?: string;
+  images?: TaskImage[];
+  recommendedDuration: number;
+  softLimitWarning: number;
+  modelAnswer: {
+    transcript: string;
+    transcriptNl: string;
+    audioFile?: string;
+  };
+  sequencingWordsRequired?: boolean;
+}
+
 export interface SpeakingTask {
   id: string;
   partNumber: SpeakingPartNumber;
@@ -302,6 +320,7 @@ export interface SpeakingTask {
   title: string;
   titleNl: string;
   difficulty: Difficulty;
+  // Legacy single-question fields (kept for backward compat)
   personStatement?: string;
   personStatementNl?: string;
   images?: TaskImage[];
@@ -319,6 +338,8 @@ export interface SpeakingTask {
   tips: string[];
   sequencingWordsRequired?: boolean;
   isFreePreview: boolean;
+  // Multi-question support
+  questions?: SpeakingQuestion[];
 }
 
 export interface SpeakingTaskSummary {
