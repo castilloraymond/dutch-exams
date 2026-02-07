@@ -1,108 +1,128 @@
 # Git Worktree Workflow with Claude Code
 
-A practical guide for parallel feature development using git worktrees.
+Git worktrees allow you to have multiple working directories tied to a single repository. Each worktree gets its own isolated directory and branch, so you can run parallel Claude Code sessions without file conflicts.
 
-## Starting New Work
+## Concrete Example: 3 Parallel Sessions
+
+### Step 0: Start clean on main
 
 ```bash
-# 1. Open terminal, go to your main repo
 cd ~/path/to/inburgering-app
-
-# 2. Sync main before branching
 git fetch origin && git pull
+```
 
-# 3. Create worktree for your feature
-git worktree add ../inburgering-app-feature-name -b feature/feature-name
+### Step 1: Create all 3 worktrees
 
-# 4. Enter worktree and push branch immediately
-cd ../inburgering-app-feature-name
-git push -u origin feature/feature-name
+```bash
+git worktree add ../inburgering-app-auth -b feature/auth
+git worktree add ../inburgering-app-ui-refresh -b feature/ui-refresh
+git worktree add ../inburgering-app-bugfix -b fix/knm-scoring
+```
 
-# 5. Start Claude Code
+### Step 2: Push each branch immediately
+
+```bash
+cd ../inburgering-app-auth && git push -u origin feature/auth
+cd ../inburgering-app-ui-refresh && git push -u origin feature/ui-refresh
+cd ../inburgering-app-bugfix && git push -u origin fix/knm-scoring
+```
+
+### Step 3: Open 3 terminals, launch Claude in each
+
+```bash
+# Terminal 1
+cd ~/path/to/inburgering-app-auth
+claude
+
+# Terminal 2
+cd ~/path/to/inburgering-app-ui-refresh
+claude
+
+# Terminal 3
+cd ~/path/to/inburgering-app-bugfix
 claude
 ```
 
-## While Working
+### Step 4: Work — commit & push frequently
 
-### When to Commit
-
-Commit after each meaningful unit of work:
+Each session works independently. Commit after each meaningful unit:
 - A component works
 - A bug is fixed
 - Tests pass
-- Before switching to something else
 
-Tell Claude: `commit this` or use `/commit`
+Push before stepping away (lunch, meetings, end of day).
 
-### When to Push
-
-Push at minimum:
-- Before lunch
-- Before any meeting
-- End of day
-- Before switching to another worktree
-
-### Syncing with Main
-
-If your branch lives more than a day:
-```bash
-git fetch origin
-git rebase origin/main
-```
-
-## Ending a Session
+### Step 5: When done — push and create PR
 
 ```bash
-# Before closing terminal, tell Claude:
-"commit and push everything"
-
-# Or manually:
-git status  # verify clean
 git push
+# Create PR on GitHub
+gh pr create --title "Add auth flow" --body "Description here"
 ```
 
-## After PR is Merged
+### Step 6: Merge on GitHub (NOT locally)
+
+Merge PRs through the GitHub UI. Do **not** run `git merge` locally on main — this avoids tangled history and ensures CI runs.
+
+### Step 7: Clean up each merged worktree
 
 ```bash
 # Go back to main repo
 cd ~/path/to/inburgering-app
 
-# Clean up immediately
-git worktree remove ../inburgering-app-feature-name
-git branch -d feature/feature-name
-git push origin --delete feature/feature-name
-git pull  # get the merged changes
+# Remove worktree, delete local and remote branch
+git worktree remove ../inburgering-app-auth
+git branch -d feature/auth
+git push origin --delete feature/auth
+
+# Pull merged changes
+git pull
 ```
 
-## Quick Reference
+### Step 8: Sync remaining active worktrees with main
+
+If other worktrees are still active after a merge:
+
+```bash
+cd ~/path/to/inburgering-app-ui-refresh
+git fetch origin
+git rebase origin/main
+```
+
+## Quick Reference Cheat Sheet
 
 | When | Do |
 |------|-----|
-| New feature | New worktree → push branch → `claude` |
-| Completed a piece | "commit this" |
-| Stepping away | "push" |
-| Done for day | "commit and push", then close |
-| PR merged | Remove worktree, delete branch, pull main |
+| New feature | `git worktree add ../inburgering-app-name -b feature/name` → push → `claude` |
+| Completed a piece | Commit (`/commit` or "commit this") |
+| Stepping away | Push |
+| Done for the day | Commit and push, then close terminal |
+| PR merged | Remove worktree → delete branch → pull main |
+| Long-lived branch | `git fetch origin && git rebase origin/main` |
 
-## Common Mistakes to Avoid
+## Naming Conventions
+
+- **Worktree folder:** `inburgering-app-{short-name}`
+- **Branch:** `feature/{short-name}`, `fix/{short-name}`, `refactor/{short-name}`
+
+Examples:
+
+```bash
+git worktree add ../inburgering-app-dark-mode -b feature/dark-mode
+git worktree add ../inburgering-app-knm-fix -b fix/knm-scoring
+git worktree add ../inburgering-app-perf -b refactor/performance
+```
+
+## Common Mistakes
 
 | Mistake | Why It's Bad | Prevention |
 |---------|--------------|------------|
 | Working on main | Features get tangled, hard to review | Always create a feature branch |
 | Not pushing branch | Work is unprotected, invisible to others | Push immediately after creating |
 | Uncommitted work | Easy to lose, causes merge conflicts | Commit after each unit of work |
+| Local merges to main | Bypasses CI, tangles history | Always merge via GitHub PR |
 | Stale branches | Drift from main, painful merges | Keep branches short-lived (days, not weeks) |
 | Zombie worktrees | Clutter, confusion about what's active | Clean up immediately after merge |
-
-## Naming Conventions
-
-- **Worktree folder:** `project-name-feature-short-name`
-- **Branch:** `feature/feature-short-name`
-
-Example:
-```bash
-git worktree add ../inburgering-app-dark-mode -b feature/dark-mode
-```
 
 ## End of Day Checklist
 
@@ -114,5 +134,46 @@ git worktree add ../inburgering-app-dark-mode -b feature/dark-mode
 # Quick status check
 git worktree list
 # For each worktree:
-cd ../worktree-name && git status
+cd ../inburgering-app-feature && git status
 ```
+
+## Troubleshooting
+
+### Error: "Branch already exists"
+
+```bash
+# Check out the existing branch into a worktree instead
+git worktree add ../inburgering-app-existing feature/existing-branch
+```
+
+### Error: "Directory already exists"
+
+```bash
+# Remove the directory first, then recreate
+rm -rf ../inburgering-app-feature
+git worktree add ../inburgering-app-feature -b feature/name
+```
+
+### Worktree is locked
+
+```bash
+git worktree unlock ../inburgering-app-feature
+```
+
+### Stale worktree metadata (directory was deleted manually)
+
+```bash
+git worktree prune
+```
+
+## Git Command Reference
+
+| Command | Purpose |
+|---------|---------|
+| `git worktree add <path> -b <branch>` | Create new worktree with new branch |
+| `git worktree add <path> <existing-branch>` | Create worktree from existing branch |
+| `git worktree list` | Show all worktrees |
+| `git worktree remove <path>` | Remove a worktree |
+| `git worktree prune` | Clean up stale worktree metadata |
+| `git worktree lock <path>` | Prevent automatic pruning |
+| `git worktree unlock <path>` | Allow automatic pruning |
