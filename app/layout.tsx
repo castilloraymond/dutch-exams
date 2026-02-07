@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Source_Serif_4, Outfit } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { JsonLd } from "@/components/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,26 +28,63 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
-  description: "Practice with realistic exam simulations on a computer—exactly like the real test. Built by expats, for expats. 93% pass rate.",
+  metadataBase: new URL("https://passinburgering.com"),
+  title: {
+    default: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
+    template: "%s | passinburgering",
+  },
+  description:
+    "Free practice exams for the Dutch inburgering exam — Lezen, Luisteren, KNM, Schrijven & Spreken. Realistic computer-based simulations, built by expats for expats.",
+  keywords: [
+    "inburgering exam",
+    "inburgeringsexamen",
+    "Dutch civic integration",
+    "KNM exam",
+    "Lezen exam",
+    "Luisteren exam",
+    "Schrijven exam",
+    "Spreken exam",
+    "inburgering practice",
+    "inburgering oefenen",
+    "Dutch integration test",
+    "DUO exam preparation",
+    "Netherlands immigration exam",
+  ],
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
   },
+  alternates: {
+    canonical: "https://passinburgering.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
-    description: "Practice with realistic exam simulations on a computer—exactly like the real test. Built by expats, for expats.",
+    description:
+      "Free practice exams for all 5 inburgering modules — Lezen, Luisteren, KNM, Schrijven & Spreken. Realistic simulations on a computer, just like the real DUO test.",
     type: "website",
     url: "https://passinburgering.com",
     siteName: "passinburgering",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "passinburgering — Dutch Inburgering Exam Practice",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
-    description: "Practice with realistic exam simulations on a computer—exactly like the real test. Built by expats, for expats.",
+    description:
+      "Free practice exams for all 5 inburgering modules. Realistic simulations, just like the real DUO test.",
+    images: ["/og-image.png"],
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -55,6 +93,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "passinburgering",
+            url: "https://passinburgering.com",
+            description:
+              "Free practice exams for the Dutch inburgering exam — Lezen, Luisteren, KNM, Schrijven & Spreken.",
+          }}
+        />
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "passinburgering",
+            url: "https://passinburgering.com",
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} ${outfit.variable} antialiased`}
         suppressHydrationWarning

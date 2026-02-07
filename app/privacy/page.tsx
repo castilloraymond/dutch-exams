@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { LandingFooter } from "@/components/landing/LandingFooter";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "How passinburgering handles your data, your GDPR rights, and our privacy practices.",
+};
 
 export default function PrivacyPage() {
   return (

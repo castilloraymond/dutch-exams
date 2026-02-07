@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Mail } from "lucide-react";
 import { LandingFooter } from "@/components/landing/LandingFooter";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Get in touch with the passinburgering team. Questions about the inburgering exam or our practice platform? We respond within 24-48 hours.",
+};
 
 export default function ContactPage() {
   return (

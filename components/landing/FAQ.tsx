@@ -1,40 +1,55 @@
 "use client";
 
 import { useState } from "react";
+import { JsonLd } from "@/components/JsonLd";
 
 interface FAQItem {
     question: string;
     answer: string;
 }
 
+const faqs: FAQItem[] = [
+    {
+        question: "How similar is this to the real DUO exam?",
+        answer: "Our practice exams are designed to mirror the actual DUO computer-based test as closely as possible. Same interface layout, same question types, same timing constraints. Many users report that the real exam feels familiar after practicing with us.",
+    },
+    {
+        question: "What's included in the free trial?",
+        answer: "You get full access to sample questions from all 5 modules: KNM (Dutch Society), Reading, Listening, Writing, and Speaking. Try as many practice questions as you like to see if our approach works for you.",
+    },
+    {
+        question: "Can I practice on my phone?",
+        answer: "Yes! Our platform works on desktop, tablet, and mobile devices. While we recommend practicing on a computer (since the real exam is computer-based), you can review and study anywhere.",
+    },
+    {
+        question: "How long should I practice before the exam?",
+        answer: "Most users practice for 2-4 weeks before their exam. We recommend taking full practice exams until you consistently score above 80%. Our progress tracking helps you know when you're ready.",
+    },
+    {
+        question: "What if I don't pass?",
+        answer: "Everyone learns at their own pace. If you don't pass, you can retake the official exam. Our platform helps you identify weak areas so you can focus your studying. Many users who initially struggled went on to pass after targeted practice.",
+    },
+];
+
+const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+        },
+    })),
+};
+
 export function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-    const faqs: FAQItem[] = [
-        {
-            question: "How similar is this to the real DUO exam?",
-            answer: "Our practice exams are designed to mirror the actual DUO computer-based test as closely as possible. Same interface layout, same question types, same timing constraints. Many users report that the real exam feels familiar after practicing with us.",
-        },
-        {
-            question: "What's included in the free trial?",
-            answer: "You get full access to sample questions from all 5 modules: KNM (Dutch Society), Reading, Listening, Writing, and Speaking. Try as many practice questions as you like to see if our approach works for you.",
-        },
-        {
-            question: "Can I practice on my phone?",
-            answer: "Yes! Our platform works on desktop, tablet, and mobile devices. While we recommend practicing on a computer (since the real exam is computer-based), you can review and study anywhere.",
-        },
-        {
-            question: "How long should I practice before the exam?",
-            answer: "Most users practice for 2-4 weeks before their exam. We recommend taking full practice exams until you consistently score above 80%. Our progress tracking helps you know when you're ready.",
-        },
-        {
-            question: "What if I don't pass?",
-            answer: "Everyone learns at their own pace. If you don't pass, you can retake the official exam. Our platform helps you identify weak areas so you can focus your studying. Many users who initially struggled went on to pass after targeted practice.",
-        },
-    ];
-
     return (
         <section className="py-20 bg-[var(--landing-cream)]">
+            <JsonLd data={faqSchema} />
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mb-4">
