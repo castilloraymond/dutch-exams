@@ -16,6 +16,7 @@ export function LandingNav() {
                     <span className="text-[var(--landing-navy)] text-lg">
                         <span className="font-bold text-[var(--landing-orange)]">pass</span><span className="font-semibold">inburgering</span>
                     </span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider bg-[var(--landing-orange)]/15 text-[var(--landing-orange)] rounded px-1.5 py-0.5 ml-2">BETA</span>
                 </Link>
                 <div className="flex items-center gap-6 text-sm">
                     <Link

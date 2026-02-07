@@ -106,32 +106,54 @@ export function SpeakingPrompt({ task, compact = false }: SpeakingPromptProps) {
               : "grid-cols-3"
           }`}
         >
-          {task.images.map((image) => (
-            <div key={image.id} className="relative">
-              <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-200">
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover"
-                  onError={(e) => {
-                    // Fallback for missing images
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = "none";
-                  }}
-                />
-                {/* Fallback placeholder when image doesn't load */}
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm">
-                  {image.altNl}
+          {task.images.map((image) => {
+            const isPlaceholder = image.src.includes("placeholder");
+
+            if (isPlaceholder) {
+              return (
+                <div key={image.id} className="relative">
+                  <div className="aspect-square rounded-lg border-2 border-dashed border-[var(--landing-navy)]/20 bg-[var(--landing-navy)]/5 flex flex-col items-center justify-center p-4 text-center">
+                    <p className="text-sm font-medium text-[var(--landing-navy)]/80 mb-1">
+                      {image.altNl}
+                    </p>
+                    <p className="text-xs text-[var(--landing-navy)]/50">
+                      {image.alt}
+                    </p>
+                  </div>
+                  {image.label && (
+                    <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--landing-navy)]">
+                      {image.label}
+                    </div>
+                  )}
                 </div>
+              );
+            }
+
+            return (
+              <div key={image.id} className="relative">
+                <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-200">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    className="object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = "none";
+                    }}
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm">
+                    {image.altNl}
+                  </div>
+                </div>
+                {image.label && (
+                  <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--landing-navy)]">
+                    {image.label}
+                  </div>
+                )}
               </div>
-              {image.label && (
-                <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--landing-navy)]">
-                  {image.label}
-                </div>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
 

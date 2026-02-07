@@ -40,7 +40,7 @@ export default function TryPage() {
               See How Ready You Are
             </h2>
             <p className="text-[var(--landing-navy)]/60 text-lg">
-              Take a quick 10-question assessment. No signup required.
+              Take a quick sample assessment. No signup required.
             </p>
           </div>
 
