@@ -41,7 +41,7 @@ export function LandingNav() {
                         </Link>
                     )}
                     <Link
-                        href="/try"
+                        href={!loading && user ? "/learn" : "/try"}
                         className="cta-primary px-5 py-2.5 text-white rounded-lg text-sm font-medium cursor-pointer hidden sm:block"
                     >
                         Start Practice
@@ -88,7 +88,7 @@ export function LandingNav() {
                             </Link>
                         )}
                         <Link
-                            href="/try"
+                            href={!loading && user ? "/learn" : "/try"}
                             onClick={() => setMenuOpen(false)}
                             className="cta-primary px-5 py-2.5 text-white rounded-lg text-sm font-medium cursor-pointer text-center"
                         >
