@@ -6,6 +6,11 @@
     { "id": "op-het-gemeentehuis", "title": "Op het Gemeentehuis", "difficulty": "A1", "questionCount": 4 },
     { "id": "een-telefoongesprek", "title": "Een Telefoongesprek", "difficulty": "A0", "questionCount": 4 },
     { "id": "bij-de-huisarts", "title": "Bij de Huisarts", "difficulty": "A1", "questionCount": 4 },
-    { "id": "op-het-werk", "title": "Op het Werk", "difficulty": "A1", "questionCount": 4 }
+    { "id": "op-het-werk", "title": "Op het Werk", "difficulty": "A1", "questionCount": 4 },
+    { "id": "in-de-supermarkt", "title": "In de Supermarkt", "difficulty": "A1", "questionCount": 4 },
+    { "id": "op-school", "title": "Op School", "difficulty": "A1", "questionCount": 4 },
+    { "id": "bij-het-uitzendbureau", "title": "Bij het Uitzendbureau", "difficulty": "A2", "questionCount": 4 },
+    { "id": "een-afspraak-maken", "title": "Een Afspraak Maken", "difficulty": "A2", "questionCount": 4 },
+    { "id": "in-de-trein", "title": "In de Trein", "difficulty": "A2", "questionCount": 4 }
   ]
 }

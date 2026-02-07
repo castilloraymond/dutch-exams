@@ -1,0 +1,37 @@
+{
+  "id": "in-de-trein",
+  "title": "In de Trein",
+  "difficulty": "A2",
+  "audioFile": "/audio/luisteren/in-de-trein.mp3",
+  "transcript": "Omroep: Dames en heren, welkom in de intercity van Amsterdam Centraal naar Rotterdam Centraal. Wij stoppen in Schiphol, Leiden Centraal en Den Haag Centraal. De verwachte aankomsttijd in Rotterdam is veertien uur tweeëntwintig. In verband met werkzaamheden rijden wij vandaag via een andere route. Hierdoor is de reistijd ongeveer tien minuten langer dan normaal. Reiziger: Pardon, mag ik hier zitten? Medereizigers: Ja hoor, ga je gang. Reiziger: Bedankt. Weet u of deze trein ook in Delft stopt? Medereizigers: Nee, dit is een intercity. Die stopt niet in Delft. U moet in Den Haag overstappen op de sprinter naar Delft. Reiziger: Oh, dank u wel. En hoe lang duurt het van Den Haag naar Delft met de sprinter? Medereizigers: Dat is maar een kwartiertje. Reiziger: Oké, dat is niet ver. Bedankt voor de informatie.",
+  "questions": [
+    {
+      "id": "trein-q1",
+      "text": "Waar stopt de trein?",
+      "options": ["Alleen in Rotterdam", "In Schiphol, Leiden Centraal en Den Haag Centraal", "In Delft en Den Haag", "In alle stations"],
+      "correctIndex": 1,
+      "explanation": "De omroep zegt: 'Wij stoppen in Schiphol, Leiden Centraal en Den Haag Centraal.'"
+    },
+    {
+      "id": "trein-q2",
+      "text": "Waarom duurt de reis langer dan normaal?",
+      "options": ["Door het weer", "In verband met werkzaamheden rijdt de trein via een andere route", "Door een staking", "Door veel reizigers"],
+      "correctIndex": 1,
+      "explanation": "De omroep zegt: 'In verband met werkzaamheden rijden wij vandaag via een andere route.'"
+    },
+    {
+      "id": "trein-q3",
+      "text": "Hoe kan de reiziger naar Delft?",
+      "options": ["Met deze trein, die stopt in Delft", "Overstappen in Den Haag op de sprinter", "Overstappen in Leiden", "Met de bus vanaf Rotterdam"],
+      "correctIndex": 1,
+      "explanation": "De medereiziger zegt: 'U moet in Den Haag overstappen op de sprinter naar Delft.'"
+    },
+    {
+      "id": "trein-q4",
+      "text": "Hoe lang duurt de rit van Den Haag naar Delft?",
+      "options": ["Vijf minuten", "Een kwartier", "Een half uur", "Drie kwartier"],
+      "correctIndex": 1,
+      "explanation": "De medereiziger zegt: 'Dat is maar een kwartiertje.'"
+    }
+  ]
+}

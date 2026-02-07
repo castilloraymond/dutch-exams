@@ -85,6 +85,90 @@
       "options": ["Nederland had geen slavernij", "Nederland handelde in slaafgemaakten en had slavernij in de koloniën", "Slavernij bestond alleen in de Gouden Eeuw", "Nederland schafte slavernij af in 1700"],
       "correctIndex": 1,
       "explanation": "Nederland was betrokken bij de trans-Atlantische slavenhandel. Slavernij werd pas op 1 juli 1863 officieel afgeschaft in de Nederlandse koloniën."
+    },
+    {
+      "id": "gesch-q13",
+      "text": "Wat is Dodenherdenking?",
+      "options": ["Een feest op 5 mei", "Op 4 mei herdenken we alle oorlogsslachtoffers sinds de Tweede Wereldoorlog", "Een religieuze feestdag", "Een herdenkingsdag voor koningen"],
+      "correctIndex": 1,
+      "explanation": "Op 4 mei is Dodenherdenking. Om 20:00 uur zijn er twee minuten stilte om alle oorlogsslachtoffers te herdenken."
+    },
+    {
+      "id": "gesch-q14",
+      "text": "Wat is de Afsluitdijk?",
+      "options": ["Een brug over de Rijn", "Een dijk die de Zuiderzee afsloot en het IJsselmeer creëerde", "Een tunnel onder Amsterdam", "Een kanaal naar de Noordzee"],
+      "correctIndex": 1,
+      "explanation": "De Afsluitdijk (1932) sloot de Zuiderzee af van de Noordzee. Hierdoor ontstond het IJsselmeer en kon land worden drooggelegd (Flevoland)."
+    },
+    {
+      "id": "gesch-q15",
+      "text": "Wie was Anne Frank?",
+      "options": ["Een Nederlandse koningin", "Een Joods meisje dat tijdens de Tweede Wereldoorlog een beroemd dagboek schreef", "Een schilderes uit de Gouden Eeuw", "Een politicus"],
+      "correctIndex": 1,
+      "explanation": "Anne Frank was een Joods meisje dat zich tijdens de Duitse bezetting in Amsterdam verborgen hield. Haar dagboek is wereldberoemd."
+    },
+    {
+      "id": "gesch-q16",
+      "text": "Wat was de Tachtigjarige Oorlog?",
+      "options": ["Een oorlog met Frankrijk", "De opstand van de Nederlanden tegen Spanje (1568-1648)", "Een oorlog met Engeland", "Een burgeroorlog"],
+      "correctIndex": 1,
+      "explanation": "De Tachtigjarige Oorlog (1568-1648) was de opstand van de Nederlandse gewesten tegen de Spaanse koning. Het eindigde met de onafhankelijkheid van Nederland."
+    },
+    {
+      "id": "gesch-q17",
+      "text": "Wat is Bevrijdingsdag?",
+      "options": ["1 januari", "De dag waarop Nederland bevrijd werd van de Duitse bezetting: 5 mei 1945", "27 april", "4 mei"],
+      "correctIndex": 1,
+      "explanation": "Op 5 mei vieren we dat Nederland in 1945 bevrijd werd van de Duitse bezetting. Het is een nationale feestdag."
+    },
+    {
+      "id": "gesch-q18",
+      "text": "Wat was Rembrandt van Rijn?",
+      "options": ["Een politicus", "Een beroemde schilder uit de Gouden Eeuw", "Een ontdekkingsreiziger", "Een wetenschapper"],
+      "correctIndex": 1,
+      "explanation": "Rembrandt van Rijn (1606-1669) was een van de beroemdste schilders uit de Gouden Eeuw. Zijn bekendste werk is De Nachtwacht."
+    },
+    {
+      "id": "gesch-q19",
+      "text": "Hoe heet het Nederlandse volkslied?",
+      "options": ["De Internationale", "Het Wilhelmus", "Oranje Boven", "Het Vaderlied"],
+      "correctIndex": 1,
+      "explanation": "Het Wilhelmus is het nationale volkslied van Nederland. Het is het oudste volkslied ter wereld dat nog in gebruik is."
+    },
+    {
+      "id": "gesch-q20",
+      "text": "Hoe is de provincie Flevoland ontstaan?",
+      "options": ["Het was altijd al land", "Door droogmaking van een deel van het IJsselmeer in de 20e eeuw", "Door een natuurramp", "Door een vulkaanuitbarsting"],
+      "correctIndex": 1,
+      "explanation": "Flevoland is de jongste provincie van Nederland. Het land is in de 20e eeuw drooggelegd uit het IJsselmeer (Noordoostpolder, Oostelijk en Zuidelijk Flevoland)."
+    },
+    {
+      "id": "gesch-q21",
+      "text": "Wat was het Verdrag van Maastricht?",
+      "options": ["Een handelsverdrag met Japan", "Het verdrag uit 1992 dat de Europese Unie oprichtte", "Een vredesverdrag na de Tweede Wereldoorlog", "Een verdrag over de Rijn"],
+      "correctIndex": 1,
+      "explanation": "Het Verdrag van Maastricht (1992) richtte de Europese Unie op. Het werd in de Nederlandse stad Maastricht ondertekend."
+    },
+    {
+      "id": "gesch-q22",
+      "text": "Welke beroemde wetenschapper kwam uit Nederland?",
+      "options": ["Isaac Newton", "Christiaan Huygens, die het slingeruurwerk uitvond", "Albert Einstein", "Galileo Galilei"],
+      "correctIndex": 1,
+      "explanation": "Christiaan Huygens (1629-1695) was een beroemde Nederlandse wiskundige en natuurkundige. Hij vond onder andere het slingeruurwerk uit."
+    },
+    {
+      "id": "gesch-q23",
+      "text": "Wat was de Republiek der Zeven Verenigde Nederlanden?",
+      "options": ["Het huidige België", "De staat die na de Tachtigjarige Oorlog ontstond, bestaande uit zeven gewesten", "Een kolonie in Azië", "Een deel van het Spaanse Rijk"],
+      "correctIndex": 1,
+      "explanation": "Na de Tachtigjarige Oorlog werd de Republiek der Zeven Verenigde Nederlanden gesticht (1648). Dit was de voorloper van het huidige Nederland."
+    },
+    {
+      "id": "gesch-q24",
+      "text": "Wat was de Hongerwinter?",
+      "options": ["Een koude winter in de 19e eeuw", "De winter van 1944-1945 waarin veel Nederlanders honger leden door de Duitse bezetting", "Een economische crisis", "Een natuurramp"],
+      "correctIndex": 1,
+      "explanation": "In de Hongerwinter (1944-1945) stierven zo'n 20.000 mensen van de honger in het westen van Nederland door de Duitse bezetting en blokkades."
     }
   ]
 }

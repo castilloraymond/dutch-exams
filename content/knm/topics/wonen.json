@@ -85,6 +85,90 @@
       "options": ["Er zijn geen regels", "Na 22:00 uur moet je rekening houden met je buren", "Je mag altijd lawaai maken in je eigen huis", "Alleen in appartementen gelden regels"],
       "correctIndex": 1,
       "explanation": "In Nederland moet je rekening houden met je buren. Na 22:00 uur geldt extra stilte. Bij overlast kun je de politie of de verhuurder inschakelen."
+    },
+    {
+      "id": "wonen-q13",
+      "text": "Wat is een hypotheek?",
+      "options": ["Een huurcontract", "Een lening van de bank om een huis te kopen", "Een verzekering voor je huis", "Een belasting op je woning"],
+      "correctIndex": 1,
+      "explanation": "Een hypotheek is een lening die je afsluit bij de bank om een huis te kopen. Je betaalt maandelijks rente en aflossing."
+    },
+    {
+      "id": "wonen-q14",
+      "text": "Wat is het GFT-afval?",
+      "options": ["Glas, flessen en tegels", "Groente-, fruit- en tuinafval", "Gevaarlijk afval", "Grote spullen zoals meubels"],
+      "correctIndex": 1,
+      "explanation": "GFT staat voor groente-, fruit- en tuinafval. Dit afval wordt apart ingezameld en verwerkt tot compost."
+    },
+    {
+      "id": "wonen-q15",
+      "text": "Wat is de WOZ-waarde?",
+      "options": ["De huurprijs van je woning", "De geschatte waarde van je woning door de gemeente", "De kosten van een verbouwing", "De verkoopprijs van je woning"],
+      "correctIndex": 1,
+      "explanation": "De WOZ-waarde is de geschatte waarde van je woning volgens de gemeente. Het wordt gebruikt voor de berekening van gemeentelijke belastingen."
+    },
+    {
+      "id": "wonen-q16",
+      "text": "Wat is een Vereniging van Eigenaren (VvE)?",
+      "options": ["Een vakbond voor huiseigenaren", "Een organisatie van eigenaren in een appartementencomplex die samen beslissen over onderhoud", "Een makelaardij", "Een woningcorporatie"],
+      "correctIndex": 1,
+      "explanation": "Als je een appartement koopt, word je automatisch lid van de VvE. De VvE beslist over onderhoud en beheer van het gebouw."
+    },
+    {
+      "id": "wonen-q17",
+      "text": "Waar kun je je aanmelden voor een sociale huurwoning?",
+      "options": ["Bij de belastingdienst", "Bij de woningcorporatie of via een regionaal woonruimteverdeelsysteem", "Bij het UWV", "Bij de politie"],
+      "correctIndex": 1,
+      "explanation": "Voor een sociale huurwoning meld je je aan bij de woningcorporatie of via een regionaal systeem. De wachttijden kunnen lang zijn."
+    },
+    {
+      "id": "wonen-q18",
+      "text": "Wat is een borg bij het huren van een woning?",
+      "options": ["De maandelijkse huur", "Een bedrag dat je vooraf betaalt als garantie, en terugkrijgt bij vertrek", "Een verzekeringspremie", "Een bijdrage aan de VvE"],
+      "correctIndex": 1,
+      "explanation": "De borg (waarborgsom) is een bedrag dat je bij het begin van de huur betaalt. Je krijgt het terug als je de woning in goede staat achterlaat."
+    },
+    {
+      "id": "wonen-q19",
+      "text": "Wat moet je doen als je gaat verhuizen?",
+      "options": ["Alleen je nieuwe adres aan je werkgever doorgeven", "Je binnen 5 dagen inschrijven bij de nieuwe gemeente en je adres wijzigen", "Je hoeft niets te doen", "Alleen de politie informeren"],
+      "correctIndex": 1,
+      "explanation": "Bij verhuizing moet je je binnen 5 werkdagen inschrijven bij de nieuwe gemeente (BRP). Geef ook je adreswijziging door aan je bank, verzekeraar, etc."
+    },
+    {
+      "id": "wonen-q20",
+      "text": "Wat is de Huurcommissie?",
+      "options": ["Een makelaardij", "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders behandelt", "Een afdeling van de woningcorporatie", "Een bouwbedrijf"],
+      "correctIndex": 1,
+      "explanation": "De Huurcommissie is een onafhankelijke organisatie waar je terecht kunt bij problemen over de huurprijs, onderhoud of servicekosten."
+    },
+    {
+      "id": "wonen-q21",
+      "text": "Wat is klein onderhoud in een huurwoning?",
+      "options": ["Het vervangen van het dak", "Kleine reparaties zoals een kapotte deurklink of een verstopt afvoerputje", "Het schilderen van de buitenkant", "Het vervangen van de cv-ketel"],
+      "correctIndex": 1,
+      "explanation": "Klein onderhoud is de verantwoordelijkheid van de huurder. Denk aan het vervangen van lampen, ontstoppen van afvoeren en kleine reparaties."
+    },
+    {
+      "id": "wonen-q22",
+      "text": "Wat is een inboedelverzekering?",
+      "options": ["Een verzekering voor het gebouw", "Een verzekering voor je spullen in huis, zoals meubels en elektronica", "Een levensverzekering", "Een zorgverzekering"],
+      "correctIndex": 1,
+      "explanation": "Een inboedelverzekering dekt schade aan je bezittingen in huis, bijvoorbeeld bij brand, diefstal of waterschade."
+    },
+    {
+      "id": "wonen-q23",
+      "text": "Waar breng je grofvuil naartoe?",
+      "options": ["In de gewone afvalbak", "Naar de milieustraat (gemeentewerf) of laten ophalen door de gemeente", "Je mag het op straat zetten", "Naar de supermarkt"],
+      "correctIndex": 1,
+      "explanation": "Grofvuil (grote spullen zoals meubels) breng je naar de milieustraat of je kunt een afspraak maken met de gemeente om het op te laten halen."
+    },
+    {
+      "id": "wonen-q24",
+      "text": "Wat is een vrije-sectorhuurwoning?",
+      "options": ["Een woning die je gratis mag huren", "Een huurwoning met een huur boven de liberalisatiegrens, zonder huurprijsbescherming", "Een koopwoning", "Een sociale huurwoning"],
+      "correctIndex": 1,
+      "explanation": "Een vrije-sectorhuurwoning heeft een huur boven de liberalisatiegrens. De verhuurder mag de huurprijs zelf bepalen. Je hebt geen recht op huurtoeslag."
     }
   ]
 }

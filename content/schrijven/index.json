@@ -33,6 +33,38 @@
       "difficulty": "A2",
       "taskType": "free-text",
       "isFreePreview": true
+    },
+    {
+      "id": "form-gp-registration",
+      "title": "Inschrijving huisarts",
+      "titleEn": "GP Registration",
+      "difficulty": "A1",
+      "taskType": "form",
+      "isFreePreview": false
+    },
+    {
+      "id": "note-neighbor",
+      "title": "Briefje aan buurman",
+      "titleEn": "Note to Neighbor",
+      "difficulty": "A1",
+      "taskType": "free-text",
+      "isFreePreview": false
+    },
+    {
+      "id": "complaint-webshop",
+      "title": "Klacht schrijven",
+      "titleEn": "Write a Complaint",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": false
+    },
+    {
+      "id": "message-teacher-absence",
+      "title": "Bericht aan docent",
+      "titleEn": "Message to Teacher",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": false
     }
   ]
 }

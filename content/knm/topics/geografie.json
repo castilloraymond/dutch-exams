@@ -85,6 +85,90 @@
       "options": ["Tropisch", "Gematigd zeeklimaat met milde winters en koele zomers", "Continentaal met strenge winters", "Mediterraan met hete zomers"],
       "correctIndex": 1,
       "explanation": "Nederland heeft een gematigd zeeklimaat: milde winters, koele zomers en veel regen verspreid over het hele jaar."
+    },
+    {
+      "id": "geo-q13",
+      "text": "Wat is de Afsluitdijk?",
+      "options": ["Een brug", "Een dijk die de Noordzee scheidt van het IJsselmeer", "Een tunnel", "Een kanaal"],
+      "correctIndex": 1,
+      "explanation": "De Afsluitdijk is 32 km lang en scheidt de Noordzee (Waddenzee) van het IJsselmeer. Hij werd gebouwd in 1932."
+    },
+    {
+      "id": "geo-q14",
+      "text": "Hoeveel inwoners heeft Nederland ongeveer?",
+      "options": ["10 miljoen", "14 miljoen", "Ongeveer 17,5 miljoen", "22 miljoen"],
+      "correctIndex": 2,
+      "explanation": "Nederland heeft ongeveer 17,5 miljoen inwoners. Het is een van de dichtstbevolkte landen van Europa."
+    },
+    {
+      "id": "geo-q15",
+      "text": "Welke stad is de regeringszetel van Nederland?",
+      "options": ["Amsterdam", "Den Haag", "Rotterdam", "Utrecht"],
+      "correctIndex": 1,
+      "explanation": "Den Haag is de regeringszetel: de regering, het parlement, de Raad van State en alle ambassades zitten daar. Amsterdam is de hoofdstad."
+    },
+    {
+      "id": "geo-q16",
+      "text": "Wat is Flevoland?",
+      "options": ["De oudste provincie", "De jongste provincie, grotendeels aangelegd op drooggelegde grond", "Een eiland", "Een stad in Noord-Holland"],
+      "correctIndex": 1,
+      "explanation": "Flevoland is de jongste provincie van Nederland. Het land is drooggelegd uit het IJsselmeer in de 20e eeuw. Almere en Lelystad zijn de grootste steden."
+    },
+    {
+      "id": "geo-q17",
+      "text": "Wat is de Noordzee?",
+      "options": ["Een meer in Nederland", "De zee aan de westkant van Nederland", "Een rivier", "Een kanaal"],
+      "correctIndex": 1,
+      "explanation": "De Noordzee ligt aan de westkant van Nederland. Het is belangrijk voor visserij, scheepvaart en energie (windparken, olie- en gaswinning)."
+    },
+    {
+      "id": "geo-q18",
+      "text": "Wat zijn de vier grote steden (G4) van Nederland?",
+      "options": ["Amsterdam, Eindhoven, Groningen, Maastricht", "Amsterdam, Rotterdam, Den Haag en Utrecht", "Amsterdam, Haarlem, Leiden, Delft", "Rotterdam, Breda, Tilburg, Arnhem"],
+      "correctIndex": 1,
+      "explanation": "De vier grote steden (G4) zijn Amsterdam, Rotterdam, Den Haag en Utrecht. Samen vormen ze het hart van de Randstad."
+    },
+    {
+      "id": "geo-q19",
+      "text": "Wat is bijzonder aan het landschap van Limburg?",
+      "options": ["Het is heel vlak", "Het is de enige provincie met heuvels", "Het heeft de meeste meren", "Het heeft de langste kustlijn"],
+      "correctIndex": 1,
+      "explanation": "Limburg is de enige provincie met heuvels. De Vaalserberg (322,4 meter) in Zuid-Limburg is het hoogste punt van Europees Nederland."
+    },
+    {
+      "id": "geo-q20",
+      "text": "Welke taal wordt naast Nederlands officieel gesproken in Friesland?",
+      "options": ["Duits", "Fries", "Engels", "Limburgs"],
+      "correctIndex": 1,
+      "explanation": "Fries is de tweede officiële taal van Nederland. Het wordt gesproken in de provincie Friesland en is erkend als eigen taal."
+    },
+    {
+      "id": "geo-q21",
+      "text": "Wat zijn de BES-eilanden?",
+      "options": ["Eilanden bij Friesland", "Bonaire, Sint Eustatius en Saba, bijzondere gemeenten van Nederland in de Caribische Zee", "Eilanden in het IJsselmeer", "Eilanden bij Zeeland"],
+      "correctIndex": 1,
+      "explanation": "De BES-eilanden (Bonaire, Sint Eustatius en Saba) zijn bijzondere gemeenten van Nederland in de Caribische Zee."
+    },
+    {
+      "id": "geo-q22",
+      "text": "Waarom is Nederland zo vlak?",
+      "options": ["Door vulkanische activiteit", "Doordat het land grotendeels is gevormd door rivierafzettingen en zeebodem", "Door aardbevingen", "Door ontbossing"],
+      "correctIndex": 1,
+      "explanation": "Nederland is vlak omdat het land grotendeels gevormd is door sediment (zand, klei) van rivieren en de zee. Veel land is drooggelegd."
+    },
+    {
+      "id": "geo-q23",
+      "text": "Wat is het Groene Hart?",
+      "options": ["Een park in Amsterdam", "Het relatief open en landelijke gebied midden in de Randstad", "Een bos in Gelderland", "Een eiland"],
+      "correctIndex": 1,
+      "explanation": "Het Groene Hart is het open, landelijke gebied midden in de Randstad. Het wordt beschermd om te voorkomen dat de steden aan elkaar groeien."
+    },
+    {
+      "id": "geo-q24",
+      "text": "Wat is Deltawerken?",
+      "options": ["Een kunstproject", "Een systeem van dammen, sluizen en stormvloedkeringen in Zeeland en Zuid-Holland", "Een snelwegnet", "Een spoorwegennet"],
+      "correctIndex": 1,
+      "explanation": "De Deltawerken beschermen het zuidwesten van Nederland tegen overstromingen. De Oosterscheldekering is het bekendst en is een van de moderne wereldwonderen."
     }
   ]
 }

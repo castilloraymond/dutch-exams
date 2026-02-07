@@ -85,6 +85,90 @@
       "options": ["Nee, de gemeente wijst een school aan", "Ja, er is vrijheid van onderwijs en schoolkeuze", "Alleen als ze in dezelfde wijk wonen", "Alleen voor het voortgezet onderwijs"],
       "correctIndex": 1,
       "explanation": "In Nederland is er vrijheid van onderwijs. Ouders mogen zelf een school kiezen, ook een school op religieuze of pedagogische grondslag."
+    },
+    {
+      "id": "ond-q13",
+      "text": "Wat is de peuterspeelzaal?",
+      "options": ["Een basisschool", "Opvang en spelen voor kinderen van 2 tot 4 jaar", "Een middelbare school", "Een naschoolse opvang"],
+      "correctIndex": 1,
+      "explanation": "De peuterspeelzaal is voor kinderen van 2 tot 4 jaar. Kinderen leren er spelen met andere kinderen en worden voorbereid op de basisschool."
+    },
+    {
+      "id": "ond-q14",
+      "text": "Wat is de Cito-eindtoets (doorstroomtoets)?",
+      "options": ["Een toets in groep 1", "Een toets in groep 8 die helpt bepalen naar welk niveau voortgezet onderwijs een kind gaat", "Een taaltoets voor volwassenen", "Een sporttest"],
+      "correctIndex": 1,
+      "explanation": "De doorstroomtoets wordt gemaakt in groep 8. Samen met het schooladvies bepaalt het naar welk niveau voortgezet onderwijs (vmbo, havo, vwo) een kind gaat."
+    },
+    {
+      "id": "ond-q15",
+      "text": "Wat is een startkwalificatie?",
+      "options": ["Een rijbewijs", "Minimaal een havo-, vwo- of mbo-2-diploma, nodig om goed aan het werk te kunnen", "Een inburgeringscertificaat", "Een zwemdiploma"],
+      "correctIndex": 1,
+      "explanation": "Een startkwalificatie is minimaal een havo-, vwo- of mbo-2-diploma. Jongeren zijn tot 18 jaar verplicht een startkwalificatie te halen."
+    },
+    {
+      "id": "ond-q16",
+      "text": "Wat is speciaal onderwijs?",
+      "options": ["Onderwijs voor hoogbegaafde kinderen", "Onderwijs voor kinderen die extra hulp nodig hebben door een handicap of leerproblemen", "Privéonderwijs", "Onderwijs op zaterdagen"],
+      "correctIndex": 1,
+      "explanation": "Speciaal onderwijs is voor kinderen die door een handicap, gedragsproblemen of leerproblemen extra ondersteuning nodig hebben."
+    },
+    {
+      "id": "ond-q17",
+      "text": "Wat is het verschil tussen openbaar en bijzonder onderwijs?",
+      "options": ["Er is geen verschil", "Openbaar onderwijs is van de overheid, bijzonder onderwijs heeft een religieuze of pedagogische grondslag", "Bijzonder onderwijs is duurder", "Openbaar onderwijs is alleen voor Nederlanders"],
+      "correctIndex": 1,
+      "explanation": "Openbaar onderwijs is van de overheid en staat open voor iedereen. Bijzonder onderwijs is opgericht op basis van een geloof of pedagogisch idee."
+    },
+    {
+      "id": "ond-q18",
+      "text": "Wat is studiefinanciering?",
+      "options": ["Een beurs voor buitenlandse studenten", "Geld van de overheid voor studenten in het MBO, HBO of WO", "Een lening van een bank", "Salaris voor stagiairs"],
+      "correctIndex": 1,
+      "explanation": "Studiefinanciering is een bijdrage van de overheid (DUO) voor studenten. Het bestaat uit een basisbeurs, aanvullende beurs en de mogelijkheid om te lenen."
+    },
+    {
+      "id": "ond-q19",
+      "text": "Wat is TSO (tussenschoolse opvang)?",
+      "options": ["Een naschoolse activiteit", "Opvang van kinderen op school tijdens de middagpauze", "Een avondcursus", "Een sportprogramma"],
+      "correctIndex": 1,
+      "explanation": "TSO is opvang op school tijdens de lunchpauze. Kinderen eten daar hun lunch en spelen buiten. Ouders betalen vaak een kleine bijdrage."
+    },
+    {
+      "id": "ond-q20",
+      "text": "Wat is een medezeggenschapsraad (MR)?",
+      "options": ["Een groep directeuren", "Een raad van ouders en personeel die meedenkt over het beleid van de school", "Een sportcommissie", "Een examencommissie"],
+      "correctIndex": 1,
+      "explanation": "De MR bestaat uit ouders en personeel. Ze mogen meepraten en soms meebeslissen over schoolbeleid, zoals het schoolplan en de begroting."
+    },
+    {
+      "id": "ond-q21",
+      "text": "Wat is een stage?",
+      "options": ["Een baan", "Een periode waarin een student werkervaring opdoet bij een bedrijf als onderdeel van de opleiding", "Vakantiewerk", "Vrijwilligerswerk"],
+      "correctIndex": 1,
+      "explanation": "Tijdens een stage doet een student werkervaring op bij een bedrijf. Stages zijn verplicht bij veel MBO- en HBO-opleidingen."
+    },
+    {
+      "id": "ond-q22",
+      "text": "Moeten ouders ouderbijdrage betalen aan school?",
+      "options": ["Ja, het is verplicht", "Nee, de ouderbijdrage is vrijwillig", "Alleen voor het voortgezet onderwijs", "Alleen buitenlandse ouders"],
+      "correctIndex": 1,
+      "explanation": "De ouderbijdrage is vrijwillig. Scholen mogen ouders vragen een bijdrage te betalen voor extra activiteiten, maar het is niet verplicht."
+    },
+    {
+      "id": "ond-q23",
+      "text": "Wat is het participatieverklaringstraject?",
+      "options": ["Een sportprogramma", "Een onderdeel van inburgering waarin nieuwkomers leren over de Nederlandse kernwaarden", "Een taalcursus", "Een arbeidscontract"],
+      "correctIndex": 1,
+      "explanation": "Het participatieverklaringstraject is onderdeel van de inburgering. Nieuwkomers leren over de Nederlandse kernwaarden (vrijheid, gelijkheid, solidariteit) en ondertekenen een verklaring."
+    },
+    {
+      "id": "ond-q24",
+      "text": "Wat is een diploma-erkenning?",
+      "options": ["Een nieuw diploma halen", "Het proces waarbij buitenlandse diploma's worden vergeleken met Nederlandse diploma's", "Een certificaat van een taalcursus", "Een bewijs van goed gedrag"],
+      "correctIndex": 1,
+      "explanation": "Via Nuffic (voor hoger onderwijs) of SBB (voor beroepsonderwijs) kun je buitenlandse diploma's laten waarderen, zodat werkgevers en scholen weten wat het niveau is."
     }
   ]
 }

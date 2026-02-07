@@ -1,0 +1,49 @@
+{
+  "id": "note-neighbor",
+  "title": "Briefje aan buurman",
+  "titleEn": "Note to Neighbor",
+  "difficulty": "A1",
+  "taskType": "free-text",
+  "scenario": "U verwacht een pakketje, maar u bent niet thuis. U wilt uw buurman vragen of hij het pakketje kan aannemen.",
+  "scenarioEn": "You are expecting a package, but you won't be home. You want to ask your neighbor if they can accept the package for you.",
+  "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat er een pakketje komt. Vraag of hij het kan aannemen. Zeg wanneer u het komt ophalen.",
+  "promptEn": "Write a short note to your neighbor. Tell them a package is coming. Ask if they can accept it. Say when you will pick it up.",
+  "wordRange": {
+    "min": 30,
+    "max": 60
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used a greeting (e.g., Beste buurman, Dag meneer)",
+      "textEn": "I used a greeting (e.g., Beste buurman, Dag meneer)"
+    },
+    {
+      "id": "package-info",
+      "text": "I mentioned that a package is coming",
+      "textEn": "I mentioned that a package is coming"
+    },
+    {
+      "id": "request",
+      "text": "I asked the neighbor to accept the package",
+      "textEn": "I asked the neighbor to accept the package"
+    },
+    {
+      "id": "pickup-time",
+      "text": "I mentioned when I will pick up the package",
+      "textEn": "I mentioned when I will pick up the package"
+    },
+    {
+      "id": "closing",
+      "text": "I used a closing and signed my name",
+      "textEn": "I used a closing and signed my name"
+    }
+  ],
+  "modelAnswer": "Beste buurman,\n\nEr komt vandaag een pakketje voor mij, maar ik ben niet thuis. Kunt u het pakketje voor mij aannemen? Ik kom het vanavond na zes uur ophalen.\n\nAlvast bedankt!\n\nGroetjes,\nKarim",
+  "tips": [
+    "A note to a neighbor can be informal - use 'je' or 'u', both are fine.",
+    "Keep it short and clear - just the essential information.",
+    "Don't forget to say when you'll pick up the package."
+  ],
+  "isFreePreview": false
+}

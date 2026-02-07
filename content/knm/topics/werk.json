@@ -85,6 +85,90 @@
       "options": ["Een contract voor onbepaalde tijd", "Een contract met een vaste einddatum", "Een mondeling contract", "Een vrijwilligersovereenkomst"],
       "correctIndex": 1,
       "explanation": "Een tijdelijk contract (contract voor bepaalde tijd) heeft een vaste begin- en einddatum."
+    },
+    {
+      "id": "werk-q13",
+      "text": "Wat is een uitzendbureau?",
+      "options": ["Een reisbureau", "Een bedrijf dat tijdelijke werknemers uitleent aan andere bedrijven", "Een overheidsinstantie", "Een opleidingscentrum"],
+      "correctIndex": 1,
+      "explanation": "Een uitzendbureau bemiddelt tussen werkzoekenden en bedrijven. Je werkt via het uitzendbureau bij een ander bedrijf."
+    },
+    {
+      "id": "werk-q14",
+      "text": "Wat is vakantiegeld?",
+      "options": ["Geld dat je krijgt als je op vakantie gaat", "Een extra uitkering van ongeveer 8% van je jaarsalaris, meestal in mei uitbetaald", "Een toeslag voor feestdagen", "Geld voor een vliegticket"],
+      "correctIndex": 1,
+      "explanation": "Vakantiegeld is een wettelijk recht: je krijgt 8% van je bruto jaarsalaris extra, meestal uitbetaald in mei of juni."
+    },
+    {
+      "id": "werk-q15",
+      "text": "Hoeveel weken zwangerschaps- en bevallingsverlof heeft een werkneemster recht op?",
+      "options": ["8 weken", "12 weken", "Minimaal 16 weken", "20 weken"],
+      "correctIndex": 2,
+      "explanation": "Een werkneemster heeft recht op minimaal 16 weken zwangerschaps- en bevallingsverlof met doorbetaling van het loon."
+    },
+    {
+      "id": "werk-q16",
+      "text": "Wat is een cv?",
+      "options": ["Een type contract", "Een overzicht van je opleiding, werkervaring en vaardigheden", "Een belastingformulier", "Een verklaring van goed gedrag"],
+      "correctIndex": 1,
+      "explanation": "Een cv (curriculum vitae) is een document met je persoonlijke gegevens, opleiding, werkervaring en vaardigheden. Je stuurt het mee bij een sollicitatie."
+    },
+    {
+      "id": "werk-q17",
+      "text": "Wat is een proeftijd?",
+      "options": ["De eerste werkdag", "Een periode aan het begin van een contract waarin werkgever en werknemer het dienstverband makkelijk kunnen beëindigen", "Een examenperiode", "Een vakantieperiode"],
+      "correctIndex": 1,
+      "explanation": "De proeftijd is een korte periode (maximaal 2 maanden) aan het begin van een contract. Beide partijen kunnen dan opzeggen zonder reden."
+    },
+    {
+      "id": "werk-q18",
+      "text": "Wat is loonheffing?",
+      "options": ["Een boete van de werkgever", "Belasting en premies die je werkgever inhoudt op je brutoloon", "Een bijdrage aan een vakbond", "Een vergoeding voor reiskosten"],
+      "correctIndex": 1,
+      "explanation": "Loonheffing is het totaal van inkomstenbelasting en premies volksverzekeringen dat je werkgever inhoudt op je brutoloon."
+    },
+    {
+      "id": "werk-q19",
+      "text": "Wat is een vakbond?",
+      "options": ["Een werkgeverorganisatie", "Een organisatie die de belangen van werknemers behartigt", "Een overheidsinstantie", "Een uitzendbureau"],
+      "correctIndex": 1,
+      "explanation": "Een vakbond is een organisatie van werknemers die opkomt voor betere arbeidsvoorwaarden, lonen en werkomstandigheden. Bekende vakbonden zijn FNV en CNV."
+    },
+    {
+      "id": "werk-q20",
+      "text": "Wat is een bijstandsuitkering?",
+      "options": ["Extra loon van je werkgever", "Een uitkering van de gemeente als je niet genoeg inkomen hebt om van te leven", "Een pensioenuitkering", "Een zorgvergoeding"],
+      "correctIndex": 1,
+      "explanation": "De bijstandsuitkering (Participatiewet) is een uitkering van de gemeente voor mensen die niet genoeg inkomen hebben en geen andere uitkering krijgen."
+    },
+    {
+      "id": "werk-q21",
+      "text": "Mag een werkgever je ontslaan als je zwanger bent?",
+      "options": ["Ja, altijd", "Nee, er geldt een ontslagverbod tijdens zwangerschap", "Alleen in de eerste maanden", "Alleen als je een tijdelijk contract hebt"],
+      "correctIndex": 1,
+      "explanation": "In Nederland geldt een ontslagverbod tijdens zwangerschap en bevallingsverlof. De werkgever mag je in die periode niet ontslaan."
+    },
+    {
+      "id": "werk-q22",
+      "text": "Wat is een loonstrook?",
+      "options": ["Een sollicitatiebrief", "Een overzicht van je loon, inhoudingen en nettoloon per maand", "Een werkvergunning", "Een bankpas"],
+      "correctIndex": 1,
+      "explanation": "Een loonstrook (salarisstrook) ontvang je elke maand van je werkgever. Hierop staan je brutoloon, inhoudingen en nettoloon."
+    },
+    {
+      "id": "werk-q23",
+      "text": "Wat is vrijwilligerswerk?",
+      "options": ["Werk voor een laag salaris", "Onbetaald werk dat je doet voor een organisatie of de samenleving", "Werk dat je thuis doet", "Een verplichte stage"],
+      "correctIndex": 1,
+      "explanation": "Vrijwilligerswerk is onbetaald werk dat je vrijwillig doet, bijvoorbeeld bij een sportvereniging, school of zorginstelling. Het telt mee bij inburgering."
+    },
+    {
+      "id": "werk-q24",
+      "text": "Wat is een functioneringsgesprek?",
+      "options": ["Een sollicitatiegesprek", "Een gesprek tussen werknemer en werkgever over hoe het werk gaat", "Een vergadering met alle collega's", "Een gesprek bij de bedrijfsarts"],
+      "correctIndex": 1,
+      "explanation": "Een functioneringsgesprek is een tweezijdig gesprek waarin je met je leidinggevende bespreekt hoe het werk gaat, wat goed gaat en wat beter kan."
     }
   ]
 }

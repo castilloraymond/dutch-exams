@@ -1,0 +1,45 @@
+{
+  "id": "rooster-taallessen",
+  "title": "Rooster taallessen",
+  "contentType": "table",
+  "instruction": "U krijgt een rooster van uw taalschool.\nLees eerst de vraag.\nLees daarna de tekst.",
+  "difficulty": "A1",
+  "content": "Taalschool Het Woord — Lesrooster Periode 3\n\nGroep A (beginners):\nMaandag en woensdag: 09:00 – 11:30\nDocent: mevrouw De Vries\nLokaal: 1.04\n\nGroep B (beginners):\nDinsdag en donderdag: 13:00 – 15:30\nDocent: meneer Bakker\nLokaal: 2.08\n\nGroep C (gevorderden):\nMaandag en donderdag: 18:30 – 21:00\nDocent: mevrouw Jansen\nLokaal: 1.04\n\nBelangrijk:\n- De lessen beginnen op 3 februari en eindigen op 28 maart.\n- Op maandag 17 februari is er geen les (voorjaarsvakantie).\n- Het examen is op vrijdag 4 april.\n- Neem altijd uw boek en een pen mee naar de les.",
+  "questions": [
+    {
+      "id": "rooster-q1",
+      "text": "Op welke dagen heeft Groep A les?",
+      "options": ["Maandag en dinsdag", "Maandag en woensdag", "Dinsdag en donderdag", "Woensdag en vrijdag"],
+      "correctIndex": 1,
+      "explanation": "Bij Groep A staat: 'Maandag en woensdag: 09:00 – 11:30.'"
+    },
+    {
+      "id": "rooster-q2",
+      "text": "Wie is de docent van Groep B?",
+      "options": ["Mevrouw De Vries", "Meneer Bakker", "Mevrouw Jansen", "Meneer De Groot"],
+      "correctIndex": 1,
+      "explanation": "Bij Groep B staat: 'Docent: meneer Bakker.'"
+    },
+    {
+      "id": "rooster-q3",
+      "text": "Waarom is er op 17 februari geen les?",
+      "options": ["Het is een feestdag", "Het is voorjaarsvakantie", "De docent is ziek", "De school is dicht"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'Op maandag 17 februari is er geen les (voorjaarsvakantie).'"
+    },
+    {
+      "id": "rooster-q4",
+      "text": "Wanneer is het examen?",
+      "options": ["28 maart", "1 april", "4 april", "7 april"],
+      "correctIndex": 2,
+      "explanation": "De tekst zegt: 'Het examen is op vrijdag 4 april.'"
+    },
+    {
+      "id": "rooster-q5",
+      "text": "In welk lokaal heeft Groep C les?",
+      "options": ["1.04", "2.08", "1.08", "2.04"],
+      "correctIndex": 0,
+      "explanation": "Bij Groep C staat: 'Lokaal: 1.04.'"
+    }
+  ]
+}

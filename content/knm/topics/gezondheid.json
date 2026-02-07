@@ -85,6 +85,90 @@
       "options": ["Een lijst van bloeddonoren", "Een register waarin je vastlegt of je na overlijden organen wilt doneren", "Een lijst van ziekenhuizen", "Een register van artsen"],
       "correctIndex": 1,
       "explanation": "In het donorregister leg je vast of je na je overlijden organen en weefsel wilt doneren. Iedereen vanaf 18 jaar wordt gevraagd een keuze te maken."
+    },
+    {
+      "id": "gez-q13",
+      "text": "Wat is een consultatiebureau?",
+      "options": ["Een kantoor van de belastingdienst", "Een plek waar de groei en ontwikkeling van baby's en jonge kinderen wordt gevolgd", "Een bureau voor werklozen", "Een apotheek"],
+      "correctIndex": 1,
+      "explanation": "Op het consultatiebureau worden kinderen van 0 tot 4 jaar regelmatig onderzocht. Ze krijgen daar ook vaccinaties."
+    },
+    {
+      "id": "gez-q14",
+      "text": "Wat is een aanvullende zorgverzekering?",
+      "options": ["De basisverzekering", "Een extra verzekering voor zorg die niet in het basispakket zit, zoals de tandarts", "Een reisverzekering", "Een arbeidsongeschiktheidsverzekering"],
+      "correctIndex": 1,
+      "explanation": "De aanvullende verzekering dekt zorg die niet in het basispakket zit, zoals tandartskosten voor volwassenen, brillen en fysiotherapie."
+    },
+    {
+      "id": "gez-q15",
+      "text": "Wat is een huisartsenpraktijk?",
+      "options": ["Een ziekenhuis", "De praktijk waar je huisarts werkt en waar je terecht kunt met gezondheidsklachten", "Een apotheek", "Een laboratorium"],
+      "correctIndex": 1,
+      "explanation": "De huisartsenpraktijk is de plek waar je huisarts werkt. Je kunt daar terecht voor consult, advies en doorverwijzing naar een specialist."
+    },
+    {
+      "id": "gez-q16",
+      "text": "Wat is een verwijsbrief?",
+      "options": ["Een brief van de gemeente", "Een brief van de huisarts waarmee je naar een specialist kunt gaan", "Een recept voor medicijnen", "Een brief van de verzekering"],
+      "correctIndex": 1,
+      "explanation": "Om naar een specialist in het ziekenhuis te gaan heb je meestal een verwijsbrief van je huisarts nodig. Zonder verwijzing vergoedt de verzekering het niet."
+    },
+    {
+      "id": "gez-q17",
+      "text": "Wat is kraamzorg?",
+      "options": ["Zorg voor bejaarden", "Zorg voor moeder en baby in de eerste week na de bevalling", "Zorg in het ziekenhuis", "Zorg bij ziekte"],
+      "correctIndex": 1,
+      "explanation": "Kraamzorg is professionele hulp thuis in de eerste 8-10 dagen na de bevalling. De kraamverzorgster helpt met de baby en het huishouden."
+    },
+    {
+      "id": "gez-q18",
+      "text": "Wat doet de bedrijfsarts?",
+      "options": ["Werkt als huisarts", "Begeleidt werknemers bij ziekte en beoordeelt of je kunt werken", "Verkoopt medicijnen", "Doet operaties"],
+      "correctIndex": 1,
+      "explanation": "De bedrijfsarts begeleidt werknemers die ziek zijn. Hij of zij beoordeelt of je (gedeeltelijk) kunt werken en adviseert over re-integratie."
+    },
+    {
+      "id": "gez-q19",
+      "text": "Wat is de spoedeisende hulp (SEH)?",
+      "options": ["Een huisartsenpraktijk", "De afdeling van het ziekenhuis waar je terecht kunt bij ernstige, acute medische noodgevallen", "De apotheek", "De GGD"],
+      "correctIndex": 1,
+      "explanation": "De SEH is de afdeling in het ziekenhuis voor ernstige spoedgevallen, zoals een ongeluk of hartklachten. Bij levensgevaar bel je eerst 112."
+    },
+    {
+      "id": "gez-q20",
+      "text": "Wat is de WMO?",
+      "options": ["Een zorgverzekering", "De Wet maatschappelijke ondersteuning, voor hulp bij zelfstandig thuis wonen", "Een pensioenregeling", "Een belastingregeling"],
+      "correctIndex": 1,
+      "explanation": "De WMO regelt hulp en ondersteuning voor mensen die niet alles zelf kunnen, zoals hulp in het huishouden, aanpassingen in huis of begeleiding."
+    },
+    {
+      "id": "gez-q21",
+      "text": "Mag je in Nederland overal roken?",
+      "options": ["Ja, overal", "Nee, roken is verboden in openbare gebouwen, horeca en op het werk", "Alleen buiten", "Alleen thuis"],
+      "correctIndex": 1,
+      "explanation": "Roken is in Nederland verboden in openbare gebouwen, de horeca, op het werk en in het openbaar vervoer."
+    },
+    {
+      "id": "gez-q22",
+      "text": "Wat is een dietist?",
+      "options": ["Een kok", "Een zorgverlener die advies geeft over voeding en dieet bij gezondheidsklachten", "Een sportleraar", "Een psycholoog"],
+      "correctIndex": 1,
+      "explanation": "Een diëtist geeft advies over gezonde voeding, bijvoorbeeld bij diabetes, overgewicht of allergieën. Je hebt een verwijzing van de huisarts nodig."
+    },
+    {
+      "id": "gez-q23",
+      "text": "Hoeveel mag het eigen risico maximaal zijn?",
+      "options": ["€ 285", "€ 385", "Je kunt het eigen risico vrijwillig verhogen tot maximaal € 885", "Er is geen maximum"],
+      "correctIndex": 2,
+      "explanation": "Het verplicht eigen risico is € 385 (2024). Je kunt het vrijwillig verhogen tot maximaal € 885 voor een lagere premie."
+    },
+    {
+      "id": "gez-q24",
+      "text": "Wat is fysiotherapie?",
+      "options": ["Een type operatie", "Behandeling van lichamelijke klachten door oefeningen en beweging", "Een soort medicijn", "Psychologische hulp"],
+      "correctIndex": 1,
+      "explanation": "Fysiotherapie is behandeling van spier-, gewrichts- en bewegingsklachten. Het zit meestal niet in het basispakket; een aanvullende verzekering is nodig."
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "id": "part2-market",
+  "partNumber": 2,
+  "partTitle": "One-Picture Prompt",
+  "partTitleNl": "Eén Afbeelding",
+  "title": "Market",
+  "titleNl": "Markt",
+  "difficulty": "A2",
+  "images": [
+    {
+      "id": "market-stall",
+      "src": "/images/placeholder-image.svg",
+      "alt": "Person shopping at an outdoor market with vegetables and fruit",
+      "altNl": "Persoon die boodschappen doet op een buitenmarkt met groenten en fruit",
+      "label": "Lisa"
+    }
+  ],
+  "questionNl": "Vertel wat Lisa op de markt kan kopen. Vertel of jij ook graag naar de markt gaat.",
+  "questionEn": "Tell what Lisa can buy at the market. Tell whether you also like going to the market.",
+  "questionParts": [
+    "What can Lisa buy at the market?",
+    "Do you also like going to the market? Why or why not?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "both-parts",
+      "text": "I answered both parts of the question",
+      "textEn": "I answered both parts of the question"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "described-image",
+      "text": "I described what I saw in the image",
+      "textEn": "I described what I saw in the image"
+    },
+    {
+      "id": "gave-opinion",
+      "text": "I gave my opinion about going to the market",
+      "textEn": "I gave my opinion about going to the market"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "Lisa can buy vegetables and fruit at the market. I see tomatoes and apples. I also like going to the market. The food is fresh and cheaper than in the supermarket.",
+    "transcriptNl": "Lisa kan groenten en fruit kopen op de markt. Ik zie tomaten en appels. Ik ga ook graag naar de markt. Het eten is vers en goedkoper dan in de supermarkt.",
+    "audioFile": "/audio/spreken/model-answers/part2-market.mp3"
+  },
+  "tips": [
+    "First describe what you see in the picture, then give your opinion.",
+    "Use the person's name (Lisa) in your answer.",
+    "Give a reason for your opinion - don't just say 'yes' or 'no'."
+  ],
+  "isFreePreview": false
+}

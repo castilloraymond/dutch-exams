@@ -2,13 +2,13 @@
   "module": "KNM",
   "description": "Kennis van de Nederlandse Maatschappij",
   "topics": [
-    { "id": "werk", "title": "Werk", "description": "Werken in Nederland", "questionCount": 12, "icon": "briefcase" },
-    { "id": "wonen", "title": "Wonen", "description": "Huisvesting en huren", "questionCount": 12, "icon": "home" },
-    { "id": "gezondheid", "title": "Gezondheid", "description": "Gezondheidszorg in Nederland", "questionCount": 12, "icon": "heart-pulse" },
-    { "id": "geschiedenis", "title": "Geschiedenis", "description": "Nederlandse geschiedenis", "questionCount": 12, "icon": "landmark" },
-    { "id": "onderwijs", "title": "Onderwijs", "description": "Het onderwijssysteem", "questionCount": 12, "icon": "graduation-cap" },
-    { "id": "normen-en-waarden", "title": "Normen en Waarden", "description": "Nederlandse cultuur en normen", "questionCount": 12, "icon": "scale" },
-    { "id": "politiek", "title": "Politiek", "description": "De Nederlandse overheid", "questionCount": 12, "icon": "landmark" },
-    { "id": "geografie", "title": "Geografie", "description": "Nederlandse geografie", "questionCount": 12, "icon": "map-pin" }
+    { "id": "werk", "title": "Werk", "description": "Werken in Nederland", "questionCount": 24, "icon": "briefcase" },
+    { "id": "wonen", "title": "Wonen", "description": "Huisvesting en huren", "questionCount": 24, "icon": "home" },
+    { "id": "gezondheid", "title": "Gezondheid", "description": "Gezondheidszorg in Nederland", "questionCount": 24, "icon": "heart-pulse" },
+    { "id": "geschiedenis", "title": "Geschiedenis", "description": "Nederlandse geschiedenis", "questionCount": 24, "icon": "landmark" },
+    { "id": "onderwijs", "title": "Onderwijs", "description": "Het onderwijssysteem", "questionCount": 24, "icon": "graduation-cap" },
+    { "id": "normen-en-waarden", "title": "Normen en Waarden", "description": "Nederlandse cultuur en normen", "questionCount": 24, "icon": "scale" },
+    { "id": "politiek", "title": "Politiek", "description": "De Nederlandse overheid", "questionCount": 24, "icon": "landmark" },
+    { "id": "geografie", "title": "Geografie", "description": "Nederlandse geografie", "questionCount": 24, "icon": "map-pin" }
   ]
 }

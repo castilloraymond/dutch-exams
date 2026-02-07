@@ -1,0 +1,66 @@
+{
+  "id": "part3-transport",
+  "partNumber": 3,
+  "partTitle": "Two-Picture Prompt",
+  "partTitleNl": "Twee Afbeeldingen",
+  "title": "Transport",
+  "titleNl": "Vervoer",
+  "difficulty": "A2",
+  "images": [
+    {
+      "id": "bicycle",
+      "src": "/images/placeholder-image.svg",
+      "alt": "Person riding a bicycle on a Dutch bike path",
+      "altNl": "Persoon die fietst op een Nederlands fietspad",
+      "label": "A"
+    },
+    {
+      "id": "bus",
+      "src": "/images/placeholder-image.svg",
+      "alt": "People waiting at a bus stop in the city",
+      "altNl": "Mensen die wachten bij een bushalte in de stad",
+      "label": "B"
+    }
+  ],
+  "questionNl": "Je wilt naar je werk. Hoe ga je het liefst: met de fiets of met de bus? Vertel ook waarom.",
+  "questionEn": "You want to go to work. How do you prefer to go: by bicycle or by bus? Also explain why.",
+  "questionParts": [
+    "Which transport do you prefer?",
+    "Why do you prefer that way of travelling?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "made-choice",
+      "text": "I clearly stated which transport I prefer",
+      "textEn": "I clearly stated which transport I prefer"
+    },
+    {
+      "id": "gave-reason",
+      "text": "I explained why I prefer it",
+      "textEn": "I explained why I prefer it"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "complete-answer",
+      "text": "My answer was complete and made sense",
+      "textEn": "My answer was complete and made sense"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I prefer to go by bicycle. Cycling is healthy and good for the environment. It is also free. I don't have to wait for the bus. But when it rains, I sometimes take the bus.",
+    "transcriptNl": "Ik ga het liefst met de fiets. Fietsen is gezond en goed voor het milieu. Het is ook gratis. Ik hoef niet op de bus te wachten. Maar als het regent, neem ik soms de bus.",
+    "audioFile": "/audio/spreken/model-answers/part3-transport.mp3"
+  },
+  "tips": [
+    "Make a clear choice - don't say 'I like both equally'.",
+    "Give at least two reasons for your choice.",
+    "You can mention both options to show comparison."
+  ],
+  "isFreePreview": false
+}

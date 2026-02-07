@@ -1,0 +1,45 @@
+{
+  "id": "informatie-bibliotheek",
+  "title": "Informatie over de bibliotheek",
+  "contentType": "informational",
+  "instruction": "U leest een brochure over de bibliotheek.\nLees eerst de vraag.\nLees daarna de tekst.",
+  "difficulty": "A2",
+  "content": "Welkom bij Bibliotheek Centrum!\n\nBij ons kunt u boeken, dvd's en tijdschriften lenen. Ook kunt u gratis gebruik maken van de computers en het wifi-netwerk.\n\nLid worden\nEen lidmaatschap kost € 30,00 per jaar voor volwassenen. Kinderen tot 18 jaar zijn gratis lid. U kunt zich aanmelden bij de balie met een geldig identiteitsbewijs.\n\nUitlenen\nU mag maximaal 10 items tegelijk lenen. Boeken kunt u 3 weken houden. Dvd's moet u na 1 week terugbrengen. U kunt de uitleentermijn één keer verlengen via de website of de app.\n\nTe laat terugbrengen?\nAls u te laat bent, betaalt u € 0,30 per item per dag. Na 30 dagen krijgt u een rekening thuis.\n\nActiviteiten\n- Voorleesuurtje voor kinderen: woensdag 10:30 uur\n- Taalcafé (oefenen met Nederlands): donderdag 14:00 – 15:30 uur\n- Computerles voor beginners: vrijdag 10:00 – 11:30 uur\n\nVoor meer informatie: www.bibliotheekcentrum.nl of bel 020-555 1234.",
+  "questions": [
+    {
+      "id": "bibliotheek-q1",
+      "text": "Hoeveel kost een lidmaatschap voor een volwassene?",
+      "options": ["€ 15,00 per jaar", "€ 20,00 per jaar", "€ 25,00 per jaar", "€ 30,00 per jaar"],
+      "correctIndex": 3,
+      "explanation": "De tekst zegt: 'Een lidmaatschap kost € 30,00 per jaar voor volwassenen.'"
+    },
+    {
+      "id": "bibliotheek-q2",
+      "text": "Hoe lang mag je een dvd lenen?",
+      "options": ["3 dagen", "1 week", "2 weken", "3 weken"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'Dvd's moet u na 1 week terugbrengen.'"
+    },
+    {
+      "id": "bibliotheek-q3",
+      "text": "Wat moet je meenemen als je lid wilt worden?",
+      "options": ["Een pasfoto", "Een geldig identiteitsbewijs", "Een bewijs van inschrijving", "Een bankpas"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'U kunt zich aanmelden bij de balie met een geldig identiteitsbewijs.'"
+    },
+    {
+      "id": "bibliotheek-q4",
+      "text": "Wanneer is het taalcafé?",
+      "options": ["Woensdag om 10:30", "Donderdag van 14:00 tot 15:30", "Vrijdag van 10:00 tot 11:30", "Zaterdag om 14:00"],
+      "correctIndex": 1,
+      "explanation": "Bij Activiteiten staat: 'Taalcafé (oefenen met Nederlands): donderdag 14:00 – 15:30 uur.'"
+    },
+    {
+      "id": "bibliotheek-q5",
+      "text": "Hoeveel boete betaal je als je een boek te laat terugbrengt?",
+      "options": ["€ 0,10 per dag", "€ 0,20 per dag", "€ 0,30 per item per dag", "€ 1,00 per item per dag"],
+      "correctIndex": 2,
+      "explanation": "De tekst zegt: 'betaalt u € 0,30 per item per dag.'"
+    }
+  ]
+}

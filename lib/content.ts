@@ -25,6 +25,11 @@ import opHetStation from "@/content/passages/op-het-station.json";
 import bijDeDokter from "@/content/passages/bij-de-dokter.json";
 import eenBrief from "@/content/passages/een-brief.json";
 import deBuurt from "@/content/passages/de-buurt.json";
+import openingstijdenWinkelcentrum from "@/content/passages/openingstijden-winkelcentrum.json";
+import uitnodigingVerjaardagsfeest from "@/content/passages/uitnodiging-verjaardagsfeest.json";
+import roosterTaallessen from "@/content/passages/rooster-taallessen.json";
+import informatieBibliotheek from "@/content/passages/informatie-bibliotheek.json";
+import nieuwsbriefSchool from "@/content/passages/nieuwsbrief-school.json";
 
 // KNM content
 import knmIndex from "@/content/knm/index.json";
@@ -44,6 +49,11 @@ import opHetGemeentehuis from "@/content/luisteren/exercises/op-het-gemeentehuis
 import eenTelefoongesprek from "@/content/luisteren/exercises/een-telefoongesprek.json";
 import bijDeHuisarts from "@/content/luisteren/exercises/bij-de-huisarts.json";
 import opHetWerk from "@/content/luisteren/exercises/op-het-werk.json";
+import inDeSupermarkt from "@/content/luisteren/exercises/in-de-supermarkt.json";
+import opSchool from "@/content/luisteren/exercises/op-school.json";
+import bijHetUitzendbureau from "@/content/luisteren/exercises/bij-het-uitzendbureau.json";
+import eenAfspraakMaken from "@/content/luisteren/exercises/een-afspraak-maken.json";
+import inDeTrein from "@/content/luisteren/exercises/in-de-trein.json";
 
 // Mock exam content - Lezen
 import lezenMockIndex from "@/content/mock-exams/lezen/index.json";
@@ -82,6 +92,10 @@ import emailSchoolSick from "@/content/schrijven/tasks/email-school-sick.json";
 import messageLandlordRepair from "@/content/schrijven/tasks/message-landlord-repair.json";
 import formCourseRegistration from "@/content/schrijven/tasks/form-course-registration.json";
 import replyColleagueShift from "@/content/schrijven/tasks/reply-colleague-shift.json";
+import formGpRegistration from "@/content/schrijven/tasks/form-gp-registration.json";
+import noteNeighbor from "@/content/schrijven/tasks/note-neighbor.json";
+import complaintWebshop from "@/content/schrijven/tasks/complaint-webshop.json";
+import messageTeacherAbsence from "@/content/schrijven/tasks/message-teacher-absence.json";
 
 // Spreken content
 import sprekenIndex from "@/content/spreken/index.json";
@@ -89,6 +103,10 @@ import part1Homework from "@/content/spreken/tasks/part1-homework.json";
 import part2Lunch from "@/content/spreken/tasks/part2-lunch.json";
 import part3Education from "@/content/spreken/tasks/part3-education.json";
 import part4Classroom from "@/content/spreken/tasks/part4-classroom.json";
+import part1DailyRoutine from "@/content/spreken/tasks/part1-daily-routine.json";
+import part2Market from "@/content/spreken/tasks/part2-market.json";
+import part3Transport from "@/content/spreken/tasks/part3-transport.json";
+import part4Kitchen from "@/content/spreken/tasks/part4-kitchen.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
@@ -96,6 +114,11 @@ const passages: Record<string, Passage> = {
   "advertentie-cursus-nederlands": bijDeDokter as unknown as Passage,
   "artikel-fietsen-in-nederland": eenBrief as unknown as Passage,
   "huisregels-appartementencomplex": deBuurt as unknown as Passage,
+  "openingstijden-winkelcentrum": openingstijdenWinkelcentrum as unknown as Passage,
+  "uitnodiging-verjaardagsfeest": uitnodigingVerjaardagsfeest as unknown as Passage,
+  "rooster-taallessen": roosterTaallessen as unknown as Passage,
+  "informatie-bibliotheek": informatieBibliotheek as unknown as Passage,
+  "nieuwsbrief-school": nieuwsbriefSchool as unknown as Passage,
 };
 
 const knmTopics: Record<string, KNMTopic> = {
@@ -115,6 +138,11 @@ const listeningExercises: Record<string, ListeningExercise> = {
   "een-telefoongesprek": eenTelefoongesprek as unknown as ListeningExercise,
   "bij-de-huisarts": bijDeHuisarts as unknown as ListeningExercise,
   "op-het-werk": opHetWerk as unknown as ListeningExercise,
+  "in-de-supermarkt": inDeSupermarkt as unknown as ListeningExercise,
+  "op-school": opSchool as unknown as ListeningExercise,
+  "bij-het-uitzendbureau": bijHetUitzendbureau as unknown as ListeningExercise,
+  "een-afspraak-maken": eenAfspraakMaken as unknown as ListeningExercise,
+  "in-de-trein": inDeTrein as unknown as ListeningExercise,
 };
 
 // Mock exam data
@@ -147,6 +175,10 @@ const writingTasks: Record<string, WritingTask> = {
   "message-landlord-repair": messageLandlordRepair as unknown as WritingTask,
   "form-course-registration": formCourseRegistration as unknown as WritingTask,
   "reply-colleague-shift": replyColleagueShift as unknown as WritingTask,
+  "form-gp-registration": formGpRegistration as unknown as WritingTask,
+  "note-neighbor": noteNeighbor as unknown as WritingTask,
+  "complaint-webshop": complaintWebshop as unknown as WritingTask,
+  "message-teacher-absence": messageTeacherAbsence as unknown as WritingTask,
 };
 
 // Spreken data
@@ -155,6 +187,10 @@ const speakingTasks: Record<string, SpeakingTask> = {
   "part2-lunch": part2Lunch as unknown as SpeakingTask,
   "part3-education": part3Education as unknown as SpeakingTask,
   "part4-classroom": part4Classroom as unknown as SpeakingTask,
+  "part1-daily-routine": part1DailyRoutine as unknown as SpeakingTask,
+  "part2-market": part2Market as unknown as SpeakingTask,
+  "part3-transport": part3Transport as unknown as SpeakingTask,
+  "part4-kitchen": part4Kitchen as unknown as SpeakingTask,
 };
 
 // Lezen functions

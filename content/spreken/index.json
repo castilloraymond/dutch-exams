@@ -41,6 +41,46 @@
       "titleNl": "Klaslokaal Voorwerpen",
       "difficulty": "A2",
       "isFreePreview": true
+    },
+    {
+      "id": "part1-daily-routine",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "title": "Daily Routine",
+      "titleNl": "Dagelijkse routine",
+      "difficulty": "A2",
+      "isFreePreview": false
+    },
+    {
+      "id": "part2-market",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "title": "Market",
+      "titleNl": "Markt",
+      "difficulty": "A2",
+      "isFreePreview": false
+    },
+    {
+      "id": "part3-transport",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "title": "Transport",
+      "titleNl": "Vervoer",
+      "difficulty": "A2",
+      "isFreePreview": false
+    },
+    {
+      "id": "part4-kitchen",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "title": "Kitchen Items",
+      "titleNl": "Keukenvoorwerpen",
+      "difficulty": "A2",
+      "isFreePreview": false
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "id": "uitnodiging-verjaardagsfeest",
+  "title": "Uitnodiging verjaardagsfeest",
+  "contentType": "letter",
+  "instruction": "U krijgt een uitnodiging van een vriendin.\nLees eerst de vraag.\nLees daarna de tekst.",
+  "difficulty": "A1",
+  "content": "Lieve vrienden,\n\nIk word 30 jaar! Dat wil ik graag met jullie vieren.\n\nWanneer: Zaterdag 15 maart\nTijd: Vanaf 19:00 uur\nWaar: Bij mij thuis, Tulpstraat 24, Amsterdam\n\nHet is een feest met eten en muziek. Neem geen eten mee, ik kook zelf. Je mag wel iets te drinken meenemen.\n\nKun je komen? Laat het mij weten vóór 8 maart.\nJe kunt bellen: 06-12345678\nOf een berichtje sturen via WhatsApp.\n\nIk hoop dat je komt!\n\nGroetjes,\nFatima",
+  "questions": [
+    {
+      "id": "verjaardag-q1",
+      "text": "Hoe oud wordt Fatima?",
+      "options": ["25 jaar", "28 jaar", "30 jaar", "35 jaar"],
+      "correctIndex": 2,
+      "explanation": "Fatima schrijft: 'Ik word 30 jaar!'"
+    },
+    {
+      "id": "verjaardag-q2",
+      "text": "Op welke dag is het feest?",
+      "options": ["Vrijdag 14 maart", "Zaterdag 15 maart", "Zondag 16 maart", "Zaterdag 8 maart"],
+      "correctIndex": 1,
+      "explanation": "In de uitnodiging staat: 'Wanneer: Zaterdag 15 maart.'"
+    },
+    {
+      "id": "verjaardag-q3",
+      "text": "Wat moeten de gasten meenemen?",
+      "options": ["Eten", "Muziek", "Iets te drinken", "Niets"],
+      "correctIndex": 2,
+      "explanation": "Fatima schrijft: 'Neem geen eten mee, ik kook zelf. Je mag wel iets te drinken meenemen.'"
+    },
+    {
+      "id": "verjaardag-q4",
+      "text": "Wanneer moet je laten weten of je komt?",
+      "options": ["Vóór 1 maart", "Vóór 8 maart", "Vóór 15 maart", "Op de dag zelf"],
+      "correctIndex": 1,
+      "explanation": "De uitnodiging zegt: 'Laat het mij weten vóór 8 maart.'"
+    },
+    {
+      "id": "verjaardag-q5",
+      "text": "Hoe kun je Fatima bereiken?",
+      "options": ["Alleen per email", "Alleen via WhatsApp", "Per telefoon of WhatsApp", "Via de post"],
+      "correctIndex": 2,
+      "explanation": "Fatima schrijft: 'Je kunt bellen' en 'Of een berichtje sturen via WhatsApp.'"
+    }
+  ]
+}

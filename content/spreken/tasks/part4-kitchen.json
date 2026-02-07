@@ -1,0 +1,74 @@
+{
+  "id": "part4-kitchen",
+  "partNumber": 4,
+  "partTitle": "Three-Picture Prompt",
+  "partTitleNl": "Drie Afbeeldingen",
+  "title": "Kitchen Items",
+  "titleNl": "Keukenvoorwerpen",
+  "difficulty": "A2",
+  "images": [
+    {
+      "id": "koelkast",
+      "src": "/images/placeholder-image.svg",
+      "alt": "A refrigerator in a kitchen",
+      "altNl": "Een koelkast in een keuken",
+      "label": "1"
+    },
+    {
+      "id": "magnetron",
+      "src": "/images/placeholder-image.svg",
+      "alt": "A microwave on a kitchen counter",
+      "altNl": "Een magnetron op een aanrecht",
+      "label": "2"
+    },
+    {
+      "id": "waterkoker",
+      "src": "/images/placeholder-image.svg",
+      "alt": "An electric kettle",
+      "altNl": "Een waterkoker",
+      "label": "3"
+    }
+  ],
+  "questionNl": "Deze dingen staan in de keuken. Vertel welke dingen het zijn. Vertel ook wat je ermee kunt doen.",
+  "questionEn": "These items are in the kitchen. Tell what items they are. Also tell what you can do with them.",
+  "questionParts": [
+    "What are these items?",
+    "What can you do with them?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "named-all",
+      "text": "I named all three items",
+      "textEn": "I named all three items"
+    },
+    {
+      "id": "described-use",
+      "text": "I described what you can do with each item",
+      "textEn": "I described what you can do with each item"
+    },
+    {
+      "id": "sequencing",
+      "text": "I used sequencing words (Eerst, Daarna, Tenslotte)",
+      "textEn": "I used sequencing words (Eerst, Daarna, Tenslotte)"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "First I see a refrigerator. Then I see a microwave. Finally I see a kettle. In the refrigerator you can keep food cold. With the microwave you can heat food quickly. With the kettle you can boil water for tea or coffee.",
+    "transcriptNl": "Eerst zie ik een koelkast. Daarna zie ik een magnetron. Tenslotte zie ik een waterkoker. In de koelkast kun je eten koud bewaren. Met de magnetron kun je eten snel opwarmen. Met de waterkoker kun je water koken voor thee of koffie.",
+    "audioFile": "/audio/spreken/model-answers/part4-kitchen.mp3"
+  },
+  "tips": [
+    "Use sequencing words: Eerst (First), Daarna (Then), Tenslotte (Finally) - this is important for Part 4!",
+    "Describe each item and say what you can DO with it.",
+    "Take your time to mention all three items clearly."
+  ],
+  "sequencingWordsRequired": true,
+  "isFreePreview": false
+}

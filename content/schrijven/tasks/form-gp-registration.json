@@ -1,0 +1,137 @@
+{
+  "id": "form-gp-registration",
+  "title": "Inschrijving huisarts",
+  "titleEn": "GP Registration",
+  "difficulty": "A1",
+  "taskType": "form",
+  "scenario": "U bent verhuisd naar een nieuwe stad en wilt zich inschrijven bij een huisarts.",
+  "scenarioEn": "You have moved to a new city and want to register with a GP (general practitioner).",
+  "prompt": "Vul het inschrijfformulier van de huisartsenpraktijk in.",
+  "promptEn": "Fill in the GP registration form.",
+  "formFields": [
+    {
+      "id": "voornaam",
+      "label": "Voornaam",
+      "labelEn": "First name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw voornaam"
+    },
+    {
+      "id": "achternaam",
+      "label": "Achternaam",
+      "labelEn": "Last name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw achternaam"
+    },
+    {
+      "id": "geboortedatum",
+      "label": "Geboortedatum",
+      "labelEn": "Date of birth",
+      "type": "date",
+      "required": true
+    },
+    {
+      "id": "bsn",
+      "label": "BSN-nummer",
+      "labelEn": "BSN number (citizen service number)",
+      "type": "text",
+      "required": true,
+      "placeholder": "123456789"
+    },
+    {
+      "id": "adres",
+      "label": "Adres",
+      "labelEn": "Address",
+      "type": "text",
+      "required": true,
+      "placeholder": "Straat en huisnummer"
+    },
+    {
+      "id": "postcode",
+      "label": "Postcode",
+      "labelEn": "Postal code",
+      "type": "text",
+      "required": true,
+      "placeholder": "1234 AB"
+    },
+    {
+      "id": "woonplaats",
+      "label": "Woonplaats",
+      "labelEn": "City",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw stad"
+    },
+    {
+      "id": "telefoonnummer",
+      "label": "Telefoonnummer",
+      "labelEn": "Phone number",
+      "type": "text",
+      "required": true,
+      "placeholder": "06-12345678"
+    },
+    {
+      "id": "zorgverzekeraar",
+      "label": "Zorgverzekeraar",
+      "labelEn": "Health insurance company",
+      "type": "select",
+      "required": true,
+      "options": ["Zilveren Kruis", "CZ", "VGZ", "Menzis", "OHRA", "Anders"]
+    },
+    {
+      "id": "polisnummer",
+      "label": "Polisnummer zorgverzekering",
+      "labelEn": "Insurance policy number",
+      "type": "text",
+      "required": true,
+      "placeholder": "Uw polisnummer"
+    }
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "all-fields",
+      "text": "I filled in all required fields",
+      "textEn": "I filled in all required fields"
+    },
+    {
+      "id": "name-correct",
+      "text": "I wrote my name correctly",
+      "textEn": "I wrote my name correctly"
+    },
+    {
+      "id": "date-format",
+      "text": "I used the correct date format",
+      "textEn": "I used the correct date format"
+    },
+    {
+      "id": "bsn-correct",
+      "text": "I entered a valid BSN number",
+      "textEn": "I entered a valid BSN number"
+    },
+    {
+      "id": "insurance-filled",
+      "text": "I filled in my insurance details",
+      "textEn": "I filled in my insurance details"
+    }
+  ],
+  "modelAnswer": {
+    "voornaam": "Amina",
+    "achternaam": "El Amrani",
+    "geboortedatum": "1988-11-23",
+    "bsn": "987654321",
+    "adres": "Kerkstraat 45",
+    "postcode": "2511 AB",
+    "woonplaats": "Den Haag",
+    "telefoonnummer": "06-23456789",
+    "zorgverzekeraar": "CZ",
+    "polisnummer": "NL12345678"
+  },
+  "tips": [
+    "Your BSN (burgerservicenummer) is a 9-digit number on your residence permit or ID.",
+    "Make sure you know your health insurance company name and policy number.",
+    "Dutch postal codes have 4 numbers followed by 2 letters (e.g., 2511 AB)."
+  ],
+  "isFreePreview": false
+}
