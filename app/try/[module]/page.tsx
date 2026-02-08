@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, Clock, CheckCircle2, XCircle } from "lucide-react";
+import { ArrowLeft, Clock, CheckCircle2, XCircle, BookOpen } from "lucide-react";
 import Link from "next/link";
 import {
   getQuickAssessmentQuestions,
@@ -355,6 +355,21 @@ export default function QuizPage() {
                       )}
                     </div>
 
+                    {/* Learning resources tip — only on wrong answers */}
+                    {!answers[answers.length - 1]?.correct && (
+                      <Link
+                        href="/blog/learning-resources"
+                        className="flex items-start gap-3 p-3 rounded-lg bg-[var(--landing-navy)]/5 hover:bg-[var(--landing-navy)]/10 transition-colors group"
+                      >
+                        <BookOpen className="h-4 w-4 text-[var(--landing-orange)] flex-shrink-0 mt-0.5" />
+                        <p className="text-sm text-[var(--landing-navy)]/70">
+                          <span className="font-medium text-[var(--landing-navy)]">Need to study first?</span>{" "}
+                          Check out our free learning resources guide{" "}
+                          <span className="text-[var(--landing-orange)] group-hover:underline">&rarr;</span>
+                        </p>
+                      </Link>
+                    )}
+
                     <button
                       onClick={handleNext}
                       className="w-full cta-primary py-3 text-white rounded-lg font-semibold"
@@ -472,6 +487,21 @@ export default function QuizPage() {
                       </p>
                     )}
                   </div>
+
+                  {/* Learning resources tip — only on wrong answers */}
+                  {!answers[answers.length - 1]?.correct && (
+                    <Link
+                      href="/blog/learning-resources"
+                      className="flex items-start gap-3 p-3 rounded-lg bg-[var(--landing-navy)]/5 hover:bg-[var(--landing-navy)]/10 transition-colors group"
+                    >
+                      <BookOpen className="h-4 w-4 text-[var(--landing-orange)] flex-shrink-0 mt-0.5" />
+                      <p className="text-sm text-[var(--landing-navy)]/70">
+                        <span className="font-medium text-[var(--landing-navy)]">Need to study first?</span>{" "}
+                        Check out our free learning resources guide{" "}
+                        <span className="text-[var(--landing-orange)] group-hover:underline">&rarr;</span>
+                      </p>
+                    </Link>
+                  )}
 
                   <button
                     onClick={handleNext}

@@ -17,6 +17,9 @@ export function LandingFooter() {
                             <Link href="/blog" className="hover:text-[var(--landing-navy)]/60 transition-colors">
                                 Blog
                             </Link>
+                            <Link href="/blog/learning-resources" className="hover:text-[var(--landing-navy)]/60 transition-colors">
+                                Learning Resources
+                            </Link>
                             <Link href="/try" className="hover:text-[var(--landing-navy)]/60 transition-colors">
                                 Free Assessment
                             </Link>
