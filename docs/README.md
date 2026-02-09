@@ -18,11 +18,19 @@ Central hub for all project documentation.
 | [Schrijven (Writing)](../SCHRIJVEN-SPEC.md) | Writing module technical spec |
 | [Spreken (Speaking)](../SPREKEN-SPEC.md) | Speaking module technical spec |
 
+## Templates
+
+| Doc | Description |
+|-----|-------------|
+| [Product PRD Template](./templates/PRODUCT-PRD-TEMPLATE.md) | Reusable feature PRD with effort-based sizing and CC handoff |
+| [Content Brief Template](./templates/CONTENT-BRIEF-TEMPLATE.md) | Blog post and campaign briefs that feed the playbook system prompt |
+
 ## Marketing
 
 | Doc | Description |
 |-----|-------------|
 | [Marketing & Growth](./MARKETING.md) | Growth strategies, SEO, partnerships, ideas |
+| [Writing Style Guide](./marketing/WRITING-STYLE-GUIDE.md) | Brand voice, AI humanizer filters, banned words, blog conventions |
 
 ## Operations
 
