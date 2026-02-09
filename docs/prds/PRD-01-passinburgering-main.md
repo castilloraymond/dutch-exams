@@ -2,13 +2,13 @@
 
 ### Overview
 
-| Field | Value |
-|-------|-------|
-| **Status** | Live, entering beta |
-| **Type** | B2C SaaS |
-| **Target Launch** | Paid version Q1 2025 |
-| **Build Complexity** | Medium (already built) |
-| **Revenue Potential** | €2-5K MRR at scale |
+| Field                 | Value                  |     |
+| --------------------- | ---------------------- | --- |
+| **Status**            | Live, entering beta    |     |
+| **Type**              | B2C SaaS               |     |
+| **Target Launch**     | Paid version Q1 2025   |     |
+| **Build Complexity**  | Medium (already built) |     |
+| **Revenue Potential** | €2-5K MRR at scale     |     |
 
 ### Problem Statement
 
