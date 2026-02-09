@@ -16,7 +16,7 @@ export function FeatureCards() {
                 </svg>
             ),
             title: "Instant Feedback",
-            description: "Get immediate results after each question with detailed explanations so you learn from every mistake.",
+            description: "Get results in seconds, not days. Detailed explanations after each question so you learn faster than waiting for a tutor.",
         },
         {
             icon: (
@@ -25,7 +25,7 @@ export function FeatureCards() {
                 </svg>
             ),
             title: "All 5 Modules",
-            description: "Complete coverage of KNM, Reading, Listening, Writing, and Speaking — everything you need to pass the inburgering exam.",
+            description: "Complete coverage of KNM, Reading, Listening, Writing, and Speaking — updated for 2025 format changes.",
         },
     ];
 
@@ -35,7 +35,7 @@ export function FeatureCards() {
                 {/* Section Header */}
                 <div className="text-center mb-14">
                     <span className="font-sans-landing inline-block text-xs font-medium tracking-wide uppercase text-[var(--landing-orange)] bg-[var(--landing-orange)]/10 px-3 py-1.5 rounded-full mb-4">
-                        Complete Exam Coverage
+                        Efficient Exam Prep
                     </span>
                     <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)]">
                         Master Every Module

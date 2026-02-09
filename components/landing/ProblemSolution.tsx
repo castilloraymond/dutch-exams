@@ -1,14 +1,14 @@
 export function ProblemSolution() {
     const problems = [
-        "Duolingo teaches Dutch, but won't prepare you for the exam format",
-        "Language tutors cost €30-50/hour and take months of your time",
-        "Failing means waiting months and paying €350 to retake",
+        "Group classes designed for beginners waste your time when you're already at A2",
+        "Private tutors cost €30–60/hour and require scheduling around your work",
+        "Outdated study materials don't cover the 2025 KNM and Spreken format changes",
     ];
 
     const solutions = [
-        "Practice on the exact interface and question types you'll face",
-        "Self-paced prep at a fraction of the cost of tutoring",
-        "Built by expats who passed and know exactly what to expect",
+        "Exam-focused practice — skip the fluff, practice the actual question types",
+        "Study at midnight, during lunch, or on the train — 20 minutes is enough",
+        "Always up to date — built for the current exam format, not last year's",
     ];
 
     const pairs = problems.map((problem, i) => ({
@@ -26,7 +26,7 @@ export function ProblemSolution() {
                             The Problem
                         </span>
                         <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mt-3 mb-8">
-                            Apps and tutors won&apos;t prepare you for the actual exam
+                            Traditional prep wastes your most valuable resource: time
                         </h2>
                         <div className="space-y-5 font-sans-landing">
                             {pairs.map((pair, i) => (

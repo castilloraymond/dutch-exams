@@ -23,11 +23,23 @@ const faqs: FAQItem[] = [
     },
     {
         question: "How long should I practice before the exam?",
-        answer: "Most users practice for 2-4 weeks before their exam. We recommend taking full practice exams until you consistently score above 80%. Our progress tracking helps you know when you're ready.",
+        answer: "Most professionals practice 2–4 weeks, 20 minutes per day. We recommend taking full practice exams until you consistently score above 80%. Our progress tracking helps you know when you're ready.",
     },
     {
         question: "What if I don't pass?",
         answer: "Everyone learns at their own pace. If you don't pass, you can retake the official exam. Our platform helps you identify weak areas so you can focus your studying. Many users who initially struggled went on to pass after targeted practice.",
+    },
+    {
+        question: "I'm on the 30% ruling. Do I need to inburger?",
+        answer: "No — the 30% ruling exempts you from mandatory inburgering. However, if you want permanent residence or Dutch citizenship, you'll need to pass the inburgering exams at A2 level under the Wi2013 framework.",
+    },
+    {
+        question: "What changed about the exams in 2025?",
+        answer: "The KNM (Knowledge of Dutch Society) exam was overhauled in July 2025 with new topics and question formats. The Spreken (Speaking) exam format also changed in March 2025. Our practice materials are updated to reflect these changes.",
+    },
+    {
+        question: "Do I need A2 or B1?",
+        answer: "Most kennismigranten need A2 level, regardless of when they decide to integrate. B1 is only required for certain exemption routes. If you're unsure, A2 is the standard requirement for the inburgering exams.",
     },
 ];
 

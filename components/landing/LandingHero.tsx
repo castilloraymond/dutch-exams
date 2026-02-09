@@ -7,9 +7,9 @@ export function LandingHero() {
     const { user } = useAuth();
 
     const bullets = [
-        "Hundreds of questions on all exam topics",
-        "Identical interface to the real DUO exam",
-        "Track progress & know when you're ready",
+        "Updated for the 2025 KNM and Spreken exam changes",
+        "Practice anytime — no tutors, no scheduling, no commute",
+        "Know exactly when you're ready with progress tracking",
     ];
 
     return (
@@ -19,7 +19,7 @@ export function LandingHero() {
                     {/* Left column */}
                     <div>
                         <span className="font-sans-landing inline-block text-xs font-medium tracking-wide uppercase text-[var(--landing-orange)] bg-[var(--landing-orange)]/10 px-3 py-1.5 rounded-full mb-6 animate-reveal-delay-1">
-                            Made by expats, for expats
+                            The fastest way to pass
                         </span>
 
                         <h1 className="font-serif text-4xl md:text-5xl font-semibold text-[var(--landing-navy)] leading-tight mb-6 animate-reveal-delay-2">
@@ -29,7 +29,7 @@ export function LandingHero() {
 
 
                         <p className="font-sans-landing text-lg text-[var(--landing-navy)]/60 max-w-lg mb-8 leading-relaxed animate-reveal-delay-3">
-                            Practice on the real exam, before the real exam.
+                            The most efficient inburgering prep for busy professionals. Pass in 30 days studying 20 minutes a day.
                         </p>
 
 
@@ -74,7 +74,7 @@ export function LandingHero() {
                                     <svg className="w-4 h-4 text-[var(--landing-green)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
-                                    See your score instantly
+                                    20 min/day is all you need
                                 </span>
                             </p>
                         </div>

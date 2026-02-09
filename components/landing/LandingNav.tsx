@@ -25,6 +25,12 @@ export function LandingNav() {
                     >
                         Modules
                     </Link>
+                    <Link
+                        href="/blog"
+                        className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors hidden sm:block cursor-pointer"
+                    >
+                        Blog
+                    </Link>
                     {!loading && user ? (
                         <Link
                             href="/profile"
@@ -68,6 +74,13 @@ export function LandingNav() {
                             className="text-[var(--landing-navy)]/70 hover:text-[var(--landing-navy)] transition-colors py-2"
                         >
                             Modules
+                        </Link>
+                        <Link
+                            href="/blog"
+                            onClick={() => setMenuOpen(false)}
+                            className="text-[var(--landing-navy)]/70 hover:text-[var(--landing-navy)] transition-colors py-2"
+                        >
+                            Blog
                         </Link>
                         {!loading && user ? (
                             <Link
