@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s | passinburgering",
   },
   description:
-    "Free practice exams for the Dutch inburgering exam — Lezen, Luisteren, KNM, Schrijven & Spreken. Realistic computer-based simulations, built by expats for expats.",
+    "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — updated for 2025 exam changes.",
   keywords: [
     "inburgering exam",
     "inburgeringsexamen",
@@ -49,6 +49,11 @@ export const metadata: Metadata = {
     "Dutch integration test",
     "DUO exam preparation",
     "Netherlands immigration exam",
+    "kennismigrant inburgering",
+    "30% ruling inburgering",
+    "inburgering 2025",
+    "KNM exam 2025",
+    "inburgering permanent residence",
   ],
   icons: {
     icon: "/favicon.png",
@@ -64,7 +69,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
     description:
-      "Free practice exams for all 5 inburgering modules — Lezen, Luisteren, KNM, Schrijven & Spreken. Realistic simulations on a computer, just like the real DUO test.",
+      "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — updated for 2025 exam changes.",
     type: "website",
     url: "https://passinburgering.com",
     siteName: "passinburgering",
@@ -81,7 +86,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
     description:
-      "Free practice exams for all 5 inburgering modules. Realistic simulations, just like the real DUO test.",
+      "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — updated for 2025 exam changes.",
     images: ["/og-image.png"],
   },
 };
@@ -101,7 +106,7 @@ export default function RootLayout({
             name: "passinburgering",
             url: "https://passinburgering.com",
             description:
-              "Free practice exams for the Dutch inburgering exam — Lezen, Luisteren, KNM, Schrijven & Spreken.",
+              "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — updated for 2025 exam changes.",
           }}
         />
         <JsonLd

@@ -109,6 +109,21 @@ const faqItems: FAQItem[] = [
     answer:
       "You can try sample questions from all 5 modules for free, with no account required. Take the quick assessment to see where you stand. Full access to all practice exams, mock exams, and detailed explanations is available with a subscription.",
   },
+  {
+    question: "I'm a kennismigrant / 30% ruling holder. Do I need to inburger?",
+    answer:
+      "No — the 30% ruling exempts you from mandatory inburgering. However, if you want permanent residence (verblijfsvergunning onbepaalde tijd) or Dutch citizenship (naturalisatie), you will need to pass the inburgering exams at A2 level under the Wi2013 framework. Many kennismigranten choose to prepare voluntarily so they're ready when the time comes.",
+  },
+  {
+    question: "What changed about the KNM exam in July 2025?",
+    answer:
+      "The KNM exam was overhauled in July 2025 with updated topics, new question formats, and revised content reflecting recent changes in Dutch society. Our practice materials are updated to cover the new format so you're not studying outdated material.",
+  },
+  {
+    question: "What changed about the Spreken exam in March 2025?",
+    answer:
+      "The Spreken (Speaking) exam format changed in March 2025 with adjusted prompts and evaluation criteria. Our speaking practice exercises reflect the new format, including the updated task types and assessment standards.",
+  },
 ];
 
 const faqSchema = {
