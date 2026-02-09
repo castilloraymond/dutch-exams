@@ -4,6 +4,7 @@ import "./globals.css";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { JsonLd } from "@/components/JsonLd";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -122,6 +123,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} ${outfit.variable} antialiased`}
         suppressHydrationWarning
       >
+        <GoogleAnalytics />
         <AuthProvider>
           {children}
           <FeedbackWidget />
