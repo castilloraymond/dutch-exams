@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllBlogPosts } from "@/lib/blog";
 
 const BASE_URL = "https://passinburgering.com";
 
@@ -103,16 +104,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // Blog pages (placeholder slugs — will be dynamic once blog engine is built)
-  const blogSlugs = [
-    "inburgering-exam-guide-professionals-2026",
-    "knm-exam-2026-new-format",
-    "inburgering-kennismigranten-30-percent-ruling",
-  ];
+  // Blog pages
+  const blogPosts = getAllBlogPosts();
   const blogPages: MetadataRoute.Sitemap = [
     { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
-    ...blogSlugs.map((slug) => ({
-      url: `${BASE_URL}/blog/${slug}`,
+    ...blogPosts.map((post) => ({
+      url: `${BASE_URL}/blog/${post.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.7,
