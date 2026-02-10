@@ -4,23 +4,23 @@ import Link from "next/link";
 
 export function ModuleGrid() {
     const modules = [
-        { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "Supermarket signs to official letters", href: "/learn/lezen" },
-        { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "Announcements & conversations", href: "/learn/luisteren" },
-        { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "Culture, history, values", href: "/learn/knm" },
-        { name: "Schrijven (Writing)", icon: "✍️", status: "live", desc: "Forms and short messages", href: "/learn/schrijven" },
-        { name: "Spreken (Speaking)", icon: "🗣️", status: "live", desc: "Everyday scenarios", href: "/learn/spreken" },
+        { name: "KNM (Dutch Society)", icon: "🏛️", status: "live", desc: "8 topics, 96 questions, 4 mock exams", href: "/learn/knm" },
+        { name: "Lezen (Reading)", icon: "📖", status: "live", desc: "5 passages, 25 questions, 4 mock exams", href: "/learn/lezen" },
+        { name: "Luisteren (Listening)", icon: "🎧", status: "live", desc: "5 exercises, 20 questions, 6 mock exams", href: "/learn/luisteren" },
+        { name: "Schrijven (Writing)", icon: "✍️", status: "live", desc: "4 real-format writing tasks", href: "/learn/schrijven" },
+        { name: "Spreken (Speaking)", icon: "🗣️", status: "live", desc: "4 speaking scenarios (Parts 1–4)", href: "/learn/spreken" },
     ];
 
     return (
         <section className="py-16 pb-8 bg-[var(--landing-cream)]">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <span className="font-sans-landing text-sm font-medium text-[var(--landing-orange)] tracking-wide uppercase">
-                        Everything you need to prepare
-                    </span>
-                    <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mt-3">
-                        Covers all the topics in the Inburgering Exam
+                    <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)]">
+                        All 5 Inburgering Exam Modules
                     </h2>
+                    <p className="font-sans-landing text-[var(--landing-navy)]/60 mt-3">
+                        Complete coverage from day one. No gaps, no surprises on test day.
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

@@ -1,30 +1,20 @@
 export function TrustStats() {
     const stats = [
-        { value: "5,000+", label: "Questions Practiced" },
-        { value: "500+", label: "Practice Exams Taken" },
-        { value: "4.8", label: "User Rating", suffix: "★" },
+        { value: "14", label: "Mock Exams" },
+        { value: "450+", label: "Practice Questions" },
+        { value: "5", label: "Exam Modules" },
+        { value: "2025", label: "Exam Format", prefix: "Updated" },
     ];
 
     return (
-        <section className="py-16 bg-white">
+        <section className="py-12 bg-white">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Section Header */}
-                <div className="text-center mb-12">
-                    <span className="font-sans-landing inline-block text-xs font-medium tracking-wide uppercase text-[var(--landing-orange)] bg-[var(--landing-orange)]/10 px-3 py-1.5 rounded-full mb-4">
-                        Proven Results
-                    </span>
-                    <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)]">
-                        Join Thousands Who Passed
-                    </h2>
-                </div>
-
-                {/* Stats Row */}
-                <div className="grid grid-cols-3 gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     {stats.map((stat, i) => (
                         <div key={i} className="text-center">
                             <div className="font-serif text-3xl md:text-4xl font-bold text-[var(--landing-navy)]">
+                                {stat.prefix && <span className="text-[var(--landing-orange)] text-lg font-sans-landing font-medium block mb-1">{stat.prefix}</span>}
                                 {stat.value}
-                                {stat.suffix && <span className="text-[var(--landing-orange)]">{stat.suffix}</span>}
                             </div>
                             <div className="font-sans-landing text-sm text-[var(--landing-navy)]/60 mt-1">
                                 {stat.label}
@@ -45,7 +35,7 @@ export function TrustedBy() {
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <p className="font-sans-landing text-xs text-[var(--landing-gray,#6B7280)] mb-3 uppercase tracking-wide">
-                        Trusted by expats working at
+                        Used by professionals at
                     </p>
                     <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
                         {companies.map((name) => (

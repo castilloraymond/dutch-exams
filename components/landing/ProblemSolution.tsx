@@ -1,14 +1,14 @@
 export function ProblemSolution() {
     const problems = [
-        "Group classes designed for beginners waste your time when you're already at A2",
-        "Private tutors cost €30–60/hour and require scheduling around your work",
-        "Outdated study materials don't cover the 2025 KNM and Spreken format changes",
+        "Duolingo builds vocabulary, not exam readiness — you can have a 200-day streak and still fail",
+        "Tutors teach conversation, not test-taking strategy — €40/hour with no focus on the actual format",
+        "Failing costs €350, months of delay, and real consequences for your 30% ruling or PR timeline",
     ];
 
     const solutions = [
-        "Exam-focused practice — skip the fluff, practice the actual question types",
-        "Study at midnight, during lunch, or on the train — 20 minutes is enough",
-        "Always up to date — built for the current exam format, not last year's",
+        "Practice on an interface modeled after the DUO computer-based exam — same format, same question types",
+        "14 full-length timed mock exams so nothing on test day surprises you",
+        "Self-paced — study at midnight, on lunch, whenever you have 20 minutes",
     ];
 
     const pairs = problems.map((problem, i) => ({
@@ -26,7 +26,7 @@ export function ProblemSolution() {
                             The Problem
                         </span>
                         <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mt-3 mb-8">
-                            Traditional prep wastes your most valuable resource: time
+                            Knowing Dutch isn't the same as passing the exam
                         </h2>
                         <div className="space-y-5 font-sans-landing">
                             {pairs.map((pair, i) => (
@@ -44,7 +44,7 @@ export function ProblemSolution() {
                             The Solution
                         </span>
                         <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mt-3 mb-8">
-                            Practice on simulations that feel like the real thing
+                            Drill the exact questions and format you'll face on test day
                         </h2>
                         <div className="space-y-5 font-sans-landing">
                             {pairs.map((pair, i) => (

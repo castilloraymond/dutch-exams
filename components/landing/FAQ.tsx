@@ -11,11 +11,11 @@ interface FAQItem {
 const faqs: FAQItem[] = [
     {
         question: "How similar is this to the real DUO exam?",
-        answer: "Our practice exams are designed to mirror the actual DUO computer-based test as closely as possible. Same interface layout, same question types, same timing constraints. Many users report that the real exam feels familiar after practicing with us.",
+        answer: "Our practice exams are modeled after the actual DUO computer-based test. Similar interface layout, same question types, same timing constraints. We study the real exam format closely so your practice feels realistic.",
     },
     {
-        question: "What's included in the free trial?",
-        answer: "You get full access to sample questions from all 5 modules: KNM (Dutch Society), Reading, Listening, Writing, and Speaking. Try as many practice questions as you like to see if our approach works for you.",
+        question: "What's included for free?",
+        answer: "A 10-question assessment across all 5 modules with no signup required — see your readiness score in minutes. Create a free account to access the full question bank, topic drills, and mock exams.",
     },
     {
         question: "Can I practice on my phone?",
@@ -27,7 +27,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "What if I don't pass?",
-        answer: "Everyone learns at their own pace. If you don't pass, you can retake the official exam. Our platform helps you identify weak areas so you can focus your studying. Many users who initially struggled went on to pass after targeted practice.",
+        answer: "Failing means a months-long wait and a €350 retake fee. That's exactly why we built this — to help you pass the first time. Our mock exams and detailed feedback identify your weak areas so you can fix them before test day.",
     },
     {
         question: "I'm on the 30% ruling. Do I need to inburger?",
