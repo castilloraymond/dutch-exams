@@ -4,6 +4,7 @@ import { useState, FormEvent } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/contexts/AuthContext";
+import { validateRedirect } from "@/lib/validate-redirect";
 import { AuthForm } from "./AuthForm";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -31,7 +32,7 @@ export function LoginForm() {
       setError(result.error);
       setLoading(false);
     } else {
-      router.push(redirect && redirect.startsWith("/") ? redirect : "/learn");
+      router.push(validateRedirect(redirect));
     }
   };
 

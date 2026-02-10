@@ -1,4 +1,5 @@
 import { createServerComponentClient } from "@/lib/supabase-server";
+import { validateRedirect } from "@/lib/validate-redirect";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
@@ -20,6 +21,6 @@ export async function GET(request: NextRequest) {
   }
 
   // Redirect to the specified page or default to /learn
-  const redirectPath = redirect && redirect.startsWith("/") ? redirect : "/learn";
+  const redirectPath = validateRedirect(redirect);
   return NextResponse.redirect(new URL(redirectPath, request.url));
 }

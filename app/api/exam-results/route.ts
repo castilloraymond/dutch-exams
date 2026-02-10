@@ -1,4 +1,5 @@
 import { createServerComponentClient } from "@/lib/supabase-server";
+import { rateLimit } from "@/lib/rate-limit";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(request: NextRequest) {
@@ -36,10 +37,32 @@ export async function POST(request: NextRequest) {
       answerData,
     } = body;
 
+    // Rate limit: 50 requests per hour per user
+    const { allowed, retryAfterMs } = rateLimit(`exam-results:${user.id}`, 50, 60 * 60 * 1000);
+    if (!allowed) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(Math.ceil(retryAfterMs / 1000)) } }
+      );
+    }
+
     // Validate required fields
     if (!examId || !module || !difficulty || score === undefined || !totalQuestions || timeTakenSeconds === undefined) {
       return NextResponse.json(
         { error: "Missing required fields" },
+        { status: 400 }
+      );
+    }
+
+    // Validate score values
+    if (
+      !Number.isInteger(score) || score < 0 ||
+      !Number.isInteger(totalQuestions) || totalQuestions < 1 ||
+      score > totalQuestions ||
+      typeof timeTakenSeconds !== "number" || timeTakenSeconds < 0
+    ) {
+      return NextResponse.json(
+        { error: "Invalid score values" },
         { status: 400 }
       );
     }

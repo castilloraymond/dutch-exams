@@ -10,6 +10,7 @@ import {
   ReactNode,
 } from "react";
 import { createClient } from "@/lib/supabase-browser";
+import { validateRedirect } from "@/lib/validate-redirect";
 import type { User, Session, AuthChangeEvent } from "@supabase/supabase-js";
 
 interface AuthResult {
@@ -70,8 +71,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       console.warn("Supabase not configured. Authentication is disabled.");
       return;
     }
-    const callbackUrl = redirectTo
-      ? `${window.location.origin}/auth/callback?redirect=${encodeURIComponent(redirectTo)}`
+    const safeRedirect = redirectTo ? validateRedirect(redirectTo) : null;
+    const callbackUrl = safeRedirect
+      ? `${window.location.origin}/auth/callback?redirect=${encodeURIComponent(safeRedirect)}`
       : `${window.location.origin}/auth/callback`;
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
@@ -89,8 +91,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (!supabase) {
       return { error: "Authentication is not configured." };
     }
-    const callbackUrl = redirectTo
-      ? `${window.location.origin}/auth/callback?redirect=${encodeURIComponent(redirectTo)}`
+    const safeRedirect = redirectTo ? validateRedirect(redirectTo) : null;
+    const callbackUrl = safeRedirect
+      ? `${window.location.origin}/auth/callback?redirect=${encodeURIComponent(safeRedirect)}`
       : `${window.location.origin}/auth/callback`;
     const { error } = await supabase.auth.signUp({
       email,

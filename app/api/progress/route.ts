@@ -1,24 +1,49 @@
+import { createServerComponentClient } from "@/lib/supabase-server";
+import { rateLimit } from "@/lib/rate-limit";
 import { NextRequest, NextResponse } from "next/server";
-import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 import type { UserProgress } from "@/lib/types";
 
 export async function POST(request: NextRequest) {
-  if (!isSupabaseConfigured() || !supabase) {
-    return NextResponse.json(
-      { error: "Supabase not configured" },
-      { status: 503 }
-    );
-  }
-
   try {
-    const { email, progress } = (await request.json()) as {
-      email: string;
+    const supabase = await createServerComponentClient();
+
+    if (!supabase) {
+      return NextResponse.json(
+        { error: "Authentication not configured" },
+        { status: 503 }
+      );
+    }
+
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser();
+
+    if (authError || !user) {
+      return NextResponse.json(
+        { error: "Unauthorized" },
+        { status: 401 }
+      );
+    }
+
+    const email = user.email!;
+
+    // Rate limit: 30 requests per 15 minutes per user
+    const { allowed, retryAfterMs } = rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
+    if (!allowed) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(Math.ceil(retryAfterMs / 1000)) } }
+      );
+    }
+
+    const { progress } = (await request.json()) as {
       progress: UserProgress;
     };
 
-    if (!email || !progress) {
+    if (!progress) {
       return NextResponse.json(
-        { error: "Email and progress are required" },
+        { error: "Progress data is required" },
         { status: 400 }
       );
     }
@@ -56,22 +81,38 @@ export async function POST(request: NextRequest) {
   }
 }
 
-export async function GET(request: NextRequest) {
-  if (!isSupabaseConfigured() || !supabase) {
-    return NextResponse.json(
-      { error: "Supabase not configured" },
-      { status: 503 }
-    );
-  }
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export async function GET(_request: NextRequest) {
   try {
-    const { searchParams } = new URL(request.url);
-    const email = searchParams.get("email");
+    const supabase = await createServerComponentClient();
 
-    if (!email) {
+    if (!supabase) {
       return NextResponse.json(
-        { error: "Email is required" },
-        { status: 400 }
+        { error: "Authentication not configured" },
+        { status: 503 }
+      );
+    }
+
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser();
+
+    if (authError || !user) {
+      return NextResponse.json(
+        { error: "Unauthorized" },
+        { status: 401 }
+      );
+    }
+
+    const email = user.email!;
+
+    // Rate limit: 30 requests per 15 minutes per user
+    const { allowed, retryAfterMs } = rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
+    if (!allowed) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(Math.ceil(retryAfterMs / 1000)) } }
       );
     }
 
