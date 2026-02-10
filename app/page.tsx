@@ -6,7 +6,6 @@ import {
   TrustStats,
   TrustedBy,
   ProblemSolution,
-  FeatureCards,
   WhyUs,
   ModuleGrid,
   Testimonials,
@@ -51,7 +50,6 @@ export default function Home() {
       <TrustedBy />
       <TrustStats />
       <ProblemSolution />
-      <FeatureCards />
       <WhyUs />
 
       <div id="modules">
