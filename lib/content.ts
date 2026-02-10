@@ -20,11 +20,11 @@ import type {
 
 // Lezen (Reading) content
 import contentIndex from "@/content/index.json";
-import deSupermarkt from "@/content/passages/de-supermarkt.json";
-import opHetStation from "@/content/passages/op-het-station.json";
-import bijDeDokter from "@/content/passages/bij-de-dokter.json";
-import eenBrief from "@/content/passages/een-brief.json";
-import deBuurt from "@/content/passages/de-buurt.json";
+import tipsOmGoedTeLeren from "@/content/passages/tips-om-goed-te-leren.json";
+import briefVanDeGemeente from "@/content/passages/brief-van-de-gemeente.json";
+import advertentieCursusNederlands from "@/content/passages/advertentie-cursus-nederlands.json";
+import artikelFietsenInNederland from "@/content/passages/artikel-fietsen-in-nederland.json";
+import huisregelsAppartementencomplex from "@/content/passages/huisregels-appartementencomplex.json";
 import openingstijdenWinkelcentrum from "@/content/passages/openingstijden-winkelcentrum.json";
 import uitnodigingVerjaardagsfeest from "@/content/passages/uitnodiging-verjaardagsfeest.json";
 import roosterTaallessen from "@/content/passages/rooster-taallessen.json";
@@ -109,11 +109,11 @@ import part3Transport from "@/content/spreken/tasks/part3-transport.json";
 import part4Kitchen from "@/content/spreken/tasks/part4-kitchen.json";
 
 const passages: Record<string, Passage> = {
-  "tips-om-goed-te-leren": deSupermarkt as unknown as Passage,
-  "brief-van-de-gemeente": opHetStation as unknown as Passage,
-  "advertentie-cursus-nederlands": bijDeDokter as unknown as Passage,
-  "artikel-fietsen-in-nederland": eenBrief as unknown as Passage,
-  "huisregels-appartementencomplex": deBuurt as unknown as Passage,
+  "tips-om-goed-te-leren": tipsOmGoedTeLeren as unknown as Passage,
+  "brief-van-de-gemeente": briefVanDeGemeente as unknown as Passage,
+  "advertentie-cursus-nederlands": advertentieCursusNederlands as unknown as Passage,
+  "artikel-fietsen-in-nederland": artikelFietsenInNederland as unknown as Passage,
+  "huisregels-appartementencomplex": huisregelsAppartementencomplex as unknown as Passage,
   "openingstijden-winkelcentrum": openingstijdenWinkelcentrum as unknown as Passage,
   "uitnodiging-verjaardagsfeest": uitnodigingVerjaardagsfeest as unknown as Passage,
   "rooster-taallessen": roosterTaallessen as unknown as Passage,
