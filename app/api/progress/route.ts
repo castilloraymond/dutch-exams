@@ -26,7 +26,11 @@ export async function POST(request: NextRequest) {
     const { error } = await supabase.from("user_progress").upsert(
       {
         email,
-        progress_data: progress.passageProgress,
+        progress_data: {
+          passageProgress: progress.passageProgress || {},
+          writingProgress: progress.writingProgress || {},
+          speakingProgress: progress.speakingProgress || {},
+        },
         updated_at: new Date().toISOString(),
       },
       {
@@ -89,9 +93,12 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    const progressData = data.progress_data;
     return NextResponse.json({
       progress: {
-        passageProgress: data.progress_data,
+        passageProgress: progressData.passageProgress ?? progressData,
+        writingProgress: progressData.writingProgress ?? {},
+        speakingProgress: progressData.speakingProgress ?? {},
         email,
       },
     });

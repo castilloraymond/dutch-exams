@@ -73,20 +73,26 @@ export function useProgress() {
     });
   }, []);
 
-  const syncToCloud = useCallback(async (email: string) => {
+  const syncToCloud = useCallback(async (email: string): Promise<boolean> => {
+    let updatedProgress: UserProgress | null = null;
     setProgress((prev) => {
       const updated = { ...prev, email };
       saveProgress(updated);
-
-      // Fire and forget the API call, but await in the callback
-      fetch("/api/progress", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, progress: updated }),
-      }).catch(console.error);
-
+      updatedProgress = updated;
       return updated;
     });
+
+    try {
+      await fetch("/api/progress", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, progress: updatedProgress }),
+      });
+      return true;
+    } catch (error) {
+      console.error("Failed to sync to cloud:", error);
+      return false;
+    }
   }, []);
 
   const loadFromCloud = useCallback(async (email: string) => {

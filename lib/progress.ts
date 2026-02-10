@@ -55,6 +55,7 @@ export function updatePassageProgress(
     completed: false,
     questionsAnswered: [],
     correctAnswers: 0,
+    correctQuestions: [],
     totalQuestions,
     lastAttempt: new Date().toISOString(),
   };
@@ -63,10 +64,18 @@ export function updatePassageProgress(
     ? existing.questionsAnswered
     : [...existing.questionsAnswered, questionId];
 
-  const correctAnswers = existing.questionsAnswered.includes(questionId)
-    ? existing.correctAnswers
-    : existing.correctAnswers + (isCorrect ? 1 : 0);
+  // Track which questions are currently correct (supports retakes)
+  const prevCorrectQuestions = existing.correctQuestions || [];
+  let correctQuestions: string[];
+  if (isCorrect) {
+    correctQuestions = prevCorrectQuestions.includes(questionId)
+      ? prevCorrectQuestions
+      : [...prevCorrectQuestions, questionId];
+  } else {
+    correctQuestions = prevCorrectQuestions.filter((id) => id !== questionId);
+  }
 
+  const correctAnswers = correctQuestions.length;
   const completed = questionsAnswered.length >= totalQuestions;
 
   return {
@@ -77,6 +86,7 @@ export function updatePassageProgress(
         completed,
         questionsAnswered,
         correctAnswers,
+        correctQuestions,
         totalQuestions,
         lastAttempt: new Date().toISOString(),
       },

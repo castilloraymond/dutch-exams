@@ -36,6 +36,7 @@ export interface PassageProgress {
   completed: boolean;
   questionsAnswered: string[];
   correctAnswers: number;
+  correctQuestions?: string[];
   totalQuestions: number;
   lastAttempt: string;
 }
