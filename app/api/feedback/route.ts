@@ -1,16 +1,42 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
+import { rateLimit } from "@/lib/rate-limit";
 
 export async function POST(request: NextRequest) {
     try {
+        // Rate limit: 10 requests per 15 minutes per IP
+        const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+        const { allowed, retryAfterMs } = rateLimit(`feedback:${ip}`, 10, 15 * 60 * 1000);
+        if (!allowed) {
+            return NextResponse.json(
+                { error: "Too many requests. Please try again later." },
+                { status: 429, headers: { "Retry-After": String(Math.ceil(retryAfterMs / 1000)) } }
+            );
+        }
+
         const body = await request.json();
-        const { description, page_url, feedback_type, email, user_agent, screen_size } = body;
+        const { page_url, feedback_type } = body;
+        let { description, email, user_agent, screen_size } = body;
 
         if (!description || typeof description !== "string" || !description.trim()) {
             return NextResponse.json(
                 { error: "Description is required" },
                 { status: 400 }
             );
+        }
+
+        // Sanitize inputs
+        description = description.slice(0, 5000);
+        if (email && typeof email === "string") {
+            email = email.slice(0, 254);
+        }
+        if (user_agent && typeof user_agent === "string") {
+            user_agent = user_agent.replace(/[\x00-\x1f]/g, "").slice(0, 500);
+        }
+        if (screen_size && typeof screen_size === "string") {
+            if (!/^\d{1,5}x\d{1,5}$/.test(screen_size)) {
+                screen_size = null;
+            }
         }
 
         if (!isSupabaseConfigured() || !supabase) {

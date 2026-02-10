@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import DOMPurify from "isomorphic-dompurify";
 
 const BLOG_DIR = path.join(process.cwd(), "content/blog");
 
@@ -40,7 +41,14 @@ export function getBlogPost(slug: string): BlogPost | null {
     if (data.slug === slug) {
       return {
         ...(data as BlogPostMeta),
-        content: marked(content) as string,
+        content: DOMPurify.sanitize(marked(content) as string, {
+          ALLOWED_TAGS: [
+            "h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "ul", "ol", "li",
+            "blockquote", "code", "pre", "em", "strong", "br", "hr", "img",
+            "table", "thead", "tbody", "tr", "th", "td", "del", "sup", "sub",
+          ],
+          ALLOWED_ATTR: ["href", "src", "alt", "title", "class", "id"],
+        }),
       };
     }
   }

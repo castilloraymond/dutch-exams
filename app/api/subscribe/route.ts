@@ -1,8 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
+import { rateLimit } from "@/lib/rate-limit";
 
 export async function POST(request: NextRequest) {
     try {
+        // Rate limit: 5 requests per hour per IP
+        const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+        const { allowed, retryAfterMs } = rateLimit(`subscribe:${ip}`, 5, 60 * 60 * 1000);
+        if (!allowed) {
+            return NextResponse.json(
+                { error: "Too many requests. Please try again later." },
+                { status: 429, headers: { "Retry-After": String(Math.ceil(retryAfterMs / 1000)) } }
+            );
+        }
+
         const body = await request.json();
         const { email } = body;
 
@@ -14,8 +25,16 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // Basic email format validation
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        // Max length per RFC 5321
+        if (email.length > 254) {
+            return NextResponse.json(
+                { error: "Invalid email format" },
+                { status: 400 }
+            );
+        }
+
+        // HTML5 spec-aligned email validation
+        const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
         if (!emailRegex.test(email)) {
             return NextResponse.json(
                 { error: "Invalid email format" },
