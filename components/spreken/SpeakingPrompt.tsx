@@ -48,16 +48,16 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
     return (
       <div className={`space-y-4 ${compact ? "space-y-3" : ""}`}>
         {/* Person statement */}
-        <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
+        <div className="landing-card p-4 bg-[var(--ink)]/5">
           <div className="flex items-start gap-3">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--landing-orange)]/20 flex items-center justify-center">
-              <User className="h-5 w-5 text-[var(--landing-orange)]" />
+            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center">
+              <User className="h-5 w-5 text-[var(--accent)]" />
             </div>
             <div className="flex-1">
-              <p className="text-[var(--landing-navy)] font-medium">
+              <p className="text-[var(--ink)] font-medium">
                 {personStatementNl}
               </p>
-              <p className="text-sm text-[var(--landing-navy)]/60 mt-1">
+              <p className="text-sm text-[var(--ink)]/60 mt-1">
                 {personStatement}
               </p>
             </div>
@@ -65,8 +65,8 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
               onClick={playTTS}
               className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
                 isPlaying
-                  ? "bg-[var(--landing-orange)] text-white"
-                  : "bg-[var(--landing-orange)]/10 text-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/20"
+                  ? "bg-[var(--accent)] text-white"
+                  : "bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20"
               }`}
               aria-label={isPlaying ? "Stop audio" : "Play audio"}
             >
@@ -77,18 +77,18 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
 
         {/* Question */}
         <div className={compact ? "" : "pt-2"}>
-          <h2 className="font-bold text-[var(--landing-navy)] mb-1">
+          <h2 className="font-bold text-[var(--ink)] mb-1">
             {questionNl}
           </h2>
-          <p className="text-sm text-[var(--landing-navy)]/60">
+          <p className="text-sm text-[var(--ink)]/60">
             {questionEn}
           </p>
           {questionParts && (
-            <div className="mt-3 p-3 bg-[var(--landing-orange)]/10 rounded-lg">
-              <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
+            <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
+              <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
                 Beantwoord beide delen:
               </p>
-              <ul className="text-sm text-[var(--landing-navy)] space-y-1">
+              <ul className="text-sm text-[var(--ink)] space-y-1">
                 {questionParts.map((part, idx) => (
                   <li key={idx}>
                     {idx + 1}. {part}
@@ -122,16 +122,16 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
             if (isPlaceholder) {
               return (
                 <div key={image.id} className="relative">
-                  <div className="aspect-square rounded-lg border-2 border-dashed border-[var(--landing-navy)]/20 bg-[var(--landing-navy)]/5 flex flex-col items-center justify-center p-4 text-center">
-                    <p className="text-sm font-medium text-[var(--landing-navy)]/80 mb-1">
+                  <div className="aspect-square rounded-lg border-2 border-dashed border-[var(--ink)]/20 bg-[var(--ink)]/5 flex flex-col items-center justify-center p-4 text-center">
+                    <p className="text-sm font-medium text-[var(--ink)]/80 mb-1">
                       {image.altNl}
                     </p>
-                    <p className="text-xs text-[var(--landing-navy)]/50">
+                    <p className="text-xs text-[var(--ink)]/50">
                       {image.alt}
                     </p>
                   </div>
                   {image.label && (
-                    <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--landing-navy)]">
+                    <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--ink)]">
                       {image.label}
                     </div>
                   )}
@@ -157,7 +157,7 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
                   </div>
                 </div>
                 {image.label && (
-                  <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--landing-navy)]">
+                  <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--ink)]">
                     {image.label}
                   </div>
                 )}
@@ -169,18 +169,18 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
 
       {/* Question */}
       <div className={compact ? "" : "pt-2"}>
-        <h2 className="font-bold text-[var(--landing-navy)] mb-1">
+        <h2 className="font-bold text-[var(--ink)] mb-1">
           {questionNl}
         </h2>
-        <p className="text-sm text-[var(--landing-navy)]/60">
+        <p className="text-sm text-[var(--ink)]/60">
           {questionEn}
         </p>
         {questionParts && (
-          <div className="mt-3 p-3 bg-[var(--landing-orange)]/10 rounded-lg">
-            <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
+          <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
+            <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
               Beantwoord beide delen:
             </p>
-            <ul className="text-sm text-[var(--landing-navy)] space-y-1">
+            <ul className="text-sm text-[var(--ink)] space-y-1">
               {questionParts.map((part, idx) => (
                 <li key={idx}>
                   {idx + 1}. {part}

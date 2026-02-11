@@ -58,35 +58,35 @@ export function ResultsSummary({
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center p-4 bg-[var(--landing-cream)]">
+    <div className="min-h-screen flex flex-col items-center p-4 bg-[var(--cream)]">
       <div className="landing-card w-full max-w-2xl p-6 sm:p-8 text-center space-y-6">
         <div className="mx-auto mb-4 text-7xl">
           {isPassing ? "🎉" : "💪"}
         </div>
 
-        <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)]">
+        <h2 className="text-2xl font-bold text-[var(--ink)]">
           {isPassing ? "Congratulations!" : "Keep practicing!"}
         </h2>
 
-        <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
+        <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
           Exam Result
         </span>
 
         <div>
-          <p className="text-4xl font-bold text-[var(--landing-navy)] mb-2">
+          <p className="text-4xl font-bold text-[var(--ink)] mb-2">
             {correctAnswers} / {totalQuestions}
           </p>
-          <p className="text-[var(--landing-navy)]/60">
+          <p className="text-[var(--ink)]/60">
             {percentage}% correct on &ldquo;{title}&rdquo;
           </p>
           {elapsedTime !== undefined && (
-            <p className="text-sm text-[var(--landing-navy)]/50 mt-1">
+            <p className="text-sm text-[var(--ink)]/50 mt-1">
               Time: {formatTime(elapsedTime)}
             </p>
           )}
           <p
             className={`mt-2 text-sm font-semibold ${
-              isPassing ? "text-[var(--landing-green)]" : "text-[var(--landing-red)]"
+              isPassing ? "text-[var(--green)]" : "text-[#ef4444]"
             }`}
           >
             {isPassing ? "PASSED" : "NOT PASSED"}
@@ -96,7 +96,7 @@ export function ResultsSummary({
         <div className="space-y-3 pt-2">
           <button
             onClick={onRetry}
-            className="w-full py-3 px-4 rounded-lg border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] font-medium hover:border-[var(--landing-navy)]/40 transition-colors flex items-center justify-center gap-2 cursor-pointer"
+            className="w-full py-3 px-4 rounded-lg border-2 border-[var(--ink)]/20 text-[var(--ink)] font-medium hover:border-[var(--ink)]/40 transition-colors flex items-center justify-center gap-2 cursor-pointer"
           >
             <RotateCcw className="h-4 w-4" />
             Try Again
@@ -114,10 +114,10 @@ export function ResultsSummary({
       {suggestedExams.length > 0 && !allModulesCompleted && (
         <div className="w-full max-w-2xl mt-6">
           <div className="landing-card p-6">
-            <h3 className="font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="font-semibold text-[var(--ink)] mb-4">
               Continue Practicing
             </h3>
-            <p className="text-sm text-[var(--landing-navy)]/60 mb-4">
+            <p className="text-sm text-[var(--ink)]/60 mb-4">
               Try these exams to prepare:
             </p>
             <div className="space-y-3">
@@ -127,20 +127,20 @@ export function ResultsSummary({
                   <Link
                     key={exam.id}
                     href={exam.href}
-                    className="flex items-center gap-4 p-4 rounded-lg border border-[var(--landing-navy)]/10 hover:border-[var(--landing-orange)]/50 hover:bg-[var(--landing-orange)]/5 transition-colors cursor-pointer"
+                    className="flex items-center gap-4 p-4 rounded-lg border border-[var(--ink)]/10 hover:border-[var(--accent)]/50 hover:bg-[var(--accent)]/5 transition-colors cursor-pointer"
                   >
-                    <div className="w-10 h-10 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center flex-shrink-0">
-                      <Icon className="h-5 w-5 text-[var(--landing-orange)]" />
+                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center flex-shrink-0">
+                      <Icon className="h-5 w-5 text-[var(--accent)]" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="font-medium text-[var(--landing-navy)] truncate">
+                      <p className="font-medium text-[var(--ink)] truncate">
                         {exam.title}
                       </p>
-                      <p className="text-xs text-[var(--landing-navy)]/50">
+                      <p className="text-xs text-[var(--ink)]/50">
                         {exam.difficulty} level
                       </p>
                     </div>
-                    <ArrowRight className="h-4 w-4 text-[var(--landing-navy)]/40" />
+                    <ArrowRight className="h-4 w-4 text-[var(--ink)]/40" />
                   </Link>
                 );
               })}
@@ -152,16 +152,16 @@ export function ResultsSummary({
       {/* All Completed - Congratulations */}
       {allModulesCompleted && (
         <div className="w-full max-w-2xl mt-6">
-          <div className="landing-card p-6 bg-gradient-to-br from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10 border-2 border-[var(--landing-orange)]/20">
+          <div className="landing-card p-6 bg-gradient-to-br from-[var(--accent)]/5 to-[var(--accent)]/10 border-2 border-[var(--accent)]/20">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-[var(--landing-orange)] flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0">
                 <Crown className="h-6 w-6 text-white" />
               </div>
               <div className="flex-1">
-                <h3 className="font-bold text-[var(--landing-navy)] text-lg mb-2">
+                <h3 className="font-bold text-[var(--ink)] text-lg mb-2">
                   Congratulations! You completed all available exams!
                 </h3>
-                <p className="text-sm text-[var(--landing-navy)]/70 mb-4">
+                <p className="text-sm text-[var(--ink)]/70 mb-4">
                   More practice exams are coming soon. Have questions or feedback?
                 </p>
                 <Link href="/contact" className="cta-primary py-3 px-6 cursor-pointer inline-flex items-center gap-2">
@@ -179,15 +179,15 @@ export function ResultsSummary({
         <div className="w-full max-w-2xl mt-6">
           <button
             onClick={() => setShowReview(!showReview)}
-            className="w-full landing-card p-4 flex items-center justify-between text-left hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
+            className="w-full landing-card p-4 flex items-center justify-between text-left hover:bg-[var(--ink)]/5 transition-colors cursor-pointer"
           >
-            <span className="font-semibold text-[var(--landing-navy)]">
+            <span className="font-semibold text-[var(--ink)]">
               Review Your Answers
             </span>
             {showReview ? (
-              <ChevronUp className="h-5 w-5 text-[var(--landing-navy)]/60" />
+              <ChevronUp className="h-5 w-5 text-[var(--ink)]/60" />
             ) : (
-              <ChevronDown className="h-5 w-5 text-[var(--landing-navy)]/60" />
+              <ChevronDown className="h-5 w-5 text-[var(--ink)]/60" />
             )}
           </button>
 
@@ -203,54 +203,54 @@ export function ResultsSummary({
                     className={cn(
                       "landing-card p-4 border-l-4",
                       isCorrect
-                        ? "border-l-[var(--landing-green)]"
-                        : "border-l-[var(--landing-red)]"
+                        ? "border-l-[var(--green)]"
+                        : "border-l-[#ef4444]"
                     )}
                   >
                     <div className="flex items-start gap-3 mb-3">
-                      <span className="text-sm font-medium text-[var(--landing-navy)]/60">
+                      <span className="text-sm font-medium text-[var(--ink)]/60">
                         {idx + 1}.
                       </span>
-                      <p className="flex-1 text-[var(--landing-navy)] font-medium">
+                      <p className="flex-1 text-[var(--ink)] font-medium">
                         {record.questionText}
                       </p>
                       {isCorrect ? (
-                        <CheckCircle2 className="h-5 w-5 text-[var(--landing-green)] flex-shrink-0" />
+                        <CheckCircle2 className="h-5 w-5 text-[var(--green)] flex-shrink-0" />
                       ) : (
-                        <XCircle className="h-5 w-5 text-[var(--landing-red)] flex-shrink-0" />
+                        <XCircle className="h-5 w-5 text-[#ef4444] flex-shrink-0" />
                       )}
                     </div>
 
                     <div className="ml-6 space-y-2 text-sm">
                       {hasAnswer ? (
                         <p>
-                          <span className="text-[var(--landing-navy)]/60">Your answer: </span>
+                          <span className="text-[var(--ink)]/60">Your answer: </span>
                           <span
                             className={cn(
                               "font-medium",
-                              isCorrect ? "text-[var(--landing-green)]" : "text-[var(--landing-red)]"
+                              isCorrect ? "text-[var(--green)]" : "text-[#ef4444]"
                             )}
                           >
                             {LABELS[record.userAnswer!]}. {record.options[record.userAnswer!]}
                           </span>
                         </p>
                       ) : (
-                        <p className="text-[var(--landing-red)]">
+                        <p className="text-[#ef4444]">
                           Not answered
                         </p>
                       )}
 
                       {!isCorrect && (
                         <p>
-                          <span className="text-[var(--landing-navy)]/60">Correct answer: </span>
-                          <span className="font-medium text-[var(--landing-green)]">
+                          <span className="text-[var(--ink)]/60">Correct answer: </span>
+                          <span className="font-medium text-[var(--green)]">
                             {LABELS[record.correctAnswer]}. {record.options[record.correctAnswer]}
                           </span>
                         </p>
                       )}
 
                       {record.explanation && (
-                        <p className="text-[var(--landing-navy)]/70 mt-2 pt-2 border-t border-[var(--landing-navy)]/10">
+                        <p className="text-[var(--ink)]/70 mt-2 pt-2 border-t border-[var(--ink)]/10">
                           <span className="font-medium">Explanation: </span>
                           {record.explanation}
                         </p>

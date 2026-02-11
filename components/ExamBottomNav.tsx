@@ -28,7 +28,7 @@ export function ExamBottomNav({
   const isLast = currentIndex === totalQuestions - 1;
 
   return (
-    <div className="sticky bottom-0 z-10 bg-white border-t border-[var(--landing-navy)]/10 px-4 py-3">
+    <div className="sticky bottom-0 z-10 bg-white border-t border-[var(--ink)]/10 px-4 py-3">
       <div className="container mx-auto flex items-center justify-between max-w-4xl">
         {/* Previous button */}
         <button
@@ -37,8 +37,8 @@ export function ExamBottomNav({
           className={cn(
             "flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm transition-colors",
             isFirst
-              ? "text-[var(--landing-navy)]/30 cursor-not-allowed"
-              : "text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 cursor-pointer"
+              ? "text-[var(--ink)]/30 cursor-not-allowed"
+              : "text-[var(--ink)] hover:bg-[var(--ink)]/5 cursor-pointer"
           )}
         >
           <ChevronLeft className="h-4 w-4" />
@@ -49,7 +49,7 @@ export function ExamBottomNav({
         <div className="flex items-center gap-3">
           <button
             onClick={onOpenGrid}
-            className="p-2 rounded-lg text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
+            className="p-2 rounded-lg text-[var(--ink)] hover:bg-[var(--ink)]/5 transition-colors cursor-pointer"
             title="Question overview"
           >
             <Grid3X3 className="h-5 w-5" />
@@ -60,8 +60,8 @@ export function ExamBottomNav({
             className={cn(
               "p-2 rounded-lg transition-colors cursor-pointer",
               isBookmarked
-                ? "text-[var(--landing-orange)] bg-[var(--landing-orange)]/10"
-                : "text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5"
+                ? "text-[var(--accent)] bg-[var(--accent)]/10"
+                : "text-[var(--ink)] hover:bg-[var(--ink)]/5"
             )}
             title={isBookmarked ? "Remove bookmark" : "Bookmark question"}
           >
@@ -75,21 +75,21 @@ export function ExamBottomNav({
 
         {/* Next/Submit button + Progress */}
         <div className="flex items-center gap-3">
-          <span className="text-sm text-[var(--landing-navy)]/60 hidden sm:inline">
+          <span className="text-sm text-[var(--ink)]/60 hidden sm:inline">
             {currentIndex + 1} / {totalQuestions}
           </span>
 
           {isLast ? (
             <button
               onClick={onSubmit}
-              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm bg-[var(--landing-orange)] text-white hover:bg-[var(--landing-orange)]/90 transition-colors cursor-pointer"
+              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm bg-[var(--accent)] text-white hover:bg-[var(--accent)]/90 transition-colors cursor-pointer"
             >
               <span>INDIENEN</span>
             </button>
           ) : (
             <button
               onClick={onNext}
-              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm text-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
+              className="flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm text-[var(--ink)] hover:bg-[var(--ink)]/5 transition-colors cursor-pointer"
             >
               <span className="hidden sm:inline">VOLGENDE</span>
               <ChevronRight className="h-4 w-4" />

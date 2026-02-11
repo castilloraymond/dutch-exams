@@ -1,38 +1,32 @@
 "use client";
 
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
 export function FinalCTA() {
     const { user } = useAuth();
 
     return (
-        <section className="py-20 bg-gradient-to-b from-[var(--landing-navy)] to-[#0F1D33]">
-            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
-                    Walk into your exam fully prepared.
-                </h2>
-                <p className="font-sans-landing text-white/60 mb-10">
-                    14 mock exams. 450+ questions. All 5 modules. Try it free — no signup required.
-                </p>
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    {user ? (
-                        <Link
-                            href="/learn"
-                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing cursor-pointer"
-                        >
-                            Continue to Practice
-                        </Link>
-                    ) : (
-                        <Link
-                            href="/try"
-                            className="cta-primary px-8 py-4 text-white rounded-full font-medium font-sans-landing cursor-pointer"
-                        >
-                            Take a Free Exam
-                        </Link>
-                    )}
-                </div>
-            </div>
+        <section className="py-[120px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
+            {/* Subtle radial accent gradient */}
+            <div className="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(232,99,43,0.12)_0%,transparent_70%)] pointer-events-none" />
+
+            {/* PLACEHOLDER — stat */}
+            <h2 className="text-[clamp(2.2rem,3.5vw,3rem)] leading-[1.2] text-white tracking-[-0.03em] mb-5 font-extrabold relative">
+                Your inburgering deadline<br />isn&apos;t getting further away
+            </h2>
+            <p className="text-white/60 text-[1.1rem] max-w-[500px] mx-auto mb-10 leading-[1.7] relative">
+                {/* PLACEHOLDER */}
+                Join 2,400+ expats who stopped procrastinating and started passing. Your first practice test is free.
+            </p>
+            <Link
+                href={user ? "/learn" : "/try"}
+                className="cta-primary inline-flex items-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
+            >
+                {user ? "Continue practicing" : "Start free practice test"}
+                <ArrowRight className="h-4 w-4" />
+            </Link>
         </section>
     );
 }

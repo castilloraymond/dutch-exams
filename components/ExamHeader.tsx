@@ -29,7 +29,7 @@ export function ExamHeader({ title, startTime }: ExamHeaderProps) {
   return (
     <header className="sticky top-0 z-10 bg-[#1e3a5f] text-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <h1 className="text-base font-semibold truncate font-sans-landing">{title}</h1>
+        <h1 className="text-base font-semibold truncate">{title}</h1>
         <div className="flex items-center gap-1.5 text-white/80">
           <Clock className="h-4 w-4" />
           <span className="font-mono">{minutes}:{seconds}</span>

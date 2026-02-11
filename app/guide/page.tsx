@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function GuidePage() {
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -36,16 +36,16 @@ export default function GuidePage() {
         }}
       />
 
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+            <h1 className="text-xl font-bold text-[var(--ink)]">
               Exam Guide
             </h1>
           </div>
@@ -54,19 +54,19 @@ export default function GuidePage() {
 
       <article className="flex-1 container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mb-2">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[var(--ink)] mb-2">
             The Complete Guide to the Dutch Inburgering Exam
           </h2>
-          <p className="font-sans-landing text-[var(--landing-navy)]/50 mb-8">
+          <p className="text-[var(--ink)]/50 mb-8">
             Updated for 2026
           </p>
 
           {/* Table of contents */}
           <nav className="landing-card p-6 mb-10">
-            <h3 className="font-sans-landing font-semibold text-[var(--landing-navy)] mb-3">
+            <h3 className="font-semibold text-[var(--ink)] mb-3">
               In this guide
             </h3>
-            <ul className="space-y-2 font-sans-landing text-[var(--landing-orange)]">
+            <ul className="space-y-2 text-[var(--accent)]">
               <li><a href="#what-is-it" className="hover:underline">What is the inburgering exam?</a></li>
               <li><a href="#who-needs-it" className="hover:underline">Who needs to take it?</a></li>
               <li><a href="#five-modules" className="hover:underline">The 5 exam modules explained</a></li>
@@ -80,10 +80,10 @@ export default function GuidePage() {
 
           {/* What is it */}
           <section id="what-is-it" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               What is the inburgering exam?
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 The inburgering exam (inburgeringsexamen) is the Dutch civic integration exam. It is a mandatory
                 requirement for most non-EU immigrants who want to settle permanently in the Netherlands or apply
@@ -104,10 +104,10 @@ export default function GuidePage() {
 
           {/* Who needs it */}
           <section id="who-needs-it" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Who needs to take the inburgering exam?
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 Most non-EU/EEA nationals between 18 and 67 who have received a residence permit in the Netherlands
                 are required to pass the inburgering exam. This includes:
@@ -128,27 +128,27 @@ export default function GuidePage() {
 
           {/* Five modules */}
           <section id="five-modules" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               The 5 exam modules explained
             </h3>
             <div className="space-y-6">
               {/* Lezen */}
               <div className="landing-card p-6">
-                <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-2">
+                <h4 className="font-semibold text-[var(--ink)] text-lg mb-2">
                   1. Lezen (Reading)
                 </h4>
-                <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-3">
+                <p className="text-[var(--ink)]/70 leading-relaxed mb-3">
                   The reading module tests your ability to understand written Dutch. You will read short texts
                   like signs, letters, advertisements, and articles, then answer multiple-choice questions about
                   what you read. Topics cover everyday situations: a letter from the municipality, a doctor&apos;s
                   appointment confirmation, or rules for an apartment building.
                 </p>
-                <p className="font-sans-landing text-[var(--landing-navy)]/50 text-sm">
+                <p className="text-[var(--ink)]/50 text-sm">
                   Duration: ~35 minutes &bull; Format: Multiple-choice &bull; Level: A2
                 </p>
                 <Link
                   href="/learn/lezen/select"
-                  className="inline-block mt-3 text-[var(--landing-orange)] font-medium hover:underline"
+                  className="inline-block mt-3 text-[var(--accent)] font-medium hover:underline"
                 >
                   Practice Lezen &rarr;
                 </Link>
@@ -156,21 +156,21 @@ export default function GuidePage() {
 
               {/* Luisteren */}
               <div className="landing-card p-6">
-                <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-2">
+                <h4 className="font-semibold text-[var(--ink)] text-lg mb-2">
                   2. Luisteren (Listening)
                 </h4>
-                <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-3">
+                <p className="text-[var(--ink)]/70 leading-relaxed mb-3">
                   The listening module tests your ability to understand spoken Dutch. You will hear recordings of
                   conversations, announcements, and phone calls, then answer questions about what you heard. Each
                   audio clip is played twice. Scenarios include conversations at a bakery, a phone call with a
                   colleague, or an announcement at a government office.
                 </p>
-                <p className="font-sans-landing text-[var(--landing-navy)]/50 text-sm">
+                <p className="text-[var(--ink)]/50 text-sm">
                   Duration: ~45 minutes &bull; Format: Multiple-choice &bull; Level: A2
                 </p>
                 <Link
                   href="/learn/luisteren/select"
-                  className="inline-block mt-3 text-[var(--landing-orange)] font-medium hover:underline"
+                  className="inline-block mt-3 text-[var(--accent)] font-medium hover:underline"
                 >
                   Practice Luisteren &rarr;
                 </Link>
@@ -178,21 +178,21 @@ export default function GuidePage() {
 
               {/* KNM */}
               <div className="landing-card p-6">
-                <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-2">
+                <h4 className="font-semibold text-[var(--ink)] text-lg mb-2">
                   3. KNM (Kennis van de Nederlandse Maatschappij)
                 </h4>
-                <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-3">
+                <p className="text-[var(--ink)]/70 leading-relaxed mb-3">
                   The KNM module tests your knowledge of Dutch society. It covers 8 topics: work and income, housing,
                   health and healthcare, Dutch history, education, norms and values, politics and government, and
                   geography. Questions are multiple-choice and test practical knowledge &mdash; like knowing which
                   emergency number to call or how the Dutch school system works.
                 </p>
-                <p className="font-sans-landing text-[var(--landing-navy)]/50 text-sm">
+                <p className="text-[var(--ink)]/50 text-sm">
                   Duration: ~45 minutes &bull; 40 questions &bull; Format: Multiple-choice
                 </p>
                 <Link
                   href="/learn/knm/select"
-                  className="inline-block mt-3 text-[var(--landing-orange)] font-medium hover:underline"
+                  className="inline-block mt-3 text-[var(--accent)] font-medium hover:underline"
                 >
                   Practice KNM &rarr;
                 </Link>
@@ -200,21 +200,21 @@ export default function GuidePage() {
 
               {/* Schrijven */}
               <div className="landing-card p-6">
-                <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-2">
+                <h4 className="font-semibold text-[var(--ink)] text-lg mb-2">
                   4. Schrijven (Writing)
                 </h4>
-                <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-3">
+                <p className="text-[var(--ink)]/70 leading-relaxed mb-3">
                   The writing module tests your ability to produce written Dutch. You will complete 4 tasks: writing
                   an email (e.g., to your child&apos;s school), filling out a form, writing a short message, and replying
                   to a message. You type your answers on the computer. The tasks are based on real-life situations
                   that you would encounter in the Netherlands.
                 </p>
-                <p className="font-sans-landing text-[var(--landing-navy)]/50 text-sm">
+                <p className="text-[var(--ink)]/50 text-sm">
                   Duration: ~35 minutes &bull; 4 tasks &bull; Level: A2
                 </p>
                 <Link
                   href="/learn/schrijven"
-                  className="inline-block mt-3 text-[var(--landing-orange)] font-medium hover:underline"
+                  className="inline-block mt-3 text-[var(--accent)] font-medium hover:underline"
                 >
                   Practice Schrijven &rarr;
                 </Link>
@@ -222,21 +222,21 @@ export default function GuidePage() {
 
               {/* Spreken */}
               <div className="landing-card p-6">
-                <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-2">
+                <h4 className="font-semibold text-[var(--ink)] text-lg mb-2">
                   5. Spreken (Speaking)
                 </h4>
-                <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-3">
+                <p className="text-[var(--ink)]/70 leading-relaxed mb-3">
                   The speaking module tests your ability to speak Dutch. The exam has 4 parts: retelling a short
                   story, describing a picture or situation, giving your opinion on a topic, and reacting to a
                   situation. You wear a headset and your answers are recorded. There is no live conversation with an
                   examiner &mdash; everything is computer-based.
                 </p>
-                <p className="font-sans-landing text-[var(--landing-navy)]/50 text-sm">
+                <p className="text-[var(--ink)]/50 text-sm">
                   Duration: ~20 minutes &bull; 4 parts &bull; Level: A2
                 </p>
                 <Link
                   href="/learn/spreken"
-                  className="inline-block mt-3 text-[var(--landing-orange)] font-medium hover:underline"
+                  className="inline-block mt-3 text-[var(--accent)] font-medium hover:underline"
                 >
                   Practice Spreken &rarr;
                 </Link>
@@ -246,10 +246,10 @@ export default function GuidePage() {
 
           {/* Format & Scoring */}
           <section id="format-scoring" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Exam format &amp; scoring
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 All exam modules are taken on a computer at an official DUO exam location. For the Spreken module,
                 you use a headset with a microphone. Each module is taken separately &mdash; you can schedule
@@ -270,10 +270,10 @@ export default function GuidePage() {
 
           {/* Registration */}
           <section id="registration" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               How to register at DUO
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 You register for the exam through DUO (Dienst Uitvoering Onderwijs), the Dutch government agency
                 responsible for the inburgering exam. Here is the step-by-step process:
@@ -309,10 +309,10 @@ export default function GuidePage() {
 
           {/* Exemptions */}
           <section id="exemptions" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Exemptions (vrijstelling)
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 Some groups are exempt from the inburgering requirement. You may be eligible for vrijstelling if you:
               </p>
@@ -333,10 +333,10 @@ export default function GuidePage() {
 
           {/* Preparation tips */}
           <section id="preparation-tips" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Preparation tips
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 Based on feedback from thousands of exam takers, here are the most effective ways to prepare:
               </p>
@@ -381,10 +381,10 @@ export default function GuidePage() {
           {/* CTA */}
           <section id="start-practicing" className="mb-10">
             <div className="landing-card p-8 text-center">
-              <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-3">
+              <h3 className="text-2xl font-semibold text-[var(--ink)] mb-3">
                 Ready to start practicing?
               </h3>
-              <p className="font-sans-landing text-[var(--landing-navy)]/60 mb-6 max-w-lg mx-auto">
+              <p className="text-[var(--ink)]/60 mb-6 max-w-lg mx-auto">
                 Try sample questions from all 5 modules for free. No account required. See where you stand
                 before your exam.
               </p>
@@ -397,7 +397,7 @@ export default function GuidePage() {
                 </Link>
                 <Link
                   href="/learn"
-                  className="px-8 py-3 border border-[var(--landing-navy)]/20 text-[var(--landing-navy)] rounded-lg font-medium hover:bg-[var(--landing-navy)]/5 transition-colors"
+                  className="px-8 py-3 border border-[var(--ink)]/20 text-[var(--ink)] rounded-lg font-medium hover:bg-[var(--ink)]/5 transition-colors"
                 >
                   Browse All Modules
                 </Link>

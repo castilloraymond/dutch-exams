@@ -18,30 +18,30 @@ export function ExamIntroScreen({
   showAudioTest,
 }: ExamIntroScreenProps) {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-[var(--landing-cream)]">
+    <div className="min-h-screen flex items-center justify-center p-4 bg-[var(--cream)]">
       <div className="landing-card w-full max-w-md p-6 sm:p-8 space-y-6 text-center">
         <div>
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
             Oefenexamen
           </span>
         </div>
 
-        <h1 className="text-2xl font-bold font-serif text-[var(--landing-navy)]">{title}</h1>
+        <h1 className="text-2xl font-bold text-[var(--ink)]">{title}</h1>
 
-        <div className="space-y-2 text-[var(--landing-navy)]/70">
+        <div className="space-y-2 text-[var(--ink)]/70">
           <p>{questionCount} vragen</p>
           {recommendedTime && (
             <p className="text-sm">Aanbevolen tijd: {recommendedTime}</p>
           )}
         </div>
 
-        <p className="text-sm text-[var(--landing-navy)]/60">
+        <p className="text-sm text-[var(--ink)]/60">
           Je krijgt geen feedback tijdens het examen. Je ziet je resultaten aan het einde.
         </p>
 
         {showAudioTest && (
           <div className="text-left">
-            <p className="text-sm font-medium mb-2 text-[var(--landing-navy)]">
+            <p className="text-sm font-medium mb-2 text-[var(--ink)]">
               Test je geluid:
             </p>
             <AudioPlayer audioSrc="/audio/test-audio.wav" />

@@ -34,29 +34,29 @@ export function QuestionGrid({
       <div className="relative bg-white rounded-2xl shadow-xl w-full max-w-md mx-4 p-6 max-h-[80vh] overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-semibold text-[var(--landing-navy)]">
+          <h2 className="text-lg font-semibold text-[var(--ink)]">
             Overzicht vragen
           </h2>
           <button
             onClick={onClose}
-            className="p-2 rounded-lg text-[var(--landing-navy)]/60 hover:bg-[var(--landing-navy)]/5 transition-colors cursor-pointer"
+            className="p-2 rounded-lg text-[var(--ink)]/60 hover:bg-[var(--ink)]/5 transition-colors cursor-pointer"
           >
             <X className="h-5 w-5" />
           </button>
         </div>
 
         {/* Legend */}
-        <div className="flex flex-wrap gap-4 mb-4 text-xs text-[var(--landing-navy)]/70">
+        <div className="flex flex-wrap gap-4 mb-4 text-xs text-[var(--ink)]/70">
           <div className="flex items-center gap-1.5">
-            <div className="w-4 h-4 rounded bg-[var(--landing-green)]" />
+            <div className="w-4 h-4 rounded bg-[var(--green)]" />
             <span>Beantwoord</span>
           </div>
           <div className="flex items-center gap-1.5">
-            <div className="w-4 h-4 rounded border-2 border-[var(--landing-navy)]/20" />
+            <div className="w-4 h-4 rounded border-2 border-[var(--ink)]/20" />
             <span>Onbeantwoord</span>
           </div>
           <div className="flex items-center gap-1.5">
-            <Star className="w-4 h-4 text-[var(--landing-orange)]" />
+            <Star className="w-4 h-4 text-[var(--accent)]" />
             <span>Gemarkeerd</span>
           </div>
         </div>
@@ -79,15 +79,15 @@ export function QuestionGrid({
                 className={cn(
                   "relative w-full aspect-square rounded-lg font-medium text-sm transition-all cursor-pointer",
                   "flex items-center justify-center",
-                  isCurrent && "ring-2 ring-[var(--landing-navy)]",
+                  isCurrent && "ring-2 ring-[var(--ink)]",
                   isAnswered
-                    ? "bg-[var(--landing-green)] text-white"
-                    : "border-2 border-[var(--landing-navy)]/20 text-[var(--landing-navy)] hover:border-[var(--landing-navy)]/40"
+                    ? "bg-[var(--green)] text-white"
+                    : "border-2 border-[var(--ink)]/20 text-[var(--ink)] hover:border-[var(--ink)]/40"
                 )}
               >
                 {index + 1}
                 {isBookmarked && (
-                  <Star className="absolute -top-1 -right-1 w-3.5 h-3.5 text-[var(--landing-orange)] fill-[var(--landing-orange)]" />
+                  <Star className="absolute -top-1 -right-1 w-3.5 h-3.5 text-[var(--accent)] fill-[var(--accent)]" />
                 )}
               </button>
             );
@@ -95,7 +95,7 @@ export function QuestionGrid({
         </div>
 
         {/* Summary */}
-        <div className="mt-4 pt-4 border-t border-[var(--landing-navy)]/10 text-sm text-[var(--landing-navy)]/70">
+        <div className="mt-4 pt-4 border-t border-[var(--ink)]/10 text-sm text-[var(--ink)]/70">
           <p>
             {answeredQuestions.size} van {totalQuestions} vragen beantwoord
           </p>

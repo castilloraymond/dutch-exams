@@ -348,15 +348,15 @@ export function AudioPlayer({ audioSrc, fallbackText }: AudioPlayerProps) {
         {!useFallback && (
           <div className="mb-4">
             <div
-              className="h-2 bg-[var(--landing-navy)]/10 rounded-full cursor-pointer overflow-hidden"
+              className="h-2 bg-[var(--ink)]/10 rounded-full cursor-pointer overflow-hidden"
               onClick={handleProgressClick}
             >
               <div
-                className="h-full bg-[var(--landing-orange)] rounded-full transition-all duration-150"
+                className="h-full bg-[var(--accent)] rounded-full transition-all duration-150"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
-            <div className="flex justify-between text-xs text-[var(--landing-navy)]/60 mt-1">
+            <div className="flex justify-between text-xs text-[var(--ink)]/60 mt-1">
               <span>{formatTime(currentTime)}</span>
               <span>{formatTime(duration)}</span>
             </div>

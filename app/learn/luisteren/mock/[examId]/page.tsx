@@ -130,8 +130,8 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
 
   if (!exam) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="text-[var(--landing-navy)]">Exam not found</div>
+      <div className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="text-[var(--ink)]">Exam not found</div>
       </div>
     );
   }

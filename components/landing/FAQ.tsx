@@ -60,14 +60,17 @@ export function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section className="py-20 bg-[var(--landing-cream)]">
+        <section className="py-[100px] px-6 lg:px-10 bg-[var(--cream)] reveal">
             <JsonLd data={faqSchema} />
-            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[768px] mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mb-4">
-                        Your Questions, Answered
+                    <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
+                        FAQ
+                    </div>
+                    <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] font-extrabold mb-5">
+                        Your questions, answered
                     </h2>
-                    <p className="font-sans-landing text-[var(--landing-navy)]/60">
+                    <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7]">
                         Everything you need to know before getting started
                     </p>
                 </div>
@@ -76,18 +79,19 @@ export function FAQ() {
                     {faqs.map((faq, i) => (
                         <div
                             key={i}
-                            className="bg-white rounded-2xl border border-[var(--landing-navy)]/5 overflow-hidden"
+                            className="bg-white rounded-[16px] border border-[var(--ink)]/[0.05] overflow-hidden"
                         >
                             <button
                                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                                 className="w-full px-6 py-5 flex items-center justify-between text-left cursor-pointer"
                             >
-                                <span className="font-sans-landing font-semibold text-[var(--landing-navy)] pr-4">
+                                <span className="font-semibold text-[var(--ink)] pr-4">
                                     {faq.question}
                                 </span>
                                 <svg
-                                    className={`w-5 h-5 text-[var(--landing-orange)] flex-shrink-0 transition-transform duration-200 ${openIndex === i ? "rotate-180" : ""
-                                        }`}
+                                    className={`w-5 h-5 text-[var(--accent)] flex-shrink-0 transition-transform duration-200 ${
+                                        openIndex === i ? "rotate-180" : ""
+                                    }`}
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -101,10 +105,11 @@ export function FAQ() {
                                 </svg>
                             </button>
                             <div
-                                className={`overflow-hidden transition-all duration-200 ${openIndex === i ? "max-h-96" : "max-h-0"
-                                    }`}
+                                className={`overflow-hidden transition-all duration-200 ${
+                                    openIndex === i ? "max-h-96" : "max-h-0"
+                                }`}
                             >
-                                <p className="px-6 pb-5 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+                                <p className="px-6 pb-5 text-[var(--ink-soft)] leading-relaxed">
                                     {faq.answer}
                                 </p>
                             </div>

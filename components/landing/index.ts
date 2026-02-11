@@ -1,15 +1,13 @@
-export { EmailCapture } from "./EmailCapture";
-export { UrgencyBanner } from "./UrgencyBanner";
 export { LandingNav } from "./LandingNav";
 export { LandingHero } from "./LandingHero";
-export { TrustStats, TrustedBy } from "./TrustStats";
-
-export { ProblemSolution } from "./ProblemSolution";
-
-export { WhyUs } from "./WhyUs";
-export { ModuleGrid } from "./ModuleGrid";
+export { TrustBar } from "./TrustStats";
+export { ProblemSection } from "./ProblemSolution";
+export { HowItWorks } from "./HowItWorks";
+export { Features } from "./WhyUs";
 export { Testimonials } from "./Testimonials";
+export { Pricing } from "./Pricing";
 export { FAQ } from "./FAQ";
+export { BlogPreview } from "./BlogPreview";
 export { FinalCTA } from "./FinalCTA";
 export { LandingFooter } from "./LandingFooter";
-
+export { ScrollRevealInit } from "./ScrollRevealInit";

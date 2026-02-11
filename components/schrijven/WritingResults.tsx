@@ -40,7 +40,7 @@ export function WritingResults({
     <div className="space-y-6">
       {/* Time taken */}
       <div className="landing-card p-4">
-        <div className="flex items-center justify-center gap-2 text-[var(--landing-navy)]/60">
+        <div className="flex items-center justify-center gap-2 text-[var(--ink)]/60">
           <Clock className="h-4 w-4" />
           <span>Time: {formatTime(elapsedTime)}</span>
         </div>
@@ -49,8 +49,8 @@ export function WritingResults({
       {/* Requirements section */}
       <div className="landing-card p-6">
         <div className="flex items-center gap-2 mb-4">
-          <ListChecks className="h-5 w-5 text-[var(--landing-orange)]" />
-          <h3 className="font-bold text-[var(--landing-navy)]">
+          <ListChecks className="h-5 w-5 text-[var(--accent)]" />
+          <h3 className="font-bold text-[var(--ink)]">
             What your answer should include
           </h3>
         </div>
@@ -58,9 +58,9 @@ export function WritingResults({
           {task.selfAssessmentCriteria.map((criterion) => (
             <li
               key={criterion.id}
-              className="flex items-start gap-2 text-sm text-[var(--landing-navy)]"
+              className="flex items-start gap-2 text-sm text-[var(--ink)]"
             >
-              <Check className="h-4 w-4 text-[var(--landing-orange)] flex-shrink-0 mt-0.5" />
+              <Check className="h-4 w-4 text-[var(--accent)] flex-shrink-0 mt-0.5" />
               <span>{criterion.text}</span>
             </li>
           ))}
@@ -69,14 +69,14 @@ export function WritingResults({
 
       {/* Model answer section - shown by default */}
       <div className="landing-card p-6">
-        <h3 className="font-bold text-[var(--landing-navy)] mb-4">
+        <h3 className="font-bold text-[var(--ink)] mb-4">
           Model Answer
         </h3>
 
         <div className="grid md:grid-cols-2 gap-4">
           {/* User's answer */}
-          <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
-            <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
+          <div className="p-4 rounded-lg bg-[var(--ink)]/5">
+            <h4 className="text-sm font-medium text-[var(--ink)]/60 mb-2">
               Your Answer:
             </h4>
             {task.taskType === "form" ? (
@@ -88,7 +88,7 @@ export function WritingResults({
                 ))}
               </div>
             ) : (
-              <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+              <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
                 {submission as string}
               </p>
             )}
@@ -110,7 +110,7 @@ export function WritingResults({
                 )}
               </div>
             ) : (
-              <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+              <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
                 {task.modelAnswer as string}
               </p>
             )}
@@ -121,14 +121,14 @@ export function WritingResults({
       {/* Tips section */}
       <div className="landing-card p-6">
         <div className="flex items-center gap-2 mb-4">
-          <Lightbulb className="h-5 w-5 text-[var(--landing-orange)]" />
-          <h3 className="font-bold text-[var(--landing-navy)]">Tips</h3>
+          <Lightbulb className="h-5 w-5 text-[var(--accent)]" />
+          <h3 className="font-bold text-[var(--ink)]">Tips</h3>
         </div>
         <ul className="space-y-2">
           {task.tips.map((tip, index) => (
             <li
               key={index}
-              className="flex items-start gap-2 text-sm text-[var(--landing-navy)]"
+              className="flex items-start gap-2 text-sm text-[var(--ink)]"
             >
               <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
               <span>{tip}</span>
@@ -137,27 +137,27 @@ export function WritingResults({
         </ul>
 
         {/* Practical test-taking tips */}
-        <div className="mt-4 pt-4 border-t border-[var(--landing-navy)]/10">
-          <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
+        <div className="mt-4 pt-4 border-t border-[var(--ink)]/10">
+          <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
             General exam tips:
           </p>
           <ul className="space-y-2">
-            <li className="flex items-start gap-2 text-sm text-[var(--landing-navy)]">
+            <li className="flex items-start gap-2 text-sm text-[var(--ink)]">
               <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
               <span>Keep sentences short and clear. Complex vocabulary does not earn extra points and increases your chance of making mistakes.</span>
             </li>
-            <li className="flex items-start gap-2 text-sm text-[var(--landing-navy)]">
+            <li className="flex items-start gap-2 text-sm text-[var(--ink)]">
               <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
               <span>On the real exam, you write by hand on paper. Practice your Dutch handwriting.</span>
             </li>
-            <li className="flex items-start gap-2 text-sm text-[var(--landing-navy)]">
+            <li className="flex items-start gap-2 text-sm text-[var(--ink)]">
               <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
               <span>Always re-read your answer before submitting.</span>
             </li>
           </ul>
         </div>
 
-        <p className="text-sm text-[var(--landing-navy)]/60 mt-4 italic">
+        <p className="text-sm text-[var(--ink)]/60 mt-4 italic">
           Pro members get personalized tips based on their specific mistakes.
         </p>
       </div>
@@ -169,7 +169,7 @@ export function WritingResults({
             <Lock className="h-4 w-4 text-gray-500" />
           </div>
           <h3 className="font-bold text-gray-500">AI Feedback</h3>
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-orange)] text-white">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--accent)] text-white">
             Pro
           </span>
         </div>
@@ -178,7 +178,7 @@ export function WritingResults({
           <div className="h-4 bg-gray-300 rounded w-1/2"></div>
           <div className="h-4 bg-gray-300 rounded w-2/3"></div>
         </div>
-        <Link href="/upgrade" className="mt-4 block w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
+        <Link href="/upgrade" className="mt-4 block w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
           Unlock with Pro
         </Link>
       </div>
@@ -187,13 +187,13 @@ export function WritingResults({
       <div className="flex flex-col sm:flex-row gap-3">
         <button
           onClick={onRetry}
-          className="flex-1 border-2 border-[var(--landing-navy)] text-[var(--landing-navy)] hover:bg-[var(--landing-navy)] hover:text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
+          className="flex-1 border-2 border-[var(--ink)] text-[var(--ink)] hover:bg-[var(--ink)] hover:text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
         >
           Try Again
         </button>
         <Link
           href="/learn/schrijven"
-          className="flex-1 bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
+          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
         >
           Another Task
         </Link>

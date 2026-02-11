@@ -47,8 +47,8 @@ export default function ProfilePage() {
 
   if (loading || !user) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="h-8 w-8 rounded-full border-2 border-[var(--landing-orange)] border-t-transparent animate-spin" />
+      <main className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="h-8 w-8 rounded-full border-2 border-[var(--accent)] border-t-transparent animate-spin" />
       </main>
     );
   }
@@ -84,17 +84,17 @@ export default function ProfilePage() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+            <h1 className="text-xl font-bold text-[var(--ink)]">
               Profile
             </h1>
           </div>
@@ -106,14 +106,14 @@ export default function ProfilePage() {
           {/* Account Info */}
           <div className="landing-card p-6">
             <div className="flex items-center gap-4">
-              <div className="flex-shrink-0 w-14 h-14 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center">
-                <span className="text-xl font-bold text-[var(--landing-orange)]">
+              <div className="flex-shrink-0 w-14 h-14 rounded-full bg-[var(--accent)]/10 flex items-center justify-center">
+                <span className="text-xl font-bold text-[var(--accent)]">
                   {email.charAt(0).toUpperCase()}
                 </span>
               </div>
               <div>
-                <p className="font-semibold text-[var(--landing-navy)]">{email}</p>
-                <div className="flex items-center gap-1.5 mt-1 text-sm text-[var(--landing-navy)]/60">
+                <p className="font-semibold text-[var(--ink)]">{email}</p>
+                <div className="flex items-center gap-1.5 mt-1 text-sm text-[var(--ink)]/60">
                   {isGoogleUser ? (
                     <>
                       <Chrome className="h-3.5 w-3.5" />
@@ -133,8 +133,8 @@ export default function ProfilePage() {
           {/* Reset Password (email users only) */}
           {!isGoogleUser && (
             <div className="landing-card p-6">
-              <h2 className="font-semibold text-[var(--landing-navy)] mb-3 flex items-center gap-2">
-                <KeyRound className="h-5 w-5 text-[var(--landing-orange)]" />
+              <h2 className="font-semibold text-[var(--ink)] mb-3 flex items-center gap-2">
+                <KeyRound className="h-5 w-5 text-[var(--accent)]" />
                 Password
               </h2>
               {resetStatus === "sent" ? (
@@ -159,7 +159,7 @@ export default function ProfilePage() {
 
           {/* Progress Overview */}
           <div className="landing-card p-6">
-            <h2 className="font-semibold text-[var(--landing-navy)] mb-4">
+            <h2 className="font-semibold text-[var(--ink)] mb-4">
               Progress Overview
             </h2>
             <div className="space-y-4">
@@ -168,21 +168,21 @@ export default function ProfilePage() {
                 const pct = mod.total > 0 ? Math.round((mod.completed / mod.total) * 100) : 0;
                 return (
                   <div key={mod.name} className="flex items-center gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center">
-                      <Icon className="h-5 w-5 text-[var(--landing-orange)]" />
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center">
+                      <Icon className="h-5 w-5 text-[var(--accent)]" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between mb-1">
-                        <span className="text-sm font-medium text-[var(--landing-navy)]">
+                        <span className="text-sm font-medium text-[var(--ink)]">
                           {mod.name}
                         </span>
-                        <span className="text-xs text-[var(--landing-navy)]/60">
+                        <span className="text-xs text-[var(--ink)]/60">
                           {mod.completed}/{mod.total}
                         </span>
                       </div>
-                      <div className="h-2 bg-[var(--landing-navy)]/10 rounded-full overflow-hidden">
+                      <div className="h-2 bg-[var(--ink)]/10 rounded-full overflow-hidden">
                         <div
-                          className="h-full bg-[var(--landing-orange)] rounded-full transition-all"
+                          className="h-full bg-[var(--accent)] rounded-full transition-all"
                           style={{ width: `${pct}%` }}
                         />
                       </div>

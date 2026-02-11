@@ -78,34 +78,34 @@ export default function SchrijvenTrialPage() {
 
   if (!task) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="text-[var(--landing-navy)]">Opdracht niet gevonden</div>
+      <div className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="text-[var(--ink)]">Opdracht niet gevonden</div>
       </div>
     );
   }
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       {/* Header */}
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link
                 href="/try"
-                className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
               >
                 <ArrowLeft className="h-5 w-5" />
               </Link>
               <div className="flex items-center gap-2">
-                <PenLine className="h-5 w-5 text-[var(--landing-orange)]" />
-                <h1 className="text-lg font-bold font-sans-landing text-[var(--landing-navy)]">
+                <PenLine className="h-5 w-5 text-[var(--accent)]" />
+                <h1 className="text-lg font-bold text-[var(--ink)]">
                   {moduleInfo?.name} Trial
                 </h1>
               </div>
             </div>
             {stage === "writing" && (
-              <div className="flex items-center gap-2 text-[var(--landing-navy)]/60">
+              <div className="flex items-center gap-2 text-[var(--ink)]/60">
                 <Clock className="h-4 w-4" />
                 <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
               </div>
@@ -120,19 +120,19 @@ export default function SchrijvenTrialPage() {
           {stage === "writing" && (
             <div className="space-y-6">
               {/* Scenario */}
-              <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
-                <p className="text-[var(--landing-navy)] mb-2">{task.scenario}</p>
-                <p className="text-sm text-[var(--landing-navy)]/60 italic">
+              <div className="landing-card p-4 bg-[var(--ink)]/5">
+                <p className="text-[var(--ink)] mb-2">{task.scenario}</p>
+                <p className="text-sm text-[var(--ink)]/60 italic">
                   {task.scenarioEn}
                 </p>
               </div>
 
               {/* Prompt */}
               <div>
-                <h2 className="font-bold text-[var(--landing-navy)] mb-2">
+                <h2 className="font-bold text-[var(--ink)] mb-2">
                   {task.prompt}
                 </h2>
-                <p className="text-sm text-[var(--landing-navy)]/60">
+                <p className="text-sm text-[var(--ink)]/60">
                   {task.promptEn}
                 </p>
               </div>
@@ -143,11 +143,11 @@ export default function SchrijvenTrialPage() {
                   value={submission}
                   onChange={(e) => setSubmission(e.target.value)}
                   placeholder="Schrijf hier je antwoord..."
-                  className="w-full min-h-[200px] p-4 rounded-lg border border-[var(--landing-navy)]/20 bg-white text-[var(--landing-navy)] placeholder:text-[var(--landing-navy)]/40 focus:outline-none focus:ring-2 focus:ring-[var(--landing-orange)]/50 focus:border-[var(--landing-orange)] resize-y"
+                  className="w-full min-h-[200px] p-4 rounded-lg border border-[var(--ink)]/20 bg-white text-[var(--ink)] placeholder:text-[var(--ink)]/40 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/50 focus:border-[var(--accent)] resize-y"
                   style={{ fontFamily: "inherit" }}
                 />
                 {submission.trim().length < 10 && submission.length > 0 && (
-                  <p className="text-sm text-[var(--landing-navy)]/60">
+                  <p className="text-sm text-[var(--ink)]/60">
                     Write at least a few sentences to submit.
                   </p>
                 )}
@@ -157,7 +157,7 @@ export default function SchrijvenTrialPage() {
               <button
                 onClick={handleSubmit}
                 disabled={isSubmitDisabled}
-                className="w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
                 Submit
               </button>
@@ -169,16 +169,16 @@ export default function SchrijvenTrialPage() {
             <div className="space-y-4">
               {/* Side-by-side answer comparison - shown immediately */}
               <div className="rounded-xl shadow-lg p-4 bg-white">
-                <h3 className="font-bold text-[var(--landing-navy)] mb-3">
+                <h3 className="font-bold text-[var(--ink)] mb-3">
                   Compare Your Answer
                 </h3>
                 <div className="grid md:grid-cols-2 gap-3">
                   {/* User's answer */}
-                  <div className="p-3 rounded-lg bg-[var(--landing-navy)]/5">
-                    <h4 className="text-sm font-medium text-[var(--landing-navy)]/60 mb-2">
+                  <div className="p-3 rounded-lg bg-[var(--ink)]/5">
+                    <h4 className="text-sm font-medium text-[var(--ink)]/60 mb-2">
                       Your answer:
                     </h4>
-                    <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+                    <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
                       {submission}
                     </p>
                   </div>
@@ -188,7 +188,7 @@ export default function SchrijvenTrialPage() {
                     <h4 className="text-sm font-medium text-green-700 mb-2">
                       Example answer:
                     </h4>
-                    <p className="text-[var(--landing-navy)] whitespace-pre-wrap text-sm">
+                    <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
                       {task.modelAnswer as string}
                     </p>
                   </div>
@@ -196,7 +196,7 @@ export default function SchrijvenTrialPage() {
               </div>
 
               {/* AI Feedback teaser - with correct gradient styling */}
-              <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90">
+              <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90">
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
                     <Lock className="h-4 w-4 text-white" />
@@ -210,7 +210,7 @@ export default function SchrijvenTrialPage() {
                     </p>
                     <Link
                       href="/auth/signup?redirect=/try/schrijven"
-                      className="inline-block bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
+                      className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
                     >
                       Sign up to unlock
                     </Link>
@@ -221,14 +221,14 @@ export default function SchrijvenTrialPage() {
               {/* Tips section - compact inline pills */}
               <div className="rounded-xl shadow-lg p-4 bg-white">
                 <div className="flex items-center gap-2 mb-2">
-                  <Lightbulb className="h-4 w-4 text-[var(--landing-orange)]" />
-                  <h3 className="font-bold text-[var(--landing-navy)] text-sm">Quick Tips</h3>
+                  <Lightbulb className="h-4 w-4 text-[var(--accent)]" />
+                  <h3 className="font-bold text-[var(--ink)] text-sm">Quick Tips</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {task.tips.map((tip, index) => (
                     <span
                       key={index}
-                      className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-[var(--landing-navy)]/5 text-xs text-[var(--landing-navy)]"
+                      className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-[var(--ink)]/5 text-xs text-[var(--ink)]"
                     >
                       <Check className="h-3 w-3 text-green-500" />
                       {tip}
@@ -240,11 +240,11 @@ export default function SchrijvenTrialPage() {
               {/* CTA Section */}
               {isUnlocked ? (
                 /* Logged in: Show next step */
-                <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10">
-                  <h3 className="font-semibold text-[var(--landing-navy)] mb-1">
+                <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--accent)]/5 to-[var(--accent)]/10">
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">
                     Ready to practice more?
                   </h3>
-                  <p className="text-sm text-[var(--landing-navy)]/60 mb-3">
+                  <p className="text-sm text-[var(--ink)]/60 mb-3">
                     Try more writing tasks to prepare for the real exam.
                   </p>
                   <Link
@@ -259,10 +259,10 @@ export default function SchrijvenTrialPage() {
                 /* Not logged in: Show signup CTAs */
                 <div className="space-y-3">
                   <div className="text-center">
-                    <h3 className="font-semibold text-[var(--landing-navy)] mb-1 text-sm">
+                    <h3 className="font-semibold text-[var(--ink)] mb-1 text-sm">
                       Save your progress & get AI feedback
                     </h3>
-                    <p className="text-xs text-[var(--landing-navy)]/60">
+                    <p className="text-xs text-[var(--ink)]/60">
                       Create a free account to continue learning
                     </p>
                   </div>
@@ -279,17 +279,17 @@ export default function SchrijvenTrialPage() {
 
                     <Link
                       href="/auth/signup?redirect=/try/schrijven"
-                      className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-[var(--landing-navy)] text-white rounded-full font-medium hover:bg-[var(--landing-navy)]/90 transition-colors text-sm"
+                      className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-[var(--ink)] text-white rounded-full font-medium hover:bg-[var(--ink)]/90 transition-colors text-sm"
                     >
                       <Mail className="h-4 w-4" />
                       Sign up with Email
                     </Link>
 
-                    <p className="text-center text-xs text-[var(--landing-navy)]/50">
+                    <p className="text-center text-xs text-[var(--ink)]/50">
                       Already have an account?{" "}
                       <Link
                         href="/auth/login?redirect=/try/schrijven"
-                        className="text-[var(--landing-orange)] hover:underline"
+                        className="text-[var(--accent)] hover:underline"
                       >
                         Log in
                       </Link>

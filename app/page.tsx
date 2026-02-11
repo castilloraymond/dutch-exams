@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
 import {
-  UrgencyBanner,
   LandingNav,
   LandingHero,
-  TrustStats,
-  TrustedBy,
-  ProblemSolution,
-  WhyUs,
-  ModuleGrid,
+  TrustBar,
+  ProblemSection,
+  HowItWorks,
+  Features,
   Testimonials,
+  Pricing,
   FAQ,
+  BlogPreview,
   FinalCTA,
   LandingFooter,
+  ScrollRevealInit,
 } from "@/components/landing";
 import { JsonLd } from "@/components/JsonLd";
 
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--landing-cream)] text-[110%] overflow-x-hidden">
+    <div className="min-h-screen bg-[var(--cream)] overflow-x-hidden">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -44,19 +45,17 @@ export default function Home() {
           inLanguage: ["nl", "en"],
         }}
       />
-      <UrgencyBanner />
+      <ScrollRevealInit />
       <LandingNav />
       <LandingHero />
-      <TrustedBy />
-      <TrustStats />
-      <ProblemSolution />
-      <WhyUs />
-
-      <div id="modules">
-        <ModuleGrid />
-      </div>
+      <TrustBar />
+      <ProblemSection />
+      <HowItWorks />
+      <Features />
       <Testimonials />
+      <Pricing />
       <FAQ />
+      <BlogPreview />
       <FinalCTA />
       <LandingFooter />
     </div>

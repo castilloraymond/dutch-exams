@@ -176,8 +176,8 @@ export default function SprekenTrialPage() {
 
   if (!task) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="text-[var(--landing-navy)]">Task not found</div>
+      <div className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="text-[var(--ink)]">Task not found</div>
       </div>
     );
   }
@@ -185,7 +185,7 @@ export default function SprekenTrialPage() {
   const progress = Math.min((recordingTime / task.recommendedDuration) * 100, 100);
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       {/* Hidden audio element for model answer */}
       {task.modelAnswer.audioFile && (
         <audio
@@ -197,23 +197,23 @@ export default function SprekenTrialPage() {
       )}
 
       {/* Header */}
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link
                 href="/try"
-                className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
               >
                 <ArrowLeft className="h-5 w-5" />
               </Link>
               <div className="flex items-center gap-2">
-                <Mic className="h-5 w-5 text-[var(--landing-orange)]" />
+                <Mic className="h-5 w-5 text-[var(--accent)]" />
                 <div>
-                  <span className="text-xs text-[var(--landing-navy)]/60">
+                  <span className="text-xs text-[var(--ink)]/60">
                     Part {task.partNumber}
                   </span>
-                  <h1 className="text-lg font-bold font-sans-landing text-[var(--landing-navy)]">
+                  <h1 className="text-lg font-bold text-[var(--ink)]">
                     {moduleInfo?.name} Trial
                   </h1>
                 </div>
@@ -224,7 +224,7 @@ export default function SprekenTrialPage() {
                 className={`flex items-center gap-2 ${
                   showTimeWarning
                     ? "text-orange-500"
-                    : "text-[var(--landing-navy)]/60"
+                    : "text-[var(--ink)]/60"
                 }`}
               >
                 <Clock className="h-4 w-4" />
@@ -288,7 +288,7 @@ export default function SprekenTrialPage() {
                         </div>
                       </div>
                       {image.label && (
-                        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--landing-navy)]">
+                        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--ink)]">
                           {image.label}
                         </div>
                       )}
@@ -299,18 +299,18 @@ export default function SprekenTrialPage() {
 
               {/* Question */}
               <div>
-                <h2 className="font-bold text-[var(--landing-navy)] mb-1">
+                <h2 className="font-bold text-[var(--ink)] mb-1">
                   {task.questionNl}
                 </h2>
-                <p className="text-sm text-[var(--landing-navy)]/60">
+                <p className="text-sm text-[var(--ink)]/60">
                   {task.questionEn}
                 </p>
                 {task.questionParts && (
-                  <div className="mt-3 p-3 bg-[var(--landing-orange)]/10 rounded-lg">
-                    <p className="text-xs font-medium text-[var(--landing-navy)]/70 mb-2">
+                  <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
+                    <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
                       Answer both parts:
                     </p>
-                    <ul className="text-sm text-[var(--landing-navy)] space-y-1">
+                    <ul className="text-sm text-[var(--ink)] space-y-1">
                       {task.questionParts.map((part, idx) => (
                         <li key={idx}>
                           {idx + 1}. {part}
@@ -325,7 +325,7 @@ export default function SprekenTrialPage() {
               {permissionStatus === "prompt" ? (
                 <button
                   onClick={requestPermission}
-                  className="w-full bg-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                  className="w-full bg-[var(--ink)] hover:bg-[var(--ink)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
                   Allow Microphone
                 </button>
@@ -339,7 +339,7 @@ export default function SprekenTrialPage() {
                 <button
                   onClick={handleStartRecording}
                   disabled={permissionStatus === "denied"}
-                  className="w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                  className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
                 >
                   <Mic className="h-5 w-5" />
                   Start Recording
@@ -352,8 +352,8 @@ export default function SprekenTrialPage() {
           {stage === "recording" && (
             <div className="space-y-6">
               {/* Compact prompt reminder */}
-              <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
-                <p className="text-sm text-[var(--landing-navy)]">{task.questionNl}</p>
+              <div className="landing-card p-4 bg-[var(--ink)]/5">
+                <p className="text-sm text-[var(--ink)]">{task.questionNl}</p>
               </div>
 
               {/* Recording indicator */}
@@ -383,12 +383,12 @@ export default function SprekenTrialPage() {
                 </div>
 
                 {/* Status text */}
-                <p className="text-lg font-medium text-[var(--landing-navy)] mb-2">
+                <p className="text-lg font-medium text-[var(--ink)] mb-2">
                   {isRecording ? "Recording..." : "Recording stopped"}
                 </p>
 
                 {/* Timer */}
-                <div className="text-3xl font-mono font-bold text-[var(--landing-navy)] mb-4">
+                <div className="text-3xl font-mono font-bold text-[var(--ink)] mb-4">
                   {formatTime(recordingTime)}
                 </div>
 
@@ -396,12 +396,12 @@ export default function SprekenTrialPage() {
                 <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden mb-4">
                   <div
                     className={`h-full transition-all duration-300 ${
-                      progress >= 100 ? "bg-orange-500" : "bg-[var(--landing-orange)]"
+                      progress >= 100 ? "bg-orange-500" : "bg-[var(--accent)]"
                     }`}
                     style={{ width: `${progress}%` }}
                   />
                 </div>
-                <p className="text-xs text-[var(--landing-navy)]/60 mb-6">
+                <p className="text-xs text-[var(--ink)]/60 mb-6">
                   Recommended: {formatTime(task.recommendedDuration)}
                 </p>
 
@@ -423,12 +423,12 @@ export default function SprekenTrialPage() {
           {stage === "playback" && audioUrl && (
             <div className="space-y-6">
               {/* Compact prompt reminder */}
-              <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
-                <p className="text-sm text-[var(--landing-navy)]">{task.questionNl}</p>
+              <div className="landing-card p-4 bg-[var(--ink)]/5">
+                <p className="text-sm text-[var(--ink)]">{task.questionNl}</p>
               </div>
 
               <div className="landing-card p-6">
-                <h3 className="font-bold text-[var(--landing-navy)] mb-4">
+                <h3 className="font-bold text-[var(--ink)] mb-4">
                   Your Recording
                 </h3>
                 <audio controls src={audioUrl} className="w-full mb-4" />
@@ -436,13 +436,13 @@ export default function SprekenTrialPage() {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <button
                     onClick={handleReRecord}
-                    className="flex-1 border-2 border-[var(--landing-navy)] text-[var(--landing-navy)] hover:bg-[var(--landing-navy)] hover:text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                    className="flex-1 border-2 border-[var(--ink)] text-[var(--ink)] hover:bg-[var(--ink)] hover:text-white px-4 py-2 rounded-lg font-medium transition-colors"
                   >
                     Re-record
                   </button>
                   <button
                     onClick={handleSubmit}
-                    className="flex-1 bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                    className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium transition-colors"
                   >
                     Submit
                   </button>
@@ -455,19 +455,19 @@ export default function SprekenTrialPage() {
           {stage === "self-assessment" && audioUrl && (
             <div className="space-y-6">
               <div>
-                <h2 className="text-xl font-bold text-[var(--landing-navy)] mb-2">
+                <h2 className="text-xl font-bold text-[var(--ink)] mb-2">
                   Rate Your Recording
                 </h2>
-                <p className="text-[var(--landing-navy)]/60">
+                <p className="text-[var(--ink)]/60">
                   Listen to your recording and check off what you did.
                 </p>
               </div>
 
               {/* Audio playback */}
-              <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
+              <div className="landing-card p-4 bg-[var(--ink)]/5">
                 <div className="flex items-center gap-3 mb-3">
-                  <Volume2 className="h-5 w-5 text-[var(--landing-orange)]" />
-                  <span className="font-medium text-[var(--landing-navy)]">
+                  <Volume2 className="h-5 w-5 text-[var(--accent)]" />
+                  <span className="font-medium text-[var(--ink)]">
                     Your recording
                   </span>
                 </div>
@@ -477,8 +477,8 @@ export default function SprekenTrialPage() {
               {/* Checklist */}
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <h3 className="font-medium text-[var(--landing-navy)]">Checklist</h3>
-                  <span className="text-sm text-[var(--landing-navy)]/60">
+                  <h3 className="font-medium text-[var(--ink)]">Checklist</h3>
+                  <span className="text-sm text-[var(--ink)]/60">
                     {checkedCriteria.size}/{task.selfAssessmentCriteria.length} checked
                   </span>
                 </div>
@@ -490,21 +490,21 @@ export default function SprekenTrialPage() {
                     className={`w-full flex items-start gap-3 p-4 rounded-lg border transition-colors text-left ${
                       checkedCriteria.has(criterion.id)
                         ? "border-green-500 bg-green-50"
-                        : "border-[var(--landing-navy)]/20 bg-white hover:bg-[var(--landing-navy)]/5"
+                        : "border-[var(--ink)]/20 bg-white hover:bg-[var(--ink)]/5"
                     }`}
                   >
                     <div
                       className={`flex-shrink-0 w-6 h-6 rounded-md border-2 flex items-center justify-center transition-colors ${
                         checkedCriteria.has(criterion.id)
                           ? "border-green-500 bg-green-500"
-                          : "border-[var(--landing-navy)]/30"
+                          : "border-[var(--ink)]/30"
                       }`}
                     >
                       {checkedCriteria.has(criterion.id) && (
                         <Check className="h-4 w-4 text-white" />
                       )}
                     </div>
-                    <span className="text-[var(--landing-navy)]">{criterion.textEn}</span>
+                    <span className="text-[var(--ink)]">{criterion.textEn}</span>
                   </button>
                 ))}
               </div>
@@ -513,7 +513,7 @@ export default function SprekenTrialPage() {
               <button
                 onClick={handleSelfAssessmentComplete}
                 disabled={!allChecked}
-                className="w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
                 {allChecked
                   ? "See Results"
@@ -527,14 +527,14 @@ export default function SprekenTrialPage() {
             <div className="space-y-6">
               {/* Score Card */}
               <div className="landing-card p-6 text-center">
-                <h2 className="text-sm font-medium text-[var(--landing-navy)]/50 uppercase tracking-wide mb-4">
+                <h2 className="text-sm font-medium text-[var(--ink)]/50 uppercase tracking-wide mb-4">
                   Your Self-Assessment
                 </h2>
 
                 <div className="flex justify-center items-center gap-4 mb-4">
                   <div
                     className={`text-5xl font-bold ${
-                      passed ? "text-green-500" : "text-[var(--landing-orange)]"
+                      passed ? "text-green-500" : "text-[var(--accent)]"
                     }`}
                   >
                     {score}/{total}
@@ -550,14 +550,14 @@ export default function SprekenTrialPage() {
                   </div>
                 </div>
 
-                <div className="flex items-center justify-center gap-2 text-[var(--landing-navy)]/60">
+                <div className="flex items-center justify-center gap-2 text-[var(--ink)]/60">
                   <Clock className="h-4 w-4" />
                   <span>Recording: {formatTime(recordingTime)}</span>
                 </div>
               </div>
 
               {/* Conversion hook - AI Transcript teaser */}
-              <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+              <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90 text-white">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
                     <Lock className="h-5 w-5" />
@@ -572,7 +572,7 @@ export default function SprekenTrialPage() {
                     </p>
                     <Link
                       href="/auth/signup?redirect=/try/spreken"
-                      className="inline-block bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
+                      className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors"
                     >
                       Sign up to unlock
                     </Link>
@@ -582,16 +582,16 @@ export default function SprekenTrialPage() {
 
               {/* Your recording vs Model answer */}
               <div className="landing-card p-6">
-                <h3 className="font-bold text-[var(--landing-navy)] mb-4">
+                <h3 className="font-bold text-[var(--ink)] mb-4">
                   Compare with Example
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-4">
                   {/* User's recording */}
-                  <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
+                  <div className="p-4 rounded-lg bg-[var(--ink)]/5">
                     <div className="flex items-center gap-2 mb-3">
-                      <Volume2 className="h-4 w-4 text-[var(--landing-navy)]/60" />
-                      <span className="text-sm font-medium text-[var(--landing-navy)]/60">
+                      <Volume2 className="h-4 w-4 text-[var(--ink)]/60" />
+                      <span className="text-sm font-medium text-[var(--ink)]/60">
                         Your recording
                       </span>
                     </div>
@@ -620,10 +620,10 @@ export default function SprekenTrialPage() {
                 </div>
 
                 {/* Transcript toggle */}
-                <div className="mt-4 pt-4 border-t border-[var(--landing-navy)]/10">
+                <div className="mt-4 pt-4 border-t border-[var(--ink)]/10">
                   <button
                     onClick={() => setShowTranscript(!showTranscript)}
-                    className="flex items-center gap-2 text-[var(--landing-orange)] hover:text-[var(--landing-orange)]/80 transition-colors"
+                    className="flex items-center gap-2 text-[var(--accent)] hover:text-[var(--accent)]/80 transition-colors"
                   >
                     {showTranscript ? (
                       <EyeOff className="h-4 w-4" />
@@ -643,10 +643,10 @@ export default function SprekenTrialPage() {
                           Example text
                         </span>
                       </div>
-                      <p className="text-[var(--landing-navy)] mb-2">
+                      <p className="text-[var(--ink)] mb-2">
                         {task.modelAnswer.transcriptNl}
                       </p>
-                      <p className="text-sm text-[var(--landing-navy)]/60 italic">
+                      <p className="text-sm text-[var(--ink)]/60 italic">
                         {task.modelAnswer.transcript}
                       </p>
                     </div>
@@ -657,14 +657,14 @@ export default function SprekenTrialPage() {
               {/* Tips section */}
               <div className="landing-card p-6">
                 <div className="flex items-center gap-2 mb-4">
-                  <Lightbulb className="h-5 w-5 text-[var(--landing-orange)]" />
-                  <h3 className="font-bold text-[var(--landing-navy)]">Tips</h3>
+                  <Lightbulb className="h-5 w-5 text-[var(--accent)]" />
+                  <h3 className="font-bold text-[var(--ink)]">Tips</h3>
                 </div>
                 <ul className="space-y-2">
                   {task.tips.map((tip, index) => (
                     <li
                       key={index}
-                      className="flex items-start gap-2 text-sm text-[var(--landing-navy)]"
+                      className="flex items-start gap-2 text-sm text-[var(--ink)]"
                     >
                       <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
                       <span>{tip}</span>
@@ -676,11 +676,11 @@ export default function SprekenTrialPage() {
               {/* CTA Section */}
               {isUnlocked ? (
                 /* Logged in: Show next step */
-                <div className="landing-card p-6 bg-gradient-to-r from-[var(--landing-orange)]/5 to-[var(--landing-orange)]/10">
-                  <h3 className="font-semibold text-[var(--landing-navy)] mb-2">
+                <div className="landing-card p-6 bg-gradient-to-r from-[var(--accent)]/5 to-[var(--accent)]/10">
+                  <h3 className="font-semibold text-[var(--ink)] mb-2">
                     Ready to practice more?
                   </h3>
-                  <p className="text-sm text-[var(--landing-navy)]/60 mb-4">
+                  <p className="text-sm text-[var(--ink)]/60 mb-4">
                     Try more speaking tasks to prepare for the real exam.
                   </p>
                   <Link
@@ -695,10 +695,10 @@ export default function SprekenTrialPage() {
                 /* Not logged in: Show signup CTAs */
                 <div className="space-y-4">
                   <div className="text-center">
-                    <h3 className="font-semibold text-[var(--landing-navy)] mb-1">
+                    <h3 className="font-semibold text-[var(--ink)] mb-1">
                       Save your progress & get AI transcription
                     </h3>
-                    <p className="text-sm text-[var(--landing-navy)]/60">
+                    <p className="text-sm text-[var(--ink)]/60">
                       Create a free account to continue learning
                     </p>
                   </div>
@@ -715,17 +715,17 @@ export default function SprekenTrialPage() {
 
                     <Link
                       href="/auth/signup?redirect=/try/spreken"
-                      className="inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-[var(--landing-navy)] text-white rounded-full font-medium hover:bg-[var(--landing-navy)]/90 transition-colors"
+                      className="inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-[var(--ink)] text-white rounded-full font-medium hover:bg-[var(--ink)]/90 transition-colors"
                     >
                       <Mail className="h-4 w-4" />
                       Sign up with Email
                     </Link>
 
-                    <p className="text-center text-sm text-[var(--landing-navy)]/50">
+                    <p className="text-center text-sm text-[var(--ink)]/50">
                       Already have an account?{" "}
                       <Link
                         href="/auth/login?redirect=/try/spreken"
-                        className="text-[var(--landing-orange)] hover:underline"
+                        className="text-[var(--accent)] hover:underline"
                       >
                         Log in
                       </Link>

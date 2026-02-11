@@ -8,8 +8,8 @@ export default function manifest(): MetadataRoute.Manifest {
       "Free practice exams for all 5 Dutch inburgering exam modules.",
     start_url: "/",
     display: "standalone",
-    background_color: "#FAF7F2",
-    theme_color: "#1B2A4A",
+    background_color: "#FDFBF7",
+    theme_color: "#1a1a2e",
     icons: [
       {
         src: "/favicon.png",
