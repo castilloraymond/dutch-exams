@@ -141,19 +141,19 @@ const faqSchema = {
 
 export default function FAQPage() {
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       <JsonLd data={faqSchema} />
 
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+            <h1 className="text-xl font-bold text-[var(--ink)]">
               Inburgering Exam FAQ
             </h1>
           </div>
@@ -162,10 +162,10 @@ export default function FAQPage() {
 
       <section className="flex-1 container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[var(--ink)] mb-4">
             Frequently Asked Questions
           </h2>
-          <p className="font-sans-landing text-[var(--landing-navy)]/60 mb-10 text-lg">
+          <p className="text-[var(--ink)]/60 mb-10 text-lg">
             Everything you need to know about the Dutch inburgering exam &mdash;
             from registration to results.
           </p>
@@ -173,10 +173,10 @@ export default function FAQPage() {
           <div className="space-y-6">
             {faqItems.map((item, i) => (
               <div key={i} className="landing-card p-6">
-                <h3 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-3">
+                <h3 className="font-semibold text-[var(--ink)] text-lg mb-3">
                   {item.question}
                 </h3>
-                <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+                <p className="text-[var(--ink)]/70 leading-relaxed">
                   {item.answer}
                 </p>
               </div>
@@ -184,7 +184,7 @@ export default function FAQPage() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="font-sans-landing text-[var(--landing-navy)]/60 mb-4">
+            <p className="text-[var(--ink)]/60 mb-4">
               Ready to start practicing?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -196,7 +196,7 @@ export default function FAQPage() {
               </Link>
               <Link
                 href="/learn"
-                className="px-8 py-3 border border-[var(--landing-navy)]/20 text-[var(--landing-navy)] rounded-lg font-medium text-center hover:bg-[var(--landing-navy)]/5 transition-colors"
+                className="px-8 py-3 border border-[var(--ink)]/20 text-[var(--ink)] rounded-lg font-medium text-center hover:bg-[var(--ink)]/5 transition-colors"
               >
                 Browse Practice Exams
               </Link>

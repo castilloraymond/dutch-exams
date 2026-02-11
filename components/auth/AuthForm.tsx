@@ -19,11 +19,11 @@ interface AuthFormProps {
 
 export function AuthForm({ title, description, children, footer }: AuthFormProps) {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)] px-4">
+    <div className="min-h-screen flex items-center justify-center bg-[var(--cream)] px-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <Link href="/" className="inline-block mb-4">
-            <span className="font-serif text-2xl font-semibold text-[var(--landing-navy)]">
+            <span className="text-2xl font-semibold text-[var(--ink)]">
               Inburgering Prep
             </span>
           </Link>

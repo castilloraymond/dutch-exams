@@ -174,32 +174,32 @@ export default function SprekenTaskPage({ params }: PageProps) {
 
   if (!task || !currentQuestion) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="text-[var(--landing-navy)]">Opdracht niet gevonden</div>
+      <div className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="text-[var(--ink)]">Opdracht niet gevonden</div>
       </div>
     );
   }
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       {/* Header */}
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link
                 href="/learn/spreken"
-                className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
               >
                 <ArrowLeft className="h-5 w-5" />
               </Link>
               <div className="flex items-center gap-2">
-                <Mic className="h-5 w-5 text-[var(--landing-orange)]" />
+                <Mic className="h-5 w-5 text-[var(--accent)]" />
                 <div>
-                  <span className="text-xs text-[var(--landing-navy)]/60">
+                  <span className="text-xs text-[var(--ink)]/60">
                     Deel {task.partNumber}
                   </span>
-                  <h1 className="text-lg font-bold font-sans-landing text-[var(--landing-navy)]">
+                  <h1 className="text-lg font-bold text-[var(--ink)]">
                     {task.partTitleNl}
                   </h1>
                 </div>
@@ -208,7 +208,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
             <div className="flex items-center gap-3">
               {/* Progress indicator for multi-question */}
               {isMultiQuestion && stage !== "results" && (
-                <span className="text-sm font-medium text-[var(--landing-navy)]/60">
+                <span className="text-sm font-medium text-[var(--ink)]/60">
                   Vraag {currentQuestionIndex + 1}/{questions.length}
                 </span>
               )}
@@ -217,7 +217,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
                   className={`flex items-center gap-2 ${
                     showTimeWarning
                       ? "text-orange-500"
-                      : "text-[var(--landing-navy)]/60"
+                      : "text-[var(--ink)]/60"
                   }`}
                 >
                   <Clock className="h-4 w-4" />
@@ -233,12 +233,12 @@ export default function SprekenTaskPage({ params }: PageProps) {
 
       {/* Multi-question progress bar */}
       {isMultiQuestion && stage !== "results" && (
-        <div className="bg-[var(--landing-cream)] px-4 pt-2">
+        <div className="bg-[var(--cream)] px-4 pt-2">
           <div className="container mx-auto">
             <div className="max-w-2xl mx-auto">
-              <div className="w-full h-1.5 bg-[var(--landing-navy)]/10 rounded-full overflow-hidden">
+              <div className="w-full h-1.5 bg-[var(--ink)]/10 rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-[var(--landing-orange)] rounded-full transition-all duration-300"
+                  className="h-full bg-[var(--accent)] rounded-full transition-all duration-300"
                   style={{
                     width: `${((currentQuestionIndex + (stage === "playback" ? 0.5 : 0)) / questions.length) * 100}%`,
                   }}
@@ -285,7 +285,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
               {permissionStatus === "prompt" ? (
                 <button
                   onClick={requestPermission}
-                  className="w-full bg-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                  className="w-full bg-[var(--ink)] hover:bg-[var(--ink)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
                   Microfoon toestaan
                 </button>
@@ -300,7 +300,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
                 <button
                   onClick={handleStartRecording}
                   disabled={permissionStatus === "denied"}
-                  className="w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                  className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
                 >
                   <Mic className="h-5 w-5" />
                   Start opname
@@ -328,7 +328,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
               <SpeakingPrompt task={task} question={currentQuestion} compact />
 
               <div className="landing-card p-6">
-                <h3 className="font-bold text-[var(--landing-navy)] mb-4">
+                <h3 className="font-bold text-[var(--ink)] mb-4">
                   Je opname
                 </h3>
                 <audio controls src={audioUrl} className="w-full mb-4" />
@@ -336,13 +336,13 @@ export default function SprekenTaskPage({ params }: PageProps) {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <button
                     onClick={handleReRecord}
-                    className="flex-1 border-2 border-[var(--landing-navy)] text-[var(--landing-navy)] hover:bg-[var(--landing-navy)] hover:text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                    className="flex-1 border-2 border-[var(--ink)] text-[var(--ink)] hover:bg-[var(--ink)] hover:text-white px-4 py-2 rounded-lg font-medium transition-colors"
                   >
                     Opnieuw opnemen
                   </button>
                   <button
                     onClick={handleSubmit}
-                    className="flex-1 bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                    className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium transition-colors"
                   >
                     {isMultiQuestion && currentQuestionIndex < questions.length - 1
                       ? "Volgende vraag"

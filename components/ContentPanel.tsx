@@ -36,16 +36,16 @@ function renderListContent(content: string) {
   return (
     <div className="space-y-4">
       {title && (
-        <h2 className="text-xl font-bold text-[var(--landing-navy)]">{title}</h2>
+        <h2 className="text-xl font-bold text-[var(--ink)]">{title}</h2>
       )}
       {intro && (
-        <p className="text-[var(--landing-navy)]/80">{intro}</p>
+        <p className="text-[var(--ink)]/80">{intro}</p>
       )}
       <ol className="list-decimal list-outside ml-5 space-y-3">
         {listItems.map((item, idx) => {
           const text = item.replace(/^\d+\.\s*/, "");
           return (
-            <li key={idx} className="text-[var(--landing-navy)] pl-2">
+            <li key={idx} className="text-[var(--ink)] pl-2">
               {text}
             </li>
           );
@@ -58,18 +58,18 @@ function renderListContent(content: string) {
 function renderLetterContent(content: string) {
   const lines = content.split("\n");
   return (
-    <div className="space-y-4 font-serif">
+    <div className="space-y-4">
       {lines.map((line, idx) => {
         if (!line.trim()) return <div key={idx} className="h-4" />;
         if (line.match(/^(Geachte|Beste|Met vriendelijke groet|Hoogachtend)/)) {
           return (
-            <p key={idx} className="text-[var(--landing-navy)]">
+            <p key={idx} className="text-[var(--ink)]">
               {line}
             </p>
           );
         }
         return (
-          <p key={idx} className="text-[var(--landing-navy)]">
+          <p key={idx} className="text-[var(--ink)]">
             {line}
           </p>
         );
@@ -84,15 +84,15 @@ function renderNoticeContent(content: string) {
   const body = lines.slice(1);
 
   return (
-    <div className="space-y-4 p-4 border-2 border-[var(--landing-navy)]/20 rounded-lg bg-white">
+    <div className="space-y-4 p-4 border-2 border-[var(--ink)]/20 rounded-lg bg-white">
       {title && (
-        <h2 className="text-xl font-bold text-[var(--landing-navy)] text-center border-b border-[var(--landing-navy)]/10 pb-3">
+        <h2 className="text-xl font-bold text-[var(--ink)] text-center border-b border-[var(--ink)]/10 pb-3">
           {title}
         </h2>
       )}
       <div className="space-y-2">
         {body.map((line, idx) => (
-          <p key={idx} className="text-[var(--landing-navy)]">
+          <p key={idx} className="text-[var(--ink)]">
             {line}
           </p>
         ))}
@@ -107,8 +107,8 @@ export function ContentPanel(props: ContentPanelProps) {
       <div className="space-y-4">
         {/* Instruction text */}
         {props.instruction && (
-          <div className="p-4 bg-[var(--landing-navy)]/5 rounded-lg">
-            <p className="text-sm text-[var(--landing-navy)]/80 whitespace-pre-line">
+          <div className="p-4 bg-[var(--ink)]/5 rounded-lg">
+            <p className="text-sm text-[var(--ink)]/80 whitespace-pre-line">
               {props.instruction}
             </p>
           </div>
@@ -120,7 +120,7 @@ export function ContentPanel(props: ContentPanelProps) {
           {props.contentType === "letter" && renderLetterContent(props.content)}
           {props.contentType === "notice" && renderNoticeContent(props.content)}
           {(!props.contentType || props.contentType === "text") && (
-            <p className="text-base leading-relaxed whitespace-pre-wrap text-[var(--landing-navy)]">
+            <p className="text-base leading-relaxed whitespace-pre-wrap text-[var(--ink)]">
               {props.content}
             </p>
           )}
@@ -173,7 +173,7 @@ export function ContentPanel(props: ContentPanelProps) {
 
       {!props.image && !props.audioFile && (
         <div className="landing-card p-4 sm:p-6">
-          <p className="text-[var(--landing-navy)]/60 text-sm">
+          <p className="text-[var(--ink)]/60 text-sm">
             Beantwoord de vragen aan de rechterkant.
           </p>
         </div>

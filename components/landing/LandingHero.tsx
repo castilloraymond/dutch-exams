@@ -1,127 +1,166 @@
 "use client";
 
 import Link from "next/link";
+import { CircleCheck, ArrowRight, PlayCircle, Check, Clock } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
 export function LandingHero() {
     const { user } = useAuth();
 
-    const bullets = [
-        "14 mock exams across KNM, Reading, and Listening",
-        "Modeled after the real DUO computer-based exam format",
-        "Track your progress and know exactly when you're ready",
-    ];
-
     return (
-        <main className="bg-gradient-to-b from-[var(--landing-cream)] to-[#FFF9F5]">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 pb-16 sm:pb-20">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    {/* Left column */}
-                    <div>
-                        <span className="font-sans-landing inline-block text-xs font-medium tracking-wide uppercase text-[var(--landing-orange)] bg-[var(--landing-orange)]/10 px-3 py-1.5 rounded-full mb-6 animate-reveal-delay-1">
-                            Free Inburgering Exam Practice
-                        </span>
+        <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
+            {/* Left column */}
+            <div className="animate-reveal">
+                {/* PLACEHOLDER — badge stat */}
+                <div className="inline-flex items-center gap-2 bg-[var(--green-soft)] text-[var(--green)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
+                    <CircleCheck className="h-4 w-4" />
+                    {/* PLACEHOLDER */}
+                    Trusted by 2,400+ expats in the Netherlands
+                </div>
 
-                        <h1 className="font-serif text-4xl md:text-5xl font-semibold text-[var(--landing-navy)] leading-tight mb-6 animate-reveal-delay-2">
-                            Pass your<br />
-                            <span className="text-[var(--landing-orange)]">Inburgering Exam</span>
-                        </h1>
+                <h1 className="text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-6 font-extrabold">
+                    Pass your inburgering exam{" "}
+                    <em className="text-[var(--accent)] not-italic">in 3 months</em>
+                </h1>
 
+                <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
+                    Built for busy expats who are short on time and want the most effective way to pass the test.
+                </p>
 
-                        <p className="font-sans-landing text-lg text-[var(--landing-navy)]/60 max-w-lg mb-8 leading-relaxed animate-reveal-delay-3">
-                            14 full-length mock exams. 450+ practice questions. All 5 modules. Built for busy professionals who want to pass the first time.
-                        </p>
+                <div className="flex items-center gap-5 mb-8">
+                    <Link
+                        href={user ? "/learn" : "/try"}
+                        className="cta-primary inline-flex items-center gap-2.5 px-9 py-4 rounded-full font-semibold text-base"
+                    >
+                        {user ? "Continue practicing" : "Start a free trial test"}
+                        <ArrowRight className="h-4 w-4" />
+                    </Link>
+                    <a
+                        href="#how"
+                        className="inline-flex items-center gap-2 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
+                    >
+                        <PlayCircle className="h-5 w-5" />
+                        See how it works
+                    </a>
+                </div>
 
-
-                        <ul className="font-sans-landing space-y-3 mb-8 animate-reveal-delay-3">
-                            {bullets.map((item, i) => (
-                                <li key={i} className="flex items-center gap-3 text-[var(--landing-navy)]/80">
-                                    <svg className="w-5 h-5 text-[var(--landing-green)] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-
-                        {/* Simplified CTA - no email required */}
-                        <div className="animate-reveal-delay-4">
-                            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                                {user ? (
-                                    <Link
-                                        href="/learn"
-                                        className="cta-primary px-8 py-4 text-white rounded-full font-semibold font-sans-landing cursor-pointer text-lg shadow-lg hover:shadow-xl transition-shadow"
-                                    >
-                                        Continue Practice
-                                    </Link>
-                                ) : (
-                                    <Link
-                                        href="/try"
-                                        className="cta-primary px-8 py-4 text-white rounded-full font-semibold font-sans-landing cursor-pointer text-lg shadow-lg hover:shadow-xl transition-shadow"
-                                    >
-                                        Try Free Exam
-                                    </Link>
-                                )}
+                {/* PLACEHOLDER — social proof */}
+                <div className="flex items-center gap-4">
+                    <div className="flex">
+                        {[
+                            { bg: "#E8632B", letter: "M" },
+                            { bg: "#3B6BCC", letter: "S" },
+                            { bg: "#2D8F5E", letter: "J" },
+                            { bg: "#B8860B", letter: "A" },
+                            { bg: "#8B5CF6", letter: "K" },
+                        ].map((avatar, i) => (
+                            <div
+                                key={i}
+                                className="w-9 h-9 rounded-full border-[2.5px] border-[var(--cream)] flex items-center justify-center text-[0.75rem] font-semibold text-white"
+                                style={{ background: avatar.bg, marginLeft: i === 0 ? 0 : -10 }}
+                            >
+                                {avatar.letter}
                             </div>
-                            <p className="font-sans-landing text-sm text-[var(--landing-navy)]/50 mt-3 flex items-center gap-4">
-                                <span className="flex items-center gap-1.5">
-                                    <svg className="w-4 h-4 text-[var(--landing-green)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    No credit card required
-                                </span>
-                                <span className="flex items-center gap-1.5">
-                                    <svg className="w-4 h-4 text-[var(--landing-green)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    See your score instantly
-                                </span>
-                            </p>
+                        ))}
+                    </div>
+                    <div className="text-[0.88rem] text-[var(--ink-muted)] leading-[1.4]">
+                        {/* PLACEHOLDER */}
+                        <strong className="text-[var(--ink)] font-semibold">94% pass rate</strong> among users who completed<br />all practice modules
+                    </div>
+                </div>
+            </div>
+
+            {/* Right column — Product mockup */}
+            <div className="relative hidden lg:block animate-reveal-delay-2">
+                {/* Floating score card */}
+                {/* PLACEHOLDER — score stat */}
+                <div className="absolute top-[20%] right-[-30px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2.5 animate-[float_4s_ease-in-out_infinite_0.5s]">
+                    <div className="w-11 h-11 rounded-full border-[3px] border-[var(--green)] flex items-center justify-center font-bold text-[0.85rem] text-[var(--green)]">
+                        87%
+                    </div>
+                    <div>
+                        <div className="text-[0.78rem] font-semibold text-[var(--ink)] leading-[1.3]">Exam ready</div>
+                        <div className="text-[0.72rem] text-[var(--ink-muted)]">Reading section</div>
+                    </div>
+                </div>
+
+                {/* Floating streak card */}
+                {/* PLACEHOLDER — streak stat */}
+                <div className="absolute bottom-[15%] left-[-25px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2 animate-[float_4s_ease-in-out_infinite_1.5s]">
+                    <span className="text-[1.3rem]">🔥</span>
+                    <div>
+                        <div className="text-[0.78rem] font-semibold text-[var(--ink)] leading-[1.3]">12-day streak</div>
+                        <div className="text-[0.72rem] text-[var(--ink-muted)]">Keep it going!</div>
+                    </div>
+                </div>
+
+                {/* Browser mockup */}
+                <div className="bg-white rounded-[20px] shadow-[0_20px_80px_rgba(26,26,46,0.10),0_1px_3px_rgba(26,26,46,0.06)] overflow-hidden [transform:perspective(1000px)_rotateY(-3deg)_rotateX(1deg)] hover:[transform:perspective(1000px)_rotateY(0deg)_rotateX(0deg)] transition-transform duration-400">
+                    {/* Browser chrome bar */}
+                    <div className="bg-[var(--cream-dark)] px-5 py-3.5 flex items-center gap-2">
+                        <div className="w-2.5 h-2.5 rounded-full bg-[#ff6058]" />
+                        <div className="w-2.5 h-2.5 rounded-full bg-[#ffbd2e]" />
+                        <div className="w-2.5 h-2.5 rounded-full bg-[#27ca40]" />
+                        <div className="flex-1 text-center text-[0.78rem] text-[var(--ink-muted)] bg-white px-4 py-1.5 rounded-md ml-3">
+                            passinburgering.com/practice
                         </div>
                     </div>
 
-                    {/* Right column — static KNM practice card */}
-                    <div className="hidden lg:flex lg:justify-center animate-reveal-delay-3">
-                        <div className="landing-card rounded-2xl p-8 max-w-md shadow-xl">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="w-10 h-10 rounded-xl bg-[var(--landing-orange)]/10 flex items-center justify-center text-[var(--landing-orange)]">
-                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <div className="font-sans-landing font-semibold text-[var(--landing-navy)]">KNM Practice Exam</div>
-                                    <div className="font-sans-landing text-xs text-[var(--landing-navy)]/50">Question 3 of 12</div>
-                                </div>
-                            </div>
+                    {/* Mockup body */}
+                    <div className="p-8">
+                        <div className="flex items-center justify-between mb-5">
+                            <span className="text-[0.72rem] font-semibold px-3 py-1 rounded-full tracking-[0.04em] uppercase bg-[var(--blue-soft)] text-[var(--blue)]">
+                                Reading
+                            </span>
+                            <span className="text-[0.78rem] text-[var(--ink-muted)] font-medium">Question 7 / 20</span>
+                        </div>
 
-                            <p className="font-sans-landing text-[var(--landing-navy)] mb-5 leading-relaxed">
-                                Wat moet je doen als je het niet eens bent met een beslissing van de gemeente?
-                            </p>
+                        <div className="text-[1.05rem] font-semibold text-[var(--ink)] mb-1.5 leading-[1.5]">
+                            What does the municipality send you after registration?
+                        </div>
+                        <div className="text-[0.92rem] text-[var(--ink-muted)] italic mb-5 pb-[18px] border-b border-[#f0ede6]">
+                            &ldquo;Wat stuurt de gemeente u na inschrijving?&rdquo;
+                        </div>
 
-                            <div className="space-y-3">
-                                {[
-                                    "Naar het politiebureau gaan",
-                                    "Een bezwaar indienen",
-                                    "Contact opnemen met je ambassade",
-                                    "Een brief schrijven aan de Koning",
-                                ].map((option, i) => (
+                        <div className="space-y-2.5">
+                            {[
+                                { letter: "A", text: "A passport", correct: false },
+                                { letter: "B", text: "A letter with your BSN number", correct: true },
+                                { letter: "C", text: "A residence permit", correct: false },
+                                { letter: "D", text: "A DigiD login code", correct: false },
+                            ].map((opt) => (
+                                <div
+                                    key={opt.letter}
+                                    className={`flex items-center gap-3 px-[18px] py-3.5 rounded-[10px] border-[1.5px] text-[0.92rem] ${
+                                        opt.correct
+                                            ? "border-[var(--green)] bg-[var(--green-soft)] text-[var(--green)] font-semibold"
+                                            : "border-[#ebe8e0] text-[var(--ink-soft)]"
+                                    }`}
+                                >
                                     <div
-                                        key={i}
-                                        className={`font-sans-landing text-sm px-4 py-3 rounded-xl border transition-colors ${i === 1
-                                            ? "border-[var(--landing-green)] bg-[var(--landing-green)]/5 text-[var(--landing-green)]"
-                                            : "border-gray-200 text-[var(--landing-navy)]/70"
-                                            }`}
+                                        className={`w-[26px] h-[26px] rounded-full flex items-center justify-center text-[0.78rem] font-bold shrink-0 ${
+                                            opt.correct ? "bg-[var(--green)] text-white" : "bg-[var(--cream-dark)]"
+                                        }`}
                                     >
-                                        <span className="font-medium mr-2">{String.fromCharCode(65 + i)}.</span>
-                                        {option}
+                                        {opt.correct ? <Check className="h-3 w-3" /> : opt.letter}
                                     </div>
-                                ))}
+                                    {opt.text}
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="flex justify-between items-center mt-5 pt-[18px] border-t border-[#f0ede6]">
+                            <div className="text-[0.82rem] text-[var(--ink-muted)] flex items-center gap-1.5">
+                                <Clock className="h-3.5 w-3.5" />
+                                14:32 remaining
                             </div>
+                            <button className="bg-[var(--accent)] text-white px-5 py-2.5 rounded-full text-[0.82rem] font-semibold">
+                                Next question →
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
+        </section>
     );
 }

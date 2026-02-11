@@ -52,7 +52,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -73,16 +73,16 @@ export default async function BlogPostPage({
         }}
       />
 
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/blog"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+            <h1 className="text-xl font-bold text-[var(--ink)]">
               Blog
             </h1>
           </div>
@@ -91,7 +91,7 @@ export default async function BlogPostPage({
 
       <article className="flex-1 container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
-          <p className="font-sans-landing text-sm text-[var(--landing-navy)]/40 mb-4">
+          <p className="text-sm text-[var(--ink)]/40 mb-4">
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",

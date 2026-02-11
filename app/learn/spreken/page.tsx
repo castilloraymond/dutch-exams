@@ -26,19 +26,19 @@ export default function SprekenPage() {
   const { progress } = useProgress();
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/learn"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
             <div className="flex items-center gap-2">
-              <Mic className="h-5 w-5 text-[var(--landing-orange)]" />
-              <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+              <Mic className="h-5 w-5 text-[var(--accent)]" />
+              <h1 className="text-xl font-bold text-[var(--ink)]">
                 Spreken
               </h1>
             </div>
@@ -49,10 +49,10 @@ export default function SprekenPage() {
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
           <div>
-            <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)] mb-2">
+            <h2 className="text-2xl font-bold text-[var(--ink)] mb-2">
               Spreekoefeningen
             </h2>
-            <p className="text-[var(--landing-navy)]/60">
+            <p className="text-[var(--ink)]/60">
               Oefen je Nederlandse spreekvaardigheid met opnameoefeningen per examendeel.
             </p>
           </div>
@@ -60,8 +60,8 @@ export default function SprekenPage() {
           <MockupNote />
 
           {/* Info banner */}
-          <div className="bg-[var(--landing-orange)]/10 border border-[var(--landing-orange)]/30 rounded-lg p-4">
-            <p className="text-sm text-[var(--landing-navy)]">
+          <div className="bg-[var(--accent)]/10 border border-[var(--accent)]/30 rounded-lg p-4">
+            <p className="text-sm text-[var(--ink)]">
               <span className="font-semibold">Tip:</span> Use a quiet environment
               for the best recording quality. Speak clearly and at a normal pace.
             </p>
@@ -76,8 +76,8 @@ export default function SprekenPage() {
                 <Link key={task.id} href={`/learn/spreken/${task.id}`}>
                   <div className="landing-card p-4 sm:p-6 cursor-pointer mb-4 hover:shadow-lg transition-shadow">
                     <div className="flex items-center gap-4">
-                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center relative">
-                        <Icon className="h-6 w-6 text-[var(--landing-orange)]" />
+                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--accent)]/10 flex items-center justify-center relative">
+                        <Icon className="h-6 w-6 text-[var(--accent)]" />
                         {isCompleted && (
                           <div className="absolute -top-1 -right-1 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
                             <Check className="h-3 w-3 text-white" />
@@ -86,17 +86,17 @@ export default function SprekenPage() {
                       </div>
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-navy)]/10 text-[var(--landing-navy)]/70">
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/10 text-[var(--ink)]/70">
                             Deel {task.partNumber}
                           </span>
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-navy)]/10 text-[var(--landing-navy)]/70">
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/10 text-[var(--ink)]/70">
                             {task.difficulty}
                           </span>
                         </div>
-                        <h3 className="font-semibold text-lg text-[var(--landing-navy)]">
+                        <h3 className="font-semibold text-lg text-[var(--ink)]">
                           {task.partTitleNl}
                         </h3>
-                        <p className="text-sm text-[var(--landing-navy)]/60">
+                        <p className="text-sm text-[var(--ink)]/60">
                           {partDescriptions[task.partNumber]}
                         </p>
                         <div className="flex items-center gap-2 mt-2">
@@ -113,7 +113,7 @@ export default function SprekenPage() {
           </div>
 
           {/* Pro upsell */}
-          <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+          <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90 text-white">
             <h3 className="font-bold text-lg mb-2">
               Wil je AI-feedback op je uitspraak?
             </h3>
@@ -121,7 +121,7 @@ export default function SprekenPage() {
               Pro-leden krijgen hun spraak getranscribeerd en geanalyseerd op
               grammatica, woordkeus en samenhang.
             </p>
-            <Link href="/upgrade" className="inline-block bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
+            <Link href="/upgrade" className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
               Upgrade naar Pro
             </Link>
           </div>

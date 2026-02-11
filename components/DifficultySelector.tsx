@@ -17,22 +17,22 @@ const moduleConfig = {
     title: "Lezen",
     subtitle: "Kies je niveau",
     icon: BookOpen,
-    color: "text-[var(--landing-orange)]",
-    bgColor: "bg-[var(--landing-orange)]/10",
+    color: "text-[var(--accent)]",
+    bgColor: "bg-[var(--accent)]/10",
   },
   knm: {
     title: "KNM",
     subtitle: "Kies je niveau",
     icon: Landmark,
-    color: "text-[var(--landing-orange)]",
-    bgColor: "bg-[var(--landing-orange)]/10",
+    color: "text-[var(--accent)]",
+    bgColor: "bg-[var(--accent)]/10",
   },
   luisteren: {
     title: "Luisteren",
     subtitle: "Kies je niveau",
     icon: Headphones,
-    color: "text-[var(--landing-orange)]",
-    bgColor: "bg-[var(--landing-orange)]/10",
+    color: "text-[var(--accent)]",
+    bgColor: "bg-[var(--accent)]/10",
   },
 };
 
@@ -56,19 +56,19 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
   const a2Exams = exams.filter((e) => e.difficulty === "A2");
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/learn"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors cursor-pointer"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors cursor-pointer"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
             <div className="flex items-center gap-2">
               <Icon className={`h-5 w-5 ${config.color}`} />
-              <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+              <h1 className="text-xl font-bold text-[var(--ink)]">
                 {config.title}
               </h1>
             </div>
@@ -82,10 +82,10 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
             <div className={`w-16 h-16 mx-auto rounded-full ${config.bgColor} flex items-center justify-center mb-4`}>
               <Icon className={`h-8 w-8 ${config.color}`} />
             </div>
-            <h2 className="text-2xl font-bold font-serif text-[var(--landing-navy)] mb-2">
+            <h2 className="text-2xl font-bold text-[var(--ink)] mb-2">
               {config.subtitle}
             </h2>
-            <p className="text-[var(--landing-navy)]/60">
+            <p className="text-[var(--ink)]/60">
               Selecteer een examenniveau en oefentoets
             </p>
           </div>
@@ -96,14 +96,14 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
             {/* A1 Section */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-green)]/10 text-[var(--landing-green)]">
+                <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--green)]/10 text-[var(--green)]">
                   A1
                 </span>
                 <div>
-                  <h3 className="font-semibold text-[var(--landing-navy)]">
+                  <h3 className="font-semibold text-[var(--ink)]">
                     {difficultyInfo.A1.title}
                   </h3>
-                  <p className="text-sm text-[var(--landing-navy)]/60">
+                  <p className="text-sm text-[var(--ink)]/60">
                     {difficultyInfo.A1.description}
                   </p>
                 </div>
@@ -124,14 +124,14 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
             {/* A2 Section */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)]">
+                <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
                   A2
                 </span>
                 <div>
-                  <h3 className="font-semibold text-[var(--landing-navy)]">
+                  <h3 className="font-semibold text-[var(--ink)]">
                     {difficultyInfo.A2.title}
                   </h3>
-                  <p className="text-sm text-[var(--landing-navy)]/60">
+                  <p className="text-sm text-[var(--ink)]/60">
                     {difficultyInfo.A2.description}
                   </p>
                 </div>

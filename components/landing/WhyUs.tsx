@@ -1,93 +1,81 @@
-export function WhyUs() {
-    const features = [
-        {
-            icon: (
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                </svg>
-            ),
-            title: "450+ Practice Questions",
-            description: "Comprehensive question bank covering every topic across all 5 exam modules. Drill until you've mastered each one.",
-        },
-        {
-            icon: (
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-            ),
-            title: "14 Full-Length Mock Exams",
-            description: "Timed practice tests for KNM, Reading, and Listening that replicate the real DUO exam format.",
-        },
-        {
-            icon: (
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            ),
-            title: "Instant Scoring & Explanations",
-            description: "Get your score immediately. Review detailed explanations for every question to learn from mistakes.",
-        },
-        {
-            icon: (
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-            ),
-            title: "Exam-Realistic Interface",
-            description: "Practice on an interface modeled after the official DUO computer-based test — same layout and question types.",
-        },
-        {
-            icon: (
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-            ),
-            title: "Progress Tracking",
-            description: "See exactly where you stand across all modules. Know when you're ready to book your exam.",
-        },
-        {
-            icon: (
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            ),
-            title: "Study on Your Schedule",
-            description: "Desktop, tablet, and mobile. Study at midnight, during lunch, or on the train — 20 minutes is enough.",
-        },
-    ];
-
+export function Features() {
     return (
-        <section className="py-20 bg-gradient-to-b from-white to-[var(--landing-cream)]">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center mb-14">
-                    <span className="font-sans-landing inline-block text-xs font-medium tracking-wide uppercase text-[var(--landing-orange)] bg-[var(--landing-orange)]/10 px-3 py-1.5 rounded-full mb-4">
-                        Complete Exam Prep
-                    </span>
-                    <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)]">
-                        Everything You Need to Pass — Nothing You Don't
-                    </h2>
+        <section className="py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal" id="features">
+            <div className="text-[0.8rem] font-semibold text-[var(--blue)] uppercase tracking-[0.1em] mb-4">
+                Features
+            </div>
+            <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
+                Everything you need,<br className="hidden sm:block" /> nothing you don&apos;t
+            </h2>
+            <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
+                Purpose-built for busy professionals who want efficient, focused exam prep.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Regular feature cards */}
+                {[
+                    {
+                        emoji: "🎯",
+                        title: "Exam-identical questions",
+                        description: "Every question mirrors the actual DUO exam format — reading comprehension, KNM society knowledge, listening exercises. No surprises on test day.",
+                    },
+                    {
+                        emoji: "📊",
+                        title: "Readiness dashboard",
+                        description: "Track your progress across all exam sections. See exactly where you stand, what to focus on, and when you're statistically ready to pass.",
+                    },
+                ].map((feature, i) => (
+                    <div
+                        key={i}
+                        className="bg-white rounded-[16px] p-10 border border-[#ebe8e0] hover:shadow-[var(--shadow-hover)] hover:border-transparent transition-all duration-300"
+                    >
+                        <span className="text-[1.8rem] block mb-5">{feature.emoji}</span>
+                        <h3 className="text-[1.2rem] font-bold text-[var(--ink)] mb-2.5">{feature.title}</h3>
+                        <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">{feature.description}</p>
+                    </div>
+                ))}
+
+                {/* Highlight card — AI explanations */}
+                <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-[var(--ink)] rounded-[16px] p-10 border border-transparent">
+                    <div>
+                        <span className="text-[1.8rem] block mb-5">🤖</span>
+                        <h3 className="text-[1.2rem] font-bold text-white mb-2.5">AI-powered explanations</h3>
+                        <p className="text-[0.92rem] text-white/70 leading-[1.65]">
+                            Stuck on a question? Get instant, contextual explanations in English. Understand not just the right answer, but the Dutch cultural context behind it.
+                        </p>
+                    </div>
+                    <div className="bg-white/[0.08] rounded-[10px] p-7 flex flex-col gap-3">
+                        <div className="bg-[var(--accent)] text-white px-[18px] py-3 rounded-[14px] rounded-br-[4px] text-[0.88rem] leading-[1.5] max-w-[85%] self-end">
+                            Why is answer B correct? I thought Dutch people go to the huisarts first?
+                        </div>
+                        <div className="bg-white/[0.12] text-white/90 px-[18px] py-3 rounded-[14px] rounded-bl-[4px] text-[0.88rem] leading-[1.5] max-w-[85%] self-start">
+                            Great question! In the Netherlands, the huisarts is indeed your first stop for most health issues. Answer B is correct because for emergencies you call 112, but for urgent non-emergency care, you contact the huisartsenpost (GP post)...
+                        </div>
+                    </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {features.map((feature, i) => (
-                        <div
-                            key={i}
-                            className="flex items-start gap-4 p-6 bg-white rounded-2xl border border-[var(--landing-navy)]/5 hover:border-[var(--landing-orange)]/30 hover:shadow-lg transition-all duration-300"
-                        >
-                            <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[var(--landing-orange)]/10 flex items-center justify-center text-[var(--landing-orange)]">
-                                {feature.icon}
-                            </div>
-                            <div>
-                                <h3 className="font-sans-landing font-semibold text-[var(--landing-navy)] mb-1">
-                                    {feature.title}
-                                </h3>
-                                <p className="font-sans-landing text-sm text-[var(--landing-navy)]/60 leading-relaxed">
-                                    {feature.description}
-                                </p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+                {/* More regular cards */}
+                {[
+                    {
+                        emoji: "🇳🇱",
+                        title: "KNM deep-dives",
+                        description: "The Knowledge of Dutch Society section trips up most expats. Our targeted modules cover Dutch customs, government, healthcare, and daily life with real scenarios.",
+                    },
+                    {
+                        emoji: "⚡",
+                        title: "20 minutes a day is enough",
+                        description: "Bite-sized practice sessions designed for busy schedules. Commute, lunch break, before bed — fit prep into the gaps in your day.",
+                    },
+                ].map((feature, i) => (
+                    <div
+                        key={i}
+                        className="bg-white rounded-[16px] p-10 border border-[#ebe8e0] hover:shadow-[var(--shadow-hover)] hover:border-transparent transition-all duration-300"
+                    >
+                        <span className="text-[1.8rem] block mb-5">{feature.emoji}</span>
+                        <h3 className="text-[1.2rem] font-bold text-[var(--ink)] mb-2.5">{feature.title}</h3>
+                        <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">{feature.description}</p>
+                    </div>
+                ))}
             </div>
         </section>
     );

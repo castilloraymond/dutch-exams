@@ -93,34 +93,34 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
 
   if (!task) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="text-[var(--landing-navy)]">Opdracht niet gevonden</div>
+      <div className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="text-[var(--ink)]">Opdracht niet gevonden</div>
       </div>
     );
   }
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       {/* Header */}
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link
                 href="/learn/schrijven"
-                className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
               >
                 <ArrowLeft className="h-5 w-5" />
               </Link>
               <div className="flex items-center gap-2">
-                <PenLine className="h-5 w-5 text-[var(--landing-orange)]" />
-                <h1 className="text-lg font-bold font-sans-landing text-[var(--landing-navy)]">
+                <PenLine className="h-5 w-5 text-[var(--accent)]" />
+                <h1 className="text-lg font-bold text-[var(--ink)]">
                   {task.title}
                 </h1>
               </div>
             </div>
             {stage === "writing" && (
-              <div className="flex items-center gap-2 text-[var(--landing-navy)]/60">
+              <div className="flex items-center gap-2 text-[var(--ink)]/60">
                 <Clock className="h-4 w-4" />
                 <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
               </div>
@@ -134,27 +134,27 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
           {stage === "writing" && (
             <div className="space-y-6">
               {/* Scenario */}
-              <div className="landing-card p-4 bg-[var(--landing-navy)]/5">
-                <p className="text-[var(--landing-navy)] mb-2">{task.scenario}</p>
-                <p className="text-sm text-[var(--landing-navy)]/60 italic">
+              <div className="landing-card p-4 bg-[var(--ink)]/5">
+                <p className="text-[var(--ink)] mb-2">{task.scenario}</p>
+                <p className="text-sm text-[var(--ink)]/60 italic">
                   {task.scenarioEn}
                 </p>
               </div>
 
               {/* Prompt */}
               <div>
-                <h2 className="font-bold text-[var(--landing-navy)] mb-2">
+                <h2 className="font-bold text-[var(--ink)] mb-2">
                   {task.prompt}
                 </h2>
-                <p className="text-sm text-[var(--landing-navy)]/60">
+                <p className="text-sm text-[var(--ink)]/60">
                   {task.promptEn}
                 </p>
               </div>
 
               {/* Form reminder for form tasks */}
               {task.taskType === "form" && (
-                <div className="bg-[var(--landing-orange)]/10 border border-[var(--landing-orange)]/30 rounded-lg p-4">
-                  <p className="text-sm text-[var(--landing-navy)]">
+                <div className="bg-[var(--accent)]/10 border border-[var(--accent)]/30 rounded-lg p-4">
+                  <p className="text-sm text-[var(--ink)]">
                     <span className="font-semibold">Tip:</span> Op het echte examen
                     schrijf je met de hand op papier. Oefen ook je Nederlandse
                     handschrift!
@@ -182,7 +182,7 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
               <button
                 onClick={handleSubmit}
                 disabled={isSubmitDisabled}
-                className="w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
                 Versturen
               </button>

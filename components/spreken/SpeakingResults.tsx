@@ -112,7 +112,7 @@ export function SpeakingResults({
 
       {/* Recording time / summary */}
       <div className="landing-card p-4">
-        <div className="flex items-center justify-center gap-4 text-[var(--landing-navy)]/60">
+        <div className="flex items-center justify-center gap-4 text-[var(--ink)]/60">
           <div className="flex items-center gap-2">
             <Clock className="h-4 w-4" />
             <span>Recording: {formatTime(recordingTime)}</span>
@@ -126,7 +126,7 @@ export function SpeakingResults({
       </div>
 
       {/* Conversion hook - Want to know how you did? */}
-      <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--landing-navy)] to-[var(--landing-navy)]/90 text-white">
+      <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90 text-white">
         <div className="flex items-start gap-4">
           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
             <Lock className="h-5 w-5" />
@@ -138,7 +138,7 @@ export function SpeakingResults({
             <p className="text-white/80 text-sm mb-4">
               Pro members get their speech transcribed and analyzed for grammar, word choice, and coherence.
             </p>
-            <Link href="/upgrade" className="inline-block bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
+            <Link href="/upgrade" className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
               Upgrade naar Pro
             </Link>
           </div>
@@ -148,7 +148,7 @@ export function SpeakingResults({
       {/* Multi-question summary */}
       {isMultiQuestion ? (
         <div className="space-y-4">
-          <h3 className="font-bold text-[var(--landing-navy)]">
+          <h3 className="font-bold text-[var(--ink)]">
             Your Answers & Model Answers
           </h3>
 
@@ -165,17 +165,17 @@ export function SpeakingResults({
                   className="w-full p-4 flex items-center justify-between text-left cursor-pointer"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center text-sm font-medium text-[var(--landing-orange)]">
+                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[var(--accent)]/10 flex items-center justify-center text-sm font-medium text-[var(--accent)]">
                       {idx + 1}
                     </span>
-                    <span className="text-sm font-medium text-[var(--landing-navy)]">
+                    <span className="text-sm font-medium text-[var(--ink)]">
                       {q.questionNl}
                     </span>
                   </div>
                   {isExpanded ? (
-                    <ChevronUp className="h-4 w-4 text-[var(--landing-navy)]/60" />
+                    <ChevronUp className="h-4 w-4 text-[var(--ink)]/60" />
                   ) : (
-                    <ChevronDown className="h-4 w-4 text-[var(--landing-navy)]/60" />
+                    <ChevronDown className="h-4 w-4 text-[var(--ink)]/60" />
                   )}
                 </button>
 
@@ -183,10 +183,10 @@ export function SpeakingResults({
                   <div className="px-4 pb-4 space-y-3">
                     {/* User's recording for this question */}
                     {qAudioUrl && (
-                      <div className="p-3 rounded-lg bg-[var(--landing-navy)]/5">
+                      <div className="p-3 rounded-lg bg-[var(--ink)]/5">
                         <div className="flex items-center gap-2 mb-2">
-                          <Volume2 className="h-3 w-3 text-[var(--landing-navy)]/60" />
-                          <span className="text-xs font-medium text-[var(--landing-navy)]/60">Your Recording</span>
+                          <Volume2 className="h-3 w-3 text-[var(--ink)]/60" />
+                          <span className="text-xs font-medium text-[var(--ink)]/60">Your Recording</span>
                         </div>
                         <audio controls src={qAudioUrl} className="w-full" />
                       </div>
@@ -206,10 +206,10 @@ export function SpeakingResults({
                           Listen
                         </button>
                       </div>
-                      <p className="text-sm text-[var(--landing-navy)]">
+                      <p className="text-sm text-[var(--ink)]">
                         {q.modelAnswer.transcriptNl}
                       </p>
-                      <p className="text-xs text-[var(--landing-navy)]/60 italic mt-1">
+                      <p className="text-xs text-[var(--ink)]/60 italic mt-1">
                         {q.modelAnswer.transcript}
                       </p>
                     </div>
@@ -222,16 +222,16 @@ export function SpeakingResults({
       ) : (
         /* Single-question: Your recording vs Model answer */
         <div className="landing-card p-6">
-          <h3 className="font-bold text-[var(--landing-navy)] mb-4">
+          <h3 className="font-bold text-[var(--ink)] mb-4">
             Compare with Model Answer
           </h3>
 
           <div className="grid md:grid-cols-2 gap-4">
             {/* User's recording */}
-            <div className="p-4 rounded-lg bg-[var(--landing-navy)]/5">
+            <div className="p-4 rounded-lg bg-[var(--ink)]/5">
               <div className="flex items-center gap-2 mb-3">
-                <Volume2 className="h-4 w-4 text-[var(--landing-navy)]/60" />
-                <span className="text-sm font-medium text-[var(--landing-navy)]/60">
+                <Volume2 className="h-4 w-4 text-[var(--ink)]/60" />
+                <span className="text-sm font-medium text-[var(--ink)]/60">
                   Your Recording
                 </span>
               </div>
@@ -256,7 +256,7 @@ export function SpeakingResults({
           </div>
 
           {/* Transcript shown by default */}
-          <div className="mt-4 pt-4 border-t border-[var(--landing-navy)]/10">
+          <div className="mt-4 pt-4 border-t border-[var(--ink)]/10">
             <div className="p-4 rounded-lg bg-green-50 border border-green-200">
               <div className="flex items-center gap-2 mb-2">
                 <FileText className="h-4 w-4 text-green-700" />
@@ -264,10 +264,10 @@ export function SpeakingResults({
                   Model Answer Text
                 </span>
               </div>
-              <p className="text-[var(--landing-navy)] mb-2">
+              <p className="text-[var(--ink)] mb-2">
                 {task.modelAnswer.transcriptNl}
               </p>
-              <p className="text-sm text-[var(--landing-navy)]/60 italic">
+              <p className="text-sm text-[var(--ink)]/60 italic">
                 {task.modelAnswer.transcript}
               </p>
             </div>
@@ -278,21 +278,21 @@ export function SpeakingResults({
       {/* Tips section */}
       <div className="landing-card p-6">
         <div className="flex items-center gap-2 mb-4">
-          <Lightbulb className="h-5 w-5 text-[var(--landing-orange)]" />
-          <h3 className="font-bold text-[var(--landing-navy)]">Tips</h3>
+          <Lightbulb className="h-5 w-5 text-[var(--accent)]" />
+          <h3 className="font-bold text-[var(--ink)]">Tips</h3>
         </div>
         <ul className="space-y-2">
           {task.tips.map((tip, index) => (
             <li
               key={index}
-              className="flex items-start gap-2 text-sm text-[var(--landing-navy)]"
+              className="flex items-start gap-2 text-sm text-[var(--ink)]"
             >
               <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
               <span>{tip}</span>
             </li>
           ))}
         </ul>
-        <p className="text-sm text-[var(--landing-navy)]/60 mt-4 italic">
+        <p className="text-sm text-[var(--ink)]/60 mt-4 italic">
           Pro members get personalized tips based on their specific mistakes.
         </p>
       </div>
@@ -304,7 +304,7 @@ export function SpeakingResults({
             <Lock className="h-4 w-4 text-gray-500" />
           </div>
           <h3 className="font-bold text-gray-500">AI Analysis</h3>
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-orange)] text-white">
+          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--accent)] text-white">
             Pro
           </span>
         </div>
@@ -322,7 +322,7 @@ export function SpeakingResults({
             <div className="h-4 bg-gray-300 rounded w-16"></div>
           </div>
         </div>
-        <Link href="/upgrade" className="block w-full bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
+        <Link href="/upgrade" className="block w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
           Unlock with Pro
         </Link>
       </div>
@@ -331,13 +331,13 @@ export function SpeakingResults({
       <div className="flex flex-col sm:flex-row gap-3">
         <button
           onClick={onRetry}
-          className="flex-1 border-2 border-[var(--landing-navy)] text-[var(--landing-navy)] hover:bg-[var(--landing-navy)] hover:text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
+          className="flex-1 border-2 border-[var(--ink)] text-[var(--ink)] hover:bg-[var(--ink)] hover:text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
         >
           Try Again
         </button>
         <Link
           href="/learn/spreken"
-          className="flex-1 bg-[var(--landing-orange)] hover:bg-[var(--landing-orange)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
+          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
         >
           Another Part
         </Link>

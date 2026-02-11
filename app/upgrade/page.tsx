@@ -5,17 +5,17 @@ import { ArrowLeft, Crown, Mic, PenLine, Brain, Sparkles } from "lucide-react";
 
 export default function UpgradePage() {
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/learn"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+            <h1 className="text-xl font-bold text-[var(--ink)]">
               Pro
             </h1>
           </div>
@@ -24,53 +24,53 @@ export default function UpgradePage() {
 
       <section className="flex-1 container mx-auto px-4 py-12">
         <div className="max-w-md mx-auto text-center space-y-8">
-          <div className="w-20 h-20 mx-auto rounded-full bg-[var(--landing-orange)]/10 flex items-center justify-center">
-            <Crown className="h-10 w-10 text-[var(--landing-orange)]" />
+          <div className="w-20 h-20 mx-auto rounded-full bg-[var(--accent)]/10 flex items-center justify-center">
+            <Crown className="h-10 w-10 text-[var(--accent)]" />
           </div>
 
           <div>
-            <h2 className="text-3xl font-bold font-serif text-[var(--landing-navy)] mb-3">
+            <h2 className="text-3xl font-bold text-[var(--ink)] mb-3">
               Pro Coming Soon
             </h2>
-            <p className="text-[var(--landing-navy)]/60">
+            <p className="text-[var(--ink)]/60">
               We&apos;re building powerful AI features to help you pass your exam.
             </p>
           </div>
 
           <div className="landing-card p-6 text-left space-y-4">
             <div className="flex items-start gap-3">
-              <Mic className="h-5 w-5 text-[var(--landing-orange)] mt-0.5 flex-shrink-0" />
+              <Mic className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-medium text-[var(--landing-navy)]">Speech Analysis</p>
-                <p className="text-sm text-[var(--landing-navy)]/60">AI transcription and feedback on pronunciation, grammar, and coherence.</p>
+                <p className="font-medium text-[var(--ink)]">Speech Analysis</p>
+                <p className="text-sm text-[var(--ink)]/60">AI transcription and feedback on pronunciation, grammar, and coherence.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <PenLine className="h-5 w-5 text-[var(--landing-orange)] mt-0.5 flex-shrink-0" />
+              <PenLine className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-medium text-[var(--landing-navy)]">Writing Feedback</p>
-                <p className="text-sm text-[var(--landing-navy)]/60">Personalized tips on grammar, vocabulary, and writing style.</p>
+                <p className="font-medium text-[var(--ink)]">Writing Feedback</p>
+                <p className="text-sm text-[var(--ink)]/60">Personalized tips on grammar, vocabulary, and writing style.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Brain className="h-5 w-5 text-[var(--landing-orange)] mt-0.5 flex-shrink-0" />
+              <Brain className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-medium text-[var(--landing-navy)]">Personalized Tips</p>
-                <p className="text-sm text-[var(--landing-navy)]/60">Feedback based on your specific mistakes and weaknesses.</p>
+                <p className="font-medium text-[var(--ink)]">Personalized Tips</p>
+                <p className="text-sm text-[var(--ink)]/60">Feedback based on your specific mistakes and weaknesses.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Sparkles className="h-5 w-5 text-[var(--landing-orange)] mt-0.5 flex-shrink-0" />
+              <Sparkles className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-medium text-[var(--landing-navy)]">All Content Unlocked</p>
-                <p className="text-sm text-[var(--landing-navy)]/60">Access every exercise across all five modules.</p>
+                <p className="font-medium text-[var(--ink)]">All Content Unlocked</p>
+                <p className="text-sm text-[var(--ink)]/60">Access every exercise across all five modules.</p>
               </div>
             </div>
           </div>
 
           <Link
             href="/learn"
-            className="inline-block bg-[var(--landing-navy)] hover:bg-[var(--landing-navy)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+            className="inline-block bg-[var(--ink)] hover:bg-[var(--ink)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors"
           >
             Back to Practice
           </Link>

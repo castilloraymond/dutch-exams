@@ -51,12 +51,12 @@ export function AudioRecorder({
       </div>
 
       {/* Status text */}
-      <p className="text-lg font-medium text-[var(--landing-navy)] mb-2">
+      <p className="text-lg font-medium text-[var(--ink)] mb-2">
         {isRecording ? "Opname loopt..." : "Opname gestopt"}
       </p>
 
       {/* Timer */}
-      <div className="text-3xl font-mono font-bold text-[var(--landing-navy)] mb-4">
+      <div className="text-3xl font-mono font-bold text-[var(--ink)] mb-4">
         {formatTime(recordingTime)}
       </div>
 
@@ -64,12 +64,12 @@ export function AudioRecorder({
       <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden mb-4">
         <div
           className={`h-full transition-all duration-300 ${
-            progress >= 100 ? "bg-orange-500" : "bg-[var(--landing-orange)]"
+            progress >= 100 ? "bg-orange-500" : "bg-[var(--accent)]"
           }`}
           style={{ width: `${progress}%` }}
         />
       </div>
-      <p className="text-xs text-[var(--landing-navy)]/60 mb-6">
+      <p className="text-xs text-[var(--ink)]/60 mb-6">
         Aanbevolen: {formatTime(recommendedDuration)}
       </p>
 

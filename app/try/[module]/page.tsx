@@ -211,8 +211,8 @@ export default function QuizPage() {
 
   if (isLoading || questions.length === 0) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-[var(--landing-cream)]">
-        <div className="text-[var(--landing-navy)]/60">Loading...</div>
+      <main className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
+        <div className="text-[var(--ink)]/60">Loading...</div>
       </main>
     );
   }
@@ -221,37 +221,37 @@ export default function QuizPage() {
   const moduleInfo = getQuickAssessmentModules().find((m) => m.module === module);
 
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       {/* Header */}
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link
                 href="/try"
-                className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
               >
                 <ArrowLeft className="h-5 w-5" />
               </Link>
               <div>
-                <h1 className="text-lg font-semibold font-sans-landing text-[var(--landing-navy)]">
+                <h1 className="text-lg font-semibold text-[var(--ink)]">
                   {moduleInfo?.name} Assessment
                 </h1>
-                <p className="text-xs text-[var(--landing-navy)]/50">
+                <p className="text-xs text-[var(--ink)]/50">
                   Question {currentIndex + 1} of {questions.length}
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-2 text-[var(--landing-navy)]/60">
+            <div className="flex items-center gap-2 text-[var(--ink)]/60">
               <Clock className="h-4 w-4" />
               <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
             </div>
           </div>
 
           {/* Progress bar */}
-          <div className="mt-3 h-1.5 bg-[var(--landing-navy)]/10 rounded-full overflow-hidden">
+          <div className="mt-3 h-1.5 bg-[var(--ink)]/10 rounded-full overflow-hidden">
             <div
-              className="h-full bg-[var(--landing-orange)] transition-all duration-300"
+              className="h-full bg-[var(--accent)] transition-all duration-300"
               style={{ width: `${((currentIndex + (showFeedback ? 1 : 0)) / questions.length) * 100}%` }}
             />
           </div>
@@ -262,13 +262,13 @@ export default function QuizPage() {
       {module === "lezen" && currentQuestion.context?.passageContent ? (
         <ExamLayout
           left={
-            <div className="landing-card p-6 bg-[var(--landing-navy)]/5 border-l-4 border-[var(--landing-orange)] h-full">
+            <div className="landing-card p-6 bg-[var(--ink)]/5 border-l-4 border-[var(--accent)] h-full">
               {currentQuestion.context.passageTitle && (
-                <h3 className="font-semibold text-[var(--landing-navy)] mb-3">
+                <h3 className="font-semibold text-[var(--ink)] mb-3">
                   {currentQuestion.context.passageTitle}
                 </h3>
               )}
-              <div className="text-[var(--landing-navy)]/80 leading-relaxed whitespace-pre-line text-sm">
+              <div className="text-[var(--ink)]/80 leading-relaxed whitespace-pre-line text-sm">
                 {currentQuestion.context.passageContent}
               </div>
             </div>
@@ -276,7 +276,7 @@ export default function QuizPage() {
           right={
             <div className="space-y-4">
               <div className="landing-card p-6">
-                <p className="text-lg text-[var(--landing-navy)] leading-relaxed">
+                <p className="text-lg text-[var(--ink)] leading-relaxed">
                   {currentQuestion.text}
                 </p>
               </div>
@@ -291,13 +291,13 @@ export default function QuizPage() {
 
                   let optionClass = "landing-card p-4 cursor-pointer transition-all ";
                   if (showCorrect) {
-                    optionClass += "border-2 border-[var(--landing-green)] bg-[var(--landing-green)]/5";
+                    optionClass += "border-2 border-[var(--green)] bg-[var(--green)]/5";
                   } else if (showWrong) {
                     optionClass += "border-2 border-red-500 bg-red-50";
                   } else if (isSelected && !showFeedback) {
-                    optionClass += "border-2 border-[var(--landing-orange)] bg-[var(--landing-orange)]/5";
+                    optionClass += "border-2 border-[var(--accent)] bg-[var(--accent)]/5";
                   } else if (!showFeedback) {
-                    optionClass += "hover:border-[var(--landing-orange)]/50";
+                    optionClass += "hover:border-[var(--accent)]/50";
                   }
 
                   return (
@@ -308,12 +308,12 @@ export default function QuizPage() {
                       className={`${optionClass} w-full text-left`}
                     >
                       <div className="flex items-center gap-3">
-                        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--landing-navy)]/5 flex items-center justify-center font-medium text-[var(--landing-navy)]/60">
+                        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--ink)]/5 flex items-center justify-center font-medium text-[var(--ink)]/60">
                           {String.fromCharCode(65 + index)}
                         </span>
-                        <span className="flex-1 text-[var(--landing-navy)]">{option}</span>
+                        <span className="flex-1 text-[var(--ink)]">{option}</span>
                         {showCorrect && (
-                          <CheckCircle2 className="h-5 w-5 text-[var(--landing-green)]" />
+                          <CheckCircle2 className="h-5 w-5 text-[var(--green)]" />
                         )}
                         {showWrong && <XCircle className="h-5 w-5 text-red-500" />}
                       </div>
@@ -329,15 +329,15 @@ export default function QuizPage() {
                     <div
                       className={`p-4 rounded-lg ${
                         answers[answers.length - 1]?.correct
-                          ? "bg-[var(--landing-green)]/10 border border-[var(--landing-green)]/30"
+                          ? "bg-[var(--green)]/10 border border-[var(--green)]/30"
                           : "bg-red-50 border border-red-200"
                       }`}
                     >
                       <div className="flex items-center gap-2 mb-2">
                         {answers[answers.length - 1]?.correct ? (
                           <>
-                            <CheckCircle2 className="h-5 w-5 text-[var(--landing-green)]" />
-                            <span className="font-semibold text-[var(--landing-green)]">
+                            <CheckCircle2 className="h-5 w-5 text-[var(--green)]" />
+                            <span className="font-semibold text-[var(--green)]">
                               Correct!
                             </span>
                           </>
@@ -349,7 +349,7 @@ export default function QuizPage() {
                         )}
                       </div>
                       {currentQuestion.explanation && (
-                        <p className="text-sm text-[var(--landing-navy)]/70">
+                        <p className="text-sm text-[var(--ink)]/70">
                           {currentQuestion.explanation}
                         </p>
                       )}
@@ -359,13 +359,13 @@ export default function QuizPage() {
                     {!answers[answers.length - 1]?.correct && (
                       <Link
                         href="/blog/learning-resources"
-                        className="flex items-start gap-3 p-3 rounded-lg bg-[var(--landing-navy)]/5 hover:bg-[var(--landing-navy)]/10 transition-colors group"
+                        className="flex items-start gap-3 p-3 rounded-lg bg-[var(--ink)]/5 hover:bg-[var(--ink)]/10 transition-colors group"
                       >
-                        <BookOpen className="h-4 w-4 text-[var(--landing-orange)] flex-shrink-0 mt-0.5" />
-                        <p className="text-sm text-[var(--landing-navy)]/70">
-                          <span className="font-medium text-[var(--landing-navy)]">Need to study first?</span>{" "}
+                        <BookOpen className="h-4 w-4 text-[var(--accent)] flex-shrink-0 mt-0.5" />
+                        <p className="text-sm text-[var(--ink)]/70">
+                          <span className="font-medium text-[var(--ink)]">Need to study first?</span>{" "}
                           Check out our free learning resources guide{" "}
-                          <span className="text-[var(--landing-orange)] group-hover:underline">&rarr;</span>
+                          <span className="text-[var(--accent)] group-hover:underline">&rarr;</span>
                         </p>
                       </Link>
                     )}
@@ -383,7 +383,7 @@ export default function QuizPage() {
                     disabled={selectedOption === null}
                     className={`w-full py-3 rounded-lg font-semibold transition-all ${
                       selectedOption === null
-                        ? "bg-[var(--landing-navy)]/10 text-[var(--landing-navy)]/40 cursor-not-allowed"
+                        ? "bg-[var(--ink)]/10 text-[var(--ink)]/40 cursor-not-allowed"
                         : "cta-primary text-white"
                     }`}
                   >
@@ -409,7 +409,7 @@ export default function QuizPage() {
             )}
 
             <div className="landing-card p-6 mb-6">
-              <p className="text-lg text-[var(--landing-navy)] leading-relaxed">
+              <p className="text-lg text-[var(--ink)] leading-relaxed">
                 {currentQuestion.text}
               </p>
             </div>
@@ -424,13 +424,13 @@ export default function QuizPage() {
 
                 let optionClass = "landing-card p-4 cursor-pointer transition-all ";
                 if (showCorrect) {
-                  optionClass += "border-2 border-[var(--landing-green)] bg-[var(--landing-green)]/5";
+                  optionClass += "border-2 border-[var(--green)] bg-[var(--green)]/5";
                 } else if (showWrong) {
                   optionClass += "border-2 border-red-500 bg-red-50";
                 } else if (isSelected && !showFeedback) {
-                  optionClass += "border-2 border-[var(--landing-orange)] bg-[var(--landing-orange)]/5";
+                  optionClass += "border-2 border-[var(--accent)] bg-[var(--accent)]/5";
                 } else if (!showFeedback) {
-                  optionClass += "hover:border-[var(--landing-orange)]/50";
+                  optionClass += "hover:border-[var(--accent)]/50";
                 }
 
                 return (
@@ -441,12 +441,12 @@ export default function QuizPage() {
                     className={`${optionClass} w-full text-left`}
                   >
                     <div className="flex items-center gap-3">
-                      <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--landing-navy)]/5 flex items-center justify-center font-medium text-[var(--landing-navy)]/60">
+                      <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--ink)]/5 flex items-center justify-center font-medium text-[var(--ink)]/60">
                         {String.fromCharCode(65 + index)}
                       </span>
-                      <span className="flex-1 text-[var(--landing-navy)]">{option}</span>
+                      <span className="flex-1 text-[var(--ink)]">{option}</span>
                       {showCorrect && (
-                        <CheckCircle2 className="h-5 w-5 text-[var(--landing-green)]" />
+                        <CheckCircle2 className="h-5 w-5 text-[var(--green)]" />
                       )}
                       {showWrong && <XCircle className="h-5 w-5 text-red-500" />}
                     </div>
@@ -462,15 +462,15 @@ export default function QuizPage() {
                   <div
                     className={`p-4 rounded-lg ${
                       answers[answers.length - 1]?.correct
-                        ? "bg-[var(--landing-green)]/10 border border-[var(--landing-green)]/30"
+                        ? "bg-[var(--green)]/10 border border-[var(--green)]/30"
                         : "bg-red-50 border border-red-200"
                     }`}
                   >
                     <div className="flex items-center gap-2 mb-2">
                       {answers[answers.length - 1]?.correct ? (
                         <>
-                          <CheckCircle2 className="h-5 w-5 text-[var(--landing-green)]" />
-                          <span className="font-semibold text-[var(--landing-green)]">
+                          <CheckCircle2 className="h-5 w-5 text-[var(--green)]" />
+                          <span className="font-semibold text-[var(--green)]">
                             Correct!
                           </span>
                         </>
@@ -482,7 +482,7 @@ export default function QuizPage() {
                       )}
                     </div>
                     {currentQuestion.explanation && (
-                      <p className="text-sm text-[var(--landing-navy)]/70">
+                      <p className="text-sm text-[var(--ink)]/70">
                         {currentQuestion.explanation}
                       </p>
                     )}
@@ -492,13 +492,13 @@ export default function QuizPage() {
                   {!answers[answers.length - 1]?.correct && (
                     <Link
                       href="/blog/learning-resources"
-                      className="flex items-start gap-3 p-3 rounded-lg bg-[var(--landing-navy)]/5 hover:bg-[var(--landing-navy)]/10 transition-colors group"
+                      className="flex items-start gap-3 p-3 rounded-lg bg-[var(--ink)]/5 hover:bg-[var(--ink)]/10 transition-colors group"
                     >
-                      <BookOpen className="h-4 w-4 text-[var(--landing-orange)] flex-shrink-0 mt-0.5" />
-                      <p className="text-sm text-[var(--landing-navy)]/70">
-                        <span className="font-medium text-[var(--landing-navy)]">Need to study first?</span>{" "}
+                      <BookOpen className="h-4 w-4 text-[var(--accent)] flex-shrink-0 mt-0.5" />
+                      <p className="text-sm text-[var(--ink)]/70">
+                        <span className="font-medium text-[var(--ink)]">Need to study first?</span>{" "}
                         Check out our free learning resources guide{" "}
-                        <span className="text-[var(--landing-orange)] group-hover:underline">&rarr;</span>
+                        <span className="text-[var(--accent)] group-hover:underline">&rarr;</span>
                       </p>
                     </Link>
                   )}
@@ -516,7 +516,7 @@ export default function QuizPage() {
                   disabled={selectedOption === null}
                   className={`w-full py-3 rounded-lg font-semibold transition-all ${
                     selectedOption === null
-                      ? "bg-[var(--landing-navy)]/10 text-[var(--landing-navy)]/40 cursor-not-allowed"
+                      ? "bg-[var(--ink)]/10 text-[var(--ink)]/40 cursor-not-allowed"
                       : "cta-primary text-white"
                   }`}
                 >

@@ -118,7 +118,7 @@ const COMMUNITY_RESOURCES = [
 
 export default function LearningResourcesPage() {
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--landing-cream)]">
+    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -140,16 +140,16 @@ export default function LearningResourcesPage() {
         }}
       />
 
-      <header className="border-b border-[var(--landing-navy)]/10 sticky top-0 bg-[var(--landing-cream)] z-10">
+      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-4">
             <Link
               href="/blog"
-              className="text-[var(--landing-navy)]/60 hover:text-[var(--landing-navy)] transition-colors"
+              className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold font-sans-landing text-[var(--landing-navy)]">
+            <h1 className="text-xl font-bold text-[var(--ink)]">
               Learning Resources
             </h1>
           </div>
@@ -158,13 +158,13 @@ export default function LearningResourcesPage() {
 
       <article className="flex-1 container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-[var(--landing-navy)] mb-2">
+          <h2 className="text-3xl md:text-4xl font-semibold text-[var(--ink)] mb-2">
             Best Free Resources to Learn Dutch for the Inburgering Exam
           </h2>
-          <p className="font-sans-landing text-[var(--landing-navy)]/50 mb-4">
+          <p className="text-[var(--ink)]/50 mb-4">
             Updated for 2026
           </p>
-          <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-8">
+          <p className="text-[var(--ink)]/70 leading-relaxed mb-8">
             Preparing for the inburgering exam doesn&apos;t have to be expensive. Whether
             you are just starting to learn Dutch or you&apos;re almost exam-ready, these
             resources will help you get there. We&apos;ve organized them by type so you can
@@ -172,9 +172,9 @@ export default function LearningResourcesPage() {
           </p>
 
           {/* Quick tip */}
-          <div className="landing-card p-6 mb-10 border-l-4 border-[var(--landing-orange)]">
-            <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
-              <strong className="text-[var(--landing-navy)]">Study tip:</strong> Most
+          <div className="landing-card p-6 mb-10 border-l-4 border-[var(--accent)]">
+            <p className="text-[var(--ink)]/70 leading-relaxed">
+              <strong className="text-[var(--ink)]">Study tip:</strong> Most
               people who pass the inburgering exam on their first attempt use 3&ndash;4
               resources together: a daily app like Duolingo for vocabulary, a grammar
               reference, exam-specific practice, and real-world listening. Aim for
@@ -184,10 +184,10 @@ export default function LearningResourcesPage() {
 
           {/* Table of contents */}
           <nav className="landing-card p-6 mb-10">
-            <h3 className="font-sans-landing font-semibold text-[var(--landing-navy)] mb-3">
+            <h3 className="font-semibold text-[var(--ink)] mb-3">
               In this guide
             </h3>
-            <ul className="space-y-2 font-sans-landing text-[var(--landing-orange)]">
+            <ul className="space-y-2 text-[var(--accent)]">
               <li>
                 <a href="#free-resources" className="hover:underline">
                   Free resources &amp; apps
@@ -218,10 +218,10 @@ export default function LearningResourcesPage() {
 
           {/* Free Resources */}
           <section id="free-resources" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Free resources &amp; apps
             </h3>
-            <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-6">
+            <p className="text-[var(--ink)]/70 leading-relaxed mb-6">
               These are the best free tools for learning Dutch and preparing for
               the exam. You can pass the inburgering exam using only free resources
               if you are consistent with your study.
@@ -230,28 +230,28 @@ export default function LearningResourcesPage() {
               {FREE_RESOURCES.map((resource) => (
                 <div key={resource.name} className="landing-card p-5">
                   <div className="flex items-start justify-between gap-3 mb-2">
-                    <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg">
+                    <h4 className="font-semibold text-[var(--ink)] text-lg">
                       {resource.name}
                     </h4>
                     <div className="flex gap-2 flex-shrink-0">
                       {resource.tags.map((tag) => (
                         <span
                           key={tag}
-                          className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-navy)]/5 text-[var(--landing-navy)]/60"
+                          className="text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/5 text-[var(--ink)]/60"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
                   </div>
-                  <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed text-sm mb-3">
+                  <p className="text-[var(--ink)]/70 leading-relaxed text-sm mb-3">
                     {resource.description}
                   </p>
                   <a
                     href={resource.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[var(--landing-orange)] font-medium text-sm hover:underline"
+                    className="inline-flex items-center gap-1 text-[var(--accent)] font-medium text-sm hover:underline"
                   >
                     Visit {resource.name}
                     <ExternalLink className="h-3.5 w-3.5" />
@@ -263,10 +263,10 @@ export default function LearningResourcesPage() {
 
           {/* Paid Resources */}
           <section id="paid-resources" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Paid courses
             </h3>
-            <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-6">
+            <p className="text-[var(--ink)]/70 leading-relaxed mb-6">
               These paid platforms offer more structured learning paths. They are
               not required to pass, but can help if you prefer a guided approach.
             </p>
@@ -274,21 +274,21 @@ export default function LearningResourcesPage() {
               {PAID_RESOURCES.map((resource) => (
                 <div key={resource.name} className="landing-card p-5">
                   <div className="flex items-start justify-between gap-3 mb-2">
-                    <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg">
+                    <h4 className="font-semibold text-[var(--ink)] text-lg">
                       {resource.name}
                     </h4>
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--landing-orange)]/10 text-[var(--landing-orange)] flex-shrink-0">
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--accent)]/10 text-[var(--accent)] flex-shrink-0">
                       {resource.price}
                     </span>
                   </div>
-                  <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed text-sm mb-3">
+                  <p className="text-[var(--ink)]/70 leading-relaxed text-sm mb-3">
                     {resource.description}
                   </p>
                   <a
                     href={resource.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[var(--landing-orange)] font-medium text-sm hover:underline"
+                    className="inline-flex items-center gap-1 text-[var(--accent)] font-medium text-sm hover:underline"
                   >
                     Visit {resource.name}
                     <ExternalLink className="h-3.5 w-3.5" />
@@ -300,10 +300,10 @@ export default function LearningResourcesPage() {
 
           {/* Community */}
           <section id="community" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Community &amp; speaking practice
             </h3>
-            <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed mb-6">
+            <p className="text-[var(--ink)]/70 leading-relaxed mb-6">
               Learning Dutch is not just about apps and books. Speaking with real
               people and connecting with other learners will accelerate your progress
               and help with the Spreken (speaking) module.
@@ -311,10 +311,10 @@ export default function LearningResourcesPage() {
             <div className="space-y-4">
               {COMMUNITY_RESOURCES.map((resource) => (
                 <div key={resource.name} className="landing-card p-5">
-                  <h4 className="font-sans-landing font-semibold text-[var(--landing-navy)] text-lg mb-2">
+                  <h4 className="font-semibold text-[var(--ink)] text-lg mb-2">
                     {resource.name}
                   </h4>
-                  <p className="font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed text-sm mb-3">
+                  <p className="text-[var(--ink)]/70 leading-relaxed text-sm mb-3">
                     {resource.description}
                   </p>
                   {resource.url && (
@@ -322,7 +322,7 @@ export default function LearningResourcesPage() {
                       href={resource.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-[var(--landing-orange)] font-medium text-sm hover:underline"
+                      className="inline-flex items-center gap-1 text-[var(--accent)] font-medium text-sm hover:underline"
                     >
                       Visit {resource.name}
                       <ExternalLink className="h-3.5 w-3.5" />
@@ -335,10 +335,10 @@ export default function LearningResourcesPage() {
 
           {/* Suggested Study Plan */}
           <section id="study-plan" className="mb-10">
-            <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-4">
+            <h3 className="text-2xl font-semibold text-[var(--ink)] mb-4">
               Suggested study plan
             </h3>
-            <div className="space-y-4 font-sans-landing text-[var(--landing-navy)]/70 leading-relaxed">
+            <div className="space-y-4 text-[var(--ink)]/70 leading-relaxed">
               <p>
                 Based on what people who passed on their first attempt recommend,
                 here is a practical weekly study plan for A2 level preparation:
@@ -346,7 +346,7 @@ export default function LearningResourcesPage() {
               <div className="landing-card p-6">
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <span className="font-semibold text-[var(--landing-navy)] min-w-[100px] flex-shrink-0">
+                    <span className="font-semibold text-[var(--ink)] min-w-[100px] flex-shrink-0">
                       Daily
                     </span>
                     <span>
@@ -354,7 +354,7 @@ export default function LearningResourcesPage() {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="font-semibold text-[var(--landing-navy)] min-w-[100px] flex-shrink-0">
+                    <span className="font-semibold text-[var(--ink)] min-w-[100px] flex-shrink-0">
                       2&times;/week
                     </span>
                     <span>
@@ -362,7 +362,7 @@ export default function LearningResourcesPage() {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="font-semibold text-[var(--landing-navy)] min-w-[100px] flex-shrink-0">
+                    <span className="font-semibold text-[var(--ink)] min-w-[100px] flex-shrink-0">
                       2&times;/week
                     </span>
                     <span>
@@ -370,7 +370,7 @@ export default function LearningResourcesPage() {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="font-semibold text-[var(--landing-navy)] min-w-[100px] flex-shrink-0">
+                    <span className="font-semibold text-[var(--ink)] min-w-[100px] flex-shrink-0">
                       1&times;/week
                     </span>
                     <span>
@@ -378,7 +378,7 @@ export default function LearningResourcesPage() {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="font-semibold text-[var(--landing-navy)] min-w-[100px] flex-shrink-0">
+                    <span className="font-semibold text-[var(--ink)] min-w-[100px] flex-shrink-0">
                       1&times;/week
                     </span>
                     <span>
@@ -399,10 +399,10 @@ export default function LearningResourcesPage() {
           {/* Test Yourself CTA */}
           <section id="test-yourself" className="mb-10">
             <div className="landing-card p-8 text-center">
-              <h3 className="font-serif text-2xl font-semibold text-[var(--landing-navy)] mb-3">
+              <h3 className="text-2xl font-semibold text-[var(--ink)] mb-3">
                 Ready to test yourself?
               </h3>
-              <p className="font-sans-landing text-[var(--landing-navy)]/60 mb-6 max-w-lg mx-auto">
+              <p className="text-[var(--ink)]/60 mb-6 max-w-lg mx-auto">
                 Take our free practice exam to see where you stand. No account
                 required. When you feel ready, come back for full mock exams across
                 all 5 modules.
@@ -416,7 +416,7 @@ export default function LearningResourcesPage() {
                 </Link>
                 <Link
                   href="/guide"
-                  className="px-8 py-3 border border-[var(--landing-navy)]/20 text-[var(--landing-navy)] rounded-lg font-medium hover:bg-[var(--landing-navy)]/5 transition-colors"
+                  className="px-8 py-3 border border-[var(--ink)]/20 text-[var(--ink)] rounded-lg font-medium hover:bg-[var(--ink)]/5 transition-colors"
                 >
                   Read the Exam Guide
                 </Link>
