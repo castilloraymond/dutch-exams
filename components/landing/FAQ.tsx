@@ -60,7 +60,7 @@ export function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section className="py-[70px] px-6 lg:px-10 bg-[var(--cream)] reveal">
+        <section className="py-[70px] px-6 lg:px-10 bg-white reveal">
             <JsonLd data={faqSchema} />
             <div className="max-w-[768px] mx-auto">
                 <div className="text-center mb-9">

@@ -8,7 +8,7 @@ export function LandingHero() {
     const { user } = useAuth();
 
     return (
-        <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center min-h-screen">
+        <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
             {/* Left column */}
             <div className="animate-reveal">
                 {/* PLACEHOLDER — badge stat */}
