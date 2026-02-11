@@ -23,14 +23,14 @@ export function ProblemSection() {
     ];
 
     return (
-        <section className="py-[100px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal" id="problem">
+        <section className="py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal" id="problem">
             <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
                 The problem
             </div>
             <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
                 Inburgering exam prep shouldn&apos;t feel<br className="hidden sm:block" /> like a second job
             </h2>
-            <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[50px]">
+            <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
                 You moved here for a career, not to spend weekends deciphering government websites in Dutch. Sound familiar?
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

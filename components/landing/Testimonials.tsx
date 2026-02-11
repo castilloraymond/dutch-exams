@@ -27,12 +27,12 @@ const testimonials = [
 
 export function Testimonials() {
     return (
-        <section className="py-[100px] px-6 lg:px-10 bg-white reveal" id="testimonials">
+        <section className="py-[70px] px-6 lg:px-10 bg-white reveal" id="testimonials">
             <div className="max-w-[1200px] mx-auto">
                 <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
                     What expats say
                 </div>
-                <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-[50px] font-extrabold">
+                <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-[36px] font-extrabold">
                     Passed, relieved, and recommending<br className="hidden sm:block" /> it to colleagues
                 </h2>
 

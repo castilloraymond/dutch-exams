@@ -8,7 +8,7 @@ export function FinalCTA() {
     const { user } = useAuth();
 
     return (
-        <section className="py-[120px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
+        <section className="py-[80px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
             {/* Subtle radial accent gradient */}
             <div className="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(232,99,43,0.12)_0%,transparent_70%)] pointer-events-none" />
 

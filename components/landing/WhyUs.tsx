@@ -1,13 +1,13 @@
 export function Features() {
     return (
-        <section className="py-[100px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal" id="features">
+        <section className="py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal" id="features">
             <div className="text-[0.8rem] font-semibold text-[var(--blue)] uppercase tracking-[0.1em] mb-4">
                 Features
             </div>
             <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
                 Everything you need,<br className="hidden sm:block" /> nothing you don&apos;t
             </h2>
-            <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[50px]">
+            <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
                 Purpose-built for busy professionals who want efficient, focused exam prep.
             </p>
 

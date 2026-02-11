@@ -2,7 +2,7 @@ import { Trophy } from "lucide-react";
 
 export function HowItWorks() {
     return (
-        <section className="py-[100px] px-6 lg:px-10 bg-white reveal" id="how">
+        <section className="py-[70px] px-6 lg:px-10 bg-white reveal" id="how">
             <div className="max-w-[1200px] mx-auto">
                 <div className="text-[0.8rem] font-semibold text-[var(--green)] uppercase tracking-[0.1em] mb-4">
                     How it works
@@ -10,7 +10,7 @@ export function HowItWorks() {
                 <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
                     From &ldquo;I should start studying&rdquo; to<br className="hidden sm:block" /> &ldquo;I passed&rdquo; in 3 steps
                 </h2>
-                <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[50px]">
+                <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
                     No Dutch required to get started. Everything is explained in English with Dutch content introduced gradually.
                 </p>
 

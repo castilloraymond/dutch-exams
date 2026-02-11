@@ -7,11 +7,11 @@ export function BlogPreview() {
     if (posts.length === 0) return null;
 
     return (
-        <section className="py-[100px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal">
+        <section className="py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal">
             <div className="text-[0.8rem] font-semibold text-[var(--ink-muted)] uppercase tracking-[0.1em] mb-4">
                 From the blog
             </div>
-            <div className="flex items-end justify-between mb-[50px]">
+            <div className="flex items-end justify-between mb-[36px]">
                 <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] font-extrabold">
                     Latest posts
                 </h2>

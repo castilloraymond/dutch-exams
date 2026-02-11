@@ -8,7 +8,7 @@ export function LandingHero() {
     const { user } = useAuth();
 
     return (
-        <section className="pt-[160px] pb-[100px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center min-h-screen">
+        <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center min-h-screen">
             {/* Left column */}
             <div className="animate-reveal">
                 {/* PLACEHOLDER — badge stat */}
@@ -23,25 +23,25 @@ export function LandingHero() {
                     <em className="text-[var(--accent)] not-italic">in 3 months</em>
                 </h1>
 
-                <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-10 max-w-[480px]">
-                    Practice real exam questions, track your readiness, and walk into test day confident. Built specifically for expats under the 30% ruling who are short on time.
+                <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
+                    Built for busy expats who are short on time and want the most effective way to pass the test.
                 </p>
 
-                <div className="flex items-center gap-5 mb-12">
+                <div className="flex items-center gap-5 mb-8">
                     <Link
                         href={user ? "/learn" : "/try"}
                         className="cta-primary inline-flex items-center gap-2.5 px-9 py-4 rounded-full font-semibold text-base"
                     >
-                        {user ? "Continue practicing" : "Try free practice test"}
+                        {user ? "Continue practicing" : "Start a free trial test"}
                         <ArrowRight className="h-4 w-4" />
                     </Link>
-                    <Link
+                    <a
                         href="#how"
                         className="inline-flex items-center gap-2 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
                     >
                         <PlayCircle className="h-5 w-5" />
                         See how it works
-                    </Link>
+                    </a>
                 </div>
 
                 {/* PLACEHOLDER — social proof */}
