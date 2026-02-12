@@ -14,11 +14,10 @@ export function FinalCTA() {
 
             {/* PLACEHOLDER — stat */}
             <h2 className="text-[clamp(2.2rem,3.5vw,3rem)] leading-[1.2] text-white tracking-[-0.03em] mb-5 font-extrabold relative">
-                Your inburgering deadline<br />isn&apos;t getting further away
+                Walk into your exam over-prepared.
             </h2>
             <p className="text-white/60 text-[1.1rem] max-w-[500px] mx-auto mb-10 leading-[1.7] relative">
-                {/* PLACEHOLDER */}
-                Join 2,400+ expats who stopped procrastinating and started passing. Your first practice test is free.
+                450+ drill questions. Real exam format. Tips for every answer. Start drilling — your first test is free.
             </p>
             <Link
                 href={user ? "/learn" : "/try"}

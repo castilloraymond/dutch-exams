@@ -12,13 +12,13 @@ export function ProblemSection() {
             icon: <Shuffle className="h-6 w-6" />,
             iconBg: "bg-[var(--blue-soft)] text-[var(--blue)]",
             title: "Scattered, outdated resources",
-            description: "Free materials online are fragmented, questionable in quality, and never structured like the actual exam. You can't afford to waste time on the wrong content.",
+            description: "Free materials online are fragmented and never structured like the real exam. Without drill-style repetition on the actual format, you're studying blind.",
         },
         {
             icon: <Target className="h-6 w-6" />,
             iconBg: "bg-[#FFF8E8] text-[#B8860B]",
             title: "Unclear exam readiness",
-            description: "Are you actually ready? With no benchmark or score tracking, most expats walk in uncertain. That anxiety shouldn't cost you a failed attempt and €200+ in retake fees.",
+            description: "Are you actually ready? Without constant drills, most expats walk in uncertain. That anxiety shouldn't cost you a failed attempt and €200+ in retake fees.",
         },
     ];
 
@@ -28,10 +28,10 @@ export function ProblemSection() {
                 The problem
             </div>
             <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
-                Inburgering exam prep shouldn&apos;t feel<br className="hidden sm:block" /> like a second job
+                Inburgering exam prep shouldn&apos;t be<br className="hidden sm:block" /> a guessing game
             </h2>
             <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
-                You moved here for a career, not to spend weekends deciphering government websites in Dutch. Sound familiar?
+                You moved here for a career, not to gamble on scattered study materials and hope for the best. Sound familiar?
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {painCards.map((card, i) => (

@@ -15,7 +15,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "What's included for free?",
-        answer: "A 10-question assessment across all 5 modules with no signup required — see your readiness score in minutes. Create a free account to access the full question bank, topic drills, and mock exams.",
+        answer: "A 10-question assessment across all 5 modules with no signup required — see your readiness score in minutes. Create a free account to access the full drill library, mock exams, and detailed tips for every question.",
     },
     {
         question: "Can I practice on my phone?",
@@ -23,7 +23,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "How long should I practice before the exam?",
-        answer: "Most professionals practice 2–4 weeks, 20 minutes per day. We recommend taking full practice exams until you consistently score above 80%. Our progress tracking helps you know when you're ready.",
+        answer: "Most expats drill for 2–4 weeks, 20 minutes per day. We recommend taking full mock exams until you consistently score above 80%. Our progress tracking tells you exactly when you're ready to book.",
     },
     {
         question: "What if I don't pass?",

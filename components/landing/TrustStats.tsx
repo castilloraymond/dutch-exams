@@ -9,7 +9,7 @@ export function TrustBar() {
 
     return (
         <section className="py-[40px] px-6 lg:px-10 max-w-[1200px] mx-auto text-center reveal">
-            <div className="text-[0.82rem] font-semibold text-[var(--ink-muted)] uppercase tracking-[0.1em] mb-7">
+            <div className="text-[0.82rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-7">
                 Why expats choose us
             </div>
             <div className="flex justify-center gap-[60px] flex-wrap">

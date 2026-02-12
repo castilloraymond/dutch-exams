@@ -4,7 +4,7 @@ export function HowItWorks() {
     return (
         <section className="py-[70px] px-6 lg:px-10 bg-white reveal" id="how">
             <div className="max-w-[1200px] mx-auto">
-                <div className="text-[0.8rem] font-semibold text-[var(--green)] uppercase tracking-[0.1em] mb-4">
+                <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
                     How it works
                 </div>
                 <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
@@ -16,7 +16,7 @@ export function HowItWorks() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 [counter-reset:step]">
                     {/* Step 1 */}
-                    <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.06] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
+                    <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Take a diagnostic test</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
                             A 15-minute assessment that maps your current level across all exam components: KNM, reading, listening, writing, and speaking.
@@ -40,11 +40,11 @@ export function HowItWorks() {
                     </div>
 
                     {/* Step 2 */}
-                    <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.06] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
-                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Practice with real exam formats</h3>
+                    <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
+                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Drill with real exam formats</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
                             {/* PLACEHOLDER — question count */}
-                            1,200+ questions that mirror the actual DUO exam format. Your personalized study plan adapts as you improve, focusing on your weak spots.
+                            1,200+ questions that mirror the actual DUO exam format. Each question includes a practical tip so you learn the why, not just the what.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="text-[0.82rem] text-[var(--ink-soft)] font-semibold mb-2">Exam readiness</div>
@@ -56,10 +56,10 @@ export function HowItWorks() {
                     </div>
 
                     {/* Step 3 */}
-                    <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.06] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
+                    <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Pass with confidence</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            Our readiness score tells you exactly when you&apos;re prepared. No guessing, no anxiety — just clarity on exam day.
+                            Our readiness score tells you exactly when you&apos;ve drilled enough. No guessing, no anxiety — just clarity on exam day.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="flex items-center gap-3">

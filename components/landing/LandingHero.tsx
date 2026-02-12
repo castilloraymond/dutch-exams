@@ -12,19 +12,17 @@ export function LandingHero() {
             {/* Left column */}
             <div className="animate-reveal">
                 {/* PLACEHOLDER — badge stat */}
-                <div className="inline-flex items-center gap-2 bg-[var(--green-soft)] text-[var(--green)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
+                <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
                     <CircleCheck className="h-4 w-4" />
-                    {/* PLACEHOLDER */}
-                    Trusted by 2,400+ expats in the Netherlands
+                    Real Format. Real Questions. Real Results.
                 </div>
 
                 <h1 className="text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-6 font-extrabold">
-                    Pass your inburgering exam{" "}
-                    <em className="text-[var(--accent)] not-italic">in 3 months</em>
+                    Pass your inburgering exam
                 </h1>
 
                 <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
-                    Built for busy expats who are short on time and want the most effective way to pass the test.
+                    The most efficient way to practice. Hundreds of exam level questions per module to prepare you for the test.
                 </p>
 
                 <div className="flex items-center gap-5 mb-8">
@@ -74,7 +72,7 @@ export function LandingHero() {
             <div className="relative hidden lg:block animate-reveal-delay-2">
                 {/* Floating score card */}
                 {/* PLACEHOLDER — score stat */}
-                <div className="absolute top-[20%] right-[-30px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2.5 animate-[float_4s_ease-in-out_infinite_0.5s]">
+                <div className="absolute top-[-15px] right-[-30px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2.5 animate-[float_4s_ease-in-out_infinite_0.5s]">
                     <div className="w-11 h-11 rounded-full border-[3px] border-[var(--green)] flex items-center justify-center font-bold text-[0.85rem] text-[var(--green)]">
                         87%
                     </div>
@@ -86,7 +84,7 @@ export function LandingHero() {
 
                 {/* Floating streak card */}
                 {/* PLACEHOLDER — streak stat */}
-                <div className="absolute bottom-[15%] left-[-25px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2 animate-[float_4s_ease-in-out_infinite_1.5s]">
+                <div className="absolute bottom-[-10px] left-[-25px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2 animate-[float_4s_ease-in-out_infinite_1.5s]">
                     <span className="text-[1.3rem]">🔥</span>
                     <div>
                         <div className="text-[0.78rem] font-semibold text-[var(--ink)] leading-[1.3]">12-day streak</div>
@@ -96,16 +94,6 @@ export function LandingHero() {
 
                 {/* Browser mockup */}
                 <div className="bg-white rounded-[20px] shadow-[0_20px_80px_rgba(26,26,46,0.10),0_1px_3px_rgba(26,26,46,0.06)] overflow-hidden [transform:perspective(1000px)_rotateY(-3deg)_rotateX(1deg)] hover:[transform:perspective(1000px)_rotateY(0deg)_rotateX(0deg)] transition-transform duration-400">
-                    {/* Browser chrome bar */}
-                    <div className="bg-[var(--cream-dark)] px-5 py-3.5 flex items-center gap-2">
-                        <div className="w-2.5 h-2.5 rounded-full bg-[#ff6058]" />
-                        <div className="w-2.5 h-2.5 rounded-full bg-[#ffbd2e]" />
-                        <div className="w-2.5 h-2.5 rounded-full bg-[#27ca40]" />
-                        <div className="flex-1 text-center text-[0.78rem] text-[var(--ink-muted)] bg-white px-4 py-1.5 rounded-md ml-3">
-                            passinburgering.com/practice
-                        </div>
-                    </div>
-
                     {/* Mockup body */}
                     <div className="p-8">
                         <div className="flex items-center justify-between mb-5">

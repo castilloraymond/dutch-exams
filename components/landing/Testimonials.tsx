@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 /* PLACEHOLDER — all testimonials are placeholder content */
 const testimonials = [
     {
-        quote: "I'd been procrastinating for months. This broke it into manageable daily sessions. Passed all sections on my first attempt after 10 weeks of practice.",
+        quote: "I'd been procrastinating for months. This broke it into 20-minute drill sessions I could actually stick to. I drilled every question type until nothing surprised me. Passed all sections first try.",
         name: "Maria K.",
         role: "Product Manager · Moved from Brazil",
         avatarBg: "#3B6BCC",
         initial: "M",
     },
     {
-        quote: "The KNM section was my biggest fear. The practice questions here were almost identical to what I got on exam day. The AI explanations helped me actually understand Dutch culture, not just memorize answers.",
+        quote: "The KNM section was my biggest fear. I treated this like SAT prep — drill after drill, reviewing the tips after every question. The real exam felt like just another practice run.",
         name: "Raj P.",
         role: "Software Engineer · Moved from India",
         avatarBg: "#2D8F5E",
         initial: "R",
     },
     {
-        quote: "Worth every cent. I was paying €200/month for a classroom course that moved too slowly. Switched to this, studied on my own schedule, and passed within 3 months.",
+        quote: "I was paying €200/month for a classroom course that moved too slowly. Switched to this, drilled at my own pace, and the practical tips taught me more than my textbook ever did. Passed within 3 months.",
         name: "Sophie L.",
         role: "Finance Analyst · Moved from France",
         avatarBg: "#E8632B",
