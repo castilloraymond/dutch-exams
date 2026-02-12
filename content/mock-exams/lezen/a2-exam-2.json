@@ -18,28 +18,32 @@
           "text": "Hoeveel uur per week moet je kunnen werken?",
           "options": ["10 uur", "15 uur", "20 uur", "40 uur"],
           "correctIndex": 2,
-          "explanation": "Je moet 20 uur per week kunnen werken."
+          "explanation": "Je moet 20 uur per week kunnen werken.",
+          "explanationEn": "You must be able to work 20 hours per week."
         },
         {
           "id": "a2-2-q2",
           "text": "Wat is het salaris per uur?",
           "options": ["€ 11,50", "€ 12,50", "€ 13,50", "€ 14,50"],
           "correctIndex": 2,
-          "explanation": "Het salaris is € 13,50 per uur."
+          "explanation": "Het salaris is € 13,50 per uur.",
+          "explanationEn": "The salary is €13.50 per hour."
         },
         {
           "id": "a2-2-q3",
           "text": "Hoe oud moet je minimaal zijn?",
           "options": ["16 jaar", "17 jaar", "18 jaar", "21 jaar"],
           "correctIndex": 2,
-          "explanation": "Je moet minimaal 18 jaar zijn."
+          "explanation": "Je moet minimaal 18 jaar zijn.",
+          "explanationEn": "You must be at least 18 years old."
         },
         {
           "id": "a2-2-q4",
           "text": "Hoeveel korting krijg je op boodschappen?",
           "options": ["5%", "10%", "15%", "20%"],
           "correctIndex": 1,
-          "explanation": "Je krijgt 10% korting op boodschappen."
+          "explanation": "Je krijgt 10% korting op boodschappen.",
+          "explanationEn": "You get a 10% discount on groceries."
         }
       ]
     },
@@ -55,28 +59,32 @@
           "text": "Wanneer wordt het plastic opgehaald?",
           "options": ["Maandag", "Dinsdag", "Woensdag", "Vrijdag"],
           "correctIndex": 2,
-          "explanation": "Op woensdag wordt plastic en blik opgehaald."
+          "explanation": "Op woensdag wordt plastic en blik opgehaald.",
+          "explanationEn": "On Wednesday, plastic and cans are collected."
         },
         {
           "id": "a2-2-q6",
           "text": "Waar moet je GFT-afval brengen?",
           "options": ["In de grijze bak", "Naar het gemeentehuis", "Naar de container op het Marktplein", "In de oranje bak"],
           "correctIndex": 2,
-          "explanation": "GFT-afval kun je naar de GFT-container op het Marktplein brengen."
+          "explanation": "GFT-afval kun je naar de GFT-container op het Marktplein brengen.",
+          "explanationEn": "You can bring organic waste to the organic waste container at the Market Square."
         },
         {
           "id": "a2-2-q7",
           "text": "Wanneer mag je je afval buiten zetten?",
           "options": ["'s Morgens vroeg", "Na 18:00 uur", "Na 20:00 uur", "Wanneer je wilt"],
           "correctIndex": 2,
-          "explanation": "Je mag je afval pas na 20:00 uur buiten zetten."
+          "explanation": "Je mag je afval pas na 20:00 uur buiten zetten.",
+          "explanationEn": "You may only put your waste outside after 20:00."
         },
         {
           "id": "a2-2-q8",
           "text": "Wat gebeurt er als je bak te vol is?",
           "options": ["Je krijgt een grotere bak", "De bak wordt toch geleegd", "De bak wordt niet geleegd", "Je krijgt een boete"],
           "correctIndex": 2,
-          "explanation": "Overvolle bakken worden niet geleegd."
+          "explanation": "Overvolle bakken worden niet geleegd.",
+          "explanationEn": "Overfull bins will not be emptied."
         }
       ]
     },
@@ -92,28 +100,32 @@
           "text": "Welke sporten zijn het populairst?",
           "options": ["Voetbal en tennis", "Wandelen en fietsen", "Zwemmen en hardlopen", "Yoga en fitness"],
           "correctIndex": 1,
-          "explanation": "Vooral wandelen en fietsen zijn populair."
+          "explanation": "Vooral wandelen en fietsen zijn populair.",
+          "explanationEn": "Walking and cycling are especially popular."
         },
         {
           "id": "a2-2-q10",
           "text": "Hoe vaak sporten volwassenen gemiddeld?",
           "options": ["1 keer per week", "2 keer per week", "3 keer per week", "4 keer per week"],
           "correctIndex": 1,
-          "explanation": "Volwassenen sporten gemiddeld 2 keer per week."
+          "explanation": "Volwassenen sporten gemiddeld 2 keer per week.",
+          "explanationEn": "Adults exercise on average 2 times per week."
         },
         {
           "id": "a2-2-q11",
           "text": "Waarom sporten de meeste mensen?",
           "options": ["Om geld te verdienen", "Om vrienden te maken", "Om gezond te blijven", "Om beroemd te worden"],
           "correctIndex": 2,
-          "explanation": "De meeste mensen sporten om gezond te blijven."
+          "explanation": "De meeste mensen sporten om gezond te blijven.",
+          "explanationEn": "Most people exercise to stay healthy."
         },
         {
           "id": "a2-2-q12",
           "text": "Wie sport er vaker: mannen of vrouwen?",
           "options": ["Mannen sporten vaker", "Vrouwen sporten vaker", "Ze sporten even vaak", "Staat niet in het artikel"],
           "correctIndex": 0,
-          "explanation": "Mannen sporten iets vaker dan vrouwen."
+          "explanation": "Mannen sporten iets vaker dan vrouwen.",
+          "explanationEn": "Men exercise slightly more often than women."
         }
       ]
     },
@@ -129,28 +141,32 @@
           "text": "Hoeveel gram bloem heb je nodig?",
           "options": ["150 gram", "200 gram", "250 gram", "300 gram"],
           "correctIndex": 2,
-          "explanation": "Je hebt 250 gram bloem nodig."
+          "explanation": "Je hebt 250 gram bloem nodig.",
+          "explanationEn": "You need 250 grams of flour."
         },
         {
           "id": "a2-2-q14",
           "text": "Hoeveel eieren gebruik je?",
           "options": ["2", "3", "4", "5"],
           "correctIndex": 1,
-          "explanation": "Je gebruikt 3 eieren."
+          "explanation": "Je gebruikt 3 eieren.",
+          "explanationEn": "You use 3 eggs."
         },
         {
           "id": "a2-2-q15",
           "text": "Hoe lang moet het beslag rusten?",
           "options": ["10 minuten", "20 minuten", "30 minuten", "1 uur"],
           "correctIndex": 2,
-          "explanation": "Het beslag moet 30 minuten rusten."
+          "explanation": "Het beslag moet 30 minuten rusten.",
+          "explanationEn": "The batter needs to rest for 30 minutes."
         },
         {
           "id": "a2-2-q16",
           "text": "Wat doe je als laatste voordat je gaat bakken?",
           "options": ["Eieren toevoegen", "Melk toevoegen", "Het beslag laten rusten", "Boter verhitten"],
           "correctIndex": 3,
-          "explanation": "Na het rusten verhit je een beetje boter in een pan voordat je gaat bakken."
+          "explanation": "Na het rusten verhit je een beetje boter in een pan voordat je gaat bakken.",
+          "explanationEn": "After resting, you heat a little butter in a pan before you start cooking."
         }
       ]
     },
@@ -166,28 +182,32 @@
           "text": "Wanneer krijgen de kinderen hun rapport?",
           "options": ["15 februari", "16 februari", "17 februari", "18 februari"],
           "correctIndex": 1,
-          "explanation": "Op 16 februari gaat het rapport mee naar huis."
+          "explanation": "Op 16 februari gaat het rapport mee naar huis.",
+          "explanationEn": "On February 16, the report card goes home."
         },
         {
           "id": "a2-2-q18",
           "text": "Hoe lang duurt een oudergesprek?",
           "options": ["5 minuten", "10 minuten", "15 minuten", "20 minuten"],
           "correctIndex": 1,
-          "explanation": "De oudergesprekken duren 10 minuten per kind."
+          "explanation": "De oudergesprekken duren 10 minuten per kind.",
+          "explanationEn": "The parent-teacher meetings last 10 minutes per child."
         },
         {
           "id": "a2-2-q19",
           "text": "Wanneer begint de school weer na de vakantie?",
           "options": ["24 februari", "25 februari", "26 februari", "27 februari"],
           "correctIndex": 2,
-          "explanation": "De school begint weer op 26 februari."
+          "explanation": "De school begint weer op 26 februari.",
+          "explanationEn": "School starts again on February 26."
         },
         {
           "id": "a2-2-q20",
           "text": "Voor welke groep beginnen de zwemlessen?",
           "options": ["Groep 3", "Groep 4", "Groep 5", "Groep 6"],
           "correctIndex": 1,
-          "explanation": "Na de vakantie starten de zwemlessen voor groep 4."
+          "explanation": "Na de vakantie starten de zwemlessen voor groep 4.",
+          "explanationEn": "After the vacation, swimming lessons start for group 4."
         }
       ]
     }

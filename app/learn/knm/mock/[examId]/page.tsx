@@ -158,7 +158,14 @@ export default function KNMMockExamPage({ params }: PageProps) {
         <ExamHeader title={exam.title} startTime={startTime} />
 
         <ExamLayout
-          left={<ContentPanel type="knm" />}
+          left={
+            <ContentPanel
+              type="knm"
+              questionText={currentQuestion?.text}
+              questionNumber={currentQuestionIndex + 1}
+              image={currentQuestion?.image}
+            />
+          }
           right={
             currentQuestion && (
               <ExamQuestionPanel
@@ -166,6 +173,7 @@ export default function KNMMockExamPage({ params }: PageProps) {
                 questionNumber={currentQuestionIndex + 1}
                 selectedAnswer={answers[currentQuestion.id] ?? null}
                 onSelectAnswer={(idx) => selectAnswer(currentQuestion.id, idx)}
+                hideQuestionText
               />
             )
           }

@@ -45,5 +45,52 @@
     "Always include your address or apartment number so they know which unit.",
     "Mention your availability so they can schedule the repair."
   ],
-  "isFreePreview": true
+  "isFreePreview": true,
+  "questions": [
+    {
+      "id": "message-landlord-repair-q1",
+      "scenario": "De kraan in uw keuken lekt. U wilt de verhuurder vragen om het te repareren.",
+      "scenarioEn": "The kitchen tap is leaking. You want to ask the landlord to fix it.",
+      "prompt": "Schrijf een bericht aan uw verhuurder over de lekkende kraan. Vraag wanneer iemand kan komen.",
+      "promptEn": "Write a message to your landlord about the leaking tap. Ask when someone can come.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-problem", "text": "I described the problem clearly", "textEn": "I described the problem clearly" },
+        { "id": "q1-request", "text": "I asked for a repair", "textEn": "I asked for a repair" },
+        { "id": "q1-closing", "text": "I used a greeting and closing", "textEn": "I used a greeting and closing" }
+      ],
+      "modelAnswer": "Geachte heer Van den Berg,\n\nDe kraan in mijn keuken lekt al twee dagen. Er komt steeds water uit, ook als de kraan dicht is. Kunt u iemand sturen om het te repareren?\n\nIk ben elke avond na 18:00 uur thuis.\n\nMet vriendelijke groet,\nMohammed Yilmaz"
+    },
+    {
+      "id": "message-landlord-repair-q2",
+      "scenario": "Het raam in uw slaapkamer sluit niet goed. Het is koud in huis.",
+      "scenarioEn": "The window in your bedroom doesn't close properly. It's cold in the house.",
+      "prompt": "Schrijf een bericht aan uw verhuurder over het kapotte raam. Leg uit wat het probleem is.",
+      "promptEn": "Write a message to your landlord about the broken window. Explain what the problem is.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-problem", "text": "I explained what is wrong with the window", "textEn": "I explained what is wrong with the window" },
+        { "id": "q2-urgency", "text": "I explained why it needs to be fixed", "textEn": "I explained why it needs to be fixed" },
+        { "id": "q2-polite", "text": "I was polite in my request", "textEn": "I was polite in my request" }
+      ],
+      "modelAnswer": "Geachte mevrouw De Groot,\n\nHet raam in mijn slaapkamer sluit niet goed meer. Er komt koude lucht binnen en het is erg koud in huis. Kunt u dit zo snel mogelijk laten repareren?\n\nU kunt mij bellen op 06-12345678.\n\nMet vriendelijke groet,\nFatima El Amrani"
+    },
+    {
+      "id": "message-landlord-repair-q3",
+      "scenario": "De verhuurder heeft een monteur gestuurd, maar het probleem is niet opgelost. U schrijft opnieuw.",
+      "scenarioEn": "The landlord sent a repairman, but the problem is not fixed. You are writing again.",
+      "prompt": "Schrijf een tweede bericht aan uw verhuurder. Vertel dat de reparatie niet heeft geholpen en vraag opnieuw om hulp.",
+      "promptEn": "Write a second message to your landlord. Say the repair didn't work and ask for help again.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-reference", "text": "I mentioned the previous repair attempt", "textEn": "I mentioned the previous repair attempt" },
+        { "id": "q3-problem", "text": "I explained the problem is still there", "textEn": "I explained the problem is still there" },
+        { "id": "q3-request", "text": "I politely asked for another repair", "textEn": "I politely asked for another repair" }
+      ],
+      "modelAnswer": "Geachte heer Van den Berg,\n\nVorige week is er een monteur geweest voor de verwarming, maar het probleem is niet opgelost. De verwarming werkt nog steeds niet goed. Kunt u alstublieft opnieuw iemand sturen?\n\nMet vriendelijke groet,\nMohammed Yilmaz"
+    }
+  ]
 }

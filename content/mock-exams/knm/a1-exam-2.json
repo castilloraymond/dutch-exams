@@ -11,175 +11,200 @@
       "text": "Wie is de minister-president van Nederland?",
       "options": ["De koning", "De leider van de regering", "De burgemeester van Amsterdam", "De president"],
       "correctIndex": 1,
-      "explanation": "De minister-president is de leider van de regering."
+      "explanation": "De minister-president is de leider van de regering.",
+      "explanationEn": "The prime minister is the leader of the government."
     },
     {
       "id": "knm-a1-2-q2",
       "text": "Wat vieren Nederlanders op 5 december?",
       "options": ["Kerstmis", "Pasen", "Sinterklaas", "Koningsdag"],
       "correctIndex": 2,
-      "explanation": "Op 5 december vieren Nederlanders Sinterklaas (pakjesavond)."
+      "explanation": "Op 5 december vieren Nederlanders Sinterklaas (pakjesavond).",
+      "explanationEn": "On December 5, the Dutch celebrate Sinterklaas (gift-giving evening)."
     },
     {
       "id": "knm-a1-2-q3",
       "text": "Waar moet je stoppen als het verkeerslicht rood is?",
       "options": ["Je mag doorrijden", "Je moet stoppen voor het licht", "Je mag langzaam rijden", "Je moet achteruit rijden"],
       "correctIndex": 1,
-      "explanation": "Bij een rood verkeerslicht moet je altijd stoppen."
+      "explanation": "Bij een rood verkeerslicht moet je altijd stoppen.",
+      "explanationEn": "At a red traffic light, you must always stop."
     },
     {
       "id": "knm-a1-2-q4",
       "text": "Wat is de BSN?",
       "options": ["Een ziekteverzekering", "Een persoonlijk nummer van de overheid", "Een bankrekening", "Een telefoonnummer"],
       "correctIndex": 1,
-      "explanation": "BSN (Burgerservicenummer) is een persoonlijk nummer dat de overheid je geeft."
+      "explanation": "BSN (Burgerservicenummer) is een persoonlijk nummer dat de overheid je geeft.",
+      "explanationEn": "BSN (Citizen Service Number) is a personal number that the government gives you."
     },
     {
       "id": "knm-a1-2-q5",
       "text": "In welk seizoen is het koud in Nederland?",
       "options": ["Zomer", "Lente", "Herfst", "Winter"],
       "correctIndex": 3,
-      "explanation": "In de winter is het koud in Nederland."
+      "explanation": "In de winter is het koud in Nederland.",
+      "explanationEn": "In winter, it is cold in the Netherlands."
     },
     {
       "id": "knm-a1-2-q6",
       "text": "Wat is een apotheek?",
       "options": ["Een winkel voor kleding", "Een winkel voor medicijnen", "Een winkel voor eten", "Een winkel voor boeken"],
       "correctIndex": 1,
-      "explanation": "Een apotheek is een winkel waar je medicijnen kunt kopen."
+      "explanation": "Een apotheek is een winkel waar je medicijnen kunt kopen.",
+      "explanationEn": "A pharmacy is a shop where you can buy medication."
     },
     {
       "id": "knm-a1-2-q7",
       "text": "Wat moet je doen bij brand?",
       "options": ["De ramen openen", "Naar buiten gaan en 112 bellen", "Wachten in je huis", "Water over het vuur gooien"],
       "correctIndex": 1,
-      "explanation": "Bij brand moet je naar buiten gaan en 112 bellen."
+      "explanation": "Bij brand moet je naar buiten gaan en 112 bellen.",
+      "explanationEn": "In case of fire, you must go outside and call 112."
     },
     {
       "id": "knm-a1-2-q8",
       "text": "Hoeveel weken zwangerschapsverlof heeft een vrouw in Nederland?",
       "options": ["4 weken", "8 weken", "16 weken", "24 weken"],
       "correctIndex": 2,
-      "explanation": "Vrouwen hebben recht op minimaal 16 weken zwangerschaps- en bevallingsverlof."
+      "explanation": "Vrouwen hebben recht op minimaal 16 weken zwangerschaps- en bevallingsverlof.",
+      "explanationEn": "Women are entitled to a minimum of 16 weeks of pregnancy and maternity leave."
     },
     {
       "id": "knm-a1-2-q9",
       "text": "Wat is de Tweede Kamer?",
       "options": ["Een kamer in je huis", "Het parlement van Nederland", "Een rechtbank", "Een ministerie"],
       "correctIndex": 1,
-      "explanation": "De Tweede Kamer is een belangrijk deel van het parlement waar wetten worden gemaakt."
+      "explanation": "De Tweede Kamer is een belangrijk deel van het parlement waar wetten worden gemaakt.",
+      "explanationEn": "The House of Representatives (Tweede Kamer) is an important part of the parliament where laws are made."
     },
     {
       "id": "knm-a1-2-q10",
       "text": "Wie betaalt de huur voor je woning?",
       "options": ["De gemeente", "Je werkgever", "Jijzelf", "De buren"],
       "correctIndex": 2,
-      "explanation": "Je betaalt zelf de huur voor je woning."
+      "explanation": "Je betaalt zelf de huur voor je woning.",
+      "explanationEn": "You pay the rent for your home yourself."
     },
     {
       "id": "knm-a1-2-q11",
       "text": "Wat is een basisschool?",
       "options": ["Een school voor baby's", "Een school voor kinderen van 4-12 jaar", "Een school voor volwassenen", "Een universiteit"],
       "correctIndex": 1,
-      "explanation": "Een basisschool is voor kinderen van ongeveer 4 tot 12 jaar."
+      "explanation": "Een basisschool is voor kinderen van ongeveer 4 tot 12 jaar.",
+      "explanationEn": "A primary school is for children from approximately 4 to 12 years old."
     },
     {
       "id": "knm-a1-2-q12",
       "text": "Mag je in Nederland zelf je religie kiezen?",
       "options": ["Nee, de staat kiest voor jou", "Ja, er is vrijheid van godsdienst", "Alleen christendom mag", "Alleen als je Nederlands bent"],
       "correctIndex": 1,
-      "explanation": "In Nederland is er vrijheid van godsdienst: je mag zelf je religie kiezen."
+      "explanation": "In Nederland is er vrijheid van godsdienst: je mag zelf je religie kiezen.",
+      "explanationEn": "In the Netherlands, there is freedom of religion: you may choose your own religion."
     },
     {
       "id": "knm-a1-2-q13",
       "text": "Wat is het minimumloon?",
       "options": ["Het hoogste salaris", "Het laagste salaris dat wettelijk is toegestaan", "Het gemiddelde salaris", "Het salaris voor studenten"],
       "correctIndex": 1,
-      "explanation": "Het minimumloon is het laagste salaris dat een werkgever moet betalen."
+      "explanation": "Het minimumloon is het laagste salaris dat een werkgever moet betalen.",
+      "explanationEn": "The minimum wage is the lowest salary that an employer must pay."
     },
     {
       "id": "knm-a1-2-q14",
       "text": "Wat moet je doen als je verhuist?",
       "options": ["Niets", "Je nieuwe adres doorgeven aan de gemeente", "Alleen je vrienden vertellen", "Een feest geven"],
       "correctIndex": 1,
-      "explanation": "Als je verhuist, moet je je nieuwe adres doorgeven aan de gemeente."
+      "explanation": "Als je verhuist, moet je je nieuwe adres doorgeven aan de gemeente.",
+      "explanationEn": "If you move, you must report your new address to the municipality."
     },
     {
       "id": "knm-a1-2-q15",
       "text": "Wat is een weekmarkt?",
       "options": ["Een winkel die elke dag open is", "Een markt die elke week op vaste dagen is", "Een supermarkt", "Een online winkel"],
       "correctIndex": 1,
-      "explanation": "Een weekmarkt is een markt die elke week op vaste dagen is, vaak voor groente en fruit."
+      "explanation": "Een weekmarkt is een markt die elke week op vaste dagen is, vaak voor groente en fruit.",
+      "explanationEn": "A weekly market is a market held on fixed days each week, often for vegetables and fruit."
     },
     {
       "id": "knm-a1-2-q16",
       "text": "Wie mag er stemmen in Nederland?",
       "options": ["Alleen mannen", "Iedereen boven de 18 met Nederlands paspoort", "Alleen mensen met een baan", "Alleen mensen boven de 21"],
       "correctIndex": 1,
-      "explanation": "Nederlanders van 18 jaar en ouder mogen stemmen bij verkiezingen."
+      "explanation": "Nederlanders van 18 jaar en ouder mogen stemmen bij verkiezingen.",
+      "explanationEn": "Dutch citizens aged 18 and older may vote in elections."
     },
     {
       "id": "knm-a1-2-q17",
       "text": "Wat is een tandarts?",
       "options": ["Een dokter voor je oren", "Een dokter voor je tanden", "Een dokter voor je ogen", "Een dokter voor je voeten"],
       "correctIndex": 1,
-      "explanation": "Een tandarts is een dokter die je tanden controleert en behandelt."
+      "explanation": "Een tandarts is een dokter die je tanden controleert en behandelt.",
+      "explanationEn": "A dentist is a doctor who checks and treats your teeth."
     },
     {
       "id": "knm-a1-2-q18",
       "text": "Wat betekent 'discriminatie'?",
       "options": ["Iedereen gelijk behandelen", "Mensen anders behandelen vanwege bijvoorbeeld hun afkomst", "Mensen helpen", "Samen werken"],
       "correctIndex": 1,
-      "explanation": "Discriminatie is mensen anders (slechter) behandelen vanwege bijvoorbeeld hun afkomst, geslacht of religie."
+      "explanation": "Discriminatie is mensen anders (slechter) behandelen vanwege bijvoorbeeld hun afkomst, geslacht of religie.",
+      "explanationEn": "Discrimination is treating people differently (worse) because of, for example, their origin, gender, or religion."
     },
     {
       "id": "knm-a1-2-q19",
       "text": "Hoeveel vakantiedagen heeft een werknemer minimaal per jaar?",
       "options": ["10 dagen", "15 dagen", "20 dagen", "30 dagen"],
       "correctIndex": 2,
-      "explanation": "Bij een fulltime baan heb je minimaal 20 vakantiedagen per jaar."
+      "explanation": "Bij een fulltime baan heb je minimaal 20 vakantiedagen per jaar.",
+      "explanationEn": "With a full-time job, you have a minimum of 20 vacation days per year."
     },
     {
       "id": "knm-a1-2-q20",
       "text": "Wat is het Rijksmuseum?",
       "options": ["Een ziekenhuis", "Een beroemd museum in Amsterdam", "Een bibliotheek", "Een school"],
       "correctIndex": 1,
-      "explanation": "Het Rijksmuseum is een beroemd museum in Amsterdam met Nederlandse kunst."
+      "explanation": "Het Rijksmuseum is een beroemd museum in Amsterdam met Nederlandse kunst.",
+      "explanationEn": "The Rijksmuseum is a famous museum in Amsterdam with Dutch art."
     },
     {
       "id": "knm-a1-2-q21",
       "text": "Waar kun je geld pinnen?",
       "options": ["Bij de bakker", "Bij een pinautomaat", "Op de markt", "Bij de dokter"],
       "correctIndex": 1,
-      "explanation": "Je kunt geld pinnen bij een pinautomaat."
+      "explanation": "Je kunt geld pinnen bij een pinautomaat.",
+      "explanationEn": "You can withdraw money at an ATM."
     },
     {
       "id": "knm-a1-2-q22",
       "text": "Wat is de NS?",
       "options": ["Een supermarkt", "De Nederlandse Spoorwegen (treinen)", "Een ziekenhuis", "Een bank"],
       "correctIndex": 1,
-      "explanation": "NS staat voor Nederlandse Spoorwegen, het bedrijf dat de treinen rijdt."
+      "explanation": "NS staat voor Nederlandse Spoorwegen, het bedrijf dat de treinen rijdt.",
+      "explanationEn": "NS stands for Dutch Railways (Nederlandse Spoorwegen), the company that operates the trains."
     },
     {
       "id": "knm-a1-2-q23",
       "text": "Is het dragen van een helm op de fiets verplicht in Nederland?",
       "options": ["Ja, altijd", "Nee, het is niet verplicht", "Alleen voor kinderen", "Alleen op snelle wegen"],
       "correctIndex": 1,
-      "explanation": "Het dragen van een fietshelm is in Nederland niet verplicht (behalve op een snorfiets)."
+      "explanation": "Het dragen van een fietshelm is in Nederland niet verplicht (behalve op een snorfiets).",
+      "explanationEn": "Wearing a bicycle helmet is not mandatory in the Netherlands (except on a moped)."
     },
     {
       "id": "knm-a1-2-q24",
       "text": "Wat is een uitkering?",
       "options": ["Een cadeau", "Geld van de overheid als je niet kunt werken", "Een lening", "Een salaris"],
       "correctIndex": 1,
-      "explanation": "Een uitkering is geld dat je van de overheid krijgt als je niet kunt werken."
+      "explanation": "Een uitkering is geld dat je van de overheid krijgt als je niet kunt werken.",
+      "explanationEn": "A benefit (uitkering) is money you receive from the government if you cannot work."
     },
     {
       "id": "knm-a1-2-q25",
       "text": "Waar ligt Nederland in Europa?",
       "options": ["In het zuiden", "In het noorden", "In het westen, aan de Noordzee", "In het oosten"],
       "correctIndex": 2,
-      "explanation": "Nederland ligt in West-Europa, aan de Noordzee."
+      "explanation": "Nederland ligt in West-Europa, aan de Noordzee.",
+      "explanationEn": "The Netherlands is located in Western Europe, on the North Sea."
     }
   ]
 }

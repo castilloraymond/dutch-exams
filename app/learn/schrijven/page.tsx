@@ -161,18 +161,6 @@ export default function SchrijvenPage() {
             )}
           </div>
 
-          {/* Pro upsell */}
-          <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90 text-white">
-            <h3 className="font-bold text-lg mb-2">
-              Wil je AI-feedback op je schrijfwerk?
-            </h3>
-            <p className="text-white/80 text-sm mb-4">
-              Pro-leden krijgen directe feedback op grammatica, woordenschat en schrijfstijl.
-            </p>
-            <Link href="/upgrade" className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
-              Upgrade naar Pro
-            </Link>
-          </div>
         </div>
       </section>
     </main>

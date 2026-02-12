@@ -9,6 +9,7 @@ interface ExamQuestionPanelProps {
   questionNumber: number;
   selectedAnswer: number | null;
   onSelectAnswer: (answerIndex: number) => void;
+  hideQuestionText?: boolean;
 }
 
 const LABELS = ["A", "B", "C", "D"];
@@ -18,6 +19,7 @@ export function ExamQuestionPanel({
   questionNumber,
   selectedAnswer,
   onSelectAnswer,
+  hideQuestionText = false,
 }: ExamQuestionPanelProps) {
   // Keyboard shortcuts for selecting answers
   useEffect(() => {
@@ -35,11 +37,14 @@ export function ExamQuestionPanel({
 
   return (
     <div className="space-y-4">
-      <div className="text-sm font-medium text-[var(--ink)]/60">
-        Vraag {questionNumber}
-      </div>
-
-      <h3 className="text-lg font-medium text-[var(--ink)]">{question.text}</h3>
+      {!hideQuestionText && (
+        <>
+          <div className="text-sm font-medium text-[var(--ink)]/60">
+            Vraag {questionNumber}
+          </div>
+          <h3 className="text-lg font-medium text-[var(--ink)]">{question.text}</h3>
+        </>
+      )}
 
       <div className="space-y-2">
         {question.options.map((option, index) => (

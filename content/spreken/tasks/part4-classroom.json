@@ -83,21 +83,21 @@
       "images": [
         {
           "id": "whiteboard",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=600&fit=crop",
           "alt": "Whiteboard in a classroom",
           "altNl": "Whiteboard in een klaslokaal",
           "label": "1"
         },
         {
           "id": "world-map",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=600&fit=crop",
           "alt": "World map hanging on a wall",
           "altNl": "Wereldkaart aan de muur",
           "label": "2"
         },
         {
           "id": "clock",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=600&fit=crop",
           "alt": "Clock on a wall",
           "altNl": "Klok aan de muur",
           "label": "3"
@@ -122,21 +122,21 @@
       "images": [
         {
           "id": "alarm-clock",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=600&fit=crop",
           "alt": "Alarm clock ringing in the morning",
           "altNl": "Wekker gaat af in de ochtend",
           "label": "1"
         },
         {
           "id": "breakfast",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=600&fit=crop",
           "alt": "Person eating breakfast at a table",
           "altNl": "Persoon eet ontbijt aan tafel",
           "label": "2"
         },
         {
           "id": "bicycle-commute",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=600&fit=crop",
           "alt": "Person cycling to work or school",
           "altNl": "Persoon fietst naar werk of school",
           "label": "3"

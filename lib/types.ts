@@ -4,6 +4,8 @@ export interface Question {
   options: string[];
   correctIndex: number;
   explanation?: string;
+  explanationEn?: string;
+  image?: string;
 }
 
 // Content types for structured passage rendering
@@ -66,6 +68,7 @@ export interface AnswerRecord {
   userAnswer: number | null;
   correctAnswer: number;
   explanation?: string;
+  explanationEn?: string;
 }
 
 // KNM types
@@ -231,6 +234,22 @@ export interface AssessmentCriterion {
   textEn: string;
 }
 
+export interface WritingQuestion {
+  id: string;
+  scenario: string;
+  scenarioEn: string;
+  prompt: string;
+  promptEn: string;
+  taskType: WritingTaskType;
+  wordRange?: {
+    min: number;
+    max: number;
+  };
+  formFields?: FormField[];
+  selfAssessmentCriteria: AssessmentCriterion[];
+  modelAnswer: string | FormAnswer;
+}
+
 export interface WritingTask {
   id: string;
   title: string;
@@ -250,6 +269,7 @@ export interface WritingTask {
   modelAnswer: string | FormAnswer;
   tips: string[];
   isFreePreview: boolean;
+  questions?: WritingQuestion[];
 }
 
 export interface WritingTaskSummary {
@@ -267,8 +287,14 @@ export interface WritingIndex {
   tasks: WritingTaskSummary[];
 }
 
+export interface WritingSubmission {
+  questionId: string;
+  submission: string | FormAnswer;
+}
+
 export interface WritingAttempt {
   submission: string | FormAnswer;
+  submissions?: WritingSubmission[];
   selfAssessmentScore: number;
   selfAssessmentTotal: number;
   checkedCriteria: string[];

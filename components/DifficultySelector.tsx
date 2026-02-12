@@ -90,7 +90,9 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
             </p>
           </div>
 
-          <MockupNote />
+          <div className="mb-6">
+            <MockupNote />
+          </div>
 
           <div className="space-y-8">
             {/* A1 Section */}

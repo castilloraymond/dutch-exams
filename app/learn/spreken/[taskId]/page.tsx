@@ -279,7 +279,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
           {/* Prompt stage - show task and start button */}
           {stage === "prompt" && (
             <div className="space-y-6">
-              <SpeakingPrompt task={task} question={currentQuestion} />
+              <SpeakingPrompt task={task} question={currentQuestion} autoPlay={stage === "prompt"} />
 
               {/* Permission request or start button */}
               {permissionStatus === "prompt" ? (

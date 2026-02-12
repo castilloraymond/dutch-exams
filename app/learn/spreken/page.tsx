@@ -112,19 +112,6 @@ export default function SprekenPage() {
             })}
           </div>
 
-          {/* Pro upsell */}
-          <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90 text-white">
-            <h3 className="font-bold text-lg mb-2">
-              Wil je AI-feedback op je uitspraak?
-            </h3>
-            <p className="text-white/80 text-sm mb-4">
-              Pro-leden krijgen hun spraak getranscribeerd en geanalyseerd op
-              grammatica, woordkeus en samenhang.
-            </p>
-            <Link href="/upgrade" className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
-              Upgrade naar Pro
-            </Link>
-          </div>
         </div>
       </section>
     </main>

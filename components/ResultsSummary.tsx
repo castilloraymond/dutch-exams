@@ -249,10 +249,10 @@ export function ResultsSummary({
                         </p>
                       )}
 
-                      {record.explanation && (
+                      {(record.explanationEn || record.explanation) && (
                         <p className="text-[var(--ink)]/70 mt-2 pt-2 border-t border-[var(--ink)]/10">
                           <span className="font-medium">Explanation: </span>
-                          {record.explanation}
+                          {record.explanationEn || record.explanation}
                         </p>
                       )}
                     </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Volume2, User } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
@@ -9,9 +9,10 @@ interface SpeakingPromptProps {
   task: SpeakingTask;
   question?: SpeakingQuestion;
   compact?: boolean;
+  autoPlay?: boolean;
 }
 
-export function SpeakingPrompt({ task, question, compact = false }: SpeakingPromptProps) {
+export function SpeakingPrompt({ task, question, compact = false, autoPlay = false }: SpeakingPromptProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
@@ -23,6 +24,32 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
   const personStatement = question?.personStatement ?? task.personStatement;
   const images = question?.images ?? task.images;
   const sequencingWordsRequired = question?.sequencingWordsRequired ?? task.sequencingWordsRequired;
+
+  // Auto-play TTS when component mounts and autoPlay is true
+  useEffect(() => {
+    if (!autoPlay) return;
+
+    const textToRead = personStatementNl || questionNl;
+    if (!textToRead) return;
+
+    const timer = setTimeout(() => {
+      const utterance = new SpeechSynthesisUtterance(textToRead);
+      utterance.lang = "nl-NL";
+      utterance.rate = 0.9;
+      utterance.onend = () => setIsPlaying(false);
+      utterance.onerror = () => setIsPlaying(false);
+      utteranceRef.current = utterance;
+      window.speechSynthesis.speak(utterance);
+      setIsPlaying(true);
+    }, 500);
+
+    return () => {
+      clearTimeout(timer);
+      window.speechSynthesis.cancel();
+    };
+    // Only run on mount / when autoPlay changes
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoPlay]);
 
   const playTTS = () => {
     if (isPlaying) {
@@ -57,9 +84,6 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
               <p className="text-[var(--ink)] font-medium">
                 {personStatementNl}
               </p>
-              <p className="text-sm text-[var(--ink)]/60 mt-1">
-                {personStatement}
-              </p>
             </div>
             <button
               onClick={playTTS}
@@ -80,9 +104,6 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
           <h2 className="font-bold text-[var(--ink)] mb-1">
             {questionNl}
           </h2>
-          <p className="text-sm text-[var(--ink)]/60">
-            {questionEn}
-          </p>
           {questionParts && (
             <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
               <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
@@ -123,11 +144,8 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
               return (
                 <div key={image.id} className="relative">
                   <div className="aspect-square rounded-lg border-2 border-dashed border-[var(--ink)]/20 bg-[var(--ink)]/5 flex flex-col items-center justify-center p-4 text-center">
-                    <p className="text-sm font-medium text-[var(--ink)]/80 mb-1">
+                    <p className="text-sm font-medium text-[var(--ink)]/80">
                       {image.altNl}
-                    </p>
-                    <p className="text-xs text-[var(--ink)]/50">
-                      {image.alt}
                     </p>
                   </div>
                   {image.label && (
@@ -144,7 +162,7 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
                 <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-200">
                   <Image
                     src={image.src}
-                    alt={image.alt}
+                    alt={image.altNl}
                     fill
                     className="object-cover"
                     onError={(e) => {
@@ -172,9 +190,6 @@ export function SpeakingPrompt({ task, question, compact = false }: SpeakingProm
         <h2 className="font-bold text-[var(--ink)] mb-1">
           {questionNl}
         </h2>
-        <p className="text-sm text-[var(--ink)]/60">
-          {questionEn}
-        </p>
         {questionParts && (
           <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
             <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">

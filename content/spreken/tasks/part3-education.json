@@ -75,14 +75,14 @@
       "images": [
         {
           "id": "old-building",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=600&fit=crop",
           "alt": "Old traditional brick school building",
           "altNl": "Oud traditioneel bakstenen schoolgebouw",
           "label": "A"
         },
         {
           "id": "modern-building",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=600&fit=crop",
           "alt": "Modern glass and steel school building",
           "altNl": "Modern school gebouw van glas en staal",
           "label": "B"
@@ -106,14 +106,14 @@
       "images": [
         {
           "id": "bicycle",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=600&fit=crop",
           "alt": "Person riding a bicycle on a bike path",
           "altNl": "Persoon fietst op een fietspad",
           "label": "A"
         },
         {
           "id": "car",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=600&h=600&fit=crop",
           "alt": "Person driving a car on the road",
           "altNl": "Persoon rijdt in een auto op de weg",
           "label": "B"
@@ -137,14 +137,14 @@
       "images": [
         {
           "id": "apartment",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=600&fit=crop",
           "alt": "Apartment building with balconies",
           "altNl": "Flatgebouw met balkons",
           "label": "A"
         },
         {
           "id": "house",
-          "src": "/images/placeholder-image.svg",
+          "src": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=600&fit=crop",
           "alt": "Detached house with a garden",
           "altNl": "Vrijstaand huis met een tuin",
           "label": "B"

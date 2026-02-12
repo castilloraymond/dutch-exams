@@ -9,7 +9,7 @@
   "images": [
     {
       "id": "market-stall",
-      "src": "/images/placeholder-image.svg",
+      "src": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&h=600&fit=crop",
       "alt": "Person shopping at an outdoor market with vegetables and fruit",
       "altNl": "Persoon die boodschappen doet op een buitenmarkt met groenten en fruit",
       "label": "Lisa"

@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect, useMemo, use } from "react";
+import { useState, useEffect, useMemo, useCallback, use } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Clock, PenLine } from "lucide-react";
 import { getWritingTask } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
-import type { FormAnswer, WritingAttempt } from "@/lib/types";
+import type { FormAnswer, WritingAttempt, WritingQuestion, WritingSubmission } from "@/lib/types";
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
 import { WritingResults } from "@/components/schrijven/WritingResults";
@@ -24,14 +24,45 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
 
   const task = useMemo(() => getWritingTask(taskId), [taskId]);
 
+  // Build questions array from task.questions or fallback to single legacy question
+  const questions: WritingQuestion[] = useMemo(() => {
+    if (!task) return [];
+    if (task.questions && task.questions.length > 0) return task.questions;
+    // Legacy single-question fallback
+    return [
+      {
+        id: `${task.id}-q1`,
+        scenario: task.scenario,
+        scenarioEn: task.scenarioEn,
+        prompt: task.prompt,
+        promptEn: task.promptEn,
+        taskType: task.taskType,
+        wordRange: task.wordRange,
+        formFields: task.formFields,
+        selfAssessmentCriteria: task.selfAssessmentCriteria,
+        modelAnswer: task.modelAnswer,
+      },
+    ];
+  }, [task]);
+
+  const isMultiQuestion = questions.length > 1;
+
   const [stage, setStage] = useState<Stage>("writing");
-  const [submission, setSubmission] = useState<string | FormAnswer>(
-    task?.taskType === "form" ? {} : ""
-  );
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [submission, setSubmission] = useState<string | FormAnswer>("");
+  const [submissions, setSubmissions] = useState<WritingSubmission[]>([]);
   const [startTime] = useState(() => Date.now());
   const [elapsedTime, setElapsedTime] = useState(0);
   const [checkedCriteria, setCheckedCriteria] = useState<string[]>([]);
   const [modelAnswerRevealed, setModelAnswerRevealed] = useState(false);
+
+  const currentQuestion = questions[currentQuestionIndex];
+
+  // Reset submission when question changes
+  useEffect(() => {
+    if (!currentQuestion) return;
+    setSubmission(currentQuestion.taskType === "form" ? {} : "");
+  }, [currentQuestionIndex, currentQuestion]);
 
   // Timer effect
   useEffect(() => {
@@ -51,6 +82,21 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
   };
 
   const handleSubmit = () => {
+    if (isMultiQuestion) {
+      // Save this submission
+      setSubmissions((prev) => [
+        ...prev,
+        { questionId: currentQuestion.id, submission },
+      ]);
+
+      // If more questions, advance
+      if (currentQuestionIndex < questions.length - 1) {
+        setCurrentQuestionIndex((prev) => prev + 1);
+        return;
+      }
+    }
+
+    // Last question or single: go to results
     setStage("results");
   };
 
@@ -58,11 +104,16 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
     setModelAnswerRevealed(true);
   };
 
-  const handleComplete = () => {
+  const handleComplete = useCallback(() => {
     if (!task) return;
 
+    const allSubmissions: WritingSubmission[] = isMultiQuestion
+      ? [...submissions, { questionId: currentQuestion.id, submission }]
+      : [];
+
     const attempt: WritingAttempt = {
-      submission,
+      submission: isMultiQuestion ? allSubmissions[0]?.submission || "" : submission,
+      submissions: isMultiQuestion ? allSubmissions : undefined,
       selfAssessmentScore: checkedCriteria.length,
       selfAssessmentTotal: task.selfAssessmentCriteria.length,
       checkedCriteria,
@@ -72,24 +123,26 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
     };
 
     saveWritingAttempt(taskId, attempt);
-  };
+  }, [task, isMultiQuestion, submissions, currentQuestion, submission, checkedCriteria, modelAnswerRevealed, elapsedTime, saveWritingAttempt, taskId]);
 
   const handleRetry = () => {
     setStage("writing");
-    setSubmission(task?.taskType === "form" ? {} : "");
+    setCurrentQuestionIndex(0);
+    setSubmission(questions[0]?.taskType === "form" ? {} : "");
+    setSubmissions([]);
     setCheckedCriteria([]);
     setModelAnswerRevealed(false);
   };
 
   const isSubmitDisabled = useMemo(() => {
-    if (!task) return true;
-    if (task.taskType === "form") {
+    if (!currentQuestion) return true;
+    if (currentQuestion.taskType === "form") {
       const formSubmission = submission as FormAnswer;
-      const requiredFields = task.formFields?.filter((f) => f.required) || [];
+      const requiredFields = currentQuestion.formFields?.filter((f) => f.required) || [];
       return requiredFields.some((field) => !formSubmission[field.id]?.trim());
     }
     return (submission as string).trim().length < 10;
-  }, [task, submission]);
+  }, [currentQuestion, submission]);
 
   if (!task) {
     return (
@@ -98,6 +151,11 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
       </div>
     );
   }
+
+  // Build all submissions for results (including current)
+  const allSubmissions: WritingSubmission[] = isMultiQuestion
+    ? [...submissions, { questionId: currentQuestion?.id || "", submission }]
+    : [{ questionId: questions[0]?.id || "", submission }];
 
   return (
     <main className="min-h-screen flex flex-col bg-[var(--cream)]">
@@ -119,53 +177,61 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
                 </h1>
               </div>
             </div>
-            {stage === "writing" && (
-              <div className="flex items-center gap-2 text-[var(--ink)]/60">
-                <Clock className="h-4 w-4" />
-                <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
-              </div>
-            )}
+            <div className="flex items-center gap-3">
+              {isMultiQuestion && stage === "writing" && (
+                <span className="text-sm font-medium text-[var(--ink)]/60">
+                  Question {currentQuestionIndex + 1}/{questions.length}
+                </span>
+              )}
+              {stage === "writing" && (
+                <div className="flex items-center gap-2 text-[var(--ink)]/60">
+                  <Clock className="h-4 w-4" />
+                  <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </header>
 
+      {/* Multi-question progress bar */}
+      {isMultiQuestion && stage === "writing" && (
+        <div className="bg-[var(--cream)] px-4 pt-2">
+          <div className="container mx-auto">
+            <div className="max-w-2xl mx-auto">
+              <div className="w-full h-1.5 bg-[var(--ink)]/10 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-[var(--accent)] rounded-full transition-all duration-300"
+                  style={{
+                    width: `${(currentQuestionIndex / questions.length) * 100}%`,
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto">
-          {stage === "writing" && (
+          {stage === "writing" && currentQuestion && (
             <div className="space-y-6">
               {/* Scenario */}
               <div className="landing-card p-4 bg-[var(--ink)]/5">
-                <p className="text-[var(--ink)] mb-2">{task.scenario}</p>
-                <p className="text-sm text-[var(--ink)]/60 italic">
-                  {task.scenarioEn}
-                </p>
+                <p className="text-[var(--ink)]">{currentQuestion.scenario}</p>
               </div>
 
               {/* Prompt */}
               <div>
                 <h2 className="font-bold text-[var(--ink)] mb-2">
-                  {task.prompt}
+                  {currentQuestion.prompt}
                 </h2>
-                <p className="text-sm text-[var(--ink)]/60">
-                  {task.promptEn}
-                </p>
               </div>
 
-              {/* Form reminder for form tasks */}
-              {task.taskType === "form" && (
-                <div className="bg-[var(--accent)]/10 border border-[var(--accent)]/30 rounded-lg p-4">
-                  <p className="text-sm text-[var(--ink)]">
-                    <span className="font-semibold">Tip:</span> Op het echte examen
-                    schrijf je met de hand op papier. Oefen ook je Nederlandse
-                    handschrift!
-                  </p>
-                </div>
-              )}
-
               {/* Input area */}
-              {task.taskType === "form" ? (
+              {currentQuestion.taskType === "form" ? (
                 <FormInput
-                  fields={task.formFields || []}
+                  fields={currentQuestion.formFields || []}
                   value={submission as FormAnswer}
                   onChange={setSubmission}
                 />
@@ -174,7 +240,7 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
                   value={submission as string}
                   onChange={(val) => setSubmission(val)}
                   placeholder="Schrijf hier je antwoord..."
-                  wordRange={task.wordRange}
+                  wordRange={currentQuestion.wordRange}
                 />
               )}
 
@@ -184,7 +250,9 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
                 disabled={isSubmitDisabled}
                 className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
-                Versturen
+                {isMultiQuestion && currentQuestionIndex < questions.length - 1
+                  ? "Volgende vraag"
+                  : "Versturen"}
               </button>
             </div>
           )}
@@ -193,12 +261,15 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
             <WritingResults
               task={task}
               submission={submission}
+              questions={questions}
+              submissions={allSubmissions}
               checkedCriteria={checkedCriteria}
               elapsedTime={elapsedTime}
               modelAnswerRevealed={modelAnswerRevealed}
               onRevealModelAnswer={handleRevealModelAnswer}
               onRetry={handleRetry}
               onComplete={handleComplete}
+              onGoToIndex={() => router.push('/learn/schrijven')}
             />
           )}
         </div>

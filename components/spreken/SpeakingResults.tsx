@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
-import { Check, Lock, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp } from "lucide-react";
+import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 
 interface RecordedAnswer {
@@ -122,26 +121,6 @@ export function SpeakingResults({
               {recordedAnswers.length + 1} questions completed
             </span>
           )}
-        </div>
-      </div>
-
-      {/* Conversion hook - Want to know how you did? */}
-      <div className="rounded-xl shadow-lg p-6 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90 text-white">
-        <div className="flex items-start gap-4">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-            <Lock className="h-5 w-5" />
-          </div>
-          <div>
-            <h3 className="font-bold text-lg mb-1">
-              Want to know how you really did?
-            </h3>
-            <p className="text-white/80 text-sm mb-4">
-              Pro members get their speech transcribed and analyzed for grammar, word choice, and coherence.
-            </p>
-            <Link href="/upgrade" className="inline-block bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors">
-              Upgrade naar Pro
-            </Link>
-          </div>
         </div>
       </div>
 
@@ -292,39 +271,6 @@ export function SpeakingResults({
             </li>
           ))}
         </ul>
-        <p className="text-sm text-[var(--ink)]/60 mt-4 italic">
-          Pro members get personalized tips based on their specific mistakes.
-        </p>
-      </div>
-
-      {/* Locked AI Analysis section - Conversion hook #2 */}
-      <div className="landing-card p-6 bg-gray-100 border-2 border-dashed border-gray-300">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center">
-            <Lock className="h-4 w-4 text-gray-500" />
-          </div>
-          <h3 className="font-bold text-gray-500">AI Analysis</h3>
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--accent)] text-white">
-            Pro
-          </span>
-        </div>
-        <div className="space-y-3 text-gray-400 text-sm mb-4">
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Transcript:</span>
-            <div className="h-4 bg-gray-300 rounded flex-1"></div>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Grammar:</span>
-            <div className="h-4 bg-gray-300 rounded w-16"></div>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Coherence:</span>
-            <div className="h-4 bg-gray-300 rounded w-16"></div>
-          </div>
-        </div>
-        <Link href="/upgrade" className="block w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
-          Unlock with Pro
-        </Link>
       </div>
 
       {/* Action buttons */}

@@ -1,29 +1,89 @@
 "use client";
 
-import { useEffect } from "react";
-import Link from "next/link";
-import { Check, Lock, Lightbulb, Clock, ListChecks } from "lucide-react";
-import type { WritingTask, FormAnswer } from "@/lib/types";
+import { useState, useEffect } from "react";
+import { Check, Lightbulb, Clock, ListChecks, ChevronDown, ChevronUp } from "lucide-react";
+import type { WritingTask, WritingQuestion, WritingSubmission, FormAnswer } from "@/lib/types";
 
 interface WritingResultsProps {
   task: WritingTask;
   submission: string | FormAnswer;
+  questions?: WritingQuestion[];
+  submissions?: WritingSubmission[];
   checkedCriteria: string[];
   elapsedTime: number;
   modelAnswerRevealed: boolean;
   onRevealModelAnswer: () => void;
   onRetry: () => void;
   onComplete: () => void;
+  onGoToIndex: () => void;
+}
+
+function AnswerComparison({
+  taskType,
+  userAnswer,
+  modelAnswer,
+}: {
+  taskType: string;
+  userAnswer: string | FormAnswer;
+  modelAnswer: string | FormAnswer;
+}) {
+  return (
+    <div className="grid md:grid-cols-2 gap-4">
+      <div className="p-4 rounded-lg bg-[var(--ink)]/5">
+        <h4 className="text-sm font-medium text-[var(--ink)]/60 mb-2">
+          Your Answer:
+        </h4>
+        {taskType === "form" ? (
+          <div className="space-y-1 text-sm">
+            {Object.entries(userAnswer as FormAnswer).map(([key, value]) => (
+              <div key={key}>
+                <span className="font-medium">{key}:</span> {value}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
+            {userAnswer as string}
+          </p>
+        )}
+      </div>
+
+      <div className="p-4 rounded-lg bg-green-50 border border-green-200">
+        <h4 className="text-sm font-medium text-green-700 mb-2">
+          Model Answer:
+        </h4>
+        {taskType === "form" ? (
+          <div className="space-y-1 text-sm">
+            {Object.entries(modelAnswer as FormAnswer).map(([key, value]) => (
+              <div key={key}>
+                <span className="font-medium">{key}:</span> {value}
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
+            {modelAnswer as string}
+          </p>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export function WritingResults({
   task,
   submission,
+  questions = [],
+  submissions = [],
   elapsedTime,
   onRevealModelAnswer,
   onRetry,
   onComplete,
+  onGoToIndex,
 }: WritingResultsProps) {
+  const [expandedQuestion, setExpandedQuestion] = useState<number | null>(0);
+  const isMultiQuestion = questions.length > 1;
+
   // Call onComplete and reveal model answer when component mounts
   useEffect(() => {
     onComplete();
@@ -40,9 +100,14 @@ export function WritingResults({
     <div className="space-y-6">
       {/* Time taken */}
       <div className="landing-card p-4">
-        <div className="flex items-center justify-center gap-2 text-[var(--ink)]/60">
-          <Clock className="h-4 w-4" />
-          <span>Time: {formatTime(elapsedTime)}</span>
+        <div className="flex items-center justify-center gap-4 text-[var(--ink)]/60">
+          <div className="flex items-center gap-2">
+            <Clock className="h-4 w-4" />
+            <span>Time: {formatTime(elapsedTime)}</span>
+          </div>
+          {isMultiQuestion && (
+            <span>{questions.length} questions completed</span>
+          )}
         </div>
       </div>
 
@@ -67,56 +132,83 @@ export function WritingResults({
         </ul>
       </div>
 
-      {/* Model answer section - shown by default */}
-      <div className="landing-card p-6">
-        <h3 className="font-bold text-[var(--ink)] mb-4">
-          Model Answer
-        </h3>
+      {/* Multi-question answers */}
+      {isMultiQuestion ? (
+        <div className="space-y-4">
+          <h3 className="font-bold text-[var(--ink)]">
+            Your Answers & Model Answers
+          </h3>
 
-        <div className="grid md:grid-cols-2 gap-4">
-          {/* User's answer */}
-          <div className="p-4 rounded-lg bg-[var(--ink)]/5">
-            <h4 className="text-sm font-medium text-[var(--ink)]/60 mb-2">
-              Your Answer:
-            </h4>
-            {task.taskType === "form" ? (
-              <div className="space-y-1 text-sm">
-                {Object.entries(submission as FormAnswer).map(([key, value]) => (
-                  <div key={key}>
-                    <span className="font-medium">{key}:</span> {value}
+          {questions.map((q, idx) => {
+            const sub = submissions[idx];
+            const userAnswer = sub?.submission || "";
+            const isExpanded = expandedQuestion === idx;
+
+            return (
+              <div key={q.id} className="landing-card overflow-hidden">
+                <button
+                  onClick={() => setExpandedQuestion(isExpanded ? null : idx)}
+                  className="w-full p-4 flex items-center justify-between text-left cursor-pointer"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[var(--accent)]/10 flex items-center justify-center text-sm font-medium text-[var(--accent)]">
+                      {idx + 1}
+                    </span>
+                    <span className="text-sm font-medium text-[var(--ink)]">
+                      {q.prompt}
+                    </span>
                   </div>
-                ))}
-              </div>
-            ) : (
-              <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
-                {submission as string}
-              </p>
-            )}
-          </div>
+                  {isExpanded ? (
+                    <ChevronUp className="h-4 w-4 text-[var(--ink)]/60 flex-shrink-0" />
+                  ) : (
+                    <ChevronDown className="h-4 w-4 text-[var(--ink)]/60 flex-shrink-0" />
+                  )}
+                </button>
 
-          {/* Model answer */}
-          <div className="p-4 rounded-lg bg-green-50 border border-green-200">
-            <h4 className="text-sm font-medium text-green-700 mb-2">
-              Model Answer:
-            </h4>
-            {task.taskType === "form" ? (
-              <div className="space-y-1 text-sm">
-                {Object.entries(task.modelAnswer as FormAnswer).map(
-                  ([key, value]) => (
-                    <div key={key}>
-                      <span className="font-medium">{key}:</span> {value}
+                {isExpanded && (
+                  <div className="px-4 pb-4 space-y-3">
+                    {/* Scenario context */}
+                    <div className="p-3 rounded-lg bg-[var(--ink)]/5">
+                      <p className="text-xs text-[var(--ink)]/60">{q.scenario}</p>
                     </div>
-                  )
+
+                    {/* Criteria for this question */}
+                    {q.selfAssessmentCriteria.length > 0 && (
+                      <div className="space-y-1">
+                        <p className="text-xs font-medium text-[var(--ink)]/60">Criteria:</p>
+                        {q.selfAssessmentCriteria.map((c) => (
+                          <div key={c.id} className="flex items-center gap-1.5 text-xs text-[var(--ink)]/70">
+                            <Check className="h-3 w-3 text-[var(--accent)] flex-shrink-0" />
+                            <span>{c.text}</span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    <AnswerComparison
+                      taskType={q.taskType}
+                      userAnswer={userAnswer}
+                      modelAnswer={q.modelAnswer}
+                    />
+                  </div>
                 )}
               </div>
-            ) : (
-              <p className="text-[var(--ink)] whitespace-pre-wrap text-sm">
-                {task.modelAnswer as string}
-              </p>
-            )}
-          </div>
+            );
+          })}
         </div>
-      </div>
+      ) : (
+        /* Single question: original layout */
+        <div className="landing-card p-6">
+          <h3 className="font-bold text-[var(--ink)] mb-4">
+            Model Answer
+          </h3>
+          <AnswerComparison
+            taskType={task.taskType}
+            userAnswer={submission}
+            modelAnswer={task.modelAnswer}
+          />
+        </div>
+      )}
 
       {/* Tips section */}
       <div className="landing-card p-6">
@@ -157,30 +249,6 @@ export function WritingResults({
           </ul>
         </div>
 
-        <p className="text-sm text-[var(--ink)]/60 mt-4 italic">
-          Pro members get personalized tips based on their specific mistakes.
-        </p>
-      </div>
-
-      {/* Locked AI Feedback section - Conversion hook #2 */}
-      <div className="landing-card p-6 bg-gray-100 border-2 border-dashed border-gray-300">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center">
-            <Lock className="h-4 w-4 text-gray-500" />
-          </div>
-          <h3 className="font-bold text-gray-500">AI Feedback</h3>
-          <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--accent)] text-white">
-            Pro
-          </span>
-        </div>
-        <div className="space-y-2 text-gray-400 text-sm">
-          <div className="h-4 bg-gray-300 rounded w-3/4"></div>
-          <div className="h-4 bg-gray-300 rounded w-1/2"></div>
-          <div className="h-4 bg-gray-300 rounded w-2/3"></div>
-        </div>
-        <Link href="/upgrade" className="mt-4 block w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors text-center">
-          Unlock with Pro
-        </Link>
       </div>
 
       {/* Action buttons */}
@@ -191,12 +259,12 @@ export function WritingResults({
         >
           Try Again
         </button>
-        <Link
-          href="/learn/schrijven"
-          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
+        <button
+          onClick={onGoToIndex}
+          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
         >
           Another Task
-        </Link>
+        </button>
       </div>
     </div>
   );

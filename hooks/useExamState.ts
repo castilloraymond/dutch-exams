@@ -74,6 +74,7 @@ export function useExamState({ questions, onComplete }: UseExamStateOptions) {
         userAnswer,
         correctAnswer: q.correctIndex,
         explanation: q.explanation,
+        explanationEn: q.explanationEn,
       };
     });
 

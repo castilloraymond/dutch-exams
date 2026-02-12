@@ -21,6 +21,7 @@ interface ContentPanelLuisterenProps {
 interface ContentPanelKNMProps {
   type: "knm";
   questionText?: string;
+  questionNumber?: number;
   image?: string;
   audioFile?: string;
 }
@@ -150,9 +151,22 @@ export function ContentPanel(props: ContentPanelProps) {
     );
   }
 
-  // KNM: show image and audio if available
+  // KNM: show question text prominently on left, with optional image
   return (
     <div className="space-y-4">
+      {props.questionText && (
+        <div className="landing-card p-4 sm:p-6">
+          {props.questionNumber && (
+            <div className="text-sm font-medium text-[var(--ink)]/60 mb-2">
+              Vraag {props.questionNumber}
+            </div>
+          )}
+          <h3 className="text-lg font-medium text-[var(--ink)]">
+            {props.questionText}
+          </h3>
+        </div>
+      )}
+
       {props.image && (
         <div className="landing-card overflow-hidden relative aspect-video">
           <Image
@@ -171,7 +185,7 @@ export function ContentPanel(props: ContentPanelProps) {
         />
       )}
 
-      {!props.image && !props.audioFile && (
+      {!props.questionText && !props.image && !props.audioFile && (
         <div className="landing-card p-4 sm:p-6">
           <p className="text-[var(--ink)]/60 text-sm">
             Beantwoord de vragen aan de rechterkant.

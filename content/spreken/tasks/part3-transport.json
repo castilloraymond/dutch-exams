@@ -9,14 +9,14 @@
   "images": [
     {
       "id": "bicycle",
-      "src": "/images/placeholder-image.svg",
+      "src": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=600&fit=crop",
       "alt": "Person riding a bicycle on a Dutch bike path",
       "altNl": "Persoon die fietst op een Nederlands fietspad",
       "label": "A"
     },
     {
       "id": "bus",
-      "src": "/images/placeholder-image.svg",
+      "src": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=600&h=600&fit=crop",
       "alt": "People waiting at a bus stop in the city",
       "altNl": "Mensen die wachten bij een bushalte in de stad",
       "label": "B"

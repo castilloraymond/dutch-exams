@@ -34,9 +34,6 @@ export function FormInput({ fields, value, onChange, disabled = false }: FormInp
           >
             {field.label}
             {field.required && <span className="text-red-500 ml-1">*</span>}
-            <span className="text-[var(--ink)]/50 font-normal ml-2">
-              ({field.labelEn})
-            </span>
           </label>
 
           {field.type === "select" ? (
