@@ -14,10 +14,49 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 ## Architecture
 
 - **Framework:** Next.js 16 (App Router), React 19, TypeScript 5
-- **Styling:** Tailwind CSS 4 + shadcn/ui (Radix UI primitives)
+- **Styling:** Tailwind CSS 4 + shadcn/ui (Radix UI primitives) + CSS custom properties design system (see Design System below)
 - **State:** localStorage via `useSyncExternalStore` hook, optional Supabase cloud sync
 - **Content:** Static JSON files in `/content/` imported at build time via `/lib/content.ts`
 - **All exercise/module pages are client components** (`"use client"`)
+
+## Design System
+
+**Font:** Plus Jakarta Sans (weights 400–800), variable `--font-jakarta`. No dark mode.
+
+**Tokens** (defined in `app/globals.css` `:root`):
+
+| Category | Token | Value | Usage |
+|----------|-------|-------|-------|
+| Ink | `--ink` | `#1a1a2e` | Primary text |
+| | `--ink-soft` | `#4a4a6a` | Secondary text |
+| | `--ink-muted` | `#8888a4` | Tertiary text |
+| Cream | `--cream` | `#FDFBF7` | Page background |
+| | `--cream-dark` | `#F5F1EA` | Neutral surfaces |
+| Accent | `--accent` | `#E8632B` | CTAs, links |
+| | `--accent-glow` | `#FF7A3D` | Hover states |
+| | `--accent-soft` | `#FFF0E8` | Light orange bg |
+| Green | `--green` | `#2D8F5E` | Success |
+| | `--green-soft` | `#E8F5EE` | Light green bg |
+| Blue | `--blue` | `#3B6BCC` | Info |
+| | `--blue-soft` | `#EBF0FA` | Light blue bg |
+| Shadow | `--shadow-card` | `0 2px 24px ...` | Card resting |
+| | `--shadow-hover` | `0 8px 40px ...` | Card hover |
+
+**CSS utility classes:**
+- `landing-card` — white card with `--shadow-card`, hover lift
+- `cta-primary` — orange button with glow shadow
+- `.reveal` / `.reveal.visible` — scroll-triggered fade-in (IntersectionObserver via `useScrollReveal`)
+- `.animate-reveal`, `.animate-reveal-delay-{1-4}` — entrance animations with staggered delays
+- `.prose-navy` — blog/long-form content typography
+
+**Landing page patterns:**
+- Backgrounds alternate: cream (default) → `bg-white` → cream → `bg-white` → ... → `bg-[var(--ink)]` (FinalCTA)
+- Section IDs: `#problem`, `#how`, `#features`, `#testimonials`, `#pricing`
+- Anchor links: use native `<a href="#id">` not Next.js `<Link>` (smooth scroll via `html { scroll-behavior: smooth }`)
+- Auth-aware CTAs: `LandingHero`, `Pricing`, `FinalCTA`, `LandingNav` use `useAuth()`
+- PLACEHOLDER content flagged throughout landing components (stats, testimonials, pricing)
+
+**Full reference:** See `docs/ARCHITECTURE.md` for comprehensive details.
 
 ## Modules
 
