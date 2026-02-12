@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 

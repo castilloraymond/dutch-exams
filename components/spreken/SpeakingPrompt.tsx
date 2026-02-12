@@ -18,10 +18,8 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
 
   // Use question data if provided, otherwise fall back to task-level fields
   const questionNl = question?.questionNl ?? task.questionNl;
-  const questionEn = question?.questionEn ?? task.questionEn;
   const questionParts = question?.questionParts ?? task.questionParts;
   const personStatementNl = question?.personStatementNl ?? task.personStatementNl;
-  const personStatement = question?.personStatement ?? task.personStatement;
   const images = question?.images ?? task.images;
   const sequencingWordsRequired = question?.sequencingWordsRequired ?? task.sequencingWordsRequired;
 
