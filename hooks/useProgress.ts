@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useSyncExternalStore } from "react";
-import type { UserProgress, WritingAttempt, SpeakingAttempt } from "@/lib/types";
+import type { UserProgress, WritingAttempt, SpeakingAttempt, ExamCompletion } from "@/lib/types";
 import {
   saveProgress,
   updatePassageProgress,
@@ -112,6 +112,29 @@ export function useProgress() {
     }
   }, []);
 
+  // Exam completion tracking (for lezen/knm/luisteren exams and mock exams)
+  const recordExamCompletion = useCallback(
+    (examId: string, correctAnswers: number, totalQuestions: number) => {
+      setProgress((prev) => {
+        const completion: ExamCompletion = {
+          correctAnswers,
+          totalQuestions,
+          completedAt: new Date().toISOString(),
+        };
+        const updated = {
+          ...prev,
+          examProgress: {
+            ...prev.examProgress,
+            [examId]: completion,
+          },
+        };
+        saveProgress(updated);
+        return updated;
+      });
+    },
+    []
+  );
+
   // Writing progress methods
   const saveWritingAttempt = useCallback(
     (taskId: string, attempt: WritingAttempt) => {
@@ -196,6 +219,8 @@ export function useProgress() {
     setEmail,
     syncToCloud,
     loadFromCloud,
+    // Exam completion
+    recordExamCompletion,
     // Writing methods
     saveWritingAttempt,
     getWritingAttempt,

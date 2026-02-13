@@ -10,28 +10,32 @@
       "text": "Wat voor werk zoekt de klant?",
       "options": ["Schoonmaakwerk", "Magazijnwerk", "Kantoorwerk", "Horeca"],
       "correctIndex": 1,
-      "explanation": "De klant zegt: 'Ik heb ervaring als magazijnmedewerker.'"
+      "explanation": "De klant zegt: 'Ik heb ervaring als magazijnmedewerker.'",
+      "explanationEn": "The customer says: 'I have experience as a warehouse worker.'"
     },
     {
       "id": "uitzendbureau-q2",
       "text": "Wat zijn de werktijden?",
       "options": ["Van 8:00 tot 17:00", "Van 6:00 tot 14:30, maandag t/m vrijdag", "Van 7:00 tot 15:00", "Van 9:00 tot 18:00"],
       "correctIndex": 1,
-      "explanation": "De medewerker zegt: 'van zes uur 's morgens tot half drie 's middags, maandag tot en met vrijdag.'"
+      "explanation": "De medewerker zegt: 'van zes uur 's morgens tot half drie 's middags, maandag tot en met vrijdag.'",
+      "explanationEn": "The employee says: 'from six in the morning until half past two in the afternoon, Monday through Friday.'"
     },
     {
       "id": "uitzendbureau-q3",
       "text": "Hoeveel is het uurloon?",
       "options": ["Twaalf euro vijftig", "Dertien euro vijfenzeventig", "Veertien euro", "Vijftien euro"],
       "correctIndex": 1,
-      "explanation": "De medewerker zegt: 'Het uurloon is dertien euro vijfenzeventig bruto.'"
+      "explanation": "De medewerker zegt: 'Het uurloon is dertien euro vijfenzeventig bruto.'",
+      "explanationEn": "The employee says: 'The hourly wage is thirteen euros seventy-five gross.'"
     },
     {
       "id": "uitzendbureau-q4",
       "text": "Wat heeft de klant nodig om te beginnen?",
       "options": ["Alleen een cv", "Zijn BSN-nummer en een kopie van zijn identiteitsbewijs", "Een diploma", "Een rijbewijs"],
       "correctIndex": 1,
-      "explanation": "De medewerker zegt: 'Ik heb wel uw BSN-nummer en een kopie van uw identiteitsbewijs nodig.'"
+      "explanation": "De medewerker zegt: 'Ik heb wel uw BSN-nummer en een kopie van uw identiteitsbewijs nodig.'",
+      "explanationEn": "The employee says: 'I do need your BSN number and a copy of your identity document.'"
     }
   ]
 }

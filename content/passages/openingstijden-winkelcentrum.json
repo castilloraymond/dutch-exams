@@ -11,35 +11,40 @@
       "text": "Hoe laat gaat het winkelcentrum op zaterdag open?",
       "options": ["08:00", "09:00", "10:00", "12:00"],
       "correctIndex": 1,
-      "explanation": "Volgens de tabel is het winkelcentrum op zaterdag open vanaf 09:00."
+      "explanation": "Volgens de tabel is het winkelcentrum op zaterdag open vanaf 09:00.",
+      "explanationEn": "According to the table, the shopping center opens at 09:00 on Saturday."
     },
     {
       "id": "winkelcentrum-q2",
       "text": "Op welke dag is er koopavond?",
       "options": ["Woensdag", "Donderdag", "Vrijdag", "Zaterdag"],
       "correctIndex": 1,
-      "explanation": "Op donderdag is het winkelcentrum open tot 21:00, dat is de koopavond."
+      "explanation": "Op donderdag is het winkelcentrum open tot 21:00, dat is de koopavond.",
+      "explanationEn": "On Thursday the shopping center is open until 21:00, that is the late-night shopping evening."
     },
     {
       "id": "winkelcentrum-q3",
       "text": "Hoe lang kun je gratis parkeren?",
       "options": ["Eén uur", "Twee uur", "Drie uur", "De hele dag"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'de eerste twee uur is parkeren gratis.'"
+      "explanation": "De tekst zegt: 'de eerste twee uur is parkeren gratis.'",
+      "explanationEn": "The text says: 'the first two hours of parking are free.'"
     },
     {
       "id": "winkelcentrum-q4",
       "text": "Hoe laat sluit de supermarkt op een gewone dag?",
       "options": ["17:00", "18:00", "21:00", "22:00"],
       "correctIndex": 3,
-      "explanation": "De supermarkt is elke dag open van 08:00 tot 22:00."
+      "explanation": "De supermarkt is elke dag open van 08:00 tot 22:00.",
+      "explanationEn": "The supermarket is open every day from 08:00 to 22:00."
     },
     {
       "id": "winkelcentrum-q5",
       "text": "Waar is de gratis fietsenstalling?",
       "options": ["Bij ingang Noord", "Bij ingang Zuid", "Bij de supermarkt", "Op het parkeerterrein"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Er is ook een gratis fietsenstalling bij ingang Zuid.'"
+      "explanation": "De tekst zegt: 'Er is ook een gratis fietsenstalling bij ingang Zuid.'",
+      "explanationEn": "The text says: 'There is also a free bicycle parking at the South entrance.'"
     }
   ]
 }

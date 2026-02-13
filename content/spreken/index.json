@@ -3,6 +3,46 @@
   "description": "Speaking Practice",
   "tasks": [
     {
+      "id": "a1-part1-family",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "title": "Family",
+      "titleNl": "Familie",
+      "difficulty": "A1",
+      "isFreePreview": true
+    },
+    {
+      "id": "a1-part2-food",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "title": "Food",
+      "titleNl": "Eten",
+      "difficulty": "A1",
+      "isFreePreview": true
+    },
+    {
+      "id": "a1-part3-rooms",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "title": "Rooms",
+      "titleNl": "Kamers",
+      "difficulty": "A1",
+      "isFreePreview": true
+    },
+    {
+      "id": "a1-part4-morning",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "title": "Morning Routine",
+      "titleNl": "Ochtendritme",
+      "difficulty": "A1",
+      "isFreePreview": true
+    },
+    {
       "id": "part1-homework",
       "partNumber": 1,
       "partTitle": "Personal Questions",

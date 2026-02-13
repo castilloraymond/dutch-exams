@@ -11,35 +11,40 @@
       "text": "Waarom zijn de kinderen vrij op 14 maart?",
       "options": ["Het is een feestdag", "De leerkrachten hebben een studiedag", "De school is verbouwd", "Er is een schoolreisje"],
       "correctIndex": 1,
-      "explanation": "De nieuwsbrief zegt: 'Op vrijdag 14 maart hebben de leerkrachten een studiedag. De kinderen zijn die dag vrij.'"
+      "explanation": "De nieuwsbrief zegt: 'Op vrijdag 14 maart hebben de leerkrachten een studiedag. De kinderen zijn die dag vrij.'",
+      "explanationEn": "The newsletter says: 'On Friday March 14, the teachers have a study day. The children are off that day.'"
     },
     {
       "id": "nieuwsbrief-q2",
       "text": "Hoe lang duurt een oudergesprek?",
       "options": ["10 minuten", "15 minuten", "20 minuten", "30 minuten"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Elk gesprek duurt 15 minuten.'"
+      "explanation": "De tekst zegt: 'Elk gesprek duurt 15 minuten.'",
+      "explanationEn": "The text says: 'Each meeting lasts 15 minutes.'"
     },
     {
       "id": "nieuwsbrief-q3",
       "text": "Waar gaan groep 5 en 6 naartoe met het schoolreisje?",
       "options": ["De Efteling", "Kinderdijk", "Artis", "Het Rijksmuseum"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'gaan groep 5 en 6 naar Kinderdijk.'"
+      "explanation": "De tekst zegt: 'gaan groep 5 en 6 naar Kinderdijk.'",
+      "explanationEn": "The text says: 'groups 5 and 6 are going to Kinderdijk.'"
     },
     {
       "id": "nieuwsbrief-q4",
       "text": "Wat moeten de kinderen meenemen naar het schoolreisje?",
       "options": ["Geld en een kaartje", "Een lunchpakket en een regenjas", "Zwemspullen", "Een rugzak en sportschoenen"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Vergeet niet om uw kind een lunchpakket en een regenjas mee te geven.'"
+      "explanation": "De tekst zegt: 'Vergeet niet om uw kind een lunchpakket en een regenjas mee te geven.'",
+      "explanationEn": "The text says: 'Don't forget to give your child a packed lunch and a rain jacket.'"
     },
     {
       "id": "nieuwsbrief-q5",
       "text": "Hoe maak je een afspraak voor het oudergesprek?",
       "options": ["Je belt de school", "Via het ouderportaal", "Je stuurt een brief", "Je spreekt de leerkracht aan op school"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'U kunt een afspraak maken via het ouderportaal.'"
+      "explanation": "De tekst zegt: 'U kunt een afspraak maken via het ouderportaal.'",
+      "explanationEn": "The text says: 'You can make an appointment via the parent portal.'"
     }
   ]
 }

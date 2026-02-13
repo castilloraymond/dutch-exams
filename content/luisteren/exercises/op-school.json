@@ -10,28 +10,32 @@
       "text": "Hoe gaat het met Elif op school?",
       "options": ["Slecht, ze haalt lage cijfers", "Goed, ze is lief en werkt hard", "Ze is vaak ziek", "Ze wil niet naar school"],
       "correctIndex": 1,
-      "explanation": "De leerkracht zegt: 'Het gaat goed met Elif. Ze is heel lief en werkt hard.'"
+      "explanation": "De leerkracht zegt: 'Het gaat goed met Elif. Ze is heel lief en werkt hard.'",
+      "explanationEn": "The teacher says: 'Elif is doing well. She is very sweet and works hard.'"
     },
     {
       "id": "op-school-q2",
       "text": "Wat is het probleem met Elif?",
       "options": ["Ze maakt ruzie met andere kinderen", "Ze is soms stil en speelt vaak alleen", "Ze maakt haar huiswerk niet", "Ze komt te laat"],
       "correctIndex": 1,
-      "explanation": "De leerkracht zegt dat Elif soms stil is in de klas en in de pauze vaak alleen speelt."
+      "explanation": "De leerkracht zegt dat Elif soms stil is in de klas en in de pauze vaak alleen speelt.",
+      "explanationEn": "The teacher says that Elif is sometimes quiet in class and often plays alone during recess."
     },
     {
       "id": "op-school-q3",
       "text": "Wanneer is de tekenklas?",
       "options": ["Maandag van 2 tot 3 uur", "Dinsdag van 3 tot 4 uur", "Woensdag van 3 tot 4 uur", "Donderdag van 2 tot 3 uur"],
       "correctIndex": 1,
-      "explanation": "De leerkracht zegt: 'Van drie uur tot vier uur, elke dinsdag.'"
+      "explanation": "De leerkracht zegt: 'Van drie uur tot vier uur, elke dinsdag.'",
+      "explanationEn": "The teacher says: 'From three o'clock to four o'clock, every Tuesday.'"
     },
     {
       "id": "op-school-q4",
       "text": "Moet de moeder betalen voor de tekenklas?",
       "options": ["Ja, vijf euro per keer", "Ja, tien euro per maand", "Nee, het is gratis", "Dat wordt later besloten"],
       "correctIndex": 2,
-      "explanation": "De leerkracht zegt: 'Nee, het is gratis.'"
+      "explanation": "De leerkracht zegt: 'Nee, het is gratis.'",
+      "explanationEn": "The teacher says: 'No, it's free.'"
     }
   ]
 }

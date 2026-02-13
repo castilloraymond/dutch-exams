@@ -11,35 +11,40 @@
       "text": "Waarom ontvangt de heer/mevrouw Van der Berg deze brief?",
       "options": ["De identiteitskaart is verloren", "De identiteitskaart verloopt binnenkort", "Er is een probleem met de identiteitskaart", "De gemeente wil een pasfoto"],
       "correctIndex": 1,
-      "explanation": "De brief zegt: 'Uw identiteitskaart verloopt over drie maanden.'"
+      "explanation": "De brief zegt: 'Uw identiteitskaart verloopt over drie maanden.'",
+      "explanationEn": "The letter says: 'Your identity card expires in three months.'"
     },
     {
       "id": "brief-q2",
       "text": "Waar kun je een nieuwe identiteitskaart aanvragen?",
       "options": ["Bij de politie", "Bij het gemeentehuis", "Bij de bank", "Bij het postkantoor"],
       "correctIndex": 1,
-      "explanation": "De brief zegt: 'U kunt een nieuwe identiteitskaart aanvragen bij het gemeentehuis.'"
+      "explanation": "De brief zegt: 'U kunt een nieuwe identiteitskaart aanvragen bij het gemeentehuis.'",
+      "explanationEn": "The letter says: 'You can apply for a new identity card at the city hall.'"
     },
     {
       "id": "brief-q3",
       "text": "Hoeveel kost een nieuwe identiteitskaart?",
       "options": ["€ 54,85", "€ 64,85", "€ 74,85", "€ 84,85"],
       "correctIndex": 1,
-      "explanation": "De brief zegt: 'Het bedrag van € 64,85.'"
+      "explanation": "De brief zegt: 'Het bedrag van € 64,85.'",
+      "explanationEn": "The letter says: 'The amount of €64.85.'"
     },
     {
       "id": "brief-q4",
       "text": "Hoe oud mag de pasfoto maximaal zijn?",
       "options": ["3 maanden", "6 maanden", "1 jaar", "2 jaar"],
       "correctIndex": 1,
-      "explanation": "De brief zegt: 'Een recente pasfoto (niet ouder dan 6 maanden).'"
+      "explanation": "De brief zegt: 'Een recente pasfoto (niet ouder dan 6 maanden).'",
+      "explanationEn": "The letter says: 'A recent passport photo (no older than 6 months).'"
     },
     {
       "id": "brief-q5",
       "text": "Hoe lang duurt het voordat de nieuwe identiteitskaart klaar is?",
       "options": ["2 werkdagen", "5 werkdagen", "10 werkdagen", "14 werkdagen"],
       "correctIndex": 1,
-      "explanation": "De brief zegt: 'De nieuwe identiteitskaart is na ongeveer vijf werkdagen klaar.'"
+      "explanation": "De brief zegt: 'De nieuwe identiteitskaart is na ongeveer vijf werkdagen klaar.'",
+      "explanationEn": "The letter says: 'The new identity card will be ready after approximately five business days.'"
     }
   ]
 }

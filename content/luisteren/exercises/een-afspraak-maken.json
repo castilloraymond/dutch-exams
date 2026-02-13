@@ -10,28 +10,32 @@
       "text": "Waarvoor belt de patiënt?",
       "options": ["Voor een controle", "Vanwege kiespijn", "Voor een recept", "Om zijn afspraak af te zeggen"],
       "correctIndex": 1,
-      "explanation": "De patiënt zegt: 'Ik heb last van kiespijn, al drie dagen.'"
+      "explanation": "De patiënt zegt: 'Ik heb last van kiespijn, al drie dagen.'",
+      "explanationEn": "The patient says: 'I've been suffering from a toothache for three days.'"
     },
     {
       "id": "afspraak-q2",
       "text": "Waarom kan de patiënt morgen niet komen?",
       "options": ["Hij is ziek", "Hij moet werken tot vijf uur", "Hij heeft een andere afspraak", "Hij is op vakantie"],
       "correctIndex": 1,
-      "explanation": "De patiënt zegt: 'Morgen kan ik niet, ik moet werken tot vijf uur.'"
+      "explanation": "De patiënt zegt: 'Morgen kan ik niet, ik moet werken tot vijf uur.'",
+      "explanationEn": "The patient says: 'I can't come tomorrow, I have to work until five o'clock.'"
     },
     {
       "id": "afspraak-q3",
       "text": "Wanneer is de afspraak?",
       "options": ["Morgen om kwart over twee", "Donderdag om kwart voor zes", "Vrijdag om vijf uur", "Maandag om half drie"],
       "correctIndex": 1,
-      "explanation": "De receptionist zegt: 'Donderdag kan ik u om kwart voor zes inplannen.'"
+      "explanation": "De receptionist zegt: 'Donderdag kan ik u om kwart voor zes inplannen.'",
+      "explanationEn": "The receptionist says: 'I can schedule you for Thursday at a quarter to six.'"
     },
     {
       "id": "afspraak-q4",
       "text": "Wat moet de patiënt meenemen?",
       "options": ["Zijn paspoort", "Zijn verzekeringspas", "Een verwijsbrief", "Zijn medicijnen"],
       "correctIndex": 1,
-      "explanation": "De receptionist zegt: 'Vergeet uw verzekeringspas niet mee te nemen.'"
+      "explanation": "De receptionist zegt: 'Vergeet uw verzekeringspas niet mee te nemen.'",
+      "explanationEn": "The receptionist says: 'Don't forget to bring your insurance card.'"
     }
   ]
 }

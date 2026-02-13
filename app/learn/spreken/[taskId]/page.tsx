@@ -10,6 +10,7 @@ import type { SpeakingAttempt, SpeakingQuestion } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
 import { AudioRecorder } from "@/components/spreken/AudioRecorder";
 import { SpeakingResults } from "@/components/spreken/SpeakingResults";
+import { useExitWarning } from "@/hooks/useExitWarning";
 
 type Stage = "prompt" | "recording" | "playback" | "results";
 
@@ -61,6 +62,8 @@ export default function SprekenTaskPage({ params }: PageProps) {
   const [recordedAnswers, setRecordedAnswers] = useState<RecordedAnswer[]>([]);
 
   const currentQuestion = questions[currentQuestionIndex];
+
+  useExitWarning(stage === "recording" || stage === "playback");
 
   const {
     isRecording,

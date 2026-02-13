@@ -11,35 +11,40 @@
       "text": "Wat is beter: elke dag een beetje leren of alles op één dag leren?",
       "options": ["Alles op één dag leren", "Elke dag een beetje leren", "Alleen in het weekend leren", "Alleen 's avonds leren"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Elke dag een beetje leren is beter dan alles op één dag leren.'"
+      "explanation": "De tekst zegt: 'Elke dag een beetje leren is beter dan alles op één dag leren.'",
+      "explanationEn": "The text says: 'Studying a little every day is better than studying everything in one day.'"
     },
     {
       "id": "tips-q2",
       "text": "Hoe lang moet je volgens de tips maximaal achter elkaar leren?",
       "options": ["Een kwartier", "Een half uur", "Een uur", "Twee uur"],
       "correctIndex": 1,
-      "explanation": "Tip 3 zegt: 'Leer niet langer dan een half uur.'"
+      "explanation": "Tip 3 zegt: 'Leer niet langer dan een half uur.'",
+      "explanationEn": "Tip 3 says: 'Don't study for longer than half an hour.'"
     },
     {
       "id": "tips-q3",
       "text": "Wat moet je doen als je te lang hebt geleerd?",
       "options": ["Doorleren", "Een pauze nemen of iets anders doen", "Naar bed gaan", "Koffie drinken"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Neem daarna een pauze of ga even iets heel anders doen.'"
+      "explanation": "De tekst zegt: 'Neem daarna een pauze of ga even iets heel anders doen.'",
+      "explanationEn": "The text says: 'Then take a break or do something completely different for a while.'"
     },
     {
       "id": "tips-q4",
       "text": "In welke omgeving kun je het beste leren?",
       "options": ["Een drukke omgeving", "Een rustige omgeving", "In de trein", "Bij vrienden thuis"],
       "correctIndex": 1,
-      "explanation": "Tip 4 zegt: 'Leer in een rustige omgeving.'"
+      "explanation": "Tip 4 zegt: 'Leer in een rustige omgeving.'",
+      "explanationEn": "Tip 4 says: 'Study in a quiet environment.'"
     },
     {
       "id": "tips-q5",
       "text": "Hoe weet je zeker dat je iets hebt begrepen?",
       "options": ["Als je het uit je hoofd kunt opzeggen", "Als je het aan iemand anders kunt uitleggen", "Als je het hebt opgeschreven", "Als je het twee keer hebt gelezen"],
       "correctIndex": 1,
-      "explanation": "Tip 6 zegt: 'Leg aan iemand anders uit wat u hebt gelezen. Als u dat kunt, weet u zeker dat u het hebt begrepen.'"
+      "explanation": "Tip 6 zegt: 'Leg aan iemand anders uit wat u hebt gelezen. Als u dat kunt, weet u zeker dat u het hebt begrepen.'",
+      "explanationEn": "Tip 6 says: 'Explain to someone else what you have read. If you can do that, you know for sure that you have understood it.'"
     }
   ]
 }

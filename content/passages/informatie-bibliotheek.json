@@ -11,35 +11,40 @@
       "text": "Hoeveel kost een lidmaatschap voor een volwassene?",
       "options": ["€ 15,00 per jaar", "€ 20,00 per jaar", "€ 25,00 per jaar", "€ 30,00 per jaar"],
       "correctIndex": 3,
-      "explanation": "De tekst zegt: 'Een lidmaatschap kost € 30,00 per jaar voor volwassenen.'"
+      "explanation": "De tekst zegt: 'Een lidmaatschap kost € 30,00 per jaar voor volwassenen.'",
+      "explanationEn": "The text says: 'A membership costs €30.00 per year for adults.'"
     },
     {
       "id": "bibliotheek-q2",
       "text": "Hoe lang mag je een dvd lenen?",
       "options": ["3 dagen", "1 week", "2 weken", "3 weken"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Dvd's moet u na 1 week terugbrengen.'"
+      "explanation": "De tekst zegt: 'Dvd's moet u na 1 week terugbrengen.'",
+      "explanationEn": "The text says: 'DVDs must be returned after 1 week.'"
     },
     {
       "id": "bibliotheek-q3",
       "text": "Wat moet je meenemen als je lid wilt worden?",
       "options": ["Een pasfoto", "Een geldig identiteitsbewijs", "Een bewijs van inschrijving", "Een bankpas"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'U kunt zich aanmelden bij de balie met een geldig identiteitsbewijs.'"
+      "explanation": "De tekst zegt: 'U kunt zich aanmelden bij de balie met een geldig identiteitsbewijs.'",
+      "explanationEn": "The text says: 'You can register at the counter with a valid ID.'"
     },
     {
       "id": "bibliotheek-q4",
       "text": "Wanneer is het taalcafé?",
       "options": ["Woensdag om 10:30", "Donderdag van 14:00 tot 15:30", "Vrijdag van 10:00 tot 11:30", "Zaterdag om 14:00"],
       "correctIndex": 1,
-      "explanation": "Bij Activiteiten staat: 'Taalcafé (oefenen met Nederlands): donderdag 14:00 – 15:30 uur.'"
+      "explanation": "Bij Activiteiten staat: 'Taalcafé (oefenen met Nederlands): donderdag 14:00 – 15:30 uur.'",
+      "explanationEn": "Under Activities it says: 'Language café (practicing Dutch): Thursday 14:00 – 15:30.'"
     },
     {
       "id": "bibliotheek-q5",
       "text": "Hoeveel boete betaal je als je een boek te laat terugbrengt?",
       "options": ["€ 0,10 per dag", "€ 0,20 per dag", "€ 0,30 per item per dag", "€ 1,00 per item per dag"],
       "correctIndex": 2,
-      "explanation": "De tekst zegt: 'betaalt u € 0,30 per item per dag.'"
+      "explanation": "De tekst zegt: 'betaalt u € 0,30 per item per dag.'",
+      "explanationEn": "The text says: 'you pay €0.30 per item per day.'"
     }
   ]
 }

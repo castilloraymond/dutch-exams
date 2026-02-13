@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useEffect } from "react";
 import Image from "next/image";
 import { Volume2, User } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
+import { useAzureTTS } from "@/hooks/useAzureTTS";
 
 interface SpeakingPromptProps {
   task: SpeakingTask;
@@ -13,8 +14,7 @@ interface SpeakingPromptProps {
 }
 
 export function SpeakingPrompt({ task, question, compact = false, autoPlay = false }: SpeakingPromptProps) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const { speak, stop, isPlaying } = useAzureTTS();
 
   // Use question data if provided, otherwise fall back to task-level fields
   const questionNl = question?.questionNl ?? task.questionNl;
@@ -31,19 +31,12 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
     if (!textToRead) return;
 
     const timer = setTimeout(() => {
-      const utterance = new SpeechSynthesisUtterance(textToRead);
-      utterance.lang = "nl-NL";
-      utterance.rate = 0.9;
-      utterance.onend = () => setIsPlaying(false);
-      utterance.onerror = () => setIsPlaying(false);
-      utteranceRef.current = utterance;
-      window.speechSynthesis.speak(utterance);
-      setIsPlaying(true);
+      speak(textToRead);
     }, 500);
 
     return () => {
       clearTimeout(timer);
-      window.speechSynthesis.cancel();
+      stop();
     };
     // Only run on mount / when autoPlay changes
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -51,21 +44,10 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
 
   const playTTS = () => {
     if (isPlaying) {
-      window.speechSynthesis.cancel();
-      setIsPlaying(false);
+      stop();
       return;
     }
-
-    const utterance = new SpeechSynthesisUtterance(personStatementNl || "");
-    utterance.lang = "nl-NL";
-    utterance.rate = 0.9;
-
-    utterance.onend = () => setIsPlaying(false);
-    utterance.onerror = () => setIsPlaying(false);
-
-    utteranceRef.current = utterance;
-    window.speechSynthesis.speak(utterance);
-    setIsPlaying(true);
+    speak(personStatementNl || "");
   };
 
   // Part 1: Personal questions with TTS

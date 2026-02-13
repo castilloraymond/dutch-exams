@@ -11,35 +11,40 @@
       "text": "Hoe oud wordt Fatima?",
       "options": ["25 jaar", "28 jaar", "30 jaar", "35 jaar"],
       "correctIndex": 2,
-      "explanation": "Fatima schrijft: 'Ik word 30 jaar!'"
+      "explanation": "Fatima schrijft: 'Ik word 30 jaar!'",
+      "explanationEn": "Fatima writes: 'I'm turning 30!'"
     },
     {
       "id": "verjaardag-q2",
       "text": "Op welke dag is het feest?",
       "options": ["Vrijdag 14 maart", "Zaterdag 15 maart", "Zondag 16 maart", "Zaterdag 8 maart"],
       "correctIndex": 1,
-      "explanation": "In de uitnodiging staat: 'Wanneer: Zaterdag 15 maart.'"
+      "explanation": "In de uitnodiging staat: 'Wanneer: Zaterdag 15 maart.'",
+      "explanationEn": "The invitation says: 'When: Saturday March 15.'"
     },
     {
       "id": "verjaardag-q3",
       "text": "Wat moeten de gasten meenemen?",
       "options": ["Eten", "Muziek", "Iets te drinken", "Niets"],
       "correctIndex": 2,
-      "explanation": "Fatima schrijft: 'Neem geen eten mee, ik kook zelf. Je mag wel iets te drinken meenemen.'"
+      "explanation": "Fatima schrijft: 'Neem geen eten mee, ik kook zelf. Je mag wel iets te drinken meenemen.'",
+      "explanationEn": "Fatima writes: 'Don't bring food, I'll cook myself. You may bring something to drink.'"
     },
     {
       "id": "verjaardag-q4",
       "text": "Wanneer moet je laten weten of je komt?",
       "options": ["Vóór 1 maart", "Vóór 8 maart", "Vóór 15 maart", "Op de dag zelf"],
       "correctIndex": 1,
-      "explanation": "De uitnodiging zegt: 'Laat het mij weten vóór 8 maart.'"
+      "explanation": "De uitnodiging zegt: 'Laat het mij weten vóór 8 maart.'",
+      "explanationEn": "The invitation says: 'Let me know before March 8.'"
     },
     {
       "id": "verjaardag-q5",
       "text": "Hoe kun je Fatima bereiken?",
       "options": ["Alleen per email", "Alleen via WhatsApp", "Per telefoon of WhatsApp", "Via de post"],
       "correctIndex": 2,
-      "explanation": "Fatima schrijft: 'Je kunt bellen' en 'Of een berichtje sturen via WhatsApp.'"
+      "explanation": "Fatima schrijft: 'Je kunt bellen' en 'Of een berichtje sturen via WhatsApp.'",
+      "explanationEn": "Fatima writes: 'You can call' and 'Or send a message via WhatsApp.'"
     }
   ]
 }

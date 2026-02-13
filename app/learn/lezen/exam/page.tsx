@@ -11,12 +11,15 @@ import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getLezenExamQuestions, shuffleArray } from "@/lib/content";
+import { useExitWarning } from "@/hooks/useExitWarning";
+import { useProgress } from "@/hooks/useProgress";
 
 export default function LezenExamPage() {
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
   const [results, setResults] = useState<ExamResults | null>(null);
   const [retryKey, setRetryKey] = useState(0);
+  const { recordExamCompletion } = useProgress();
 
   // Get all questions from all passages, shuffled
   const examData = useMemo(() => {
@@ -29,7 +32,8 @@ export default function LezenExamPage() {
 
   const handleComplete = useCallback((examResults: ExamResults) => {
     setResults(examResults);
-  }, []);
+    recordExamCompletion("lezen-free-exam", examResults.correctAnswers, examResults.totalQuestions);
+  }, [recordExamCompletion]);
 
   const {
     currentQuestion,
@@ -49,6 +53,8 @@ export default function LezenExamPage() {
     questions,
     onComplete: handleComplete,
   });
+
+  useExitWarning(started && !results);
 
   const handleRetry = () => {
     setResults(null);

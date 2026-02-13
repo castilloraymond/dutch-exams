@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
-import { getWritingIndex, getSpeakingIndex } from "@/lib/content";
+import { getWritingIndex, getSpeakingIndex, getMockExamIndex } from "@/lib/content";
 
 const modules = [
   {
@@ -13,7 +13,6 @@ const modules = [
     descriptionEn: "Practice your Dutch reading skills with realistic texts.",
     icon: BookOpen,
     href: "/learn/lezen/select",
-    staticInfo: "4 practice exams",
   },
   {
     id: "knm",
@@ -22,7 +21,6 @@ const modules = [
     descriptionEn: "Test your knowledge of Dutch culture, history, and values.",
     icon: Landmark,
     href: "/learn/knm/select",
-    staticInfo: "4 practice exams",
   },
   {
     id: "luisteren",
@@ -31,7 +29,6 @@ const modules = [
     descriptionEn: "Listen to Dutch audio fragments and answer questions.",
     icon: Headphones,
     href: "/learn/luisteren/select",
-    staticInfo: "4 practice exams",
   },
   {
     id: "schrijven",
@@ -61,12 +58,27 @@ export default function LearnHubPage() {
   const speakingTotal = speakingIndex.tasks.length;
   const speakingCompleted = Object.keys(progress.speakingProgress || {}).length;
 
+  // Count exam completions for lezen/knm/luisteren (free exam + mock exams)
+  const examProgress = progress.examProgress || {};
+
+  const getExamModuleProgress = (modId: string) => {
+    const mockIndex = getMockExamIndex(modId);
+    const mockExamIds = mockIndex?.exams.map((e) => e.id) || [];
+    const freeExamId = `${modId}-free-exam`;
+    const allExamIds = [freeExamId, ...mockExamIds];
+    const completed = allExamIds.filter((id) => id in examProgress).length;
+    return { completed, total: allExamIds.length };
+  };
+
   const getProgressInfo = (modId: string) => {
     if (modId === "schrijven") {
       return { completed: writingCompleted, total: writingTotal };
     }
     if (modId === "spreken") {
       return { completed: speakingCompleted, total: speakingTotal };
+    }
+    if (modId === "lezen" || modId === "knm" || modId === "luisteren") {
+      return getExamModuleProgress(modId);
     }
     return null;
   };
@@ -82,9 +94,12 @@ export default function LearnHubPage() {
             >
               <ArrowLeft className="h-5 w-5" />
             </Link>
-            <h1 className="text-xl font-bold text-[var(--ink)]">
-              Oefenexamens
-            </h1>
+            <div>
+              <h1 className="text-xl font-bold text-[var(--ink)]">
+                Oefenexamens
+              </h1>
+              <p className="text-xs text-[var(--ink)]/40">Practice Exams</p>
+            </div>
           </div>
         </div>
       </header>
@@ -92,11 +107,15 @@ export default function LearnHubPage() {
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
           <div>
-            <h2 className="text-2xl font-bold text-[var(--ink)] mb-2">
+            <h2 className="text-2xl font-bold text-[var(--ink)] mb-1">
               Kies een Module
             </h2>
+            <p className="text-sm text-[var(--ink)]/40 mb-2">Choose a Module</p>
             <p className="text-[var(--ink)]/60">
               Selecteer een module om te oefenen voor je inburgeringsexamen.
+            </p>
+            <p className="text-sm text-[var(--ink)]/40">
+              Select a module to practice for your civic integration exam.
             </p>
           </div>
 
@@ -130,17 +149,23 @@ export default function LearnHubPage() {
                         <p className="text-xs text-[var(--ink)]/40 mt-0.5">
                           {mod.descriptionEn}
                         </p>
-                        <div className="mt-2">
-                          {progressInfo ? (
-                            <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
-                              {progressInfo.completed}/{progressInfo.total} completed
-                            </span>
-                          ) : mod.staticInfo ? (
-                            <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/5 text-[var(--ink)]/50">
-                              {mod.staticInfo}
-                            </span>
-                          ) : null}
-                        </div>
+                        {progressInfo && (
+                          <div className="mt-2 space-y-1">
+                            <div className="flex items-center gap-2">
+                              <div className="flex-1 h-1.5 bg-[var(--ink)]/10 rounded-full overflow-hidden">
+                                <div
+                                  className="h-full bg-[var(--accent)] rounded-full transition-all duration-300"
+                                  style={{
+                                    width: `${progressInfo.total > 0 ? (progressInfo.completed / progressInfo.total) * 100 : 0}%`,
+                                  }}
+                                />
+                              </div>
+                              <span className="text-xs text-[var(--ink)]/50 whitespace-nowrap">
+                                {progressInfo.completed}/{progressInfo.total}
+                              </span>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>

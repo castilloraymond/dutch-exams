@@ -10,6 +10,7 @@ import type { FormAnswer, WritingAttempt, WritingQuestion, WritingSubmission } f
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
 import { WritingResults } from "@/components/schrijven/WritingResults";
+import { useExitWarning } from "@/hooks/useExitWarning";
 
 type Stage = "writing" | "results";
 
@@ -57,6 +58,8 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
   const [modelAnswerRevealed, setModelAnswerRevealed] = useState(false);
 
   const currentQuestion = questions[currentQuestionIndex];
+
+  useExitWarning(stage === "writing");
 
   // Reset submission when question changes
   useEffect(() => {

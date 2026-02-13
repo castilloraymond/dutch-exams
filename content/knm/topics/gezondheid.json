@@ -7,168 +7,192 @@
       "text": "Wat is de huisarts in Nederland?",
       "options": ["Een specialist in het ziekenhuis", "De eerste dokter die je bezoekt bij gezondheidsklachten", "Een arts die alleen kinderen behandelt", "Een arts die alleen recepten schrijft"],
       "correctIndex": 1,
-      "explanation": "De huisarts is de eerste arts die je bezoekt. De huisarts verwijst je door naar een specialist als dat nodig is."
+      "explanation": "De huisarts is de eerste arts die je bezoekt. De huisarts verwijst je door naar een specialist als dat nodig is.",
+      "explanationEn": "The general practitioner (GP) is the first doctor you visit. The GP refers you to a specialist if necessary."
     },
     {
       "id": "gez-q2",
       "text": "Is een zorgverzekering verplicht in Nederland?",
       "options": ["Nee, het is vrijwillig", "Ja, iedereen boven de 18 moet een basisverzekering hebben", "Alleen voor werknemers", "Alleen voor mensen boven de 65"],
       "correctIndex": 1,
-      "explanation": "Iedereen die in Nederland woont of werkt en ouder is dan 18 jaar, is verplicht een basiszorgverzekering af te sluiten."
+      "explanation": "Iedereen die in Nederland woont of werkt en ouder is dan 18 jaar, is verplicht een basiszorgverzekering af te sluiten.",
+      "explanationEn": "Everyone who lives or works in the Netherlands and is older than 18 is required to take out basic health insurance."
     },
     {
       "id": "gez-q3",
       "text": "Wat is het eigen risico?",
       "options": ["De premie die je maandelijks betaalt", "Het bedrag dat je zelf betaalt voordat de verzekering vergoedt", "De kosten van een bezoek aan de huisarts", "Een boete als je geen verzekering hebt"],
       "correctIndex": 1,
-      "explanation": "Het eigen risico is het bedrag dat je eerst zelf betaalt voor zorgkosten voordat de verzekering betaalt. De huisarts valt hier niet onder."
+      "explanation": "Het eigen risico is het bedrag dat je eerst zelf betaalt voor zorgkosten voordat de verzekering betaalt. De huisarts valt hier niet onder.",
+      "explanationEn": "The deductible (eigen risico) is the amount you pay yourself for healthcare costs before the insurance pays. GP visits are not subject to the deductible."
     },
     {
       "id": "gez-q4",
       "text": "Waar haal je medicijnen op recept?",
       "options": ["Bij de huisarts", "Bij de apotheek", "Bij de drogist", "Bij het ziekenhuis"],
       "correctIndex": 1,
-      "explanation": "Medicijnen op recept haal je op bij de apotheek. De huisarts schrijft het recept, de apotheek levert het medicijn."
+      "explanation": "Medicijnen op recept haal je op bij de apotheek. De huisarts schrijft het recept, de apotheek levert het medicijn.",
+      "explanationEn": "Prescription medication is picked up at the pharmacy. The GP writes the prescription, and the pharmacy provides the medication."
     },
     {
       "id": "gez-q5",
       "text": "Welk telefoonnummer bel je bij een levensbedreigende situatie?",
       "options": ["0800-1234", "112", "0900-8844", "144"],
       "correctIndex": 1,
-      "explanation": "Bij levensgevaar of een ernstig ongeluk bel je 112. Dit is het Europese alarmnummer."
+      "explanation": "Bij levensgevaar of een ernstig ongeluk bel je 112. Dit is het Europese alarmnummer.",
+      "explanationEn": "In case of a life-threatening situation or a serious accident, you call 112. This is the European emergency number."
     },
     {
       "id": "gez-q6",
       "text": "Wat doet de GGD?",
       "options": ["Geeft hypotheken", "Houdt zich bezig met publieke gezondheidszorg, vaccinaties en hygiëne", "Regelt werkvergunningen", "Beheert ziekenhuizen"],
       "correctIndex": 1,
-      "explanation": "De GGD (Gemeentelijke Gezondheidsdienst) zorgt voor publieke gezondheid, vaccinatieprogramma's, infectieziektebestrijding en jeugdgezondheidszorg."
+      "explanation": "De GGD (Gemeentelijke Gezondheidsdienst) zorgt voor publieke gezondheid, vaccinatieprogramma's, infectieziektebestrijding en jeugdgezondheidszorg.",
+      "explanationEn": "The GGD (Municipal Health Service) is responsible for public health, vaccination programs, infectious disease control, and youth healthcare."
     },
     {
       "id": "gez-q7",
       "text": "Naar wie ga je als je zwanger bent?",
       "options": ["Direct naar het ziekenhuis", "Naar de verloskundige of huisarts", "Naar de apotheek", "Naar de GGD"],
       "correctIndex": 1,
-      "explanation": "Bij zwangerschap ga je naar een verloskundige of huisarts. De verloskundige begeleidt de zwangerschap en bevalling."
+      "explanation": "Bij zwangerschap ga je naar een verloskundige of huisarts. De verloskundige begeleidt de zwangerschap en bevalling.",
+      "explanationEn": "During pregnancy, you go to a midwife or GP. The midwife guides the pregnancy and delivery."
     },
     {
       "id": "gez-q8",
       "text": "Wat is het Rijksvaccinatieprogramma?",
       "options": ["Een programma voor volwassenen om griepprik te krijgen", "Een programma waarin kinderen gratis vaccinaties krijgen", "Een cursus over gezondheid", "Een zorgverzekeringspakket"],
       "correctIndex": 1,
-      "explanation": "Het Rijksvaccinatieprogramma biedt gratis vaccinaties voor kinderen tegen ernstige ziekten zoals mazelen, kinkhoest en polio."
+      "explanation": "Het Rijksvaccinatieprogramma biedt gratis vaccinaties voor kinderen tegen ernstige ziekten zoals mazelen, kinkhoest en polio.",
+      "explanationEn": "The National Vaccination Program offers free vaccinations for children against serious diseases such as measles, whooping cough, and polio."
     },
     {
       "id": "gez-q9",
       "text": "Wat is de tandarts?",
       "options": ["Een arts in het ziekenhuis", "Een zorgverlener die zorgt voor je gebit", "Een specialist voor ogen", "Een fysiotherapeut"],
       "correctIndex": 1,
-      "explanation": "De tandarts zorgt voor je gebit. Tandartskosten zitten niet in de basisverzekering voor volwassenen; je hebt een aanvullende verzekering nodig."
+      "explanation": "De tandarts zorgt voor je gebit. Tandartskosten zitten niet in de basisverzekering voor volwassenen; je hebt een aanvullende verzekering nodig.",
+      "explanationEn": "The dentist takes care of your teeth. Dental costs are not included in basic health insurance for adults; you need supplementary insurance."
     },
     {
       "id": "gez-q10",
       "text": "Wat is zorgtoeslag?",
       "options": ["Een korting op medicijnen", "Een financiële bijdrage van de overheid voor de zorgverzekering", "Een extra verzekering", "Een belastingvoordeel voor artsen"],
       "correctIndex": 1,
-      "explanation": "Zorgtoeslag is een bijdrage van de overheid om de kosten van de basiszorgverzekering betaalbaar te houden voor mensen met een lager inkomen."
+      "explanation": "Zorgtoeslag is een bijdrage van de overheid om de kosten van de basiszorgverzekering betaalbaar te houden voor mensen met een lager inkomen.",
+      "explanationEn": "Healthcare allowance (zorgtoeslag) is a government subsidy to keep basic health insurance affordable for people with a lower income."
     },
     {
       "id": "gez-q11",
       "text": "Wat is de huisartsenpost?",
       "options": ["Een postkantoor voor medische brieven", "Een plek waar je 's avonds, 's nachts en in het weekend terecht kunt bij spoedeisende klachten", "Een trainingsplek voor artsen", "Een kantoor van de zorgverzekeraar"],
       "correctIndex": 1,
-      "explanation": "De huisartsenpost is voor spoedeisende medische hulp buiten kantoortijden. Bel eerst voordat je gaat."
+      "explanation": "De huisartsenpost is voor spoedeisende medische hulp buiten kantoortijden. Bel eerst voordat je gaat.",
+      "explanationEn": "The after-hours GP clinic is for urgent medical care outside office hours. Call first before going."
     },
     {
       "id": "gez-q12",
       "text": "Wat is het donorregister?",
       "options": ["Een lijst van bloeddonoren", "Een register waarin je vastlegt of je na overlijden organen wilt doneren", "Een lijst van ziekenhuizen", "Een register van artsen"],
       "correctIndex": 1,
-      "explanation": "In het donorregister leg je vast of je na je overlijden organen en weefsel wilt doneren. Iedereen vanaf 18 jaar wordt gevraagd een keuze te maken."
+      "explanation": "In het donorregister leg je vast of je na je overlijden organen en weefsel wilt doneren. Iedereen vanaf 18 jaar wordt gevraagd een keuze te maken.",
+      "explanationEn": "In the donor register, you record whether you want to donate organs and tissue after your death. Everyone from age 18 is asked to make a choice."
     },
     {
       "id": "gez-q13",
       "text": "Wat is een consultatiebureau?",
       "options": ["Een kantoor van de belastingdienst", "Een plek waar de groei en ontwikkeling van baby's en jonge kinderen wordt gevolgd", "Een bureau voor werklozen", "Een apotheek"],
       "correctIndex": 1,
-      "explanation": "Op het consultatiebureau worden kinderen van 0 tot 4 jaar regelmatig onderzocht. Ze krijgen daar ook vaccinaties."
+      "explanation": "Op het consultatiebureau worden kinderen van 0 tot 4 jaar regelmatig onderzocht. Ze krijgen daar ook vaccinaties.",
+      "explanationEn": "At the child health clinic, children aged 0 to 4 are regularly examined. They also receive vaccinations there."
     },
     {
       "id": "gez-q14",
       "text": "Wat is een aanvullende zorgverzekering?",
       "options": ["De basisverzekering", "Een extra verzekering voor zorg die niet in het basispakket zit, zoals de tandarts", "Een reisverzekering", "Een arbeidsongeschiktheidsverzekering"],
       "correctIndex": 1,
-      "explanation": "De aanvullende verzekering dekt zorg die niet in het basispakket zit, zoals tandartskosten voor volwassenen, brillen en fysiotherapie."
+      "explanation": "De aanvullende verzekering dekt zorg die niet in het basispakket zit, zoals tandartskosten voor volwassenen, brillen en fysiotherapie.",
+      "explanationEn": "Supplementary insurance covers care not included in the basic package, such as dental costs for adults, glasses, and physiotherapy."
     },
     {
       "id": "gez-q15",
       "text": "Wat is een huisartsenpraktijk?",
       "options": ["Een ziekenhuis", "De praktijk waar je huisarts werkt en waar je terecht kunt met gezondheidsklachten", "Een apotheek", "Een laboratorium"],
       "correctIndex": 1,
-      "explanation": "De huisartsenpraktijk is de plek waar je huisarts werkt. Je kunt daar terecht voor consult, advies en doorverwijzing naar een specialist."
+      "explanation": "De huisartsenpraktijk is de plek waar je huisarts werkt. Je kunt daar terecht voor consult, advies en doorverwijzing naar een specialist.",
+      "explanationEn": "The GP practice is the place where your general practitioner works. You can go there for consultations, advice, and referrals to a specialist."
     },
     {
       "id": "gez-q16",
       "text": "Wat is een verwijsbrief?",
       "options": ["Een brief van de gemeente", "Een brief van de huisarts waarmee je naar een specialist kunt gaan", "Een recept voor medicijnen", "Een brief van de verzekering"],
       "correctIndex": 1,
-      "explanation": "Om naar een specialist in het ziekenhuis te gaan heb je meestal een verwijsbrief van je huisarts nodig. Zonder verwijzing vergoedt de verzekering het niet."
+      "explanation": "Om naar een specialist in het ziekenhuis te gaan heb je meestal een verwijsbrief van je huisarts nodig. Zonder verwijzing vergoedt de verzekering het niet.",
+      "explanationEn": "To see a specialist at the hospital, you usually need a referral letter from your GP. Without a referral, the insurance will not cover it."
     },
     {
       "id": "gez-q17",
       "text": "Wat is kraamzorg?",
       "options": ["Zorg voor bejaarden", "Zorg voor moeder en baby in de eerste week na de bevalling", "Zorg in het ziekenhuis", "Zorg bij ziekte"],
       "correctIndex": 1,
-      "explanation": "Kraamzorg is professionele hulp thuis in de eerste 8-10 dagen na de bevalling. De kraamverzorgster helpt met de baby en het huishouden."
+      "explanation": "Kraamzorg is professionele hulp thuis in de eerste 8-10 dagen na de bevalling. De kraamverzorgster helpt met de baby en het huishouden.",
+      "explanationEn": "Maternity care (kraamzorg) is professional help at home in the first 8-10 days after delivery. The maternity nurse helps with the baby and the household."
     },
     {
       "id": "gez-q18",
       "text": "Wat doet de bedrijfsarts?",
       "options": ["Werkt als huisarts", "Begeleidt werknemers bij ziekte en beoordeelt of je kunt werken", "Verkoopt medicijnen", "Doet operaties"],
       "correctIndex": 1,
-      "explanation": "De bedrijfsarts begeleidt werknemers die ziek zijn. Hij of zij beoordeelt of je (gedeeltelijk) kunt werken en adviseert over re-integratie."
+      "explanation": "De bedrijfsarts begeleidt werknemers die ziek zijn. Hij of zij beoordeelt of je (gedeeltelijk) kunt werken en adviseert over re-integratie.",
+      "explanationEn": "The occupational health physician supports employees who are sick. They assess whether you can (partially) work and advise on reintegration."
     },
     {
       "id": "gez-q19",
       "text": "Wat is de spoedeisende hulp (SEH)?",
       "options": ["Een huisartsenpraktijk", "De afdeling van het ziekenhuis waar je terecht kunt bij ernstige, acute medische noodgevallen", "De apotheek", "De GGD"],
       "correctIndex": 1,
-      "explanation": "De SEH is de afdeling in het ziekenhuis voor ernstige spoedgevallen, zoals een ongeluk of hartklachten. Bij levensgevaar bel je eerst 112."
+      "explanation": "De SEH is de afdeling in het ziekenhuis voor ernstige spoedgevallen, zoals een ongeluk of hartklachten. Bij levensgevaar bel je eerst 112.",
+      "explanationEn": "The emergency department (SEH) is the hospital ward for serious emergencies, such as an accident or heart problems. In case of a life-threatening situation, call 112 first."
     },
     {
       "id": "gez-q20",
       "text": "Wat is de WMO?",
       "options": ["Een zorgverzekering", "De Wet maatschappelijke ondersteuning, voor hulp bij zelfstandig thuis wonen", "Een pensioenregeling", "Een belastingregeling"],
       "correctIndex": 1,
-      "explanation": "De WMO regelt hulp en ondersteuning voor mensen die niet alles zelf kunnen, zoals hulp in het huishouden, aanpassingen in huis of begeleiding."
+      "explanation": "De WMO regelt hulp en ondersteuning voor mensen die niet alles zelf kunnen, zoals hulp in het huishouden, aanpassingen in huis of begeleiding.",
+      "explanationEn": "The WMO (Social Support Act) arranges help and support for people who cannot do everything themselves, such as household help, home modifications, or guidance."
     },
     {
       "id": "gez-q21",
       "text": "Mag je in Nederland overal roken?",
       "options": ["Ja, overal", "Nee, roken is verboden in openbare gebouwen, horeca en op het werk", "Alleen buiten", "Alleen thuis"],
       "correctIndex": 1,
-      "explanation": "Roken is in Nederland verboden in openbare gebouwen, de horeca, op het werk en in het openbaar vervoer."
+      "explanation": "Roken is in Nederland verboden in openbare gebouwen, de horeca, op het werk en in het openbaar vervoer.",
+      "explanationEn": "Smoking is prohibited in the Netherlands in public buildings, restaurants and bars, at work, and on public transport."
     },
     {
       "id": "gez-q22",
       "text": "Wat is een dietist?",
       "options": ["Een kok", "Een zorgverlener die advies geeft over voeding en dieet bij gezondheidsklachten", "Een sportleraar", "Een psycholoog"],
       "correctIndex": 1,
-      "explanation": "Een diëtist geeft advies over gezonde voeding, bijvoorbeeld bij diabetes, overgewicht of allergieën. Je hebt een verwijzing van de huisarts nodig."
+      "explanation": "Een diëtist geeft advies over gezonde voeding, bijvoorbeeld bij diabetes, overgewicht of allergieën. Je hebt een verwijzing van de huisarts nodig.",
+      "explanationEn": "A dietitian provides advice on healthy nutrition, for example for diabetes, obesity, or allergies. You need a referral from your GP."
     },
     {
       "id": "gez-q23",
       "text": "Hoeveel mag het eigen risico maximaal zijn?",
       "options": ["€ 285", "€ 385", "Je kunt het eigen risico vrijwillig verhogen tot maximaal € 885", "Er is geen maximum"],
       "correctIndex": 2,
-      "explanation": "Het verplicht eigen risico is € 385 (2024). Je kunt het vrijwillig verhogen tot maximaal € 885 voor een lagere premie."
+      "explanation": "Het verplicht eigen risico is € 385 (2024). Je kunt het vrijwillig verhogen tot maximaal € 885 voor een lagere premie.",
+      "explanationEn": "The mandatory deductible is \u20ac385 (2024). You can voluntarily increase it to a maximum of \u20ac885 for a lower premium."
     },
     {
       "id": "gez-q24",
       "text": "Wat is fysiotherapie?",
       "options": ["Een type operatie", "Behandeling van lichamelijke klachten door oefeningen en beweging", "Een soort medicijn", "Psychologische hulp"],
       "correctIndex": 1,
-      "explanation": "Fysiotherapie is behandeling van spier-, gewrichts- en bewegingsklachten. Het zit meestal niet in het basispakket; een aanvullende verzekering is nodig."
+      "explanation": "Fysiotherapie is behandeling van spier-, gewrichts- en bewegingsklachten. Het zit meestal niet in het basispakket; een aanvullende verzekering is nodig.",
+      "explanationEn": "Physiotherapy is treatment for muscle, joint, and movement problems. It is usually not included in the basic package; supplementary insurance is needed."
     }
   ]
 }

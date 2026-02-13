@@ -15,35 +15,43 @@ interface DifficultySelectorProps {
 const moduleConfig = {
   lezen: {
     title: "Lezen",
+    titleEn: "Reading",
     subtitle: "Kies je niveau",
+    subtitleEn: "Choose your level",
     icon: BookOpen,
     color: "text-[var(--accent)]",
     bgColor: "bg-[var(--accent)]/10",
   },
   knm: {
     title: "KNM",
+    titleEn: "Dutch Society",
     subtitle: "Kies je niveau",
+    subtitleEn: "Choose your level",
     icon: Landmark,
     color: "text-[var(--accent)]",
     bgColor: "bg-[var(--accent)]/10",
   },
   luisteren: {
     title: "Luisteren",
+    titleEn: "Listening",
     subtitle: "Kies je niveau",
+    subtitleEn: "Choose your level",
     icon: Headphones,
     color: "text-[var(--accent)]",
     bgColor: "bg-[var(--accent)]/10",
   },
 };
 
-const difficultyInfo: Record<Difficulty, { title: string; description: string }> = {
+const difficultyInfo: Record<Difficulty, { title: string; description: string; descriptionEn: string }> = {
   A1: {
     title: "A1 - Beginner",
     description: "Eenvoudige teksten en basis woordenschat",
+    descriptionEn: "Simple texts and basic vocabulary",
   },
   A2: {
     title: "A2 - Intermediate",
     description: "Standaard examenniveau",
+    descriptionEn: "Standard exam level",
   },
 };
 
@@ -82,11 +90,15 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
             <div className={`w-16 h-16 mx-auto rounded-full ${config.bgColor} flex items-center justify-center mb-4`}>
               <Icon className={`h-8 w-8 ${config.color}`} />
             </div>
-            <h2 className="text-2xl font-bold text-[var(--ink)] mb-2">
+            <h2 className="text-2xl font-bold text-[var(--ink)] mb-1">
               {config.subtitle}
             </h2>
+            <p className="text-sm text-[var(--ink)]/40 mb-2">{config.subtitleEn}</p>
             <p className="text-[var(--ink)]/60">
               Selecteer een examenniveau en oefentoets
+            </p>
+            <p className="text-sm text-[var(--ink)]/40">
+              Select an exam level and practice test
             </p>
           </div>
 
@@ -107,6 +119,9 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
                   </h3>
                   <p className="text-sm text-[var(--ink)]/60">
                     {difficultyInfo.A1.description}
+                  </p>
+                  <p className="text-xs text-[var(--ink)]/40">
+                    {difficultyInfo.A1.descriptionEn}
                   </p>
                 </div>
               </div>
@@ -135,6 +150,9 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
                   </h3>
                   <p className="text-sm text-[var(--ink)]/60">
                     {difficultyInfo.A2.description}
+                  </p>
+                  <p className="text-xs text-[var(--ink)]/40">
+                    {difficultyInfo.A2.descriptionEn}
                   </p>
                 </div>
               </div>

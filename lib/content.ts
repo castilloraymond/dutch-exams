@@ -107,6 +107,10 @@ import part1DailyRoutine from "@/content/spreken/tasks/part1-daily-routine.json"
 import part2Market from "@/content/spreken/tasks/part2-market.json";
 import part3Transport from "@/content/spreken/tasks/part3-transport.json";
 import part4Kitchen from "@/content/spreken/tasks/part4-kitchen.json";
+import a1Part1Family from "@/content/spreken/tasks/a1-part1-family.json";
+import a1Part2Food from "@/content/spreken/tasks/a1-part2-food.json";
+import a1Part3Rooms from "@/content/spreken/tasks/a1-part3-rooms.json";
+import a1Part4Morning from "@/content/spreken/tasks/a1-part4-morning.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": tipsOmGoedTeLeren as unknown as Passage,
@@ -183,6 +187,10 @@ const writingTasks: Record<string, WritingTask> = {
 
 // Spreken data
 const speakingTasks: Record<string, SpeakingTask> = {
+  "a1-part1-family": a1Part1Family as unknown as SpeakingTask,
+  "a1-part2-food": a1Part2Food as unknown as SpeakingTask,
+  "a1-part3-rooms": a1Part3Rooms as unknown as SpeakingTask,
+  "a1-part4-morning": a1Part4Morning as unknown as SpeakingTask,
   "part1-homework": part1Homework as unknown as SpeakingTask,
   "part2-lunch": part2Lunch as unknown as SpeakingTask,
   "part3-education": part3Education as unknown as SpeakingTask,

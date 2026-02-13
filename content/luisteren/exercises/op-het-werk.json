@@ -10,28 +10,32 @@
       "text": "Hoe laat begint de werkdag?",
       "options": ["Half acht", "Acht uur", "Half negen", "Negen uur"],
       "correctIndex": 1,
-      "explanation": "De werkdag begint om acht uur."
+      "explanation": "De werkdag begint om acht uur.",
+      "explanationEn": "The workday starts at eight o'clock."
     },
     {
       "id": "werk-l-q2",
       "text": "Hoeveel dagen per week werkt Ahmed?",
       "options": ["Drie dagen", "Vier dagen", "Vijf dagen", "Zes dagen"],
       "correctIndex": 1,
-      "explanation": "Ahmed werkt vier dagen per week: maandag tot en met donderdag."
+      "explanation": "Ahmed werkt vier dagen per week: maandag tot en met donderdag.",
+      "explanationEn": "Ahmed works four days per week: Monday through Thursday."
     },
     {
       "id": "werk-l-q3",
       "text": "Waar kan Ahmed lunchen?",
       "options": ["Op de eerste verdieping", "In de kantine op de tweede verdieping", "Buiten het gebouw", "Er is geen kantine"],
       "correctIndex": 1,
-      "explanation": "Ahmed kan lunchen in de kantine op de tweede verdieping."
+      "explanation": "Ahmed kan lunchen in de kantine op de tweede verdieping.",
+      "explanationEn": "Ahmed can have lunch in the canteen on the second floor."
     },
     {
       "id": "werk-l-q4",
       "text": "Wat moet Ahmed doen als hij ziek is?",
       "options": ["Een e-mail sturen", "Voor acht uur bellen", "Naar het werk komen", "De volgende dag bellen"],
       "correctIndex": 1,
-      "explanation": "Als Ahmed ziek is, moet hij voor acht uur bellen naar het opgegeven nummer."
+      "explanation": "Als Ahmed ziek is, moet hij voor acht uur bellen naar het opgegeven nummer.",
+      "explanationEn": "If Ahmed is sick, he must call the provided number before eight o'clock."
     }
   ]
 }

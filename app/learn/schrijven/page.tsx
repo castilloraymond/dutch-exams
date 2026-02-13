@@ -97,11 +97,15 @@ export default function SchrijvenPage() {
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
           <div>
-            <h2 className="text-2xl font-bold text-[var(--ink)] mb-2">
+            <h2 className="text-2xl font-bold text-[var(--ink)] mb-1">
               Schrijfoefeningen
             </h2>
+            <p className="text-sm text-[var(--ink)]/40 mb-2">Writing Exercises</p>
             <p className="text-[var(--ink)]/60">
               Oefen met realistische schrijfopdrachten zoals je die op het examen tegenkomt.
+            </p>
+            <p className="text-sm text-[var(--ink)]/40">
+              Practice with realistic writing tasks like those on the exam.
             </p>
           </div>
 
@@ -130,6 +134,9 @@ export default function SchrijvenPage() {
                     <p className="text-sm text-[var(--ink)]/60">
                       Eenvoudige schrijfopdrachten
                     </p>
+                    <p className="text-xs text-[var(--ink)]/40">
+                      Simple writing tasks
+                    </p>
                   </div>
                 </div>
                 <div className="space-y-3">
@@ -151,6 +158,9 @@ export default function SchrijvenPage() {
                     </h3>
                     <p className="text-sm text-[var(--ink)]/60">
                       Standaard examenniveau
+                    </p>
+                    <p className="text-xs text-[var(--ink)]/40">
+                      Standard exam level
                     </p>
                   </div>
                 </div>

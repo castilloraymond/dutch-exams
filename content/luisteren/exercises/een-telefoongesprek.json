@@ -10,28 +10,32 @@
       "text": "Waarom belt de patiënt?",
       "options": ["Om medicijnen te bestellen", "Om een afspraak te maken bij de huisarts", "Om een recept op te vragen", "Om zich ziek te melden"],
       "correctIndex": 1,
-      "explanation": "De patiënt belt om een afspraak te maken met de dokter."
+      "explanation": "De patiënt belt om een afspraak te maken met de dokter.",
+      "explanationEn": "The patient calls to make an appointment with the doctor."
     },
     {
       "id": "tel-q2",
       "text": "Welke klachten heeft de patiënt?",
       "options": ["Hoofdpijn en misselijkheid", "Keelpijn en hoesten", "Rugpijn en koorts", "Buikpijn en diarree"],
       "correctIndex": 1,
-      "explanation": "De patiënt heeft al drie dagen keelpijn en hoest veel."
+      "explanation": "De patiënt heeft al drie dagen keelpijn en hoest veel.",
+      "explanationEn": "The patient has had a sore throat for three days and coughs a lot."
     },
     {
       "id": "tel-q3",
       "text": "Wanneer is de afspraak?",
       "options": ["Vandaag om drie uur", "Morgenochtend om negen uur", "Volgende week maandag", "Vrijdagmiddag"],
       "correctIndex": 1,
-      "explanation": "De afspraak is morgenochtend (woensdag) om negen uur."
+      "explanation": "De afspraak is morgenochtend (woensdag) om negen uur.",
+      "explanationEn": "The appointment is tomorrow morning (Wednesday) at nine o'clock."
     },
     {
       "id": "tel-q4",
       "text": "Heeft de patiënt koorts?",
       "options": ["Nee, helemaal niet", "Ja, een beetje: 37,5 graden", "Ja, hoge koorts: 40 graden", "Dat wordt niet gevraagd"],
       "correctIndex": 1,
-      "explanation": "De patiënt heeft een beetje koorts: 37,5 graden."
+      "explanation": "De patiënt heeft een beetje koorts: 37,5 graden.",
+      "explanationEn": "The patient has a slight fever: 37.5 degrees."
     }
   ]
 }

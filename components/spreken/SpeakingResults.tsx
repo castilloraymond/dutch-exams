@@ -2,8 +2,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp } from "lucide-react";
+import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp, Users } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
+import { useAzureTTS } from "@/hooks/useAzureTTS";
 
 interface RecordedAnswer {
   questionIndex: number;
@@ -36,8 +37,8 @@ export function SpeakingResults({
 }: SpeakingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const isPlayingRef = useRef(false);
+  const { speak: azureSpeak, stop: azureStop, isPlaying: azureIsPlaying } = useAzureTTS();
 
   const isMultiQuestion = questions.length > 1;
 
@@ -53,37 +54,17 @@ export function SpeakingResults({
   };
 
   const playModelAnswerTTS = (transcriptNl: string) => {
-    if (isPlayingRef.current) {
-      window.speechSynthesis.cancel();
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current.currentTime = 0;
-      }
-      isPlayingRef.current = false;
-      return;
-    }
-
     onModelAnswerPlayed();
-
-    const utterance = new SpeechSynthesisUtterance(transcriptNl);
-    utterance.lang = "nl-NL";
-    utterance.rate = 0.9;
-
-    utterance.onend = () => { isPlayingRef.current = false; };
-    utterance.onerror = () => { isPlayingRef.current = false; };
-
-    utteranceRef.current = utterance;
-    window.speechSynthesis.speak(utterance);
-    isPlayingRef.current = true;
+    azureSpeak(transcriptNl);
   };
 
   const playSingleModelAnswer = () => {
-    if (isPlayingRef.current) {
+    if (azureIsPlaying || isPlayingRef.current) {
+      azureStop();
       if (audioRef.current) {
         audioRef.current.pause();
         audioRef.current.currentTime = 0;
       }
-      window.speechSynthesis.cancel();
       isPlayingRef.current = false;
       return;
     }
@@ -94,7 +75,7 @@ export function SpeakingResults({
       audioRef.current.play();
       isPlayingRef.current = true;
     } else {
-      playModelAnswerTTS(task.modelAnswer.transcriptNl);
+      azureSpeak(task.modelAnswer.transcriptNl);
     }
   };
 
@@ -268,6 +249,32 @@ export function SpeakingResults({
               className="flex items-start gap-2 text-sm text-[var(--ink)]"
             >
               <Check className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />
+              <span>{tip}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Tips from Test Takers */}
+      <div className="landing-card p-6 border border-[var(--blue)]/20 bg-[var(--blue-soft)]">
+        <div className="flex items-center gap-2 mb-4">
+          <Users className="h-5 w-5 text-[var(--blue)]" />
+          <h3 className="font-bold text-[var(--ink)]">Tips from Test Takers</h3>
+        </div>
+        <ul className="space-y-2">
+          {[
+            "The exam room is loud because all candidates speak at the same time — practice with background noise.",
+            "You wear headphones and speak into a microphone. Test your mic position beforehand.",
+            "The computer plays the question audio only twice. Listen carefully the first time.",
+            "There is a short beep before recording starts. Begin speaking immediately after.",
+            "If you make a mistake, just keep going — don't restart. Fluency matters more than perfection.",
+            "Practice answering within the time limit. The recording stops automatically when time runs out.",
+          ].map((tip, index) => (
+            <li
+              key={index}
+              className="flex items-start gap-2 text-sm text-[var(--ink)]"
+            >
+              <Check className="h-4 w-4 text-[var(--blue)] flex-shrink-0 mt-0.5" />
               <span>{tip}</span>
             </li>
           ))}

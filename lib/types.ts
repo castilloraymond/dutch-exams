@@ -43,10 +43,21 @@ export interface PassageProgress {
   lastAttempt: string;
 }
 
+export interface ExamCompletion {
+  correctAnswers: number;
+  totalQuestions: number;
+  completedAt: string;
+}
+
+export interface ExamCompletionProgress {
+  [examId: string]: ExamCompletion;
+}
+
 export interface UserProgress {
   passageProgress: {
     [passageId: string]: PassageProgress;
   };
+  examProgress?: ExamCompletionProgress;
   writingProgress?: WritingProgress;
   speakingProgress?: SpeakingProgress;
   email?: string;

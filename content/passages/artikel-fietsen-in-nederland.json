@@ -11,35 +11,40 @@
       "text": "Hoeveel fietsen zijn er ongeveer in Nederland?",
       "options": ["17 miljoen", "20 miljoen", "23 miljoen", "30 miljoen"],
       "correctIndex": 2,
-      "explanation": "De tekst zegt: 'Er zijn meer fietsen dan mensen: ongeveer 23 miljoen fietsen.'"
+      "explanation": "De tekst zegt: 'Er zijn meer fietsen dan mensen: ongeveer 23 miljoen fietsen.'",
+      "explanationEn": "The text says: 'There are more bicycles than people: approximately 23 million bicycles.'"
     },
     {
       "id": "fiets-q2",
       "text": "Waarom fietsen Nederlanders zo veel?",
       "options": ["Omdat auto's verboden zijn", "Omdat het land vlak is", "Omdat fietsen verplicht is", "Omdat er geen treinen zijn"],
       "correctIndex": 1,
-      "explanation": "Een reden is dat het land heel vlak is."
+      "explanation": "Een reden is dat het land heel vlak is.",
+      "explanationEn": "One reason is that the country is very flat."
     },
     {
       "id": "fiets-q3",
       "text": "Hoeveel kilometer aan fietspaden heeft Nederland?",
       "options": ["15.000 km", "25.000 km", "35.000 km", "45.000 km"],
       "correctIndex": 2,
-      "explanation": "De tekst zegt: 'In totaal is er meer dan 35.000 kilometer aan fietspaden.'"
+      "explanation": "De tekst zegt: 'In totaal is er meer dan 35.000 kilometer aan fietspaden.'",
+      "explanationEn": "The text says: 'In total there is more than 35,000 kilometers of bicycle paths.'"
     },
     {
       "id": "fiets-q4",
       "text": "Waar zijn vaak speciale parkeerplaatsen voor fietsen?",
       "options": ["Bij winkels", "Bij treinstations", "Bij scholen", "Bij ziekenhuizen"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Er zijn speciale parkeerplaatsen voor fietsen, vaak bij treinstations.'"
+      "explanation": "De tekst zegt: 'Er zijn speciale parkeerplaatsen voor fietsen, vaak bij treinstations.'",
+      "explanationEn": "The text says: 'There are special parking spots for bicycles, often at train stations.'"
     },
     {
       "id": "fiets-q5",
       "text": "Waarom moet je een goed slot kopen?",
       "options": ["Omdat dat verplicht is", "Omdat fietsdiefstal veel voorkomt", "Omdat de politie controleert", "Omdat het goedkoper is"],
       "correctIndex": 1,
-      "explanation": "De tekst zegt: 'Vergeet niet om een goed slot te kopen, want fietsdiefstal komt veel voor.'"
+      "explanation": "De tekst zegt: 'Vergeet niet om een goed slot te kopen, want fietsdiefstal komt veel voor.'",
+      "explanationEn": "The text says: 'Don't forget to buy a good lock, because bicycle theft is very common.'"
     }
   ]
 }

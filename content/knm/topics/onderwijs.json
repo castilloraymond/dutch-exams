@@ -7,168 +7,192 @@
       "text": "Vanaf welke leeftijd is een kind leerplichtig in Nederland?",
       "options": ["4 jaar", "5 jaar", "6 jaar", "7 jaar"],
       "correctIndex": 1,
-      "explanation": "De leerplicht begint op de eerste schooldag na de 5e verjaardag. Veel kinderen gaan al op 4 jaar naar school, maar dat is niet verplicht."
+      "explanation": "De leerplicht begint op de eerste schooldag na de 5e verjaardag. Veel kinderen gaan al op 4 jaar naar school, maar dat is niet verplicht.",
+      "explanationEn": "Compulsory education begins on the first school day after the child's 5th birthday. Many children start school at age 4, but this is not mandatory."
     },
     {
       "id": "ond-q2",
       "text": "Tot welke leeftijd geldt de leerplicht?",
       "options": ["14 jaar", "16 jaar", "18 jaar", "21 jaar"],
       "correctIndex": 1,
-      "explanation": "De volledige leerplicht geldt tot 16 jaar. Daarna geldt de kwalificatieplicht tot 18 jaar (of tot je een startkwalificatie hebt)."
+      "explanation": "De volledige leerplicht geldt tot 16 jaar. Daarna geldt de kwalificatieplicht tot 18 jaar (of tot je een startkwalificatie hebt).",
+      "explanationEn": "Full compulsory education applies until age 16. After that, the qualification requirement applies until age 18 (or until you have a basic qualification)."
     },
     {
       "id": "ond-q3",
       "text": "Wat is de CITO-toets?",
       "options": ["Een examen voor het rijbewijs", "Een toets aan het einde van de basisschool die helpt bij de keuze voor het voortgezet onderwijs", "Een taaltoets voor inburgeraars", "Een examen aan het einde van de middelbare school"],
       "correctIndex": 1,
-      "explanation": "De CITO-eindtoets (of doorstroomtoets) wordt gemaakt in groep 8 van de basisschool en helpt bij het advies voor het niveau van het voortgezet onderwijs."
+      "explanation": "De CITO-eindtoets (of doorstroomtoets) wordt gemaakt in groep 8 van de basisschool en helpt bij het advies voor het niveau van het voortgezet onderwijs.",
+      "explanationEn": "The CITO final test (or transition test) is taken in year 8 of primary school and helps determine the recommended level of secondary education."
     },
     {
       "id": "ond-q4",
       "text": "Wat zijn vmbo, havo en vwo?",
       "options": ["Typen basisscholen", "Niveaus in het voortgezet onderwijs (middelbare school)", "Universiteiten", "Beroepsopleidingen"],
       "correctIndex": 1,
-      "explanation": "Na de basisschool gaan kinderen naar het voortgezet onderwijs: vmbo (4 jaar), havo (5 jaar) of vwo (6 jaar)."
+      "explanation": "Na de basisschool gaan kinderen naar het voortgezet onderwijs: vmbo (4 jaar), havo (5 jaar) of vwo (6 jaar).",
+      "explanationEn": "After primary school, children go to secondary education: vmbo (4 years), havo (5 years), or vwo (6 years)."
     },
     {
       "id": "ond-q5",
       "text": "Wat is het verschil tussen MBO, HBO en WO?",
       "options": ["Er is geen verschil", "MBO is beroepsonderwijs, HBO is hoger beroepsonderwijs, WO is universiteit", "MBO is voor kinderen, HBO en WO voor volwassenen", "MBO is gratis, HBO en WO zijn betaald"],
       "correctIndex": 1,
-      "explanation": "MBO (middelbaar beroepsonderwijs) leidt op voor een beroep. HBO (hoger beroepsonderwijs) en WO (wetenschappelijk onderwijs/universiteit) zijn hogere opleidingen."
+      "explanation": "MBO (middelbaar beroepsonderwijs) leidt op voor een beroep. HBO (hoger beroepsonderwijs) en WO (wetenschappelijk onderwijs/universiteit) zijn hogere opleidingen.",
+      "explanationEn": "MBO (secondary vocational education) trains for a profession. HBO (higher professional education) and WO (university/scientific education) are higher education levels."
     },
     {
       "id": "ond-q6",
       "text": "Wat is DUO?",
       "options": ["Een tv-zender", "De Dienst Uitvoering Onderwijs, die studiefinanciering regelt", "Een school voor volwassenen", "Een onderwijsmethode"],
       "correctIndex": 1,
-      "explanation": "DUO regelt studiefinanciering, het inschrijven voor het hoger onderwijs en het beheer van diploma's."
+      "explanation": "DUO regelt studiefinanciering, het inschrijven voor het hoger onderwijs en het beheer van diploma's.",
+      "explanationEn": "DUO manages student finance, enrollment in higher education, and the administration of diplomas."
     },
     {
       "id": "ond-q7",
       "text": "Wat is inburgering?",
       "options": ["Een cursus Nederlandse geschiedenis", "Een verplicht programma voor nieuwkomers om de taal en samenleving te leren", "Een vrijwillige activiteit", "Een examen voor het rijbewijs"],
       "correctIndex": 1,
-      "explanation": "Inburgering is een verplicht programma voor nieuwkomers. Je leert Nederlands (lezen, schrijven, luisteren, spreken) en kennis van de Nederlandse maatschappij (KNM)."
+      "explanation": "Inburgering is een verplicht programma voor nieuwkomers. Je leert Nederlands (lezen, schrijven, luisteren, spreken) en kennis van de Nederlandse maatschappij (KNM).",
+      "explanationEn": "Civic integration (inburgering) is a mandatory program for newcomers. You learn Dutch (reading, writing, listening, speaking) and knowledge of Dutch society (KNM)."
     },
     {
       "id": "ond-q8",
       "text": "Wat is een ROC?",
       "options": ["Een soort ziekenhuis", "Een Regionaal Opleidingencentrum voor MBO-onderwijs en volwasseneneducatie", "Een sportvereniging", "Een gemeentekantoor"],
       "correctIndex": 1,
-      "explanation": "Een ROC (Regionaal Opleidingencentrum) biedt MBO-opleidingen en cursussen voor volwassenen, waaronder taalcursussen en inburgeringslessen."
+      "explanation": "Een ROC (Regionaal Opleidingencentrum) biedt MBO-opleidingen en cursussen voor volwassenen, waaronder taalcursussen en inburgeringslessen.",
+      "explanationEn": "A ROC (Regional Training Center) offers MBO programs and courses for adults, including language courses and civic integration classes."
     },
     {
       "id": "ond-q9",
       "text": "Wat is NT2?",
       "options": ["Een televisiezender", "Nederlands als Tweede Taal", "Een wiskundetoets", "Een type visum"],
       "correctIndex": 1,
-      "explanation": "NT2 staat voor Nederlands als Tweede Taal. Het NT2-examen is onderdeel van de inburgering."
+      "explanation": "NT2 staat voor Nederlands als Tweede Taal. Het NT2-examen is onderdeel van de inburgering.",
+      "explanationEn": "NT2 stands for Dutch as a Second Language. The NT2 exam is part of the civic integration process."
     },
     {
       "id": "ond-q10",
       "text": "Hoe lang duurt de basisschool in Nederland?",
       "options": ["6 jaar", "7 jaar", "8 jaar (groep 1 t/m 8)", "9 jaar"],
       "correctIndex": 2,
-      "explanation": "De basisschool duurt 8 jaar: van groep 1 (4 jaar oud) tot en met groep 8 (11-12 jaar oud)."
+      "explanation": "De basisschool duurt 8 jaar: van groep 1 (4 jaar oud) tot en met groep 8 (11-12 jaar oud).",
+      "explanationEn": "Primary school lasts 8 years: from year 1 (age 4) through year 8 (age 11-12)."
     },
     {
       "id": "ond-q11",
       "text": "Wat is kinderopvang?",
       "options": ["Opvang voor zieke kinderen in het ziekenhuis", "Opvang voor jonge kinderen terwijl ouders werken", "Een school voor peuters", "Een naschools sportprogramma"],
       "correctIndex": 1,
-      "explanation": "Kinderopvang (crèche, kinderdagverblijf) biedt opvang voor kinderen van 0-4 jaar terwijl ouders werken. De overheid geeft kinderopvangtoeslag."
+      "explanation": "Kinderopvang (crèche, kinderdagverblijf) biedt opvang voor kinderen van 0-4 jaar terwijl ouders werken. De overheid geeft kinderopvangtoeslag.",
+      "explanationEn": "Childcare (creche, daycare center) provides care for children aged 0-4 while parents work. The government provides a childcare allowance."
     },
     {
       "id": "ond-q12",
       "text": "Mogen ouders zelf een school kiezen voor hun kind?",
       "options": ["Nee, de gemeente wijst een school aan", "Ja, er is vrijheid van onderwijs en schoolkeuze", "Alleen als ze in dezelfde wijk wonen", "Alleen voor het voortgezet onderwijs"],
       "correctIndex": 1,
-      "explanation": "In Nederland is er vrijheid van onderwijs. Ouders mogen zelf een school kiezen, ook een school op religieuze of pedagogische grondslag."
+      "explanation": "In Nederland is er vrijheid van onderwijs. Ouders mogen zelf een school kiezen, ook een school op religieuze of pedagogische grondslag.",
+      "explanationEn": "In the Netherlands, there is freedom of education. Parents may choose a school themselves, including schools with a religious or pedagogical foundation."
     },
     {
       "id": "ond-q13",
       "text": "Wat is de peuterspeelzaal?",
       "options": ["Een basisschool", "Opvang en spelen voor kinderen van 2 tot 4 jaar", "Een middelbare school", "Een naschoolse opvang"],
       "correctIndex": 1,
-      "explanation": "De peuterspeelzaal is voor kinderen van 2 tot 4 jaar. Kinderen leren er spelen met andere kinderen en worden voorbereid op de basisschool."
+      "explanation": "De peuterspeelzaal is voor kinderen van 2 tot 4 jaar. Kinderen leren er spelen met andere kinderen en worden voorbereid op de basisschool.",
+      "explanationEn": "The preschool playgroup is for children aged 2 to 4. Children learn to play with other children and are prepared for primary school."
     },
     {
       "id": "ond-q14",
       "text": "Wat is de Cito-eindtoets (doorstroomtoets)?",
       "options": ["Een toets in groep 1", "Een toets in groep 8 die helpt bepalen naar welk niveau voortgezet onderwijs een kind gaat", "Een taaltoets voor volwassenen", "Een sporttest"],
       "correctIndex": 1,
-      "explanation": "De doorstroomtoets wordt gemaakt in groep 8. Samen met het schooladvies bepaalt het naar welk niveau voortgezet onderwijs (vmbo, havo, vwo) een kind gaat."
+      "explanation": "De doorstroomtoets wordt gemaakt in groep 8. Samen met het schooladvies bepaalt het naar welk niveau voortgezet onderwijs (vmbo, havo, vwo) een kind gaat.",
+      "explanationEn": "The transition test is taken in year 8. Together with the school's recommendation, it determines which level of secondary education (vmbo, havo, vwo) a child goes to."
     },
     {
       "id": "ond-q15",
       "text": "Wat is een startkwalificatie?",
       "options": ["Een rijbewijs", "Minimaal een havo-, vwo- of mbo-2-diploma, nodig om goed aan het werk te kunnen", "Een inburgeringscertificaat", "Een zwemdiploma"],
       "correctIndex": 1,
-      "explanation": "Een startkwalificatie is minimaal een havo-, vwo- of mbo-2-diploma. Jongeren zijn tot 18 jaar verplicht een startkwalificatie te halen."
+      "explanation": "Een startkwalificatie is minimaal een havo-, vwo- of mbo-2-diploma. Jongeren zijn tot 18 jaar verplicht een startkwalificatie te halen.",
+      "explanationEn": "A basic qualification (startkwalificatie) is at minimum a havo, vwo, or mbo-2 diploma. Young people are required to obtain a basic qualification until age 18."
     },
     {
       "id": "ond-q16",
       "text": "Wat is speciaal onderwijs?",
       "options": ["Onderwijs voor hoogbegaafde kinderen", "Onderwijs voor kinderen die extra hulp nodig hebben door een handicap of leerproblemen", "Privéonderwijs", "Onderwijs op zaterdagen"],
       "correctIndex": 1,
-      "explanation": "Speciaal onderwijs is voor kinderen die door een handicap, gedragsproblemen of leerproblemen extra ondersteuning nodig hebben."
+      "explanation": "Speciaal onderwijs is voor kinderen die door een handicap, gedragsproblemen of leerproblemen extra ondersteuning nodig hebben.",
+      "explanationEn": "Special education is for children who need extra support due to a disability, behavioral problems, or learning difficulties."
     },
     {
       "id": "ond-q17",
       "text": "Wat is het verschil tussen openbaar en bijzonder onderwijs?",
       "options": ["Er is geen verschil", "Openbaar onderwijs is van de overheid, bijzonder onderwijs heeft een religieuze of pedagogische grondslag", "Bijzonder onderwijs is duurder", "Openbaar onderwijs is alleen voor Nederlanders"],
       "correctIndex": 1,
-      "explanation": "Openbaar onderwijs is van de overheid en staat open voor iedereen. Bijzonder onderwijs is opgericht op basis van een geloof of pedagogisch idee."
+      "explanation": "Openbaar onderwijs is van de overheid en staat open voor iedereen. Bijzonder onderwijs is opgericht op basis van een geloof of pedagogisch idee.",
+      "explanationEn": "Public education is government-run and open to everyone. Private/denominational education is founded on a religious or pedagogical philosophy."
     },
     {
       "id": "ond-q18",
       "text": "Wat is studiefinanciering?",
       "options": ["Een beurs voor buitenlandse studenten", "Geld van de overheid voor studenten in het MBO, HBO of WO", "Een lening van een bank", "Salaris voor stagiairs"],
       "correctIndex": 1,
-      "explanation": "Studiefinanciering is een bijdrage van de overheid (DUO) voor studenten. Het bestaat uit een basisbeurs, aanvullende beurs en de mogelijkheid om te lenen."
+      "explanation": "Studiefinanciering is een bijdrage van de overheid (DUO) voor studenten. Het bestaat uit een basisbeurs, aanvullende beurs en de mogelijkheid om te lenen.",
+      "explanationEn": "Student finance is a government contribution (DUO) for students. It consists of a basic grant, supplementary grant, and the option to take out a loan."
     },
     {
       "id": "ond-q19",
       "text": "Wat is TSO (tussenschoolse opvang)?",
       "options": ["Een naschoolse activiteit", "Opvang van kinderen op school tijdens de middagpauze", "Een avondcursus", "Een sportprogramma"],
       "correctIndex": 1,
-      "explanation": "TSO is opvang op school tijdens de lunchpauze. Kinderen eten daar hun lunch en spelen buiten. Ouders betalen vaak een kleine bijdrage."
+      "explanation": "TSO is opvang op school tijdens de lunchpauze. Kinderen eten daar hun lunch en spelen buiten. Ouders betalen vaak een kleine bijdrage.",
+      "explanationEn": "TSO is supervision at school during the lunch break. Children eat their lunch and play outside. Parents often pay a small contribution."
     },
     {
       "id": "ond-q20",
       "text": "Wat is een medezeggenschapsraad (MR)?",
       "options": ["Een groep directeuren", "Een raad van ouders en personeel die meedenkt over het beleid van de school", "Een sportcommissie", "Een examencommissie"],
       "correctIndex": 1,
-      "explanation": "De MR bestaat uit ouders en personeel. Ze mogen meepraten en soms meebeslissen over schoolbeleid, zoals het schoolplan en de begroting."
+      "explanation": "De MR bestaat uit ouders en personeel. Ze mogen meepraten en soms meebeslissen over schoolbeleid, zoals het schoolplan en de begroting.",
+      "explanationEn": "The participation council (MR) consists of parents and staff. They may participate in discussions and sometimes co-decide on school policy, such as the school plan and budget."
     },
     {
       "id": "ond-q21",
       "text": "Wat is een stage?",
       "options": ["Een baan", "Een periode waarin een student werkervaring opdoet bij een bedrijf als onderdeel van de opleiding", "Vakantiewerk", "Vrijwilligerswerk"],
       "correctIndex": 1,
-      "explanation": "Tijdens een stage doet een student werkervaring op bij een bedrijf. Stages zijn verplicht bij veel MBO- en HBO-opleidingen."
+      "explanation": "Tijdens een stage doet een student werkervaring op bij een bedrijf. Stages zijn verplicht bij veel MBO- en HBO-opleidingen.",
+      "explanationEn": "During an internship, a student gains work experience at a company. Internships are mandatory in many MBO and HBO programs."
     },
     {
       "id": "ond-q22",
       "text": "Moeten ouders ouderbijdrage betalen aan school?",
       "options": ["Ja, het is verplicht", "Nee, de ouderbijdrage is vrijwillig", "Alleen voor het voortgezet onderwijs", "Alleen buitenlandse ouders"],
       "correctIndex": 1,
-      "explanation": "De ouderbijdrage is vrijwillig. Scholen mogen ouders vragen een bijdrage te betalen voor extra activiteiten, maar het is niet verplicht."
+      "explanation": "De ouderbijdrage is vrijwillig. Scholen mogen ouders vragen een bijdrage te betalen voor extra activiteiten, maar het is niet verplicht.",
+      "explanationEn": "The parental contribution is voluntary. Schools may ask parents to pay a contribution for extra activities, but it is not mandatory."
     },
     {
       "id": "ond-q23",
       "text": "Wat is het participatieverklaringstraject?",
       "options": ["Een sportprogramma", "Een onderdeel van inburgering waarin nieuwkomers leren over de Nederlandse kernwaarden", "Een taalcursus", "Een arbeidscontract"],
       "correctIndex": 1,
-      "explanation": "Het participatieverklaringstraject is onderdeel van de inburgering. Nieuwkomers leren over de Nederlandse kernwaarden (vrijheid, gelijkheid, solidariteit) en ondertekenen een verklaring."
+      "explanation": "Het participatieverklaringstraject is onderdeel van de inburgering. Nieuwkomers leren over de Nederlandse kernwaarden (vrijheid, gelijkheid, solidariteit) en ondertekenen een verklaring.",
+      "explanationEn": "The participation declaration program is part of civic integration. Newcomers learn about Dutch core values (freedom, equality, solidarity) and sign a declaration."
     },
     {
       "id": "ond-q24",
       "text": "Wat is een diploma-erkenning?",
       "options": ["Een nieuw diploma halen", "Het proces waarbij buitenlandse diploma's worden vergeleken met Nederlandse diploma's", "Een certificaat van een taalcursus", "Een bewijs van goed gedrag"],
       "correctIndex": 1,
-      "explanation": "Via Nuffic (voor hoger onderwijs) of SBB (voor beroepsonderwijs) kun je buitenlandse diploma's laten waarderen, zodat werkgevers en scholen weten wat het niveau is."
+      "explanation": "Via Nuffic (voor hoger onderwijs) of SBB (voor beroepsonderwijs) kun je buitenlandse diploma's laten waarderen, zodat werkgevers en scholen weten wat het niveau is.",
+      "explanationEn": "Through Nuffic (for higher education) or SBB (for vocational education), you can have foreign diplomas evaluated so that employers and schools know what the level is."
     }
   ]
 }
