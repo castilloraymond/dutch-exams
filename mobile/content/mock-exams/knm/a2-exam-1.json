@@ -1,0 +1,330 @@
+{
+  "id": "knm-a2-1",
+  "title": "KNM A2 - Oefenexamen 1",
+  "module": "knm",
+  "difficulty": "A2",
+  "questionCount": 40,
+  "recommendedTime": "30 min",
+  "questions": [
+    {
+      "id": "knm-a2-1-q1",
+      "text": "Wat is het minimumloon in Nederland?",
+      "options": ["Een vast bedrag dat de werkgever zelf bepaalt", "Het laagste loon dat een werkgever wettelijk moet betalen", "Het gemiddelde salaris in Nederland", "Het loon voor parttimewerkers"],
+      "correctIndex": 1,
+      "explanation": "Het minimumloon is het laagste bedrag dat een werkgever wettelijk verplicht is te betalen.",
+      "explanationEn": "The minimum wage is the lowest amount that an employer is legally required to pay."
+    },
+    {
+      "id": "knm-a2-1-q2",
+      "text": "Hoeveel vakantiedagen heeft een werknemer minimaal recht op per jaar bij een fulltime baan?",
+      "options": ["10 dagen", "15 dagen", "20 dagen", "25 dagen"],
+      "correctIndex": 2,
+      "explanation": "Bij een fulltime baan heeft een werknemer wettelijk recht op minimaal 20 vakantiedagen.",
+      "explanationEn": "With a full-time job, an employee is legally entitled to a minimum of 20 vacation days."
+    },
+    {
+      "id": "knm-a2-1-q3",
+      "text": "Wat is een vast contract?",
+      "options": ["Een contract voor een bepaalde periode", "Een contract zonder einddatum", "Een contract voor oproepkrachten", "Een contract voor stagiairs"],
+      "correctIndex": 1,
+      "explanation": "Een vast contract heeft geen einddatum en biedt meer zekerheid.",
+      "explanationEn": "A permanent contract has no end date and offers more job security."
+    },
+    {
+      "id": "knm-a2-1-q4",
+      "text": "Wat is het UWV?",
+      "options": ["Een zorgverzekering", "Een uitkeringsinstantie voor werklozen en arbeidsongeschikten", "Een pensioenfonds", "Een belastingdienst"],
+      "correctIndex": 1,
+      "explanation": "Het UWV regelt uitkeringen bij werkloosheid, ziekte en arbeidsongeschiktheid.",
+      "explanationEn": "The UWV handles benefits for unemployment, illness, and disability."
+    },
+    {
+      "id": "knm-a2-1-q5",
+      "text": "Wat is een CAO?",
+      "options": ["Een persoonlijk arbeidscontract", "Een collectieve afspraak over arbeidsvoorwaarden voor een hele sector", "Een belastingregeling", "Een opleidingscertificaat"],
+      "correctIndex": 1,
+      "explanation": "Een CAO is een collectieve afspraak tussen werkgevers en vakbonden over arbeidsvoorwaarden.",
+      "explanationEn": "A CAO (collective labor agreement) is a collective agreement between employers and unions about working conditions."
+    },
+    {
+      "id": "knm-a2-1-q6",
+      "text": "Wat is een zzp'er?",
+      "options": ["Een werknemer met een tijdelijk contract", "Een zelfstandige ondernemer zonder personeel", "Een uitzendkracht", "Een ambtenaar"],
+      "correctIndex": 1,
+      "explanation": "Een zzp'er is een zelfstandige zonder personeel die voor zichzelf werkt.",
+      "explanationEn": "A zzp'er (freelancer) is a self-employed person without employees who works for themselves."
+    },
+    {
+      "id": "knm-a2-1-q7",
+      "text": "Is discriminatie bij sollicitaties in Nederland toegestaan?",
+      "options": ["Ja, de werkgever mag kiezen wie hij wil", "Nee, discriminatie is verboden", "Alleen bij kleine bedrijven", "Alleen als het in de vacature staat"],
+      "correctIndex": 1,
+      "explanation": "Discriminatie bij werving en selectie is verboden volgens de wet.",
+      "explanationEn": "Discrimination in recruitment and selection is prohibited by law."
+    },
+    {
+      "id": "knm-a2-1-q8",
+      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "options": ["Direct naar het UWV gaan", "Je werkgever zo snel mogelijk bellen", "Zelf een vervanger regelen", "Niets, het is je eigen zaak"],
+      "correctIndex": 1,
+      "explanation": "Als je ziek bent moet je zo snel mogelijk je werkgever informeren.",
+      "explanationEn": "If you are sick, you must inform your employer as soon as possible."
+    },
+    {
+      "id": "knm-a2-1-q9",
+      "text": "Wat is een eigen risico bij de zorgverzekering?",
+      "options": ["Extra premie die je betaalt", "Bedrag dat je eerst zelf betaalt voordat de verzekering betaalt", "Geld dat je terugkrijgt", "Kosten voor de tandarts"],
+      "correctIndex": 1,
+      "explanation": "Het eigen risico is het bedrag dat je zelf betaalt voordat de verzekering kosten vergoedt.",
+      "explanationEn": "The deductible (eigen risico) is the amount you pay yourself before the insurance covers costs."
+    },
+    {
+      "id": "knm-a2-1-q10",
+      "text": "Waar moet je je inschrijven als je naar Nederland verhuist?",
+      "options": ["Bij de politie", "Bij de gemeente (BRP)", "Bij de belastingdienst", "Bij het ziekenhuis"],
+      "correctIndex": 1,
+      "explanation": "Je moet je inschrijven bij de gemeente in de Basisregistratie Personen (BRP).",
+      "explanationEn": "You must register at the municipality in the Personal Records Database (BRP)."
+    },
+    {
+      "id": "knm-a2-1-q11",
+      "text": "Wat is een sociale huurwoning?",
+      "options": ["Een dure huurwoning", "Een huurwoning met een lage huur voor mensen met een lager inkomen", "Een koopwoning", "Een woning voor studenten"],
+      "correctIndex": 1,
+      "explanation": "Sociale huurwoningen hebben een lagere huur en zijn bedoeld voor mensen met een lager inkomen.",
+      "explanationEn": "Social housing has lower rent and is intended for people with a lower income."
+    },
+    {
+      "id": "knm-a2-1-q12",
+      "text": "Wat is de Belastingdienst?",
+      "options": ["Een bank", "De overheidsinstantie die belastingen int", "Een verzekeringsmaatschappij", "Een woningcorporatie"],
+      "correctIndex": 1,
+      "explanation": "De Belastingdienst is de overheidsinstantie die belastingen int en controleert.",
+      "explanationEn": "The Tax Authority (Belastingdienst) is the government agency that collects and monitors taxes."
+    },
+    {
+      "id": "knm-a2-1-q13",
+      "text": "Wat is huurtoeslag?",
+      "options": ["Extra huur die je moet betalen", "Een toeslag van de overheid om huur te betalen", "Een verzekering voor je huis", "Een lening voor een huis"],
+      "correctIndex": 1,
+      "explanation": "Huurtoeslag is een toeslag van de overheid om mensen met een laag inkomen te helpen met de huur.",
+      "explanationEn": "Housing benefit (huurtoeslag) is a government allowance to help people with a low income pay their rent."
+    },
+    {
+      "id": "knm-a2-1-q14",
+      "text": "Wie mag er stemmen bij de Tweede Kamerverkiezingen?",
+      "options": ["Iedereen die in Nederland woont", "Alleen Nederlanders van 18 jaar en ouder", "Iedereen boven de 21", "Alleen mensen met een baan"],
+      "correctIndex": 1,
+      "explanation": "Bij de Tweede Kamerverkiezingen mogen alleen Nederlanders van 18 jaar en ouder stemmen.",
+      "explanationEn": "In the House of Representatives elections, only Dutch citizens aged 18 and older may vote."
+    },
+    {
+      "id": "knm-a2-1-q15",
+      "text": "Wat is de Grondwet?",
+      "options": ["Een gewone wet", "De belangrijkste wet met de basisrechten van burgers", "Een gemeentelijke regel", "Een Europese wet"],
+      "correctIndex": 1,
+      "explanation": "De Grondwet is de belangrijkste wet van Nederland met de basisrechten van burgers.",
+      "explanationEn": "The Constitution (Grondwet) is the most important law of the Netherlands, containing the basic rights of citizens."
+    },
+    {
+      "id": "knm-a2-1-q16",
+      "text": "Wat doet de Eerste Kamer?",
+      "options": ["Maakt nieuwe wetten", "Controleert wetten die door de Tweede Kamer zijn aangenomen", "Regeert het land", "Spreekt recht"],
+      "correctIndex": 1,
+      "explanation": "De Eerste Kamer controleert wetten die door de Tweede Kamer zijn aangenomen.",
+      "explanationEn": "The Senate (Eerste Kamer) reviews laws that have been passed by the House of Representatives."
+    },
+    {
+      "id": "knm-a2-1-q17",
+      "text": "Wat is een referendum?",
+      "options": ["Een rechtszaak", "Een volksstemming over een bepaald onderwerp", "Een verkiezing voor de burgemeester", "Een debat in de Tweede Kamer"],
+      "correctIndex": 1,
+      "explanation": "Een referendum is een volksstemming waarbij burgers over een specifiek onderwerp mogen stemmen.",
+      "explanationEn": "A referendum is a public vote in which citizens may vote on a specific issue."
+    },
+    {
+      "id": "knm-a2-1-q18",
+      "text": "Wat viert Nederland op 5 mei?",
+      "options": ["Koningsdag", "Bevrijdingsdag", "Prinsjesdag", "Sinterklaas"],
+      "correctIndex": 1,
+      "explanation": "Op 5 mei viert Nederland Bevrijdingsdag: de bevrijding van de Duitse bezetting in 1945.",
+      "explanationEn": "On May 5, the Netherlands celebrates Liberation Day: the liberation from the German occupation in 1945."
+    },
+    {
+      "id": "knm-a2-1-q19",
+      "text": "Wie was Willem van Oranje?",
+      "options": ["De eerste minister-president", "De 'Vader des Vaderlands' die leidde in de opstand tegen Spanje", "De eerste koning van Nederland", "Een beroemde schilder"],
+      "correctIndex": 1,
+      "explanation": "Willem van Oranje wordt de 'Vader des Vaderlands' genoemd en leidde de opstand tegen Spanje.",
+      "explanationEn": "William of Orange is called the 'Father of the Fatherland' and led the revolt against Spain."
+    },
+    {
+      "id": "knm-a2-1-q20",
+      "text": "Wat was de VOC?",
+      "options": ["Een politieke partij", "De Verenigde Oost-Indische Compagnie, een handelscompagnie", "Een voetbalclub", "Een universiteit"],
+      "correctIndex": 1,
+      "explanation": "De VOC was de Verenigde Oost-Indische Compagnie, een belangrijke handelscompagnie in de 17e eeuw.",
+      "explanationEn": "The VOC was the Dutch East India Company, an important trading company in the 17th century."
+    },
+    {
+      "id": "knm-a2-1-q21",
+      "text": "Wat is de leerplicht in Nederland?",
+      "options": ["Kinderen moeten naar school tot ze 12 zijn", "Kinderen moeten naar school tot ze 16 zijn, daarna kwalificatieplicht tot 18", "School is vrijwillig", "Alleen jongens moeten naar school"],
+      "correctIndex": 1,
+      "explanation": "Er is leerplicht tot 16 jaar en daarna kwalificatieplicht tot 18 jaar.",
+      "explanationEn": "There is compulsory education until age 16, followed by a qualification obligation until age 18."
+    },
+    {
+      "id": "knm-a2-1-q22",
+      "text": "Wat is VMBO?",
+      "options": ["Een universiteit", "Een type middelbaar onderwijs", "Een basisschool", "Een hogeschool"],
+      "correctIndex": 1,
+      "explanation": "VMBO is een type middelbaar onderwijs (voortgezet onderwijs).",
+      "explanationEn": "VMBO is a type of secondary education."
+    },
+    {
+      "id": "knm-a2-1-q23",
+      "text": "Wat is het verschil tussen een hogeschool en een universiteit?",
+      "options": ["Er is geen verschil", "Hogeschool is meer praktisch, universiteit meer theoretisch", "Universiteit is makkelijker", "Hogeschool duurt langer"],
+      "correctIndex": 1,
+      "explanation": "Een hogeschool (HBO) is meer praktijkgericht, een universiteit (WO) meer theoretisch.",
+      "explanationEn": "A university of applied sciences (HBO) is more practice-oriented, while a research university (WO) is more theoretical."
+    },
+    {
+      "id": "knm-a2-1-q24",
+      "text": "Wat is gelijkheid tussen man en vrouw in Nederland?",
+      "options": ["Mannen hebben meer rechten", "Vrouwen hebben meer rechten", "Mannen en vrouwen hebben dezelfde rechten", "Er is geen wet over gelijkheid"],
+      "correctIndex": 2,
+      "explanation": "In Nederland hebben mannen en vrouwen dezelfde rechten. Gelijkheid is vastgelegd in de wet.",
+      "explanationEn": "In the Netherlands, men and women have the same rights. Equality is established by law."
+    },
+    {
+      "id": "knm-a2-1-q25",
+      "text": "Mag je in Nederland je eigen partner kiezen?",
+      "options": ["Nee, je ouders kiezen", "Ja, je kiest zelf je partner", "Alleen als je ouder dan 25 bent", "Alleen Nederlanders mogen kiezen"],
+      "correctIndex": 1,
+      "explanation": "In Nederland mag je zelf je partner kiezen. Gedwongen huwelijken zijn verboden.",
+      "explanationEn": "In the Netherlands, you may choose your own partner. Forced marriages are prohibited."
+    },
+    {
+      "id": "knm-a2-1-q26",
+      "text": "Wat is vrijheid van meningsuiting?",
+      "options": ["Je mag alles zeggen zonder gevolgen", "Je mag je mening geven, maar niet beledigen of discrimineren", "Je mag alleen positieve dingen zeggen", "Je mag niet over de koning praten"],
+      "correctIndex": 1,
+      "explanation": "Vrijheid van meningsuiting betekent dat je je mening mag geven, maar je mag niet discrimineren of tot haat aanzetten.",
+      "explanationEn": "Freedom of expression means you may give your opinion, but you may not discriminate or incite hatred."
+    },
+    {
+      "id": "knm-a2-1-q27",
+      "text": "Wat betekent scheiding van kerk en staat?",
+      "options": ["Kerken mogen geen geld hebben", "De overheid en religie zijn gescheiden, de overheid is neutraal", "Religie is verboden", "Alleen christendom is toegestaan"],
+      "correctIndex": 1,
+      "explanation": "Scheiding van kerk en staat betekent dat de overheid neutraal is en geen religie voortrekt.",
+      "explanationEn": "Separation of church and state means that the government is neutral and does not favor any religion."
+    },
+    {
+      "id": "knm-a2-1-q28",
+      "text": "Is homoseksualiteit legaal in Nederland?",
+      "options": ["Nee, het is verboden", "Ja, en je mag ook trouwen met iemand van hetzelfde geslacht", "Alleen voor vrouwen", "Alleen in grote steden"],
+      "correctIndex": 1,
+      "explanation": "Homoseksualiteit is legaal en mensen van hetzelfde geslacht mogen trouwen in Nederland.",
+      "explanationEn": "Homosexuality is legal and same-sex marriage is allowed in the Netherlands."
+    },
+    {
+      "id": "knm-a2-1-q29",
+      "text": "Wat is de maximumsnelheid op de meeste snelwegen in Nederland?",
+      "options": ["100 km/u", "120 km/u", "130 km/u", "150 km/u"],
+      "correctIndex": 0,
+      "explanation": "De maximumsnelheid op de meeste snelwegen is 100 km/u (overdag), 's nachts soms 130 km/u.",
+      "explanationEn": "The maximum speed on most highways is 100 km/h (during the day), sometimes 130 km/h at night."
+    },
+    {
+      "id": "knm-a2-1-q30",
+      "text": "Wat is een poldermodel?",
+      "options": ["Een manier om land droog te houden", "De Nederlandse manier van overleg en compromissen sluiten", "Een type windmolen", "Een bouwstijl"],
+      "correctIndex": 1,
+      "explanation": "Het poldermodel is de Nederlandse traditie van overleg en compromissen sluiten tussen partijen.",
+      "explanationEn": "The polder model is the Dutch tradition of consultation and reaching compromises between parties."
+    },
+    {
+      "id": "knm-a2-1-q31",
+      "text": "Wat is de Randstad?",
+      "options": ["Een stad in het zuiden", "Het gebied met de grootste steden: Amsterdam, Rotterdam, Den Haag, Utrecht", "Een eiland", "Een provincie"],
+      "correctIndex": 1,
+      "explanation": "De Randstad is het gebied met de vier grootste steden van Nederland.",
+      "explanationEn": "The Randstad is the area containing the four largest cities of the Netherlands."
+    },
+    {
+      "id": "knm-a2-1-q32",
+      "text": "Waarom zijn er dijken in Nederland?",
+      "options": ["Voor het verkeer", "Om het land te beschermen tegen water", "Voor toeristen", "Voor de landbouw alleen"],
+      "correctIndex": 1,
+      "explanation": "Dijken beschermen Nederland tegen overstromingen omdat veel land onder zeeniveau ligt.",
+      "explanationEn": "Dikes protect the Netherlands from flooding because much of the land is below sea level."
+    },
+    {
+      "id": "knm-a2-1-q33",
+      "text": "Wat is kinderbijslag?",
+      "options": ["Geld dat kinderen verdienen", "Geld van de overheid voor ouders om kinderen te verzorgen", "Een lening voor kinderen", "Geld voor de school"],
+      "correctIndex": 1,
+      "explanation": "Kinderbijslag is geld dat ouders van de overheid krijgen om hun kinderen te verzorgen.",
+      "explanationEn": "Child benefit (kinderbijslag) is money that parents receive from the government to care for their children."
+    },
+    {
+      "id": "knm-a2-1-q34",
+      "text": "Wat is zorgtoeslag?",
+      "options": ["Extra zorg in het ziekenhuis", "Een toeslag van de overheid om de zorgverzekering te betalen", "Gratis medicijnen", "Extra doktersbezoeken"],
+      "correctIndex": 1,
+      "explanation": "Zorgtoeslag is een toeslag om mensen met een laag inkomen te helpen de zorgverzekeringspremie te betalen.",
+      "explanationEn": "Healthcare allowance (zorgtoeslag) is an allowance to help people with a low income pay their health insurance premium."
+    },
+    {
+      "id": "knm-a2-1-q35",
+      "text": "Wat is inkomstenbelasting?",
+      "options": ["Belasting op producten", "Belasting op je salaris en andere inkomsten", "Belasting op je huis", "Belasting op erfenissen"],
+      "correctIndex": 1,
+      "explanation": "Inkomstenbelasting is belasting die je betaalt over je salaris en andere inkomsten.",
+      "explanationEn": "Income tax is the tax you pay on your salary and other income."
+    },
+    {
+      "id": "knm-a2-1-q36",
+      "text": "Wat is een hypotheek?",
+      "options": ["Een huurcontract", "Een lening om een huis te kopen", "Een verzekering", "Een spaarrekening"],
+      "correctIndex": 1,
+      "explanation": "Een hypotheek is een lening van de bank om een huis te kunnen kopen.",
+      "explanationEn": "A mortgage is a loan from the bank to buy a house."
+    },
+    {
+      "id": "knm-a2-1-q37",
+      "text": "Wat is een verwijsbrief van de huisarts?",
+      "options": ["Een recept voor medicijnen", "Een brief waarmee je naar een specialist mag", "Een ziektebriefje", "Een rekening"],
+      "correctIndex": 1,
+      "explanation": "Met een verwijsbrief kun je naar een specialist in het ziekenhuis.",
+      "explanationEn": "With a referral letter, you can see a specialist at the hospital."
+    },
+    {
+      "id": "knm-a2-1-q38",
+      "text": "Wat is de Deltawerken?",
+      "options": ["Een vliegveld", "Een systeem van dammen en waterkeringen om Nederland te beschermen", "Een snelweg", "Een industriegebied"],
+      "correctIndex": 1,
+      "explanation": "De Deltawerken is een systeem van dammen en waterkeringen gebouwd na de watersnoodramp van 1953.",
+      "explanationEn": "The Delta Works is a system of dams and flood barriers built after the flood disaster of 1953."
+    },
+    {
+      "id": "knm-a2-1-q39",
+      "text": "Wat is een ouderavond op school?",
+      "options": ["Een feest voor ouders", "Een avond waarop ouders met leraren praten over hun kind", "Een avond waarop ouders les krijgen", "Een avond voor grootouders"],
+      "correctIndex": 1,
+      "explanation": "Op een ouderavond kunnen ouders met leraren praten over de voortgang van hun kind.",
+      "explanationEn": "At a parent-teacher evening, parents can talk with teachers about their child's progress."
+    },
+    {
+      "id": "knm-a2-1-q40",
+      "text": "Wat is integratie?",
+      "options": ["Terugkeren naar je eigen land", "Meedoen in de Nederlandse samenleving en de taal en cultuur leren", "Alleen met mensen uit je eigen land omgaan", "Je eigen cultuur vergeten"],
+      "correctIndex": 1,
+      "explanation": "Integratie betekent meedoen in de samenleving: de taal leren, werken en de Nederlandse normen en waarden respecteren.",
+      "explanationEn": "Integration means participating in society: learning the language, working, and respecting Dutch norms and values."
+    }
+  ]
+}

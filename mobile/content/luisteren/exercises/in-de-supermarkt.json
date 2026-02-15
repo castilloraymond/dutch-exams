@@ -1,0 +1,41 @@
+{
+  "id": "in-de-supermarkt",
+  "title": "In de Supermarkt",
+  "difficulty": "A1",
+  "audioFile": "/audio/luisteren/in-de-supermarkt.mp3",
+  "transcript": "Klant: Pardon, waar kan ik de rijst vinden? Medewerker: De rijst staat in gangpad 3, bij de pasta en noodles. Klant: Dank u wel. En heeft u ook sojasaus? Medewerker: Ja, die staat in hetzelfde gangpad, op de bovenste plank. Klant: Oké, en ik zoek ook eieren. Medewerker: De eieren staan bij de zuivel, in gangpad 7. Klant: En wat kosten de eieren? Medewerker: Een doosje van 10 eieren kost twee euro negentig. Klant: Prima, dan neem ik die ook. Ik zoek ook wasmiddel. Medewerker: Wasmiddel vindt u in gangpad 12, bij de schoonmaakproducten. Klant: Is er ook een aanbieding deze week? Medewerker: Ja, het wasmiddel van het huismerk is in de aanbieding: vier euro vijftig in plaats van zes euro. Klant: Dat is mooi, dank u wel!",
+  "questions": [
+    {
+      "id": "supermarkt-q1",
+      "text": "In welk gangpad staat de rijst?",
+      "options": ["Gangpad 1", "Gangpad 3", "Gangpad 7", "Gangpad 12"],
+      "correctIndex": 1,
+      "explanation": "De medewerker zegt: 'De rijst staat in gangpad 3.'",
+      "explanationEn": "The employee says: 'The rice is in aisle 3.'"
+    },
+    {
+      "id": "supermarkt-q2",
+      "text": "Hoeveel kosten 10 eieren?",
+      "options": ["Twee euro vijftig", "Twee euro negentig", "Drie euro", "Vier euro vijftig"],
+      "correctIndex": 1,
+      "explanation": "De medewerker zegt: 'Een doosje van 10 eieren kost twee euro negentig.'",
+      "explanationEn": "The employee says: 'A box of 10 eggs costs two euros ninety.'"
+    },
+    {
+      "id": "supermarkt-q3",
+      "text": "Waar staat de sojasaus?",
+      "options": ["In gangpad 7", "In gangpad 12", "In gangpad 3, op de bovenste plank", "Bij de kassa"],
+      "correctIndex": 2,
+      "explanation": "De medewerker zegt: 'die staat in hetzelfde gangpad (3), op de bovenste plank.'",
+      "explanationEn": "The employee says: 'it's in the same aisle (3), on the top shelf.'"
+    },
+    {
+      "id": "supermarkt-q4",
+      "text": "Hoeveel kost het wasmiddel in de aanbieding?",
+      "options": ["Twee euro negentig", "Vier euro vijftig", "Zes euro", "Zeven euro"],
+      "correctIndex": 1,
+      "explanation": "Het wasmiddel van het huismerk is in de aanbieding voor vier euro vijftig in plaats van zes euro.",
+      "explanationEn": "The store-brand laundry detergent is on sale for four euros fifty instead of six euros."
+    }
+  ]
+}

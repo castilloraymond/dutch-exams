@@ -1,0 +1,41 @@
+{
+  "id": "bij-het-uitzendbureau",
+  "title": "Bij het Uitzendbureau",
+  "difficulty": "A2",
+  "audioFile": "/audio/luisteren/bij-het-uitzendbureau.mp3",
+  "transcript": "Medewerker: Welkom bij Uitzendbureau FlexWerk. Wat kan ik voor u doen? Klant: Ik zoek werk. Ik ben nieuw in Nederland en ik wil graag werken. Medewerker: Dat is goed. Heeft u een werkvergunning? Klant: Ja, die heb ik. Hier is mijn verblijfsvergunning. Medewerker: Prima. Wat voor werk zoekt u? Klant: Ik heb ervaring als magazijnmedewerker. In mijn land heb ik vijf jaar in een magazijn gewerkt. Medewerker: Mooi. Wij hebben op dit moment vacatures bij een distributiecentrum in Hoofddorp. Het is van maandag tot en met vrijdag, van zes uur 's morgens tot half drie 's middags. Klant: Dat is goed. Hoeveel verdien ik per uur? Medewerker: Het uurloon is dertien euro vijfenzeventig bruto. U krijgt ook een reiskostenvergoeding van tien cent per kilometer. Klant: Wanneer kan ik beginnen? Medewerker: Als alles goed gaat, kunt u volgende week maandag beginnen. Ik heb wel uw BSN-nummer en een kopie van uw identiteitsbewijs nodig. Klant: Ik heb alles bij me.",
+  "questions": [
+    {
+      "id": "uitzendbureau-q1",
+      "text": "Wat voor werk zoekt de klant?",
+      "options": ["Schoonmaakwerk", "Magazijnwerk", "Kantoorwerk", "Horeca"],
+      "correctIndex": 1,
+      "explanation": "De klant zegt: 'Ik heb ervaring als magazijnmedewerker.'",
+      "explanationEn": "The customer says: 'I have experience as a warehouse worker.'"
+    },
+    {
+      "id": "uitzendbureau-q2",
+      "text": "Wat zijn de werktijden?",
+      "options": ["Van 8:00 tot 17:00", "Van 6:00 tot 14:30, maandag t/m vrijdag", "Van 7:00 tot 15:00", "Van 9:00 tot 18:00"],
+      "correctIndex": 1,
+      "explanation": "De medewerker zegt: 'van zes uur 's morgens tot half drie 's middags, maandag tot en met vrijdag.'",
+      "explanationEn": "The employee says: 'from six in the morning until half past two in the afternoon, Monday through Friday.'"
+    },
+    {
+      "id": "uitzendbureau-q3",
+      "text": "Hoeveel is het uurloon?",
+      "options": ["Twaalf euro vijftig", "Dertien euro vijfenzeventig", "Veertien euro", "Vijftien euro"],
+      "correctIndex": 1,
+      "explanation": "De medewerker zegt: 'Het uurloon is dertien euro vijfenzeventig bruto.'",
+      "explanationEn": "The employee says: 'The hourly wage is thirteen euros seventy-five gross.'"
+    },
+    {
+      "id": "uitzendbureau-q4",
+      "text": "Wat heeft de klant nodig om te beginnen?",
+      "options": ["Alleen een cv", "Zijn BSN-nummer en een kopie van zijn identiteitsbewijs", "Een diploma", "Een rijbewijs"],
+      "correctIndex": 1,
+      "explanation": "De medewerker zegt: 'Ik heb wel uw BSN-nummer en een kopie van uw identiteitsbewijs nodig.'",
+      "explanationEn": "The employee says: 'I do need your BSN number and a copy of your identity document.'"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-1",
+  "title": "Luisteren A2 - Oefenexamen 1",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-1-t1",
+      "title": "Op het gemeentehuis",
+      "transcript": "Medewerker: Goedemorgen, waarmee kan ik u helpen?\nBurger: Ik wil graag mijn paspoort vernieuwen.\nMedewerker: Heeft u een afspraak gemaakt?\nBurger: Ja, om half elf.\nMedewerker: Prima. Heeft u uw oude paspoort en een pasfoto bij u?\nBurger: Ja, hier zijn ze.\nMedewerker: Mooi. Een nieuw paspoort kost vijfenzeventig euro tachtig. Kunt u pinnen?\nBurger: Ja hoor. Wanneer is mijn paspoort klaar?\nMedewerker: Over vijf werkdagen. U krijgt een bericht.",
+      "questions": [
+        {
+          "id": "l-a2-1-q1",
+          "text": "Waarvoor komt de burger naar het gemeentehuis?",
+          "options": [
+            "Een rijbewijs aanvragen",
+            "Een paspoort vernieuwen",
+            "Zich inschrijven",
+            "Een parkeervergunning"
+          ],
+          "correctIndex": 1,
+          "explanation": "De burger zegt: 'Ik wil graag mijn paspoort vernieuwen.'"
+        },
+        {
+          "id": "l-a2-1-q2",
+          "text": "Hoe laat is de afspraak?",
+          "options": [
+            "Tien uur",
+            "Half elf",
+            "Elf uur",
+            "Half twaalf"
+          ],
+          "correctIndex": 1,
+          "explanation": "De burger heeft een afspraak om half elf."
+        },
+        {
+          "id": "l-a2-1-q3",
+          "text": "Hoeveel kost het nieuwe paspoort?",
+          "options": [
+            "€ 65,80",
+            "€ 70,80",
+            "€ 75,80",
+            "€ 85,80"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'Een nieuw paspoort kost vijfenzeventig euro tachtig.'"
+        },
+        {
+          "id": "l-a2-1-q4",
+          "text": "Wanneer is het paspoort klaar?",
+          "options": [
+            "Morgen",
+            "Over drie werkdagen",
+            "Over vijf werkdagen",
+            "Over twee weken"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het paspoort is klaar over vijf werkdagen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-1-t1.mp3"
+    },
+    {
+      "id": "l-a2-1-t2",
+      "title": "Bij de huisarts",
+      "transcript": "Dokter: Goedemiddag meneer Jansen. Wat kan ik voor u doen?\nMeneer Jansen: Dag dokter. Ik heb al een week hoofdpijn en ik voel me moe.\nDokter: Slaapt u goed?\nMeneer Jansen: Niet echt. Ik word vaak wakker.\nDokter: Heeft u stress op uw werk?\nMeneer Jansen: Ja, we hebben het erg druk op kantoor.\nDokter: Ik denk dat de hoofdpijn door stress en slaapgebrek komt. Probeer meer te rusten en minder koffie te drinken. Als het over twee weken niet beter is, komt u terug.\nMeneer Jansen: Oké, dank u wel.",
+      "questions": [
+        {
+          "id": "l-a2-1-q5",
+          "text": "Wat zijn de klachten van de patiënt?",
+          "options": [
+            "Keelpijn en koorts",
+            "Hoofdpijn en vermoeidheid",
+            "Buikpijn en misselijkheid",
+            "Rugpijn en duizeligheid"
+          ],
+          "correctIndex": 1,
+          "explanation": "De patiënt heeft hoofdpijn en voelt zich moe."
+        },
+        {
+          "id": "l-a2-1-q6",
+          "text": "Hoe lang heeft de patiënt al klachten?",
+          "options": [
+            "Drie dagen",
+            "Een week",
+            "Twee weken",
+            "Een maand"
+          ],
+          "correctIndex": 1,
+          "explanation": "De patiënt heeft al een week hoofdpijn."
+        },
+        {
+          "id": "l-a2-1-q7",
+          "text": "Wat denkt de dokter dat de oorzaak is?",
+          "options": [
+            "Een virus",
+            "Stress en slaapgebrek",
+            "Te weinig eten",
+            "Allergie"
+          ],
+          "correctIndex": 1,
+          "explanation": "De dokter denkt dat de klachten door stress en slaapgebrek komen."
+        },
+        {
+          "id": "l-a2-1-q8",
+          "text": "Wat adviseert de dokter?",
+          "options": [
+            "Medicijnen slikken",
+            "Naar het ziekenhuis gaan",
+            "Meer rusten en minder koffie",
+            "Thuis blijven van werk"
+          ],
+          "correctIndex": 2,
+          "explanation": "De dokter adviseert meer rusten en minder koffie drinken."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-1-t2.mp3"
+    },
+    {
+      "id": "l-a2-1-t3",
+      "title": "Telefoongesprek over werk",
+      "transcript": "Werkgever: Goedemorgen, u spreekt met De Groot van kantoor ABC.\nSollicitant: Goedemorgen, u spreekt met Lisa Smit. Ik bel over de vacature voor administratief medewerker.\nWerkgever: Ah ja, we hebben uw brief ontvangen. Kunt u volgende week dinsdag om twee uur komen voor een gesprek?\nSollicitant: Dinsdag om twee uur, dat lukt prima.\nWerkgever: Mooi. Neemt u een kopie van uw diploma's en CV mee.\nSollicitant: Dat zal ik doen. Tot dinsdag!\nWerkgever: Tot dan.",
+      "questions": [
+        {
+          "id": "l-a2-1-q9",
+          "text": "Waarover belt Lisa?",
+          "options": [
+            "Om haar baan op te zeggen",
+            "Over een vacature",
+            "Om een klacht in te dienen",
+            "Over haar salaris"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lisa belt over de vacature voor administratief medewerker."
+        },
+        {
+          "id": "l-a2-1-q10",
+          "text": "Wanneer is het sollicitatiegesprek?",
+          "options": [
+            "Maandag om twee uur",
+            "Dinsdag om twee uur",
+            "Woensdag om twee uur",
+            "Donderdag om twee uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het gesprek is volgende week dinsdag om twee uur."
+        },
+        {
+          "id": "l-a2-1-q11",
+          "text": "Wat moet Lisa meenemen?",
+          "options": [
+            "Alleen haar CV",
+            "Alleen haar diploma's",
+            "Haar diploma's en CV",
+            "Haar paspoort"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lisa moet een kopie van haar diploma's en CV meenemen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-1-t3.mp3"
+    },
+    {
+      "id": "l-a2-1-t4",
+      "title": "Bericht van de school",
+      "transcript": "Goedemiddag, dit is een bericht van basisschool De Regenboog. Vanwege een kapotte verwarming is de school morgen, woensdag zestien januari, gesloten. De kinderen hoeven niet naar school te komen. Op donderdag gaat de school weer gewoon open. We hopen dat de verwarming dan gerepareerd is. Als u vragen heeft, kunt u de school bellen op nul-twee-nul-vijf-vijf-vijf-twaalf-vierentwintig. Onze excuses voor het ongemak.",
+      "questions": [
+        {
+          "id": "l-a2-1-q12",
+          "text": "Waarom is de school morgen dicht?",
+          "options": [
+            "Vanwege een feestdag",
+            "Vanwege een kapotte verwarming",
+            "Vanwege een studiedag",
+            "Vanwege ziekte van leraren"
+          ],
+          "correctIndex": 1,
+          "explanation": "De school is dicht vanwege een kapotte verwarming."
+        },
+        {
+          "id": "l-a2-1-q13",
+          "text": "Op welke dag is de school gesloten?",
+          "options": [
+            "Dinsdag",
+            "Woensdag",
+            "Donderdag",
+            "Vrijdag"
+          ],
+          "correctIndex": 1,
+          "explanation": "De school is gesloten op woensdag zestien januari."
+        },
+        {
+          "id": "l-a2-1-q14",
+          "text": "Wanneer gaat de school weer open?",
+          "options": [
+            "Woensdag",
+            "Donderdag",
+            "Vrijdag",
+            "Volgende week"
+          ],
+          "correctIndex": 1,
+          "explanation": "Op donderdag gaat de school weer gewoon open."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-1-t4.mp3"
+    },
+    {
+      "id": "l-a2-1-t5",
+      "title": "In de winkel",
+      "transcript": "Verkoper: Goedemiddag, kan ik u helpen?\nKlant: Ja, ik zoek een winterjas. Maat M.\nVerkoper: Deze blauwe en deze zwarte hebben we in maat M.\nKlant: Kan ik de blauwe passen?\nVerkoper: Natuurlijk. De paskamers zijn achterin.\nKlant: Hmm, hij zit een beetje krap. Heeft u maat L?\nVerkoper: Ik zal even kijken. Ja, hier is de blauwe in maat L.\nKlant: Perfect! Deze past goed. Hoeveel kost hij?\nVerkoper: Negenentachtig euro vijfennegentig. Maar deze week hebben we twintig procent korting.\nKlant: Dan neem ik hem!",
+      "questions": [
+        {
+          "id": "l-a2-1-q15",
+          "text": "Wat zoekt de klant?",
+          "options": [
+            "Een trui",
+            "Een winterjas",
+            "Een broek",
+            "Schoenen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klant zoekt een winterjas."
+        },
+        {
+          "id": "l-a2-1-q16",
+          "text": "Welke kleur past de klant eerst?",
+          "options": [
+            "Rood",
+            "Zwart",
+            "Blauw",
+            "Grijs"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant past eerst de blauwe jas."
+        },
+        {
+          "id": "l-a2-1-q17",
+          "text": "Welke maat past uiteindelijk?",
+          "options": [
+            "Maat S",
+            "Maat M",
+            "Maat L",
+            "Maat XL"
+          ],
+          "correctIndex": 2,
+          "explanation": "Maat L past goed."
+        },
+        {
+          "id": "l-a2-1-q18",
+          "text": "Wat is de normale prijs van de jas?",
+          "options": [
+            "€ 79,95",
+            "€ 89,95",
+            "€ 99,95",
+            "€ 109,95"
+          ],
+          "correctIndex": 1,
+          "explanation": "De jas kost negenentachtig euro vijfennegentig."
+        },
+        {
+          "id": "l-a2-1-q19",
+          "text": "Hoeveel korting is er?",
+          "options": [
+            "Tien procent",
+            "Vijftien procent",
+            "Twintig procent",
+            "Dertig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "Er is twintig procent korting."
+        },
+        {
+          "id": "l-a2-1-q20",
+          "text": "Koopt de klant de jas?",
+          "options": [
+            "Nee, te duur",
+            "Nee, past niet",
+            "Ja",
+            "Misschien later"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant zegt: 'Dan neem ik hem!'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-1-t5.mp3"
+    }
+  ]
+}

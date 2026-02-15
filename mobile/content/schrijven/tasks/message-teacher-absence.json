@@ -1,0 +1,49 @@
+{
+  "id": "message-teacher-absence",
+  "title": "Bericht aan docent",
+  "titleEn": "Message to Teacher",
+  "difficulty": "A2",
+  "taskType": "free-text",
+  "scenario": "U kunt volgende week niet naar de taalles komen, omdat u een afspraak heeft bij de gemeente voor uw verblijfsvergunning.",
+  "scenarioEn": "You cannot attend language class next week because you have an appointment at the municipality for your residence permit.",
+  "prompt": "Schrijf een bericht aan uw docent. Vertel dat u niet naar de les kunt komen. Leg uit waarom. Vraag of u het huiswerk via e-mail kunt krijgen.",
+  "promptEn": "Write a message to your teacher. Tell them you cannot come to class. Explain why. Ask if you can receive homework via email.",
+  "wordRange": {
+    "min": 40,
+    "max": 80
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used an appropriate greeting (e.g., Beste mevrouw/meneer)",
+      "textEn": "I used an appropriate greeting (e.g., Beste mevrouw/meneer)"
+    },
+    {
+      "id": "absence",
+      "text": "I mentioned that I cannot come to class",
+      "textEn": "I mentioned that I cannot come to class"
+    },
+    {
+      "id": "reason",
+      "text": "I explained the reason for my absence",
+      "textEn": "I explained the reason for my absence"
+    },
+    {
+      "id": "homework-request",
+      "text": "I asked about receiving homework",
+      "textEn": "I asked about receiving homework"
+    },
+    {
+      "id": "closing",
+      "text": "I used an appropriate closing",
+      "textEn": "I used an appropriate closing"
+    }
+  ],
+  "modelAnswer": "Beste mevrouw Jansen,\n\nIk wil u laten weten dat ik volgende week dinsdag niet naar de les kan komen. Ik heb een afspraak bij de gemeente voor mijn verblijfsvergunning. Ik kan die afspraak niet verzetten.\n\nKunt u mij het huiswerk via e-mail sturen? Dan kan ik thuis oefenen.\n\nMet vriendelijke groet,\nMohammed Al-Rashid",
+  "tips": [
+    "When writing to a teacher, use formal language (u, Geachte/Beste).",
+    "Give a clear reason for your absence - the teacher needs to know why.",
+    "Asking for homework shows you are motivated to keep learning."
+  ],
+  "isFreePreview": false
+}

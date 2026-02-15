@@ -1,0 +1,87 @@
+{
+  "id": "a1-part1-family",
+  "partNumber": 1,
+  "partTitle": "Personal Questions",
+  "partTitleNl": "Persoonlijke Vragen",
+  "title": "Family",
+  "titleNl": "Familie",
+  "difficulty": "A1",
+  "personStatement": "I am Anna. I want to get to know you.",
+  "personStatementNl": "Ik ben Anna. Ik wil je leren kennen.",
+  "questionNl": "Hoe heet je? Heb je broers of zussen?",
+  "questionEn": "What is your name? Do you have brothers or sisters?",
+  "recommendedDuration": 20,
+  "softLimitWarning": 15,
+  "selfAssessmentCriteria": [
+    {
+      "id": "answered-question",
+      "text": "I answered the question",
+      "textEn": "I answered the question"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and slowly",
+      "textEn": "I spoke clearly and slowly"
+    },
+    {
+      "id": "simple-sentences",
+      "text": "I used simple sentences",
+      "textEn": "I used simple sentences"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "My name is Maria. I have one brother and two sisters. My brother lives in Amsterdam.",
+    "transcriptNl": "Ik heet Maria. Ik heb een broer en twee zussen. Mijn broer woont in Amsterdam.",
+    "audioFile": "/audio/spreken/model-answers/a1-part1-family.mp3"
+  },
+  "tips": [
+    "Answer the question with short, simple sentences.",
+    "You can say numbers and names of places you know.",
+    "It is okay to speak slowly - take your time."
+  ],
+  "isFreePreview": true,
+  "questions": [
+    {
+      "id": "a1-part1-family-q1",
+      "questionNl": "Hoe heet je? Heb je broers of zussen?",
+      "questionEn": "What is your name? Do you have brothers or sisters?",
+      "personStatement": "I am Anna. I want to get to know you.",
+      "personStatementNl": "Ik ben Anna. Ik wil je leren kennen.",
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "My name is Maria. I have one brother and two sisters. My brother lives in Amsterdam.",
+        "transcriptNl": "Ik heet Maria. Ik heb een broer en twee zussen. Mijn broer woont in Amsterdam."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "a1-part1-family-q2",
+      "questionNl": "Waar wonen je ouders? Wonen ze dichtbij?",
+      "questionEn": "Where do your parents live? Do they live nearby?",
+      "personStatement": "My parents live in Rotterdam.",
+      "personStatementNl": "Mijn ouders wonen in Rotterdam.",
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "My parents live in Turkey. They do not live nearby. I call them every week.",
+        "transcriptNl": "Mijn ouders wonen in Turkije. Ze wonen niet dichtbij. Ik bel ze elke week."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "a1-part1-family-q3",
+      "questionNl": "Heb je kinderen? Hoe oud zijn ze?",
+      "questionEn": "Do you have children? How old are they?",
+      "personStatement": "I have two children. They are 5 and 8 years old.",
+      "personStatementNl": "Ik heb twee kinderen. Ze zijn 5 en 8 jaar oud.",
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "Yes, I have one son. He is 6 years old. He goes to school.",
+        "transcriptNl": "Ja, ik heb een zoon. Hij is 6 jaar oud. Hij gaat naar school."
+      },
+      "sequencingWordsRequired": false
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "module": "Schrijven",
+  "description": "Writing Practice",
+  "tasks": [
+    {
+      "id": "email-school-sick",
+      "title": "Email aan school",
+      "titleEn": "Email to School",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": true
+    },
+    {
+      "id": "message-landlord-repair",
+      "title": "Bericht aan verhuurder",
+      "titleEn": "Message to Landlord",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": true
+    },
+    {
+      "id": "form-course-registration",
+      "title": "Cursus inschrijving",
+      "titleEn": "Course Registration",
+      "difficulty": "A1",
+      "taskType": "form",
+      "isFreePreview": true
+    },
+    {
+      "id": "reply-colleague-shift",
+      "title": "Antwoord aan collega",
+      "titleEn": "Reply to Colleague",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": true
+    },
+    {
+      "id": "form-gp-registration",
+      "title": "Inschrijving huisarts",
+      "titleEn": "GP Registration",
+      "difficulty": "A1",
+      "taskType": "form",
+      "isFreePreview": false
+    },
+    {
+      "id": "note-neighbor",
+      "title": "Briefje aan buurman",
+      "titleEn": "Note to Neighbor",
+      "difficulty": "A1",
+      "taskType": "free-text",
+      "isFreePreview": false
+    },
+    {
+      "id": "complaint-webshop",
+      "title": "Klacht schrijven",
+      "titleEn": "Write a Complaint",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": false
+    },
+    {
+      "id": "message-teacher-absence",
+      "title": "Bericht aan docent",
+      "titleEn": "Message to Teacher",
+      "difficulty": "A2",
+      "taskType": "free-text",
+      "isFreePreview": false
+    }
+  ]
+}

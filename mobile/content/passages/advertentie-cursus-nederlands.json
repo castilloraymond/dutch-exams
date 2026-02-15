@@ -1,0 +1,50 @@
+{
+  "id": "advertentie-cursus-nederlands",
+  "title": "Advertentie: Cursus Nederlands",
+  "contentType": "notice",
+  "instruction": "U ziet een advertentie voor een cursus.\nLees eerst de vraag.\nLees daarna de advertentie.",
+  "difficulty": "A2",
+  "content": "CURSUS NEDERLANDS VOOR BEGINNERS\n\nWilt u beter Nederlands leren? Kom naar onze cursus!\n\nWat bieden wij?\n- Lessen voor niveau A1 en A2\n- Kleine groepen (maximaal 10 personen)\n- Ervaren docenten\n- Cursusboek inbegrepen\n\nWanneer?\nDinsdag en donderdag van 19:00 tot 21:00 uur\nStart: maandag 5 februari 2024\n\nWaar?\nBuurthuis De Ontmoeting\nKerkstraat 15, Amsterdam\n\nKosten: € 150,- voor 10 weken (20 lessen)\n\nInschrijven?\nStuur een e-mail naar info@cursus-nederlands.nl\nof bel 020-1234567\n\nWe hebben nog maar 5 plaatsen vrij!\nSchrijf u snel in!",
+  "questions": [
+    {
+      "id": "adv-q1",
+      "text": "Voor wie is deze cursus bedoeld?",
+      "options": ["Voor gevorderden", "Voor beginners", "Voor kinderen", "Voor docenten"],
+      "correctIndex": 1,
+      "explanation": "De titel zegt: 'Cursus Nederlands voor beginners.'",
+      "explanationEn": "The title says: 'Dutch course for beginners.'"
+    },
+    {
+      "id": "adv-q2",
+      "text": "Hoeveel mensen kunnen maximaal in een groep?",
+      "options": ["5 personen", "8 personen", "10 personen", "15 personen"],
+      "correctIndex": 2,
+      "explanation": "De advertentie zegt: 'Kleine groepen (maximaal 10 personen).'",
+      "explanationEn": "The advertisement says: 'Small groups (maximum 10 people).'"
+    },
+    {
+      "id": "adv-q3",
+      "text": "Op welke dagen is de cursus?",
+      "options": ["Maandag en woensdag", "Dinsdag en donderdag", "Woensdag en vrijdag", "Zaterdag en zondag"],
+      "correctIndex": 1,
+      "explanation": "De cursus is op dinsdag en donderdag.",
+      "explanationEn": "The course is on Tuesday and Thursday."
+    },
+    {
+      "id": "adv-q4",
+      "text": "Hoeveel kost de cursus?",
+      "options": ["€ 100,-", "€ 125,-", "€ 150,-", "€ 200,-"],
+      "correctIndex": 2,
+      "explanation": "De kosten zijn € 150,- voor 10 weken.",
+      "explanationEn": "The cost is €150 for 10 weeks."
+    },
+    {
+      "id": "adv-q5",
+      "text": "Hoeveel plaatsen zijn er nog vrij?",
+      "options": ["3 plaatsen", "5 plaatsen", "8 plaatsen", "10 plaatsen"],
+      "correctIndex": 1,
+      "explanation": "De advertentie zegt: 'We hebben nog maar 5 plaatsen vrij!'",
+      "explanationEn": "The advertisement says: 'We only have 5 spots left!'"
+    }
+  ]
+}

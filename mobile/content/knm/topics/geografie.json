@@ -1,0 +1,198 @@
+{
+  "id": "geografie",
+  "title": "Geografie",
+  "questions": [
+    {
+      "id": "geo-q1",
+      "text": "Hoeveel provincies heeft Nederland?",
+      "options": ["10", "12", "14", "16"],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft 12 provincies: Groningen, Friesland, Drenthe, Overijssel, Flevoland, Gelderland, Utrecht, Noord-Holland, Zuid-Holland, Zeeland, Noord-Brabant en Limburg.",
+      "explanationEn": "The Netherlands has 12 provinces: Groningen, Friesland, Drenthe, Overijssel, Flevoland, Gelderland, Utrecht, North Holland, South Holland, Zeeland, North Brabant, and Limburg."
+    },
+    {
+      "id": "geo-q2",
+      "text": "Wat is de hoofdstad van Nederland?",
+      "options": ["Den Haag", "Amsterdam", "Rotterdam", "Utrecht"],
+      "correctIndex": 1,
+      "explanation": "Amsterdam is de hoofdstad van Nederland. De regering en het parlement zetelen echter in Den Haag.",
+      "explanationEn": "Amsterdam is the capital of the Netherlands. However, the government and parliament are located in The Hague."
+    },
+    {
+      "id": "geo-q3",
+      "text": "Welke grote rivieren stromen door Nederland?",
+      "options": ["Donau en Elbe", "Rijn, Maas en Schelde", "Seine en Loire", "Theems en Rijn"],
+      "correctIndex": 1,
+      "explanation": "De Rijn, Maas en Schelde zijn de belangrijkste rivieren van Nederland. Ze monden uit in de Noordzee.",
+      "explanationEn": "The Rhine, Meuse, and Scheldt are the most important rivers of the Netherlands. They flow into the North Sea."
+    },
+    {
+      "id": "geo-q4",
+      "text": "Wat zijn de Waddeneilanden?",
+      "options": ["Eilanden in de Caribische Zee", "Een groep eilanden in het noorden van Nederland", "Kunstmatige eilanden bij Rotterdam", "Eilanden in het IJsselmeer"],
+      "correctIndex": 1,
+      "explanation": "De Waddeneilanden liggen in het noorden van Nederland: Texel, Vlieland, Terschelling, Ameland en Schiermonnikoog.",
+      "explanationEn": "The Wadden Islands are located in the north of the Netherlands: Texel, Vlieland, Terschelling, Ameland, and Schiermonnikoog."
+    },
+    {
+      "id": "geo-q5",
+      "text": "Wat is het IJsselmeer?",
+      "options": ["Een rivier", "Een groot meer dat ontstaan is door de afsluiting van de Zuiderzee", "Een kanaal", "Een deel van de Noordzee"],
+      "correctIndex": 1,
+      "explanation": "Het IJsselmeer is het grootste meer van Nederland, ontstaan door de bouw van de Afsluitdijk in 1932.",
+      "explanationEn": "The IJsselmeer is the largest lake in the Netherlands, created by the construction of the Afsluitdijk (Enclosure Dam) in 1932."
+    },
+    {
+      "id": "geo-q6",
+      "text": "Welke landen grenzen aan Nederland?",
+      "options": ["België en Frankrijk", "Duitsland en België", "Duitsland en Denemarken", "België, Duitsland en Luxemburg"],
+      "correctIndex": 1,
+      "explanation": "Nederland grenst aan Duitsland (in het oosten) en België (in het zuiden).",
+      "explanationEn": "The Netherlands borders Germany (to the east) and Belgium (to the south)."
+    },
+    {
+      "id": "geo-q7",
+      "text": "Wat is de Randstad?",
+      "options": ["Een snelweg", "Het dichtbevolkte stedelijke gebied met Amsterdam, Rotterdam, Den Haag en Utrecht", "Een provincie", "Een eiland"],
+      "correctIndex": 1,
+      "explanation": "De Randstad is het verstedelijkte gebied in het westen van Nederland met de vier grote steden: Amsterdam, Rotterdam, Den Haag en Utrecht.",
+      "explanationEn": "The Randstad is the urbanized area in the west of the Netherlands with the four major cities: Amsterdam, Rotterdam, The Hague, and Utrecht."
+    },
+    {
+      "id": "geo-q8",
+      "text": "Waarom is de haven van Rotterdam belangrijk?",
+      "options": ["Het is de oudste haven van Europa", "Het is een van de grootste havens van Europa", "Het is de enige haven van Nederland", "Het is een militaire haven"],
+      "correctIndex": 1,
+      "explanation": "De haven van Rotterdam is een van de grootste havens van Europa en een belangrijk knooppunt voor de internationale handel.",
+      "explanationEn": "The Port of Rotterdam is one of the largest ports in Europe and an important hub for international trade."
+    },
+    {
+      "id": "geo-q9",
+      "text": "Wat is Schiphol?",
+      "options": ["Een stad", "De grootste luchthaven van Nederland", "Een haven", "Een provincie"],
+      "correctIndex": 1,
+      "explanation": "Schiphol (bij Amsterdam) is de grootste luchthaven van Nederland en een van de drukste van Europa.",
+      "explanationEn": "Schiphol (near Amsterdam) is the largest airport in the Netherlands and one of the busiest in Europe."
+    },
+    {
+      "id": "geo-q10",
+      "text": "Wat zijn dijken?",
+      "options": ["Bruggen over rivieren", "Verhoogde grondwallen die het land beschermen tegen water", "Ondergrondse tunnels", "Kanalen voor scheepvaart"],
+      "correctIndex": 1,
+      "explanation": "Dijken zijn verhoogde grondwallen die Nederland beschermen tegen overstromingen. Zonder dijken zou een groot deel van Nederland onder water staan.",
+      "explanationEn": "Dikes are raised embankments that protect the Netherlands from flooding. Without dikes, a large part of the Netherlands would be underwater."
+    },
+    {
+      "id": "geo-q11",
+      "text": "Welk deel van Nederland ligt onder zeeniveau?",
+      "options": ["Niets", "Ongeveer een kwart", "Ongeveer de helft", "Alles"],
+      "correctIndex": 1,
+      "explanation": "Ongeveer 26% van Nederland ligt onder zeeniveau. Zonder dijken en waterkeringen zou dit gebied overstromen.",
+      "explanationEn": "About 26% of the Netherlands lies below sea level. Without dikes and flood barriers, this area would flood."
+    },
+    {
+      "id": "geo-q12",
+      "text": "Hoe is het klimaat in Nederland?",
+      "options": ["Tropisch", "Gematigd zeeklimaat met milde winters en koele zomers", "Continentaal met strenge winters", "Mediterraan met hete zomers"],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft een gematigd zeeklimaat: milde winters, koele zomers en veel regen verspreid over het hele jaar.",
+      "explanationEn": "The Netherlands has a temperate maritime climate: mild winters, cool summers, and plenty of rain spread throughout the year."
+    },
+    {
+      "id": "geo-q13",
+      "text": "Wat is de Afsluitdijk?",
+      "options": ["Een brug", "Een dijk die de Noordzee scheidt van het IJsselmeer", "Een tunnel", "Een kanaal"],
+      "correctIndex": 1,
+      "explanation": "De Afsluitdijk is 32 km lang en scheidt de Noordzee (Waddenzee) van het IJsselmeer. Hij werd gebouwd in 1932.",
+      "explanationEn": "The Afsluitdijk is 32 km long and separates the North Sea (Wadden Sea) from the IJsselmeer. It was built in 1932."
+    },
+    {
+      "id": "geo-q14",
+      "text": "Hoeveel inwoners heeft Nederland ongeveer?",
+      "options": ["10 miljoen", "14 miljoen", "Ongeveer 17,5 miljoen", "22 miljoen"],
+      "correctIndex": 2,
+      "explanation": "Nederland heeft ongeveer 17,5 miljoen inwoners. Het is een van de dichtstbevolkte landen van Europa.",
+      "explanationEn": "The Netherlands has approximately 17.5 million inhabitants. It is one of the most densely populated countries in Europe."
+    },
+    {
+      "id": "geo-q15",
+      "text": "Welke stad is de regeringszetel van Nederland?",
+      "options": ["Amsterdam", "Den Haag", "Rotterdam", "Utrecht"],
+      "correctIndex": 1,
+      "explanation": "Den Haag is de regeringszetel: de regering, het parlement, de Raad van State en alle ambassades zitten daar. Amsterdam is de hoofdstad.",
+      "explanationEn": "The Hague is the seat of government: the government, parliament, the Council of State, and all embassies are located there. Amsterdam is the capital."
+    },
+    {
+      "id": "geo-q16",
+      "text": "Wat is Flevoland?",
+      "options": ["De oudste provincie", "De jongste provincie, grotendeels aangelegd op drooggelegde grond", "Een eiland", "Een stad in Noord-Holland"],
+      "correctIndex": 1,
+      "explanation": "Flevoland is de jongste provincie van Nederland. Het land is drooggelegd uit het IJsselmeer in de 20e eeuw. Almere en Lelystad zijn de grootste steden.",
+      "explanationEn": "Flevoland is the youngest province of the Netherlands. The land was reclaimed from the IJsselmeer in the 20th century. Almere and Lelystad are the largest cities."
+    },
+    {
+      "id": "geo-q17",
+      "text": "Wat is de Noordzee?",
+      "options": ["Een meer in Nederland", "De zee aan de westkant van Nederland", "Een rivier", "Een kanaal"],
+      "correctIndex": 1,
+      "explanation": "De Noordzee ligt aan de westkant van Nederland. Het is belangrijk voor visserij, scheepvaart en energie (windparken, olie- en gaswinning).",
+      "explanationEn": "The North Sea is located on the west side of the Netherlands. It is important for fishing, shipping, and energy (wind farms, oil and gas extraction)."
+    },
+    {
+      "id": "geo-q18",
+      "text": "Wat zijn de vier grote steden (G4) van Nederland?",
+      "options": ["Amsterdam, Eindhoven, Groningen, Maastricht", "Amsterdam, Rotterdam, Den Haag en Utrecht", "Amsterdam, Haarlem, Leiden, Delft", "Rotterdam, Breda, Tilburg, Arnhem"],
+      "correctIndex": 1,
+      "explanation": "De vier grote steden (G4) zijn Amsterdam, Rotterdam, Den Haag en Utrecht. Samen vormen ze het hart van de Randstad.",
+      "explanationEn": "The four major cities (G4) are Amsterdam, Rotterdam, The Hague, and Utrecht. Together they form the heart of the Randstad."
+    },
+    {
+      "id": "geo-q19",
+      "text": "Wat is bijzonder aan het landschap van Limburg?",
+      "options": ["Het is heel vlak", "Het is de enige provincie met heuvels", "Het heeft de meeste meren", "Het heeft de langste kustlijn"],
+      "correctIndex": 1,
+      "explanation": "Limburg is de enige provincie met heuvels. De Vaalserberg (322,4 meter) in Zuid-Limburg is het hoogste punt van Europees Nederland.",
+      "explanationEn": "Limburg is the only province with hills. The Vaalserberg (322.4 meters) in South Limburg is the highest point of European Netherlands."
+    },
+    {
+      "id": "geo-q20",
+      "text": "Welke taal wordt naast Nederlands officieel gesproken in Friesland?",
+      "options": ["Duits", "Fries", "Engels", "Limburgs"],
+      "correctIndex": 1,
+      "explanation": "Fries is de tweede officiële taal van Nederland. Het wordt gesproken in de provincie Friesland en is erkend als eigen taal.",
+      "explanationEn": "Frisian is the second official language of the Netherlands. It is spoken in the province of Friesland and is recognized as its own language."
+    },
+    {
+      "id": "geo-q21",
+      "text": "Wat zijn de BES-eilanden?",
+      "options": ["Eilanden bij Friesland", "Bonaire, Sint Eustatius en Saba, bijzondere gemeenten van Nederland in de Caribische Zee", "Eilanden in het IJsselmeer", "Eilanden bij Zeeland"],
+      "correctIndex": 1,
+      "explanation": "De BES-eilanden (Bonaire, Sint Eustatius en Saba) zijn bijzondere gemeenten van Nederland in de Caribische Zee.",
+      "explanationEn": "The BES islands (Bonaire, Sint Eustatius, and Saba) are special municipalities of the Netherlands in the Caribbean Sea."
+    },
+    {
+      "id": "geo-q22",
+      "text": "Waarom is Nederland zo vlak?",
+      "options": ["Door vulkanische activiteit", "Doordat het land grotendeels is gevormd door rivierafzettingen en zeebodem", "Door aardbevingen", "Door ontbossing"],
+      "correctIndex": 1,
+      "explanation": "Nederland is vlak omdat het land grotendeels gevormd is door sediment (zand, klei) van rivieren en de zee. Veel land is drooggelegd.",
+      "explanationEn": "The Netherlands is flat because the land was largely formed by sediment (sand, clay) from rivers and the sea. Much of the land has been reclaimed."
+    },
+    {
+      "id": "geo-q23",
+      "text": "Wat is het Groene Hart?",
+      "options": ["Een park in Amsterdam", "Het relatief open en landelijke gebied midden in de Randstad", "Een bos in Gelderland", "Een eiland"],
+      "correctIndex": 1,
+      "explanation": "Het Groene Hart is het open, landelijke gebied midden in de Randstad. Het wordt beschermd om te voorkomen dat de steden aan elkaar groeien.",
+      "explanationEn": "The Green Heart is the open, rural area in the middle of the Randstad. It is protected to prevent the cities from merging together."
+    },
+    {
+      "id": "geo-q24",
+      "text": "Wat is Deltawerken?",
+      "options": ["Een kunstproject", "Een systeem van dammen, sluizen en stormvloedkeringen in Zeeland en Zuid-Holland", "Een snelwegnet", "Een spoorwegennet"],
+      "correctIndex": 1,
+      "explanation": "De Deltawerken beschermen het zuidwesten van Nederland tegen overstromingen. De Oosterscheldekering is het bekendst en is een van de moderne wereldwonderen.",
+      "explanationEn": "The Delta Works protect the southwest of the Netherlands from flooding. The Oosterscheldekering (Eastern Scheldt Barrier) is the most famous and is one of the modern wonders of the world."
+    }
+  ]
+}

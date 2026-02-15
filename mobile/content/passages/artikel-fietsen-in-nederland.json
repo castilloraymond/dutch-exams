@@ -1,0 +1,50 @@
+{
+  "id": "artikel-fietsen-in-nederland",
+  "title": "Fietsen in Nederland",
+  "contentType": "text",
+  "instruction": "U leest een artikel over fietsen.\nLees eerst de vraag.\nLees daarna het artikel.",
+  "difficulty": "A2",
+  "content": "Fietsen in Nederland\n\nNederland is het land van de fietsen. Er zijn meer fietsen dan mensen: ongeveer 23 miljoen fietsen voor 17 miljoen inwoners. Bijna iedereen heeft een fiets, soms zelfs twee of drie.\n\nWaarom fietsen Nederlanders zo veel? Ten eerste is het land heel vlak. Er zijn bijna geen bergen of heuvels. Ten tweede heeft Nederland heel veel fietspaden. In totaal is er meer dan 35.000 kilometer aan fietspaden. Ten derde is fietsen goedkoop en gezond.\n\nDe meeste mensen fietsen naar hun werk of school. In grote steden zoals Amsterdam en Utrecht ziet je duizenden fietsers elke dag. Er zijn speciale parkeerplaatsen voor fietsen, vaak bij treinstations.\n\nAls je in Nederland woont, is het verstandig om een goede fiets te kopen. Vergeet niet om een goed slot te kopen, want fietsdiefstal komt veel voor. Draag ook reflecterende kleding of gebruik fietslichten als het donker is. Zo blijf je veilig op de weg.",
+  "questions": [
+    {
+      "id": "fiets-q1",
+      "text": "Hoeveel fietsen zijn er ongeveer in Nederland?",
+      "options": ["17 miljoen", "20 miljoen", "23 miljoen", "30 miljoen"],
+      "correctIndex": 2,
+      "explanation": "De tekst zegt: 'Er zijn meer fietsen dan mensen: ongeveer 23 miljoen fietsen.'",
+      "explanationEn": "The text says: 'There are more bicycles than people: approximately 23 million bicycles.'"
+    },
+    {
+      "id": "fiets-q2",
+      "text": "Waarom fietsen Nederlanders zo veel?",
+      "options": ["Omdat auto's verboden zijn", "Omdat het land vlak is", "Omdat fietsen verplicht is", "Omdat er geen treinen zijn"],
+      "correctIndex": 1,
+      "explanation": "Een reden is dat het land heel vlak is.",
+      "explanationEn": "One reason is that the country is very flat."
+    },
+    {
+      "id": "fiets-q3",
+      "text": "Hoeveel kilometer aan fietspaden heeft Nederland?",
+      "options": ["15.000 km", "25.000 km", "35.000 km", "45.000 km"],
+      "correctIndex": 2,
+      "explanation": "De tekst zegt: 'In totaal is er meer dan 35.000 kilometer aan fietspaden.'",
+      "explanationEn": "The text says: 'In total there is more than 35,000 kilometers of bicycle paths.'"
+    },
+    {
+      "id": "fiets-q4",
+      "text": "Waar zijn vaak speciale parkeerplaatsen voor fietsen?",
+      "options": ["Bij winkels", "Bij treinstations", "Bij scholen", "Bij ziekenhuizen"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'Er zijn speciale parkeerplaatsen voor fietsen, vaak bij treinstations.'",
+      "explanationEn": "The text says: 'There are special parking spots for bicycles, often at train stations.'"
+    },
+    {
+      "id": "fiets-q5",
+      "text": "Waarom moet je een goed slot kopen?",
+      "options": ["Omdat dat verplicht is", "Omdat fietsdiefstal veel voorkomt", "Omdat de politie controleert", "Omdat het goedkoper is"],
+      "correctIndex": 1,
+      "explanation": "De tekst zegt: 'Vergeet niet om een goed slot te kopen, want fietsdiefstal komt veel voor.'",
+      "explanationEn": "The text says: 'Don't forget to buy a good lock, because bicycle theft is very common.'"
+    }
+  ]
+}

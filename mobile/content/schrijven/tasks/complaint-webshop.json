@@ -1,0 +1,49 @@
+{
+  "id": "complaint-webshop",
+  "title": "Klacht schrijven",
+  "titleEn": "Write a Complaint",
+  "difficulty": "A2",
+  "taskType": "free-text",
+  "scenario": "U heeft een jas besteld bij een webshop, maar u heeft de verkeerde maat ontvangen. U wilt klagen en vragen om een omruiling.",
+  "scenarioEn": "You ordered a jacket from an online shop, but received the wrong size. You want to complain and ask for an exchange.",
+  "prompt": "Schrijf een e-mail aan de klantenservice van de webshop. Leg het probleem uit: u heeft een jas besteld in maat M, maar u heeft maat XL ontvangen. Vraag om een omruiling. Geef ook uw bestelnummer op.",
+  "promptEn": "Write an email to the webshop customer service. Explain the problem: you ordered a jacket in size M, but received size XL. Ask for an exchange. Include your order number.",
+  "wordRange": {
+    "min": 50,
+    "max": 100
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used a formal greeting (e.g., Geachte klantenservice)",
+      "textEn": "I used a formal greeting (e.g., Geachte klantenservice)"
+    },
+    {
+      "id": "problem",
+      "text": "I clearly described the problem (wrong size received)",
+      "textEn": "I clearly described the problem (wrong size received)"
+    },
+    {
+      "id": "order-number",
+      "text": "I included an order number",
+      "textEn": "I included an order number"
+    },
+    {
+      "id": "request",
+      "text": "I asked for an exchange or solution",
+      "textEn": "I asked for an exchange or solution"
+    },
+    {
+      "id": "closing",
+      "text": "I used a formal closing (e.g., Met vriendelijke groet)",
+      "textEn": "I used a formal closing (e.g., Met vriendelijke groet)"
+    }
+  ],
+  "modelAnswer": "Geachte klantenservice,\n\nOp 10 januari heb ik een jas besteld in maat M. Mijn bestelnummer is 2024-78542. Ik heb de jas ontvangen, maar de maat is niet goed. Ik heb maat XL gekregen in plaats van maat M.\n\nKunt u de jas omruilen voor de juiste maat? Ik stuur de verkeerde jas graag terug.\n\nMet vriendelijke groet,\nSara Ahmadi",
+  "tips": [
+    "Use formal language when writing to a company or customer service.",
+    "Be clear about what went wrong and what you want them to do.",
+    "Include order details so they can find your order quickly."
+  ],
+  "isFreePreview": false
+}

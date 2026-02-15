@@ -1,0 +1,198 @@
+{
+  "id": "part1-homework",
+  "partNumber": 1,
+  "partTitle": "Personal Questions",
+  "partTitleNl": "Persoonlijke Vragen",
+  "title": "Homework Habits",
+  "titleNl": "Huiswerkgewoonten",
+  "difficulty": "A2",
+  "personStatement": "I like to do homework in my bedroom.",
+  "personStatementNl": "Ik maak graag huiswerk in mijn slaapkamer.",
+  "questionNl": "Waar maak jij graag huiswerk? Vertel ook waarom.",
+  "questionEn": "Where do you like to do homework? Also explain why.",
+  "questionParts": [
+    "Where do you like to do homework?",
+    "Why do you like that place?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "both-parts",
+      "text": "I answered both parts of the question (where AND why)",
+      "textEn": "I answered both parts of the question (where AND why)"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "vocabulary",
+      "text": "I used appropriate vocabulary",
+      "textEn": "I used appropriate vocabulary"
+    },
+    {
+      "id": "complete-sentences",
+      "text": "I used complete sentences",
+      "textEn": "I used complete sentences"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I like to do homework in the living room. It is quiet there and there is a lot of light. I can concentrate well there.",
+    "transcriptNl": "Ik maak graag huiswerk in de woonkamer. Het is daar rustig en er is veel licht. Ik kan me daar goed concentreren.",
+    "audioFile": "/audio/spreken/model-answers/part1-homework.mp3"
+  },
+  "tips": [
+    "Always answer BOTH parts of the question - this is essential for scoring.",
+    "Start with a direct answer, then give your reason.",
+    "Keep your answer simple and clear - complex vocabulary doesn't give extra points."
+  ],
+  "isFreePreview": true,
+  "questions": [
+    {
+      "id": "part1-homework-q1",
+      "questionNl": "Waar maak jij graag huiswerk? Vertel ook waarom.",
+      "questionEn": "Where do you like to do homework? Also explain why.",
+      "questionParts": [
+        "Where do you like to do homework?",
+        "Why do you like that place?"
+      ],
+      "personStatement": "I like to do homework in my bedroom.",
+      "personStatementNl": "Ik maak graag huiswerk in mijn slaapkamer.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I like to do homework in the living room. It is quiet there and there is a lot of light. I can concentrate well there.",
+        "transcriptNl": "Ik maak graag huiswerk in de woonkamer. Het is daar rustig en er is veel licht. Ik kan me daar goed concentreren."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q2",
+      "questionNl": "Wat doe jij in het weekend? Vertel ook met wie.",
+      "questionEn": "What do you do on the weekend? Also tell with whom.",
+      "questionParts": [
+        "What do you do on the weekend?",
+        "Who do you do it with?"
+      ],
+      "personStatement": "I go to the market on Saturday with my family.",
+      "personStatementNl": "Ik ga op zaterdag naar de markt met mijn familie.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "On the weekend I go to the park with my friends. We walk together and drink coffee. Sometimes we also go shopping.",
+        "transcriptNl": "In het weekend ga ik naar het park met mijn vrienden. We wandelen samen en drinken koffie. Soms gaan we ook winkelen."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q3",
+      "questionNl": "Wat kook jij graag? Vertel ook waarom.",
+      "questionEn": "What do you like to cook? Also tell why.",
+      "questionParts": [
+        "What do you like to cook?",
+        "Why do you like cooking that?"
+      ],
+      "personStatement": "I like to cook pasta with vegetables.",
+      "personStatementNl": "Ik kook graag pasta met groenten.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I like to cook rice with chicken. It is easy and fast to make. My family also likes to eat it.",
+        "transcriptNl": "Ik kook graag rijst met kip. Het is makkelijk en snel om te maken. Mijn familie eet het ook graag."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q4",
+      "questionNl": "Waar ga jij boodschappen doen? Vertel ook waarom je daar graag gaat.",
+      "questionEn": "Where do you go grocery shopping? Also tell why you like going there.",
+      "questionParts": [
+        "Where do you go grocery shopping?",
+        "Why do you like that place?"
+      ],
+      "personStatement": "I go to the Albert Heijn near my house.",
+      "personStatementNl": "Ik ga naar de Albert Heijn bij mijn huis.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I go to the supermarket in my street. It is close to my house and not expensive. They have also fresh fruit and vegetables.",
+        "transcriptNl": "Ik ga naar de supermarkt in mijn straat. Het is dichtbij mijn huis en niet duur. Ze hebben ook verse groenten en fruit."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q5",
+      "questionNl": "Welk weer vind jij fijn? Vertel ook waarom.",
+      "questionEn": "What kind of weather do you like? Also tell why.",
+      "questionParts": [
+        "What kind of weather do you like?",
+        "Why do you like that weather?"
+      ],
+      "personStatement": "I like sunny weather the most.",
+      "personStatementNl": "Ik vind zonnig weer het fijnst.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I like warm weather with sun. Then I can outside walk and in the park sit. When it rains, I stay home.",
+        "transcriptNl": "Ik vind warm weer met zon fijn. Dan kan ik buiten wandelen en in het park zitten. Als het regent, blijf ik thuis."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q6",
+      "questionNl": "Doe jij aan sport? Vertel ook hoe vaak.",
+      "questionEn": "Do you do sports? Also tell how often.",
+      "questionParts": [
+        "What sport do you do?",
+        "How often do you do it?"
+      ],
+      "personStatement": "I play football every Wednesday.",
+      "personStatementNl": "Ik voetbal elke woensdag.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I like to swim. I go two times per week to the swimming pool. It is good for my body and I feel relaxed after.",
+        "transcriptNl": "Ik zwem graag. Ik ga twee keer per week naar het zwembad. Het is goed voor mijn lichaam en ik voel me ontspannen daarna."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q7",
+      "questionNl": "Welke muziek vind jij leuk? Vertel ook wanneer je muziek luistert.",
+      "questionEn": "What music do you like? Also tell when you listen to music.",
+      "questionParts": [
+        "What music do you like?",
+        "When do you listen to music?"
+      ],
+      "personStatement": "I listen to pop music when I cook.",
+      "personStatementNl": "Ik luister naar popmuziek als ik kook.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I like Dutch music and also pop music. I listen to music in the morning and when I clean the house. Music makes me happy.",
+        "transcriptNl": "Ik vind Nederlandse muziek en ook popmuziek leuk. Ik luister naar muziek in de ochtend en als ik het huis schoonmaak. Muziek maakt me blij."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "part1-homework-q8",
+      "questionNl": "Ken jij je buren? Vertel ook wat jullie samen doen.",
+      "questionEn": "Do you know your neighbors? Also tell what you do together.",
+      "questionParts": [
+        "Do you know your neighbors?",
+        "What do you do together?"
+      ],
+      "personStatement": "My neighbor is very friendly. We drink sometimes coffee together.",
+      "personStatementNl": "Mijn buurman is heel vriendelijk. We drinken soms koffie samen.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "Yes, I know my neighbors. They are very nice people. Sometimes we talk in the garden and we help each other.",
+        "transcriptNl": "Ja, ik ken mijn buren. Het zijn heel aardige mensen. Soms praten we in de tuin en we helpen elkaar."
+      },
+      "sequencingWordsRequired": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "module": "knm",
+  "questionIds": [
+    "geo-q2",
+    "werk-q10",
+    "pol-q5",
+    "geo-q6",
+    "werk-q4",
+    "pol-q3",
+    "gezondheid-q2",
+    "wonen-q3",
+    "geschiedenis-q5",
+    "normen-q8"
+  ],
+  "curationNotes": {
+    "accessible": ["geo-q2 (capital city)", "werk-q10 (work hours)", "pol-q5 (gemeente)"],
+    "representative": ["geo-q6 (borders)", "werk-q4 (UWV)", "pol-q3 (king's role)", "gezondheid-q2 (huisarts)", "wonen-q3 (huurcontract)"],
+    "challenging": ["geschiedenis-q5 (WWII)", "normen-q8 (equality)"]
+  }
+}

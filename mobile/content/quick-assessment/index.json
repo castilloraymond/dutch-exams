@@ -1,0 +1,49 @@
+{
+  "modules": [
+    {
+      "module": "lezen",
+      "name": "Lezen",
+      "nameEnglish": "Reading",
+      "description": "Test je leesvaardigheid met Nederlandse teksten.",
+      "estimatedMinutes": 3,
+      "icon": "BookOpen",
+      "taskType": "mcq"
+    },
+    {
+      "module": "knm",
+      "name": "KNM",
+      "nameEnglish": "Dutch Society",
+      "description": "Test je kennis over Nederlandse cultuur en waarden.",
+      "estimatedMinutes": 3,
+      "icon": "Landmark",
+      "taskType": "mcq"
+    },
+    {
+      "module": "luisteren",
+      "name": "Luisteren",
+      "nameEnglish": "Listening",
+      "description": "Test je luistervaardigheid met Nederlandse audio.",
+      "estimatedMinutes": 4,
+      "icon": "Headphones",
+      "taskType": "mcq"
+    },
+    {
+      "module": "schrijven",
+      "name": "Schrijven",
+      "nameEnglish": "Writing",
+      "description": "Oefen met een korte schrijfopdracht.",
+      "estimatedMinutes": 3,
+      "icon": "PenLine",
+      "taskType": "task"
+    },
+    {
+      "module": "spreken",
+      "name": "Spreken",
+      "nameEnglish": "Speaking",
+      "description": "Oefen met een korte spreekopdracht.",
+      "estimatedMinutes": 2,
+      "icon": "Mic",
+      "taskType": "task"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "lezen-a1-2",
+  "title": "Lezen A1 - Oefenexamen 2",
+  "module": "lezen",
+  "difficulty": "A1",
+  "questionCount": 15,
+  "recommendedTime": "25 min",
+  "passages": [
+    {
+      "id": "a1-2-p1",
+      "title": "Weerbericht",
+      "content": "Weerbericht voor morgen\n\nTemperatuur: 15 graden\nWeer: bewolkt met regen\nWind: matig\n\nNeem een paraplu mee!",
+      "contentType": "notice",
+      "instruction": "Lees het weerbericht.",
+      "questions": [
+        {
+          "id": "a1-2-q1",
+          "text": "Hoe warm wordt het morgen?",
+          "options": ["10 graden", "15 graden", "20 graden", "25 graden"],
+          "correctIndex": 1,
+          "explanation": "De temperatuur wordt 15 graden.",
+          "explanationEn": "The temperature will be 15 degrees."
+        },
+        {
+          "id": "a1-2-q2",
+          "text": "Hoe is het weer morgen?",
+          "options": ["Zonnig", "Bewolkt met regen", "Sneeuw", "Mist"],
+          "correctIndex": 1,
+          "explanation": "Het wordt bewolkt met regen.",
+          "explanationEn": "It will be cloudy with rain."
+        },
+        {
+          "id": "a1-2-q3",
+          "text": "Wat moet je meenemen?",
+          "options": ["Een zonnebril", "Een paraplu", "Een jas", "Niets"],
+          "correctIndex": 1,
+          "explanation": "Je moet een paraplu meenemen.",
+          "explanationEn": "You should bring an umbrella."
+        }
+      ]
+    },
+    {
+      "id": "a1-2-p2",
+      "title": "Buskaartje",
+      "content": "GVB Dagkaart\n\nGeldig: 1 dag\nZones: Alle zones Amsterdam\nPrijs: € 8,50\n\nDatum: 20 januari 2024",
+      "contentType": "notice",
+      "instruction": "Bekijk het buskaartje.",
+      "questions": [
+        {
+          "id": "a1-2-q4",
+          "text": "Hoe lang is het kaartje geldig?",
+          "options": ["1 uur", "1 dag", "1 week", "1 maand"],
+          "correctIndex": 1,
+          "explanation": "Het kaartje is 1 dag geldig.",
+          "explanationEn": "The ticket is valid for 1 day."
+        },
+        {
+          "id": "a1-2-q5",
+          "text": "Hoeveel kost het kaartje?",
+          "options": ["€ 5,00", "€ 7,00", "€ 8,50", "€ 10,00"],
+          "correctIndex": 2,
+          "explanation": "Het kaartje kost € 8,50.",
+          "explanationEn": "The ticket costs €8.50."
+        },
+        {
+          "id": "a1-2-q6",
+          "text": "In welke stad kun je met dit kaartje reizen?",
+          "options": ["Rotterdam", "Utrecht", "Amsterdam", "Den Haag"],
+          "correctIndex": 2,
+          "explanation": "Het kaartje is voor alle zones in Amsterdam.",
+          "explanationEn": "The ticket is for all zones in Amsterdam."
+        }
+      ]
+    },
+    {
+      "id": "a1-2-p3",
+      "title": "Menu restaurant",
+      "content": "Menu van de dag\n\nSoep: tomatensoep - € 4,50\nHoofdgerecht: spaghetti - € 12,00\nDessert: appeltaart - € 5,00\n\nDrankjes:\nKoffie - € 2,50\nThee - € 2,50\nCola - € 3,00",
+      "contentType": "list",
+      "instruction": "Bekijk het menu.",
+      "questions": [
+        {
+          "id": "a1-2-q7",
+          "text": "Welke soep hebben ze?",
+          "options": ["Kippensoep", "Tomatensoep", "Groentesoep", "Uiensoep"],
+          "correctIndex": 1,
+          "explanation": "Ze hebben tomatensoep.",
+          "explanationEn": "They have tomato soup."
+        },
+        {
+          "id": "a1-2-q8",
+          "text": "Hoeveel kost de spaghetti?",
+          "options": ["€ 10,00", "€ 11,00", "€ 12,00", "€ 15,00"],
+          "correctIndex": 2,
+          "explanation": "De spaghetti kost € 12,00.",
+          "explanationEn": "The spaghetti costs €12.00."
+        },
+        {
+          "id": "a1-2-q9",
+          "text": "Hoeveel kost een koffie?",
+          "options": ["€ 2,00", "€ 2,50", "€ 3,00", "€ 3,50"],
+          "correctIndex": 1,
+          "explanation": "Een koffie kost € 2,50.",
+          "explanationEn": "A coffee costs €2.50."
+        }
+      ]
+    },
+    {
+      "id": "a1-2-p4",
+      "title": "Briefje van de buurvrouw",
+      "content": "Beste buurman,\n\nIk ben op vakantie van 5 tot 12 januari.\nKunt u mijn planten water geven?\nDe sleutel ligt onder de mat.\n\nAlvast bedankt!\nAnna",
+      "contentType": "letter",
+      "instruction": "Lees het briefje van de buurvrouw.",
+      "questions": [
+        {
+          "id": "a1-2-q10",
+          "text": "Hoe lang is Anna op vakantie?",
+          "options": ["5 dagen", "7 dagen", "10 dagen", "14 dagen"],
+          "correctIndex": 1,
+          "explanation": "Anna is op vakantie van 5 tot 12 januari, dat is 7 dagen.",
+          "explanationEn": "Anna is on vacation from January 5 to 12, which is 7 days."
+        },
+        {
+          "id": "a1-2-q11",
+          "text": "Wat vraagt Anna aan haar buurman?",
+          "options": ["De post ophalen", "De planten water geven", "De hond uitlaten", "De auto wassen"],
+          "correctIndex": 1,
+          "explanation": "Anna vraagt of de buurman haar planten water kan geven.",
+          "explanationEn": "Anna asks if the neighbor can water her plants."
+        },
+        {
+          "id": "a1-2-q12",
+          "text": "Waar ligt de sleutel?",
+          "options": ["In de brievenbus", "Bij de buren", "Onder de mat", "In de auto"],
+          "correctIndex": 2,
+          "explanation": "De sleutel ligt onder de mat.",
+          "explanationEn": "The key is under the mat."
+        }
+      ]
+    },
+    {
+      "id": "a1-2-p5",
+      "title": "Korte tekst",
+      "content": "Mijn naam is Pieter. Ik ben 35 jaar.\nIk heb twee kinderen: een zoon en een dochter.\nMijn zoon is 8 jaar. Mijn dochter is 5 jaar.\nWij wonen in een huis met een tuin.",
+      "contentType": "text",
+      "instruction": "Lees de tekst over Pieter.",
+      "questions": [
+        {
+          "id": "a1-2-q13",
+          "text": "Hoe oud is Pieter?",
+          "options": ["30 jaar", "32 jaar", "35 jaar", "40 jaar"],
+          "correctIndex": 2,
+          "explanation": "Pieter is 35 jaar.",
+          "explanationEn": "Pieter is 35 years old."
+        },
+        {
+          "id": "a1-2-q14",
+          "text": "Hoeveel kinderen heeft Pieter?",
+          "options": ["1", "2", "3", "4"],
+          "correctIndex": 1,
+          "explanation": "Pieter heeft twee kinderen.",
+          "explanationEn": "Pieter has two children."
+        },
+        {
+          "id": "a1-2-q15",
+          "text": "Hoe oud is de dochter van Pieter?",
+          "options": ["3 jaar", "5 jaar", "7 jaar", "8 jaar"],
+          "correctIndex": 1,
+          "explanation": "De dochter van Pieter is 5 jaar.",
+          "explanationEn": "Pieter's daughter is 5 years old."
+        }
+      ]
+    }
+  ]
+}

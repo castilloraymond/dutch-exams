@@ -1,0 +1,95 @@
+{
+  "id": "note-neighbor",
+  "title": "Briefje aan buurman",
+  "titleEn": "Note to Neighbor",
+  "difficulty": "A1",
+  "taskType": "free-text",
+  "scenario": "U verwacht een pakketje, maar u bent niet thuis. U wilt uw buurman vragen of hij het pakketje kan aannemen.",
+  "scenarioEn": "You are expecting a package, but you won't be home. You want to ask your neighbor if they can accept the package for you.",
+  "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat er een pakketje komt. Vraag of hij het kan aannemen. Zeg wanneer u het komt ophalen.",
+  "promptEn": "Write a short note to your neighbor. Tell them a package is coming. Ask if they can accept it. Say when you will pick it up.",
+  "wordRange": {
+    "min": 30,
+    "max": 60
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used a greeting (e.g., Beste buurman, Dag meneer)",
+      "textEn": "I used a greeting (e.g., Beste buurman, Dag meneer)"
+    },
+    {
+      "id": "package-info",
+      "text": "I mentioned that a package is coming",
+      "textEn": "I mentioned that a package is coming"
+    },
+    {
+      "id": "request",
+      "text": "I asked the neighbor to accept the package",
+      "textEn": "I asked the neighbor to accept the package"
+    },
+    {
+      "id": "pickup-time",
+      "text": "I mentioned when I will pick up the package",
+      "textEn": "I mentioned when I will pick up the package"
+    },
+    {
+      "id": "closing",
+      "text": "I used a closing and signed my name",
+      "textEn": "I used a closing and signed my name"
+    }
+  ],
+  "modelAnswer": "Beste buurman,\n\nEr komt vandaag een pakketje voor mij, maar ik ben niet thuis. Kunt u het pakketje voor mij aannemen? Ik kom het vanavond na zes uur ophalen.\n\nAlvast bedankt!\n\nGroetjes,\nKarim",
+  "tips": [
+    "A note to a neighbor can be informal - use 'je' or 'u', both are fine.",
+    "Keep it short and clear - just the essential information.",
+    "Don't forget to say when you'll pick up the package."
+  ],
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "note-neighbor-q1",
+      "scenario": "U gaat een feestje geven en het kan laat worden. U wilt uw buurman waarschuwen.",
+      "scenarioEn": "You are having a party and it might get loud. You want to warn your neighbor.",
+      "prompt": "Schrijf een briefje aan uw buurman. Vertel dat u een feestje geeft en dat het misschien laat wordt.",
+      "promptEn": "Write a note to your neighbor. Tell them you are having a party and it might be late.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-info", "text": "I mentioned the party", "textEn": "I mentioned the party" },
+        { "id": "q1-warning", "text": "I warned about possible noise", "textEn": "I warned about possible noise" },
+        { "id": "q1-polite", "text": "I was polite and considerate", "textEn": "I was polite and considerate" }
+      ],
+      "modelAnswer": "Beste buurman,\n\nIk wil u even laten weten dat ik zaterdagavond een feestje geef. Het kan misschien een beetje luid worden. Ik doe mijn best om niet te veel lawaai te maken.\n\nSorry voor het ongemak!\n\nGroetjes,\nKarim"
+    },
+    {
+      "id": "note-neighbor-q2",
+      "scenario": "De kat van uw buurman zit in uw tuin. U wilt de buurman informeren.",
+      "scenarioEn": "Your neighbor's cat is in your garden. You want to let the neighbor know.",
+      "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat zijn kat in uw tuin is.",
+      "promptEn": "Write a short note to your neighbor. Tell them their cat is in your garden.",
+      "taskType": "free-text",
+      "wordRange": { "min": 20, "max": 45 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-info", "text": "I mentioned the cat", "textEn": "I mentioned the cat" },
+        { "id": "q2-friendly", "text": "My message is friendly", "textEn": "My message is friendly" }
+      ],
+      "modelAnswer": "Dag buurman,\n\nUw kat zit in mijn tuin. Ik heb hem eten gegeven. U kunt hem ophalen wanneer u wilt. Ik ben tot 20:00 uur thuis.\n\nGroetjes,\nKarim"
+    },
+    {
+      "id": "note-neighbor-q3",
+      "scenario": "U heeft een nieuwe buurman. U wilt uzelf voorstellen en hem welkom heten.",
+      "scenarioEn": "You have a new neighbor. You want to introduce yourself and welcome them.",
+      "prompt": "Schrijf een kort briefje aan uw nieuwe buurman. Stel uzelf voor en heet hem welkom.",
+      "promptEn": "Write a short note to your new neighbor. Introduce yourself and welcome them.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-intro", "text": "I introduced myself", "textEn": "I introduced myself" },
+        { "id": "q3-welcome", "text": "I welcomed the neighbor", "textEn": "I welcomed the neighbor" },
+        { "id": "q3-offer", "text": "I offered help or contact", "textEn": "I offered help or contact" }
+      ],
+      "modelAnswer": "Beste buurman,\n\nWelkom in het gebouw! Ik ben Karim, uw buurman op nummer 12. Als u iets nodig heeft, kunt u altijd bij mij aanbellen.\n\nVeel plezier in uw nieuwe woning!\n\nGroetjes,\nKarim"
+    }
+  ]
+}

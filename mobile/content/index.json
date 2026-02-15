@@ -1,0 +1,66 @@
+{
+  "module": "Lezen",
+  "description": "Reading Comprehension",
+  "passages": [
+    {
+      "id": "tips-om-goed-te-leren",
+      "title": "Tips om goed te leren",
+      "difficulty": "A2",
+      "questionCount": 5
+    },
+    {
+      "id": "brief-van-de-gemeente",
+      "title": "Brief van de gemeente",
+      "difficulty": "A2",
+      "questionCount": 5
+    },
+    {
+      "id": "advertentie-cursus-nederlands",
+      "title": "Advertentie: Cursus Nederlands",
+      "difficulty": "A2",
+      "questionCount": 5
+    },
+    {
+      "id": "artikel-fietsen-in-nederland",
+      "title": "Fietsen in Nederland",
+      "difficulty": "A2",
+      "questionCount": 5
+    },
+    {
+      "id": "huisregels-appartementencomplex",
+      "title": "Huisregels appartementencomplex",
+      "difficulty": "A2",
+      "questionCount": 5
+    },
+    {
+      "id": "openingstijden-winkelcentrum",
+      "title": "Openingstijden winkelcentrum",
+      "difficulty": "A1",
+      "questionCount": 5
+    },
+    {
+      "id": "uitnodiging-verjaardagsfeest",
+      "title": "Uitnodiging verjaardagsfeest",
+      "difficulty": "A1",
+      "questionCount": 5
+    },
+    {
+      "id": "rooster-taallessen",
+      "title": "Rooster taallessen",
+      "difficulty": "A1",
+      "questionCount": 5
+    },
+    {
+      "id": "informatie-bibliotheek",
+      "title": "Informatie over de bibliotheek",
+      "difficulty": "A2",
+      "questionCount": 5
+    },
+    {
+      "id": "nieuwsbrief-school",
+      "title": "Nieuwsbrief van de school",
+      "difficulty": "A2",
+      "questionCount": 5
+    }
+  ]
+}

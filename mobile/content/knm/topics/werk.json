@@ -1,0 +1,198 @@
+{
+  "id": "werk",
+  "title": "Werk",
+  "questions": [
+    {
+      "id": "werk-q1",
+      "text": "Wat is het minimumloon in Nederland?",
+      "options": ["Een vast bedrag dat de werkgever zelf bepaalt", "Het laagste loon dat een werkgever wettelijk moet betalen", "Het gemiddelde salaris in Nederland", "Het loon voor parttimewerkers"],
+      "correctIndex": 1,
+      "explanation": "Het minimumloon is het laagste bedrag dat een werkgever wettelijk verplicht is te betalen aan werknemers.",
+      "explanationEn": "The minimum wage is the lowest amount an employer is legally required to pay employees."
+    },
+    {
+      "id": "werk-q2",
+      "text": "Hoeveel vakantiedagen heeft een werknemer minimaal recht op per jaar bij een fulltime baan?",
+      "options": ["10 dagen", "15 dagen", "20 dagen", "25 dagen"],
+      "correctIndex": 2,
+      "explanation": "Bij een fulltime baan (40 uur) heeft een werknemer wettelijk recht op minimaal 20 vakantiedagen per jaar (4 keer het aantal werkdagen per week).",
+      "explanationEn": "With a full-time job (40 hours), an employee is legally entitled to a minimum of 20 vacation days per year (4 times the number of working days per week)."
+    },
+    {
+      "id": "werk-q3",
+      "text": "Wat is een vast contract?",
+      "options": ["Een contract voor een bepaalde periode", "Een contract zonder einddatum", "Een contract voor oproepkrachten", "Een contract voor stagiairs"],
+      "correctIndex": 1,
+      "explanation": "Een vast contract (contract voor onbepaalde tijd) heeft geen einddatum. De werknemer kan niet zomaar ontslagen worden.",
+      "explanationEn": "A permanent contract (contract for an indefinite period) has no end date. The employee cannot simply be dismissed."
+    },
+    {
+      "id": "werk-q4",
+      "text": "Wat is het UWV?",
+      "options": ["Een zorgverzekering", "Een uitkeringsinstantie voor werklozen en arbeidsongeschikten", "Een pensioenfonds", "Een belastingdienst"],
+      "correctIndex": 1,
+      "explanation": "Het UWV (Uitvoeringsinstituut Werknemersverzekeringen) regelt uitkeringen bij werkloosheid, ziekte en arbeidsongeschiktheid.",
+      "explanationEn": "The UWV (Employee Insurance Agency) manages benefits for unemployment, illness, and disability."
+    },
+    {
+      "id": "werk-q5",
+      "text": "Wanneer kun je een WW-uitkering krijgen?",
+      "options": ["Als je zelf ontslag neemt", "Als je ontslagen wordt en je hebt genoeg gewerkt", "Als je met pensioen gaat", "Als je ziek bent"],
+      "correctIndex": 1,
+      "explanation": "Je kunt een WW-uitkering (werkloosheidswet) krijgen als je onvrijwillig werkloos wordt en aan de wekeneis voldoet.",
+      "explanationEn": "You can receive unemployment benefits (WW) if you become involuntarily unemployed and meet the weeks-worked requirement."
+    },
+    {
+      "id": "werk-q6",
+      "text": "Wat is een CAO?",
+      "options": ["Een persoonlijk arbeidscontract", "Een collectieve afspraak over arbeidsvoorwaarden voor een hele sector", "Een belastingregeling", "Een opleidingscertificaat"],
+      "correctIndex": 1,
+      "explanation": "Een CAO (Collectieve Arbeidsovereenkomst) is een afspraak tussen werkgevers en vakbonden over loon, werktijden en andere arbeidsvoorwaarden.",
+      "explanationEn": "A CAO (Collective Labor Agreement) is an agreement between employers and trade unions about wages, working hours, and other employment conditions."
+    },
+    {
+      "id": "werk-q7",
+      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "options": ["Direct naar het UWV gaan", "Je werkgever zo snel mogelijk bellen", "Zelf een vervanger regelen", "Niets, het is je eigen zaak"],
+      "correctIndex": 1,
+      "explanation": "Als je ziek bent, moet je zo snel mogelijk je werkgever informeren. De werkgever betaalt je loon door (minimaal 70%) tijdens ziekte.",
+      "explanationEn": "If you are sick, you must inform your employer as soon as possible. The employer continues to pay your salary (at least 70%) during illness."
+    },
+    {
+      "id": "werk-q8",
+      "text": "Wat is een zzp'er?",
+      "options": ["Een werknemer met een tijdelijk contract", "Een zelfstandige ondernemer zonder personeel", "Een uitzendkracht", "Een ambtenaar"],
+      "correctIndex": 1,
+      "explanation": "Een zzp'er (zelfstandige zonder personeel) is een ondernemer die voor zichzelf werkt en geen werknemers in dienst heeft.",
+      "explanationEn": "A zzp'er (self-employed person without staff) is an entrepreneur who works for themselves and has no employees."
+    },
+    {
+      "id": "werk-q9",
+      "text": "Is discriminatie bij sollicitaties in Nederland toegestaan?",
+      "options": ["Ja, de werkgever mag kiezen wie hij wil", "Nee, discriminatie op grond van afkomst, geslacht of leeftijd is verboden", "Alleen bij kleine bedrijven", "Alleen als het in de vacature staat"],
+      "correctIndex": 1,
+      "explanation": "Discriminatie bij werving en selectie is verboden volgens de Algemene wet gelijke behandeling.",
+      "explanationEn": "Discrimination in recruitment and selection is prohibited under the General Equal Treatment Act."
+    },
+    {
+      "id": "werk-q10",
+      "text": "Hoeveel uur per week werkt een fulltime werknemer meestal in Nederland?",
+      "options": ["32 uur", "36-40 uur", "42 uur", "45 uur"],
+      "correctIndex": 1,
+      "explanation": "Een fulltime werkweek in Nederland is meestal 36 tot 40 uur, afhankelijk van de sector en CAO.",
+      "explanationEn": "A full-time work week in the Netherlands is usually 36 to 40 hours, depending on the sector and collective labor agreement."
+    },
+    {
+      "id": "werk-q11",
+      "text": "Wat is een sollicitatiegesprek?",
+      "options": ["Een gesprek met je collega's", "Een gesprek waarin je laat zien waarom jij geschikt bent voor de baan", "Een gesprek over je salaris na aanname", "Een functioneringsgesprek"],
+      "correctIndex": 1,
+      "explanation": "Een sollicitatiegesprek is een gesprek tussen de werkgever en de sollicitant om te bepalen of iemand geschikt is voor de functie.",
+      "explanationEn": "A job interview is a conversation between the employer and the applicant to determine whether someone is suitable for the position."
+    },
+    {
+      "id": "werk-q12",
+      "text": "Wat is een tijdelijk contract?",
+      "options": ["Een contract voor onbepaalde tijd", "Een contract met een vaste einddatum", "Een mondeling contract", "Een vrijwilligersovereenkomst"],
+      "correctIndex": 1,
+      "explanation": "Een tijdelijk contract (contract voor bepaalde tijd) heeft een vaste begin- en einddatum.",
+      "explanationEn": "A temporary contract (fixed-term contract) has a set start and end date."
+    },
+    {
+      "id": "werk-q13",
+      "text": "Wat is een uitzendbureau?",
+      "options": ["Een reisbureau", "Een bedrijf dat tijdelijke werknemers uitleent aan andere bedrijven", "Een overheidsinstantie", "Een opleidingscentrum"],
+      "correctIndex": 1,
+      "explanation": "Een uitzendbureau bemiddelt tussen werkzoekenden en bedrijven. Je werkt via het uitzendbureau bij een ander bedrijf.",
+      "explanationEn": "A temp agency mediates between job seekers and companies. You work through the temp agency at another company."
+    },
+    {
+      "id": "werk-q14",
+      "text": "Wat is vakantiegeld?",
+      "options": ["Geld dat je krijgt als je op vakantie gaat", "Een extra uitkering van ongeveer 8% van je jaarsalaris, meestal in mei uitbetaald", "Een toeslag voor feestdagen", "Geld voor een vliegticket"],
+      "correctIndex": 1,
+      "explanation": "Vakantiegeld is een wettelijk recht: je krijgt 8% van je bruto jaarsalaris extra, meestal uitbetaald in mei of juni.",
+      "explanationEn": "Holiday pay is a legal right: you receive an extra 8% of your gross annual salary, usually paid out in May or June."
+    },
+    {
+      "id": "werk-q15",
+      "text": "Hoeveel weken zwangerschaps- en bevallingsverlof heeft een werkneemster recht op?",
+      "options": ["8 weken", "12 weken", "Minimaal 16 weken", "20 weken"],
+      "correctIndex": 2,
+      "explanation": "Een werkneemster heeft recht op minimaal 16 weken zwangerschaps- en bevallingsverlof met doorbetaling van het loon.",
+      "explanationEn": "A female employee is entitled to at least 16 weeks of maternity leave with continued salary payment."
+    },
+    {
+      "id": "werk-q16",
+      "text": "Wat is een cv?",
+      "options": ["Een type contract", "Een overzicht van je opleiding, werkervaring en vaardigheden", "Een belastingformulier", "Een verklaring van goed gedrag"],
+      "correctIndex": 1,
+      "explanation": "Een cv (curriculum vitae) is een document met je persoonlijke gegevens, opleiding, werkervaring en vaardigheden. Je stuurt het mee bij een sollicitatie.",
+      "explanationEn": "A CV (curriculum vitae) is a document with your personal details, education, work experience, and skills. You send it with a job application."
+    },
+    {
+      "id": "werk-q17",
+      "text": "Wat is een proeftijd?",
+      "options": ["De eerste werkdag", "Een periode aan het begin van een contract waarin werkgever en werknemer het dienstverband makkelijk kunnen beëindigen", "Een examenperiode", "Een vakantieperiode"],
+      "correctIndex": 1,
+      "explanation": "De proeftijd is een korte periode (maximaal 2 maanden) aan het begin van een contract. Beide partijen kunnen dan opzeggen zonder reden.",
+      "explanationEn": "The probation period is a short period (maximum 2 months) at the start of a contract. Both parties can terminate the contract without reason during this time."
+    },
+    {
+      "id": "werk-q18",
+      "text": "Wat is loonheffing?",
+      "options": ["Een boete van de werkgever", "Belasting en premies die je werkgever inhoudt op je brutoloon", "Een bijdrage aan een vakbond", "Een vergoeding voor reiskosten"],
+      "correctIndex": 1,
+      "explanation": "Loonheffing is het totaal van inkomstenbelasting en premies volksverzekeringen dat je werkgever inhoudt op je brutoloon.",
+      "explanationEn": "Payroll tax (loonheffing) is the total of income tax and national insurance premiums that your employer deducts from your gross salary."
+    },
+    {
+      "id": "werk-q19",
+      "text": "Wat is een vakbond?",
+      "options": ["Een werkgeverorganisatie", "Een organisatie die de belangen van werknemers behartigt", "Een overheidsinstantie", "Een uitzendbureau"],
+      "correctIndex": 1,
+      "explanation": "Een vakbond is een organisatie van werknemers die opkomt voor betere arbeidsvoorwaarden, lonen en werkomstandigheden. Bekende vakbonden zijn FNV en CNV.",
+      "explanationEn": "A trade union is an organization of employees that advocates for better working conditions, wages, and work circumstances. Well-known unions are FNV and CNV."
+    },
+    {
+      "id": "werk-q20",
+      "text": "Wat is een bijstandsuitkering?",
+      "options": ["Extra loon van je werkgever", "Een uitkering van de gemeente als je niet genoeg inkomen hebt om van te leven", "Een pensioenuitkering", "Een zorgvergoeding"],
+      "correctIndex": 1,
+      "explanation": "De bijstandsuitkering (Participatiewet) is een uitkering van de gemeente voor mensen die niet genoeg inkomen hebben en geen andere uitkering krijgen.",
+      "explanationEn": "Social assistance (Participation Act) is a benefit from the municipality for people who do not have enough income and do not receive any other benefits."
+    },
+    {
+      "id": "werk-q21",
+      "text": "Mag een werkgever je ontslaan als je zwanger bent?",
+      "options": ["Ja, altijd", "Nee, er geldt een ontslagverbod tijdens zwangerschap", "Alleen in de eerste maanden", "Alleen als je een tijdelijk contract hebt"],
+      "correctIndex": 1,
+      "explanation": "In Nederland geldt een ontslagverbod tijdens zwangerschap en bevallingsverlof. De werkgever mag je in die periode niet ontslaan.",
+      "explanationEn": "In the Netherlands, there is a dismissal ban during pregnancy and maternity leave. The employer may not fire you during this period."
+    },
+    {
+      "id": "werk-q22",
+      "text": "Wat is een loonstrook?",
+      "options": ["Een sollicitatiebrief", "Een overzicht van je loon, inhoudingen en nettoloon per maand", "Een werkvergunning", "Een bankpas"],
+      "correctIndex": 1,
+      "explanation": "Een loonstrook (salarisstrook) ontvang je elke maand van je werkgever. Hierop staan je brutoloon, inhoudingen en nettoloon.",
+      "explanationEn": "A pay slip is received from your employer every month. It shows your gross salary, deductions, and net salary."
+    },
+    {
+      "id": "werk-q23",
+      "text": "Wat is vrijwilligerswerk?",
+      "options": ["Werk voor een laag salaris", "Onbetaald werk dat je doet voor een organisatie of de samenleving", "Werk dat je thuis doet", "Een verplichte stage"],
+      "correctIndex": 1,
+      "explanation": "Vrijwilligerswerk is onbetaald werk dat je vrijwillig doet, bijvoorbeeld bij een sportvereniging, school of zorginstelling. Het telt mee bij inburgering.",
+      "explanationEn": "Volunteer work is unpaid work that you do voluntarily, for example at a sports club, school, or care facility. It counts toward civic integration."
+    },
+    {
+      "id": "werk-q24",
+      "text": "Wat is een functioneringsgesprek?",
+      "options": ["Een sollicitatiegesprek", "Een gesprek tussen werknemer en werkgever over hoe het werk gaat", "Een vergadering met alle collega's", "Een gesprek bij de bedrijfsarts"],
+      "correctIndex": 1,
+      "explanation": "Een functioneringsgesprek is een tweezijdig gesprek waarin je met je leidinggevende bespreekt hoe het werk gaat, wat goed gaat en wat beter kan.",
+      "explanationEn": "A performance review is a two-way conversation in which you discuss with your supervisor how work is going, what is going well, and what can be improved."
+    }
+  ]
+}

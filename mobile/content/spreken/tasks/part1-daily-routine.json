@@ -1,0 +1,52 @@
+{
+  "id": "part1-daily-routine",
+  "partNumber": 1,
+  "partTitle": "Personal Questions",
+  "partTitleNl": "Persoonlijke Vragen",
+  "title": "Daily Routine",
+  "titleNl": "Dagelijkse routine",
+  "difficulty": "A2",
+  "personStatement": "I go to work by bicycle every day.",
+  "personStatementNl": "Ik ga elke dag met de fiets naar mijn werk.",
+  "questionNl": "Hoe ga jij naar school of naar je werk? Vertel ook waarom je dat fijn vindt.",
+  "questionEn": "How do you go to school or work? Also explain why you like that.",
+  "questionParts": [
+    "How do you get to school or work?",
+    "Why do you like that way of travelling?"
+  ],
+  "recommendedDuration": 30,
+  "softLimitWarning": 25,
+  "selfAssessmentCriteria": [
+    {
+      "id": "both-parts",
+      "text": "I answered both parts of the question (how AND why)",
+      "textEn": "I answered both parts of the question (how AND why)"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "vocabulary",
+      "text": "I used appropriate vocabulary",
+      "textEn": "I used appropriate vocabulary"
+    },
+    {
+      "id": "complete-sentences",
+      "text": "I used complete sentences",
+      "textEn": "I used complete sentences"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I go to school by bus. The bus stops near my house. I find it easy because I don't have to cycle in the rain. The trip takes about twenty minutes.",
+    "transcriptNl": "Ik ga met de bus naar school. De bus stopt vlak bij mijn huis. Ik vind het makkelijk, want ik hoef niet in de regen te fietsen. De reis duurt ongeveer twintig minuten.",
+    "audioFile": "/audio/spreken/model-answers/part1-daily-routine.mp3"
+  },
+  "tips": [
+    "Always answer BOTH parts of the question - this is essential for scoring.",
+    "Start with a direct answer about your transport, then give your reason.",
+    "You can mention practical details like travel time or distance."
+  ],
+  "isFreePreview": false
+}
