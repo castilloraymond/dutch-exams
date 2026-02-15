@@ -11,7 +11,7 @@ interface ExamHeaderProps {
 export function ExamHeader({ title, startTime }: ExamHeaderProps) {
   // Use lazy initializer to compute initial elapsed time
   const [elapsed, setElapsed] = useState(() => Math.floor((Date.now() - startTime) / 1000));
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     intervalRef.current = setInterval(() => {

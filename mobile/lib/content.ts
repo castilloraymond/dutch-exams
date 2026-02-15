@@ -24,98 +24,98 @@ import type {
 } from "./types";
 
 // Lezen (Reading) content
-import contentIndex from "@/content/index.json";
-import tipsOmGoedTeLeren from "@/content/passages/tips-om-goed-te-leren.json";
-import briefVanDeGemeente from "@/content/passages/brief-van-de-gemeente.json";
-import advertentieCursusNederlands from "@/content/passages/advertentie-cursus-nederlands.json";
-import artikelFietsenInNederland from "@/content/passages/artikel-fietsen-in-nederland.json";
-import huisregelsAppartementencomplex from "@/content/passages/huisregels-appartementencomplex.json";
-import openingstijdenWinkelcentrum from "@/content/passages/openingstijden-winkelcentrum.json";
-import uitnodigingVerjaardagsfeest from "@/content/passages/uitnodiging-verjaardagsfeest.json";
-import roosterTaallessen from "@/content/passages/rooster-taallessen.json";
-import informatieBibliotheek from "@/content/passages/informatie-bibliotheek.json";
-import nieuwsbriefSchool from "@/content/passages/nieuwsbrief-school.json";
+import contentIndex from "@content/index.json";
+import tipsOmGoedTeLeren from "@content/passages/tips-om-goed-te-leren.json";
+import briefVanDeGemeente from "@content/passages/brief-van-de-gemeente.json";
+import advertentieCursusNederlands from "@content/passages/advertentie-cursus-nederlands.json";
+import artikelFietsenInNederland from "@content/passages/artikel-fietsen-in-nederland.json";
+import huisregelsAppartementencomplex from "@content/passages/huisregels-appartementencomplex.json";
+import openingstijdenWinkelcentrum from "@content/passages/openingstijden-winkelcentrum.json";
+import uitnodigingVerjaardagsfeest from "@content/passages/uitnodiging-verjaardagsfeest.json";
+import roosterTaallessen from "@content/passages/rooster-taallessen.json";
+import informatieBibliotheek from "@content/passages/informatie-bibliotheek.json";
+import nieuwsbriefSchool from "@content/passages/nieuwsbrief-school.json";
 
 // KNM content
-import knmIndex from "@/content/knm/index.json";
-import knmWerk from "@/content/knm/topics/werk.json";
-import knmWonen from "@/content/knm/topics/wonen.json";
-import knmGezondheid from "@/content/knm/topics/gezondheid.json";
-import knmGeschiedenis from "@/content/knm/topics/geschiedenis.json";
-import knmOnderwijs from "@/content/knm/topics/onderwijs.json";
-import knmNormenEnWaarden from "@/content/knm/topics/normen-en-waarden.json";
-import knmPolitiek from "@/content/knm/topics/politiek.json";
-import knmGeografie from "@/content/knm/topics/geografie.json";
+import knmIndex from "@content/knm/index.json";
+import knmWerk from "@content/knm/topics/werk.json";
+import knmWonen from "@content/knm/topics/wonen.json";
+import knmGezondheid from "@content/knm/topics/gezondheid.json";
+import knmGeschiedenis from "@content/knm/topics/geschiedenis.json";
+import knmOnderwijs from "@content/knm/topics/onderwijs.json";
+import knmNormenEnWaarden from "@content/knm/topics/normen-en-waarden.json";
+import knmPolitiek from "@content/knm/topics/politiek.json";
+import knmGeografie from "@content/knm/topics/geografie.json";
 
 // Luisteren content
-import luisterenIndex from "@/content/luisteren/index.json";
-import bijDeBakker from "@/content/luisteren/exercises/bij-de-bakker.json";
-import opHetGemeentehuis from "@/content/luisteren/exercises/op-het-gemeentehuis.json";
-import eenTelefoongesprek from "@/content/luisteren/exercises/een-telefoongesprek.json";
-import bijDeHuisarts from "@/content/luisteren/exercises/bij-de-huisarts.json";
-import opHetWerk from "@/content/luisteren/exercises/op-het-werk.json";
-import inDeSupermarkt from "@/content/luisteren/exercises/in-de-supermarkt.json";
-import opSchool from "@/content/luisteren/exercises/op-school.json";
-import bijHetUitzendbureau from "@/content/luisteren/exercises/bij-het-uitzendbureau.json";
-import eenAfspraakMaken from "@/content/luisteren/exercises/een-afspraak-maken.json";
-import inDeTrein from "@/content/luisteren/exercises/in-de-trein.json";
+import luisterenIndex from "@content/luisteren/index.json";
+import bijDeBakker from "@content/luisteren/exercises/bij-de-bakker.json";
+import opHetGemeentehuis from "@content/luisteren/exercises/op-het-gemeentehuis.json";
+import eenTelefoongesprek from "@content/luisteren/exercises/een-telefoongesprek.json";
+import bijDeHuisarts from "@content/luisteren/exercises/bij-de-huisarts.json";
+import opHetWerk from "@content/luisteren/exercises/op-het-werk.json";
+import inDeSupermarkt from "@content/luisteren/exercises/in-de-supermarkt.json";
+import opSchool from "@content/luisteren/exercises/op-school.json";
+import bijHetUitzendbureau from "@content/luisteren/exercises/bij-het-uitzendbureau.json";
+import eenAfspraakMaken from "@content/luisteren/exercises/een-afspraak-maken.json";
+import inDeTrein from "@content/luisteren/exercises/in-de-trein.json";
 
 // Mock exam content - Lezen
-import lezenMockIndex from "@/content/mock-exams/lezen/index.json";
-import lezenA1Exam1 from "@/content/mock-exams/lezen/a1-exam-1.json";
-import lezenA1Exam2 from "@/content/mock-exams/lezen/a1-exam-2.json";
-import lezenA2Exam1 from "@/content/mock-exams/lezen/a2-exam-1.json";
-import lezenA2Exam2 from "@/content/mock-exams/lezen/a2-exam-2.json";
+import lezenMockIndex from "@content/mock-exams/lezen/index.json";
+import lezenA1Exam1 from "@content/mock-exams/lezen/a1-exam-1.json";
+import lezenA1Exam2 from "@content/mock-exams/lezen/a1-exam-2.json";
+import lezenA2Exam1 from "@content/mock-exams/lezen/a2-exam-1.json";
+import lezenA2Exam2 from "@content/mock-exams/lezen/a2-exam-2.json";
 
 // Mock exam content - KNM
-import knmMockIndex from "@/content/mock-exams/knm/index.json";
-import knmA1Exam1 from "@/content/mock-exams/knm/a1-exam-1.json";
-import knmA1Exam2 from "@/content/mock-exams/knm/a1-exam-2.json";
-import knmA2Exam1 from "@/content/mock-exams/knm/a2-exam-1.json";
-import knmA2Exam2 from "@/content/mock-exams/knm/a2-exam-2.json";
+import knmMockIndex from "@content/mock-exams/knm/index.json";
+import knmA1Exam1 from "@content/mock-exams/knm/a1-exam-1.json";
+import knmA1Exam2 from "@content/mock-exams/knm/a1-exam-2.json";
+import knmA2Exam1 from "@content/mock-exams/knm/a2-exam-1.json";
+import knmA2Exam2 from "@content/mock-exams/knm/a2-exam-2.json";
 
 // Mock exam content - Luisteren
-import luisterenMockIndex from "@/content/mock-exams/luisteren/index.json";
-import luisterenA1Exam1 from "@/content/mock-exams/luisteren/a1-exam-1.json";
-import luisterenA1Exam2 from "@/content/mock-exams/luisteren/a1-exam-2.json";
-import luisterenA2Exam1 from "@/content/mock-exams/luisteren/a2-exam-1.json";
-import luisterenA2Exam2 from "@/content/mock-exams/luisteren/a2-exam-2.json";
-import luisterenA2Exam3 from "@/content/mock-exams/luisteren/a2-exam-3.json";
-import luisterenA2Exam4 from "@/content/mock-exams/luisteren/a2-exam-4.json";
+import luisterenMockIndex from "@content/mock-exams/luisteren/index.json";
+import luisterenA1Exam1 from "@content/mock-exams/luisteren/a1-exam-1.json";
+import luisterenA1Exam2 from "@content/mock-exams/luisteren/a1-exam-2.json";
+import luisterenA2Exam1 from "@content/mock-exams/luisteren/a2-exam-1.json";
+import luisterenA2Exam2 from "@content/mock-exams/luisteren/a2-exam-2.json";
+import luisterenA2Exam3 from "@content/mock-exams/luisteren/a2-exam-3.json";
+import luisterenA2Exam4 from "@content/mock-exams/luisteren/a2-exam-4.json";
 
 // Quick Assessment content
-import quickAssessmentIndex from "@/content/quick-assessment/index.json";
-import quickAssessmentKnm from "@/content/quick-assessment/knm.json";
-import quickAssessmentLezen from "@/content/quick-assessment/lezen.json";
-import quickAssessmentLuisteren from "@/content/quick-assessment/luisteren.json";
-import quickAssessmentSchrijven from "@/content/quick-assessment/schrijven.json";
-import quickAssessmentSpreken from "@/content/quick-assessment/spreken.json";
+import quickAssessmentIndex from "@content/quick-assessment/index.json";
+import quickAssessmentKnm from "@content/quick-assessment/knm.json";
+import quickAssessmentLezen from "@content/quick-assessment/lezen.json";
+import quickAssessmentLuisteren from "@content/quick-assessment/luisteren.json";
+import quickAssessmentSchrijven from "@content/quick-assessment/schrijven.json";
+import quickAssessmentSpreken from "@content/quick-assessment/spreken.json";
 
 // Schrijven content
-import schrijvenIndex from "@/content/schrijven/index.json";
-import emailSchoolSick from "@/content/schrijven/tasks/email-school-sick.json";
-import messageLandlordRepair from "@/content/schrijven/tasks/message-landlord-repair.json";
-import formCourseRegistration from "@/content/schrijven/tasks/form-course-registration.json";
-import replyColleagueShift from "@/content/schrijven/tasks/reply-colleague-shift.json";
-import formGpRegistration from "@/content/schrijven/tasks/form-gp-registration.json";
-import noteNeighbor from "@/content/schrijven/tasks/note-neighbor.json";
-import complaintWebshop from "@/content/schrijven/tasks/complaint-webshop.json";
-import messageTeacherAbsence from "@/content/schrijven/tasks/message-teacher-absence.json";
+import schrijvenIndex from "@content/schrijven/index.json";
+import emailSchoolSick from "@content/schrijven/tasks/email-school-sick.json";
+import messageLandlordRepair from "@content/schrijven/tasks/message-landlord-repair.json";
+import formCourseRegistration from "@content/schrijven/tasks/form-course-registration.json";
+import replyColleagueShift from "@content/schrijven/tasks/reply-colleague-shift.json";
+import formGpRegistration from "@content/schrijven/tasks/form-gp-registration.json";
+import noteNeighbor from "@content/schrijven/tasks/note-neighbor.json";
+import complaintWebshop from "@content/schrijven/tasks/complaint-webshop.json";
+import messageTeacherAbsence from "@content/schrijven/tasks/message-teacher-absence.json";
 
 // Spreken content
-import sprekenIndex from "@/content/spreken/index.json";
-import part1Homework from "@/content/spreken/tasks/part1-homework.json";
-import part2Lunch from "@/content/spreken/tasks/part2-lunch.json";
-import part3Education from "@/content/spreken/tasks/part3-education.json";
-import part4Classroom from "@/content/spreken/tasks/part4-classroom.json";
-import part1DailyRoutine from "@/content/spreken/tasks/part1-daily-routine.json";
-import part2Market from "@/content/spreken/tasks/part2-market.json";
-import part3Transport from "@/content/spreken/tasks/part3-transport.json";
-import part4Kitchen from "@/content/spreken/tasks/part4-kitchen.json";
-import a1Part1Family from "@/content/spreken/tasks/a1-part1-family.json";
-import a1Part2Food from "@/content/spreken/tasks/a1-part2-food.json";
-import a1Part3Rooms from "@/content/spreken/tasks/a1-part3-rooms.json";
-import a1Part4Morning from "@/content/spreken/tasks/a1-part4-morning.json";
+import sprekenIndex from "@content/spreken/index.json";
+import part1Homework from "@content/spreken/tasks/part1-homework.json";
+import part2Lunch from "@content/spreken/tasks/part2-lunch.json";
+import part3Education from "@content/spreken/tasks/part3-education.json";
+import part4Classroom from "@content/spreken/tasks/part4-classroom.json";
+import part1DailyRoutine from "@content/spreken/tasks/part1-daily-routine.json";
+import part2Market from "@content/spreken/tasks/part2-market.json";
+import part3Transport from "@content/spreken/tasks/part3-transport.json";
+import part4Kitchen from "@content/spreken/tasks/part4-kitchen.json";
+import a1Part1Family from "@content/spreken/tasks/a1-part1-family.json";
+import a1Part2Food from "@content/spreken/tasks/a1-part2-food.json";
+import a1Part3Rooms from "@content/spreken/tasks/a1-part3-rooms.json";
+import a1Part4Morning from "@content/spreken/tasks/a1-part4-morning.json";
 
 // ============================================
 // Data Maps
