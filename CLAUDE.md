@@ -456,31 +456,35 @@ API routes
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anonymous key
 - Azure TTS credentials (used in `app/api/tts/route.ts`)
 
-## Git Workflow
+## Git Workflow — Permanent 3-Worktree Setup
 
-Use git worktrees for parallel feature development. See `docs/WORKTREE-WORKFLOW.md` for full guide.
+Three permanent worktrees, one per work domain. See `docs/WORKTREE-WORKFLOW.md` for full guide.
+
+| Worktree | Prefix | Domain |
+|---|---|---|
+| `inburgering-app-features` | `features/` | New features |
+| `inburgering-app-bug-fix` | `fix/` | Bug fixes |
+| `inburgering-app-mktg` | `mktg/` | Marketing & content |
 
 **Key rules:**
-- Never work directly on main — always create a feature branch
+- Never work directly on main — always create a branch in the appropriate worktree
+- Worktrees sit in detached HEAD between tasks — `git checkout -b <prefix>/name` to start
 - Push branches immediately after creating them
 - Commit after each meaningful unit of work
-- Push before stepping away (lunch, meetings, end of day)
-- Clean up worktrees immediately after PR is merged
+- Merge via GitHub PR, never locally
 
-**Quick start:**
+**Start a task:**
 ```bash
-git fetch origin && git pull
-git worktree add ../inburgering-app-feature-name -b feature/feature-name
-cd ../inburgering-app-feature-name
-git push -u origin feature/feature-name
-claude
+cd ../inburgering-app-features
+git checkout -b features/my-feature
+# work, commit, push
 ```
 
-**After merge:**
+**After merge — reset worktree:**
 ```bash
-git worktree remove ../inburgering-app-feature-name
-git branch -d feature/feature-name
-git push origin --delete feature/feature-name
+git fetch origin && git checkout --detach origin/main
+git branch -d features/my-feature
+git push origin --delete features/my-feature
 ```
 
 ---
