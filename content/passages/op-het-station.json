@@ -1,0 +1,45 @@
+{
+  "id": "brief-van-de-gemeente",
+  "title": "Brief van de gemeente",
+  "contentType": "letter",
+  "instruction": "U krijgt een brief van de gemeente.\nLees eerst de vraag.\nLees daarna de brief.",
+  "difficulty": "A2",
+  "content": "Gemeente Amsterdam\nAfdeling Burgerzaken\n\nAmsterdam, 15 januari 2024\n\nGeachte heer/mevrouw Van der Berg,\n\nUw identiteitskaart verloopt over drie maanden, op 15 april 2024. Wij adviseren u om op tijd een nieuwe identiteitskaart aan te vragen.\n\nU kunt een nieuwe identiteitskaart aanvragen bij het gemeentehuis. Neem hiervoor het volgende mee:\n- Uw huidige identiteitskaart\n- Een recente pasfoto (niet ouder dan 6 maanden)\n- Het bedrag van € 64,85 (pinnen of contant)\n\nMaak eerst online een afspraak via www.amsterdam.nl/afspraak of bel naar 14 020.\n\nDe nieuwe identiteitskaart is na ongeveer vijf werkdagen klaar. U krijgt hiervan bericht.\n\nMet vriendelijke groet,\n\nTeam Burgerzaken\nGemeente Amsterdam",
+  "questions": [
+    {
+      "id": "brief-q1",
+      "text": "Waarom ontvangt de heer/mevrouw Van der Berg deze brief?",
+      "options": ["De identiteitskaart is verloren", "De identiteitskaart verloopt binnenkort", "Er is een probleem met de identiteitskaart", "De gemeente wil een pasfoto"],
+      "correctIndex": 1,
+      "explanation": "De brief zegt: 'Uw identiteitskaart verloopt over drie maanden.'"
+    },
+    {
+      "id": "brief-q2",
+      "text": "Waar kun je een nieuwe identiteitskaart aanvragen?",
+      "options": ["Bij de politie", "Bij het gemeentehuis", "Bij de bank", "Bij het postkantoor"],
+      "correctIndex": 1,
+      "explanation": "De brief zegt: 'U kunt een nieuwe identiteitskaart aanvragen bij het gemeentehuis.'"
+    },
+    {
+      "id": "brief-q3",
+      "text": "Hoeveel kost een nieuwe identiteitskaart?",
+      "options": ["€ 54,85", "€ 64,85", "€ 74,85", "€ 84,85"],
+      "correctIndex": 1,
+      "explanation": "De brief zegt: 'Het bedrag van € 64,85.'"
+    },
+    {
+      "id": "brief-q4",
+      "text": "Hoe oud mag de pasfoto maximaal zijn?",
+      "options": ["3 maanden", "6 maanden", "1 jaar", "2 jaar"],
+      "correctIndex": 1,
+      "explanation": "De brief zegt: 'Een recente pasfoto (niet ouder dan 6 maanden).'"
+    },
+    {
+      "id": "brief-q5",
+      "text": "Hoe lang duurt het voordat de nieuwe identiteitskaart klaar is?",
+      "options": ["2 werkdagen", "5 werkdagen", "10 werkdagen", "14 werkdagen"],
+      "correctIndex": 1,
+      "explanation": "De brief zegt: 'De nieuwe identiteitskaart is na ongeveer vijf werkdagen klaar.'"
+    }
+  ]
+}
