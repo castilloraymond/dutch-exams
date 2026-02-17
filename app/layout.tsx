@@ -5,6 +5,7 @@ import { AuthProvider } from "@/contexts/AuthContext";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { JsonLd } from "@/components/JsonLd";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { CookieConsent } from "@/components/CookieConsent";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
@@ -111,6 +112,7 @@ export default function RootLayout({
         <AuthProvider>
           {children}
           <FeedbackWidget />
+          <CookieConsent />
         </AuthProvider>
       </body>
     </html>

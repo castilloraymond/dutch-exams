@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { rateLimit } from "@/lib/rate-limit";
 
 const ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages";
 
@@ -51,6 +52,16 @@ interface RequestBody {
 
 export async function POST(request: NextRequest) {
   try {
+    // Rate limit: 10 requests per hour per IP
+    const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+    const { allowed, retryAfterMs } = rateLimit(`reddit-response:${ip}`, 10, 60 * 60 * 1000);
+    if (!allowed) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429, headers: { "Retry-After": String(Math.ceil(retryAfterMs / 1000)) } }
+      );
+    }
+
     const apiKey = process.env.ANTHROPIC_API_KEY;
 
     if (!apiKey) {
@@ -68,6 +79,20 @@ export async function POST(request: NextRequest) {
         { error: "Post text is required" },
         { status: 400 }
       );
+    }
+
+    // Type-check optional string fields before slicing
+    if (postTitle !== undefined && typeof postTitle !== "string") {
+      return NextResponse.json({ error: "Invalid postTitle" }, { status: 400 });
+    }
+    if (subreddit !== undefined && typeof subreddit !== "string") {
+      return NextResponse.json({ error: "Invalid subreddit" }, { status: 400 });
+    }
+    if (postType !== undefined && typeof postType !== "string") {
+      return NextResponse.json({ error: "Invalid postType" }, { status: 400 });
+    }
+    if (additionalContext !== undefined && typeof additionalContext !== "string") {
+      return NextResponse.json({ error: "Invalid additionalContext" }, { status: 400 });
     }
 
     const userMessage = buildUserMessage({

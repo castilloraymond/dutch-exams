@@ -34,6 +34,13 @@ Ongoing bug tracker for passinburgering.com. Detailed original report: [BUG_REPO
 | 9 | Writing uses self-assessment only | `/try/schrijven` | Open | No actual evaluation of writing quality |
 | 10 | No homepage nav from assessments | `/try/*` | Open | Missing logo/home link in assessment header |
 
+### Security — Deferred (requires infrastructure)
+
+| # | Issue | Location | Status | Notes |
+|---|-------|----------|--------|-------|
+| 11 | In-memory rate limiter resets on each serverless invocation | `lib/rate-limit.ts` | Open | Replace with Upstash Redis for Vercel. Current limiter still prevents rapid bursts within a single instance. |
+| 12 | No server-side route protection in middleware | `middleware.ts` | Open | Content is static JSON (not sensitive) and API routes already check auth. Low real-world risk but should be added for defense-in-depth. |
+
 ## Fixed Bugs
 
 | # | Bug | Fixed Date | Commit |

@@ -26,7 +26,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const email = user.email!;
+    const email = user.email;
+    if (!email) {
+      return NextResponse.json(
+        { error: "User email not available" },
+        { status: 400 }
+      );
+    }
 
     // Rate limit: 30 requests per 15 minutes per user
     const { allowed, retryAfterMs } = rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
@@ -44,6 +50,14 @@ export async function POST(request: NextRequest) {
     if (!progress) {
       return NextResponse.json(
         { error: "Progress data is required" },
+        { status: 400 }
+      );
+    }
+
+    // Cap payload size to prevent oversized writes
+    if (JSON.stringify(progress).length > 100000) {
+      return NextResponse.json(
+        { error: "Progress data too large" },
         { status: 400 }
       );
     }
@@ -105,7 +119,13 @@ export async function GET(_request: NextRequest) {
       );
     }
 
-    const email = user.email!;
+    const email = user.email;
+    if (!email) {
+      return NextResponse.json(
+        { error: "User email not available" },
+        { status: 400 }
+      );
+    }
 
     // Rate limit: 30 requests per 15 minutes per user
     const { allowed, retryAfterMs } = rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);

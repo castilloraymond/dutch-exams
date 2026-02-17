@@ -54,6 +54,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Whitelist module and difficulty values
+    const VALID_MODULES = ["lezen", "knm", "luisteren", "schrijven", "spreken"];
+    const VALID_DIFFICULTIES = ["A1", "A2"];
+    if (!VALID_MODULES.includes(module)) {
+      return NextResponse.json({ error: "Invalid module" }, { status: 400 });
+    }
+    if (!VALID_DIFFICULTIES.includes(difficulty)) {
+      return NextResponse.json({ error: "Invalid difficulty" }, { status: 400 });
+    }
+
+    // Cap answerData size to prevent oversized payloads
+    if (answerData && JSON.stringify(answerData).length > 50000) {
+      return NextResponse.json({ error: "Answer data too large" }, { status: 400 });
+    }
+
     // Validate score values
     if (
       !Number.isInteger(score) || score < 0 ||
