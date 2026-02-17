@@ -2,9 +2,10 @@
 title: "How the Lezen (Reading) Exam Works: Format, Scoring & What to Expect"
 slug: "lezen-reading-exam-format-scoring"
 description: "Everything about the inburgering Lezen reading exam — format, question types, scoring, time limits, and proven strategies to pass on your first try."
-date: "2026-02-17"
+date: "2026-01-30"
 author: "PassInBurgering"
 keywords: ["lezen exam", "inburgering reading exam", "lezen format", "reading exam Netherlands", "inburgering lezen tips"]
+category: "Exam Guides"
 ---
 
 # How the Lezen (Reading) Exam Works: Format, Scoring & What to Expect

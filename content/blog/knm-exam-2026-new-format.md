@@ -2,9 +2,10 @@
 title: "KNM Exam 2025 Changes: What You Need to Know About the New Format"
 slug: "knm-exam-2026-new-format"
 description: "The KNM exam was completely redesigned in July 2025 — new topics, new format, higher pass threshold. Here's what changed and how to prepare efficiently."
-date: "2026-02-10"
+date: "2026-01-14"
 author: "PassInBurgering"
 keywords: ["KNM exam 2025", "KNM new format", "Kennis Nederlandse Maatschappij", "KNM exam changes"]
+category: "Exam Guides"
 ---
 
 # KNM Exam 2025 Changes: What You Need to Know About the New Format

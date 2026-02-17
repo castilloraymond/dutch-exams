@@ -2,9 +2,11 @@
 title: "The 30-Day Inburgering Study Plan for Busy Professionals"
 slug: "30-day-inburgering-study-plan"
 description: "A realistic 30-day study plan for passing all 6 inburgering exam components. Built for working professionals who can't quit their jobs to study Dutch."
-date: "2026-02-17"
+date: "2026-01-28"
 author: "PassInBurgering"
 keywords: ["inburgering study plan", "30 day inburgering", "inburgering exam preparation", "study schedule inburgering"]
+category: "Strategy"
+featured: true
 ---
 
 You've been putting off the inburgering exam for months. Maybe years. You know you need it for permanent residence, but between work, social life, and the sheer confusion of the Dutch bureaucratic system, studying keeps falling to the bottom of the list.
@@ -201,21 +203,21 @@ This is a genuine advantage. The Wi2021 pathway (for newer obligatory inburgeraa
 
 For the full breakdown of who falls under which law, read our [professional's guide to the inburgering exam](/blog/inburgering-exam-guide-professionals-2026).
 
-## Common Questions
+## Frequently Asked Questions
 
-**Can I study for all 6 components at once?**
+### Can I study for all 6 components at once?
 Yes, and you should. The components overlap more than you'd think — KNM knowledge helps with reading comprehension, speaking practice improves your writing, and general Dutch exposure lifts everything. This plan has you rotating through all components deliberately.
 
-**What if I fail one component?**
+### What if I fail one component?
 You retake only the failed component. Your passed components stay valid (they don't expire until your inburgering deadline). Most retakes happen within 2 to 4 weeks.
 
-**Is 1 to 2 hours per day really enough?**
+### Is 1 to 2 hours per day really enough?
 For A2-level exams with structured practice? Yes. The key word is *structured*. Scrolling through Dutch Instagram for an hour doesn't count. Doing timed practice exams does.
 
-**Should I take a course or self-study?**
+### Should I take a course or self-study?
 For most professionals, self-study with good practice materials is more efficient than group courses. Courses move at the pace of the slowest student. Self-study lets you focus on what *you* need. That said, if your Dutch is below A1, a short beginner course can help build the foundation faster.
 
-**What's the best order to take the exams?**
+### What's the best order to take the exams?
 Book KNM first — it's the quickest to prepare for and doesn't depend on language level. Then Lezen and Luisteren (multiple choice, less stressful). Save Schrijven and Spreken for last since they benefit most from cumulative practice.
 
 ## Your Next Step

@@ -2,9 +2,10 @@
 title: "7 Inburgering Mistakes That Cost Expats Months of Extra Prep"
 slug: "inburgering-mistakes-expats-avoid"
 description: "The 7 most common inburgering prep mistakes expats make — and the concrete fixes that save you months of wasted time and hundreds of euros."
-date: "2026-02-17"
+date: "2026-02-13"
 author: "PassInBurgering"
 keywords: ["inburgering mistakes", "inburgering tips", "common errors inburgering", "expat inburgering advice", "inburgering preparation mistakes"]
+category: "Strategy"
 ---
 
 # 7 Inburgering Mistakes That Cost Expats Months of Extra Prep

@@ -2,9 +2,10 @@
 title: "Inburgering Exam Costs in 2026: Full Breakdown of Fees"
 slug: "inburgering-exam-costs-2026"
 description: "Every fee you'll pay for the inburgering exams in 2026 — DUO exam costs, retake fees, hidden expenses, and how to save money on your path to PR."
-date: "2026-02-17"
+date: "2026-01-23"
 author: "PassInBurgering"
 keywords: ["inburgering exam costs", "inburgering fees 2026", "DUO exam fees", "inburgering price", "inburgering exam cost per component"]
+category: "Legal & Admin"
 ---
 
 # Inburgering Exam Costs in 2026: Full Breakdown of Fees

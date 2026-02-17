@@ -2,9 +2,10 @@
 title: "Dutch Healthcare for Expats: How the System Works (and What KNM Tests You On)"
 slug: "dutch-healthcare-expats-knm-guide"
 description: "How the Dutch healthcare system works for expats — from huisarts to hospital — plus the KNM exam questions you need to know about it."
-date: "2026-02-17"
+date: "2026-02-06"
 author: "PassInBurgering"
 keywords: ["Dutch healthcare expats", "KNM healthcare questions", "zorgverzekering", "huisarts system Netherlands", "Dutch health insurance expats"]
+category: "Dutch Society"
 ---
 
 # Dutch Healthcare for Expats: How the System Works (and What KNM Tests You On)

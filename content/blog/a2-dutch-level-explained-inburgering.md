@@ -2,9 +2,10 @@
 title: "A2 Dutch: What Does It Actually Mean and How Good Do You Need to Be?"
 slug: "a2-dutch-level-explained-inburgering"
 description: "What A2 Dutch really means for the inburgering exam — real examples, self-assessment tips, and how to close the gap between A1 and A2."
-date: "2026-02-17"
+date: "2026-02-04"
 author: "PassInBurgering"
 keywords: ["A2 Dutch level", "CEFR A2", "Dutch language level inburgering", "A2 vs B1 Dutch", "A2 Dutch examples"]
+category: "Language Tips"
 ---
 
 # A2 Dutch: What Does It Actually Mean and How Good Do You Need to Be?
