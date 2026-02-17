@@ -45,6 +45,18 @@ const VOICE_MAP: Record<string, string> = {
   lerares: "nl-NL-ColetteNeural",
   doktersassistente: "nl-NL-ColetteNeural",
   receptionist: "nl-NL-ColetteNeural", // Professional female role
+  fatima: "nl-NL-FennaNeural",
+  maria: "nl-NL-ColetteNeural",
+  sanne: "nl-NL-FennaNeural",
+  sara: "nl-NL-FennaNeural",
+  sarah: "nl-NL-FennaNeural",
+  "mevrouw aydin": "nl-NL-FennaNeural",
+  "mevrouw bakker": "nl-NL-ColetteNeural",
+  "juf marieke": "nl-NL-ColetteNeural",
+  "juf van dam": "nl-NL-ColetteNeural",
+  huurder: "nl-NL-FennaNeural",
+  bibliothecaris: "nl-NL-ColetteNeural",
+  "ingesproken bericht": "nl-NL-ColetteNeural",
 
   // Male voices - Maarten
   bakker: "nl-NL-MaartenNeural",
@@ -69,7 +81,25 @@ const VOICE_MAP: Record<string, string> = {
   jansen: "nl-NL-MaartenNeural",
   "meneer jansen": "nl-NL-MaartenNeural",
   mohammed: "nl-NL-MaartenNeural",
-  werknemer: "nl-NL-MaartenNeural", // Erik de Vries in a2-exam-3
+  werknemer: "nl-NL-MaartenNeural",
+  kapper: "nl-NL-MaartenNeural",
+  slager: "nl-NL-MaartenNeural",
+  dierenarts: "nl-NL-MaartenNeural",
+  makelaar: "nl-NL-MaartenNeural",
+  notaris: "nl-NL-MaartenNeural",
+  tandarts: "nl-NL-MaartenNeural",
+  therapeut: "nl-NL-MaartenNeural",
+  adviseur: "nl-NL-MaartenNeural",
+  manager: "nl-NL-MaartenNeural",
+  omroeper: "nl-NL-MaartenNeural",
+  eigenaar: "nl-NL-MaartenNeural",
+  verhuurder: "nl-NL-MaartenNeural",
+  tom: "nl-NL-MaartenNeural",
+  "meneer bakker": "nl-NL-MaartenNeural",
+  "meneer hassan": "nl-NL-MaartenNeural",
+  "medewerker ns": "nl-NL-MaartenNeural",
+  kind: "nl-NL-FennaNeural",
+  kinderen: "nl-NL-FennaNeural",
 };
 
 // Pitch variations for male voice variety (only one male voice available)
@@ -80,12 +110,24 @@ const PITCH_MAP: Record<string, string> = {
   werkgever: "-5%",
   leidinggevende: "-3%",
   apotheker: "-3%",
+  notaris: "-5%",
+  manager: "-3%",
+  tandarts: "-3%",
 
   // Service staff - neutral
   medewerker: "0%",
   verkoper: "0%",
   ober: "0%",
   loketmedewerker: "0%",
+  kapper: "0%",
+  slager: "0%",
+  makelaar: "0%",
+  dierenarts: "0%",
+  therapeut: "0%",
+  adviseur: "0%",
+  verhuurder: "0%",
+  omroeper: "0%",
+  "medewerker ns": "0%",
 
   // Casual/younger - slightly higher
   buurman: "+3%",
@@ -94,6 +136,8 @@ const PITCH_MAP: Record<string, string> = {
   jan: "+2%",
   erik: "+2%",
   mohammed: "+2%",
+  tom: "+2%",
+  eigenaar: "+2%",
 };
 
 // Default voices for unknown speakers
@@ -373,7 +417,11 @@ async function main(): Promise<void> {
   console.log("\nPART 2: Mock Exam Transcripts");
   console.log("-----------------------------");
 
-  const mockExamIds = ["a1-exam-1", "a1-exam-2", "a2-exam-1", "a2-exam-2", "a2-exam-3", "a2-exam-4"];
+  const mockExamIds = [
+    "a1-exam-1", "a1-exam-2", "a1-exam-3", "a1-exam-4",
+    "a2-exam-1", "a2-exam-2", "a2-exam-3", "a2-exam-4",
+    "a2-exam-5", "a2-exam-6", "a2-exam-7", "a2-exam-8",
+  ];
   const mockExamsDir = path.join(process.cwd(), "content", "mock-exams", "luisteren");
   const mockOutputDir = path.join(process.cwd(), "public", "audio", "luisteren", "mock");
 

@@ -42,6 +42,48 @@
       "difficulty": "A2",
       "questionCount": 20,
       "recommendedTime": "45 min"
+    },
+    {
+      "id": "luisteren-a1-3",
+      "title": "Luisteren A1 - Oefenexamen 3",
+      "difficulty": "A1",
+      "questionCount": 15,
+      "recommendedTime": "30 min"
+    },
+    {
+      "id": "luisteren-a1-4",
+      "title": "Luisteren A1 - Oefenexamen 4",
+      "difficulty": "A1",
+      "questionCount": 15,
+      "recommendedTime": "30 min"
+    },
+    {
+      "id": "luisteren-a2-5",
+      "title": "Luisteren A2 - Oefenexamen 5",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "45 min"
+    },
+    {
+      "id": "luisteren-a2-6",
+      "title": "Luisteren A2 - Oefenexamen 6",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "45 min"
+    },
+    {
+      "id": "luisteren-a2-7",
+      "title": "Luisteren A2 - Oefenexamen 7",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "45 min"
+    },
+    {
+      "id": "luisteren-a2-8",
+      "title": "Luisteren A2 - Oefenexamen 8",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "45 min"
     }
   ]
 }

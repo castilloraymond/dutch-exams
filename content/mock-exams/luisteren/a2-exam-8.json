@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-8",
+  "title": "Luisteren A2 - Oefenexamen 8",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-8-t1",
+      "title": "Inschrijving bij de bibliotheek",
+      "transcript": "Bibliothecaris: Goedemiddag, welkom bij de Openbare Bibliotheek Utrecht. Waarmee kan ik u helpen?\nBezoeker: Hallo, ik wil me graag inschrijven als lid. Wat heb ik daarvoor nodig?\nBibliothecaris: U heeft een geldig identiteitsbewijs nodig en een bewijs van uw adres. Het lidmaatschap is helemaal gratis.\nBezoeker: Dat is mooi. Hoeveel boeken mag ik tegelijk lenen?\nBibliothecaris: U mag maximaal tien items tegelijk lenen. Dat kunnen boeken, dvd's of tijdschriften zijn. De uitleentermijn is drie weken.\nBezoeker: En als ik te laat ben met terugbrengen?\nBibliothecaris: Dan betaalt u dertig cent per dag per item. Maar u kunt online verlengen als u meer tijd nodig heeft.\nBezoeker: Hebben jullie ook e-books?\nBibliothecaris: Ja, via onze app kunt u e-books en luisterboeken downloaden. Verder hebben we computers die u gratis mag gebruiken. En op zaterdagochtend is er een voorleesuurtje voor kinderen van vier tot acht jaar.\nBezoeker: Geweldig, mijn dochter is zes. Dat is perfect voor haar.",
+      "questions": [
+        {
+          "id": "l-a2-8-q1",
+          "text": "Wat kost het lidmaatschap van de bibliotheek?",
+          "options": [
+            "Het is gratis",
+            "Vijf euro per jaar",
+            "Tien euro per jaar",
+            "Dertig cent per maand"
+          ],
+          "correctIndex": 0,
+          "explanation": "De bibliothecaris zegt dat het lidmaatschap helemaal gratis is."
+        },
+        {
+          "id": "l-a2-8-q2",
+          "text": "Hoeveel items mag je maximaal tegelijk lenen?",
+          "options": [
+            "Vijf items",
+            "Twaalf items",
+            "Acht items",
+            "Tien items"
+          ],
+          "correctIndex": 3,
+          "explanation": "De bibliothecaris zegt dat je maximaal tien items tegelijk mag lenen."
+        },
+        {
+          "id": "l-a2-8-q3",
+          "text": "Hoeveel boete betaal je per dag als je te laat bent?",
+          "options": [
+            "Dertig cent per item",
+            "Vijftig cent per item",
+            "Twintig cent per item",
+            "Een euro per item"
+          ],
+          "correctIndex": 0,
+          "explanation": "De bibliothecaris zegt dat je dertig cent per dag per item betaalt als je te laat bent."
+        },
+        {
+          "id": "l-a2-8-q4",
+          "text": "Wanneer is het voorleesuurtje voor kinderen?",
+          "options": [
+            "Woensdagmiddag",
+            "Zaterdagochtend",
+            "Vrijdagmiddag",
+            "Zondagochtend"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het voorleesuurtje voor kinderen is op zaterdagochtend."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-8-t1.mp3"
+    },
+    {
+      "id": "l-a2-8-t2",
+      "title": "Gesprek bij de belastingdienst",
+      "transcript": "Adviseur: Goedemorgen, u heeft een afspraak voor hulp bij uw belastingaangifte?\nBezoeker: Ja, klopt. Ik vind het nogal ingewikkeld en ik wil zeker weten dat ik het goed doe.\nAdviseur: Dat begrijp ik. Allereerst is de deadline voor de aangifte één mei. Heeft u al ingelogd op Mijn Belastingdienst?\nBezoeker: Nee, nog niet. Hoe werkt dat?\nAdviseur: U logt in met uw DigiD. Veel gegevens zijn dan al automatisch ingevuld, zoals uw inkomen en uw hypotheekgegevens.\nBezoeker: Kan ik ook aftrekposten opgeven? Ik heb vorig jaar hoge zorgkosten gehad.\nAdviseur: Zeker. Zorgkosten boven een bepaald bedrag kunt u aftrekken. Ook studiekosten zijn aftrekbaar als u een opleiding heeft gevolgd voor uw werk.\nBezoeker: Ik heb inderdaad een cursus gevolgd. Hoeveel was die drempel voor zorgkosten?\nAdviseur: Dat hangt af van uw inkomen, maar ik help u daar zo mee. Heeft u alle bonnetjes en nota's bewaard?\nBezoeker: Ja, ik heb alles verzameld.\nAdviseur: Prima. Dan vullen we het samen in. Na het indienen kunt u de teruggave binnen drie maanden verwachten.",
+      "questions": [
+        {
+          "id": "l-a2-8-q5",
+          "text": "Wat is de deadline voor de belastingaangifte?",
+          "options": [
+            "Eén maart",
+            "Eén juni",
+            "Eén april",
+            "Eén mei"
+          ],
+          "correctIndex": 3,
+          "explanation": "De adviseur zegt dat de deadline voor de aangifte één mei is."
+        },
+        {
+          "id": "l-a2-8-q6",
+          "text": "Hoe log je in op Mijn Belastingdienst?",
+          "options": [
+            "Met DigiD",
+            "Met een sms-code",
+            "Met een wachtwoord",
+            "Met je paspoortnummer"
+          ],
+          "correctIndex": 0,
+          "explanation": "De adviseur legt uit dat je inlogt met je DigiD."
+        },
+        {
+          "id": "l-a2-8-q7",
+          "text": "Welke kosten zijn NIET genoemd als mogelijke aftrekpost?",
+          "options": [
+            "Zorgkosten",
+            "Studiekosten",
+            "Reiskosten",
+            "Zorgkosten en studiekosten zijn allebei genoemd"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur noemt zorgkosten en studiekosten als aftrekposten. Reiskosten worden niet genoemd."
+        },
+        {
+          "id": "l-a2-8-q8",
+          "text": "Binnen welke termijn kun je de teruggave verwachten?",
+          "options": [
+            "Binnen zes maanden",
+            "Binnen drie maanden",
+            "Binnen twee maanden",
+            "Binnen één maand"
+          ],
+          "correctIndex": 1,
+          "explanation": "De adviseur zegt dat je de teruggave binnen drie maanden kunt verwachten."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-8-t2.mp3"
+    },
+    {
+      "id": "l-a2-8-t3",
+      "title": "Bericht van de huisartsenpraktijk",
+      "transcript": "Goedemiddag, u luistert naar een bericht van Huisartsenpraktijk Centrum, gevestigd aan de Kerkstraat tweeëntwintig.\nWij willen u informeren over een aantal veranderingen in onze praktijk. Per één maart verwelkomen wij een nieuwe huisarts: dokter De Vries. Zij neemt een deel van de patiënten over van dokter Bakker, die met pensioen gaat.\nVoor bestaande patiënten hoeft u niets te doen. Uw inschrijving wordt automatisch overgezet. Nieuwe patiënten kunnen zich aanmelden via onze website of aan de balie.\nDaarnaast veranderen onze openingstijden. Vanaf volgende maand hebben wij ook een avondspreekuur op donderdag van zeventien tot twintig uur. U kunt hiervoor telefonisch of online een afspraak maken.\nTot slot: de griepvaccinatie is dit jaar beschikbaar vanaf vijftien oktober. Patiënten die in aanmerking komen, ontvangen een uitnodiging per brief. U hoeft ons niet te bellen.\nBedankt voor uw aandacht en tot ziens.",
+      "questions": [
+        {
+          "id": "l-a2-8-q9",
+          "text": "Waarom komt er een nieuwe huisarts bij de praktijk?",
+          "options": [
+            "De praktijk wordt groter",
+            "Dokter Bakker gaat met pensioen",
+            "Dokter Bakker is ziek",
+            "Er zijn te veel nieuwe patiënten"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dokter De Vries neemt patiënten over van dokter Bakker, die met pensioen gaat."
+        },
+        {
+          "id": "l-a2-8-q10",
+          "text": "Wat moeten bestaande patiënten doen voor de overstap?",
+          "options": [
+            "Een formulier invullen",
+            "De praktijk bellen",
+            "Langskomen aan de balie",
+            "Niets, het gaat automatisch"
+          ],
+          "correctIndex": 3,
+          "explanation": "Voor bestaande patiënten wordt de inschrijving automatisch overgezet. Zij hoeven niets te doen."
+        },
+        {
+          "id": "l-a2-8-q11",
+          "text": "Wanneer is het nieuwe avondspreekuur?",
+          "options": [
+            "Donderdag van 17:00 tot 20:00",
+            "Woensdag van 17:00 tot 20:00",
+            "Maandag van 18:00 tot 21:00",
+            "Vrijdag van 18:00 tot 20:00"
+          ],
+          "correctIndex": 0,
+          "explanation": "Het nieuwe avondspreekuur is op donderdag van zeventien tot twintig uur."
+        },
+        {
+          "id": "l-a2-8-q12",
+          "text": "Hoe worden patiënten uitgenodigd voor de griepvaccinatie?",
+          "options": [
+            "Via een telefoontje",
+            "Via e-mail",
+            "Via een brief",
+            "Via de website"
+          ],
+          "correctIndex": 2,
+          "explanation": "Patiënten die in aanmerking komen ontvangen een uitnodiging per brief."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-8-t3.mp3"
+    },
+    {
+      "id": "l-a2-8-t4",
+      "title": "Op de fiets",
+      "transcript": "Sanne: Hé Mark, jij bent toch ook overgeplaatst naar het nieuwe kantoor aan de Wilhelminalaan?\nMark: Ja, volgende week maandag begin ik daar. Maar ik weet niet precies hoe ik er moet fietsen. Ken jij de weg?\nSanne: Ja hoor. De snelste route is via de Hoofdstraat, maar die is heel druk in de ochtendspits. Ik raad je het fietspad langs het kanaal aan. Dat is veel rustiger en veiliger.\nMark: Oké, en hoe kom ik daar?\nSanne: Je fietst vanaf het station rechtdoor tot aan de brug. Dan ga je links het fietspad op langs het kanaal. Na ongeveer tien minuten zie je het kantoor aan je rechterhand.\nMark: Moet ik nog langs dat grote kruispunt bij de Marktstraat?\nSanne: Nee, als je via het kanaal gaat, vermijd je dat kruispunt helemaal. Dat is juist het voordeel.\nMark: Perfect. En waar kan ik mijn fiets parkeren?\nSanne: Er is een grote fietsenstalling achter het gebouw. Die is overdekt en er hangen beveiligingscamera's. Gebruik wel altijd twee sloten, want er wordt helaas nog weleens een fiets gestolen in de buurt.\nMark: Goed om te weten. Bedankt, Sanne!",
+      "questions": [
+        {
+          "id": "l-a2-8-q13",
+          "text": "Waarom raadt Sanne het fietspad langs het kanaal aan?",
+          "options": [
+            "Het is de kortste route",
+            "Het is rustiger en veiliger",
+            "Er zijn mooie uitzichten",
+            "Het is de enige route"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sanne zegt dat het fietspad langs het kanaal veel rustiger en veiliger is dan de Hoofdstraat."
+        },
+        {
+          "id": "l-a2-8-q14",
+          "text": "Hoe lang duurt de fietsroute langs het kanaal ongeveer?",
+          "options": [
+            "Vijf minuten",
+            "Vijftien minuten",
+            "Twintig minuten",
+            "Tien minuten"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sanne zegt dat je na ongeveer tien minuten het kantoor ziet aan je rechterhand."
+        },
+        {
+          "id": "l-a2-8-q15",
+          "text": "Waar is de fietsenstalling?",
+          "options": [
+            "Voor het gebouw",
+            "Achter het gebouw",
+            "In de kelder van het gebouw",
+            "Naast het gebouw"
+          ],
+          "correctIndex": 1,
+          "explanation": "De fietsenstalling is achter het gebouw. Die is overdekt en er hangen beveiligingscamera's."
+        },
+        {
+          "id": "l-a2-8-q16",
+          "text": "Welke tip geeft Sanne om fietsdiefstal te voorkomen?",
+          "options": [
+            "Neem je fiets mee naar binnen",
+            "Parkeer alleen overdag",
+            "Gebruik altijd twee sloten",
+            "Koop een GPS-tracker"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sanne adviseert om altijd twee sloten te gebruiken, want er wordt weleens een fiets gestolen in de buurt."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-8-t4.mp3"
+    },
+    {
+      "id": "l-a2-8-t5",
+      "title": "Vergadering schoolreisje",
+      "transcript": "Juf Van Dam: Goedenavond allemaal, fijn dat jullie er zijn. We gaan vanavond het schoolreisje van groep zes bespreken.\nOuder 1: Waar gaan de kinderen naartoe dit jaar?\nJuf Van Dam: We hebben gekozen voor de Efteling. De datum is vijftien juni, dat is een maandag.\nOuder 2: Wat zijn de kosten per kind?\nJuf Van Dam: Vijfentwintig euro per kind, inclusief de bus en de toegang. Het overblijfgeld voor eten en drinken is niet inbegrepen. We raden vijf euro zakgeld aan.\nOuder 1: Wanneer moeten de toestemmingsformulieren ingeleverd zijn?\nJuf Van Dam: Uiterlijk één juni. Zonder formulier mag uw kind helaas niet mee. U kunt het formulier downloaden van de schoolwebsite.\nOuder 2: Wat moeten de kinderen meenemen?\nJuf Van Dam: Comfortabele schoenen, een regenjas voor het geval dat, een lunchpakket en natuurlijk het zakgeld. Geen snoep alstublieft, in verband met allergieën.\nOuder 1: Zijn er genoeg begeleiders?\nJuf Van Dam: We hebben minimaal vier oudervrijwilligers nodig naast de twee leerkrachten. Wie zich wil opgeven, kan dat vanavond bij mij doen of via de mail.",
+      "questions": [
+        {
+          "id": "l-a2-8-q17",
+          "text": "Hoeveel kost het schoolreisje per kind?",
+          "options": [
+            "Vijftien euro",
+            "Vijfentwintig euro",
+            "Twintig euro",
+            "Dertig euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "Juf Van Dam zegt dat het vijfentwintig euro per kind kost, inclusief de bus en de toegang."
+        },
+        {
+          "id": "l-a2-8-q18",
+          "text": "Wanneer moeten de toestemmingsformulieren ingeleverd zijn?",
+          "options": [
+            "Uiterlijk vijftien mei",
+            "Uiterlijk één juni",
+            "Uiterlijk vijftien juni",
+            "Uiterlijk één juli"
+          ],
+          "correctIndex": 1,
+          "explanation": "De toestemmingsformulieren moeten uiterlijk één juni ingeleverd zijn."
+        },
+        {
+          "id": "l-a2-8-q19",
+          "text": "Waarom mogen de kinderen geen snoep meenemen?",
+          "options": [
+            "De Efteling staat het niet toe",
+            "Het is te duur",
+            "Het is niet gezond",
+            "In verband met allergieën"
+          ],
+          "correctIndex": 3,
+          "explanation": "De juf zegt: geen snoep alstublieft, in verband met allergieën."
+        },
+        {
+          "id": "l-a2-8-q20",
+          "text": "Hoeveel oudervrijwilligers zijn er minimaal nodig?",
+          "options": [
+            "Vier",
+            "Drie",
+            "Zes",
+            "Twee"
+          ],
+          "correctIndex": 0,
+          "explanation": "Er zijn minimaal vier oudervrijwilligers nodig naast de twee leerkrachten."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-8-t5.mp3"
+    }
+  ]
+}

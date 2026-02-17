@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-7",
+  "title": "Luisteren A2 - Oefenexamen 7",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-7-t1",
+      "title": "Bij het Werkplein",
+      "transcript": "Adviseur: Goedemorgen, u bent mevrouw Aydin? Welkom bij het Werkplein. Gaat u zitten.\nMevrouw Aydin: Dank u wel. Ik ben op zoek naar een opleiding om weer aan het werk te gaan.\nAdviseur: Wat voor werk deed u voordat u naar Nederland kwam?\nMevrouw Aydin: Ik werkte als receptioniste, maar mijn diploma wordt hier niet erkend.\nAdviseur: Ik begrijp het. We hebben op dit moment drie opleidingen beschikbaar: administratie, zorg en techniek. Wat past het beste bij uw ervaring?\nMevrouw Aydin: Administratie lijkt me het meest geschikt. Hoe lang duurt die opleiding?\nAdviseur: De opleiding administratie duurt zes maanden en is vier dagen per week. Het UWV kan de kosten voor u vergoeden als u een uitkering heeft.\nMevrouw Aydin: Ja, ik heb een WW-uitkering. Hoe kan ik me aanmelden?\nAdviseur: U vult het aanmeldformulier in op onze website. Ik stuur u de link per e-mail. Daarna heeft u een intakegesprek op dinsdag 4 maart.\nMevrouw Aydin: Dat is prima. Moet ik nog iets meenemen naar dat gesprek?\nAdviseur: Ja, neem uw identiteitsbewijs, uw CV en uw bewijs van het UWV mee.",
+      "questions": [
+        {
+          "id": "l-a2-7-q1",
+          "text": "Waarom heeft mevrouw Aydin een opleiding nodig?",
+          "options": [
+            "Haar diploma wordt in Nederland niet erkend",
+            "Ze wil een hoger salaris verdienen",
+            "Ze is haar baan kwijtgeraakt door bezuinigingen",
+            "Ze wil van beroep veranderen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mevrouw Aydin zegt dat ze als receptioniste werkte, maar dat haar diploma hier niet erkend wordt."
+        },
+        {
+          "id": "l-a2-7-q2",
+          "text": "Welke opleiding kiest mevrouw Aydin?",
+          "options": [
+            "Zorg",
+            "Techniek",
+            "Administratie",
+            "Receptiewerk"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mevrouw Aydin zegt dat administratie haar het meest geschikt lijkt."
+        },
+        {
+          "id": "l-a2-7-q3",
+          "text": "Hoe lang duurt de opleiding en hoe vaak is die per week?",
+          "options": [
+            "Drie maanden, vijf dagen per week",
+            "Twaalf maanden, twee dagen per week",
+            "Zes maanden, drie dagen per week",
+            "Zes maanden, vier dagen per week"
+          ],
+          "correctIndex": 3,
+          "explanation": "De adviseur zegt dat de opleiding administratie zes maanden duurt en vier dagen per week is."
+        },
+        {
+          "id": "l-a2-7-q4",
+          "text": "Wat moet mevrouw Aydin meenemen naar het intakegesprek?",
+          "options": [
+            "Haar paspoort en diploma",
+            "Alleen haar CV en een pasfoto",
+            "Haar identiteitsbewijs, CV en UWV-bewijs",
+            "Haar werkgeversverklaring en bankafschrift"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt dat ze haar identiteitsbewijs, CV en bewijs van het UWV moet meenemen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-7-t1.mp3"
+    },
+    {
+      "id": "l-a2-7-t2",
+      "title": "Gesprek bij de notaris",
+      "transcript": "Notaris: Goedemiddag, u bent meneer en mevrouw Bakker? Ik ben notaris De Vries. Neemt u plaats.\nMeneer Bakker: Goedemiddag, wij komen voor het huurcontract van de woning aan de Kastanjelaan 17.\nNotaris: Klopt. Ik loop de belangrijkste punten met u door. De maandelijkse huur is elfhonderd euro, inclusief servicekosten.\nMevrouw Bakker: En hoe zit het met de borg?\nNotaris: De borg bedraagt twee maanden huur, dus tweeëntwintigenhonderd euro. Die betaalt u voor de sleuteloverdracht.\nMeneer Bakker: Wanneer krijgen we die borg terug?\nNotaris: Bij het einde van het contract, als er geen schade is. De opzegtermijn is twee maanden. U moet schriftelijk opzeggen per aangetekende brief.\nMevrouw Bakker: Wat zijn onze verplichtingen als huurder?\nNotaris: U bent verantwoordelijk voor klein onderhoud, zoals het vervangen van lampen en het onderhouden van de tuin. Groot onderhoud, zoals het dak of de cv-ketel, is voor de verhuurder.\nMeneer Bakker: En de inschrijving bij de gemeente?\nNotaris: Na ondertekening ontvangt u een kopie van het contract. Daarmee kunt u zich inschrijven bij de gemeente op het nieuwe adres. Dat moet binnen vijf dagen na de verhuizing.\nMevrouw Bakker: Kunnen we nu tekenen?\nNotaris: Ja, u tekent allebei hier onderaan pagina zes en zeven.",
+      "questions": [
+        {
+          "id": "l-a2-7-q5",
+          "text": "Hoeveel bedraagt de maandelijkse huur?",
+          "options": [
+            "€ 1.000",
+            "€ 1.200",
+            "€ 2.200",
+            "€ 1.100"
+          ],
+          "correctIndex": 3,
+          "explanation": "De notaris zegt dat de maandelijkse huur elfhonderd euro is, inclusief servicekosten."
+        },
+        {
+          "id": "l-a2-7-q6",
+          "text": "Hoe hoog is de borg en wanneer moet die betaald worden?",
+          "options": [
+            "€ 1.100, bij ondertekening",
+            "€ 2.200, bij het einde van het contract",
+            "€ 2.200, voor de sleuteloverdracht",
+            "€ 3.300, bij de verhuizing"
+          ],
+          "correctIndex": 2,
+          "explanation": "De borg is tweeëntwintigenhonderd euro en moet betaald worden voor de sleuteloverdracht."
+        },
+        {
+          "id": "l-a2-7-q7",
+          "text": "Wie is verantwoordelijk voor het onderhoud van de cv-ketel?",
+          "options": [
+            "De huurder",
+            "De notaris",
+            "De gemeente",
+            "De verhuurder"
+          ],
+          "correctIndex": 3,
+          "explanation": "De notaris legt uit dat groot onderhoud, zoals de cv-ketel, voor de verhuurder is."
+        },
+        {
+          "id": "l-a2-7-q8",
+          "text": "Binnen hoeveel dagen moet je je inschrijven bij de gemeente na de verhuizing?",
+          "options": [
+            "Binnen vijf dagen",
+            "Binnen twee dagen",
+            "Binnen tien dagen",
+            "Binnen dertig dagen"
+          ],
+          "correctIndex": 0,
+          "explanation": "De notaris zegt dat de inschrijving bij de gemeente binnen vijf dagen na de verhuizing moet gebeuren."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-7-t2.mp3"
+    },
+    {
+      "id": "l-a2-7-t3",
+      "title": "Aankondiging in de supermarkt",
+      "transcript": "Omroeper: Dames en heren, welkom bij Albert Heijn aan de Grote Markt. Wij willen u graag informeren over onze aanbiedingen deze week.\nOmroeper: Alle kaas is deze week in de aanbieding met dertig procent korting. Dat geldt voor zowel jong als oud, belegen en geitenkaas.\nOmroeper: Bij het brood hebben wij een speciale actie: koop twee broden en krijg het derde brood gratis. Dit geldt voor alle soorten brood, ook volkoren en meergranen.\nOmroeper: Let op: aanstaande woensdag, zevenentwintig april, sluiten wij eerder in verband met Koningsdag. De winkel gaat dan om achttien uur dicht in plaats van de gebruikelijke tweeëntwintig uur.\nOmroeper: Op Koningsdag zelf, donderdag achtentwintig april, zijn wij de hele dag gesloten.\nOmroeper: Vergeet u niet uw eigen herbruikbare tas mee te nemen? Plastic tasjes kosten vijfentwintig cent per stuk. Herbruikbare tassen zijn verkrijgbaar bij de kassa voor twee euro.\nOmroeper: Wij wensen u een fijne dag en veel winkelplezier!",
+      "questions": [
+        {
+          "id": "l-a2-7-q9",
+          "text": "Hoeveel korting is er op kaas?",
+          "options": [
+            "Twintig procent",
+            "Dertig procent",
+            "Vijfentwintig procent",
+            "Vijftig procent"
+          ],
+          "correctIndex": 1,
+          "explanation": "De omroeper zegt dat alle kaas dertig procent korting heeft."
+        },
+        {
+          "id": "l-a2-7-q10",
+          "text": "Wat is de broodactie?",
+          "options": [
+            "Alle broden zijn halve prijs",
+            "Volkoren brood is gratis bij aankoop van kaas",
+            "Brood is vijftig cent goedkoper",
+            "Koop twee broden, krijg het derde gratis"
+          ],
+          "correctIndex": 3,
+          "explanation": "De actie is: koop twee broden en krijg het derde brood gratis."
+        },
+        {
+          "id": "l-a2-7-q11",
+          "text": "Hoe laat sluit de winkel op woensdag 27 april?",
+          "options": [
+            "Om achttien uur",
+            "Om zestien uur",
+            "Om twintig uur",
+            "Om tweeëntwintig uur"
+          ],
+          "correctIndex": 0,
+          "explanation": "De omroeper zegt dat de winkel woensdag om achttien uur dichtgaat in verband met Koningsdag."
+        },
+        {
+          "id": "l-a2-7-q12",
+          "text": "Hoeveel kost een herbruikbare tas bij de kassa?",
+          "options": [
+            "Vijfentwintig cent",
+            "Vijftig cent",
+            "Een euro",
+            "Twee euro"
+          ],
+          "correctIndex": 3,
+          "explanation": "De omroeper zegt dat herbruikbare tassen verkrijgbaar zijn bij de kassa voor twee euro."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-7-t3.mp3"
+    },
+    {
+      "id": "l-a2-7-t4",
+      "title": "Bij de fysiotherapeut",
+      "transcript": "Therapeut: Goedemorgen, u bent meneer Hassan? Ik ben Sanne, uw fysiotherapeut. Wat kan ik voor u doen?\nMeneer Hassan: Goedemorgen. Ik heb al drie weken last van mijn onderrug. Het begon na het tillen van dozen op mijn werk.\nTherapeut: Kunt u beschrijven wanneer de pijn het ergst is?\nMeneer Hassan: Vooral 's ochtends als ik opsta en als ik lang zit. Bij het lopen wordt het iets beter.\nTherapeut: Ik ga u nu onderzoeken. Kunt u vooroverbuigen? En nu langzaam naar rechts draaien.\nMeneer Hassan: Au, die draaibeweging doet pijn.\nTherapeut: Ik zie dat de spieren aan de linkerkant van uw rug erg gespannen zijn. Ik stel een behandelplan voor van acht sessies, twee keer per week.\nMeneer Hassan: Wordt dat vergoed door mijn verzekering?\nTherapeut: De meeste aanvullende verzekeringen vergoeden fysiotherapie. Belt u even met uw verzekeraar om te vragen hoeveel sessies u vergoed krijgt.\nMeneer Hassan: Oké, dat zal ik doen. Kan ik thuis ook iets doen?\nTherapeut: Jazeker. Ik geef u drie oefeningen mee. Die moet u elke dag twee keer doen, 's ochtends en 's avonds. Vermijd zwaar tillen de komende weken.\nMeneer Hassan: Wanneer kan ik beginnen met de behandelingen?\nTherapeut: Aanstaande maandag om negen uur. Neem sportkleding en een handdoek mee.",
+      "questions": [
+        {
+          "id": "l-a2-7-q13",
+          "text": "Hoe lang heeft meneer Hassan al rugklachten?",
+          "options": [
+            "Een week",
+            "Drie weken",
+            "Twee weken",
+            "Een maand"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meneer Hassan zegt dat hij al drie weken last heeft van zijn onderrug."
+        },
+        {
+          "id": "l-a2-7-q14",
+          "text": "Wanneer is de pijn het ergst?",
+          "options": [
+            "Bij het lopen en fietsen",
+            "Alleen 's avonds voor het slapen",
+            "Bij het tillen van zware spullen",
+            "'s Ochtends bij het opstaan en bij lang zitten"
+          ],
+          "correctIndex": 3,
+          "explanation": "De patiënt zegt dat de pijn het ergst is 's ochtends als hij opstaat en als hij lang zit."
+        },
+        {
+          "id": "l-a2-7-q15",
+          "text": "Hoeveel sessies stelt de therapeut voor en hoe vaak per week?",
+          "options": [
+            "Zes sessies, een keer per week",
+            "Acht sessies, twee keer per week",
+            "Tien sessies, drie keer per week",
+            "Twaalf sessies, een keer per week"
+          ],
+          "correctIndex": 1,
+          "explanation": "De therapeut stelt een behandelplan voor van acht sessies, twee keer per week."
+        },
+        {
+          "id": "l-a2-7-q16",
+          "text": "Hoe vaak per dag moet meneer Hassan de oefeningen thuis doen?",
+          "options": [
+            "Twee keer per dag",
+            "Een keer per dag",
+            "Drie keer per dag",
+            "Alleen als hij pijn heeft"
+          ],
+          "correctIndex": 0,
+          "explanation": "De therapeut zegt dat hij de oefeningen elke dag twee keer moet doen, 's ochtends en 's avonds."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-7-t4.mp3"
+    },
+    {
+      "id": "l-a2-7-t5",
+      "title": "Telefoongesprek met de verhuurder",
+      "transcript": "Huurder: Goedemiddag, u spreekt met mevrouw Okafor uit appartement 3B. Ik bel over een probleem in de badkamer.\nVerhuurder: Goedemiddag mevrouw Okafor. Wat is er aan de hand?\nHuurder: Er zit een lekkage aan het plafond van de badkamer. Er druppelt water naar beneden.\nVerhuurder: Dat klinkt vervelend. Wanneer is het begonnen?\nHuurder: Ik merkte het gisteravond voor het eerst. Vanmorgen was het erger geworden. Ik heb een emmer neergezet om het water op te vangen.\nVerhuurder: Goed dat u een emmer heeft neergezet. Dat is een goede tijdelijke oplossing. Ik stuur er een loodgieter naartoe. Kan hij donderdag bij u langskomen?\nHuurder: Ja, dat kan. Hoe laat moet ik thuis zijn?\nVerhuurder: De loodgieter komt tussen negen en twaalf uur 's ochtends. U moet aanwezig zijn om hem binnen te laten.\nHuurder: Dat is goed, ik neem die ochtend vrij van mijn werk. Moet ik zelf iets betalen?\nVerhuurder: Nee, lekkages vallen onder groot onderhoud. Dat betaal ik als verhuurder. U hoeft niets te betalen.\nHuurder: Fijn, dank u wel. En als het erger wordt voor donderdag?\nVerhuurder: Bel me dan direct op dit nummer. Dan probeer ik de loodgieter eerder te laten komen. Zet in de tussentijd de emmer neer en leg een handdoek op de vloer om waterschade te voorkomen.",
+      "questions": [
+        {
+          "id": "l-a2-7-q17",
+          "text": "Wat is het probleem in het appartement?",
+          "options": [
+            "Er is een lekkage aan het plafond van de badkamer",
+            "De verwarming doet het niet",
+            "De wc is verstopt",
+            "Er is een gebroken raam in de slaapkamer"
+          ],
+          "correctIndex": 0,
+          "explanation": "De huurder meldt dat er een lekkage zit aan het plafond van de badkamer."
+        },
+        {
+          "id": "l-a2-7-q18",
+          "text": "Wanneer komt de loodgieter en tussen welke tijden?",
+          "options": [
+            "Donderdag, tussen 9 en 12 uur",
+            "Woensdag, tussen 8 en 11 uur",
+            "Vrijdag, tussen 10 en 13 uur",
+            "Donderdag, tussen 13 en 16 uur"
+          ],
+          "correctIndex": 0,
+          "explanation": "De verhuurder zegt dat de loodgieter donderdag komt, tussen negen en twaalf uur 's ochtends."
+        },
+        {
+          "id": "l-a2-7-q19",
+          "text": "Wie betaalt de reparatie van de lekkage?",
+          "options": [
+            "De huurder betaalt alles",
+            "De huurder en verhuurder delen de kosten",
+            "De verhuurder betaalt, want het is groot onderhoud",
+            "De verzekering van de huurder betaalt"
+          ],
+          "correctIndex": 2,
+          "explanation": "De verhuurder zegt dat lekkages onder groot onderhoud vallen en dat hij als verhuurder betaalt."
+        },
+        {
+          "id": "l-a2-7-q20",
+          "text": "Wat moet mevrouw Okafor doen als de lekkage erger wordt voor donderdag?",
+          "options": [
+            "Een e-mail sturen naar de verhuurder",
+            "De verhuurder direct bellen op hetzelfde nummer",
+            "Wachten tot donderdag",
+            "Zelf een loodgieter bellen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De verhuurder zegt dat ze hem direct moet bellen op dit nummer als het erger wordt, zodat hij de loodgieter eerder kan laten komen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-7-t5.mp3"
+    }
+  ]
+}

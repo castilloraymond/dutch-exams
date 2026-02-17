@@ -1,0 +1,215 @@
+{
+  "id": "lezen-a2-3",
+  "title": "Lezen A2 - Oefenexamen 3",
+  "module": "lezen",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "35 min",
+  "passages": [
+    {
+      "id": "a2-3-p1",
+      "title": "Brief van de verhuurder",
+      "content": "Woningbeheer De Sleutel\nPostbus 450, 3500 AL Utrecht\n\nUtrecht, 3 februari 2025\n\nGeachte huurder,\n\nWij schrijven u over een verhoging van de huur. Per 1 april 2025 gaat uw huur omhoog met 3,1%. Uw huur wordt dan € 825,00 per maand. Op dit moment betaalt u € 800,00.\n\nDeze verhoging is volgens de regels van de overheid. Elk jaar mag de verhuurder de huur verhogen. Het maximale percentage is dit jaar 3,1%.\n\nAls u het niet eens bent met de verhoging, kunt u bezwaar maken. Stuur dan een brief naar de Huurcommissie binnen 6 weken na deze brief.\n\nMet vriendelijke groet,\nWoningbeheer De Sleutel",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de verhuurder over de huurverhoging.",
+      "questions": [
+        {
+          "id": "a2-3-q1",
+          "text": "Hoeveel gaat de huur omhoog?",
+          "options": ["2,1%", "2,5%", "3,1%", "4,0%"],
+          "correctIndex": 2,
+          "explanation": "De huur gaat omhoog met 3,1%.",
+          "explanationEn": "The rent goes up by 3.1%."
+        },
+        {
+          "id": "a2-3-q2",
+          "text": "Wat wordt de nieuwe huurprijs?",
+          "options": ["€ 800,00", "€ 810,00", "€ 825,00", "€ 850,00"],
+          "correctIndex": 2,
+          "explanation": "De nieuwe huur wordt € 825,00 per maand.",
+          "explanationEn": "The new rent will be €825.00 per month."
+        },
+        {
+          "id": "a2-3-q3",
+          "text": "Wanneer gaat de nieuwe huurprijs in?",
+          "options": ["1 februari 2025", "1 maart 2025", "1 april 2025", "1 mei 2025"],
+          "correctIndex": 2,
+          "explanation": "De nieuwe huurprijs gaat in per 1 april 2025.",
+          "explanationEn": "The new rent price takes effect on April 1, 2025."
+        },
+        {
+          "id": "a2-3-q4",
+          "text": "Wat kun je doen als je het niet eens bent met de verhoging?",
+          "options": ["De huur niet betalen", "Een brief sturen naar de Huurcommissie", "Bellen naar de verhuurder", "Verhuizen binnen 6 weken"],
+          "correctIndex": 1,
+          "explanation": "Je kunt bezwaar maken door een brief te sturen naar de Huurcommissie.",
+          "explanationEn": "You can object by sending a letter to the Rent Tribunal."
+        }
+      ]
+    },
+    {
+      "id": "a2-3-p2",
+      "title": "Folder over de bibliotheek",
+      "content": "Bibliotheek Nieuwegein — Welkom!\n\nBij de bibliotheek kunt u boeken, tijdschriften en dvd's lenen. U kunt ook gratis internet gebruiken en kranten lezen.\n\nLidmaatschap:\n- Volwassenen: € 42,00 per jaar\n- Jongeren (13-17 jaar): € 15,00 per jaar\n- Kinderen (0-12 jaar): gratis!\n\nU mag maximaal 10 items tegelijk lenen. De leentermijn is 3 weken. Inleveren kan bij elke vestiging.\n\nTe laat ingeleverd? Dat kost € 0,30 per item per dag.\n\nActiviteiten: Elke woensdag is er een voorleesuurtje voor kinderen van 4 tot 8 jaar om 10:30 uur.",
+      "contentType": "notice",
+      "instruction": "Lees de folder van de bibliotheek.",
+      "questions": [
+        {
+          "id": "a2-3-q5",
+          "text": "Hoeveel betaalt een kind van 10 jaar voor lidmaatschap?",
+          "options": ["€ 10,00", "€ 15,00", "€ 42,00", "Niets, het is gratis"],
+          "correctIndex": 3,
+          "explanation": "Kinderen van 0 tot 12 jaar hebben gratis lidmaatschap.",
+          "explanationEn": "Children aged 0 to 12 have free membership."
+        },
+        {
+          "id": "a2-3-q6",
+          "text": "Hoeveel items mag je tegelijk lenen?",
+          "options": ["5", "8", "10", "15"],
+          "correctIndex": 2,
+          "explanation": "U mag maximaal 10 items tegelijk lenen.",
+          "explanationEn": "You may borrow a maximum of 10 items at a time."
+        },
+        {
+          "id": "a2-3-q7",
+          "text": "Hoeveel betaal je als je een boek 5 dagen te laat inlevert?",
+          "options": ["€ 0,30", "€ 0,50", "€ 1,00", "€ 1,50"],
+          "correctIndex": 3,
+          "explanation": "De boete is € 0,30 per item per dag. Bij 5 dagen is dat € 1,50.",
+          "explanationEn": "The fine is €0.30 per item per day. For 5 days that is €1.50."
+        },
+        {
+          "id": "a2-3-q8",
+          "text": "Wanneer is het voorleesuurtje voor kinderen?",
+          "options": ["Elke maandag om 10:30", "Elke woensdag om 10:30", "Elke vrijdag om 14:00", "Elke zaterdag om 11:00"],
+          "correctIndex": 1,
+          "explanation": "Elke woensdag is er een voorleesuurtje om 10:30 uur.",
+          "explanationEn": "Every Wednesday there is a reading hour at 10:30."
+        }
+      ]
+    },
+    {
+      "id": "a2-3-p3",
+      "title": "Artikel over gezond eten",
+      "content": "Gezond eten in Nederland\n\nSteeds meer Nederlanders letten op gezond eten. Het Voedingscentrum geeft tips om gezonder te leven. Een belangrijke tip is: eet elke dag ten minste 250 gram groente en 2 stuks fruit.\n\nVeel Nederlanders eten te veel zout, suiker en verzadigd vet. Dit kan leiden tot gezondheidsproblemen zoals hoge bloeddruk en overgewicht. Het Voedingscentrum adviseert om minder bewerkt voedsel te eten en meer zelf te koken.\n\nWater is de beste drank. Probeer minstens 1,5 tot 2 liter per dag te drinken. Frisdrank en sap bevatten veel suiker.\n\nOok ontbijten is belangrijk. Mensen die ontbijten hebben meer energie en kunnen zich beter concentreren. Een goed ontbijt bevat volkoren brood, zuivel en fruit.",
+      "contentType": "text",
+      "instruction": "Lees het artikel over gezond eten.",
+      "questions": [
+        {
+          "id": "a2-3-q9",
+          "text": "Hoeveel groente moet je per dag eten volgens het Voedingscentrum?",
+          "options": ["Minimaal 150 gram", "Minimaal 200 gram", "Minimaal 250 gram", "Minimaal 300 gram"],
+          "correctIndex": 2,
+          "explanation": "Je moet ten minste 250 gram groente per dag eten.",
+          "explanationEn": "You should eat at least 250 grams of vegetables per day."
+        },
+        {
+          "id": "a2-3-q10",
+          "text": "Wat kan er gebeuren als je te veel zout en suiker eet?",
+          "options": ["Je wordt moe", "Je krijgt hoge bloeddruk en overgewicht", "Je krijgt hoofdpijn", "Je slaapt slecht"],
+          "correctIndex": 1,
+          "explanation": "Te veel zout, suiker en vet kan leiden tot hoge bloeddruk en overgewicht.",
+          "explanationEn": "Too much salt, sugar, and fat can lead to high blood pressure and being overweight."
+        },
+        {
+          "id": "a2-3-q11",
+          "text": "Wat is de beste drank volgens het artikel?",
+          "options": ["Sap", "Thee", "Water", "Melk"],
+          "correctIndex": 2,
+          "explanation": "Water is de beste drank.",
+          "explanationEn": "Water is the best drink."
+        },
+        {
+          "id": "a2-3-q12",
+          "text": "Waarom is ontbijten belangrijk?",
+          "options": ["Je valt ervan af", "Je hebt meer energie en concentratie", "Je hoeft 's middags niet te eten", "Je slaapt beter"],
+          "correctIndex": 1,
+          "explanation": "Mensen die ontbijten hebben meer energie en kunnen zich beter concentreren.",
+          "explanationEn": "People who eat breakfast have more energy and can concentrate better."
+        }
+      ]
+    },
+    {
+      "id": "a2-3-p4",
+      "title": "Uitnodiging buurtfeest",
+      "content": "Beste buren,\n\nDit jaar organiseren wij weer een buurtfeest! Iedereen is welkom.\n\nDatum: zaterdag 21 juni\nTijd: 15:00 - 21:00\nLocatie: Parkje aan de Lindenlaan\n\nProgramma:\n15:00 — Opening met koffie en thee\n16:00 — Spelletjes voor kinderen\n17:30 — Buurtbarbecue (vlees en vegetarisch)\n19:00 — Muziek en dans\n20:30 — Verloting met leuke prijzen\n\nNeem uw eigen drinken mee. Eten wordt verzorgd.\nAanmelden is niet nodig, maar het helpt ons met de inkopen.\nStuur een mailtje naar buurtfeest@lindenlaan.nl\n\nGroetjes,\nDe buurtcommissie",
+      "contentType": "letter",
+      "instruction": "Lees de uitnodiging voor het buurtfeest.",
+      "questions": [
+        {
+          "id": "a2-3-q13",
+          "text": "Hoe laat begint de barbecue?",
+          "options": ["15:00", "16:00", "17:30", "19:00"],
+          "correctIndex": 2,
+          "explanation": "De buurtbarbecue begint om 17:30.",
+          "explanationEn": "The neighborhood barbecue starts at 17:30."
+        },
+        {
+          "id": "a2-3-q14",
+          "text": "Wat moeten de buren zelf meenemen?",
+          "options": ["Eten", "Stoelen", "Drinken", "Bestek"],
+          "correctIndex": 2,
+          "explanation": "De buren moeten hun eigen drinken meenemen. Eten wordt verzorgd.",
+          "explanationEn": "Neighbors should bring their own drinks. Food is provided."
+        },
+        {
+          "id": "a2-3-q15",
+          "text": "Is aanmelden verplicht?",
+          "options": ["Ja, dat is verplicht", "Nee, maar het helpt met de inkopen", "Ja, voor woensdag", "Nee, en het is ook niet nodig"],
+          "correctIndex": 1,
+          "explanation": "Aanmelden is niet nodig, maar het helpt met de inkopen.",
+          "explanationEn": "Registration is not required, but it helps with the shopping."
+        },
+        {
+          "id": "a2-3-q16",
+          "text": "Wat is het laatste onderdeel van het programma?",
+          "options": ["Muziek en dans", "Barbecue", "Verloting", "Koffie en thee"],
+          "correctIndex": 2,
+          "explanation": "Het laatste onderdeel is de verloting om 20:30.",
+          "explanationEn": "The last item is the raffle at 20:30."
+        }
+      ]
+    },
+    {
+      "id": "a2-3-p5",
+      "title": "Informatie over parkeren",
+      "content": "Parkeerregels wijk Zonnedael\n\nInwoners van wijk Zonnedael hebben een parkeervergunning nodig om in de wijk te parkeren.\n\nKosten vergunning:\n- Eerste auto: € 120,00 per jaar\n- Tweede auto: € 180,00 per jaar\n- Derde auto of meer: niet mogelijk\n\nBezoekers:\n- Bezoekerspas: € 2,50 per dagdeel (ochtend, middag of avond)\n- U kunt maximaal 200 dagdelen per jaar kopen via www.gemeente.nl/parkeren\n\nRegels:\n- Parkeren zonder vergunning: boete van € 70,00\n- Altijd parkeren binnen de vakken\n- Gehandicaptenparkeerplaatsen zijn alleen voor mensen met een gehandicaptenparkeerkaart\n- Tussen 09:00 en 21:00 uur is betaald parkeren van kracht",
+      "contentType": "list",
+      "instruction": "Lees de informatie over parkeren in de wijk.",
+      "questions": [
+        {
+          "id": "a2-3-q17",
+          "text": "Hoeveel kost een parkeervergunning voor de eerste auto?",
+          "options": ["€ 80,00 per jaar", "€ 100,00 per jaar", "€ 120,00 per jaar", "€ 180,00 per jaar"],
+          "correctIndex": 2,
+          "explanation": "Een vergunning voor de eerste auto kost € 120,00 per jaar.",
+          "explanationEn": "A permit for the first car costs €120.00 per year."
+        },
+        {
+          "id": "a2-3-q18",
+          "text": "Hoeveel auto's mag je maximaal registreren?",
+          "options": ["1", "2", "3", "Onbeperkt"],
+          "correctIndex": 1,
+          "explanation": "Een derde auto of meer is niet mogelijk, dus maximaal 2.",
+          "explanationEn": "A third car or more is not possible, so a maximum of 2."
+        },
+        {
+          "id": "a2-3-q19",
+          "text": "Hoeveel boete krijg je als je zonder vergunning parkeert?",
+          "options": ["€ 50,00", "€ 60,00", "€ 70,00", "€ 90,00"],
+          "correctIndex": 2,
+          "explanation": "Parkeren zonder vergunning kost een boete van € 70,00.",
+          "explanationEn": "Parking without a permit results in a fine of €70.00."
+        },
+        {
+          "id": "a2-3-q20",
+          "text": "Wanneer is betaald parkeren van kracht?",
+          "options": ["08:00 tot 20:00", "09:00 tot 21:00", "10:00 tot 22:00", "De hele dag"],
+          "correctIndex": 1,
+          "explanation": "Betaald parkeren is van kracht tussen 09:00 en 21:00 uur.",
+          "explanationEn": "Paid parking is in effect between 09:00 and 21:00."
+        }
+      ]
+    }
+  ]
+}

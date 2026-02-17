@@ -1,0 +1,210 @@
+{
+  "id": "knm-a1-4",
+  "title": "KNM A1 - Oefenexamen 4",
+  "module": "knm",
+  "difficulty": "A1",
+  "questionCount": 25,
+  "recommendedTime": "20 min",
+  "questions": [
+    {
+      "id": "knm-a1-4-q1",
+      "text": "Wat kun je doen bij de bibliotheek?",
+      "options": ["Een huis huren", "Eten kopen", "Een paspoort aanvragen", "Boeken lenen"],
+      "correctIndex": 3,
+      "explanation": "Bij de bibliotheek kun je boeken lenen. Je kunt ook kranten, tijdschriften en dvd's lenen.",
+      "explanationEn": "At the library you can borrow books. You can also borrow newspapers, magazines, and DVDs."
+    },
+    {
+      "id": "knm-a1-4-q2",
+      "text": "Wat heb je nodig om boeken te lenen bij de bibliotheek?",
+      "options": ["Een rijbewijs", "Een DigiD", "Een lidmaatschap (bibliotheekpas)", "Een OV-chipkaart"],
+      "correctIndex": 2,
+      "explanation": "Je hebt een lidmaatschap nodig. Je krijgt dan een bibliotheekpas waarmee je boeken kunt lenen.",
+      "explanationEn": "You need a membership. You will get a library card with which you can borrow books."
+    },
+    {
+      "id": "knm-a1-4-q3",
+      "text": "Welk telefoonnummer bel je voor de politie als het GEEN noodgeval is?",
+      "options": ["0900-8844", "112", "0800-1351", "144"],
+      "correctIndex": 0,
+      "explanation": "0900-8844 is het niet-spoed nummer van de politie. 112 is alleen voor echte noodgevallen.",
+      "explanationEn": "0900-8844 is the non-emergency police number. 112 is only for real emergencies."
+    },
+    {
+      "id": "knm-a1-4-q4",
+      "text": "Hoe laat eten de meeste Nederlanders hun avondeten?",
+      "options": ["Rond 15:00", "Rond 18:00", "Rond 21:00", "Rond 12:00"],
+      "correctIndex": 1,
+      "explanation": "De meeste Nederlanders eten hun avondeten (warme maaltijd) rond 18:00 uur.",
+      "explanationEn": "Most Dutch people eat their dinner (warm meal) around 6:00 PM."
+    },
+    {
+      "id": "knm-a1-4-q5",
+      "text": "Wat eten veel Nederlanders 's middags als lunch?",
+      "options": ["Rijst met vlees", "Pasta", "Soep met broodjes", "Brood met beleg"],
+      "correctIndex": 3,
+      "explanation": "Veel Nederlanders eten 's middags een broodmaaltijd: boterhammen met kaas, ham, of pindakaas.",
+      "explanationEn": "Many Dutch people eat a bread meal for lunch: sandwiches with cheese, ham, or peanut butter."
+    },
+    {
+      "id": "knm-a1-4-q6",
+      "text": "Hoe begroeten goede vrienden en familie elkaar vaak in Nederland?",
+      "options": ["Met een buiging", "Met een high five", "Met 3 zoenen op de wang", "Met een handdruk"],
+      "correctIndex": 2,
+      "explanation": "Goede vrienden en familie begroeten elkaar vaak met 3 zoenen op de wang (rechts-links-rechts).",
+      "explanationEn": "Close friends and family often greet each other with 3 kisses on the cheek (right-left-right)."
+    },
+    {
+      "id": "knm-a1-4-q7",
+      "text": "Hoe heet het lidmaatschapsgeld bij een sportvereniging?",
+      "options": ["Contributie", "Huur", "Borg", "Premie"],
+      "correctIndex": 0,
+      "explanation": "Het lidmaatschapsgeld bij een sportvereniging heet contributie.",
+      "explanationEn": "The membership fee at a sports club is called contributie (contribution)."
+    },
+    {
+      "id": "knm-a1-4-q8",
+      "text": "Wat is een dierenarts?",
+      "options": ["Een dokter voor kinderen", "Een tandarts", "Een dokter voor dieren", "Een fysiotherapeut"],
+      "correctIndex": 2,
+      "explanation": "Een dierenarts is een dokter voor dieren (huisdieren zoals honden en katten).",
+      "explanationEn": "A dierenarts (vet) is a doctor for animals (pets like dogs and cats)."
+    },
+    {
+      "id": "knm-a1-4-q9",
+      "text": "Wat is een borg als je een huis huurt?",
+      "options": ["De maandelijkse huur", "De kosten voor reparaties", "Het salaris van de verhuurder", "Een bedrag dat je betaalt als waarborg en terugkrijgt"],
+      "correctIndex": 3,
+      "explanation": "De borg is een bedrag (vaak 1-2 maanden huur) dat je vooruit betaalt. Je krijgt het terug als je het huis goed achterlaat.",
+      "explanationEn": "The deposit is an amount (often 1-2 months' rent) you pay upfront. You get it back if you leave the house in good condition."
+    },
+    {
+      "id": "knm-a1-4-q10",
+      "text": "Wat is DigiD?",
+      "options": ["Een digitale identiteit voor overheidszaken", "Een soort e-mail", "Een sociale media app", "Een bankrekening"],
+      "correctIndex": 0,
+      "explanation": "DigiD is je digitale identiteit. Hiermee kun je inloggen bij de overheid en andere organisaties, zoals de Belastingdienst.",
+      "explanationEn": "DigiD is your digital identity. You use it to log in to government services and other organizations, such as the Tax Authority."
+    },
+    {
+      "id": "knm-a1-4-q11",
+      "text": "Wanneer ga je naar de huisartsenpost?",
+      "options": ["Elke dag voor een afspraak", "In het weekend of 's nachts bij spoed", "Alleen voor vaccinaties", "Als je medicijnen wilt kopen"],
+      "correctIndex": 1,
+      "explanation": "De huisartsenpost is open buiten kantoortijden: 's avonds, 's nachts en in het weekend, voor spoedeisende huisartsenzorg.",
+      "explanationEn": "The huisartsenpost (GP post) is open outside office hours: evenings, nights, and weekends, for urgent GP care."
+    },
+    {
+      "id": "knm-a1-4-q12",
+      "text": "Wat is een aansprakelijkheidsverzekering?",
+      "options": ["Een reisverzekering", "Een verzekering voor je auto", "Een levensverzekering", "Een verzekering als je per ongeluk schade maakt bij iemand anders"],
+      "correctIndex": 3,
+      "explanation": "Een aansprakelijkheidsverzekering (AVP) betaalt als je per ongeluk schade veroorzaakt bij anderen, zoals een kapotte laptop of een gebroken ruit.",
+      "explanationEn": "Liability insurance (AVP) pays when you accidentally cause damage to others, such as a broken laptop or a broken window."
+    },
+    {
+      "id": "knm-a1-4-q13",
+      "text": "Wanneer vieren Nederlanders Kerst?",
+      "options": ["31 december", "5 december", "25 en 26 december", "1 januari"],
+      "correctIndex": 2,
+      "explanation": "Kerst (Kerstmis) wordt gevierd op 25 en 26 december. Dit zijn Eerste en Tweede Kerstdag.",
+      "explanationEn": "Christmas is celebrated on December 25 and 26. These are First and Second Christmas Day."
+    },
+    {
+      "id": "knm-a1-4-q14",
+      "text": "Wat is Sinterklaas?",
+      "options": ["Een kinderfeest rond 5 december met cadeautjes", "Een feest op 31 december", "Een zomerfestival", "Een religieuze feestdag in maart"],
+      "correctIndex": 0,
+      "explanation": "Sinterklaas is een traditioneel kinderfeest. Op pakjesavond (5 december) krijgen kinderen cadeautjes.",
+      "explanationEn": "Sinterklaas is a traditional children's holiday. On pakjesavond (December 5), children receive presents."
+    },
+    {
+      "id": "knm-a1-4-q15",
+      "text": "Kun je bij de bibliotheek ook internet gebruiken?",
+      "options": ["Nee, dat mag niet", "Alleen als je betaalt", "Alleen voor kinderen", "Ja, er zijn vaak gratis computers met internet"],
+      "correctIndex": 3,
+      "explanation": "In de meeste bibliotheken kun je gratis internet gebruiken op de computers daar.",
+      "explanationEn": "In most libraries you can use the internet for free on the computers there."
+    },
+    {
+      "id": "knm-a1-4-q16",
+      "text": "Wat is stamppot?",
+      "options": ["Een soort brood", "Een soort kaas", "Een traditioneel Nederlands gerecht met aardappelen en groenten", "Een dessert"],
+      "correctIndex": 2,
+      "explanation": "Stamppot is een traditioneel Nederlands gerecht. Het is gemaakt van gestampte aardappelen met groenten, zoals boerenkool of zuurkool.",
+      "explanationEn": "Stamppot is a traditional Dutch dish. It is made of mashed potatoes with vegetables, such as kale or sauerkraut."
+    },
+    {
+      "id": "knm-a1-4-q17",
+      "text": "Wat is de opzegtermijn bij het huren van een woning?",
+      "options": ["Je moet 1 jaar wachten", "Je kunt nooit opzeggen", "Je kunt direct vertrekken", "Meestal 1 maand van tevoren opzeggen"],
+      "correctIndex": 3,
+      "explanation": "Als huurder moet je meestal minimaal 1 maand van tevoren opzeggen. Dit staat in je huurcontract.",
+      "explanationEn": "As a tenant you usually must give at least 1 month's notice. This is stated in your rental contract."
+    },
+    {
+      "id": "knm-a1-4-q18",
+      "text": "Wat kun je doen op MijnOverheid.nl?",
+      "options": ["Je post van de overheid digitaal bekijken", "Online winkelen", "Eten bestellen", "Muziek luisteren"],
+      "correctIndex": 0,
+      "explanation": "Op MijnOverheid.nl kun je digitale post van de overheid bekijken, zoals brieven van de Belastingdienst of je gemeente. Je logt in met DigiD.",
+      "explanationEn": "On MijnOverheid.nl you can view digital mail from the government, such as letters from the Tax Authority or your municipality. You log in with DigiD."
+    },
+    {
+      "id": "knm-a1-4-q19",
+      "text": "Moeten honden in sommige gemeenten geregistreerd worden?",
+      "options": ["Alleen als de hond groot is", "Nee, dat hoeft nooit", "Ja, en in sommige gemeenten betaal je hondenbelasting", "Alleen als je in een flat woont"],
+      "correctIndex": 2,
+      "explanation": "In sommige gemeenten moet je je hond aanmelden en betaal je hondenbelasting.",
+      "explanationEn": "In some municipalities you must register your dog and pay dog tax."
+    },
+    {
+      "id": "knm-a1-4-q20",
+      "text": "Wat is een inboedelverzekering?",
+      "options": ["Een verzekering voor je auto", "Een verzekering voor de spullen in je huis", "Een ziekteverzekering", "Een reisverzekering"],
+      "correctIndex": 1,
+      "explanation": "Een inboedelverzekering vergoedt schade aan de spullen in je huis, zoals meubels, kleding en elektronica, bij bijvoorbeeld brand of diefstal.",
+      "explanationEn": "Contents insurance covers damage to belongings in your home, such as furniture, clothing, and electronics, for example in case of fire or theft."
+    },
+    {
+      "id": "knm-a1-4-q21",
+      "text": "Wanneer is Oud en Nieuw in Nederland?",
+      "options": ["5 december", "27 april", "25 december", "31 december en 1 januari"],
+      "correctIndex": 3,
+      "explanation": "Oud en Nieuw is op 31 december (oudejaarsavond) en 1 januari (nieuwjaarsdag). Mensen vieren het met vuurwerk.",
+      "explanationEn": "New Year's Eve and New Year's Day are on December 31 and January 1. People celebrate with fireworks."
+    },
+    {
+      "id": "knm-a1-4-q22",
+      "text": "Wat is belangrijk als kinderen buiten op de speelplaats spelen?",
+      "options": ["Er moet een volwassene in de buurt zijn voor toezicht", "Kinderen mogen altijd alleen spelen", "Kinderen mogen niet buiten spelen", "Kinderen moeten altijd binnen blijven"],
+      "correctIndex": 0,
+      "explanation": "Bij jonge kinderen is het belangrijk dat een volwassene toezicht houdt als ze buiten spelen.",
+      "explanationEn": "For young children it is important that an adult supervises when they play outside."
+    },
+    {
+      "id": "knm-a1-4-q23",
+      "text": "Wat is de huurcommissie?",
+      "options": ["Een verzekeringsmaatschappij", "Een winkel voor huurhuizen", "Een bank voor huurders", "Een organisatie die helpt bij problemen tussen huurder en verhuurder"],
+      "correctIndex": 3,
+      "explanation": "De Huurcommissie helpt bij geschillen (problemen) tussen huurders en verhuurders, bijvoorbeeld over de huurprijs of onderhoud.",
+      "explanationEn": "The Rent Tribunal helps with disputes between tenants and landlords, for example about rent prices or maintenance."
+    },
+    {
+      "id": "knm-a1-4-q24",
+      "text": "Wanneer is Pasen?",
+      "options": ["Altijd in februari", "Altijd op 1 mei", "In maart of april, het is elk jaar anders", "In december"],
+      "correctIndex": 2,
+      "explanation": "Pasen valt in maart of april. De datum verandert elk jaar. Eerste en Tweede Paasdag zijn vrije dagen.",
+      "explanationEn": "Easter falls in March or April. The date changes every year. First and Second Easter Day are public holidays."
+    },
+    {
+      "id": "knm-a1-4-q25",
+      "text": "Als je bij een sportvereniging wilt, wat moet je dan meestal doen?",
+      "options": ["Je moet een diploma hebben", "Je moet lid worden en contributie betalen", "Je hoeft niets te doen, je kunt altijd komen", "Je moet een verwijsbrief van de huisarts hebben"],
+      "correctIndex": 1,
+      "explanation": "Bij de meeste sportverenigingen moet je lid worden en contributie (lidmaatschapsgeld) betalen.",
+      "explanationEn": "At most sports clubs you must become a member and pay contributie (membership fee)."
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "id": "knm-a2-4",
+  "title": "KNM A2 - Oefenexamen 4",
+  "module": "knm",
+  "difficulty": "A2",
+  "questionCount": 40,
+  "recommendedTime": "30 min",
+  "questions": [
+    {
+      "id": "knm-a2-4-q1",
+      "text": "Wat moet je doen als je in Nederland een eigen bedrijf wilt starten?",
+      "options": ["Je moet je inschrijven bij de Kamer van Koophandel (KvK)", "Je hoeft niets te doen, je kunt meteen beginnen", "Je moet toestemming vragen aan de gemeente", "Je moet een vergunning aanvragen bij de politie"],
+      "correctIndex": 0,
+      "explanation": "Als je een bedrijf wilt starten in Nederland, moet je je inschrijven bij de Kamer van Koophandel (KvK). Dit is verplicht.",
+      "explanationEn": "If you want to start a business in the Netherlands, you must register with the Chamber of Commerce (KvK). This is mandatory."
+    },
+    {
+      "id": "knm-a2-4-q2",
+      "text": "Wat is een btw-nummer?",
+      "options": ["Een nummer van je bankrekening", "Een nummer van je zorgverzekering", "Een nummer van je rijbewijs", "Een nummer van de Belastingdienst om belasting over je producten of diensten te berekenen"],
+      "correctIndex": 3,
+      "explanation": "Een btw-nummer krijg je van de Belastingdienst. Het staat voor belasting over de toegevoegde waarde en is nodig als je producten of diensten verkoopt.",
+      "explanationEn": "You receive a VAT number from the Tax Authority. It stands for value-added tax and is required when selling products or services."
+    },
+    {
+      "id": "knm-a2-4-q3",
+      "text": "Wat is een zzp'er?",
+      "options": ["Een werknemer bij de overheid", "Een student met een bijbaan", "Een zelfstandige zonder personeel", "Een vrijwilliger bij een stichting"],
+      "correctIndex": 2,
+      "explanation": "Een zzp'er is een zelfstandige zonder personeel. Je werkt dan voor jezelf en hebt geen werknemers in dienst.",
+      "explanationEn": "A zzp'er is a self-employed person without personnel. You work for yourself and have no employees."
+    },
+    {
+      "id": "knm-a2-4-q4",
+      "text": "Wat is een proeftijd?",
+      "options": ["De tijd dat je op vakantie bent", "Een periode aan het begin van je contract waarin werkgever en werknemer kunnen stoppen", "De tijd dat je ziek thuis bent", "De tijd dat je een cursus volgt voor je werk"],
+      "correctIndex": 1,
+      "explanation": "Een proeftijd is een korte periode aan het begin van een arbeidscontract. In deze tijd kan zowel de werkgever als de werknemer het contract opzeggen.",
+      "explanationEn": "A probation period is a short period at the start of an employment contract. During this time, both the employer and the employee can terminate the contract."
+    },
+    {
+      "id": "knm-a2-4-q5",
+      "text": "Hoe lang mag de proeftijd maximaal duren bij een vast contract?",
+      "options": ["1 week", "1 maand", "6 maanden", "2 maanden"],
+      "correctIndex": 3,
+      "explanation": "Bij een vast contract (contract voor onbepaalde tijd) is de maximale proeftijd 2 maanden.",
+      "explanationEn": "For a permanent contract (indefinite-term contract), the maximum probation period is 2 months."
+    },
+    {
+      "id": "knm-a2-4-q6",
+      "text": "Wat is de kantonrechter?",
+      "options": ["Een rechter die beslist over arbeidsgeschillen en huurzaken", "Een rechter die beslist over zware misdrijven", "Een rechter die alleen over verkeerszaken beslist", "Een rechter bij het Europees Hof"],
+      "correctIndex": 0,
+      "explanation": "De kantonrechter behandelt onder andere arbeidsgeschillen, huurzaken en kleine civiele zaken.",
+      "explanationEn": "The subdistrict court judge handles employment disputes, rental cases, and small civil cases, among other things."
+    },
+    {
+      "id": "knm-a2-4-q7",
+      "text": "Wat moet een werkgever doen als hij een werknemer wil ontslaan?",
+      "options": ["Hij mag de werknemer meteen ontslaan zonder reden", "Hij moet de werknemer een SMS sturen", "Hij heeft een geldige reden nodig en moet zich aan de regels houden", "Hij moet de politie bellen"],
+      "correctIndex": 2,
+      "explanation": "In Nederland kan een werkgever een werknemer niet zomaar ontslaan. Er moet een geldige reden zijn en de werkgever moet zich aan de ontslagregels houden.",
+      "explanationEn": "In the Netherlands, an employer cannot simply fire an employee. There must be a valid reason and the employer must follow dismissal rules."
+    },
+    {
+      "id": "knm-a2-4-q8",
+      "text": "Wat is iDEAL?",
+      "options": ["Een app om te bellen", "Een sociale media app", "Een soort creditcard", "Een online betaalmethode waarmee je direct via je bank betaalt"],
+      "correctIndex": 3,
+      "explanation": "iDEAL is een veelgebruikte online betaalmethode in Nederland waarmee je direct geld overmaakt via je eigen bank.",
+      "explanationEn": "iDEAL is a widely used online payment method in the Netherlands that allows you to transfer money directly through your own bank."
+    },
+    {
+      "id": "knm-a2-4-q9",
+      "text": "Waarvoor wordt Tikkie gebruikt?",
+      "options": ["Om je belastingaangifte te doen", "Om geld te vragen of te betalen aan vrienden en bekenden", "Om een afspraak bij de huisarts te maken", "Om een klacht in te dienen bij de gemeente"],
+      "correctIndex": 1,
+      "explanation": "Tikkie is een app waarmee je eenvoudig een betaalverzoek kunt sturen naar vrienden of bekenden.",
+      "explanationEn": "Tikkie is an app that allows you to easily send a payment request to friends or acquaintances."
+    },
+    {
+      "id": "knm-a2-4-q10",
+      "text": "Wat is het verschil tussen een betaalrekening en een spaarrekening?",
+      "options": ["Een betaalrekening is voor dagelijkse betalingen, een spaarrekening is om geld opzij te zetten", "Er is geen verschil", "Een spaarrekening is alleen voor bedrijven", "Een betaalrekening geeft meer rente dan een spaarrekening"],
+      "correctIndex": 0,
+      "explanation": "Een betaalrekening gebruik je voor dagelijkse betalingen zoals boodschappen en huur. Een spaarrekening is bedoeld om geld te sparen, vaak met een kleine rente.",
+      "explanationEn": "A current account is used for daily payments like groceries and rent. A savings account is meant to save money, often with a small interest rate."
+    },
+    {
+      "id": "knm-a2-4-q11",
+      "text": "Wanneer moet je in Nederland belastingaangifte doen?",
+      "options": ["In december", "Elke maand", "Meestal voor 1 mei over het voorgaande jaar", "Alleen als je meer dan 100.000 euro verdient"],
+      "correctIndex": 2,
+      "explanation": "In Nederland moet je meestal voor 1 mei belastingaangifte doen over het voorgaande jaar. Je doet dit bij de Belastingdienst.",
+      "explanationEn": "In the Netherlands, you usually need to file your tax return by May 1 for the previous year. You do this with the Tax Authority."
+    },
+    {
+      "id": "knm-a2-4-q12",
+      "text": "Wat zijn toeslagen?",
+      "options": ["Boetes van de Belastingdienst", "Extra belastingen die je moet betalen", "Bonussen van je werkgever", "Financiele bijdragen van de overheid om kosten te helpen betalen"],
+      "correctIndex": 3,
+      "explanation": "Toeslagen zijn financiele bijdragen van de overheid. Voorbeelden zijn zorgtoeslag, huurtoeslag, kinderopvangtoeslag en het kindgebonden budget.",
+      "explanationEn": "Toeslagen (allowances) are financial contributions from the government. Examples include healthcare allowance, rent allowance, childcare allowance, and child budget."
+    },
+    {
+      "id": "knm-a2-4-q13",
+      "text": "Wat is een voorlopige aanslag?",
+      "options": ["Een schatting van de Belastingdienst van hoeveel belasting je moet betalen of terugkrijgt", "Een boete voor te laat betalen", "Een factuur van je werkgever", "Een rekening van de zorgverzekering"],
+      "correctIndex": 0,
+      "explanation": "Een voorlopige aanslag is een schatting van de Belastingdienst. Je betaalt dan alvast belasting of krijgt al geld terug, voordat de definitieve aanslag komt.",
+      "explanationEn": "A provisional assessment is an estimate from the Tax Authority. You pay tax in advance or receive money back before the final assessment is issued."
+    },
+    {
+      "id": "knm-a2-4-q14",
+      "text": "Waar kun je terecht als je financiele problemen hebt en hulp nodig hebt?",
+      "options": ["Bij de politie", "Bij het maatschappelijk werk", "Bij de dierenarts", "Bij de bibliotheek"],
+      "correctIndex": 1,
+      "explanation": "Het maatschappelijk werk helpt mensen met allerlei problemen, waaronder financiele problemen, schulden en het aanvragen van hulp.",
+      "explanationEn": "Social work helps people with various problems, including financial problems, debts, and applying for assistance."
+    },
+    {
+      "id": "knm-a2-4-q15",
+      "text": "Wat doet een maatschappelijk werker?",
+      "options": ["Hij repareert je huis", "Hij geeft rijlessen", "Hij helpt mensen met persoonlijke, financiele en sociale problemen", "Hij werkt alleen met kinderen op school"],
+      "correctIndex": 2,
+      "explanation": "Een maatschappelijk werker helpt mensen met persoonlijke, financiele en sociale problemen. Dit kan bijvoorbeeld gaan over schulden, opvoeding of eenzaamheid.",
+      "explanationEn": "A social worker helps people with personal, financial, and social problems. This can involve debts, parenting, or loneliness, for example."
+    },
+    {
+      "id": "knm-a2-4-q16",
+      "text": "Wat betekent GGZ?",
+      "options": ["Gemeentelijke Gezondheids Zaken", "Geneeskundige Groeps Zorg", "Groot Gezinnen Zorgnet", "Geestelijke Gezondheidszorg"],
+      "correctIndex": 3,
+      "explanation": "GGZ staat voor Geestelijke Gezondheidszorg. Dit is de zorg voor mensen met psychische klachten of problemen.",
+      "explanationEn": "GGZ stands for Mental Health Care. This is the care for people with psychological complaints or problems."
+    },
+    {
+      "id": "knm-a2-4-q17",
+      "text": "Wat heb je nodig om naar de GGZ te gaan?",
+      "options": ["Een verwijsbrief van je huisarts", "Een brief van de burgemeester", "Een paspoort en een foto", "Niets, je kunt zelf een afspraak maken"],
+      "correctIndex": 0,
+      "explanation": "Om naar de GGZ te gaan, heb je een verwijsbrief van je huisarts nodig. De huisarts beoordeelt eerst of je hulp nodig hebt van de GGZ.",
+      "explanationEn": "To go to the GGZ, you need a referral letter from your general practitioner. The GP first assesses whether you need help from mental health care."
+    },
+    {
+      "id": "knm-a2-4-q18",
+      "text": "Wat is dal voordeel bij de NS?",
+      "options": ["Je mag gratis reizen in de spits", "Je krijgt een gratis fiets bij het station", "Je krijgt korting als je buiten de spits reist", "Je mag met twee personen reizen op een kaartje"],
+      "correctIndex": 2,
+      "explanation": "Met Dal Voordeel krijg je 40% korting op treinreizen buiten de spitsuren. De spits is doordeweeks van 6:30-9:00 en 16:00-18:30.",
+      "explanationEn": "With Off-Peak Discount, you get 40% off train trips outside peak hours. Peak hours are weekdays from 6:30-9:00 and 16:00-18:30."
+    },
+    {
+      "id": "knm-a2-4-q19",
+      "text": "Welke soorten OV-chipkaarten bestaan er?",
+      "options": ["Alleen een persoonlijke kaart", "Een persoonlijke kaart en een anonieme kaart", "Alleen een anonieme kaart", "Een gouden kaart en een zilveren kaart"],
+      "correctIndex": 1,
+      "explanation": "Er zijn twee soorten OV-chipkaarten: een persoonlijke kaart (op je naam) en een anonieme kaart (zonder naam, iedereen kan hem gebruiken).",
+      "explanationEn": "There are two types of OV-chipkaarten: a personal card (in your name) and an anonymous card (without a name, anyone can use it)."
+    },
+    {
+      "id": "knm-a2-4-q20",
+      "text": "Wat is NS Flex?",
+      "options": ["Een sportabonnement van de NS", "Een fietsverhuurservice", "Een app om taxi's te bestellen", "Een reisproduct waarbij je achteraf betaalt voor je treinreizen"],
+      "correctIndex": 3,
+      "explanation": "NS Flex is een reisproduct van de NS. Je reist met je persoonlijke OV-chipkaart en betaalt achteraf via automatische incasso.",
+      "explanationEn": "NS Flex is a travel product from NS. You travel with your personal OV-chipkaart and pay afterwards via direct debit."
+    },
+    {
+      "id": "knm-a2-4-q21",
+      "text": "Wat is een milieustraat?",
+      "options": ["Een gemeentelijke locatie waar je afval kunt brengen dat niet in de gewone container past", "Een straat waar geen auto's mogen rijden", "Een winkelstraat met duurzame winkels", "Een park met veel bomen"],
+      "correctIndex": 0,
+      "explanation": "Een milieustraat is een gemeentelijke locatie waar je grof afval, chemisch afval en andere speciale afvalsoorten kunt inleveren.",
+      "explanationEn": "A recycling center (milieustraat) is a municipal location where you can drop off bulky waste, chemical waste, and other special types of waste."
+    },
+    {
+      "id": "knm-a2-4-q22",
+      "text": "Hoe kun je grofvuil laten ophalen?",
+      "options": ["Je zet het gewoon bij de container op straat", "Je brengt het naar de politie", "Je maakt een afspraak met de gemeente voor ophaling", "Je gooit het in de gracht"],
+      "correctIndex": 2,
+      "explanation": "Grofvuil kun je laten ophalen door de gemeente. Je maakt dan een afspraak via de website of telefoon van de gemeente. Soms is dit gratis, soms betaal je een kleine bijdrage.",
+      "explanationEn": "You can have bulky waste collected by the municipality. You make an appointment via the municipality's website or phone. Sometimes this is free, sometimes you pay a small fee."
+    },
+    {
+      "id": "knm-a2-4-q23",
+      "text": "Waar breng je lege batterijen en oude medicijnen naartoe?",
+      "options": ["In de gewone afvalbak", "Je gooit ze in de gft-bak", "Je stuurt ze naar de Belastingdienst", "Naar speciale inzamelpunten, zoals de apotheek voor medicijnen"],
+      "correctIndex": 3,
+      "explanation": "Lege batterijen lever je in bij speciale inzamelpunten, bijvoorbeeld in de supermarkt. Oude medicijnen breng je terug naar de apotheek.",
+      "explanationEn": "Empty batteries go to special collection points, for example in the supermarket. Old medicines should be returned to the pharmacy."
+    },
+    {
+      "id": "knm-a2-4-q24",
+      "text": "Wat is de rol van een makelaar bij het kopen van een huis?",
+      "options": ["De makelaar bouwt het huis", "De makelaar helpt je bij het zoeken, bezichtigen en onderhandelen over een huis", "De makelaar betaalt de belasting voor je", "De makelaar geeft je een hypotheek"],
+      "correctIndex": 1,
+      "explanation": "Een makelaar helpt bij het zoeken naar een woning, het bezichtigen van huizen en het onderhandelen over de prijs.",
+      "explanationEn": "A real estate agent helps with searching for a property, viewing houses, and negotiating the price."
+    },
+    {
+      "id": "knm-a2-4-q25",
+      "text": "Wat doet de notaris bij het kopen van een huis?",
+      "options": ["De notaris maakt de koopakte officieel en zorgt voor de overdracht", "De notaris schildert het huis", "De notaris verhuurt het huis", "De notaris bepaalt de huurprijs"],
+      "correctIndex": 0,
+      "explanation": "De notaris maakt de koopakte en de hypotheekakte officieel. Bij de overdracht zorgt de notaris dat het huis juridisch op jouw naam komt.",
+      "explanationEn": "The notary makes the purchase deed and mortgage deed official. During the transfer, the notary ensures the house is legally registered in your name."
+    },
+    {
+      "id": "knm-a2-4-q26",
+      "text": "Wat is overdrachtsbelasting?",
+      "options": ["Belasting die je betaalt als je een auto koopt", "Belasting op je salaris", "Belasting die je betaalt bij het kopen van een bestaand huis", "Belasting op boodschappen"],
+      "correctIndex": 2,
+      "explanation": "Overdrachtsbelasting is de belasting die je betaalt als je een bestaande woning koopt. Voor starters tot 35 jaar kan er een vrijstelling gelden.",
+      "explanationEn": "Transfer tax is the tax you pay when buying an existing property. First-time buyers under 35 may be exempt."
+    },
+    {
+      "id": "knm-a2-4-q27",
+      "text": "Welke beroemde schilder heeft 'De Nachtwacht' geschilderd?",
+      "options": ["Vincent van Gogh", "Johannes Vermeer", "Piet Mondriaan", "Rembrandt van Rijn"],
+      "correctIndex": 3,
+      "explanation": "De Nachtwacht is geschilderd door Rembrandt van Rijn in 1642. Het schilderij hangt in het Rijksmuseum in Amsterdam.",
+      "explanationEn": "The Night Watch was painted by Rembrandt van Rijn in 1642. The painting is displayed in the Rijksmuseum in Amsterdam."
+    },
+    {
+      "id": "knm-a2-4-q28",
+      "text": "Welk schilderij is gemaakt door Johannes Vermeer?",
+      "options": ["Het Meisje met de Parel", "De Zonnebloemen", "De Sterrennacht", "De Nachtwacht"],
+      "correctIndex": 0,
+      "explanation": "Het Meisje met de Parel is een beroemd schilderij van Johannes Vermeer. Het hangt in het Mauritshuis in Den Haag.",
+      "explanationEn": "Girl with a Pearl Earring is a famous painting by Johannes Vermeer. It is displayed in the Mauritshuis in The Hague."
+    },
+    {
+      "id": "knm-a2-4-q29",
+      "text": "Waar hangt De Nachtwacht van Rembrandt?",
+      "options": ["In het Van Gogh Museum", "In het Mauritshuis", "In het Rijksmuseum", "In het Stedelijk Museum"],
+      "correctIndex": 2,
+      "explanation": "De Nachtwacht hangt in het Rijksmuseum in Amsterdam. Het is een van de beroemdste schilderijen van Nederland.",
+      "explanationEn": "The Night Watch is displayed in the Rijksmuseum in Amsterdam. It is one of the most famous paintings in the Netherlands."
+    },
+    {
+      "id": "knm-a2-4-q30",
+      "text": "Vincent van Gogh is beroemd om zijn schilderijen. Waar is hij geboren?",
+      "options": ["In Amsterdam", "In Zundert, Noord-Brabant", "In Rotterdam", "In Maastricht"],
+      "correctIndex": 1,
+      "explanation": "Vincent van Gogh is geboren in 1853 in Zundert, een dorp in de provincie Noord-Brabant.",
+      "explanationEn": "Vincent van Gogh was born in 1853 in Zundert, a village in the province of Noord-Brabant."
+    },
+    {
+      "id": "knm-a2-4-q31",
+      "text": "Wie waren de gastarbeiders die in de jaren 60 en 70 naar Nederland kwamen?",
+      "options": ["Toeristen uit Duitsland", "Studenten uit Engeland", "Soldaten uit Amerika", "Arbeiders uit landen als Turkije en Marokko die kwamen werken in Nederlandse fabrieken"],
+      "correctIndex": 3,
+      "explanation": "In de jaren 60 en 70 kwamen gastarbeiders uit landen als Turkije en Marokko naar Nederland om te werken in fabrieken. Veel van hen zijn gebleven.",
+      "explanationEn": "In the 1960s and 70s, guest workers from countries like Turkey and Morocco came to the Netherlands to work in factories. Many of them stayed."
+    },
+    {
+      "id": "knm-a2-4-q32",
+      "text": "Wie zijn de Molukkers in Nederland?",
+      "options": ["Mensen afkomstig van de Molukken die na de onafhankelijkheid van Indonesie naar Nederland kwamen", "Toeristen uit Indonesie", "Studenten uit Japan", "Handelaren uit China"],
+      "correctIndex": 0,
+      "explanation": "Molukkers kwamen in 1951 naar Nederland vanuit de Molukken (voormalig Nederlands-Indie). Veel KNIL-militairen en hun families werden naar Nederland gebracht.",
+      "explanationEn": "Moluccans came to the Netherlands in 1951 from the Moluccas (former Dutch East Indies). Many KNIL soldiers and their families were brought to the Netherlands."
+    },
+    {
+      "id": "knm-a2-4-q33",
+      "text": "Wat is DigiD?",
+      "options": ["Een sociale media app", "Een digitale identiteit om in te loggen bij de overheid en andere organisaties", "Een e-mailadres van de gemeente", "Een digitale portemonnee"],
+      "correctIndex": 1,
+      "explanation": "DigiD is je digitale identiteit. Met DigiD kun je inloggen bij websites van de overheid, zoals de Belastingdienst, DUO en je zorgverzekeraar.",
+      "explanationEn": "DigiD is your digital identity. With DigiD you can log in to government websites, such as the Tax Authority, DUO, and your health insurance company."
+    },
+    {
+      "id": "knm-a2-4-q34",
+      "text": "Wat is MijnOverheid?",
+      "options": ["Een politieke partij", "Een app om te stemmen", "Een website om kleding te kopen", "Een website waar je berichten en informatie van de overheid kunt bekijken"],
+      "correctIndex": 3,
+      "explanation": "MijnOverheid is een website waar je persoonlijke berichten van de overheid ontvangt, bijvoorbeeld van de Belastingdienst of je gemeente. Je logt in met DigiD.",
+      "explanationEn": "MijnOverheid is a website where you receive personal messages from the government, for example from the Tax Authority or your municipality. You log in with DigiD."
+    },
+    {
+      "id": "knm-a2-4-q35",
+      "text": "Wat is de Berichtenbox op MijnOverheid?",
+      "options": ["Een chatfunctie om met de politie te praten", "Een app om pakketten te volgen", "Een digitale postbus waar je officiele berichten van de overheid ontvangt", "Een fysieke brievenbus bij het gemeentehuis"],
+      "correctIndex": 2,
+      "explanation": "De Berichtenbox is de digitale postbus op MijnOverheid. Hier ontvang je officiele berichten van overheidsinstanties, zoals belastingaanslagen.",
+      "explanationEn": "The Berichtenbox is the digital mailbox on MijnOverheid. Here you receive official messages from government agencies, such as tax assessments."
+    },
+    {
+      "id": "knm-a2-4-q36",
+      "text": "Wat is een DigiD-machtiging?",
+      "options": ["Toestemming geven aan iemand anders om namens jou digitale zaken te regelen", "Een extra wachtwoord voor DigiD", "Een upgrade naar een betaalde versie van DigiD", "Een code om wifi te gebruiken bij de gemeente"],
+      "correctIndex": 0,
+      "explanation": "Met een DigiD-machtiging geef je iemand anders toestemming om namens jou zaken te regelen bij de overheid, bijvoorbeeld als je hier zelf niet toe in staat bent.",
+      "explanationEn": "With a DigiD authorization, you give someone else permission to handle government matters on your behalf, for example if you are unable to do so yourself."
+    },
+    {
+      "id": "knm-a2-4-q37",
+      "text": "Welke taal wordt in Friesland naast het Nederlands gesproken?",
+      "options": ["Duits", "Engels", "Limburgs", "Fries"],
+      "correctIndex": 3,
+      "explanation": "In de provincie Friesland wordt naast het Nederlands ook Fries gesproken. Het Fries is een officieel erkende taal in Nederland.",
+      "explanationEn": "In the province of Friesland, Frisian is spoken alongside Dutch. Frisian is an officially recognized language in the Netherlands."
+    },
+    {
+      "id": "knm-a2-4-q38",
+      "text": "Wat is een warmtepomp?",
+      "options": ["Een apparaat dat warmte uit de lucht, bodem of water haalt om je huis te verwarmen", "Een apparaat dat water opwarmt met gas", "Een radiator aan de muur", "Een soort open haard"],
+      "correctIndex": 0,
+      "explanation": "Een warmtepomp haalt warmte uit de lucht, bodem of het grondwater en gebruikt dit om je huis te verwarmen. Het is duurzamer dan verwarmen met gas.",
+      "explanationEn": "A heat pump extracts heat from the air, ground, or groundwater and uses this to heat your home. It is more sustainable than heating with gas."
+    },
+    {
+      "id": "knm-a2-4-q39",
+      "text": "Wat is een energielabel voor een woning?",
+      "options": ["Een sticker met het adres van het huis", "Een label dat aangeeft hoe energiezuinig een woning is, van A tot G", "Een vergunning om zonnepanelen te plaatsen", "Een factuur van het energiebedrijf"],
+      "correctIndex": 1,
+      "explanation": "Een energielabel geeft aan hoe energiezuinig een woning is. Label A (of hoger) is zeer zuinig, label G is het minst zuinig. Bij verkoop of verhuur is een energielabel verplicht.",
+      "explanationEn": "An energy label indicates how energy efficient a home is. Label A (or higher) is very efficient, label G is the least efficient. An energy label is required when selling or renting."
+    },
+    {
+      "id": "knm-a2-4-q40",
+      "text": "Waarom plaatsen veel mensen in Nederland zonnepanelen op hun dak?",
+      "options": ["Omdat het verplicht is van de overheid", "Om het dak te beschermen tegen regen", "Om zelf duurzame energie op te wekken en de energiekosten te verlagen", "Omdat de buren het ook hebben"],
+      "correctIndex": 2,
+      "explanation": "Zonnepanelen zetten zonlicht om in elektriciteit. Hiermee kun je duurzame energie opwekken en je energiekosten verlagen. De overheid stimuleert dit met subsidies.",
+      "explanationEn": "Solar panels convert sunlight into electricity. This allows you to generate sustainable energy and reduce your energy costs. The government encourages this with subsidies."
+    }
+  ]
+}
