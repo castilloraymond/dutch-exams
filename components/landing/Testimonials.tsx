@@ -1,6 +1,5 @@
 import { Star } from "lucide-react";
 
-/* PLACEHOLDER — all testimonials are placeholder content */
 const testimonials = [
     {
         quote: "I'd been procrastinating for months. This broke it into 20-minute drill sessions I could actually stick to. I drilled every question type until nothing surprised me. Passed all sections first try.",
@@ -47,7 +46,6 @@ export function Testimonials() {
                                     <Star key={j} className="h-4 w-4 fill-current" />
                                 ))}
                             </div>
-                            {/* PLACEHOLDER */}
                             <blockquote className="text-[0.95rem] text-[var(--ink-soft)] leading-[1.7] flex-1 mb-6 italic">
                                 &ldquo;{t.quote}&rdquo;
                             </blockquote>

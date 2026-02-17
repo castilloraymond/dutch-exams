@@ -18,6 +18,7 @@ import {
 import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
 import { Button } from "@/components/ui/button";
+import { LandingFooter } from "@/components/landing/LandingFooter";
 import {
   getContentIndex,
   getKNMIndex,
@@ -207,6 +208,7 @@ export default function ProfilePage() {
           </div>
         </div>
       </section>
+      <LandingFooter />
     </main>
   );
 }

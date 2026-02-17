@@ -86,7 +86,7 @@ export function ResultsSummary({
           )}
           <p
             className={`mt-2 text-sm font-semibold ${
-              isPassing ? "text-[var(--green)]" : "text-[#ef4444]"
+              isPassing ? "text-[var(--green)]" : "text-red-600"
             }`}
           >
             {isPassing ? "PASSED" : "NOT PASSED"}
@@ -204,7 +204,7 @@ export function ResultsSummary({
                       "landing-card p-4 border-l-4",
                       isCorrect
                         ? "border-l-[var(--green)]"
-                        : "border-l-[#ef4444]"
+                        : "border-l-red-600"
                     )}
                   >
                     <div className="flex items-start gap-3 mb-3">
@@ -217,7 +217,7 @@ export function ResultsSummary({
                       {isCorrect ? (
                         <CheckCircle2 className="h-5 w-5 text-[var(--green)] flex-shrink-0" />
                       ) : (
-                        <XCircle className="h-5 w-5 text-[#ef4444] flex-shrink-0" />
+                        <XCircle className="h-5 w-5 text-red-600 flex-shrink-0" />
                       )}
                     </div>
 
@@ -228,14 +228,14 @@ export function ResultsSummary({
                           <span
                             className={cn(
                               "font-medium",
-                              isCorrect ? "text-[var(--green)]" : "text-[#ef4444]"
+                              isCorrect ? "text-[var(--green)]" : "text-red-600"
                             )}
                           >
                             {LABELS[record.userAnswer!]}. {record.options[record.userAnswer!]}
                           </span>
                         </p>
                       ) : (
-                        <p className="text-[#ef4444]">
+                        <p className="text-red-600">
                           Not answered
                         </p>
                       )}

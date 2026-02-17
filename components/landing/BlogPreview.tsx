@@ -8,7 +8,7 @@ export function BlogPreview() {
 
     return (
         <section className="py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal">
-            <div className="text-[0.8rem] font-semibold text-[var(--ink-muted)] uppercase tracking-[0.1em] mb-4">
+            <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
                 From the blog
             </div>
             <div className="flex items-end justify-between mb-[36px]">

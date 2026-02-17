@@ -16,7 +16,7 @@ export function ProblemSection() {
         },
         {
             icon: <Target className="h-6 w-6" />,
-            iconBg: "bg-[#FFF8E8] text-[#B8860B]",
+            iconBg: "bg-[var(--accent-soft)] text-[var(--accent)]",
             title: "Unclear exam readiness",
             description: "Are you actually ready? Without constant drills, most expats walk in uncertain. That anxiety shouldn't cost you a failed attempt and €200+ in retake fees.",
         },

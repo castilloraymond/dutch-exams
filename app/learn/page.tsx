@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
+import { LandingFooter } from "@/components/landing/LandingFooter";
 import { getWritingIndex, getSpeakingIndex, getMockExamIndex } from "@/lib/content";
 
 const modules = [
@@ -175,6 +176,7 @@ export default function LearnHubPage() {
           </div>
         </div>
       </section>
+      <LandingFooter />
     </main>
   );
 }
