@@ -173,3 +173,9 @@ You can, but there's no advantage for PR or citizenship purposes. Passing at A2 
 ---
 
 *Planning to go for PR or citizenship? Don't wait until year 5 to find out where your Dutch stands. [Take a free practice exam](/try) and see how close you already are — most kennismigranten are surprised by how much A2 Dutch they've already picked up just from living here.*
+
+**Related reading:**
+- [The 30-Day Inburgering Study Plan for Busy Professionals](/blog/30-day-inburgering-study-plan)
+- [How to Get Permanent Residence in the Netherlands: The Complete Roadmap](/blog/permanent-residence-netherlands-roadmap)
+- [Inburgering Exam Costs in 2026: Full Breakdown of Fees](/blog/inburgering-exam-costs-2026)
+- [7 Inburgering Mistakes That Cost Expats Months of Extra Prep](/blog/inburgering-mistakes-expats-avoid)

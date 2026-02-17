@@ -376,7 +376,10 @@ API routes
 
 ## Design System
 
-**Font:** Plus Jakarta Sans (weights 400-800), variable `--font-jakarta`. No dark mode.
+**Fonts:**
+- Plus Jakarta Sans (weights 400-800), variable `--font-jakarta` — UI, headings, nav
+- Source Serif 4 (weights 400-700), variable `--font-serif` — blog body text (`.prose-navy`)
+- No dark mode.
 
 **Tokens** (defined in `app/globals.css` `:root`):
 
@@ -402,7 +405,11 @@ API routes
 - `cta-primary` — orange button with glow shadow
 - `.reveal` / `.reveal.visible` — scroll-triggered fade-in (IntersectionObserver via `useScrollReveal`)
 - `.animate-reveal`, `.animate-reveal-delay-{1-4}` — entrance animations with staggered delays
-- `.prose-navy` — blog/long-form content typography
+- `.prose-navy` — blog/long-form content typography (serif body, sans-serif headings)
+- `.stat-box` / `.stat-number` / `.stat-label` — prominent stat highlight (white card, orange number)
+- `.takeaway-box` — blue-bg key insight box (left blue border)
+- `.tip-box` — green-bg pro tip box (left green border)
+- `.warning-box` — orange-bg warning box (left orange border)
 
 **Landing page patterns:**
 - Backgrounds alternate: cream (default) -> `bg-white` -> cream -> `bg-white` -> ... -> `bg-[var(--ink)]` (FinalCTA)
@@ -441,7 +448,7 @@ API routes
 - Each module index: `/content/<module>/index.json`
 - Mock exams: `/content/mock-exams/<module>/` with index.json + exam files
 - Quick assessment: `/content/quick-assessment/` per-module JSON
-- Blog posts: `/content/blog/*.md` with frontmatter (title, date, excerpt, author, tags)
+- Blog posts: `/content/blog/*.md` with frontmatter (title, slug, description, date, author, keywords) — 13 posts total
 - UI components: `/components/ui/` (shadcn primitives — button, card, input, label, progress, radio-group)
 - Feature components: `/components/` (AudioPlayer, ExamLayout, ResultsSummary, etc.)
 - Module-specific components: `/components/schrijven/`, `/components/spreken/`
@@ -498,6 +505,12 @@ Updated after each session.
 - What changed, which files, why
 -->
 
+### 2026-02-17
+- Added 10 new blog posts (3 pillar, 7 standard) — blog total now 13 posts
+- Upgraded blog UI: Source Serif 4 for body text, reading time, keyword tags, visual element boxes
+- Added Blog nav link to LandingNav (desktop + mobile)
+- Files changed: `app/layout.tsx`, `app/globals.css`, `app/blog/[slug]/page.tsx`, `app/blog/page.tsx`, `lib/blog.ts`, `components/landing/LandingNav.tsx`, 3 existing blog posts (backlinks), 10 new `.md` files in `content/blog/`
+
 ---
 
 ## Session Notes
@@ -511,6 +524,15 @@ Running log of decisions, bugs found, and context from each work session.
 - Bugs found
 - Side effects / watch-outs
 -->
+
+### 2026-02-17 — Blog Expansion + UI Upgrade
+- Blog posts use `div` and `span` in markdown (allowed in DOMPurify) for visual elements: `.stat-box`, `.takeaway-box`, `.tip-box`, `.warning-box`
+- `lib/blog.ts` now computes `readingTime` field on `BlogPostMeta` (~250 words/min)
+- Blog body text uses Source Serif 4 (serif) while headings stay in Jakarta Sans — editorial feel
+- Tables in `.prose-navy` now have dark headers, alternating rows, rounded corners
+- All 13 blog posts interlink heavily — article 1 (30-day study plan) is the hub linked from 7+ others
+- Blog frontmatter convention: `author: "PassInBurgering"` (not personal name)
+- Pre-existing build error: `npm run build` fails on `/learn/knm/exam` (Next.js 16 InvariantError) — not caused by blog changes, `npx tsc --noEmit` passes clean
 
 ---
 

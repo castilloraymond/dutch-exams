@@ -235,3 +235,9 @@ You only retake the part you failed -- your passes on other components stay vali
 The inburgering exam isn't a mystery and it isn't a monster. It's a structured test with a defined scope, and as a professional, you're already wired to tackle exactly this kind of challenge. Know what's on it, put in the structured prep time, and you'll pass.
 
 For a breakdown of whether kennismigranten and 30% ruling holders specifically need to worry about inburgering, read our [guide for kennismigranten and 30% ruling holders](/blog/inburgering-kennismigranten-30-percent-ruling).
+
+**Related reading:**
+- [The 30-Day Inburgering Study Plan for Busy Professionals](/blog/30-day-inburgering-study-plan)
+- [Inburgering Exam Costs in 2026: Full Breakdown of Fees](/blog/inburgering-exam-costs-2026)
+- [What the Inburgering Exam Actually Looks Like: A Complete Walkthrough](/blog/inburgering-exam-walkthrough-2026)
+- [How Long Does It Take to Prepare for the Inburgering Exam?](/blog/how-long-prepare-inburgering-exam)
