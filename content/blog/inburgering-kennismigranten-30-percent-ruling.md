@@ -2,9 +2,10 @@
 title: "Inburgering for Kennismigranten: Do 30% Ruling Holders Need to Integrate?"
 slug: "inburgering-kennismigranten-30-percent-ruling"
 description: "Everything kennismigranten and 30% ruling holders need to know about inburgering requirements for permanent residence and Dutch citizenship."
-date: "2026-02-10"
+date: "2026-01-09"
 author: "Raymond"
 keywords: ["kennismigrant inburgering", "30% ruling inburgering", "inburgering permanent residence", "kennismigrant Netherlands"]
+category: "Legal & Admin"
 ---
 
 # Inburgering for Kennismigranten: Do 30% Ruling Holders Need to Integrate?

@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 import { JsonLd } from "@/components/JsonLd";
+import { BlogCTA } from "@/components/BlogCTA";
+import { ShareButtons } from "@/components/ShareButtons";
 import { getAllBlogSlugs, getBlogPost } from "@/lib/blog";
 
 export function generateStaticParams() {
@@ -51,8 +53,11 @@ export default async function BlogPostPage({
   const post = getBlogPost(slug);
   if (!post) notFound();
 
+  const postUrl = `https://passinburgering.com/blog/${post.slug}`;
+
   return (
     <main className="min-h-screen flex flex-col bg-[var(--cream)]">
+      {/* Article structured data */}
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -60,6 +65,9 @@ export default async function BlogPostPage({
           headline: post.title,
           description: post.description,
           datePublished: post.date,
+          dateModified: post.date,
+          wordCount: post.wordCount,
+          keywords: post.keywords.join(", "),
           author: {
             "@type": "Person",
             name: post.author,
@@ -69,9 +77,28 @@ export default async function BlogPostPage({
             name: "passinburgering",
             url: "https://passinburgering.com",
           },
-          mainEntityOfPage: `https://passinburgering.com/blog/${post.slug}`,
+          mainEntityOfPage: postUrl,
+          image: "https://passinburgering.com/og-image.png",
         }}
       />
+
+      {/* FAQ structured data */}
+      {post.faqItems.length > 0 && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: post.faqItems.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          }}
+        />
+      )}
 
       <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
         <div className="container mx-auto px-4 py-4">
@@ -108,11 +135,25 @@ export default async function BlogPostPage({
             <span>{post.readingTime} min read</span>
           </div>
 
-          {/* Content is sanitized via DOMPurify in lib/blog.ts */}
+          {/* Main content before FAQ — sanitized via DOMPurify in lib/blog.ts */}
           <div
             className="prose-navy"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: post.contentMain }}
           />
+
+          {/* Inline CTA before FAQ */}
+          <BlogCTA />
+
+          {/* FAQ section — sanitized via DOMPurify in lib/blog.ts */}
+          {post.contentFAQ && (
+            <div
+              className="prose-navy"
+              dangerouslySetInnerHTML={{ __html: post.contentFAQ }}
+            />
+          )}
+
+          {/* Share buttons */}
+          <ShareButtons title={post.title} url={postUrl} />
         </div>
       </article>
 

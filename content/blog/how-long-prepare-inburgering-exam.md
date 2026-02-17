@@ -2,9 +2,10 @@
 title: "How Long Does It Take to Prepare for the Inburgering Exam?"
 slug: "how-long-prepare-inburgering-exam"
 description: "Honest timelines for inburgering exam prep based on your starting level, study hours, and Dutch ability. Find out how long you actually need."
-date: "2026-02-17"
+date: "2026-02-11"
 author: "PassInBurgering"
 keywords: ["inburgering preparation time", "how long inburgering study", "inburgering exam timeline", "prepare inburgering", "inburgering study duration"]
+category: "Strategy"
 ---
 
 # How Long Does It Take to Prepare for the Inburgering Exam?

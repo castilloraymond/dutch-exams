@@ -2,9 +2,11 @@
 title: "How to Get Permanent Residence in the Netherlands: The Complete Roadmap"
 slug: "permanent-residence-netherlands-roadmap"
 description: "The complete roadmap to Dutch permanent residence — from visa types to inburgering exams to the IND application. Every step, timeline, and cost."
-date: "2026-02-17"
+date: "2026-01-16"
 author: "PassInBurgering"
 keywords: ["permanent residence Netherlands", "Dutch PR permit", "onbepaalde tijd", "inburgering permanent residence", "verblijfsvergunning onbepaalde tijd", "IND permanent residence"]
+category: "Legal & Admin"
+featured: true
 ---
 
 # How to Get Permanent Residence in the Netherlands: The Complete Roadmap

@@ -5,6 +5,7 @@ description: "Honest review of the best apps, tools, and resources for learning 
 date: "2026-02-17"
 author: "PassInBurgering"
 keywords: ["learn Dutch apps", "best Dutch learning apps 2026", "Dutch language tools", "learn Dutch online", "Dutch learning resources"]
+category: "Language Tips"
 ---
 
 # Best Apps and Tools for Learning Dutch in 2026

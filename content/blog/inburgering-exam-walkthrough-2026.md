@@ -2,9 +2,11 @@
 title: "What the Inburgering Exam Actually Looks Like: A Complete Walkthrough"
 slug: "inburgering-exam-walkthrough-2026"
 description: "A step-by-step walkthrough of the inburgering exam day — booking, check-in, all 5 components, timing, and what happens if you fail."
-date: "2026-02-17"
+date: "2026-01-21"
 author: "PassInBurgering"
 keywords: ["inburgering exam walkthrough", "exam day inburgering", "what to expect inburgering", "DUO exam center", "inburgering exam day"]
+category: "Exam Guides"
+featured: true
 ---
 
 # What the Inburgering Exam Actually Looks Like: A Complete Walkthrough
