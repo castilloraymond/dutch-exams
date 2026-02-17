@@ -146,7 +146,8 @@ AuthProvider (root layout) → useAuth() hook
 │   │   ├── feedback/route.ts     # User feedback submission
 │   │   ├── subscribe/route.ts    # Email subscription
 │   │   ├── tts/route.ts          # Azure Text-to-Speech proxy
-│   │   └── reddit-response/route.ts  # Reddit engagement tool API
+│   │   ├── reddit-response/route.ts  # Reddit engagement tool API
+│   │   └── loops/events/route.ts # Loops CRM event relay (client → server)
 │   │
 │   ├── profile/page.tsx          # User profile + progress dashboard
 │   ├── upgrade/page.tsx          # Upgrade/pricing page
@@ -272,6 +273,7 @@ AuthProvider (root layout) → useAuth() hook
 │   ├── supabase.ts               # Supabase client (admin/general)
 │   ├── supabase-browser.ts       # Supabase client for browser/client components
 │   ├── supabase-server.ts        # Supabase client for server/API routes
+│   ├── loops.ts                  # Loops CRM SDK wrapper (server-side only)
 │   ├── rate-limit.ts             # API rate limiting utility
 │   └── validate-redirect.ts      # Safe redirect URL validation
 │
@@ -306,6 +308,8 @@ AuthProvider (root layout) → useAuth() hook
 │   ├── marketing/                # Marketing docs
 │   │   ├── passinburgering-playbook.md
 │   │   └── WRITING-STYLE-GUIDE.md
+│   ├── plans/                    # Implementation plans
+│   │   └── crm-email-templates.md # Loops drip campaign email content
 │   ├── prds/                     # Product requirement docs (PRD-01 through PRD-09)
 │   ├── templates/                # Document templates
 │   └── README.md
@@ -362,16 +366,24 @@ Auth system
   → contexts/AuthContext.tsx → lib/supabase-browser.ts, lib/validate-redirect.ts
   → components/auth/* → contexts/AuthContext.tsx
   → middleware.ts (route protection, standalone — only imports next/server)
-  → app/auth/callback/route.ts → lib/supabase-server.ts
+  → app/auth/callback/route.ts → lib/supabase-server.ts, lib/loops.ts
 
 Blog system
   → lib/blog.ts (gray-matter, marked, DOMPurify)
   → app/blog/* pages, components/landing/BlogPreview.tsx, app/sitemap.ts
 
+CRM / Loops drip campaign
+  → lib/loops.ts (server-side Loops SDK wrapper)
+  → app/api/loops/events/route.ts → lib/loops.ts, lib/rate-limit.ts
+  → app/auth/callback/route.ts fires user_signed_up (server-side)
+  → app/try/[module]/results/page.tsx fires quick_assessment_completed (via API)
+  → hooks/useProgress.ts fires exercise_completed (via API)
+
 API routes
   → lib/supabase-server.ts (progress, exam-results, auth callback)
   → lib/supabase.ts (feedback, subscribe)
-  → lib/rate-limit.ts (tts, reddit-response)
+  → lib/loops.ts (loops/events, auth callback)
+  → lib/rate-limit.ts (tts, reddit-response, loops/events)
 ```
 
 ## Design System
@@ -455,12 +467,13 @@ API routes
 - Landing components: `/components/landing/` (barrel-exported via `index.ts`)
 - Auth components: `/components/auth/` (barrel-exported via `index.ts`)
 - Hooks: `/hooks/` (useProgress, useExamState, useExitWarning, useScrollReveal, useAzureTTS, useAudioRecorder)
-- Lib: `/lib/` (content, types, progress, blog, utils, supabase-*, rate-limit, validate-redirect)
+- Lib: `/lib/` (content, types, progress, blog, utils, loops, supabase-*, rate-limit, validate-redirect)
 
 ## Environment Variables (Optional)
 
 - `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anonymous key
+- `LOOPS_API_KEY` — Loops CRM API key (server-side only, used in `lib/loops.ts`)
 - Azure TTS credentials (used in `app/api/tts/route.ts`)
 
 ## Git Workflow — Permanent 3-Worktree Setup
@@ -510,6 +523,10 @@ Updated after each session.
 - Upgraded blog UI: Source Serif 4 for body text, reading time, keyword tags, visual element boxes
 - Added Blog nav link to LandingNav (desktop + mobile)
 - Files changed: `app/layout.tsx`, `app/globals.css`, `app/blog/[slug]/page.tsx`, `app/blog/page.tsx`, `lib/blog.ts`, `components/landing/LandingNav.tsx`, 3 existing blog posts (backlinks), 10 new `.md` files in `content/blog/`
+- Added Loops CRM onboarding drip campaign (4-email, Day 0/1/3/7)
+- New files: `lib/loops.ts`, `app/api/loops/events/route.ts`, `docs/plans/crm-email-templates.md`
+- Modified: `app/auth/callback/route.ts` (user_signed_up event), `app/try/[module]/results/page.tsx` (quick_assessment_completed), `hooks/useProgress.ts` (exercise_completed)
+- New dependency: `loops` npm package
 
 ---
 
@@ -524,6 +541,16 @@ Running log of decisions, bugs found, and context from each work session.
 - Bugs found
 - Side effects / watch-outs
 -->
+
+### 2026-02-17 — CRM Onboarding Drip Campaign (Loops)
+- Installed `loops` SDK, created `lib/loops.ts` server-side wrapper with graceful dev-mode fallback (logs to console when `LOOPS_API_KEY` not set)
+- Created `/api/loops/events` POST endpoint for client-side event firing — rate-limited (20/min/IP), event name whitelist
+- `user_signed_up` event fires server-side in `app/auth/callback/route.ts` after successful `exchangeCodeForSession` — creates Loops contact + fires event non-blocking
+- `quick_assessment_completed` fires client-side from `app/try/[module]/results/page.tsx` — calculates weakest module across all attempted assessments, guarded by localStorage flag
+- `exercise_completed` fires from `hooks/useProgress.ts` via helper functions `countExercises()` and `fireExerciseCompleted()` — fires on exam completion, writing attempt save, and speaking attempt save
+- `LOOPS_API_KEY` is server-side only — never appears in any `"use client"` file, client events go through `/api/loops/events`
+- Email templates drafted in `docs/plans/crm-email-templates.md` following brand voice guide
+- Pre-existing build error still present (`npm run build` fails on `/learn/knm/exam` InvariantError), `npx tsc --noEmit` passes clean
 
 ### 2026-02-17 — Blog Expansion + UI Upgrade
 - Blog posts use `div` and `span` in markdown (allowed in DOMPurify) for visual elements: `.stat-box`, `.takeaway-box`, `.tip-box`, `.warning-box`
