@@ -1,0 +1,215 @@
+{
+  "id": "lezen-a2-4",
+  "title": "Lezen A2 - Oefenexamen 4",
+  "module": "lezen",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "35 min",
+  "passages": [
+    {
+      "id": "a2-4-p1",
+      "title": "Brief over schoolexcursie",
+      "content": "Basisschool Het Kompas\nAmsterdam, 5 maart 2025\n\nBeste ouders/verzorgers,\n\nOp donderdag 20 maart gaat groep 6 op excursie naar het NEMO Science Museum in Amsterdam.\n\nVertrek: 09:00 uur vanaf school (bus)\nTerug: 15:30 uur op school\n\nDe kinderen moeten een lunchpakket en drinken meenemen. De school betaalt de entree en de bus. Wij vragen een bijdrage van € 5,00 per kind.\n\nHeeft uw kind medicijnen nodig? Geef dit door aan de leerkracht.\nWij zoeken nog 2 ouders die mee willen als begeleider.\n\nGraag het toestemmingsformulier uiterlijk 14 maart inleveren.\n\nMet vriendelijke groet,\nMeester Jan en juf Petra",
+      "contentType": "letter",
+      "instruction": "Lees de brief over de schoolexcursie.",
+      "questions": [
+        {
+          "id": "a2-4-q1",
+          "text": "Waar gaat groep 6 naartoe?",
+          "options": ["Het Rijksmuseum", "Artis", "NEMO Science Museum", "De Efteling"],
+          "correctIndex": 2,
+          "explanation": "Groep 6 gaat op excursie naar het NEMO Science Museum.",
+          "explanationEn": "Group 6 is going on a trip to the NEMO Science Museum."
+        },
+        {
+          "id": "a2-4-q2",
+          "text": "Wat moeten de kinderen meenemen?",
+          "options": ["Geld voor de entree", "Een lunchpakket en drinken", "Zwemkleding", "Een schrift en pen"],
+          "correctIndex": 1,
+          "explanation": "De kinderen moeten een lunchpakket en drinken meenemen.",
+          "explanationEn": "The children must bring a lunch package and drinks."
+        },
+        {
+          "id": "a2-4-q3",
+          "text": "Hoeveel ouders zijn er nog nodig als begeleider?",
+          "options": ["1", "2", "3", "4"],
+          "correctIndex": 1,
+          "explanation": "De school zoekt nog 2 ouders die mee willen als begeleider.",
+          "explanationEn": "The school is looking for 2 more parents to come as chaperones."
+        },
+        {
+          "id": "a2-4-q4",
+          "text": "Wanneer moet het toestemmingsformulier ingeleverd zijn?",
+          "options": ["10 maart", "14 maart", "18 maart", "20 maart"],
+          "correctIndex": 1,
+          "explanation": "Het toestemmingsformulier moet uiterlijk 14 maart ingeleverd zijn.",
+          "explanationEn": "The permission form must be submitted by March 14 at the latest."
+        }
+      ]
+    },
+    {
+      "id": "a2-4-p2",
+      "title": "Vacature bezorger",
+      "content": "Vacature: Bezorger (parttime)\n\nBedrijf: PostNL Pakketservice\nLocatie: Regio Leiden\n\nWij zoeken enthousiaste bezorgers voor het bezorgen van pakketten in de regio Leiden. Je werkt 3 tot 4 dagen per week.\n\nWat ga je doen:\n- Pakketten bezorgen bij mensen thuis\n- Pakketten ophalen bij afhaalpunten\n- Werktijden: 08:00 - 16:00\n\nWat vragen wij:\n- Rijbewijs B\n- Goede conditie (je tilt veel pakketten)\n- Vriendelijk en klantvriendelijk\n- Je spreekt een beetje Nederlands\n\nWat bieden wij:\n- € 14,50 per uur\n- Reiskostenvergoeding\n- Een busje van het bedrijf\n\nInteresse? Mail naar vacatures@postnl-leiden.nl",
+      "contentType": "notice",
+      "instruction": "Lees de vacature voor een bezorger.",
+      "questions": [
+        {
+          "id": "a2-4-q5",
+          "text": "Hoeveel dagen per week werk je als bezorger?",
+          "options": ["1 tot 2 dagen", "3 tot 4 dagen", "4 tot 5 dagen", "5 dagen"],
+          "correctIndex": 1,
+          "explanation": "Je werkt 3 tot 4 dagen per week.",
+          "explanationEn": "You work 3 to 4 days per week."
+        },
+        {
+          "id": "a2-4-q6",
+          "text": "Wat heb je nodig om deze baan te doen?",
+          "options": ["Een eigen auto", "Rijbewijs B", "Ervaring als bezorger", "Een diploma"],
+          "correctIndex": 1,
+          "explanation": "Je hebt rijbewijs B nodig.",
+          "explanationEn": "You need a category B driver's license."
+        },
+        {
+          "id": "a2-4-q7",
+          "text": "Hoeveel verdien je per uur?",
+          "options": ["€ 12,50", "€ 13,50", "€ 14,50", "€ 15,50"],
+          "correctIndex": 2,
+          "explanation": "Het uurloon is € 14,50.",
+          "explanationEn": "The hourly wage is €14.50."
+        },
+        {
+          "id": "a2-4-q8",
+          "text": "Wat biedt het bedrijf naast het salaris?",
+          "options": ["Een fiets", "Een telefoon", "Reiskostenvergoeding en een busje", "Gratis lunch"],
+          "correctIndex": 2,
+          "explanation": "Het bedrijf biedt een reiskostenvergoeding en een busje.",
+          "explanationEn": "The company offers travel reimbursement and a van."
+        }
+      ]
+    },
+    {
+      "id": "a2-4-p3",
+      "title": "Artikel over het weer",
+      "content": "Het Nederlandse weer\n\nNederland heeft een gematigd zeeklimaat. Dat betekent dat de winters niet heel koud zijn en de zomers niet heel warm. Maar het weer verandert vaak! Op één dag kan het regenen, zonnig zijn en weer bewolkt worden.\n\nHet regent in Nederland gemiddeld 130 dagen per jaar. Dat is veel vergeleken met landen in Zuid-Europa. Daarom hebben Nederlanders altijd een paraplu of regenjas bij zich.\n\nDe gemiddelde temperatuur in de winter is 3 graden. In de zomer is het gemiddeld 20 graden, maar soms wordt het warmer dan 30 graden. Dan spreken Nederlanders van een 'hittegolf'.\n\nWind is ook belangrijk in het Nederlandse weer. Vooral in de herfst en winter kan het hard waaien. Stormen komen meestal van de Noordzee. Fietsen in de wind is voor veel Nederlanders een dagelijkse uitdaging.",
+      "contentType": "text",
+      "instruction": "Lees het artikel over het Nederlandse weer.",
+      "questions": [
+        {
+          "id": "a2-4-q9",
+          "text": "Wat voor klimaat heeft Nederland?",
+          "options": ["Een tropisch klimaat", "Een droog klimaat", "Een gematigd zeeklimaat", "Een bergklimaat"],
+          "correctIndex": 2,
+          "explanation": "Nederland heeft een gematigd zeeklimaat.",
+          "explanationEn": "The Netherlands has a temperate maritime climate."
+        },
+        {
+          "id": "a2-4-q10",
+          "text": "Hoeveel dagen per jaar regent het gemiddeld?",
+          "options": ["80 dagen", "100 dagen", "130 dagen", "160 dagen"],
+          "correctIndex": 2,
+          "explanation": "Het regent gemiddeld 130 dagen per jaar.",
+          "explanationEn": "It rains an average of 130 days per year."
+        },
+        {
+          "id": "a2-4-q11",
+          "text": "Wat is de gemiddelde temperatuur in de winter?",
+          "options": ["-2 graden", "0 graden", "3 graden", "8 graden"],
+          "correctIndex": 2,
+          "explanation": "De gemiddelde temperatuur in de winter is 3 graden.",
+          "explanationEn": "The average temperature in winter is 3 degrees."
+        },
+        {
+          "id": "a2-4-q12",
+          "text": "Waar komen de stormen meestal vandaan?",
+          "options": ["De Alpen", "De Noordzee", "België", "Duitsland"],
+          "correctIndex": 1,
+          "explanation": "Stormen komen meestal van de Noordzee.",
+          "explanationEn": "Storms usually come from the North Sea."
+        }
+      ]
+    },
+    {
+      "id": "a2-4-p4",
+      "title": "Regels zwembad",
+      "content": "Zwembad De Golfslag — Huisregels\n\n1. Douchen voor het zwemmen is verplicht.\n2. Kinderen onder 6 jaar mogen alleen met een volwassene het zwembad in.\n3. Rennen op de tegels is verboden. De vloer is glad!\n4. Eten en drinken mag alleen in de kantine.\n5. Waardevolle spullen kunt u opbergen in een kluisje. Kosten: € 0,50 per keer.\n6. Duiken mag alleen in het diepe bad (diepte: 3 meter).\n7. Het zwembad is niet aansprakelijk voor diefstal of verlies.\n8. Bij drukte kan de badmeester het aantal bezoekers beperken.\n\nBij vragen: meld u bij de receptie.",
+      "contentType": "list",
+      "instruction": "Lees de regels van het zwembad.",
+      "questions": [
+        {
+          "id": "a2-4-q13",
+          "text": "Wat moet je doen voor het zwemmen?",
+          "options": ["Je schoenen uitdoen", "Douchen", "Een kluisje huren", "Een kaartje kopen"],
+          "correctIndex": 1,
+          "explanation": "Douchen voor het zwemmen is verplicht.",
+          "explanationEn": "Showering before swimming is mandatory."
+        },
+        {
+          "id": "a2-4-q14",
+          "text": "Kinderen onder welke leeftijd moeten met een volwassene komen?",
+          "options": ["4 jaar", "6 jaar", "8 jaar", "10 jaar"],
+          "correctIndex": 1,
+          "explanation": "Kinderen onder 6 jaar mogen alleen met een volwassene het zwembad in.",
+          "explanationEn": "Children under 6 may only enter the pool with an adult."
+        },
+        {
+          "id": "a2-4-q15",
+          "text": "Waar mag je eten en drinken?",
+          "options": ["Bij het zwembad", "In de kleedkamer", "In de kantine", "Overal"],
+          "correctIndex": 2,
+          "explanation": "Eten en drinken mag alleen in de kantine.",
+          "explanationEn": "Eating and drinking is only allowed in the canteen."
+        },
+        {
+          "id": "a2-4-q16",
+          "text": "Hoeveel kost een kluisje?",
+          "options": ["Gratis", "€ 0,50", "€ 1,00", "€ 2,00"],
+          "correctIndex": 1,
+          "explanation": "Een kluisje kost € 0,50 per keer.",
+          "explanationEn": "A locker costs €0.50 per use."
+        }
+      ]
+    },
+    {
+      "id": "a2-4-p5",
+      "title": "E-mail van de huisarts",
+      "content": "Van: Huisartsenpraktijk De Linde\nAan: Familie Yilmaz\nOnderwerp: Griepvaccinatie 2025\n\nGeachte heer/mevrouw Yilmaz,\n\nElk jaar bieden wij de griepvaccinatie aan voor patiënten met een verhoogd risico. U komt in aanmerking voor een gratis griepprik.\n\nDe vaccinatie-dagen zijn:\n- Woensdag 15 oktober, 09:00 - 12:00\n- Donderdag 16 oktober, 14:00 - 17:00\n- Zaterdag 18 oktober, 10:00 - 13:00\n\nU hoeft geen afspraak te maken. U kunt zonder afspraak langskomen.\n\nNeem uw identiteitsbewijs en zorgverzekeringskaart mee. De vaccinatie is gratis voor u.\n\nNa de vaccinatie kunt u last hebben van een pijnlijke arm. Dit is normaal en gaat binnen 2 dagen over.\n\nMet vriendelijke groet,\nDr. Van Leeuwen\nHuisartsenpraktijk De Linde",
+      "contentType": "letter",
+      "instruction": "Lees de e-mail van de huisarts.",
+      "questions": [
+        {
+          "id": "a2-4-q17",
+          "text": "Waarom krijgt de familie Yilmaz deze e-mail?",
+          "options": ["Ze moeten belasting betalen", "Ze moeten verhuizen", "Ze komen in aanmerking voor een griepprik", "Ze moeten een afspraak maken"],
+          "correctIndex": 2,
+          "explanation": "De familie komt in aanmerking voor een gratis griepvaccinatie.",
+          "explanationEn": "The family is eligible for a free flu vaccination."
+        },
+        {
+          "id": "a2-4-q18",
+          "text": "Moet je een afspraak maken voor de vaccinatie?",
+          "options": ["Ja, via de website", "Ja, bellen naar de praktijk", "Nee, je kunt zonder afspraak komen", "Ja, mailen naar de huisarts"],
+          "correctIndex": 2,
+          "explanation": "Je hoeft geen afspraak te maken. Je kunt zonder afspraak langskomen.",
+          "explanationEn": "You don't need to make an appointment. You can come without one."
+        },
+        {
+          "id": "a2-4-q19",
+          "text": "Wat moet je meenemen naar de vaccinatie?",
+          "options": ["Alleen een identiteitsbewijs", "Een identiteitsbewijs en zorgverzekeringskaart", "Een recept van de dokter", "Geld voor de vaccinatie"],
+          "correctIndex": 1,
+          "explanation": "Je moet je identiteitsbewijs en zorgverzekeringskaart meenemen.",
+          "explanationEn": "You must bring your ID and health insurance card."
+        },
+        {
+          "id": "a2-4-q20",
+          "text": "Wat kan er gebeuren na de vaccinatie?",
+          "options": ["Je wordt ziek", "Je arm kan pijnlijk zijn", "Je moet thuisblijven", "Je moet medicijnen nemen"],
+          "correctIndex": 1,
+          "explanation": "Na de vaccinatie kun je last hebben van een pijnlijke arm.",
+          "explanationEn": "After the vaccination you may have a sore arm."
+        }
+      ]
+    }
+  ]
+}

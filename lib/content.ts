@@ -61,6 +61,10 @@ import lezenA1Exam1 from "@/content/mock-exams/lezen/a1-exam-1.json";
 import lezenA1Exam2 from "@/content/mock-exams/lezen/a1-exam-2.json";
 import lezenA2Exam1 from "@/content/mock-exams/lezen/a2-exam-1.json";
 import lezenA2Exam2 from "@/content/mock-exams/lezen/a2-exam-2.json";
+import lezenA1Exam3 from "@/content/mock-exams/lezen/a1-exam-3.json";
+import lezenA1Exam4 from "@/content/mock-exams/lezen/a1-exam-4.json";
+import lezenA2Exam3 from "@/content/mock-exams/lezen/a2-exam-3.json";
+import lezenA2Exam4 from "@/content/mock-exams/lezen/a2-exam-4.json";
 
 // Mock exam content - KNM
 import knmMockIndex from "@/content/mock-exams/knm/index.json";
@@ -161,6 +165,10 @@ const mockExams: Record<string, MockExam> = {
   "lezen-a1-2": lezenA1Exam2 as unknown as MockExam,
   "lezen-a2-1": lezenA2Exam1 as unknown as MockExam,
   "lezen-a2-2": lezenA2Exam2 as unknown as MockExam,
+  "lezen-a1-3": lezenA1Exam3 as unknown as MockExam,
+  "lezen-a1-4": lezenA1Exam4 as unknown as MockExam,
+  "lezen-a2-3": lezenA2Exam3 as unknown as MockExam,
+  "lezen-a2-4": lezenA2Exam4 as unknown as MockExam,
   "knm-a1-1": knmA1Exam1 as unknown as MockExam,
   "knm-a1-2": knmA1Exam2 as unknown as MockExam,
   "knm-a2-1": knmA2Exam1 as unknown as MockExam,

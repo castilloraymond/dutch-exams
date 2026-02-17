@@ -16,6 +16,20 @@
       "recommendedTime": "25 min"
     },
     {
+      "id": "lezen-a1-3",
+      "title": "Lezen A1 - Oefenexamen 3",
+      "difficulty": "A1",
+      "questionCount": 15,
+      "recommendedTime": "25 min"
+    },
+    {
+      "id": "lezen-a1-4",
+      "title": "Lezen A1 - Oefenexamen 4",
+      "difficulty": "A1",
+      "questionCount": 15,
+      "recommendedTime": "25 min"
+    },
+    {
       "id": "lezen-a2-1",
       "title": "Lezen A2 - Oefenexamen 1",
       "difficulty": "A2",
@@ -25,6 +39,20 @@
     {
       "id": "lezen-a2-2",
       "title": "Lezen A2 - Oefenexamen 2",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "35 min"
+    },
+    {
+      "id": "lezen-a2-3",
+      "title": "Lezen A2 - Oefenexamen 3",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "35 min"
+    },
+    {
+      "id": "lezen-a2-4",
+      "title": "Lezen A2 - Oefenexamen 4",
       "difficulty": "A2",
       "questionCount": 20,
       "recommendedTime": "35 min"
