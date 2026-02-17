@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { ArrowLeft, Crown, Mic, PenLine, Brain, Sparkles } from "lucide-react";
+import { LandingFooter } from "@/components/landing/LandingFooter";
 
 export default function UpgradePage() {
   return (
@@ -76,6 +77,7 @@ export default function UpgradePage() {
           </Link>
         </div>
       </section>
+      <LandingFooter />
     </main>
   );
 }

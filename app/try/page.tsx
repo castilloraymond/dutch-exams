@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Clock } from "lucide-react";
 import { getQuickAssessmentModules, getQuickAssessmentQuestions } from "@/lib/content";
+import { LandingFooter } from "@/components/landing/LandingFooter";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   BookOpen,
@@ -91,6 +92,7 @@ export default function TryPage() {
           </div>
         </div>
       </section>
+      <LandingFooter />
     </main>
   );
 }

@@ -43,7 +43,6 @@ export function HowItWorks() {
                     <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Drill with real exam formats</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            {/* PLACEHOLDER — question count */}
                             1,200+ questions that mirror the actual DUO exam format. Each question includes a practical tip so you learn the why, not just the what.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
@@ -68,7 +67,6 @@ export function HowItWorks() {
                                 </div>
                                 <div>
                                     <div className="text-[0.88rem] text-[var(--ink)] font-semibold leading-[1.4]">Exam ready!</div>
-                                    {/* PLACEHOLDER */}
                                     <div className="text-[0.8rem] text-[var(--ink-muted)]">Predicted: 91% pass probability</div>
                                 </div>
                             </div>

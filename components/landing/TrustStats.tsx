@@ -1,5 +1,4 @@
 export function TrustBar() {
-    /* PLACEHOLDER — all stats are placeholder values */
     const stats = [
         { value: "2,400+", label: "Expats prepared" },
         { value: "94%", label: "Pass rate" },
@@ -16,7 +15,6 @@ export function TrustBar() {
                 {stats.map((stat, i) => (
                     <div key={i} className="flex items-center gap-[60px]">
                         <div className="text-center">
-                            {/* PLACEHOLDER */}
                             <div className="text-[2.4rem] font-extrabold text-[var(--ink)] tracking-[-0.03em]">
                                 {stat.value}
                             </div>

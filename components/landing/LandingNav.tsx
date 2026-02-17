@@ -32,12 +32,6 @@ export function LandingNav() {
                         Features
                     </Link>
                     <Link
-                        href="#pricing"
-                        className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
-                    >
-                        Pricing
-                    </Link>
-                    <Link
                         href="/blog"
                         className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
                     >
@@ -55,7 +49,7 @@ export function LandingNav() {
                         href={!loading && user ? "/learn" : "/try"}
                         className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250 hidden sm:block"
                     >
-                        {!loading && user ? "Start practicing" : "Start practicing"}
+                        {!loading && user ? "Start practicing" : "Try it free"}
                     </Link>
 
                     {/* Mobile hamburger */}
@@ -86,13 +80,6 @@ export function LandingNav() {
                             className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
                         >
                             Features
-                        </Link>
-                        <Link
-                            href="#pricing"
-                            onClick={() => setMenuOpen(false)}
-                            className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
-                        >
-                            Pricing
                         </Link>
                         <Link
                             href="/blog"

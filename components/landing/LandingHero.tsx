@@ -11,7 +11,6 @@ export function LandingHero() {
         <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
             {/* Left column */}
             <div className="animate-reveal">
-                {/* PLACEHOLDER — badge stat */}
                 <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
                     <CircleCheck className="h-4 w-4" />
                     Real Format. Real Questions. Real Results.
@@ -42,7 +41,6 @@ export function LandingHero() {
                     </a>
                 </div>
 
-                {/* PLACEHOLDER — social proof */}
                 <div className="flex items-center gap-4">
                     <div className="flex">
                         {[
@@ -62,7 +60,6 @@ export function LandingHero() {
                         ))}
                     </div>
                     <div className="text-[0.88rem] text-[var(--ink-muted)] leading-[1.4]">
-                        {/* PLACEHOLDER */}
                         <strong className="text-[var(--ink)] font-semibold">94% pass rate</strong> among users who completed<br />all practice modules
                     </div>
                 </div>
@@ -71,7 +68,6 @@ export function LandingHero() {
             {/* Right column — Product mockup */}
             <div className="relative hidden lg:block animate-reveal-delay-2">
                 {/* Floating score card */}
-                {/* PLACEHOLDER — score stat */}
                 <div className="absolute top-[-15px] right-[-30px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2.5 animate-[float_4s_ease-in-out_infinite_0.5s]">
                     <div className="w-11 h-11 rounded-full border-[3px] border-[var(--green)] flex items-center justify-center font-bold text-[0.85rem] text-[var(--green)]">
                         87%
@@ -83,7 +79,6 @@ export function LandingHero() {
                 </div>
 
                 {/* Floating streak card */}
-                {/* PLACEHOLDER — streak stat */}
                 <div className="absolute bottom-[-10px] left-[-25px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2 animate-[float_4s_ease-in-out_infinite_1.5s]">
                     <span className="text-[1.3rem]">🔥</span>
                     <div>

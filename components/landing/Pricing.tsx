@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Check, ShieldCheck, ArrowRight } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
-/* PLACEHOLDER — all pricing and features are placeholder values */
 export function Pricing() {
     const { user } = useAuth();
     const features = [
@@ -32,11 +31,9 @@ export function Pricing() {
                 {/* Top gradient border */}
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-glow)]" />
 
-                {/* PLACEHOLDER — price */}
                 <div className="text-[3.5rem] font-extrabold text-[var(--ink)] tracking-[-0.03em] mb-1">
                     €49 <span className="text-[1.2rem] text-[var(--ink-muted)] font-normal">/ 3 months</span>
                 </div>
-                {/* PLACEHOLDER */}
                 <div className="text-[0.92rem] text-[var(--ink-muted)] mb-9">
                     That&apos;s less than €0.55 per day
                 </div>
@@ -44,7 +41,6 @@ export function Pricing() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3.5 text-left max-w-[520px] mx-auto mb-10">
                     {features.map((feature, i) => (
                         <div key={i} className="flex items-center gap-2.5 text-[0.92rem] text-[var(--ink-soft)]">
-                            {/* PLACEHOLDER */}
                             <Check className="h-4 w-4 text-[var(--green)] shrink-0" />
                             {feature}
                         </div>
@@ -59,7 +55,6 @@ export function Pricing() {
                     <ArrowRight className="h-4 w-4" />
                 </Link>
 
-                {/* PLACEHOLDER */}
                 <div className="mt-6 text-[0.85rem] text-[var(--ink-muted)] flex items-center justify-center gap-2">
                     <ShieldCheck className="h-4 w-4 text-[var(--green)]" />
                     7-day money-back guarantee. No questions asked.
