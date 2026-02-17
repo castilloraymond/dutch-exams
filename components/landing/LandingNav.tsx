@@ -37,6 +37,12 @@ export function LandingNav() {
                     >
                         Pricing
                     </Link>
+                    <Link
+                        href="/blog"
+                        className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
+                    >
+                        Blog
+                    </Link>
                     {!loading && user ? (
                         <Link
                             href="/profile"
@@ -87,6 +93,13 @@ export function LandingNav() {
                             className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
                         >
                             Pricing
+                        </Link>
+                        <Link
+                            href="/blog"
+                            onClick={() => setMenuOpen(false)}
+                            className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
+                        >
+                            Blog
                         </Link>
                         {!loading && user ? (
                             <Link

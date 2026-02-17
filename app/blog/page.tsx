@@ -50,19 +50,35 @@ export default function BlogPage() {
                 href={`/blog/${post.slug}`}
                 className="landing-card block rounded-2xl p-6"
               >
-                <p className="text-xs text-[var(--ink)]/40 mb-2">
-                  {new Date(post.date).toLocaleDateString("en-US", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </p>
+                <div className="flex items-center gap-2 text-xs text-[var(--ink-muted)] mb-2">
+                  <span>
+                    {new Date(post.date).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </span>
+                  <span>·</span>
+                  <span>{post.readingTime} min read</span>
+                </div>
                 <h3 className="font-semibold text-[var(--ink)] text-lg mb-2">
                   {post.title}
                 </h3>
-                <p className="text-[var(--ink)]/60 text-sm leading-relaxed">
+                <p className="text-[var(--ink-soft)] text-sm leading-relaxed mb-3">
                   {post.description}
                 </p>
+                {post.keywords && post.keywords.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {post.keywords.slice(0, 3).map((keyword) => (
+                      <span
+                        key={keyword}
+                        className="text-xs px-2.5 py-1 rounded-full bg-[var(--cream-dark)] text-[var(--ink-soft)] font-medium"
+                      >
+                        {keyword}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </Link>
             ))}
           </div>

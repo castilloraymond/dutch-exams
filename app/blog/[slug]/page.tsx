@@ -91,15 +91,24 @@ export default async function BlogPostPage({
 
       <article className="flex-1 container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
-          <p className="text-sm text-[var(--ink)]/40 mb-4">
-            {new Date(post.date).toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-            {" "}· {post.author}
-          </p>
+          <h1 className="text-3xl md:text-4xl font-bold text-[var(--ink)] leading-tight mb-4">
+            {post.title}
+          </h1>
+          <div className="flex items-center gap-2 text-sm text-[var(--ink-soft)] mb-8 pb-8 border-b border-[var(--ink)]/10">
+            <span>
+              {new Date(post.date).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </span>
+            <span>·</span>
+            <span>{post.author}</span>
+            <span>·</span>
+            <span>{post.readingTime} min read</span>
+          </div>
 
+          {/* Content is sanitized via DOMPurify in lib/blog.ts */}
           <div
             className="prose-navy"
             dangerouslySetInnerHTML={{ __html: post.content }}

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
@@ -10,6 +10,12 @@ const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
+});
+
+const sourceSerif = Source_Serif_4({
+  variable: "--font-serif",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -104,7 +110,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${jakarta.variable} antialiased`}
+        className={`${jakarta.variable} ${sourceSerif.variable} antialiased`}
         suppressHydrationWarning
       >
         <GoogleAnalytics />

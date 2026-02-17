@@ -133,3 +133,9 @@ Some general knowledge about Dutch society will still apply. But the format, que
 The KNM exam change is part of a broader trend — the entire inburgering exam system has been updated in 2025. The [speaking exam also changed in March 2025](/blog/inburgering-exam-guide-professionals-2026), removing all multiple-choice questions in favor of spoken answers. If you're a [kennismigrant on the 30% ruling](/blog/inburgering-kennismigranten-30-percent-ruling), getting clear on which exams you need and what format to expect is the first step.
 
 The practice exams on PassInBurgering are free during early access and already updated for the new KNM format. If you want to see what the new questions look like, [try a KNM practice set](/learn/knm) — it takes about 20 minutes, and you'll know right away where your gaps are.
+
+**Related reading:**
+- [The 30-Day Inburgering Study Plan for Busy Professionals](/blog/30-day-inburgering-study-plan)
+- [Dutch Healthcare for Expats: How the System Works (and What KNM Tests You On)](/blog/dutch-healthcare-expats-knm-guide)
+- [What the Inburgering Exam Actually Looks Like: A Complete Walkthrough](/blog/inburgering-exam-walkthrough-2026)
+- [7 Inburgering Mistakes That Cost Expats Months of Extra Prep](/blog/inburgering-mistakes-expats-avoid)
