@@ -1,0 +1,230 @@
+{
+  "id": "luisteren-a1-3",
+  "title": "Luisteren A1 - Oefenexamen 3",
+  "module": "luisteren",
+  "difficulty": "A1",
+  "questionCount": 15,
+  "recommendedTime": "30 min",
+  "transcripts": [
+    {
+      "id": "l-a1-3-t1",
+      "title": "Bij de kapper",
+      "transcript": "Klant: Goedemiddag! Ik wil graag knippen.\nKapper: Alleen knippen? Wilt u ook wassen?\nKlant: Ja, wassen en knippen, alstublieft.\nKapper: Goed. Kort of lang?\nKlant: Niet te kort, alstublieft. Alleen de puntjes.\nKapper: Prima. Het kost achttien euro. Gaat u daar zitten.",
+      "questions": [
+        {
+          "id": "l-a1-3-q1",
+          "text": "Wat wil de klant?",
+          "options": [
+            "Alleen wassen",
+            "Knippen en verven",
+            "Wassen en knippen",
+            "Alleen knippen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant zegt: 'Ja, wassen en knippen, alstublieft.'"
+        },
+        {
+          "id": "l-a1-3-q2",
+          "text": "Hoe wil de klant het haar?",
+          "options": [
+            "Niet te kort, alleen de puntjes",
+            "Heel kort",
+            "Lang en krullend",
+            "Met een nieuwe kleur"
+          ],
+          "correctIndex": 0,
+          "explanation": "De klant zegt: 'Niet te kort, alstublieft. Alleen de puntjes.'"
+        },
+        {
+          "id": "l-a1-3-q3",
+          "text": "Hoeveel kost het knippen?",
+          "options": [
+            "Vijftien euro",
+            "Achttien euro",
+            "Twintig euro",
+            "Vijfentwintig euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "De kapper zegt: 'Het kost achttien euro.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-3-t1.mp3"
+    },
+    {
+      "id": "l-a1-3-t2",
+      "title": "Op het postkantoor",
+      "transcript": "Klant: Goedemorgen. Ik wil dit pakje versturen naar Marokko.\nMedewerker: Naar Marokko, oké. Ik zet het even op de weegschaal. Het weegt twee kilo.\nKlant: Hoeveel kost dat?\nMedewerker: Naar Marokko kost het veertien euro vijftig.\nKlant: Hoelang duurt het?\nMedewerker: Ongeveer een week. Wilt u een track-and-trace?\nKlant: Ja, graag.\nMedewerker: Dan wordt het zestien euro.",
+      "questions": [
+        {
+          "id": "l-a1-3-q4",
+          "text": "Waar stuurt de klant het pakje naartoe?",
+          "options": [
+            "Turkije",
+            "Duitsland",
+            "Marokko",
+            "Suriname"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant zegt: 'Ik wil dit pakje versturen naar Marokko.'"
+        },
+        {
+          "id": "l-a1-3-q5",
+          "text": "Hoeveel weegt het pakje?",
+          "options": [
+            "Eén kilo",
+            "Twee kilo",
+            "Drie kilo",
+            "Vijf kilo"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt: 'Het weegt twee kilo.'"
+        },
+        {
+          "id": "l-a1-3-q6",
+          "text": "Hoeveel kost het pakje met track-and-trace?",
+          "options": [
+            "Veertien euro vijftig",
+            "Vijftien euro",
+            "Vijftien euro vijftig",
+            "Zestien euro"
+          ],
+          "correctIndex": 3,
+          "explanation": "De medewerker zegt: 'Dan wordt het zestien euro' als de klant track-and-trace wil."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-3-t2.mp3"
+    },
+    {
+      "id": "l-a1-3-t3",
+      "title": "Bij de dierenarts",
+      "transcript": "Eigenaar: Goedemiddag. Mijn kat is ziek.\nDierenarts: Wat is er aan de hand?\nEigenaar: Ze eet al drie dagen niet en ze slaapt de hele dag.\nDierenarts: Laat me even kijken. Heeft ze ook overgegeven?\nEigenaar: Nee, ze eet gewoon niets.\nDierenarts: Ik denk dat ze een buikinfectie heeft. Ik geef u medicijnen.\nEigenaar: Hoe vaak moet ik de medicijnen geven?\nDierenarts: Twee keer per dag, bij het eten. Kom over een week terug voor controle.",
+      "questions": [
+        {
+          "id": "l-a1-3-q7",
+          "text": "Wat is het probleem met de kat?",
+          "options": [
+            "Ze drinkt te veel water",
+            "Ze eet niet en slaapt de hele dag",
+            "Ze heeft pijn aan haar poot",
+            "Ze niest de hele dag"
+          ],
+          "correctIndex": 1,
+          "explanation": "De eigenaar zegt: 'Ze eet al drie dagen niet en ze slaapt de hele dag.'"
+        },
+        {
+          "id": "l-a1-3-q8",
+          "text": "Wat denkt de dierenarts?",
+          "options": [
+            "De kat heeft koorts",
+            "De kat is te oud",
+            "De kat heeft een buikinfectie",
+            "De kat heeft niets"
+          ],
+          "correctIndex": 2,
+          "explanation": "De dierenarts zegt: 'Ik denk dat ze een buikinfectie heeft.'"
+        },
+        {
+          "id": "l-a1-3-q9",
+          "text": "Wanneer moet de eigenaar terugkomen?",
+          "options": [
+            "Over drie dagen",
+            "Over vijf dagen",
+            "Over een week",
+            "Over twee weken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De dierenarts zegt: 'Kom over een week terug voor controle.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-3-t3.mp3"
+    },
+    {
+      "id": "l-a1-3-t4",
+      "title": "In het park",
+      "transcript": "Sara: Hé, Fatima! Wat leuk om je te zien!\nFatima: Hoi Sara! Ja, lang geleden! Hoe gaat het?\nSara: Goed, dank je. Heb je zaterdag al plannen?\nFatima: Nee, nog niet. Hoezo?\nSara: Er is een markt in het centrum. Zullen we samen gaan?\nFatima: Leuk! Of misschien eerst een wandeling in het park?\nSara: Goed idee. Zullen we om tien uur afspreken bij de ingang van het park?\nFatima: Prima! Tot zaterdag!",
+      "questions": [
+        {
+          "id": "l-a1-3-q10",
+          "text": "Wanneer willen Sara en Fatima afspreken?",
+          "options": [
+            "Vrijdag",
+            "Zaterdag",
+            "Zondag",
+            "Vandaag"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sara vraagt: 'Heb je zaterdag al plannen?' en ze spreken af op zaterdag."
+        },
+        {
+          "id": "l-a1-3-q11",
+          "text": "Wat stelt Fatima voor?",
+          "options": [
+            "Naar de bioscoop gaan",
+            "Thuis blijven",
+            "Eerst een wandeling in het park",
+            "Naar een restaurant gaan"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fatima zegt: 'Of misschien eerst een wandeling in het park?'"
+        },
+        {
+          "id": "l-a1-3-q12",
+          "text": "Waar spreken ze af?",
+          "options": [
+            "Bij het station",
+            "Bij de markt",
+            "Bij de ingang van het park",
+            "Bij het café"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sara zegt: 'Zullen we om tien uur afspreken bij de ingang van het park?'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-3-t4.mp3"
+    },
+    {
+      "id": "l-a1-3-t5",
+      "title": "Aankondiging op school",
+      "transcript": "Juf Marieke: Goedemorgen, kinderen! Ik heb leuk nieuws.\nKinderen: Wat dan, juf?\nJuf Marieke: Volgende week woensdag gaan we op schoolreisje naar de dierentuin!\nKinderen: Hoera!\nJuf Marieke: Jullie moeten een lunchpakket meenemen en een regenjas. Het kan regenen.\nKind: Juf, hoe laat gaan we?\nJuf Marieke: De bus vertrekt om negen uur. Dus om kwart voor negen op school zijn.\nKind: Moeten onze ouders iets tekenen?\nJuf Marieke: Ja, neem het toestemmingsformulier mee. Jullie ouders moeten het voor maandag tekenen.",
+      "questions": [
+        {
+          "id": "l-a1-3-q13",
+          "text": "Waar gaan de kinderen naartoe?",
+          "options": [
+            "Naar het strand",
+            "Naar een museum",
+            "Naar de dierentuin",
+            "Naar een pretpark"
+          ],
+          "correctIndex": 2,
+          "explanation": "De juf zegt: 'We gaan op schoolreisje naar de dierentuin.'"
+        },
+        {
+          "id": "l-a1-3-q14",
+          "text": "Wat moeten de kinderen meenemen?",
+          "options": [
+            "Geld en een pet",
+            "Een lunchpakket en een regenjas",
+            "Zwemkleding en een handdoek",
+            "Een boek en een schrift"
+          ],
+          "correctIndex": 1,
+          "explanation": "De juf zegt: 'Jullie moeten een lunchpakket meenemen en een regenjas.'"
+        },
+        {
+          "id": "l-a1-3-q15",
+          "text": "Wanneer moeten de ouders het formulier tekenen?",
+          "options": [
+            "Voor vrijdag",
+            "Voor woensdag",
+            "Voor dinsdag",
+            "Voor maandag"
+          ],
+          "correctIndex": 3,
+          "explanation": "De juf zegt: 'Jullie ouders moeten het voor maandag tekenen.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-3-t5.mp3"
+    }
+  ]
+}

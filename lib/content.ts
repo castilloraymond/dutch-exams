@@ -72,6 +72,10 @@ import knmA1Exam1 from "@/content/mock-exams/knm/a1-exam-1.json";
 import knmA1Exam2 from "@/content/mock-exams/knm/a1-exam-2.json";
 import knmA2Exam1 from "@/content/mock-exams/knm/a2-exam-1.json";
 import knmA2Exam2 from "@/content/mock-exams/knm/a2-exam-2.json";
+import knmA1Exam3 from "@/content/mock-exams/knm/a1-exam-3.json";
+import knmA1Exam4 from "@/content/mock-exams/knm/a1-exam-4.json";
+import knmA2Exam3 from "@/content/mock-exams/knm/a2-exam-3.json";
+import knmA2Exam4 from "@/content/mock-exams/knm/a2-exam-4.json";
 
 // Mock exam content - Luisteren
 import luisterenMockIndex from "@/content/mock-exams/luisteren/index.json";
@@ -81,6 +85,12 @@ import luisterenA2Exam1 from "@/content/mock-exams/luisteren/a2-exam-1.json";
 import luisterenA2Exam2 from "@/content/mock-exams/luisteren/a2-exam-2.json";
 import luisterenA2Exam3 from "@/content/mock-exams/luisteren/a2-exam-3.json";
 import luisterenA2Exam4 from "@/content/mock-exams/luisteren/a2-exam-4.json";
+import luisterenA1Exam3 from "@/content/mock-exams/luisteren/a1-exam-3.json";
+import luisterenA1Exam4 from "@/content/mock-exams/luisteren/a1-exam-4.json";
+import luisterenA2Exam5 from "@/content/mock-exams/luisteren/a2-exam-5.json";
+import luisterenA2Exam6 from "@/content/mock-exams/luisteren/a2-exam-6.json";
+import luisterenA2Exam7 from "@/content/mock-exams/luisteren/a2-exam-7.json";
+import luisterenA2Exam8 from "@/content/mock-exams/luisteren/a2-exam-8.json";
 
 // Quick Assessment content
 import quickAssessmentIndex from "@/content/quick-assessment/index.json";
@@ -173,12 +183,22 @@ const mockExams: Record<string, MockExam> = {
   "knm-a1-2": knmA1Exam2 as unknown as MockExam,
   "knm-a2-1": knmA2Exam1 as unknown as MockExam,
   "knm-a2-2": knmA2Exam2 as unknown as MockExam,
+  "knm-a1-3": knmA1Exam3 as unknown as MockExam,
+  "knm-a1-4": knmA1Exam4 as unknown as MockExam,
+  "knm-a2-3": knmA2Exam3 as unknown as MockExam,
+  "knm-a2-4": knmA2Exam4 as unknown as MockExam,
   "luisteren-a1-1": luisterenA1Exam1 as unknown as MockExam,
   "luisteren-a1-2": luisterenA1Exam2 as unknown as MockExam,
   "luisteren-a2-1": luisterenA2Exam1 as unknown as MockExam,
   "luisteren-a2-2": luisterenA2Exam2 as unknown as MockExam,
   "luisteren-a2-3": luisterenA2Exam3 as unknown as MockExam,
   "luisteren-a2-4": luisterenA2Exam4 as unknown as MockExam,
+  "luisteren-a1-3": luisterenA1Exam3 as unknown as MockExam,
+  "luisteren-a1-4": luisterenA1Exam4 as unknown as MockExam,
+  "luisteren-a2-5": luisterenA2Exam5 as unknown as MockExam,
+  "luisteren-a2-6": luisterenA2Exam6 as unknown as MockExam,
+  "luisteren-a2-7": luisterenA2Exam7 as unknown as MockExam,
+  "luisteren-a2-8": luisterenA2Exam8 as unknown as MockExam,
 };
 
 // Schrijven data

@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-6",
+  "title": "Luisteren A2 - Oefenexamen 6",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-6-t1",
+      "title": "Bij de gemeente - Rijbewijs",
+      "transcript": "Medewerker: Goedemiddag, waarmee kan ik u helpen?\nBezoeker: Ik wil mijn buitenlandse rijbewijs omzetten naar een Nederlands rijbewijs.\nMedewerker: Dat kan. Uit welk land komt uw rijbewijs?\nBezoeker: Uit Turkije. Ik woon nu twee jaar in Nederland.\nMedewerker: Oké. Voor een Turks rijbewijs moet u helaas wel een rijexamen afleggen. Dat geldt voor landen buiten de EU.\nBezoeker: Oh, dat wist ik niet. Welke documenten heb ik dan nodig?\nMedewerker: U heeft uw paspoort nodig, uw buitenlandse rijbewijs en een gezondheidsverklaring van het CBR. Die kost vijfendertig euro.\nBezoeker: En wat kost de aanvraag bij de gemeente?\nMedewerker: De aanvraag kost veertig euro en vijfentwintig cent. Dat betaalt u hier aan de balie.\nBezoeker: Hoe lang duurt het voordat ik het nieuwe rijbewijs heb?\nMedewerker: Na het behalen van uw examen duurt het ongeveer vier weken. U krijgt een brief wanneer u het kunt ophalen.\nBezoeker: Kan ik met mijn Turkse rijbewijs nog rijden in de tussentijd?\nMedewerker: Nee, uw buitenlandse rijbewijs is niet meer geldig. U mag pas weer rijden als u het Nederlandse rijbewijs heeft.",
+      "questions": [
+        {
+          "id": "l-a2-6-q1",
+          "text": "Waarom moet de bezoeker een rijexamen afleggen?",
+          "options": [
+            "Omdat het rijbewijs verlopen is",
+            "Omdat Turkije buiten de EU ligt",
+            "Omdat hij nog geen rijervaring heeft",
+            "Omdat hij langer dan vijf jaar in Nederland woont"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker legt uit dat voor landen buiten de EU een rijexamen verplicht is."
+        },
+        {
+          "id": "l-a2-6-q2",
+          "text": "Welke documenten heeft de bezoeker nodig?",
+          "options": [
+            "Paspoort, buitenlands rijbewijs en gezondheidsverklaring",
+            "Paspoort, verblijfsvergunning en pasfoto",
+            "Rijbewijs, diploma en geboorteakte",
+            "Paspoort, verzekeringsbewijs en pasfoto"
+          ],
+          "correctIndex": 0,
+          "explanation": "De medewerker noemt drie documenten: paspoort, buitenlands rijbewijs en een gezondheidsverklaring van het CBR."
+        },
+        {
+          "id": "l-a2-6-q3",
+          "text": "Hoeveel kost de aanvraag bij de gemeente?",
+          "options": [
+            "€35,00",
+            "€45,25",
+            "€40,25",
+            "€50,00"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt dat de aanvraag veertig euro en vijfentwintig cent kost."
+        },
+        {
+          "id": "l-a2-6-q4",
+          "text": "Hoe lang duurt het voordat het nieuwe rijbewijs klaar is?",
+          "options": [
+            "Twee weken",
+            "Drie weken",
+            "Ongeveer vier weken",
+            "Zes weken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt dat het na het behalen van het examen ongeveer vier weken duurt."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-6-t1.mp3"
+    },
+    {
+      "id": "l-a2-6-t2",
+      "title": "Gesprek bij de tandarts",
+      "transcript": "Tandarts: Goedemorgen mevrouw Jansen. Ik heb net de röntgenfoto bekeken. Ik zie een gaatje in uw kies, rechtsonder.\nPatiënt: Oh nee, is het erg?\nTandarts: Het valt mee, maar we moeten het wel vullen. Anders wordt het groter en krijgt u pijn.\nPatiënt: Wat kost een vulling?\nTandarts: Een vulling kost vijfentachtig euro. Uw basisverzekering vergoedt dit niet, maar als u een aanvullende verzekering heeft, wordt het meestal voor zeventig procent vergoed.\nPatiënt: Ik heb inderdaad een aanvullende verzekering. Wanneer kan de behandeling?\nTandarts: Ik kan u inplannen op donderdag de zestiende om half drie. Dat duurt ongeveer dertig minuten.\nPatiënt: Dat past goed. Doet het pijn?\nTandarts: U krijgt een verdoving, dus u voelt er weinig van. Na de verdoving kan uw wang een paar uur verdoofd aanvoelen.\nPatiënt: Oké, dat is goed.\nTandarts: Nog iets. Ik zie dat uw tandvlees een beetje ontstoken is. Gebruikt u tandzijde?\nPatiënt: Nee, eigenlijk niet.\nTandarts: Ik raad u aan om elke dag te flossen. Dat voorkomt tandvleesontsteking en gaatjes tussen de tanden.",
+      "questions": [
+        {
+          "id": "l-a2-6-q5",
+          "text": "Wat heeft de tandarts gevonden op de röntgenfoto?",
+          "options": [
+            "Een gebroken tand",
+            "Een gaatje in een kies",
+            "Een ontsteking aan de wortel",
+            "Een scheurtje in het tandvlees"
+          ],
+          "correctIndex": 1,
+          "explanation": "De tandarts zegt dat er een gaatje zit in de kies rechtsonder."
+        },
+        {
+          "id": "l-a2-6-q6",
+          "text": "Hoeveel kost de vulling?",
+          "options": [
+            "€70,00",
+            "€75,00",
+            "€80,00",
+            "€85,00"
+          ],
+          "correctIndex": 3,
+          "explanation": "De tandarts zegt dat een vulling vijfentachtig euro kost."
+        },
+        {
+          "id": "l-a2-6-q7",
+          "text": "Wanneer is de afspraak voor de behandeling?",
+          "options": [
+            "Woensdag om twee uur",
+            "Donderdag om half drie",
+            "Vrijdag om tien uur",
+            "Maandag om half vier"
+          ],
+          "correctIndex": 1,
+          "explanation": "De tandarts plant de behandeling in op donderdag de zestiende om half drie."
+        },
+        {
+          "id": "l-a2-6-q8",
+          "text": "Wat adviseert de tandarts tegen tandvleesontsteking?",
+          "options": [
+            "Vaker tandenpoetsen",
+            "Mondwater gebruiken",
+            "Elke dag flossen",
+            "Minder suiker eten"
+          ],
+          "correctIndex": 2,
+          "explanation": "De tandarts raadt aan om elke dag te flossen om tandvleesontsteking te voorkomen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-6-t2.mp3"
+    },
+    {
+      "id": "l-a2-6-t3",
+      "title": "Vergadering op het werk",
+      "transcript": "Manager: Goedemorgen team. We hebben een nieuw project binnengekregen van klant Vermeer BV. Het gaat om de ontwikkeling van een nieuwe website.\nAnna: Leuk! Wat is de deadline?\nManager: De website moet eind maart klaar zijn. Dat betekent dat we zes weken hebben.\nTom: Dat is best krap. Wat is het budget?\nManager: Het budget is twaalfduizend euro. Daar moeten we het mee doen, inclusief het ontwerp.\nAnna: Wie doet wat?\nManager: Anna, jij doet het ontwerp en de vormgeving. Tom, jij bent verantwoordelijk voor de technische bouw. En ik regel het contact met de klant.\nTom: Hoe houden we de voortgang bij?\nManager: We hebben elke woensdag om tien uur een voortgangsoverleg. Iedereen geeft dan een korte update.\nAnna: En als we problemen tegenkomen?\nManager: Dan bespreken we dat meteen in het overleg, of je stuurt me een bericht via Teams. Niet wachten tot het volgende overleg.\nTom: Begrepen. Ik begin vandaag met de technische analyse.\nManager: Prima. Anna, kun jij deze week al een eerste ontwerp maken?\nAnna: Ja, dat lukt. Ik stuur vrijdag een voorstel rond.",
+      "questions": [
+        {
+          "id": "l-a2-6-q9",
+          "text": "Wat voor project heeft het team gekregen?",
+          "options": [
+            "Een marketingcampagne",
+            "Een nieuwe website",
+            "Een app-ontwikkeling",
+            "Een kantoorverhuizing"
+          ],
+          "correctIndex": 1,
+          "explanation": "De manager zegt dat het gaat om de ontwikkeling van een nieuwe website voor klant Vermeer BV."
+        },
+        {
+          "id": "l-a2-6-q10",
+          "text": "Wat is het budget voor het project?",
+          "options": [
+            "€8.000",
+            "€10.000",
+            "€12.000",
+            "€15.000"
+          ],
+          "correctIndex": 2,
+          "explanation": "De manager noemt een budget van twaalfduizend euro, inclusief het ontwerp."
+        },
+        {
+          "id": "l-a2-6-q11",
+          "text": "Wanneer zijn de voortgangsoverleggen?",
+          "options": [
+            "Elke maandag om negen uur",
+            "Elke dinsdag om twee uur",
+            "Elke woensdag om tien uur",
+            "Elke vrijdag om elf uur"
+          ],
+          "correctIndex": 2,
+          "explanation": "De manager zegt dat het voortgangsoverleg elke woensdag om tien uur is."
+        },
+        {
+          "id": "l-a2-6-q12",
+          "text": "Wat is de taak van Tom?",
+          "options": [
+            "Het ontwerp maken",
+            "Contact met de klant",
+            "De technische bouw",
+            "Het budget beheren"
+          ],
+          "correctIndex": 2,
+          "explanation": "De manager zegt dat Tom verantwoordelijk is voor de technische bouw."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-6-t3.mp3"
+    },
+    {
+      "id": "l-a2-6-t4",
+      "title": "Telefoongesprek met de school",
+      "transcript": "Juf Marieke: Goedemiddag, u spreekt met juf Marieke van basisschool De Zonnestraal. Spreek ik met de vader van Youssef?\nVader: Ja, dat klopt. Is er iets aan de hand?\nJuf Marieke: Ik bel omdat Youssef vandaag een conflict heeft gehad met een andere leerling in de pauze.\nVader: Oh, wat is er precies gebeurd?\nJuf Marieke: Youssef en een klasgenoot kregen ruzie over een voetbal. Youssef heeft de andere jongen geduwd en die is gevallen.\nVader: Dat is niet goed. Is de andere jongen gewond?\nJuf Marieke: Nee, gelukkig niet. Maar op onze school accepteren we geen fysiek geweld. Ik heb met Youssef gesproken en hij begrijpt dat het fout was.\nVader: Ik zal thuis ook met hem praten.\nJuf Marieke: Dat zou fijn zijn. Ik wil ook graag een gesprek inplannen met u, de ouders van de andere leerling en mijzelf. Kunt u volgende week dinsdag om half vier?\nVader: Ja, dat kan ik.\nJuf Marieke: Mooi. Het is belangrijk dat Youssef leert om conflicten met woorden op te lossen. Misschien kunt u thuis oefenen met praten over gevoelens.\nVader: Goed idee. We gaan dat doen. Bedankt voor het bellen.",
+      "questions": [
+        {
+          "id": "l-a2-6-q13",
+          "text": "Waarom belt de juf naar de vader?",
+          "options": [
+            "Omdat Youssef ziek is",
+            "Omdat Youssef een conflict had met een andere leerling",
+            "Omdat Youssef slechte cijfers heeft",
+            "Omdat Youssef te laat op school kwam"
+          ],
+          "correctIndex": 1,
+          "explanation": "De juf belt omdat Youssef een conflict heeft gehad met een andere leerling in de pauze."
+        },
+        {
+          "id": "l-a2-6-q14",
+          "text": "Wat deed Youssef tijdens het conflict?",
+          "options": [
+            "Hij schreeuwde tegen de jongen",
+            "Hij nam de voetbal af",
+            "Hij duwde de andere jongen",
+            "Hij sloeg de andere jongen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De juf vertelt dat Youssef de andere jongen heeft geduwd en die is gevallen."
+        },
+        {
+          "id": "l-a2-6-q15",
+          "text": "Wanneer is het gesprek op school gepland?",
+          "options": [
+            "Volgende week maandag om drie uur",
+            "Volgende week dinsdag om half vier",
+            "Volgende week woensdag om vier uur",
+            "Volgende week donderdag om half drie"
+          ],
+          "correctIndex": 1,
+          "explanation": "De juf vraagt of de vader volgende week dinsdag om half vier kan komen."
+        },
+        {
+          "id": "l-a2-6-q16",
+          "text": "Wat adviseert de juf om thuis te oefenen?",
+          "options": [
+            "Meer huiswerk maken",
+            "Samen sporten",
+            "Praten over gevoelens",
+            "Minder voetballen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De juf adviseert om thuis te oefenen met praten over gevoelens, zodat Youssef leert conflicten met woorden op te lossen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-6-t4.mp3"
+    },
+    {
+      "id": "l-a2-6-t5",
+      "title": "Bericht van de energieleverancier",
+      "transcript": "Ingesproken bericht: Goedendag, u hoort een bericht van EnergieGroen, uw energieleverancier. Het is weer tijd om uw meterstanden door te geven. U kunt uw meterstanden doorgeven via onze app of via onze website, energiegroen.nl. U heeft daarvoor uw klantnummer nodig. Dat vindt u op uw laatste factuur.\nWij vragen u om de standen vóór eenendertig maart door te geven. Als u dat niet doet, maken wij een schatting. Die kan hoger uitvallen dan uw werkelijke verbruik.\nDaarnaast willen wij u informeren over een tariefswijziging. Vanaf één april stijgt de gasprijs met vijftien procent. Dit komt door hogere inkoopprijzen op de energiemarkt. De elektriciteitsprijs blijft gelijk.\nAls u uw maandelijkse termijnbedrag wilt aanpassen, kunt u dat doen in de app onder 'Mijn gegevens'. Wij adviseren u om uw termijnbedrag te verhogen met tien tot twintig euro per maand om een hoge jaarafrekening te voorkomen.\nVoor vragen kunt u bellen naar ons servicenummer: nul-negen-honderd-drie-vier-vijf-zes. Wij zijn bereikbaar van maandag tot en met vrijdag van acht tot achttien uur. Bedankt voor uw aandacht.",
+      "questions": [
+        {
+          "id": "l-a2-6-q17",
+          "text": "Hoe kan de klant de meterstanden doorgeven?",
+          "options": [
+            "Alleen per telefoon",
+            "Via de app of de website",
+            "Alleen per brief",
+            "Bij het kantoor langskomen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het bericht zegt dat de meterstanden via de app of via de website doorgegeven kunnen worden."
+        },
+        {
+          "id": "l-a2-6-q18",
+          "text": "Wat gebeurt er als de klant de standen niet doorgeeft?",
+          "options": [
+            "De levering wordt gestopt",
+            "De klant krijgt een boete",
+            "Er wordt een schatting gemaakt",
+            "De klant moet langskomen op kantoor"
+          ],
+          "correctIndex": 2,
+          "explanation": "Als de klant de standen niet doorgeeft, maakt de leverancier een schatting die hoger kan uitvallen."
+        },
+        {
+          "id": "l-a2-6-q19",
+          "text": "Hoeveel stijgt de gasprijs vanaf één april?",
+          "options": [
+            "Vijf procent",
+            "Tien procent",
+            "Vijftien procent",
+            "Twintig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het bericht meldt dat de gasprijs stijgt met vijftien procent vanaf één april."
+        },
+        {
+          "id": "l-a2-6-q20",
+          "text": "Wat adviseert de leverancier om een hoge jaarafrekening te voorkomen?",
+          "options": [
+            "Minder gas gebruiken",
+            "Het termijnbedrag verhogen met tien tot twintig euro",
+            "Overstappen naar een andere leverancier",
+            "Zonnepanelen laten plaatsen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De leverancier adviseert om het termijnbedrag te verhogen met tien tot twintig euro per maand."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-6-t5.mp3"
+    }
+  ]
+}

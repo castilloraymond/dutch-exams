@@ -1,0 +1,290 @@
+{
+  "id": "luisteren-a2-5",
+  "title": "Luisteren A2 - Oefenexamen 5",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-5-t1",
+      "title": "Gesprek bij de makelaar",
+      "transcript": "Makelaar: Goedemiddag, welkom. U bent meneer Yilmaz? Ik ben Sandra van der Berg van Woonvast Makelaardij.\nHuurder: Ja, klopt. Ik heb gebeld over de woning aan de Lindenstraat.\nMakelaar: Precies, het appartement op de tweede verdieping. De huur is negenhonderdvijftig euro per maand, exclusief gas, water en licht.\nHuurder: Oké, en hoeveel is de borg?\nMakelaar: De borg is twee maanden huur, dat is negentienhonderd euro. Die krijgt u terug als u de woning in goede staat achterlaat.\nHuurder: En hoe lang is het huurcontract?\nMakelaar: Het eerste contract is voor twaalf maanden. Daarna wordt het automatisch verlengd voor onbepaalde tijd.\nHuurder: Moet ik me ook inschrijven bij de gemeente?\nMakelaar: Ja, dat moet binnen vijf dagen na uw verhuizing. U neemt uw huurcontract en paspoort mee naar het gemeentehuis.\nHuurder: Wanneer kan ik de woning bekijken?\nMakelaar: Morgenochtend om tien uur, als dat schikt. De vorige huurder is al verhuisd, dus u kunt per één maart erin.\nHuurder: Dat is perfect, dan kom ik morgen langs.",
+      "questions": [
+        {
+          "id": "l-a2-5-q1",
+          "text": "Hoeveel is de huur per maand?",
+          "options": [
+            "Negenhonderd euro",
+            "Negenhonderdvijftig euro",
+            "Duizend euro",
+            "Negentienhonderd euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "De makelaar zegt dat de huur negenhonderdvijftig euro per maand is."
+        },
+        {
+          "id": "l-a2-5-q2",
+          "text": "Wat is inbegrepen bij de huurprijs?",
+          "options": [
+            "Gas en water",
+            "Gas, water en licht",
+            "Alleen water",
+            "Niets, de huur is exclusief gas, water en licht"
+          ],
+          "correctIndex": 3,
+          "explanation": "De makelaar zegt dat de huur exclusief gas, water en licht is. Die kosten zijn niet inbegrepen."
+        },
+        {
+          "id": "l-a2-5-q3",
+          "text": "Hoe lang is het eerste huurcontract?",
+          "options": [
+            "Zes maanden",
+            "Twaalf maanden",
+            "Twee jaar",
+            "Onbepaalde tijd"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het eerste contract is voor twaalf maanden, daarna wordt het verlengd voor onbepaalde tijd."
+        },
+        {
+          "id": "l-a2-5-q4",
+          "text": "Binnen hoeveel dagen moet de huurder zich inschrijven bij de gemeente?",
+          "options": [
+            "Binnen drie dagen",
+            "Binnen een week",
+            "Binnen vijf dagen",
+            "Binnen tien dagen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De makelaar zegt dat de inschrijving bij de gemeente binnen vijf dagen na de verhuizing moet gebeuren."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-5-t1.mp3"
+    },
+    {
+      "id": "l-a2-5-t2",
+      "title": "Ouderavond basisschool",
+      "transcript": "Juf Marieke: Goedenavond meneer en mevrouw Hassan. Gaat u zitten. Ik wil het graag hebben over hoe het gaat met Amir in groep zes.\nVader: Ja, we zijn heel benieuwd.\nJuf Marieke: Amir doet het goed met lezen. Hij leest nu op AVI-niveau E6, dat is precies waar hij moet zijn. Zijn woordenschat groeit ook mooi.\nMoeder: Fijn. En hoe gaat het met rekenen?\nJuf Marieke: Rekenen is een aandachtspunt. Hij heeft moeite met breuken en deelsommen. Ik wil hem extra oefeningen meegeven voor thuis.\nVader: Oké, daar helpen we hem mee.\nJuf Marieke: Sociaal gaat het heel goed. Amir is populair bij de andere kinderen. Hij helpt vaak klasgenoten die iets niet begrijpen.\nMoeder: Dat is mooi om te horen. Hoe zit het met de spelling?\nJuf Marieke: Zijn spelling moet beter. Hij maakt veel fouten bij werkwoorden, vooral de verleden tijd. Ik raad aan om thuis met een spellingsprogramma te oefenen. Ik stuur u de link per e-mail.\nVader: En de Cito-toets, wanneer is die?\nJuf Marieke: De Cito-toets is in april. Amir hoeft zich geen zorgen te maken, maar extra oefening met rekenen en spelling helpt zeker.\nMoeder: Bedankt voor de tips, juf.",
+      "questions": [
+        {
+          "id": "l-a2-5-q5",
+          "text": "Hoe gaat het met Amirs lezen?",
+          "options": [
+            "Hij leest te langzaam",
+            "Hij leest op het juiste niveau",
+            "Hij heeft extra hulp nodig",
+            "Hij leest boven zijn niveau"
+          ],
+          "correctIndex": 1,
+          "explanation": "De juf zegt dat Amir op AVI-niveau E6 leest, precies waar hij moet zijn."
+        },
+        {
+          "id": "l-a2-5-q6",
+          "text": "Waar heeft Amir moeite mee bij rekenen?",
+          "options": [
+            "Optellen en aftrekken",
+            "Klokkijken",
+            "Breuken en deelsommen",
+            "Tafels van vermenigvuldiging"
+          ],
+          "correctIndex": 2,
+          "explanation": "De juf zegt dat Amir moeite heeft met breuken en deelsommen."
+        },
+        {
+          "id": "l-a2-5-q7",
+          "text": "Welke spellingfouten maakt Amir vaak?",
+          "options": [
+            "Fouten bij lange woorden",
+            "Fouten bij werkwoorden in de verleden tijd",
+            "Fouten bij eigennamen",
+            "Fouten bij meervouden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De juf zegt dat Amir veel fouten maakt bij werkwoorden, vooral de verleden tijd."
+        },
+        {
+          "id": "l-a2-5-q8",
+          "text": "Wanneer is de Cito-toets?",
+          "options": [
+            "In maart",
+            "In mei",
+            "In april",
+            "In juni"
+          ],
+          "correctIndex": 2,
+          "explanation": "De juf zegt dat de Cito-toets in april is."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-5-t2.mp3"
+    },
+    {
+      "id": "l-a2-5-t3",
+      "title": "Bij de verzekeringsmaatschappij",
+      "transcript": "Medewerker: Goedemiddag, waarmee kan ik u helpen?\nKlant: Mijn fiets is gestolen en ik wil dit melden bij mijn verzekering.\nMedewerker: Vervelend. Wanneer en waar is de fiets gestolen?\nKlant: Afgelopen dinsdag, voor het station in Leiden. Ik had hem op slot gezet met een kettingslot.\nMedewerker: Heeft u al aangifte gedaan bij de politie?\nKlant: Ja, ik ben gisteren naar het politiebureau geweest. Ik heb het proces-verbaal hier bij me.\nMedewerker: Heel goed, dat hebben we nodig. Wat voor fiets was het en hoeveel heeft u ervoor betaald?\nKlant: Het was een elektrische fiets, een Gazelle. Ik heb hem twee jaar geleden gekocht voor tweeduizend euro.\nMedewerker: Ik zie dat u een fietsverzekering heeft met een eigen risico van vijfenzeventig euro. Na twee jaar is de dagwaarde ongeveer vijftienhonderd euro.\nKlant: Dus ik krijg vijftienhonderd min vijfenzeventig euro terug?\nMedewerker: Klopt, dat is veertienhonderdvijfentwintig euro. U moet ook de aankoopbon en een foto van de fiets opsturen. Dan verwerken wij de claim binnen veertien werkdagen.\nKlant: De bon heb ik thuis en een foto staat op mijn telefoon. Ik stuur alles vandaag nog op.",
+      "questions": [
+        {
+          "id": "l-a2-5-q9",
+          "text": "Waar is de fiets gestolen?",
+          "options": [
+            "Bij de supermarkt",
+            "Voor het station in Leiden",
+            "In de achtertuin",
+            "Bij het werk"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klant zegt dat de fiets afgelopen dinsdag voor het station in Leiden is gestolen."
+        },
+        {
+          "id": "l-a2-5-q10",
+          "text": "Hoeveel heeft de klant voor de fiets betaald?",
+          "options": [
+            "Vijftienhonderd euro",
+            "Achttienhonderd euro",
+            "Tweeduizend euro",
+            "Vijfentwintig honderd euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant heeft de fiets twee jaar geleden gekocht voor tweeduizend euro."
+        },
+        {
+          "id": "l-a2-5-q11",
+          "text": "Hoe hoog is het eigen risico?",
+          "options": [
+            "Vijftig euro",
+            "Vijfenzeventig euro",
+            "Honderd euro",
+            "Tweehonderd euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt dat het eigen risico vijfenzeventig euro is."
+        },
+        {
+          "id": "l-a2-5-q12",
+          "text": "Welke documenten moet de klant nog opsturen?",
+          "options": [
+            "Het huurcontract en een identiteitsbewijs",
+            "De aankoopbon en een foto van de fiets",
+            "Het polisbewijs en de sleutel van het slot",
+            "De garantiebon en het certificaat"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker vraagt om de aankoopbon en een foto van de fiets op te sturen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-5-t3.mp3"
+    },
+    {
+      "id": "l-a2-5-t4",
+      "title": "Aankondiging in het station",
+      "transcript": "Omroeper: Dames en heren, let op. De intercity van twaalf uur vijfendertig naar Utrecht Centraal heeft een vertraging van twintig minuten. De vertraging is het gevolg van een seinstoring tussen Gouda en Woerden.\nReiziger: Pardon, weet u wanneer de trein dan vertrekt?\nMedewerker NS: De trein vertrekt nu om twaalf uur vijfenvijftig vanaf spoor acht.\nReiziger: Ik moet om één uur in Utrecht zijn voor een afspraak. Red ik dat nog?\nMedewerker NS: Waarschijnlijk niet met deze trein. De reistijd is normaal veertig minuten, maar door de storing kan het langer duren.\nReiziger: Is er een alternatief?\nMedewerker NS: U kunt de sprinter van twaalf uur veertig nemen naar Amersfoort en daar overstappen op de intercity naar Utrecht. Dan bent u er om kwart over één.\nReiziger: Vanaf welk spoor vertrekt de sprinter?\nMedewerker NS: Spoor drie. Die staat er al, u moet wel opschieten.\nReiziger: Oké, dan doe ik dat. Moet ik een nieuw kaartje kopen?\nMedewerker NS: Nee, uw OV-chipkaart werkt gewoon. De route is anders maar de kosten zijn hetzelfde.\nReiziger: Bedankt voor uw hulp!",
+      "questions": [
+        {
+          "id": "l-a2-5-q13",
+          "text": "Wat is de reden voor de vertraging?",
+          "options": [
+            "Een defecte trein",
+            "Slecht weer",
+            "Een seinstoring",
+            "Werkzaamheden aan het spoor"
+          ],
+          "correctIndex": 2,
+          "explanation": "De vertraging is het gevolg van een seinstoring tussen Gouda en Woerden."
+        },
+        {
+          "id": "l-a2-5-q14",
+          "text": "Hoe lang is de vertraging van de intercity?",
+          "options": [
+            "Tien minuten",
+            "Vijftien minuten",
+            "Twintig minuten",
+            "Dertig minuten"
+          ],
+          "correctIndex": 2,
+          "explanation": "De omroeper meldt een vertraging van twintig minuten."
+        },
+        {
+          "id": "l-a2-5-q15",
+          "text": "Wat is het alternatief voor de reiziger?",
+          "options": [
+            "Een bus nemen naar Utrecht",
+            "Wachten op de volgende intercity",
+            "De sprinter naar Amersfoort nemen en daar overstappen",
+            "Een taxi nemen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker adviseert om de sprinter naar Amersfoort te nemen en daar over te stappen op de intercity naar Utrecht."
+        },
+        {
+          "id": "l-a2-5-q16",
+          "text": "Moet de reiziger een nieuw kaartje kopen?",
+          "options": [
+            "Ja, een kaartje via Amersfoort is duurder",
+            "Ja, de sprinter heeft een apart tarief",
+            "Nee, de OV-chipkaart werkt gewoon",
+            "Nee, maar hij moet wel een toeslag betalen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt dat de OV-chipkaart gewoon werkt en de kosten hetzelfde zijn."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-5-t4.mp3"
+    },
+    {
+      "id": "l-a2-5-t5",
+      "title": "Gesprek met de werkgever",
+      "transcript": "Manager: Fatima, bedankt dat je kon komen. Ga zitten. Ik wil het met je hebben over je contract.\nFatima: Ja, mijn jaarcontract loopt volgende maand af.\nManager: Klopt, op vijftien maart. Ik heb goed nieuws. We zijn heel tevreden over je werk. Je collega's zijn ook positief en klanten geven goede feedback.\nFatima: Dat is fijn om te horen.\nManager: We willen je graag een vast contract aanbieden. Dat betekent een contract voor onbepaalde tijd.\nFatima: Wauw, dat had ik niet verwacht. Wat zijn de voorwaarden?\nManager: Je salaris gaat van tweeduizend vierhonderd naar tweeduizend zevenhonderd euro bruto per maand. Dat is een verhoging van driehonderd euro.\nFatima: Dat klinkt goed. Veranderen mijn werktijden ook?\nManager: Je werkt nu tweeëndertig uur per week. We willen je vragen om zesendertig uur te werken. Je krijgt er een extra verantwoordelijkheid bij: je wordt mentor van de nieuwe stagiaires.\nFatima: Dat lijkt me leuk. Wanneer gaat het nieuwe contract in?\nManager: Per één april. Je krijgt het contract volgende week per e-mail. Dan heb je twee weken om het te lezen en te tekenen.\nFatima: Heel erg bedankt. Ik kijk ernaar uit.",
+      "questions": [
+        {
+          "id": "l-a2-5-q17",
+          "text": "Wanneer loopt Fatima's huidige contract af?",
+          "options": [
+            "Op één maart",
+            "Op vijftien maart",
+            "Op één april",
+            "Op vijftien april"
+          ],
+          "correctIndex": 1,
+          "explanation": "De manager zegt dat het jaarcontract op vijftien maart afloopt."
+        },
+        {
+          "id": "l-a2-5-q18",
+          "text": "Hoeveel salarisverhoging krijgt Fatima?",
+          "options": [
+            "Tweehonderd euro per maand",
+            "Tweehonderdvijftig euro per maand",
+            "Driehonderd euro per maand",
+            "Vierhonderd euro per maand"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het salaris gaat van tweeduizend vierhonderd naar tweeduizend zevenhonderd euro, een verhoging van driehonderd euro."
+        },
+        {
+          "id": "l-a2-5-q19",
+          "text": "Wat wordt Fatima's nieuwe verantwoordelijkheid?",
+          "options": [
+            "Teamleider worden",
+            "Mentor van de nieuwe stagiaires",
+            "De administratie doen",
+            "Klachten afhandelen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fatima wordt mentor van de nieuwe stagiaires als extra verantwoordelijkheid."
+        },
+        {
+          "id": "l-a2-5-q20",
+          "text": "Hoeveel uur per week gaat Fatima werken in het nieuwe contract?",
+          "options": [
+            "Tweeëndertig uur",
+            "Vierendertig uur",
+            "Zesendertig uur",
+            "Veertig uur"
+          ],
+          "correctIndex": 2,
+          "explanation": "De manager vraagt Fatima om zesendertig uur per week te werken, in plaats van tweeëndertig uur."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-5-t5.mp3"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "luisteren-a1-4",
+  "title": "Luisteren A1 - Oefenexamen 4",
+  "module": "luisteren",
+  "difficulty": "A1",
+  "questionCount": 15,
+  "recommendedTime": "30 min",
+  "transcripts": [
+    {
+      "id": "l-a1-4-t1",
+      "title": "Bij de slager",
+      "transcript": "Klant: Goedemiddag! Ik heb vlees nodig voor een barbecue.\nSlager: Leuk! Wat wilt u hebben?\nKlant: Heeft u kipfilet?\nSlager: Ja, kipfilet is acht euro per kilo. Hoeveel wilt u?\nKlant: Een kilo kipfilet, alstublieft. En ook een pak worstjes.\nSlager: De worstjes zijn vier euro per pak. Wilt u nog iets anders?\nKlant: Ja, een half kilo gehakt graag.\nSlager: Het gehakt is zes euro per kilo, dus een half kilo is drie euro.\nKlant: Prima. Wat wordt het totaal?\nSlager: Dat is vijftien euro bij elkaar.",
+      "questions": [
+        {
+          "id": "l-a1-4-q1",
+          "text": "Waarom koopt de klant vlees?",
+          "options": [
+            "Voor een barbecue",
+            "Voor een verjaardagsfeest",
+            "Voor het avondeten",
+            "Voor een picknick"
+          ],
+          "correctIndex": 0,
+          "explanation": "De klant zegt: 'Ik heb vlees nodig voor een barbecue.'"
+        },
+        {
+          "id": "l-a1-4-q2",
+          "text": "Hoeveel kost de kipfilet per kilo?",
+          "options": [
+            "Zes euro",
+            "Zeven euro",
+            "Acht euro",
+            "Tien euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De slager zegt: 'Kipfilet is acht euro per kilo.'"
+        },
+        {
+          "id": "l-a1-4-q3",
+          "text": "Hoeveel moet de klant in totaal betalen?",
+          "options": [
+            "Twaalf euro",
+            "Dertien euro",
+            "Veertien euro",
+            "Vijftien euro"
+          ],
+          "correctIndex": 3,
+          "explanation": "De slager zegt: 'Dat is vijftien euro bij elkaar.' Kipfilet acht euro, worstjes vier euro en gehakt drie euro."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-4-t1.mp3"
+    },
+    {
+      "id": "l-a1-4-t2",
+      "title": "Op het vliegveld",
+      "transcript": "Medewerker: Goedemorgen. Mag ik uw paspoort en boarding pass?\nReiziger: Hier, alstublieft. Ik vlieg naar Barcelona.\nMedewerker: Dank u. Heeft u bagage om in te checken?\nReiziger: Ja, deze koffer.\nMedewerker: Die weegt tweeëntwintig kilo. Dat is prima, het maximum is drieëntwintig kilo.\nReiziger: Gelukkig! Van welke gate vertrekt het vliegtuig?\nMedewerker: Gate B12. U moet om half elf bij de gate zijn.\nReiziger: Dank u wel!",
+      "questions": [
+        {
+          "id": "l-a1-4-q4",
+          "text": "Waar gaat de reiziger naartoe?",
+          "options": [
+            "Berlijn",
+            "Parijs",
+            "Barcelona",
+            "Londen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De reiziger zegt: 'Ik vlieg naar Barcelona.'"
+        },
+        {
+          "id": "l-a1-4-q5",
+          "text": "Hoeveel weegt de koffer?",
+          "options": [
+            "Twintig kilo",
+            "Drieëntwintig kilo",
+            "Eenentwintig kilo",
+            "Tweeëntwintig kilo"
+          ],
+          "correctIndex": 3,
+          "explanation": "De medewerker zegt: 'Die weegt tweeëntwintig kilo.'"
+        },
+        {
+          "id": "l-a1-4-q6",
+          "text": "Hoe laat moet de reiziger bij de gate zijn?",
+          "options": [
+            "Om tien uur",
+            "Om half elf",
+            "Om elf uur",
+            "Om half twaalf"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt: 'U moet om half elf bij de gate zijn.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-4-t2.mp3"
+    },
+    {
+      "id": "l-a1-4-t3",
+      "title": "In de sportschool",
+      "transcript": "Medewerker: Welkom bij FitPlus! Kan ik u helpen?\nKlant: Ja, ik wil graag lid worden. Wat kost een abonnement?\nMedewerker: Een maandabonnement kost dertig euro per maand.\nKlant: En wanneer is de sportschool open?\nMedewerker: We zijn open van maandag tot vrijdag, van zeven uur 's ochtends tot tien uur 's avonds. In het weekend van negen tot zes.\nKlant: Hebben jullie ook lessen?\nMedewerker: Ja, we hebben yoga op dinsdag en spinning op donderdag.\nKlant: Leuk! Kan ik volgende week maandag beginnen?\nMedewerker: Natuurlijk, dan zien we u maandag!",
+      "questions": [
+        {
+          "id": "l-a1-4-q7",
+          "text": "Hoeveel kost het abonnement per maand?",
+          "options": [
+            "Vijfentwintig euro",
+            "Vijfendertig euro",
+            "Twintig euro",
+            "Dertig euro"
+          ],
+          "correctIndex": 3,
+          "explanation": "De medewerker zegt: 'Een maandabonnement kost dertig euro per maand.'"
+        },
+        {
+          "id": "l-a1-4-q8",
+          "text": "Op welke dag is de spinningles?",
+          "options": [
+            "Maandag",
+            "Dinsdag",
+            "Woensdag",
+            "Donderdag"
+          ],
+          "correctIndex": 3,
+          "explanation": "De medewerker zegt: 'Spinning op donderdag.'"
+        },
+        {
+          "id": "l-a1-4-q9",
+          "text": "Wanneer wil de klant beginnen?",
+          "options": [
+            "Volgende week maandag",
+            "Morgen",
+            "Vandaag",
+            "Volgende week dinsdag"
+          ],
+          "correctIndex": 0,
+          "explanation": "De klant vraagt: 'Kan ik volgende week maandag beginnen?'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-4-t3.mp3"
+    },
+    {
+      "id": "l-a1-4-t4",
+      "title": "Telefoongesprek met vriendin",
+      "transcript": "Lisa: Hoi Sarah! Heb je zin om dit weekend iets te doen?\nSarah: Ja, leuk! Wat wil je doen?\nLisa: Zullen we naar de bioscoop gaan? Er draait een nieuwe Nederlandse film.\nSarah: Oh, leuk! Welke film?\nLisa: Hij heet 'De Zomer'. Het is een komedie.\nSarah: Goed idee! Wanneer wil je gaan?\nLisa: Zaterdag om half acht?\nSarah: Prima. Waar spreken we af?\nLisa: Bij het café naast de bioscoop, om zeven uur. Dan drinken we eerst iets.\nSarah: Gezellig! Tot zaterdag!",
+      "questions": [
+        {
+          "id": "l-a1-4-q10",
+          "text": "Wat voor soort film willen ze zien?",
+          "options": [
+            "Een actiefilm",
+            "Een komedie",
+            "Een thriller",
+            "Een documentaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lisa zegt: 'Het is een komedie.'"
+        },
+        {
+          "id": "l-a1-4-q11",
+          "text": "Op welke dag gaan ze naar de bioscoop?",
+          "options": [
+            "Vrijdag",
+            "Zaterdag",
+            "Zondag",
+            "Maandag"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lisa stelt voor: 'Zaterdag om half acht?'"
+        },
+        {
+          "id": "l-a1-4-q12",
+          "text": "Waar spreken ze af?",
+          "options": [
+            "Bij de bioscoop",
+            "Op het station",
+            "Bij het café naast de bioscoop",
+            "Bij Lisa thuis"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lisa zegt: 'Bij het café naast de bioscoop, om zeven uur.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-4-t4.mp3"
+    },
+    {
+      "id": "l-a1-4-t5",
+      "title": "Bij de buren",
+      "transcript": "Tom: Hallo! Ik ben Tom. Ik ben net verhuisd naar nummer 14.\nBuurvrouw: Welkom in de straat! Ik ben Maria, ik woon op nummer 12.\nTom: Leuk om u te ontmoeten. Is dit een fijne buurt?\nMaria: Ja, heel rustig en gezellig. Het vuilnis gaat trouwens op dinsdag buiten.\nTom: Goed om te weten, dank u!\nMaria: En volgende week zaterdag is er een buurtbarbecue in het park.\nTom: Wat leuk! Hoe laat begint dat?\nMaria: Om vier uur 's middags. Zal ik u mijn telefoonnummer geven? Dan stuur ik de details.\nTom: Graag! Mijn nummer is 06-12345678.\nMaria: Ik stuur u vanavond een berichtje!",
+      "questions": [
+        {
+          "id": "l-a1-4-q13",
+          "text": "Op welke dag gaat het vuilnis buiten?",
+          "options": [
+            "Woensdag",
+            "Donderdag",
+            "Maandag",
+            "Dinsdag"
+          ],
+          "correctIndex": 3,
+          "explanation": "Maria zegt: 'Het vuilnis gaat trouwens op dinsdag buiten.'"
+        },
+        {
+          "id": "l-a1-4-q14",
+          "text": "Wanneer is de buurtbarbecue?",
+          "options": [
+            "Dit weekend",
+            "Volgende week vrijdag",
+            "Volgende week zaterdag",
+            "Volgende week zondag"
+          ],
+          "correctIndex": 2,
+          "explanation": "Maria zegt: 'Volgende week zaterdag is er een buurtbarbecue.'"
+        },
+        {
+          "id": "l-a1-4-q15",
+          "text": "Hoe laat begint de buurtbarbecue?",
+          "options": [
+            "Om vijf uur",
+            "Om vier uur",
+            "Om twee uur",
+            "Om drie uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Maria zegt: 'Om vier uur 's middags.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a1-4-t5.mp3"
+    }
+  ]
+}
