@@ -264,6 +264,12 @@ export default function ResultsPage() {
                 Start Full {moduleInfo?.name} Practice Exam
                 <ArrowRight className="h-4 w-4" />
               </Link>
+              <Link
+                href="/try"
+                className="block text-center text-sm text-[var(--ink)]/50 hover:text-[var(--accent)] transition-colors mt-3"
+              >
+                Or try another module
+              </Link>
             </div>
           ) : (
             /* Not logged in: Show signup CTAs */

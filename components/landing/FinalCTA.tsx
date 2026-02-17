@@ -16,7 +16,7 @@ export function FinalCTA() {
                 Walk into your exam over-prepared.
             </h2>
             <p className="text-white/60 text-[1.1rem] max-w-[500px] mx-auto mb-10 leading-[1.7] relative">
-                1,200+ drill questions. Real exam format. Tips for every answer. Start drilling — your first test is free.
+                900+ practice questions. Real exam format. Tips for every answer. Free during beta — start drilling now.
             </p>
             <Link
                 href={user ? "/learn" : "/try"}

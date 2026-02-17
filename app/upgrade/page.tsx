@@ -33,9 +33,12 @@ export default function UpgradePage() {
             <h2 className="text-3xl font-bold text-[var(--ink)] mb-3">
               Pro Coming Soon
             </h2>
-            <p className="text-[var(--ink)]/60">
+            <p className="text-[var(--ink)]/60 mb-3">
               We&apos;re building powerful AI features to help you pass your exam.
             </p>
+            <div className="inline-flex items-center gap-2 bg-[var(--green-soft)] text-[var(--green)] text-sm font-medium px-4 py-2 rounded-full">
+              All current content is free during our beta
+            </div>
           </div>
 
           <div className="landing-card p-6 text-left space-y-4">
@@ -63,8 +66,8 @@ export default function UpgradePage() {
             <div className="flex items-start gap-3">
               <Sparkles className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
               <div>
-                <p className="font-medium text-[var(--ink)]">All Content Unlocked</p>
-                <p className="text-sm text-[var(--ink)]/60">Access every exercise across all five modules.</p>
+                <p className="font-medium text-[var(--ink)]">Priority Access to New Content</p>
+                <p className="text-sm text-[var(--ink)]/60">Be first to access new mock exams and modules as they&apos;re released.</p>
               </div>
             </div>
           </div>

@@ -1,7 +1,8 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check } from "lucide-react";
+import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check, X, Sparkles, ArrowRight } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 import { getWritingIndex, getSpeakingIndex, getMockExamIndex } from "@/lib/content";
@@ -53,6 +54,38 @@ export default function LearnHubPage() {
   const { progress } = useProgress();
   const writingIndex = getWritingIndex();
   const speakingIndex = getSpeakingIndex();
+
+  // Onboarding state
+  const [showWelcome, setShowWelcome] = useState(false);
+  const [showToast, setShowToast] = useState(false);
+
+  useEffect(() => {
+    // Welcome banner: show if no progress and banner not yet dismissed
+    const dismissed = localStorage.getItem("onboarding-welcome-dismissed");
+    const hasAnyProgress =
+      Object.keys(progress.examProgress || {}).length > 0 ||
+      Object.keys(progress.writingProgress || {}).length > 0 ||
+      Object.keys(progress.speakingProgress || {}).length > 0;
+    if (!dismissed && !hasAnyProgress) setShowWelcome(true);
+
+    // First-login toast
+    const hasLoggedIn = localStorage.getItem("has-logged-in-before");
+    if (!hasLoggedIn) {
+      setShowToast(true);
+      localStorage.setItem("has-logged-in-before", "1");
+      setTimeout(() => setShowToast(false), 5000);
+    }
+  }, [progress]);
+
+  const dismissWelcome = () => {
+    setShowWelcome(false);
+    localStorage.setItem("onboarding-welcome-dismissed", "1");
+  };
+
+  const hasZeroProgress =
+    Object.keys(progress.examProgress || {}).length === 0 &&
+    Object.keys(progress.writingProgress || {}).length === 0 &&
+    Object.keys(progress.speakingProgress || {}).length === 0;
 
   const writingTotal = writingIndex.tasks.length;
   const writingCompleted = Object.keys(progress.writingProgress || {}).length;
@@ -107,6 +140,43 @@ export default function LearnHubPage() {
 
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto space-y-6">
+          {/* Welcome banner for first-time users */}
+          {showWelcome && (
+            <div className="relative bg-gradient-to-r from-[var(--accent-soft)] to-white rounded-xl p-5 border border-[var(--accent)]/20">
+              <button
+                onClick={dismissWelcome}
+                className="absolute top-3 right-3 text-[var(--ink-muted)] hover:text-[var(--ink)] transition-colors"
+              >
+                <X className="h-4 w-4" />
+              </button>
+              <div className="flex items-start gap-3 mb-3">
+                <Sparkles className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-[var(--ink)] mb-1">Welcome! Here&apos;s how to get started</h3>
+                  <p className="text-sm text-[var(--ink-soft)]">
+                    Practice all 5 modules of the Dutch inburgering exam with 900+ questions. Take a quick assessment to see where you stand, or jump straight into KNM — the module most expats start with.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-3 ml-8">
+                <Link
+                  href="/try"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:text-[var(--accent-glow)] transition-colors"
+                >
+                  Take Quick Assessment
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+                <Link
+                  href="/learn/knm/select"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors"
+                >
+                  Start with KNM
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+            </div>
+          )}
+
           <div>
             <h2 className="text-2xl font-bold text-[var(--ink)] mb-1">
               Kies een Module
@@ -141,9 +211,16 @@ export default function LearnHubPage() {
                         )}
                       </div>
                       <div className="flex-1">
-                        <h3 className="font-semibold text-lg text-[var(--ink)]">
-                          {mod.name}
-                        </h3>
+                        <div className="flex items-center gap-2">
+                          <h3 className="font-semibold text-lg text-[var(--ink)]">
+                            {mod.name}
+                          </h3>
+                          {hasZeroProgress && (mod.id === "knm" || mod.id === "lezen") && (
+                            <span className="text-[0.68rem] font-semibold text-[var(--green)] bg-[var(--green-soft)] px-2 py-0.5 rounded-full">
+                              Good starting point
+                            </span>
+                          )}
+                        </div>
                         <p className="text-sm text-[var(--ink)]/60">
                           {mod.description}
                         </p>
@@ -177,6 +254,13 @@ export default function LearnHubPage() {
         </div>
       </section>
       <LandingFooter />
+
+      {/* First-login toast */}
+      {showToast && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-[var(--ink)] text-white text-sm px-5 py-3 rounded-full shadow-lg z-50 animate-reveal">
+          Account created! Your progress is saved automatically.
+        </div>
+      )}
     </main>
   );
 }

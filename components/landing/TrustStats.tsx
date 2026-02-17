@@ -1,15 +1,15 @@
 export function TrustBar() {
     const stats = [
-        { value: "2,400+", label: "Expats prepared" },
-        { value: "94%", label: "Pass rate" },
-        { value: "1,200+", label: "Practice questions" },
-        { value: "4.8★", label: "Average rating" },
+        { value: "900+", label: "Practice questions" },
+        { value: "28", label: "Mock exams" },
+        { value: "5", label: "Exam modules" },
+        { value: "Free", label: "During beta" },
     ];
 
     return (
         <section className="py-[40px] px-6 lg:px-10 max-w-[1200px] mx-auto text-center reveal">
             <div className="text-[0.82rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-7">
-                Why expats choose us
+                What&apos;s inside
             </div>
             <div className="flex justify-center gap-[60px] flex-wrap">
                 {stats.map((stat, i) => (

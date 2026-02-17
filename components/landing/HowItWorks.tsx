@@ -43,7 +43,7 @@ export function HowItWorks() {
                     <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Drill with real exam formats</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            1,200+ questions that mirror the actual DUO exam format. Each question includes a practical tip so you learn the why, not just the what.
+                            900+ questions that mirror the actual DUO exam format. Each question includes a practical tip so you learn the why, not just the what.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="text-[0.82rem] text-[var(--ink-soft)] font-semibold mb-2">Exam readiness</div>
@@ -58,7 +58,7 @@ export function HowItWorks() {
                     <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Pass with confidence</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            Our readiness score tells you exactly when you&apos;ve drilled enough. No guessing, no anxiety — just clarity on exam day.
+                            Track your scores across all modules. When you&apos;re consistently scoring above the passing threshold, you&apos;re ready to book your exam.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="flex items-center gap-3">
@@ -66,8 +66,8 @@ export function HowItWorks() {
                                     <Trophy className="h-5 w-5" />
                                 </div>
                                 <div>
-                                    <div className="text-[0.88rem] text-[var(--ink)] font-semibold leading-[1.4]">Exam ready!</div>
-                                    <div className="text-[0.8rem] text-[var(--ink-muted)]">Predicted: 91% pass probability</div>
+                                    <div className="text-[0.88rem] text-[var(--ink)] font-semibold leading-[1.4]">Ready for exam day</div>
+                                    <div className="text-[0.8rem] text-[var(--ink-muted)]">Consistently scoring above 80%</div>
                                 </div>
                             </div>
                         </div>
