@@ -15,7 +15,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "What's included for free?",
-        answer: "A 10-question assessment across all 5 modules with no signup required — see your readiness score in minutes. Create a free account to access the full drill library, mock exams, and detailed tips for every question.",
+        answer: "Everything — we're currently in beta and all content is free. That includes 28 mock exams, 900+ practice questions across all 5 modules, and detailed tips for every question. Create a free account to save your progress across devices.",
     },
     {
         question: "Can I practice on my phone?",

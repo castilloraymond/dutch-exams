@@ -38,18 +38,17 @@ export function Features() {
                 {/* Highlight card — AI explanations */}
                 <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-[var(--ink)] rounded-[16px] p-10 border border-transparent">
                     <div>
-                        <span className="text-[1.8rem] block mb-5">🤖</span>
-                        <h3 className="text-[1.2rem] font-bold text-white mb-2.5">AI-powered explanations</h3>
+                        <span className="text-[1.8rem] block mb-5">💡</span>
+                        <h3 className="text-[1.2rem] font-bold text-white mb-2.5">Detailed explanations</h3>
                         <p className="text-[0.92rem] text-white/70 leading-[1.65]">
-                            Stuck on a question? Get an instant explanation and practical tip in English. Understand the Dutch cultural context behind each answer, not just the right letter.
+                            Every question comes with a practical tip in English explaining the correct answer. Understand the Dutch cultural context behind each answer, not just the right letter.
                         </p>
                     </div>
-                    <div className="bg-white/[0.08] rounded-[10px] p-7 flex flex-col gap-3">
-                        <div className="bg-[var(--accent)] text-white px-[18px] py-3 rounded-[14px] rounded-br-[4px] text-[0.88rem] leading-[1.5] max-w-[85%] self-end">
-                            Why is answer B correct? I thought Dutch people go to the huisarts first?
-                        </div>
-                        <div className="bg-white/[0.12] text-white/90 px-[18px] py-3 rounded-[14px] rounded-bl-[4px] text-[0.88rem] leading-[1.5] max-w-[85%] self-start">
-                            Great question! In the Netherlands, the huisarts is indeed your first stop for most health issues. Answer B is correct because for emergencies you call 112, but for urgent non-emergency care, you contact the huisartsenpost (GP post)...
+                    <div className="bg-white/[0.08] rounded-[10px] p-7 flex flex-col gap-4">
+                        <div className="text-[0.82rem] font-semibold text-white/50 uppercase tracking-wide">Example explanation</div>
+                        <div className="bg-white/[0.12] text-white/90 px-[18px] py-3 rounded-[10px] text-[0.88rem] leading-[1.6]">
+                            <div className="font-semibold text-white mb-1">Why B is correct:</div>
+                            In the Netherlands, the huisarts is your first stop for most health issues. But for urgent non-emergency care outside office hours, you contact the huisartsenpost (GP post), not 112.
                         </div>
                     </div>
                 </div>

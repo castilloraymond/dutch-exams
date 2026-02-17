@@ -41,27 +41,8 @@ export function LandingHero() {
                     </a>
                 </div>
 
-                <div className="flex items-center gap-4">
-                    <div className="flex">
-                        {[
-                            { bg: "#E8632B", letter: "M" },
-                            { bg: "#3B6BCC", letter: "S" },
-                            { bg: "#2D8F5E", letter: "J" },
-                            { bg: "#B8860B", letter: "A" },
-                            { bg: "#8B5CF6", letter: "K" },
-                        ].map((avatar, i) => (
-                            <div
-                                key={i}
-                                className="w-9 h-9 rounded-full border-[2.5px] border-[var(--cream)] flex items-center justify-center text-[0.75rem] font-semibold text-white"
-                                style={{ background: avatar.bg, marginLeft: i === 0 ? 0 : -10 }}
-                            >
-                                {avatar.letter}
-                            </div>
-                        ))}
-                    </div>
-                    <div className="text-[0.88rem] text-[var(--ink-muted)] leading-[1.4]">
-                        <strong className="text-[var(--ink)] font-semibold">94% pass rate</strong> among users who completed<br />all practice modules
-                    </div>
+                <div className="text-[0.88rem] text-[var(--ink-muted)] leading-[1.4]">
+                    Free during beta — practice all 5 exam modules with 900+ questions
                 </div>
             </div>
 
