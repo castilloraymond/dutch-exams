@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label";
 
 export function UpdatePasswordForm() {
   const router = useRouter();
-  const { updatePassword, isConfigured, user } = useAuth();
+  const { updatePassword, isConfigured, user, loading: authLoading } = useAuth();
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -57,6 +57,19 @@ export function UpdatePasswordForm() {
         <p className="text-muted-foreground text-sm text-center">
           Supabase credentials are not set up. You can still use the app with local storage.
         </p>
+      </AuthForm>
+    );
+  }
+
+  if (authLoading) {
+    return (
+      <AuthForm
+        title="Update Password"
+        description="Verifying your session..."
+      >
+        <div className="flex justify-center py-4">
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-[var(--accent)] border-t-transparent" />
+        </div>
       </AuthForm>
     );
   }

@@ -5,7 +5,7 @@ import { rateLimit } from "@/lib/rate-limit";
 export async function POST(request: NextRequest) {
     try {
         // Rate limit: 10 requests per 15 minutes per IP
-        const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+        const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
         const { allowed, retryAfterMs } = rateLimit(`feedback:${ip}`, 10, 15 * 60 * 1000);
         if (!allowed) {
             return NextResponse.json(
@@ -15,8 +15,23 @@ export async function POST(request: NextRequest) {
         }
 
         const body = await request.json();
-        const { page_url, feedback_type } = body;
+        let { page_url } = body;
+        const { feedback_type } = body;
         let { description, email, user_agent, screen_size } = body;
+
+        // Whitelist feedback_type
+        const VALID_FEEDBACK_TYPES = ["bug", "feature", "improvement", "other"];
+        if (feedback_type && !VALID_FEEDBACK_TYPES.includes(feedback_type)) {
+            return NextResponse.json(
+                { error: "Invalid feedback type" },
+                { status: 400 }
+            );
+        }
+
+        // Cap page_url length
+        if (page_url && typeof page_url === "string") {
+            page_url = page_url.slice(0, 2000);
+        }
 
         if (!description || typeof description !== "string" || !description.trim()) {
             return NextResponse.json(

@@ -11,7 +11,13 @@ export async function GET(request: NextRequest) {
   if (code) {
     const supabase = await createServerComponentClient();
     if (supabase) {
-      await supabase.auth.exchangeCodeForSession(code);
+      const { error } = await supabase.auth.exchangeCodeForSession(code);
+      if (error) {
+        console.error("Auth callback error:", error.message);
+        return NextResponse.redirect(
+          new URL(`/auth/login?error=${encodeURIComponent("Authentication failed. Please try again.")}`, request.url)
+        );
+      }
     }
   }
 
