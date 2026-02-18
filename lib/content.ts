@@ -76,6 +76,8 @@ import knmA1Exam3 from "@/content/mock-exams/knm/a1-exam-3.json";
 import knmA1Exam4 from "@/content/mock-exams/knm/a1-exam-4.json";
 import knmA2Exam3 from "@/content/mock-exams/knm/a2-exam-3.json";
 import knmA2Exam4 from "@/content/mock-exams/knm/a2-exam-4.json";
+import knmB1Exam1 from "@/content/mock-exams/knm/b1-exam-1.json";
+import knmB1Exam2 from "@/content/mock-exams/knm/b1-exam-2.json";
 
 // Mock exam content - Luisteren
 import luisterenMockIndex from "@/content/mock-exams/luisteren/index.json";
@@ -187,6 +189,8 @@ const mockExams: Record<string, MockExam> = {
   "knm-a1-4": knmA1Exam4 as unknown as MockExam,
   "knm-a2-3": knmA2Exam3 as unknown as MockExam,
   "knm-a2-4": knmA2Exam4 as unknown as MockExam,
+  "knm-b1-1": knmB1Exam1 as unknown as MockExam,
+  "knm-b1-2": knmB1Exam2 as unknown as MockExam,
   "luisteren-a1-1": luisterenA1Exam1 as unknown as MockExam,
   "luisteren-a1-2": luisterenA1Exam2 as unknown as MockExam,
   "luisteren-a2-1": luisterenA2Exam1 as unknown as MockExam,
