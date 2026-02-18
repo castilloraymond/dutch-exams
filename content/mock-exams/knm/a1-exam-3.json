@@ -9,7 +9,12 @@
     {
       "id": "knm-a1-3-q1",
       "text": "Waar gooi je een lege plastic fles naartoe?",
-      "options": ["Bij het GFT-afval", "Bij het glas", "Bij de PMD-bak", "Bij het restafval"],
+      "options": [
+        "Bij het GFT-afval",
+        "Bij het glas",
+        "Bij de PMD-bak",
+        "Bij het restafval"
+      ],
       "correctIndex": 2,
       "explanation": "Plastic flessen horen bij de PMD-bak (plastic, metaal, drinkpakken).",
       "explanationEn": "Plastic bottles go in the PMD bin (plastic, metal, drink cartons)."
@@ -17,7 +22,12 @@
     {
       "id": "knm-a1-3-q2",
       "text": "Wat moet je hebben op je fiets als het donker is?",
-      "options": ["Verlichting (voor- en achterlicht)", "Een helm", "Een spiegel", "Een bel"],
+      "options": [
+        "Verlichting (voor- en achterlicht)",
+        "Een helm",
+        "Een spiegel",
+        "Een bel"
+      ],
       "correctIndex": 0,
       "explanation": "Als het donker is, moet je verlichting hebben op je fiets: een wit voorlicht en een rood achterlicht.",
       "explanationEn": "When it is dark, you must have lights on your bike: a white front light and a red rear light."
@@ -25,7 +35,12 @@
     {
       "id": "knm-a1-3-q3",
       "text": "Je kind heeft koorts en het is 's avonds laat. Wie bel je als het NIET levensbedreigend is?",
-      "options": ["112", "De tandarts", "De apotheek", "De huisartsenpost (spoedlijn)"],
+      "options": [
+        "112",
+        "De tandarts",
+        "De apotheek",
+        "De huisartsenpost (spoedlijn)"
+      ],
       "correctIndex": 3,
       "explanation": "Voor dringende medische hulp die niet levensbedreigend is, bel je de huisartsenpost (spoedlijn). Bel 112 alleen bij levensgevaar.",
       "explanationEn": "For urgent medical help that is not life-threatening, you call the GP emergency line (huisartsenpost). Call 112 only in life-threatening situations."
@@ -33,7 +48,12 @@
     {
       "id": "knm-a1-3-q4",
       "text": "Wat is statiegeld?",
-      "options": ["Een boete voor te laat betalen", "Geld dat je terugkrijgt als je een fles inlevert", "Een soort belasting op eten", "Geld dat je betaalt voor parkeren"],
+      "options": [
+        "Een boete voor te laat betalen",
+        "Geld dat je terugkrijgt als je een fles inlevert",
+        "Een soort belasting op eten",
+        "Geld dat je betaalt voor parkeren"
+      ],
       "correctIndex": 1,
       "explanation": "Statiegeld is een klein bedrag dat je betaalt bij de aankoop van een fles. Je krijgt het terug als je de lege fles inlevert bij de supermarkt.",
       "explanationEn": "Statiegeld (bottle deposit) is a small amount you pay when buying a bottle. You get it back when you return the empty bottle to the supermarket."
@@ -41,7 +61,12 @@
     {
       "id": "knm-a1-3-q5",
       "text": "Tot hoe laat mag je 's avonds hard muziek draaien volgens de meeste gemeenten?",
-      "options": ["20:00 uur", "23:00 uur", "22:00 uur", "00:00 uur (middernacht)"],
+      "options": [
+        "20:00 uur",
+        "23:00 uur",
+        "22:00 uur",
+        "00:00 uur (middernacht)"
+      ],
       "correctIndex": 2,
       "explanation": "In de meeste gemeenten mag je na 22:00 uur 's avonds geen harde muziek meer draaien. Dit heet de nachtrust.",
       "explanationEn": "In most municipalities, you may not play loud music after 22:00 in the evening. This is called the night rest period."
@@ -49,7 +74,12 @@
     {
       "id": "knm-a1-3-q6",
       "text": "Je bent niet thuis als PostNL een pakket brengt. Wat gebeurt er meestal?",
-      "options": ["Het pakket wordt weggegooid", "Je moet het pakket opnieuw bestellen", "PostNL brengt het altijd de volgende dag terug", "Het pakket gaat naar een afhaalpunt in de buurt"],
+      "options": [
+        "Het pakket wordt weggegooid",
+        "Je moet het pakket opnieuw bestellen",
+        "PostNL brengt het altijd de volgende dag terug",
+        "Het pakket gaat naar een afhaalpunt in de buurt"
+      ],
       "correctIndex": 3,
       "explanation": "Als je niet thuis bent, brengt PostNL het pakket meestal naar een afhaalpunt (bijvoorbeeld een supermarkt of winkel) in de buurt.",
       "explanationEn": "If you are not home, PostNL usually brings the package to a nearby pick-up point (for example a supermarket or shop)."
@@ -57,7 +87,12 @@
     {
       "id": "knm-a1-3-q7",
       "text": "Je belt een telefoonnummer dat begint met 0800. Hoeveel betaal je?",
-      "options": ["Niets, het is gratis", "€0,10 per minuut", "€1,00 per gesprek", "€0,50 per minuut"],
+      "options": [
+        "Niets, het is gratis",
+        "€0,10 per minuut",
+        "€1,00 per gesprek",
+        "€0,50 per minuut"
+      ],
       "correctIndex": 0,
       "explanation": "Telefoonnummers die beginnen met 0800 zijn gratis. Je betaalt niets voor het gesprek.",
       "explanationEn": "Phone numbers starting with 0800 are free. You pay nothing for the call."
@@ -65,7 +100,12 @@
     {
       "id": "knm-a1-3-q8",
       "text": "Hoeveel groepen heeft de basisschool in Nederland?",
-      "options": ["6 groepen", "10 groepen", "12 groepen", "8 groepen"],
+      "options": [
+        "6 groepen",
+        "10 groepen",
+        "12 groepen",
+        "8 groepen"
+      ],
       "correctIndex": 3,
       "explanation": "De basisschool in Nederland heeft 8 groepen (groep 1 tot en met groep 8). Kinderen gaan naar de basisschool van ongeveer 4 tot 12 jaar.",
       "explanationEn": "Primary school in the Netherlands has 8 groups (group 1 through 8). Children attend primary school from approximately age 4 to 12."
@@ -73,7 +113,12 @@
     {
       "id": "knm-a1-3-q9",
       "text": "Wat is een voorschot voor je energierekening?",
-      "options": ["Een boete als je te veel energie gebruikt", "Een vast bedrag dat je elke maand betaalt", "Een eenmalige betaling per jaar", "Geld dat je terugkrijgt van de overheid"],
+      "options": [
+        "Een boete als je te veel energie gebruikt",
+        "Een vast bedrag dat je elke maand betaalt",
+        "Een eenmalige betaling per jaar",
+        "Geld dat je terugkrijgt van de overheid"
+      ],
       "correctIndex": 1,
       "explanation": "Een voorschot (maandelijks termijnbedrag) is een vast bedrag dat je elke maand betaalt voor gas, water en elektriciteit. Aan het einde van het jaar krijg je een eindafrekening.",
       "explanationEn": "An advance payment (monthly installment) is a fixed amount you pay each month for gas, water, and electricity. At the end of the year you receive a final settlement."
@@ -81,7 +126,12 @@
     {
       "id": "knm-a1-3-q10",
       "text": "Wat is vrijwilligerswerk?",
-      "options": ["Werk dat de overheid je verplicht te doen", "Werk waarvoor je een hoog salaris krijgt", "Werk dat je doet zonder betaling, om anderen te helpen", "Werk dat alleen studenten mogen doen"],
+      "options": [
+        "Werk dat de overheid je verplicht te doen",
+        "Werk waarvoor je een hoog salaris krijgt",
+        "Werk dat je doet zonder betaling, om anderen te helpen",
+        "Werk dat alleen studenten mogen doen"
+      ],
       "correctIndex": 2,
       "explanation": "Vrijwilligerswerk is werk dat je doet zonder betaling. Je helpt anderen of de maatschappij. In Nederland doen veel mensen vrijwilligerswerk.",
       "explanationEn": "Volunteer work is work you do without payment. You help others or society. In the Netherlands, many people do volunteer work."
@@ -89,7 +139,12 @@
     {
       "id": "knm-a1-3-q11",
       "text": "Je kind is jarig en gaat naar school. Wat is een Nederlandse gewoonte?",
-      "options": ["Het kind brengt traktaties mee voor de klas", "De school is die dag dicht", "De ouders komen naar school voor een feest", "De leraar geeft het kind een cadeau"],
+      "options": [
+        "Het kind brengt traktaties mee voor de klas",
+        "De school is die dag dicht",
+        "De ouders komen naar school voor een feest",
+        "De leraar geeft het kind een cadeau"
+      ],
       "correctIndex": 0,
       "explanation": "In Nederland is het de gewoonte dat het jarige kind traktaties meebrengt naar school voor alle kinderen in de klas.",
       "explanationEn": "In the Netherlands, it is customary for the birthday child to bring treats to school for all the children in the class."
@@ -97,7 +152,12 @@
     {
       "id": "knm-a1-3-q12",
       "text": "In welke provincie ligt de stad Maastricht?",
-      "options": ["Noord-Brabant", "Gelderland", "Limburg", "Zeeland"],
+      "options": [
+        "Noord-Brabant",
+        "Gelderland",
+        "Limburg",
+        "Zeeland"
+      ],
       "correctIndex": 2,
       "explanation": "Maastricht ligt in de provincie Limburg, in het zuiden van Nederland.",
       "explanationEn": "Maastricht is located in the province of Limburg, in the south of the Netherlands."
@@ -105,7 +165,12 @@
     {
       "id": "knm-a1-3-q13",
       "text": "Wat hoort bij GFT-afval?",
-      "options": ["Plastic zakken", "Oude kranten", "Glazen flessen", "Schillen van groente en fruit"],
+      "options": [
+        "Plastic zakken",
+        "Oude kranten",
+        "Glazen flessen",
+        "Schillen van groente en fruit"
+      ],
       "correctIndex": 3,
       "explanation": "GFT staat voor groente-, fruit- en tuinafval. Schillen van groente en fruit horen bij het GFT-afval.",
       "explanationEn": "GFT stands for vegetable, fruit, and garden waste. Vegetable and fruit peels belong in the GFT bin."
@@ -113,7 +178,12 @@
     {
       "id": "knm-a1-3-q14",
       "text": "Je fietst en wilt naar links afslaan. Wat doe je?",
-      "options": ["Je steekt je rechterhand uit", "Je steekt je linkerhand uit", "Je belt met je bel", "Je hoeft niets te doen"],
+      "options": [
+        "Je steekt je rechterhand uit",
+        "Je steekt je linkerhand uit",
+        "Je belt met je bel",
+        "Je hoeft niets te doen"
+      ],
       "correctIndex": 1,
       "explanation": "Als je naar links wilt afslaan op de fiets, steek je je linkerhand uit om dit aan te geven aan andere weggebruikers.",
       "explanationEn": "When you want to turn left on your bike, you extend your left hand to signal this to other road users."
@@ -121,7 +191,12 @@
     {
       "id": "knm-a1-3-q15",
       "text": "Wanneer bel je 112?",
-      "options": ["Als je een afspraak wilt maken bij de huisarts", "Als je klachten hebt over je buren", "Als er een noodsituatie is en iemands leven in gevaar is", "Als je een recept nodig hebt van de apotheek"],
+      "options": [
+        "Als je een afspraak wilt maken bij de huisarts",
+        "Als je klachten hebt over je buren",
+        "Als er een noodsituatie is en iemands leven in gevaar is",
+        "Als je een recept nodig hebt van de apotheek"
+      ],
       "correctIndex": 2,
       "explanation": "112 is het alarmnummer voor noodgevallen. Je belt 112 als iemands leven in gevaar is, bij brand, of als je direct de politie of ambulance nodig hebt.",
       "explanationEn": "112 is the emergency number. You call 112 when someone's life is in danger, in case of fire, or when you need the police or ambulance immediately."
@@ -129,7 +204,12 @@
     {
       "id": "knm-a1-3-q16",
       "text": "Op welke flessen en verpakkingen zit tegenwoordig statiegeld in Nederland?",
-      "options": ["Alleen glazen flessen", "Alleen grote plastic flessen", "Alleen wijnflessen", "Plastic flessen en blikjes"],
+      "options": [
+        "Alleen glazen flessen",
+        "Alleen grote plastic flessen",
+        "Alleen wijnflessen",
+        "Plastic flessen en blikjes"
+      ],
       "correctIndex": 3,
       "explanation": "In Nederland zit statiegeld op plastic flessen en blikjes. Je kunt deze inleveren bij de supermarkt om je statiegeld terug te krijgen.",
       "explanationEn": "In the Netherlands, there is a deposit (statiegeld) on plastic bottles and cans. You can return these to the supermarket to get your deposit back."
@@ -137,7 +217,12 @@
     {
       "id": "knm-a1-3-q17",
       "text": "Wat is belangrijk als je in een flatgebouw woont?",
-      "options": ["Je mag altijd luid muziek draaien", "Je mag altijd 's nachts klussen", "Je moet rekening houden met je buren", "Je hoeft de trap niet schoon te maken"],
+      "options": [
+        "Je mag altijd luid muziek draaien",
+        "Je mag altijd 's nachts klussen",
+        "Je moet rekening houden met je buren",
+        "Je hoeft de trap niet schoon te maken"
+      ],
       "correctIndex": 2,
       "explanation": "Als je in een flatgebouw woont, is het belangrijk om rekening te houden met je buren. Vermijd lawaai, vooral na 22:00 uur.",
       "explanationEn": "When you live in an apartment building, it is important to be considerate of your neighbors. Avoid noise, especially after 22:00."
@@ -145,7 +230,12 @@
     {
       "id": "knm-a1-3-q18",
       "text": "Je belt een nummer dat begint met 0900. Wat klopt?",
-      "options": ["Het is een alarmnummer", "Het is altijd gratis", "Het is alleen bereikbaar op werkdagen", "Je betaalt extra kosten per minuut"],
+      "options": [
+        "Het is een alarmnummer",
+        "Het is altijd gratis",
+        "Het is alleen bereikbaar op werkdagen",
+        "Je betaalt extra kosten per minuut"
+      ],
       "correctIndex": 3,
       "explanation": "Telefoonnummers die beginnen met 0900 zijn betaalnummers. Je betaalt extra kosten per minuut of per gesprek, bovenop je normale belkosten.",
       "explanationEn": "Phone numbers starting with 0900 are paid numbers. You pay extra costs per minute or per call, on top of your normal call charges."
@@ -153,7 +243,12 @@
     {
       "id": "knm-a1-3-q19",
       "text": "Vanaf welke leeftijd MOETEN kinderen in Nederland naar school?",
-      "options": ["Vanaf 5 jaar", "Vanaf 4 jaar", "Vanaf 6 jaar", "Vanaf 3 jaar"],
+      "options": [
+        "Vanaf 5 jaar",
+        "Vanaf 4 jaar",
+        "Vanaf 6 jaar",
+        "Vanaf 3 jaar"
+      ],
       "correctIndex": 0,
       "explanation": "In Nederland is de leerplicht vanaf 5 jaar. Kinderen mogen al naar school vanaf 4 jaar, maar het is verplicht vanaf 5 jaar.",
       "explanationEn": "In the Netherlands, compulsory education starts at age 5. Children may attend school from age 4, but it is mandatory from age 5."
@@ -161,7 +256,12 @@
     {
       "id": "knm-a1-3-q20",
       "text": "Wat betaal je met een maandelijks energievoorschot?",
-      "options": ["Alleen elektriciteit", "Gas en elektriciteit", "Alleen gas", "Huur en energie"],
+      "options": [
+        "Alleen elektriciteit",
+        "Gas en elektriciteit",
+        "Alleen gas",
+        "Huur en energie"
+      ],
       "correctIndex": 1,
       "explanation": "Met je maandelijks energievoorschot betaal je voor gas en elektriciteit. Water betaal je apart aan het waterbedrijf.",
       "explanationEn": "With your monthly energy advance payment, you pay for gas and electricity. Water is paid separately to the water company."
@@ -169,7 +269,12 @@
     {
       "id": "knm-a1-3-q21",
       "text": "Waarom doen veel Nederlanders vrijwilligerswerk?",
-      "options": ["Omdat het verplicht is voor iedereen", "Omdat ze anders een boete krijgen", "Omdat het goed betaald wordt", "Om andere mensen te helpen en iets terug te doen voor de maatschappij"],
+      "options": [
+        "Omdat het verplicht is voor iedereen",
+        "Omdat ze anders een boete krijgen",
+        "Omdat het goed betaald wordt",
+        "Om andere mensen te helpen en iets terug te doen voor de maatschappij"
+      ],
       "correctIndex": 3,
       "explanation": "Veel Nederlanders doen vrijwilligerswerk om anderen te helpen en iets bij te dragen aan de maatschappij. Het is niet verplicht, maar het wordt wel gewaardeerd.",
       "explanationEn": "Many Dutch people do volunteer work to help others and contribute to society. It is not mandatory, but it is valued."
@@ -177,7 +282,12 @@
     {
       "id": "knm-a1-3-q22",
       "text": "Je bent jarig op je werk. Wat is gebruikelijk in Nederland?",
-      "options": ["Je collega's geven jou taart", "Je krijgt een dag vrij", "Jij trakteert je collega's op taart of gebak", "Je hoeft die dag niet te werken"],
+      "options": [
+        "Je collega's geven jou taart",
+        "Je krijgt een dag vrij",
+        "Jij trakteert je collega's op taart of gebak",
+        "Je hoeft die dag niet te werken"
+      ],
       "correctIndex": 2,
       "explanation": "In Nederland is het de gewoonte dat de jarige zelf trakteert. Op het werk breng je taart of gebak mee voor je collega's.",
       "explanationEn": "In the Netherlands, it is customary for the birthday person to treat others. At work, you bring cake or pastries for your colleagues."
@@ -185,7 +295,12 @@
     {
       "id": "knm-a1-3-q23",
       "text": "Welke provincie ligt in het noorden van Nederland?",
-      "options": ["Groningen", "Zeeland", "Limburg", "Noord-Brabant"],
+      "options": [
+        "Groningen",
+        "Zeeland",
+        "Limburg",
+        "Noord-Brabant"
+      ],
       "correctIndex": 0,
       "explanation": "Groningen ligt in het noorden van Nederland. Zeeland ligt in het zuidwesten, Limburg in het zuiden, en Noord-Brabant in het zuiden.",
       "explanationEn": "Groningen is located in the north of the Netherlands. Zeeland is in the southwest, Limburg in the south, and Noord-Brabant in the south."
@@ -193,7 +308,12 @@
     {
       "id": "knm-a1-3-q24",
       "text": "Waar breng je lege glazen flessen naartoe?",
-      "options": ["Bij de PMD-bak", "Bij de glasbak", "Bij het restafval", "Bij het GFT-afval"],
+      "options": [
+        "Bij de PMD-bak",
+        "Bij de glasbak",
+        "Bij het restafval",
+        "Bij het GFT-afval"
+      ],
       "correctIndex": 1,
       "explanation": "Lege glazen flessen breng je naar de glasbak. De glasbak staat vaak op straat of bij de supermarkt.",
       "explanationEn": "Empty glass bottles go to the glass container (glasbak). Glass containers are often found on the street or near the supermarket."
@@ -201,10 +321,16 @@
     {
       "id": "knm-a1-3-q25",
       "text": "Waar moet je fietsen als er een fietspad is?",
-      "options": ["Op de stoep", "Op de rijbaan naast auto's", "Het maakt niet uit waar je fietst", "Op het fietspad"],
+      "options": [
+        "Op de stoep",
+        "Op de rijbaan naast auto's",
+        "Het maakt niet uit waar je fietst",
+        "Op het fietspad"
+      ],
       "correctIndex": 3,
       "explanation": "Als er een fietspad is, moet je daar fietsen. Het is in Nederland verplicht om het fietspad te gebruiken als dat er is.",
       "explanationEn": "If there is a bike path, you must cycle there. In the Netherlands, it is mandatory to use the bike path when one is available."
     }
-  ]
+  ],
+  "isFreePreview": false
 }

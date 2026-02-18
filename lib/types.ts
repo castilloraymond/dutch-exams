@@ -136,6 +136,7 @@ export interface MockExamSummary {
   difficulty: Difficulty;
   questionCount: number;
   recommendedTime: string;
+  isFreePreview?: boolean;
 }
 
 export interface MockExamIndex {
@@ -150,6 +151,7 @@ export interface MockExam {
   difficulty: Difficulty;
   questionCount: number;
   recommendedTime: string;
+  isFreePreview?: boolean;
   questions: Question[];
   // For lezen exams, passages with their questions
   passages?: {

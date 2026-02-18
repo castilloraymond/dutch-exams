@@ -53,7 +53,7 @@
     "Give one or two simple reasons for your choice.",
     "Use words like 'groot' (big), 'klein' (small), 'mooi' (nice), 'licht' (light)."
   ],
-  "isFreePreview": true,
+  "isFreePreview": false,
   "questions": [
     {
       "id": "a1-part3-rooms-q1",

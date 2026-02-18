@@ -6,6 +6,8 @@ import Link from "next/link";
 import { ArrowLeft, Clock, PenLine } from "lucide-react";
 import { getWritingTask } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
+import { PremiumGate } from "@/components/PremiumGate";
 import type { FormAnswer, WritingAttempt, WritingQuestion, WritingSubmission } from "@/lib/types";
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
@@ -23,6 +25,7 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
   const router = useRouter();
   const { saveWritingAttempt } = useProgress();
 
+  const { isPremium } = usePremium();
   const task = useMemo(() => getWritingTask(taskId), [taskId]);
 
   // Build questions array from task.questions or fallback to single legacy question
@@ -153,6 +156,10 @@ export default function SchrijvenTaskPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Opdracht niet gevonden</div>
       </div>
     );
+  }
+
+  if (!task.isFreePreview && !isPremium) {
+    return <PremiumGate backHref="/learn/schrijven" backLabel="Back to Writing" />;
   }
 
   // Build all submissions for results (including current)

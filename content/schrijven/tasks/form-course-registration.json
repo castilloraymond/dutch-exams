@@ -78,7 +78,12 @@
       "labelEn": "Which course do you want to take?",
       "type": "select",
       "required": true,
-      "options": ["Nederlands A1", "Nederlands A2", "Nederlands B1", "Inburgeringscursus"]
+      "options": [
+        "Nederlands A1",
+        "Nederlands A2",
+        "Nederlands B1",
+        "Inburgeringscursus"
+      ]
     },
     {
       "id": "dagvoorkeur",
@@ -86,7 +91,14 @@
       "labelEn": "Preferred class day",
       "type": "select",
       "required": true,
-      "options": ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"]
+      "options": [
+        "Maandag",
+        "Dinsdag",
+        "Woensdag",
+        "Donderdag",
+        "Vrijdag",
+        "Zaterdag"
+      ]
     }
   ],
   "selfAssessmentCriteria": [

@@ -16,6 +16,8 @@ import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
+import { PremiumGate } from "@/components/PremiumGate";
 import type { Question } from "@/lib/types";
 
 interface PageProps {
@@ -27,6 +29,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
   const router = useRouter();
   const { user } = useAuth();
   const { recordExamCompletion } = useProgress();
+  const { isPremium } = usePremium();
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
@@ -138,6 +141,10 @@ export default function LezenMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Exam not found</div>
       </div>
     );
+  }
+
+  if (!exam.isFreePreview && !isPremium) {
+    return <PremiumGate backHref="/learn/lezen/select" backLabel="Back to Reading" />;
   }
 
   if (!started) {

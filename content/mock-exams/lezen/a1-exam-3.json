@@ -16,7 +16,12 @@
         {
           "id": "a1-3-q1",
           "text": "Waar gaat de trein naartoe?",
-          "options": ["Amsterdam Centraal", "Rotterdam Centraal", "Utrecht Centraal", "Den Haag Centraal"],
+          "options": [
+            "Amsterdam Centraal",
+            "Rotterdam Centraal",
+            "Utrecht Centraal",
+            "Den Haag Centraal"
+          ],
           "correctIndex": 2,
           "explanation": "Op het kaartje staat: Naar: Utrecht Centraal.",
           "explanationEn": "The ticket says: To: Utrecht Centraal."
@@ -24,7 +29,12 @@
         {
           "id": "a1-3-q2",
           "text": "Hoe laat vertrekt de trein?",
-          "options": ["08:15", "09:15", "09:42", "10:15"],
+          "options": [
+            "08:15",
+            "09:15",
+            "09:42",
+            "10:15"
+          ],
           "correctIndex": 1,
           "explanation": "De trein vertrekt om 09:15.",
           "explanationEn": "The train departs at 09:15."
@@ -32,7 +42,12 @@
         {
           "id": "a1-3-q3",
           "text": "Hoeveel kost het kaartje?",
-          "options": ["€ 7,40", "€ 8,40", "€ 9,40", "€ 10,40"],
+          "options": [
+            "€ 7,40",
+            "€ 8,40",
+            "€ 9,40",
+            "€ 10,40"
+          ],
           "correctIndex": 2,
           "explanation": "Het kaartje kost € 9,40.",
           "explanationEn": "The ticket costs €9.40."
@@ -49,7 +64,12 @@
         {
           "id": "a1-3-q4",
           "text": "Wanneer is er geen school?",
-          "options": ["Donderdag", "Vrijdag", "Maandag", "Dinsdag"],
+          "options": [
+            "Donderdag",
+            "Vrijdag",
+            "Maandag",
+            "Dinsdag"
+          ],
           "correctIndex": 1,
           "explanation": "Aanstaande vrijdag hebben de kinderen geen school.",
           "explanationEn": "This coming Friday the children have no school."
@@ -57,7 +77,12 @@
         {
           "id": "a1-3-q5",
           "text": "Waarom is er geen school op vrijdag?",
-          "options": ["Het is een feestdag", "De leerkrachten hebben een studiedag", "De school is kapot", "De kinderen zijn ziek"],
+          "options": [
+            "Het is een feestdag",
+            "De leerkrachten hebben een studiedag",
+            "De school is kapot",
+            "De kinderen zijn ziek"
+          ],
           "correctIndex": 1,
           "explanation": "De leerkrachten hebben een studiedag.",
           "explanationEn": "The teachers have a study day."
@@ -65,7 +90,12 @@
         {
           "id": "a1-3-q6",
           "text": "Wat is er op dinsdag?",
-          "options": ["Een feest", "Een sportdag", "Schoolfoto-dag", "Een excursie"],
+          "options": [
+            "Een feest",
+            "Een sportdag",
+            "Schoolfoto-dag",
+            "Een excursie"
+          ],
           "correctIndex": 2,
           "explanation": "Dinsdag is het schoolfoto-dag.",
           "explanationEn": "Tuesday is school photo day."
@@ -82,7 +112,12 @@
         {
           "id": "a1-3-q7",
           "text": "Hoeveel kost knippen voor heren?",
-          "options": ["€ 12,50", "€ 18,00", "€ 25,00", "€ 30,00"],
+          "options": [
+            "€ 12,50",
+            "€ 18,00",
+            "€ 25,00",
+            "€ 30,00"
+          ],
           "correctIndex": 1,
           "explanation": "Knippen heren kost € 18,00.",
           "explanationEn": "A men's haircut costs €18.00."
@@ -90,7 +125,12 @@
         {
           "id": "a1-3-q8",
           "text": "Tot welke leeftijd geldt de kinderprijs?",
-          "options": ["Tot 8 jaar", "Tot 10 jaar", "Tot 12 jaar", "Tot 14 jaar"],
+          "options": [
+            "Tot 8 jaar",
+            "Tot 10 jaar",
+            "Tot 12 jaar",
+            "Tot 14 jaar"
+          ],
           "correctIndex": 2,
           "explanation": "Knippen kinderen is voor kinderen tot en met 12 jaar.",
           "explanationEn": "Children's haircuts are for children up to and including 12 years old."
@@ -98,7 +138,12 @@
         {
           "id": "a1-3-q9",
           "text": "Op welke dag is de kapper dicht?",
-          "options": ["Dinsdag", "Woensdag", "Zaterdag", "Maandag"],
+          "options": [
+            "Dinsdag",
+            "Woensdag",
+            "Zaterdag",
+            "Maandag"
+          ],
           "correctIndex": 3,
           "explanation": "De kapper is open van dinsdag tot en met zaterdag, dus maandag is hij dicht.",
           "explanationEn": "The barber is open Tuesday through Saturday, so Monday it is closed."
@@ -115,7 +160,12 @@
         {
           "id": "a1-3-q10",
           "text": "Hoeveel tabletten mag je maximaal per dag innemen?",
-          "options": ["2", "3", "4", "6"],
+          "options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
           "correctIndex": 3,
           "explanation": "Je mag niet meer dan 6 tabletten per dag innemen.",
           "explanationEn": "You may not take more than 6 tablets per day."
@@ -123,7 +173,12 @@
         {
           "id": "a1-3-q11",
           "text": "Vanaf welke leeftijd mag je dit medicijn gebruiken?",
-          "options": ["6 jaar", "8 jaar", "10 jaar", "12 jaar"],
+          "options": [
+            "6 jaar",
+            "8 jaar",
+            "10 jaar",
+            "12 jaar"
+          ],
           "correctIndex": 3,
           "explanation": "Het medicijn is voor volwassenen en kinderen vanaf 12 jaar.",
           "explanationEn": "The medicine is for adults and children from 12 years old."
@@ -131,7 +186,12 @@
         {
           "id": "a1-3-q12",
           "text": "Waarmee moet je de tabletten innemen?",
-          "options": ["Met melk", "Met sap", "Met water", "Met thee"],
+          "options": [
+            "Met melk",
+            "Met sap",
+            "Met water",
+            "Met thee"
+          ],
           "correctIndex": 2,
           "explanation": "Je moet de tabletten innemen met water.",
           "explanationEn": "You must take the tablets with water."
@@ -148,7 +208,12 @@
         {
           "id": "a1-3-q13",
           "text": "Waar komt Ahmed vandaan?",
-          "options": ["Turkije", "Syrië", "Marokko", "Egypte"],
+          "options": [
+            "Turkije",
+            "Syrië",
+            "Marokko",
+            "Egypte"
+          ],
           "correctIndex": 2,
           "explanation": "Ahmed komt uit Marokko.",
           "explanationEn": "Ahmed comes from Morocco."
@@ -156,7 +221,12 @@
         {
           "id": "a1-3-q14",
           "text": "Wat doet Ahmed elke dag?",
-          "options": ["Hij werkt", "Hij gaat naar school", "Hij voetbalt", "Hij kookt"],
+          "options": [
+            "Hij werkt",
+            "Hij gaat naar school",
+            "Hij voetbalt",
+            "Hij kookt"
+          ],
           "correctIndex": 1,
           "explanation": "Ahmed gaat elke dag naar school.",
           "explanationEn": "Ahmed goes to school every day."
@@ -164,12 +234,18 @@
         {
           "id": "a1-3-q15",
           "text": "Wanneer speelt Ahmed bij een voetbalclub?",
-          "options": ["Op vrijdag", "Op zaterdag", "Op zondag", "Elke dag"],
+          "options": [
+            "Op vrijdag",
+            "Op zaterdag",
+            "Op zondag",
+            "Elke dag"
+          ],
           "correctIndex": 1,
           "explanation": "Op zaterdag speelt Ahmed bij een voetbalclub.",
           "explanationEn": "On Saturday Ahmed plays at a football club."
         }
       ]
     }
-  ]
+  ],
+  "isFreePreview": false
 }

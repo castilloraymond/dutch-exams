@@ -62,7 +62,7 @@
     "Give at least one or two reasons for your choice.",
     "You can mention what you think the building has or doesn't have."
   ],
-  "isFreePreview": true,
+  "isFreePreview": false,
   "questions": [
     {
       "id": "part3-education-q1",

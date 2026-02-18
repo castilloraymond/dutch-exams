@@ -78,7 +78,14 @@
       "labelEn": "Health insurance company",
       "type": "select",
       "required": true,
-      "options": ["Zilveren Kruis", "CZ", "VGZ", "Menzis", "OHRA", "Anders"]
+      "options": [
+        "Zilveren Kruis",
+        "CZ",
+        "VGZ",
+        "Menzis",
+        "OHRA",
+        "Anders"
+      ]
     },
     {
       "id": "polisnummer",

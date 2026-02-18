@@ -20,7 +20,7 @@
       "title": "Food",
       "titleNl": "Eten",
       "difficulty": "A1",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "a1-part3-rooms",
@@ -30,7 +30,7 @@
       "title": "Rooms",
       "titleNl": "Kamers",
       "difficulty": "A1",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "a1-part4-morning",
@@ -40,7 +40,7 @@
       "title": "Morning Routine",
       "titleNl": "Ochtendritme",
       "difficulty": "A1",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "part1-homework",
@@ -60,7 +60,7 @@
       "title": "Lunch",
       "titleNl": "Lunch",
       "difficulty": "A2",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "part3-education",
@@ -70,7 +70,7 @@
       "title": "Education Building",
       "titleNl": "Lesgebouw",
       "difficulty": "A2",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "part4-classroom",
@@ -80,7 +80,7 @@
       "title": "Classroom Items",
       "titleNl": "Klaslokaal Voorwerpen",
       "difficulty": "A2",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "part1-daily-routine",

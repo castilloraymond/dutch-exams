@@ -226,5 +226,6 @@
       ],
       "audioFile": "/audio/luisteren/mock/l-a1-4-t5.mp3"
     }
-  ]
+  ],
+  "isFreePreview": false
 }

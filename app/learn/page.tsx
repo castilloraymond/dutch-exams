@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check, X, Sparkles, ArrowRight } from "lucide-react";
+import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check, X, Sparkles, ArrowRight, Crown } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 import { getWritingIndex, getSpeakingIndex, getMockExamIndex } from "@/lib/content";
@@ -55,9 +56,22 @@ export default function LearnHubPage() {
   const writingIndex = getWritingIndex();
   const speakingIndex = getSpeakingIndex();
 
+  const searchParams = useSearchParams();
+
   // Onboarding state
   const [showWelcome, setShowWelcome] = useState(false);
   const [showToast, setShowToast] = useState(false);
+  const [showUpgradeToast, setShowUpgradeToast] = useState(false);
+
+  // Upgrade toast
+  useEffect(() => {
+    if (searchParams.get("upgraded") === "true") {
+      setShowUpgradeToast(true);
+      // Clean the URL
+      window.history.replaceState({}, "", "/learn");
+      setTimeout(() => setShowUpgradeToast(false), 6000);
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     // Welcome banner: show if no progress and banner not yet dismissed
@@ -259,6 +273,14 @@ export default function LearnHubPage() {
       {showToast && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-[var(--ink)] text-white text-sm px-5 py-3 rounded-full shadow-lg z-50 animate-reveal">
           Account created! Your progress is saved automatically.
+        </div>
+      )}
+
+      {/* Upgrade toast */}
+      {showUpgradeToast && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-[var(--accent)] text-white text-sm px-5 py-3 rounded-full shadow-lg z-50 animate-reveal flex items-center gap-2">
+          <Crown className="h-4 w-4" />
+          Welcome, Founding Member! All content is now unlocked.
         </div>
       )}
     </main>

@@ -46,7 +46,7 @@
     "Use simple words like 'lekker' (tasty) or 'niet lekker' (not tasty).",
     "You can add one sentence about yourself, like 'I eat this every day.'"
   ],
-  "isFreePreview": true,
+  "isFreePreview": false,
   "questions": [
     {
       "id": "a1-part2-food-q1",

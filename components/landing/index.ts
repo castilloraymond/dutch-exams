@@ -5,7 +5,7 @@ export { ProblemSection } from "./ProblemSolution";
 export { HowItWorks } from "./HowItWorks";
 export { Features } from "./WhyUs";
 export { Testimonials } from "./Testimonials";
-
+export { Pricing } from "./Pricing";
 export { FAQ } from "./FAQ";
 export { BlogPreview } from "./BlogPreview";
 export { FinalCTA } from "./FinalCTA";
