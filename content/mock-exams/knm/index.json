@@ -64,6 +64,22 @@
       "questionCount": 40,
       "recommendedTime": "30 min",
       "isFreePreview": false
+    },
+    {
+      "id": "knm-b1-1",
+      "title": "KNM B1 - Oefenexamen 1",
+      "difficulty": "B1",
+      "questionCount": 50,
+      "recommendedTime": "40 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "knm-b1-2",
+      "title": "KNM B1 - Oefenexamen 2",
+      "difficulty": "B1",
+      "questionCount": 50,
+      "recommendedTime": "40 min",
+      "isFreePreview": false
     }
   ]
 }

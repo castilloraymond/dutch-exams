@@ -96,6 +96,22 @@
       "questionCount": 20,
       "recommendedTime": "45 min",
       "isFreePreview": false
+    },
+    {
+      "id": "luisteren-b1-1",
+      "title": "Luisteren B1 - Oefenexamen 1",
+      "difficulty": "B1",
+      "questionCount": 25,
+      "recommendedTime": "60 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "luisteren-b1-2",
+      "title": "Luisteren B1 - Oefenexamen 2",
+      "difficulty": "B1",
+      "questionCount": 25,
+      "recommendedTime": "60 min",
+      "isFreePreview": false
     }
   ]
 }

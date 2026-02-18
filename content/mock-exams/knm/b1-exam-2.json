@@ -1,0 +1,660 @@
+{
+  "id": "knm-b1-2",
+  "title": "KNM B1 - Oefenexamen 2",
+  "module": "knm",
+  "difficulty": "B1",
+  "questionCount": 50,
+  "recommendedTime": "40 min",
+  "questions": [
+    {
+      "id": "knm-b1-2-q1",
+      "text": "Welk grondwetsartikel verbiedt discriminatie op grond van godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht en andere gronden?",
+      "options": [
+        "Artikel 6 van de Grondwet",
+        "Artikel 1 van de Grondwet",
+        "Artikel 23 van de Grondwet",
+        "Artikel 7 van de Grondwet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Artikel 1 van de Nederlandse Grondwet stelt dat allen die zich in Nederland bevinden in gelijke gevallen gelijk behandeld worden. Discriminatie op welke grond dan ook is niet toegestaan.",
+      "explanationEn": "Article 1 of the Dutch Constitution states that all persons in the Netherlands shall be treated equally in equal circumstances. Discrimination on any grounds is not permitted."
+    },
+    {
+      "id": "knm-b1-2-q2",
+      "text": "Wat houdt de vrijheid van meningsuiting in Nederland in en zijn er beperkingen?",
+      "options": [
+        "Iedereen mag altijd alles zeggen zonder gevolgen",
+        "U heeft het recht uw mening te uiten, maar uitingen die aanzetten tot haat of discriminatie zijn strafbaar",
+        "Alleen journalisten hebben vrijheid van meningsuiting",
+        "Vrijheid van meningsuiting geldt alleen voor politieke uitingen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vrijheid van meningsuiting is een grondrecht, maar kent grenzen. Uitingen die aanzetten tot haat, discriminatie of geweld (haatzaaien) zijn strafbaar op grond van het Wetboek van Strafrecht.",
+      "explanationEn": "Freedom of expression is a fundamental right, but has limits. Expressions that incite hatred, discrimination, or violence (incitement to hatred) are punishable under the Criminal Code."
+    },
+    {
+      "id": "knm-b1-2-q3",
+      "text": "Vanaf welke leeftijd heeft u in Nederland actief kiesrecht (recht om te stemmen)?",
+      "options": [
+        "16 jaar",
+        "18 jaar",
+        "21 jaar",
+        "Pas na 5 jaar wonen in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland heeft u actief kiesrecht (recht om te stemmen) bij Tweede Kamerverkiezingen en gemeenteraadsverkiezingen vanaf 18 jaar, mits u de Nederlandse nationaliteit heeft. Voor gemeenteraadsverkiezingen mogen ook EU-burgers en andere ingezetenen stemmen.",
+      "explanationEn": "In the Netherlands, you have active voting rights (right to vote) in House of Representatives and municipal council elections from age 18, provided you have Dutch nationality. For municipal council elections, EU citizens and other residents may also vote."
+    },
+    {
+      "id": "knm-b1-2-q4",
+      "text": "Wat is het verschil tussen het actief en passief kiesrecht?",
+      "options": [
+        "Actief kiesrecht is het recht om online te stemmen; passief is op papier",
+        "Actief kiesrecht is het recht om te stemmen; passief kiesrecht is het recht om zelf kandidaat te staan voor een publiek ambt",
+        "Actief kiesrecht geldt voor parlement; passief voor gemeente",
+        "Er is geen verschil; het zijn synoniemen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Actief kiesrecht is het recht om te stemmen bij verkiezingen. Passief kiesrecht is het recht om zelf gekozen te worden, dus om kandidaat te staan voor de Tweede Kamer, gemeenteraad of andere vertegenwoordigende organen.",
+      "explanationEn": "Active voting rights are the right to vote in elections. Passive voting rights are the right to be elected yourself, i.e., to stand as a candidate for the House of Representatives, municipal council, or other representative bodies."
+    },
+    {
+      "id": "knm-b1-2-q5",
+      "text": "Wat beschermt de vrijheid van godsdienst in Nederland?",
+      "options": [
+        "Alleen het recht om in een kerk te gaan",
+        "Het recht om uw godsdienst of levensovertuiging vrij te belijden, te praktiseren en te uiten, individueel of collectief",
+        "Het recht op belastingvrijstelling voor kerken",
+        "Uitsluitend de bescherming van christelijke religies"
+      ],
+      "correctIndex": 1,
+      "explanation": "De vrijheid van godsdienst (Artikel 6 Grondwet) beschermt het recht om je religie of levensbeschouwing vrij te belijden, te praktiseren en te uiten. Dit geldt voor alle religies en levensbeschouwingen.",
+      "explanationEn": "Freedom of religion (Article 6 of the Constitution) protects the right to freely profess, practice, and express your religion or philosophy of life. This applies to all religions and worldviews."
+    },
+    {
+      "id": "knm-b1-2-q6",
+      "text": "Wat houdt het stakingsrecht in voor werknemers?",
+      "options": [
+        "Het recht om op elk moment te stoppen met werken, ook individueel",
+        "Het collectieve recht van werknemers om het werk neer te leggen als middel bij cao-onderhandelingen, onder bepaalde voorwaarden",
+        "Het recht om uw werkgever aan te klagen bij de rechtbank",
+        "Het recht om vakantiedagen op te sparen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het stakingsrecht is een collectief arbeidsrechtelijk middel. Werknemers mogen staken als pressiemiddel bij cao-onderhandelingen. Een staking moet aan voorwaarden voldoen en is niet strafbaar als ze proportioneel en als laatste middel wordt ingezet.",
+      "explanationEn": "The right to strike is a collective labor law instrument. Employees may strike as a means of pressure in collective bargaining negotiations. A strike must meet certain conditions and is not punishable if it is proportional and used as a last resort."
+    },
+    {
+      "id": "knm-b1-2-q7",
+      "text": "Wat is het verschil tussen een burger en een staatsburger in Nederland?",
+      "options": [
+        "Er is geen verschil; iedereen die in Nederland woont is staatsburger",
+        "Staatsburger betekent dat u de Nederlandse nationaliteit heeft; burger verwijst naar iedereen die in Nederland verblijft",
+        "Burger is een hogere status dan staatsburger",
+        "Staatsburger is alleen van toepassing op mensen geboren in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Staatsburger (of inwoner met Nederlandse nationaliteit) heeft alle rechten en plichten die horen bij de Nederlandse nationaliteit. Burger is een bredere term voor iedereen die in Nederland verblijft, inclusief mensen zonder Nederlandse nationaliteit.",
+      "explanationEn": "State citizen (or resident with Dutch nationality) has all the rights and duties that come with Dutch nationality. Citizen is a broader term for everyone residing in the Netherlands, including people without Dutch nationality."
+    },
+    {
+      "id": "knm-b1-2-q8",
+      "text": "Wat is de Nationale Ombudsman en wat doet hij?",
+      "options": [
+        "De hoogste rechter in Nederland",
+        "Een onafhankelijk orgaan dat klachten van burgers over de overheid onderzoekt en bemiddelt",
+        "De voorzitter van de Tweede Kamer",
+        "Een adviseur van de Koning over juridische kwesties"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Nationale Ombudsman onderzoekt klachten van burgers over de wijze waarop overheidsinstanties hen hebben behandeld. Hij is onafhankelijk, zijn oordeel is niet bindend maar heeft wel gezag.",
+      "explanationEn": "The National Ombudsman investigates complaints from citizens about the way government agencies have treated them. He is independent; his judgment is not binding but carries authority."
+    },
+    {
+      "id": "knm-b1-2-q9",
+      "text": "Wat betekent het begrip 'rechtsstaat' in de Nederlandse context?",
+      "options": [
+        "Een land dat alleen door juristen wordt bestuurd",
+        "Een staatsvorm waarbij de overheid gebonden is aan de wet en de rechten van burgers worden beschermd door onafhankelijke rechtspraak",
+        "Een staat waar de wet altijd boven de grondrechten gaat",
+        "Een land zonder politieke partijen"
+      ],
+      "correctIndex": 1,
+      "explanation": "In een rechtsstaat is de overheid zelf ook gebonden aan de wet. De grondrechten van burgers worden beschermd. Er is een onafhankelijke rechterlijke macht die kan toetsen of de overheid zich aan de wet houdt. Scheiding der machten is essentieel.",
+      "explanationEn": "In a constitutional state, the government itself is also bound by law. Citizens' fundamental rights are protected. There is an independent judiciary that can assess whether the government complies with the law. Separation of powers is essential."
+    },
+    {
+      "id": "knm-b1-2-q10",
+      "text": "Wat is de Raad van State en welke rol speelt hij in het Nederlandse bestuur?",
+      "options": [
+        "De Raad van State is de vergadering van alle ministers",
+        "De Raad van State is het hoogste rechtscollege en adviesorgaan van de regering voor wet- en regelgeving",
+        "De Raad van State benoemt de burgemeester van elke gemeente",
+        "De Raad van State controleert de financiën van de overheid"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Raad van State heeft twee functies: adviseur van de regering over wet- en regelgeving, en hoogste bestuursrechter. Bij bestuursrechtelijke geschillen tussen burger en overheid is de Afdeling bestuursrechtspraak van de Raad van State de hoogste rechter.",
+      "explanationEn": "The Council of State has two functions: advisor to the government on legislation and regulations, and highest administrative court. In administrative law disputes between citizens and the government, the Administrative Jurisdiction Division of the Council of State is the highest judge."
+    },
+    {
+      "id": "knm-b1-2-q11",
+      "text": "Tot welke leeftijd geldt de leerplicht in Nederland?",
+      "options": [
+        "Tot 16 jaar",
+        "Tot 18 jaar (kwalificatieplicht tot 18 jaar voor jongeren zonder startkwalificatie)",
+        "Tot 14 jaar",
+        "Tot 21 jaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "De volledige leerplicht geldt van 5 tot 16 jaar. Daarna geldt de kwalificatieplicht: jongeren van 16-18 jaar zonder startkwalificatie (minimaal havo, vwo of mbo niveau 2) zijn verplicht onderwijs te volgen.",
+      "explanationEn": "Compulsory education applies from ages 5 to 16. After that, the qualification obligation applies: young people aged 16-18 without a basic qualification (minimum havo, vwo, or MBO level 2) are required to attend education."
+    },
+    {
+      "id": "knm-b1-2-q12",
+      "text": "Wat is het verschil tussen mbo, hbo en wo in het Nederlandse onderwijssysteem?",
+      "options": [
+        "Ze zijn gelijk; alleen de namen verschillen per regio",
+        "Mbo is beroepsonderwijs (niveau 1-4); hbo leidt op voor hogere beroepen (bachelor); wo is universitair onderwijs (wetenschappelijk)",
+        "Mbo is voor kinderen; hbo voor jongeren; wo voor volwassenen",
+        "Hbo en wo zijn beide universitair; mbo is voortgezet onderwijs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mbo (middelbaar beroepsonderwijs) biedt praktijkgericht beroepsonderwijs op 4 niveaus. Hbo (hoger beroepsonderwijs) leidt op voor hogere beroepen met een praktijkgerichte bachelor. Wo (wetenschappelijk onderwijs) is universitair met wetenschappelijke bachelor en master.",
+      "explanationEn": "MBO (secondary vocational education) offers practice-oriented vocational education at 4 levels. HBO (higher professional education) trains for higher professions with a practice-oriented bachelor. WO (university education) is academic with scientific bachelor and master degrees."
+    },
+    {
+      "id": "knm-b1-2-q13",
+      "text": "Wat is een startkwalificatie en waarom is deze belangrijk op de arbeidsmarkt?",
+      "options": [
+        "Een aanbevelingsbrief van de eerste werkgever",
+        "Een minimaal diploma (havo, vwo of mbo niveau 2) dat nodig is om kansen op de arbeidsmarkt te hebben",
+        "Een certificaat dat u krijgt na een inburgeringscursus",
+        "Een rijbewijs dat vereist is voor veel beroepen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een startkwalificatie is een diploma van minimaal havo/vwo of mbo niveau 2. Het is de minimumgrens voor een goede kans op de arbeidsmarkt. Jongeren zonder startkwalificatie zijn kwetsbaar voor werkloosheid en lage lonen.",
+      "explanationEn": "A starting qualification is a diploma of at least havo/vwo or MBO level 2. It is the minimum standard for a good chance in the labor market. Young people without a starting qualification are vulnerable to unemployment and low wages."
+    },
+    {
+      "id": "knm-b1-2-q14",
+      "text": "Wat is de rol van DUO (Dienst Uitvoering Onderwijs) voor inburgeraars?",
+      "options": [
+        "DUO verstrekt inburgeraars een gratis studiebeurs",
+        "DUO is verantwoordelijk voor het afnemen van inburgeringsexamens, beheren van de inburgeringslening en registreren van resultaten",
+        "DUO regelt de toelating tot Nederlandse universiteiten",
+        "DUO biedt gratis taalles aan voor alle nieuwkomers"
+      ],
+      "correctIndex": 1,
+      "explanation": "DUO (Dienst Uitvoering Onderwijs) voert het inburgeringsbeleid uit. DUO neemt de inburgeringsexamens af (of delegeert dit aan examencentra), verstrekt inburgeringsleningen en registreert examenuitslagen.",
+      "explanationEn": "DUO (Education Executive Agency) implements integration policy. DUO administers the integration exams (or delegates this to exam centers), provides integration loans, and registers exam results."
+    },
+    {
+      "id": "knm-b1-2-q15",
+      "text": "Wat is NT2 (Nederlands als Tweede Taal) en waar kunt u het volgen?",
+      "options": [
+        "Een tv-programma voor het leren van Nederlands",
+        "Een officieel erkend taalprogramma specifiek voor mensen die Nederlands leren als tweede taal, aangeboden door roc's en taalscholen",
+        "Een verplichte cursus voor alle expats in Nederland",
+        "Een certificering voor bedrijven die Nederlands als voertaal gebruiken"
+      ],
+      "correctIndex": 1,
+      "explanation": "NT2 staat voor Nederlands als Tweede Taal en omvat erkende taalopleidingen voor anderstaligen. ROC's (Regionale Opleidingcentra) bieden NT2-cursussen aan op verschillende niveaus, van A1 tot C1.",
+      "explanationEn": "NT2 stands for Dutch as a Second Language and includes recognized language programs for non-native speakers. ROCs (Regional Training Centers) offer NT2 courses at various levels, from A1 to C1."
+    },
+    {
+      "id": "knm-b1-2-q16",
+      "text": "Wat zijn de taalvereisten voor het inburgeringsexamen in Nederland?",
+      "options": [
+        "U moet Nederlands spreken op moedertaalniveau",
+        "U moet de Nederlandse taal beheersen op B1-niveau voor lezen en luisteren, schrijven en spreken",
+        "U hoeft alleen Engels te spreken",
+        "Er is geen taalvereiste; alleen de KNM-toets is verplicht"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voor het inburgeringsexamen moet u Nederlands beheersen op B1-niveau. Dit geldt voor alle vier de vaardigheden: lezen, luisteren, schrijven en spreken. Sommige trajecten kennen een lager instapniveau (A1/A2).",
+      "explanationEn": "For the integration exam, you must have Dutch language skills at B1 level. This applies to all four skills: reading, listening, writing, and speaking. Some programs have a lower entry level (A1/A2)."
+    },
+    {
+      "id": "knm-b1-2-q17",
+      "text": "Wat is het verschil tussen een rijbewijs categorie B en categorie C?",
+      "options": [
+        "Categorie B is voor motoren; categorie C voor auto's",
+        "Categorie B is voor personenauto's tot 3500 kg; categorie C is voor vrachtwagens boven 3500 kg",
+        "Categorie C is goedkoper te behalen dan categorie B",
+        "Er is geen verschil; beide mogen dezelfde voertuigen besturen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rijbewijs B geeft recht om personenauto's en kleine voertuigen tot 3500 kg te besturen. Rijbewijs C is voor grotere voertuigen zoals vrachtwagens (boven 3500 kg). Er zijn meerdere categorieën voor verschillende voertuigtypen.",
+      "explanationEn": "Driving license B entitles you to drive passenger cars and small vehicles up to 3500 kg. Driving license C is for larger vehicles such as trucks (above 3500 kg). There are multiple categories for different vehicle types."
+    },
+    {
+      "id": "knm-b1-2-q18",
+      "text": "Wat is de OV-chipkaart en hoe werkt het reizen daarmee in Nederland?",
+      "options": [
+        "Een creditcard voor het betalen van tolwegen",
+        "Een elektronische reiskaart voor het reizen in het openbaar vervoer; u checkt in bij vertrek en uit bij aankomst",
+        "Een abonnement voor onbeperkt reizen met de NS",
+        "Een identiteitskaart die verplicht is voor treinreizen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De OV-chipkaart is de standaard betaalkaart voor het openbaar vervoer in Nederland (trein, bus, tram, metro). U laadt er saldo op of koppelt een abonnement. Bij vertrek checkt u in (groen lampje) en bij aankomst checkt u uit.",
+      "explanationEn": "The OV-chipkaart is the standard payment card for public transport in the Netherlands (train, bus, tram, metro). You load credit onto it or attach a subscription. At departure you check in (green light) and at arrival you check out."
+    },
+    {
+      "id": "knm-b1-2-q19",
+      "text": "Welke provincies vormen de Randstad?",
+      "options": [
+        "Noord-Holland, Zuid-Holland, Gelderland en Utrecht",
+        "Noord-Holland, Zuid-Holland, Utrecht en een deel van Flevoland — de stedelijke agglomeratie rond Amsterdam, Rotterdam, Den Haag en Utrecht",
+        "Alleen Amsterdam en Rotterdam",
+        "Alle provincies in het westen van Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Randstad is de stedelijke agglomeratie in het westen van Nederland, bestaande uit de vier grootste steden: Amsterdam, Rotterdam, Den Haag en Utrecht, plus omliggende gemeenten in Noord-Holland, Zuid-Holland, Utrecht en Flevoland.",
+      "explanationEn": "The Randstad is the urban agglomeration in the western Netherlands, consisting of the four largest cities: Amsterdam, Rotterdam, The Hague, and Utrecht, plus surrounding municipalities in North Holland, South Holland, Utrecht, and Flevoland."
+    },
+    {
+      "id": "knm-b1-2-q20",
+      "text": "Wat is de rol van de NS (Nederlandse Spoorwegen)?",
+      "options": [
+        "NS is een internationaal luchtvaartbedrijf",
+        "NS is de hoofdaanbieder van personenvervoer per trein in Nederland, in bezit van de Nederlandse staat",
+        "NS is verantwoordelijk voor de aanleg van rijkswegen",
+        "NS beheert de metro- en tramnetwerken in alle grote steden"
+      ],
+      "correctIndex": 1,
+      "explanation": "NS (Nederlandse Spoorwegen) is de hoofdconcessiehouder voor treinvervoer in Nederland op het hoofdrailnet. NS is eigendom van de Nederlandse staat. Regionale lijnen worden soms door andere vervoerders verzorgd.",
+      "explanationEn": "NS (Dutch Railways) is the main concession holder for train transport in the Netherlands on the main rail network. NS is owned by the Dutch state. Regional lines are sometimes operated by other carriers."
+    },
+    {
+      "id": "knm-b1-2-q21",
+      "text": "Hoe vraagt u een DigiD aan als u nog geen heeft?",
+      "options": [
+        "U vraagt het aan bij de gemeente met uw paspoort",
+        "Via digid.nl met uw BSN-nummer; u ontvangt een activeringscode per post op uw ingeschreven adres",
+        "Via de Belastingdienst na het invullen van een papieren formulier",
+        "Automatisch bij inschrijving in de gemeente"
+      ],
+      "correctIndex": 1,
+      "explanation": "U vraagt DigiD aan via digid.nl. U heeft uw BSN-nummer nodig. De activeringscode wordt per post gestuurd naar het adres waarop u staat ingeschreven in de BRP. Na ontvangst activeert u uw DigiD online.",
+      "explanationEn": "You apply for DigiD via digid.nl. You need your BSN number. The activation code is sent by post to the address where you are registered in the BRP. After receipt, you activate your DigiD online."
+    },
+    {
+      "id": "knm-b1-2-q22",
+      "text": "Hoe maakt u online bezwaar (bezwaar maken) tegen een beslissing van de gemeente?",
+      "options": [
+        "U kunt geen bezwaar maken; gemeentelijke besluiten zijn definitief",
+        "U dient een bezwaarschrift in bij de gemeente binnen de bezwaartermijn (doorgaans 6 weken), schriftelijk of via MijnOverheid",
+        "U gaat direct naar de rechter zonder bezwaarprocedure",
+        "U stuurt een klacht naar de Tweede Kamer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Als u het niet eens bent met een beslissing van de gemeente, kunt u bezwaar maken. U dient een bezwaarschrift in bij de gemeente binnen de bezwaartermijn van 6 weken na de beslissing. Dit kan schriftelijk, online of via MijnOverheid.",
+      "explanationEn": "If you disagree with a decision from the municipality, you can file an objection. You submit a notice of objection to the municipality within the objection period of 6 weeks after the decision. This can be done in writing, online, or via MijnOverheid."
+    },
+    {
+      "id": "knm-b1-2-q23",
+      "text": "Wat is de BRP (Basisregistratie Personen) en waarom is inschrijving verplicht?",
+      "options": [
+        "Een database van alle bedrijven in Nederland",
+        "Het officiële bevolkingsregister van gemeenten; inschrijving is verplicht voor iedereen die langer dan 4 maanden in Nederland verblijft",
+        "Een vrijwillig systeem voor het bijhouden van verhuizingen",
+        "Een nationaal politieregister"
+      ],
+      "correctIndex": 1,
+      "explanation": "De BRP is het officiële bevolkingsregister. Iedereen die langer dan 4 maanden in Nederland verblijft, moet zich inschrijven bij de gemeente. Het BSN-nummer is gekoppeld aan de BRP. Overheidsdiensten gebruiken de BRP voor officiële communicatie.",
+      "explanationEn": "The BRP is the official population register. Everyone who stays in the Netherlands for more than 4 months must register with the municipality. The BSN number is linked to the BRP. Government services use the BRP for official communication."
+    },
+    {
+      "id": "knm-b1-2-q24",
+      "text": "Wat kunt u via de website van Mijn DUO doen?",
+      "options": [
+        "Uw rijbewijs verlengen",
+        "Uw inburgeringsresultaten bekijken, examens aanvragen en uw inburgeringslening beheren",
+        "Uw belastingaangifte indienen",
+        "Uitsluitend uw studiefinanciering beheren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Via Mijn DUO (mijn.duo.nl) kunt u inburgeringsresultaten inzien, nieuwe examens aanvragen, uw inburgeringslening beheren en informatie over uw inburgeringsplicht bekijken. U logt in met DigiD.",
+      "explanationEn": "Via Mijn DUO (mijn.duo.nl) you can view integration results, apply for new exams, manage your integration loan, and view information about your integration obligation. You log in with DigiD."
+    },
+    {
+      "id": "knm-b1-2-q25",
+      "text": "Waarvoor kunt u terecht bij het Juridisch Loket?",
+      "options": [
+        "Het Juridisch Loket is een betaalde advocatenservice",
+        "Het Juridisch Loket biedt gratis juridisch advies aan voor mensen met juridische vragen over onder andere huur, werk en schulden",
+        "Het Juridisch Loket verwerkt alleen erfeniskwesties",
+        "Het Juridisch Loket is een overheidsdienst die uitsluitend bestuursrechtelijke vragen beantwoordt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Juridisch Loket biedt gratis juridisch advies aan op gebieden zoals arbeidsrecht, huurrecht, personen- en familierecht en sociale zekerheid. U kunt langskomen, bellen of online uw vraag stellen.",
+      "explanationEn": "The Legal Aid Counter offers free legal advice in areas such as labor law, rental law, family law, and social security. You can visit, call, or submit your question online."
+    },
+    {
+      "id": "knm-b1-2-q26",
+      "text": "Hoe werkt de afvalscheiding in Nederland?",
+      "options": [
+        "Er is geen verplichte afvalscheiding; alles gaat in één bak",
+        "Afval wordt gescheiden in categorieën: GFT (groente/fruit/tuinafval), papier, plastic/blik/drinkpakken, glas en restafval; regels verschillen per gemeente",
+        "Afvalscheiding is alleen verplicht voor bedrijven, niet voor particulieren",
+        "Alle afval wordt door de gemeente gesorteerd; burgers hoeven niets te doen"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland is afvalscheiding wettelijk verplicht om recycling te bevorderen. De meeste gemeenten kennen gescheiden inzameling van GFT, papier, PMD (plastic, metaal, drinkpakken), glas en restafval. Exacte regels en containers verschillen per gemeente.",
+      "explanationEn": "In the Netherlands, waste separation is legally required to promote recycling. Most municipalities have separate collection of GFT (vegetable/fruit/garden waste), paper, PMD (plastic, metal, drink cartons), glass, and residual waste. Exact rules and containers vary by municipality."
+    },
+    {
+      "id": "knm-b1-2-q27",
+      "text": "Wat is statiegeld en hoe werkt het in Nederland?",
+      "options": [
+        "Een boete voor onjuist afval deponeren",
+        "Een borg op plastic flessen en blikjes die u terugkrijgt als u de lege verpakking inlevert bij een supermarkt",
+        "Een subsidie voor het kopen van recycleerbare producten",
+        "Een toeslag op de gemeentelijke belasting voor afvalverwerking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Statiegeld is een bedrag dat u betaalt bij de aanschaf van bepaalde drankverpakkingen (grote plastic flessen en blikjes). Als u de lege verpakking inlevert bij een inleverautomaat in de supermarkt, krijgt u het statiegeld terug.",
+      "explanationEn": "Deposit is an amount you pay when purchasing certain beverage containers (large plastic bottles and cans). When you return the empty packaging at a return machine in the supermarket, you get the deposit back."
+    },
+    {
+      "id": "knm-b1-2-q28",
+      "text": "Wat is de klimaatwet en wat is het doel ervan?",
+      "options": [
+        "Een wet die het gebruik van airconditioning reguleert",
+        "Een Nederlandse wet die bindende doelstellingen vastlegt voor CO2-reductie om klimaatverandering te beperken",
+        "Een Europese wet over weersomstandigheden",
+        "Een regeling voor subsidies op zonnepanelen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Nederlandse Klimaatwet (2019) stelt wettelijk bindende klimaatdoelen: 49% CO2-reductie in 2030 ten opzichte van 1990, en klimaatneutraliteit in 2050. Het kabinet moet jaarlijks over de voortgang rapporteren.",
+      "explanationEn": "The Dutch Climate Act (2019) sets legally binding climate targets: 49% CO2 reduction by 2030 compared to 1990, and climate neutrality by 2050. The cabinet must report annually on progress."
+    },
+    {
+      "id": "knm-b1-2-q29",
+      "text": "Wat is de energietransitie in Nederland en welke maatregelen neemt de overheid?",
+      "options": [
+        "De energietransitie is de overgang van fossiele brandstoffen naar hernieuwbare energie",
+        "De energietransitie is een plan om meer kerncentrales te bouwen",
+        "De energietransitie betreft alleen het elektrificeren van auto's",
+        "De energietransitie is een beleid om energie te besparen in kantoorgebouwen"
+      ],
+      "correctIndex": 0,
+      "explanation": "De energietransitie is de overgang van fossiele brandstoffen (gas, olie, kolen) naar hernieuwbare energie (zon, wind, waterstof). Maatregelen: subsidies voor zonnepanelen, warmtepompen, sluiting van gasvelden en uitbreiding windenergie.",
+      "explanationEn": "The energy transition is the shift from fossil fuels (gas, oil, coal) to renewable energy (solar, wind, hydrogen). Measures include: subsidies for solar panels, heat pumps, closure of gas fields, and expansion of wind energy."
+    },
+    {
+      "id": "knm-b1-2-q30",
+      "text": "Wat doet Rijkswaterstaat?",
+      "options": [
+        "Rijkswaterstaat int wegbelasting voor het Rijk",
+        "Rijkswaterstaat beheert en onderhoudt rijkswegen, vaarwegen en waterkeringen namens de overheid",
+        "Rijkswaterstaat is verantwoordelijk voor de drinkwatervoorziening in Nederland",
+        "Rijkswaterstaat verleent rijbewijzen en verkeersboetes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rijkswaterstaat is het uitvoeringsorgaan van het Ministerie van Infrastructuur en Waterstaat. Het beheert en onderhoudt rijkswegen (snelwegen), grote rijkswateren (rivieren, kanalen, meren) en waterkeringen (dijken, sluizen).",
+      "explanationEn": "Rijkswaterstaat is the executive agency of the Ministry of Infrastructure and Water Management. It manages and maintains national roads (motorways), major national waterways (rivers, canals, lakes), and flood defenses (dikes, locks)."
+    },
+    {
+      "id": "knm-b1-2-q31",
+      "text": "Wat is het doel van de Wet inburgering 2021?",
+      "options": [
+        "Alle buitenlanders verplichten om te assimileren in de Nederlandse cultuur",
+        "Nieuwkomers zo snel mogelijk laten inburgeren door intensieve begeleiding en duidelijke verantwoordelijkheden voor gemeenten",
+        "Inburgering volledig te privatiseren zodat marktpartijen het regelen",
+        "Inburgering vrijwillig te maken voor mensen uit EU-landen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Wet inburgering 2021 maakt gemeenten verantwoordelijk voor de begeleiding van inburgeraars. Doel is snellere en effectievere inburgering via drie leerwerktrajecten: Z-route (zelfredzaamheid), B1-route en Onderwijsroute.",
+      "explanationEn": "The Integration Act 2021 makes municipalities responsible for guiding inburgeraars. The goal is faster and more effective integration through three learning work routes: Z-route (self-reliance), B1 route, and Education route."
+    },
+    {
+      "id": "knm-b1-2-q32",
+      "text": "Wat is de Participatiewet?",
+      "options": [
+        "Een wet die verplichte vrijwilligerswerk regelt voor werklozen",
+        "Een wet die mensen met een afstand tot de arbeidsmarkt ondersteunt bij het vinden van werk of dagbesteding, inclusief bijstandsuitkering",
+        "Een wet voor de deelname van burgers aan politieke verkiezingen",
+        "Een wet die sportsubsidies regelt voor mensen met een laag inkomen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Participatiewet combineert bijstand (levensonderhoud voor mensen zonder inkomen), Wajong (voor mensen met een handicap) en WSW (beschut werk) in één wet. Doel is zoveel mogelijk mensen te laten participeren in de samenleving via werk.",
+      "explanationEn": "The Participation Act combines social assistance (subsistence for people without income), Wajong (for people with a disability), and WSW (sheltered work) in one law. The goal is to have as many people as possible participate in society through work."
+    },
+    {
+      "id": "knm-b1-2-q33",
+      "text": "Hoe werkt het Nederlandse poldermodel?",
+      "options": [
+        "Het poldermodel is een systeem voor waterbeheer in lage gebieden",
+        "Het poldermodel is een overlegmodel waarbij werkgevers, vakbonden en overheid samenwerken om consensus te bereiken over sociaaleconomisch beleid",
+        "Het poldermodel is een politiek stelsel waarbij kleine partijen worden buitengesloten",
+        "Het poldermodel beschrijft hoe dijken en waterkeringen worden beheerd"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het poldermodel is een typisch Nederlands overlegmodel. Werkgeversorganisaties, vakbonden en de overheid overleggen in de Sociaal-Economische Raad (SER) en de Stichting van de Arbeid over sociaaleconomisch beleid. Consensus staat centraal.",
+      "explanationEn": "The polder model is a typically Dutch consultation model. Employer organizations, trade unions, and the government consult in the Social and Economic Council (SER) and the Labor Foundation on socioeconomic policy. Consensus is central."
+    },
+    {
+      "id": "knm-b1-2-q34",
+      "text": "Wat is de Omgevingswet en wat verandert er door?",
+      "options": [
+        "Een wet over milieueducatie op scholen",
+        "Een bundeling van wetten over de fysieke leefomgeving (ruimtelijke ordening, bouwen, milieu) om vergunningverlening te vereenvoudigen",
+        "Een wet die uitsluitend de bebouwing in steden reguleert",
+        "Een Europese wet over grensoverschrijdende milieuschade"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Omgevingswet (2024) bundelt tientallen wetten over de fysieke leefomgeving. Het doel is eenvoudigere en snellere besluitvorming over wonen, werken en recreëren. Gemeenten, provincies en het Rijk werken met omgevingsvisies en -plannen.",
+      "explanationEn": "The Environment and Planning Act (2024) bundles dozens of laws on the physical living environment. The goal is simpler and faster decision-making about living, working, and recreation. Municipalities, provinces, and the national government work with environmental visions and plans."
+    },
+    {
+      "id": "knm-b1-2-q35",
+      "text": "Wat is de Algemene wet gelijke behandeling (AWGB)?",
+      "options": [
+        "Een wet die gelijke salarissen voor mannen en vrouwen garandeert",
+        "Een wet die discriminatie verbiedt bij arbeid, wonen, onderwijs en dienstverlening op gronden zoals ras, godsdienst, seksuele gerichtheid en handicap",
+        "Een wet die gelijke rechten geeft aan alle EU-burgers in Nederland",
+        "Een wet over gelijke behandeling in de gezondheidszorg"
+      ],
+      "correctIndex": 1,
+      "explanation": "De AWGB verbiedt ongerechtvaardigd onderscheid op gronden zoals godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht, nationaliteit, hetero- of homoseksuele gerichtheid en burgerlijke staat in onder andere werk en onderwijs.",
+      "explanationEn": "The Equal Treatment Act prohibits unjustified distinction on grounds such as religion, philosophy of life, political affiliation, race, gender, nationality, heterosexual or homosexual orientation, and marital status in, among other things, work and education."
+    },
+    {
+      "id": "knm-b1-2-q36",
+      "text": "Wat is het College voor de Rechten van de Mens?",
+      "options": [
+        "De hoogste mensenrechtenrechter van Nederland",
+        "Een onafhankelijk orgaan dat klachten over discriminatie onderzoekt, advies geeft en toetst of de wet wordt nageleefd",
+        "Een internationaal gerechtshof gevestigd in Den Haag",
+        "Een commissie van de Tweede Kamer over mensenrechten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het College voor de Rechten van de Mens onderzoekt klachten over discriminatie en oordeelt of de AWGB is overtreden. Het is onafhankelijk en geeft ook algemene adviezen over gelijkheid en mensenrechten. Het oordeel is niet juridisch bindend maar heeft gezag.",
+      "explanationEn": "The Netherlands Institute for Human Rights investigates complaints about discrimination and judges whether the AWGB has been violated. It is independent and also provides general advice on equality and human rights. The judgment is not legally binding but carries authority."
+    },
+    {
+      "id": "knm-b1-2-q37",
+      "text": "Wat zijn de drie takken van de staatsmacht in Nederland?",
+      "options": [
+        "De Koning, de Minister-President en de Raad van State",
+        "De wetgevende macht (parlement + Koning), de uitvoerende macht (kabinet) en de rechterlijke macht (rechtbanken)",
+        "De Tweede Kamer, de Eerste Kamer en de Hoge Raad",
+        "De overheid, de vakbonden en de werkgeversorganisaties"
+      ],
+      "correctIndex": 1,
+      "explanation": "De trias politica (scheiding der machten) kent drie machten: de wetgevende macht (Staten-Generaal + Koning die wetten ondertekent), de uitvoerende macht (kabinet dat wetten uitvoert) en de rechterlijke macht (onafhankelijke rechters).",
+      "explanationEn": "The trias politica (separation of powers) has three powers: the legislative power (States General + King who signs laws), the executive power (cabinet that implements laws), and the judicial power (independent judges)."
+    },
+    {
+      "id": "knm-b1-2-q38",
+      "text": "Hoe kan een Nederlandse burger een volksinitiatief starten?",
+      "options": [
+        "Via een volksinitiatief kan een burger direct een wet voorstellen aan het parlement",
+        "In Nederland bestaat geen formeel volksinitiatief; burgers kunnen wel petities aanbieden aan de Tweede Kamer bij meer dan 40.000 handtekeningen",
+        "Een volksinitiatief vereist 1 miljoen handtekeningen en leidt tot een referendum",
+        "Volksinitiatieven worden behandeld door de Raad van State"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland kent geen bindend volksinitiatief of referendum op nationaal niveau. Wel kunnen burgers een burgerinitiatief indienen bij de Tweede Kamer als ze meer dan 40.000 handtekeningen verzamelen. De Tweede Kamer is verplicht het onderwerp te bespreken.",
+      "explanationEn": "The Netherlands does not have a binding citizens' initiative or referendum at national level. However, citizens can submit a citizens' initiative to the House of Representatives if they collect more than 40,000 signatures. The House of Representatives is obliged to discuss the topic."
+    },
+    {
+      "id": "knm-b1-2-q39",
+      "text": "Wat is de Hoge Raad en wat is zijn rol in het Nederlandse rechtssysteem?",
+      "options": [
+        "De Hoge Raad is het eerste gerecht dat een zaak beoordeelt",
+        "De Hoge Raad is het hoogste rechtscollege voor civiele, straf- en belastingzaken en bewaakt de rechtseenheid",
+        "De Hoge Raad is verantwoordelijk voor grondwettelijkheidstoetsing van wetten",
+        "De Hoge Raad is hetzelfde als de Raad van State"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Hoge Raad der Nederlanden is het hoogste rechtscollege voor civiele zaken, strafzaken en belastingzaken. De Hoge Raad beoordeelt cassatieberoepen (geen feiten, maar rechtsvragen) en zorgt voor rechtseenheid in Nederland.",
+      "explanationEn": "The Supreme Court of the Netherlands is the highest court for civil, criminal, and tax cases. The Supreme Court hears cassation appeals (not facts, but legal questions) and ensures legal uniformity in the Netherlands."
+    },
+    {
+      "id": "knm-b1-2-q40",
+      "text": "Wat is de verzorgingsstaat en hoe is deze in Nederland georganiseerd?",
+      "options": [
+        "Een staat die alle burgers gratis huisvesting geeft",
+        "Een systeem waarbij de overheid sociale zekerheid, gezondheidszorg en onderwijs organiseert om alle burgers een basisniveau van welvaart te garanderen",
+        "Een staat die uitsluitend zorg biedt aan ouderen",
+        "Een privatiseringssysteem waarbij bedrijven sociale voorzieningen leveren"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Nederlandse verzorgingsstaat garandeert sociale zekerheid via uitkeringen (WW, bijstand, AOW), toegankelijke zorg via de zorgverzekering, en onderwijs. Het systeem is gefinancierd via belastingen en premies van werkenden.",
+      "explanationEn": "The Dutch welfare state guarantees social security through benefits (WW, social assistance, AOW), accessible care through health insurance, and education. The system is financed through taxes and contributions from working people."
+    },
+    {
+      "id": "knm-b1-2-q41",
+      "text": "Wat is duurzaamheid en waarom is het een belangrijk thema in Nederland?",
+      "options": [
+        "Duurzaamheid betekent dat producten lang meegaan",
+        "Duurzaamheid betekent voorzien in de behoeften van nu zonder de mogelijkheden van toekomstige generaties te beperken; Nederland heeft specifieke uitdagingen door laagligging en waterproblematiek",
+        "Duurzaamheid is alleen relevant voor de landbouwsector",
+        "Duurzaamheid verwijst naar financiële stabiliteit van de overheid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duurzaamheid (sustainable development) gaat over de balans tussen economie, milieu en sociaal welzijn. Nederland is kwetsbaar voor klimaatverandering vanwege de laagligging en afhankelijkheid van het waterbeheer, waardoor duurzaamheid een nationale prioriteit is.",
+      "explanationEn": "Sustainability is about the balance between economy, environment, and social welfare. The Netherlands is vulnerable to climate change due to its low-lying nature and dependence on water management, making sustainability a national priority."
+    },
+    {
+      "id": "knm-b1-2-q42",
+      "text": "Wat is de rol van gemeenten in de sociale zekerheid en zorg?",
+      "options": [
+        "Gemeenten hebben geen rol; dit is volledig nationaal geregeld",
+        "Gemeenten zijn verantwoordelijk voor bijstand (Participatiewet), jeugdhulp (Jeugdwet) en ondersteuning bij zelfstandig leven (Wmo)",
+        "Gemeenten regelen alleen de AOW voor ouderen in hun gemeente",
+        "Gemeenten verstrekken zorgverzekeringen aan inwoners"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gemeenten voeren drie grote wetten uit: de Participatiewet (bijstand en re-integratie), de Jeugdwet (hulp aan kinderen en gezinnen) en de Wmo (ondersteuning zelfstandig leven). Dit heet de decentralisatie die in 2015 werd doorgevoerd.",
+      "explanationEn": "Municipalities implement three major laws: the Participation Act (social assistance and reintegration), the Youth Act (help for children and families), and the Wmo (support for independent living). This is called the decentralization that was implemented in 2015."
+    },
+    {
+      "id": "knm-b1-2-q43",
+      "text": "Wat is het verschil tussen een bestuurlijke boete en een strafrechtelijke boete?",
+      "options": [
+        "Er is geen verschil; beide zijn hetzelfde",
+        "Een bestuurlijke boete wordt opgelegd door een overheidsinstantie (zoals gemeente of verkeersboete); een strafrechtelijke boete wordt opgelegd door een rechter voor strafbare feiten",
+        "Bestuurlijke boetes zijn altijd hoger dan strafrechtelijke boetes",
+        "Alleen bestuurlijke boetes zijn wettelijk verplicht te betalen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een bestuurlijke boete wordt direct opgelegd door een bestuursorgaan (gemeente, NVWA, RDW) voor overtredingen van regels. Een strafrechtelijke boete is een sanctie van de strafrechter voor strafbare feiten. Tegen een bestuurlijke boete kunt u bezwaar en beroep instellen.",
+      "explanationEn": "An administrative fine is imposed directly by a government body (municipality, NVWA, RDW) for violations of rules. A criminal fine is a sanction from a criminal judge for criminal offenses. You can object and appeal against an administrative fine."
+    },
+    {
+      "id": "knm-b1-2-q44",
+      "text": "Wat doet het Centraal Bureau voor de Statistiek (CBS)?",
+      "options": [
+        "Het CBS int belastingen namens de Belastingdienst",
+        "Het CBS verzamelt en publiceert statistieken over Nederland op gebieden als bevolking, economie, gezondheid en onderwijs",
+        "Het CBS is verantwoordelijk voor de volkstelling",
+        "Het CBS stelt de officiële bevolkingsprognoses vast voor de woningmarkt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het CBS is een onafhankelijke overheidsorganisatie die statistische informatie verzamelt, verwerkt en publiceert over de Nederlandse bevolking, economie, sociaal leven en meer. CBS-data wordt gebruikt door overheid, bedrijven en onderzoekers.",
+      "explanationEn": "The CBS is an independent government organization that collects, processes, and publishes statistical information about the Dutch population, economy, social life, and more. CBS data is used by governments, businesses, and researchers."
+    },
+    {
+      "id": "knm-b1-2-q45",
+      "text": "Wat zijn de verplichtingen van een werkgever bij het aannemen van een nieuwe werknemer?",
+      "options": [
+        "Alleen een mondeling akkoord is verplicht",
+        "De werkgever moet een schriftelijk contract opstellen, loonheffingen inhouden en afdragen, de werknemer aanmelden bij de Belastingdienst en voor verzekeringen zorgen",
+        "De werkgever hoeft niets wettelijk vast te leggen bij een tijdelijk contract",
+        "De werkgever regelt alleen het salaris; de werknemer regelt zelf zijn verzekeringen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij het aannemen van een nieuwe werknemer moet de werkgever een arbeidsovereenkomst opstellen, de werknemer opgeven bij de Belastingdienst, loonheffingen (loonbelasting en premies) inhouden en afdragen, en zorgen voor verzekeringen zoals WW en WIA.",
+      "explanationEn": "When hiring a new employee, the employer must draw up an employment contract, register the employee with the Tax and Customs Administration, withhold and remit payroll taxes (wage tax and contributions), and arrange insurances such as WW and WIA."
+    },
+    {
+      "id": "knm-b1-2-q46",
+      "text": "Wat is de functie van een rechter in het Nederlandse rechtssysteem?",
+      "options": [
+        "Een rechter is een ambtenaar die wetten schrijft",
+        "Een rechter is een onafhankelijke en onpartijdige persoon die rechtsgeschillen beslist op basis van wet en recht",
+        "Een rechter is een vertegenwoordiger van de overheid die het beleid uitvoert",
+        "Een rechter wordt gekozen door de bevolking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rechters zijn onafhankelijk en onpartijdig. Ze spreken recht op basis van wetten en jurisprudentie. In Nederland worden rechters benoemd door de Koning op voordracht en hebben zij geen politieke functie. Onafhankelijkheid van de rechterlijke macht is een grondprincipe van de rechtsstaat.",
+      "explanationEn": "Judges are independent and impartial. They administer justice based on laws and jurisprudence. In the Netherlands, judges are appointed by the King on recommendation and have no political role. Independence of the judiciary is a fundamental principle of the constitutional state."
+    },
+    {
+      "id": "knm-b1-2-q47",
+      "text": "Wat is de sociale werkplaats (SW-bedrijf) en voor wie is het bedoeld?",
+      "options": [
+        "Een gewoon bedrijf dat sociale media beheert",
+        "Een beschermde werkomgeving voor mensen met een arbeidsbeperking die niet op de reguliere arbeidsmarkt terecht kunnen",
+        "Een stageprogramma voor jongeren zonder werkervaring",
+        "Een overheidsinstantie die uitkeringen verstrekt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sociale werkplaatsen (SW-bedrijven) bieden beschutte werkgelegenheid aan mensen met een lichamelijke, verstandelijke of psychische beperking. Na de invoering van de Participatiewet in 2015 zijn nieuwe instroom in SW-plekken beperkt; beschut werk is nu een alternatief.",
+      "explanationEn": "Social workshops (SW companies) provide sheltered employment for people with a physical, intellectual, or psychological disability. After the introduction of the Participation Act in 2015, new intake in SW positions has been limited; sheltered work is now an alternative."
+    },
+    {
+      "id": "knm-b1-2-q48",
+      "text": "Wat is de rol van het Europees Parlement en hoe verhoudt het zich tot de Nederlandse Tweede Kamer?",
+      "options": [
+        "Het Europees Parlement is een adviesorgaan zonder wetgevende bevoegdheid",
+        "Het Europees Parlement is het rechtstreeks gekozen wetgevende orgaan van de EU; het werkt samen met de Raad van Ministers aan EU-wetgeving die boven nationale wetten staat",
+        "Het Europees Parlement vervangt nationale parlementen voor EU-lidstaten",
+        "Het Europees Parlement controleert alleen de Europese Commissie, niet de nationale regeringen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Europees Parlement wordt rechtstreeks gekozen door EU-burgers en heeft medewetgevende bevoegdheid met de Raad van de EU. EU-recht heeft voorrang boven nationaal recht. De Tweede Kamer is het nationaal parlement en gaat over Nederlandse wetgeving.",
+      "explanationEn": "The European Parliament is directly elected by EU citizens and has co-legislative authority with the Council of the EU. EU law takes precedence over national law. The House of Representatives is the national parliament and deals with Dutch legislation."
+    },
+    {
+      "id": "knm-b1-2-q49",
+      "text": "Wat is het doel van de toeslagenaffaire en wat leerde Nederland ervan?",
+      "options": [
+        "De toeslagenaffaire betreft fraude door toeslagen-ontvangers",
+        "De toeslagenaffaire betrof onterechte terugvorderingen van kinderopvangtoeslag van tienduizenden ouders; het leerde dat de overheid burgers niet als fraudeur mag behandelen zonder voldoende bewijs",
+        "De toeslagenaffaire is een boekhoudschandaal bij de Belastingdienst",
+        "De toeslagenaffaire betreft fouten in de zorgtoeslag"
+      ],
+      "correctIndex": 1,
+      "explanation": "In de toeslagenaffaire vorderde de Belastingdienst ten onrechte kinderopvangtoeslag terug van tienduizenden ouders, waardoor velen in ernstige financiële problemen kwamen. Het leidde tot het aftreden van het kabinet-Rutte III en fundamentele discussies over de rechtsstaat en overheidsgedrag.",
+      "explanationEn": "In the childcare benefits affair, the Tax and Customs Administration wrongly reclaimed childcare benefits from tens of thousands of parents, causing many serious financial problems. It led to the resignation of the Rutte III cabinet and fundamental discussions about the rule of law and government conduct."
+    },
+    {
+      "id": "knm-b1-2-q50",
+      "text": "Wat is mantelzorg en welke ondersteuning krijgen mantelzorgers in Nederland?",
+      "options": [
+        "Mantelzorg is professionele zorg die wordt vergoed door de zorgverzekering",
+        "Mantelzorg is onbetaalde hulp door naasten aan iemand die door ziekte of beperking niet zelfstandig kan leven; gemeenten bieden ondersteuning via de Wmo",
+        "Mantelzorg is een speciaal type thuiszorg via het pgb",
+        "Mantelzorg is een betaald beroep waarvoor een speciale opleiding nodig is"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mantelzorg is informele, onbetaalde zorg door familie, vrienden of buren voor iemand die dat nodig heeft. Mantelzorgers kunnen overbelast raken. Gemeenten bieden via de Wmo ondersteuning aan mantelzorgers, zoals respijtzorg en mantelzorgcompliment.",
+      "explanationEn": "Informal care is informal, unpaid care by family, friends, or neighbors for someone in need. Informal caregivers can become overburdened. Municipalities provide support to informal caregivers through the Wmo, such as respite care and informal care appreciation."
+    }
+  ]
+}

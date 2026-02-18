@@ -100,6 +100,21 @@ const VOICE_MAP: Record<string, string> = {
   "medewerker ns": "nl-NL-MaartenNeural",
   kind: "nl-NL-FennaNeural",
   kinderen: "nl-NL-FennaNeural",
+  // B1 exam speakers
+  directeur: "nl-NL-MaartenNeural",
+  hr: "nl-NL-ColetteNeural",
+  nieuwslezer: "nl-NL-MaartenNeural",
+  specialist: "nl-NL-MaartenNeural",
+  voorzitter: "nl-NL-MaartenNeural",
+  bewoner: "nl-NL-MaartenNeural",
+  interviewer: "nl-NL-ColetteNeural",
+  deelnemer: "nl-NL-FennaNeural",
+  duo_medewerker: "nl-NL-MaartenNeural",
+  docent: "nl-NL-ColetteNeural",
+  ouder: "nl-NL-FennaNeural",
+  presentator: "nl-NL-MaartenNeural",
+  gast1: "nl-NL-MaartenNeural",
+  gast2: "nl-NL-ColetteNeural",
 };
 
 // Pitch variations for male voice variety (only one male voice available)
@@ -128,6 +143,15 @@ const PITCH_MAP: Record<string, string> = {
   verhuurder: "0%",
   omroeper: "0%",
   "medewerker ns": "0%",
+
+  // B1 speakers
+  directeur: "-5%",
+  specialist: "-5%",
+  nieuwslezer: "-3%",
+  voorzitter: "-3%",
+  bewoner: "+2%",
+  presentator: "0%",
+  gast1: "+2%",
 
   // Casual/younger - slightly higher
   buurman: "+3%",
@@ -421,6 +445,7 @@ async function main(): Promise<void> {
     "a1-exam-1", "a1-exam-2", "a1-exam-3", "a1-exam-4",
     "a2-exam-1", "a2-exam-2", "a2-exam-3", "a2-exam-4",
     "a2-exam-5", "a2-exam-6", "a2-exam-7", "a2-exam-8",
+    "b1-exam-1", "b1-exam-2",
   ];
   const mockExamsDir = path.join(process.cwd(), "content", "mock-exams", "luisteren");
   const mockOutputDir = path.join(process.cwd(), "public", "audio", "luisteren", "mock");

@@ -1,0 +1,660 @@
+{
+  "id": "knm-b1-1",
+  "title": "KNM B1 - Oefenexamen 1",
+  "module": "knm",
+  "difficulty": "B1",
+  "questionCount": 50,
+  "recommendedTime": "40 min",
+  "questions": [
+    {
+      "id": "knm-b1-1-q1",
+      "text": "Als u meer dan drie maanden werkloos bent en u had een arbeidscontract, waar vraagt u dan een WW-uitkering aan?",
+      "options": [
+        "Bij de gemeente",
+        "Bij het UWV",
+        "Bij de Belastingdienst",
+        "Bij de werkgever"
+      ],
+      "correctIndex": 1,
+      "explanation": "De WW-uitkering (Werkloosheidswet) vraagt u aan bij het UWV (Uitvoeringsinstituut Werknemersverzekeringen).",
+      "explanationEn": "The WW benefit (Unemployment Insurance Act) is requested at the UWV (Employee Insurance Agency)."
+    },
+    {
+      "id": "knm-b1-1-q2",
+      "text": "Wat is de proeftijd in een arbeidscontract en wat zijn de regels?",
+      "options": [
+        "Een periode van maximaal 2 maanden waarin beide partijen het contract kunnen opzeggen zonder opzegtermijn",
+        "Een verplichte trainingsperiode van 3 maanden voor nieuwe werknemers",
+        "Een periode van 6 maanden voor tijdelijke contracten",
+        "De eerste maand van een vast contract waarin het loon lager is"
+      ],
+      "correctIndex": 0,
+      "explanation": "De proeftijd is maximaal 2 maanden (bij een contract van meer dan 6 maanden). Tijdens de proeftijd kunnen beide partijen het contract direct opzeggen zonder opzegtermijn.",
+      "explanationEn": "The probationary period is a maximum of 2 months (for contracts longer than 6 months). During this period, both parties can terminate the contract immediately without notice."
+    },
+    {
+      "id": "knm-b1-1-q3",
+      "text": "Hoe lang is de wettelijke opzegtermijn voor een werknemer met een contract van meer dan 5 jaar?",
+      "options": [
+        "1 week",
+        "1 maand",
+        "2 maanden",
+        "4 maanden"
+      ],
+      "correctIndex": 1,
+      "explanation": "De wettelijke opzegtermijn voor een werknemer is altijd 1 maand, ongeacht hoe lang het dienstverband duurt. De opzegtermijn voor de werkgever is langer naarmate het dienstverband langer is.",
+      "explanationEn": "The statutory notice period for an employee is always 1 month, regardless of how long the employment has lasted. The employer's notice period is longer the longer the employment relationship."
+    },
+    {
+      "id": "knm-b1-1-q4",
+      "text": "Wanneer heeft een werknemer recht op een transitievergoeding bij ontslag?",
+      "options": [
+        "Altijd, ook tijdens de proeftijd",
+        "Alleen bij ontslag wegens disfunctioneren",
+        "Vanaf de eerste dag van het dienstverband bij ontslag door de werkgever",
+        "Alleen na meer dan 2 jaar in dienst"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sinds 2020 heeft een werknemer recht op een transitievergoeding vanaf de eerste dag van het dienstverband als de werkgever het contract beëindigt. De vergoeding is 1/3 maandsalaris per jaar in dienst.",
+      "explanationEn": "Since 2020, an employee is entitled to a transition allowance from the first day of employment when the employer terminates the contract. The compensation is 1/3 monthly salary per year of service."
+    },
+    {
+      "id": "knm-b1-1-q5",
+      "text": "Wat regelt de cao (collectieve arbeidsovereenkomst)?",
+      "options": [
+        "Uitsluitend de werktijden en vakantiedagen",
+        "Arbeidsvoorwaarden afgesproken tussen werkgeversorganisaties en vakbonden voor een hele sector",
+        "Persoonlijke afspraken tussen werkgever en werknemer",
+        "Alleen het minimumloon per sector"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een cao is een overeenkomst tussen werkgeversorganisaties en vakbonden met afspraken over arbeidsvoorwaarden zoals loon, werktijden en vakantiedagen voor een hele sector of bedrijf.",
+      "explanationEn": "A collective labor agreement (cao) is an agreement between employer organizations and trade unions with agreements on working conditions such as wages, working hours, and vacation days for an entire sector or company."
+    },
+    {
+      "id": "knm-b1-1-q6",
+      "text": "Wat is de loondoorbetaling bij ziekte en hoe lang duurt deze?",
+      "options": [
+        "100% van het loon voor maximaal 6 maanden",
+        "70% van het loon (minimaal minimumloon) voor maximaal 2 jaar",
+        "50% van het loon voor maximaal 1 jaar",
+        "De werkgever hoeft niets te betalen; het UWV neemt het over"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij ziekte betaalt de werkgever minimaal 70% van het loon door, maar minimaal het wettelijk minimumloon. Dit duurt maximaal 2 jaar (104 weken).",
+      "explanationEn": "When sick, the employer pays at least 70% of the salary, but at least the statutory minimum wage. This lasts a maximum of 2 years (104 weeks)."
+    },
+    {
+      "id": "knm-b1-1-q7",
+      "text": "Wat doet de ondernemingsraad (OR) in een bedrijf?",
+      "options": [
+        "De OR beheert de financiën van het bedrijf",
+        "De OR vertegenwoordigt werknemers en heeft instemmings- en adviesrecht bij belangrijke bedrijfsbesluiten",
+        "De OR stelt de salarissen vast voor alle medewerkers",
+        "De OR is verantwoordelijk voor het aannemen van nieuw personeel"
+      ],
+      "correctIndex": 1,
+      "explanation": "De ondernemingsraad vertegenwoordigt werknemers en heeft bij bepaalde besluiten instemmingsrecht (de OR moet het ermee eens zijn) en bij andere besluiten adviesrecht (de OR mag advies geven).",
+      "explanationEn": "The works council represents employees and has the right of consent for certain decisions (the OR must agree) and advisory rights for other decisions (the OR may give advice)."
+    },
+    {
+      "id": "knm-b1-1-q8",
+      "text": "Wanneer is een werkgever verplicht een vast contract aan te bieden?",
+      "options": [
+        "Na 1 tijdelijk contract",
+        "Na 3 tijdelijke contracten in 3 jaar, of bij het 4e tijdelijke contract",
+        "Pas na 5 jaar tijdelijke contracten",
+        "Na 2 tijdelijke contracten van elk minimaal 6 maanden"
+      ],
+      "correctIndex": 1,
+      "explanation": "Door de ketenregeling heeft een werknemer recht op een vast contract na 3 opeenvolgende tijdelijke contracten in 3 jaar, of automatisch bij het 4e tijdelijke contract.",
+      "explanationEn": "Due to the chain rule, an employee is entitled to a permanent contract after 3 consecutive temporary contracts in 3 years, or automatically at the 4th temporary contract."
+    },
+    {
+      "id": "knm-b1-1-q9",
+      "text": "Wat is het verschil tussen een nul-urencontract en een min-maxcontract?",
+      "options": [
+        "Er is geen verschil; het zijn synoniemen",
+        "Bij een nul-urencontract zijn geen uren gegarandeerd; bij een min-maxcontract is een minimum aantal uren gegarandeerd",
+        "Bij een nul-urencontract werkt u altijd 40 uur; bij een min-maxcontract werkt u minder",
+        "Een min-maxcontract is alleen voor zelfstandigen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij een nul-urencontract garandeert de werkgever geen uren. Bij een min-maxcontract worden minimaal een X-aantal uren per week gegarandeerd en maximaal Y-uren gevraagd.",
+      "explanationEn": "With a zero-hours contract, the employer guarantees no hours. With a min-max contract, a minimum number of hours per week are guaranteed and a maximum number of hours can be requested."
+    },
+    {
+      "id": "knm-b1-1-q10",
+      "text": "Wat is de rol van de vakbond in Nederland?",
+      "options": [
+        "De vakbond int belasting voor de overheid",
+        "De vakbond behartigt de belangen van werknemers en onderhandelt over cao's met werkgevers",
+        "De vakbond is verantwoordelijk voor het uitkeren van werkloosheidsuitkeringen",
+        "De vakbond controleert of werkgevers zich aan de wet houden"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vakbonden behartigen de collectieve belangen van werknemers. Ze onderhandelen met werkgevers over cao's en kunnen staken als beschermingsmiddel.",
+      "explanationEn": "Trade unions represent the collective interests of workers. They negotiate collective labor agreements with employers and can strike as a means of protection."
+    },
+    {
+      "id": "knm-b1-1-q11",
+      "text": "Wat is het eigen risico in de Nederlandse zorgverzekering en hoe werkt het?",
+      "options": [
+        "Een jaarlijks bedrag dat u zelf moet betalen voordat de verzekering bijspringt, wettelijk vastgesteld op €385",
+        "Een maandelijkse bijdrage die de werkgever betaalt",
+        "Het bedrag dat u zelf bepaalt hoeveel zorg u wilt ontvangen",
+        "Een vergoeding die u terugkrijgt als u weinig zorg gebruikt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Het verplicht eigen risico is een jaarlijks bedrag (in 2024: €385) dat u eerst zelf moet betalen voor zorgkosten. Daarna vergoedt de verzekering de kosten. Huisartsbezoeken vallen niet onder het eigen risico.",
+      "explanationEn": "The mandatory deductible is an annual amount (in 2024: €385) that you must first pay yourself for healthcare costs. After that, the insurance reimburses the costs. GP visits are not subject to the deductible."
+    },
+    {
+      "id": "knm-b1-1-q12",
+      "text": "Wanneer kunt u naar een specialist gaan zonder verwijzing van de huisarts?",
+      "options": [
+        "Altijd, u hoeft nooit een verwijzing te hebben",
+        "Alleen voor oogarts en tandarts",
+        "Zelden; in de meeste gevallen heeft u een verwijzing van de huisarts nodig",
+        "Alleen in spoedeisende gevallen via de spoedeisende hulp"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Nederland werkt het zorgsysteem met een poortwachtersfunctie: u gaat eerst naar de huisarts, die u indien nodig verwijst naar een specialist. Zonder verwijzing vergoedt de zorgverzekering de specialistische zorg meestal niet.",
+      "explanationEn": "In the Netherlands, the healthcare system works with a gatekeeper function: you first go to the GP, who refers you to a specialist if necessary. Without a referral, health insurance usually does not reimburse specialist care."
+    },
+    {
+      "id": "knm-b1-1-q13",
+      "text": "Wat is een persoonsgebonden budget (pgb) en voor wie is het bedoeld?",
+      "options": [
+        "Een maandelijkse uitkering voor mensen met een laag inkomen",
+        "Een budget waarmee mensen met een zorgbehoefte zelf zorg kunnen inkopen",
+        "Een studietoelage voor studenten met een functiebeperking",
+        "Een belastingteruggave voor mensen met hoge zorgkosten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een pgb is een geldbedrag waarmee mensen met een lichamelijke, verstandelijke of psychische beperking zelf hun zorg en ondersteuning kunnen regelen en inkopen bij zorgverleners naar keuze.",
+      "explanationEn": "A personal budget (pgb) is a sum of money with which people with a physical, intellectual, or psychological disability can organize and purchase their own care and support from providers of their choice."
+    },
+    {
+      "id": "knm-b1-1-q14",
+      "text": "Wat doet de GGD (Gemeentelijke Gezondheidsdienst)?",
+      "options": [
+        "De GGD is een ziekenhuis voor spoedeisende hulp",
+        "De GGD is verantwoordelijk voor de openbare gezondheidszorg: infectieziektebestrijding, jeugdgezondheidszorg en gezondheidsbevordering",
+        "De GGD verstrekt medicijnen gratis aan mensen zonder verzekering",
+        "De GGD regelt de zorgverzekeringen voor mensen met schulden"
+      ],
+      "correctIndex": 1,
+      "explanation": "De GGD beschermt de volksgezondheid. Taken zijn onder andere: infectieziektebestrijding (zoals bij uitbraken), jeugdgezondheidszorg (consultatiebureau, schoolarts) en gezondheidsbevordering.",
+      "explanationEn": "The GGD protects public health. Tasks include: infectious disease control (such as during outbreaks), youth health care (child health clinic, school doctor), and health promotion."
+    },
+    {
+      "id": "knm-b1-1-q15",
+      "text": "Wat is het verschil tussen de basisverzekering en de aanvullende verzekering?",
+      "options": [
+        "Er is geen verschil; ze zijn wettelijk verplicht",
+        "De basisverzekering is wettelijk verplicht en dekt standaard zorg; de aanvullende verzekering is optioneel en dekt extra's zoals fysiotherapie of tandarts",
+        "De aanvullende verzekering is verplicht voor iedereen boven de 65",
+        "De basisverzekering is gratis; de aanvullende verzekering kost altijd €500 per jaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iedereen in Nederland is verplicht een basisverzekering te hebben. De aanvullende verzekering is vrijwillig en vergoedt zorg die niet onder de basisverzekering valt, zoals fysiotherapie, orthodontie of brillen.",
+      "explanationEn": "Everyone in the Netherlands is required to have basic insurance. The supplementary insurance is voluntary and covers care not covered by basic insurance, such as physiotherapy, orthodontics, or glasses."
+    },
+    {
+      "id": "knm-b1-1-q16",
+      "text": "Wat is de zorgtoeslag en wie komt er voor in aanmerking?",
+      "options": [
+        "Een vergoeding voor iedereen die in een zorginstelling werkt",
+        "Een bijdrage van de overheid in de premiekosten van de zorgverzekering voor mensen met een laag inkomen",
+        "Een toeslag voor mantelzorgers die thuis voor een zieke zorgen",
+        "Een gratis zorgverzekering voor bijstandsontvangers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zorgtoeslag is een financiële bijdrage van de overheid om de zorgverzekeringspremie betaalbaar te houden voor mensen met een laag of middeninkomen. U vraagt het aan bij de Belastingdienst Toeslagen.",
+      "explanationEn": "Healthcare allowance is a financial contribution from the government to keep health insurance premiums affordable for people with low or middle incomes. You apply for it at the Tax and Customs Administration Allowances."
+    },
+    {
+      "id": "knm-b1-1-q17",
+      "text": "Wat is de rol van het zorgkantoor in de Nederlandse zorg?",
+      "options": [
+        "Het zorgkantoor is een ziekenhuis voor complexe operaties",
+        "Het zorgkantoor voert de Wet langdurige zorg (Wlz) uit voor mensen die permanent intensieve zorg nodig hebben",
+        "Het zorgkantoor verkoopt aanvullende zorgverzekeringen",
+        "Het zorgkantoor is verantwoordelijk voor de spoedeisende hulp in de regio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het zorgkantoor voert de Wet langdurige zorg (Wlz) uit. Dit is bedoeld voor mensen die vanwege een ernstige beperking of chronische ziekte permanent intensieve zorg of toezicht nodig hebben, zoals in een verpleeghuis.",
+      "explanationEn": "The care office administers the Long-term Care Act (Wlz). This is intended for people who need permanent intensive care or supervision due to a serious disability or chronic illness, such as in a nursing home."
+    },
+    {
+      "id": "knm-b1-1-q18",
+      "text": "Wat houdt de Wet maatschappelijke ondersteuning (Wmo) in?",
+      "options": [
+        "Een uitkering voor mensen die niet kunnen werken",
+        "Gemeentelijke ondersteuning bij zelfstandig wonen: huishoudelijke hulp, dagbesteding, aanpassingen in huis",
+        "Gratis geestelijke gezondheidszorg voor iedereen",
+        "Een regeling voor thuiszorg die via de zorgverzekering loopt"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Wmo is een gemeentelijke wet die mensen ondersteunt bij zelfstandig wonen en meedoen in de samenleving. Denk aan: huishoudelijke hulp, dagbesteding, woningaanpassingen en begeleiding.",
+      "explanationEn": "The Wmo is a municipal law that supports people in living independently and participating in society. Think of: domestic help, day activities, home adaptations, and guidance."
+    },
+    {
+      "id": "knm-b1-1-q19",
+      "text": "Hoe vraagt u een verwijsbrief aan bij uw huisarts en wat zijn uw rechten hierbij?",
+      "options": [
+        "U heeft geen recht op een verwijsbrief; de huisarts beslist volledig",
+        "U kunt een verwijsbrief aanvragen; als de huisarts weigert, kunt u om een uitleg vragen en eventueel een tweede mening bij een andere huisarts",
+        "U moet de verwijsbrief altijd online aanvragen via MijnOverheid",
+        "Een verwijsbrief is gratis, maar u betaalt altijd de eerste afspraak bij de specialist zelf"
+      ],
+      "correctIndex": 1,
+      "explanation": "U kunt de huisarts om een verwijzing vragen. De huisarts beoordeelt of dit medisch noodzakelijk is. Als u het niet eens bent met de beslissing, heeft u recht op uitleg en kunt u een andere mening vragen.",
+      "explanationEn": "You can ask the GP for a referral. The GP assesses whether this is medically necessary. If you disagree with the decision, you have the right to an explanation and can seek another opinion."
+    },
+    {
+      "id": "knm-b1-1-q20",
+      "text": "Wat is het verschil tussen een huisarts en een specialist?",
+      "options": [
+        "Een specialist kost meer maar is altijd beter",
+        "De huisarts is de eerstelijns arts voor algemene klachten; een specialist is tweedelijns en behandelt specifieke aandoeningen op verwijzing",
+        "Een huisarts mag geen medicijnen voorschrijven; een specialist wel",
+        "Er is geen verschil; ze hebben dezelfde opleiding"
+      ],
+      "correctIndex": 1,
+      "explanation": "De huisarts is de poortwachter van de gezondheidszorg. Hij/zij behandelt de meeste klachten. Als specialistische kennis nodig is, verwijst de huisarts door naar een specialist in het ziekenhuis.",
+      "explanationEn": "The GP is the gatekeeper of healthcare. He/she treats most complaints. When specialist knowledge is needed, the GP refers to a specialist at the hospital."
+    },
+    {
+      "id": "knm-b1-1-q21",
+      "text": "Wat is het verschil tussen sociale huur en vrije sectorhuur?",
+      "options": [
+        "Sociale huur is altijd luxer dan vrije sectorhuur",
+        "Sociale huurwoningen hebben een huurprijs onder de liberalisatiegrens en zijn bedoeld voor mensen met lagere inkomens; vrije sector heeft geen maximale huurprijs",
+        "Vrije sectorhuur is gesubsidieerd door de gemeente",
+        "Er is geen verschil; beide zijn gelimiteerd door dezelfde huurprijsregels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sociale huurwoningen hebben een maximale huurprijs (liberalisatiegrens, ca. €879 in 2024) en worden verdeeld via woningcorporaties op basis van inkomen en wachttijd. Vrije sectorhuur heeft geen maximale prijs.",
+      "explanationEn": "Social rental housing has a maximum rental price (liberalization limit, approx. €879 in 2024) and is distributed through housing associations based on income and waiting time. Private sector rent has no maximum price."
+    },
+    {
+      "id": "knm-b1-1-q22",
+      "text": "Hoe vraagt u huurtoeslag aan en aan welke voorwaarden moet u voldoen?",
+      "options": [
+        "Via de gemeente; u moet jonger dan 65 zijn",
+        "Via de Belastingdienst Toeslagen; u moet een huurwoning hebben, een inkomen onder de grens en een huurprijs binnen de toeslag grenzen",
+        "Via uw woningcorporatie; alleen voor sociale huurders",
+        "Via het UWV; u moet werkzoekend zijn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Huurtoeslag vraagt u aan via de website van de Belastingdienst Toeslagen. Voorwaarden: u huurt een woning, uw huur is niet te hoog, uw inkomen en vermogen zijn binnen de grenzen, en u bent 18 jaar of ouder.",
+      "explanationEn": "You apply for housing benefit via the Tax and Customs Administration Allowances website. Conditions: you rent a property, your rent is not too high, your income and assets are within the limits, and you are 18 years or older."
+    },
+    {
+      "id": "knm-b1-1-q23",
+      "text": "Hoe lang kan de wachttijd voor een sociale huurwoning zijn in grote steden?",
+      "options": [
+        "Maximaal 6 maanden, wettelijk geregeld",
+        "Gemiddeld 1 tot 2 jaar",
+        "In steden als Amsterdam en Utrecht kan de wachttijd 10 tot 15 jaar of langer zijn",
+        "Er is geen wachttijd; iedereen met laag inkomen krijgt direct een woning"
+      ],
+      "correctIndex": 2,
+      "explanation": "In grote steden zoals Amsterdam en Utrecht kan de wachttijd voor sociale huurwoningen oplopen tot 10-15 jaar of meer vanwege grote vraag en beperkt aanbod. Inschrijven zo snel mogelijk is belangrijk.",
+      "explanationEn": "In major cities like Amsterdam and Utrecht, the waiting time for social rental housing can be 10-15 years or more due to high demand and limited supply. Registering as soon as possible is important."
+    },
+    {
+      "id": "knm-b1-1-q24",
+      "text": "Wanneer mag een verhuurder de huur verhogen en met hoeveel?",
+      "options": [
+        "Wanneer de verhuurder wil, zonder beperkingen",
+        "Maximaal één keer per jaar, met een wettelijk bepaald maximumpercentage",
+        "Alleen bij renovatie van de woning",
+        "Alleen als de huurder meer verdient dan het jaar daarvoor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verhuurders mogen de huur maximaal één keer per jaar verhogen. Voor sociale huur stelt de overheid een maximumpercentage vast. Voor vrije sector gelden andere regels maar ook beperkingen.",
+      "explanationEn": "Landlords may raise the rent a maximum of once a year. For social rental housing, the government sets a maximum percentage. Different rules and also restrictions apply to the private sector."
+    },
+    {
+      "id": "knm-b1-1-q25",
+      "text": "Wat zijn servicekosten in een huurwoning en wat mag de verhuurder daarvoor vragen?",
+      "options": [
+        "Servicekosten zijn extra kosten bovenop de huur, die de verhuurder vrijelijk mag bepalen",
+        "Servicekosten zijn kosten voor diensten zoals schoonmaak trappenhuis of tuinonderhoud; de verhuurder mag alleen werkelijke kosten doorberekenen",
+        "Servicekosten zijn wettelijk verboden en de verhuurder mag ze niet in rekening brengen",
+        "Servicekosten zijn een vergoeding voor de makelaar bij het afsluiten van het huurcontract"
+      ],
+      "correctIndex": 1,
+      "explanation": "Servicekosten zijn vergoedingen voor diensten die de verhuurder levert, zoals schoonmaak gemeenschappelijke ruimtes, tuinonderhoud of een intercominstallatie. De verhuurder mag alleen de werkelijke kosten in rekening brengen.",
+      "explanationEn": "Service charges are fees for services provided by the landlord, such as cleaning common areas, garden maintenance, or an intercom system. The landlord may only charge actual costs."
+    },
+    {
+      "id": "knm-b1-1-q26",
+      "text": "Hoe kunt u bezwaar maken tegen een huurverhoging die u onterecht vindt?",
+      "options": [
+        "Dat kunt u niet; de verhuurder heeft altijd gelijk",
+        "U kunt bezwaar maken bij de Huurcommissie, die de huurprijs onafhankelijk beoordeelt",
+        "U moet naar de rechter; de Huurcommissie bestaat niet meer",
+        "U stuurt een bezwaarbrief naar de gemeente en zij regelen het"
+      ],
+      "correctIndex": 1,
+      "explanation": "Als u het niet eens bent met een huurverhoging, kunt u bezwaar maken bij de Huurcommissie. Dit is een onafhankelijke organisatie die geschillen tussen huurder en verhuurder beslist.",
+      "explanationEn": "If you disagree with a rent increase, you can object to the Huurcommissie (Rent Tribunal). This is an independent organization that decides disputes between tenant and landlord."
+    },
+    {
+      "id": "knm-b1-1-q27",
+      "text": "Wat is de taak van een woningcorporatie?",
+      "options": [
+        "Luxe appartementen bouwen voor mensen met hoge inkomens",
+        "Betaalbare huurwoningen aanbieden aan mensen met lagere inkomens en maatschappelijke taken uitvoeren",
+        "Hypotheken verstrekken aan kopers van een eerste woning",
+        "Belasting innen voor de gemeente op huurwoningen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Woningcorporaties zijn sociale verhuurorganisaties die zich richten op het aanbieden van betaalbare woningen aan mensen met lagere inkomens. Ze zijn verplicht minimaal 80% van hun woningen toe te wijzen aan mensen met een inkomen tot de grens.",
+      "explanationEn": "Housing associations are social rental organizations focused on providing affordable housing to people with lower incomes. They are required to assign at least 80% of their homes to people with an income up to the limit."
+    },
+    {
+      "id": "knm-b1-1-q28",
+      "text": "Wat is de opzegtermijn voor een huurder bij een onbepaalde termijn huurcontract?",
+      "options": [
+        "1 week",
+        "1 maand",
+        "3 maanden",
+        "6 maanden"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een huurder kan een huurcontract voor onbepaalde tijd opzeggen met een opzegtermijn van 1 maand. De verhuurder heeft een langere opzegtermijn en kan alleen opzeggen op wettelijk bepaalde gronden.",
+      "explanationEn": "A tenant can terminate an indefinite rental contract with a notice period of 1 month. The landlord has a longer notice period and can only terminate on statutory grounds."
+    },
+    {
+      "id": "knm-b1-1-q29",
+      "text": "Wat zijn de rechten van een huurder als de verhuurder de woning niet goed onderhoudt?",
+      "options": [
+        "De huurder moet alles zelf repareren en daarna de rekening sturen",
+        "De huurder kan de verhuurder schriftelijk sommeren, huurverlaging aanvragen bij de Huurcommissie, of in ernstige gevallen zelf reparaties laten uitvoeren op kosten van de verhuurder",
+        "De huurder heeft geen rechten; de verhuurder bepaalt zelf wat hij repareert",
+        "De huurder moet direct de huur stopzetten om druk uit te oefenen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Als de verhuurder achterstallig onderhoud niet aanpakt, kan de huurder schriftelijk sommeren, een klacht indienen bij de Huurcommissie of gemeente, huurverlaging aanvragen, of in uiterste gevallen zelf laten repareren en kosten verrekenen.",
+      "explanationEn": "If the landlord does not address deferred maintenance, the tenant can issue a written demand, file a complaint with the Huurcommissie or municipality, apply for rent reduction, or in extreme cases have repairs done themselves and offset costs."
+    },
+    {
+      "id": "knm-b1-1-q30",
+      "text": "Wat is het verschil tussen een eenpersoonshuishouden en een meerpersoons huishouden voor toeslagen?",
+      "options": [
+        "Er is geen verschil; toeslagen zijn voor iedereen gelijk",
+        "De hoogte van toeslagen zoals huurtoeslag en zorgtoeslag verschilt op basis van gezinsgrootte en gezamenlijk inkomen",
+        "Alleen eenpersoonshuishoudens hebben recht op huurtoeslag",
+        "Meerpersoons huishoudens krijgen altijd meer toeslag, ongeacht inkomen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toeslagen zoals huurtoeslag en zorgtoeslag worden berekend op basis van uw persoonlijke situatie, inclusief gezinsgrootte en het totale inkomen van alle huisgenoten. Bij een meerpersoons huishouden tellen alle inkomens mee.",
+      "explanationEn": "Allowances such as housing benefit and healthcare allowance are calculated based on your personal situation, including family size and the total income of all household members. In a multi-person household, all incomes count."
+    },
+    {
+      "id": "knm-b1-1-q31",
+      "text": "Hoeveel leden telt de Tweede Kamer in Nederland en hoe lang is een zittingsperiode?",
+      "options": [
+        "100 leden voor 4 jaar",
+        "150 leden voor 4 jaar",
+        "75 leden voor 5 jaar",
+        "200 leden voor 4 jaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Tweede Kamer bestaat uit 150 leden (volksvertegenwoordigers) die via evenredige vertegenwoordiging worden gekozen voor een periode van 4 jaar. Bij een kabinetscrisis kunnen er tussentijdse verkiezingen zijn.",
+      "explanationEn": "The House of Representatives consists of 150 members (representatives) who are elected by proportional representation for a period of 4 years. During a cabinet crisis, there may be early elections."
+    },
+    {
+      "id": "knm-b1-1-q32",
+      "text": "Wat is het verschil tussen de Eerste Kamer en de Tweede Kamer?",
+      "options": [
+        "De Eerste Kamer maakt wetten; de Tweede Kamer controleert ze",
+        "De Tweede Kamer initieert en debatteert over wetten; de Eerste Kamer toetst wetten op uitvoerbaarheid en rechtmatigheid maar kan ze niet amenderen",
+        "Ze zijn volledig gelijk in bevoegdheden",
+        "De Eerste Kamer wordt direct gekozen; de Tweede Kamer indirect"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Tweede Kamer is het primaire wetgevende orgaan: ze initieert debatten en kan wetten aanpassen. De Eerste Kamer (senaat) toetst wetten maar kan ze alleen accepteren of verwerpen, niet zelf wijzigen.",
+      "explanationEn": "The House of Representatives is the primary legislative body: it initiates debates and can amend laws. The Senate checks laws but can only accept or reject them, not amend them itself."
+    },
+    {
+      "id": "knm-b1-1-q33",
+      "text": "Wat is een coalitieakkoord en welke rol speelt het in de Nederlandse politiek?",
+      "options": [
+        "Een akkoord waarbij alle partijen in het parlement samenwerken",
+        "Een schriftelijke overeenkomst tussen de partijen die samen een kabinet vormen, met de plannen voor de regeringsperiode",
+        "Een verdrag tussen Nederland en de Europese Unie",
+        "Een intern document van een politieke partij over haar standpunten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na de formatie sluiten de coalitiepartijen een coalitieakkoord, ook wel regeerakkoord. Dit beschrijft de plannen en compromissen voor de komende regeringsperiode (4 jaar).",
+      "explanationEn": "After the formation, the coalition parties conclude a coalition agreement. This describes the plans and compromises for the coming governing period (4 years)."
+    },
+    {
+      "id": "knm-b1-1-q34",
+      "text": "Wat doet een wethouder in een gemeente?",
+      "options": [
+        "De wethouder is de voorzitter van de gemeenteraad",
+        "De wethouder is een lid van het college van B&W en is verantwoordelijk voor een of meer beleidsterreinen",
+        "De wethouder is de ambtenaar die bouwvergunningen afgeeft",
+        "De wethouder is de juridische adviseur van de burgemeester"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wethouders zijn leden van het college van burgemeester en wethouders (B&W). Ze zijn verantwoordelijk voor specifieke beleidsterreinen zoals onderwijs, wonen of openbare ruimte en worden benoemd door de gemeenteraad.",
+      "explanationEn": "Aldermen are members of the college of mayor and aldermen (B&W). They are responsible for specific policy areas such as education, housing, or public space, and are appointed by the municipal council."
+    },
+    {
+      "id": "knm-b1-1-q35",
+      "text": "Hoe wordt een staatssecretaris benoemd en wat is zijn/haar rol?",
+      "options": [
+        "Via directe verkiezingen, net als Tweede Kamerleden",
+        "Door de Koning/Koningin op voordracht van de Minister-President; een staatssecretaris ondersteunt een minister op een deelterrein",
+        "Door de Tweede Kamer na een sollicitatieprocedure",
+        "Een staatssecretaris is een gekozen lid van de Eerste Kamer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Staatssecretarissen worden benoemd door de Koning op voordracht van de Minister-President. Ze ondersteunen een minister op een specifiek beleidsterrein en nemen deel aan het kabinet maar hebben geen stemrecht in de ministerraad.",
+      "explanationEn": "State secretaries are appointed by the King on the recommendation of the Prime Minister. They support a minister in a specific policy area and participate in the cabinet but do not have voting rights in the Council of Ministers."
+    },
+    {
+      "id": "knm-b1-1-q36",
+      "text": "Wat is de rol van Provinciale Staten?",
+      "options": [
+        "Provinciale Staten zijn een adviesorgaan van de Tweede Kamer",
+        "Provinciale Staten zijn het gekozen bestuur van een provincie en stellen het provinciale beleid en budget vast",
+        "Provinciale Staten controleren de gemeenteraden",
+        "Provinciale Staten zijn verantwoordelijk voor de belastingen in de provincie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Provinciale Staten zijn het volksvertegenwoordigend orgaan van de provincie. Ze stellen het beleid en de begroting van de provincie vast en controleren het dagelijks bestuur (Gedeputeerde Staten).",
+      "explanationEn": "Provincial States are the representative body of the province. They determine the policy and budget of the province and supervise the daily administration (Executive Council)."
+    },
+    {
+      "id": "knm-b1-1-q37",
+      "text": "Wat is de informateur en wat doet hij/zij na de Tweede Kamerverkiezingen?",
+      "options": [
+        "De informateur is een journalist die over de formatie rapporteert",
+        "De informateur onderzoekt welke partijen bereid zijn samen een kabinet te vormen en brengt verslag uit aan de Tweede Kamer",
+        "De informateur stelt direct het coalitieakkoord op",
+        "De informateur benoemt de nieuwe ministers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na verkiezingen wordt een informateur aangesteld om te onderzoeken welke partijen bereid zijn samen te regeren. De informateur voert gesprekken en brengt verslag uit. Daarna kan een formateur worden aangesteld om het kabinet te vormen.",
+      "explanationEn": "After elections, an informateur is appointed to investigate which parties are willing to govern together. The informateur conducts talks and reports back. Then a formateur may be appointed to form the cabinet."
+    },
+    {
+      "id": "knm-b1-1-q38",
+      "text": "Welk principe ligt ten grondslag aan het Nederlandse kiesstelsel?",
+      "options": [
+        "Meerderheidsstelsel: de partij met de meeste stemmen wint alle zetels",
+        "Evenredige vertegenwoordiging: zetels worden verdeeld naar rato van het stempercentage",
+        "Districtenstelsel: elke regio kiest één vertegenwoordiger",
+        "Tweepartijenstelsel: alleen de twee grootste partijen doen mee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft een stelsel van evenredige vertegenwoordiging. Als een partij 10% van de stemmen krijgt, krijgt ze ook ongeveer 10% van de 150 zetels in de Tweede Kamer. Hierdoor zijn er veel partijen vertegenwoordigd.",
+      "explanationEn": "The Netherlands has a system of proportional representation. If a party gets 10% of the votes, it also gets about 10% of the 150 seats in the House of Representatives. This means many parties are represented."
+    },
+    {
+      "id": "knm-b1-1-q39",
+      "text": "Wat is de motie van wantrouwen in het Nederlandse parlementaire stelsel?",
+      "options": [
+        "Een aanklacht door de Eerste Kamer tegen een minister",
+        "Een formele stemming in de Tweede Kamer waarbij wordt uitgesproken dat het parlement geen vertrouwen meer heeft in een minister of het gehele kabinet",
+        "Een klacht van een burger bij de Nationale Ombudsman",
+        "Een bezwaar van de koning tegen een wet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een motie van wantrouwen is een formeel instrument van de Tweede Kamer. Als een meerderheid voor stemt, moet de betrokken minister of het gehele kabinet aftreden. Dit is een cruciaal onderdeel van de parlementaire democratie.",
+      "explanationEn": "A motion of no confidence is a formal instrument of the House of Representatives. If a majority votes in favor, the minister concerned or the entire cabinet must resign. This is a crucial part of parliamentary democracy."
+    },
+    {
+      "id": "knm-b1-1-q40",
+      "text": "Wat is het verschil tussen formeel en informeel onderwijs in Nederland?",
+      "options": [
+        "Formeel onderwijs is gratis; informeel onderwijs kost altijd geld",
+        "Formeel onderwijs leidt tot erkende diploma's via geregistreerde onderwijsinstellingen; informeel onderwijs is niet-gecertificeerd leren",
+        "Formeel onderwijs is alleen voor kinderen; informeel voor volwassenen",
+        "Er is geen wettelijk verschil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Formeel onderwijs vindt plaats via geregistreerde instellingen (scholen, mbo, hbo, universiteiten) en leidt tot erkende diploma's. Informeel onderwijs omvat cursussen, workshops en zelfstudie zonder officieel certificaat.",
+      "explanationEn": "Formal education takes place through registered institutions (schools, vocational colleges, universities of applied sciences, universities) and leads to recognized diplomas. Informal education includes courses, workshops, and self-study without official certification."
+    },
+    {
+      "id": "knm-b1-1-q41",
+      "text": "Wat is de belastingaangifte en wanneer moet u die indienen?",
+      "options": [
+        "Een jaarlijks overzicht van uw inkomsten dat u opstuurt naar de gemeente vóór 1 maart",
+        "Een jaarlijkse opgave van uw inkomsten en aftrekposten die u indient bij de Belastingdienst, doorgaans vóór 1 mei",
+        "Een maandelijkse betaling die uw werkgever automatisch regelt",
+        "Een eenmalige opgave die u alleen doet als u van baan verandert"
+      ],
+      "correctIndex": 1,
+      "explanation": "De belastingaangifte is een jaarlijkse opgave aan de Belastingdienst over uw inkomsten, vermogen en aftrekposten van het afgelopen jaar. De deadline is doorgaans 1 mei. U kunt dit doen via de website van de Belastingdienst of de app.",
+      "explanationEn": "The tax return is an annual statement to the Tax and Customs Administration about your income, assets, and deductions for the past year. The deadline is usually May 1. You can do this via the Tax and Customs Administration website or app."
+    },
+    {
+      "id": "knm-b1-1-q42",
+      "text": "Waarvoor heeft u DigiD nodig en hoe vraagt u het aan?",
+      "options": [
+        "Alleen voor het bekijken van uw medisch dossier bij de huisarts",
+        "Voor het inloggen bij de meeste overheidsdiensten online, zoals Belastingdienst en MijnOverheid; aanvragen via digid.nl",
+        "Uitsluitend voor het aanvragen van paspoort of rijbewijs",
+        "DigiD is verplicht voor alle online bankzaken"
+      ],
+      "correctIndex": 1,
+      "explanation": "DigiD is uw digitale identiteit voor overheidsdiensten. U heeft het nodig voor belastingaangifte, toeslagen aanvragen, zorgverzekering, gemeente en UWV. U vraagt het aan via digid.nl met uw BSN-nummer.",
+      "explanationEn": "DigiD is your digital identity for government services. You need it for tax returns, applying for allowances, health insurance, municipality, and UWV. You apply for it at digid.nl with your BSN number."
+    },
+    {
+      "id": "knm-b1-1-q43",
+      "text": "Wat is de DUO-inburgeringslening en wie kan deze aanvragen?",
+      "options": [
+        "Een gratis subsidie voor alle nieuwkomers in Nederland",
+        "Een lening van DUO voor inburgeraars om de kosten van taalcursus en examens te betalen; terug te betalen als het examen is gehaald",
+        "Een beurs voor studenten aan een Nederlandse universiteit",
+        "Een lening van de gemeente voor het kopen van een eerste woning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inburgeraars die zelf hun inburgering moeten betalen, kunnen een lening aanvragen bij DUO. Na het succesvol afronden van het inburgeringsexamen wordt (een deel van) de lening kwijtgescholden.",
+      "explanationEn": "Inburgeraars who have to pay for their own integration can apply for a loan from DUO. After successfully completing the integration exam, (part of) the loan is remitted."
+    },
+    {
+      "id": "knm-b1-1-q44",
+      "text": "Wat is het verschil tussen kinderopvangtoeslag en kinderbijslag?",
+      "options": [
+        "Het zijn synoniemen voor dezelfde toeslag",
+        "Kinderopvangtoeslag vergoedt een deel van de kinderopvangkosten; kinderbijslag is een vaste bijdrage per kind voor algemene kosten",
+        "Kinderbijslag is alleen voor alleenstaande ouders",
+        "Kinderopvangtoeslag is voor kinderen tot 4 jaar; kinderbijslag voor kinderen van 4-18 jaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kinderopvangtoeslag is een bijdrage van de overheid in de kosten van kinderopvang (dagopvang, BSO) voor werkende ouders. Kinderbijslag is een vaste bedrag per kwartaal per kind voor alle ouders met kinderen tot 18 jaar.",
+      "explanationEn": "Childcare allowance is a government contribution to childcare costs (day care, after-school care) for working parents. Child benefit is a fixed amount per quarter per child for all parents with children up to 18 years."
+    },
+    {
+      "id": "knm-b1-1-q45",
+      "text": "Wat is de AOW en wanneer heeft u er recht op?",
+      "options": [
+        "Een aanvullend pensioen dat u via uw werkgever opbouwt",
+        "De Algemene Ouderdomswet: een staatspensioen dat u ontvangt als u de AOW-leeftijd bereikt, momenteel 67 jaar",
+        "Een uitkering voor mensen die arbeidsongeschikt zijn",
+        "Een spaarpot die de overheid beheert totdat u 65 wordt"
+      ],
+      "correctIndex": 1,
+      "explanation": "De AOW is het basispensioen van de overheid. U ontvangt het als u de AOW-leeftijd bereikt (in 2024: 67 jaar). De hoogte hangt af van hoeveel jaren u in Nederland heeft gewoond of gewerkt (50 jaar = volledig AOW).",
+      "explanationEn": "The AOW is the government's basic pension. You receive it when you reach the AOW age (in 2024: 67 years). The amount depends on how many years you have lived or worked in the Netherlands (50 years = full AOW)."
+    },
+    {
+      "id": "knm-b1-1-q46",
+      "text": "Wat is de bijstandsuitkering en aan welke voorwaarden moet u voldoen?",
+      "options": [
+        "Een uitkering voor iedereen zonder werk, zonder voorwaarden",
+        "Een uitkering als sociaal vangnet voor mensen zonder inkomen en zonder recht op andere uitkeringen; u moet beschikbaar zijn voor werk en actief solliciteren",
+        "Een subsidie voor studenten met een laag inkomen",
+        "Een tijdelijke vergoeding die werkgevers betalen als zij u ontslaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bijstand (Participatiewet) is het laatste vangnet. U heeft er recht op als u geen inkomen heeft en geen recht op andere uitkeringen. U moet beschikbaar zijn voor de arbeidsmarkt en meewerken aan re-integratie. De gemeente voert de bijstand uit.",
+      "explanationEn": "Social assistance (Participation Act) is the last safety net. You are entitled to it if you have no income and no right to other benefits. You must be available for the labor market and cooperate with reintegration. The municipality administers social assistance."
+    },
+    {
+      "id": "knm-b1-1-q47",
+      "text": "Hoe werkt het Nederlandse belastingstelsel met box 1, box 2 en box 3?",
+      "options": [
+        "Box 1 is voor eigen woningbezitters, box 2 voor huurders, box 3 voor gepensioneerden",
+        "Box 1 belast inkomen uit werk en woning; box 2 belast inkomen uit aanmerkelijk belang (aandelen); box 3 belast inkomen uit vermogen en spaargeld",
+        "De boxen zijn postgebieden voor belastingformulieren",
+        "Box 1 is het laagste tarief, box 3 het hoogste"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Nederlandse belastingstelsel heeft drie boxen: Box 1 (inkomen uit werk en woning, progressief tarief), Box 2 (aanmerkelijk belang: winst uit eigen bedrijf of >5% aandelen), Box 3 (vermogen zoals spaargeld en beleggingen).",
+      "explanationEn": "The Dutch tax system has three boxes: Box 1 (income from work and home, progressive rate), Box 2 (substantial interest: profit from own business or >5% shares), Box 3 (assets such as savings and investments)."
+    },
+    {
+      "id": "knm-b1-1-q48",
+      "text": "Wat is de zorgtoeslag en hoe verschilt deze van de zorgverzekering?",
+      "options": [
+        "Ze zijn hetzelfde; zorgtoeslag is een andere naam voor de zorgverzekering",
+        "De zorgverzekering is de verzekering zelf (u betaalt maandelijks premie); de zorgtoeslag is een overheidssubsidie die de premiekosten verlaagt voor mensen met een lager inkomen",
+        "Zorgtoeslag vervangt de zorgverzekering voor mensen met een laag inkomen",
+        "De zorgtoeslag is een aanvulling op de eigen risicokosten"
+      ],
+      "correctIndex": 1,
+      "explanation": "De zorgverzekering is verplicht voor iedereen en u betaalt er maandelijks premie voor. De zorgtoeslag is een financiële bijdrage van de overheid die u helpt de premie te betalen als u een lager inkomen heeft. U vraagt de toeslag aan bij de Belastingdienst.",
+      "explanationEn": "Health insurance is mandatory for everyone and you pay a monthly premium for it. The healthcare allowance is a financial contribution from the government that helps you pay the premium if you have a lower income. You apply for the allowance at the Tax and Customs Administration."
+    },
+    {
+      "id": "knm-b1-1-q49",
+      "text": "Wat is MijnOverheid en waarvoor gebruikt u het?",
+      "options": [
+        "Een sociale media platform van de Nederlandse overheid",
+        "Een persoonlijk online portaal waar u berichten van overheidsinstanties ontvangt en uw gegevens kunt inzien",
+        "Een platform voor het aanvragen van alle toeslagen",
+        "Een app voor het betalen van gemeentelijke belastingen"
+      ],
+      "correctIndex": 1,
+      "explanation": "MijnOverheid is een persoonlijk digitaal portaal van de overheid. U ontvangt er officiële berichten van instanties als Belastingdienst, RDW en gemeente. U logt in met DigiD. Het heeft ook een berichtenbox ter vervanging van papieren post.",
+      "explanationEn": "MijnOverheid is a personal digital portal of the government. You receive official messages from agencies such as the Tax and Customs Administration, RDW, and municipality. You log in with DigiD. It also has a message box to replace paper mail."
+    },
+    {
+      "id": "knm-b1-1-q50",
+      "text": "Wat is het BSN-nummer en wanneer heeft u het nodig?",
+      "options": [
+        "Een nummer dat alleen nodig is voor het aanvragen van een paspoort",
+        "Het Burgerservicenummer: een uniek persoonsnummer dat u nodig heeft bij contact met de overheid, zorg, werk en belasting",
+        "Een bankrekeningnummer verstrekt door de Belastingdienst",
+        "Een nummer dat alleen asielzoekers ontvangen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het BSN (Burgerservicenummer) is een uniek identificatienummer. U heeft het nodig bij: inschrijving gemeente, zorgverzekering afsluiten, werken, bankrekening openen, belastingaangifte en contact met bijna alle overheidsinstanties.",
+      "explanationEn": "The BSN (Citizen Service Number) is a unique identification number. You need it for: registering with the municipality, taking out health insurance, working, opening a bank account, filing tax returns, and contact with almost all government agencies."
+    }
+  ]
+}

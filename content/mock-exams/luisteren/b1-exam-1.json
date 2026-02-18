@@ -1,0 +1,350 @@
+{
+  "id": "luisteren-b1-1",
+  "title": "Luisteren B1 - Oefenexamen 1",
+  "module": "luisteren",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "60 min",
+  "transcripts": [
+    {
+      "id": "l-b1-1-t1",
+      "title": "Vergadering over reorganisatie",
+      "transcript": "Directeur: Goedemiddag iedereen. Dank dat u allemaal aanwezig kunt zijn. Ik wil u vandaag informeren over de plannen voor de reorganisatie van onze afdeling. Zoals u waarschijnlijk al heeft gehoord, gaan we de komende maanden een aantal structurele veranderingen doorvoeren.\nMedewerker: Kunt u ons vertellen welke functies precies worden geraakt? Er is veel onrust op de werkvloer.\nDirecteur: Dat begrijp ik goed. Ik zal zo duidelijk mogelijk zijn. Vijf functies binnen de administratie vervallen. Dit is helaas onontkoombaar vanwege de bezuinigingen. Tegelijkertijd creëren we drie nieuwe functies op het gebied van digitale dienstverlening.\nHR: Voor de mensen van wie de functie vervalt, starten we direct een begeleidingstraject. Het UWV en een re-integratiebureau zijn al benaderd. Niemand wordt zomaar ontslagen; we zoeken eerst naar herplaatsing binnen de organisatie.\nMedewerker: Wanneer weten de betrokken medewerkers waar ze aan toe zijn?\nDirecteur: We streven ernaar iedereen uiterlijk volgende maand persoonlijk te informeren. Tot die tijd vragen we u om geen geruchten te verspreiden. Alle communicatie loopt via HR.\nHR: En natuurlijk kunt u altijd bij mij terecht voor vragen. Mijn deur staat letterlijk open.",
+      "questions": [
+        {
+          "id": "l-b1-1-q1",
+          "text": "Wat is het onderwerp van de vergadering?",
+          "options": [
+            "Een fusie met een ander bedrijf",
+            "Plannen voor de reorganisatie van de afdeling",
+            "De introductie van nieuwe software",
+            "De jaarlijkse beoordelingsgesprekken"
+          ],
+          "correctIndex": 1,
+          "explanation": "De directeur zegt: 'Ik wil u vandaag informeren over de plannen voor de reorganisatie van onze afdeling.'"
+        },
+        {
+          "id": "l-b1-1-q2",
+          "text": "Hoeveel functies vervallen en hoeveel nieuwe worden er gecreëerd?",
+          "options": [
+            "Drie vervallen, vijf nieuwe",
+            "Vijf vervallen, drie nieuwe",
+            "Vier vervallen, vier nieuwe",
+            "Zeven vervallen, geen nieuwe"
+          ],
+          "correctIndex": 1,
+          "explanation": "De directeur zegt: 'Vijf functies binnen de administratie vervallen' en 'we creëren drie nieuwe functies op het gebied van digitale dienstverlening.'"
+        },
+        {
+          "id": "l-b1-1-q3",
+          "text": "Wat is de oorzaak van de reorganisatie?",
+          "options": [
+            "Slechte prestaties van medewerkers",
+            "Een conflict met een klant",
+            "Bezuinigingen",
+            "Een nieuwe wet van de overheid"
+          ],
+          "correctIndex": 2,
+          "explanation": "De directeur noemt bezuinigingen als reden: 'Dit is helaas onontkoombaar vanwege de bezuinigingen.'"
+        },
+        {
+          "id": "l-b1-1-q4",
+          "text": "Wat zegt HR over de mensen van wie de functie vervalt?",
+          "options": [
+            "Ze worden direct ontslagen",
+            "Ze krijgen een begeleidingstraject en er wordt gezocht naar herplaatsing",
+            "Ze moeten zelf op zoek naar een nieuwe baan",
+            "Ze krijgen zes maanden betaald verlof"
+          ],
+          "correctIndex": 1,
+          "explanation": "HR zegt dat er direct een begeleidingstraject start en dat er gezocht wordt naar herplaatsing binnen de organisatie."
+        },
+        {
+          "id": "l-b1-1-q5",
+          "text": "Wanneer worden de betrokken medewerkers persoonlijk geïnformeerd?",
+          "options": [
+            "Vandaag nog",
+            "Binnen een week",
+            "Uiterlijk de volgende maand",
+            "Pas na het afronden van de reorganisatie"
+          ],
+          "correctIndex": 2,
+          "explanation": "De directeur zegt: 'We streven ernaar iedereen uiterlijk volgende maand persoonlijk te informeren.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-1-t1.mp3"
+    },
+    {
+      "id": "l-b1-1-t2",
+      "title": "Radionieuws: woningnood en overheidsbeleid",
+      "transcript": "Nieuwslezer: Het is twaalf uur. U luistert naar het NOS Journaal. Hieronder het nieuws.\nHet kabinet heeft vandaag een nieuw pakket maatregelen aangekondigd om de woningnood in Nederland aan te pakken. Minister van Volkshuisvesting Hugo de Jonge presenteerde een plan dat voorziet in de bouw van negenhonderdduizend nieuwe woningen voor het jaar tweeduizend dertig. Een derde van deze woningen moet in de sociale huursector vallen, met een huurprijs onder de liberalisatiegrens.\nDe maatregelen omvatten ook het versnellen van de vergunningverlening door gemeenten en provincies. Op dit moment duurt een bouwvergunningsprocedure gemiddeld drie jaar, terwijl het kabinet streeft naar maximaal één jaar. Gemeenten die niet meewerken, riskeren dat de provincie de bevoegdheid overneemt.\nVakbonden en woningcorporaties reageren gematigd positief, maar plaatsen vraagtekens bij de haalbaarheid. Bouwbedrijven wijzen op een groot tekort aan gekwalificeerd personeel in de bouwsector.\nMeer nieuws: de Tweede Kamer debatteert morgen over de nieuwe stikstofwet. En: het nationale elftal speelt vanavond een vriendschappelijke wedstrijd tegen Duitsland.",
+      "questions": [
+        {
+          "id": "l-b1-1-q6",
+          "text": "Hoeveel woningen wil het kabinet laten bouwen voor 2030?",
+          "options": [
+            "Vijfhonderdduizend",
+            "Zevenhonderdduizend",
+            "Negenhonderdduizend",
+            "Eén miljoen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De nieuwslezer noemt 'negenhonderdduizend nieuwe woningen voor het jaar tweeduizend dertig.'"
+        },
+        {
+          "id": "l-b1-1-q7",
+          "text": "Welk deel van de nieuwe woningen moet in de sociale huursector vallen?",
+          "options": [
+            "Een kwart",
+            "Een derde",
+            "De helft",
+            "Twee derde"
+          ],
+          "correctIndex": 1,
+          "explanation": "Volgens het nieuwsbericht moet een derde van de nieuwe woningen in de sociale huursector vallen."
+        },
+        {
+          "id": "l-b1-1-q8",
+          "text": "Hoelang duurt een bouwvergunningsprocedure gemiddeld op dit moment?",
+          "options": [
+            "Zes maanden",
+            "Één jaar",
+            "Twee jaar",
+            "Drie jaar"
+          ],
+          "correctIndex": 3,
+          "explanation": "De nieuwslezer zegt: 'Op dit moment duurt een bouwvergunningsprocedure gemiddeld drie jaar.'"
+        },
+        {
+          "id": "l-b1-1-q9",
+          "text": "Wat riskeren gemeenten die niet meewerken aan de versnelling?",
+          "options": [
+            "Ze verliezen subsidie van het Rijk",
+            "Ze moeten een boete betalen",
+            "De provincie neemt de bevoegdheid over",
+            "Ze worden aangesproken door de Tweede Kamer"
+          ],
+          "correctIndex": 2,
+          "explanation": "Volgens het bericht riskeren gemeenten die niet meewerken dat de provincie de bevoegdheid overneemt."
+        },
+        {
+          "id": "l-b1-1-q10",
+          "text": "Welk probleem noemen bouwbedrijven?",
+          "options": [
+            "Te hoge grondprijzen",
+            "Gebrek aan bouwmaterialen",
+            "Een groot tekort aan gekwalificeerd personeel",
+            "Strenge milieuregels"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bouwbedrijven wijzen op een groot tekort aan gekwalificeerd personeel in de bouwsector."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-1-t2.mp3"
+    },
+    {
+      "id": "l-b1-1-t3",
+      "title": "Telefoongesprek met de gemeente over een bouwvergunning",
+      "transcript": "Medewerker: Gemeente Tilburg, u spreekt met afdeling Vergunningen, goedemiddag.\nBurger: Goedemiddag. Ik bel omdat ik een uitbouw wil plaatsen aan de achterkant van mijn woning. Ik wil weten of ik daarvoor een vergunning nodig heb.\nMedewerker: Dat hangt af van de afmetingen. Kunt u me vertellen hoe groot de uitbouw wordt?\nBurger: Ongeveer drie meter diep en vier meter breed, één verdieping hoog.\nMedewerker: En staat uw woning in een beschermd stadsgezicht of is het een monument?\nBurger: Nee, het is een gewone jaren zeventig woning in een woonwijk.\nMedewerker: Dan is het goed nieuws: voor een aanbouw tot vijf meter diep aan de achterzijde geldt in de meeste gevallen vergunningvrij bouwen. U hoeft geen vergunning aan te vragen, maar u moet wel voldoen aan de bouwkundige eisen van het Bouwbesluit.\nBurger: En wat als ik toch twijfel? Kan ik het zekerheidshalve laten toetsen?\nMedewerker: Ja, u kunt een principeverzoek indienen. Dan toetsen wij of uw bouwplan aan de regels voldoet. Dit kost wel een behandelingsvergoeding van honderdvijftig euro en duurt ongeveer vier weken.\nBurger: Dat lijkt me verstandig. Hoe dien ik zo'n verzoek in?\nMedewerker: Via het Omgevingsloket op omgevingsloket.nl. U logt in met DigiD en kiest voor 'principeverzoek indienen'. U uploadt de tekeningen van de aanbouw en beschrijft het plan.",
+      "questions": [
+        {
+          "id": "l-b1-1-q11",
+          "text": "Waarvoor belt de burger de gemeente?",
+          "options": [
+            "Een kapvergunning aanvragen",
+            "Informatie over een bouwvergunning voor een uitbouw",
+            "Een bezwaar indienen tegen een besluit",
+            "Een nieuw huis kopen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De burger belt om te vragen of hij een vergunning nodig heeft voor een uitbouw aan de achterkant van zijn woning."
+        },
+        {
+          "id": "l-b1-1-q12",
+          "text": "Heeft de burger een vergunning nodig voor zijn uitbouw?",
+          "options": [
+            "Ja, altijd bij uitbouwen aan de achterzijde",
+            "Nee, voor een aanbouw tot vijf meter diep aan de achterzijde is geen vergunning nodig",
+            "Ja, omdat de woning uit de jaren zeventig stamt",
+            "Dat weet de medewerker niet"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker legt uit dat voor een aanbouw tot vijf meter diep aan de achterzijde in de meeste gevallen vergunningvrij bouwen geldt."
+        },
+        {
+          "id": "l-b1-1-q13",
+          "text": "Wat is een principeverzoek?",
+          "options": [
+            "Een formele bezwaarprocedure bij de gemeente",
+            "Een toetsing door de gemeente of het bouwplan aan de regels voldoet",
+            "Een goedkope vervanging van de bouwvergunning",
+            "Een verzoek om informatie over het bestemmingsplan"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker legt uit dat de gemeente bij een principeverzoek toetst of het bouwplan aan de regels voldoet."
+        },
+        {
+          "id": "l-b1-1-q14",
+          "text": "Hoeveel kost een principeverzoek en hoelang duurt het?",
+          "options": [
+            "Gratis en twee weken",
+            "Vijftig euro en twee weken",
+            "Honderdvijftig euro en vier weken",
+            "Driehonderd euro en acht weken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'Dit kost een behandelingsvergoeding van honderdvijftig euro en duurt ongeveer vier weken.'"
+        },
+        {
+          "id": "l-b1-1-q15",
+          "text": "Hoe kan de burger het principeverzoek indienen?",
+          "options": [
+            "Via een brief naar de gemeente sturen",
+            "Telefonisch via dezelfde medewerker",
+            "Via het Omgevingsloket op omgevingsloket.nl met DigiD",
+            "Door persoonlijk langs te komen op het gemeentehuis"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'Via het Omgevingsloket op omgevingsloket.nl. U logt in met DigiD en kiest voor principeverzoek indienen.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-1-t3.mp3"
+    },
+    {
+      "id": "l-b1-1-t4",
+      "title": "Gesprek met de specialist",
+      "transcript": "Specialist: Goedemiddag. Ik heb de uitslagen van uw bloedonderzoek en de echo bekeken. Gaat u zitten.\nPatient: Goedemiddag. Ik ben benieuwd. Ik maak me al een tijdje zorgen.\nSpecialist: Ik begrijp dat. Laat me u vertellen wat we hebben gevonden. U heeft een chronische ontsteking van de alvleesklier. Dat heet pancreatitis. Het is een aandoening die we niet kunnen genezen, maar die we wel kunnen beheersen.\nPatient: Wat betekent dat voor mijn dagelijks leven?\nSpecialist: Dat vraagt aanpassingen. Ten eerste is het heel belangrijk dat u stopt met alcohol drinken. Alcohol verergert de ontsteking significant. Ten tweede adviseer ik een vetarm dieet. Dat verlicht de belasting op de alvleesklier.\nPatient: Ik drink al weinig, maar een borreltje in het weekend...\nSpecialist: Ik moet u dringend adviseren dat helemaal te stoppen. Zelfs kleine hoeveelheden kunnen een aanval uitlokken. We gaan ook medicatie opstarten om de pijn te beheersen en enzymen bij te geven die uw spijsvertering ondersteunen. U krijgt een recept mee vandaag.\nPatient: Moet ik terugkomen?\nSpecialist: Ja. Ik wil u over drie maanden terugzien om te kijken of de medicatie aanslaat. Mocht u tussendoor ernstige buikpijn krijgen, dan moet u direct naar de spoedeisende hulp gaan.",
+      "questions": [
+        {
+          "id": "l-b1-1-q16",
+          "text": "Wat is de diagnose van de specialist?",
+          "options": [
+            "Diabetes type 2",
+            "Een chronische ontsteking van de alvleesklier (pancreatitis)",
+            "Een maagzweer",
+            "Een leveraandoening"
+          ],
+          "correctIndex": 1,
+          "explanation": "De specialist zegt: 'U heeft een chronische ontsteking van de alvleesklier. Dat heet pancreatitis.'"
+        },
+        {
+          "id": "l-b1-1-q17",
+          "text": "Wat zijn de twee belangrijkste leefstijladviezen van de specialist?",
+          "options": [
+            "Meer bewegen en minder roken",
+            "Stoppen met alcohol drinken en een vetarm dieet volgen",
+            "Minder werken en meer rust nemen",
+            "Geen suiker eten en meer drinken"
+          ],
+          "correctIndex": 1,
+          "explanation": "De specialist adviseert te stoppen met alcohol en een vetarm dieet te volgen om de belasting op de alvleesklier te verminderen."
+        },
+        {
+          "id": "l-b1-1-q18",
+          "text": "Waarom mag de patiënt geen alcohol meer drinken, zelfs niet een beetje?",
+          "options": [
+            "Alcohol werkt slecht samen met de medicatie",
+            "Zelfs kleine hoeveelheden alcohol kunnen een aanval uitlokken",
+            "De verzekering vergoedt de behandeling niet bij alcoholgebruik",
+            "Alcohol maakt het dieet minder effectief"
+          ],
+          "correctIndex": 1,
+          "explanation": "De specialist zegt: 'Zelfs kleine hoeveelheden kunnen een aanval uitlokken.'"
+        },
+        {
+          "id": "l-b1-1-q19",
+          "text": "Wanneer moet de patiënt terugkomen bij de specialist?",
+          "options": [
+            "Over twee weken",
+            "Over één maand",
+            "Over drie maanden",
+            "Over zes maanden"
+          ],
+          "correctIndex": 2,
+          "explanation": "De specialist zegt: 'Ik wil u over drie maanden terugzien om te kijken of de medicatie aanslaat.'"
+        },
+        {
+          "id": "l-b1-1-q20",
+          "text": "Wanneer moet de patiënt direct naar de spoedeisende hulp?",
+          "options": [
+            "Als de medicijnen op zijn",
+            "Als hij last krijgt van misselijkheid",
+            "Als hij ernstige buikpijn krijgt",
+            "Als hij geen verbetering merkt na een week"
+          ],
+          "correctIndex": 2,
+          "explanation": "De specialist zegt: 'Mocht u tussendoor ernstige buikpijn krijgen, dan moet u direct naar de spoedeisende hulp gaan.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-1-t4.mp3"
+    },
+    {
+      "id": "l-b1-1-t5",
+      "title": "Wijkvergadering over nieuwbouwplan",
+      "transcript": "Voorzitter: Goedenavond iedereen. Welkom bij deze wijkvergadering. Vanavond bespreken we het gemeentelijke plan om aan de rand van onze wijk een nieuwbouwproject te realiseren: tweehonderd woningen op het voormalige bedrijventerrein aan de Fabriekslaan.\nBewoner1: Ik wil direct zeggen dat ik hier ernstige bezwaren tegen heb. De infrastructuur in onze wijk is al overbelast. Meer woningen betekent meer auto's, meer drukte. Onze smalle straten kunnen dat niet aan.\nVoorzitter: Dat is een begrijpelijk punt. De gemeente heeft aangekondigd dat bij de plannen ook een verkeersonderzoek hoort.\nBewoner2: Ik ben juist voor. Mijn dochter zoekt al twee jaar een betaalbare woning in de buurt. Als er tweehonderd woningen bijkomen, is de kans groter dat ze hier kan blijven wonen.\nBewoner1: Maar wie gaan er dan in die woningen? Zijn dat sociale huurwoningen of dure koopwoningen?\nVoorzitter: Volgens het gemeentelijke plan bestaat het project uit dertig procent sociale huur, veertig procent middenhuur en dertig procent koopwoningen. Dat staat in de informatiebrochure die u bij binnenkomst heeft ontvangen.\nBewoner2: En wanneer start de bouw?\nVoorzitter: De gemeente rekent op een start van de bouw in 2026, na afronding van de bestemmingsplanprocedure. Bewoners hebben nog zes weken de tijd om officieel bezwaar in te dienen.",
+      "questions": [
+        {
+          "id": "l-b1-1-q21",
+          "text": "Wat is het onderwerp van de wijkvergadering?",
+          "options": [
+            "Het verbeteren van de speeltuinen in de wijk",
+            "Een gemeentelijk plan voor tweehonderd nieuwe woningen op het voormalige bedrijventerrein",
+            "De renovatie van het wijkcentrum",
+            "Overlastklachten van bewoners"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter introduceert het onderwerp: een nieuwbouwproject van tweehonderd woningen op het voormalige bedrijventerrein aan de Fabriekslaan."
+        },
+        {
+          "id": "l-b1-1-q22",
+          "text": "Wat is het bezwaar van Bewoner1?",
+          "options": [
+            "De woningen worden te duur",
+            "De infrastructuur is al overbelast en meer woningen betekent meer drukte",
+            "Het plan vernietigt groen in de wijk",
+            "De gemeente informeert bewoners te laat"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bewoner1 zegt dat de infrastructuur al overbelast is en dat meer auto's en drukte voor problemen zorgen op de smalle straten."
+        },
+        {
+          "id": "l-b1-1-q23",
+          "text": "Waarom is Bewoner2 voor het nieuwbouwplan?",
+          "options": [
+            "Hij wil zelf een nieuwbouwwoning kopen",
+            "Hij denkt dat nieuwbouw goed is voor de economie",
+            "Zijn dochter zoekt al twee jaar een betaalbare woning in de buurt",
+            "Hij heeft geïnvesteerd in het bouwproject"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bewoner2 zegt: 'Mijn dochter zoekt al twee jaar een betaalbare woning in de buurt.'"
+        },
+        {
+          "id": "l-b1-1-q24",
+          "text": "Welk percentage van de nieuwe woningen is bestemd voor sociale huur?",
+          "options": [
+            "Twintig procent",
+            "Dertig procent",
+            "Veertig procent",
+            "Vijftig procent"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'Het project bestaat uit dertig procent sociale huur, veertig procent middenhuur en dertig procent koopwoningen.'"
+        },
+        {
+          "id": "l-b1-1-q25",
+          "text": "Hoelang kunnen bewoners nog officieel bezwaar indienen?",
+          "options": [
+            "Twee weken",
+            "Vier weken",
+            "Zes weken",
+            "Drie maanden"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'Bewoners hebben nog zes weken de tijd om officieel bezwaar in te dienen.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-1-t5.mp3"
+    }
+  ]
+}
