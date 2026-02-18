@@ -1,0 +1,380 @@
+{
+  "id": "lezen-b1-1",
+  "title": "Lezen B1 - Oefenexamen 1",
+  "module": "lezen",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "45 min",
+  "passages": [
+    {
+      "id": "b1-1-p1",
+      "title": "Klachtenbrief aan woningcorporatie",
+      "content": "Geachte mevrouw/meneer,\n\nIk schrijf u naar aanleiding van de voortdurende onderhoudsklachten die ik al meer dan vier maanden probeer op te lossen via uw klantenservice, helaas zonder resultaat.\n\nSinds november vorig jaar functioneert de centrale verwarming in mijn woning (Beukenlaan 47, appartement 3B) niet naar behoren. De warmte wordt ongelijk verdeeld, waardoor de slaapkamers onbewoonbaar koud zijn. Ondanks drie ingediende reparatieverzoeken en twee bezoeken van uw monteur, is het probleem niet opgelost.\n\nDaarnaast is er sprake van vochtproblemen in de badkamer die leiden tot schimmelvorming. Ik heb dit schriftelijk gemeld op 3 januari en 28 januari, maar heb geen reactie ontvangen.\n\nOp grond van de Wet op de huurtoeslag en het Burgerlijk Wetboek heeft een verhuurder de plicht gebreken te verhelpen. Ik sommeer u hierbij dit gebreken binnen 14 dagen te herstellen. Als dit niet gebeurt, zal ik een klacht indienen bij de Huurcommissie en huurverlaging aanvragen.\n\nIk zie uw reactie graag tegemoet.\n\nMet vriendelijke groet,\nA. Karim",
+      "contentType": "letter",
+      "instruction": "Lees de klachtenbrief aan de woningcorporatie. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-1-q1",
+          "text": "Wat is het hoofddoel van deze brief?",
+          "options": [
+            "De huurder wil zijn huurcontract opzeggen",
+            "De huurder eist dat de woningcorporatie de gemelde gebreken binnen 14 dagen herstelt",
+            "De huurder vraagt om een lagere huurprijs zonder verdere eisen",
+            "De huurder wil informatie over de rechten van de verhuurder"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief is een formele sommatie: de huurder eist herstel van gebreken binnen 14 dagen, anders volgt een klacht bij de Huurcommissie.",
+          "explanationEn": "The letter is a formal demand: the tenant demands repair of defects within 14 days, otherwise a complaint to the Huurcommissie will follow."
+        },
+        {
+          "id": "b1-1-q2",
+          "text": "Hoe lang heeft de huurder al geprobeerd de klachten op te lossen?",
+          "options": [
+            "Twee weken",
+            "Twee maanden",
+            "Meer dan vier maanden",
+            "Bijna een jaar"
+          ],
+          "correctIndex": 2,
+          "explanation": "De huurder schrijft dat hij al meer dan vier maanden de klachten probeert op te lossen.",
+          "explanationEn": "The tenant writes that they have been trying to resolve the complaints for more than four months."
+        },
+        {
+          "id": "b1-1-q3",
+          "text": "Welke twee problemen beschrijft de huurder in de brief?",
+          "options": [
+            "Lawaaioverlast en kapotte ramen",
+            "Een slechte verwarmingsinstallatie en vochtproblemen met schimmel in de badkamer",
+            "Waterlekkage en een defecte lift",
+            "Geluidsoverlast en problemen met de elektriciteit"
+          ],
+          "correctIndex": 1,
+          "explanation": "De huurder beschrijft twee problemen: de centrale verwarming die niet goed werkt en vochtproblemen met schimmelvorming in de badkamer.",
+          "explanationEn": "The tenant describes two problems: the central heating not working properly and moisture problems with mold formation in the bathroom."
+        },
+        {
+          "id": "b1-1-q4",
+          "text": "Wat bedoelt de huurder met 'ik sommeer u hierbij'?",
+          "options": [
+            "De huurder vraagt vriendelijk of de corporatie wil helpen",
+            "De huurder stelt een formele eis met juridische gevolgen als niet aan de eis wordt voldaan",
+            "De huurder nodigt de verhuurder uit voor een gesprek",
+            "De huurder meldt dat hij de woning gaat verlaten"
+          ],
+          "correctIndex": 1,
+          "explanation": "Een sommatie is een formele juridische eis. De huurder gebruikt dit woord om duidelijk te maken dat hij juridische stappen zal zetten als de corporatie niet reageert.",
+          "explanationEn": "A demand (sommatie) is a formal legal demand. The tenant uses this word to make clear that they will take legal steps if the corporation does not respond."
+        },
+        {
+          "id": "b1-1-q5",
+          "text": "Welke stap zal de huurder nemen als de gebreken niet worden hersteld?",
+          "options": [
+            "De huurder zal stoppen met huur betalen",
+            "De huurder zal een klacht indienen bij de Huurcommissie en huurverlaging aanvragen",
+            "De huurder zal de reparaties zelf uitvoeren op kosten van de corporatie",
+            "De huurder zal naar de media gaan"
+          ],
+          "correctIndex": 1,
+          "explanation": "De huurder kondigt aan een klacht in te zullen dienen bij de Huurcommissie en huurverlaging aan te vragen als de gebreken niet worden hersteld.",
+          "explanationEn": "The tenant announces they will file a complaint with the Huurcommissie and apply for rent reduction if the defects are not repaired."
+        }
+      ]
+    },
+    {
+      "id": "b1-1-p2",
+      "title": "Zorgverzekering: veranderingen in vergoedingen",
+      "content": "Vergoeding fysiotherapie beperkt per 1 januari\n\nVanaf 1 januari verandert de vergoeding voor fysiotherapie en oefentherapie voor verzekerden met een basisverzekering. De eerste twintig behandelingen per jaar worden niet meer vergoed vanuit de basisverzekering, tenzij u lijdt aan een chronische aandoening die op de zogeheten 'chronische lijst' staat.\n\nVoor wie geldt de uitzondering?\nPatiënten met aandoeningen zoals reumatoïde artritis, scoliose, hemofilie en bepaalde neurologische aandoeningen blijven recht houden op vergoeding vanuit de basisverzekering, ook voor de eerste behandelingen. Uw huisarts of specialist kan bevestigen of uw aandoening op de lijst staat.\n\nWat kunt u doen?\nAls u niet onder de uitzondering valt, kunt u een aanvullende verzekering afsluiten die fysiotherapie vergoedt. Controleer uw polisvoorwaarden zorgvuldig, want de dekking verschilt sterk per verzekeraar en per pakket. Vraag uw zorgverzekeraar om een overzicht van de vergoedingen voor het komende jaar.",
+      "contentType": "article",
+      "instruction": "Lees het artikel over veranderingen in de zorgverzekering. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-1-q6",
+          "text": "Wat verandert er per 1 januari voor mensen met een basisverzekering?",
+          "options": [
+            "Alle fysiotherapie wordt voortaan vergoed",
+            "De eerste twintig fysiotherapiebehandelingen worden niet meer vergoed, tenzij er sprake is van een chronische aandoening op de lijst",
+            "Fysiotherapie wordt alleen vergoed voor kinderen",
+            "De eigen bijdrage voor fysiotherapie wordt verlaagd"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vanaf 1 januari worden de eerste twintig fysiotherapiebehandelingen niet meer vergoed vanuit de basisverzekering, behalve voor patiënten met een aandoening op de chronische lijst.",
+          "explanationEn": "From January 1, the first twenty physiotherapy treatments will no longer be reimbursed from basic insurance, except for patients with a condition on the chronic list."
+        },
+        {
+          "id": "b1-1-q7",
+          "text": "Wie behoudt wel recht op vergoeding van fysiotherapie via de basisverzekering?",
+          "options": [
+            "Iedereen boven de 65 jaar",
+            "Mensen met een aanvullende verzekering",
+            "Patiënten met een chronische aandoening op de speciale lijst, zoals reumatoïde artritis",
+            "Mensen die meer dan tien behandelingen per jaar nodig hebben"
+          ],
+          "correctIndex": 2,
+          "explanation": "Patiënten met aandoeningen op de 'chronische lijst', zoals reumatoïde artritis, scoliose en hemofilie, houden recht op vergoeding via de basisverzekering.",
+          "explanationEn": "Patients with conditions on the 'chronic list', such as rheumatoid arthritis, scoliosis, and hemophilia, retain the right to reimbursement through basic insurance."
+        },
+        {
+          "id": "b1-1-q8",
+          "text": "Hoe kunt u controleren of uw aandoening op de chronische lijst staat?",
+          "options": [
+            "Via de website van de Belastingdienst",
+            "Door uw huisarts of specialist te vragen dit te bevestigen",
+            "Door contact op te nemen met de Huurcommissie",
+            "Door uw aandoening aan te melden bij DUO"
+          ],
+          "correctIndex": 1,
+          "explanation": "Volgens het artikel kan uw huisarts of specialist bevestigen of uw aandoening op de chronische lijst staat.",
+          "explanationEn": "According to the article, your GP or specialist can confirm whether your condition is on the chronic list."
+        },
+        {
+          "id": "b1-1-q9",
+          "text": "Wat adviseert het artikel als u niet onder de uitzondering valt?",
+          "options": [
+            "Stoppen met fysiotherapie en alternatieve therapie zoeken",
+            "Een aanvullende verzekering afsluiten en de polisvoorwaarden zorgvuldig controleren",
+            "Direct naar een specialist gaan in plaats van een fysiotherapeut",
+            "Een bezwaarschrift indienen bij uw zorgverzekeraar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel adviseert een aanvullende verzekering af te sluiten en de polisvoorwaarden te controleren, want de dekking verschilt per verzekeraar.",
+          "explanationEn": "The article advises taking out supplementary insurance and carefully checking the policy conditions, as coverage varies by insurer."
+        },
+        {
+          "id": "b1-1-q10",
+          "text": "Wat is de toon van dit artikel?",
+          "options": [
+            "Kritisch en aanvallend richting de overheid",
+            "Informatief en neutraal, gericht op het uitleggen van de verandering en de opties",
+            "Wervend, met als doel lezers een aanvullende verzekering te laten afsluiten",
+            "Alarmistisch, want de auteur vindt de verandering onacceptabel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel heeft een informatieve en neutrale toon. Het legt de verandering uit, beschrijft wie er een uitzondering op heeft en geeft praktisch advies.",
+          "explanationEn": "The article has an informative and neutral tone. It explains the change, describes who is exempt, and provides practical advice."
+        }
+      ]
+    },
+    {
+      "id": "b1-1-p3",
+      "title": "Huurtoeslag aanvragen: informatiebrochure gemeente",
+      "content": "Heeft u recht op huurtoeslag?\n\nHuurtoeslag is een financiële bijdrage van de overheid om huurders met een lager inkomen te helpen de huurkosten te betalen. Of u recht heeft op huurtoeslag hangt af van uw inkomen, de hoogte van uw huur en uw gezinssituatie.\n\nVoorwaarden\nU moet aan alle volgende voorwaarden voldoen:\n• U bent 18 jaar of ouder\n• U huurt een zelfstandige woning met een eigen voordeur, keuken en toilet\n• Uw huur is niet hoger dan de maximale huurgrens (in 2024: €879,66 per maand)\n• Uw inkomen en dat van uw eventuele toeslagpartner is niet hoger dan de inkomensgrens\n• U heeft de Nederlandse nationaliteit of een geldige verblijfsvergunning\n\nHoe vraagt u huurtoeslag aan?\nHuurtoeslag vraagt u aan via de website van de Belastingdienst Toeslagen (toeslagen.nl) met uw DigiD. U kunt ook bellen met de BelastingTelefoon (0800-0543). Vraag de toeslag aan voor het einde van het jaar waarover u toeslag wilt ontvangen — u kunt maximaal drie maanden met terugwerkende kracht aanvragen.\n\nWat heeft u nodig?\n• Uw DigiD\n• Het adres en de huurprijs van uw woning\n• Uw inkomensgegeven (dit wordt automatisch opgehaald van de Belastingdienst)",
+      "contentType": "brochure",
+      "instruction": "Lees de informatiebrochure over huurtoeslag. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-1-q11",
+          "text": "Wat is het doel van huurtoeslag?",
+          "options": [
+            "Huurders helpen een eigen woning te kopen",
+            "Huurders met een lager inkomen financieel ondersteunen bij het betalen van huurkosten",
+            "Woningcorporaties subsidiëren zodat ze lagere huren kunnen vragen",
+            "Mensen stimuleren om in bepaalde wijken te gaan wonen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Huurtoeslag is een financiële bijdrage van de overheid om huurders met een lager inkomen te helpen de huurkosten te betalen.",
+          "explanationEn": "Housing benefit is a financial contribution from the government to help tenants with lower incomes pay housing costs."
+        },
+        {
+          "id": "b1-1-q12",
+          "text": "Welke maximale huurprijs geldt voor de huurtoeslag in 2024?",
+          "options": [
+            "€ 650 per maand",
+            "€ 750 per maand",
+            "€ 879,66 per maand",
+            "€ 1.000 per maand"
+          ],
+          "correctIndex": 2,
+          "explanation": "Uw huur mag niet hoger zijn dan de maximale huurgrens van €879,66 per maand (in 2024) om in aanmerking te komen voor huurtoeslag.",
+          "explanationEn": "Your rent must not exceed the maximum rental limit of €879.66 per month (in 2024) to be eligible for housing benefit."
+        },
+        {
+          "id": "b1-1-q13",
+          "text": "Waar vraagt u huurtoeslag aan?",
+          "options": [
+            "Bij de gemeente via een papieren formulier",
+            "Via toeslagen.nl met DigiD, of telefonisch via de BelastingTelefoon",
+            "Bij het UWV via MijnUWV",
+            "Via uw woningcorporatie of verhuurder"
+          ],
+          "correctIndex": 1,
+          "explanation": "U vraagt huurtoeslag aan via de website van de Belastingdienst Toeslagen (toeslagen.nl) met DigiD, of via de BelastingTelefoon (0800-0543).",
+          "explanationEn": "You apply for housing benefit via the Tax and Customs Administration Allowances website (toeslagen.nl) with DigiD, or via the Tax Phone (0800-0543)."
+        },
+        {
+          "id": "b1-1-q14",
+          "text": "Hoeveel maanden met terugwerkende kracht kunt u maximaal aanvragen?",
+          "options": [
+            "1 maand",
+            "3 maanden",
+            "6 maanden",
+            "12 maanden"
+          ],
+          "correctIndex": 1,
+          "explanation": "Volgens de brochure kunt u de toeslag maximaal drie maanden met terugwerkende kracht aanvragen.",
+          "explanationEn": "According to the brochure, you can apply for the allowance retroactively for a maximum of three months."
+        },
+        {
+          "id": "b1-1-q15",
+          "text": "Welke informatie hoeft u NIET zelf op te zoeken bij het aanvragen?",
+          "options": [
+            "Het adres van uw woning",
+            "De huurprijs",
+            "Uw inkomensgegeven, dat automatisch wordt opgehaald",
+            "Uw DigiD-inloggegevens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Uw inkomensgegevens worden automatisch opgehaald van de Belastingdienst. U hoeft dit dus niet zelf op te zoeken.",
+          "explanationEn": "Your income data is automatically retrieved from the Tax and Customs Administration. You therefore do not need to look this up yourself."
+        }
+      ]
+    },
+    {
+      "id": "b1-1-p4",
+      "title": "Officieel buurtbericht: wegwerkzaamheden Keizerstraat",
+      "content": "GEMEENTE ARNHEM — OFFICIEEL BERICHT\n\nWegwerkzaamheden Keizerstraat en omgeving\nPeriode: 3 maart t/m 28 april\n\nGeachte bewoners en ondernemers,\n\nDe gemeente Arnhem gaat de Keizerstraat en de aangrenzende Molenweg volledig renoveren. De werkzaamheden omvatten vervanging van de riolering, herbestrating van de rijbaan en aanleg van nieuwe fietspaden.\n\nGevolgen voor het verkeer:\nTijdens de werkzaamheden is de Keizerstraat afgesloten voor al het gemotoriseerd verkeer. Voetgangers en fietsers kunnen de straat beperkt passeren via het vrijgehouden voetpad aan de noordzijde.\n\nOmleiding voor automobilisten:\nWest → Oost: via de Ringweg N325 en afslag Industrieweg\nOost → West: via de Velperweg en afslag Parkweg\n\nParkeren:\nTijdelijke parkeerplaatsen zijn beschikbaar op het parkeerterrein aan de Havenstraat (loopafstand ca. 8 minuten). Bewoners met een parkeervergunning voor zone KS worden automatisch tijdelijk omgezet naar zone HV.\n\nVragen? Bel de gemeentelijke informatielijn: 026 – 377 77 77 of kijk op arnhem.nl/wegwerkzaamheden",
+      "contentType": "notice",
+      "instruction": "Lees het officiële buurtbericht over de wegwerkzaamheden. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-1-q16",
+          "text": "Wat zijn de drie soorten werkzaamheden die de gemeente uitvoert?",
+          "options": [
+            "Schilderwerk, reparatie van lantaarnpalen en plantsoenonderhoud",
+            "Vervanging van de riolering, herbestrating van de rijbaan en aanleg van nieuwe fietspaden",
+            "Aanleg van een nieuwe brug, riolering en plaatsing van verkeerslichten",
+            "Sloopwerk van oude gebouwen, herbestrating en groenonderhoud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Volgens het bericht omvatten de werkzaamheden: vervanging van de riolering, herbestrating van de rijbaan en aanleg van nieuwe fietspaden.",
+          "explanationEn": "According to the notice, the work includes: replacement of the sewer, resurfacing of the roadway, and construction of new cycle paths."
+        },
+        {
+          "id": "b1-1-q17",
+          "text": "Hoe lang duren de werkzaamheden?",
+          "options": [
+            "Twee weken",
+            "Vier weken",
+            "Bijna twee maanden (3 maart t/m 28 april)",
+            "Drie maanden"
+          ],
+          "correctIndex": 2,
+          "explanation": "De werkzaamheden duren van 3 maart tot en met 28 april, dat is bijna twee maanden.",
+          "explanationEn": "The works last from March 3 to April 28, which is nearly two months."
+        },
+        {
+          "id": "b1-1-q18",
+          "text": "Wie mag de Keizerstraat nog beperkt passeren tijdens de werkzaamheden?",
+          "options": [
+            "Alleen bewoners met een parkeervergunning",
+            "Voetgangers en fietsers via het vrijgehouden voetpad aan de noordzijde",
+            "Alle voertuigen via een smalle rijstrook",
+            "Uitsluitend hulpdiensten"
+          ],
+          "correctIndex": 1,
+          "explanation": "Voetgangers en fietsers kunnen de straat beperkt passeren via het vrijgehouden voetpad aan de noordzijde.",
+          "explanationEn": "Pedestrians and cyclists can pass through the street to a limited extent via the cleared footpath on the north side."
+        },
+        {
+          "id": "b1-1-q19",
+          "text": "Wat gebeurt er automatisch met de parkeervergunning van bewoners in zone KS?",
+          "options": [
+            "De vergunning wordt tijdelijk ingetrokken",
+            "Bewoners moeten zelf een nieuwe vergunning aanvragen bij de gemeente",
+            "De vergunning wordt automatisch tijdelijk omgezet naar zone HV",
+            "Bewoners krijgen een boete als ze op het tijdelijke terrein parkeren"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bewoners met een parkeervergunning voor zone KS worden automatisch tijdelijk omgezet naar zone HV. Ze hoeven zelf niets te doen.",
+          "explanationEn": "Residents with a parking permit for zone KS are automatically temporarily converted to zone HV. They do not need to do anything themselves."
+        },
+        {
+          "id": "b1-1-q20",
+          "text": "Welke conclusie kun je trekken over het doel van dit buurtbericht?",
+          "options": [
+            "De gemeente wil bewoners overtuigen dat de werkzaamheden noodzakelijk zijn",
+            "De gemeente wil bewoners en ondernemers informeren over de gevolgen en praktische oplossingen bieden",
+            "De gemeente vraagt bewoners om vrijwillig te helpen bij de werkzaamheden",
+            "De gemeente kondigt aan dat alle parkeervergunningen vervallen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het buurtbericht heeft als doel bewoners en ondernemers te informeren over de tijdsduur, de gevolgen voor verkeer en parkeren, en de aangeboden oplossingen zoals omleiding en tijdelijke parkeerplekken.",
+          "explanationEn": "The neighborhood notice aims to inform residents and businesses about the duration, the consequences for traffic and parking, and the solutions offered such as detours and temporary parking spaces."
+        }
+      ]
+    },
+    {
+      "id": "b1-1-p5",
+      "title": "Brief werkgever: functioneringsgesprek en salarisaanpassing",
+      "content": "Geachte mevrouw De Vries,\n\nNaar aanleiding van uw jaarlijkse functioneringsgesprek van 14 februari, dat wij als zeer positief hebben ervaren, wil ik u hierbij schriftelijk informeren over onze conclusies en het voorstel betreffende uw beloning.\n\nBeoordeling\nUw prestaties over het afgelopen jaar worden beoordeeld als 'goed' (niveau 4 op een schaal van 5). Bijzonder gewaardeerd worden uw initiatief bij het implementeren van het nieuwe klantopvolgsysteem en uw bijdrage aan de verbetering van de klanttevredenheidsscores.\n\nSalarisaanpassing\nOp basis van deze beoordeling stellen wij voor uw bruto maandsalaris per 1 april te verhogen met 4,2%, van €2.950 naar €3.074. Deze verhoging is samengesteld uit de cao-loonsverhoging van 2,8% en een persoonlijke prestatietoeslag van 1,4%.\n\nVoorwaarden\nDeze aanpassing is onder voorbehoud van definitieve goedkeuring door de directie, die op de aandeelhoudersvergadering van 10 maart plaatsvindt. U ontvangt uiterlijk 15 maart een bevestiging.\n\nAls u vragen heeft over deze brief, kunt u contact opnemen met de afdeling HR via hr@bedrijf.nl.\n\nMet vriendelijke groet,\nR. Janssen\nHoofd Personeelszaken",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de werkgever over het functioneringsgesprek. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-1-q21",
+          "text": "Hoe is de beoordeling van mevrouw De Vries omschreven?",
+          "options": [
+            "Uitstekend (niveau 5)",
+            "Voldoende (niveau 3)",
+            "Goed (niveau 4 op een schaal van 5)",
+            "Onvoldoende, er zijn verbeterpunten"
+          ],
+          "correctIndex": 2,
+          "explanation": "De prestaties worden beoordeeld als 'goed', niveau 4 op een schaal van 5.",
+          "explanationEn": "The performance is assessed as 'good', level 4 on a scale of 5."
+        },
+        {
+          "id": "b1-1-q22",
+          "text": "Met hoeveel procent wordt het salaris verhoogd?",
+          "options": [
+            "1,4%",
+            "2,8%",
+            "4,2%",
+            "5,0%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het bruto maandsalaris wordt verhoogd met 4,2%, bestaande uit een cao-loonsverhoging van 2,8% en een persoonlijke prestatietoeslag van 1,4%.",
+          "explanationEn": "The gross monthly salary will be increased by 4.2%, consisting of a collective labor agreement wage increase of 2.8% and a personal performance bonus of 1.4%."
+        },
+        {
+          "id": "b1-1-q23",
+          "text": "Wat is het nieuwe bruto maandsalaris na de verhoging?",
+          "options": [
+            "€ 2.950",
+            "€ 3.000",
+            "€ 3.074",
+            "€ 3.150"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het nieuwe salaris na verhoging van 4,2% op €2.950 is €3.074.",
+          "explanationEn": "The new salary after a 4.2% increase on €2,950 is €3,074."
+        },
+        {
+          "id": "b1-1-q24",
+          "text": "Waarom is de salarisverhoging 'onder voorbehoud'?",
+          "options": [
+            "Omdat mevrouw De Vries eerst een aanvullend gesprek moet voeren",
+            "Omdat de directie de aanpassing nog definitief moet goedkeuren op de aandeelhoudersvergadering van 10 maart",
+            "Omdat de cao-onderhandelingen nog niet zijn afgerond",
+            "Omdat de verhoging afhangt van de jaarcijfers van het bedrijf"
+          ],
+          "correctIndex": 1,
+          "explanation": "De aanpassing is onder voorbehoud van definitieve goedkeuring door de directie op de aandeelhoudersvergadering van 10 maart.",
+          "explanationEn": "The adjustment is subject to final approval by the board at the shareholders' meeting on March 10."
+        },
+        {
+          "id": "b1-1-q25",
+          "text": "Wanneer ontvangt mevrouw De Vries een definitieve bevestiging van de salarisverhoging?",
+          "options": [
+            "Op 14 februari, na het functioneringsgesprek",
+            "Op 1 april, wanneer de verhoging ingaat",
+            "Uiterlijk 15 maart",
+            "Na de zomervakantie"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mevrouw De Vries ontvangt uiterlijk 15 maart een bevestiging van de definitieve beslissing.",
+          "explanationEn": "Ms. De Vries will receive confirmation of the final decision by March 15 at the latest."
+        }
+      ]
+    }
+  ]
+}
