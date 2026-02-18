@@ -1,0 +1,350 @@
+{
+  "id": "luisteren-b1-2",
+  "title": "Luisteren B1 - Oefenexamen 2",
+  "module": "luisteren",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "60 min",
+  "transcripts": [
+    {
+      "id": "l-b1-2-t1",
+      "title": "Sollicitatiegesprek voor een administratieve functie",
+      "transcript": "Interviewer: Goedemiddag. Welkom. Gaat u zitten. Mijn naam is Annemarie de Boer, ik ben teamleider van de administratieve afdeling. Heeft u de locatie gemakkelijk gevonden?\nSollicitant: Ja, gelukkig wel. Goedemiddag. Ik ben Fatima El Amrani.\nInterviewer: Fijn. Dan beginnen we. U solliciteert op de functie van medewerker financiële administratie. Kunt u mij in twee minuten vertellen waarom u geschikt bent voor deze functie?\nSollicitant: Zeker. Ik heb een afgeronde mbo-4 opleiding bedrijfsadministratie en daarna vier jaar gewerkt bij een transportbedrijf. Daar verwerkte ik facturen, deed de crediteurenadministratie en had ik veel contact met klanten en leveranciers. Ik werk nauwkeurig en ben gewend met strakke deadlines te werken.\nInterviewer: Dat klinkt goed. Kunt u een voorbeeld geven van een situatie waarbij u een fout heeft gemaakt in uw werk en hoe u dat heeft opgelost?\nSollicitant: Eens. Een keer heb ik een factuur dubbel betaald. Ik merkte dat zelf op bij de maandafsluiting. Ik heb direct mijn leidinggevende geïnformeerd, het bedrag teruggevorderd bij de leverancier en een extra controleslag ingebouwd in mijn werkproces om dit in de toekomst te voorkomen.\nInterviewer: Goed dat u dat zo transparant aanpakt. Een laatste vraag: bent u beschikbaar per 1 april?\nSollicitant: Ja, ik moet nog een maand opzegtermijn bij mijn huidige werkgever in acht nemen, maar 1 april is haalbaar.",
+      "questions": [
+        {
+          "id": "l-b1-2-q1",
+          "text": "Voor welke functie solliciteert Fatima?",
+          "options": [
+            "Teamleider administratie",
+            "Medewerker financiële administratie",
+            "Klantenservicemedewerker",
+            "Inkoper"
+          ],
+          "correctIndex": 1,
+          "explanation": "De interviewer zegt: 'U solliciteert op de functie van medewerker financiële administratie.'"
+        },
+        {
+          "id": "l-b1-2-q2",
+          "text": "Hoeveel jaar werkervaring heeft Fatima in de administratie?",
+          "options": [
+            "Twee jaar",
+            "Drie jaar",
+            "Vier jaar",
+            "Vijf jaar"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fatima zegt: 'Ik heb vier jaar gewerkt bij een transportbedrijf.'"
+        },
+        {
+          "id": "l-b1-2-q3",
+          "text": "Welke fout heeft Fatima ooit gemaakt in haar werk?",
+          "options": [
+            "Ze was te laat met een rapportage",
+            "Ze heeft een factuur dubbel betaald",
+            "Ze heeft een klant verkeerd geïnformeerd",
+            "Ze heeft een document kwijtgeraakt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fatima zegt: 'Een keer heb ik een factuur dubbel betaald.'"
+        },
+        {
+          "id": "l-b1-2-q4",
+          "text": "Hoe loste Fatima de fout op?",
+          "options": [
+            "Ze heeft het stilgehouden en het zelf gecorrigeerd",
+            "Ze heeft haar collega gevraagd het op te lossen",
+            "Ze informeerde haar leidinggevende, vorderde het bedrag terug en bouwde een extra controle in",
+            "Ze heeft de leverancier gebeld en om een creditnota gevraagd"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fatima beschrijft drie stappen: leidinggevende informeren, bedrag terugvorderen bij leverancier, extra controleslag inbouwen."
+        },
+        {
+          "id": "l-b1-2-q5",
+          "text": "Wanneer kan Fatima beginnen?",
+          "options": [
+            "Direct",
+            "Over twee weken",
+            "Per 1 april",
+            "Per 1 mei"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fatima zegt dat ze een maand opzegtermijn heeft, maar dat 1 april haalbaar is."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-2-t1.mp3"
+    },
+    {
+      "id": "l-b1-2-t2",
+      "title": "DUO informatiesessie over het inburgeringsexamen",
+      "transcript": "DUO_medewerker: Goedemiddag iedereen. Welkom bij deze informatiesessie over het inburgeringsexamen. Mijn naam is Thomas Verhagen, ik werk bij DUO. Ik ga u uitleggen hoe het inburgeringsexamen is opgebouwd en wat u kunt verwachten.\nHet inburgeringsexamen bestaat uit zes onderdelen. Ten eerste de taaltoetsen: lezen, luisteren, schrijven en spreken. Die moet u halen op minimaal B1-niveau. Daarnaast is er de KNM-toets, dat staat voor Kennis van de Nederlandse Maatschappij. En tot slot de ONA, de Oriëntatie op de Nederlandse Arbeidsmarkt.\nDeelnemer: Moeten alle onderdelen in één keer worden afgelegd?\nDUO_medewerker: Nee, dat hoeft niet. U kunt de onderdelen afzonderlijk afleggen bij een erkend examencentrum. Elk onderdeel dat u haalt, wordt geregistreerd. U hoeft een geslaagd onderdeel niet opnieuw te doen.\nDeelnemer: En hoe vaak mag je een onderdeel overdoen als je het niet haalt?\nDUO_medewerker: Er geldt geen maximum aan het aantal herkansingen, maar u betaalt wel per poging. De kosten variëren per onderdeel van ongeveer zestig tot honderdvijftig euro.\nDeelnemer: Wat gebeurt er als ik de deadline niet haal?\nDUO_medewerker: Dan riskeert u een bestuurlijke boete van maximaal twaalfhonderdvijftig euro. Bovendien kan het gevolgen hebben voor uw verblijfsvergunning. Maar als u aantoonbaar uw best doet en regelmatig examens aflegt, staat DUO daar positief tegenover.",
+      "questions": [
+        {
+          "id": "l-b1-2-q6",
+          "text": "Uit hoeveel onderdelen bestaat het inburgeringsexamen?",
+          "options": [
+            "Vier",
+            "Vijf",
+            "Zes",
+            "Zeven"
+          ],
+          "correctIndex": 2,
+          "explanation": "De DUO-medewerker zegt: 'Het inburgeringsexamen bestaat uit zes onderdelen': vier taaltoetsen, KNM en ONA."
+        },
+        {
+          "id": "l-b1-2-q7",
+          "text": "Op welk niveau moeten de taaltoetsen worden gehaald?",
+          "options": [
+            "A2",
+            "B1",
+            "B2",
+            "C1"
+          ],
+          "correctIndex": 1,
+          "explanation": "De DUO-medewerker zegt: 'Die moet u halen op minimaal B1-niveau.'"
+        },
+        {
+          "id": "l-b1-2-q8",
+          "text": "Moeten alle onderdelen tegelijk worden afgelegd?",
+          "options": [
+            "Ja, alles moet in één examendag",
+            "Nee, de onderdelen kunnen afzonderlijk worden afgelegd bij een erkend examencentrum",
+            "Ja, maar u mag kiezen in welke volgorde",
+            "Nee, maar de taaltoetsen moeten wel op dezelfde dag"
+          ],
+          "correctIndex": 1,
+          "explanation": "De DUO-medewerker zegt: 'U kunt de onderdelen afzonderlijk afleggen bij een erkend examencentrum.'"
+        },
+        {
+          "id": "l-b1-2-q9",
+          "text": "Hoeveel keer mag u een onderdeel herkansen?",
+          "options": [
+            "Maximaal drie keer",
+            "Maximaal vijf keer",
+            "Er is geen maximum, maar u betaalt per poging",
+            "Twee keer gratis, daarna betaald"
+          ],
+          "correctIndex": 2,
+          "explanation": "De DUO-medewerker zegt: 'Er geldt geen maximum aan het aantal herkansingen, maar u betaalt wel per poging.'"
+        },
+        {
+          "id": "l-b1-2-q10",
+          "text": "Wat is de maximale boete als u de inburgeringsdeadline niet haalt?",
+          "options": [
+            "€ 500",
+            "€ 750",
+            "€ 1.000",
+            "€ 1.250"
+          ],
+          "correctIndex": 3,
+          "explanation": "De DUO-medewerker zegt: 'Dan riskeert u een bestuurlijke boete van maximaal twaalfhonderdvijftig euro.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-2-t2.mp3"
+    },
+    {
+      "id": "l-b1-2-t3",
+      "title": "Telefoongesprek met de bank over een hypotheek",
+      "transcript": "Bankmedewerker: Goedemorgen, u spreekt met Hypotheekadvies van de Volksbank, mijn naam is Jeroen Smits.\nKlant: Goedemorgen. Ik bel over een hypotheekaanvraag. Mijn partner en ik willen een huis kopen van driehonderdvijftigduizend euro. Ik wil weten of we in aanmerking komen.\nBankmedewerker: Ik kan u een eerste indicatie geven. Mag ik vragen wat uw gezamenlijk bruto jaarinkomen is?\nKlant: Mijn partner verdient zestigduizend en ik vierenveertigduizend. Samen honderdvierduizend euro.\nBankmedewerker: Met een inkomen van honderdvierduizend kunt u in principe een hypotheek afsluiten van circa vierhonderdtienduizend euro. Dat is dus ruim voldoende voor uw koopprijs.\nKlant: Moeten we ook eigen geld inbrengen?\nBankmedewerker: Ja, dat is verplicht. U moet de kosten koper zelf betalen. Dat is ongeveer twee tot drie procent van de koopsom: zeven- tot tiendduizend euro. Bovendien kunt u door de nieuwe regels maximaal honderd procent van de waarde van de woning lenen — niet meer.\nKlant: Welke documenten hebben we nodig voor de aanvraag?\nBankmedewerker: In elk geval een recent salarisstrookje van de afgelopen drie maanden, een werkgeversverklaring, uw identiteitsbewijzen en het voorlopige koopcontract als u dat al heeft. Als een van u zelfstandige is, heb ik de afgelopen drie jaarrekeningen nodig.\nKlant: Hoelang duurt de beoordeling?\nBankmedewerker: Gemiddeld twee tot drie weken, afhankelijk van de compleetheid van uw dossier.",
+      "questions": [
+        {
+          "id": "l-b1-2-q11",
+          "text": "Hoe groot is het huis dat het stel wil kopen?",
+          "options": [
+            "€ 250.000",
+            "€ 300.000",
+            "€ 350.000",
+            "€ 400.000"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant zegt: 'Mijn partner en ik willen een huis kopen van driehonderdvijftigduizend euro.'"
+        },
+        {
+          "id": "l-b1-2-q12",
+          "text": "Wat is het gezamenlijke bruto jaarinkomen?",
+          "options": [
+            "€ 90.000",
+            "€ 104.000",
+            "€ 120.000",
+            "€ 140.000"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klant zegt: 'Samen honderdvierduizend euro.' (€60.000 + €44.000)"
+        },
+        {
+          "id": "l-b1-2-q13",
+          "text": "Wat zijn de kosten koper en moeten die zelf betaald worden?",
+          "options": [
+            "Vijf procent, de bank betaalt dit mee",
+            "Twee tot drie procent van de koopsom, en die moeten zelf betaald worden",
+            "Tien procent, maar dat kan geleend worden",
+            "Er zijn geen extra kosten"
+          ],
+          "correctIndex": 1,
+          "explanation": "De bankmedewerker zegt: 'U moet de kosten koper zelf betalen. Dat is ongeveer twee tot drie procent van de koopsom.'"
+        },
+        {
+          "id": "l-b1-2-q14",
+          "text": "Welk document is extra nodig als een van de aanvragers zelfstandige is?",
+          "options": [
+            "Een DigiD-bewijs",
+            "Een verklaring van de gemeente",
+            "De afgelopen drie jaarrekeningen",
+            "Een pensioenopgave"
+          ],
+          "correctIndex": 2,
+          "explanation": "De bankmedewerker zegt: 'Als een van u zelfstandige is, heb ik de afgelopen drie jaarrekeningen nodig.'"
+        },
+        {
+          "id": "l-b1-2-q15",
+          "text": "Hoelang duurt de beoordeling van de hypotheekaanvraag gemiddeld?",
+          "options": [
+            "Één week",
+            "Twee tot drie weken",
+            "Vier tot zes weken",
+            "Twee maanden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De bankmedewerker zegt: 'Gemiddeld twee tot drie weken, afhankelijk van de compleetheid van uw dossier.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-2-t3.mp3"
+    },
+    {
+      "id": "l-b1-2-t4",
+      "title": "Oudergesprek op school",
+      "transcript": "Docent: Goedemiddag mevrouw Yilmaz. Fijn dat u er bent. Gaat u zitten. Ik wil met u praten over het leerproces van uw zoon Emre.\nOuder: Goedemiddag. Ik maak me al een tijdje zorgen. Emre zegt dat hij het moeilijk vindt op school.\nDocent: Dat klopt. Emre is een intelligente jongen met veel potentieel, maar we merken dat hij moeite heeft met concentratie in de klas. Zijn toetsresultaten wisselen sterk, en soms is hij afwezig ook al is hij aanwezig, als u begrijpt wat ik bedoel.\nOuder: Ja, dat herken ik ook thuis. Hij kan erg druk zijn. Soms kan hij uren achter zijn computer zitten, maar huiswerk doen is een strijd.\nDocent: Dat is een bekend patroon. We hebben dit intern besproken en we denken dat het zinvol is Emre te laten onderzoeken. Er zijn aanwijzingen voor mogelijk ADHD. Een formele diagnose kan hem helpen de juiste ondersteuning te krijgen.\nOuder: Hoe werkt dat onderzoek?\nDocent: De school kan een aanvraag indienen bij de schoolpsycholoog. Die doet een uitgebreide observatie en bespreking. Daarna kunt u eventueel ook naar de huisarts voor een verwijzing naar een kinderpsychiater. Wilt u dat wij dit traject opstarten?\nOuder: Ja, graag. Ik wil Emre zo goed mogelijk helpen. Wat kan ik thuis doen in de tussentijd?\nDocent: Structuur en rust helpen het meest. Vaste tijden voor eten, slapen en huiswerk. En beperk de schermtijd in de avonduren.",
+      "questions": [
+        {
+          "id": "l-b1-2-q16",
+          "text": "Wat is het gespreksonderwerp tussen de docent en de ouder?",
+          "options": [
+            "Een conflict tussen Emre en een klasgenoot",
+            "De leermoeilijkheden en het mogelijke onderzoek voor Emre",
+            "De aanmelding voor een andere school",
+            "De vakantieplannen van de leerling"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent zegt: 'Ik wil met u praten over het leerproces van uw zoon Emre.' Het gesprek gaat over zijn moeite met concentratie en een mogelijk onderzoek."
+        },
+        {
+          "id": "l-b1-2-q17",
+          "text": "Wat merkt de docent bij Emre in de klas?",
+          "options": [
+            "Hij is vaak agressief naar klasgenoten",
+            "Hij heeft moeite met concentratie en zijn toetsresultaten wisselen sterk",
+            "Hij weigert opdrachten te maken",
+            "Hij is altijd te laat"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent zegt: 'hij heeft moeite met concentratie in de klas' en 'zijn toetsresultaten wisselen sterk.'"
+        },
+        {
+          "id": "l-b1-2-q18",
+          "text": "Wat denkt de school dat er aan de hand is met Emre?",
+          "options": [
+            "Hij heeft een leerstoornis zoals dyslexie",
+            "Hij heeft mogelijk ADHD",
+            "Hij heeft problemen thuis",
+            "Hij is te jong voor het niveau"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent zegt: 'Er zijn aanwijzingen voor mogelijk ADHD.'"
+        },
+        {
+          "id": "l-b1-2-q19",
+          "text": "Wie kan een uitgebreide observatie doen voor de formele diagnose?",
+          "options": [
+            "De klassendocent zelf",
+            "De schoolpsycholoog",
+            "De huisarts",
+            "De gemeente"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent zegt: 'De school kan een aanvraag indienen bij de schoolpsycholoog. Die doet een uitgebreide observatie en bespreking.'"
+        },
+        {
+          "id": "l-b1-2-q20",
+          "text": "Welk advies geeft de docent voor thuis?",
+          "options": [
+            "Meer huiswerk opgeven",
+            "Emre zijn eigen planning laten maken",
+            "Structuur en rust: vaste tijden en beperkte schermtijd in de avond",
+            "Extra bijles regelen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De docent zegt: 'Structuur en rust helpen het meest. Vaste tijden voor eten, slapen en huiswerk. En beperk de schermtijd in de avonduren.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-2-t4.mp3"
+    },
+    {
+      "id": "l-b1-2-t5",
+      "title": "Radioprogramma: debat over integratie",
+      "transcript": "Presentator: Welkom bij Debatuur, het radioprogramma waar actuele maatschappelijke kwesties worden besproken. Vanavond: integratie. Werkt het Nederlandse integratiebeleid? Ik heb twee gasten: Gast1, socioloog aan de Universiteit van Amsterdam, en Gast2, bestuurder bij een migrantenorganisatie.\nGast1: Ik denk dat het beleid de afgelopen tien jaar grote vooruitgang heeft geboekt. Meer mensen dan ooit volgen een inburgeringstraject, de taaleis is aangescherpt, en we zien dat mensen die het B1-niveau halen significant beter slagen op de arbeidsmarkt.\nGast2: Ik zie dat anders. Het gaat niet alleen om taal en diploma's. Mensen die perfect Nederlands spreken, worden nog steeds gediscrimineerd op de arbeidsmarkt op basis van hun naam of achtergrond. Dat is een structureel probleem dat het beleid onvoldoende aanpakt.\nPresentator: Is er bewijs voor die discriminatie?\nGast2: Ja, het CBS heeft aangetoond dat mensen met een niet-westerse naam bij gelijke kwalificaties significant minder uitnodigingen krijgen voor sollicitatiegesprekken. Dat heeft niets met taal of inburgering te maken.\nGast1: Dat klopt, maar dat rechtvaardigt niet om de taaleis te verlagen. Taalvaardigheid is een basisvoorwaarde voor participatie. Ik pleit voor een combinatie: hoge taaleis én stevige handhaving van anti-discriminatiewetgeving.\nPresentator: Een genuanceerd standpunt aan beide kanten. Dank voor uw inbreng.",
+      "questions": [
+        {
+          "id": "l-b1-2-q21",
+          "text": "Wat is het onderwerp van het radioprogramma?",
+          "options": [
+            "De housing crisis in Nederland",
+            "Of het Nederlandse integratiebeleid werkt",
+            "De toekomst van de Nederlandse economie",
+            "Criminaliteit in grote steden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De presentator zegt: 'Vanavond: integratie. Werkt het Nederlandse integratiebeleid?'"
+        },
+        {
+          "id": "l-b1-2-q22",
+          "text": "Wat is het standpunt van Gast1 over het integratiebeleid?",
+          "options": [
+            "Het beleid werkt niet en moet worden afgeschaft",
+            "Het beleid heeft grote vooruitgang geboekt en de taaleis heeft geholpen",
+            "Het beleid is te streng en discrimineert migranten",
+            "Integratie is een persoonlijke verantwoordelijkheid, niet van de overheid"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gast1 zegt: 'Ik denk dat het beleid de afgelopen tien jaar grote vooruitgang heeft geboekt' en noemt de taaleis en arbeidsmarktresultaten als positief."
+        },
+        {
+          "id": "l-b1-2-q23",
+          "text": "Wat is de kritiek van Gast2?",
+          "options": [
+            "De taaleis is te laag; mensen moeten C1-niveau halen",
+            "Discriminatie op de arbeidsmarkt is een structureel probleem dat het beleid onvoldoende aanpakt",
+            "Inburgeringscursussen zijn te duur voor migranten",
+            "Er zijn te weinig examencentra in Nederland"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gast2 zegt: 'mensen die perfect Nederlands spreken, worden nog steeds gediscrimineerd op de arbeidsmarkt' en noemt dit een structureel probleem."
+        },
+        {
+          "id": "l-b1-2-q24",
+          "text": "Welk onderzoek noemt Gast2 als bewijs voor discriminatie?",
+          "options": [
+            "Een rapport van de Tweede Kamer",
+            "Een studie van de Universiteit van Amsterdam",
+            "CBS-data die aantoont dat mensen met een niet-westerse naam minder uitnodigingen krijgen",
+            "Een onderzoek van het Juridisch Loket"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gast2 zegt: 'het CBS heeft aangetoond dat mensen met een niet-westerse naam bij gelijke kwalificaties significant minder uitnodigingen krijgen.'"
+        },
+        {
+          "id": "l-b1-2-q25",
+          "text": "Wat stelt Gast1 als oplossing voor?",
+          "options": [
+            "De taaleis afschaffen",
+            "Meer geld voor inburgeringscursussen",
+            "Een combinatie van hoge taaleis én stevige handhaving van anti-discriminatiewetgeving",
+            "Verplichte stage voor alle inburgeraars"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gast1 pleit voor: 'een combinatie: hoge taaleis én stevige handhaving van anti-discriminatiewetgeving.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-2-t5.mp3"
+    }
+  ]
+}
