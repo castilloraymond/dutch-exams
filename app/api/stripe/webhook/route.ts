@@ -2,10 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2026-01-28.clover",
-});
-
 export async function POST(request: NextRequest) {
   try {
     if (!process.env.STRIPE_SECRET_KEY || !process.env.STRIPE_WEBHOOK_SECRET) {
@@ -14,6 +10,10 @@ export async function POST(request: NextRequest) {
         { status: 503 }
       );
     }
+
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+      apiVersion: "2026-01-28.clover",
+    });
 
     if (!supabaseAdmin) {
       return NextResponse.json(
