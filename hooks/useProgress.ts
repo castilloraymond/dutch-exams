@@ -30,6 +30,31 @@ function useProgressStore() {
   return JSON.parse(data) as UserProgress;
 }
 
+function countExercises(p: UserProgress): number {
+  const exams = Object.keys(p.examProgress || {}).length;
+  const writing = Object.keys(p.writingProgress || {}).length;
+  const speaking = Object.keys(p.speakingProgress || {}).length;
+  return exams + writing + speaking;
+}
+
+function fireExerciseCompleted(updated: UserProgress) {
+  const email = updated.email;
+  if (!email) return;
+
+  const count = countExercises(updated);
+  fetch("/api/loops/events", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      email,
+      eventName: "exercise_completed",
+      contactProperties: { exercisesCompleted: count },
+    }),
+  }).catch(() => {
+    // Non-critical — don't disrupt the user
+  });
+}
+
 export function useProgress() {
   const storedProgress = useProgressStore();
   const [progress, setProgress] = useState<UserProgress>(storedProgress);
@@ -129,6 +154,7 @@ export function useProgress() {
           },
         };
         saveProgress(updated);
+        fireExerciseCompleted(updated);
         return updated;
       });
     },
@@ -147,6 +173,7 @@ export function useProgress() {
           },
         };
         saveProgress(updated);
+        fireExerciseCompleted(updated);
         return updated;
       });
     },
@@ -185,6 +212,7 @@ export function useProgress() {
           },
         };
         saveProgress(updated);
+        fireExerciseCompleted(updated);
         return updated;
       });
     },

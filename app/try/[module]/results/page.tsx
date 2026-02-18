@@ -40,6 +40,49 @@ export default function ResultsPage() {
   const [questions, setQuestions] = useState<QuickAssessmentQuestion[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Fire Loops quick_assessment_completed event (once per user)
+  useEffect(() => {
+    if (!user?.email || !result) return;
+    const flag = "loops-qa-event-sent";
+    if (localStorage.getItem(flag)) return;
+
+    // Calculate weakest module from all attempted quick assessments
+    const modules = getQuickAssessmentModules();
+    let weakestModule = module;
+    let lowestPct = 100;
+
+    for (const m of modules) {
+      const saved = localStorage.getItem(`${STORAGE_KEY_PREFIX}${m.module}-result`);
+      if (!saved) continue;
+      try {
+        const attempt: QuickAssessmentAttempt = JSON.parse(saved);
+        const pct = (attempt.score / attempt.answers.length) * 100;
+        if (pct < lowestPct) {
+          lowestPct = pct;
+          weakestModule = m.module;
+        }
+      } catch {
+        // skip malformed entries
+      }
+    }
+
+    localStorage.setItem(flag, "1");
+    fetch("/api/loops/events", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: user.email,
+        eventName: "quick_assessment_completed",
+        contactProperties: {
+          quickAssessmentCompleted: true,
+          weakestModule,
+        },
+      }),
+    }).catch(() => {
+      // Non-critical — don't block the UI
+    });
+  }, [user, result, module]);
+
   useEffect(() => {
     const modules = getQuickAssessmentModules();
     const validModule = modules.find((m) => m.module === module);
