@@ -27,6 +27,7 @@ interface AuthContextType {
   signInWithPassword: (email: string, password: string) => Promise<AuthResult>;
   resetPassword: (email: string) => Promise<AuthResult>;
   updatePassword: (password: string) => Promise<AuthResult>;
+  refreshSession: () => Promise<void>;
   signOut: () => Promise<void>;
 }
 
@@ -146,6 +147,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return {};
   }, [supabase]);
 
+  const refreshSession = useCallback(async () => {
+    if (!supabase) return;
+    const { data } = await supabase.auth.refreshSession();
+    if (data.session) {
+      setSession(data.session);
+      setUser(data.session.user);
+    }
+  }, [supabase]);
+
   const signOut = useCallback(async () => {
     if (!supabase) {
       console.warn("Supabase not configured. Authentication is disabled.");
@@ -172,6 +182,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         signInWithPassword,
         resetPassword,
         updatePassword,
+        refreshSession,
         signOut,
       }}
     >

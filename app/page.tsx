@@ -6,7 +6,6 @@ import {
   ProblemSection,
   HowItWorks,
   Features,
-  Pricing,
   FAQ,
   BlogPreview,
   FinalCTA,
@@ -51,7 +50,6 @@ export default function Home() {
       <ProblemSection />
       <HowItWorks />
       <Features />
-      <Pricing />
       <FAQ />
       <BlogPreview />
       <FinalCTA />

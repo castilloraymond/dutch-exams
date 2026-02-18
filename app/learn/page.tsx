@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check, X, Sparkles, ArrowRight, Crown } from "lucide-react";
+import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check, X, Sparkles, ArrowRight, PartyPopper, Infinity, Rocket, ShieldCheck, Mail } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 import { getWritingIndex, getSpeakingIndex, getMockExamIndex } from "@/lib/content";
@@ -52,6 +53,7 @@ const modules = [
 ];
 
 export default function LearnHubPage() {
+  const { refreshSession } = useAuth();
   const { progress } = useProgress();
   const writingIndex = getWritingIndex();
   const speakingIndex = getSpeakingIndex();
@@ -61,17 +63,16 @@ export default function LearnHubPage() {
   // Onboarding state
   const [showWelcome, setShowWelcome] = useState(false);
   const [showToast, setShowToast] = useState(false);
-  const [showUpgradeToast, setShowUpgradeToast] = useState(false);
+  const [showUpgradeBanner, setShowUpgradeBanner] = useState(false);
 
-  // Upgrade toast
+  // Upgrade banner
   useEffect(() => {
     if (searchParams.get("upgraded") === "true") {
-      setShowUpgradeToast(true);
-      // Clean the URL
+      refreshSession();
+      setShowUpgradeBanner(true);
       window.history.replaceState({}, "", "/learn");
-      setTimeout(() => setShowUpgradeToast(false), 6000);
     }
-  }, [searchParams]);
+  }, [searchParams, refreshSession]);
 
   useEffect(() => {
     // Welcome banner: show if no progress and banner not yet dismissed
@@ -276,11 +277,54 @@ export default function LearnHubPage() {
         </div>
       )}
 
-      {/* Upgrade toast */}
-      {showUpgradeToast && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-[var(--accent)] text-white text-sm px-5 py-3 rounded-full shadow-lg z-50 animate-reveal flex items-center gap-2">
-          <Crown className="h-4 w-4" />
-          Welcome, Founding Member! All content is now unlocked.
+      {/* Upgrade congratulations banner */}
+      {showUpgradeBanner && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 animate-reveal">
+          <div className="relative bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 p-8 text-center">
+            <button
+              onClick={() => setShowUpgradeBanner(false)}
+              className="absolute top-4 right-4 text-[var(--ink-muted)] hover:text-[var(--ink)] transition-colors"
+            >
+              <X className="h-5 w-5" />
+            </button>
+
+            <div className="w-16 h-16 rounded-full bg-[var(--accent)]/10 flex items-center justify-center mx-auto mb-4">
+              <PartyPopper className="h-8 w-8 text-[var(--accent)]" />
+            </div>
+
+            <h2 className="text-2xl font-bold text-[var(--ink)] mb-2">
+              Welcome, Founding Member!
+            </h2>
+            <p className="text-[var(--ink-soft)] mb-6">
+              Thank you for joining us early. Your support makes this project possible. Here&apos;s what you&apos;ve unlocked:
+            </p>
+
+            <div className="text-left space-y-3 mb-6">
+              <div className="flex items-start gap-3">
+                <Infinity className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-[var(--ink)]"><span className="font-semibold">Lifetime access</span> — all 28 mock exams, writing & speaking exercises, forever</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <Rocket className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-[var(--ink)]"><span className="font-semibold">Future updates included</span> — new content, features, and improvements at no extra cost</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <ShieldCheck className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-[var(--ink)]"><span className="font-semibold">Full refund guarantee</span> — no questions asked, anytime</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <Mail className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-[var(--ink)]"><span className="font-semibold">Direct access to the team</span> — email us anytime with questions, feedback, or bug reports</p>
+              </div>
+            </div>
+
+            <button
+              onClick={() => setShowUpgradeBanner(false)}
+              className="cta-primary w-full py-3 rounded-xl font-semibold text-white"
+            >
+              Start Practicing
+            </button>
+          </div>
         </div>
       )}
     </main>
