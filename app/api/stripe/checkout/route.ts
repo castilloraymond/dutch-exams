@@ -58,6 +58,12 @@ export async function POST(request: NextRequest) {
       metadata: {
         supabase_user_id: user.id,
       },
+      custom_text: {
+        submit: {
+          message:
+            "Thank you for becoming a Founding Member! You're getting lifetime access to all current and future content, early access to new features, and a full refund guarantee — no questions asked.",
+        },
+      },
       success_url: `${origin}/learn?upgraded=true`,
       cancel_url: `${origin}/upgrade`,
     });
