@@ -286,5 +286,6 @@
       ],
       "audioFile": "/audio/luisteren/mock/l-a2-6-t5.mp3"
     }
-  ]
+  ],
+  "isFreePreview": false
 }

@@ -16,7 +16,12 @@
         {
           "id": "a1-4-q1",
           "text": "Hoeveel kost de kaas nu?",
-          "options": ["€ 2,49", "€ 3,49", "€ 4,49", "€ 4,99"],
+          "options": [
+            "€ 2,49",
+            "€ 3,49",
+            "€ 4,49",
+            "€ 4,99"
+          ],
           "correctIndex": 1,
           "explanation": "De kaas kost nu € 3,49 in de aanbieding.",
           "explanationEn": "The cheese now costs €3.49 on sale."
@@ -24,7 +29,12 @@
         {
           "id": "a1-4-q2",
           "text": "Tot wanneer geldt de aanbieding?",
-          "options": ["Tot vrijdag 14 maart", "Tot zaterdag 15 maart", "Tot zondag 16 maart", "Tot maandag 17 maart"],
+          "options": [
+            "Tot vrijdag 14 maart",
+            "Tot zaterdag 15 maart",
+            "Tot zondag 16 maart",
+            "Tot maandag 17 maart"
+          ],
           "correctIndex": 2,
           "explanation": "De aanbieding geldt tot en met zondag 16 maart.",
           "explanationEn": "The offer is valid until Sunday March 16."
@@ -32,7 +42,12 @@
         {
           "id": "a1-4-q3",
           "text": "Hoeveel producten mag je maximaal kopen per product?",
-          "options": ["1", "2", "3", "5"],
+          "options": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
           "correctIndex": 1,
           "explanation": "Je mag maximaal 2 per klant kopen.",
           "explanationEn": "You may buy a maximum of 2 per customer."
@@ -49,7 +64,12 @@
         {
           "id": "a1-4-q4",
           "text": "Hoe laat gaat het zwembad open op zaterdag?",
-          "options": ["07:00", "08:00", "09:00", "10:00"],
+          "options": [
+            "07:00",
+            "08:00",
+            "09:00",
+            "10:00"
+          ],
           "correctIndex": 2,
           "explanation": "Op zaterdag en zondag gaat het zwembad om 09:00 open.",
           "explanationEn": "On Saturday and Sunday the pool opens at 09:00."
@@ -57,7 +77,12 @@
         {
           "id": "a1-4-q5",
           "text": "Hoeveel betaalt een kind van 8 jaar?",
-          "options": ["Gratis", "€ 3,50", "€ 4,50", "€ 5,50"],
+          "options": [
+            "Gratis",
+            "€ 3,50",
+            "€ 4,50",
+            "€ 5,50"
+          ],
           "correctIndex": 1,
           "explanation": "Kinderen van 4 tot 12 jaar betalen € 3,50.",
           "explanationEn": "Children aged 4 to 12 pay €3.50."
@@ -65,7 +90,12 @@
         {
           "id": "a1-4-q6",
           "text": "Wat is verplicht in het zwembad?",
-          "options": ["Een handdoek", "Zwemschoenen", "Een badmuts", "Een zwembril"],
+          "options": [
+            "Een handdoek",
+            "Zwemschoenen",
+            "Een badmuts",
+            "Een zwembril"
+          ],
           "correctIndex": 2,
           "explanation": "Een badmuts is verplicht in het zwembad.",
           "explanationEn": "A swim cap is mandatory in the pool."
@@ -82,7 +112,12 @@
         {
           "id": "a1-4-q7",
           "text": "Hoe oud wordt oma?",
-          "options": ["70", "73", "75", "80"],
+          "options": [
+            "70",
+            "73",
+            "75",
+            "80"
+          ],
           "correctIndex": 2,
           "explanation": "Oma wordt 75 jaar.",
           "explanationEn": "Grandma is turning 75."
@@ -90,7 +125,12 @@
         {
           "id": "a1-4-q8",
           "text": "Wanneer komt Sara op bezoek?",
-          "options": ["Vrijdag", "Zaterdag", "Zondag", "Maandag"],
+          "options": [
+            "Vrijdag",
+            "Zaterdag",
+            "Zondag",
+            "Maandag"
+          ],
           "correctIndex": 1,
           "explanation": "Sara komt zaterdag op bezoek.",
           "explanationEn": "Sara is visiting on Saturday."
@@ -98,7 +138,12 @@
         {
           "id": "a1-4-q9",
           "text": "Wat heeft Sara gemaakt?",
-          "options": ["Soep", "Een cadeau", "Een taart", "Koekjes"],
+          "options": [
+            "Soep",
+            "Een cadeau",
+            "Een taart",
+            "Koekjes"
+          ],
           "correctIndex": 2,
           "explanation": "Sara heeft een taart gebakken.",
           "explanationEn": "Sara baked a cake."
@@ -115,7 +160,12 @@
         {
           "id": "a1-4-q10",
           "text": "Welke bus gaat naar het ziekenhuis?",
-          "options": ["Lijn 5", "Lijn 12", "Lijn 20", "Lijn 25"],
+          "options": [
+            "Lijn 5",
+            "Lijn 12",
+            "Lijn 20",
+            "Lijn 25"
+          ],
           "correctIndex": 1,
           "explanation": "Lijn 12 gaat richting het ziekenhuis.",
           "explanationEn": "Line 12 goes towards the hospital."
@@ -123,7 +173,12 @@
         {
           "id": "a1-4-q11",
           "text": "Hoe laat is de eerste bus?",
-          "options": ["06:00", "06:30", "07:00", "07:30"],
+          "options": [
+            "06:00",
+            "06:30",
+            "07:00",
+            "07:30"
+          ],
           "correctIndex": 1,
           "explanation": "De eerste bus is om 06:30.",
           "explanationEn": "The first bus is at 06:30."
@@ -131,7 +186,12 @@
         {
           "id": "a1-4-q12",
           "text": "Waar kun je een OV-chipkaart kopen?",
-          "options": ["In de bus", "Bij de Primera", "Op het station", "Bij de Albert Heijn"],
+          "options": [
+            "In de bus",
+            "Bij de Primera",
+            "Op het station",
+            "Bij de Albert Heijn"
+          ],
           "correctIndex": 1,
           "explanation": "Je kunt een OV-chipkaart kopen bij de Primera.",
           "explanationEn": "You can buy an OV-chipcard at the Primera."
@@ -148,7 +208,12 @@
         {
           "id": "a1-4-q13",
           "text": "Waar woont Fatima?",
-          "options": ["Amsterdam", "Rotterdam", "Eindhoven", "Groningen"],
+          "options": [
+            "Amsterdam",
+            "Rotterdam",
+            "Eindhoven",
+            "Groningen"
+          ],
           "correctIndex": 2,
           "explanation": "Fatima woont in Eindhoven.",
           "explanationEn": "Fatima lives in Eindhoven."
@@ -156,7 +221,12 @@
         {
           "id": "a1-4-q14",
           "text": "Wat doet Fatima elke ochtend eerst?",
-          "options": ["Ze gaat naar de cursus", "Ze brengt haar kinderen naar school", "Ze maakt het huis schoon", "Ze kookt"],
+          "options": [
+            "Ze gaat naar de cursus",
+            "Ze brengt haar kinderen naar school",
+            "Ze maakt het huis schoon",
+            "Ze kookt"
+          ],
           "correctIndex": 1,
           "explanation": "Elke ochtend brengt Fatima haar kinderen naar school.",
           "explanationEn": "Every morning Fatima takes her children to school."
@@ -164,12 +234,18 @@
         {
           "id": "a1-4-q15",
           "text": "Hoe laat begint de cursus Nederlands?",
-          "options": ["08:30", "09:00", "09:30", "10:00"],
+          "options": [
+            "08:30",
+            "09:00",
+            "09:30",
+            "10:00"
+          ],
           "correctIndex": 2,
           "explanation": "De cursus is van 09:30 tot 12:00.",
           "explanationEn": "The course is from 09:30 to 12:00."
         }
       ]
     }
-  ]
+  ],
+  "isFreePreview": false
 }

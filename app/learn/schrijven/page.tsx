@@ -1,14 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, PenLine, FileText, ClipboardList, Check } from "lucide-react";
+import { ArrowLeft, PenLine, FileText, ClipboardList, Check, Lock } from "lucide-react";
 import { getWritingIndex } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
 import { MockupNote } from "@/components/MockupNote";
 
 export default function SchrijvenPage() {
   const index = getWritingIndex();
   const { progress } = useProgress();
+  const { isPremium } = usePremium();
 
   const a1Tasks = index.tasks.filter((t) => t.difficulty === "A1");
   const a2Tasks = index.tasks.filter((t) => t.difficulty === "A2");
@@ -34,14 +36,15 @@ export default function SchrijvenPage() {
   const renderTaskCard = (task: (typeof index.tasks)[number]) => {
     const Icon = getTaskIcon(task.taskType);
     const isCompleted = progress.writingProgress?.[task.id]?.completedAt;
+    const isLocked = !task.isFreePreview && !isPremium;
 
     return (
-      <Link key={task.id} href={`/learn/schrijven/${task.id}`}>
-        <div className="landing-card p-4 sm:p-6 cursor-pointer mb-4 hover:shadow-lg transition-shadow">
+      <Link key={task.id} href={isLocked ? "/upgrade" : `/learn/schrijven/${task.id}`}>
+        <div className={`landing-card p-4 sm:p-6 cursor-pointer mb-4 hover:shadow-lg transition-shadow ${isLocked ? "opacity-70" : ""}`}>
           <div className="flex items-center gap-4">
             <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--accent)]/10 flex items-center justify-center relative">
               <Icon className="h-6 w-6 text-[var(--accent)]" />
-              {isCompleted && (
+              {isCompleted && !isLocked && (
                 <div className="absolute -top-1 -right-1 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
                   <Check className="h-3 w-3 text-white" />
                 </div>
@@ -63,6 +66,12 @@ export default function SchrijvenPage() {
                 {task.isFreePreview && (
                   <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">
                     Gratis
+                  </span>
+                )}
+                {isLocked && (
+                  <span className="flex items-center gap-1 text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/10 text-[var(--ink)]/60">
+                    <Lock className="h-3 w-3" />
+                    Premium
                   </span>
                 )}
               </div>

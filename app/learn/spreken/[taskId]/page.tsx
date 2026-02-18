@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, Mic, Clock, AlertCircle } from "lucide-react";
 import { getSpeakingTask } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
+import { PremiumGate } from "@/components/PremiumGate";
 import { useAudioRecorder } from "@/hooks/useAudioRecorder";
 import type { SpeakingAttempt, SpeakingQuestion } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
@@ -28,6 +30,7 @@ export default function SprekenTaskPage({ params }: PageProps) {
   const { taskId } = use(params);
   const { saveSpeakingAttempt } = useProgress();
 
+  const { isPremium } = usePremium();
   const task = useMemo(() => getSpeakingTask(taskId), [taskId]);
 
   // Build questions array: use task.questions if available, else build single-question from legacy fields
@@ -181,6 +184,10 @@ export default function SprekenTaskPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Opdracht niet gevonden</div>
       </div>
     );
+  }
+
+  if (!task.isFreePreview && !isPremium) {
+    return <PremiumGate backHref="/learn/spreken" backLabel="Back to Speaking" />;
   }
 
   return (

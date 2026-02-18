@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
 import { Button } from "@/components/ui/button";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 import {
@@ -37,6 +38,7 @@ export default function ProfilePage() {
   const router = useRouter();
   const { user, loading, isConfigured, resetPassword, signOut } = useAuth();
   const { progress } = useProgress();
+  const { isPremium } = usePremium();
   const [resetStatus, setResetStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [signingOut, setSigningOut] = useState(false);
 
@@ -113,7 +115,14 @@ export default function ProfilePage() {
                 </span>
               </div>
               <div>
-                <p className="font-semibold text-[var(--ink)]">{email}</p>
+                <div className="flex items-center gap-2">
+                  <p className="font-semibold text-[var(--ink)]">{email}</p>
+                  {isPremium && (
+                    <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
+                      Founding Member
+                    </span>
+                  )}
+                </div>
                 <div className="flex items-center gap-1.5 mt-1 text-sm text-[var(--ink)]/60">
                   {isGoogleUser ? (
                     <>

@@ -40,7 +40,7 @@
     "Be clear and direct - say yes or no first, then explain.",
     "Keep it short and friendly."
   ],
-  "isFreePreview": true,
+  "isFreePreview": false,
   "questions": [
     {
       "id": "reply-colleague-shift-q1",
@@ -49,11 +49,26 @@
       "prompt": "Schrijf een bericht aan Lisa. Zeg dat u haar shift kunt overnemen en vraag hoe laat u moet beginnen.",
       "promptEn": "Write a message to Lisa. Say you can take her shift and ask what time you should start.",
       "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
+      "wordRange": {
+        "min": 25,
+        "max": 50
+      },
       "selfAssessmentCriteria": [
-        { "id": "q1-answer", "text": "I said yes to the request", "textEn": "I said yes to the request" },
-        { "id": "q1-question", "text": "I asked about the start time", "textEn": "I asked about the start time" },
-        { "id": "q1-friendly", "text": "My message is friendly", "textEn": "My message is friendly" }
+        {
+          "id": "q1-answer",
+          "text": "I said yes to the request",
+          "textEn": "I said yes to the request"
+        },
+        {
+          "id": "q1-question",
+          "text": "I asked about the start time",
+          "textEn": "I asked about the start time"
+        },
+        {
+          "id": "q1-friendly",
+          "text": "My message is friendly",
+          "textEn": "My message is friendly"
+        }
       ],
       "modelAnswer": "Hoi Lisa,\n\nGeen probleem, ik kan je ochtendshift overnemen. Hoe laat moet ik beginnen? En moet ik nog iets weten over het werk?\n\nGroetjes,\nSarah"
     },
@@ -64,11 +79,26 @@
       "prompt": "Schrijf een antwoord aan Mark. Zeg dat u niet kunt helpen en leg uit waarom.",
       "promptEn": "Write a reply to Mark. Say you cannot help and explain why.",
       "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
+      "wordRange": {
+        "min": 25,
+        "max": 50
+      },
       "selfAssessmentCriteria": [
-        { "id": "q2-answer", "text": "I clearly said no", "textEn": "I clearly said no" },
-        { "id": "q2-reason", "text": "I gave a reason", "textEn": "I gave a reason" },
-        { "id": "q2-polite", "text": "I was polite about saying no", "textEn": "I was polite about saying no" }
+        {
+          "id": "q2-answer",
+          "text": "I clearly said no",
+          "textEn": "I clearly said no"
+        },
+        {
+          "id": "q2-reason",
+          "text": "I gave a reason",
+          "textEn": "I gave a reason"
+        },
+        {
+          "id": "q2-polite",
+          "text": "I was polite about saying no",
+          "textEn": "I was polite about saying no"
+        }
       ],
       "modelAnswer": "Hoi Mark,\n\nSorry, ik kan zondag helaas niet werken. Ik heb een familiefeest en kan niet afzeggen. Misschien kun je het aan iemand anders vragen?\n\nSucces!\nGroetjes,\nSarah"
     },
@@ -79,11 +109,26 @@
       "prompt": "Schrijf een bericht aan uw collega. Vertel dat u ziek bent en vraag of hij/zij uw shift kan overnemen.",
       "promptEn": "Write a message to your colleague. Say you are sick and ask if they can take your shift.",
       "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
+      "wordRange": {
+        "min": 25,
+        "max": 50
+      },
       "selfAssessmentCriteria": [
-        { "id": "q3-situation", "text": "I explained that I am sick", "textEn": "I explained that I am sick" },
-        { "id": "q3-request", "text": "I asked them to take my shift", "textEn": "I asked them to take my shift" },
-        { "id": "q3-details", "text": "I mentioned which shift", "textEn": "I mentioned which shift" }
+        {
+          "id": "q3-situation",
+          "text": "I explained that I am sick",
+          "textEn": "I explained that I am sick"
+        },
+        {
+          "id": "q3-request",
+          "text": "I asked them to take my shift",
+          "textEn": "I asked them to take my shift"
+        },
+        {
+          "id": "q3-details",
+          "text": "I mentioned which shift",
+          "textEn": "I mentioned which shift"
+        }
       ],
       "modelAnswer": "Hoi Peter,\n\nIk ben helaas ziek en kan morgen niet werken. Mijn shift is van 9:00 tot 17:00 uur. Kun jij mijn shift overnemen? Ik werk een andere keer voor jou.\n\nBedankt!\nGroetjes,\nSarah"
     }

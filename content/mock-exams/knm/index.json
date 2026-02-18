@@ -6,56 +6,64 @@
       "title": "KNM A1 - Oefenexamen 1",
       "difficulty": "A1",
       "questionCount": 25,
-      "recommendedTime": "20 min"
+      "recommendedTime": "20 min",
+      "isFreePreview": true
     },
     {
       "id": "knm-a1-2",
       "title": "KNM A1 - Oefenexamen 2",
       "difficulty": "A1",
       "questionCount": 25,
-      "recommendedTime": "20 min"
+      "recommendedTime": "20 min",
+      "isFreePreview": false
     },
     {
       "id": "knm-a2-1",
       "title": "KNM A2 - Oefenexamen 1",
       "difficulty": "A2",
       "questionCount": 40,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": true
     },
     {
       "id": "knm-a2-2",
       "title": "KNM A2 - Oefenexamen 2",
       "difficulty": "A2",
       "questionCount": 40,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": false
     },
     {
       "id": "knm-a1-3",
       "title": "KNM A1 - Oefenexamen 3",
       "difficulty": "A1",
       "questionCount": 25,
-      "recommendedTime": "20 min"
+      "recommendedTime": "20 min",
+      "isFreePreview": false
     },
     {
       "id": "knm-a1-4",
       "title": "KNM A1 - Oefenexamen 4",
       "difficulty": "A1",
       "questionCount": 25,
-      "recommendedTime": "20 min"
+      "recommendedTime": "20 min",
+      "isFreePreview": false
     },
     {
       "id": "knm-a2-3",
       "title": "KNM A2 - Oefenexamen 3",
       "difficulty": "A2",
       "questionCount": 40,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": false
     },
     {
       "id": "knm-a2-4",
       "title": "KNM A2 - Oefenexamen 4",
       "difficulty": "A2",
       "questionCount": 40,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": false
     }
   ]
 }

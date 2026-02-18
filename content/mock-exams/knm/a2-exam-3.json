@@ -9,7 +9,12 @@
     {
       "id": "knm-a2-3-q1",
       "text": "Wat is het Juridisch Loket?",
-      "options": ["Een organisatie die gratis juridisch advies geeft", "Een advocatenkantoor waar je moet betalen", "Een rechtbank voor kleine zaken", "Een kantoor van de politie"],
+      "options": [
+        "Een organisatie die gratis juridisch advies geeft",
+        "Een advocatenkantoor waar je moet betalen",
+        "Een rechtbank voor kleine zaken",
+        "Een kantoor van de politie"
+      ],
       "correctIndex": 0,
       "explanation": "Het Juridisch Loket is een organisatie waar je gratis juridisch advies kunt krijgen over alledaagse juridische vragen.",
       "explanationEn": "The Juridisch Loket is an organization where you can get free legal advice about everyday legal questions."
@@ -17,7 +22,12 @@
     {
       "id": "knm-a2-3-q2",
       "text": "Waarvoor kun je terecht bij het Juridisch Loket?",
-      "options": ["Alleen voor strafzaken", "Alleen voor problemen met je werkgever", "Voor juridische vragen over bijvoorbeeld huur, werk of familierecht", "Voor het aanvragen van een verblijfsvergunning"],
+      "options": [
+        "Alleen voor strafzaken",
+        "Alleen voor problemen met je werkgever",
+        "Voor juridische vragen over bijvoorbeeld huur, werk of familierecht",
+        "Voor het aanvragen van een verblijfsvergunning"
+      ],
       "correctIndex": 2,
       "explanation": "Bij het Juridisch Loket kun je terecht met allerlei juridische vragen, zoals over huur, werk, familierecht en consumentenrecht.",
       "explanationEn": "At the Juridisch Loket you can get help with various legal questions, such as about rent, work, family law, and consumer law."
@@ -25,7 +35,12 @@
     {
       "id": "knm-a2-3-q3",
       "text": "Wat doet de Nationale Ombudsman?",
-      "options": ["Hij maakt nieuwe wetten", "Hij beslist over strafzaken", "Hij controleert de belastingaangifte", "Hij onderzoekt klachten van burgers over de overheid"],
+      "options": [
+        "Hij maakt nieuwe wetten",
+        "Hij beslist over strafzaken",
+        "Hij controleert de belastingaangifte",
+        "Hij onderzoekt klachten van burgers over de overheid"
+      ],
       "correctIndex": 3,
       "explanation": "De Nationale Ombudsman onderzoekt klachten van burgers over de overheid en overheidsinstanties.",
       "explanationEn": "The National Ombudsman investigates complaints from citizens about the government and government agencies."
@@ -33,7 +48,12 @@
     {
       "id": "knm-a2-3-q4",
       "text": "Wanneer kun je een klacht indienen bij de Nationale Ombudsman?",
-      "options": ["Als je ontevreden bent over een product dat je hebt gekocht", "Als een overheidsinstantie je klacht niet goed heeft behandeld", "Als je buurman te veel lawaai maakt", "Als je het niet eens bent met een wet"],
+      "options": [
+        "Als je ontevreden bent over een product dat je hebt gekocht",
+        "Als een overheidsinstantie je klacht niet goed heeft behandeld",
+        "Als je buurman te veel lawaai maakt",
+        "Als je het niet eens bent met een wet"
+      ],
       "correctIndex": 1,
       "explanation": "Je kunt bij de Nationale Ombudsman terecht als je een klacht hebt over een overheidsinstantie en die instantie je klacht niet goed heeft afgehandeld.",
       "explanationEn": "You can go to the National Ombudsman if you have a complaint about a government agency and that agency did not handle your complaint properly."
@@ -41,7 +61,12 @@
     {
       "id": "knm-a2-3-q5",
       "text": "Wat is de FNV?",
-      "options": ["Een politieke partij", "Een overheidsorganisatie voor sociale zekerheid", "De grootste vakbond van Nederland", "Een uitzendbureau"],
+      "options": [
+        "Een politieke partij",
+        "Een overheidsorganisatie voor sociale zekerheid",
+        "De grootste vakbond van Nederland",
+        "Een uitzendbureau"
+      ],
       "correctIndex": 2,
       "explanation": "De FNV (Federatie Nederlandse Vakbeweging) is de grootste vakbond van Nederland en komt op voor de rechten van werknemers.",
       "explanationEn": "The FNV (Federation of Dutch Trade Unions) is the largest trade union in the Netherlands and advocates for workers' rights."
@@ -49,7 +74,12 @@
     {
       "id": "knm-a2-3-q6",
       "text": "Wat is een voordeel van lidmaatschap van een vakbond?",
-      "options": ["Je krijgt automatisch een hoger salaris", "Je hoeft geen belasting meer te betalen", "Je kunt gratis reizen met het OV", "Je krijgt hulp bij problemen op het werk en juridisch advies"],
+      "options": [
+        "Je krijgt automatisch een hoger salaris",
+        "Je hoeft geen belasting meer te betalen",
+        "Je kunt gratis reizen met het OV",
+        "Je krijgt hulp bij problemen op het werk en juridisch advies"
+      ],
       "correctIndex": 3,
       "explanation": "Als lid van een vakbond kun je hulp krijgen bij arbeidsconflicten, juridisch advies en ondersteuning bij ontslagzaken.",
       "explanationEn": "As a union member, you can get help with labor disputes, legal advice, and support in dismissal cases."
@@ -57,7 +87,12 @@
     {
       "id": "knm-a2-3-q7",
       "text": "Wat zijn de provinciale staten?",
-      "options": ["De volksvertegenwoordiging van een provincie", "Het bestuur van een gemeente", "De leden van de Eerste Kamer", "De bestuurders van de waterschappen"],
+      "options": [
+        "De volksvertegenwoordiging van een provincie",
+        "Het bestuur van een gemeente",
+        "De leden van de Eerste Kamer",
+        "De bestuurders van de waterschappen"
+      ],
       "correctIndex": 0,
       "explanation": "De provinciale staten zijn de gekozen volksvertegenwoordigers van een provincie. Zij controleren het provinciebestuur.",
       "explanationEn": "The provincial states are the elected representatives of a province. They oversee the provincial government."
@@ -65,7 +100,12 @@
     {
       "id": "knm-a2-3-q8",
       "text": "Wat doen de waterschappen in Nederland?",
-      "options": ["Ze beheren de wegen en snelwegen", "Ze organiseren verkiezingen", "Ze zorgen voor het waterbeheer, zoals dijken en waterkwaliteit", "Ze verlenen bouwvergunningen"],
+      "options": [
+        "Ze beheren de wegen en snelwegen",
+        "Ze organiseren verkiezingen",
+        "Ze zorgen voor het waterbeheer, zoals dijken en waterkwaliteit",
+        "Ze verlenen bouwvergunningen"
+      ],
       "correctIndex": 2,
       "explanation": "De waterschappen zorgen voor het waterbeheer in Nederland: dijken, waterkwaliteit, en bescherming tegen overstromingen.",
       "explanationEn": "Water boards manage water in the Netherlands: dikes, water quality, and flood protection."
@@ -73,7 +113,12 @@
     {
       "id": "knm-a2-3-q9",
       "text": "Hoeveel provincies heeft Nederland?",
-      "options": ["10", "12", "14", "16"],
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
       "correctIndex": 1,
       "explanation": "Nederland heeft 12 provincies, zoals Noord-Holland, Zuid-Holland, Utrecht en Limburg.",
       "explanationEn": "The Netherlands has 12 provinces, such as North Holland, South Holland, Utrecht, and Limburg."
@@ -81,7 +126,12 @@
     {
       "id": "knm-a2-3-q10",
       "text": "Welk land was een kolonie van Nederland in Azië?",
-      "options": ["India", "China", "Japan", "Indonesië"],
+      "options": [
+        "India",
+        "China",
+        "Japan",
+        "Indonesië"
+      ],
       "correctIndex": 3,
       "explanation": "Indonesië (vroeger Nederlands-Indië) was eeuwenlang een kolonie van Nederland tot de onafhankelijkheid in 1945/1949.",
       "explanationEn": "Indonesia (formerly the Dutch East Indies) was a Dutch colony for centuries until independence in 1945/1949."
@@ -89,7 +139,12 @@
     {
       "id": "knm-a2-3-q11",
       "text": "Welk land in Zuid-Amerika was een kolonie van Nederland?",
-      "options": ["Suriname", "Brazilië", "Argentinië", "Colombia"],
+      "options": [
+        "Suriname",
+        "Brazilië",
+        "Argentinië",
+        "Colombia"
+      ],
       "correctIndex": 0,
       "explanation": "Suriname was een Nederlandse kolonie en werd in 1975 onafhankelijk.",
       "explanationEn": "Suriname was a Dutch colony and became independent in 1975."
@@ -97,7 +152,12 @@
     {
       "id": "knm-a2-3-q12",
       "text": "Wanneer werd de slavernij in het Koninkrijk der Nederlanden officieel afgeschaft?",
-      "options": ["In 1776", "In 1814", "In 1863", "In 1945"],
+      "options": [
+        "In 1776",
+        "In 1814",
+        "In 1863",
+        "In 1945"
+      ],
       "correctIndex": 2,
       "explanation": "De slavernij in het Koninkrijk der Nederlanden werd officieel afgeschaft op 1 juli 1863.",
       "explanationEn": "Slavery in the Kingdom of the Netherlands was officially abolished on July 1, 1863."
@@ -105,7 +165,12 @@
     {
       "id": "knm-a2-3-q13",
       "text": "Nederland is lid van de Europese Unie. Wat betekent dit onder andere?",
-      "options": ["Nederlanders mogen niet in andere EU-landen werken", "Nederland moet de euro afschaffen", "Nederland hoeft geen Europese wetten te volgen", "Burgers van EU-landen mogen vrij reizen en werken in Nederland"],
+      "options": [
+        "Nederlanders mogen niet in andere EU-landen werken",
+        "Nederland moet de euro afschaffen",
+        "Nederland hoeft geen Europese wetten te volgen",
+        "Burgers van EU-landen mogen vrij reizen en werken in Nederland"
+      ],
       "correctIndex": 3,
       "explanation": "Als EU-lid geldt het vrij verkeer van personen: EU-burgers mogen vrij reizen, wonen en werken in andere EU-landen.",
       "explanationEn": "As an EU member, free movement of persons applies: EU citizens can freely travel, live, and work in other EU countries."
@@ -113,7 +178,12 @@
     {
       "id": "knm-a2-3-q14",
       "text": "Wat is het Schengengebied?",
-      "options": ["Een groep Europese landen zonder grenscontroles onderling", "Een gebied waar je alleen met een visum mag komen", "Een vrijhandelszone buiten Europa", "Een militair bondgenootschap"],
+      "options": [
+        "Een groep Europese landen zonder grenscontroles onderling",
+        "Een gebied waar je alleen met een visum mag komen",
+        "Een vrijhandelszone buiten Europa",
+        "Een militair bondgenootschap"
+      ],
       "correctIndex": 0,
       "explanation": "Het Schengengebied is een groep Europese landen waartussen geen grenscontroles zijn bij het reizen.",
       "explanationEn": "The Schengen area is a group of European countries between which there are no border controls when traveling."
@@ -121,7 +191,12 @@
     {
       "id": "knm-a2-3-q15",
       "text": "Wat is het Klimaatakkoord?",
-      "options": ["Een afspraak om meer auto's te produceren", "Een Nederlands akkoord om de uitstoot van broeikasgassen te verminderen", "Een wet die windmolens verbiedt", "Een Europese belasting op energie"],
+      "options": [
+        "Een afspraak om meer auto's te produceren",
+        "Een Nederlands akkoord om de uitstoot van broeikasgassen te verminderen",
+        "Een wet die windmolens verbiedt",
+        "Een Europese belasting op energie"
+      ],
       "correctIndex": 1,
       "explanation": "Het Klimaatakkoord is een afspraak van de Nederlandse overheid met bedrijven en organisaties om de CO2-uitstoot te verminderen.",
       "explanationEn": "The Climate Agreement is a deal between the Dutch government, businesses, and organizations to reduce CO2 emissions."
@@ -129,7 +204,12 @@
     {
       "id": "knm-a2-3-q16",
       "text": "Welke maatregel hoort bij het Nederlandse milieubeleid?",
-      "options": ["Meer kolencentrales bouwen", "Plastic afval in de zee dumpen", "Het openbaar vervoer afschaffen", "Investeren in zonne- en windenergie"],
+      "options": [
+        "Meer kolencentrales bouwen",
+        "Plastic afval in de zee dumpen",
+        "Het openbaar vervoer afschaffen",
+        "Investeren in zonne- en windenergie"
+      ],
       "correctIndex": 3,
       "explanation": "Nederland investeert in duurzame energie zoals zonne- en windenergie als onderdeel van het milieubeleid.",
       "explanationEn": "The Netherlands invests in sustainable energy such as solar and wind energy as part of its environmental policy."
@@ -137,7 +217,12 @@
     {
       "id": "knm-a2-3-q17",
       "text": "Waar kun je een klacht indienen over discriminatie?",
-      "options": ["Bij de belastingdienst", "Bij het College voor de Rechten van de Mens", "Bij de Kamer van Koophandel", "Bij het kadaster"],
+      "options": [
+        "Bij de belastingdienst",
+        "Bij het College voor de Rechten van de Mens",
+        "Bij de Kamer van Koophandel",
+        "Bij het kadaster"
+      ],
       "correctIndex": 1,
       "explanation": "Het College voor de Rechten van de Mens onderzoekt klachten over discriminatie op grond van ras, geslacht, leeftijd, handicap, enz.",
       "explanationEn": "The Netherlands Institute for Human Rights investigates complaints about discrimination based on race, gender, age, disability, etc."
@@ -145,7 +230,12 @@
     {
       "id": "knm-a2-3-q18",
       "text": "Op welke gronden is discriminatie verboden in Nederland?",
-      "options": ["Alleen op grond van ras", "Alleen op grond van geslacht", "Op grond van ras, godsdienst, geslacht, seksuele gerichtheid en meer", "Discriminatie is niet verboden in Nederland"],
+      "options": [
+        "Alleen op grond van ras",
+        "Alleen op grond van geslacht",
+        "Op grond van ras, godsdienst, geslacht, seksuele gerichtheid en meer",
+        "Discriminatie is niet verboden in Nederland"
+      ],
       "correctIndex": 2,
       "explanation": "Discriminatie is verboden op vele gronden, waaronder ras, godsdienst, geslacht, seksuele gerichtheid, leeftijd en handicap (Artikel 1 Grondwet).",
       "explanationEn": "Discrimination is prohibited on many grounds, including race, religion, gender, sexual orientation, age, and disability (Article 1 of the Constitution)."
@@ -153,7 +243,12 @@
     {
       "id": "knm-a2-3-q19",
       "text": "Wat is de Huurcommissie?",
-      "options": ["Een organisatie die huizen verkoopt", "Een makelaardij", "Een afdeling van de gemeente die woningen toewijst", "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders behandelt"],
+      "options": [
+        "Een organisatie die huizen verkoopt",
+        "Een makelaardij",
+        "Een afdeling van de gemeente die woningen toewijst",
+        "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders behandelt"
+      ],
       "correctIndex": 3,
       "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen behandelt tussen huurders en verhuurders over bijvoorbeeld de huurprijs of onderhoud.",
       "explanationEn": "The Rent Tribunal is an independent organization that handles disputes between tenants and landlords about, for example, rent prices or maintenance."
@@ -161,7 +256,12 @@
     {
       "id": "knm-a2-3-q20",
       "text": "Wie is verantwoordelijk voor groot onderhoud van een huurwoning?",
-      "options": ["De huurder", "De verhuurder", "De gemeente", "De Huurcommissie"],
+      "options": [
+        "De huurder",
+        "De verhuurder",
+        "De gemeente",
+        "De Huurcommissie"
+      ],
       "correctIndex": 1,
       "explanation": "De verhuurder is verantwoordelijk voor groot onderhoud, zoals het dak, de buitenmuren en leidingen.",
       "explanationEn": "The landlord is responsible for major maintenance, such as the roof, exterior walls, and pipes."
@@ -169,7 +269,12 @@
     {
       "id": "knm-a2-3-q21",
       "text": "Wat kun je doen als je vindt dat je huur te hoog is?",
-      "options": ["De huurprijs laten toetsen door de Huurcommissie", "Niets, je moet het accepteren", "Zelf de huur verlagen", "Meteen verhuizen"],
+      "options": [
+        "De huurprijs laten toetsen door de Huurcommissie",
+        "Niets, je moet het accepteren",
+        "Zelf de huur verlagen",
+        "Meteen verhuizen"
+      ],
       "correctIndex": 0,
       "explanation": "Als je denkt dat je huurprijs te hoog is, kun je de Huurcommissie vragen om de huurprijs te toetsen.",
       "explanationEn": "If you think your rent is too high, you can ask the Rent Tribunal to assess your rent price."
@@ -177,7 +282,12 @@
     {
       "id": "knm-a2-3-q22",
       "text": "Wat is DUO?",
-      "options": ["Een zorgverzekeraar", "Een uitzendbureau voor jongeren", "De Dienst Uitvoering Onderwijs — verantwoordelijk voor studiefinanciering", "Een afdeling van het UWV"],
+      "options": [
+        "Een zorgverzekeraar",
+        "Een uitzendbureau voor jongeren",
+        "De Dienst Uitvoering Onderwijs — verantwoordelijk voor studiefinanciering",
+        "Een afdeling van het UWV"
+      ],
       "correctIndex": 2,
       "explanation": "DUO (Dienst Uitvoering Onderwijs) is verantwoordelijk voor studiefinanciering, het bekostigen van scholen en het erkennen van diploma's.",
       "explanationEn": "DUO (Education Executive Agency) is responsible for student finance, school funding, and diploma recognition."
@@ -185,7 +295,12 @@
     {
       "id": "knm-a2-3-q23",
       "text": "Wat is studiefinanciering?",
-      "options": ["Een belasting op onderwijs", "Een lening van een bank voor studenten", "Geld dat ouders verplicht moeten betalen aan de school", "Financiële steun van de overheid voor studenten in het hoger onderwijs"],
+      "options": [
+        "Een belasting op onderwijs",
+        "Een lening van een bank voor studenten",
+        "Geld dat ouders verplicht moeten betalen aan de school",
+        "Financiële steun van de overheid voor studenten in het hoger onderwijs"
+      ],
       "correctIndex": 3,
       "explanation": "Studiefinanciering is financiële steun van de overheid (via DUO) voor studenten in het mbo, hbo en de universiteit.",
       "explanationEn": "Student finance is financial support from the government (via DUO) for students in vocational, applied, and academic higher education."
@@ -193,7 +308,12 @@
     {
       "id": "knm-a2-3-q24",
       "text": "Wat is een kinderdagverblijf?",
-      "options": ["Een opvang voor kinderen van 0 tot 4 jaar gedurende de dag", "Een school voor kinderen van 4 tot 12 jaar", "Een ziekenhuis voor kinderen", "Een naschoolse activiteit voor tieners"],
+      "options": [
+        "Een opvang voor kinderen van 0 tot 4 jaar gedurende de dag",
+        "Een school voor kinderen van 4 tot 12 jaar",
+        "Een ziekenhuis voor kinderen",
+        "Een naschoolse activiteit voor tieners"
+      ],
       "correctIndex": 0,
       "explanation": "Een kinderdagverblijf is een opvang waar kinderen van 0 tot 4 jaar overdag worden verzorgd, vaak terwijl de ouders werken.",
       "explanationEn": "A daycare center provides care for children aged 0 to 4 during the day, usually while parents are working."
@@ -201,7 +321,12 @@
     {
       "id": "knm-a2-3-q25",
       "text": "Wat is BSO (buitenschoolse opvang)?",
-      "options": ["Een soort middelbare school", "Opvang voor kinderen vóór en na schooltijd en in vakanties", "Een opleiding voor onderwijzers", "Een sportclub voor scholieren"],
+      "options": [
+        "Een soort middelbare school",
+        "Opvang voor kinderen vóór en na schooltijd en in vakanties",
+        "Een opleiding voor onderwijzers",
+        "Een sportclub voor scholieren"
+      ],
       "correctIndex": 1,
       "explanation": "BSO (buitenschoolse opvang) vangt basisschoolkinderen op vóór en na schooltijd en tijdens schoolvakanties.",
       "explanationEn": "BSO (out-of-school care) provides care for primary school children before and after school hours and during school holidays."
@@ -209,7 +334,12 @@
     {
       "id": "knm-a2-3-q26",
       "text": "Wat is een gastouder?",
-      "options": ["Een vrijwilliger op school", "Een leraar op een basisschool", "Iemand die bij zich thuis kinderen opvangt voor werkende ouders", "Een adoptieouder"],
+      "options": [
+        "Een vrijwilliger op school",
+        "Een leraar op een basisschool",
+        "Iemand die bij zich thuis kinderen opvangt voor werkende ouders",
+        "Een adoptieouder"
+      ],
       "correctIndex": 2,
       "explanation": "Een gastouder is iemand die bij zich thuis (of bij de ouders thuis) kinderen opvangt. Gastouders moeten geregistreerd zijn.",
       "explanationEn": "A childminder cares for children at their own home (or at the parents' home). Childminders must be registered."
@@ -217,7 +347,12 @@
     {
       "id": "knm-a2-3-q27",
       "text": "Kunnen ouders kinderopvangtoeslag krijgen?",
-      "options": ["Nee, kinderopvang is altijd gratis in Nederland", "Alleen ouders met meer dan drie kinderen", "Alleen ouders met een hoog inkomen", "Ja, werkende ouders kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst"],
+      "options": [
+        "Nee, kinderopvang is altijd gratis in Nederland",
+        "Alleen ouders met meer dan drie kinderen",
+        "Alleen ouders met een hoog inkomen",
+        "Ja, werkende ouders kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst"
+      ],
       "correctIndex": 3,
       "explanation": "Werkende ouders (of ouders die een opleiding volgen) kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst om een deel van de kosten vergoed te krijgen.",
       "explanationEn": "Working parents (or parents in education) can apply for childcare allowance from the Tax Authority to have part of the costs reimbursed."
@@ -225,7 +360,12 @@
     {
       "id": "knm-a2-3-q28",
       "text": "Wat betekent EHBO?",
-      "options": ["Eerste Hulp Bij Ongevallen", "Eerste Hulp Bij Onderzoek", "Europese Hulpdienst Bij Ongelukken", "Extra Hulp Bij Operaties"],
+      "options": [
+        "Eerste Hulp Bij Ongevallen",
+        "Eerste Hulp Bij Onderzoek",
+        "Europese Hulpdienst Bij Ongelukken",
+        "Extra Hulp Bij Operaties"
+      ],
       "correctIndex": 0,
       "explanation": "EHBO staat voor Eerste Hulp Bij Ongevallen. Het gaat om de eerste hulp die je aan iemand geeft bij een ongeluk of noodsituatie.",
       "explanationEn": "EHBO stands for First Aid in Accidents. It refers to the initial help you give someone in case of an accident or emergency."
@@ -233,7 +373,12 @@
     {
       "id": "knm-a2-3-q29",
       "text": "Wat is een AED?",
-      "options": ["Een soort ambulance", "Een alarmsysteem voor gebouwen", "Een type brandblusser", "Een apparaat dat een elektrische schok geeft bij een hartstilstand"],
+      "options": [
+        "Een soort ambulance",
+        "Een alarmsysteem voor gebouwen",
+        "Een type brandblusser",
+        "Een apparaat dat een elektrische schok geeft bij een hartstilstand"
+      ],
       "correctIndex": 3,
       "explanation": "Een AED (Automatische Externe Defibrillator) is een apparaat dat een elektrische schok kan geven bij een hartstilstand om het hart weer op gang te brengen.",
       "explanationEn": "An AED (Automated External Defibrillator) is a device that can deliver an electric shock during cardiac arrest to restart the heart."
@@ -241,7 +386,12 @@
     {
       "id": "knm-a2-3-q30",
       "text": "Waar kun je AED's vinden in Nederland?",
-      "options": ["Alleen in ziekenhuizen", "Op veel openbare plekken, zoals stations, winkelcentra en sportclubs", "Alleen in ambulances", "Je kunt ze alleen online kopen"],
+      "options": [
+        "Alleen in ziekenhuizen",
+        "Op veel openbare plekken, zoals stations, winkelcentra en sportclubs",
+        "Alleen in ambulances",
+        "Je kunt ze alleen online kopen"
+      ],
       "correctIndex": 1,
       "explanation": "AED's hangen op veel openbare plekken in Nederland, zoals stations, winkelcentra, sportclubs en overheidsgebouwen.",
       "explanationEn": "AEDs can be found in many public places in the Netherlands, such as stations, shopping centers, sports clubs, and government buildings."
@@ -249,7 +399,12 @@
     {
       "id": "knm-a2-3-q31",
       "text": "Wat is de NPO?",
-      "options": ["De Nederlandse Publieke Omroep — publieke radio en televisie", "Een commerciële televisiezender", "Een politieke partij", "Een nieuwswebsite van de overheid"],
+      "options": [
+        "De Nederlandse Publieke Omroep — publieke radio en televisie",
+        "Een commerciële televisiezender",
+        "Een politieke partij",
+        "Een nieuwswebsite van de overheid"
+      ],
       "correctIndex": 0,
       "explanation": "De NPO (Nederlandse Publieke Omroep) is het stelsel van publieke radio- en televisiezenders in Nederland, gefinancierd met belastinggeld.",
       "explanationEn": "The NPO (Dutch Public Broadcasting) is the system of public radio and television channels in the Netherlands, funded by tax money."
@@ -257,7 +412,12 @@
     {
       "id": "knm-a2-3-q32",
       "text": "Wat is de NOS?",
-      "options": ["Een commercieel mediabedrijf", "Een streamingdienst voor films", "De publieke nieuwsorganisatie die het nieuws en sport verzorgt", "Een overheidsafdeling voor communicatie"],
+      "options": [
+        "Een commercieel mediabedrijf",
+        "Een streamingdienst voor films",
+        "De publieke nieuwsorganisatie die het nieuws en sport verzorgt",
+        "Een overheidsafdeling voor communicatie"
+      ],
       "correctIndex": 2,
       "explanation": "De NOS (Nederlandse Omroep Stichting) is de publieke nieuwsorganisatie die verantwoordelijk is voor het nieuws, sport en evenementen op radio en televisie.",
       "explanationEn": "The NOS (Dutch Broadcasting Foundation) is the public news organization responsible for news, sports, and events on radio and television."
@@ -265,7 +425,12 @@
     {
       "id": "knm-a2-3-q33",
       "text": "Wat betekent persvrijheid?",
-      "options": ["Dat kranten gratis moeten zijn", "Dat iedereen journalist mag worden", "Dat de overheid bepaalt wat er in de krant komt", "Dat de media vrij zijn om nieuws te brengen zonder censuur van de overheid"],
+      "options": [
+        "Dat kranten gratis moeten zijn",
+        "Dat iedereen journalist mag worden",
+        "Dat de overheid bepaalt wat er in de krant komt",
+        "Dat de media vrij zijn om nieuws te brengen zonder censuur van de overheid"
+      ],
       "correctIndex": 3,
       "explanation": "Persvrijheid betekent dat de media vrij zijn om nieuws te brengen en de overheid te bekritiseren zonder censuur.",
       "explanationEn": "Freedom of the press means that media are free to report news and criticize the government without censorship."
@@ -273,7 +438,12 @@
     {
       "id": "knm-a2-3-q34",
       "text": "Wat is een fietspad?",
-      "options": ["Een snelweg voor auto's", "Een parkeerplaats voor fietsen", "Een speciaal pad of strook op de weg alleen voor fietsers", "Een fietswinkel"],
+      "options": [
+        "Een snelweg voor auto's",
+        "Een parkeerplaats voor fietsen",
+        "Een speciaal pad of strook op de weg alleen voor fietsers",
+        "Een fietswinkel"
+      ],
       "correctIndex": 2,
       "explanation": "Een fietspad is een apart pad of een strook op de weg die alleen bedoeld is voor fietsers. Nederland heeft een uitgebreid netwerk van fietspaden.",
       "explanationEn": "A cycle path is a separate path or lane on the road intended only for cyclists. The Netherlands has an extensive network of cycle paths."
@@ -281,7 +451,12 @@
     {
       "id": "knm-a2-3-q35",
       "text": "Waarom is Nederland zo bekend om zijn fietsinfrastructuur?",
-      "options": ["Omdat auto's verboden zijn in Nederland", "Omdat fietsen verplicht is voor iedereen", "Omdat er geen openbaar vervoer is", "Omdat er meer fietsen dan inwoners zijn en er uitgebreide fietspaden zijn"],
+      "options": [
+        "Omdat auto's verboden zijn in Nederland",
+        "Omdat fietsen verplicht is voor iedereen",
+        "Omdat er geen openbaar vervoer is",
+        "Omdat er meer fietsen dan inwoners zijn en er uitgebreide fietspaden zijn"
+      ],
       "correctIndex": 3,
       "explanation": "Nederland heeft meer fietsen dan inwoners en een uitgebreid netwerk van fietspaden, fietsparkeerplaatsen en fietsbruggen.",
       "explanationEn": "The Netherlands has more bicycles than inhabitants and an extensive network of cycle paths, bike parking facilities, and bicycle bridges."
@@ -289,7 +464,12 @@
     {
       "id": "knm-a2-3-q36",
       "text": "Wat is het Donorregister?",
-      "options": ["Een register van bloeddonoren bij het Rode Kruis", "Een register van vrijwilligers", "Een register waarin je vastlegt of je na je dood organen en weefsels wilt doneren", "Een lijst van artsen"],
+      "options": [
+        "Een register van bloeddonoren bij het Rode Kruis",
+        "Een register van vrijwilligers",
+        "Een register waarin je vastlegt of je na je dood organen en weefsels wilt doneren",
+        "Een lijst van artsen"
+      ],
       "correctIndex": 2,
       "explanation": "In het Donorregister leg je vast of je na je overlijden organen en weefsels wilt doneren. Iedereen van 18 jaar en ouder wordt geregistreerd.",
       "explanationEn": "In the Donor Register, you record whether you want to donate organs and tissues after death. Everyone aged 18 and older is registered."
@@ -297,7 +477,12 @@
     {
       "id": "knm-a2-3-q37",
       "text": "Welke keuzes kun je vastleggen in het Donorregister?",
-      "options": ["Alleen ja of nee", "Ja, nee, mijn nabestaanden beslissen, of een specifieke persoon beslist", "Je kunt geen keuze maken, het is verplicht", "Alleen artsen mogen een keuze maken"],
+      "options": [
+        "Alleen ja of nee",
+        "Ja, nee, mijn nabestaanden beslissen, of een specifieke persoon beslist",
+        "Je kunt geen keuze maken, het is verplicht",
+        "Alleen artsen mogen een keuze maken"
+      ],
       "correctIndex": 1,
       "explanation": "In het Donorregister kun je kiezen: ja (alles of bepaalde organen), nee, mijn nabestaanden beslissen, of een specifieke persoon beslist.",
       "explanationEn": "In the Donor Register, you can choose: yes (all or specific organs), no, my next of kin decides, or a specific person decides."
@@ -305,7 +490,12 @@
     {
       "id": "knm-a2-3-q38",
       "text": "Wat is naturalisatie?",
-      "options": ["Een cursus over de Nederlandse natuur", "Een medisch onderzoek voor immigranten", "Het aanvragen van een verblijfsvergunning", "Het proces om Nederlander te worden en een Nederlands paspoort te krijgen"],
+      "options": [
+        "Een cursus over de Nederlandse natuur",
+        "Een medisch onderzoek voor immigranten",
+        "Het aanvragen van een verblijfsvergunning",
+        "Het proces om Nederlander te worden en een Nederlands paspoort te krijgen"
+      ],
       "correctIndex": 3,
       "explanation": "Naturalisatie is het proces waarbij je de Nederlandse nationaliteit krijgt. Je moet onder andere het inburgeringsexamen halen en minstens 5 jaar in Nederland wonen.",
       "explanationEn": "Naturalization is the process of obtaining Dutch nationality. You must, among other things, pass the civic integration exam and live in the Netherlands for at least 5 years."
@@ -313,7 +503,12 @@
     {
       "id": "knm-a2-3-q39",
       "text": "Wat is een voorwaarde voor naturalisatie tot Nederlander?",
-      "options": ["Je moet het inburgeringsexamen hebben gehaald", "Je moet minstens 1 jaar in Nederland wonen", "Je moet een eigen bedrijf hebben", "Je moet geboren zijn in een EU-land"],
+      "options": [
+        "Je moet het inburgeringsexamen hebben gehaald",
+        "Je moet minstens 1 jaar in Nederland wonen",
+        "Je moet een eigen bedrijf hebben",
+        "Je moet geboren zijn in een EU-land"
+      ],
       "correctIndex": 0,
       "explanation": "Een van de voorwaarden voor naturalisatie is dat je het inburgeringsexamen hebt gehaald. Andere voorwaarden zijn onder meer 5 jaar legaal verblijf en geen strafblad.",
       "explanationEn": "One of the requirements for naturalization is passing the civic integration exam. Other requirements include 5 years of legal residence and no criminal record."
@@ -321,10 +516,16 @@
     {
       "id": "knm-a2-3-q40",
       "text": "Wat gebeurt er als je geen keuze maakt in het Donorregister?",
-      "options": ["Je nabestaanden worden gevraagd om te beslissen", "Je organen worden altijd gedoneerd", "Je wordt automatisch geregistreerd als 'geen bezwaar tegen donatie'", "Er verandert niets, je wordt nooit donor"],
+      "options": [
+        "Je nabestaanden worden gevraagd om te beslissen",
+        "Je organen worden altijd gedoneerd",
+        "Je wordt automatisch geregistreerd als 'geen bezwaar tegen donatie'",
+        "Er verandert niets, je wordt nooit donor"
+      ],
       "correctIndex": 2,
       "explanation": "Sinds de nieuwe Donorwet (2020) word je automatisch geregistreerd als 'geen bezwaar tegen donatie' als je zelf geen keuze maakt. Je kunt dit altijd wijzigen.",
       "explanationEn": "Since the new Donor Act (2020), you are automatically registered as 'no objection to donation' if you do not make a choice yourself. You can always change this."
     }
-  ]
+  ],
+  "isFreePreview": false
 }

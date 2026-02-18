@@ -16,7 +16,7 @@
       "titleEn": "Message to Landlord",
       "difficulty": "A2",
       "taskType": "free-text",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "form-course-registration",
@@ -32,7 +32,7 @@
       "titleEn": "Reply to Colleague",
       "difficulty": "A2",
       "taskType": "free-text",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "form-gp-registration",

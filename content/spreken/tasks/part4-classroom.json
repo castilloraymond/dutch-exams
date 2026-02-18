@@ -70,7 +70,7 @@
     "Take your time to mention all three items."
   ],
   "sequencingWordsRequired": true,
-  "isFreePreview": true,
+  "isFreePreview": false,
   "questions": [
     {
       "id": "part4-classroom-q1",

@@ -55,7 +55,7 @@
     "Use the person's name from the question (Sem) in your answer.",
     "You can add personal information (like 'I also like...' or 'I prefer...')."
   ],
-  "isFreePreview": true,
+  "isFreePreview": false,
   "questions": [
     {
       "id": "part2-lunch-q1",

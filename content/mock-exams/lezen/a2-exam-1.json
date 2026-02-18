@@ -16,7 +16,12 @@
         {
           "id": "a2-1-q1",
           "text": "Op welke dagen is de cursus?",
-          "options": ["Maandag en woensdag", "Dinsdag en donderdag", "Woensdag en vrijdag", "Zaterdag en zondag"],
+          "options": [
+            "Maandag en woensdag",
+            "Dinsdag en donderdag",
+            "Woensdag en vrijdag",
+            "Zaterdag en zondag"
+          ],
           "correctIndex": 1,
           "explanation": "De cursus is elke dinsdag en donderdag.",
           "explanationEn": "The course is every Tuesday and Thursday."
@@ -24,7 +29,12 @@
         {
           "id": "a2-1-q2",
           "text": "Hoeveel kost de cursus per maand?",
-          "options": ["€ 25", "€ 40", "€ 50", "€ 75"],
+          "options": [
+            "€ 25",
+            "€ 40",
+            "€ 50",
+            "€ 75"
+          ],
           "correctIndex": 2,
           "explanation": "De cursus kost € 50 per maand.",
           "explanationEn": "The course costs €50 per month."
@@ -32,7 +42,12 @@
         {
           "id": "a2-1-q3",
           "text": "Hoeveel mensen zitten er maximaal in een groep?",
-          "options": ["5", "8", "10", "15"],
+          "options": [
+            "5",
+            "8",
+            "10",
+            "15"
+          ],
           "correctIndex": 2,
           "explanation": "De groepen zijn klein: maximaal 10 personen.",
           "explanationEn": "The groups are small: a maximum of 10 people."
@@ -40,7 +55,12 @@
         {
           "id": "a2-1-q4",
           "text": "Wat krijgt u na de cursus?",
-          "options": ["Geld terug", "Een diploma", "Een certificaat", "Een gratis les"],
+          "options": [
+            "Geld terug",
+            "Een diploma",
+            "Een certificaat",
+            "Een gratis les"
+          ],
           "correctIndex": 2,
           "explanation": "Na de cursus krijgt u een certificaat.",
           "explanationEn": "After the course you receive a certificate."
@@ -57,7 +77,12 @@
         {
           "id": "a2-1-q5",
           "text": "Waarom krijgt meneer Van der Berg deze brief?",
-          "options": ["Zijn rijbewijs is verlopen", "Zijn paspoort is bijna verlopen", "Hij moet belasting betalen", "Hij moet verhuizen"],
+          "options": [
+            "Zijn rijbewijs is verlopen",
+            "Zijn paspoort is bijna verlopen",
+            "Hij moet belasting betalen",
+            "Hij moet verhuizen"
+          ],
           "correctIndex": 1,
           "explanation": "De brief zegt dat het paspoort bijna verlopen is.",
           "explanationEn": "The letter says that the passport is almost expired."
@@ -65,7 +90,12 @@
         {
           "id": "a2-1-q6",
           "text": "Wat moet je eerst doen voor een nieuw paspoort?",
-          "options": ["Naar het gemeentehuis gaan", "Een foto maken", "Online een afspraak maken", "Bellen naar de gemeente"],
+          "options": [
+            "Naar het gemeentehuis gaan",
+            "Een foto maken",
+            "Online een afspraak maken",
+            "Bellen naar de gemeente"
+          ],
           "correctIndex": 2,
           "explanation": "Je moet eerst online een afspraak maken.",
           "explanationEn": "You must first make an appointment online."
@@ -73,7 +103,12 @@
         {
           "id": "a2-1-q7",
           "text": "Hoeveel kost een nieuw paspoort?",
-          "options": ["€ 55,80", "€ 65,80", "€ 75,80", "€ 85,80"],
+          "options": [
+            "€ 55,80",
+            "€ 65,80",
+            "€ 75,80",
+            "€ 85,80"
+          ],
           "correctIndex": 2,
           "explanation": "Een nieuw paspoort kost € 75,80.",
           "explanationEn": "A new passport costs €75.80."
@@ -81,7 +116,12 @@
         {
           "id": "a2-1-q8",
           "text": "Hoe lang duurt het voordat het paspoort klaar is?",
-          "options": ["1 dag", "3 werkdagen", "5 werkdagen", "10 werkdagen"],
+          "options": [
+            "1 dag",
+            "3 werkdagen",
+            "5 werkdagen",
+            "10 werkdagen"
+          ],
           "correctIndex": 2,
           "explanation": "De levertijd is ongeveer 5 werkdagen.",
           "explanationEn": "The delivery time is approximately 5 business days."
@@ -98,7 +138,12 @@
         {
           "id": "a2-1-q9",
           "text": "Tot hoe laat mag je lawaai maken?",
-          "options": ["20:00 uur", "21:00 uur", "22:00 uur", "23:00 uur"],
+          "options": [
+            "20:00 uur",
+            "21:00 uur",
+            "22:00 uur",
+            "23:00 uur"
+          ],
           "correctIndex": 2,
           "explanation": "Na 22:00 uur mag je geen lawaai meer maken.",
           "explanationEn": "After 22:00 you are not allowed to make noise."
@@ -106,7 +151,12 @@
         {
           "id": "a2-1-q10",
           "text": "Hoeveel katten mag je maximaal hebben?",
-          "options": ["1", "2", "3", "Geen"],
+          "options": [
+            "1",
+            "2",
+            "3",
+            "Geen"
+          ],
           "correctIndex": 1,
           "explanation": "Je mag maximaal 1 hond of 2 katten hebben.",
           "explanationEn": "You may have a maximum of 1 dog or 2 cats."
@@ -114,7 +164,12 @@
         {
           "id": "a2-1-q11",
           "text": "Waar moet je je fiets zetten?",
-          "options": ["In de gang", "In de fietsenstalling", "In de tuin", "In je appartement"],
+          "options": [
+            "In de gang",
+            "In de fietsenstalling",
+            "In de tuin",
+            "In je appartement"
+          ],
           "correctIndex": 1,
           "explanation": "Fietsen horen in de fietsenstalling, niet in de gang.",
           "explanationEn": "Bicycles belong in the bicycle storage, not in the hallway."
@@ -122,7 +177,12 @@
         {
           "id": "a2-1-q12",
           "text": "Mag je roken in de gezamenlijke ruimtes?",
-          "options": ["Ja, overal", "Ja, alleen buiten", "Nee, dat is verboden", "Alleen met toestemming"],
+          "options": [
+            "Ja, overal",
+            "Ja, alleen buiten",
+            "Nee, dat is verboden",
+            "Alleen met toestemming"
+          ],
           "correctIndex": 2,
           "explanation": "Roken in de gezamenlijke ruimtes is verboden.",
           "explanationEn": "Smoking in the shared spaces is prohibited."
@@ -139,7 +199,12 @@
         {
           "id": "a2-1-q13",
           "text": "Hoeveel kilometer aan fietspaden zijn er in Nederland?",
-          "options": ["Meer dan 15.000 km", "Meer dan 25.000 km", "Meer dan 35.000 km", "Meer dan 50.000 km"],
+          "options": [
+            "Meer dan 15.000 km",
+            "Meer dan 25.000 km",
+            "Meer dan 35.000 km",
+            "Meer dan 50.000 km"
+          ],
           "correctIndex": 2,
           "explanation": "Er zijn meer dan 35.000 kilometer aan fietspaden in Nederland.",
           "explanationEn": "There are more than 35,000 kilometers of bicycle paths in the Netherlands."
@@ -147,7 +212,12 @@
         {
           "id": "a2-1-q14",
           "text": "Waarom is fietsen goed volgens het artikel?",
-          "options": ["Het is goedkoop en gezond", "Het is snel", "Je kunt overal parkeren", "Je krijgt geen boetes"],
+          "options": [
+            "Het is goedkoop en gezond",
+            "Het is snel",
+            "Je kunt overal parkeren",
+            "Je krijgt geen boetes"
+          ],
           "correctIndex": 0,
           "explanation": "Fietsen is gezond en goed voor het milieu. Je hoeft geen benzine te kopen.",
           "explanationEn": "Cycling is healthy and good for the environment. You don't need to buy gasoline."
@@ -155,7 +225,12 @@
         {
           "id": "a2-1-q15",
           "text": "Hoeveel boete kun je krijgen als je zonder licht fietst?",
-          "options": ["€ 35", "€ 45", "€ 55", "€ 95"],
+          "options": [
+            "€ 35",
+            "€ 45",
+            "€ 55",
+            "€ 95"
+          ],
           "correctIndex": 2,
           "explanation": "Als je zonder licht fietst, kun je een boete krijgen van € 55.",
           "explanationEn": "If you cycle without lights, you can get a fine of €55."
@@ -163,7 +238,12 @@
         {
           "id": "a2-1-q16",
           "text": "Wat is verplicht als je in het donker fietst?",
-          "options": ["Een helm", "Een reflecterend vest", "Verlichting", "Een bel"],
+          "options": [
+            "Een helm",
+            "Een reflecterend vest",
+            "Verlichting",
+            "Een bel"
+          ],
           "correctIndex": 2,
           "explanation": "Je moet altijd verlichting gebruiken in het donker. Dit is verplicht!",
           "explanationEn": "You must always use lights in the dark. This is mandatory!"
@@ -180,7 +260,12 @@
         {
           "id": "a2-1-q17",
           "text": "Wat gaat het team doen op het uitje?",
-          "options": ["Naar de film en eten", "Bowlen en eten", "Wandelen en eten", "Zwemmen en eten"],
+          "options": [
+            "Naar de film en eten",
+            "Bowlen en eten",
+            "Wandelen en eten",
+            "Zwemmen en eten"
+          ],
           "correctIndex": 1,
           "explanation": "Ze gaan bowlen en daarna eten in een restaurant.",
           "explanationEn": "They are going bowling and then eating at a restaurant."
@@ -188,7 +273,12 @@
         {
           "id": "a2-1-q18",
           "text": "Hoe laat begint het bowlen?",
-          "options": ["14:00", "14:30", "15:00", "17:00"],
+          "options": [
+            "14:00",
+            "14:30",
+            "15:00",
+            "17:00"
+          ],
           "correctIndex": 1,
           "explanation": "Om 14:30 gaan ze bowlen bij Bowling City.",
           "explanationEn": "At 14:30 they go bowling at Bowling City."
@@ -196,7 +286,12 @@
         {
           "id": "a2-1-q19",
           "text": "Mogen partners ook mee?",
-          "options": ["Nee, alleen collega's", "Ja, partners zijn welkom", "Alleen als er plek is", "Staat niet in de e-mail"],
+          "options": [
+            "Nee, alleen collega's",
+            "Ja, partners zijn welkom",
+            "Alleen als er plek is",
+            "Staat niet in de e-mail"
+          ],
           "correctIndex": 1,
           "explanation": "Linda schrijft: Partners zijn ook welkom!",
           "explanationEn": "Linda writes: Partners are also welcome!"
@@ -204,12 +299,18 @@
         {
           "id": "a2-1-q20",
           "text": "Wanneer moet je doorgeven of je komt?",
-          "options": ["Voor dinsdag", "Voor woensdag", "Voor donderdag", "Op vrijdag"],
+          "options": [
+            "Voor dinsdag",
+            "Voor woensdag",
+            "Voor donderdag",
+            "Op vrijdag"
+          ],
           "correctIndex": 1,
           "explanation": "Je moet voor woensdag doorgeven of je komt.",
           "explanationEn": "You must let them know by Wednesday if you are coming."
         }
       ]
     }
-  ]
+  ],
+  "isFreePreview": true
 }

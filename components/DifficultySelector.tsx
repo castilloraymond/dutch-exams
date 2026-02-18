@@ -10,6 +10,7 @@ interface DifficultySelectorProps {
   module: "lezen" | "knm" | "luisteren";
   exams: MockExamSummary[];
   completedExams?: Record<string, number>; // examId -> lastScore
+  isPremium?: boolean;
 }
 
 const moduleConfig = {
@@ -55,7 +56,7 @@ const difficultyInfo: Record<Difficulty, { title: string; description: string; d
   },
 };
 
-export function DifficultySelector({ module, exams, completedExams = {} }: DifficultySelectorProps) {
+export function DifficultySelector({ module, exams, completedExams = {}, isPremium }: DifficultySelectorProps) {
   const config = moduleConfig[module];
   const Icon = config.icon;
 
@@ -133,6 +134,7 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
                     href={`/learn/${module}/mock/${exam.id}`}
                     completed={exam.id in completedExams}
                     lastScore={completedExams[exam.id]}
+                    isPremium={isPremium}
                   />
                 ))}
               </div>
@@ -164,6 +166,7 @@ export function DifficultySelector({ module, exams, completedExams = {} }: Diffi
                     href={`/learn/${module}/mock/${exam.id}`}
                     completed={exam.id in completedExams}
                     lastScore={completedExams[exam.id]}
+                    isPremium={isPremium}
                   />
                 ))}
               </div>

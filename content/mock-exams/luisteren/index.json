@@ -6,84 +6,96 @@
       "title": "Luisteren A1 - Oefenexamen 1",
       "difficulty": "A1",
       "questionCount": 15,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": true
     },
     {
       "id": "luisteren-a1-2",
       "title": "Luisteren A1 - Oefenexamen 2",
       "difficulty": "A1",
       "questionCount": 15,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-1",
       "title": "Luisteren A2 - Oefenexamen 1",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": true
     },
     {
       "id": "luisteren-a2-2",
       "title": "Luisteren A2 - Oefenexamen 2",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-3",
       "title": "Luisteren A2 - Oefenexamen 3",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-4",
       "title": "Luisteren A2 - Oefenexamen 4",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a1-3",
       "title": "Luisteren A1 - Oefenexamen 3",
       "difficulty": "A1",
       "questionCount": 15,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a1-4",
       "title": "Luisteren A1 - Oefenexamen 4",
       "difficulty": "A1",
       "questionCount": 15,
-      "recommendedTime": "30 min"
+      "recommendedTime": "30 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-5",
       "title": "Luisteren A2 - Oefenexamen 5",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-6",
       "title": "Luisteren A2 - Oefenexamen 6",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-7",
       "title": "Luisteren A2 - Oefenexamen 7",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     },
     {
       "id": "luisteren-a2-8",
       "title": "Luisteren A2 - Oefenexamen 8",
       "difficulty": "A2",
       "questionCount": 20,
-      "recommendedTime": "45 min"
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     }
   ]
 }
