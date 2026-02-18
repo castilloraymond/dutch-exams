@@ -64,6 +64,22 @@
       "questionCount": 20,
       "recommendedTime": "35 min",
       "isFreePreview": false
+    },
+    {
+      "id": "lezen-b1-1",
+      "title": "Lezen B1 - Oefenexamen 1",
+      "difficulty": "B1",
+      "questionCount": 25,
+      "recommendedTime": "45 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "lezen-b1-2",
+      "title": "Lezen B1 - Oefenexamen 2",
+      "difficulty": "B1",
+      "questionCount": 25,
+      "recommendedTime": "45 min",
+      "isFreePreview": false
     }
   ]
 }
