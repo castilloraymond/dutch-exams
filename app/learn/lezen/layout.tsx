@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Lezen (Reading) Practice",
+  title: "Lezen (Reading) Practice — 10 Mock Exams",
   description:
-    "Practice reading comprehension for the Dutch inburgering Lezen exam. 5 passages with 25 questions covering everyday Dutch topics.",
+    "Practice reading comprehension for the Dutch inburgering Lezen exam. 10 mock exams across A1, A2 & B1 levels with realistic passages about everyday Dutch life.",
 };
 
 export default function LezenLayout({

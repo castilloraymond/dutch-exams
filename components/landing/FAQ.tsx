@@ -23,7 +23,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "How is this different from the DUO practice materials?",
-        answer: "DUO offers a limited set of sample questions. We have 28+ full mock exams with 900+ questions, English explanations for every answer, and progress tracking across all modules so you can see exactly where you stand.",
+        answer: "DUO offers a limited set of sample questions. We have 46 full mock exams with 1,000+ questions, English explanations for every answer, and progress tracking across all modules so you can see exactly where you stand.",
     },
     {
         question: "Is my progress saved?",

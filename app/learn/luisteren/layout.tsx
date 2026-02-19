@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Luisteren (Listening) Practice",
+  title: "Luisteren (Listening) Practice — 14 Mock Exams",
   description:
-    "Practice listening comprehension for the Dutch inburgering Luisteren exam. 5 audio exercises with 20 questions based on real-life Dutch conversations.",
+    "Practice listening comprehension for the Dutch inburgering Luisteren exam. 14 mock exams across A1, A2 & B1 with audio based on real-life Dutch conversations.",
 };
 
 export default function LuisterenLayout({

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "KNM (Dutch Society) Practice",
+  title: "KNM (Dutch Society) Practice — 10 Mock Exams",
   description:
-    "Practice for the KNM (Kennis van de Nederlandse Maatschappij) exam. 8 topics covering Dutch work, housing, health, history, education, politics, and geography.",
+    "Practice for the KNM (Kennis van de Nederlandse Maatschappij) exam. 10 mock exams across A1, A2 & B1 covering Dutch work, housing, health, history, education, and politics.",
 };
 
 export default function KnmLayout({

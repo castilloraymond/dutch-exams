@@ -6,6 +6,9 @@ import { LandingFooter } from "@/components/landing/LandingFooter";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How passinburgering handles your data, your GDPR rights, and our privacy practices.",
+  alternates: {
+    canonical: "https://passinburgering.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

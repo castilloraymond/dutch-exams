@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Spreken (Speaking) Practice",
+  title: "Spreken (Speaking) Practice — 6 Mock Exams",
   description:
-    "Practice speaking tasks for the Dutch inburgering Spreken exam. 4 tasks covering all exam parts: retelling, describing, giving opinions, and reacting to situations.",
+    "Practice for the Dutch inburgering Spreken exam with 6 mock exams across A1, A2 & B1 levels. All 4 exam parts: personal questions, describing pictures, giving opinions, and retelling events.",
 };
 
 export default function SprekenLayout({
@@ -35,7 +35,7 @@ export default function SprekenLayout({
               "@type": "ListItem",
               position: 3,
               name: "Spreken (Speaking)",
-              item: "https://passinburgering.com/learn/spreken",
+              item: "https://passinburgering.com/learn/spreken/select",
             },
           ],
         }}

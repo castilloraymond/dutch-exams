@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | passinburgering",
   },
   description:
-    "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — updated for 2025 exam changes.",
+    "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — with 46 mock exams updated for 2026.",
   keywords: [
     "inburgering exam",
     "inburgeringsexamen",
@@ -43,8 +43,8 @@ export const metadata: Metadata = {
     "Netherlands immigration exam",
     "kennismigrant inburgering",
     "30% ruling inburgering",
-    "inburgering 2025",
-    "KNM exam 2025",
+    "inburgering 2026",
+    "KNM exam 2026",
     "inburgering permanent residence",
   ],
   icons: {
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
     description:
-      "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — updated for 2025 exam changes.",
+      "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — with 46 mock exams updated for 2026.",
     type: "website",
     url: "https://passinburgering.com",
     siteName: "passinburgering",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
     description:
-      "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — updated for 2025 exam changes.",
+      "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — with 46 mock exams updated for 2026.",
     images: ["/og-image.png"],
   },
 };
@@ -98,7 +98,7 @@ export default function RootLayout({
             name: "passinburgering",
             url: "https://passinburgering.com",
             description:
-              "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — updated for 2025 exam changes.",
+              "The most efficient inburgering exam prep for busy professionals. Practice all 5 modules — KNM, Lezen, Luisteren, Schrijven & Spreken — with 46 mock exams updated for 2026.",
           }}
         />
         <JsonLd
