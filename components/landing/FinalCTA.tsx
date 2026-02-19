@@ -13,16 +13,16 @@ export function FinalCTA() {
             <div className="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(232,99,43,0.12)_0%,transparent_70%)] pointer-events-none" />
 
             <h2 className="text-[clamp(2.2rem,3.5vw,3rem)] leading-[1.2] text-white tracking-[-0.03em] mb-5 font-extrabold relative">
-                Walk into your exam over-prepared.
+                Ready to start practicing?
             </h2>
             <p className="text-white/60 text-[1.1rem] max-w-[500px] mx-auto mb-10 leading-[1.7] relative">
-                900+ practice questions. Real exam format. Tips for every answer. Free during beta — start drilling now.
+                28+ mock exams across all 5 modules. Real exam format. Explanations for every question. Free to start — no account required.
             </p>
             <Link
-                href={user ? "/learn" : "/try"}
+                href="/learn"
                 className="cta-primary inline-flex items-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
             >
-                {user ? "Continue practicing" : "Start free practice test"}
+                {user ? "Continue practicing" : "Try a full mock exam"}
                 <ArrowRight className="h-4 w-4" />
             </Link>
         </section>

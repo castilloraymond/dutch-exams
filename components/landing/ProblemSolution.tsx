@@ -6,19 +6,19 @@ export function ProblemSection() {
             icon: <Clock className="h-6 w-6" />,
             iconBg: "bg-[var(--accent-soft)] text-[var(--accent)]",
             title: "No time for classroom courses",
-            description: "You work 50-hour weeks. Evening classes and rigid schedules don't fit your life. You need prep that works around your calendar, not the other way around.",
+            description: "You work full-time. Evening classes and rigid schedules don't fit. You need prep that works around your calendar.",
         },
         {
             icon: <Shuffle className="h-6 w-6" />,
             iconBg: "bg-[var(--blue-soft)] text-[var(--blue)]",
             title: "Scattered, outdated resources",
-            description: "Free materials online are fragmented and never structured like the real exam. Without drill-style repetition on the actual format, you're studying blind.",
+            description: "Free materials online are fragmented and don't match the real exam format. Without structured practice on the actual format, you're studying blind.",
         },
         {
             icon: <Target className="h-6 w-6" />,
             iconBg: "bg-[var(--accent-soft)] text-[var(--accent)]",
             title: "Unclear exam readiness",
-            description: "Are you actually ready? Without constant drills, most expats walk in uncertain. That anxiety shouldn't cost you a failed attempt and €200+ in retake fees.",
+            description: "Without consistent practice on the real format, you can't tell if you're ready. A failed attempt costs €200+ in retake fees.",
         },
     ];
 
@@ -31,7 +31,7 @@ export function ProblemSection() {
                 Inburgering exam prep shouldn&apos;t be<br className="hidden sm:block" /> a guessing game
             </h2>
             <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
-                You moved here for a career, not to gamble on scattered study materials and hope for the best. Sound familiar?
+                You moved here for a career, not to gamble on scattered study materials and hope for the best.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {painCards.map((card, i) => (

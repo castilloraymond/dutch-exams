@@ -10,36 +10,24 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
     {
-        question: "How similar is this to the real DUO exam?",
-        answer: "Our practice exams are modeled after the actual DUO computer-based test. Similar interface layout, same question types, same timing constraints. We study the real exam format closely so your practice feels realistic.",
+        question: "Is this the same format as the real exam?",
+        answer: "Yes. Our practice exams mirror the real DUO computer-based exam — same question types, same interface layout, same timing constraints. You'll know exactly what to expect on test day.",
     },
     {
-        question: "What's included for free?",
-        answer: "Everything — we're currently in beta and all content is free. That includes 28 mock exams, 900+ practice questions across all 5 modules, and detailed tips for every question. Create a free account to save your progress across devices.",
+        question: "Which modules are available?",
+        answer: "All five inburgering exam modules: Lezen (Reading), Luisteren (Listening), KNM (Dutch Society), Schrijven (Writing), and Spreken (Speaking). Each module has multiple mock exams with detailed explanations for every question.",
     },
     {
-        question: "Can I practice on my phone?",
-        answer: "Yes! Our platform works on desktop, tablet, and mobile devices. While we recommend practicing on a computer (since the real exam is computer-based), you can review and study anywhere.",
+        question: "Do I need an account to start?",
+        answer: "No. You can try a full mock exam right now without creating an account. A free account lets you save your progress across devices and track your scores over time.",
     },
     {
-        question: "How long should I practice before the exam?",
-        answer: "Most expats drill for 2–4 weeks, 20 minutes per day. We recommend taking full mock exams until you consistently score above 80%. Our progress tracking tells you exactly when you're ready to book.",
+        question: "How is this different from the DUO practice materials?",
+        answer: "DUO offers a limited set of sample questions. We have 28+ full mock exams with 900+ questions, English explanations for every answer, and progress tracking across all modules so you can see exactly where you stand.",
     },
     {
-        question: "What if I don't pass?",
-        answer: "Failing means a months-long wait and a €350 retake fee. That's exactly why we built this — to help you pass the first time. Our mock exams and detailed feedback identify your weak areas so you can fix them before test day.",
-    },
-    {
-        question: "I'm on the 30% ruling. Do I need to inburger?",
-        answer: "No — the 30% ruling exempts you from mandatory inburgering. However, if you want permanent residence or Dutch citizenship, you'll need to pass the inburgering exams at A2 level under the Wi2013 framework.",
-    },
-    {
-        question: "What changed about the exams in 2025?",
-        answer: "The KNM (Knowledge of Dutch Society) exam was overhauled in July 2025 with new topics and question formats. The Spreken (Speaking) exam format also changed in March 2025. Our practice materials are updated to reflect these changes.",
-    },
-    {
-        question: "Do I need A2 or B1?",
-        answer: "Most kennismigranten need A2 level, regardless of when they decide to integrate. B1 is only required for certain exemption routes. If you're unsure, A2 is the standard requirement for the inburgering exams.",
+        question: "Is my progress saved?",
+        answer: "Your progress saves automatically in your browser. Create a free account to sync your progress across devices and keep your score history.",
     },
 ];
 
