@@ -16,6 +16,7 @@ interface WritingResultsProps {
   onRetry: () => void;
   onComplete: () => void;
   onGoToIndex: () => void;
+  goToIndexLabel?: string;
 }
 
 function AnswerComparison({
@@ -80,6 +81,7 @@ export function WritingResults({
   onRetry,
   onComplete,
   onGoToIndex,
+  goToIndexLabel = "Another Task",
 }: WritingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(0);
   const isMultiQuestion = questions.length > 1;
@@ -263,7 +265,7 @@ export function WritingResults({
           onClick={onGoToIndex}
           className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
         >
-          Another Task
+          {goToIndexLabel}
         </button>
       </div>
     </div>

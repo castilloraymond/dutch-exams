@@ -7,7 +7,7 @@ import { ArrowLeft, BookOpen, Landmark, Headphones, PenLine, Mic, Check, X, Spar
 import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
 import { LandingFooter } from "@/components/landing/LandingFooter";
-import { getWritingIndex, getSpeakingIndex, getMockExamIndex } from "@/lib/content";
+import { getMockExamIndex } from "@/lib/content";
 
 const modules = [
   {
@@ -40,7 +40,7 @@ const modules = [
     description: "Oefen schrijfopdrachten zoals emails, berichten en formulieren.",
     descriptionEn: "Practice writing tasks like emails, messages, and forms.",
     icon: PenLine,
-    href: "/learn/schrijven",
+    href: "/learn/schrijven/select",
   },
   {
     id: "spreken",
@@ -48,15 +48,13 @@ const modules = [
     description: "Oefen spreekvaardigheden met opnameoefeningen en feedback.",
     descriptionEn: "Practice speaking skills with recording exercises and feedback.",
     icon: Mic,
-    href: "/learn/spreken",
+    href: "/learn/spreken/select",
   },
 ];
 
 export default function LearnHubPage() {
   const { refreshSession } = useAuth();
   const { progress } = useProgress();
-  const writingIndex = getWritingIndex();
-  const speakingIndex = getSpeakingIndex();
 
   const searchParams = useSearchParams();
 
@@ -102,11 +100,6 @@ export default function LearnHubPage() {
     Object.keys(progress.writingProgress || {}).length === 0 &&
     Object.keys(progress.speakingProgress || {}).length === 0;
 
-  const writingTotal = writingIndex.tasks.length;
-  const writingCompleted = Object.keys(progress.writingProgress || {}).length;
-  const speakingTotal = speakingIndex.tasks.length;
-  const speakingCompleted = Object.keys(progress.speakingProgress || {}).length;
-
   // Count exam completions for lezen/knm/luisteren (free exam + mock exams)
   const examProgress = progress.examProgress || {};
 
@@ -121,10 +114,16 @@ export default function LearnHubPage() {
 
   const getProgressInfo = (modId: string) => {
     if (modId === "schrijven") {
-      return { completed: writingCompleted, total: writingTotal };
+      const mockIndex = getMockExamIndex("schrijven");
+      const mockExamIds = mockIndex?.exams.map((e) => e.id) || [];
+      const completed = mockExamIds.filter((id) => id in (progress.writingProgress || {})).length;
+      return { completed, total: mockExamIds.length };
     }
     if (modId === "spreken") {
-      return { completed: speakingCompleted, total: speakingTotal };
+      const mockIndex = getMockExamIndex("spreken");
+      const mockExamIds = mockIndex?.exams.map((e) => e.id) || [];
+      const completed = mockExamIds.filter((id) => id in (progress.speakingProgress || {})).length;
+      return { completed, total: mockExamIds.length };
     }
     if (modId === "lezen" || modId === "knm" || modId === "luisteren") {
       return getExamModuleProgress(modId);

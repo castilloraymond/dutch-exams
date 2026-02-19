@@ -1,0 +1,126 @@
+{
+  "id": "spreken-a1-2",
+  "title": "Spreken A1 - Oefenexamen 2",
+  "module": "spreken",
+  "difficulty": "A1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": false,
+  "tips": [
+    "Speak at a natural pace — not too fast, not too slow.",
+    "Use words you know well. Simple is better than complex.",
+    "Describe what you see in the pictures before giving your opinion.",
+    "The recording stops automatically — use the full time available."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
+    { "id": "clear-pace", "text": "I spoke clearly and at a steady pace", "textEn": "I spoke clearly and at a steady pace" },
+    { "id": "sequencing", "text": "I used sequencing words (eerst, dan, daarna) in Part 4", "textEn": "I used sequencing words (eerst, dan, daarna) in Part 4" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-a1-2-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Waar woon je? Woon je in een huis of een flat?",
+      "questionEn": "Where do you live? Do you live in a house or an apartment?",
+      "personStatement": "I live in a small house in Utrecht.",
+      "personStatementNl": "Ik woon in een klein huis in Utrecht.",
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "I live in Amsterdam. I live in an apartment. It is small but nice. I have one bedroom and a kitchen.",
+        "transcriptNl": "Ik woon in Amsterdam. Ik woon in een flat. Het is klein maar leuk. Ik heb een slaapkamer en een keuken."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a1-2-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Wat zie je? Ga jij weleens naar de markt?",
+      "questionEn": "Look at the image. What do you see? Do you ever go to the market?",
+      "images": [
+        {
+          "id": "a1-market-1",
+          "src": "/images/spreken/a1-market.jpg",
+          "alt": "An outdoor market with fruit and vegetables",
+          "altNl": "Een buitenmarkt met groente en fruit"
+        }
+      ],
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "I see a market. There are fruits and vegetables. I see apples and oranges. I go to the market every Saturday. I buy fruit there.",
+        "transcriptNl": "Ik zie een markt. Er zijn groenten en fruit. Ik zie appels en sinaasappels. Ik ga elke zaterdag naar de markt. Ik koop daar fruit."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a1-2-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Hoe ga jij naar je werk of school? Welke is beter?",
+      "questionEn": "Look at both pictures. How do you get to work or school? Which is better?",
+      "images": [
+        {
+          "id": "a1-transport-bike",
+          "src": "/images/spreken/a1-transport-bike.jpg",
+          "alt": "Person riding a bicycle",
+          "altNl": "Persoon op een fiets"
+        },
+        {
+          "id": "a1-transport-bus",
+          "src": "/images/spreken/a1-transport-bus.jpg",
+          "alt": "Person taking the bus",
+          "altNl": "Persoon in de bus"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I go to school by bike. I think the bike is better. It is healthy and free. The bus is also good when it rains. But the bus costs money.",
+        "transcriptNl": "Ik ga naar school met de fiets. Ik denk dat de fiets beter is. Het is gezond en gratis. De bus is ook goed als het regent. Maar de bus kost geld."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a1-2-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel wat er gebeurt. Gebruik de woorden: eerst, dan, daarna.",
+      "questionEn": "Look at the three pictures. Tell what happens. Use the words: first, then, after that.",
+      "images": [
+        {
+          "id": "a1-shopping-1",
+          "src": "/images/spreken/a1-shopping-list.jpg",
+          "alt": "Person writing a shopping list",
+          "altNl": "Persoon schrijft een boodschappenlijst"
+        },
+        {
+          "id": "a1-shopping-2",
+          "src": "/images/spreken/a1-shopping-store.jpg",
+          "alt": "Person shopping in a supermarket",
+          "altNl": "Persoon doet boodschappen in de supermarkt"
+        },
+        {
+          "id": "a1-shopping-3",
+          "src": "/images/spreken/a1-shopping-cooking.jpg",
+          "alt": "Person cooking dinner",
+          "altNl": "Persoon kookt het avondeten"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "First the person writes a shopping list. Then they go to the supermarket. They buy food. After that they cook dinner at home.",
+        "transcriptNl": "Eerst schrijft de persoon een boodschappenlijst. Dan gaat hij naar de supermarkt. Hij koopt eten. Daarna kookt hij thuis het avondeten."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

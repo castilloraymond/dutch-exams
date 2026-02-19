@@ -1,0 +1,127 @@
+{
+  "id": "spreken-b1-2",
+  "title": "Spreken B1 - Oefenexamen 2",
+  "module": "spreken",
+  "difficulty": "B1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": false,
+  "tips": [
+    "Give your personal opinion and support it with examples from your life.",
+    "Use varied vocabulary — avoid repeating the same words.",
+    "For picture stories, add detail: describe emotions, reasons, and consequences.",
+    "Speak confidently — it's better to make small mistakes than to hesitate a lot."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "all-parts", "text": "I answered all parts of each question", "textEn": "I answered all parts of each question" },
+    { "id": "vocabulary", "text": "I used varied vocabulary", "textEn": "I used varied vocabulary" },
+    { "id": "fluency", "text": "I spoke fluently without many long pauses", "textEn": "I spoke fluently without many long pauses" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-b1-2-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Hoe heb jij Nederlands geleerd? Vertel ook wat je moeilijk vindt en wat je tips zijn.",
+      "questionEn": "How did you learn Dutch? Also tell what you find difficult and what your tips are.",
+      "questionParts": ["How did you learn Dutch?", "What do you find difficult?", "What tips do you have?"],
+      "personStatement": "I learned Dutch at a language school and by watching Dutch TV.",
+      "personStatementNl": "Ik heb Nederlands geleerd op een taalschool en door Nederlands TV te kijken.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I learned Dutch at a language school and also by talking with my Dutch colleagues. I find the grammar difficult, especially the word order. My tip is to practice every day, even if it is just five minutes.",
+        "transcriptNl": "Ik heb Nederlands geleerd op een taalschool en ook door met mijn Nederlandse collega's te praten. Ik vind de grammatica moeilijk, vooral de woordvolgorde. Mijn tip is om elke dag te oefenen, ook al is het maar vijf minuten."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-2-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Beschrijf wat je ziet. Wat vind jij belangrijk in een buurt? Waarom?",
+      "questionEn": "Look at the image. Describe what you see. What do you find important in a neighborhood? Why?",
+      "images": [
+        {
+          "id": "b1-park-1",
+          "src": "/images/spreken/b1-neighborhood-park.jpg",
+          "alt": "A neighborhood park with families and children",
+          "altNl": "Een buurtpark met gezinnen en kinderen"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I see a park where families are spending time together. Children are playing and adults are sitting on benches. I find parks very important in a neighborhood because they give people a place to relax and exercise. I also think safety and good schools are important, especially for families with children.",
+        "transcriptNl": "Ik zie een park waar gezinnen samen tijd doorbrengen. Kinderen spelen en volwassenen zitten op bankjes. Ik vind parken erg belangrijk in een buurt omdat ze mensen een plek geven om te ontspannen en te bewegen. Ik vind veiligheid en goede scholen ook belangrijk, vooral voor gezinnen met kinderen."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-2-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Vergelijk de twee manieren van winkelen. Welke manier vind jij beter? Leg uit waarom.",
+      "questionEn": "Look at both pictures. Compare the two ways of shopping. Which way do you prefer? Explain why.",
+      "images": [
+        {
+          "id": "b1-shopping-online",
+          "src": "/images/spreken/b1-shopping-online.jpg",
+          "alt": "Person shopping online on a laptop",
+          "altNl": "Persoon winkelt online op een laptop"
+        },
+        {
+          "id": "b1-shopping-store",
+          "src": "/images/spreken/b1-shopping-store.jpg",
+          "alt": "People shopping in a physical store",
+          "altNl": "Mensen winkelen in een fysieke winkel"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "The first picture shows someone shopping online on their laptop. The second picture shows people in a store. Both have advantages. Online shopping is convenient because you can do it from home. But in a store you can try things on and see the quality. I prefer shopping in a store for clothes but I buy electronics online because it is cheaper.",
+        "transcriptNl": "De eerste foto laat iemand zien die online winkelt op zijn laptop. De tweede foto toont mensen in een winkel. Beide hebben voordelen. Online winkelen is handig omdat je het thuis kunt doen. Maar in een winkel kun je dingen passen en de kwaliteit zien. Ik koop het liefst kleding in een winkel maar elektronica koop ik online omdat het goedkoper is."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-2-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel het verhaal uitgebreid. Gebruik verbindingswoorden en geef details.",
+      "questionEn": "Look at the three pictures. Tell the story in detail. Use connecting words and give details.",
+      "images": [
+        {
+          "id": "b1-job-1",
+          "src": "/images/spreken/b1-job-application.jpg",
+          "alt": "Person writing a job application on a computer",
+          "altNl": "Persoon schrijft een sollicitatie op de computer"
+        },
+        {
+          "id": "b1-job-2",
+          "src": "/images/spreken/b1-job-interview.jpg",
+          "alt": "Person in a job interview",
+          "altNl": "Persoon in een sollicitatiegesprek"
+        },
+        {
+          "id": "b1-job-3",
+          "src": "/images/spreken/b1-job-first-day.jpg",
+          "alt": "Person on their first day at a new job",
+          "altNl": "Persoon op de eerste werkdag"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First the person is writing a job application on their computer. They are probably looking for a new career opportunity. Then they go to a job interview. They look professional and confident. They answer questions about their experience. Finally we see them on their first day at the new job. A colleague is showing them around the office. They look excited about their new position.",
+        "transcriptNl": "Eerst schrijft de persoon een sollicitatiebrief op de computer. Ze zijn waarschijnlijk op zoek naar een nieuwe baan. Vervolgens gaan ze naar een sollicitatiegesprek. Ze zien er professioneel en zelfverzekerd uit. Ze beantwoorden vragen over hun ervaring. Ten slotte zien we hen op hun eerste werkdag. Een collega laat hen het kantoor zien. Ze zijn enthousiast over hun nieuwe functie."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "schrijven-a1-2",
+  "title": "Schrijven A1 - Oefenexamen 2",
+  "module": "schrijven",
+  "difficulty": "A1",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": false,
+  "tips": [
+    "Your BSN (burgerservicenummer) is a 9-digit number on your residence permit or ID.",
+    "Make sure you know your health insurance company name and policy number.",
+    "A note to a neighbor can be informal — use 'je' or 'u', both are fine.",
+    "Keep it short and clear — just the essential information."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "all-fields",
+      "text": "I filled in all required fields correctly",
+      "textEn": "I filled in all required fields correctly"
+    },
+    {
+      "id": "clear-message",
+      "text": "My messages are clear and easy to understand",
+      "textEn": "My messages are clear and easy to understand"
+    },
+    {
+      "id": "greeting-closing",
+      "text": "I used appropriate greetings and closings",
+      "textEn": "I used appropriate greetings and closings"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-a1-2-q1",
+      "scenario": "U bent verhuisd naar een nieuwe stad en wilt zich inschrijven bij een huisarts.",
+      "scenarioEn": "You have moved to a new city and want to register with a GP.",
+      "prompt": "Vul het inschrijfformulier van de huisartsenpraktijk in.",
+      "promptEn": "Fill in the GP registration form.",
+      "taskType": "form",
+      "formFields": [
+        { "id": "voornaam", "label": "Voornaam", "labelEn": "First name", "type": "text", "required": true, "placeholder": "Uw voornaam" },
+        { "id": "achternaam", "label": "Achternaam", "labelEn": "Last name", "type": "text", "required": true, "placeholder": "Uw achternaam" },
+        { "id": "geboortedatum", "label": "Geboortedatum", "labelEn": "Date of birth", "type": "date", "required": true },
+        { "id": "bsn", "label": "BSN-nummer", "labelEn": "BSN number", "type": "text", "required": true, "placeholder": "123456789" },
+        { "id": "adres", "label": "Adres", "labelEn": "Address", "type": "text", "required": true, "placeholder": "Straat en huisnummer" },
+        { "id": "postcode", "label": "Postcode", "labelEn": "Postal code", "type": "text", "required": true, "placeholder": "1234 AB" },
+        { "id": "woonplaats", "label": "Woonplaats", "labelEn": "City", "type": "text", "required": true, "placeholder": "Uw stad" },
+        { "id": "telefoonnummer", "label": "Telefoonnummer", "labelEn": "Phone number", "type": "text", "required": true, "placeholder": "06-12345678" },
+        { "id": "zorgverzekeraar", "label": "Zorgverzekeraar", "labelEn": "Health insurance company", "type": "select", "required": true, "options": ["Zilveren Kruis", "CZ", "VGZ", "Menzis", "OHRA", "Anders"] },
+        { "id": "polisnummer", "label": "Polisnummer zorgverzekering", "labelEn": "Insurance policy number", "type": "text", "required": true, "placeholder": "Uw polisnummer" }
+      ],
+      "selfAssessmentCriteria": [
+        { "id": "q1-all-fields", "text": "I filled in all required fields", "textEn": "I filled in all required fields" },
+        { "id": "q1-bsn", "text": "I entered a valid BSN number", "textEn": "I entered a valid BSN number" }
+      ],
+      "modelAnswer": {
+        "voornaam": "Amina",
+        "achternaam": "El Amrani",
+        "geboortedatum": "1988-11-23",
+        "bsn": "987654321",
+        "adres": "Kerkstraat 45",
+        "postcode": "2511 AB",
+        "woonplaats": "Den Haag",
+        "telefoonnummer": "06-23456789",
+        "zorgverzekeraar": "CZ",
+        "polisnummer": "NL12345678"
+      }
+    },
+    {
+      "id": "schrijven-a1-2-q2",
+      "scenario": "U heeft een nieuwe buurman. U wilt uzelf voorstellen en hem welkom heten.",
+      "scenarioEn": "You have a new neighbor. You want to introduce yourself and welcome them.",
+      "prompt": "Schrijf een kort briefje aan uw nieuwe buurman. Stel uzelf voor en heet hem welkom.",
+      "promptEn": "Write a short note to your new neighbor. Introduce yourself and welcome them.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-intro", "text": "I introduced myself", "textEn": "I introduced myself" },
+        { "id": "q2-welcome", "text": "I welcomed the neighbor", "textEn": "I welcomed the neighbor" },
+        { "id": "q2-offer", "text": "I offered help or contact", "textEn": "I offered help or contact" }
+      ],
+      "modelAnswer": "Beste buurman,\n\nWelkom in het gebouw! Ik ben Karim, uw buurman op nummer 12. Als u iets nodig heeft, kunt u altijd bij mij aanbellen.\n\nVeel plezier in uw nieuwe woning!\n\nGroetjes,\nKarim"
+    },
+    {
+      "id": "schrijven-a1-2-q3",
+      "scenario": "U verwacht een pakketje, maar u bent niet thuis. U wilt uw buurman vragen of hij het pakketje kan aannemen.",
+      "scenarioEn": "You are expecting a package, but you won't be home. You want to ask your neighbor if they can accept the package.",
+      "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat er een pakketje komt. Vraag of hij het kan aannemen. Zeg wanneer u het komt ophalen.",
+      "promptEn": "Write a short note to your neighbor. Tell them a package is coming. Ask if they can accept it. Say when you will pick it up.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-package", "text": "I mentioned the package", "textEn": "I mentioned the package" },
+        { "id": "q3-request", "text": "I asked the neighbor to accept it", "textEn": "I asked the neighbor to accept it" },
+        { "id": "q3-pickup", "text": "I mentioned when I will pick it up", "textEn": "I mentioned when I will pick it up" }
+      ],
+      "modelAnswer": "Beste buurman,\n\nEr komt vandaag een pakketje voor mij, maar ik ben niet thuis. Kunt u het pakketje voor mij aannemen? Ik kom het vanavond na zes uur ophalen.\n\nAlvast bedankt!\n\nGroetjes,\nKarim"
+    }
+  ]
+}

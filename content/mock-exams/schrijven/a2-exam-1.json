@@ -1,0 +1,79 @@
+{
+  "id": "schrijven-a2-1",
+  "title": "Schrijven A2 - Oefenexamen 1",
+  "module": "schrijven",
+  "difficulty": "A2",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": true,
+  "tips": [
+    "Keep it simple — you don't get extra points for complex vocabulary.",
+    "Always use a formal greeting when writing to a teacher or landlord.",
+    "Include specific details: names, dates, and reasons.",
+    "Re-read your answer before submitting — check for missing information."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting-closing",
+      "text": "I used appropriate greetings and closings for each message type",
+      "textEn": "I used appropriate greetings and closings for each message type"
+    },
+    {
+      "id": "complete-info",
+      "text": "I included all necessary information in each message",
+      "textEn": "I included all necessary information in each message"
+    },
+    {
+      "id": "clear-purpose",
+      "text": "Each message has a clear purpose and request",
+      "textEn": "Each message has a clear purpose and request"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-a2-1-q1",
+      "scenario": "Uw kind is ziek en kan vandaag niet naar school. U moet de school informeren.",
+      "scenarioEn": "Your child is sick and cannot go to school today. You need to inform the school.",
+      "prompt": "Schrijf een email aan de leerkracht. Vertel dat uw kind ziek is en wanneer het weer op school komt.",
+      "promptEn": "Write an email to the teacher. Tell them your child is sick and when they will return.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-greeting", "text": "I used an appropriate greeting", "textEn": "I used an appropriate greeting" },
+        { "id": "q1-reason", "text": "I stated the reason clearly", "textEn": "I stated the reason clearly" },
+        { "id": "q1-closing", "text": "I used a proper closing", "textEn": "I used a proper closing" }
+      ],
+      "modelAnswer": "Geachte mevrouw Jansen,\n\nMijn zoon Thomas is vandaag ziek. Hij heeft koorts en kan niet naar school komen. Morgen is hij waarschijnlijk weer beter.\n\nMet vriendelijke groet,\nAnna de Vries"
+    },
+    {
+      "id": "schrijven-a2-1-q2",
+      "scenario": "De kraan in uw keuken lekt. U wilt de verhuurder vragen om het te repareren.",
+      "scenarioEn": "The kitchen tap is leaking. You want to ask the landlord to fix it.",
+      "prompt": "Schrijf een bericht aan uw verhuurder over de lekkende kraan. Vraag wanneer iemand kan komen.",
+      "promptEn": "Write a message to your landlord about the leaking tap. Ask when someone can come.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-problem", "text": "I described the problem clearly", "textEn": "I described the problem clearly" },
+        { "id": "q2-request", "text": "I asked for a repair", "textEn": "I asked for a repair" },
+        { "id": "q2-closing", "text": "I used a greeting and closing", "textEn": "I used a greeting and closing" }
+      ],
+      "modelAnswer": "Geachte heer Van den Berg,\n\nDe kraan in mijn keuken lekt al twee dagen. Er komt steeds water uit, ook als de kraan dicht is. Kunt u iemand sturen om het te repareren?\n\nIk ben elke avond na 18:00 uur thuis.\n\nMet vriendelijke groet,\nMohammed Yilmaz"
+    },
+    {
+      "id": "schrijven-a2-1-q3",
+      "scenario": "Uw collega Lisa vraagt of u haar ochtendshift wilt overnemen. U kunt helpen.",
+      "scenarioEn": "Your colleague Lisa asks if you can take her morning shift. You are able to help.",
+      "prompt": "Schrijf een bericht aan Lisa. Zeg dat u haar shift kunt overnemen en vraag hoe laat u moet beginnen.",
+      "promptEn": "Write a message to Lisa. Say you can take her shift and ask what time you should start.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-answer", "text": "I said yes to the request", "textEn": "I said yes to the request" },
+        { "id": "q3-question", "text": "I asked about the start time", "textEn": "I asked about the start time" },
+        { "id": "q3-friendly", "text": "My message is friendly", "textEn": "My message is friendly" }
+      ],
+      "modelAnswer": "Hoi Lisa,\n\nGeen probleem, ik kan je ochtendshift overnemen. Hoe laat moet ik beginnen? En moet ik nog iets weten over het werk?\n\nGroetjes,\nSarah"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 "use client";
 
-import { BookOpen, Landmark, Headphones, ArrowLeft } from "lucide-react";
+import { BookOpen, Landmark, Headphones, PenLine, Mic, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { ExamCard } from "./ExamCard";
 import { MockupNote } from "./MockupNote";
 import type { MockExamSummary, Difficulty } from "@/lib/types";
 
 interface DifficultySelectorProps {
-  module: "lezen" | "knm" | "luisteren";
+  module: "lezen" | "knm" | "luisteren" | "schrijven" | "spreken";
   exams: MockExamSummary[];
   completedExams?: Record<string, number>; // examId -> lastScore
   isPremium?: boolean;
@@ -38,6 +38,24 @@ const moduleConfig = {
     subtitle: "Kies je niveau",
     subtitleEn: "Choose your level",
     icon: Headphones,
+    color: "text-[var(--accent)]",
+    bgColor: "bg-[var(--accent)]/10",
+  },
+  schrijven: {
+    title: "Schrijven",
+    titleEn: "Writing",
+    subtitle: "Kies je niveau",
+    subtitleEn: "Choose your level",
+    icon: PenLine,
+    color: "text-[var(--accent)]",
+    bgColor: "bg-[var(--accent)]/10",
+  },
+  spreken: {
+    title: "Spreken",
+    titleEn: "Speaking",
+    subtitle: "Kies je niveau",
+    subtitleEn: "Choose your level",
+    icon: Mic,
     color: "text-[var(--accent)]",
     bgColor: "bg-[var(--accent)]/10",
   },

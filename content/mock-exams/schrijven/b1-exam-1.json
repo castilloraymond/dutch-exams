@@ -1,0 +1,77 @@
+{
+  "id": "schrijven-b1-1",
+  "title": "Schrijven B1 - Oefenexamen 1",
+  "module": "schrijven",
+  "difficulty": "B1",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": true,
+  "tips": [
+    "A formal letter to a government body always starts with 'Geachte heer/mevrouw'.",
+    "Reference the original decision with a date or reference number.",
+    "Structure your arguments clearly — one argument per sentence.",
+    "End with a specific request: what do you want them to do?"
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "formal-register",
+      "text": "I used formal language where appropriate",
+      "textEn": "I used formal language where appropriate"
+    },
+    {
+      "id": "arguments",
+      "text": "I provided clear arguments and reasons",
+      "textEn": "I provided clear arguments and reasons"
+    },
+    {
+      "id": "structure",
+      "text": "My letters are well-structured with introduction, body, and conclusion",
+      "textEn": "My letters are well-structured with introduction, body, and conclusion"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-b1-1-q1",
+      "scenario": "U wilt bezwaar maken tegen een besluit van de gemeente over uw parkeervergunning.",
+      "scenarioEn": "You want to object to a municipality decision about your parking permit.",
+      "prompt": "Schrijf een formele brief aan de gemeente. Leg uit waarom u bezwaar maakt en vraag om heroverweging.",
+      "promptEn": "Write a formal letter to the municipality. Explain why you are objecting and ask for reconsideration.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-formal", "text": "I used formal language throughout", "textEn": "I used formal language throughout" },
+        { "id": "q1-arguments", "text": "I gave clear arguments", "textEn": "I gave clear arguments" },
+        { "id": "q1-request", "text": "I made a clear request", "textEn": "I made a clear request" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u naar aanleiding van uw brief van 15 januari over de afwijzing van mijn parkeervergunning. Ik woon in een straat zonder vrij parkeren en werk in ploegendienst. Zonder auto kan ik niet naar mijn werk. Ik verzoek u om het besluit te heroverwegen.\n\nMet vriendelijke groet,\nMohammed Al-Hassan"
+    },
+    {
+      "id": "schrijven-b1-1-q2",
+      "scenario": "Uw zorgverzekering heeft een declaratie voor fysiotherapie afgewezen.",
+      "scenarioEn": "Your health insurance rejected a claim for physiotherapy.",
+      "prompt": "Schrijf een klachtbrief aan uw zorgverzekering. Verwijs naar de verwijzing van uw huisarts.",
+      "promptEn": "Write a complaint letter to your health insurance. Refer to your GP's referral.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-formal", "text": "I used formal language", "textEn": "I used formal language" },
+        { "id": "q2-reference", "text": "I included reference numbers", "textEn": "I included reference numbers" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u over de afwijzing van mijn declaratie voor fysiotherapie (nr. ZV-2026-1587). Mijn huisarts heeft mij doorverwezen voor deze behandeling. Ik verzoek u om het besluit te herzien.\n\nMet vriendelijke groet,\nFatima Yilmaz"
+    },
+    {
+      "id": "schrijven-b1-1-q3",
+      "scenario": "U wilt verlof aanvragen bij uw werkgever voor een familiebezoek in het buitenland.",
+      "scenarioEn": "You want to request leave from your employer for a family visit abroad.",
+      "prompt": "Schrijf een email aan uw leidinggevende om verlof aan te vragen. Geef data en stel een oplossing voor uw werk voor.",
+      "promptEn": "Write an email to your manager to request leave. Give dates and suggest a solution for your work.",
+      "taskType": "free-text",
+      "wordRange": { "min": 50, "max": 100 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-dates", "text": "I included specific dates", "textEn": "I included specific dates" },
+        { "id": "q3-coverage", "text": "I suggested work coverage", "textEn": "I suggested work coverage" }
+      ],
+      "modelAnswer": "Beste Jan,\n\nIk wil graag twee weken verlof aanvragen van 14 tot en met 25 juli voor een familiebezoek. Mijn collega Anke kan mijn werk overnemen. Laat u mij weten of dit mogelijk is?\n\nMet vriendelijke groet,\nAhmed Benali"
+    }
+  ]
+}

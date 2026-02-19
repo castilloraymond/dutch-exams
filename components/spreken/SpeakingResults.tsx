@@ -23,6 +23,8 @@ interface SpeakingResultsProps {
   onModelAnswerPlayed: () => void;
   onRetry: () => void;
   onComplete: () => void;
+  onGoToIndex?: () => void;
+  goToIndexLabel?: string;
 }
 
 export function SpeakingResults({
@@ -34,6 +36,8 @@ export function SpeakingResults({
   onModelAnswerPlayed,
   onRetry,
   onComplete,
+  onGoToIndex,
+  goToIndexLabel = "Another Part",
 }: SpeakingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -289,12 +293,21 @@ export function SpeakingResults({
         >
           Try Again
         </button>
-        <Link
-          href="/learn/spreken"
-          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
-        >
-          Another Part
-        </Link>
+        {onGoToIndex ? (
+          <button
+            onClick={onGoToIndex}
+            className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
+          >
+            {goToIndexLabel}
+          </button>
+        ) : (
+          <Link
+            href="/learn/spreken"
+            className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
+          >
+            {goToIndexLabel}
+          </Link>
+        )}
       </div>
     </div>
   );

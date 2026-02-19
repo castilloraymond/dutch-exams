@@ -336,6 +336,9 @@ export interface TaskImage {
 
 export interface SpeakingQuestion {
   id: string;
+  partNumber?: SpeakingPartNumber;
+  partTitle?: string;
+  partTitleNl?: string;
   questionNl: string;
   questionEn: string;
   questionParts?: string[];
@@ -411,4 +414,34 @@ export interface SpeakingAttempt {
 
 export interface SpeakingProgress {
   [taskId: string]: SpeakingAttempt;
+}
+
+// ============================================
+// Mock Exam types for Schrijven & Spreken
+// ============================================
+
+export interface WritingMockExam {
+  id: string;
+  title: string;
+  module: "schrijven";
+  difficulty: Difficulty;
+  questionCount: number;
+  recommendedTime: string;
+  isFreePreview: boolean;
+  tips: string[];
+  selfAssessmentCriteria: AssessmentCriterion[];
+  questions: WritingQuestion[];
+}
+
+export interface SpeakingMockExam {
+  id: string;
+  title: string;
+  module: "spreken";
+  difficulty: Difficulty;
+  questionCount: number;
+  recommendedTime: string;
+  isFreePreview: boolean;
+  tips: string[];
+  selfAssessmentCriteria: AssessmentCriterion[];
+  questions: SpeakingQuestion[];
 }

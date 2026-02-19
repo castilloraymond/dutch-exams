@@ -1,0 +1,168 @@
+{
+  "id": "schrijven-a1-1",
+  "title": "Schrijven A1 - Oefenexamen 1",
+  "module": "schrijven",
+  "difficulty": "A1",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": true,
+  "tips": [
+    "On the real exam, you'll write by hand. Practice your Dutch handwriting too!",
+    "Dutch postal codes have 4 numbers followed by 2 letters (e.g., 1012 AB).",
+    "Use the format DD-MM-YYYY for dates in the Netherlands.",
+    "Keep your messages short and clear — you don't get extra points for complex vocabulary."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "all-fields",
+      "text": "I filled in all required fields correctly",
+      "textEn": "I filled in all required fields correctly"
+    },
+    {
+      "id": "clear-message",
+      "text": "My messages are clear and easy to understand",
+      "textEn": "My messages are clear and easy to understand"
+    },
+    {
+      "id": "greeting-closing",
+      "text": "I used appropriate greetings and closings",
+      "textEn": "I used appropriate greetings and closings"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-a1-1-q1",
+      "scenario": "U wilt zich inschrijven voor een Nederlandse taalcursus. Vul het inschrijfformulier in.",
+      "scenarioEn": "You want to register for a Dutch language course. Fill in the registration form.",
+      "prompt": "Vul het formulier in met uw gegevens.",
+      "promptEn": "Fill in the form with your information.",
+      "taskType": "form",
+      "formFields": [
+        {
+          "id": "voornaam",
+          "label": "Voornaam",
+          "labelEn": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw voornaam"
+        },
+        {
+          "id": "achternaam",
+          "label": "Achternaam",
+          "labelEn": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw achternaam"
+        },
+        {
+          "id": "geboortedatum",
+          "label": "Geboortedatum",
+          "labelEn": "Date of birth",
+          "type": "date",
+          "required": true
+        },
+        {
+          "id": "adres",
+          "label": "Adres",
+          "labelEn": "Address",
+          "type": "text",
+          "required": true,
+          "placeholder": "Straat en huisnummer"
+        },
+        {
+          "id": "postcode",
+          "label": "Postcode",
+          "labelEn": "Postal code",
+          "type": "text",
+          "required": true,
+          "placeholder": "1234 AB"
+        },
+        {
+          "id": "woonplaats",
+          "label": "Woonplaats",
+          "labelEn": "City",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw stad"
+        },
+        {
+          "id": "telefoonnummer",
+          "label": "Telefoonnummer",
+          "labelEn": "Phone number",
+          "type": "text",
+          "required": true,
+          "placeholder": "06-12345678"
+        },
+        {
+          "id": "email",
+          "label": "E-mailadres",
+          "labelEn": "Email address",
+          "type": "text",
+          "required": true,
+          "placeholder": "uw@email.nl"
+        },
+        {
+          "id": "cursus",
+          "label": "Welke cursus wilt u volgen?",
+          "labelEn": "Which course do you want to take?",
+          "type": "select",
+          "required": true,
+          "options": ["Nederlands A1", "Nederlands A2", "Nederlands B1", "Inburgeringscursus"]
+        },
+        {
+          "id": "dagvoorkeur",
+          "label": "Voorkeur voor lesdag",
+          "labelEn": "Preferred class day",
+          "type": "select",
+          "required": true,
+          "options": ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"]
+        }
+      ],
+      "selfAssessmentCriteria": [
+        { "id": "q1-all-fields", "text": "I filled in all required fields", "textEn": "I filled in all required fields" },
+        { "id": "q1-date-format", "text": "I used the correct date format", "textEn": "I used the correct date format" }
+      ],
+      "modelAnswer": {
+        "voornaam": "Maria",
+        "achternaam": "Garcia",
+        "geboortedatum": "1990-05-15",
+        "adres": "Hoofdstraat 123",
+        "postcode": "1012 AB",
+        "woonplaats": "Amsterdam",
+        "telefoonnummer": "06-98765432",
+        "email": "maria.garcia@email.nl",
+        "cursus": "Nederlands A2",
+        "dagvoorkeur": "Dinsdag"
+      }
+    },
+    {
+      "id": "schrijven-a1-1-q2",
+      "scenario": "U gaat een feestje geven en het kan laat worden. U wilt uw buurman waarschuwen.",
+      "scenarioEn": "You are having a party and it might get loud. You want to warn your neighbor.",
+      "prompt": "Schrijf een briefje aan uw buurman. Vertel dat u een feestje geeft en dat het misschien laat wordt.",
+      "promptEn": "Write a note to your neighbor. Tell them you are having a party and it might be late.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-info", "text": "I mentioned the party", "textEn": "I mentioned the party" },
+        { "id": "q2-warning", "text": "I warned about possible noise", "textEn": "I warned about possible noise" },
+        { "id": "q2-polite", "text": "I was polite and considerate", "textEn": "I was polite and considerate" }
+      ],
+      "modelAnswer": "Beste buurman,\n\nIk wil u even laten weten dat ik zaterdagavond een feestje geef. Het kan misschien een beetje luid worden. Ik doe mijn best om niet te veel lawaai te maken.\n\nSorry voor het ongemak!\n\nGroetjes,\nKarim"
+    },
+    {
+      "id": "schrijven-a1-1-q3",
+      "scenario": "De kat van uw buurman zit in uw tuin. U wilt de buurman informeren.",
+      "scenarioEn": "Your neighbor's cat is in your garden. You want to let the neighbor know.",
+      "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat zijn kat in uw tuin is.",
+      "promptEn": "Write a short note to your neighbor. Tell them their cat is in your garden.",
+      "taskType": "free-text",
+      "wordRange": { "min": 20, "max": 45 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-info", "text": "I mentioned the cat", "textEn": "I mentioned the cat" },
+        { "id": "q3-friendly", "text": "My message is friendly", "textEn": "My message is friendly" }
+      ],
+      "modelAnswer": "Dag buurman,\n\nUw kat zit in mijn tuin. Ik heb hem eten gegeven. U kunt hem ophalen wanneer u wilt. Ik ben tot 20:00 uur thuis.\n\nGroetjes,\nKarim"
+    }
+  ]
+}
