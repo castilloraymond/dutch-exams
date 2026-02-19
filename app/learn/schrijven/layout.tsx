@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Schrijven (Writing) Practice",
+  title: "Schrijven (Writing) Practice — 6 Mock Exams",
   description:
-    "Practice writing tasks for the Dutch inburgering Schrijven exam. 4 realistic tasks: emails, forms, messages, and replies in Dutch.",
+    "Practice for the Dutch inburgering Schrijven exam with 6 mock exams across A1, A2 & B1 levels. Realistic writing tasks: emails, forms, letters, and complaints in Dutch.",
 };
 
 export default function SchrijvenLayout({
@@ -35,7 +35,7 @@ export default function SchrijvenLayout({
               "@type": "ListItem",
               position: 3,
               name: "Schrijven (Writing)",
-              item: "https://passinburgering.com/learn/schrijven",
+              item: "https://passinburgering.com/learn/schrijven/select",
             },
           ],
         }}
