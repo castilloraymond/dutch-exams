@@ -3,7 +3,7 @@ export { LandingHero } from "./LandingHero";
 export { TrustBar } from "./TrustStats";
 export { ProblemSection } from "./ProblemSolution";
 export { HowItWorks } from "./HowItWorks";
-export { Features } from "./WhyUs";
+export { ExamModules } from "./WhyUs";
 export { Testimonials } from "./Testimonials";
 export { Pricing } from "./Pricing";
 export { FAQ } from "./FAQ";

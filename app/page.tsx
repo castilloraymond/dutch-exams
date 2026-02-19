@@ -5,7 +5,7 @@ import {
   TrustBar,
   ProblemSection,
   HowItWorks,
-  Features,
+  ExamModules,
   FAQ,
   BlogPreview,
   FinalCTA,
@@ -49,7 +49,7 @@ export default function Home() {
       <TrustBar />
       <ProblemSection />
       <HowItWorks />
-      <Features />
+      <ExamModules />
       <FAQ />
       <BlogPreview />
       <FinalCTA />

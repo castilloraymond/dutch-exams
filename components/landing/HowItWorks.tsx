@@ -8,18 +8,18 @@ export function HowItWorks() {
                     How it works
                 </div>
                 <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
-                    From &ldquo;I should start studying&rdquo; to<br className="hidden sm:block" /> &ldquo;I passed&rdquo; in 3 steps
+                    Three steps to prepare
                 </h2>
                 <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-[36px]">
-                    No Dutch required to get started. Everything is explained in English with Dutch content introduced gradually.
+                    No guesswork. No wasted time. Just structured practice on the real exam format.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 [counter-reset:step]">
                     {/* Step 1 */}
                     <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
-                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Take a diagnostic test</h3>
+                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Pick your module</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            A 15-minute assessment that maps your current level across all exam components: KNM, reading, listening, writing, and speaking.
+                            Choose from Lezen, Luisteren, KNM, Schrijven, or Spreken. Each targets a specific section of the inburgering exam.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="flex flex-wrap gap-2">
@@ -41,9 +41,9 @@ export function HowItWorks() {
 
                     {/* Step 2 */}
                     <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
-                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Drill with real exam formats</h3>
+                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Practice real exam questions</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            900+ questions that mirror the actual DUO exam format. Each question includes a practical tip so you learn the why, not just the what.
+                            Same question format, same time pressure, same interface as the actual computer-based DUO exam. Every question includes an explanation.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="text-[0.82rem] text-[var(--ink-soft)] font-semibold mb-2">Exam readiness</div>
@@ -56,9 +56,9 @@ export function HowItWorks() {
 
                     {/* Step 3 */}
                     <div className="relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-4 before:tracking-[-0.04em]">
-                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Pass with confidence</h3>
+                        <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Know when you&apos;re ready</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
-                            Track your scores across all modules. When you&apos;re consistently scoring above the passing threshold, you&apos;re ready to book your exam.
+                            Track your score across sessions. When you&apos;re consistently passing, stop studying and book your exam.
                         </p>
                         <div className="mt-5 bg-[var(--cream)] rounded-[10px] p-5 border border-[#ebe8e0]">
                             <div className="flex items-center gap-3">

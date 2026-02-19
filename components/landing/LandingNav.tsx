@@ -25,12 +25,12 @@ export function LandingNav() {
                     >
                         How it works
                     </Link>
-                    <Link
-                        href="#features"
+                    <a
+                        href="#modules"
                         className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
                     >
-                        Features
-                    </Link>
+                        Modules
+                    </a>
                     <Link
                         href="/blog"
                         className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
@@ -46,10 +46,10 @@ export function LandingNav() {
                         </Link>
                     ) : null}
                     <Link
-                        href={!loading && user ? "/learn" : "/try"}
+                        href="/learn"
                         className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250 hidden sm:block"
                     >
-                        {!loading && user ? "Start practicing" : "Try it free"}
+                        {!loading && user ? "Start practicing" : "Try a mock exam"}
                     </Link>
 
                     {/* Mobile hamburger */}
@@ -74,13 +74,13 @@ export function LandingNav() {
                         >
                             How it works
                         </Link>
-                        <Link
-                            href="#features"
+                        <a
+                            href="#modules"
                             onClick={() => setMenuOpen(false)}
                             className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
                         >
-                            Features
-                        </Link>
+                            Modules
+                        </a>
                         <Link
                             href="/blog"
                             onClick={() => setMenuOpen(false)}
@@ -107,11 +107,11 @@ export function LandingNav() {
                             </Link>
                         )}
                         <Link
-                            href={!loading && user ? "/learn" : "/try"}
+                            href="/learn"
                             onClick={() => setMenuOpen(false)}
                             className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-sm text-center hover:bg-[var(--accent)] transition-all"
                         >
-                            Start practicing
+                            {!loading && user ? "Start practicing" : "Try a mock exam"}
                         </Link>
                     </div>
                 </div>

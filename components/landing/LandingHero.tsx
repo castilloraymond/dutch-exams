@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { CircleCheck, ArrowRight, PlayCircle, Check, Clock } from "lucide-react";
+import { ArrowRight, Check, Clock, CircleCheck } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
 export function LandingHero() {
@@ -12,8 +12,7 @@ export function LandingHero() {
             {/* Left column */}
             <div className="animate-reveal">
                 <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
-                    <CircleCheck className="h-4 w-4" />
-                    Real Format. Real Questions. Real Results.
+                    Real format. Real questions. Real results.
                 </div>
 
                 <h1 className="text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-6 font-extrabold">
@@ -21,53 +20,42 @@ export function LandingHero() {
                 </h1>
 
                 <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
-                    The most efficient way to practice. Hundreds of exam level questions per module to prepare you for the test.
+                    Practice the exact format of the real exam across all 5 modules — Lezen, Luisteren, KNM, Schrijven &amp; Spreken. Built around the actual DUO exam, not generic Dutch lessons.
                 </p>
 
-                <div className="flex items-center gap-5 mb-8">
+                <div className="space-y-3 mb-8">
+                    {[
+                        "All 5 modules: Lezen, Luisteren, KNM, Schrijven & Spreken",
+                        "Matches the real computer-based exam format",
+                        "Free to start — no account required",
+                    ].map((item) => (
+                        <div key={item} className="flex items-start gap-3 text-[0.95rem] text-[var(--ink-soft)]">
+                            <CircleCheck className="h-5 w-5 text-[var(--green)] shrink-0 mt-0.5" />
+                            {item}
+                        </div>
+                    ))}
+                </div>
+
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
                     <Link
-                        href={user ? "/learn" : "/try"}
+                        href="/learn"
                         className="cta-primary inline-flex items-center gap-2.5 px-9 py-4 rounded-full font-semibold text-base"
                     >
-                        {user ? "Continue practicing" : "Start a free trial test"}
+                        {user ? "Continue practicing" : "Try a full mock exam"}
                         <ArrowRight className="h-4 w-4" />
                     </Link>
                     <a
-                        href="#how"
-                        className="inline-flex items-center gap-2 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
+                        href="#modules"
+                        className="inline-flex items-center gap-1.5 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
                     >
-                        <PlayCircle className="h-5 w-5" />
-                        See how it works
+                        or browse all 5 modules
+                        <ArrowRight className="h-3.5 w-3.5" />
                     </a>
-                </div>
-
-                <div className="text-[0.88rem] text-[var(--ink-muted)] leading-[1.4]">
-                    Free during beta — practice all 5 exam modules with 900+ questions
                 </div>
             </div>
 
             {/* Right column — Product mockup */}
             <div className="relative hidden lg:block animate-reveal-delay-2">
-                {/* Floating score card */}
-                <div className="absolute top-[-15px] right-[-30px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2.5 animate-[float_4s_ease-in-out_infinite_0.5s]">
-                    <div className="w-11 h-11 rounded-full border-[3px] border-[var(--green)] flex items-center justify-center font-bold text-[0.85rem] text-[var(--green)]">
-                        87%
-                    </div>
-                    <div>
-                        <div className="text-[0.78rem] font-semibold text-[var(--ink)] leading-[1.3]">Exam ready</div>
-                        <div className="text-[0.72rem] text-[var(--ink-muted)]">Reading section</div>
-                    </div>
-                </div>
-
-                {/* Floating streak card */}
-                <div className="absolute bottom-[-10px] left-[-25px] bg-white rounded-[14px] px-[18px] py-[14px] shadow-[0_8px_32px_rgba(26,26,46,0.12)] z-10 flex items-center gap-2 animate-[float_4s_ease-in-out_infinite_1.5s]">
-                    <span className="text-[1.3rem]">🔥</span>
-                    <div>
-                        <div className="text-[0.78rem] font-semibold text-[var(--ink)] leading-[1.3]">12-day streak</div>
-                        <div className="text-[0.72rem] text-[var(--ink-muted)]">Keep it going!</div>
-                    </div>
-                </div>
-
                 {/* Browser mockup */}
                 <div className="bg-white rounded-[20px] shadow-[0_20px_80px_rgba(26,26,46,0.10),0_1px_3px_rgba(26,26,46,0.06)] overflow-hidden [transform:perspective(1000px)_rotateY(-3deg)_rotateX(1deg)] hover:[transform:perspective(1000px)_rotateY(0deg)_rotateX(0deg)] transition-transform duration-400">
                     {/* Mockup body */}
