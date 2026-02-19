@@ -22,6 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Quick assessment (try) pages
   const tryPages: MetadataRoute.Sitemap = [
     { url: `${BASE_URL}/try`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/try/schrijven`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/try/spreken`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
   ];
 
   // Learn hub + module select pages

@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://passinburgering.com/guide",
   },
+  openGraph: {
+    title: "The Complete Guide to the Dutch Inburgering Exam (2026)",
+    description:
+      "Everything you need to know about the Dutch inburgering exam: who needs it, 5 modules explained, registration at DUO, scoring, and preparation tips.",
+    type: "article",
+    url: "https://passinburgering.com/guide",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Dutch Inburgering Exam Guide" }],
+  },
 };
 
 export default function GuidePage() {
@@ -33,6 +41,13 @@ export default function GuidePage() {
             url: "https://passinburgering.com",
           },
           inLanguage: "en",
+          image: "https://passinburgering.com/og-image.png",
+          datePublished: "2026-02-01",
+          dateModified: "2026-02-19",
+          mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": "https://passinburgering.com/guide",
+          },
         }}
       />
 

@@ -6,6 +6,9 @@ import { LandingFooter } from "@/components/landing/LandingFooter";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of service for using passinburgering, the Dutch inburgering exam practice platform.",
+  alternates: {
+    canonical: "https://passinburgering.com/terms",
+  },
 };
 
 export default function TermsPage() {

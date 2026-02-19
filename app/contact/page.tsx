@@ -6,6 +6,9 @@ import { LandingFooter } from "@/components/landing/LandingFooter";
 export const metadata: Metadata = {
   title: "Contact Us",
   description: "Get in touch with the passinburgering team. Questions about the inburgering exam or our practice platform? We respond within 24-48 hours.",
+  alternates: {
+    canonical: "https://passinburgering.com/contact",
+  },
 };
 
 export default function ContactPage() {

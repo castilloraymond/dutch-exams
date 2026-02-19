@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://passinburgering.com/faq",
   },
+  openGraph: {
+    title: "Inburgering Exam FAQ — Your Questions Answered",
+    description:
+      "Frequently asked questions about the Dutch inburgering exam: cost, registration, exemptions, retake policy, and exam format.",
+    type: "website",
+    url: "https://passinburgering.com/faq",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Inburgering Exam FAQ" }],
+  },
 };
 
 interface FAQItem {
