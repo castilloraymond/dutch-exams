@@ -168,7 +168,7 @@ export default function LearnHubPage() {
                 <div>
                   <h3 className="font-semibold text-[var(--ink)] mb-1">Welcome! Here&apos;s how to get started</h3>
                   <p className="text-sm text-[var(--ink-soft)]">
-                    Practice all 5 modules of the Dutch inburgering exam with 900+ questions. Take a quick assessment to see where you stand, or jump straight into KNM — the module most expats start with.
+                    Practice all 5 modules of the Dutch inburgering exam with 1,000+ questions. Take a quick assessment to see where you stand, or jump straight into KNM — the module most expats start with.
                   </p>
                 </div>
               </div>
@@ -301,7 +301,7 @@ export default function LearnHubPage() {
             <div className="text-left space-y-3 mb-6">
               <div className="flex items-start gap-3">
                 <Infinity className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />
-                <p className="text-sm text-[var(--ink)]"><span className="font-semibold">Lifetime access</span> — all 28 mock exams, writing & speaking exercises, forever</p>
+                <p className="text-sm text-[var(--ink)]"><span className="font-semibold">Lifetime access</span> — all 46 mock exams, writing & speaking exercises, forever</p>
               </div>
               <div className="flex items-start gap-3">
                 <Rocket className="h-5 w-5 text-[var(--accent)] mt-0.5 flex-shrink-0" />

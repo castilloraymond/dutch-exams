@@ -13,8 +13,8 @@ const features = [
   "1,200+ Drill Questions",
   "AI-Powered Explanations",
   "All 5 Exam Modules",
-  "28 Full Mock Exams",
-  "Future B1 Module Updates Included",
+  "46 Full Mock Exams (A1, A2 & B1)",
+  "Future Content Updates Included",
   "Private Feedback Channel",
 ];
 

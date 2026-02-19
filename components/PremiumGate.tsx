@@ -22,7 +22,7 @@ export function PremiumGate({ backHref, backLabel }: PremiumGateProps) {
           </h1>
           <p className="text-[var(--ink)]/60">
             This exercise is available to Founding Members. Get lifetime access
-            to all 28 mock exams, writing tasks, and speaking exercises.
+            to all 46 mock exams, writing tasks, and speaking exercises.
           </p>
         </div>
 

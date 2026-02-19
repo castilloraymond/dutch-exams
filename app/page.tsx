@@ -39,8 +39,14 @@ export default function Home() {
             url: "https://passinburgering.com",
           },
           isAccessibleForFree: true,
-          educationalLevel: "A1-A2",
+          educationalLevel: "A1-B1",
           inLanguage: ["nl", "en"],
+          numberOfCredits: 46,
+          hasCourseInstance: {
+            "@type": "CourseInstance",
+            courseMode: "online",
+            courseWorkload: "PT20H",
+          },
         }}
       />
       <ScrollRevealInit />
