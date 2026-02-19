@@ -1,0 +1,53 @@
+{
+  "module": "spreken",
+  "exams": [
+    {
+      "id": "spreken-a1-1",
+      "title": "Spreken A1 - Oefenexamen 1",
+      "difficulty": "A1",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "spreken-a1-2",
+      "title": "Spreken A1 - Oefenexamen 2",
+      "difficulty": "A1",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "spreken-a2-1",
+      "title": "Spreken A2 - Oefenexamen 1",
+      "difficulty": "A2",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "spreken-a2-2",
+      "title": "Spreken A2 - Oefenexamen 2",
+      "difficulty": "A2",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "spreken-b1-1",
+      "title": "Spreken B1 - Oefenexamen 1",
+      "difficulty": "B1",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "spreken-b1-2",
+      "title": "Spreken B1 - Oefenexamen 2",
+      "difficulty": "B1",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": false
+    }
+  ]
+}

@@ -65,6 +65,38 @@
       "difficulty": "A2",
       "taskType": "free-text",
       "isFreePreview": false
+    },
+    {
+      "id": "b1-letter-municipality",
+      "title": "Brief aan de gemeente",
+      "titleEn": "Letter to the Municipality",
+      "difficulty": "B1",
+      "taskType": "free-text",
+      "isFreePreview": true
+    },
+    {
+      "id": "b1-complaint-insurance",
+      "title": "Klacht aan verzekering",
+      "titleEn": "Complaint to Insurance",
+      "difficulty": "B1",
+      "taskType": "free-text",
+      "isFreePreview": false
+    },
+    {
+      "id": "b1-email-employer-leave",
+      "title": "Email aan werkgever",
+      "titleEn": "Email to Employer",
+      "difficulty": "B1",
+      "taskType": "free-text",
+      "isFreePreview": false
+    },
+    {
+      "id": "b1-form-housing",
+      "title": "Woningaanvraag formulier",
+      "titleEn": "Housing Application Form",
+      "difficulty": "B1",
+      "taskType": "form",
+      "isFreePreview": false
     }
   ]
 }

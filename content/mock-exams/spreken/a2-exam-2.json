@@ -1,0 +1,126 @@
+{
+  "id": "spreken-a2-2",
+  "title": "Spreken A2 - Oefenexamen 2",
+  "module": "spreken",
+  "difficulty": "A2",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": false,
+  "tips": [
+    "Describe the pictures before giving your opinion.",
+    "Use 'want' (because) to explain your reasons.",
+    "In Part 4, make sure to use eerst, dan, daarna to connect the three pictures.",
+    "Don't worry about small mistakes — keep speaking."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
+    { "id": "detail", "text": "I described pictures before giving opinions", "textEn": "I described pictures before giving opinions" },
+    { "id": "sequencing", "text": "I used sequencing words in Part 4", "textEn": "I used sequencing words in Part 4" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-a2-2-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Hoe ziet jouw dag eruit? Wat doe je 's ochtends, 's middags en 's avonds?",
+      "questionEn": "What does your day look like? What do you do in the morning, afternoon, and evening?",
+      "personStatement": "I wake up at 7, work from 9 to 5, and relax in the evening.",
+      "personStatementNl": "Ik word om 7 uur wakker, werk van 9 tot 5, en ontspan 's avonds.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "In the morning I wake up at 7 o'clock. I eat breakfast and go to school by bike. In the afternoon I study Dutch. In the evening I cook dinner and watch television. I go to bed at 11 o'clock.",
+        "transcriptNl": "Ik word 's ochtends om 7 uur wakker. Ik ontbijt en ga met de fiets naar school. 's Middags studeer ik Nederlands. 's Avonds kook ik en kijk ik televisie. Ik ga om 11 uur naar bed."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-2-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Wat zie je? Doe jij weleens boodschappen op de markt?",
+      "questionEn": "Look at the image. What do you see? Do you ever shop at the market?",
+      "images": [
+        {
+          "id": "a2-market-1",
+          "src": "/images/spreken/a2-market-stall.jpg",
+          "alt": "A market stall with fresh produce",
+          "altNl": "Een marktkraam met verse producten"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I see a market stall with fresh fruits and vegetables. There are tomatoes, peppers, and apples. I go to the market every week on Saturday. The food is fresh and often cheaper than the supermarket. I buy vegetables and sometimes flowers.",
+        "transcriptNl": "Ik zie een marktkraam met verse groenten en fruit. Er zijn tomaten, paprika's en appels. Ik ga elke week op zaterdag naar de markt. Het eten is vers en vaak goedkoper dan de supermarkt. Ik koop groenten en soms bloemen."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-2-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Beschrijf wat je ziet. Hoe reis jij het liefst? Waarom?",
+      "questionEn": "Look at both pictures. Describe what you see. How do you prefer to travel? Why?",
+      "images": [
+        {
+          "id": "a2-transport-train",
+          "src": "/images/spreken/a2-transport-train.jpg",
+          "alt": "Interior of a Dutch train",
+          "altNl": "Binnenkant van een Nederlandse trein"
+        },
+        {
+          "id": "a2-transport-car",
+          "src": "/images/spreken/a2-transport-car.jpg",
+          "alt": "Person driving a car in traffic",
+          "altNl": "Persoon rijdt auto in het verkeer"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "In the first picture I see the inside of a train. It looks comfortable. In the second picture someone drives a car in traffic. I prefer the train because you can read or work during the trip. A car is useful for visiting family but there is often traffic.",
+        "transcriptNl": "Op de eerste foto zie ik de binnenkant van een trein. Het ziet er comfortabel uit. Op de tweede foto rijdt iemand auto in het verkeer. Ik reis het liefst met de trein want je kunt lezen of werken tijdens de reis. Een auto is handig voor familiebezoek maar er is vaak file."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-2-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel een verhaal. Gebruik de woorden: eerst, dan, daarna.",
+      "questionEn": "Look at the three pictures. Tell a story. Use the words: first, then, after that.",
+      "images": [
+        {
+          "id": "a2-kitchen-1",
+          "src": "/images/spreken/a2-kitchen-recipe.jpg",
+          "alt": "Person reading a recipe book",
+          "altNl": "Persoon leest een kookboek"
+        },
+        {
+          "id": "a2-kitchen-2",
+          "src": "/images/spreken/a2-kitchen-cooking.jpg",
+          "alt": "Person cooking in the kitchen",
+          "altNl": "Persoon kookt in de keuken"
+        },
+        {
+          "id": "a2-kitchen-3",
+          "src": "/images/spreken/a2-kitchen-eating.jpg",
+          "alt": "Family eating dinner together",
+          "altNl": "Familie eet samen"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "First the person reads a recipe in a cookbook. They choose what to cook. Then they prepare the food in the kitchen. They cut vegetables and cook on the stove. After that the whole family eats dinner together at the table. They enjoy the meal.",
+        "transcriptNl": "Eerst leest de persoon een recept in een kookboek. Hij kiest wat hij gaat koken. Dan bereidt hij het eten in de keuken. Hij snijdt groenten en kookt op het fornuis. Daarna eet het hele gezin samen aan tafel. Ze genieten van de maaltijd."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "b1-part4-moving-day",
+  "partNumber": 4,
+  "partTitle": "Three-Picture Prompt",
+  "partTitleNl": "Drie Afbeeldingen",
+  "title": "Moving Day",
+  "titleNl": "Verhuisdag",
+  "difficulty": "B1",
+  "images": [
+    {
+      "id": "packing-boxes",
+      "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600&h=600&fit=crop",
+      "alt": "Person packing boxes in a room",
+      "altNl": "Persoon pakt dozen in een kamer",
+      "label": "1"
+    },
+    {
+      "id": "moving-van",
+      "src": "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=600&h=600&fit=crop",
+      "alt": "Moving van being loaded with furniture",
+      "altNl": "Verhuiswagen wordt geladen met meubels",
+      "label": "2"
+    },
+    {
+      "id": "new-home",
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "alt": "People unpacking in a new empty apartment",
+      "altNl": "Mensen pakken uit in een nieuw leeg appartement",
+      "label": "3"
+    }
+  ],
+  "questionNl": "Deze plaatjes laten een verhuisdag zien. Vertel wat je ziet op elk plaatje. Vertel ook of jij weleens bent verhuisd en hoe dat was.",
+  "questionEn": "These pictures show a moving day. Tell what you see in each picture. Also tell if you have ever moved and how that was.",
+  "questionParts": [
+    "What do you see in each picture?",
+    "Have you ever moved?",
+    "How was your experience?"
+  ],
+  "recommendedDuration": 45,
+  "softLimitWarning": 35,
+  "selfAssessmentCriteria": [
+    {
+      "id": "named-all",
+      "text": "I described all three pictures",
+      "textEn": "I described all three pictures"
+    },
+    {
+      "id": "sequencing",
+      "text": "I used sequencing words (Eerst, Daarna, Tenslotte / Op het eerste plaatje...)",
+      "textEn": "I used sequencing words (Eerst, Daarna, Tenslotte / Op het eerste plaatje...)"
+    },
+    {
+      "id": "personal",
+      "text": "I shared my own experience with moving",
+      "textEn": "I shared my own experience with moving"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "On the first picture I see someone packing boxes in their house. They are preparing for the move. On the second picture I see a moving van. People are loading furniture into the van. Finally, on the third picture I see people unpacking in their new apartment. I have also moved, two years ago when I came to the Netherlands. It was stressful because I had to arrange many things, but my neighbors helped me and that was very nice.",
+    "transcriptNl": "Op het eerste plaatje zie ik iemand die dozen inpakt in zijn huis. Hij bereidt zich voor op de verhuizing. Op het tweede plaatje zie ik een verhuiswagen. Mensen laden meubels in de wagen. Tenslotte zie ik op het derde plaatje mensen die uitpakken in hun nieuwe appartement. Ik ben zelf ook verhuisd, twee jaar geleden toen ik naar Nederland kwam. Het was stressvol omdat ik veel dingen moest regelen, maar mijn buren hielpen mij en dat was heel fijn."
+  },
+  "tips": [
+    "Use 'Op het eerste/tweede/derde plaatje' to structure your description of each image.",
+    "At B1, you're expected to add personal experience — relate the pictures to your own life.",
+    "Use past tense when talking about your own experience (ik ben verhuisd, ik moest).",
+    "Connect your sentences with words like 'omdat', 'maar', 'en', 'toen'."
+  ],
+  "sequencingWordsRequired": true,
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "b1-part4-moving-day-q1",
+      "questionNl": "Vertel wat je ziet op elk plaatje. Vertel ook of jij weleens bent verhuisd.",
+      "questionEn": "Tell what you see in each picture. Also tell if you have ever moved.",
+      "questionParts": [
+        "What do you see in each picture?",
+        "Have you ever moved?"
+      ],
+      "images": [
+        {
+          "id": "packing-boxes",
+          "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600&h=600&fit=crop",
+          "alt": "Person packing boxes",
+          "altNl": "Persoon pakt dozen in",
+          "label": "1"
+        },
+        {
+          "id": "moving-van",
+          "src": "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=600&h=600&fit=crop",
+          "alt": "Moving van being loaded",
+          "altNl": "Verhuiswagen wordt geladen",
+          "label": "2"
+        },
+        {
+          "id": "new-home",
+          "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+          "alt": "People unpacking in new apartment",
+          "altNl": "Mensen pakken uit in nieuw appartement",
+          "label": "3"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First someone is packing boxes. Then they load the van. Finally they unpack in the new home. I also moved two years ago and it was stressful but my neighbors helped.",
+        "transcriptNl": "Eerst pakt iemand dozen in. Daarna laden ze de verhuiswagen. Tenslotte pakken ze uit in het nieuwe huis. Ik ben ook twee jaar geleden verhuisd en het was stressvol maar mijn buren hielpen."
+      },
+      "sequencingWordsRequired": true
+    },
+    {
+      "id": "b1-part4-moving-day-q2",
+      "questionNl": "Deze plaatjes laten zien hoe iemand een feest organiseert. Vertel wat je ziet. Vertel ook of jij weleens een feest hebt georganiseerd.",
+      "questionEn": "These pictures show how someone organizes a party. Tell what you see. Also tell if you have ever organized a party.",
+      "questionParts": [
+        "What do you see in each picture?",
+        "Have you ever organized a party?"
+      ],
+      "images": [
+        {
+          "id": "shopping-food",
+          "src": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=600&h=600&fit=crop",
+          "alt": "Person shopping for food at a supermarket",
+          "altNl": "Persoon doet boodschappen in een supermarkt",
+          "label": "1"
+        },
+        {
+          "id": "cooking",
+          "src": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop",
+          "alt": "Person cooking a big meal in the kitchen",
+          "altNl": "Persoon kookt een grote maaltijd in de keuken",
+          "label": "2"
+        },
+        {
+          "id": "party",
+          "src": "https://images.unsplash.com/photo-1529543544282-ea7407407c4f?w=600&h=600&fit=crop",
+          "alt": "Group of people enjoying a dinner party together",
+          "altNl": "Groep mensen geniet samen van een etentje",
+          "label": "3"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First the person goes shopping for food at the supermarket. Then they cook a big meal in the kitchen. Finally everyone is at the dinner party and they are eating together. I have also organized a birthday party for my wife last year. I cooked traditional food from my country.",
+        "transcriptNl": "Eerst gaat de persoon boodschappen doen in de supermarkt. Daarna kookt hij een grote maaltijd in de keuken. Tenslotte is iedereen op het etentje en eten ze samen. Ik heb ook een verjaardagsfeest georganiseerd voor mijn vrouw vorig jaar. Ik kookte traditioneel eten uit mijn land."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

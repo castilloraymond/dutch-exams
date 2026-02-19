@@ -1,0 +1,139 @@
+{
+  "id": "b1-form-housing",
+  "title": "Woningaanvraag formulier",
+  "titleEn": "Housing Application Form",
+  "difficulty": "B1",
+  "taskType": "form",
+  "scenario": "U wilt een sociale huurwoning aanvragen bij de woningcorporatie. U moet een aanvraagformulier invullen.",
+  "scenarioEn": "You want to apply for social housing from the housing corporation. You need to fill in an application form.",
+  "prompt": "Vul het aanvraagformulier in voor een sociale huurwoning. Geef uw persoonlijke gegevens, gezinssamenstelling, huidige woonsituatie en uw wensen voor de nieuwe woning.",
+  "promptEn": "Fill in the application form for social housing. Provide your personal details, family composition, current living situation, and your preferences for the new home.",
+  "wordRange": {
+    "min": 0,
+    "max": 0
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "personal-info",
+      "text": "I filled in all personal information fields",
+      "textEn": "I filled in all personal information fields"
+    },
+    {
+      "id": "family",
+      "text": "I provided my family composition",
+      "textEn": "I provided my family composition"
+    },
+    {
+      "id": "current-housing",
+      "text": "I described my current living situation",
+      "textEn": "I described my current living situation"
+    },
+    {
+      "id": "preferences",
+      "text": "I stated my housing preferences",
+      "textEn": "I stated my housing preferences"
+    }
+  ],
+  "formFields": [
+    {
+      "id": "naam",
+      "label": "Volledige naam",
+      "labelEn": "Full name",
+      "type": "text",
+      "placeholder": "Voornaam en achternaam"
+    },
+    {
+      "id": "geboortedatum",
+      "label": "Geboortedatum",
+      "labelEn": "Date of birth",
+      "type": "text",
+      "placeholder": "DD-MM-JJJJ"
+    },
+    {
+      "id": "adres",
+      "label": "Huidig adres",
+      "labelEn": "Current address",
+      "type": "text",
+      "placeholder": "Straatnaam, huisnummer, postcode, plaats"
+    },
+    {
+      "id": "telefoon",
+      "label": "Telefoonnummer",
+      "labelEn": "Phone number",
+      "type": "text",
+      "placeholder": "06-..."
+    },
+    {
+      "id": "email",
+      "label": "E-mailadres",
+      "labelEn": "Email address",
+      "type": "text",
+      "placeholder": "uw@email.nl"
+    },
+    {
+      "id": "gezin",
+      "label": "Gezinssamenstelling (hoeveel personen en leeftijden)",
+      "labelEn": "Family composition (how many people and ages)",
+      "type": "textarea",
+      "placeholder": "Bijv: 2 volwassenen, 1 kind (4 jaar)"
+    },
+    {
+      "id": "huidig-woning",
+      "label": "Huidige woonsituatie (huur/koop, type woning, reden van verhuizing)",
+      "labelEn": "Current housing situation (rent/own, type of home, reason for moving)",
+      "type": "textarea",
+      "placeholder": "Beschrijf uw huidige situatie"
+    },
+    {
+      "id": "wensen",
+      "label": "Wensen nieuwe woning (type, aantal kamers, buurt)",
+      "labelEn": "New home preferences (type, number of rooms, neighborhood)",
+      "type": "textarea",
+      "placeholder": "Beschrijf uw wensen"
+    },
+    {
+      "id": "inkomen",
+      "label": "Bruto jaarinkomen huishouden",
+      "labelEn": "Gross annual household income",
+      "type": "text",
+      "placeholder": "€..."
+    },
+    {
+      "id": "toelichting",
+      "label": "Aanvullende toelichting (optioneel)",
+      "labelEn": "Additional notes (optional)",
+      "type": "textarea",
+      "placeholder": "Bijzondere omstandigheden of opmerkingen"
+    }
+  ],
+  "modelAnswer": "Naam: Amira El-Khoury\nGeboortedatum: 12-05-1990\nAdres: Korte Leidsedwarsstraat 8-II, 1017 RC Amsterdam\nTelefoon: 06-12345678\nEmail: amira.elkhoury@email.nl\nGezin: 2 volwassenen, 2 kinderen (3 jaar en 6 jaar)\nHuidige woning: Huurwoning, bovenwoning 2 kamers. Te klein voor ons gezin, kinderen delen een kamer.\nWensen: Appartement of eengezinswoning met minimaal 3 slaapkamers, bij voorkeur in Amsterdam-Oost of Zuidoost, in de buurt van een basisschool.\nInkomen: €38.000\nToelichting: Onze huidige woning is te klein geworden na de geboorte van ons tweede kind. Wij staan sinds 2023 ingeschreven bij WoningNet.",
+  "tips": [
+    "Be specific about your family composition — include ages of children.",
+    "Clearly explain why you need new housing — this strengthens your application.",
+    "State realistic preferences — being too specific may limit your options.",
+    "Include your WoningNet registration date if applicable."
+  ],
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "b1-form-housing-q1",
+      "scenario": "U wilt een sociale huurwoning aanvragen.",
+      "scenarioEn": "You want to apply for social housing.",
+      "prompt": "Vul het aanvraagformulier in met uw gegevens.",
+      "promptEn": "Fill in the application form with your details.",
+      "taskType": "form",
+      "wordRange": {
+        "min": 0,
+        "max": 0
+      },
+      "selfAssessmentCriteria": [
+        {
+          "id": "q1-complete",
+          "text": "I filled in all required fields",
+          "textEn": "I filled in all required fields"
+        }
+      ],
+      "modelAnswer": "Naam: Amira El-Khoury\nGeboortedatum: 12-05-1990\nGezin: 2 volwassenen, 2 kinderen\nWensen: 3 slaapkamers, Amsterdam-Oost"
+    }
+  ]
+}

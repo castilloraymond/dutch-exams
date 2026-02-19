@@ -1,0 +1,133 @@
+{
+  "id": "b1-part3-neighborhood",
+  "partNumber": 3,
+  "partTitle": "Two-Picture Prompt",
+  "partTitleNl": "Twee Afbeeldingen",
+  "title": "Neighborhood",
+  "titleNl": "Buurt",
+  "difficulty": "B1",
+  "images": [
+    {
+      "id": "city-street",
+      "src": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=600&fit=crop",
+      "alt": "Busy city street with shops and people",
+      "altNl": "Drukke stadsstraat met winkels en mensen",
+      "label": "A"
+    },
+    {
+      "id": "village-street",
+      "src": "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=600&h=600&fit=crop",
+      "alt": "Quiet village street with trees and houses",
+      "altNl": "Rustige dorpsstraat met bomen en huizen",
+      "label": "B"
+    }
+  ],
+  "questionNl": "Je gaat verhuizen. In welke buurt wil je liever wonen? Vertel ook waarom je die buurt kiest en wat de voordelen en nadelen zijn.",
+  "questionEn": "You are moving. In which neighborhood do you prefer to live? Also tell why you choose that neighborhood and what the advantages and disadvantages are.",
+  "questionParts": [
+    "Which neighborhood do you prefer?",
+    "Why do you choose that one?",
+    "What are the advantages and disadvantages?"
+  ],
+  "recommendedDuration": 45,
+  "softLimitWarning": 35,
+  "selfAssessmentCriteria": [
+    {
+      "id": "made-choice",
+      "text": "I clearly stated which neighborhood I prefer",
+      "textEn": "I clearly stated which neighborhood I prefer"
+    },
+    {
+      "id": "gave-reasons",
+      "text": "I explained why with multiple reasons",
+      "textEn": "I explained why with multiple reasons"
+    },
+    {
+      "id": "pros-cons",
+      "text": "I mentioned both advantages and disadvantages",
+      "textEn": "I mentioned both advantages and disadvantages"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I prefer to live in the quiet village in picture B. I choose this because I like nature and space. The advantages are that it is quiet, there is more green, and the houses are bigger. But there are also disadvantages: there are fewer shops and you need a car. Despite that, I would prefer the village because I think peace and quiet are more important.",
+    "transcriptNl": "Ik woon liever in het rustige dorp op plaatje B. Ik kies hiervoor omdat ik van natuur en ruimte houd. De voordelen zijn dat het rustig is, er meer groen is en de huizen groter zijn. Maar er zijn ook nadelen: er zijn minder winkels en je hebt een auto nodig. Toch zou ik het dorp kiezen omdat ik rust en stilte belangrijker vind."
+  },
+  "tips": [
+    "At B1, you need to discuss both pros and cons — not just your preference.",
+    "Use contrast words: 'maar' (but), 'toch' (nevertheless), 'hoewel' (although).",
+    "Give concrete examples to support your arguments.",
+    "Structure your answer: choice → reasons → pros → cons → conclusion."
+  ],
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "b1-part3-neighborhood-q1",
+      "questionNl": "Je gaat verhuizen. In welke buurt wil je liever wonen? Vertel ook waarom en noem voordelen en nadelen.",
+      "questionEn": "You are moving. Which neighborhood do you prefer? Tell why and give pros and cons.",
+      "questionParts": [
+        "Which neighborhood do you prefer?",
+        "Why?",
+        "What are the pros and cons?"
+      ],
+      "images": [
+        {
+          "id": "city-street",
+          "src": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=600&fit=crop",
+          "alt": "Busy city street",
+          "altNl": "Drukke stadsstraat",
+          "label": "A"
+        },
+        {
+          "id": "village-street",
+          "src": "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=600&h=600&fit=crop",
+          "alt": "Quiet village street",
+          "altNl": "Rustige dorpsstraat",
+          "label": "B"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I prefer the village because it is quiet and green. But there are fewer shops and you need a car.",
+        "transcriptNl": "Ik kies het dorp omdat het rustig en groen is. Maar er zijn minder winkels en je hebt een auto nodig."
+      }
+    },
+    {
+      "id": "b1-part3-neighborhood-q2",
+      "questionNl": "Je zoekt een vakantie. Welke vakantie kies je? Vertel ook waarom en noem voordelen en nadelen.",
+      "questionEn": "You are looking for a holiday. Which holiday do you choose? Also tell why and give pros and cons.",
+      "questionParts": [
+        "Which holiday do you prefer?",
+        "Why?",
+        "What are the pros and cons?"
+      ],
+      "images": [
+        {
+          "id": "beach-holiday",
+          "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=600&fit=crop",
+          "alt": "Tropical beach with palm trees",
+          "altNl": "Tropisch strand met palmbomen",
+          "label": "A"
+        },
+        {
+          "id": "mountain-holiday",
+          "src": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=600&fit=crop",
+          "alt": "Mountain landscape with hiking trail",
+          "altNl": "Berglandschap met wandelpad",
+          "label": "B"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I prefer the beach holiday because I like warm weather and swimming. The advantage is that you can relax. But the disadvantage is that it can be very busy and expensive in the summer.",
+        "transcriptNl": "Ik kies de strandvakantie omdat ik van warm weer en zwemmen houd. Het voordeel is dat je kunt ontspannen. Maar het nadeel is dat het erg druk en duur kan zijn in de zomer."
+      }
+    }
+  ]
+}

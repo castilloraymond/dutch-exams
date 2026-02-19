@@ -1,0 +1,78 @@
+{
+  "id": "schrijven-a2-2",
+  "title": "Schrijven A2 - Oefenexamen 2",
+  "module": "schrijven",
+  "difficulty": "A2",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": false,
+  "tips": [
+    "Be polite but clear about problems — always state what you need.",
+    "With colleagues, you can use informal language (je/jij instead of u).",
+    "When saying no, give a reason and be polite about it.",
+    "Always re-read your answer before submitting."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "register",
+      "text": "I used the right formality level for each recipient",
+      "textEn": "I used the right formality level for each recipient"
+    },
+    {
+      "id": "complete",
+      "text": "I included all requested information",
+      "textEn": "I included all requested information"
+    },
+    {
+      "id": "structure",
+      "text": "My messages have a clear beginning, middle, and end",
+      "textEn": "My messages have a clear beginning, middle, and end"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-a2-2-q1",
+      "scenario": "Uw kind moet naar de dokter en mist een dag school.",
+      "scenarioEn": "Your child has a doctor's appointment and will miss a day of school.",
+      "prompt": "Schrijf een kort bericht aan de leerkracht over de doktersafspraak van uw kind.",
+      "promptEn": "Write a short message to the teacher about your child's doctor appointment.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-date", "text": "I mentioned the date", "textEn": "I mentioned the date" },
+        { "id": "q1-reason", "text": "I explained why my child is absent", "textEn": "I explained why my child is absent" }
+      ],
+      "modelAnswer": "Beste juf Van den Berg,\n\nIk wil u laten weten dat Lisa woensdag niet op school kan komen. Zij heeft een afspraak bij de dokter om 10:00 uur. Donderdag is zij weer op school.\n\nGroetjes,\nMaria Bakker"
+    },
+    {
+      "id": "schrijven-a2-2-q2",
+      "scenario": "Het raam in uw slaapkamer sluit niet goed. Het is koud in huis.",
+      "scenarioEn": "The window in your bedroom doesn't close properly. It's cold in the house.",
+      "prompt": "Schrijf een bericht aan uw verhuurder over het kapotte raam. Leg uit wat het probleem is.",
+      "promptEn": "Write a message to your landlord about the broken window. Explain what the problem is.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-problem", "text": "I explained what is wrong with the window", "textEn": "I explained what is wrong with the window" },
+        { "id": "q2-urgency", "text": "I explained why it needs to be fixed", "textEn": "I explained why it needs to be fixed" },
+        { "id": "q2-polite", "text": "I was polite in my request", "textEn": "I was polite in my request" }
+      ],
+      "modelAnswer": "Geachte mevrouw De Groot,\n\nHet raam in mijn slaapkamer sluit niet goed meer. Er komt koude lucht binnen en het is erg koud in huis. Kunt u dit zo snel mogelijk laten repareren?\n\nU kunt mij bellen op 06-12345678.\n\nMet vriendelijke groet,\nFatima El Amrani"
+    },
+    {
+      "id": "schrijven-a2-2-q3",
+      "scenario": "Uw collega Mark vraagt of u zondag kunt werken. U kunt niet omdat u een familiefeest heeft.",
+      "scenarioEn": "Your colleague Mark asks if you can work Sunday. You can't because you have a family party.",
+      "prompt": "Schrijf een antwoord aan Mark. Zeg dat u niet kunt helpen en leg uit waarom.",
+      "promptEn": "Write a reply to Mark. Say you cannot help and explain why.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-answer", "text": "I clearly said no", "textEn": "I clearly said no" },
+        { "id": "q3-reason", "text": "I gave a reason", "textEn": "I gave a reason" },
+        { "id": "q3-polite", "text": "I was polite about saying no", "textEn": "I was polite about saying no" }
+      ],
+      "modelAnswer": "Hoi Mark,\n\nSorry, ik kan zondag helaas niet werken. Ik heb een familiefeest en kan niet afzeggen. Misschien kun je het aan iemand anders vragen?\n\nSucces!\nGroetjes,\nSarah"
+    }
+  ]
+}

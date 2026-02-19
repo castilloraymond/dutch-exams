@@ -1,0 +1,110 @@
+{
+  "id": "b1-part2-workplace",
+  "partNumber": 2,
+  "partTitle": "One-Picture Prompt",
+  "partTitleNl": "Eén Afbeelding",
+  "title": "Workplace",
+  "titleNl": "Werkplek",
+  "difficulty": "B1",
+  "images": [
+    {
+      "id": "office-meeting",
+      "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=600&fit=crop",
+      "alt": "People having a meeting in a modern office",
+      "altNl": "Mensen hebben een vergadering in een modern kantoor",
+      "label": "Eva"
+    }
+  ],
+  "questionNl": "Vertel wat Eva doet op haar werk. Vertel ook wat jij van deze werkomgeving vindt en of jij zo zou willen werken.",
+  "questionEn": "Tell what Eva does at her work. Also tell what you think of this work environment and if you would like to work like this.",
+  "questionParts": [
+    "What is Eva doing at work?",
+    "What do you think of this work environment?",
+    "Would you like to work like this?"
+  ],
+  "recommendedDuration": 45,
+  "softLimitWarning": 35,
+  "selfAssessmentCriteria": [
+    {
+      "id": "all-parts",
+      "text": "I answered all three parts of the question",
+      "textEn": "I answered all three parts of the question"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "described-image",
+      "text": "I described what I saw in the image in detail",
+      "textEn": "I described what I saw in the image in detail"
+    },
+    {
+      "id": "gave-opinion",
+      "text": "I gave my opinion and explained why",
+      "textEn": "I gave my opinion and explained why"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "Eva is having a meeting with her colleagues in a modern office. They are probably discussing a project. I think this is a nice work environment because it looks clean and modern with a lot of light. I would like to work in a place like this because I like working together with other people.",
+    "transcriptNl": "Eva heeft een vergadering met haar collega's in een modern kantoor. Ze bespreken waarschijnlijk een project. Ik vind dit een fijne werkomgeving omdat het er schoon en modern uitziet met veel licht. Ik zou graag op zo'n plek willen werken omdat ik het leuk vind om samen te werken met andere mensen."
+  },
+  "tips": [
+    "At B1, describe not just what you see but also give your interpretation and opinion.",
+    "Use 'omdat' (because) to explain your opinions.",
+    "Compare the image to your own experience to make your answer richer.",
+    "Speak for the full time — use the extra seconds to add details."
+  ],
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "b1-part2-workplace-q1",
+      "questionNl": "Vertel wat Eva doet op haar werk. Vertel ook wat jij van deze werkomgeving vindt.",
+      "questionEn": "Tell what Eva does at her work. Also tell what you think of this work environment.",
+      "questionParts": [
+        "What is Eva doing?",
+        "What do you think of this environment?"
+      ],
+      "images": [
+        {
+          "id": "office-meeting",
+          "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=600&fit=crop",
+          "alt": "People having a meeting in a modern office",
+          "altNl": "Mensen hebben een vergadering in een modern kantoor",
+          "label": "Eva"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "Eva is having a meeting with colleagues. I think it is a nice work environment because it looks modern with a lot of light.",
+        "transcriptNl": "Eva heeft een vergadering met collega's. Ik vind het een fijne werkomgeving omdat het er modern uitziet met veel licht."
+      }
+    },
+    {
+      "id": "b1-part2-workplace-q2",
+      "questionNl": "Vertel wat Jan doet. Vertel ook wat jij vindt van buiten werken.",
+      "questionEn": "Tell what Jan is doing. Also tell what you think about working outside.",
+      "questionParts": [
+        "What is Jan doing?",
+        "What do you think about working outside?"
+      ],
+      "images": [
+        {
+          "id": "outdoor-worker",
+          "src": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=600&fit=crop",
+          "alt": "Person working at a construction site outdoors",
+          "altNl": "Persoon werkt op een bouwplaats buiten",
+          "label": "Jan"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "Jan is working at a construction site outside. He is building something. I think working outside can be nice in the summer but difficult in the winter because of the cold and rain.",
+        "transcriptNl": "Jan werkt op een bouwplaats buiten. Hij is iets aan het bouwen. Ik denk dat buiten werken fijn kan zijn in de zomer maar moeilijk in de winter vanwege de kou en regen."
+      }
+    }
+  ]
+}

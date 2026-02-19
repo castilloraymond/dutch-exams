@@ -1,0 +1,126 @@
+{
+  "id": "spreken-a1-1",
+  "title": "Spreken A1 - Oefenexamen 1",
+  "module": "spreken",
+  "difficulty": "A1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": true,
+  "tips": [
+    "Answer the question with short, simple sentences.",
+    "You can say numbers and names of places you know.",
+    "It is okay to speak slowly — take your time.",
+    "If you make a mistake, just keep going. Fluency matters more than perfection."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
+    { "id": "clear-pace", "text": "I spoke clearly and slowly", "textEn": "I spoke clearly and slowly" },
+    { "id": "simple", "text": "I used simple sentences", "textEn": "I used simple sentences" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-a1-1-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Hoe heet je? Heb je broers of zussen?",
+      "questionEn": "What is your name? Do you have brothers or sisters?",
+      "personStatement": "I am Anna. I want to get to know you.",
+      "personStatementNl": "Ik ben Anna. Ik wil je leren kennen.",
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "My name is Maria. I have one brother and two sisters. My brother lives in Amsterdam.",
+        "transcriptNl": "Ik heet Maria. Ik heb een broer en twee zussen. Mijn broer woont in Amsterdam."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a1-1-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Wat zie je? Wat eet jij graag?",
+      "questionEn": "Look at the image. What do you see? What do you like to eat?",
+      "images": [
+        {
+          "id": "a1-food-1",
+          "src": "/images/spreken/a1-food-table.jpg",
+          "alt": "A table with Dutch food",
+          "altNl": "Een tafel met Nederlands eten"
+        }
+      ],
+      "recommendedDuration": 20,
+      "softLimitWarning": 15,
+      "modelAnswer": {
+        "transcript": "I see a table with food. There is bread, cheese, and milk. I like to eat cheese. I also like fruit.",
+        "transcriptNl": "Ik zie een tafel met eten. Er is brood, kaas en melk. Ik eet graag kaas. Ik hou ook van fruit."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a1-1-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Welke kamer vind je leuker? Waarom?",
+      "questionEn": "Look at both pictures. Which room do you prefer? Why?",
+      "images": [
+        {
+          "id": "a1-room-1",
+          "src": "/images/spreken/a1-room-modern.jpg",
+          "alt": "A modern living room",
+          "altNl": "Een moderne woonkamer"
+        },
+        {
+          "id": "a1-room-2",
+          "src": "/images/spreken/a1-room-traditional.jpg",
+          "alt": "A traditional living room",
+          "altNl": "Een traditionele woonkamer"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I like the first room more. It is modern and clean. There is a big window. I like light rooms. The second room is also nice but it is a bit dark.",
+        "transcriptNl": "Ik vind de eerste kamer leuker. Het is modern en schoon. Er is een groot raam. Ik hou van lichte kamers. De tweede kamer is ook mooi maar het is een beetje donker."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a1-1-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel wat de persoon doet. Gebruik de woorden: eerst, dan, daarna.",
+      "questionEn": "Look at the three pictures. Tell what the person does. Use the words: first, then, after that.",
+      "images": [
+        {
+          "id": "a1-morning-1",
+          "src": "/images/spreken/a1-morning-wake.jpg",
+          "alt": "Person waking up",
+          "altNl": "Persoon wordt wakker"
+        },
+        {
+          "id": "a1-morning-2",
+          "src": "/images/spreken/a1-morning-breakfast.jpg",
+          "alt": "Person eating breakfast",
+          "altNl": "Persoon ontbijt"
+        },
+        {
+          "id": "a1-morning-3",
+          "src": "/images/spreken/a1-morning-bike.jpg",
+          "alt": "Person cycling to work",
+          "altNl": "Persoon fietst naar werk"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "First the person wakes up. It is morning. Then they eat breakfast. They eat bread and drink coffee. After that they ride their bike to work.",
+        "transcriptNl": "Eerst wordt de persoon wakker. Het is ochtend. Dan ontbijt hij. Hij eet brood en drinkt koffie. Daarna fietst hij naar zijn werk."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

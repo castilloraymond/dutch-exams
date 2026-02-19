@@ -1,0 +1,127 @@
+{
+  "id": "spreken-b1-1",
+  "title": "Spreken B1 - Oefenexamen 1",
+  "module": "spreken",
+  "difficulty": "B1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": true,
+  "tips": [
+    "At B1 level, you need to give more detail — don't just list facts, explain and give opinions.",
+    "Use connecting words like 'omdat' (because), 'maar' (but), 'daarom' (therefore) to link ideas.",
+    "Try to answer all parts of the question — at B1, multi-part answers are expected.",
+    "Give your personal opinion and explain why."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "all-parts", "text": "I answered all parts of each question", "textEn": "I answered all parts of each question" },
+    { "id": "connectors", "text": "I used connecting words (maar, omdat, daarom, ook)", "textEn": "I used connecting words (maar, omdat, daarom, ook)" },
+    { "id": "detail", "text": "I gave detailed answers with opinions and reasons", "textEn": "I gave detailed answers with opinions and reasons" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-b1-1-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Wat voor werk doe jij? Vertel ook wat je leuk vindt aan je werk en wat je zou willen veranderen.",
+      "questionEn": "What kind of work do you do? Also tell what you like about it and what you would change.",
+      "questionParts": ["What kind of work do you do?", "What do you like about it?", "What would you change?"],
+      "personStatement": "I work as a project manager at a construction company.",
+      "personStatementNl": "Ik werk als projectmanager bij een bouwbedrijf.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I work as an IT consultant. I like it because every project is different. But I would like more free time and to work from home more.",
+        "transcriptNl": "Ik werk als IT-consultant. Ik vind het leuk omdat elk project anders is. Maar ik zou graag meer vrije tijd willen en vaker thuis werken."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-1-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Beschrijf wat je ziet. Hoe is jouw werkplek? Wat vind je belangrijk op een werkplek?",
+      "questionEn": "Look at the image. Describe what you see. What is your workplace like? What do you find important in a workplace?",
+      "images": [
+        {
+          "id": "b1-workplace-1",
+          "src": "/images/spreken/b1-workplace-office.jpg",
+          "alt": "A modern open-plan office",
+          "altNl": "Een modern open kantoor"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I see a modern open-plan office with desks and computers. My workplace is similar. I think it is important to have good lighting and a quiet area for concentration. I also think it is important that colleagues can easily talk to each other.",
+        "transcriptNl": "Ik zie een modern open kantoor met bureaus en computers. Mijn werkplek lijkt hierop. Ik vind het belangrijk dat er goed licht is en een rustige plek om je te concentreren. Ik vind het ook belangrijk dat collega's makkelijk met elkaar kunnen praten."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-1-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Vergelijk de twee buurten. Waar zou jij liever wonen? Leg uit waarom.",
+      "questionEn": "Look at both pictures. Compare the two neighborhoods. Where would you rather live? Explain why.",
+      "images": [
+        {
+          "id": "b1-neighborhood-city",
+          "src": "/images/spreken/b1-neighborhood-city.jpg",
+          "alt": "A busy city street with shops",
+          "altNl": "Een drukke stadsstraat met winkels"
+        },
+        {
+          "id": "b1-neighborhood-suburb",
+          "src": "/images/spreken/b1-neighborhood-suburb.jpg",
+          "alt": "A quiet suburban street with gardens",
+          "altNl": "Een rustige buitenwijk met tuinen"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "The first picture shows a busy city street with shops and restaurants. The second picture shows a quiet suburb with gardens and space. I would prefer to live in the suburb because it is quieter and better for children. But the city is nice because you can walk to shops and restaurants.",
+        "transcriptNl": "De eerste foto laat een drukke stadsstraat zien met winkels en restaurants. De tweede foto toont een rustige buitenwijk met tuinen en ruimte. Ik zou liever in de buitenwijk wonen omdat het rustiger is en beter voor kinderen. Maar de stad is leuk omdat je kunt lopen naar winkels en restaurants."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-1-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel het verhaal in detail. Gebruik verbindingswoorden: eerst, vervolgens, ten slotte.",
+      "questionEn": "Look at the three pictures. Tell the story in detail. Use connecting words: first, next, finally.",
+      "images": [
+        {
+          "id": "b1-moving-1",
+          "src": "/images/spreken/b1-moving-boxes.jpg",
+          "alt": "Person packing boxes in their apartment",
+          "altNl": "Persoon pakt dozen in hun appartement"
+        },
+        {
+          "id": "b1-moving-2",
+          "src": "/images/spreken/b1-moving-truck.jpg",
+          "alt": "Moving truck being loaded",
+          "altNl": "Verhuiswagen wordt geladen"
+        },
+        {
+          "id": "b1-moving-3",
+          "src": "/images/spreken/b1-moving-new-home.jpg",
+          "alt": "Family in their new home with neighbors",
+          "altNl": "Gezin in hun nieuwe huis met buren"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First the person is packing boxes in their apartment. They are preparing to move. Next the moving truck arrives and friends help them load all their belongings. Finally they arrive at their new home. Their neighbors come to welcome them. They look very happy in their new neighborhood.",
+        "transcriptNl": "Eerst is de persoon dozen aan het inpakken in het appartement. Ze bereiden de verhuizing voor. Vervolgens komt de verhuiswagen en helpen vrienden met het laden van alle spullen. Ten slotte komen ze aan bij hun nieuwe huis. De buren komen hen welkom heten. Ze zien er erg blij uit in hun nieuwe buurt."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

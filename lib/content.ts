@@ -12,9 +12,11 @@ import type {
   WritingIndex,
   WritingTask,
   WritingTaskSummary,
+  WritingMockExam,
   SpeakingIndex,
   SpeakingTask,
   SpeakingTaskSummary,
+  SpeakingMockExam,
   SpeakingPartNumber,
 } from "./types";
 
@@ -106,6 +108,24 @@ import quickAssessmentLuisteren from "@/content/quick-assessment/luisteren.json"
 import quickAssessmentSchrijven from "@/content/quick-assessment/schrijven.json";
 import quickAssessmentSpreken from "@/content/quick-assessment/spreken.json";
 
+// Mock exam content - Schrijven
+import schrijvenMockIndex from "@/content/mock-exams/schrijven/index.json";
+import schrijvenA1Exam1 from "@/content/mock-exams/schrijven/a1-exam-1.json";
+import schrijvenA1Exam2 from "@/content/mock-exams/schrijven/a1-exam-2.json";
+import schrijvenA2Exam1 from "@/content/mock-exams/schrijven/a2-exam-1.json";
+import schrijvenA2Exam2 from "@/content/mock-exams/schrijven/a2-exam-2.json";
+import schrijvenB1Exam1 from "@/content/mock-exams/schrijven/b1-exam-1.json";
+import schrijvenB1Exam2 from "@/content/mock-exams/schrijven/b1-exam-2.json";
+
+// Mock exam content - Spreken
+import sprekenMockIndex from "@/content/mock-exams/spreken/index.json";
+import sprekenA1Exam1 from "@/content/mock-exams/spreken/a1-exam-1.json";
+import sprekenA1Exam2 from "@/content/mock-exams/spreken/a1-exam-2.json";
+import sprekenA2Exam1 from "@/content/mock-exams/spreken/a2-exam-1.json";
+import sprekenA2Exam2 from "@/content/mock-exams/spreken/a2-exam-2.json";
+import sprekenB1Exam1 from "@/content/mock-exams/spreken/b1-exam-1.json";
+import sprekenB1Exam2 from "@/content/mock-exams/spreken/b1-exam-2.json";
+
 // Schrijven content
 import schrijvenIndex from "@/content/schrijven/index.json";
 import emailSchoolSick from "@/content/schrijven/tasks/email-school-sick.json";
@@ -116,6 +136,10 @@ import formGpRegistration from "@/content/schrijven/tasks/form-gp-registration.j
 import noteNeighbor from "@/content/schrijven/tasks/note-neighbor.json";
 import complaintWebshop from "@/content/schrijven/tasks/complaint-webshop.json";
 import messageTeacherAbsence from "@/content/schrijven/tasks/message-teacher-absence.json";
+import b1LetterMunicipality from "@/content/schrijven/tasks/b1-letter-municipality.json";
+import b1ComplaintInsurance from "@/content/schrijven/tasks/b1-complaint-insurance.json";
+import b1EmailEmployerLeave from "@/content/schrijven/tasks/b1-email-employer-leave.json";
+import b1FormHousing from "@/content/schrijven/tasks/b1-form-housing.json";
 
 // Spreken content
 import sprekenIndex from "@/content/spreken/index.json";
@@ -131,6 +155,10 @@ import a1Part1Family from "@/content/spreken/tasks/a1-part1-family.json";
 import a1Part2Food from "@/content/spreken/tasks/a1-part2-food.json";
 import a1Part3Rooms from "@/content/spreken/tasks/a1-part3-rooms.json";
 import a1Part4Morning from "@/content/spreken/tasks/a1-part4-morning.json";
+import b1Part1Work from "@/content/spreken/tasks/b1-part1-work.json";
+import b1Part2Workplace from "@/content/spreken/tasks/b1-part2-workplace.json";
+import b1Part3Neighborhood from "@/content/spreken/tasks/b1-part3-neighborhood.json";
+import b1Part4MovingDay from "@/content/spreken/tasks/b1-part4-moving-day.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": tipsOmGoedTeLeren as unknown as Passage,
@@ -174,6 +202,8 @@ const mockExamIndices: Record<string, MockExamIndex> = {
   lezen: lezenMockIndex as MockExamIndex,
   knm: knmMockIndex as MockExamIndex,
   luisteren: luisterenMockIndex as MockExamIndex,
+  schrijven: schrijvenMockIndex as MockExamIndex,
+  spreken: sprekenMockIndex as MockExamIndex,
 };
 
 const mockExams: Record<string, MockExam> = {
@@ -223,6 +253,10 @@ const writingTasks: Record<string, WritingTask> = {
   "note-neighbor": noteNeighbor as unknown as WritingTask,
   "complaint-webshop": complaintWebshop as unknown as WritingTask,
   "message-teacher-absence": messageTeacherAbsence as unknown as WritingTask,
+  "b1-letter-municipality": b1LetterMunicipality as unknown as WritingTask,
+  "b1-complaint-insurance": b1ComplaintInsurance as unknown as WritingTask,
+  "b1-email-employer-leave": b1EmailEmployerLeave as unknown as WritingTask,
+  "b1-form-housing": b1FormHousing as unknown as WritingTask,
 };
 
 // Spreken data
@@ -239,6 +273,10 @@ const speakingTasks: Record<string, SpeakingTask> = {
   "part2-market": part2Market as unknown as SpeakingTask,
   "part3-transport": part3Transport as unknown as SpeakingTask,
   "part4-kitchen": part4Kitchen as unknown as SpeakingTask,
+  "b1-part1-work": b1Part1Work as unknown as SpeakingTask,
+  "b1-part2-workplace": b1Part2Workplace as unknown as SpeakingTask,
+  "b1-part3-neighborhood": b1Part3Neighborhood as unknown as SpeakingTask,
+  "b1-part4-moving-day": b1Part4MovingDay as unknown as SpeakingTask,
 };
 
 // Lezen functions
@@ -530,4 +568,38 @@ export function getSpeakingTasksByPart(partNumber: SpeakingPartNumber): Speaking
 
 export function getFreeSpeakingTasks(): SpeakingTask[] {
   return Object.values(speakingTasks).filter((task) => task.isFreePreview);
+}
+
+// ============================================
+// Schrijven Mock Exam functions
+// ============================================
+
+const writingMockExams: Record<string, WritingMockExam> = {
+  "schrijven-a1-1": schrijvenA1Exam1 as unknown as WritingMockExam,
+  "schrijven-a1-2": schrijvenA1Exam2 as unknown as WritingMockExam,
+  "schrijven-a2-1": schrijvenA2Exam1 as unknown as WritingMockExam,
+  "schrijven-a2-2": schrijvenA2Exam2 as unknown as WritingMockExam,
+  "schrijven-b1-1": schrijvenB1Exam1 as unknown as WritingMockExam,
+  "schrijven-b1-2": schrijvenB1Exam2 as unknown as WritingMockExam,
+};
+
+export function getWritingMockExam(examId: string): WritingMockExam | null {
+  return writingMockExams[examId] || null;
+}
+
+// ============================================
+// Spreken Mock Exam functions
+// ============================================
+
+const speakingMockExams: Record<string, SpeakingMockExam> = {
+  "spreken-a1-1": sprekenA1Exam1 as unknown as SpeakingMockExam,
+  "spreken-a1-2": sprekenA1Exam2 as unknown as SpeakingMockExam,
+  "spreken-a2-1": sprekenA2Exam1 as unknown as SpeakingMockExam,
+  "spreken-a2-2": sprekenA2Exam2 as unknown as SpeakingMockExam,
+  "spreken-b1-1": sprekenB1Exam1 as unknown as SpeakingMockExam,
+  "spreken-b1-2": sprekenB1Exam2 as unknown as SpeakingMockExam,
+};
+
+export function getSpeakingMockExam(examId: string): SpeakingMockExam | null {
+  return speakingMockExams[examId] || null;
 }

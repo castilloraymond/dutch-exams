@@ -1,0 +1,111 @@
+{
+  "id": "b1-part1-work",
+  "partNumber": 1,
+  "partTitle": "Personal Questions",
+  "partTitleNl": "Persoonlijke Vragen",
+  "title": "Work & Career",
+  "titleNl": "Werk en Carrière",
+  "difficulty": "B1",
+  "personStatement": "I work as a project manager at a construction company.",
+  "personStatementNl": "Ik werk als projectmanager bij een bouwbedrijf.",
+  "questionNl": "Wat voor werk doe jij? Vertel ook wat je leuk vindt aan je werk en wat je zou willen veranderen.",
+  "questionEn": "What kind of work do you do? Also tell what you like about your work and what you would like to change.",
+  "questionParts": [
+    "What kind of work do you do?",
+    "What do you like about it?",
+    "What would you change?"
+  ],
+  "recommendedDuration": 45,
+  "softLimitWarning": 35,
+  "selfAssessmentCriteria": [
+    {
+      "id": "all-parts",
+      "text": "I answered all three parts of the question",
+      "textEn": "I answered all three parts of the question"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "vocabulary",
+      "text": "I used varied vocabulary",
+      "textEn": "I used varied vocabulary"
+    },
+    {
+      "id": "connectors",
+      "text": "I used connecting words (maar, omdat, daarom, ook)",
+      "textEn": "I used connecting words (maar, omdat, daarom, ook)"
+    }
+  ],
+  "modelAnswer": {
+    "transcript": "I work as an IT consultant at a technology company. I help businesses with their computer systems. I like my work because every project is different and I learn new things. But sometimes I work long hours and I would like to have more free time. I would also like to work from home more often.",
+    "transcriptNl": "Ik werk als IT-consultant bij een technologiebedrijf. Ik help bedrijven met hun computersystemen. Ik vind mijn werk leuk omdat elk project anders is en ik nieuwe dingen leer. Maar soms werk ik lange uren en ik zou graag meer vrije tijd willen hebben. Ik zou ook vaker thuis willen werken."
+  },
+  "tips": [
+    "At B1 level, you need to give more detail — don't just list facts, explain and give opinions.",
+    "Use connecting words like 'omdat' (because), 'maar' (but), 'daarom' (therefore) to link ideas.",
+    "Try to answer all parts of the question — at B1, multi-part answers are expected.",
+    "Give your personal opinion and explain why."
+  ],
+  "isFreePreview": true,
+  "questions": [
+    {
+      "id": "b1-part1-work-q1",
+      "questionNl": "Wat voor werk doe jij? Vertel ook wat je leuk vindt aan je werk en wat je zou willen veranderen.",
+      "questionEn": "What kind of work do you do? Also tell what you like about it and what you would change.",
+      "questionParts": [
+        "What kind of work do you do?",
+        "What do you like about it?",
+        "What would you change?"
+      ],
+      "personStatement": "I work as a project manager at a construction company.",
+      "personStatementNl": "Ik werk als projectmanager bij een bouwbedrijf.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I work as an IT consultant. I like it because every project is different. But I would like more free time and to work from home more.",
+        "transcriptNl": "Ik werk als IT-consultant. Ik vind het leuk omdat elk project anders is. Maar ik zou graag meer vrije tijd willen en vaker thuis werken."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "b1-part1-work-q2",
+      "questionNl": "Hoe heb jij Nederlands geleerd? Vertel ook wat je moeilijk vindt en wat je tips zijn.",
+      "questionEn": "How did you learn Dutch? Also tell what you find difficult and what your tips are.",
+      "questionParts": [
+        "How did you learn Dutch?",
+        "What do you find difficult?",
+        "What tips do you have?"
+      ],
+      "personStatement": "I learned Dutch at a language school and by watching Dutch TV.",
+      "personStatementNl": "Ik heb Nederlands geleerd op een taalschool en door Nederlands TV te kijken.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I learned Dutch at a language school and also by talking with my Dutch colleagues. I find the grammar difficult, especially the word order. My tip is to practice every day, even if it is just five minutes.",
+        "transcriptNl": "Ik heb Nederlands geleerd op een taalschool en ook door met mijn Nederlandse collega's te praten. Ik vind de grammatica moeilijk, vooral de woordvolgorde. Mijn tip is om elke dag te oefenen, ook al is het maar vijf minuten."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "b1-part1-work-q3",
+      "questionNl": "Wat doe jij om gezond te blijven? Vertel ook waarom je dat belangrijk vindt.",
+      "questionEn": "What do you do to stay healthy? Also tell why you find that important.",
+      "questionParts": [
+        "What do you do to stay healthy?",
+        "Why do you find it important?"
+      ],
+      "personStatement": "I go running three times a week and try to eat healthy food.",
+      "personStatementNl": "Ik ga drie keer per week hardlopen en probeer gezond te eten.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I try to stay healthy by cycling to work every day and cooking fresh food at home. I also go to the gym twice a week. I find it important because I want to have enough energy for my work and my family.",
+        "transcriptNl": "Ik probeer gezond te blijven door elke dag naar mijn werk te fietsen en thuis vers eten te koken. Ik ga ook twee keer per week naar de sportschool. Ik vind het belangrijk omdat ik genoeg energie wil hebben voor mijn werk en mijn gezin."
+      },
+      "sequencingWordsRequired": false
+    }
+  ]
+}

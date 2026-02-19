@@ -121,6 +121,46 @@
       "titleNl": "Keukenvoorwerpen",
       "difficulty": "A2",
       "isFreePreview": false
+    },
+    {
+      "id": "b1-part1-work",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "title": "Work & Career",
+      "titleNl": "Werk en Carrière",
+      "difficulty": "B1",
+      "isFreePreview": true
+    },
+    {
+      "id": "b1-part2-workplace",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "title": "Workplace",
+      "titleNl": "Werkplek",
+      "difficulty": "B1",
+      "isFreePreview": false
+    },
+    {
+      "id": "b1-part3-neighborhood",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "title": "Neighborhood",
+      "titleNl": "Buurt",
+      "difficulty": "B1",
+      "isFreePreview": false
+    },
+    {
+      "id": "b1-part4-moving-day",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "title": "Moving Day",
+      "titleNl": "Verhuisdag",
+      "difficulty": "B1",
+      "isFreePreview": false
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "module": "schrijven",
+  "exams": [
+    {
+      "id": "schrijven-a1-1",
+      "title": "Schrijven A1 - Oefenexamen 1",
+      "difficulty": "A1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "schrijven-a1-2",
+      "title": "Schrijven A1 - Oefenexamen 2",
+      "difficulty": "A1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "schrijven-a2-1",
+      "title": "Schrijven A2 - Oefenexamen 1",
+      "difficulty": "A2",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "schrijven-a2-2",
+      "title": "Schrijven A2 - Oefenexamen 2",
+      "difficulty": "A2",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "schrijven-b1-1",
+      "title": "Schrijven B1 - Oefenexamen 1",
+      "difficulty": "B1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "schrijven-b1-2",
+      "title": "Schrijven B1 - Oefenexamen 2",
+      "difficulty": "B1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    }
+  ]
+}

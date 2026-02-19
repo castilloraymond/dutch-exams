@@ -1,0 +1,126 @@
+{
+  "id": "spreken-a2-1",
+  "title": "Spreken A2 - Oefenexamen 1",
+  "module": "spreken",
+  "difficulty": "A2",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": true,
+  "tips": [
+    "Give more detail than at A1 — explain your answers with reasons.",
+    "Use connecting words like 'want' (because), 'maar' (but), 'en' (and).",
+    "For picture descriptions, describe what you see before comparing.",
+    "Practice answering within the time limit — the recording stops automatically."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
+    { "id": "detail", "text": "I gave detailed answers with reasons", "textEn": "I gave detailed answers with reasons" },
+    { "id": "connecting", "text": "I used connecting words", "textEn": "I used connecting words" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-a2-1-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Maak jij huiswerk? Hoe doe je dat? Waar en wanneer maak je je huiswerk?",
+      "questionEn": "Do you do homework? How do you do it? Where and when do you do your homework?",
+      "personStatement": "I always do my homework at the kitchen table after dinner.",
+      "personStatementNl": "Ik maak mijn huiswerk altijd aan de keukentafel na het eten.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "Yes, I do homework every day. I study Dutch for one hour after dinner. I sit at my desk in my room. I use a book and an app. I think it is important to practice every day.",
+        "transcriptNl": "Ja, ik maak elke dag huiswerk. Ik studeer Nederlands voor een uur na het eten. Ik zit aan mijn bureau in mijn kamer. Ik gebruik een boek en een app. Ik vind het belangrijk om elke dag te oefenen."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-1-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Wat zie je? Wat eet jij als lunch? Eet je op je werk of thuis?",
+      "questionEn": "Look at the image. What do you see? What do you eat for lunch? Do you eat at work or at home?",
+      "images": [
+        {
+          "id": "a2-lunch-1",
+          "src": "/images/spreken/a2-lunch-canteen.jpg",
+          "alt": "People eating lunch in a canteen",
+          "altNl": "Mensen lunchen in een kantine"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I see people eating lunch in a canteen. They have sandwiches and drinks. For lunch I usually eat bread with cheese. I eat at my work because I don't have time to go home. Sometimes I bring soup from home.",
+        "transcriptNl": "Ik zie mensen die lunchen in een kantine. Ze hebben broodjes en drinken. Voor de lunch eet ik meestal brood met kaas. Ik eet op mijn werk want ik heb geen tijd om naar huis te gaan. Soms neem ik soep van huis mee."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-1-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Beschrijf wat je ziet. Waar heb jij geleerd? Welke plek vind je beter om te leren?",
+      "questionEn": "Look at both pictures. Describe what you see. Where did you learn? Which place is better for learning?",
+      "images": [
+        {
+          "id": "a2-edu-classroom",
+          "src": "/images/spreken/a2-classroom.jpg",
+          "alt": "A modern classroom with students",
+          "altNl": "Een modern klaslokaal met studenten"
+        },
+        {
+          "id": "a2-edu-online",
+          "src": "/images/spreken/a2-online-learning.jpg",
+          "alt": "Person studying online at home",
+          "altNl": "Persoon studeert online thuis"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "In the first picture I see a classroom with students and a teacher. In the second picture someone studies online at home. I learned Dutch in a classroom because I like to practice with other students. But online is also good because you can study at any time.",
+        "transcriptNl": "Op de eerste foto zie ik een klaslokaal met studenten en een docent. Op de tweede foto studeert iemand online thuis. Ik heb Nederlands geleerd in een klaslokaal want ik oefen graag met andere studenten. Maar online is ook goed want je kunt op elk moment studeren."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-1-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel een verhaal over de afbeeldingen. Gebruik de woorden: eerst, dan, daarna.",
+      "questionEn": "Look at the three pictures. Tell a story about the pictures. Use the words: first, then, after that.",
+      "images": [
+        {
+          "id": "a2-class-1",
+          "src": "/images/spreken/a2-class-arrive.jpg",
+          "alt": "Students arriving at a school building",
+          "altNl": "Studenten komen aan bij een schoolgebouw"
+        },
+        {
+          "id": "a2-class-2",
+          "src": "/images/spreken/a2-class-lesson.jpg",
+          "alt": "Students in a classroom lesson",
+          "altNl": "Studenten in een les"
+        },
+        {
+          "id": "a2-class-3",
+          "src": "/images/spreken/a2-class-coffee.jpg",
+          "alt": "Students having coffee during break",
+          "altNl": "Studenten drinken koffie in de pauze"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "First the students arrive at the school building in the morning. They go inside. Then they have a Dutch lesson in the classroom. The teacher explains grammar. After that the students drink coffee together during the break. They practice speaking Dutch with each other.",
+        "transcriptNl": "Eerst komen de studenten 's ochtends aan bij het schoolgebouw. Ze gaan naar binnen. Dan hebben ze een les Nederlands in het klaslokaal. De docent legt grammatica uit. Daarna drinken de studenten samen koffie in de pauze. Ze oefenen Nederlands spreken met elkaar."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}
