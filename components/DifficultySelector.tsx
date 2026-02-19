@@ -54,6 +54,11 @@ const difficultyInfo: Record<Difficulty, { title: string; description: string; d
     description: "Standaard examenniveau",
     descriptionEn: "Standard exam level",
   },
+  B1: {
+    title: "B1 - Advanced",
+    description: "Gevorderd examenniveau",
+    descriptionEn: "Advanced exam level",
+  },
 };
 
 export function DifficultySelector({ module, exams, completedExams = {}, isPremium }: DifficultySelectorProps) {
@@ -63,6 +68,7 @@ export function DifficultySelector({ module, exams, completedExams = {}, isPremi
   // Group exams by difficulty
   const a1Exams = exams.filter((e) => e.difficulty === "A1");
   const a2Exams = exams.filter((e) => e.difficulty === "A2");
+  const b1Exams = exams.filter((e) => e.difficulty === "B1");
 
   return (
     <main className="min-h-screen flex flex-col bg-[var(--cream)]">
@@ -171,6 +177,40 @@ export function DifficultySelector({ module, exams, completedExams = {}, isPremi
                 ))}
               </div>
             </div>
+
+            {/* B1 Section */}
+            {b1Exams.length > 0 && (
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--blue)]/10 text-[var(--blue)]">
+                    B1
+                  </span>
+                  <div>
+                    <h3 className="font-semibold text-[var(--ink)]">
+                      {difficultyInfo.B1.title}
+                    </h3>
+                    <p className="text-sm text-[var(--ink)]/60">
+                      {difficultyInfo.B1.description}
+                    </p>
+                    <p className="text-xs text-[var(--ink)]/40">
+                      {difficultyInfo.B1.descriptionEn}
+                    </p>
+                  </div>
+                </div>
+                <div className="space-y-3">
+                  {b1Exams.map((exam) => (
+                    <ExamCard
+                      key={exam.id}
+                      exam={exam}
+                      href={`/learn/${module}/mock/${exam.id}`}
+                      completed={exam.id in completedExams}
+                      lastScore={completedExams[exam.id]}
+                      isPremium={isPremium}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>

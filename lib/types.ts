@@ -128,7 +128,7 @@ export interface ListeningIndex {
 }
 
 // Mock Exam types
-export type Difficulty = "A1" | "A2";
+export type Difficulty = "A1" | "A2" | "B1";
 
 export interface MockExamSummary {
   id: string;
