@@ -14,6 +14,7 @@ export default function SchrijvenPage() {
 
   const a1Tasks = index.tasks.filter((t) => t.difficulty === "A1");
   const a2Tasks = index.tasks.filter((t) => t.difficulty === "A2");
+  const b1Tasks = index.tasks.filter((t) => t.difficulty === "B1");
 
   const getTaskIcon = (taskType: string) => {
     switch (taskType) {
@@ -175,6 +176,31 @@ export default function SchrijvenPage() {
                 </div>
                 <div className="space-y-3">
                   {a2Tasks.map(renderTaskCard)}
+                </div>
+              </div>
+            )}
+
+            {/* B1 Section */}
+            {b1Tasks.length > 0 && (
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-sm font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[var(--blue)]/10 text-[var(--blue)]">
+                    B1
+                  </span>
+                  <div>
+                    <h3 className="font-semibold text-[var(--ink)]">
+                      B1 - Advanced
+                    </h3>
+                    <p className="text-sm text-[var(--ink)]/60">
+                      Gevorderd examenniveau
+                    </p>
+                    <p className="text-xs text-[var(--ink)]/40">
+                      Advanced exam level
+                    </p>
+                  </div>
+                </div>
+                <div className="space-y-3">
+                  {b1Tasks.map(renderTaskCard)}
                 </div>
               </div>
             )}

@@ -1,0 +1,77 @@
+{
+  "id": "b1-complaint-insurance",
+  "title": "Klacht aan verzekering",
+  "titleEn": "Complaint to Insurance",
+  "difficulty": "B1",
+  "taskType": "free-text",
+  "scenario": "Uw zorgverzekering heeft een declaratie afgewezen voor een behandeling die uw huisarts heeft voorgeschreven. U wilt een klacht indienen.",
+  "scenarioEn": "Your health insurance has rejected a claim for a treatment your GP prescribed. You want to file a complaint.",
+  "prompt": "Schrijf een klachtbrief aan uw zorgverzekering. Leg uit welke behandeling is afgewezen en waarom u het daar niet mee eens bent. Verwijs naar het feit dat uw huisarts de behandeling heeft voorgeschreven. Vraag om een herziening van het besluit.",
+  "promptEn": "Write a complaint letter to your health insurance. Explain which treatment was rejected and why you disagree. Refer to the fact that your GP prescribed the treatment. Ask for a review of the decision.",
+  "wordRange": {
+    "min": 80,
+    "max": 150
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used a formal greeting",
+      "textEn": "I used a formal greeting"
+    },
+    {
+      "id": "treatment",
+      "text": "I clearly stated which treatment was rejected",
+      "textEn": "I clearly stated which treatment was rejected"
+    },
+    {
+      "id": "reference-gp",
+      "text": "I mentioned that my GP prescribed the treatment",
+      "textEn": "I mentioned that my GP prescribed the treatment"
+    },
+    {
+      "id": "disagreement",
+      "text": "I explained why I disagree with the decision",
+      "textEn": "I explained why I disagree with the decision"
+    },
+    {
+      "id": "request-review",
+      "text": "I requested a review of the decision",
+      "textEn": "I requested a review of the decision"
+    }
+  ],
+  "modelAnswer": "Geachte heer/mevrouw,\n\nOp 3 februari ontving ik uw brief waarin u mijn declaratie voor fysiotherapie heeft afgewezen (declaratienummer: ZV-2026-1587). Ik ben het niet eens met dit besluit.\n\nMijn huisarts, dr. Visser, heeft mij doorverwezen naar fysiotherapie vanwege chronische rugklachten. Deze behandeling is medisch noodzakelijk en door een arts voorgeschreven. Volgens mijn polis worden behandelingen op verwijzing van de huisarts vergoed.\n\nIk verzoek u om mijn declaratie opnieuw te beoordelen. Ik kan een kopie van de verwijsbrief van mijn huisarts meesturen als dat nodig is.\n\nMet vriendelijke groet,\nFatima Yilmaz\nPolisnummer: 456789012",
+  "tips": [
+    "Always include reference numbers (claim number, policy number) in formal complaints.",
+    "Refer to your rights or your policy terms when arguing your case.",
+    "Be firm but polite — avoid emotional language in formal complaints.",
+    "Offer to provide supporting documents to strengthen your case."
+  ],
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "b1-complaint-insurance-q1",
+      "scenario": "Uw zorgverzekering heeft een declaratie voor fysiotherapie afgewezen.",
+      "scenarioEn": "Your health insurance rejected a claim for physiotherapy.",
+      "prompt": "Schrijf een klachtbrief aan uw zorgverzekering. Verwijs naar de verwijzing van uw huisarts.",
+      "promptEn": "Write a complaint letter to your health insurance. Refer to your GP's referral.",
+      "taskType": "free-text",
+      "wordRange": {
+        "min": 60,
+        "max": 120
+      },
+      "selfAssessmentCriteria": [
+        {
+          "id": "q1-formal",
+          "text": "I used formal language",
+          "textEn": "I used formal language"
+        },
+        {
+          "id": "q1-reference",
+          "text": "I included reference numbers",
+          "textEn": "I included reference numbers"
+        }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u over de afwijzing van mijn declaratie voor fysiotherapie (nr. ZV-2026-1587). Mijn huisarts heeft mij doorverwezen voor deze behandeling. Ik verzoek u om het besluit te herzien.\n\nMet vriendelijke groet,\nFatima Yilmaz"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "b1-letter-municipality",
+  "title": "Brief aan de gemeente",
+  "titleEn": "Letter to the Municipality",
+  "difficulty": "B1",
+  "taskType": "free-text",
+  "scenario": "U wilt bezwaar maken tegen een besluit van de gemeente over uw parkeervergunning. De gemeente heeft uw aanvraag afgewezen.",
+  "scenarioEn": "You want to object to a municipality decision about your parking permit. The municipality has rejected your application.",
+  "prompt": "Schrijf een formele brief aan de gemeente. Leg uit waarom u het niet eens bent met het besluit. Geef argumenten waarom u wel een parkeervergunning nodig heeft. Vraag de gemeente om het besluit te heroverwegen.",
+  "promptEn": "Write a formal letter to the municipality. Explain why you disagree with the decision. Give arguments for why you need a parking permit. Ask the municipality to reconsider the decision.",
+  "wordRange": {
+    "min": 80,
+    "max": 150
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "formal-greeting",
+      "text": "I used a formal greeting (Geachte heer/mevrouw)",
+      "textEn": "I used a formal greeting (Geachte heer/mevrouw)"
+    },
+    {
+      "id": "reference",
+      "text": "I referred to the original decision or letter",
+      "textEn": "I referred to the original decision or letter"
+    },
+    {
+      "id": "arguments",
+      "text": "I gave clear arguments for my objection",
+      "textEn": "I gave clear arguments for my objection"
+    },
+    {
+      "id": "request",
+      "text": "I clearly asked the municipality to reconsider",
+      "textEn": "I clearly asked the municipality to reconsider"
+    },
+    {
+      "id": "formal-closing",
+      "text": "I used a formal closing (Hoogachtend / Met vriendelijke groet)",
+      "textEn": "I used a formal closing (Hoogachtend / Met vriendelijke groet)"
+    }
+  ],
+  "modelAnswer": "Geachte heer/mevrouw,\n\nOp 15 januari heb ik uw brief ontvangen over de afwijzing van mijn aanvraag voor een parkeervergunning (kenmerk: PV-2026-0342). Ik ben het niet eens met dit besluit en wil graag bezwaar maken.\n\nIk woon in een straat waar geen vrij parkeren mogelijk is. Ik werk in ploegendienst en ben afhankelijk van mijn auto omdat er 's nachts geen openbaar vervoer rijdt. Bovendien is de dichtstbijzijnde parkeergarage meer dan een kilometer van mijn woning.\n\nIk verzoek u vriendelijk om uw besluit te heroverwegen. Ik ben bereid om aanvullende documenten aan te leveren als dat nodig is.\n\nMet vriendelijke groet,\nMohammed Al-Hassan\nStraatnaam 42\n1234 AB Amsterdam",
+  "tips": [
+    "A formal letter to a government body always starts with 'Geachte heer/mevrouw'.",
+    "Reference the original decision with a date or reference number.",
+    "Structure your arguments clearly — one argument per sentence.",
+    "End with a specific request: what do you want them to do?"
+  ],
+  "isFreePreview": true,
+  "questions": [
+    {
+      "id": "b1-letter-municipality-q1",
+      "scenario": "U wilt bezwaar maken tegen een besluit van de gemeente over uw parkeervergunning.",
+      "scenarioEn": "You want to object to a municipality decision about your parking permit.",
+      "prompt": "Schrijf een formele brief aan de gemeente. Leg uit waarom u bezwaar maakt en vraag om heroverweging.",
+      "promptEn": "Write a formal letter to the municipality. Explain why you are objecting and ask for reconsideration.",
+      "taskType": "free-text",
+      "wordRange": {
+        "min": 60,
+        "max": 120
+      },
+      "selfAssessmentCriteria": [
+        {
+          "id": "q1-formal",
+          "text": "I used formal language throughout",
+          "textEn": "I used formal language throughout"
+        },
+        {
+          "id": "q1-arguments",
+          "text": "I gave clear arguments",
+          "textEn": "I gave clear arguments"
+        },
+        {
+          "id": "q1-request",
+          "text": "I made a clear request",
+          "textEn": "I made a clear request"
+        }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u naar aanleiding van uw brief van 15 januari over de afwijzing van mijn parkeervergunning. Ik woon in een straat zonder vrij parkeren en werk in ploegendienst. Zonder auto kan ik niet naar mijn werk. Ik verzoek u om het besluit te heroverwegen.\n\nMet vriendelijke groet,\nMohammed Al-Hassan"
+    },
+    {
+      "id": "b1-letter-municipality-q2",
+      "scenario": "U wilt een vergunning aanvragen voor een evenement in uw buurt.",
+      "scenarioEn": "You want to apply for a permit for a neighborhood event.",
+      "prompt": "Schrijf een brief aan de gemeente om een vergunning aan te vragen voor een buurtfeest. Geef details over het evenement.",
+      "promptEn": "Write a letter to the municipality to request a permit for a neighborhood party. Give details about the event.",
+      "taskType": "free-text",
+      "wordRange": {
+        "min": 60,
+        "max": 120
+      },
+      "selfAssessmentCriteria": [
+        {
+          "id": "q2-details",
+          "text": "I included event details (date, time, location)",
+          "textEn": "I included event details (date, time, location)"
+        },
+        {
+          "id": "q2-request",
+          "text": "I clearly requested a permit",
+          "textEn": "I clearly requested a permit"
+        }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nNamens de bewoners van de Kerkstraat wil ik graag een vergunning aanvragen voor een buurtfeest. Het feest vindt plaats op zaterdag 21 juni van 14:00 tot 22:00 uur op het plein bij nummer 30. Wij verwachten ongeveer 50 bezoekers.\n\nKunt u mij laten weten welke stappen ik moet nemen?\n\nMet vriendelijke groet,\nSara Bakker"
+    },
+    {
+      "id": "b1-letter-municipality-q3",
+      "scenario": "U heeft een klacht over geluidsoverlast in uw buurt en wilt de gemeente vragen om actie te ondernemen.",
+      "scenarioEn": "You have a complaint about noise nuisance in your neighborhood and want the municipality to take action.",
+      "prompt": "Schrijf een brief aan de gemeente over de geluidsoverlast. Beschrijf het probleem en vraag om een oplossing.",
+      "promptEn": "Write a letter to the municipality about the noise nuisance. Describe the problem and ask for a solution.",
+      "taskType": "free-text",
+      "wordRange": {
+        "min": 60,
+        "max": 120
+      },
+      "selfAssessmentCriteria": [
+        {
+          "id": "q3-problem",
+          "text": "I clearly described the noise problem",
+          "textEn": "I clearly described the noise problem"
+        },
+        {
+          "id": "q3-solution",
+          "text": "I asked for a specific action or solution",
+          "textEn": "I asked for a specific action or solution"
+        }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk woon aan de Hoofdstraat 15 en ondervind al weken geluidsoverlast van het bouwproject naast mijn woning. Het werk begint vaak al om 7:00 uur 's ochtends en duurt tot laat in de avond. Dit is in strijd met de bouwverordening.\n\nIk verzoek u om de aannemer aan te spreken op de werktijden.\n\nMet vriendelijke groet,\nPeter de Jong"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "b1-email-employer-leave",
+  "title": "Email aan werkgever",
+  "titleEn": "Email to Employer",
+  "difficulty": "B1",
+  "taskType": "free-text",
+  "scenario": "U moet verlof aanvragen bij uw werkgever voor een familiebezoek in het buitenland. U wilt twee weken vrij nemen.",
+  "scenarioEn": "You need to request leave from your employer for a family visit abroad. You want to take two weeks off.",
+  "prompt": "Schrijf een email aan uw leidinggevende. Vraag verlof aan voor twee weken. Geef de exacte data op, leg uit waarom u vrij wilt, en stel voor hoe uw werk kan worden overgenomen tijdens uw afwezigheid.",
+  "promptEn": "Write an email to your manager. Request two weeks of leave. Give the exact dates, explain why you want time off, and suggest how your work can be covered during your absence.",
+  "wordRange": {
+    "min": 70,
+    "max": 130
+  },
+  "selfAssessmentCriteria": [
+    {
+      "id": "greeting",
+      "text": "I used an appropriate greeting for a work email",
+      "textEn": "I used an appropriate greeting for a work email"
+    },
+    {
+      "id": "dates",
+      "text": "I included the specific dates for my leave",
+      "textEn": "I included the specific dates for my leave"
+    },
+    {
+      "id": "reason",
+      "text": "I explained why I need the leave",
+      "textEn": "I explained why I need the leave"
+    },
+    {
+      "id": "coverage",
+      "text": "I suggested how my work can be covered",
+      "textEn": "I suggested how my work can be covered"
+    },
+    {
+      "id": "closing",
+      "text": "I used a professional closing",
+      "textEn": "I used a professional closing"
+    }
+  ],
+  "modelAnswer": "Beste Jan,\n\nIk wil graag verlof aanvragen van maandag 14 juli tot en met vrijdag 25 juli. Ik ga mijn familie in Turkije bezoeken. Ik heb mijn ouders al meer dan een jaar niet gezien.\n\nIk heb met mijn collega Anke gesproken en zij is bereid om mijn lopende projecten over te nemen tijdens mijn afwezigheid. Ik zal ervoor zorgen dat ik voor mijn vertrek een overdracht maak van alle taken.\n\nIk heb nog 18 vakantiedagen over dit jaar. Laat u mij weten of deze data mogelijk zijn?\n\nMet vriendelijke groet,\nAhmed Benali",
+  "tips": [
+    "Be specific about dates — use exact dates, not vague timeframes.",
+    "Show responsibility by suggesting who can cover your work.",
+    "Mention your remaining vacation days to show you've checked.",
+    "Keep the tone professional but not overly formal — this is a colleague, not a government body."
+  ],
+  "isFreePreview": false,
+  "questions": [
+    {
+      "id": "b1-email-employer-leave-q1",
+      "scenario": "U wilt verlof aanvragen voor een familiebezoek.",
+      "scenarioEn": "You want to request leave for a family visit.",
+      "prompt": "Schrijf een email aan uw leidinggevende om verlof aan te vragen. Geef data en stel een oplossing voor uw werk voor.",
+      "promptEn": "Write an email to your manager to request leave. Give dates and suggest a solution for your work.",
+      "taskType": "free-text",
+      "wordRange": {
+        "min": 50,
+        "max": 100
+      },
+      "selfAssessmentCriteria": [
+        {
+          "id": "q1-dates",
+          "text": "I included specific dates",
+          "textEn": "I included specific dates"
+        },
+        {
+          "id": "q1-coverage",
+          "text": "I suggested work coverage",
+          "textEn": "I suggested work coverage"
+        }
+      ],
+      "modelAnswer": "Beste Jan,\n\nIk wil graag twee weken verlof aanvragen van 14 tot en met 25 juli voor een familiebezoek. Mijn collega Anke kan mijn werk overnemen. Laat u mij weten of dit mogelijk is?\n\nMet vriendelijke groet,\nAhmed Benali"
+    }
+  ]
+}

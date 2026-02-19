@@ -116,6 +116,10 @@ import formGpRegistration from "@/content/schrijven/tasks/form-gp-registration.j
 import noteNeighbor from "@/content/schrijven/tasks/note-neighbor.json";
 import complaintWebshop from "@/content/schrijven/tasks/complaint-webshop.json";
 import messageTeacherAbsence from "@/content/schrijven/tasks/message-teacher-absence.json";
+import b1LetterMunicipality from "@/content/schrijven/tasks/b1-letter-municipality.json";
+import b1ComplaintInsurance from "@/content/schrijven/tasks/b1-complaint-insurance.json";
+import b1EmailEmployerLeave from "@/content/schrijven/tasks/b1-email-employer-leave.json";
+import b1FormHousing from "@/content/schrijven/tasks/b1-form-housing.json";
 
 // Spreken content
 import sprekenIndex from "@/content/spreken/index.json";
@@ -131,6 +135,10 @@ import a1Part1Family from "@/content/spreken/tasks/a1-part1-family.json";
 import a1Part2Food from "@/content/spreken/tasks/a1-part2-food.json";
 import a1Part3Rooms from "@/content/spreken/tasks/a1-part3-rooms.json";
 import a1Part4Morning from "@/content/spreken/tasks/a1-part4-morning.json";
+import b1Part1Work from "@/content/spreken/tasks/b1-part1-work.json";
+import b1Part2Workplace from "@/content/spreken/tasks/b1-part2-workplace.json";
+import b1Part3Neighborhood from "@/content/spreken/tasks/b1-part3-neighborhood.json";
+import b1Part4MovingDay from "@/content/spreken/tasks/b1-part4-moving-day.json";
 
 const passages: Record<string, Passage> = {
   "tips-om-goed-te-leren": tipsOmGoedTeLeren as unknown as Passage,
@@ -223,6 +231,10 @@ const writingTasks: Record<string, WritingTask> = {
   "note-neighbor": noteNeighbor as unknown as WritingTask,
   "complaint-webshop": complaintWebshop as unknown as WritingTask,
   "message-teacher-absence": messageTeacherAbsence as unknown as WritingTask,
+  "b1-letter-municipality": b1LetterMunicipality as unknown as WritingTask,
+  "b1-complaint-insurance": b1ComplaintInsurance as unknown as WritingTask,
+  "b1-email-employer-leave": b1EmailEmployerLeave as unknown as WritingTask,
+  "b1-form-housing": b1FormHousing as unknown as WritingTask,
 };
 
 // Spreken data
@@ -239,6 +251,10 @@ const speakingTasks: Record<string, SpeakingTask> = {
   "part2-market": part2Market as unknown as SpeakingTask,
   "part3-transport": part3Transport as unknown as SpeakingTask,
   "part4-kitchen": part4Kitchen as unknown as SpeakingTask,
+  "b1-part1-work": b1Part1Work as unknown as SpeakingTask,
+  "b1-part2-workplace": b1Part2Workplace as unknown as SpeakingTask,
+  "b1-part3-neighborhood": b1Part3Neighborhood as unknown as SpeakingTask,
+  "b1-part4-moving-day": b1Part4MovingDay as unknown as SpeakingTask,
 };
 
 // Lezen functions
