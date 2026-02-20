@@ -38,8 +38,8 @@
 │   │   ├── lezen/          # Reading: select, exam, mock/[examId]
 │   │   ├── knm/            # Society: select, exam, mock/[examId]
 │   │   ├── luisteren/      # Listening: select, exam, mock/[examId]
-│   │   ├── schrijven/      # Writing: index + [taskId]
-│   │   └── spreken/        # Speaking: index + [taskId]
+│   │   ├── schrijven/      # Writing: select + mock/[examId]
+│   │   └── spreken/        # Speaking: select + mock/[examId]
 │   ├── try/                # Quick assessment: [module] + results
 │   ├── api/                # Route handlers (exam-results, feedback, progress, subscribe)
 │   ├── guide/              # SEO cornerstone content
@@ -106,7 +106,9 @@
 
 ### Font
 
-**Plus Jakarta Sans** — single font, variable `--font-jakarta`, weights 400–800. No dark mode.
+- **Plus Jakarta Sans** — variable `--font-jakarta`, weights 400–800. UI, headings, nav.
+- **Source Serif 4** — variable `--font-serif`, weights 400–700. Blog body text (`.prose-navy`).
+- No dark mode.
 
 ### Color Tokens
 
@@ -139,7 +141,11 @@ Defined in `app/globals.css` `:root`:
 | `.reveal.visible` | Visible state (opacity 1, translateY 0) | `globals.css` |
 | `.animate-reveal` | Entrance animation (0.7s ease-out) | `globals.css` |
 | `.animate-reveal-delay-{1-4}` | Staggered entrance (0.1s–0.4s delay) | `globals.css` |
-| `.prose-navy` | Blog/long-form typography (headings, lists, blockquotes, code) | `globals.css` |
+| `.prose-navy` | Blog/long-form typography (serif body, sans-serif headings) | `globals.css` |
+| `.stat-box` / `.stat-number` / `.stat-label` | Blog stat highlight (white card, orange number) | `globals.css` |
+| `.takeaway-box` | Blog key insight box (blue left border) | `globals.css` |
+| `.tip-box` | Blog pro tip box (green left border) | `globals.css` |
+| `.warning-box` | Blog warning box (orange left border) | `globals.css` |
 
 ### Scroll Reveal System
 
@@ -208,10 +214,10 @@ Sections alternate backgrounds to create visual rhythm:
 | `/learn/luisteren/select` | `app/learn/luisteren/select/page.tsx` | Exam variant selector |
 | `/learn/luisteren/exam` | `app/learn/luisteren/exam/page.tsx` | Full listening exam |
 | `/learn/luisteren/mock/[examId]` | `app/learn/luisteren/mock/[examId]/page.tsx` | Mock exam |
-| `/learn/schrijven` | `app/learn/schrijven/page.tsx` | Task selector |
-| `/learn/schrijven/[taskId]` | `app/learn/schrijven/[taskId]/page.tsx` | Individual task |
-| `/learn/spreken` | `app/learn/spreken/page.tsx` | Task selector (parts 1–4) |
-| `/learn/spreken/[taskId]` | `app/learn/spreken/[taskId]/page.tsx` | Individual task |
+| `/learn/schrijven/select` | `app/learn/schrijven/select/page.tsx` | Mock exam selector |
+| `/learn/schrijven/mock/[examId]` | `app/learn/schrijven/mock/[examId]/page.tsx` | Mock exam |
+| `/learn/spreken/select` | `app/learn/spreken/select/page.tsx` | Mock exam selector |
+| `/learn/spreken/mock/[examId]` | `app/learn/spreken/mock/[examId]/page.tsx` | Mock exam |
 
 ### Auth Routes
 
@@ -237,6 +243,9 @@ Sections alternate backgrounds to create visual rhythm:
 | `/api/feedback` | `app/api/feedback/route.ts` | POST |
 | `/api/progress` | `app/api/progress/route.ts` | GET, POST |
 | `/api/subscribe` | `app/api/subscribe/route.ts` | POST |
+| `/api/tts` | `app/api/tts/route.ts` | POST |
+| `/api/reddit-response` | `app/api/reddit-response/route.ts` | POST |
+| `/api/loops/events` | `app/api/loops/events/route.ts` | POST |
 
 ### Metadata Routes
 
@@ -386,11 +395,11 @@ All content is loaded from static JSON files in `/content/` at build time. No ru
 | Lezen | `/content/lezen/` | 5 passages, 25 questions |
 | KNM | `/content/knm/` | 8 topics, 96 questions |
 | Luisteren | `/content/luisteren/` | 5 exercises, 20 questions |
-| Schrijven | `/content/schrijven/` | 4 tasks |
-| Spreken | `/content/spreken/` | 4 tasks (parts 1–4) |
-| Mock Exams | `/content/mock-exams/` | Multiple per module |
+| Schrijven | `/content/schrijven/` | 8 tasks |
+| Spreken | `/content/spreken/` | 12 tasks (A1 + A2 parts 1–4) |
+| Mock Exams | `/content/mock-exams/` | 46 total (lezen: 10, knm: 10, luisteren: 14, schrijven: 6, spreken: 6) |
 | Quick Assessment | `/content/quick-assessment/` | Subset per module |
-| Blog | `/content/blog/` | 3 posts (markdown) |
+| Blog | `/content/blog/` | 13 posts (markdown) |
 
 ---
 
@@ -641,6 +650,8 @@ Dynamic sitemap including:
 | `useProgress` | `hooks/useProgress.ts` | Progress tracking (localStorage + cloud sync) | `recordAnswer`, `syncToCloud`, `loadFromCloud`, `saveWritingAttempt`, `saveSpeakingAttempt` |
 | `useExamState` | `hooks/useExamState.ts` | Exam navigation state | `selectAnswer`, `toggleBookmark`, `nextQuestion`, `previousQuestion` |
 | `useAudioRecorder` | `hooks/useAudioRecorder.ts` | Web Audio API recording | `startRecording`, `stopRecording`, `getWaveform` |
+| `useAzureTTS` | `hooks/useAzureTTS.ts` | Azure Text-to-Speech | `speak`, `stop`, `isPlaying` |
+| `useExitWarning` | `hooks/useExitWarning.ts` | Browser beforeunload warning | (Side effect — prevents accidental navigation) |
 | `useScrollReveal` | `hooks/useScrollReveal.ts` | IntersectionObserver for `.reveal` animations | (Side effect only — no return value) |
 
 ---
@@ -717,6 +728,7 @@ Dynamic sitemap including:
 | `NEXT_PUBLIC_SUPABASE_URL` | Optional | Supabase project URL |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Optional | Supabase anonymous key |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | Optional | Google Analytics 4 measurement ID |
+| `LOOPS_API_KEY` | Optional | Loops CRM API key (server-side only) |
 
 **Note:** The app works fully without any env vars — Supabase features degrade gracefully (auth disabled, progress local-only, feedback/subscribe log to console).
 
