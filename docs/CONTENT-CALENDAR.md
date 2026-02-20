@@ -10,6 +10,35 @@
 1. ~~The Professional's Guide to Passing the Inburgering Exam in 2026~~
 2. ~~KNM Exam 2025 Changes: What You Need to Know About the New Format~~
 3. ~~Inburgering for Kennismigranten: Do 30% Ruling Holders Need to Integrate?~~
+4. ~~The 30-Day Inburgering Study Plan for Busy Professionals~~
+5. ~~How to Get Permanent Residence in the Netherlands: The Complete Roadmap~~
+6. ~~What the Inburgering Exam Actually Looks Like: A Complete Walkthrough~~
+7. ~~Inburgering Exam Costs in 2026: Full Breakdown of Fees~~
+8. ~~How the Lezen (Reading) Exam Works: Format, Scoring & Tips~~
+9. ~~A2 Dutch: What Does It Actually Mean?~~
+10. ~~Dutch Healthcare for Expats: How the System Works~~
+11. ~~How Long Does It Take to Prepare for the Inburgering Exam?~~
+12. ~~7 Inburgering Mistakes That Cost Expats Months~~
+13. ~~Best Apps and Tools for Learning Dutch in 2026~~
+
+**Scheduled posts (auto-publishing via GitHub Actions, every Tuesday at 8:00 CET):**
+
+| # | Publish Date | Slug | Calendar Article |
+|---|-------------|------|-----------------|
+| 14 | 2026-02-25 | `luisteren-exam-format-scoring` | #2 — Luisteren Exam Guide |
+| 15 | 2026-03-03 | `schrijven-writing-exam-guide` | #4 — Schrijven Exam Guide |
+| 16 | 2026-03-10 | `spreken-speaking-exam-new-format-2025` | #3 — Spreken New Format |
+| 17 | 2026-03-17 | `ona-career-orientation-explained` | #6 — ONA Explained |
+| 18 | 2026-03-24 | `wi2013-vs-wi2021-which-rules-apply` | #17 — Wi2013 vs Wi2021 |
+| 19 | 2026-03-31 | `inburgering-exemptions-guide` | #19 — Exemptions Guide |
+| 20 | 2026-04-07 | `which-inburgering-exam-first` | #12 — Which Exam First |
+| 21 | 2026-04-14 | `how-to-register-inburgering-exam` | #16 — Registration Guide |
+| 22 | 2026-04-21 | `dutch-politics-knm-guide` | #23 — Dutch Politics KNM |
+| 23 | 2026-04-28 | `dutch-housing-tenant-rights-knm` | #24 — Housing & Tenant Rights |
+| 24 | 2026-05-05 | `inburgering-deadlines-fines-extensions` | #18 — Deadlines & Fines |
+| 25 | 2026-05-12 | `dutch-work-culture-knm-guide` | #26 — Dutch Work Culture |
+
+Files live in `content/blog/scheduled/YYYY-MM-DD-slug.md` and are moved to `content/blog/slug.md` on publish day by `.github/workflows/scheduled-publish.yml`.
 
 ---
 
@@ -37,11 +66,11 @@ In-depth breakdowns of each exam component. These are the cornerstone pages peop
 | # | Title | Target Keyword | Priority | Week |
 |---|-------|---------------|----------|------|
 | 1 | How the Lezen (Reading) Exam Works: Format, Scoring, and What to Expect | inburgering reading exam / lezen exam | High | 1 |
-| 2 | Luisteren Exam Guide: How to Pass the Inburgering Listening Test | inburgering listening exam / luisteren exam | High | 2 |
-| 3 | The New Spreken Exam Format (2025): How to Pass the Speaking Test Without Multiple Choice | inburgering speaking exam 2025 | High | 3 |
-| 4 | Schrijven Exam Explained: What to Write, How to Score, and Common Mistakes | inburgering writing exam / schrijven exam | High | 4 |
+| 2 | ✅ ~~Luisteren Exam Guide: How to Pass the Inburgering Listening Test~~ | inburgering listening exam / luisteren exam | High | 2 |
+| 3 | ✅ ~~The New Spreken Exam Format (2025): How to Pass the Speaking Test Without Multiple Choice~~ | inburgering speaking exam 2025 | High | 3 |
+| 4 | ✅ ~~Schrijven Exam Explained: What to Write, How to Score, and Common Mistakes~~ | inburgering writing exam / schrijven exam | High | 4 |
 | 5 | KNM Exam 2026: All 8 Themes Explained with Practice Questions | KNM exam topics / KNM practice | High | 5 |
-| 6 | ONA Explained: Portfolio vs 64-Hour Course — Which Route is Faster? | ONA inburgering / ONA portfolio | Medium | 8 |
+| 6 | ✅ ~~ONA Explained: Portfolio vs 64-Hour Course — Which Route is Faster?~~ | ONA inburgering / ONA portfolio | Medium | 8 |
 | 7 | What the Inburgering Exam Actually Looks Like: A Complete Walkthrough | what does inburgering exam look like | High | 10 |
 | 8 | Inburgering Exam Scoring: How Many Questions Can You Get Wrong and Still Pass? | inburgering pass score / inburgering passing grade | Medium | 14 |
 
@@ -61,7 +90,7 @@ Actionable content for time-poor professionals. These articles answer "how do I 
 | 9 | The 30-Day Inburgering Study Plan for Busy Professionals | inburgering study plan / inburgering 30 days | High | 1 |
 | 10 | How Long Does It Take to Prepare for the Inburgering Exam? | how long to prepare inburgering | High | 3 |
 | 11 | The 20-Minute-a-Day Method: How to Pass Inburgering Without Quitting Your Job | inburgering while working / inburgering study schedule | Medium | 6 |
-| 12 | Which Inburgering Exam Should You Take First? The Optimal Order | inburgering exam order / which exam first | Medium | 9 |
+| 12 | ✅ ~~Which Inburgering Exam Should You Take First? The Optimal Order~~ | inburgering exam order / which exam first | Medium | 9 |
 | 13 | How to Study for the KNM Exam: A Structured Approach to All 8 Themes | how to study KNM / KNM study tips | High | 11 |
 | 14 | Failed the Inburgering Exam? Here's Your Retake Strategy | failed inburgering exam / inburgering retake | Medium | 16 |
 
@@ -79,10 +108,10 @@ The bureaucracy content. Expats are drowning in conflicting information about ru
 | # | Title | Target Keyword | Priority | Week |
 |---|-------|---------------|----------|------|
 | 15 | Inburgering Exam Costs in 2026: Full Breakdown of Fees and Hidden Expenses | inburgering exam costs / inburgering price | High | 2 |
-| 16 | How to Register for the Inburgering Exam: A Step-by-Step Guide to Mijn Inburgering | inburgering exam registration / how to register inburgering | High | 4 |
-| 17 | Wi2013 vs Wi2021: Which Inburgering Law Applies to You? | Wi2013 vs Wi2021 / inburgering old law new law | High | 7 |
-| 18 | Inburgering Deadlines and Extensions: What Happens If You Run Out of Time? | inburgering deadline / inburgering fine / inburgering extension | Medium | 12 |
-| 19 | Inburgering Exemptions: Who Doesn't Need to Take the Exam? | inburgering exemption / who is exempt inburgering | Medium | 13 |
+| 16 | ✅ ~~How to Register for the Inburgering Exam: A Step-by-Step Guide to Mijn Inburgering~~ | inburgering exam registration / how to register inburgering | High | 4 |
+| 17 | ✅ ~~Wi2013 vs Wi2021: Which Inburgering Law Applies to You?~~ | Wi2013 vs Wi2021 / inburgering old law new law | High | 7 |
+| 18 | ✅ ~~Inburgering Deadlines and Extensions: What Happens If You Run Out of Time?~~ | inburgering deadline / inburgering fine / inburgering extension | Medium | 12 |
+| 19 | ✅ ~~Inburgering Exemptions: Who Doesn't Need to Take the Exam?~~ | inburgering exemption / who is exempt inburgering | Medium | 13 |
 | 20 | Inburgering vs NT2: Which Exam Do You Actually Need? | inburgering vs NT2 / NT2 exam | High | 15 |
 | 21 | Where to Take the Inburgering Exam: Locations, Availability, and Booking Tips | inburgering exam locations / where to take inburgering | Low | 19 |
 
@@ -101,10 +130,10 @@ Turn the 8 KNM themes into blog content. This serves double duty: it's genuinely
 | # | Title | Target Keyword | Priority | Week |
 |---|-------|---------------|----------|------|
 | 22 | Dutch Healthcare for Expats: How the System Works (and What KNM Tests You On) | Dutch healthcare system expats / KNM gezondheid | High | 5 |
-| 23 | How Dutch Politics Works: A Quick Guide for the KNM Exam | Dutch political system / KNM politiek | Medium | 8 |
-| 24 | Housing in the Netherlands: Tenant Rights, Social Housing, and What's on the KNM | Dutch housing rights / renting Netherlands expat | Medium | 10 |
+| 23 | ✅ ~~How Dutch Politics Works: A Quick Guide for the KNM Exam~~ | Dutch political system / KNM politiek | Medium | 8 |
+| 24 | ✅ ~~Housing in the Netherlands: Tenant Rights, Social Housing, and What's on the KNM~~ | Dutch housing rights / renting Netherlands expat | Medium | 10 |
 | 25 | The Dutch Education System Explained: From Basisschool to University | Dutch education system / KNM onderwijs | Medium | 13 |
-| 26 | Work Culture in the Netherlands: What the KNM Exam Expects You to Know | Dutch work culture / working in Netherlands expat | Medium | 17 |
+| 26 | ✅ ~~Work Culture in the Netherlands: What the KNM Exam Expects You to Know~~ | Dutch work culture / working in Netherlands expat | Medium | 17 |
 | 27 | Dutch Values and Norms: What the KNM Exam Tests About Tolerance, Equality, and Rights | Dutch values norms / KNM normen waarden | Medium | 18 |
 | 28 | DigiD, BSN, and Digital Life in the Netherlands: KNM Essentials | DigiD expats / BSN Netherlands | High | 20 |
 | 29 | Dutch History and Geography on the KNM: Key Facts You Need to Know | Dutch history KNM / Netherlands geography exam | Low | 22 |

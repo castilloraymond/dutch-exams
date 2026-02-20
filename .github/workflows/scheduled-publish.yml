@@ -1,0 +1,65 @@
+name: Scheduled Blog Publish
+
+on:
+  schedule:
+    # Every Tuesday at 7:00 UTC (8:00 AM CET)
+    - cron: '0 7 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish scheduled posts
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          SCHEDULED_DIR="content/blog/scheduled"
+          PUBLISH_DIR="content/blog"
+          MOVED=0
+
+          if [ ! -d "$SCHEDULED_DIR" ]; then
+            echo "No scheduled directory found. Nothing to publish."
+            exit 0
+          fi
+
+          for file in "$SCHEDULED_DIR"/*.md; do
+            [ -f "$file" ] || continue
+
+            filename=$(basename "$file")
+            # Extract date prefix (YYYY-MM-DD) from filename
+            date_prefix=$(echo "$filename" | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}')
+
+            if [ -z "$date_prefix" ]; then
+              echo "Skipping $filename — no date prefix found"
+              continue
+            fi
+
+            if [ "$date_prefix" \<= "$TODAY" ]; then
+              # Strip the date prefix and the following hyphen
+              new_filename=$(echo "$filename" | sed "s/^${date_prefix}-//")
+              echo "Publishing: $filename -> $new_filename"
+              mv "$file" "$PUBLISH_DIR/$new_filename"
+              MOVED=$((MOVED + 1))
+            else
+              echo "Not yet due: $filename (scheduled for $date_prefix)"
+            fi
+          done
+
+          if [ "$MOVED" -eq 0 ]; then
+            echo "No posts due for publishing today."
+            exit 0
+          fi
+
+          echo "Published $MOVED post(s). Committing..."
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/blog/
+          git commit -m "publish scheduled blog post(s) — $(date -u +%Y-%m-%d)"
+          git push
