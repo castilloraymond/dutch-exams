@@ -249,6 +249,8 @@ AuthProvider (root layout) → useAuth() hook
 │   │   ├── schrijven.json
 │   │   └── spreken.json
 │   └── blog/                     # Blog posts (markdown with frontmatter)
+│       ├── scheduled/            # Pre-written posts for auto-publishing
+│       │   └── YYYY-MM-DD-slug.md  # 12 scheduled posts (Feb–May 2026)
 │       ├── inburgering-exam-guide-professionals-2026.md
 │       ├── inburgering-kennismigranten-30-percent-ruling.md
 │       └── knm-exam-2026-new-format.md
@@ -293,6 +295,10 @@ AuthProvider (root layout) → useAuth() hook
 │   ├── hooks/                    # Mobile-specific hooks (useExamState, useProgress)
 │   ├── lib/                      # Mobile-specific lib (content, progress, types, utils)
 │   └── package.json
+│
+├── .github/
+│   └── workflows/
+│       └── scheduled-publish.yml # Cron: publishes scheduled blog posts every Tuesday
 │
 ├── scripts/
 │   ├── generate-audio-azure.ts   # Azure TTS audio generation script
@@ -460,7 +466,8 @@ API routes
 - Each module index: `/content/<module>/index.json`
 - Mock exams: `/content/mock-exams/<module>/` with index.json + exam files
 - Quick assessment: `/content/quick-assessment/` per-module JSON
-- Blog posts: `/content/blog/*.md` with frontmatter (title, slug, description, date, author, keywords) — 13 posts total
+- Blog posts: `/content/blog/*.md` with frontmatter (title, slug, description, date, author, keywords) — 13 published + 12 scheduled in `content/blog/scheduled/`
+- Scheduled blog posts: `/content/blog/scheduled/YYYY-MM-DD-slug.md` — auto-published by GitHub Actions cron (`.github/workflows/scheduled-publish.yml`)
 - UI components: `/components/ui/` (shadcn primitives — button, card, input, label, progress, radio-group)
 - Feature components: `/components/` (AudioPlayer, ExamLayout, ResultsSummary, etc.)
 - Module-specific components: `/components/schrijven/`, `/components/spreken/`
@@ -518,6 +525,12 @@ Updated after each session.
 - What changed, which files, why
 -->
 
+### 2026-02-19
+- Created automated blog publishing system: `.github/workflows/scheduled-publish.yml` (cron every Tuesday 8:00 CET)
+- Created `content/blog/scheduled/` directory with 12 pre-written blog posts (publishing Feb 25 – May 12, 2026)
+- Updated `docs/CONTENT-CALENDAR.md` to reflect scheduled posts
+- Blog total: 13 published + 12 scheduled = 25 posts
+
 ### 2026-02-17
 - Added 10 new blog posts (3 pillar, 7 standard) — blog total now 13 posts
 - Upgraded blog UI: Source Serif 4 for body text, reading time, keyword tags, visual element boxes
@@ -560,6 +573,30 @@ Running log of decisions, bugs found, and context from each work session.
 - All 13 blog posts interlink heavily — article 1 (30-day study plan) is the hub linked from 7+ others
 - Blog frontmatter convention: `author: "PassInBurgering"` (not personal name)
 - Pre-existing build error: `npm run build` fails on `/learn/knm/exam` (Next.js 16 InvariantError) — not caused by blog changes, `npx tsc --noEmit` passes clean
+
+### 2026-02-19 — Automated Blog Content Calendar (12 Weeks)
+- Created GitHub Actions scheduled publishing workflow: `.github/workflows/scheduled-publish.yml`
+  - Cron: every Tuesday at 7:00 UTC (8:00 CET) + manual `workflow_dispatch` trigger
+  - Moves date-eligible `.md` files from `content/blog/scheduled/` to `content/blog/`, strips date prefix, commits & pushes
+  - Files in `scheduled/` are invisible to blog system (lib/blog.ts only reads top-level `content/blog/*.md`)
+- Created `content/blog/scheduled/` directory with `.gitkeep`
+- Wrote 12 blog posts in `content/blog/scheduled/` (auto-publishing Feb 25 – May 12):
+  1. `2026-02-25-luisteren-exam-format-scoring.md` (~2,412 words) — Listening exam format, scoring, prep tips
+  2. `2026-03-03-schrijven-writing-exam-guide.md` (~2,665 words) — Writing exam tasks, grading criteria, template strategy
+  3. `2026-03-10-spreken-speaking-exam-new-format-2025.md` (~2,962 words) — New speaking format (100% spoken, no MC)
+  4. `2026-03-17-ona-career-orientation-explained.md` (~1,825 words) — ONA portfolio requirement explained
+  5. `2026-03-24-wi2013-vs-wi2021-which-rules-apply.md` (~2,092 words) — Which inburgering law applies, decision tree
+  6. `2026-03-31-inburgering-exemptions-guide.md` (~2,304 words) — Full exemption categories + flowchart
+  7. `2026-04-07-which-inburgering-exam-first.md` (~2,200 words) — Optimal exam order strategy
+  8. `2026-04-14-how-to-register-inburgering-exam.md` (~2,300 words) — Step-by-step DUO registration guide
+  9. `2026-04-21-dutch-politics-knm-guide.md` (~2,400 words) — Dutch political system for KNM
+  10. `2026-04-28-dutch-housing-tenant-rights-knm.md` (~2,249 words) — Housing & tenant rights for KNM
+  11. `2026-05-05-inburgering-deadlines-fines-extensions.md` (~2,073 words) — Deadlines, fines & extensions
+  12. `2026-05-12-dutch-work-culture-knm-guide.md` (~2,474 words) — Dutch work culture for KNM
+- All posts follow WRITING-STYLE-GUIDE.md: brand voice, visual elements (stat-box, takeaway-box, tip-box, warning-box), FAQ sections, 2-4 internal links, platform CTAs
+- Banned word scan run on all 12 posts — 2 violations fixed (replaced "landscape" and "navigate")
+- Updated `docs/CONTENT-CALENDAR.md`: marked all 12 articles as scheduled, added publishing schedule table
+- Posts interlink with existing 13 published posts + cross-reference each other (links resolve as posts publish sequentially)
 
 ---
 
