@@ -48,22 +48,22 @@ export function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section className="py-[70px] px-6 lg:px-10 bg-white reveal">
+        <section className="py-12 sm:py-[70px] px-5 sm:px-6 lg:px-10 bg-white reveal">
             <JsonLd data={faqSchema} />
             <div className="max-w-[768px] mx-auto">
-                <div className="text-center mb-9">
-                    <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
+                <div className="text-center mb-7 sm:mb-9">
+                    <div className="text-[0.78rem] sm:text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-3 sm:mb-4">
                         FAQ
                     </div>
-                    <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] font-extrabold mb-5">
+                    <h2 className="text-[1.7rem] sm:text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] font-extrabold mb-4 sm:mb-5">
                         Your questions, answered
                     </h2>
-                    <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7]">
+                    <p className="text-[0.95rem] sm:text-[1.05rem] text-[var(--ink-soft)] leading-[1.6] sm:leading-[1.7]">
                         Everything you need to know before getting started
                     </p>
                 </div>
 
-                <div className="space-y-4">
+                <div className="space-y-3 sm:space-y-4">
                     {faqs.map((faq, i) => (
                         <div
                             key={i}
@@ -71,9 +71,9 @@ export function FAQ() {
                         >
                             <button
                                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                                className="w-full px-6 py-5 flex items-center justify-between text-left cursor-pointer"
+                                className="w-full px-4 py-4 sm:px-6 sm:py-5 flex items-center justify-between text-left cursor-pointer"
                             >
-                                <span className="font-semibold text-[var(--ink)] pr-4">
+                                <span className="font-semibold text-[0.92rem] sm:text-base text-[var(--ink)] pr-4">
                                     {faq.question}
                                 </span>
                                 <svg
@@ -97,7 +97,7 @@ export function FAQ() {
                                     openIndex === i ? "max-h-96" : "max-h-0"
                                 }`}
                             >
-                                <p className="px-6 pb-5 text-[var(--ink-soft)] leading-relaxed">
+                                <p className="px-4 pb-4 sm:px-6 sm:pb-5 text-[0.88rem] sm:text-base text-[var(--ink-soft)] leading-relaxed">
                                     {faq.answer}
                                 </p>
                             </div>

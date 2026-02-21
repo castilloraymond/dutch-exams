@@ -8,22 +8,37 @@ export function LandingHero() {
     const { user } = useAuth();
 
     return (
-        <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
+        <section className="pt-[80px] sm:pt-[120px] pb-10 sm:pb-[70px] px-5 sm:px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-[60px] items-center">
             {/* Left column */}
-            <div className="animate-reveal">
-                <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
+            <div className="animate-reveal text-center sm:text-left">
+                <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.78rem] sm:text-[0.82rem] px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full mb-5 sm:mb-7 tracking-[0.02em]">
                     Real format. Real questions. Real results.
                 </div>
 
-                <h1 className="text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-6 font-extrabold">
+                <h1 className="text-[2.2rem] sm:text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-6 font-extrabold">
                     Pass your inburgering exam
                 </h1>
 
-                <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
-                    Practice the exact format of the real exam across all 5 modules — Lezen, Luisteren, KNM, Schrijven &amp; Spreken. Built around the actual DUO exam, not generic Dutch lessons.
+                <p className="text-[1rem] sm:text-[1.15rem] text-[var(--ink-soft)] leading-[1.6] sm:leading-[1.7] mb-6 sm:mb-8 max-w-[480px] sm:mx-0 mx-auto">
+                    46 mock exams across all 5 modules — matching the real DUO exam format. Free to start.
                 </p>
 
-                <div className="space-y-3 mb-8">
+                {/* CTA — prominent and above fold on mobile */}
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 sm:gap-4 mb-6 sm:mb-4">
+                    <Link
+                        href="/learn"
+                        className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-9 py-4 rounded-full font-semibold text-base"
+                    >
+                        {user ? "Continue practicing" : "Try a free mock exam"}
+                        <ArrowRight className="h-4 w-4" />
+                    </Link>
+                    <span className="text-[0.85rem] text-[var(--ink-muted)]">
+                        No account required
+                    </span>
+                </div>
+
+                {/* Feature pills — compact on mobile */}
+                <div className="hidden sm:block space-y-3">
                     {[
                         "All 5 modules: Lezen, Luisteren, KNM, Schrijven & Spreken",
                         "Matches the real computer-based exam format",
@@ -36,25 +51,22 @@ export function LandingHero() {
                     ))}
                 </div>
 
-                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
-                    <Link
-                        href="/learn"
-                        className="cta-primary inline-flex items-center gap-2.5 px-9 py-4 rounded-full font-semibold text-base"
-                    >
-                        {user ? "Continue practicing" : "Try a full mock exam"}
-                        <ArrowRight className="h-4 w-4" />
-                    </Link>
-                    <a
-                        href="#modules"
-                        className="inline-flex items-center gap-1.5 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
-                    >
-                        or browse all 5 modules
-                        <ArrowRight className="h-3.5 w-3.5" />
-                    </a>
+                {/* Mobile: compact feature row */}
+                <div className="flex sm:hidden justify-center gap-4 flex-wrap">
+                    {[
+                        "5 modules",
+                        "46 mock exams",
+                        "Real exam format",
+                    ].map((item) => (
+                        <div key={item} className="flex items-center gap-1.5 text-[0.82rem] text-[var(--ink-soft)]">
+                            <CircleCheck className="h-4 w-4 text-[var(--green)] shrink-0" />
+                            {item}
+                        </div>
+                    ))}
                 </div>
             </div>
 
-            {/* Right column — Product mockup */}
+            {/* Right column — Product mockup (desktop only) */}
             <div className="relative hidden lg:block animate-reveal-delay-2">
                 {/* Browser mockup */}
                 <div className="bg-white rounded-[20px] shadow-[0_20px_80px_rgba(26,26,46,0.10),0_1px_3px_rgba(26,26,46,0.06)] overflow-hidden [transform:perspective(1000px)_rotateY(-3deg)_rotateX(1deg)] hover:[transform:perspective(1000px)_rotateY(0deg)_rotateX(0deg)] transition-transform duration-400">
