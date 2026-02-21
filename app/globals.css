@@ -377,3 +377,71 @@
 .prose-navy .warning-box p:last-child {
   margin-bottom: 0;
 }
+
+/* Hide scrollbar utility */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Mobile Horizontal Scroll Container */
+.mobile-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  gap: 16px;
+  padding-bottom: 4px;
+}
+
+.mobile-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-scroll > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Scroll indicators (small dots) */
+.scroll-hint {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.scroll-hint-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--ink-muted);
+  opacity: 0.3;
+}
+
+.scroll-hint-dot.active {
+  opacity: 1;
+  background: var(--accent);
+}
+
+@media (min-width: 640px) {
+  .mobile-scroll {
+    display: grid;
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }
+
+  .mobile-scroll > * {
+    scroll-snap-align: none;
+    flex-shrink: initial;
+  }
+
+  .scroll-hint {
+    display: none;
+  }
+}

@@ -49,7 +49,7 @@ export function PricingCard({ compact }: { compact?: boolean }) {
   const spotsPercent = (SPOTS_TAKEN / SPOTS_TOTAL) * 100;
 
   return (
-    <div className="bg-white rounded-[24px] p-8 sm:p-14 border-2 border-[#ebe8e0] relative overflow-hidden">
+    <div className="bg-white rounded-[20px] sm:rounded-[24px] p-6 sm:p-14 border-2 border-[#ebe8e0] relative overflow-hidden">
       {/* Top gradient border */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-glow)]" />
 
@@ -80,7 +80,7 @@ export function PricingCard({ compact }: { compact?: boolean }) {
         <div className="text-sm text-[var(--ink-muted)] line-through mb-1">
           Regular Price: €149
         </div>
-        <div className="text-[3.5rem] font-extrabold text-[var(--ink)] tracking-[-0.03em] leading-none">
+        <div className="text-[2.8rem] sm:text-[3.5rem] font-extrabold text-[var(--ink)] tracking-[-0.03em] leading-none">
           €49
         </div>
         <div className="text-[0.92rem] text-[var(--ink-muted)] mt-1">
@@ -124,14 +124,14 @@ export function PricingCard({ compact }: { compact?: boolean }) {
 
 export function Pricing() {
   return (
-    <section className="py-[70px] px-6 lg:px-10 max-w-[900px] mx-auto text-center reveal" id="pricing">
-      <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
+    <section className="py-12 sm:py-[70px] px-5 sm:px-6 lg:px-10 max-w-[900px] mx-auto text-center reveal" id="pricing">
+      <div className="text-[0.78rem] sm:text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-3 sm:mb-4">
         Founding Member Pricing
       </div>
-      <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-5 font-extrabold">
+      <h2 className="text-[1.7rem] sm:text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-5 font-extrabold">
         Lock in lifetime access at our lowest price.
       </h2>
-      <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] mx-auto mb-[36px]">
+      <p className="text-[0.95rem] sm:text-[1.05rem] text-[var(--ink-soft)] leading-[1.6] sm:leading-[1.7] mx-auto mb-6 sm:mb-[36px]">
         Less than the cost of one failed exam retake.
       </p>
 

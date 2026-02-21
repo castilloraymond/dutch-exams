@@ -10,15 +10,15 @@ export function LandingNav() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-10 py-4 bg-[var(--cream)]/85 backdrop-blur-[20px] border-b border-[var(--ink)]/[0.06] transition-all duration-300">
+        <nav className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-10 py-3 sm:py-4 bg-[var(--cream)]/85 backdrop-blur-[20px] border-b border-[var(--ink)]/[0.06] transition-all duration-300">
             <div className="max-w-[1200px] mx-auto flex items-center justify-between">
                 <Link href="/" className="flex items-center cursor-pointer">
-                    <span className="text-[1.35rem] tracking-[-0.02em]">
+                    <span className="text-[1.2rem] sm:text-[1.35rem] tracking-[-0.02em]">
                         <span className="font-extrabold text-[var(--ink)]">pass</span><span className="font-bold text-[var(--accent)]">inburgering</span>
                     </span>
                 </Link>
 
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-3 sm:gap-8">
                     <Link
                         href="#how"
                         className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
@@ -45,11 +45,13 @@ export function LandingNav() {
                             <CircleUser className="h-5 w-5" />
                         </Link>
                     ) : null}
+
+                    {/* CTA — visible on ALL screen sizes */}
                     <Link
                         href="/learn"
-                        className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250 hidden sm:block"
+                        className="bg-[var(--ink)] text-[var(--cream)] px-5 py-2 sm:px-6 sm:py-2.5 rounded-full font-semibold text-[0.82rem] sm:text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250"
                     >
-                        {!loading && user ? "Start practicing" : "Try a mock exam"}
+                        {!loading && user ? "Practice" : "Start free"}
                     </Link>
 
                     {/* Mobile hamburger */}
@@ -58,7 +60,7 @@ export function LandingNav() {
                         className="sm:hidden text-[var(--ink)] cursor-pointer"
                         aria-label={menuOpen ? "Close menu" : "Open menu"}
                     >
-                        {menuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                        {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                     </button>
                 </div>
             </div>
@@ -106,13 +108,6 @@ export function LandingNav() {
                                 Log in
                             </Link>
                         )}
-                        <Link
-                            href="/learn"
-                            onClick={() => setMenuOpen(false)}
-                            className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-sm text-center hover:bg-[var(--accent)] transition-all"
-                        >
-                            {!loading && user ? "Start practicing" : "Try a mock exam"}
-                        </Link>
                     </div>
                 </div>
             )}
