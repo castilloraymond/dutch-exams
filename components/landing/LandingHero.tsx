@@ -12,7 +12,7 @@ export function LandingHero() {
             {/* Left column */}
             <div className="animate-reveal">
                 <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
-                    Real format. Real questions. Real results.
+                    ✨ Free during beta — no payment required
                 </div>
 
                 <h1 className="text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-6 font-extrabold">
@@ -20,7 +20,7 @@ export function LandingHero() {
                 </h1>
 
                 <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
-                    Practice the exact format of the real exam across all 5 modules — Lezen, Luisteren, KNM, Schrijven &amp; Spreken. Built around the actual DUO exam, not generic Dutch lessons.
+                    Practice the exact format of the real exam across all 5 modules — Lezen, Luisteren, KNM, Schrijven &amp; Spreken. Built around the actual DUO exam, not generic Dutch lessons. No payment needed while we&apos;re in beta — pricing may apply later.
                 </p>
 
                 <div className="space-y-3 mb-8">
