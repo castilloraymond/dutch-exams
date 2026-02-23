@@ -44,6 +44,9 @@ export default function Home() {
         }}
       />
       <ScrollRevealInit />
+      <div className="py-2 px-4 text-center text-sm font-medium text-white bg-[var(--accent)]">
+        ✨ Free during beta — no payment required. Pricing may apply once new features launch.
+      </div>
       <LandingNav />
       <LandingHero />
       <TrustBar />
