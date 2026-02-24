@@ -1,0 +1,316 @@
+{
+  "id": "lezen-a2-6",
+  "title": "Lezen A2 - Oefenexamen 6",
+  "module": "lezen",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "35 min",
+  "passages": [
+    {
+      "id": "a2-6-p1",
+      "title": "Brief van woningcorporatie",
+      "content": "Woningcorporatie Thuisvast\nPostbus 890, 5600 AW Eindhoven\n\nEindhoven, 4 februari 2026\n\nGeachte bewoner(s),\n\nWij laten u weten dat er groot onderhoud gepland is aan uw flat aan de Kerkstraat 40-78.\n\nWat gaan wij doen?\n- Schilderwerk aan de buitenkant van het gebouw\n- Reparatie van de balkons\n- Vervanging van de kozijnen op de galerij\n\nWanneer?\nDe werkzaamheden beginnen op maandag 16 maart 2026 en duren tot en met vrijdag 24 april 2026. Er wordt gewerkt van maandag tot en met vrijdag, van 07:30 tot 16:30 uur.\n\nWat merkt u?\nEr kan geluidsoverlast zijn door het schilderen en boren. De steigers worden aan de buitenkant van het gebouw geplaatst. Houd uw ramen en balkondeur gesloten als er bij uw verdieping gewerkt wordt.\n\nBelangrijk: Op de dag dat uw kozijnen vervangen worden, moet u thuis zijn. U ontvangt hiervoor een aparte brief met de exacte datum.\n\nVragen of zorgen? Bel onze klantenservice: 040-234 56 78 (bereikbaar op werkdagen van 09:00 tot 17:00). U kunt ook mailen naar onderhoud@thuisvast.nl.\n\nMet vriendelijke groet,\nTeam Onderhoud\nWoningcorporatie Thuisvast",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de woningcorporatie over het onderhoud.",
+      "questions": [
+        {
+          "id": "a2-6-q1",
+          "text": "Wat wordt er NIET gedaan tijdens het onderhoud?",
+          "options": [
+            "Schilderwerk aan de buitenkant",
+            "Reparatie van de balkons",
+            "Vervanging van het dak",
+            "Vervanging van de kozijnen"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vervanging van het dak staat niet in de brief. Er wordt geschilderd, balkons worden gerepareerd en kozijnen worden vervangen.",
+          "explanationEn": "Roof replacement is not mentioned. The work includes painting, balcony repair, and window frame replacement."
+        },
+        {
+          "id": "a2-6-q2",
+          "text": "Hoelang duren de werkzaamheden?",
+          "options": [
+            "Ongeveer zes weken",
+            "Twee weken",
+            "Drie maanden",
+            "Eén maand"
+          ],
+          "correctIndex": 0,
+          "explanation": "De werkzaamheden duren van 16 maart tot en met 24 april 2026, dat is ongeveer zes weken.",
+          "explanationEn": "The work lasts from March 16 to April 24, 2026, which is approximately six weeks."
+        },
+        {
+          "id": "a2-6-q3",
+          "text": "Wat moeten bewoners doen als er bij hun verdieping gewerkt wordt?",
+          "options": [
+            "Het gebouw verlaten",
+            "De ramen en balkondeur gesloten houden",
+            "De verwarming uitzetten",
+            "Niet op het balkon komen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bewoners moeten hun ramen en balkondeur gesloten houden als er bij hun verdieping gewerkt wordt.",
+          "explanationEn": "Residents should keep their windows and balcony door closed when work is being done on their floor."
+        },
+        {
+          "id": "a2-6-q4",
+          "text": "Wanneer is de klantenservice bereikbaar?",
+          "options": [
+            "Elke dag van 08:00 tot 18:00",
+            "Op werkdagen van 09:00 tot 17:00",
+            "Alleen op maandag en woensdag",
+            "Op werkdagen van 07:30 tot 16:30"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klantenservice is bereikbaar op werkdagen van 09:00 tot 17:00.",
+          "explanationEn": "Customer service is available on weekdays from 09:00 to 17:00."
+        }
+      ]
+    },
+    {
+      "id": "a2-6-p2",
+      "title": "Programma buurtfeest",
+      "content": "Buurtfeest Wijkpark — Zaterdag 20 juni 2026\n\nProgramma:\n\n11:00 — Opening door de wijkvoorzitter bij de ingang van het park\n11:15 — Kinderspelen op het grasveld (springkussen, schmink, knutselen)\n12:30 — Gezamenlijke lunch (broodjes en soep) — grote tent\n13:30 — Voetbaltoernooi voor kinderen (6-12 jaar) — sportveld\n13:30 — Workshop bloemschikken voor volwassenen — kleine tent\n15:00 — Optreden van muziekvereniging Harmonie — podium\n16:00 — Bingo met leuke prijzen — grote tent\n17:00 — Buurtbarbecue (vlees, vis en vegetarisch) — barbecuehoek\n19:00 — Live muziek en dansen — podium\n20:30 — Afsluiting met vuurwerk\n\nWat meenemen?\n- Eigen stoelen of een kleed om te zitten\n- Eigen drinken (er is ook een bar met drankjes te koop)\n- Zonnecrème (we hopen op mooi weer!)\n\nDe lunch en barbecue zijn gratis voor alle buurtbewoners.\nGasten van buiten de wijk betalen € 5,00 per persoon.\n\nAanmelden: stuur een bericht naar buurtfeest@wijkpark.nl vóór 13 juni.",
+      "contentType": "list",
+      "instruction": "Lees het programma van het buurtfeest.",
+      "questions": [
+        {
+          "id": "a2-6-q5",
+          "text": "Waar begint het buurtfeest?",
+          "options": [
+            "Bij de ingang van het park",
+            "Op het sportveld",
+            "In de grote tent",
+            "Bij het podium"
+          ],
+          "correctIndex": 0,
+          "explanation": "De opening is bij de ingang van het park.",
+          "explanationEn": "The opening is at the entrance of the park."
+        },
+        {
+          "id": "a2-6-q6",
+          "text": "Wat kunnen volwassenen doen om 13:30?",
+          "options": [
+            "Meedoen aan het voetbaltoernooi",
+            "Naar het optreden kijken",
+            "Een workshop bloemschikken volgen",
+            "Meedoen aan de bingo"
+          ],
+          "correctIndex": 2,
+          "explanation": "Om 13:30 is er een workshop bloemschikken voor volwassenen in de kleine tent.",
+          "explanationEn": "At 13:30 there is a flower arranging workshop for adults in the small tent."
+        },
+        {
+          "id": "a2-6-q7",
+          "text": "Hoeveel betaalt een buurtbewoner voor de barbecue?",
+          "options": [
+            "€ 5,00",
+            "€ 10,00",
+            "€ 2,50",
+            "Niets, het is gratis"
+          ],
+          "correctIndex": 3,
+          "explanation": "De lunch en barbecue zijn gratis voor alle buurtbewoners.",
+          "explanationEn": "The lunch and barbecue are free for all neighborhood residents."
+        },
+        {
+          "id": "a2-6-q8",
+          "text": "Vóór welke datum moet je je aanmelden?",
+          "options": [
+            "Vóór 1 juni",
+            "Vóór 13 juni",
+            "Vóór 20 juni",
+            "Aanmelden is niet nodig"
+          ],
+          "correctIndex": 1,
+          "explanation": "Je moet je aanmelden vóór 13 juni.",
+          "explanationEn": "You need to register before June 13."
+        }
+      ]
+    },
+    {
+      "id": "a2-6-p3",
+      "title": "Brief van de werkgever",
+      "content": "Bakkerij Van Dijk B.V.\nIndustrieweg 5, 3300 CC Dordrecht\n\nDordrecht, 20 februari 2026\n\nGeachte heer Ahmadi,\n\nUw tijdelijke arbeidsovereenkomst loopt af op 31 maart 2026. Wij zijn tevreden over uw werk en willen uw contract graag verlengen.\n\nWij bieden u een nieuw contract aan voor de duur van één jaar, van 1 april 2026 tot en met 31 maart 2027. Hieronder vindt u de belangrijkste wijzigingen:\n\nSalaris: Uw bruto maandsalaris gaat van € 2.450,00 naar € 2.600,00.\nWerkuren: U gaat van 32 uur naar 36 uur per week werken. Uw werkdagen zijn maandag tot en met donderdag, van 06:00 tot 15:00 uur (inclusief een half uur pauze).\nVakantiedagen: U krijgt 25 vakantiedagen per jaar (was 20).\n\nGraag ontvangen wij uw reactie vóór 10 maart 2026. U kunt het bijgevoegde formulier ondertekend terugsturen per post of afgeven bij de afdeling personeelszaken.\n\nHeeft u vragen? Neem contact op met mevrouw Bakker van personeelszaken, tel: 078-631 45 00.\n\nMet vriendelijke groet,\nDe heer P. van Dijk\nDirecteur Bakkerij Van Dijk B.V.",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de werkgever over het contract.",
+      "questions": [
+        {
+          "id": "a2-6-q9",
+          "text": "Waarom schrijft het bedrijf deze brief?",
+          "options": [
+            "De heer Ahmadi is ontslagen",
+            "Het bedrijf wil het contract verlengen",
+            "De heer Ahmadi moet op vakantie",
+            "Het bedrijf gaat sluiten"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het bedrijf is tevreden en wil het contract verlengen.",
+          "explanationEn": "The company is satisfied and wants to extend the contract."
+        },
+        {
+          "id": "a2-6-q10",
+          "text": "Hoeveel uur per week gaat de heer Ahmadi werken in het nieuwe contract?",
+          "options": [
+            "36 uur",
+            "34 uur",
+            "32 uur",
+            "40 uur"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hij gaat van 32 uur naar 36 uur per week werken.",
+          "explanationEn": "He goes from 32 hours to 36 hours per week."
+        },
+        {
+          "id": "a2-6-q11",
+          "text": "Hoeveel meer salaris krijgt de heer Ahmadi per maand?",
+          "options": [
+            "€ 100,00",
+            "€ 150,00",
+            "€ 200,00",
+            "€ 250,00"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zijn salaris gaat van € 2.450,00 naar € 2.600,00, dat is € 150,00 meer.",
+          "explanationEn": "His salary goes from €2,450.00 to €2,600.00, which is €150.00 more."
+        },
+        {
+          "id": "a2-6-q12",
+          "text": "Vóór wanneer moet de heer Ahmadi reageren?",
+          "options": [
+            "Vóór 1 maart 2026",
+            "Vóór 20 maart 2026",
+            "Vóór 31 maart 2026",
+            "Vóór 10 maart 2026"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hij moet vóór 10 maart 2026 reageren.",
+          "explanationEn": "He must respond before March 10, 2026."
+        }
+      ]
+    },
+    {
+      "id": "a2-6-p4",
+      "title": "Prikbord kinderopvang",
+      "content": "Kinderopvang De Kleine Beer — Prikbord februari 2026\n\n*** VAKANTIEROOSTER 2026 ***\nGoede Vrijdag + Pasen: vrijdag 3 april t/m maandag 6 april — GESLOTEN\nKoningsdag: maandag 27 april — GESLOTEN\nMeivakantie: maandag 4 mei t/m vrijdag 8 mei — GESLOTEN\nLet op: u betaalt niet voor deze dagen.\n\n*** ZIEK KIND? ***\nIs uw kind ziek? Bel ons vóór 08:30 uur: 030-267 89 00.\nBij koorts (boven 38,5°C), overgeven of besmettelijke ziekten mag uw kind niet komen. Uw kind mag terugkomen als het 24 uur koortsvrij is.\n\n*** NIEUWE ACTIVITEITEN ***\nVanaf maart hebben we twee nieuwe activiteiten:\n- Muziekles: elke dinsdag van 10:00 tot 10:30 (voor peuters)\n- Buitenspelen in het bos: elke donderdag (bij droog weer)\nVoor het buitenspelen: geef uw kind laarzen en een regenjas mee.\n\n*** BETALING ***\nDe factuur van februari wordt rond 5 maart verstuurd.\nBetaal binnen 14 dagen na ontvangst.\nVragen over de factuur? Mail naar administratie@dekleinebeer.nl.",
+      "contentType": "notice",
+      "instruction": "Lees het prikbord van de kinderopvang.",
+      "questions": [
+        {
+          "id": "a2-6-q13",
+          "text": "Hoelang is de kinderopvang gesloten met Pasen?",
+          "options": [
+            "Eén dag",
+            "Twee dagen",
+            "Drie dagen",
+            "Vier dagen"
+          ],
+          "correctIndex": 3,
+          "explanation": "De kinderopvang is gesloten van vrijdag 3 april tot en met maandag 6 april, dat zijn vier dagen.",
+          "explanationEn": "The daycare is closed from Friday April 3 through Monday April 6, which is four days."
+        },
+        {
+          "id": "a2-6-q14",
+          "text": "Wanneer mag een ziek kind terugkomen naar de opvang?",
+          "options": [
+            "Als het kind 24 uur koortsvrij is",
+            "Na een bezoek aan de dokter",
+            "Na drie dagen thuis",
+            "Als de ouders dat beslissen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Het kind mag terugkomen als het 24 uur koortsvrij is.",
+          "explanationEn": "The child can return when they have been fever-free for 24 hours."
+        },
+        {
+          "id": "a2-6-q15",
+          "text": "Wat moeten ouders meegeven voor het buitenspelen in het bos?",
+          "options": [
+            "Een lunchpakket en drinken",
+            "Sportkleding en sportschoenen",
+            "Laarzen en een regenjas",
+            "Een rugzak en een pet"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ouders moeten laarzen en een regenjas meegeven voor het buitenspelen.",
+          "explanationEn": "Parents should provide rain boots and a raincoat for the outdoor play."
+        },
+        {
+          "id": "a2-6-q16",
+          "text": "Binnen hoeveel dagen moet de factuur betaald worden?",
+          "options": [
+            "7 dagen",
+            "10 dagen",
+            "14 dagen",
+            "30 dagen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De factuur moet binnen 14 dagen na ontvangst betaald worden.",
+          "explanationEn": "The invoice must be paid within 14 days of receipt."
+        }
+      ]
+    },
+    {
+      "id": "a2-6-p5",
+      "title": "Artikel: Bespaar energie in huis",
+      "content": "Bespaar energie in huis: praktische tips\n\nDe energieprijzen in Nederland zijn de afgelopen jaren flink gestegen. Gelukkig kunt u veel doen om minder energie te gebruiken. Dat is goed voor het milieu én voor uw portemonnee.\n\nVerwarming\nZet de verwarming op maximaal 19 graden. Elke graad lager bespaart ongeveer 7% op uw gasrekening. Draag liever een warme trui in huis. Zet de verwarming lager als u slaapt of niet thuis bent.\n\nWarm water\nDouche korter: 5 minuten in plaats van 10 minuten. Dat bespaart ongeveer € 150,00 per jaar. Gebruik de eco-stand van uw wasmachine en was op 30 graden.\n\nElektriciteit\nVervang oude lampen door led-lampen. Die gebruiken 80% minder stroom. Zet apparaten helemaal uit en niet op standby. Standby-verbruik kost een gemiddeld huishouden € 80,00 per jaar.\n\nSubsidies\nDe overheid geeft subsidie voor het isoleren van uw huis. U kunt tot € 2.500,00 terugkrijgen als u uw dak of vloer laat isoleren. Kijk op www.verbeterjehuis.nl voor meer informatie.\n\nMet deze tips kunt u honderden euro's per jaar besparen.",
+      "contentType": "text",
+      "instruction": "Lees het artikel over energie besparen in huis.",
+      "questions": [
+        {
+          "id": "a2-6-q17",
+          "text": "Hoeveel bespaart elke graad lager op de verwarming?",
+          "options": [
+            "Ongeveer 3%",
+            "Ongeveer 5%",
+            "Ongeveer 7%",
+            "Ongeveer 10%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Elke graad lager bespaart ongeveer 7% op de gasrekening.",
+          "explanationEn": "Each degree lower saves approximately 7% on the gas bill."
+        },
+        {
+          "id": "a2-6-q18",
+          "text": "Hoeveel kun je per jaar besparen door korter te douchen?",
+          "options": [
+            "Ongeveer € 50,00",
+            "Ongeveer € 80,00",
+            "Ongeveer € 150,00",
+            "Ongeveer € 250,00"
+          ],
+          "correctIndex": 2,
+          "explanation": "Korter douchen (5 minuten in plaats van 10) bespaart ongeveer € 150,00 per jaar.",
+          "explanationEn": "Showering shorter (5 minutes instead of 10) saves approximately €150.00 per year."
+        },
+        {
+          "id": "a2-6-q19",
+          "text": "Hoeveel minder stroom gebruiken led-lampen ten opzichte van oude lampen?",
+          "options": [
+            "50% minder",
+            "60% minder",
+            "70% minder",
+            "80% minder"
+          ],
+          "correctIndex": 3,
+          "explanation": "Led-lampen gebruiken 80% minder stroom dan oude lampen.",
+          "explanationEn": "LED bulbs use 80% less electricity than old bulbs."
+        },
+        {
+          "id": "a2-6-q20",
+          "text": "Hoeveel subsidie kun je maximaal krijgen voor isolatie?",
+          "options": [
+            "Tot € 1.000,00",
+            "Tot € 1.500,00",
+            "Tot € 2.000,00",
+            "Tot € 2.500,00"
+          ],
+          "correctIndex": 3,
+          "explanation": "U kunt tot € 2.500,00 terugkrijgen als u uw dak of vloer laat isoleren.",
+          "explanationEn": "You can get up to €2,500.00 back if you have your roof or floor insulated."
+        }
+      ]
+    }
+  ],
+  "isFreePreview": false
+}

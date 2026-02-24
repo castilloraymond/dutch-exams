@@ -1,0 +1,171 @@
+{
+  "id": "schrijven-a2-4",
+  "title": "Schrijven A2 - Oefenexamen 4",
+  "module": "schrijven",
+  "difficulty": "A2",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": false,
+  "tips": [
+    "When writing about a problem, explain what is wrong AND what you want to happen.",
+    "With colleagues, you can use informal language (je/jij) — with a landlord, use formal language (u/uw).",
+    "A good message has three parts: greeting, content, and closing.",
+    "Always include practical details like dates, times, and contact information."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "register",
+      "text": "I used the right formality level for each recipient",
+      "textEn": "I used the right formality level for each recipient"
+    },
+    {
+      "id": "complete",
+      "text": "I included all requested information in each answer",
+      "textEn": "I included all requested information in each answer"
+    },
+    {
+      "id": "structure",
+      "text": "My messages have a clear beginning, middle, and end",
+      "textEn": "My messages have a clear beginning, middle, and end"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-a2-4-q1",
+      "scenario": "U wilt vrijwilligerswerk doen bij een buurthuis in uw wijk. Vul het aanmeldformulier in.",
+      "scenarioEn": "You want to do volunteer work at a community centre in your neighbourhood. Fill in the registration form.",
+      "prompt": "Vul het formulier in met uw gegevens.",
+      "promptEn": "Fill in the form with your information.",
+      "taskType": "form",
+      "formFields": [
+        {
+          "id": "voornaam",
+          "label": "Voornaam",
+          "labelEn": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw voornaam"
+        },
+        {
+          "id": "achternaam",
+          "label": "Achternaam",
+          "labelEn": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw achternaam"
+        },
+        {
+          "id": "geboortedatum",
+          "label": "Geboortedatum",
+          "labelEn": "Date of birth",
+          "type": "date",
+          "required": true
+        },
+        {
+          "id": "adres",
+          "label": "Adres",
+          "labelEn": "Address",
+          "type": "text",
+          "required": true,
+          "placeholder": "Straat en huisnummer"
+        },
+        {
+          "id": "postcode",
+          "label": "Postcode",
+          "labelEn": "Postal code",
+          "type": "text",
+          "required": true,
+          "placeholder": "1234 AB"
+        },
+        {
+          "id": "woonplaats",
+          "label": "Woonplaats",
+          "labelEn": "City",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw stad"
+        },
+        {
+          "id": "telefoonnummer",
+          "label": "Telefoonnummer",
+          "labelEn": "Phone number",
+          "type": "text",
+          "required": true,
+          "placeholder": "06-12345678"
+        },
+        {
+          "id": "email",
+          "label": "E-mailadres",
+          "labelEn": "Email address",
+          "type": "text",
+          "required": true,
+          "placeholder": "uw@email.nl"
+        },
+        {
+          "id": "beschikbaarheid",
+          "label": "Beschikbaarheid",
+          "labelEn": "Availability",
+          "type": "select",
+          "required": true,
+          "options": ["Doordeweeks ochtend", "Doordeweeks middag", "Weekend", "Flexibel"]
+        },
+        {
+          "id": "motivatie",
+          "label": "Waarom wilt u vrijwilligerswerk doen?",
+          "labelEn": "Why do you want to do volunteer work?",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Schrijf hier uw motivatie"
+        }
+      ],
+      "selfAssessmentCriteria": [
+        { "id": "q1-all-fields", "text": "I filled in all required fields", "textEn": "I filled in all required fields" },
+        { "id": "q1-date-format", "text": "I used the correct date format", "textEn": "I used the correct date format" },
+        { "id": "q1-motivation", "text": "I wrote a clear motivation in Dutch", "textEn": "I wrote a clear motivation in Dutch" }
+      ],
+      "modelAnswer": {
+        "voornaam": "Ahmed",
+        "achternaam": "El Fassi",
+        "geboortedatum": "1992-08-10",
+        "adres": "Vondelstraat 78",
+        "postcode": "3521 AH",
+        "woonplaats": "Utrecht",
+        "telefoonnummer": "06-34567890",
+        "email": "ahmed.elfassi@email.nl",
+        "beschikbaarheid": "Weekend",
+        "motivatie": "Ik wil graag vrijwilligerswerk doen omdat ik nieuwe mensen in de buurt wil leren kennen. Ik wil ook mijn Nederlands oefenen en iets goeds doen voor de wijk."
+      }
+    },
+    {
+      "id": "schrijven-a2-4-q2",
+      "scenario": "De verwarming in uw woning doet het niet meer. Het is winter en het is erg koud in huis.",
+      "scenarioEn": "The heating in your home is no longer working. It is winter and it is very cold in the house.",
+      "prompt": "Schrijf een brief aan uw verhuurder. Leg uit wat het probleem is en vraag om een snelle oplossing.",
+      "promptEn": "Write a letter to your landlord. Explain the problem and ask for a quick solution.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-problem", "text": "I clearly described the heating problem", "textEn": "I clearly described the heating problem" },
+        { "id": "q2-urgency", "text": "I explained why it is urgent (winter/cold)", "textEn": "I explained why it is urgent (winter/cold)" },
+        { "id": "q2-request", "text": "I asked for a repair or solution", "textEn": "I asked for a repair or solution" },
+        { "id": "q2-formal", "text": "I used formal language (u/uw)", "textEn": "I used formal language (u/uw)" }
+      ],
+      "modelAnswer": "Geachte heer Janssen,\n\nIk schrijf u omdat de verwarming in mijn woning niet meer werkt. Sinds maandag is het koud in huis en de radiator blijft koud. Het is nu winter en de temperatuur binnen is erg laag. Dit is niet gezond, vooral voor mijn kinderen.\n\nKunt u zo snel mogelijk een monteur sturen? U kunt mij bereiken op 06-34567890.\n\nMet vriendelijke groet,\nAhmed El Fassi"
+    },
+    {
+      "id": "schrijven-a2-4-q3",
+      "scenario": "Uw collega Sanne vraagt of u volgende week dinsdag haar dienst kunt overnemen. U kunt dat doen, maar alleen als zij dan uw dienst op woensdag overneemt.",
+      "scenarioEn": "Your colleague Sanne asks if you can take over her shift next Tuesday. You can do it, but only if she takes your shift on Wednesday in return.",
+      "prompt": "Schrijf een antwoord aan Sanne. Zeg dat u kunt helpen en vraag of zij woensdag voor u wilt werken.",
+      "promptEn": "Write a reply to Sanne. Say you can help and ask if she will work Wednesday for you.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-yes", "text": "I said I can take the Tuesday shift", "textEn": "I said I can take the Tuesday shift" },
+        { "id": "q3-condition", "text": "I asked about the Wednesday shift swap", "textEn": "I asked about the Wednesday shift swap" },
+        { "id": "q3-friendly", "text": "My message is friendly and clear", "textEn": "My message is friendly and clear" }
+      ],
+      "modelAnswer": "Hoi Sanne,\n\nJa, ik kan dinsdag je dienst overnemen. Maar ik wil je wel iets vragen: kun jij dan woensdag mijn dienst overnemen? Dan ruilen we gewoon. Laat even weten of dat lukt!\n\nGroetjes,\nAhmed"
+    }
+  ]
+}

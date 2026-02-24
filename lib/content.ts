@@ -67,6 +67,8 @@ import lezenA1Exam3 from "@/content/mock-exams/lezen/a1-exam-3.json";
 import lezenA1Exam4 from "@/content/mock-exams/lezen/a1-exam-4.json";
 import lezenA2Exam3 from "@/content/mock-exams/lezen/a2-exam-3.json";
 import lezenA2Exam4 from "@/content/mock-exams/lezen/a2-exam-4.json";
+import lezenA2Exam5 from "@/content/mock-exams/lezen/a2-exam-5.json";
+import lezenA2Exam6 from "@/content/mock-exams/lezen/a2-exam-6.json";
 import lezenB1Exam1 from "@/content/mock-exams/lezen/b1-exam-1.json";
 import lezenB1Exam2 from "@/content/mock-exams/lezen/b1-exam-2.json";
 
@@ -80,6 +82,8 @@ import knmA1Exam3 from "@/content/mock-exams/knm/a1-exam-3.json";
 import knmA1Exam4 from "@/content/mock-exams/knm/a1-exam-4.json";
 import knmA2Exam3 from "@/content/mock-exams/knm/a2-exam-3.json";
 import knmA2Exam4 from "@/content/mock-exams/knm/a2-exam-4.json";
+import knmA2Exam5 from "@/content/mock-exams/knm/a2-exam-5.json";
+import knmA2Exam6 from "@/content/mock-exams/knm/a2-exam-6.json";
 import knmB1Exam1 from "@/content/mock-exams/knm/b1-exam-1.json";
 import knmB1Exam2 from "@/content/mock-exams/knm/b1-exam-2.json";
 
@@ -97,6 +101,8 @@ import luisterenA2Exam5 from "@/content/mock-exams/luisteren/a2-exam-5.json";
 import luisterenA2Exam6 from "@/content/mock-exams/luisteren/a2-exam-6.json";
 import luisterenA2Exam7 from "@/content/mock-exams/luisteren/a2-exam-7.json";
 import luisterenA2Exam8 from "@/content/mock-exams/luisteren/a2-exam-8.json";
+import luisterenA2Exam9 from "@/content/mock-exams/luisteren/a2-exam-9.json";
+import luisterenA2Exam10 from "@/content/mock-exams/luisteren/a2-exam-10.json";
 import luisterenB1Exam1 from "@/content/mock-exams/luisteren/b1-exam-1.json";
 import luisterenB1Exam2 from "@/content/mock-exams/luisteren/b1-exam-2.json";
 
@@ -114,6 +120,8 @@ import schrijvenA1Exam1 from "@/content/mock-exams/schrijven/a1-exam-1.json";
 import schrijvenA1Exam2 from "@/content/mock-exams/schrijven/a1-exam-2.json";
 import schrijvenA2Exam1 from "@/content/mock-exams/schrijven/a2-exam-1.json";
 import schrijvenA2Exam2 from "@/content/mock-exams/schrijven/a2-exam-2.json";
+import schrijvenA2Exam3 from "@/content/mock-exams/schrijven/a2-exam-3.json";
+import schrijvenA2Exam4 from "@/content/mock-exams/schrijven/a2-exam-4.json";
 import schrijvenB1Exam1 from "@/content/mock-exams/schrijven/b1-exam-1.json";
 import schrijvenB1Exam2 from "@/content/mock-exams/schrijven/b1-exam-2.json";
 
@@ -123,6 +131,8 @@ import sprekenA1Exam1 from "@/content/mock-exams/spreken/a1-exam-1.json";
 import sprekenA1Exam2 from "@/content/mock-exams/spreken/a1-exam-2.json";
 import sprekenA2Exam1 from "@/content/mock-exams/spreken/a2-exam-1.json";
 import sprekenA2Exam2 from "@/content/mock-exams/spreken/a2-exam-2.json";
+import sprekenA2Exam3 from "@/content/mock-exams/spreken/a2-exam-3.json";
+import sprekenA2Exam4 from "@/content/mock-exams/spreken/a2-exam-4.json";
 import sprekenB1Exam1 from "@/content/mock-exams/spreken/b1-exam-1.json";
 import sprekenB1Exam2 from "@/content/mock-exams/spreken/b1-exam-2.json";
 
@@ -215,6 +225,8 @@ const mockExams: Record<string, MockExam> = {
   "lezen-a1-4": lezenA1Exam4 as unknown as MockExam,
   "lezen-a2-3": lezenA2Exam3 as unknown as MockExam,
   "lezen-a2-4": lezenA2Exam4 as unknown as MockExam,
+  "lezen-a2-5": lezenA2Exam5 as unknown as MockExam,
+  "lezen-a2-6": lezenA2Exam6 as unknown as MockExam,
   "lezen-b1-1": lezenB1Exam1 as unknown as MockExam,
   "lezen-b1-2": lezenB1Exam2 as unknown as MockExam,
   "knm-a1-1": knmA1Exam1 as unknown as MockExam,
@@ -225,6 +237,8 @@ const mockExams: Record<string, MockExam> = {
   "knm-a1-4": knmA1Exam4 as unknown as MockExam,
   "knm-a2-3": knmA2Exam3 as unknown as MockExam,
   "knm-a2-4": knmA2Exam4 as unknown as MockExam,
+  "knm-a2-5": knmA2Exam5 as unknown as MockExam,
+  "knm-a2-6": knmA2Exam6 as unknown as MockExam,
   "knm-b1-1": knmB1Exam1 as unknown as MockExam,
   "knm-b1-2": knmB1Exam2 as unknown as MockExam,
   "luisteren-a1-1": luisterenA1Exam1 as unknown as MockExam,
@@ -239,6 +253,8 @@ const mockExams: Record<string, MockExam> = {
   "luisteren-a2-6": luisterenA2Exam6 as unknown as MockExam,
   "luisteren-a2-7": luisterenA2Exam7 as unknown as MockExam,
   "luisteren-a2-8": luisterenA2Exam8 as unknown as MockExam,
+  "luisteren-a2-9": luisterenA2Exam9 as unknown as MockExam,
+  "luisteren-a2-10": luisterenA2Exam10 as unknown as MockExam,
   "luisteren-b1-1": luisterenB1Exam1 as unknown as MockExam,
   "luisteren-b1-2": luisterenB1Exam2 as unknown as MockExam,
 };
@@ -579,6 +595,8 @@ const writingMockExams: Record<string, WritingMockExam> = {
   "schrijven-a1-2": schrijvenA1Exam2 as unknown as WritingMockExam,
   "schrijven-a2-1": schrijvenA2Exam1 as unknown as WritingMockExam,
   "schrijven-a2-2": schrijvenA2Exam2 as unknown as WritingMockExam,
+  "schrijven-a2-3": schrijvenA2Exam3 as unknown as WritingMockExam,
+  "schrijven-a2-4": schrijvenA2Exam4 as unknown as WritingMockExam,
   "schrijven-b1-1": schrijvenB1Exam1 as unknown as WritingMockExam,
   "schrijven-b1-2": schrijvenB1Exam2 as unknown as WritingMockExam,
 };
@@ -596,6 +614,8 @@ const speakingMockExams: Record<string, SpeakingMockExam> = {
   "spreken-a1-2": sprekenA1Exam2 as unknown as SpeakingMockExam,
   "spreken-a2-1": sprekenA2Exam1 as unknown as SpeakingMockExam,
   "spreken-a2-2": sprekenA2Exam2 as unknown as SpeakingMockExam,
+  "spreken-a2-3": sprekenA2Exam3 as unknown as SpeakingMockExam,
+  "spreken-a2-4": sprekenA2Exam4 as unknown as SpeakingMockExam,
   "spreken-b1-1": sprekenB1Exam1 as unknown as SpeakingMockExam,
   "spreken-b1-2": sprekenB1Exam2 as unknown as SpeakingMockExam,
 };

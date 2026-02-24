@@ -34,6 +34,22 @@
       "isFreePreview": false
     },
     {
+      "id": "schrijven-a2-3",
+      "title": "Schrijven A2 - Oefenexamen 3",
+      "difficulty": "A2",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "schrijven-a2-4",
+      "title": "Schrijven A2 - Oefenexamen 4",
+      "difficulty": "A2",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    },
+    {
       "id": "schrijven-b1-1",
       "title": "Schrijven B1 - Oefenexamen 1",
       "difficulty": "B1",

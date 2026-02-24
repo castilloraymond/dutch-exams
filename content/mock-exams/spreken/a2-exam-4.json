@@ -1,0 +1,126 @@
+{
+  "id": "spreken-a2-4",
+  "title": "Spreken A2 - Oefenexamen 4",
+  "module": "spreken",
+  "difficulty": "A2",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": false,
+  "tips": [
+    "First describe what you see, then give your opinion or preference.",
+    "Use 'omdat' (because) or 'want' (because) to explain your choices.",
+    "In Part 4, tell the story step by step using eerst, dan, daarna.",
+    "Speak clearly and at a natural pace — it is okay to take a short pause to think."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
+    { "id": "detail", "text": "I described pictures before giving opinions", "textEn": "I described pictures before giving opinions" },
+    { "id": "sequencing", "text": "I used sequencing words in Part 4", "textEn": "I used sequencing words in Part 4" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-a2-4-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Hoe is het weer vandaag? Wat is je favoriete seizoen? Waarom?",
+      "questionEn": "What is the weather like today? What is your favourite season? Why?",
+      "personStatement": "My favourite season is spring because the flowers bloom and it is not too hot.",
+      "personStatementNl": "Mijn favoriete seizoen is de lente want de bloemen bloeien en het is niet te warm.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "Today it is cold and cloudy. It rains a little bit. My favourite season is summer because the sun shines and it is warm. In the summer I can go to the beach with my family. I also like to have a barbecue in the garden. I do not like winter because it is dark and very cold.",
+        "transcriptNl": "Vandaag is het koud en bewolkt. Het regent een beetje. Mijn favoriete seizoen is de zomer want de zon schijnt en het is warm. In de zomer kan ik naar het strand met mijn gezin. Ik vind het ook leuk om te barbecueën in de tuin. Ik hou niet van de winter want het is donker en heel koud."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-4-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Wat zie je? Volg je op dit moment een cursus of opleiding?",
+      "questionEn": "Look at the image. What do you see? Are you currently taking a course or training?",
+      "images": [
+        {
+          "id": "a2-4-classroom",
+          "src": "/images/spreken/a2-classroom.jpg",
+          "alt": "Students in a language classroom",
+          "altNl": "Studenten in een taalklas"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I see students in a classroom. They sit at tables and the teacher stands in front of the class. There is a whiteboard with Dutch words on it. Yes, I follow a Dutch language course. I go to class three times a week. I like the lessons because the teacher explains things clearly and I can practice speaking with other students.",
+        "transcriptNl": "Ik zie studenten in een klas. Ze zitten aan tafels en de docent staat voor de klas. Er is een whiteboard met Nederlandse woorden erop. Ja, ik volg een cursus Nederlands. Ik ga drie keer per week naar de les. Ik vind de lessen leuk want de docent legt dingen duidelijk uit en ik kan met andere studenten oefenen met spreken."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-4-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Beschrijf wat je ziet. Kook je liever zelf of eet je liever buiten de deur? Waarom?",
+      "questionEn": "Look at both pictures. Describe what you see. Do you prefer cooking at home or eating out? Why?",
+      "images": [
+        {
+          "id": "a2-4-cooking",
+          "src": "/images/spreken/a2-home-cooking.jpg",
+          "alt": "Person cooking a meal at home",
+          "altNl": "Persoon kookt thuis een maaltijd"
+        },
+        {
+          "id": "a2-4-restaurant",
+          "src": "/images/spreken/a2-restaurant.jpg",
+          "alt": "People eating at a restaurant",
+          "altNl": "Mensen eten in een restaurant"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "In the first picture I see a person cooking at home. They are making a meal in the kitchen. In the second picture I see people eating at a restaurant. They look happy. I prefer cooking at home because it is cheaper and healthier. I can choose what I want to eat. But sometimes I like to go to a restaurant for a special occasion, like a birthday.",
+        "transcriptNl": "Op de eerste foto zie ik een persoon die thuis kookt. Hij maakt een maaltijd in de keuken. Op de tweede foto zie ik mensen die in een restaurant eten. Ze zien er blij uit. Ik kook liever thuis want het is goedkoper en gezonder. Ik kan kiezen wat ik wil eten. Maar soms ga ik graag naar een restaurant voor een speciale gelegenheid, zoals een verjaardag."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-4-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel een verhaal. Gebruik de woorden: eerst, dan, daarna.",
+      "questionEn": "Look at the three pictures. Tell a story. Use the words: first, then, after that.",
+      "images": [
+        {
+          "id": "a2-4-packing",
+          "src": "/images/spreken/a2-packing-boxes.jpg",
+          "alt": "Person packing boxes for moving",
+          "altNl": "Persoon pakt dozen in voor verhuizing"
+        },
+        {
+          "id": "a2-4-moving",
+          "src": "/images/spreken/a2-moving-van.jpg",
+          "alt": "Moving van being loaded",
+          "altNl": "Verhuiswagen wordt ingeladen"
+        },
+        {
+          "id": "a2-4-new-home",
+          "src": "/images/spreken/a2-new-home.jpg",
+          "alt": "Family unpacking in new home",
+          "altNl": "Familie pakt uit in nieuw huis"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "First the person packs boxes at home. He puts his clothes, books, and kitchen things in the boxes. Then a moving van comes. He puts all the boxes in the van and drives to his new house. After that the family unpacks the boxes in the new home. They are happy because the new house is big and nice.",
+        "transcriptNl": "Eerst pakt de persoon dozen in thuis. Hij doet zijn kleren, boeken en keukenspullen in de dozen. Dan komt er een verhuiswagen. Hij zet alle dozen in de wagen en rijdt naar zijn nieuwe huis. Daarna pakt het gezin de dozen uit in het nieuwe huis. Ze zijn blij want het nieuwe huis is groot en mooi."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

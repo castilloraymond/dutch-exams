@@ -1,0 +1,316 @@
+{
+  "id": "lezen-a2-5",
+  "title": "Lezen A2 - Oefenexamen 5",
+  "module": "lezen",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "35 min",
+  "passages": [
+    {
+      "id": "a2-5-p1",
+      "title": "Brief van de tandarts",
+      "content": "Tandartspraktijk Molenweg\nMolenweg 14, 2611 KA Delft\nTel: 015-212 34 56\n\nDelft, 10 maart 2026\n\nGeachte mevrouw Yilmaz,\n\nHierbij herinneren wij u aan uw afspraak bij de tandarts.\n\nDatum: donderdag 26 maart 2026\nTijd: 10:45 uur\nBehandeling: halfjaarlijkse controle en gebitsreiniging\n\nWat moet u meenemen?\n- Uw identiteitsbewijs\n- Uw zorgpas van de zorgverzekeraar\n- Een lijst van medicijnen die u gebruikt\n\nKunt u niet komen? Bel dan minstens 24 uur van tevoren om uw afspraak te verzetten. Als u niet belt en niet komt, brengen wij € 35,00 in rekening. Dit bedrag wordt niet vergoed door de verzekering.\n\nDe controle duurt ongeveer 30 minuten. De gebitsreiniging wordt vergoed door de basisverzekering.\n\nMet vriendelijke groet,\nTandartspraktijk Molenweg\nDr. R. van den Berg",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de tandarts over de afspraak.",
+      "questions": [
+        {
+          "id": "a2-5-q1",
+          "text": "Wanneer is de afspraak bij de tandarts?",
+          "options": [
+            "Dinsdag 10 maart",
+            "Woensdag 25 maart",
+            "Donderdag 26 maart",
+            "Vrijdag 27 maart"
+          ],
+          "correctIndex": 2,
+          "explanation": "De afspraak is op donderdag 26 maart 2026.",
+          "explanationEn": "The appointment is on Thursday, March 26, 2026."
+        },
+        {
+          "id": "a2-5-q2",
+          "text": "Wat moet mevrouw Yilmaz meenemen naar de afspraak?",
+          "options": [
+            "Haar identiteitsbewijs, zorgpas en medicijnlijst",
+            "Haar tandenborstel en tandpasta",
+            "Alleen haar identiteitsbewijs",
+            "Haar röntgenfoto's"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ze moet haar identiteitsbewijs, zorgpas en een lijst van medicijnen meenemen.",
+          "explanationEn": "She needs to bring her ID, health insurance card, and a list of medications."
+        },
+        {
+          "id": "a2-5-q3",
+          "text": "Wat gebeurt er als je niet komt en niet belt?",
+          "options": [
+            "Er gebeurt niets",
+            "Je krijgt een waarschuwing per e-mail",
+            "Je moet € 35,00 betalen",
+            "Je kunt geen nieuwe afspraak maken"
+          ],
+          "correctIndex": 2,
+          "explanation": "Als je niet belt en niet komt, brengt de tandarts € 35,00 in rekening.",
+          "explanationEn": "If you don't call and don't show up, the dentist charges €35.00."
+        },
+        {
+          "id": "a2-5-q4",
+          "text": "Wordt de gebitsreiniging vergoed door de verzekering?",
+          "options": [
+            "Nee, je moet alles zelf betalen",
+            "Ja, door de basisverzekering",
+            "Alleen als je een aanvullende verzekering hebt",
+            "Alleen voor kinderen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De gebitsreiniging wordt vergoed door de basisverzekering.",
+          "explanationEn": "The dental cleaning is covered by basic health insurance."
+        }
+      ]
+    },
+    {
+      "id": "a2-5-p2",
+      "title": "Mededelingenbord sportschool",
+      "content": "Sportschool FitVitaal — Mededelingen\n\n*** NIEUWE OPENINGSTIJDEN VANAF 1 APRIL ***\nMaandag t/m vrijdag: 07:00 - 22:00 (was 08:00 - 21:00)\nZaterdag: 08:00 - 20:00 (was 09:00 - 18:00)\nZondag: 09:00 - 17:00 (geen verandering)\n\n*** ZWEMBAD GESLOTEN ***\nHet zwembad is gesloten van maandag 6 april t/m vrijdag 17 april voor onderhoud aan de tegels en het verwarmingssysteem. De sauna is wél gewoon open.\n\n*** NIEUWE GROEPSLESSEN ***\nVanaf april starten wij drie nieuwe groepslessen:\n- Yoga voor beginners: dinsdag 19:00 - 20:00 (zaal 2)\n- Spinning: woensdag en vrijdag 07:30 - 08:15 (zaal 1)\n- Zumba 50+: donderdag 10:00 - 11:00 (zaal 3)\n\nInschrijven kan bij de balie of via onze app. De eerste les is gratis om te proberen!\n\nVragen? Bel 020-555 12 34 of mail info@fitvitaal.nl",
+      "contentType": "notice",
+      "instruction": "Lees het mededelingenbord van de sportschool.",
+      "questions": [
+        {
+          "id": "a2-5-q5",
+          "text": "Wat verandert er aan de openingstijden op zaterdag?",
+          "options": [
+            "De sportschool gaat later open en later dicht",
+            "De sportschool gaat eerder open en later dicht",
+            "De sportschool is de hele dag dicht",
+            "Er verandert niets op zaterdag"
+          ],
+          "correctIndex": 1,
+          "explanation": "Op zaterdag gaat de sportschool eerder open (08:00 in plaats van 09:00) en later dicht (20:00 in plaats van 18:00).",
+          "explanationEn": "On Saturday, the gym opens earlier (08:00 instead of 09:00) and closes later (20:00 instead of 18:00)."
+        },
+        {
+          "id": "a2-5-q6",
+          "text": "Waarom is het zwembad gesloten?",
+          "options": [
+            "Er is onderhoud aan de tegels en het verwarmingssysteem",
+            "Er is een wedstrijd",
+            "Het zwembad wordt vergroot",
+            "Er is te weinig personeel"
+          ],
+          "correctIndex": 0,
+          "explanation": "Het zwembad is dicht voor onderhoud aan de tegels en het verwarmingssysteem.",
+          "explanationEn": "The pool is closed for maintenance on the tiles and the heating system."
+        },
+        {
+          "id": "a2-5-q7",
+          "text": "Wanneer is de Zumba-les voor 50+?",
+          "options": [
+            "Dinsdag 19:00 - 20:00",
+            "Woensdag 07:30 - 08:15",
+            "Donderdag 10:00 - 11:00",
+            "Vrijdag 07:30 - 08:15"
+          ],
+          "correctIndex": 2,
+          "explanation": "Zumba 50+ is op donderdag van 10:00 tot 11:00.",
+          "explanationEn": "Zumba 50+ is on Thursday from 10:00 to 11:00."
+        },
+        {
+          "id": "a2-5-q8",
+          "text": "Wat kost de eerste groepsles?",
+          "options": [
+            "€ 5,00",
+            "€ 10,00",
+            "Het hangt af van de les",
+            "Niets, de eerste les is gratis"
+          ],
+          "correctIndex": 3,
+          "explanation": "De eerste les is gratis om te proberen.",
+          "explanationEn": "The first class is free to try."
+        }
+      ]
+    },
+    {
+      "id": "a2-5-p3",
+      "title": "Menu van restaurant De Tulp",
+      "content": "Restaurant De Tulp — Lunchmenu\nBereikbaar: Marktstraat 8, Haarlem | Tel: 023-531 22 80\nOpen: dinsdag t/m zondag, 11:30 - 15:00 (maandag gesloten)\n\nSOEPEN\nTomatensoep met brood — € 6,50\nMosterdsoep (dagsoep) — € 7,00\nGroentesoep (veganistisch) — € 6,50\n\nBROODJES\nBroodje gezond (ham, kaas, ei, groente) — € 8,50\nBroodje tonijnsalade — € 7,95\nBroodje geitenkaas met honing — € 9,50\nTosti ham-kaas — € 6,50\n\nWARME GERECHTEN\nDagschotel (vraag de bediening) — € 13,50\nUitsmijter (3 eieren, ham, kaas, brood) — € 11,00\nPannenkoek naar keuze — € 9,50\n\nALLERGENEN: Vraag onze bediening naar de allergenenkaart.\nAlle prijzen zijn inclusief btw.\n\n*** DAGSPECIAL WOENSDAG: Erwtensoep met roggebrood — € 8,50 ***\n\nWij accepteren alleen pinbetaling, geen contant geld.",
+      "contentType": "list",
+      "instruction": "Lees het lunchmenu van restaurant De Tulp.",
+      "questions": [
+        {
+          "id": "a2-5-q9",
+          "text": "Op welke dag is het restaurant gesloten?",
+          "options": [
+            "Zondag",
+            "Zaterdag",
+            "Dinsdag",
+            "Maandag"
+          ],
+          "correctIndex": 3,
+          "explanation": "Het restaurant is op maandag gesloten.",
+          "explanationEn": "The restaurant is closed on Monday."
+        },
+        {
+          "id": "a2-5-q10",
+          "text": "Welk gerecht op het menu is veganistisch?",
+          "options": [
+            "Groentesoep",
+            "Tomatensoep",
+            "Mosterdsoep",
+            "Broodje gezond"
+          ],
+          "correctIndex": 0,
+          "explanation": "De groentesoep is veganistisch.",
+          "explanationEn": "The vegetable soup is vegan."
+        },
+        {
+          "id": "a2-5-q11",
+          "text": "Hoeveel kost de dagschotel?",
+          "options": [
+            "€ 9,50",
+            "€ 11,00",
+            "€ 8,50",
+            "€ 13,50"
+          ],
+          "correctIndex": 3,
+          "explanation": "De dagschotel kost € 13,50.",
+          "explanationEn": "The daily special costs €13.50."
+        },
+        {
+          "id": "a2-5-q12",
+          "text": "Kun je met contant geld betalen bij De Tulp?",
+          "options": [
+            "Ja, dat kan altijd",
+            "Alleen bij bedragen onder € 10,00",
+            "Nee, alleen pinbetaling",
+            "Ja, maar alleen voor het lunchmenu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het restaurant accepteert alleen pinbetaling, geen contant geld.",
+          "explanationEn": "The restaurant only accepts card payment, no cash."
+        }
+      ]
+    },
+    {
+      "id": "a2-5-p4",
+      "title": "Brief van de school",
+      "content": "Basisschool De Regenboog\nSchoolstraat 22, 1234 AB Almere\n\nAlmere, 15 maart 2026\n\nBeste ouders/verzorgers,\n\nOp donderdag 2 april organiseren wij de ouderavond voor groep 5 en 6.\n\nTijd: 19:00 - 21:00 uur\nLocatie: de aula van de school\n\nProgramma:\n19:00 — Welkom door de directeur\n19:15 — Gesprek met de leerkracht over de voortgang van uw kind (15 minuten per ouder)\n20:15 — Pauze met koffie en thee\n20:30 — Presentatie over het nieuwe rekenprogramma\n21:00 — Einde\n\nGraag aanmelden vóór 27 maart. U kunt zich inschrijven via de Parro-app of door het formulier in de tas van uw kind in te vullen. Vermeld ook het tijdstip dat u het liefst wilt.\n\nNeem het rapport van uw kind mee naar het gesprek.\n\nBij vragen kunt u mailen naar info@deregenboog-almere.nl.\n\nMet vriendelijke groet,\nMevrouw J. de Vries\nDirecteur Basisschool De Regenboog",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de school over de ouderavond.",
+      "questions": [
+        {
+          "id": "a2-5-q13",
+          "text": "Voor welke groepen is de ouderavond?",
+          "options": [
+            "Groep 3 en 4",
+            "Groep 5 en 6",
+            "Groep 7 en 8",
+            "Alle groepen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De ouderavond is voor groep 5 en 6.",
+          "explanationEn": "The parent evening is for groups 5 and 6."
+        },
+        {
+          "id": "a2-5-q14",
+          "text": "Hoe lang duurt het gesprek met de leerkracht per ouder?",
+          "options": [
+            "15 minuten",
+            "10 minuten",
+            "20 minuten",
+            "30 minuten"
+          ],
+          "correctIndex": 0,
+          "explanation": "Het gesprek met de leerkracht duurt 15 minuten per ouder.",
+          "explanationEn": "The conversation with the teacher lasts 15 minutes per parent."
+        },
+        {
+          "id": "a2-5-q15",
+          "text": "Hoe kun je je aanmelden voor de ouderavond?",
+          "options": [
+            "Door te bellen naar de school",
+            "Via de Parro-app of het formulier in de tas",
+            "Door een e-mail te sturen",
+            "Aanmelden is niet nodig"
+          ],
+          "correctIndex": 1,
+          "explanation": "Je kunt je inschrijven via de Parro-app of door het formulier in te vullen.",
+          "explanationEn": "You can sign up via the Parro app or by filling in the form."
+        },
+        {
+          "id": "a2-5-q16",
+          "text": "Wat moeten ouders meenemen naar het gesprek?",
+          "options": [
+            "Het huiswerk van hun kind",
+            "Het rapport van hun kind",
+            "Een foto van hun kind",
+            "Een notitieboekje"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ouders moeten het rapport van hun kind meenemen.",
+          "explanationEn": "Parents need to bring their child's report card."
+        }
+      ]
+    },
+    {
+      "id": "a2-5-p5",
+      "title": "Artikel: Fietsen naar je werk",
+      "content": "Fietsen naar je werk: gezond en goedkoop\n\nNederland is het fietsland van Europa. Meer dan 3 miljoen Nederlanders fietsen elke dag naar hun werk. Dat is niet gek, want fietsen heeft veel voordelen.\n\nGezondheid\nAls je elke dag 30 minuten fietst, ben je al voldoende actief volgens de beweegrichtlijnen. Mensen die naar hun werk fietsen, zijn minder vaak ziek. Ze hebben ook minder last van stress.\n\nGeld besparen\nFietsen is veel goedkoper dan autorijden. Je bespaart op benzine, parkeerkosten en onderhoud. Veel werkgevers bieden een fietsplan aan. Via zo'n fietsplan kun je een nieuwe fiets kopen en de kosten aftrekken van je brutoloon. Dat scheelt soms honderden euro's.\n\nVeilig fietsen\nGebruik altijd verlichting als het donker is. Draag bij voorkeur een helm, vooral op een e-bike. Gebruik het fietspad en geef duidelijk richting aan met je hand.\n\nTip: Begin met twee dagen per week en bouw het langzaam op. Zo went je lichaam aan het fietsen.",
+      "contentType": "text",
+      "instruction": "Lees het artikel over fietsen naar je werk.",
+      "questions": [
+        {
+          "id": "a2-5-q17",
+          "text": "Hoeveel Nederlanders fietsen elke dag naar hun werk?",
+          "options": [
+            "Meer dan 1 miljoen",
+            "Meer dan 2 miljoen",
+            "Meer dan 3 miljoen",
+            "Meer dan 5 miljoen"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meer dan 3 miljoen Nederlanders fietsen elke dag naar hun werk.",
+          "explanationEn": "More than 3 million Dutch people cycle to work every day."
+        },
+        {
+          "id": "a2-5-q18",
+          "text": "Wat is een fietsplan?",
+          "options": [
+            "Een kaart met fietspaden",
+            "Een cursus om te leren fietsen",
+            "Een regeling waarmee je een fiets kunt kopen via je werkgever",
+            "Een verzekering voor je fiets"
+          ],
+          "correctIndex": 2,
+          "explanation": "Via een fietsplan kun je een nieuwe fiets kopen en de kosten aftrekken van je brutoloon.",
+          "explanationEn": "Through a bike plan, you can buy a new bike and deduct the costs from your gross salary."
+        },
+        {
+          "id": "a2-5-q19",
+          "text": "Wanneer moet je verlichting gebruiken op je fiets?",
+          "options": [
+            "Als het donker is",
+            "Alleen in de winter",
+            "Altijd",
+            "Alleen op de snelweg"
+          ],
+          "correctIndex": 0,
+          "explanation": "Je moet altijd verlichting gebruiken als het donker is.",
+          "explanationEn": "You should always use lights when it is dark."
+        },
+        {
+          "id": "a2-5-q20",
+          "text": "Welke tip geeft het artikel voor beginners?",
+          "options": [
+            "Koop eerst een goede fiets",
+            "Fiets alleen als het mooi weer is",
+            "Begin met twee dagen per week",
+            "Fiets altijd samen met een collega"
+          ],
+          "correctIndex": 2,
+          "explanation": "De tip is om te beginnen met twee dagen per week en het langzaam op te bouwen.",
+          "explanationEn": "The tip is to start with two days per week and build up slowly."
+        }
+      ]
+    }
+  ],
+  "isFreePreview": false
+}

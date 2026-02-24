@@ -13,31 +13,12 @@
       "Write(.claude/commands/**)",
       "Write(*.json)",
       "Write(*.md)",
-
       "Bash(npm *)",
       "Bash(npx *)",
       "Bash(pnpm *)",
       "Bash(yarn *)",
       "Bash(bun *)",
       "Bash(vercel *)",
-
-      "Bash(git status*)",
-      "Bash(git diff*)",
-      "Bash(git log*)",
-      "Bash(git branch*)",
-      "Bash(git worktree*)",
-      "Bash(git add*)",
-      "Bash(git commit*)",
-      "Bash(git push*)",
-      "Bash(git pull*)",
-      "Bash(git fetch*)",
-      "Bash(git stash*)",
-      "Bash(git checkout*)",
-      "Bash(git switch*)",
-      "Bash(git merge*)",
-      "Bash(git rebase*)",
-      "Bash(git remote*)",
-
       "Bash(ls *)",
       "Bash(tree *)",
       "Bash(cat *)",
@@ -54,7 +35,6 @@
       "Bash(cp *)",
       "Bash(mv *)",
       "Bash(open *)",
-
       "WebSearch"
     ]
   }

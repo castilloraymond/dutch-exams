@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { CircleUser, Menu, X } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
@@ -8,9 +8,29 @@ import { useAuth } from "@/contexts/AuthContext";
 export function LandingNav() {
     const { user, loading } = useAuth();
     const [menuOpen, setMenuOpen] = useState(false);
+    const [hidden, setHidden] = useState(false);
+    const lastScrollY = useRef(0);
+
+    useEffect(() => {
+        const onScroll = () => {
+            const y = window.scrollY;
+            if (y > lastScrollY.current && y > 60) {
+                setHidden(true);
+            } else {
+                setHidden(false);
+            }
+            lastScrollY.current = y;
+        };
+        window.addEventListener("scroll", onScroll, { passive: true });
+        return () => window.removeEventListener("scroll", onScroll);
+    }, []);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-10 py-4 bg-[var(--cream)]/85 backdrop-blur-[20px] border-b border-[var(--ink)]/[0.06] transition-all duration-300">
+        <nav
+            className={`fixed top-0 left-0 right-0 z-50 px-6 lg:px-10 py-4 bg-[var(--cream)]/85 backdrop-blur-[20px] border-b border-[var(--ink)]/[0.06] transition-transform duration-300 ${
+                hidden && !menuOpen ? "-translate-y-full sm:translate-y-0" : "translate-y-0"
+            }`}
+        >
             <div className="max-w-[1200px] mx-auto flex items-center justify-between">
                 <Link href="/" className="flex items-center cursor-pointer">
                     <span className="text-[1.35rem] tracking-[-0.02em]">
@@ -18,7 +38,7 @@ export function LandingNav() {
                     </span>
                 </Link>
 
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-3 sm:gap-8">
                     <Link
                         href="#how"
                         className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
@@ -47,7 +67,7 @@ export function LandingNav() {
                     ) : null}
                     <Link
                         href="/learn"
-                        className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250 hidden sm:block"
+                        className="hidden sm:inline-flex bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250"
                     >
                         {!loading && user ? "Start practicing" : "Try a mock exam"}
                     </Link>

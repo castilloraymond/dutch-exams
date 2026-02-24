@@ -8,7 +8,7 @@ export function FinalCTA() {
     const { user } = useAuth();
 
     return (
-        <section className="py-[80px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
+        <section className="py-12 sm:py-[80px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
             {/* Subtle radial accent gradient */}
             <div className="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(232,99,43,0.12)_0%,transparent_70%)] pointer-events-none" />
 
@@ -20,7 +20,7 @@ export function FinalCTA() {
             </p>
             <Link
                 href="/learn"
-                className="cta-primary inline-flex items-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
+                className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto max-w-[320px] px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
             >
                 {user ? "Continue practicing" : "Try a full mock exam"}
                 <ArrowRight className="h-4 w-4" />

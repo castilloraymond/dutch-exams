@@ -13,8 +13,8 @@ export function IsThisForYou() {
     ];
 
     return (
-        <section className="py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto bg-white reveal">
-            <div className="text-center mb-12">
+        <section className="py-8 sm:py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto bg-white reveal">
+            <div className="text-center mb-6 sm:mb-12">
                 <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-4">
                     Is this for you?
                 </div>
@@ -23,9 +23,9 @@ export function IsThisForYou() {
                 </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[900px] mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-[900px] mx-auto">
                 {/* NOT for you column */}
-                <div className="rounded-[16px] border border-[#ebe8e0] p-8">
+                <div className="rounded-[16px] border border-[#ebe8e0] p-5 sm:p-8">
                     <h3 className="text-[1rem] font-bold text-[var(--ink-muted)] uppercase tracking-[0.04em] mb-6">
                         Who it&apos;s NOT for
                     </h3>
@@ -40,7 +40,7 @@ export function IsThisForYou() {
                 </div>
 
                 {/* IS for you column */}
-                <div className="rounded-[16px] border-2 border-[var(--green)] bg-[var(--green-soft)] p-8">
+                <div className="rounded-[16px] border-2 border-[var(--green)] bg-[var(--green-soft)] p-5 sm:p-8">
                     <h3 className="text-[1rem] font-bold text-[var(--green)] uppercase tracking-[0.04em] mb-6">
                         This IS for you if&hellip;
                     </h3>

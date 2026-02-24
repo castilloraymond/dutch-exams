@@ -1,0 +1,126 @@
+{
+  "id": "spreken-a2-3",
+  "title": "Spreken A2 - Oefenexamen 3",
+  "module": "spreken",
+  "difficulty": "A2",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": false,
+  "tips": [
+    "Talk about what you see in the picture before sharing your opinion.",
+    "Use simple sentences and connect them with 'en' (and), 'maar' (but), or 'want' (because).",
+    "In Part 4, use eerst, dan, daarna to connect the three pictures into a story.",
+    "If you forget a word, describe it in a different way — don't stop talking."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
+    { "id": "detail", "text": "I described pictures before giving opinions", "textEn": "I described pictures before giving opinions" },
+    { "id": "sequencing", "text": "I used sequencing words in Part 4", "textEn": "I used sequencing words in Part 4" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-a2-3-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Wat doe je in je vrije tijd? Heb je hobby's?",
+      "questionEn": "What do you do in your free time? Do you have hobbies?",
+      "personStatement": "In my free time I like reading books and going for walks.",
+      "personStatementNl": "In mijn vrije tijd lees ik graag boeken en ga ik wandelen.",
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "In my free time I like to cook. I cook every day for my family. I also like watching football on television. On Saturday I play football with friends in the park. Sometimes I read a book in the evening. I like Dutch books because I want to learn the language better.",
+        "transcriptNl": "In mijn vrije tijd kook ik graag. Ik kook elke dag voor mijn gezin. Ik kijk ook graag naar voetbal op televisie. Op zaterdag voetbal ik met vrienden in het park. Soms lees ik een boek in de avond. Ik lees graag Nederlandse boeken want ik wil de taal beter leren."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-3-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Wat zie je? Ga je weleens naar een park?",
+      "questionEn": "Look at the image. What do you see? Do you ever go to a park?",
+      "images": [
+        {
+          "id": "a2-3-park",
+          "src": "/images/spreken/a2-park-scene.jpg",
+          "alt": "People enjoying a park on a sunny day",
+          "altNl": "Mensen genieten van een park op een zonnige dag"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "I see people in a park on a sunny day. Some people sit on the grass and others walk on a path. There are also children playing. I go to the park every week. I like walking there because it is quiet and green. In the summer I have a picnic with my family.",
+        "transcriptNl": "Ik zie mensen in een park op een zonnige dag. Sommige mensen zitten op het gras en anderen lopen op een pad. Er zijn ook kinderen die spelen. Ik ga elke week naar het park. Ik wandel daar graag want het is rustig en groen. In de zomer heb ik een picknick met mijn gezin."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-3-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Beschrijf wat je ziet. Waar koop jij het liefst eten? Waarom?",
+      "questionEn": "Look at both pictures. Describe what you see. Where do you prefer to buy food? Why?",
+      "images": [
+        {
+          "id": "a2-3-supermarket",
+          "src": "/images/spreken/a2-supermarket.jpg",
+          "alt": "Inside a supermarket with shelves of products",
+          "altNl": "Binnenkant van een supermarkt met schappen vol producten"
+        },
+        {
+          "id": "a2-3-outdoor-market",
+          "src": "/images/spreken/a2-outdoor-market.jpg",
+          "alt": "Outdoor market with fresh produce stalls",
+          "altNl": "Buitenmarkt met kramen met verse producten"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "In the first picture I see the inside of a supermarket. There are many products on the shelves. In the second picture I see an outdoor market with fruit and vegetables. I prefer to buy food at the supermarket because it is close to my house and I can find everything there. But the market has fresher vegetables and it is cheaper.",
+        "transcriptNl": "Op de eerste foto zie ik de binnenkant van een supermarkt. Er staan veel producten in de schappen. Op de tweede foto zie ik een buitenmarkt met groenten en fruit. Ik koop het liefst eten bij de supermarkt want die is dicht bij mijn huis en ik kan alles daar vinden. Maar de markt heeft versere groenten en het is goedkoper."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-a2-3-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel een verhaal. Gebruik de woorden: eerst, dan, daarna.",
+      "questionEn": "Look at the three pictures. Tell a story. Use the words: first, then, after that.",
+      "images": [
+        {
+          "id": "a2-3-sick",
+          "src": "/images/spreken/a2-feeling-sick.jpg",
+          "alt": "Person feeling sick at home",
+          "altNl": "Persoon voelt zich ziek thuis"
+        },
+        {
+          "id": "a2-3-doctor",
+          "src": "/images/spreken/a2-doctor-visit.jpg",
+          "alt": "Patient talking to a doctor",
+          "altNl": "Patiënt praat met een dokter"
+        },
+        {
+          "id": "a2-3-pharmacy",
+          "src": "/images/spreken/a2-pharmacy.jpg",
+          "alt": "Person picking up medicine at pharmacy",
+          "altNl": "Persoon haalt medicijnen op bij de apotheek"
+        }
+      ],
+      "recommendedDuration": 30,
+      "softLimitWarning": 25,
+      "modelAnswer": {
+        "transcript": "First the person feels sick at home. He has a headache and a sore throat. Then he goes to the doctor. The doctor examines him and writes a prescription. After that he goes to the pharmacy to pick up his medicine. Now he can rest at home and get better.",
+        "transcriptNl": "Eerst voelt de persoon zich ziek thuis. Hij heeft hoofdpijn en keelpijn. Dan gaat hij naar de dokter. De dokter onderzoekt hem en schrijft een recept. Daarna gaat hij naar de apotheek om zijn medicijnen op te halen. Nu kan hij thuis rusten en beter worden."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

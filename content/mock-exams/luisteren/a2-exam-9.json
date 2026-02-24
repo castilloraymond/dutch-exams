@@ -1,0 +1,311 @@
+{
+  "id": "luisteren-a2-9",
+  "title": "Luisteren A2 - Oefenexamen 9",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-9-t1",
+      "title": "Bij de apotheek",
+      "transcript": "Apotheker: Goedemiddag, waarmee kan ik u helpen?\nMevrouw Bakker: Hallo, ik kom mijn medicijnen ophalen. De huisarts heeft vanmorgen een recept gestuurd.\nApotheker: Mag ik uw achternaam en geboortedatum?\nMevrouw Bakker: Bakker, twaalf maart negentienzevenenzeventig.\nApotheker: Ik zie het, u heeft een recept voor amoxicilline. Dat is een antibioticum. Heeft u dit medicijn eerder gebruikt?\nMevrouw Bakker: Nee, dit is de eerste keer.\nApotheker: Goed, dan leg ik even uit hoe u het moet innemen. U neemt drie keer per dag één capsule, bij het ontbijt, de lunch en het avondeten. Het is belangrijk dat u de hele kuur afmaakt, ook als u zich al beter voelt. De kuur duurt zeven dagen.\nMevrouw Bakker: Zijn er bijwerkingen waar ik op moet letten?\nApotheker: U kunt last krijgen van maag- en darmklachten, zoals misselijkheid of diarree. Neem de capsules daarom altijd bij het eten. En heel belangrijk: drink geen alcohol tijdens de kuur.\nMevrouw Bakker: Oké, begrepen. Wordt dit vergoed door mijn verzekering?\nApotheker: Ja, amoxicilline valt onder het basispakket. U betaalt niets zolang u uw eigen risico nog niet heeft bereikt. Anders betaalt u het volle bedrag van veertien euro vijftig.\nMevrouw Bakker: Mijn eigen risico is al op, dus dat is fijn. Dank u wel.",
+      "questions": [
+        {
+          "id": "l-a2-9-q1",
+          "text": "Hoe vaak per dag moet mevrouw Bakker het medicijn innemen?",
+          "options": [
+            "Eén keer per dag",
+            "Twee keer per dag",
+            "Drie keer per dag",
+            "Vier keer per dag"
+          ],
+          "correctIndex": 2,
+          "explanation": "De apotheker zegt dat ze drie keer per dag één capsule moet nemen: bij het ontbijt, de lunch en het avondeten.",
+          "explanationEn": "The pharmacist says she should take one capsule three times a day: at breakfast, lunch, and dinner."
+        },
+        {
+          "id": "l-a2-9-q2",
+          "text": "Hoe lang duurt de kuur?",
+          "options": [
+            "Vijf dagen",
+            "Tien dagen",
+            "Zeven dagen",
+            "Veertien dagen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De apotheker zegt dat de kuur zeven dagen duurt.",
+          "explanationEn": "The pharmacist says the course of antibiotics lasts seven days."
+        },
+        {
+          "id": "l-a2-9-q3",
+          "text": "Welke bijwerking noemt de apotheker?",
+          "options": [
+            "Hoofdpijn en duizeligheid",
+            "Maag- en darmklachten",
+            "Slaperigheid",
+            "Huiduitslag"
+          ],
+          "correctIndex": 1,
+          "explanation": "De apotheker waarschuwt voor maag- en darmklachten, zoals misselijkheid of diarree.",
+          "explanationEn": "The pharmacist warns about stomach and intestinal complaints, such as nausea or diarrhea."
+        },
+        {
+          "id": "l-a2-9-q4",
+          "text": "Hoeveel moet mevrouw Bakker betalen voor het medicijn?",
+          "options": [
+            "Veertien euro vijftig",
+            "Niets, want haar eigen risico is al op",
+            "Het bedrag van haar eigen risico",
+            "Tien euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het medicijn valt onder het basispakket en mevrouw Bakker zegt dat haar eigen risico al op is, dus ze betaalt niets.",
+          "explanationEn": "The medicine is covered by basic insurance and Mrs. Bakker says her deductible is already used up, so she pays nothing."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-9-t1.mp3"
+    },
+    {
+      "id": "l-a2-9-t2",
+      "title": "Gesprek met de buurvrouw",
+      "transcript": "Meneer De Jong: Hallo Sandra, heb je even tijd? Ik wil je iets vertellen.\nSandra: Hoi Jan, natuurlijk. Wat is er?\nMeneer De Jong: We gaan onze badkamer verbouwen. Het werk begint volgende week maandag en duurt ongeveer drie weken.\nSandra: Oh, dat is fijn voor jullie! Maar eh... wordt het erg lawaaierig?\nMeneer De Jong: Ja, helaas wel. Vooral de eerste week wordt het luidruchtig, want dan breken ze de oude tegels eruit. Daarna wordt het rustiger. Ik wilde je waarschuwen zodat je er rekening mee kunt houden.\nSandra: Dat waardeer ik. Weet je op welke tijden ze werken?\nMeneer De Jong: De aannemers werken van acht uur 's ochtends tot vijf uur 's middags, maandag tot en met vrijdag. In het weekend wordt er niet gewerkt.\nSandra: Dat is fijn, want mijn baby slaapt altijd tussen twaalf en twee. Kunnen ze dan misschien even stoppen met boren?\nMeneer De Jong: Dat begrijp ik. Ik zal het aan de aannemer vragen. Ik kan niet beloven dat het lukt, maar ik doe mijn best.\nSandra: Dank je wel, Jan. Kunnen wij iets voor jullie doen? Jullie kunnen onze douche gebruiken als die van jullie niet werkt.\nMeneer De Jong: Wat lief van je! Dat nemen we misschien wel aan in de eerste week. Ik laat het je weten.",
+      "questions": [
+        {
+          "id": "l-a2-9-q5",
+          "text": "Hoe lang duurt de verbouwing?",
+          "options": [
+            "Eén week",
+            "Twee weken",
+            "Drie weken",
+            "Vier weken"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meneer De Jong zegt dat het werk ongeveer drie weken duurt.",
+          "explanationEn": "Mr. De Jong says the work will take approximately three weeks."
+        },
+        {
+          "id": "l-a2-9-q6",
+          "text": "Wanneer is het het meest lawaaierig?",
+          "options": [
+            "In de laatste week",
+            "In de eerste week",
+            "In het weekend",
+            "Elke dag even luid"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meneer De Jong zegt dat vooral de eerste week luidruchtig wordt, want dan breken ze de oude tegels eruit.",
+          "explanationEn": "Mr. De Jong says the first week will be the noisiest, because that's when they'll be removing the old tiles."
+        },
+        {
+          "id": "l-a2-9-q7",
+          "text": "Wat vraagt Sandra aan meneer De Jong?",
+          "options": [
+            "Of de verbouwing sneller kan",
+            "Of ze een korting kan krijgen",
+            "Of de aannemers tussen twaalf en twee kunnen stoppen met boren",
+            "Of het werk in het weekend kan worden gedaan"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sandra vraagt of de aannemers tussen twaalf en twee even kunnen stoppen met boren, omdat haar baby dan slaapt.",
+          "explanationEn": "Sandra asks if the builders can stop drilling between twelve and two, because her baby sleeps then."
+        },
+        {
+          "id": "l-a2-9-q8",
+          "text": "Wat biedt Sandra aan?",
+          "options": [
+            "Ze wil helpen met de verbouwing",
+            "Ze biedt aan om boodschappen te doen",
+            "Ze biedt hun douche aan als die van hen niet werkt",
+            "Ze wil geld lenen voor de verbouwing"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sandra zegt dat ze hun douche mogen gebruiken als die van hen niet werkt.",
+          "explanationEn": "Sandra offers them to use their shower if theirs isn't working."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-9-t2.mp3"
+    },
+    {
+      "id": "l-a2-9-t3",
+      "title": "Op het postkantoor",
+      "transcript": "Medewerker: Goedemorgen, waarmee kan ik u helpen?\nMeneer Yilmaz: Goedemorgen, ik wil een pakket versturen naar Turkije.\nMedewerker: Dat kan. Mag ik het pakket even wegen? Het weegt drie kilo tweehonderd gram. En wat zitten er in het pakket?\nMeneer Yilmaz: Kleding en een paar boeken voor mijn moeder.\nMedewerker: Goed, dan hebben we twee opties. Met standaardverzending duurt het tien tot vijftien werkdagen en kost het achttien euro vijftig. Met aangetekende verzending duurt het vijf tot zeven werkdagen en kost het zevenentwintig euro.\nMeneer Yilmaz: Wat is het verschil behalve de snelheid?\nMedewerker: Bij aangetekende verzending krijgt u een track-and-tracecode. Dan kunt u online zien waar uw pakket is. U krijgt ook een handtekening bij aflevering. Bij standaardverzending kunt u het pakket niet volgen.\nMeneer Yilmaz: Ik neem de aangetekende verzending. Kan ik het pakket ook verzekeren?\nMedewerker: Ja, u kunt het verzekeren tot vijfhonderd euro voor drie euro vijftig extra. Dan bent u gedekt als het pakket beschadigd wordt of kwijtraakt.\nMeneer Yilmaz: Nee, dat hoeft niet. De inhoud is niet zo duur. Kan ik met pin betalen?\nMedewerker: Ja, natuurlijk. Dat wordt dan zevenentwintig euro. Hier is uw ontvangstbewijs met de track-and-tracecode. U kunt het volgen op onze website.\nMeneer Yilmaz: Dank u wel!",
+      "questions": [
+        {
+          "id": "l-a2-9-q9",
+          "text": "Hoeveel weegt het pakket?",
+          "options": [
+            "Twee kilo",
+            "Drie kilo tweehonderd gram",
+            "Vijf kilo",
+            "Drie kilo vijfhonderd gram"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt dat het pakket drie kilo tweehonderd gram weegt.",
+          "explanationEn": "The employee says the package weighs three kilos and two hundred grams."
+        },
+        {
+          "id": "l-a2-9-q10",
+          "text": "Welke verzendoptie kiest meneer Yilmaz?",
+          "options": [
+            "Standaardverzending voor achttien euro vijftig",
+            "Aangetekende verzending voor zevenentwintig euro",
+            "Expressverzending voor vijfendertig euro",
+            "Standaardverzending met verzekering"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meneer Yilmaz kiest de aangetekende verzending voor zevenentwintig euro.",
+          "explanationEn": "Mr. Yilmaz chooses registered shipping for twenty-seven euros."
+        },
+        {
+          "id": "l-a2-9-q11",
+          "text": "Waarom kiest meneer Yilmaz GEEN verzekering?",
+          "options": [
+            "Het is te duur",
+            "De inhoud is niet zo duur",
+            "Het pakket gaat niet ver",
+            "De verzekering dekt geen kleding"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meneer Yilmaz zegt dat de inhoud niet zo duur is, dus hij hoeft geen verzekering.",
+          "explanationEn": "Mr. Yilmaz says the contents are not very expensive, so he doesn't need insurance."
+        },
+        {
+          "id": "l-a2-9-q12",
+          "text": "Wat krijgt meneer Yilmaz bij aangetekende verzending?",
+          "options": [
+            "Een gratis doos",
+            "Een track-and-tracecode en handtekening bij aflevering",
+            "Gratis verzekering tot honderd euro",
+            "Bezorging op dezelfde dag"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bij aangetekende verzending krijg je een track-and-tracecode en een handtekening bij aflevering.",
+          "explanationEn": "With registered shipping you get a track-and-trace code and a signature upon delivery."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-9-t3.mp3"
+    },
+    {
+      "id": "l-a2-9-t4",
+      "title": "Telefoongesprek met de school",
+      "transcript": "Receptie: Basisschool De Regenboog, goedemorgen. Met Karin.\nMevrouw Osman: Goedemorgen, u spreekt met mevrouw Osman, de moeder van Yusuf uit groep vijf. Ik bel over het schoolreisje van aanstaande donderdag.\nReceptie: Ja, het schoolreisje naar Kinderdijk. Wat wilt u weten?\nMevrouw Osman: Ik heb het toestemmingsformulier nog niet ingevuld. Is het te laat?\nReceptie: Nee, maar u moet het formulier uiterlijk morgen woensdag inleveren bij de leerkracht. Zonder formulier mag Yusuf helaas niet mee.\nMevrouw Osman: Oké, dat doe ik vandaag nog. Dan heb ik nog een vraag over de lunch. Moet ik een lunchpakket meegeven of eten de kinderen op school?\nReceptie: De kinderen moeten een eigen lunchpakket meenemen. Er is geen mogelijkheid om ter plaatse eten te kopen. Geef ook voldoende drinken mee, zeker als het warm weer wordt.\nMevrouw Osman: Begrepen. En hoe laat is Yusuf weer terug op school?\nReceptie: De bus vertrekt om half negen 's ochtends en de kinderen zijn rond half vier terug op school. We sturen een bericht via de schoolapp als de bus onderweg terug is, zodat u op tijd bij school kunt zijn.\nMevrouw Osman: Dat is handig. Heeft hij nog iets speciaals nodig?\nReceptie: Comfortabele schoenen en een regenjas, voor de zekerheid. En geen telefoons of tablets meenemen alstublieft.",
+      "questions": [
+        {
+          "id": "l-a2-9-q13",
+          "text": "Wanneer moet het toestemmingsformulier uiterlijk ingeleverd worden?",
+          "options": [
+            "Vandaag maandag",
+            "Morgen woensdag",
+            "Donderdag bij vertrek",
+            "Volgende week"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptie zegt dat het formulier uiterlijk morgen woensdag ingeleverd moet worden.",
+          "explanationEn": "The receptionist says the form must be submitted by tomorrow, Wednesday, at the latest."
+        },
+        {
+          "id": "l-a2-9-q14",
+          "text": "Wat moeten de kinderen meenemen voor de lunch?",
+          "options": [
+            "Geld om eten te kopen",
+            "Niets, de school regelt het",
+            "Een eigen lunchpakket",
+            "Alleen drinken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De receptie zegt dat de kinderen een eigen lunchpakket moeten meenemen. Er is geen mogelijkheid om ter plaatse eten te kopen.",
+          "explanationEn": "The receptionist says the children must bring their own packed lunch. There is no option to buy food on location."
+        },
+        {
+          "id": "l-a2-9-q15",
+          "text": "Hoe laat zijn de kinderen weer terug op school?",
+          "options": [
+            "Rond drie uur",
+            "Rond half vier",
+            "Rond vier uur",
+            "Rond half vijf"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptie zegt dat de kinderen rond half vier terug zijn op school.",
+          "explanationEn": "The receptionist says the children will be back at school around half past three."
+        },
+        {
+          "id": "l-a2-9-q16",
+          "text": "Wat mogen de kinderen NIET meenemen naar het schoolreisje?",
+          "options": [
+            "Een regenjas",
+            "Een lunchpakket",
+            "Telefoons of tablets",
+            "Drinken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De receptie zegt dat kinderen geen telefoons of tablets mogen meenemen.",
+          "explanationEn": "The receptionist says children are not allowed to bring phones or tablets."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-9-t4.mp3"
+    },
+    {
+      "id": "l-a2-9-t5",
+      "title": "Bij de autoverhuur",
+      "transcript": "Medewerker: Welkom bij AutoVerhuur Schiphol. Heeft u gereserveerd?\nMeneer Van Dijk: Ja, ik heb online een auto gereserveerd voor drie dagen. Mijn naam is Van Dijk.\nMedewerker: Ik zie uw reservering. Een Volkswagen Golf, van vrijdag tot en met zondag. Mag ik uw rijbewijs en een creditcard zien?\nMeneer Van Dijk: Alstublieft. Ik heb een Nederlands rijbewijs.\nMedewerker: Prima. U heeft twee opties voor de verzekering. De standaardverzekering zit in de prijs. Het eigen risico is dan vijfhonderd euro bij schade. Voor vijftien euro per dag kunt u het eigen risico verlagen naar nul euro.\nMeneer Van Dijk: Ik neem de extra verzekering. Dan hoef ik me geen zorgen te maken.\nMedewerker: Verstandige keuze. Dan het brandstofbeleid: de auto is vol getankt. U moet de auto ook vol terugbrengen. Als u dat niet doet, betaalt u twee euro per liter plus een bijvultoeslag van vijftien euro.\nMeneer Van Dijk: Helder. Waar kan ik de auto inleveren?\nMedewerker: U kunt de auto hier inleveren op het parkeerterrein P3, verdieping min-één. De sleutels doet u in de sleutelbox bij de lift. De inlevertijd is zondag voor achttien uur. Als u later bent, betaalt u een extra dag.\nMeneer Van Dijk: En als ik een dag langer wil houden?\nMedewerker: Bel ons dan minimaal vier uur van tevoren. Dan verlengen we het contract. De auto staat op plek B-vijfentwintig. Hier zijn de sleutels. Goede reis!",
+      "questions": [
+        {
+          "id": "l-a2-9-q17",
+          "text": "Hoe hoog is het eigen risico bij de standaardverzekering?",
+          "options": [
+            "Nul euro",
+            "Tweehonderdvijftig euro",
+            "Vijfhonderd euro",
+            "Duizend euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt dat het eigen risico bij de standaardverzekering vijfhonderd euro is.",
+          "explanationEn": "The employee says the deductible with standard insurance is five hundred euros."
+        },
+        {
+          "id": "l-a2-9-q18",
+          "text": "Wat moet meneer Van Dijk doen met de brandstof?",
+          "options": [
+            "De auto half vol terugbrengen",
+            "De auto vol getankt terugbrengen",
+            "De auto leeg terugbrengen en extra betalen",
+            "Tanken bij een specifiek tankstation"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt dat de auto vol getankt is en ook vol teruggebracht moet worden.",
+          "explanationEn": "The employee says the car has a full tank and must be returned with a full tank."
+        },
+        {
+          "id": "l-a2-9-q19",
+          "text": "Voor hoe laat moet de auto zondag ingeleverd worden?",
+          "options": [
+            "Voor twaalf uur 's middags",
+            "Voor veertien uur",
+            "Voor achttien uur",
+            "Voor twintig uur"
+          ],
+          "correctIndex": 2,
+          "explanation": "De inlevertijd is zondag voor achttien uur. Bij te laat inleveren betaal je een extra dag.",
+          "explanationEn": "The return time is Sunday before 6 PM. If you return it late, you pay for an extra day."
+        },
+        {
+          "id": "l-a2-9-q20",
+          "text": "Wat moet meneer Van Dijk doen als hij de auto langer wil houden?",
+          "options": [
+            "Een e-mail sturen naar het hoofdkantoor",
+            "Minimaal vier uur van tevoren bellen",
+            "De auto gewoon een dag langer houden en bij inlevering betalen",
+            "Via de website verlengen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt dat je minimaal vier uur van tevoren moet bellen om het contract te verlengen.",
+          "explanationEn": "The employee says you must call at least four hours in advance to extend the contract."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-9-t5.mp3"
+    }
+  ],
+  "isFreePreview": false
+}

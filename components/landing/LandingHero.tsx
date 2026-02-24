@@ -1,29 +1,29 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Check, Clock, CircleCheck } from "lucide-react";
+import { ArrowRight, Check, Clock, CircleCheck, ChevronDown } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 
 export function LandingHero() {
     const { user } = useAuth();
 
     return (
-        <section className="pt-[120px] pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
+        <section className="min-h-svh sm:min-h-0 flex flex-col pt-[88px] sm:pt-[120px] pb-0 sm:pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-[60px] sm:items-center">
             {/* Left column */}
-            <div className="animate-reveal">
-                <div className="inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
+            <div className="animate-reveal text-center sm:text-left flex-1 flex flex-col justify-center sm:block">
+                <div className="hidden sm:inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
                     ✨ Free during beta — no payment required
                 </div>
 
-                <h1 className="text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-6 font-extrabold">
+                <h1 className="text-[2.2rem] sm:text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.1] sm:leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-6 font-extrabold">
                     Pass your inburgering exam
                 </h1>
 
-                <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
+                <p className="text-[1rem] sm:text-[1.15rem] text-[var(--ink-soft)] leading-[1.55] sm:leading-[1.7] mb-6 sm:mb-8 sm:max-w-[480px]">
                     Don&apos;t just study Dutch. Train for the test. Ask anyone who has passed: the best way to prepare is by doing mock exams.
                 </p>
 
-                <div className="space-y-3 mb-8">
+                <div className="hidden sm:block space-y-3 mb-8">
                     {[
                         "All 5 modules: Lezen, Luisteren, KNM, Schrijven & Spreken",
                         "Exact format and layout used in the exams",
@@ -36,22 +36,33 @@ export function LandingHero() {
                     ))}
                 </div>
 
-                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
+                <div className="flex flex-col items-center sm:items-start sm:flex-row sm:items-center gap-4 mb-4">
                     <Link
                         href={user ? "/learn" : "/try"}
-                        className="cta-primary inline-flex items-center gap-2.5 px-9 py-4 rounded-full font-semibold text-base"
+                        className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-9 py-4 rounded-full font-semibold text-base"
                     >
                         {user ? "Continue practicing" : "Start a mock exam"}
                         <ArrowRight className="h-4 w-4" />
                     </Link>
                     <a
                         href="#modules"
-                        className="inline-flex items-center gap-1.5 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
+                        className="hidden sm:inline-flex items-center gap-1.5 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
                     >
                         Browse all 5 modules
                         <ArrowRight className="h-3.5 w-3.5" />
                     </a>
                 </div>
+            </div>
+
+            {/* Scroll to explore indicator — mobile only, pinned to bottom */}
+            <div className="sm:hidden flex justify-center pb-8 mt-auto">
+                <a
+                    href="#problem"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[var(--ink)]/10 text-[0.82rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors"
+                >
+                    Scroll to explore
+                    <ChevronDown className="h-4 w-4 animate-scroll-hint" />
+                </a>
             </div>
 
             {/* Right column — Product mockup */}
