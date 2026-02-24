@@ -104,11 +104,15 @@ AuthProvider (root layout) → useAuth() hook
 │   │   ├── schrijven/            # Writing module
 │   │   │   ├── layout.tsx
 │   │   │   ├── page.tsx          # Task list
-│   │   │   └── [taskId]/page.tsx # Individual writing task
+│   │   │   ├── [taskId]/page.tsx # Individual writing task
+│   │   │   ├── select/page.tsx   # Mock exam selector
+│   │   │   └── mock/[examId]/page.tsx  # Specific mock exam
 │   │   └── spreken/              # Speaking module
 │   │       ├── layout.tsx
 │   │       ├── page.tsx          # Task list
-│   │       └── [taskId]/page.tsx # Individual speaking task
+│   │       ├── [taskId]/page.tsx # Individual speaking task
+│   │       ├── select/page.tsx   # Mock exam selector
+│   │       └── mock/[examId]/page.tsx  # Specific mock exam
 │   │
 │   ├── try/                      # Quick assessment / free trial
 │   │   ├── layout.tsx            # SEO layout for /try/*
@@ -130,7 +134,10 @@ AuthProvider (root layout) → useAuth() hook
 │   │   ├── subscribe/route.ts    # Email subscription
 │   │   ├── tts/route.ts          # Azure Text-to-Speech proxy
 │   │   ├── reddit-response/route.ts  # Reddit engagement tool API
-│   │   └── loops/events/route.ts # Loops CRM event relay (client → server)
+│   │   ├── loops/events/route.ts # Loops CRM event relay (client → server)
+│   │   └── stripe/               # Stripe payment routes
+│   │       ├── checkout/route.ts # Stripe checkout session creation
+│   │       └── webhook/route.ts  # Stripe webhook handler
 │   │
 │   ├── profile/page.tsx          # User profile + progress dashboard
 │   ├── upgrade/page.tsx          # Upgrade/pricing page
@@ -223,7 +230,9 @@ AuthProvider (root layout) → useAuth() hook
 │   ├── mock-exams/               # Mock exams per module
 │   │   ├── lezen/                # 4 mock exams + index
 │   │   ├── knm/                  # 4 mock exams + index
-│   │   └── luisteren/            # 6 mock exams + index
+│   │   ├── luisteren/            # 6 mock exams + index
+│   │   ├── schrijven/            # Writing mock exams + index
+│   │   └── spreken/              # Speaking mock exams + index
 │   ├── quick-assessment/         # Quick trial content
 │   │   ├── index.json
 │   │   ├── knm.json
@@ -258,6 +267,7 @@ AuthProvider (root layout) → useAuth() hook
 │   ├── supabase.ts               # Supabase client (admin/general)
 │   ├── supabase-browser.ts       # Supabase client for browser/client components
 │   ├── supabase-server.ts        # Supabase client for server/API routes
+│   ├── supabase-admin.ts         # Supabase service-role client (used by Stripe webhook)
 │   ├── loops.ts                  # Loops CRM SDK wrapper (server-side only)
 │   ├── rate-limit.ts             # API rate limiting utility
 │   └── validate-redirect.ts      # Safe redirect URL validation
@@ -307,8 +317,7 @@ AuthProvider (root layout) → useAuth() hook
 ├── CLAUDE.md                     # This file
 ├── package.json
 ├── tsconfig.json
-├── components.json               # shadcn/ui config
-└── IMPLEMENTATION_PLAN.md        # Implementation planning doc
+└── components.json               # shadcn/ui config
 ```
 
 ## File Dependency Map
@@ -370,9 +379,14 @@ CRM / Loops drip campaign
 
 API routes
   → lib/supabase-server.ts (progress, exam-results, auth callback)
+  → lib/supabase-admin.ts (stripe webhook — service-role client)
   → lib/supabase.ts (feedback, subscribe)
   → lib/loops.ts (loops/events, auth callback)
   → lib/rate-limit.ts (tts, reddit-response, loops/events)
+
+Stripe payments
+  → app/api/stripe/checkout/route.ts → creates Stripe checkout sessions
+  → app/api/stripe/webhook/route.ts → lib/supabase-admin.ts (elevates user metadata on payment)
 ```
 
 ## Design System
@@ -428,8 +442,8 @@ API routes
 | Lezen (Reading) | `/learn/lezen/exam`, `/learn/lezen/select`, `/learn/lezen/mock/[examId]` | 10 passages, 4 mock exams |
 | KNM (Society) | `/learn/knm/exam`, `/learn/knm/select`, `/learn/knm/mock/[examId]` | 8 topics, 4 mock exams |
 | Luisteren (Listening) | `/learn/luisteren/exam`, `/learn/luisteren/select`, `/learn/luisteren/mock/[examId]` | 10 exercises, 6 mock exams |
-| Schrijven (Writing) | `/learn/schrijven`, `/learn/schrijven/[taskId]` | 8 tasks (email, form, message, reply, complaint, note) |
-| Spreken (Speaking) | `/learn/spreken`, `/learn/spreken/[taskId]` | 12 tasks (A1 parts 1-4 + A2 parts 1-4) |
+| Schrijven (Writing) | `/learn/schrijven`, `/learn/schrijven/[taskId]`, `/learn/schrijven/select`, `/learn/schrijven/mock/[examId]` | 8 tasks + mock exams |
+| Spreken (Speaking) | `/learn/spreken`, `/learn/spreken/[taskId]`, `/learn/spreken/select`, `/learn/spreken/mock/[examId]` | 12 tasks + mock exams |
 
 ## Key Patterns
 
@@ -448,7 +462,12 @@ API routes
 - `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anonymous key
 - `LOOPS_API_KEY` — Loops CRM API key (server-side only, used in `lib/loops.ts`)
-- Azure TTS credentials (used in `app/api/tts/route.ts`)
+- `AZURE_TTS_KEY` — Azure Speech Services API key (used in `app/api/tts/route.ts` and `scripts/generate-audio-azure.ts`)
+- `AZURE_TTS_REGION` — Azure Speech Services region (defaults to `westeurope`)
+- `STRIPE_SECRET_KEY` — Stripe secret key (used in `app/api/stripe/`)
+- `STRIPE_PRICE_ID` — Stripe price ID for checkout
+- `STRIPE_WEBHOOK_SECRET` — Stripe webhook signing secret
+- `SUPABASE_SERVICE_ROLE_KEY` — Supabase service-role key (used by `lib/supabase-admin.ts` for Stripe webhook)
 
 ## Git Workflow
 
@@ -497,7 +516,6 @@ Current issues that will bite you if you don't know about them. Max 5 items — 
 
 ### Architecture Notes
 - `lib/content.ts` is a monolith — statically imports every single content JSON file (100+ imports). Any new content file must be added here manually.
-- `ExamCard.tsx` component is defined but not imported anywhere — potentially dead code
 - The mobile app (`/mobile/`) has its own copies of `hooks/`, `lib/`, and `constants/` rather than sharing with web — changes must be made in both places
 - No test files exist anywhere in the codebase
 - Blog uses `isomorphic-dompurify` for sanitization — adds bundle weight

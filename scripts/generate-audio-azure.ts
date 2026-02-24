@@ -7,7 +7,7 @@
  * Prerequisites:
  * 1. Create Azure account with Speech Services (F0 tier is free)
  * 2. Get API key and region from Azure portal
- * 3. Set AZURE_SPEECH_KEY and AZURE_SPEECH_REGION env vars
+ * 3. Set AZURE_TTS_KEY and AZURE_TTS_REGION env vars
  *
  * Usage: npm run generate-audio:azure
  */
@@ -366,8 +366,8 @@ async function main(): Promise<void> {
   console.log("=====================================\n");
 
   // Check for credentials
-  const subscriptionKey = process.env.AZURE_SPEECH_KEY;
-  const region = process.env.AZURE_SPEECH_REGION || "westeurope";
+  const subscriptionKey = process.env.AZURE_TTS_KEY;
+  const region = process.env.AZURE_TTS_REGION || "westeurope";
 
   if (!subscriptionKey) {
     console.error("Error: AZURE_SPEECH_KEY environment variable not set");
