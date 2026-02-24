@@ -20,16 +20,16 @@ export function LandingHero() {
                 </h1>
 
                 <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
-                    Practice the exact format of the real exam across all 5 modules — Lezen, Luisteren, KNM, Schrijven &amp; Spreken. Built around the actual DUO exam, not generic Dutch lessons. No payment needed while we&apos;re in beta — pricing may apply later.
+                    Stop wasting your time preparing. Ask everyone who has passed the test: The best way to practice is by doing actual exams.
                 </p>
 
                 <div className="space-y-3 mb-8">
                     {[
                         "All 5 modules: Lezen, Luisteren, KNM, Schrijven & Spreken",
-                        "Matches the real computer-based exam format",
+                        "Exact format and layout used in the exams",
                         "Free to start — no account required",
                     ].map((item) => (
-                        <div key={item} className="flex items-start gap-3 text-[0.95rem] text-[var(--ink-soft)]">
+                        <div key={item} className="flex items-start gap-3 text-[1.08rem] text-[var(--ink-soft)]">
                             <CircleCheck className="h-5 w-5 text-[var(--green)] shrink-0 mt-0.5" />
                             {item}
                         </div>
@@ -38,17 +38,17 @@ export function LandingHero() {
 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
                     <Link
-                        href="/learn"
+                        href={user ? "/learn" : "/try"}
                         className="cta-primary inline-flex items-center gap-2.5 px-9 py-4 rounded-full font-semibold text-base"
                     >
-                        {user ? "Continue practicing" : "Try a full mock exam"}
+                        {user ? "Continue practicing" : "Start a mock exam"}
                         <ArrowRight className="h-4 w-4" />
                     </Link>
                     <a
                         href="#modules"
                         className="inline-flex items-center gap-1.5 text-[var(--ink-soft)] font-medium text-[0.95rem] hover:text-[var(--ink)] transition-colors"
                     >
-                        or browse all 5 modules
+                        Browse all 5 modules
                         <ArrowRight className="h-3.5 w-3.5" />
                     </a>
                 </div>
