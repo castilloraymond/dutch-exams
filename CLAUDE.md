@@ -514,6 +514,40 @@ git branch -d features/my-feature
 git push origin --delete features/my-feature
 ```
 
+## Git Hygiene — Start-of-Session Checklist
+
+**Run this at the start of every session before doing any work.** Skipping this cost 2 days of admin on 2026-02-24.
+
+### Quick health check (Claude should run all 4 automatically)
+```bash
+# 1. Is main up to date?
+git fetch origin && git log --oneline HEAD..origin/main  # should be empty
+
+# 2. Are all worktrees clean and at the same commit?
+git worktree list  # all should show same hash, detached HEAD (except main)
+
+# 3. Any uncommitted changes in worktrees?
+for wt in ../inburgering-app-features ../inburgering-app-bug-fix ../inburgering-app-mktg; do
+  echo "=== $wt ===" && git -C "$wt" status --short
+done  # should all be empty
+
+# 4. Any stale remote branches?
+git branch -r --merged origin/main | grep -v 'origin/main\|origin/HEAD'  # delete these
+```
+
+### Rules that prevent drift
+1. **Pull main before anything else** — `git pull` in the main worktree
+2. **Reset worktrees immediately after PR merge** — don't leave them on merged branches
+3. **Delete remote branches right after merge** — don't let them accumulate
+4. **Never move the repo between storage locations** (e.g. Google Drive → local) without recreating worktrees — worktree `.git` files use absolute paths that break silently
+5. **If `git status` shows unexpected untracked files** — investigate before working. They may be orphaned from a previous redesign
+6. **After updating main, update all worktrees** — `git checkout --detach origin/main` in each
+
+### If things look wrong
+- Worktree pointing to wrong path → `git worktree remove <path>` + recreate
+- Worktree has massive unexpected diffs → likely stale, nuke and recreate from origin/main
+- Untracked files you don't recognize → check `git log --all -- <file>` to see if they were removed intentionally
+
 ---
 
 ## Change Log
@@ -524,6 +558,12 @@ Updated after each session.
 ### YYYY-MM-DD
 - What changed, which files, why
 -->
+
+### 2026-02-24
+- Full git cleanup after Google Drive → local migration
+- Recreated bug-fix and mktg worktrees (were pointing to old Google Drive paths)
+- Deleted 7 stale remote branches, discarded orphaned schrijven/spreken files
+- Added "Git Hygiene — Start-of-Session Checklist" section to CLAUDE.md
 
 ### 2026-02-19
 - Created automated blog publishing system: `.github/workflows/scheduled-publish.yml` (cron every Tuesday 8:00 CET)
@@ -554,6 +594,13 @@ Running log of decisions, bugs found, and context from each work session.
 - Bugs found
 - Side effects / watch-outs
 -->
+
+### 2026-02-24 — Git Cleanup After Google Drive Migration
+- **Problem:** Moved repo from Google Drive to `/Users/raymond/Projects/vibe_code_projects/` but worktrees still had absolute paths to Google Drive. Result: 2 broken worktrees with 100+ phantom diffs, main 4 commits behind, 7 stale remote branches, orphaned files on disk.
+- **Root cause:** Git worktrees use absolute paths in `.git` files. Moving the parent repo doesn't update them.
+- **Fix:** Deleted broken worktrees, recreated fresh from local repo, pulled main, cleaned branches.
+- **Prevention:** Added "Git Hygiene — Start-of-Session Checklist" to CLAUDE.md. Claude should run this automatically at session start.
+- **Lesson:** Never move a git repo with worktrees between storage locations without recreating the worktrees. Also: reset worktrees immediately after PR merges — don't let them sit on merged branches.
 
 ### 2026-02-17 — CRM Onboarding Drip Campaign (Loops)
 - Installed `loops` SDK, created `lib/loops.ts` server-side wrapper with graceful dev-mode fallback (logs to console when `LOOPS_API_KEY` not set)
