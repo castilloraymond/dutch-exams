@@ -34,6 +34,22 @@
       "isFreePreview": false
     },
     {
+      "id": "spreken-a2-3",
+      "title": "Spreken A2 - Oefenexamen 3",
+      "difficulty": "A2",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "spreken-a2-4",
+      "title": "Spreken A2 - Oefenexamen 4",
+      "difficulty": "A2",
+      "questionCount": 4,
+      "recommendedTime": "15 min",
+      "isFreePreview": false
+    },
+    {
       "id": "spreken-b1-1",
       "title": "Spreken B1 - Oefenexamen 1",
       "difficulty": "B1",

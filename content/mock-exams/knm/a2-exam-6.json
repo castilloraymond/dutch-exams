@@ -1,0 +1,530 @@
+{
+  "id": "knm-a2-6",
+  "title": "KNM A2 - Oefenexamen 6",
+  "module": "knm",
+  "difficulty": "A2",
+  "questionCount": 40,
+  "recommendedTime": "30 min",
+  "questions": [
+    {
+      "id": "knm-a2-6-q1",
+      "text": "Wat is een uitzendbureau?",
+      "options": [
+        "Een kantoor waar je je paspoort aanvraagt",
+        "Een organisatie die tijdelijke werknemers aan bedrijven uitleent",
+        "Een winkel waar je werkkleding koopt",
+        "Een afdeling van de gemeente voor werklozen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een uitzendbureau is een organisatie die werknemers tijdelijk uitleent aan bedrijven. Je bent in dienst bij het uitzendbureau, maar werkt bij een ander bedrijf.",
+      "explanationEn": "A temporary employment agency is an organization that lends workers temporarily to companies. You are employed by the agency but work at another company."
+    },
+    {
+      "id": "knm-a2-6-q2",
+      "text": "Wie is verantwoordelijk voor goede arbeidsomstandigheden op het werk?",
+      "options": [
+        "Alleen de werknemer",
+        "Alleen de vakbond",
+        "De werkgever is verantwoordelijk voor een veilige en gezonde werkplek",
+        "Alleen de gemeente"
+      ],
+      "correctIndex": 2,
+      "explanation": "De werkgever is wettelijk verplicht om te zorgen voor goede arbeidsomstandigheden. De Arbeidsinspectie controleert of bedrijven zich aan de regels houden.",
+      "explanationEn": "The employer is legally obliged to ensure good working conditions. The Labour Inspectorate checks whether companies comply with the rules."
+    },
+    {
+      "id": "knm-a2-6-q3",
+      "text": "Wat is een CAO?",
+      "options": [
+        "Een soort belasting die je betaalt",
+        "Een collectieve arbeidsovereenkomst met afspraken over loon en werktijden voor een hele sector",
+        "Een persoonlijk contract tussen jou en je baas",
+        "Een certificaat dat je nodig hebt om te werken"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een CAO (collectieve arbeidsovereenkomst) is een overeenkomst tussen werkgevers en vakbonden over arbeidsvoorwaarden zoals loon, werktijden en vakantie voor een hele sector.",
+      "explanationEn": "A CAO (collective labour agreement) is an agreement between employers and unions about employment conditions such as wages, working hours, and vacation for an entire sector."
+    },
+    {
+      "id": "knm-a2-6-q4",
+      "text": "Wat is een sollicitatiebrief?",
+      "options": [
+        "Een brief waarin je ontslag neemt",
+        "Een brief waarin je een klacht indient",
+        "Een brief waarin je schrijft waarom je geschikt bent voor een baan",
+        "Een brief van je werkgever over je salaris"
+      ],
+      "correctIndex": 2,
+      "explanation": "Een sollicitatiebrief is een brief die je stuurt als je op een vacature reageert. Je schrijft waarom je geschikt bent voor de baan en waarom je er wilt werken.",
+      "explanationEn": "A cover letter is a letter you send when applying for a job vacancy. You write why you are suitable for the job and why you want to work there."
+    },
+    {
+      "id": "knm-a2-6-q5",
+      "text": "Wat is een proeftijd?",
+      "options": [
+        "De periode dat je met vakantie bent",
+        "De tijd dat je een opleiding volgt",
+        "Een korte periode aan het begin van je contract waarin jij of je werkgever het contract makkelijk kan opzeggen",
+        "De periode waarin je geen salaris krijgt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Een proeftijd is een korte periode (maximaal 2 maanden) aan het begin van een arbeidscontract. In deze periode kunnen zowel de werkgever als de werknemer het contract direct opzeggen.",
+      "explanationEn": "A probation period is a short period (maximum 2 months) at the start of an employment contract. During this period, both employer and employee can terminate the contract immediately."
+    },
+    {
+      "id": "knm-a2-6-q6",
+      "text": "Wat is de Huurcommissie?",
+      "options": [
+        "Een organisatie die huizen verkoopt",
+        "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders beoordeelt",
+        "Een afdeling van de politie",
+        "Een bedrijf dat huurwoningen bouwt"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen tussen huurders en verhuurders behandelt, bijvoorbeeld over de huurprijs of onderhoud van de woning.",
+      "explanationEn": "The Rent Tribunal is an independent organization that handles disputes between tenants and landlords, for example about rent prices or property maintenance."
+    },
+    {
+      "id": "knm-a2-6-q7",
+      "text": "Wat zijn servicekosten bij een huurwoning?",
+      "options": [
+        "De kosten voor het kopen van meubels",
+        "Extra kosten bovenop de huur voor zaken als schoonmaak, verlichting en onderhoud van gemeenschappelijke ruimtes",
+        "De kosten voor internet en televisie",
+        "De kosten voor een verhuisbedrijf"
+      ],
+      "correctIndex": 1,
+      "explanation": "Servicekosten zijn extra kosten bovenop de kale huur. Ze zijn voor gemeenschappelijke voorzieningen zoals trappenhuis verlichting, schoonmaak en tuinonderhoud.",
+      "explanationEn": "Service costs are extra costs on top of the basic rent. They are for shared facilities such as stairwell lighting, cleaning, and garden maintenance."
+    },
+    {
+      "id": "knm-a2-6-q8",
+      "text": "Wat is buurtpreventie?",
+      "options": [
+        "Een verzekering voor je huis",
+        "Bewoners die samen opletten om hun buurt veilig te houden",
+        "Een dienst van de politie die elke nacht door de straten loopt",
+        "Een subsidie van de gemeente voor renovatie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buurtpreventie betekent dat bewoners samen met de politie zorgen voor een veilige buurt. Ze letten op verdachte situaties en melden die bij de politie.",
+      "explanationEn": "Neighbourhood watch means that residents work together with the police to keep their neighbourhood safe. They watch for suspicious situations and report them to the police."
+    },
+    {
+      "id": "knm-a2-6-q9",
+      "text": "Hoe moet je in Nederland je afval weggooien?",
+      "options": [
+        "Je gooit alles in één bak",
+        "Je scheidt je afval: papier, glas, plastic en restafval gaan apart",
+        "Je brengt al je afval naar het gemeentehuis",
+        "Je mag je afval op straat zetten wanneer je wilt"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland is het verplicht om afval te scheiden. Papier, glas, plastic en restafval moeten apart worden weggegooid. De gemeente haalt het afval op volgens een schema.",
+      "explanationEn": "In the Netherlands, it is mandatory to separate waste. Paper, glass, plastic, and residual waste must be disposed of separately. The municipality collects waste according to a schedule."
+    },
+    {
+      "id": "knm-a2-6-q10",
+      "text": "Wat moet je doen als je naar een andere gemeente verhuist?",
+      "options": [
+        "Je hoeft niets te doen",
+        "Je meldt het alleen bij je werkgever",
+        "Je moet je inschrijven bij de nieuwe gemeente binnen 5 dagen",
+        "Je stuurt een brief naar de koning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Als je verhuist naar een andere gemeente, moet je je binnen 5 dagen inschrijven bij de nieuwe gemeente. Dit heet je 'adreswijziging doorgeven' bij de Basisregistratie Personen (BRP).",
+      "explanationEn": "When you move to another municipality, you must register at the new municipality within 5 days. This is called reporting your change of address to the Personal Records Database (BRP)."
+    },
+    {
+      "id": "knm-a2-6-q11",
+      "text": "Hoe vaak moet je naar de tandarts voor een controle?",
+      "options": [
+        "Eén keer per 5 jaar",
+        "Alleen als je pijn hebt",
+        "Het is aan te raden om twee keer per jaar te gaan",
+        "Eén keer per 10 jaar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Het is aan te raden om twee keer per jaar naar de tandarts te gaan voor een controle. Tandartskosten worden niet altijd vergoed door de basisverzekering; een aanvullende verzekering kan helpen.",
+      "explanationEn": "It is recommended to visit the dentist twice a year for a check-up. Dental costs are not always covered by basic insurance; supplementary insurance can help."
+    },
+    {
+      "id": "knm-a2-6-q12",
+      "text": "Wat is een verloskundige?",
+      "options": [
+        "Een arts die operaties uitvoert",
+        "Een specialist voor hartproblemen",
+        "Een zorgverlener die zwangere vrouwen begeleidt voor, tijdens en na de bevalling",
+        "Een tandarts voor kinderen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Een verloskundige begeleidt zwangere vrouwen. In Nederland gaan de meeste vrouwen eerst naar de verloskundige, niet naar het ziekenhuis. Na de bevalling komt de kraamzorg thuis helpen.",
+      "explanationEn": "A midwife supports pregnant women. In the Netherlands, most women first go to a midwife, not to the hospital. After birth, maternity care comes to help at home."
+    },
+    {
+      "id": "knm-a2-6-q13",
+      "text": "Wat is mantelzorg?",
+      "options": [
+        "Zorg door een arts in het ziekenhuis",
+        "Zorg die je van familie, vrienden of buren krijgt als je ziek of hulpbehoevend bent",
+        "Zorg door een professionele verpleegkundige thuis",
+        "Zorg die je krijgt bij de huisarts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mantelzorg is zorg die je krijgt van mensen uit je omgeving, zoals familie, vrienden of buren. Het is onbetaalde zorg voor mensen die langdurig ziek of hulpbehoevend zijn.",
+      "explanationEn": "Mantelzorg (informal care) is care you receive from people around you, such as family, friends, or neighbours. It is unpaid care for people who are chronically ill or need help."
+    },
+    {
+      "id": "knm-a2-6-q14",
+      "text": "Waar kun je terecht als je psychische problemen hebt?",
+      "options": [
+        "Alleen bij de apotheek",
+        "Bij de geestelijke gezondheidszorg (GGZ), via een verwijzing van de huisarts",
+        "Alleen bij de tandarts",
+        "Je kunt nergens terecht in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij psychische problemen kun je naar de GGZ (geestelijke gezondheidszorg). Je hebt meestal een verwijzing van je huisarts nodig. De huisarts kan je ook zelf helpen bij lichte klachten.",
+      "explanationEn": "For mental health issues, you can go to the GGZ (mental health care). You usually need a referral from your GP. The GP can also help you with mild complaints."
+    },
+    {
+      "id": "knm-a2-6-q15",
+      "text": "Wat is het Donorregister?",
+      "options": [
+        "Een register voor bloeddonoren bij het Rode Kruis",
+        "Een lijst van alle ziekenhuizen in Nederland",
+        "Een register waarin je vastlegt of je na je overlijden organen en weefsels wilt doneren",
+        "Een lijst van alle huisartsen in je gemeente"
+      ],
+      "correctIndex": 2,
+      "explanation": "In het Donorregister leg je vast of je na je overlijden organen en weefsels wilt doneren. Alle inwoners van 18 jaar of ouder krijgen een brief om hun keuze te registreren.",
+      "explanationEn": "In the Donor Register, you record whether you want to donate organs and tissues after death. All residents aged 18 or older receive a letter to register their choice."
+    },
+    {
+      "id": "knm-a2-6-q16",
+      "text": "Wat was de Gouden Eeuw in Nederland?",
+      "options": [
+        "De periode rond 1900 toen Nederland veel goud vond",
+        "De 17e eeuw, toen Nederland een wereldmacht was op het gebied van handel, wetenschap en kunst",
+        "De periode na de Tweede Wereldoorlog",
+        "De tijd van de Romeinen in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Gouden Eeuw was de 17e eeuw (1600-1700). Nederland was toen een wereldmacht in handel, wetenschap en kunst. Bekende schilders zoals Rembrandt leefden in deze periode.",
+      "explanationEn": "The Golden Age was the 17th century (1600-1700). The Netherlands was a world power in trade, science, and art. Famous painters like Rembrandt lived during this period."
+    },
+    {
+      "id": "knm-a2-6-q17",
+      "text": "Wat was verzuiling in Nederland?",
+      "options": [
+        "Een manier van bouwen in de middeleeuwen",
+        "Het verdelen van de samenleving in groepen op basis van geloof of politieke overtuiging, elk met eigen scholen, kranten en verenigingen",
+        "Een systeem om water uit polders te pompen",
+        "Een politieke partij uit de 19e eeuw"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verzuiling was de opdeling van de Nederlandse samenleving in zuilen (groepen) op basis van religie of politiek. Elke zuil had eigen scholen, kranten, omroepen en vakbonden. Dit duurde tot ongeveer 1960.",
+      "explanationEn": "Pillarisation was the division of Dutch society into pillars (groups) based on religion or politics. Each pillar had its own schools, newspapers, broadcasters, and unions. This lasted until about 1960."
+    },
+    {
+      "id": "knm-a2-6-q18",
+      "text": "Is Nederland lid van de Europese Unie?",
+      "options": [
+        "Nee, Nederland is geen lid",
+        "Ja, Nederland is een van de oprichters van de EU",
+        "Nederland is alleen waarnemer, geen lid",
+        "Nederland is lid geworden in 2010"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland is een van de zes oprichters van de Europese Unie (toen nog de EEG, in 1957). De EU zorgt voor samenwerking op het gebied van handel, veiligheid en wetgeving.",
+      "explanationEn": "The Netherlands is one of the six founding members of the European Union (then the EEC, in 1957). The EU ensures cooperation in trade, security, and legislation."
+    },
+    {
+      "id": "knm-a2-6-q19",
+      "text": "Wat is het slavernijverleden van Nederland?",
+      "options": [
+        "Nederland heeft nooit iets met slavernij te maken gehad",
+        "Nederland was betrokken bij de transatlantische slavenhandel en slavernij in de koloniën, vooral in Suriname en de Caribische eilanden",
+        "Slavernij bestond alleen in de middeleeuwen in Nederland zelf",
+        "Nederland heeft slavernij alleen in Azië uitgeoefend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland was betrokken bij de transatlantische slavenhandel. Tot 1863 werden mensen als slaven ingezet in de koloniën, vooral in Suriname en de Caribische eilanden. Op 1 juli (Keti Koti) wordt de afschaffing herdacht.",
+      "explanationEn": "The Netherlands was involved in the transatlantic slave trade. Until 1863, people were enslaved in the colonies, especially in Suriname and the Caribbean islands. On July 1st (Keti Koti), the abolition is commemorated."
+    },
+    {
+      "id": "knm-a2-6-q20",
+      "text": "Wat is democratie?",
+      "options": [
+        "Een systeem waarin één persoon alle macht heeft",
+        "Een systeem waarin het leger het land bestuurt",
+        "Een systeem waarin het volk de macht heeft en vertegenwoordigers kiest",
+        "Een systeem waarin alleen rijke mensen mogen beslissen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Democratie betekent dat het volk de macht heeft. In Nederland kiezen burgers hun vertegenwoordigers in het parlement. Nederland is een parlementaire democratie en een constitutionele monarchie.",
+      "explanationEn": "Democracy means the people have power. In the Netherlands, citizens elect their representatives in parliament. The Netherlands is a parliamentary democracy and a constitutional monarchy."
+    },
+    {
+      "id": "knm-a2-6-q21",
+      "text": "Wat is het verschil tussen vmbo, havo en vwo?",
+      "options": [
+        "Het zijn drie verschillende basisscholen",
+        "Vmbo duurt 4 jaar en bereidt voor op MBO; havo duurt 5 jaar en bereidt voor op HBO; vwo duurt 6 jaar en bereidt voor op de universiteit",
+        "Er is geen verschil, ze leiden allemaal naar de universiteit",
+        "Vmbo is voor jonge kinderen, havo voor tieners, vwo voor volwassenen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het vmbo (4 jaar) leidt op naar het MBO, het havo (5 jaar) naar het HBO en het vwo (6 jaar) naar de universiteit. De keuze hangt af van het advies van de basisschool.",
+      "explanationEn": "The vmbo (4 years) leads to MBO, the havo (5 years) to HBO, and the vwo (6 years) to university. The choice depends on the primary school's recommendation."
+    },
+    {
+      "id": "knm-a2-6-q22",
+      "text": "Kunnen volwassenen in Nederland ook nog een opleiding volgen?",
+      "options": [
+        "Nee, onderwijs is alleen voor kinderen",
+        "Alleen als je jonger bent dan 30 jaar",
+        "Ja, er is volwassenenonderwijs, zoals taalcursussen, MBO-opleidingen en avondscholen",
+        "Alleen als je werkgever dat wil"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Nederland kunnen volwassenen altijd een opleiding volgen. Er zijn ROC's (Regionaal Opleidingen Centrum), avondscholen, en veel online cursussen beschikbaar.",
+      "explanationEn": "In the Netherlands, adults can always pursue education. There are ROCs (Regional Education Centers), evening schools, and many online courses available."
+    },
+    {
+      "id": "knm-a2-6-q23",
+      "text": "Wat is een stagiair?",
+      "options": [
+        "Een leraar op een basisschool",
+        "Iemand die werkervaring opdoet bij een bedrijf als onderdeel van een opleiding",
+        "Een manager van een groot bedrijf",
+        "Een werknemer die bijna met pensioen gaat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een stagiair is een student die stage loopt bij een bedrijf als onderdeel van de opleiding. Zo doe je praktijkervaring op in het echte werkveld.",
+      "explanationEn": "An intern is a student who does an internship at a company as part of their education. This way you gain practical experience in the real work field."
+    },
+    {
+      "id": "knm-a2-6-q24",
+      "text": "Wat is DUO en wat doet het?",
+      "options": [
+        "DUO is een televisieomroep",
+        "DUO is de Dienst Uitvoering Onderwijs; het regelt onder andere studiefinanciering en studieleningen",
+        "DUO is een zorgverzekering voor studenten",
+        "DUO is een woningcorporatie voor studenten"
+      ],
+      "correctIndex": 1,
+      "explanation": "DUO (Dienst Uitvoering Onderwijs) regelt studiefinanciering, studieleningen en het inburgeringsexamen. Studenten kunnen bij DUO een lening aanvragen om hun studie te betalen.",
+      "explanationEn": "DUO (Education Executive Agency) handles student finance, student loans, and the civic integration exam. Students can apply to DUO for a loan to pay for their studies."
+    },
+    {
+      "id": "knm-a2-6-q25",
+      "text": "Wanneer zijn de schoolvakanties in Nederland?",
+      "options": [
+        "Scholen zijn het hele jaar open zonder vakanties",
+        "Er is alleen een zomervakantie van 3 maanden",
+        "Er zijn meerdere vakanties: herfst, kerst, voorjaar, mei en 6 weken zomer",
+        "Elke school bepaalt zelf wanneer de vakantie is, er zijn geen vaste periodes"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Nederland zijn er vaste schoolvakanties: herfstvakantie, kerstvakantie, voorjaarsvakantie, meivakantie en een zomervakantie van ongeveer 6 weken. De data worden bepaald door de overheid.",
+      "explanationEn": "In the Netherlands, there are fixed school holidays: autumn break, Christmas break, spring break, May break, and a summer holiday of about 6 weeks. The dates are determined by the government."
+    },
+    {
+      "id": "knm-a2-6-q26",
+      "text": "Hoe staat Nederland tegenover homoseksualiteit?",
+      "options": [
+        "Homoseksualiteit is verboden in Nederland",
+        "Nederland was in 2001 het eerste land ter wereld dat het huwelijk openstelde voor mensen van hetzelfde geslacht",
+        "Homoseksualiteit wordt alleen getolereerd in Amsterdam",
+        "Er is geen wet over homoseksualiteit in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland was in 2001 het eerste land ter wereld waar mensen van hetzelfde geslacht konden trouwen. Discriminatie op basis van seksuele geaardheid is bij wet verboden.",
+      "explanationEn": "In 2001, the Netherlands became the first country in the world where same-sex couples could marry. Discrimination based on sexual orientation is prohibited by law."
+    },
+    {
+      "id": "knm-a2-6-q27",
+      "text": "Wat is vrijheid van meningsuiting?",
+      "options": [
+        "Je mag zeggen wat je wilt, maar je mag niet discrimineren of aanzetten tot haat",
+        "Je mag alleen positieve dingen zeggen over de overheid",
+        "Je mag helemaal niets zeggen over politiek",
+        "Vrijheid van meningsuiting bestaat niet in Nederland"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vrijheid van meningsuiting is een grondrecht in Nederland. Je mag je mening uiten, maar er zijn grenzen: je mag niet discrimineren, beledigen of aanzetten tot haat of geweld.",
+      "explanationEn": "Freedom of expression is a fundamental right in the Netherlands. You may express your opinion, but there are limits: you may not discriminate, insult, or incite hatred or violence."
+    },
+    {
+      "id": "knm-a2-6-q28",
+      "text": "Mag je in Nederland iemand discrimineren?",
+      "options": [
+        "Ja, als je een goede reden hebt",
+        "Alleen op het werk is discriminatie verboden",
+        "Nee, discriminatie is verboden. Iedereen is gelijk, ongeacht afkomst, geslacht, religie of seksuele geaardheid",
+        "Discriminatie is alleen verboden voor de overheid, niet voor burgers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Artikel 1 van de Nederlandse Grondwet verbiedt discriminatie. Iedereen wordt gelijk behandeld, ongeacht godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht of seksuele gerichtheid.",
+      "explanationEn": "Article 1 of the Dutch Constitution prohibits discrimination. Everyone is treated equally, regardless of religion, belief, political opinion, race, gender, or sexual orientation."
+    },
+    {
+      "id": "knm-a2-6-q29",
+      "text": "Wat betekent de uitdrukking 'Doe maar normaal, dan doe je al gek genoeg'?",
+      "options": [
+        "Je moet altijd grappen maken",
+        "Je moet je zo raar mogelijk gedragen",
+        "Nederlanders vinden het belangrijk om je gewoon en bescheiden te gedragen, niet opvallend",
+        "Je moet altijd heel formeel zijn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Deze uitdrukking betekent dat Nederlanders nuchterheid en bescheidenheid waarderen. Je hoeft je niet beter voor te doen dan je bent. Gewoon doen is genoeg.",
+      "explanationEn": "This expression means that the Dutch value down-to-earth behavior and modesty. You don't need to pretend to be better than you are. Just acting normally is enough."
+    },
+    {
+      "id": "knm-a2-6-q30",
+      "text": "Je bent uitgenodigd bij een Nederlandse collega thuis. Wat is gebruikelijk?",
+      "options": [
+        "Je komt onaangekondigd en neemt je hele familie mee",
+        "Je komt op de afgesproken tijd en neemt een klein cadeautje mee, zoals bloemen of iets lekkers",
+        "Je hoeft niet te komen als je geen zin hebt, zonder iets te zeggen",
+        "Je blijft de hele nacht, het is onbeleefd om vroeg weg te gaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland is het gebruikelijk om op de afgesproken tijd te komen en een klein cadeautje mee te nemen, zoals bloemen, wijn of chocola. Het is beleefd om van tevoren te bevestigen dat je komt.",
+      "explanationEn": "In the Netherlands, it is customary to arrive at the agreed time and bring a small gift, such as flowers, wine, or chocolate. It is polite to confirm beforehand that you are coming."
+    },
+    {
+      "id": "knm-a2-6-q31",
+      "text": "Wat is de Eerste Kamer?",
+      "options": [
+        "De eerste kamer in het gemeentehuis",
+        "Een onderdeel van het parlement dat wetsvoorstellen van de Tweede Kamer controleert",
+        "De kamer waar de koning woont",
+        "Een vergaderzaal van de minister-president"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Eerste Kamer (ook wel de Senaat) is een deel van het parlement. De 75 leden controleren wetsvoorstellen die al door de Tweede Kamer zijn goedgekeurd. Ze worden gekozen door de Provinciale Staten.",
+      "explanationEn": "The Eerste Kamer (Senate) is part of parliament. The 75 members review legislative proposals already approved by the Tweede Kamer. They are elected by the Provincial Councils."
+    },
+    {
+      "id": "knm-a2-6-q32",
+      "text": "Wie is de minister-president van Nederland?",
+      "options": [
+        "De koning",
+        "De voorzitter van de Eerste Kamer",
+        "De leider van de regering, die de ministerraad voorzit",
+        "De burgemeester van Den Haag"
+      ],
+      "correctIndex": 2,
+      "explanation": "De minister-president is de leider van de regering en voorzitter van de ministerraad. De minister-president wordt niet rechtstreeks gekozen, maar komt voort uit de coalitieonderhandelingen na verkiezingen.",
+      "explanationEn": "The prime minister is the leader of the government and chairs the Council of Ministers. The PM is not directly elected but emerges from coalition negotiations after elections."
+    },
+    {
+      "id": "knm-a2-6-q33",
+      "text": "Wat is een referendum?",
+      "options": [
+        "Een verkiezing voor de gemeenteraad",
+        "Een volkstemming waarbij burgers direct over een bepaald onderwerp stemmen",
+        "Een vergadering van alle ministers",
+        "Een debat in de Tweede Kamer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een referendum is een volkstemming waarbij burgers direct mogen stemmen over een bepaald onderwerp of wet. In Nederland zijn referenda niet heel gebruikelijk.",
+      "explanationEn": "A referendum is a public vote in which citizens vote directly on a specific issue or law. In the Netherlands, referendums are not very common."
+    },
+    {
+      "id": "knm-a2-6-q34",
+      "text": "Wat is de Nationale ombudsman?",
+      "options": [
+        "Een rechter bij het hoogste gerechtshof",
+        "De minister van Justitie",
+        "Een onafhankelijke functionaris die klachten van burgers over de overheid onderzoekt",
+        "De directeur van de Belastingdienst"
+      ],
+      "correctIndex": 2,
+      "explanation": "De Nationale ombudsman onderzoekt klachten van burgers over de overheid. Als je vindt dat een overheidsinstantie je niet goed heeft behandeld, kun je een klacht indienen bij de ombudsman.",
+      "explanationEn": "The National Ombudsman investigates citizens' complaints about government bodies. If you feel a government agency has not treated you properly, you can file a complaint with the ombudsman."
+    },
+    {
+      "id": "knm-a2-6-q35",
+      "text": "Wat doet de Belastingdienst?",
+      "options": [
+        "De Belastingdienst geeft paspoorten uit",
+        "De Belastingdienst is verantwoordelijk voor het innen van belastingen en het uitbetalen van toeslagen",
+        "De Belastingdienst organiseert verkiezingen",
+        "De Belastingdienst beheert de ziekenhuizen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Belastingdienst int belastingen (zoals inkomstenbelasting en btw) en betaalt toeslagen uit, zoals huurtoeslag, zorgtoeslag en kinderbijslag-gerelateerde toeslagen.",
+      "explanationEn": "The Tax Authority collects taxes (such as income tax and VAT) and pays out benefits, such as rent subsidy, healthcare allowance, and child-benefit-related allowances."
+    },
+    {
+      "id": "knm-a2-6-q36",
+      "text": "Wat zijn de Waddeneilanden?",
+      "options": [
+        "Eilanden in de Middellandse Zee die bij Nederland horen",
+        "Een groep eilanden in het noorden van Nederland, in de Waddenzee",
+        "Kunstmatige eilanden bij Rotterdam",
+        "Eilanden in het IJsselmeer"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Waddeneilanden liggen in het noorden van Nederland in de Waddenzee. Er zijn vijf bewoonde eilanden: Texel, Vlieland, Terschelling, Ameland en Schiermonnikoog. De Waddenzee is UNESCO Werelderfgoed.",
+      "explanationEn": "The Wadden Islands are in the north of the Netherlands in the Wadden Sea. There are five inhabited islands: Texel, Vlieland, Terschelling, Ameland, and Schiermonnikoog. The Wadden Sea is a UNESCO World Heritage Site."
+    },
+    {
+      "id": "knm-a2-6-q37",
+      "text": "Wat is het IJsselmeer?",
+      "options": [
+        "Een rivier in het zuiden van Nederland",
+        "Een groot meer in het midden van Nederland dat ontstond door de bouw van de Afsluitdijk",
+        "Een kanaal in Amsterdam",
+        "Een meer op de grens met Duitsland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het IJsselmeer is een groot zoetwatermeer dat ontstond in 1932 toen de Afsluitdijk de Zuiderzee afsloot van de Noordzee. Een deel van het IJsselmeer is later drooggemaakt (Flevoland).",
+      "explanationEn": "The IJsselmeer is a large freshwater lake that was created in 1932 when the Afsluitdijk closed off the Zuiderzee from the North Sea. Part of the IJsselmeer was later reclaimed (Flevoland)."
+    },
+    {
+      "id": "knm-a2-6-q38",
+      "text": "Wat zijn de Deltawerken?",
+      "options": [
+        "Een reeks bruggen over de grote rivieren",
+        "Een systeem van dammen, sluizen en stormvloedkeringen om Nederland te beschermen tegen de zee",
+        "Een netwerk van fietspaden in de Randstad",
+        "Een serie windmolenparken in de Noordzee"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Deltawerken zijn een systeem van dammen, sluizen en stormvloedkeringen in het zuidwesten van Nederland. Ze werden gebouwd na de watersnoodramp van 1953 om het land te beschermen tegen overstromingen.",
+      "explanationEn": "The Delta Works are a system of dams, sluices, and storm surge barriers in the southwest of the Netherlands. They were built after the flood disaster of 1953 to protect the country from flooding."
+    },
+    {
+      "id": "knm-a2-6-q39",
+      "text": "Waar ligt Schiphol?",
+      "options": [
+        "In Rotterdam",
+        "In Den Haag",
+        "Bij Amsterdam, in de gemeente Haarlemmermeer",
+        "In Utrecht"
+      ],
+      "correctIndex": 2,
+      "explanation": "Luchthaven Schiphol ligt bij Amsterdam, in de gemeente Haarlemmermeer. Het is de grootste luchthaven van Nederland en een van de grootste van Europa. Schiphol ligt onder de zeespiegel.",
+      "explanationEn": "Schiphol Airport is located near Amsterdam, in the municipality of Haarlemmermeer. It is the largest airport in the Netherlands and one of the largest in Europe. Schiphol lies below sea level."
+    },
+    {
+      "id": "knm-a2-6-q40",
+      "text": "Wat is de grachtengordel in Amsterdam?",
+      "options": [
+        "Een modern winkelcentrum in het centrum",
+        "Een snelweg rond Amsterdam",
+        "Een ring van grachten uit de 17e eeuw in het centrum van Amsterdam, UNESCO Werelderfgoed",
+        "Een park langs de rivier de Amstel"
+      ],
+      "correctIndex": 2,
+      "explanation": "De grachtengordel is een ring van grachten in het centrum van Amsterdam, aangelegd in de 17e eeuw. Sinds 2010 staat de grachtengordel op de UNESCO Werelderfgoedlijst.",
+      "explanationEn": "The canal ring is a ring of canals in the center of Amsterdam, constructed in the 17th century. Since 2010, the canal ring has been on the UNESCO World Heritage List."
+    }
+  ]
+}

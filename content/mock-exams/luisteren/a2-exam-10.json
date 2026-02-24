@@ -1,0 +1,311 @@
+{
+  "id": "luisteren-a2-10",
+  "title": "Luisteren A2 - Oefenexamen 10",
+  "module": "luisteren",
+  "difficulty": "A2",
+  "questionCount": 20,
+  "recommendedTime": "45 min",
+  "transcripts": [
+    {
+      "id": "l-a2-10-t1",
+      "title": "Bij de kapper",
+      "transcript": "Kapper: Goedemiddag, welkom bij Kapsalon Roos. Heeft u een afspraak?\nMevrouw Hendriks: Nee, ik loop even binnen. Is er nog plek vandaag?\nKapper: Laat me even kijken. Vandaag zit het helaas vol. Ik heb morgenochtend om tien uur een plek vrij, of morgemiddag om half drie.\nMevrouw Hendriks: Morgenochtend tien uur is prima. Ik wil graag knippen en verven.\nKapper: Goed. Wat voor knipbeurt wilt u? Alleen bijpunten of een nieuw model?\nMevrouw Hendriks: Ik wil het korter, tot op mijn schouders. Nu is het te lang en het kost te veel tijd in de ochtend.\nKapper: Dat kan zeker. En welke kleur wilt u?\nMevrouw Hendriks: Ik wil graag de grijze haren laten verven. Mijn eigen kleur is donkerbruin, dus die kleur graag.\nKapper: Prima. Dan bent u ongeveer twee uur bezig. Knippen kost negenentwintig euro en verven begint bij vijfenveertig euro, afhankelijk van de lengte. Bij uw lengte wordt het vijfenveertig euro. Samen dus vierenzeventig euro.\nMevrouw Hendriks: Dat is goed. Kan ik met pin betalen?\nKapper: Ja, natuurlijk. Dan zie ik u morgen om tien uur. Mag ik uw telefoonnummer voor de afspraak? Dan stuur ik een herinnering.\nMevrouw Hendriks: Ja hoor, het is nul-zes, twee-vier-acht-een-vijf-drie-nul-negen.\nKapper: Tot morgen!",
+      "questions": [
+        {
+          "id": "l-a2-10-q1",
+          "text": "Waarom kan mevrouw Hendriks niet vandaag terecht?",
+          "options": [
+            "De kapsalon is gesloten",
+            "Het zit vandaag vol",
+            "De kapper is ziek",
+            "Ze heeft geen afspraak gemaakt"
+          ],
+          "correctIndex": 1,
+          "explanation": "De kapper zegt dat het vandaag helaas vol zit.",
+          "explanationEn": "The hairdresser says it's unfortunately fully booked today."
+        },
+        {
+          "id": "l-a2-10-q2",
+          "text": "Hoe kort wil mevrouw Hendriks haar haar?",
+          "options": [
+            "Heel kort, boven de oren",
+            "Tot op haar schouders",
+            "Alleen de punten eraf",
+            "Tot op haar kin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mevrouw Hendriks zegt dat ze het korter wil, tot op haar schouders.",
+          "explanationEn": "Mrs. Hendriks says she wants it shorter, down to her shoulders."
+        },
+        {
+          "id": "l-a2-10-q3",
+          "text": "Hoeveel kost knippen en verven samen?",
+          "options": [
+            "Vijfenveertig euro",
+            "Negenenzestig euro",
+            "Vierenzeventig euro",
+            "Negenentwintig euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "Knippen kost negenentwintig euro en verven kost vijfenveertig euro. Samen is dat vierenzeventig euro.",
+          "explanationEn": "Cutting costs twenty-nine euros and coloring costs forty-five euros. Together that's seventy-four euros."
+        },
+        {
+          "id": "l-a2-10-q4",
+          "text": "Hoe lang duurt de afspraak ongeveer?",
+          "options": [
+            "Een uur",
+            "Anderhalf uur",
+            "Twee uur",
+            "Drie uur"
+          ],
+          "correctIndex": 2,
+          "explanation": "De kapper zegt dat ze ongeveer twee uur bezig is.",
+          "explanationEn": "The hairdresser says it will take approximately two hours."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-10-t1.mp3"
+    },
+    {
+      "id": "l-a2-10-t2",
+      "title": "Gesprek bij het UWV",
+      "transcript": "Adviseur: Goedemorgen, u heeft een afspraak om half tien? Mag ik uw naam?\nMeneer Petrov: Ja, mijn naam is Petrov. Ik ben ontslagen en wil me inschrijven als werkzoekende.\nAdviseur: Dat spijt me om te horen. Wanneer is uw laatste werkdag?\nMeneer Petrov: Dat was afgelopen vrijdag, de eenentwintigste.\nAdviseur: Goed. U moet zich binnen één week na uw laatste werkdag inschrijven, dus dat is op tijd. Heeft u uw ontslagbrief bij u?\nMeneer Petrov: Ja, hier is de brief. En ik heb ook mijn identiteitsbewijs meegenomen.\nAdviseur: Prima. Ik leg het proces uit. Eerst schrijven we u vandaag in als werkzoekende. Daarna heeft u tien werkdagen om digitaal een WW-uitkering aan te vragen op uwv.nl. U heeft daar uw DigiD voor nodig.\nMeneer Petrov: Hoelang heb ik recht op een uitkering?\nAdviseur: Dat hangt af van uw arbeidsverleden. Op basis van uw gegevens heeft u twaalf maanden recht op WW. De eerste twee maanden krijgt u vijfenzeventig procent van uw laatstverdiende loon. Daarna is het zeventig procent.\nMeneer Petrov: En moet ik ook solliciteren?\nAdviseur: Ja, u bent verplicht om minimaal vier keer per maand te solliciteren. We stellen ook een re-integratieplan op. Dat is een plan om u te helpen weer aan het werk te komen. U krijgt mogelijk een cursus aangeboden, bijvoorbeeld sollicitatietraining of een opleiding.\nMeneer Petrov: Wanneer is onze volgende afspraak?\nAdviseur: Over twee weken. Dan bespreken we uw re-integratieplan. Neem uw CV mee, dan kijk ik ernaar.",
+      "questions": [
+        {
+          "id": "l-a2-10-q5",
+          "text": "Binnen hoeveel tijd moet je je inschrijven na je laatste werkdag?",
+          "options": [
+            "Binnen twee weken",
+            "Binnen één maand",
+            "Binnen één week",
+            "Binnen drie dagen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt dat je je binnen één week na je laatste werkdag moet inschrijven.",
+          "explanationEn": "The advisor says you must register within one week after your last working day."
+        },
+        {
+          "id": "l-a2-10-q6",
+          "text": "Hoe lang heeft meneer Petrov recht op WW?",
+          "options": [
+            "Zes maanden",
+            "Twaalf maanden",
+            "Achttien maanden",
+            "Vierentwintig maanden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De adviseur zegt dat meneer Petrov op basis van zijn gegevens twaalf maanden recht heeft op WW.",
+          "explanationEn": "The advisor says Mr. Petrov is entitled to twelve months of unemployment benefits based on his records."
+        },
+        {
+          "id": "l-a2-10-q7",
+          "text": "Hoeveel procent van het loon krijg je na de eerste twee maanden?",
+          "options": [
+            "Vijfenzeventig procent",
+            "Tachtig procent",
+            "Zeventig procent",
+            "Zestig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt dat je na de eerste twee maanden zeventig procent van het laatstverdiende loon krijgt.",
+          "explanationEn": "The advisor says that after the first two months, you receive seventy percent of your last earned salary."
+        },
+        {
+          "id": "l-a2-10-q8",
+          "text": "Hoe vaak moet meneer Petrov minimaal solliciteren?",
+          "options": [
+            "Twee keer per week",
+            "Eén keer per week",
+            "Vier keer per maand",
+            "Tien keer per maand"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt dat je verplicht bent om minimaal vier keer per maand te solliciteren.",
+          "explanationEn": "The advisor says you are required to apply for jobs at least four times per month."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-10-t2.mp3"
+    },
+    {
+      "id": "l-a2-10-t3",
+      "title": "In de huisartsenpraktijk",
+      "transcript": "Receptionist: Huisartsenpraktijk Van den Berg, goedemorgen.\nMevrouw Kaya: Goedemorgen, met mevrouw Kaya. Ik wil graag een afspraak maken. Het is een beetje dringend.\nReceptionist: Wat zijn uw klachten, mevrouw Kaya?\nMevrouw Kaya: Mijn zoon van acht heeft sinds gisteravond hoge koorts, negenendertig komma vijf graden. Hij hoest ook veel en heeft pijn in zijn borst.\nReceptionist: Dat klinkt vervelend. Heeft u al ibuprofen of paracetamol gegeven?\nMevrouw Kaya: Ja, ik heb paracetamol gegeven, maar de koorts gaat niet omlaag.\nReceptionist: Ik ga even overleggen met de huisarts. Eén moment alstublieft.\nReceptionist: Mevrouw Kaya, de huisarts wil uw zoon vandaag nog zien. We hebben een plek om kwart over elf. Kunt u dan komen?\nMevrouw Kaya: Ja, dat lukt. Moet ik nog iets meenemen?\nReceptionist: Neem zijn zorgpas mee en, als u het heeft, een overzicht van de temperatuur. Schrijf op hoe hoog de koorts was en hoe laat.\nMevrouw Kaya: Oké, dat doe ik. Is er parkeergelegenheid bij de praktijk?\nReceptionist: Ja, er is een klein parkeerterrein achter het gebouw. U kunt daar gratis parkeren. De ingang is aan de Schoolstraat zes. Komt u via de zijdeur, want de hoofdingang is vandaag dicht vanwege een verbouwing.\nMevrouw Kaya: Begrepen, dank u wel. Tot straks.",
+      "questions": [
+        {
+          "id": "l-a2-10-q9",
+          "text": "Hoe hoog is de koorts van de zoon?",
+          "options": [
+            "Achtendertig komma vijf graden",
+            "Negenendertig graden",
+            "Negenendertig komma vijf graden",
+            "Veertig graden"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mevrouw Kaya zegt dat haar zoon negenendertig komma vijf graden koorts heeft.",
+          "explanationEn": "Mrs. Kaya says her son has a fever of 39.5 degrees."
+        },
+        {
+          "id": "l-a2-10-q10",
+          "text": "Welk medicijn heeft mevrouw Kaya al gegeven?",
+          "options": [
+            "Ibuprofen",
+            "Antibiotica",
+            "Paracetamol",
+            "Hoestdrank"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mevrouw Kaya zegt dat ze paracetamol heeft gegeven, maar dat de koorts niet omlaag gaat.",
+          "explanationEn": "Mrs. Kaya says she gave paracetamol, but the fever isn't going down."
+        },
+        {
+          "id": "l-a2-10-q11",
+          "text": "Hoe laat is de afspraak?",
+          "options": [
+            "Om tien uur",
+            "Om kwart over elf",
+            "Om half twaalf",
+            "Om twaalf uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptionist zegt dat er een plek is om kwart over elf.",
+          "explanationEn": "The receptionist says there is a slot at quarter past eleven."
+        },
+        {
+          "id": "l-a2-10-q12",
+          "text": "Via welke ingang moet mevrouw Kaya binnenkomen?",
+          "options": [
+            "Via de hoofdingang",
+            "Via de achterdeur",
+            "Via de zijdeur",
+            "Via de parkeergarage"
+          ],
+          "correctIndex": 2,
+          "explanation": "De receptionist zegt dat ze via de zijdeur moet komen, want de hoofdingang is dicht vanwege een verbouwing.",
+          "explanationEn": "The receptionist says she should come through the side entrance, because the main entrance is closed due to renovations."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-10-t3.mp3"
+    },
+    {
+      "id": "l-a2-10-t4",
+      "title": "Op de camping",
+      "transcript": "Receptie: Welkom bij Camping De Meerhoeve. Waarmee kan ik u helpen?\nMevrouw Jansen: Hallo, wij willen graag inchecken. We hebben gereserveerd onder de naam Jansen.\nReceptie: Eén momentje. Ja, ik zie het: twee nachten, van vrijdag tot zondag. U heeft een kampeerplaats met stroom gereserveerd voor een tent, klopt dat?\nMevrouw Jansen: Ja, dat klopt. Wat is er allemaal bij de camping?\nReceptie: We hebben een toiletgebouw met warme douches. Douchen kost één euro per keer, met munten die u bij ons kunt kopen. Er is ook een kleine supermarkt die open is van acht tot twaalf en van drie tot zes. En voor de kinderen is er een speeltuin en een zwemvijver.\nMevrouw Jansen: Fijn, onze kinderen zullen dat leuk vinden. Wat kost het in totaal?\nReceptie: De kampeerplaats is eenentwintig euro per nacht. Stroom is drie euro vijftig per nacht. Toeristenbelasting is één euro vijfentwintig per persoon per nacht. Met hoeveel personen bent u?\nMevrouw Jansen: Twee volwassenen en twee kinderen.\nReceptie: Kinderen onder de twaalf betalen geen toeristenbelasting. Dus twee volwassenen is twee euro vijftig per nacht aan toeristenbelasting. Het totaal voor twee nachten is eenenvijftig euro.\nMevrouw Jansen: Prima. Zijn er nog regels die we moeten weten?\nReceptie: Ja, na tweeëntwintig uur is het stil op de camping. Geen luide muziek of geluid. Honden zijn welkom maar moeten altijd aangelijnd zijn. En u mag geen open vuur maken, maar een barbecue op een verhoging is wel toegestaan.\nMevrouw Jansen: Goed, duidelijk. Waar is onze plek?\nReceptie: U staat op plek zevenendertig, bij het meer. Rij rechtdoor en het is de derde weg rechts.",
+      "questions": [
+        {
+          "id": "l-a2-10-q13",
+          "text": "Hoeveel kost douchen op de camping?",
+          "options": [
+            "Het is gratis",
+            "Vijftig cent per keer",
+            "Eén euro per keer",
+            "Twee euro per keer"
+          ],
+          "correctIndex": 2,
+          "explanation": "De receptie zegt dat douchen één euro per keer kost, met munten.",
+          "explanationEn": "The reception says showering costs one euro per time, using coins."
+        },
+        {
+          "id": "l-a2-10-q14",
+          "text": "Wie moet er toeristenbelasting betalen?",
+          "options": [
+            "Iedereen, ook de kinderen",
+            "Alleen de twee volwassenen",
+            "Niemand, het is inbegrepen",
+            "Alleen de kinderen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kinderen onder de twaalf betalen geen toeristenbelasting. Alleen de twee volwassenen betalen.",
+          "explanationEn": "Children under twelve don't pay tourist tax. Only the two adults pay."
+        },
+        {
+          "id": "l-a2-10-q15",
+          "text": "Wat is NIET toegestaan op de camping?",
+          "options": [
+            "Barbecue op een verhoging",
+            "Open vuur maken",
+            "Een hond meenemen",
+            "Zwemmen in de vijver"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptie zegt dat je geen open vuur mag maken. Een barbecue op een verhoging is wel toegestaan.",
+          "explanationEn": "The reception says you may not make an open fire. A barbecue on an elevated stand is allowed."
+        },
+        {
+          "id": "l-a2-10-q16",
+          "text": "Hoeveel betaalt de familie in totaal voor twee nachten?",
+          "options": [
+            "Tweeënveertig euro",
+            "Eenenvijftig euro",
+            "Negenenveertig euro",
+            "Vijfenvijftig euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptie zegt dat het totaal voor twee nachten eenenvijftig euro is.",
+          "explanationEn": "The reception says the total for two nights is fifty-one euros."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-10-t4.mp3"
+    },
+    {
+      "id": "l-a2-10-t5",
+      "title": "Telefoongesprek energiebedrijf",
+      "transcript": "Medewerker: Goedemiddag, u spreekt met Thomas van EnergieGroen. Waarmee kan ik u helpen?\nMeneer De Boer: Hallo, ik bel omdat ik een heel hoge energierekening heb gekregen. Het is bijna het dubbele van vorig jaar en ik begrijp niet waarom.\nMedewerker: Dat is vervelend. Mag ik uw klantnummer?\nMeneer De Boer: Ja, dat is E-G-drie-vier-vijf-zes-zeven-acht.\nMedewerker: Ik heb uw gegevens voor me. Ik zie dat uw jaarafrekening negentienhonderd euro is. Vorig jaar was dat elfhonderd euro. Het verschil komt door twee dingen: de energieprijzen zijn gestegen met twintig procent en uw gasverbruik is ook hoger dan vorig jaar.\nMeneer De Boer: Hoe kan dat? We gebruiken het huis op dezelfde manier.\nMedewerker: Het kan komen door de koude winter. Heeft u een slimme meter? Dan kan ik uw verbruik per maand bekijken.\nMeneer De Boer: Ja, we hebben een slimme meter.\nMedewerker: Ik zie dat vooral in december en januari het gasverbruik veel hoger was dan normaal. Dat past bij het koude weer.\nMeneer De Boer: Oké, dat begrijp ik. Maar ik kan het bijbetalen van achthonderd euro niet in één keer betalen. Kan ik een betalingsregeling krijgen?\nMedewerker: Ja, dat kan. We kunnen het bedrag spreiden over zes maanden. Dan betaalt u honderddrieëndertig euro per maand bovenop uw normale maandbedrag. Of we spreiden het over tien maanden, dan is het tachtig euro per maand.\nMeneer De Boer: Tien maanden graag. Dat is beter te doen.\nMedewerker: Prima, ik regel dat. Ik raad u ook aan om uw maandelijks voorschot te verhogen, dan voorkomt u volgend jaar weer zo'n hoge bijbetaling. Ik stel voor om het te verhogen van honderdvijftig naar honderdtachtig euro per maand.\nMeneer De Boer: Goed idee. Doe dat maar.",
+      "questions": [
+        {
+          "id": "l-a2-10-q17",
+          "text": "Hoeveel is de jaarafrekening van meneer De Boer?",
+          "options": [
+            "Elfhonderd euro",
+            "Vijftienhonderd euro",
+            "Negentienhonderd euro",
+            "Tweeduizend euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt dat de jaarafrekening negentienhonderd euro is.",
+          "explanationEn": "The employee says the annual bill is nineteen hundred euros."
+        },
+        {
+          "id": "l-a2-10-q18",
+          "text": "Wat zijn de twee oorzaken van de hogere rekening?",
+          "options": [
+            "Meer gasverbruik en een duurder contract",
+            "Gestegen energieprijzen en hoger gasverbruik",
+            "Een kapotte meter en verkeerd tarief",
+            "Hoger stroomverbruik en een koude zomer"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker noemt twee oorzaken: de energieprijzen zijn gestegen met twintig procent en het gasverbruik is hoger dan vorig jaar.",
+          "explanationEn": "The employee mentions two causes: energy prices have risen by twenty percent and gas consumption is higher than last year."
+        },
+        {
+          "id": "l-a2-10-q19",
+          "text": "Welke betalingsregeling kiest meneer De Boer?",
+          "options": [
+            "In één keer betalen",
+            "Zes maanden, honderddrieëndertig euro per maand",
+            "Tien maanden, tachtig euro per maand",
+            "Twaalf maanden, zestig euro per maand"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meneer De Boer kiest voor tien maanden, waardoor hij tachtig euro per maand betaalt.",
+          "explanationEn": "Mr. De Boer chooses ten months, paying eighty euros per month."
+        },
+        {
+          "id": "l-a2-10-q20",
+          "text": "Hoeveel wordt het nieuwe maandelijkse voorschot?",
+          "options": [
+            "Honderdvijftig euro",
+            "Honderdvijfenzestig euro",
+            "Honderdtachtig euro",
+            "Tweehonderd euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker stelt voor om het voorschot te verhogen van honderdvijftig naar honderdtachtig euro per maand.",
+          "explanationEn": "The employee suggests increasing the advance payment from one hundred fifty to one hundred eighty euros per month."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-a2-10-t5.mp3"
+    }
+  ],
+  "isFreePreview": false
+}

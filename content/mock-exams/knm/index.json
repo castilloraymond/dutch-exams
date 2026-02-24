@@ -66,6 +66,22 @@
       "isFreePreview": false
     },
     {
+      "id": "knm-a2-5",
+      "title": "KNM A2 - Oefenexamen 5",
+      "difficulty": "A2",
+      "questionCount": 40,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "knm-a2-6",
+      "title": "KNM A2 - Oefenexamen 6",
+      "difficulty": "A2",
+      "questionCount": 40,
+      "recommendedTime": "30 min",
+      "isFreePreview": false
+    },
+    {
       "id": "knm-b1-1",
       "title": "KNM B1 - Oefenexamen 1",
       "difficulty": "B1",

@@ -1,0 +1,530 @@
+{
+  "id": "knm-a2-5",
+  "title": "KNM A2 - Oefenexamen 5",
+  "module": "knm",
+  "difficulty": "A2",
+  "questionCount": 40,
+  "recommendedTime": "30 min",
+  "questions": [
+    {
+      "id": "knm-a2-5-q1",
+      "text": "Wat staat er in een arbeidscontract?",
+      "options": [
+        "Alleen je naam en adres",
+        "Je salaris, werktijden en functie",
+        "Alleen het adres van het bedrijf",
+        "Je medische gegevens"
+      ],
+      "correctIndex": 1,
+      "explanation": "In een arbeidscontract staan afspraken over je salaris, werktijden, functie, vakantiedagen en andere arbeidsvoorwaarden.",
+      "explanationEn": "An employment contract contains agreements about your salary, working hours, job title, vacation days, and other employment conditions."
+    },
+    {
+      "id": "knm-a2-5-q2",
+      "text": "Wat is het minimumloon in Nederland?",
+      "options": [
+        "Het laagste bedrag dat een werkgever per uur mag betalen volgens de wet",
+        "Het gemiddelde salaris in Nederland",
+        "Het hoogste salaris dat je kunt verdienen",
+        "Het bedrag dat je aan belasting betaalt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Het minimumloon is het laagste bedrag dat een werkgever wettelijk verplicht is te betalen. Het wordt twee keer per jaar aangepast.",
+      "explanationEn": "The minimum wage is the lowest amount an employer is legally required to pay. It is adjusted twice a year."
+    },
+    {
+      "id": "knm-a2-5-q3",
+      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "options": [
+        "Je hoeft niets te doen",
+        "Je gaat gewoon naar je werk",
+        "Je belt je werkgever om je ziek te melden",
+        "Je stuurt een brief naar de gemeente"
+      ],
+      "correctIndex": 2,
+      "explanation": "Als je ziek bent, moet je je zo snel mogelijk ziek melden bij je werkgever. De werkgever betaalt je loon door tijdens ziekte (minimaal 70%).",
+      "explanationEn": "When you are sick, you must report your illness to your employer as soon as possible. The employer continues to pay your salary during illness (at least 70%)."
+    },
+    {
+      "id": "knm-a2-5-q4",
+      "text": "Waar kun je je inschrijven als je werkloos wordt?",
+      "options": [
+        "Bij de huisarts",
+        "Bij de school",
+        "Bij de woningcorporatie",
+        "Bij het UWV"
+      ],
+      "correctIndex": 3,
+      "explanation": "Als je werkloos wordt, kun je je inschrijven bij het UWV (Uitvoeringsinstituut Werknemersverzekeringen). Het UWV helpt je bij het zoeken naar werk en je kunt een WW-uitkering aanvragen.",
+      "explanationEn": "When you become unemployed, you can register with the UWV (Employee Insurance Agency). The UWV helps you find work and you can apply for unemployment benefits."
+    },
+    {
+      "id": "knm-a2-5-q5",
+      "text": "Hoeveel vakantiedagen heb je minimaal per jaar bij een fulltime baan in Nederland?",
+      "options": [
+        "10 dagen",
+        "15 dagen",
+        "20 dagen",
+        "30 dagen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bij een fulltime baan heb je wettelijk recht op minimaal 20 vakantiedagen per jaar (4 keer het aantal werkdagen per week).",
+      "explanationEn": "With a full-time job, you are legally entitled to at least 20 vacation days per year (4 times the number of working days per week)."
+    },
+    {
+      "id": "knm-a2-5-q6",
+      "text": "Wat is een huurcontract?",
+      "options": [
+        "Een contract om een auto te kopen",
+        "Een schriftelijke afspraak tussen huurder en verhuurder over het huren van een woning",
+        "Een contract bij de bank voor een lening",
+        "Een document van de gemeente over je adres"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een huurcontract is een schriftelijke overeenkomst tussen de huurder en de verhuurder. Hierin staan afspraken over de huurprijs, de woning en de rechten en plichten.",
+      "explanationEn": "A rental contract is a written agreement between the tenant and the landlord. It contains agreements about the rent, the property, and rights and obligations."
+    },
+    {
+      "id": "knm-a2-5-q7",
+      "text": "Wat is een woningcorporatie?",
+      "options": [
+        "Een bedrijf dat huizen bouwt en verkoopt aan rijke mensen",
+        "Een organisatie die sociale huurwoningen verhuurt aan mensen met een lager inkomen",
+        "Een afdeling van de politie",
+        "Een winkel waar je meubels koopt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een woningcorporatie is een organisatie die betaalbare sociale huurwoningen aanbiedt, vooral voor mensen met een lager inkomen.",
+      "explanationEn": "A housing corporation is an organization that offers affordable social rental housing, especially for people with lower incomes."
+    },
+    {
+      "id": "knm-a2-5-q8",
+      "text": "Wat zegt het energielabel van een woning?",
+      "options": [
+        "Hoe groot de woning is",
+        "Hoeveel kamers de woning heeft",
+        "Hoe energiezuinig de woning is",
+        "Hoe oud de woning is"
+      ],
+      "correctIndex": 2,
+      "explanation": "Het energielabel geeft aan hoe energiezuinig een woning is. Label A is heel zuinig, label G is niet zuinig. Dit heeft invloed op je energiekosten.",
+      "explanationEn": "The energy label indicates how energy-efficient a house is. Label A is very efficient, label G is not efficient. This affects your energy costs."
+    },
+    {
+      "id": "knm-a2-5-q9",
+      "text": "Wat is huurtoeslag?",
+      "options": [
+        "Extra huur die je moet betalen aan de verhuurder",
+        "Geld dat je betaalt voor een parkeerplaats",
+        "Een toeslag van de overheid om je huur te helpen betalen als je een laag inkomen hebt",
+        "Een verzekering voor je huurwoning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Huurtoeslag is een bijdrage van de overheid voor mensen met een laag inkomen. Je kunt het aanvragen bij de Belastingdienst/Toeslagen.",
+      "explanationEn": "Huurtoeslag (rent subsidy) is a government contribution for people with a low income. You can apply for it at the Tax Authority/Benefits department."
+    },
+    {
+      "id": "knm-a2-5-q10",
+      "text": "Waar staat 'GWE' voor op je maandelijkse rekening?",
+      "options": [
+        "Gas, Water en Elektriciteit",
+        "Gemeente, Woning en Energie",
+        "Geld, Werk en Economie",
+        "Garantie, Woning en Eigendom"
+      ],
+      "correctIndex": 0,
+      "explanation": "GWE staat voor Gas, Water en Elektriciteit. Dit zijn de basisvoorzieningen in je woning waarvoor je maandelijks betaalt.",
+      "explanationEn": "GWE stands for Gas, Water, and Electricity. These are the basic utilities in your home that you pay for monthly."
+    },
+    {
+      "id": "knm-a2-5-q11",
+      "text": "Wat moet je doen als je in Nederland naar een specialist in het ziekenhuis wilt?",
+      "options": [
+        "Je gaat direct naar het ziekenhuis",
+        "Je belt 112",
+        "Je vraagt eerst een verwijzing aan je huisarts",
+        "Je belt de apotheek"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Nederland heb je een verwijzing van je huisarts nodig om naar een specialist in het ziekenhuis te gaan. De huisarts is altijd het eerste aanspreekpunt.",
+      "explanationEn": "In the Netherlands, you need a referral from your GP to see a specialist at the hospital. The GP is always the first point of contact."
+    },
+    {
+      "id": "knm-a2-5-q12",
+      "text": "Wat is het 'eigen risico' bij de zorgverzekering?",
+      "options": [
+        "De premie die je elke maand betaalt",
+        "Het bedrag dat je zelf moet betalen voordat de verzekering de kosten vergoedt",
+        "De kosten voor een bezoek aan de huisarts",
+        "Het geld dat je terugkrijgt van de verzekering"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het eigen risico is het bedrag dat je eerst zelf moet betalen aan zorgkosten voordat de zorgverzekering gaat betalen. De huisarts valt niet onder het eigen risico.",
+      "explanationEn": "The eigen risico (deductible) is the amount you must first pay yourself in healthcare costs before the insurance starts paying. GP visits are not subject to the deductible."
+    },
+    {
+      "id": "knm-a2-5-q13",
+      "text": "Wat doet de GGD?",
+      "options": [
+        "De GGD verkoopt medicijnen",
+        "De GGD is de gemeentelijke gezondheidsdienst die zorgt voor de publieke gezondheid",
+        "De GGD is een ziekenhuis voor ouderen",
+        "De GGD regelt je zorgverzekering"
+      ],
+      "correctIndex": 1,
+      "explanation": "De GGD (Gemeentelijke Gezondheidsdienst) zorgt voor de publieke gezondheid. Ze geven vaccinaties, doen gezondheidsonderzoek en geven voorlichting.",
+      "explanationEn": "The GGD (Municipal Health Service) is responsible for public health. They provide vaccinations, conduct health screenings, and give health education."
+    },
+    {
+      "id": "knm-a2-5-q14",
+      "text": "Welk telefoonnummer bel je bij een levensbedreigende situatie in Nederland?",
+      "options": [
+        "0800-1234",
+        "0900-8844",
+        "112",
+        "144"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bij een levensbedreigende situatie bel je 112. Dit is het alarmnummer voor politie, brandweer en ambulance in heel Europa.",
+      "explanationEn": "In a life-threatening situation, you call 112. This is the emergency number for police, fire department, and ambulance across Europe."
+    },
+    {
+      "id": "knm-a2-5-q15",
+      "text": "Waar haal je medicijnen op die de huisarts heeft voorgeschreven?",
+      "options": [
+        "Bij de supermarkt",
+        "Bij het gemeentehuis",
+        "Bij de apotheek",
+        "Bij het ziekenhuis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Medicijnen die de huisarts voorschrijft, haal je op bij de apotheek. De apotheker controleert of de medicijnen veilig zijn voor jou.",
+      "explanationEn": "Medications prescribed by the GP are picked up at the pharmacy. The pharmacist checks whether the medications are safe for you."
+    },
+    {
+      "id": "knm-a2-5-q16",
+      "text": "Wanneer wordt Koningsdag gevierd in Nederland?",
+      "options": [
+        "Op 5 mei",
+        "Op 27 april",
+        "Op 25 december",
+        "Op 1 januari"
+      ],
+      "correctIndex": 1,
+      "explanation": "Koningsdag wordt gevierd op 27 april, de verjaardag van Koning Willem-Alexander. Het is een nationale feestdag met markten en festiviteiten.",
+      "explanationEn": "King's Day is celebrated on April 27th, the birthday of King Willem-Alexander. It is a national holiday with markets and festivities."
+    },
+    {
+      "id": "knm-a2-5-q17",
+      "text": "Wat wordt er op 4 mei herdacht in Nederland?",
+      "options": [
+        "De verjaardag van de koning",
+        "Het einde van de Eerste Wereldoorlog",
+        "Alle slachtoffers van de Tweede Wereldoorlog en andere oorlogen",
+        "De oprichting van de Europese Unie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Op 4 mei is de Dodenherdenking. Dan herdenken Nederlanders alle slachtoffers van de Tweede Wereldoorlog en latere oorlogen. Om 20:00 uur zijn er twee minuten stilte.",
+      "explanationEn": "On May 4th is Remembrance Day. The Dutch commemorate all victims of World War II and later wars. At 8:00 PM, there are two minutes of silence."
+    },
+    {
+      "id": "knm-a2-5-q18",
+      "text": "Wie was Willem van Oranje?",
+      "options": [
+        "De eerste president van Nederland",
+        "De vader des vaderlands en leider van de opstand tegen Spanje",
+        "De burgemeester van Amsterdam in de 17e eeuw",
+        "De oprichter van de VOC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Willem van Oranje wordt de 'Vader des Vaderlands' genoemd. Hij leidde de opstand tegen de Spaanse overheersing in de 16e eeuw.",
+      "explanationEn": "William of Orange is called the 'Father of the Fatherland.' He led the revolt against Spanish rule in the 16th century."
+    },
+    {
+      "id": "knm-a2-5-q19",
+      "text": "Wat zijn polders?",
+      "options": [
+        "Bergen in het zuiden van Nederland",
+        "Grote meren in het noorden",
+        "Stukken land die drooggemaakt zijn door het water weg te pompen",
+        "Bossen die door de overheid beschermd worden"
+      ],
+      "correctIndex": 2,
+      "explanation": "Polders zijn stukken land die onder de zeespiegel liggen en drooggemaakt zijn door het water weg te pompen. Waterschappen beheren het waterpeil.",
+      "explanationEn": "Polders are pieces of land that lie below sea level and have been reclaimed by pumping away the water. Water boards manage the water levels."
+    },
+    {
+      "id": "knm-a2-5-q20",
+      "text": "Wat was de VOC?",
+      "options": [
+        "Een Nederlandse voetbalclub",
+        "Een vakbond voor arbeiders",
+        "De Verenigde Oost-Indische Compagnie, een handelsonderneming die handel dreef met Azië",
+        "Een politieke partij uit de 18e eeuw"
+      ],
+      "correctIndex": 2,
+      "explanation": "De VOC (Verenigde Oost-Indische Compagnie) was een Nederlandse handelsonderneming opgericht in 1602. Ze dreef handel met Azië en was een van de eerste multinationale bedrijven.",
+      "explanationEn": "The VOC (Dutch East India Company) was a Dutch trading company founded in 1602. It traded with Asia and was one of the first multinational companies."
+    },
+    {
+      "id": "knm-a2-5-q21",
+      "text": "Hoe lang duurt de basisschool in Nederland?",
+      "options": [
+        "6 jaar (groep 1 tot en met 6)",
+        "8 jaar (groep 1 tot en met 8)",
+        "5 jaar (groep 1 tot en met 5)",
+        "10 jaar (groep 1 tot en met 10)"
+      ],
+      "correctIndex": 1,
+      "explanation": "De basisschool in Nederland duurt 8 jaar, van groep 1 tot en met groep 8. Kinderen beginnen meestal als ze 4 jaar oud zijn.",
+      "explanationEn": "Primary school in the Netherlands lasts 8 years, from group 1 through group 8. Children usually start when they are 4 years old."
+    },
+    {
+      "id": "knm-a2-5-q22",
+      "text": "Wat is de CITO-toets?",
+      "options": [
+        "Een examen om je rijbewijs te halen",
+        "Een taaltoets voor inburgering",
+        "Een eindtoets in groep 8 die helpt bij de keuze voor het middelbaar onderwijs",
+        "Een examen voor de universiteit"
+      ],
+      "correctIndex": 2,
+      "explanation": "De CITO-toets (of doorstroomtoets) is een eindtoets in groep 8 van de basisschool. Het resultaat helpt bij het advies voor het niveau van het middelbaar onderwijs.",
+      "explanationEn": "The CITO test (or transition test) is a final test in group 8 of primary school. The result helps determine the recommendation for the level of secondary education."
+    },
+    {
+      "id": "knm-a2-5-q23",
+      "text": "Wat is het verschil tussen MBO, HBO en WO?",
+      "options": [
+        "MBO is beroepsonderwijs, HBO is hoger beroepsonderwijs, WO is wetenschappelijk onderwijs aan de universiteit",
+        "Het zijn drie verschillende basisscholen",
+        "MBO, HBO en WO zijn drie soorten middelbare scholen",
+        "Er is geen verschil, het zijn dezelfde opleiding"
+      ],
+      "correctIndex": 0,
+      "explanation": "MBO is middelbaar beroepsonderwijs (praktijkgericht), HBO is hoger beroepsonderwijs (hogeschool) en WO is wetenschappelijk onderwijs (universiteit).",
+      "explanationEn": "MBO is secondary vocational education (practical), HBO is higher professional education (university of applied sciences), and WO is academic education (university)."
+    },
+    {
+      "id": "knm-a2-5-q24",
+      "text": "Vanaf welke leeftijd is een kind in Nederland leerplichtig?",
+      "options": [
+        "Vanaf 3 jaar",
+        "Vanaf 4 jaar",
+        "Vanaf 5 jaar",
+        "Vanaf 6 jaar"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Nederland zijn kinderen leerplichtig vanaf 5 jaar. De meeste kinderen gaan al naar school als ze 4 zijn, maar dat is niet verplicht.",
+      "explanationEn": "In the Netherlands, children are required to attend school from the age of 5. Most children already go to school at age 4, but that is not mandatory."
+    },
+    {
+      "id": "knm-a2-5-q25",
+      "text": "Wie kiest de school voor een kind in Nederland?",
+      "options": [
+        "De gemeente kiest de school",
+        "De ouders kiezen de school",
+        "De overheid wijst een school toe",
+        "Het kind moet naar de dichtstbijzijnde school"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland hebben ouders vrijheid van schoolkeuze. Ze mogen zelf kiezen naar welke school hun kind gaat, ongeacht richting (openbaar, religieus, etc.).",
+      "explanationEn": "In the Netherlands, parents have freedom of school choice. They may choose which school their child attends, regardless of the school's orientation (public, religious, etc.)."
+    },
+    {
+      "id": "knm-a2-5-q26",
+      "text": "Zijn mannen en vrouwen gelijk in Nederland?",
+      "options": [
+        "Nee, mannen hebben meer rechten",
+        "Ja, mannen en vrouwen zijn wettelijk gelijk en hebben dezelfde rechten",
+        "Alleen op het werk zijn ze gelijk",
+        "Alleen als ze getrouwd zijn"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland zijn mannen en vrouwen wettelijk gelijk. Ze hebben dezelfde rechten, bijvoorbeeld op het gebied van werk, onderwijs en stemrecht. Dit staat in de Grondwet.",
+      "explanationEn": "In the Netherlands, men and women are legally equal. They have the same rights, for example in the areas of work, education, and voting. This is stated in the Constitution."
+    },
+    {
+      "id": "knm-a2-5-q27",
+      "text": "Wat is een belangrijke Nederlandse norm als het gaat om verschillende meningen en culturen?",
+      "options": [
+        "Iedereen moet hetzelfde denken",
+        "Je mag alleen je mening geven als de overheid het toestaat",
+        "Tolerantie: je respecteert dat andere mensen anders denken of leven",
+        "Je moet altijd het eens zijn met je buren"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tolerantie is een belangrijke waarde in Nederland. Je hoeft het niet met iedereen eens te zijn, maar je respecteert dat mensen anders kunnen denken of leven.",
+      "explanationEn": "Tolerance is an important value in the Netherlands. You don't have to agree with everyone, but you respect that people may think or live differently."
+    },
+    {
+      "id": "knm-a2-5-q28",
+      "text": "Je hebt een afspraak om 14:00 bij de tandarts. Wat wordt er van je verwacht?",
+      "options": [
+        "Je komt wanneer het jou uitkomt",
+        "Je komt op tijd of belt van tevoren als je later komt",
+        "Je hoeft niet te bellen als je niet komt",
+        "Je kunt een uur later komen, dat is normaal"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland is het belangrijk om afspraken na te komen en op tijd te zijn. Als je niet kunt komen of later bent, bel je van tevoren om dit te melden.",
+      "explanationEn": "In the Netherlands, it is important to keep appointments and be on time. If you cannot come or will be late, you call in advance to let them know."
+    },
+    {
+      "id": "knm-a2-5-q29",
+      "text": "Hoe communiceren Nederlanders over het algemeen?",
+      "options": [
+        "Ze zeggen nooit wat ze denken",
+        "Ze zijn heel formeel en spreken alleen via brieven",
+        "Ze communiceren direct en zeggen eerlijk wat ze vinden",
+        "Ze praten alleen via sociale media"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nederlanders staan bekend om hun directe communicatie. Ze zeggen eerlijk wat ze vinden. Dit is niet onbeleefd bedoeld, maar wordt gezien als eerlijk en efficiënt.",
+      "explanationEn": "The Dutch are known for their direct communication. They honestly say what they think. This is not meant to be rude, but is seen as honest and efficient."
+    },
+    {
+      "id": "knm-a2-5-q30",
+      "text": "Wat is een belangrijk recht in Nederland met betrekking tot privacy?",
+      "options": [
+        "Je werkgever mag altijd je e-mails lezen",
+        "De politie mag zonder reden je huis binnenkomen",
+        "Iedereen mag je medische gegevens inzien",
+        "Je hebt recht op privacy; je persoonlijke gegevens worden beschermd door de wet"
+      ],
+      "correctIndex": 3,
+      "explanation": "In Nederland heb je recht op privacy. De wet beschermt je persoonlijke gegevens. Niemand mag zomaar je post openen, je huis binnenkomen of je gegevens delen.",
+      "explanationEn": "In the Netherlands, you have the right to privacy. The law protects your personal data. No one may open your mail, enter your home, or share your data without reason."
+    },
+    {
+      "id": "knm-a2-5-q31",
+      "text": "Wat doet de Tweede Kamer?",
+      "options": [
+        "De Tweede Kamer bestuurt de provincies",
+        "De Tweede Kamer controleert de regering en maakt wetten",
+        "De Tweede Kamer is het hoogste gerechtshof",
+        "De Tweede Kamer organiseert verkiezingen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Tweede Kamer is een onderdeel van het parlement. De 150 leden controleren de regering en stemmen over wetsvoorstellen.",
+      "explanationEn": "The Tweede Kamer (House of Representatives) is part of parliament. The 150 members scrutinize the government and vote on legislative proposals."
+    },
+    {
+      "id": "knm-a2-5-q32",
+      "text": "Wie is de burgemeester?",
+      "options": [
+        "De leider van een politieke partij",
+        "Het hoofd van de regering",
+        "Het hoofd van de gemeente",
+        "De voorzitter van de Tweede Kamer"
+      ],
+      "correctIndex": 2,
+      "explanation": "De burgemeester is het hoofd van de gemeente. De burgemeester wordt niet gekozen door de inwoners, maar benoemd door de Koning op voordracht van de gemeenteraad.",
+      "explanationEn": "The mayor is the head of the municipality. The mayor is not elected by residents, but appointed by the King on the recommendation of the municipal council."
+    },
+    {
+      "id": "knm-a2-5-q33",
+      "text": "Wat doet de gemeenteraad?",
+      "options": [
+        "De gemeenteraad maakt landelijke wetten",
+        "De gemeenteraad beslist over zaken in de gemeente en controleert het gemeentebestuur",
+        "De gemeenteraad beheert de provincies",
+        "De gemeenteraad benoemt de minister-president"
+      ],
+      "correctIndex": 1,
+      "explanation": "De gemeenteraad is het hoogste bestuursorgaan van de gemeente. De raadsleden worden gekozen door de inwoners en beslissen over lokale zaken.",
+      "explanationEn": "The municipal council is the highest governing body of the municipality. Council members are elected by residents and decide on local matters."
+    },
+    {
+      "id": "knm-a2-5-q34",
+      "text": "Hoe werken verkiezingen in Nederland?",
+      "options": [
+        "Alleen mannen mogen stemmen",
+        "Je moet stemmen, anders krijg je een boete",
+        "Elke Nederlander van 18 jaar of ouder mag stemmen; stemmen is niet verplicht",
+        "Je mag pas stemmen als je 21 jaar bent"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Nederland mag iedereen met de Nederlandse nationaliteit van 18 jaar of ouder stemmen. Stemmen is een recht, maar geen plicht.",
+      "explanationEn": "In the Netherlands, everyone with Dutch nationality aged 18 or older may vote. Voting is a right, but not an obligation."
+    },
+    {
+      "id": "knm-a2-5-q35",
+      "text": "Wat zijn politieke partijen?",
+      "options": [
+        "Groepen mensen die dezelfde ideeën hebben over hoe het land bestuurd moet worden",
+        "Organisaties die feesten organiseren",
+        "Afdelingen van de politie",
+        "Bedrijven die voor de overheid werken"
+      ],
+      "correctIndex": 0,
+      "explanation": "Politieke partijen zijn groepen mensen met dezelfde ideeën over het bestuur van het land. In Nederland zijn er veel partijen, wat het een meerpartijenstelsel maakt.",
+      "explanationEn": "Political parties are groups of people with the same ideas about governing the country. In the Netherlands there are many parties, making it a multi-party system."
+    },
+    {
+      "id": "knm-a2-5-q36",
+      "text": "Hoeveel provincies heeft Nederland?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft 12 provincies, zoals Noord-Holland, Zuid-Holland, Utrecht, Gelderland, Limburg en Friesland.",
+      "explanationEn": "The Netherlands has 12 provinces, such as Noord-Holland, Zuid-Holland, Utrecht, Gelderland, Limburg, and Friesland."
+    },
+    {
+      "id": "knm-a2-5-q37",
+      "text": "Wat is de Randstad?",
+      "options": [
+        "Een snelweg in het noorden van Nederland",
+        "Het stedelijk gebied met Amsterdam, Rotterdam, Den Haag en Utrecht",
+        "Een eiland in de Waddenzee",
+        "Een berggebied in Limburg"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Randstad is het dichtbevolkte stedelijke gebied in het westen van Nederland met de vier grote steden: Amsterdam, Rotterdam, Den Haag en Utrecht.",
+      "explanationEn": "The Randstad is the densely populated urban area in the west of the Netherlands with the four major cities: Amsterdam, Rotterdam, The Hague, and Utrecht."
+    },
+    {
+      "id": "knm-a2-5-q38",
+      "text": "Welke grote rivieren stromen door Nederland?",
+      "options": [
+        "De Donau en de Elbe",
+        "De Rijn, de Maas en de Waal",
+        "De Seine en de Theems",
+        "De Oder en de Weser"
+      ],
+      "correctIndex": 1,
+      "explanation": "De belangrijkste rivieren in Nederland zijn de Rijn, de Maas en de Waal. Ze stromen van oost naar west en monden uit in de Noordzee.",
+      "explanationEn": "The main rivers in the Netherlands are the Rhine, the Meuse, and the Waal. They flow from east to west and discharge into the North Sea."
+    },
+    {
+      "id": "knm-a2-5-q39",
+      "text": "Hoe is het klimaat in Nederland?",
+      "options": [
+        "Tropisch met veel zon",
+        "Gematigd zeeklimaat met milde winters en koele zomers",
+        "Heel koud met veel sneeuw in de winter",
+        "Droog en warm het hele jaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland heeft een gematigd zeeklimaat. Dat betekent milde winters, koele zomers en het hele jaar door regen. Het weer verandert vaak.",
+      "explanationEn": "The Netherlands has a temperate maritime climate. That means mild winters, cool summers, and rain throughout the year. The weather changes often."
+    },
+    {
+      "id": "knm-a2-5-q40",
+      "text": "Welke landen grenzen aan Nederland?",
+      "options": [
+        "Frankrijk en Zwitserland",
+        "België en Duitsland",
+        "Denemarken en Polen",
+        "Engeland en Luxemburg"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland grenst aan België (in het zuiden) en Duitsland (in het oosten). In het westen en noorden ligt de Noordzee.",
+      "explanationEn": "The Netherlands borders Belgium (to the south) and Germany (to the east). To the west and north lies the North Sea."
+    }
+  ]
+}

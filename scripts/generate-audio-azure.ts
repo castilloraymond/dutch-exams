@@ -52,6 +52,12 @@ const VOICE_MAP: Record<string, string> = {
   sarah: "nl-NL-FennaNeural",
   "mevrouw aydin": "nl-NL-FennaNeural",
   "mevrouw bakker": "nl-NL-ColetteNeural",
+  "mevrouw osman": "nl-NL-FennaNeural",
+  "mevrouw hendriks": "nl-NL-ColetteNeural",
+  "mevrouw kaya": "nl-NL-FennaNeural",
+  "mevrouw jansen": "nl-NL-ColetteNeural",
+  sandra: "nl-NL-FennaNeural",
+  receptie: "nl-NL-ColetteNeural",
   "juf marieke": "nl-NL-ColetteNeural",
   "juf van dam": "nl-NL-ColetteNeural",
   huurder: "nl-NL-FennaNeural",
@@ -97,6 +103,11 @@ const VOICE_MAP: Record<string, string> = {
   tom: "nl-NL-MaartenNeural",
   "meneer bakker": "nl-NL-MaartenNeural",
   "meneer hassan": "nl-NL-MaartenNeural",
+  "meneer de jong": "nl-NL-MaartenNeural",
+  "meneer yilmaz": "nl-NL-MaartenNeural",
+  "meneer van dijk": "nl-NL-MaartenNeural",
+  "meneer petrov": "nl-NL-MaartenNeural",
+  "meneer de boer": "nl-NL-MaartenNeural",
   "medewerker ns": "nl-NL-MaartenNeural",
   kind: "nl-NL-FennaNeural",
   kinderen: "nl-NL-FennaNeural",
@@ -152,6 +163,13 @@ const PITCH_MAP: Record<string, string> = {
   bewoner: "+2%",
   presentator: "0%",
   gast1: "+2%",
+
+  // Named male speakers from mock exams
+  "meneer de jong": "+3%",
+  "meneer yilmaz": "+2%",
+  "meneer van dijk": "0%",
+  "meneer petrov": "+2%",
+  "meneer de boer": "+3%",
 
   // Casual/younger - slightly higher
   buurman: "+3%",
@@ -445,6 +463,7 @@ async function main(): Promise<void> {
     "a1-exam-1", "a1-exam-2", "a1-exam-3", "a1-exam-4",
     "a2-exam-1", "a2-exam-2", "a2-exam-3", "a2-exam-4",
     "a2-exam-5", "a2-exam-6", "a2-exam-7", "a2-exam-8",
+    "a2-exam-9", "a2-exam-10",
     "b1-exam-1", "b1-exam-2",
   ];
   const mockExamsDir = path.join(process.cwd(), "content", "mock-exams", "luisteren");

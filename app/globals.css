@@ -191,6 +191,19 @@
   box-shadow: 0 8px 30px rgba(232, 99, 43, 0.35);
 }
 
+/* Scroll indicator animation */
+@keyframes scroll-hint {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+.animate-scroll-hint {
+  animation: scroll-hint 2s ease-in-out infinite;
+}
+
+/* Hide scrollbar for horizontal scroll cards */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Blog Prose Styles */
 .prose-navy {
   color: var(--ink);

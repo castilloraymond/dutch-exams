@@ -66,6 +66,22 @@
       "isFreePreview": false
     },
     {
+      "id": "lezen-a2-5",
+      "title": "Lezen A2 - Oefenexamen 5",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "35 min",
+      "isFreePreview": false
+    },
+    {
+      "id": "lezen-a2-6",
+      "title": "Lezen A2 - Oefenexamen 6",
+      "difficulty": "A2",
+      "questionCount": 20,
+      "recommendedTime": "35 min",
+      "isFreePreview": false
+    },
+    {
       "id": "lezen-b1-1",
       "title": "Lezen B1 - Oefenexamen 1",
       "difficulty": "B1",

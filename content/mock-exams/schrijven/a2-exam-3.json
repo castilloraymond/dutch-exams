@@ -1,0 +1,170 @@
+{
+  "id": "schrijven-a2-3",
+  "title": "Schrijven A2 - Oefenexamen 3",
+  "module": "schrijven",
+  "difficulty": "A2",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": false,
+  "tips": [
+    "Read the scenario carefully — make sure you understand what information is asked.",
+    "For forms, use the Dutch date format (DD-MM-YYYY) and postal code format (1234 AB).",
+    "When writing to a doctor's office or business, use formal language (u/uw).",
+    "Keep your messages simple and to the point — include all requested details but don't over-explain."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "register",
+      "text": "I used the right formality level for each situation",
+      "textEn": "I used the right formality level for each situation"
+    },
+    {
+      "id": "complete",
+      "text": "I included all necessary information in each answer",
+      "textEn": "I included all necessary information in each answer"
+    },
+    {
+      "id": "structure",
+      "text": "My messages are well-structured with a greeting and closing",
+      "textEn": "My messages are well-structured with a greeting and closing"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-a2-3-q1",
+      "scenario": "U wilt lid worden van een sportschool bij u in de buurt. Vul het inschrijfformulier in.",
+      "scenarioEn": "You want to become a member of a gym near your home. Fill in the registration form.",
+      "prompt": "Vul het formulier in met uw gegevens.",
+      "promptEn": "Fill in the form with your information.",
+      "taskType": "form",
+      "formFields": [
+        {
+          "id": "voornaam",
+          "label": "Voornaam",
+          "labelEn": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw voornaam"
+        },
+        {
+          "id": "achternaam",
+          "label": "Achternaam",
+          "labelEn": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw achternaam"
+        },
+        {
+          "id": "geboortedatum",
+          "label": "Geboortedatum",
+          "labelEn": "Date of birth",
+          "type": "date",
+          "required": true
+        },
+        {
+          "id": "adres",
+          "label": "Adres",
+          "labelEn": "Address",
+          "type": "text",
+          "required": true,
+          "placeholder": "Straat en huisnummer"
+        },
+        {
+          "id": "postcode",
+          "label": "Postcode",
+          "labelEn": "Postal code",
+          "type": "text",
+          "required": true,
+          "placeholder": "1234 AB"
+        },
+        {
+          "id": "woonplaats",
+          "label": "Woonplaats",
+          "labelEn": "City",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw stad"
+        },
+        {
+          "id": "telefoonnummer",
+          "label": "Telefoonnummer",
+          "labelEn": "Phone number",
+          "type": "text",
+          "required": true,
+          "placeholder": "06-12345678"
+        },
+        {
+          "id": "email",
+          "label": "E-mailadres",
+          "labelEn": "Email address",
+          "type": "text",
+          "required": true,
+          "placeholder": "uw@email.nl"
+        },
+        {
+          "id": "lidmaatschap",
+          "label": "Type lidmaatschap",
+          "labelEn": "Membership type",
+          "type": "select",
+          "required": true,
+          "options": ["Basis", "Standaard", "Premium"]
+        },
+        {
+          "id": "startdatum",
+          "label": "Gewenste startdatum",
+          "labelEn": "Desired start date",
+          "type": "date",
+          "required": true
+        }
+      ],
+      "selfAssessmentCriteria": [
+        { "id": "q1-all-fields", "text": "I filled in all required fields", "textEn": "I filled in all required fields" },
+        { "id": "q1-date-format", "text": "I used the correct date format", "textEn": "I used the correct date format" },
+        { "id": "q1-postcode", "text": "I used the correct Dutch postal code format", "textEn": "I used the correct Dutch postal code format" }
+      ],
+      "modelAnswer": {
+        "voornaam": "Sofia",
+        "achternaam": "Martinez",
+        "geboortedatum": "1988-03-22",
+        "adres": "Keizersgracht 456",
+        "postcode": "1016 GD",
+        "woonplaats": "Amsterdam",
+        "telefoonnummer": "06-23456789",
+        "email": "sofia.martinez@email.nl",
+        "lidmaatschap": "Standaard",
+        "startdatum": "2026-03-01"
+      }
+    },
+    {
+      "id": "schrijven-a2-3-q2",
+      "scenario": "U heeft een afspraak bij de huisarts, maar u kunt niet komen. U wilt de afspraak verzetten.",
+      "scenarioEn": "You have an appointment at the GP, but you cannot make it. You want to reschedule.",
+      "prompt": "Schrijf een bericht aan de huisartsenpraktijk. Zeg dat u de afspraak niet kunt komen en vraag om een nieuwe afspraak.",
+      "promptEn": "Write a message to the GP practice. Say you cannot make the appointment and ask for a new one.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-cancel", "text": "I clearly said I cannot come to the appointment", "textEn": "I clearly said I cannot come to the appointment" },
+        { "id": "q2-date", "text": "I mentioned when the original appointment is", "textEn": "I mentioned when the original appointment is" },
+        { "id": "q2-new", "text": "I asked for a new appointment", "textEn": "I asked for a new appointment" },
+        { "id": "q2-formal", "text": "I used formal language (u/uw)", "textEn": "I used formal language (u/uw)" }
+      ],
+      "modelAnswer": "Geachte mevrouw, mijnheer,\n\nIk heb een afspraak op donderdag 12 maart om 14:00 uur bij dokter Visser. Helaas kan ik niet komen omdat ik die dag moet werken. Kunt u een nieuwe afspraak voor mij maken? Ik ben beschikbaar op maandag of vrijdag in de middag.\n\nMet vriendelijke groet,\nSofia Martinez\nTel: 06-23456789"
+    },
+    {
+      "id": "schrijven-a2-3-q3",
+      "scenario": "Een vriend heeft u uitgenodigd om te komen eten. U bent vegetariër.",
+      "scenarioEn": "A friend has invited you for dinner. You are a vegetarian.",
+      "prompt": "Schrijf een bericht aan uw vriend. Vertel dat u vegetariër bent zodat hij of zij daar rekening mee kan houden.",
+      "promptEn": "Write a message to your friend. Tell them you are a vegetarian so they can take that into account.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 50 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-thanks", "text": "I thanked my friend for the invitation", "textEn": "I thanked my friend for the invitation" },
+        { "id": "q3-diet", "text": "I clearly explained that I am a vegetarian", "textEn": "I clearly explained that I am a vegetarian" },
+        { "id": "q3-friendly", "text": "My message is friendly and positive", "textEn": "My message is friendly and positive" }
+      ],
+      "modelAnswer": "Hoi Thomas,\n\nBedankt voor de uitnodiging, ik kom graag eten! Ik wil je wel even laten weten dat ik vegetariër ben. Ik eet dus geen vlees en vis. Is dat een probleem? Anders kan ik ook iets meenemen.\n\nTot zaterdag!\nGroetjes,\nSofia"
+    }
+  ]
+}
