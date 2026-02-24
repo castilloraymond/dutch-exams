@@ -1,6 +1,6 @@
 # CLAUDE.md — Project Memory & Session Rules
 
-## Rules for Claude Code (read this first every session)
+## Rules for Claude Code
 
 ### 1. Token Efficiency
 - NEVER re-read files that are already documented below unless I explicitly ask you to
@@ -15,27 +15,10 @@
   - If my request is ambiguous, ask me a SPECIFIC multiple-choice question rather than an open-ended one
   - Example: Instead of "What do you want to change?" ask "Do you want to (A) change the button color, (B) change what happens when the button is clicked, or (C) something else?"
 
-### 3. After Every Task
-- After completing any change, append a brief note to the "Session Notes" section below with:
-  - Date
-  - What was changed (which files, what the change does)
-  - Why (the plain English intent behind the change)
-  - Any side effects or things to watch out for
-- If you discover something new about the codebase that isn't documented here, add it to the relevant section
-
-### 4. Before Starting Work
-- Read this entire CLAUDE.md file first
+### 3. Communication
 - Tell me which file(s) you plan to edit BEFORE making changes
 - If the task touches more than 3 files, give me a quick plan first
-
-### 5. Translation Guide Updates
-- Whenever I use a plain English term and you translate it to something technical, add it to the Translation Guide section
-- Format: "When I say [X], I mean [technical term]: [brief explanation]"
-
-### 6. Continuous Learning
-- If you notice I keep asking for similar types of changes, suggest a pattern or shortcut
-- If you find repeated code that could be simplified, flag it in Known Issues & Tech Debt
-- Track which files I modify most often — these are my "hot files"
+- Only update CLAUDE.md when you discover a NEW gotcha or pattern that affects future work — don't log routine changes (that's what git commits are for)
 
 ---
 
@@ -248,7 +231,7 @@ AuthProvider (root layout) → useAuth() hook
 │   │   ├── luisteren.json
 │   │   ├── schrijven.json
 │   │   └── spreken.json
-│   └── blog/                     # Blog posts (markdown with frontmatter)
+│   └── blog/                     # Blog posts — frontmatter: title, slug, description, date, author, keywords
 │       ├── scheduled/            # Pre-written posts for auto-publishing
 │       │   └── YYYY-MM-DD-slug.md  # 12 scheduled posts (Feb–May 2026)
 │       ├── inburgering-exam-guide-professionals-2026.md
@@ -460,22 +443,6 @@ API routes
 - All exam pages share: ExamHeader, ExamLayout, ContentPanel, QuestionGrid, ExamBottomNav, ResultsSummary
 - Writing/Speaking use self-assessment rubrics instead of auto-grading
 
-## File Conventions
-
-- Exercise content: `/content/<module>/` as JSON
-- Each module index: `/content/<module>/index.json`
-- Mock exams: `/content/mock-exams/<module>/` with index.json + exam files
-- Quick assessment: `/content/quick-assessment/` per-module JSON
-- Blog posts: `/content/blog/*.md` with frontmatter (title, slug, description, date, author, keywords) — 13 published + 12 scheduled in `content/blog/scheduled/`
-- Scheduled blog posts: `/content/blog/scheduled/YYYY-MM-DD-slug.md` — auto-published by GitHub Actions cron (`.github/workflows/scheduled-publish.yml`)
-- UI components: `/components/ui/` (shadcn primitives — button, card, input, label, progress, radio-group)
-- Feature components: `/components/` (AudioPlayer, ExamLayout, ResultsSummary, etc.)
-- Module-specific components: `/components/schrijven/`, `/components/spreken/`
-- Landing components: `/components/landing/` (barrel-exported via `index.ts`)
-- Auth components: `/components/auth/` (barrel-exported via `index.ts`)
-- Hooks: `/hooks/` (useProgress, useExamState, useExitWarning, useScrollReveal, useAzureTTS, useAudioRecorder)
-- Lib: `/lib/` (content, types, progress, blog, utils, loops, supabase-*, rate-limit, validate-redirect)
-
 ## Environment Variables (Optional)
 
 - `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
@@ -483,177 +450,38 @@ API routes
 - `LOOPS_API_KEY` — Loops CRM API key (server-side only, used in `lib/loops.ts`)
 - Azure TTS credentials (used in `app/api/tts/route.ts`)
 
-## Git Workflow — Permanent 3-Worktree Setup
+## Git Workflow
 
-Three permanent worktrees, one per work domain. See `docs/WORKTREE-WORKFLOW.md` for full guide.
+Three permanent worktrees for parallel work sessions:
 
-| Worktree | Prefix | Domain |
-|---|---|---|
-| `inburgering-app-features` | `features/` | New features |
-| `inburgering-app-bug-fix` | `fix/` | Bug fixes |
-| `inburgering-app-mktg` | `mktg/` | Marketing & content |
+| Worktree | Directory | Branch prefix | Use for |
+|---|---|---|---|
+| Main | `inburgering-app` | — | Reference only, don't work here |
+| Features | `inburgering-app-features` | `features/` | New features |
+| Bug fixes | `inburgering-app-bug-fix` | `fix/` | Bug fixes |
+| Marketing | `inburgering-app-mktg` | `mktg/` | Content & marketing |
 
-**Key rules:**
-- Never work directly on main — always create a branch in the appropriate worktree
-- Worktrees sit in detached HEAD between tasks — `git checkout -b <prefix>/name` to start
-- Push branches immediately after creating them
-- Commit after each meaningful unit of work
-- Merge via GitHub PR, never locally
+**Starting a task:** Tell Claude "start working on [thing]" — Claude will:
+1. Check the worktree is clean and up-to-date with main
+2. Create a branch with the right prefix
+3. Push the branch immediately
 
-**Start a task:**
-```bash
-cd ../inburgering-app-features
-git checkout -b features/my-feature
-# work, commit, push
-```
+**Finishing a task:** Tell Claude "ship it" or "commit and create a PR" — Claude will:
+1. Commit, push, and create a PR
+2. After you merge on GitHub, tell Claude "PR merged, clean up" — Claude resets the worktree
 
-**After merge — reset worktree:**
-```bash
-git fetch origin && git checkout --detach origin/main
-git branch -d features/my-feature
-git push origin --delete features/my-feature
-```
+**If something looks wrong:** Tell Claude "check git health" — Claude will diagnose and fix.
 
-## Git Hygiene — Start-of-Session Checklist
-
-**Run this at the start of every session before doing any work.** Skipping this cost 2 days of admin on 2026-02-24.
-
-### Quick health check (Claude should run all 4 automatically)
-```bash
-# 1. Is main up to date?
-git fetch origin && git log --oneline HEAD..origin/main  # should be empty
-
-# 2. Are all worktrees clean and at the same commit?
-git worktree list  # all should show same hash, detached HEAD (except main)
-
-# 3. Any uncommitted changes in worktrees?
-for wt in ../inburgering-app-features ../inburgering-app-bug-fix ../inburgering-app-mktg; do
-  echo "=== $wt ===" && git -C "$wt" status --short
-done  # should all be empty
-
-# 4. Any stale remote branches?
-git branch -r --merged origin/main | grep -v 'origin/main\|origin/HEAD'  # delete these
-```
-
-### Rules that prevent drift
-1. **Pull main before anything else** — `git pull` in the main worktree
-2. **Reset worktrees immediately after PR merge** — don't leave them on merged branches
-3. **Delete remote branches right after merge** — don't let them accumulate
-4. **Never move the repo between storage locations** (e.g. Google Drive → local) without recreating worktrees — worktree `.git` files use absolute paths that break silently
-5. **If `git status` shows unexpected untracked files** — investigate before working. They may be orphaned from a previous redesign
-6. **After updating main, update all worktrees** — `git checkout --detach origin/main` in each
-
-### If things look wrong
-- Worktree pointing to wrong path → `git worktree remove <path>` + recreate
-- Worktree has massive unexpected diffs → likely stale, nuke and recreate from origin/main
-- Untracked files you don't recognize → check `git log --all -- <file>` to see if they were removed intentionally
+No manual git commands needed. Claude handles all git operations. See `docs/WORKTREE-WORKFLOW.md` for parallel session guidance and conflict avoidance.
 
 ---
 
-## Change Log
+## Active Gotchas
 
-Updated after each session.
+Current issues that will bite you if you don't know about them. Max 5 items — remove when resolved.
 
-<!-- Append entries here in format:
-### YYYY-MM-DD
-- What changed, which files, why
--->
-
-### 2026-02-24
-- Full git cleanup after Google Drive → local migration
-- Recreated bug-fix and mktg worktrees (were pointing to old Google Drive paths)
-- Deleted 7 stale remote branches, discarded orphaned schrijven/spreken files
-- Added "Git Hygiene — Start-of-Session Checklist" section to CLAUDE.md
-
-### 2026-02-19
-- Created automated blog publishing system: `.github/workflows/scheduled-publish.yml` (cron every Tuesday 8:00 CET)
-- Created `content/blog/scheduled/` directory with 12 pre-written blog posts (publishing Feb 25 – May 12, 2026)
-- Updated `docs/CONTENT-CALENDAR.md` to reflect scheduled posts
-- Blog total: 13 published + 12 scheduled = 25 posts
-
-### 2026-02-17
-- Added 10 new blog posts (3 pillar, 7 standard) — blog total now 13 posts
-- Upgraded blog UI: Source Serif 4 for body text, reading time, keyword tags, visual element boxes
-- Added Blog nav link to LandingNav (desktop + mobile)
-- Files changed: `app/layout.tsx`, `app/globals.css`, `app/blog/[slug]/page.tsx`, `app/blog/page.tsx`, `lib/blog.ts`, `components/landing/LandingNav.tsx`, 3 existing blog posts (backlinks), 10 new `.md` files in `content/blog/`
-- Added Loops CRM onboarding drip campaign (4-email, Day 0/1/3/7)
-- New files: `lib/loops.ts`, `app/api/loops/events/route.ts`, `docs/plans/crm-email-templates.md`
-- Modified: `app/auth/callback/route.ts` (user_signed_up event), `app/try/[module]/results/page.tsx` (quick_assessment_completed), `hooks/useProgress.ts` (exercise_completed)
-- New dependency: `loops` npm package
-
----
-
-## Session Notes
-
-Running log of decisions, bugs found, and context from each work session.
-
-<!-- Append entries here in format:
-### YYYY-MM-DD — Session Topic
-- Decisions made
-- Files modified
-- Bugs found
-- Side effects / watch-outs
--->
-
-### 2026-02-24 — Git Cleanup After Google Drive Migration
-- **Problem:** Moved repo from Google Drive to `/Users/raymond/Projects/vibe_code_projects/` but worktrees still had absolute paths to Google Drive. Result: 2 broken worktrees with 100+ phantom diffs, main 4 commits behind, 7 stale remote branches, orphaned files on disk.
-- **Root cause:** Git worktrees use absolute paths in `.git` files. Moving the parent repo doesn't update them.
-- **Fix:** Deleted broken worktrees, recreated fresh from local repo, pulled main, cleaned branches.
-- **Prevention:** Added "Git Hygiene — Start-of-Session Checklist" to CLAUDE.md. Claude should run this automatically at session start.
-- **Lesson:** Never move a git repo with worktrees between storage locations without recreating the worktrees. Also: reset worktrees immediately after PR merges — don't let them sit on merged branches.
-
-### 2026-02-17 — CRM Onboarding Drip Campaign (Loops)
-- Installed `loops` SDK, created `lib/loops.ts` server-side wrapper with graceful dev-mode fallback (logs to console when `LOOPS_API_KEY` not set)
-- Created `/api/loops/events` POST endpoint for client-side event firing — rate-limited (20/min/IP), event name whitelist
-- `user_signed_up` event fires server-side in `app/auth/callback/route.ts` after successful `exchangeCodeForSession` — creates Loops contact + fires event non-blocking
-- `quick_assessment_completed` fires client-side from `app/try/[module]/results/page.tsx` — calculates weakest module across all attempted assessments, guarded by localStorage flag
-- `exercise_completed` fires from `hooks/useProgress.ts` via helper functions `countExercises()` and `fireExerciseCompleted()` — fires on exam completion, writing attempt save, and speaking attempt save
-- `LOOPS_API_KEY` is server-side only — never appears in any `"use client"` file, client events go through `/api/loops/events`
-- Email templates drafted in `docs/plans/crm-email-templates.md` following brand voice guide
-- Pre-existing build error still present (`npm run build` fails on `/learn/knm/exam` InvariantError), `npx tsc --noEmit` passes clean
-
-### 2026-02-17 — Blog Expansion + UI Upgrade
-- Blog posts use `div` and `span` in markdown (allowed in DOMPurify) for visual elements: `.stat-box`, `.takeaway-box`, `.tip-box`, `.warning-box`
-- `lib/blog.ts` now computes `readingTime` field on `BlogPostMeta` (~250 words/min)
-- Blog body text uses Source Serif 4 (serif) while headings stay in Jakarta Sans — editorial feel
-- Tables in `.prose-navy` now have dark headers, alternating rows, rounded corners
-- All 13 blog posts interlink heavily — article 1 (30-day study plan) is the hub linked from 7+ others
-- Blog frontmatter convention: `author: "PassInBurgering"` (not personal name)
-- Pre-existing build error: `npm run build` fails on `/learn/knm/exam` (Next.js 16 InvariantError) — not caused by blog changes, `npx tsc --noEmit` passes clean
-
-### 2026-02-19 — Automated Blog Content Calendar (12 Weeks)
-- Created GitHub Actions scheduled publishing workflow: `.github/workflows/scheduled-publish.yml`
-  - Cron: every Tuesday at 7:00 UTC (8:00 CET) + manual `workflow_dispatch` trigger
-  - Moves date-eligible `.md` files from `content/blog/scheduled/` to `content/blog/`, strips date prefix, commits & pushes
-  - Files in `scheduled/` are invisible to blog system (lib/blog.ts only reads top-level `content/blog/*.md`)
-- Created `content/blog/scheduled/` directory with `.gitkeep`
-- Wrote 12 blog posts in `content/blog/scheduled/` (auto-publishing Feb 25 – May 12):
-  1. `2026-02-25-luisteren-exam-format-scoring.md` (~2,412 words) — Listening exam format, scoring, prep tips
-  2. `2026-03-03-schrijven-writing-exam-guide.md` (~2,665 words) — Writing exam tasks, grading criteria, template strategy
-  3. `2026-03-10-spreken-speaking-exam-new-format-2025.md` (~2,962 words) — New speaking format (100% spoken, no MC)
-  4. `2026-03-17-ona-career-orientation-explained.md` (~1,825 words) — ONA portfolio requirement explained
-  5. `2026-03-24-wi2013-vs-wi2021-which-rules-apply.md` (~2,092 words) — Which inburgering law applies, decision tree
-  6. `2026-03-31-inburgering-exemptions-guide.md` (~2,304 words) — Full exemption categories + flowchart
-  7. `2026-04-07-which-inburgering-exam-first.md` (~2,200 words) — Optimal exam order strategy
-  8. `2026-04-14-how-to-register-inburgering-exam.md` (~2,300 words) — Step-by-step DUO registration guide
-  9. `2026-04-21-dutch-politics-knm-guide.md` (~2,400 words) — Dutch political system for KNM
-  10. `2026-04-28-dutch-housing-tenant-rights-knm.md` (~2,249 words) — Housing & tenant rights for KNM
-  11. `2026-05-05-inburgering-deadlines-fines-extensions.md` (~2,073 words) — Deadlines, fines & extensions
-  12. `2026-05-12-dutch-work-culture-knm-guide.md` (~2,474 words) — Dutch work culture for KNM
-- All posts follow WRITING-STYLE-GUIDE.md: brand voice, visual elements (stat-box, takeaway-box, tip-box, warning-box), FAQ sections, 2-4 internal links, platform CTAs
-- Banned word scan run on all 12 posts — 2 violations fixed (replaced "landscape" and "navigate")
-- Updated `docs/CONTENT-CALENDAR.md`: marked all 12 articles as scheduled, added publishing schedule table
-- Posts interlink with existing 13 published posts + cross-reference each other (links resolve as posts publish sequentially)
-
----
-
-## Translation Guide
-
-Plain English -> Technical mapping built over time.
-
-<!-- Append entries here in format:
-- When I say "[X]", I mean [technical term]: [brief explanation]
--->
+1. **Build error:** `npm run build` fails on `/learn/knm/exam` (Next.js 16 InvariantError). `npx tsc --noEmit` passes clean. Not blocking dev work.
+2. **Blog HTML in markdown:** Blog posts use `div` and `span` with classes (`.stat-box`, `.takeaway-box`, `.tip-box`, `.warning-box`) inside markdown files. DOMPurify allows these. Don't strip them.
 
 ---
 
