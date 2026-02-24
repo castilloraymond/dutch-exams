@@ -4,6 +4,7 @@ import {
   LandingHero,
   TrustBar,
   ProblemSection,
+  IsThisForYou,
   HowItWorks,
   ExamModules,
   FAQ,
@@ -57,6 +58,7 @@ export default function Home() {
       <LandingHero />
       <TrustBar />
       <ProblemSection />
+      <IsThisForYou />
       <HowItWorks />
       <ExamModules />
       <FAQ />

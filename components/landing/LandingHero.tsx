@@ -20,7 +20,7 @@ export function LandingHero() {
                 </h1>
 
                 <p className="text-[1.15rem] text-[var(--ink-soft)] leading-[1.7] mb-8 max-w-[480px]">
-                    Stop wasting your time preparing. Ask everyone who has passed the test: The best way to practice is by doing actual exams.
+                    Don&apos;t just study Dutch. Train for the test. Ask anyone who has passed: the best way to prepare is by doing mock exams.
                 </p>
 
                 <div className="space-y-3 mb-8">

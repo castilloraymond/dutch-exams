@@ -2,8 +2,8 @@ export function TrustBar() {
     const stats = [
         { value: "1,000+", label: "Practice questions" },
         { value: "46", label: "Mock exams" },
-        { value: "5", label: "Exam modules" },
-        { value: "Free", label: "During beta" },
+        { value: "All 5", label: "Topics covered in the test" },
+        { value: "Totally Free", label: "During beta" },
     ];
 
     return (
