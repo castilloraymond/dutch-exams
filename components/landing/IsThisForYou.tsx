@@ -26,8 +26,8 @@ export function IsThisForYou() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-[900px] mx-auto">
                 {/* NOT for you column */}
                 <div className="rounded-[16px] border border-[#ebe8e0] p-5 sm:p-8">
-                    <h3 className="text-[1rem] font-bold text-[var(--ink-muted)] uppercase tracking-[0.04em] mb-6">
-                        Who it&apos;s NOT for
+                    <h3 className="text-[1rem] font-bold text-red-400 uppercase tracking-[0.04em] mb-6">
+                        This is NOT for you if&hellip;
                     </h3>
                     <div className="space-y-4">
                         {notFor.map((item, i) => (
