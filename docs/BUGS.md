@@ -6,6 +6,11 @@ Ongoing bug tracker for passinburgering.com. Detailed original report: [BUG_REPO
 
 ## Open Bugs
 
+### My Reports (owner-reported via bug widget)
+
+| # | Bug | Location | Reported | Status | Notes |
+|---|-----|----------|----------|--------|-------|
+
 ### Needs Triage (reported via bug widget)
 
 | # | Bug | Location | Reported | Status | Notes |
