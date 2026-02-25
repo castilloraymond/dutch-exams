@@ -1,3 +1,6 @@
+"use client";
+
+import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { BookOpen, Headphones, Landmark, PenLine, MessageCircle } from "lucide-react";
 
@@ -45,6 +48,23 @@ const modules = [
 ];
 
 export function ExamModules() {
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    useEffect(() => {
+        const container = scrollRef.current;
+        if (!container) return;
+        const onScroll = () => {
+            const { scrollLeft } = container;
+            const cardWidth = (container.firstElementChild as HTMLElement)?.offsetWidth ?? 1;
+            const gap = 16; // gap-4
+            const idx = Math.round(scrollLeft / (cardWidth + gap));
+            setActiveIndex(Math.min(idx, modules.length - 1));
+        };
+        container.addEventListener("scroll", onScroll, { passive: true });
+        return () => container.removeEventListener("scroll", onScroll);
+    }, []);
+
     return (
         <section className="py-10 sm:py-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto reveal" id="modules">
             <div className="text-[0.8rem] font-semibold text-[var(--accent)] uppercase tracking-[0.1em] mb-3 sm:mb-4">
@@ -57,12 +77,15 @@ export function ExamModules() {
                 The inburgering exam has 5 modules. We cover all of them.
             </p>
 
-            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 -mx-6 px-6 scrollbar-hide sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6 sm:overflow-visible sm:mx-0 sm:px-0 sm:pb-0">
+            <div
+                ref={scrollRef}
+                className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6 sm:overflow-visible sm:pb-0"
+            >
                 {modules.map((mod) => (
                     <Link
                         key={mod.name}
                         href={mod.href}
-                        className="min-w-[240px] snap-start shrink-0 sm:min-w-0 sm:shrink bg-white rounded-[16px] p-6 sm:p-9 border border-[#ebe8e0] hover:shadow-[var(--shadow-hover)] hover:translate-y-[-4px] hover:border-transparent transition-all duration-300 group"
+                        className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 sm:w-auto sm:min-w-0 sm:shrink bg-white rounded-[16px] p-6 sm:p-9 border border-[var(--ink)]/15 hover:shadow-[var(--shadow-hover)] hover:translate-y-[-4px] hover:border-transparent transition-all duration-300 group"
                     >
                         <div className={`w-[52px] h-[52px] rounded-[14px] flex items-center justify-center mb-5 ${mod.iconBg}`}>
                             {mod.icon}
@@ -73,6 +96,17 @@ export function ExamModules() {
                         </div>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">{mod.description}</p>
                     </Link>
+                ))}
+            </div>
+            {/* Dot indicators — mobile only */}
+            <div className="flex justify-center gap-2 mt-4 sm:hidden">
+                {modules.map((_, i) => (
+                    <div
+                        key={i}
+                        className={`w-2 h-2 rounded-full transition-colors duration-200 ${
+                            i === activeIndex ? "bg-[var(--ink)]" : "bg-[var(--ink)]/20"
+                        }`}
+                    />
                 ))}
             </div>
         </section>
