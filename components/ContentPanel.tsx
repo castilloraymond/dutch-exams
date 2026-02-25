@@ -120,7 +120,7 @@ export function ContentPanel(props: ContentPanelProps) {
           {props.contentType === "list" && renderListContent(props.content)}
           {props.contentType === "letter" && renderLetterContent(props.content)}
           {props.contentType === "notice" && renderNoticeContent(props.content)}
-          {(!props.contentType || props.contentType === "text") && (
+          {(!props.contentType || props.contentType === "text" || props.contentType === "article" || props.contentType === "brochure") && (
             <p className="text-base leading-relaxed whitespace-pre-wrap text-[var(--ink)]">
               {props.content}
             </p>

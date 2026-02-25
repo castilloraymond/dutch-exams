@@ -9,7 +9,7 @@ export interface Question {
 }
 
 // Content types for structured passage rendering
-export type PassageContentType = "text" | "list" | "letter" | "notice";
+export type PassageContentType = "text" | "list" | "letter" | "notice" | "article" | "brochure";
 
 export interface Passage {
   id: string;
