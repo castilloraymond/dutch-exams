@@ -30,7 +30,7 @@ export function HowItWorks() {
                 <h2 className="text-[clamp(2rem,3vw,2.6rem)] leading-[1.2] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-5 font-extrabold">
                     Three steps to prepare
                 </h2>
-                <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] max-w-[560px] mb-6 sm:mb-[36px]">
+                <p className="text-[1.05rem] text-[var(--ink-soft)] leading-[1.7] mb-6 sm:mb-[36px]">
                     No guesswork. No wasted time. Just structured practice on the real exam format.
                 </p>
 

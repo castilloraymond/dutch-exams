@@ -11,19 +11,19 @@ export function ProblemSection() {
         {
             icon: <Monitor className="h-6 w-6" />,
             iconBg: "bg-[var(--accent-soft)] text-[var(--accent)]",
-            title: "The Exact Format",
-            description: "Don\u2019t lose points because you\u2019re fumbling with a new interface on test day. Our exams look, feel, and function exactly like the real computer-based DUO tests.",
+            title: "Get Familiar",
+            description: "Don\u2019t panic on test day because you\u2019re seeing things for the first time. Our exams look, feel, and function exactly like the real computer-based DUO tests.",
         },
         {
             icon: <Layers className="h-6 w-6" />,
             iconBg: "bg-[var(--blue-soft)] text-[var(--blue)]",
-            title: "Large Quantity",
+            title: "Gain Confidence",
             description: "50+ mock exams to practice on. By the time you sit for the real test, you\u2019ll be familiar with the structure, comfortable with the question format, and know what to expect across all 5 modules.",
         },
         {
             icon: <Zap className="h-6 w-6" />,
             iconBg: "bg-[var(--accent-soft)] text-[var(--accent)]",
-            title: "Zero Friction",
+            title: "Start Now",
             description: "No useless drills and unhelpful questions. Just log in, pick a module, and start practicing immediately.",
         },
     ];
