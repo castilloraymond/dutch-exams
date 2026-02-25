@@ -36,7 +36,7 @@ export function LandingHero() {
                     ))}
                 </div>
 
-                <div className="flex flex-col items-center sm:items-start sm:flex-row sm:items-center gap-4 mb-4">
+                <div className="flex flex-col items-center sm:flex-row sm:items-center gap-4 mb-4">
                     <Link
                         href={user ? "/learn" : "/try"}
                         className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-9 py-4 rounded-full font-semibold text-base"
