@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 import { rateLimit } from "@/lib/rate-limit";
+import { appendBugToTracker } from "@/lib/github-bugs";
 
 export async function POST(request: NextRequest) {
     try {
@@ -78,6 +79,13 @@ export async function POST(request: NextRequest) {
             return NextResponse.json(
                 { error: "Failed to submit feedback. Please try again." },
                 { status: 500 }
+            );
+        }
+
+        // Append bug reports to BUGS.md in the repo (fire-and-forget — don't block the response)
+        if (feedback_type === "bug" || !feedback_type) {
+            appendBugToTracker(description.trim(), page_url || "", email?.trim() || null).catch(
+                (err) => console.error("Failed to update BUGS.md:", err)
             );
         }
 
