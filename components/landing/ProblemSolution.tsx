@@ -55,12 +55,12 @@ export function ProblemSection() {
             </p>
             <div
                 ref={scrollRef}
-                className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 -mx-6 px-6 scrollbar-hide md:grid md:grid-cols-3 md:overflow-visible md:mx-0 md:px-0 md:pb-0"
+                className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide md:grid md:grid-cols-3 md:overflow-visible md:pb-0"
             >
                 {cards.map((card, i) => (
                     <div
                         key={i}
-                        className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink bg-white rounded-[16px] p-6 sm:p-9 border border-[#ebe8e0] hover:shadow-[var(--shadow-hover)] hover:translate-y-[-4px] hover:border-transparent transition-all duration-300"
+                        className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink bg-white rounded-[16px] p-6 sm:p-9 border border-[var(--ink)]/15 hover:shadow-[var(--shadow-hover)] hover:translate-y-[-4px] hover:border-transparent transition-all duration-300"
                     >
                         <div className={`w-[52px] h-[52px] rounded-[14px] flex items-center justify-center mb-5 ${card.iconBg}`}>
                             {card.icon}

@@ -57,12 +57,12 @@ export function ExamModules() {
                 The inburgering exam has 5 modules. We cover all of them.
             </p>
 
-            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 -mx-6 px-6 scrollbar-hide sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6 sm:overflow-visible sm:mx-0 sm:px-0 sm:pb-0">
+            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6 sm:overflow-visible sm:pb-0">
                 {modules.map((mod) => (
                     <Link
                         key={mod.name}
                         href={mod.href}
-                        className="min-w-[240px] snap-start shrink-0 sm:min-w-0 sm:shrink bg-white rounded-[16px] p-6 sm:p-9 border border-[#ebe8e0] hover:shadow-[var(--shadow-hover)] hover:translate-y-[-4px] hover:border-transparent transition-all duration-300 group"
+                        className="min-w-[240px] snap-start shrink-0 sm:min-w-0 sm:shrink bg-white rounded-[16px] p-6 sm:p-9 border border-[var(--ink)]/15 hover:shadow-[var(--shadow-hover)] hover:translate-y-[-4px] hover:border-transparent transition-all duration-300 group"
                     >
                         <div className={`w-[52px] h-[52px] rounded-[14px] flex items-center justify-center mb-5 ${mod.iconBg}`}>
                             {mod.icon}

@@ -36,10 +36,10 @@ export function HowItWorks() {
 
                 <div
                     ref={scrollRef}
-                    className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 -mx-6 px-6 scrollbar-hide md:grid md:grid-cols-3 md:gap-10 md:overflow-visible md:mx-0 md:px-0 md:pb-0 [counter-reset:step]"
+                    className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide md:grid md:grid-cols-3 md:gap-10 md:overflow-visible md:pb-0 [counter-reset:step]"
                 >
                     {/* Step 1 */}
-                    <div className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[2.5rem] sm:before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-3 sm:before:mb-4 before:tracking-[-0.04em]">
+                    <div className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[2.5rem] sm:before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-3 sm:before:mb-4 before:tracking-[-0.04em] bg-white rounded-[16px] p-6 border border-[var(--ink)]/15">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Pick your module</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
                             Choose from Lezen, Luisteren, KNM, Schrijven, or Spreken. Each targets a specific section of the inburgering exam.
@@ -63,7 +63,7 @@ export function HowItWorks() {
                     </div>
 
                     {/* Step 2 */}
-                    <div className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[2.5rem] sm:before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-3 sm:before:mb-4 before:tracking-[-0.04em]">
+                    <div className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[2.5rem] sm:before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-3 sm:before:mb-4 before:tracking-[-0.04em] bg-white rounded-[16px] p-6 border border-[var(--ink)]/15">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Practice real exam questions</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
                             Same question format, same time pressure, same interface as the actual computer-based DUO exam. Every question includes an explanation.
@@ -78,7 +78,7 @@ export function HowItWorks() {
                     </div>
 
                     {/* Step 3 */}
-                    <div className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[2.5rem] sm:before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-3 sm:before:mb-4 before:tracking-[-0.04em]">
+                    <div className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink relative [counter-increment:step] before:content-[counter(step,decimal-leading-zero)] before:text-[2.5rem] sm:before:text-[4rem] before:font-extrabold before:text-[var(--ink)]/[0.15] before:leading-none before:block before:mb-3 sm:before:mb-4 before:tracking-[-0.04em] bg-white rounded-[16px] p-6 border border-[var(--ink)]/15">
                         <h3 className="text-[1.15rem] font-bold text-[var(--ink)] mb-2.5">Know when you&apos;re ready</h3>
                         <p className="text-[0.92rem] text-[var(--ink-soft)] leading-[1.65]">
                             Track your score across sessions. When you&apos;re consistently passing, stop studying and book your exam.
