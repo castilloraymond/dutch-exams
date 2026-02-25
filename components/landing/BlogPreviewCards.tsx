@@ -26,13 +26,13 @@ export function BlogPreviewCards({ posts }: { posts: BlogPostMeta[] }) {
         <>
             <div
                 ref={scrollRef}
-                className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 -mx-6 px-6 scrollbar-hide md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:mx-0 md:px-0 md:pb-0"
+                className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:pb-0"
             >
                 {posts.map((post) => (
                     <Link
                         key={post.slug}
                         href={`/blog/${post.slug}`}
-                        className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink bg-white rounded-[16px] p-5 sm:p-8 border border-[#ebe8e0] hover:shadow-[var(--shadow-hover)] hover:border-transparent transition-all duration-300 flex flex-col"
+                        className="w-[calc(100vw-48px)] min-w-[calc(100vw-48px)] snap-start shrink-0 md:w-auto md:min-w-0 md:shrink bg-white rounded-[16px] p-5 sm:p-8 border border-[var(--ink)]/15 hover:shadow-[var(--shadow-hover)] hover:border-transparent transition-all duration-300 flex flex-col"
                     >
                         <div className="text-[0.78rem] text-[var(--ink-muted)] mb-3">
                             {new Date(post.date).toLocaleDateString("en-US", {
