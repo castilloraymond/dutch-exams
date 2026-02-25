@@ -56,7 +56,7 @@ export async function POST(request: NextRequest) {
 
     // Whitelist module and difficulty values
     const VALID_MODULES = ["lezen", "knm", "luisteren", "schrijven", "spreken"];
-    const VALID_DIFFICULTIES = ["A1", "A2"];
+    const VALID_DIFFICULTIES = ["A1", "A2", "B1", "B2"];
     if (!VALID_MODULES.includes(module)) {
       return NextResponse.json({ error: "Invalid module" }, { status: 400 });
     }

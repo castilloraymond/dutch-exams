@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 import { rateLimit } from "@/lib/rate-limit";
+import { appendBugToTracker } from "@/lib/github-bugs";
+
+const OWNER_EMAIL = "hello@passinburgering.com";
 
 export async function POST(request: NextRequest) {
     try {
@@ -16,8 +19,8 @@ export async function POST(request: NextRequest) {
 
         const body = await request.json();
         let { page_url } = body;
-        const { feedback_type } = body;
-        let { description, email, user_agent, screen_size } = body;
+        const { feedback_type, is_owner_report } = body;
+        let { description, email, user_agent, screen_size, scroll_position, active_section, screenshot_url } = body;
 
         // Whitelist feedback_type
         const VALID_FEEDBACK_TYPES = ["bug", "feature", "improvement", "other"];
@@ -54,8 +57,32 @@ export async function POST(request: NextRequest) {
             }
         }
 
+        // Server-side owner verification — never trust the client flag alone
+        const verifiedOwnerReport = is_owner_report === true
+            && typeof email === "string"
+            && email.trim().toLowerCase() === OWNER_EMAIL;
+
+        // Sanitize owner-specific fields
+        if (scroll_position && typeof scroll_position === "string") {
+            scroll_position = /^\d{1,3}%$/.test(scroll_position) ? scroll_position : null;
+        } else {
+            scroll_position = null;
+        }
+        if (active_section && typeof active_section === "string") {
+            active_section = active_section.replace(/[\x00-\x1f]/g, "").slice(0, 200);
+        } else {
+            active_section = null;
+        }
+        if (screenshot_url && typeof screenshot_url === "string") {
+            screenshot_url = (screenshot_url.startsWith("https://") && screenshot_url.includes("supabase"))
+                ? screenshot_url.slice(0, 500)
+                : null;
+        } else {
+            screenshot_url = null;
+        }
+
         if (!isSupabaseConfigured() || !supabase) {
-            console.log("Beta feedback (dev mode):", { description, page_url, feedback_type, email });
+            console.log("Beta feedback (dev mode):", { description, page_url, feedback_type, email, verifiedOwnerReport });
             return NextResponse.json(
                 { success: true, message: "Feedback received. Thank you!" },
                 { status: 201 }
@@ -71,6 +98,10 @@ export async function POST(request: NextRequest) {
                 email: email?.trim() || null,
                 user_agent: user_agent || null,
                 screen_size: screen_size || null,
+                is_owner_report: verifiedOwnerReport,
+                scroll_position: verifiedOwnerReport ? scroll_position : null,
+                active_section: verifiedOwnerReport ? active_section : null,
+                screenshot_url: verifiedOwnerReport ? screenshot_url : null,
             });
 
         if (error) {
@@ -78,6 +109,22 @@ export async function POST(request: NextRequest) {
             return NextResponse.json(
                 { error: "Failed to submit feedback. Please try again." },
                 { status: 500 }
+            );
+        }
+
+        // Append bug reports to BUGS.md in the repo (fire-and-forget — don't block the response)
+        if (feedback_type === "bug" || !feedback_type) {
+            const ownerContext = verifiedOwnerReport
+                ? {
+                    isOwnerReport: true,
+                    scrollPosition: scroll_position ?? undefined,
+                    activeSection: active_section ?? undefined,
+                    screenshotUrl: screenshot_url ?? undefined,
+                }
+                : undefined;
+
+            appendBugToTracker(description.trim(), page_url || "", email?.trim() || null, ownerContext).catch(
+                (err) => console.error("Failed to update BUGS.md:", err)
             );
         }
 

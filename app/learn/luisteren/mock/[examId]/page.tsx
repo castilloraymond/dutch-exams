@@ -17,6 +17,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
 import { usePremium } from "@/hooks/usePremium";
 import { PremiumGate } from "@/components/PremiumGate";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 import type { Question } from "@/lib/types";
 
 interface PageProps {
@@ -179,6 +180,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
   }
 
   return (
+    <ErrorBoundary fallbackHref="/learn/luisteren/select" fallbackLabel="Back to Listening">
     <main className="min-h-screen flex flex-col">
       <ExamHeader title={exam.title} startTime={startTime} />
 
@@ -235,5 +237,6 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
         onConfirm={confirmExit}
       />
     </main>
+    </ErrorBoundary>
   );
 }
