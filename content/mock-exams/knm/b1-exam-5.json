@@ -1,0 +1,660 @@
+{
+  "id": "knm-b1-5",
+  "title": "KNM B1 - Oefenexamen 5",
+  "module": "knm",
+  "difficulty": "B1",
+  "questionCount": 50,
+  "recommendedTime": "40 min",
+  "questions": [
+    {
+      "id": "knm-b1-5-q1",
+      "text": "Wat is de IND (Immigratie- en Naturalisatiedienst)?",
+      "options": [
+        "Een reisbureau van de overheid",
+        "De overheidsorganisatie die beslist over de toelating, verblijf en naturalisatie van vreemdelingen in Nederland",
+        "Een organisatie die buitenlandse diploma's beoordeelt",
+        "De politie op Schiphol"
+      ],
+      "correctIndex": 1,
+      "explanation": "De IND (Immigratie- en Naturalisatiedienst) is de uitvoeringsorganisatie die beslist over alle aanvragen van vreemdelingen die in Nederland willen verblijven of Nederlander willen worden. De IND valt onder het Ministerie van Justitie en Veiligheid.",
+      "explanationEn": "The IND (Immigration and Naturalization Service) is the executive organization that decides on all applications from foreigners who want to reside in the Netherlands or become Dutch citizens. The IND falls under the Ministry of Justice and Security."
+    },
+    {
+      "id": "knm-b1-5-q2",
+      "text": "Welke soorten verblijfsvergunningen zijn er in Nederland?",
+      "options": [
+        "Alleen een permanente verblijfsvergunning",
+        "Een verblijfsvergunning regulier (voor werk, studie, gezin) en een verblijfsvergunning asiel (voor vluchtelingen), elk met een bepaalde en onbepaalde tijd variant",
+        "Alleen een werkvergunning en een studentenvisum",
+        "Een toeristenvisum en een zakelijk visum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Er zijn twee hoofdtypen: de verblijfsvergunning regulier (voor doelen als werk, studie, gezinshereniging) en de verblijfsvergunning asiel (voor vluchtelingen). Beide komen in een variant voor bepaalde tijd (tijdelijk) en onbepaalde tijd (permanent). De voorwaarden en rechten verschillen per type.",
+      "explanationEn": "There are two main types: the regular residence permit (for purposes like work, study, family reunification) and the asylum residence permit (for refugees). Both come in a temporary (fixed-term) and permanent (indefinite) variant. Conditions and rights differ per type."
+    },
+    {
+      "id": "knm-b1-5-q3",
+      "text": "Wat is het inburgeringsexamen?",
+      "options": [
+        "Een examen dat alleen voor asielzoekers geldt",
+        "Een examen dat nieuwkomers moeten afleggen om aan te tonen dat zij de Nederlandse taal en de Nederlandse maatschappij voldoende kennen",
+        "Een examen om de Nederlandse nationaliteit te verliezen",
+        "Een taalexamen dat alleen op universiteiten wordt afgenomen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het inburgeringsexamen is verplicht voor de meeste niet-EU-migranten die in Nederland komen wonen. Het examen bestaat uit onderdelen zoals lezen, luisteren, schrijven, spreken, Kennis van de Nederlandse Maatschappij (KNM) en de participatieverklaring. Sinds de Wet inburgering 2021 regelt de gemeente het inburgeringstraject.",
+      "explanationEn": "The civic integration exam is mandatory for most non-EU migrants coming to live in the Netherlands. The exam consists of components like reading, listening, writing, speaking, Knowledge of Dutch Society (KNM), and the participation declaration. Since the Integration Act 2021, the municipality manages the integration process."
+    },
+    {
+      "id": "knm-b1-5-q4",
+      "text": "Wat is naturalisatie?",
+      "options": [
+        "Het proces van het leren van de Nederlandse taal",
+        "Het proces om de Nederlandse nationaliteit te verkrijgen door een verzoek bij de IND, na minimaal 5 jaar legaal verblijf in Nederland en het voldoen aan andere voorwaarden",
+        "Het proces van inschrijving bij de gemeente",
+        "Het verlengen van een verblijfsvergunning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naturalisatie is het verkrijgen van de Nederlandse nationaliteit via een verzoek bij de IND. Voorwaarden zijn onder andere: minimaal 5 jaar legaal en onafgebroken in Nederland wonen, het inburgeringsexamen gehaald hebben, geen gevaar voor de openbare orde, en afstand doen van de oorspronkelijke nationaliteit (met uitzonderingen).",
+      "explanationEn": "Naturalization is obtaining Dutch nationality through a request to the IND. Conditions include: living legally and continuously in the Netherlands for at least 5 years, passing the civic integration exam, not being a danger to public order, and renouncing original nationality (with exceptions)."
+    },
+    {
+      "id": "knm-b1-5-q5",
+      "text": "Welke rechten hebben EU-burgers met betrekking tot verblijf en werk in Nederland?",
+      "options": [
+        "EU-burgers hebben dezelfde rechten als niet-EU-burgers",
+        "EU-burgers mogen vrij in Nederland wonen en werken zonder verblijfsvergunning op grond van het vrij verkeer van personen binnen de EU",
+        "EU-burgers mogen alleen als toerist naar Nederland komen",
+        "EU-burgers moeten eerst een werkvergunning aanvragen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Op grond van het vrij verkeer van personen binnen de Europese Unie mogen EU-burgers zonder verblijfsvergunning in Nederland wonen en werken. Zij moeten zich wel inschrijven bij de gemeente (BRP). Na 5 jaar onafgebroken verblijf kunnen zij een duurzaam verblijfsrecht krijgen.",
+      "explanationEn": "Under the free movement of persons within the European Union, EU citizens may live and work in the Netherlands without a residence permit. They must register with the municipality (BRP). After 5 years of continuous residence, they can obtain a permanent right of residence."
+    },
+    {
+      "id": "knm-b1-5-q6",
+      "text": "Wat is een MVV (machtiging tot voorlopig verblijf)?",
+      "options": [
+        "Een vergunning om in Nederland te mogen autorijden",
+        "Een visum dat vereist is voor bepaalde buitenlanders voordat zij naar Nederland mogen reizen om er langer dan 90 dagen te verblijven",
+        "Een vergunning om een bedrijf te starten",
+        "Een bewijs dat u het inburgeringsexamen heeft gehaald"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een MVV is een speciaal visum (sticker in het paspoort) dat nodig is voor burgers van bepaalde landen die langer dan 90 dagen in Nederland willen verblijven. De MVV wordt aangevraagd bij de Nederlandse ambassade of het consulaat in het land van herkomst. EU-burgers en burgers van een aantal andere landen zijn vrijgesteld.",
+      "explanationEn": "An MVV is a special visa (sticker in passport) required for citizens of certain countries who want to stay in the Netherlands for more than 90 days. The MVV is applied for at the Dutch embassy or consulate in the country of origin. EU citizens and citizens of certain other countries are exempt."
+    },
+    {
+      "id": "knm-b1-5-q7",
+      "text": "Wat is het verschil tussen een verblijfsvergunning voor bepaalde tijd en onbepaalde tijd?",
+      "options": [
+        "Er is geen verschil",
+        "Een vergunning voor bepaalde tijd is tijdelijk en heeft een einddatum; een vergunning voor onbepaalde tijd geeft het recht om permanent in Nederland te verblijven",
+        "Een vergunning voor onbepaalde tijd geldt alleen voor EU-burgers",
+        "Een vergunning voor bepaalde tijd geeft meer rechten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een verblijfsvergunning voor bepaalde tijd is tijdelijk (meestal 1-5 jaar) en gekoppeld aan een doel (werk, studie, gezin). Een vergunning voor onbepaalde tijd is permanent en geeft het recht om zonder beperkingen in Nederland te verblijven en werken. Voor onbepaalde tijd moet u meestal 5 jaar legaal in Nederland hebben gewoond.",
+      "explanationEn": "A temporary residence permit is limited (usually 1-5 years) and tied to a purpose (work, study, family). A permanent residence permit is indefinite and gives the right to live and work in the Netherlands without restrictions. For permanent status, you usually need to have lived legally in the Netherlands for 5 years."
+    },
+    {
+      "id": "knm-b1-5-q8",
+      "text": "Wat is gezinshereniging?",
+      "options": [
+        "Het recht om met uw hele familie in een sociale huurwoning te wonen",
+        "Het recht om uw echtgenoot, partner of minderjarige kinderen naar Nederland te laten komen als u een verblijfsvergunning heeft en aan de voorwaarden voldoet",
+        "Het recht om alle familieleden tot in de vierde graad naar Nederland te halen",
+        "Een subsidie voor gezinnen met kinderen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gezinshereniging is het recht om uw gezinsleden (partner, minderjarige kinderen) naar Nederland te laten komen. Voorwaarden zijn onder andere: u heeft een geldige verblijfsvergunning, voldoende inkomen (minimaal 100% van het minimumloon), en passende huisvesting. Voor asielstatushouders gelden andere regels.",
+      "explanationEn": "Family reunification is the right to have your family members (partner, minor children) come to the Netherlands. Conditions include: you have a valid residence permit, sufficient income (at least 100% of minimum wage), and suitable housing. Different rules apply for asylum status holders."
+    },
+    {
+      "id": "knm-b1-5-q9",
+      "text": "Wat is de participatieverklaring?",
+      "options": [
+        "Een document waarmee u zich inschrijft bij de gemeente",
+        "Een verklaring die inburgeringsplichtige nieuwkomers ondertekenen waarmee zij aangeven de Nederlandse kernwaarden te kennen en respecteren",
+        "Een arbeidscontract bij de overheid",
+        "Een verklaring dat u de Nederlandse nationaliteit heeft"
+      ],
+      "correctIndex": 1,
+      "explanation": "De participatieverklaring is onderdeel van het inburgeringstraject. Nieuwkomers nemen deel aan een participatieverklaringstraject waarin zij kennismaken met de Nederlandse kernwaarden (vrijheid, gelijkwaardigheid, solidariteit en participatie). Na afloop ondertekenen zij de participatieverklaring.",
+      "explanationEn": "The participation declaration is part of the civic integration process. Newcomers participate in a declaration trajectory where they learn about core Dutch values (freedom, equality, solidarity, and participation). Afterwards, they sign the participation declaration."
+    },
+    {
+      "id": "knm-b1-5-q10",
+      "text": "Onder welke wet valt de huidige inburgering en wat is er veranderd?",
+      "options": [
+        "De Vreemdelingenwet, er is niets veranderd",
+        "De Wet inburgering 2021: de gemeente heeft een regierol, er zijn drie leerroutes (B1-route, onderwijsroute, Z-route) en het taalniveau is verhoogd naar B1",
+        "De Grondwet, iedereen moet nu universitair onderwijs volgen",
+        "De Participatiewet, alleen werkzoekenden moeten inburgeren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sinds 1 januari 2022 geldt de Wet inburgering 2021. De gemeente heeft nu de regie over het inburgeringstraject. Er zijn drie leerroutes: de B1-route (meeste inburgeraars), de onderwijsroute (jongeren die willen doorstromen naar onderwijs) en de Z-route (zelfredzaamheidsroute). Het taalniveau is verhoogd van A2 naar B1.",
+      "explanationEn": "Since January 1, 2022, the Integration Act 2021 applies. The municipality now manages the integration process. There are three learning routes: the B1 route (most integrators), the education route (young people wanting to continue education), and the Z route (self-reliance route). The language level was raised from A2 to B1."
+    },
+    {
+      "id": "knm-b1-5-q11",
+      "text": "Wat is de AOW?",
+      "options": [
+        "Een particuliere pensioenregeling",
+        "De Algemene Ouderdomswet: het basispensioen dat iedereen ontvangt die in Nederland heeft gewoond of gewerkt en de AOW-leeftijd bereikt",
+        "Een uitkering voor arbeidsongeschikten",
+        "Een spaarverzekering die u bij een bank afsluit"
+      ],
+      "correctIndex": 1,
+      "explanation": "De AOW (Algemene Ouderdomswet) is het Nederlandse basispensioen. Voor elk jaar dat u tussen uw 15e en de AOW-leeftijd in Nederland woont of werkt, bouwt u 2% AOW-pensioen op. Na 50 jaar heeft u recht op het volledige AOW-pensioen. De SVB (Sociale Verzekeringsbank) keert de AOW uit.",
+      "explanationEn": "The AOW (General Old Age Act) is the Dutch basic state pension. For each year you live or work in the Netherlands between age 15 and the AOW age, you accrue 2% AOW pension. After 50 years, you are entitled to the full AOW pension. The SVB (Social Insurance Bank) pays out the AOW."
+    },
+    {
+      "id": "knm-b1-5-q12",
+      "text": "Wat is de huidige AOW-leeftijd in Nederland?",
+      "options": [
+        "65 jaar",
+        "66 jaar",
+        "67 jaar",
+        "68 jaar"
+      ],
+      "correctIndex": 2,
+      "explanation": "De AOW-leeftijd is geleidelijk verhoogd van 65 jaar naar 67 jaar (bereikt in 2024). De AOW-leeftijd is gekoppeld aan de levensverwachting en kan in de toekomst verder stijgen. U kunt uw persoonlijke AOW-leeftijd checken op de website van de SVB.",
+      "explanationEn": "The AOW age has been gradually raised from 65 to 67 (reached in 2024). The AOW age is linked to life expectancy and may increase further in the future. You can check your personal AOW age on the SVB website."
+    },
+    {
+      "id": "knm-b1-5-q13",
+      "text": "Wat is het verschil tussen AOW en aanvullend pensioen?",
+      "options": [
+        "Er is geen verschil, het is hetzelfde",
+        "AOW is het basispensioen van de overheid voor iedereen; aanvullend pensioen wordt opgebouwd via de werkgever bij een pensioenfonds en hangt af van uw salaris en dienstjaren",
+        "Aanvullend pensioen is verplicht voor iedereen, AOW niet",
+        "AOW is alleen voor zelfstandigen, aanvullend pensioen alleen voor werknemers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Nederlandse pensioenstelsel heeft drie pijlers: (1) AOW: het basispensioen van de overheid, gelijk voor iedereen. (2) Aanvullend pensioen: opgebouwd via de werkgever bij een pensioenfonds, afhankelijk van salaris en dienstjaren. (3) Individueel pensioensparen: zelf extra sparen, bijvoorbeeld via een lijfrente.",
+      "explanationEn": "The Dutch pension system has three pillars: (1) AOW: the government's basic pension, equal for everyone. (2) Supplementary pension: accrued through the employer at a pension fund, depending on salary and years of service. (3) Individual pension savings: saving extra yourself, for example through an annuity."
+    },
+    {
+      "id": "knm-b1-5-q14",
+      "text": "Wat is de SVB (Sociale Verzekeringsbank)?",
+      "options": [
+        "Een commerciële bank",
+        "De uitvoeringsorganisatie die volksverzekeringen uitvoert, zoals de AOW, de kinderbijslag (AKW) en de Anw (nabestaandenpensioen)",
+        "Een verzekeringsmaatschappij voor auto's",
+        "Een onderdeel van de Belastingdienst"
+      ],
+      "correctIndex": 1,
+      "explanation": "De SVB (Sociale Verzekeringsbank) is de uitvoeringsorganisatie die verantwoordelijk is voor de uitvoering van volksverzekeringen. Dit omvat de AOW (ouderdomspensioen), de AKW (kinderbijslag), de Anw (nabestaandenuitkering) en het persoonsgebonden budget (pgb) vanuit de Wlz.",
+      "explanationEn": "The SVB (Social Insurance Bank) is the executive organization responsible for implementing national insurance schemes. This includes the AOW (old-age pension), AKW (child benefit), Anw (survivor's benefit), and the personal budget (pgb) under the Long-term Care Act."
+    },
+    {
+      "id": "knm-b1-5-q15",
+      "text": "Wat is de derde pijler van het pensioenstelsel?",
+      "options": [
+        "De AOW",
+        "Het aanvullend pensioen via de werkgever",
+        "Individueel pensioensparen: zelf vrijwillig extra pensioen opbouwen, bijvoorbeeld via een lijfrente of banksparen",
+        "De WW-uitkering"
+      ],
+      "correctIndex": 2,
+      "explanation": "De derde pijler is het individueel pensioensparen. Naast de AOW (eerste pijler) en het werkgeverspensioen (tweede pijler) kunt u zelf extra pensioen opbouwen. Dit kan via een lijfrente, banksparen of beleggen. De inleg kan fiscaal aftrekbaar zijn. Dit is vooral belangrijk voor zzp'ers die geen werkgeverspensioen opbouwen.",
+      "explanationEn": "The third pillar is individual pension savings. Besides the AOW (first pillar) and employer pension (second pillar), you can build additional pension yourself. This can be through annuities, bank savings, or investments. Contributions may be tax-deductible. This is especially important for self-employed who don't accrue employer pension."
+    },
+    {
+      "id": "knm-b1-5-q16",
+      "text": "Wat gebeurt er met uw AOW als u niet alle jaren in Nederland heeft gewoond?",
+      "options": [
+        "U krijgt altijd het volledige AOW-bedrag",
+        "U krijgt een gekort AOW-pensioen: voor elk jaar dat u niet in Nederland woonde of werkte, wordt 2% gekort op het volledige bedrag",
+        "U krijgt helemaal geen AOW",
+        "U moet het verschil zelf bijbetalen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De AOW wordt opgebouwd over 50 jaar (van 15 jaar tot de AOW-leeftijd). Voor elk jaar dat u niet in Nederland woonde of werkte, wordt 2% gekort op het volledige AOW-bedrag. Als u bijvoorbeeld 10 jaar in het buitenland woonde, krijgt u 80% van de volledige AOW. U kunt zich eventueel vrijwillig verzekeren via de SVB.",
+      "explanationEn": "AOW is accrued over 50 years (from age 15 to the AOW age). For each year you did not live or work in the Netherlands, 2% is deducted from the full AOW amount. For example, if you lived abroad for 10 years, you receive 80% of the full AOW. You can optionally take out voluntary insurance through the SVB."
+    },
+    {
+      "id": "knm-b1-5-q17",
+      "text": "Wat is een pensioenfonds?",
+      "options": [
+        "Een bank die leningen verstrekt aan gepensioneerden",
+        "Een organisatie die het aanvullend pensioen beheert voor werknemers van een bedrijf of bedrijfstak en het pensioen uitkeert na pensionering",
+        "Een overheidsinstelling die de AOW uitkeert",
+        "Een verzekeringsmaatschappij die levensverzekeringen verkoopt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een pensioenfonds beheert het aanvullend pensioen (tweede pijler) voor werknemers. De werkgever en werknemer betalen samen premie. Het pensioenfonds belegt dit geld en keert later het pensioen uit. De twee grootste pensioenfondsen in Nederland zijn ABP (overheid en onderwijs) en PFZW (zorg en welzijn).",
+      "explanationEn": "A pension fund manages the supplementary pension (second pillar) for employees. The employer and employee pay premiums together. The pension fund invests this money and later pays out the pension. The two largest pension funds in the Netherlands are ABP (government and education) and PFZW (healthcare and welfare)."
+    },
+    {
+      "id": "knm-b1-5-q18",
+      "text": "Wat is de Anw (Algemene nabestaandenwet)?",
+      "options": [
+        "Een wet die regelt hoe een nalatenschap wordt verdeeld",
+        "Een uitkering van de overheid voor nabestaanden (partner of wezen) van een overledene die in Nederland verzekerd was",
+        "Een verzekering die u zelf moet afsluiten",
+        "Een pensioenuitkering voor weduwen boven de 65 jaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Anw is een volksverzekering die een uitkering biedt aan de nabestaanden (partner of wezen) van een overledene die in Nederland verzekerd was. De Anw-uitkering is inkomensafhankelijk. De SVB voert de Anw uit. Niet iedereen komt in aanmerking; er gelden voorwaarden zoals het hebben van een kind onder 18 of arbeidsongeschiktheid.",
+      "explanationEn": "The Anw is a national insurance scheme that provides benefits to survivors (partner or orphans) of a deceased person who was insured in the Netherlands. The Anw benefit is income-dependent. The SVB administers the Anw. Not everyone qualifies; conditions include having a child under 18 or being disabled."
+    },
+    {
+      "id": "knm-b1-5-q19",
+      "text": "Wat is de Wet toekomst pensioenen die in 2023 is aangenomen?",
+      "options": [
+        "Een wet die de AOW-leeftijd verlaagt naar 62 jaar",
+        "Een grote hervorming van het pensioenstelsel waarbij wordt overgestapt van een uitkeringsregeling naar een premieregeling, met een persoonlijker pensioenvermogen",
+        "Een wet die pensioenfondsen verbiedt",
+        "Een wet die alleen geldt voor ambtenaren"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Wet toekomst pensioenen (Wtp) hervormt het Nederlandse pensioenstelsel. De belangrijkste verandering is de overgang van een uitkeringsregeling (vaste toezegging) naar een premieregeling (persoonlijk pensioenvermogen). Het pensioen wordt persoonlijker en transparanter, maar ook afhankelijker van beleggingsresultaten.",
+      "explanationEn": "The Future Pensions Act (Wtp) reforms the Dutch pension system. The main change is the transition from a defined benefit scheme (fixed promise) to a defined contribution scheme (personal pension capital). Pensions become more personal and transparent, but also more dependent on investment results."
+    },
+    {
+      "id": "knm-b1-5-q20",
+      "text": "Hoeveel kinderbijslag krijgt u en wanneer?",
+      "options": [
+        "U krijgt kinderbijslag alleen als u een laag inkomen heeft",
+        "Ieder gezin met kinderen tot 18 jaar ontvangt elk kwartaal kinderbijslag van de SVB, ongeacht het inkomen. Het bedrag is afhankelijk van de leeftijd van het kind",
+        "Kinderbijslag wordt alleen aan alleenstaande ouders betaald",
+        "Kinderbijslag is een eenmalige uitkering bij de geboorte van een kind"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kinderbijslag (AKW) wordt elk kwartaal uitbetaald door de SVB aan gezinnen met kinderen tot 18 jaar, ongeacht het inkomen. Het bedrag is afhankelijk van de leeftijd van het kind (drie categorieën: 0-5, 6-11, 12-17 jaar). Hogere leeftijd betekent een hoger bedrag.",
+      "explanationEn": "Child benefit (AKW) is paid quarterly by the SVB to families with children under 18, regardless of income. The amount depends on the child's age (three categories: 0-5, 6-11, 12-17 years). Older children receive a higher amount."
+    },
+    {
+      "id": "knm-b1-5-q21",
+      "text": "Wat is vrijwilligerswerk en welke rol speelt het in de Nederlandse samenleving?",
+      "options": [
+        "Onbetaald werk dat verplicht is voor alle inwoners",
+        "Onbetaald werk dat mensen vrijwillig doen voor een organisatie of de gemeenschap; het speelt een grote rol in Nederland, van sportverenigingen tot mantelzorg",
+        "Werk dat alleen door gepensioneerden wordt gedaan",
+        "Een soort stage voor studenten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vrijwilligerswerk is onbetaald werk dat u vrijwillig doet voor een organisatie of de gemeenschap. In Nederland zijn er miljoenen vrijwilligers actief in sportverenigingen, kerken, buurthuizen, scholen en maatschappelijke organisaties. Vrijwilligerswerk wordt beschouwd als een belangrijk onderdeel van de Nederlandse samenleving.",
+      "explanationEn": "Volunteer work is unpaid work you do voluntarily for an organization or the community. In the Netherlands, millions of volunteers are active in sports clubs, churches, community centers, schools, and social organizations. Volunteering is considered an important part of Dutch society."
+    },
+    {
+      "id": "knm-b1-5-q22",
+      "text": "Wat is mantelzorg?",
+      "options": [
+        "Professionele thuiszorg door een verpleegkundige",
+        "Langdurige zorg die vrijwillig en onbetaald wordt verleend aan een naaste (familielid, vriend of buur) die hulp nodig heeft vanwege ziekte, handicap of ouderdom",
+        "Zorg die alleen in een ziekenhuis wordt gegeven",
+        "Een uitkering voor mensen die ziek zijn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mantelzorg is langdurige zorg voor een zieke, gehandicapte of oudere naaste, verleend door een niet-professionele helper (vaak een familielid). Nederland heeft meer dan 4 miljoen mantelzorgers. De overheid ondersteunt mantelzorgers via respijtzorg, het mantelzorgcompliment en het persoonsgebonden budget.",
+      "explanationEn": "Informal care (mantelzorg) is long-term care for a sick, disabled, or elderly loved one, provided by a non-professional helper (often a family member). The Netherlands has over 4 million informal caregivers. The government supports them through respite care, caregiver appreciation, and personal budgets."
+    },
+    {
+      "id": "knm-b1-5-q23",
+      "text": "Wat is een buurtvereniging?",
+      "options": [
+        "Een commercieel bedrijf dat woningen verhuurt in de buurt",
+        "Een vereniging van bewoners in een wijk die samen activiteiten organiseren, de leefbaarheid verbeteren en de belangen van de buurt behartigen",
+        "Een overheidsinstelling die de wijk beheert",
+        "Een school in de buurt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een buurtvereniging (of wijkvereniging) is een vereniging van buurtbewoners die samen werken aan de leefbaarheid en het sociale contact in de wijk. Ze organiseren activiteiten, behartigen de belangen van de buurt bij de gemeente, en bevorderen de sociale cohesie. Deelname is vrijwillig.",
+      "explanationEn": "A neighborhood association is an association of local residents who work together to improve livability and social contact in the area. They organize activities, represent the neighborhood's interests to the municipality, and promote social cohesion. Participation is voluntary."
+    },
+    {
+      "id": "knm-b1-5-q24",
+      "text": "Wat is inspraak in de Nederlandse democratie?",
+      "options": [
+        "Het recht om te stemmen bij verkiezingen",
+        "Het recht van burgers om hun mening te geven over plannen en besluiten van de overheid voordat deze definitief worden genomen",
+        "Het recht om lid te worden van een politieke partij",
+        "Het recht om een rechtszaak aan te spannen tegen de overheid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inspraak is het recht van burgers om hun mening te geven over voorgenomen besluiten van de overheid, zoals bestemmingsplannen, bouwplannen of verkeersmaatregelen. De gemeente organiseert inspraakbijeenkomsten of informatiebijeenkomsten waar bewoners kunnen reageren. Het is een belangrijk onderdeel van de Nederlandse democratie.",
+      "explanationEn": "Public participation (inspraak) is the right of citizens to give their opinion on proposed government decisions, such as zoning plans, construction plans, or traffic measures. The municipality organizes participation meetings where residents can respond. It is an important part of Dutch democracy."
+    },
+    {
+      "id": "knm-b1-5-q25",
+      "text": "Wat is een raadgevend referendum in Nederland?",
+      "options": [
+        "Een stemming door de Eerste Kamer over een wet",
+        "Een volksstemming waarbij burgers hun mening geven over een wet of beleidsbesluit; de uitslag is adviserend, niet bindend",
+        "Een enquête die de gemeente houdt onder bewoners",
+        "Een stemming alleen voor leden van politieke partijen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een raadgevend referendum is een volksstemming waarbij burgers zich uitspreken over een wet of besluit. De uitslag is adviserend (niet bindend). De Wet raadgevend referendum (Wrr) is in 2018 ingetrokken op landelijk niveau, maar sommige gemeenten kennen nog lokale referenda. Het is een vorm van directe democratie.",
+      "explanationEn": "An advisory referendum is a public vote where citizens express their opinion on a law or decision. The outcome is advisory (not binding). The Advisory Referendum Act was repealed at the national level in 2018, but some municipalities still have local referendums. It is a form of direct democracy."
+    },
+    {
+      "id": "knm-b1-5-q26",
+      "text": "Wat zijn de belangrijkste rechten van burgers om deel te nemen aan de democratie?",
+      "options": [
+        "Alleen het stemrecht",
+        "Stemrecht, recht op inspraak, recht om een petitie in te dienen, recht om een politieke partij op te richten, en het passief kiesrecht (het recht om gekozen te worden)",
+        "Alleen het recht om een politieke partij op te richten",
+        "Alleen het recht om te protesteren"
+      ],
+      "correctIndex": 1,
+      "explanation": "In de Nederlandse democratie hebben burgers verschillende rechten: actief kiesrecht (stemmen), passief kiesrecht (gekozen worden), recht op inspraak bij overheidsbesluiten, petitierecht (verzoekschrift aan de overheid), recht van demonstratie, en het recht om een politieke partij of vereniging op te richten.",
+      "explanationEn": "In Dutch democracy, citizens have various rights: active suffrage (voting), passive suffrage (being elected), right to public participation in government decisions, right of petition, right to demonstrate, and the right to establish a political party or association."
+    },
+    {
+      "id": "knm-b1-5-q27",
+      "text": "Wat is het verschil tussen een burgerinitiatief en een petitie?",
+      "options": [
+        "Er is geen verschil",
+        "Een burgerinitiatief stelt een onderwerp op de agenda van de gemeenteraad als voldoende handtekeningen zijn verzameld; een petitie is een verzoekschrift aan de overheid zonder formele verplichtingen",
+        "Een petitie is bindend, een burgerinitiatief niet",
+        "Een burgerinitiatief is alleen voor bedrijven"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een burgerinitiatief is een formeel instrument waarbij burgers een onderwerp op de agenda van de gemeenteraad kunnen zetten als zij voldoende handtekeningen verzamelen. De gemeenteraad moet het initiatief dan bespreken. Een petitie (verzoekschrift) is een schriftelijk verzoek aan de overheid, maar de overheid is niet verplicht er een debat over te voeren.",
+      "explanationEn": "A citizens' initiative is a formal instrument where citizens can put a topic on the municipal council agenda by collecting enough signatures. The council must then discuss the initiative. A petition is a written request to the government, but the government is not obliged to hold a debate about it."
+    },
+    {
+      "id": "knm-b1-5-q28",
+      "text": "Wat is de Wmo (Wet maatschappelijke ondersteuning)?",
+      "options": [
+        "Een wet die alleen geldt voor ouderen in verpleeghuizen",
+        "Een wet die gemeenten verantwoordelijk maakt voor het ondersteunen van burgers zodat zij zo lang mogelijk zelfstandig thuis kunnen blijven wonen en kunnen participeren in de samenleving",
+        "Een wet die ziekenhuizen reguleert",
+        "Een pensioenregeling voor mantelzorgers"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Wmo maakt gemeenten verantwoordelijk voor maatschappelijke ondersteuning. Denk aan huishoudelijke hulp, woningaanpassingen, dagbesteding, vervoersvoorzieningen en hulpmiddelen. Het doel is dat mensen zo lang mogelijk zelfstandig kunnen blijven wonen en meedoen in de samenleving. U kunt een melding doen bij het Wmo-loket van uw gemeente.",
+      "explanationEn": "The Wmo makes municipalities responsible for social support. This includes household help, home modifications, day activities, transport provisions, and aids. The goal is for people to live independently and participate in society for as long as possible. You can contact the Wmo desk at your municipality."
+    },
+    {
+      "id": "knm-b1-5-q29",
+      "text": "Hoe kunt u als inwoner invloed uitoefenen op het beleid van uw gemeente?",
+      "options": [
+        "Dat kan niet, alleen politici bepalen het beleid",
+        "Door te stemmen bij gemeenteraadsverkiezingen, deel te nemen aan inspraakbijeenkomsten, een burgerinitiatief te starten, contact op te nemen met gemeenteraadsleden, of mee te doen aan een wijkraad",
+        "Alleen door lid te worden van een politieke partij",
+        "Alleen door een brief te schrijven aan de koning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Er zijn veel manieren om invloed uit te oefenen op gemeentelijk beleid: stemmen bij verkiezingen, deelnemen aan inspraakprocedures, een burgerinitiatief starten, contact opnemen met raadsleden, meedoen aan een wijkraad of klankbordgroep, en het indienen van een petitie of bezwaar.",
+      "explanationEn": "There are many ways to influence municipal policy: voting in elections, participating in public consultation procedures, starting a citizens' initiative, contacting council members, joining a neighborhood council or sounding board, and filing a petition or objection."
+    },
+    {
+      "id": "knm-b1-5-q30",
+      "text": "Wat is het sociaal wijkteam?",
+      "options": [
+        "Een team van beveiligingsmedewerkers in een wijk",
+        "Een team van professionals dat in de wijk werkt en inwoners helpt met vragen over zorg, welzijn, wonen, werk en inkomen",
+        "Een sportteam van de gemeente",
+        "Een team van vrijwilligers dat de straten schoonmaakt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het sociaal wijkteam (ook wel gebiedsteam of buurtteam genoemd) is een team van professionals dat dichtbij de inwoners werkt. Zij helpen met uiteenlopende vragen over onder andere Wmo-ondersteuning, jeugdhulp, schulden, werk en participatie. Het team werkt in opdracht van de gemeente.",
+      "explanationEn": "The social neighborhood team (also called community team) is a team of professionals working close to residents. They help with various questions about Wmo support, youth care, debts, work, and participation. The team works on behalf of the municipality."
+    },
+    {
+      "id": "knm-b1-5-q31",
+      "text": "Wat was de VOC (Verenigde Oost-Indische Compagnie)?",
+      "options": [
+        "Een hedendaags handelsbedrijf in Amsterdam",
+        "Een Nederlandse handelscompagnie opgericht in 1602 die handel dreef met Azië en wordt beschouwd als de eerste naamloze vennootschap ter wereld",
+        "Een militaire organisatie die Nederland beschermde tegen invasies",
+        "Een religieuze organisatie die missionarissen naar Azië stuurde"
+      ],
+      "correctIndex": 1,
+      "explanation": "De VOC (1602-1799) was een Nederlands handelsbedrijf dat het monopolie had op de handel met Azië (specerijen, textiel, porselein). De VOC wordt beschouwd als de eerste naamloze vennootschap (NV) ter wereld en gaf de eerste aandelen uit op de Amsterdamse beurs. De VOC had ook een schaduwzijde: kolonialisme en slavenhandel.",
+      "explanationEn": "The VOC (1602-1799) was a Dutch trading company that held a monopoly on trade with Asia (spices, textiles, porcelain). The VOC is considered the world's first publicly traded company and issued the first shares on the Amsterdam stock exchange. The VOC also had a dark side: colonialism and the slave trade."
+    },
+    {
+      "id": "knm-b1-5-q32",
+      "text": "Wat gebeurde er in Nederland tijdens de Tweede Wereldoorlog?",
+      "options": [
+        "Nederland bleef neutraal en werd niet bezet",
+        "Nederland werd in mei 1940 bezet door Duitsland; de bezetting duurde tot mei 1945 en kostte honderdduizenden Nederlanders het leven, waaronder meer dan 100.000 Joodse Nederlanders",
+        "Nederland vocht alleen aan de kant van Duitsland",
+        "De oorlog had geen invloed op Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nederland werd op 10 mei 1940 binnengevallen door nazi-Duitsland. Na het bombardement op Rotterdam capituleerde het Nederlandse leger op 15 mei 1940. De bezetting duurde tot 5 mei 1945 (Bevrijdingsdag). Meer dan 100.000 Joodse Nederlanders werden vermoord in de Holocaust. De hongersnood in de winter van 1944-1945 kostte tienduizenden levens.",
+      "explanationEn": "The Netherlands was invaded by Nazi Germany on May 10, 1940. After the bombing of Rotterdam, the Dutch army capitulated on May 15, 1940. The occupation lasted until May 5, 1945 (Liberation Day). More than 100,000 Dutch Jews were murdered in the Holocaust. The famine in the winter of 1944-1945 cost tens of thousands of lives."
+    },
+    {
+      "id": "knm-b1-5-q33",
+      "text": "Wat was de Watersnoodramp van 1953?",
+      "options": [
+        "Een overstroming in Amsterdam die het centrum verwoestte",
+        "Een overstromingsramp in Zeeland, Zuid-Holland en Noord-Brabant waarbij bijna 1.900 mensen omkwamen en die leidde tot de bouw van de Deltawerken",
+        "Een storm die alleen schade aanrichtte aan schepen op de Noordzee",
+        "Een overstroming van de Rijn in 1953"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Watersnoodramp van 1 februari 1953 was een overstromingsramp waarbij de dijken in Zeeland, Zuid-Holland en Noord-Brabant doorbraken door een combinatie van springvloed en noordwesterstorm. Bijna 1.900 mensen kwamen om en 100.000 mensen raakten dakloos. De ramp leidde tot de bouw van de Deltawerken, een van de grootste waterbouwkundige projecten ter wereld.",
+      "explanationEn": "The North Sea Flood of February 1, 1953 was a flood disaster where dikes in Zeeland, South Holland, and North Brabant broke due to a combination of spring tide and a northwest storm. Nearly 1,900 people died and 100,000 were left homeless. The disaster led to the construction of the Delta Works, one of the largest hydraulic engineering projects in the world."
+    },
+    {
+      "id": "knm-b1-5-q34",
+      "text": "Wanneer werd de Europese Unie opgericht en wat is de rol van Nederland?",
+      "options": [
+        "De EU werd opgericht in 2000 en Nederland trad in 2010 toe",
+        "De EU is ontstaan uit de Europese Economische Gemeenschap (1957); Nederland was een van de zes oprichters. Het Verdrag van Maastricht (1992) richtte de EU formeel op",
+        "De EU werd opgericht in 1945 als onderdeel van de Verenigde Naties",
+        "Nederland is geen lid van de Europese Unie"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Europese Unie heeft haar oorsprong in de Europese Gemeenschap voor Kolen en Staal (EGKS, 1951) en de Europese Economische Gemeenschap (EEG, 1957). Nederland was een van de zes oprichters (samen met België, Luxemburg, Duitsland, Frankrijk en Italië). Het Verdrag van Maastricht (1992) richtte de EU formeel op.",
+      "explanationEn": "The European Union originated from the European Coal and Steel Community (ECSC, 1951) and the European Economic Community (EEC, 1957). The Netherlands was one of the six founders (along with Belgium, Luxembourg, Germany, France, and Italy). The Treaty of Maastricht (1992) formally established the EU."
+    },
+    {
+      "id": "knm-b1-5-q35",
+      "text": "Wat is de Benelux?",
+      "options": [
+        "Een supermarktketen",
+        "Een politiek-economisch samenwerkingsverband tussen België, Nederland en Luxemburg, opgericht in 1944",
+        "Een militair bondgenootschap in West-Europa",
+        "Een handelsroute tussen Amsterdam en Brussel"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Benelux is een samenwerkingsverband tussen België, Nederland en Luxemburg. De naam is samengesteld uit de eerste letters van de drie landen. De Benelux Douane-Unie werd in 1944 opgericht en was een voorloper van de Europese integratie. Tegenwoordig werken de drie landen samen op gebieden zoals economie, veiligheid en duurzaamheid.",
+      "explanationEn": "Benelux is a cooperation between Belgium, the Netherlands, and Luxembourg. The name is composed of the first letters of the three countries. The Benelux Customs Union was established in 1944 and was a precursor to European integration. Today, the three countries cooperate in areas like economics, security, and sustainability."
+    },
+    {
+      "id": "knm-b1-5-q36",
+      "text": "Wat is de betekenis van 5 mei (Bevrijdingsdag) in Nederland?",
+      "options": [
+        "De verjaardag van de koning",
+        "De dag waarop Nederland werd bevrijd van de Duitse bezetting in 1945; op 4 mei (Dodenherdenking) worden de oorlogsslachtoffers herdacht",
+        "De dag waarop de Grondwet werd ondertekend",
+        "De dag waarop Nederland lid werd van de Europese Unie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Op 5 mei viert Nederland Bevrijdingsdag: de bevrijding van de Duitse bezetting in 1945. De dag ervoor, 4 mei (Dodenherdenking), worden alle burgers en militairen herdacht die sinds de Tweede Wereldoorlog zijn omgekomen in oorlogen en vredesmissies. Om 20:00 uur is er twee minuten stilte. Bevrijdingsdag is elke 5 jaar (lustrumjaar) een nationale vrije dag.",
+      "explanationEn": "On May 5, the Netherlands celebrates Liberation Day: the liberation from German occupation in 1945. The day before, May 4 (Remembrance Day), all civilians and soldiers who died since WWII in wars and peace missions are commemorated. At 8:00 PM there are two minutes of silence. Liberation Day is a national holiday every 5 years (lustrum year)."
+    },
+    {
+      "id": "knm-b1-5-q37",
+      "text": "Hoe is het Koninkrijk der Nederlanden samengesteld?",
+      "options": [
+        "Het Koninkrijk bestaat alleen uit Nederland",
+        "Het Koninkrijk bestaat uit vier landen: Nederland, Aruba, Curaçao en Sint Maarten",
+        "Het Koninkrijk bestaat uit Nederland en België",
+        "Het Koninkrijk bestaat uit alle EU-landen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Koninkrijk der Nederlanden bestaat uit vier landen: Nederland (inclusief de bijzondere gemeenten Bonaire, Sint Eustatius en Saba), Aruba, Curaçao en Sint Maarten. Elk land heeft een eigen regering en parlement, maar het Koninkrijk is verantwoordelijk voor onder andere defensie, buitenlandse zaken en de waarborging van mensenrechten.",
+      "explanationEn": "The Kingdom of the Netherlands consists of four countries: the Netherlands (including the special municipalities Bonaire, Sint Eustatius, and Saba), Aruba, Curaçao, and Sint Maarten. Each country has its own government and parliament, but the Kingdom is responsible for defense, foreign affairs, and safeguarding human rights, among other things."
+    },
+    {
+      "id": "knm-b1-5-q38",
+      "text": "Wat is de Gouden Eeuw?",
+      "options": [
+        "Een periode in de 20e eeuw waarin Nederland veel goud vond",
+        "De 17e eeuw, toen Nederland een van de rijkste en machtigste landen ter wereld was, met bloei in handel, kunst, wetenschap en zeemacht",
+        "Een periode in de 19e eeuw van industrialisatie",
+        "De periode na de Tweede Wereldoorlog"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Gouden Eeuw (17e eeuw) was een periode van grote welvaart in Nederland. De Republiek der Zeven Verenigde Nederlanden was een wereldmacht in handel (VOC, WIC), kunst (Rembrandt, Vermeer), wetenschap (Huygens, Leeuwenhoek) en zeemacht. Tegenwoordig wordt ook de schaduwzijde erkend: slavenhandel en kolonialisme.",
+      "explanationEn": "The Golden Age (17th century) was a period of great prosperity in the Netherlands. The Republic of the Seven United Provinces was a world power in trade (VOC, WIC), art (Rembrandt, Vermeer), science (Huygens, Leeuwenhoek), and naval power. Today, the dark side is also acknowledged: the slave trade and colonialism."
+    },
+    {
+      "id": "knm-b1-5-q39",
+      "text": "Wat zijn de Deltawerken?",
+      "options": [
+        "Een netwerk van snelwegen in de Randstad",
+        "Een reeks waterbouwkundige werken (dammen, stormvloedkeringen en dijken) die Nederland beschermen tegen overstromingen, gebouwd na de Watersnoodramp van 1953",
+        "Een serie bruggen over de grote rivieren",
+        "Een groep windmolenparken in de Noordzee"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Deltawerken zijn een reeks waterbouwkundige constructies in het zuidwesten van Nederland, gebouwd als reactie op de Watersnoodramp van 1953. Het project omvat dammen, stormvloedkeringen (zoals de Oosterscheldekering) en dijkverhogingen. De Deltawerken worden beschouwd als een van de zeven moderne wereldwonderen van de American Society of Civil Engineers.",
+      "explanationEn": "The Delta Works are a series of hydraulic engineering structures in the southwest of the Netherlands, built in response to the 1953 flood disaster. The project includes dams, storm surge barriers (such as the Eastern Scheldt barrier), and dike reinforcements. The Delta Works are considered one of the seven modern wonders of the world by the American Society of Civil Engineers."
+    },
+    {
+      "id": "knm-b1-5-q40",
+      "text": "Wanneer werd het Koninkrijk der Nederlanden opgericht?",
+      "options": [
+        "In 1602 bij de oprichting van de VOC",
+        "In 1815, na het Congres van Wenen, met Willem I als eerste koning",
+        "In 1945 na de Tweede Wereldoorlog",
+        "In 1992 met het Verdrag van Maastricht"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Koninkrijk der Nederlanden werd in 1815 opgericht na het Congres van Wenen. Willem I werd de eerste koning. Daarvoor was Nederland een republiek (Republiek der Zeven Verenigde Nederlanden, 1588-1795) en vervolgens bezet door Frankrijk (1795-1813). In 1830 scheidde België zich af van het Koninkrijk.",
+      "explanationEn": "The Kingdom of the Netherlands was established in 1815 after the Congress of Vienna. William I became the first king. Before that, the Netherlands was a republic (Republic of the Seven United Provinces, 1588-1795) and then occupied by France (1795-1813). In 1830, Belgium separated from the Kingdom."
+    },
+    {
+      "id": "knm-b1-5-q41",
+      "text": "Wat is inkomstenbelasting?",
+      "options": [
+        "Een belasting op alleen de winst van bedrijven",
+        "Een belasting die u betaalt over uw inkomen uit werk, woning en vermogen; het tarief is progressief (hogere inkomens betalen een hoger percentage)",
+        "Een belasting die alleen door buitenlanders wordt betaald",
+        "Een belasting op het kopen van voedsel"
+      ],
+      "correctIndex": 1,
+      "explanation": "De inkomstenbelasting is een belasting over uw inkomen. Het inkomen is verdeeld in drie boxen: box 1 (inkomen uit werk en woning), box 2 (inkomen uit aanmerkelijk belang) en box 3 (inkomen uit sparen en beleggen). Het tarief in box 1 is progressief: hoe meer u verdient, hoe hoger het belastingpercentage.",
+      "explanationEn": "Income tax is a tax on your income. Income is divided into three boxes: box 1 (income from work and home), box 2 (income from substantial interest), and box 3 (income from savings and investments). The box 1 rate is progressive: the more you earn, the higher the tax percentage."
+    },
+    {
+      "id": "knm-b1-5-q42",
+      "text": "Wat is BTW (belasting over de toegevoegde waarde)?",
+      "options": [
+        "Een belasting die alleen door bedrijven wordt betaald",
+        "Een belasting op de verkoop van goederen en diensten die door de consument wordt betaald; het standaardtarief is 21%, het verlaagde tarief is 9%",
+        "Een belasting op salarissen",
+        "Een belasting die alleen geldt voor luxeproducten"
+      ],
+      "correctIndex": 1,
+      "explanation": "BTW (omzetbelasting) is een belasting op goederen en diensten. Het standaardtarief is 21%. Voor eerste levensbehoeften (voedsel, water, medicijnen), boeken en culturele evenementen geldt een verlaagd tarief van 9%. Bedrijven dragen de BTW af aan de Belastingdienst.",
+      "explanationEn": "VAT (value-added tax) is a tax on goods and services. The standard rate is 21%. For basic necessities (food, water, medicines), books, and cultural events, a reduced rate of 9% applies. Businesses remit VAT to the Tax Authority."
+    },
+    {
+      "id": "knm-b1-5-q43",
+      "text": "Wat zijn toeslagen en welke soorten zijn er?",
+      "options": [
+        "Extra vakantiegeld van uw werkgever",
+        "Financiële bijdragen van de overheid voor mensen met een lager inkomen, zoals zorgtoeslag, huurtoeslag, kinderopvangtoeslag en het kindgebonden budget",
+        "Bonussen die banken uitkeren",
+        "Een soort belastingaanslag"
+      ],
+      "correctIndex": 1,
+      "explanation": "Toeslagen zijn financiële bijdragen van de overheid voor mensen met een lager inkomen. Er zijn vier toeslagen: zorgtoeslag (bijdrage in zorgverzekeringspremie), huurtoeslag (bijdrage in huurkosten), kinderopvangtoeslag (bijdrage in kinderopvangkosten) en kindgebonden budget (extra bijdrage voor gezinnen met kinderen). De Belastingdienst/Toeslagen keert ze uit.",
+      "explanationEn": "Benefits (toeslagen) are government financial contributions for people with lower incomes. There are four types: healthcare benefit, housing benefit, childcare benefit, and child budget. The Tax Authority/Benefits department pays them out."
+    },
+    {
+      "id": "knm-b1-5-q44",
+      "text": "Wat is de belastingaangifte en wanneer moet u die doen?",
+      "options": [
+        "Een verzoek aan de overheid om geld te lenen",
+        "Een jaarlijkse opgave van uw inkomsten, aftrekposten en vermogen aan de Belastingdienst, die u vóór 1 mei moet indienen over het voorgaande jaar",
+        "Een maandelijkse betaling aan de gemeente",
+        "Een eenmalige registratie bij de Belastingdienst"
+      ],
+      "correctIndex": 1,
+      "explanation": "De belastingaangifte is de jaarlijkse opgave van uw inkomen, aftrekposten en vermogen aan de Belastingdienst. U doet aangifte over het voorgaande kalenderjaar. De deadline is normaal gesproken 1 mei. U kunt uitstel aanvragen. De aangifte doet u digitaal via Mijn Belastingdienst met DigiD.",
+      "explanationEn": "The tax return is the annual declaration of your income, deductions, and assets to the Tax Authority. You file for the previous calendar year. The deadline is normally May 1. You can request an extension. The return is filed digitally via Mijn Belastingdienst using DigiD."
+    },
+    {
+      "id": "knm-b1-5-q45",
+      "text": "Wat kunt u doen als u het niet eens bent met een belastingaanslag?",
+      "options": [
+        "U kunt niets doen, de Belastingdienst heeft altijd gelijk",
+        "U kunt binnen 6 weken bezwaar maken bij de Belastingdienst; als het bezwaar wordt afgewezen, kunt u in beroep gaan bij de rechtbank",
+        "U kunt alleen een klacht indienen bij de gemeente",
+        "U kunt de aanslag negeren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Als u het niet eens bent met een belastingaanslag, kunt u binnen 6 weken na de datum van de aanslag bezwaar maken bij de Belastingdienst. U legt uit waarom u het niet eens bent. Als uw bezwaar wordt afgewezen, kunt u in beroep gaan bij de rechtbank en eventueel in hoger beroep bij het gerechtshof.",
+      "explanationEn": "If you disagree with a tax assessment, you can file an objection with the Tax Authority within 6 weeks of the assessment date. You explain why you disagree. If your objection is rejected, you can appeal to the court and potentially to the appeals court."
+    },
+    {
+      "id": "knm-b1-5-q46",
+      "text": "Wat is de loonheffing?",
+      "options": [
+        "Een belasting die u betaalt als u een huis koopt",
+        "Een voorheffing op uw loon die uw werkgever inhoudt en afdraagt aan de Belastingdienst, bestaande uit loonbelasting en premies volksverzekeringen",
+        "Een bijdrage die u betaalt aan uw vakbond",
+        "Een belasting op de verkoop van goederen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De loonheffing wordt door uw werkgever ingehouden op uw brutoloon en afgedragen aan de Belastingdienst. De loonheffing bestaat uit loonbelasting (voorheffing op de inkomstenbelasting) en premies volksverzekeringen (AOW, Anw, Wlz). Op uw loonstrookje ziet u het bruto- en nettoloon en de ingehouden loonheffing.",
+      "explanationEn": "Payroll tax is withheld by your employer from your gross salary and remitted to the Tax Authority. Payroll tax consists of wage tax (advance on income tax) and national insurance premiums (AOW, Anw, Wlz). On your payslip, you can see gross and net salary and the withheld payroll tax."
+    },
+    {
+      "id": "knm-b1-5-q47",
+      "text": "Wat is de zorgtoeslag?",
+      "options": [
+        "Een gratis zorgverzekering van de overheid",
+        "Een maandelijkse bijdrage van de overheid om de kosten van de basisverzekering te betalen, bedoeld voor mensen met een lager inkomen",
+        "Een toeslag die ziekenhuizen ontvangen van de overheid",
+        "Een vergoeding voor medicijnen"
+      ],
+      "correctIndex": 1,
+      "explanation": "De zorgtoeslag is een tegemoetkoming van de overheid in de kosten van de basisverzekering (zorgverzekering). De hoogte hangt af van uw inkomen en dat van uw eventuele toeslagpartner. Mensen met een hoger inkomen komen niet in aanmerking. U vraagt zorgtoeslag aan bij de Belastingdienst/Toeslagen.",
+      "explanationEn": "Healthcare benefit (zorgtoeslag) is a government contribution toward the cost of basic health insurance. The amount depends on your income and that of your potential benefit partner. People with higher incomes are not eligible. You apply for healthcare benefit at the Tax Authority/Benefits."
+    },
+    {
+      "id": "knm-b1-5-q48",
+      "text": "Hoe werkt het toeslagensysteem in Nederland?",
+      "options": [
+        "U ontvangt toeslagen automatisch zonder aanvraag",
+        "U moet toeslagen zelf aanvragen bij de Belastingdienst/Toeslagen via mijn.toeslagen.nl met DigiD; de hoogte wordt berekend op basis van een schatting van uw inkomen en achteraf definitief vastgesteld",
+        "Toeslagen worden door uw werkgever uitbetaald",
+        "Toeslagen worden alleen aan Nederlanders uitbetaald"
+      ],
+      "correctIndex": 1,
+      "explanation": "U moet toeslagen zelf aanvragen via mijn.toeslagen.nl met DigiD. De hoogte wordt berekend op basis van een schatting van uw inkomen. U ontvangt maandelijks een voorschot. Na afloop van het jaar wordt de toeslag definitief berekend op basis van uw werkelijke inkomen. Als u te veel heeft ontvangen, moet u terugbetalen.",
+      "explanationEn": "You must apply for benefits yourself via mijn.toeslagen.nl with DigiD. The amount is calculated based on an estimate of your income. You receive a monthly advance. After the year ends, the benefit is definitively calculated based on your actual income. If you received too much, you must repay."
+    },
+    {
+      "id": "knm-b1-5-q49",
+      "text": "Wat is de gemeentelijke belasting (OZB)?",
+      "options": [
+        "Een belasting op alle aankopen in de gemeente",
+        "De onroerendezaakbelasting: een belasting die eigenaren (en soms huurders) van woningen en bedrijfspanden betalen aan de gemeente, gebaseerd op de WOZ-waarde",
+        "Een belasting op het gebruik van openbaar vervoer",
+        "Een belasting die alleen door bedrijven wordt betaald"
+      ],
+      "correctIndex": 1,
+      "explanation": "De OZB (onroerendezaakbelasting) is een gemeentelijke belasting voor eigenaren van woningen en bedrijfspanden. De hoogte is gebaseerd op de WOZ-waarde van het pand. Eigenaren betalen het eigenaarsdeel. Bij bedrijfspanden kan ook het gebruikersdeel gelden. De opbrengst gebruikt de gemeente voor voorzieningen.",
+      "explanationEn": "OZB (property tax) is a municipal tax for owners of homes and commercial properties. The amount is based on the WOZ value of the property. Owners pay the owner's portion. For commercial properties, a user's portion may also apply. The municipality uses the revenue for facilities."
+    },
+    {
+      "id": "knm-b1-5-q50",
+      "text": "Wat is de Belastingdienst en wat doet deze organisatie?",
+      "options": [
+        "Een bank die leningen verstrekt aan de overheid",
+        "De uitvoeringsorganisatie van de overheid die belastingen heft en int, toeslagen uitkeert en de douane beheert",
+        "Een adviesbureau dat bedrijven helpt belasting te besparen",
+        "Een internationale organisatie die belastingfraude bestrijdt"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Belastingdienst is de Nederlandse overheidsorganisatie die verantwoordelijk is voor het heffen en innen van belastingen (inkomstenbelasting, BTW, loonheffing), het uitkeren van toeslagen (zorgtoeslag, huurtoeslag, kinderopvangtoeslag, kindgebonden budget) en de douane. De Belastingdienst valt onder het Ministerie van Financiën.",
+      "explanationEn": "The Tax Authority (Belastingdienst) is the Dutch government organization responsible for levying and collecting taxes (income tax, VAT, payroll tax), paying out benefits (healthcare, housing, childcare benefits, child budget), and customs. The Tax Authority falls under the Ministry of Finance."
+    }
+  ]
+}

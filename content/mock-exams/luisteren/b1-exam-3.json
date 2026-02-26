@@ -1,0 +1,350 @@
+{
+  "id": "luisteren-b1-3",
+  "title": "Luisteren B1 - Oefenexamen 3",
+  "module": "luisteren",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "60 min",
+  "transcripts": [
+    {
+      "id": "l-b1-3-t1",
+      "title": "Oudergesprek over schoolprestaties",
+      "transcript": "Lerares: Goedemiddag mevrouw Bakker, fijn dat u kon komen. Ik wilde even met u praten over de voortgang van Sami dit trimester.\nOuder: Ja, natuurlijk. Ik maakte me al een beetje zorgen, want Sami vertelt thuis niet zoveel over school.\nLerares: Nou, ik begin met het goede nieuws. Sami doet het uitstekend bij rekenen. Hij scoort consequent boven het gemiddelde en helpt zelfs klasgenoten die moeite hebben met de stof.\nOuder: Oh, dat is fijn om te horen. En hoe zit het met Nederlands? Daar had hij vorig jaar wat problemen mee.\nLerares: Bij begrijpend lezen zien we duidelijke verbetering. Zijn woordenschat groeit snel. Waar ik me wel zorgen over maak, is zijn schrijfvaardigheid. Hij maakt nog veel spelfouten en zijn zinnen zijn kort. Ik zou willen voorstellen dat hij twee keer per week extra begeleiding krijgt na schooltijd.\nOuder: Dat klinkt goed. Hoelang duurt die begeleiding dan?\nLerares: Een halfuur per keer, op dinsdag en donderdag. We werken dan gericht aan spelling en zinsopbouw. Daarnaast zou het helpen als Sami thuis elke dag twintig minuten leest. Dat hoeft geen schoolboek te zijn, stripboeken of kinderboeken zijn ook prima.\nOuder: Dat gaan we zeker doen. En hoe is het sociaal? Heeft hij vriendjes in de klas?\nLerares: Absoluut. Sami is heel geliefd bij zijn klasgenoten. Hij is behulpzaam en vriendelijk. Alleen tijdens de gym is hij soms wat teruggetrokken. Ik hou dat in de gaten.\nOuder: Dank u wel. Ik voel me nu een stuk geruster.",
+      "questions": [
+        {
+          "id": "l-b1-3-q1",
+          "text": "Bij welk vak doet Sami het bijzonder goed?",
+          "options": [
+            "Nederlands",
+            "Rekenen",
+            "Gymnastiek",
+            "Begrijpend lezen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De lerares zegt: 'Sami doet het uitstekend bij rekenen. Hij scoort consequent boven het gemiddelde.'"
+        },
+        {
+          "id": "l-b1-3-q2",
+          "text": "Wat is het probleem met Sami's Nederlandse taalvaardigheid?",
+          "options": [
+            "Hij kan niet goed luisteren",
+            "Zijn uitspraak is onduidelijk",
+            "Zijn schrijfvaardigheid is zwak, met veel spelfouten en korte zinnen",
+            "Hij weigert Nederlands te spreken in de klas"
+          ],
+          "correctIndex": 2,
+          "explanation": "De lerares zegt dat ze zich zorgen maakt over zijn schrijfvaardigheid: 'Hij maakt nog veel spelfouten en zijn zinnen zijn kort.'"
+        },
+        {
+          "id": "l-b1-3-q3",
+          "text": "Hoe vaak krijgt Sami extra begeleiding volgens het voorstel?",
+          "options": [
+            "Elke dag na school",
+            "Eén keer per week op woensdag",
+            "Twee keer per week, op dinsdag en donderdag",
+            "Drie keer per week, op maandag, woensdag en vrijdag"
+          ],
+          "correctIndex": 2,
+          "explanation": "De lerares stelt voor: 'Een halfuur per keer, op dinsdag en donderdag.'"
+        },
+        {
+          "id": "l-b1-3-q4",
+          "text": "Wat adviseert de lerares voor thuis?",
+          "options": [
+            "Elke dag een uur huiswerk maken",
+            "Elke dag twintig minuten lezen",
+            "Elke week een boekverslag schrijven",
+            "Twee keer per week woordjes oefenen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De lerares zegt: 'Het zou helpen als Sami thuis elke dag twintig minuten leest.'"
+        },
+        {
+          "id": "l-b1-3-q5",
+          "text": "Hoe beschrijft de lerares Sami's sociale gedrag?",
+          "options": [
+            "Hij is verlegen en heeft geen vrienden",
+            "Hij is geliefd, behulpzaam en vriendelijk, maar soms teruggetrokken bij gym",
+            "Hij is populair maar maakt vaak ruzie",
+            "Hij speelt het liefst alleen tijdens de pauze"
+          ],
+          "correctIndex": 1,
+          "explanation": "De lerares zegt: 'Sami is heel geliefd bij zijn klasgenoten. Hij is behulpzaam en vriendelijk. Alleen tijdens de gym is hij soms wat teruggetrokken.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-3-t1.mp3"
+    },
+    {
+      "id": "l-b1-3-t2",
+      "title": "Telefoongesprek met de Belastingdienst",
+      "transcript": "Medewerker: Belastingdienst, goedemorgen. U spreekt met Peter van der Berg. Waarmee kan ik u helpen?\nBeller: Goedemorgen. Ik heb een vraag over mijn belastingaangifte. Ik ben vorig jaar in april naar Nederland verhuisd en ik weet niet precies hoe ik aangifte moet doen.\nMedewerker: Ik begrijp het. Als u in de loop van het jaar bent geïmmigreerd, doet u aangifte over het deel van het jaar dat u in Nederland woonde. Dat heet een M-biljet. Heeft u al een DigiD aangevraagd?\nBeller: Ja, die heb ik sinds oktober. Maar ik heb ook nog inkomsten gehad in mijn vorige land. Moet ik dat ook opgeven?\nMedewerker: Ja, buitenlandse inkomsten moet u ook vermelden. Nederland heeft met veel landen een belastingverdrag om dubbele belasting te voorkomen. Uit welk land komt u, als ik vragen mag?\nBeller: Uit Turkije.\nMedewerker: Met Turkije heeft Nederland inderdaad een verdrag. Uw Turkse inkomsten worden meegeteld voor het bepalen van het tarief, maar u betaalt er in principe geen dubbele belasting over. U moet wel bewijsstukken meesturen, zoals loonstroken of een belastingaanslag uit Turkije.\nBeller: Oké, en wat is de deadline? Ik heb gehoord dat het vóór 1 mei moet.\nMedewerker: Normaal gesproken is de deadline inderdaad 1 mei. Maar voor het M-biljet heeft u langer de tijd, namelijk tot 1 juli. Ik raad u toch aan om zo vroeg mogelijk te beginnen, want het M-biljet is vrij uitgebreid.\nBeller: Kan ik ergens hulp krijgen bij het invullen?\nMedewerker: Zeker. U kunt gratis een afspraak maken bij een van onze belastingbalies. Daar helpt een medewerker u persoonlijk. U kunt ook bellen met de BelastingTelefoon op werkdagen tussen acht en acht.",
+      "questions": [
+        {
+          "id": "l-b1-3-q6",
+          "text": "Welk type belastingformulier moet de beller invullen?",
+          "options": [
+            "Een P-biljet",
+            "Een M-biljet",
+            "Een C-biljet",
+            "Een standaard aangifteformulier"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker legt uit: 'Als u in de loop van het jaar bent geïmmigreerd, doet u aangifte over het deel van het jaar dat u in Nederland woonde. Dat heet een M-biljet.'"
+        },
+        {
+          "id": "l-b1-3-q7",
+          "text": "Wat zegt de medewerker over buitenlandse inkomsten?",
+          "options": [
+            "Die hoeft de beller niet op te geven",
+            "Die moet de beller vermelden, maar dankzij een belastingverdrag betaalt hij geen dubbele belasting",
+            "Daar moet de beller apart aangifte voor doen",
+            "Buitenlandse inkomsten zijn vrijgesteld van belasting"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt dat buitenlandse inkomsten vermeld moeten worden, maar dat Nederland met Turkije een verdrag heeft om dubbele belasting te voorkomen."
+        },
+        {
+          "id": "l-b1-3-q8",
+          "text": "Wat is de deadline voor het M-biljet?",
+          "options": [
+            "1 april",
+            "1 mei",
+            "1 juli",
+            "1 september"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'Maar voor het M-biljet heeft u langer de tijd, namelijk tot 1 juli.'"
+        },
+        {
+          "id": "l-b1-3-q9",
+          "text": "Welke bewijsstukken moet de beller meesturen?",
+          "options": [
+            "Zijn paspoort en verblijfsvergunning",
+            "Loonstroken of een belastingaanslag uit Turkije",
+            "Een verklaring van zijn werkgever in Nederland",
+            "Bankafschriften van de afgelopen twee jaar"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker zegt: 'U moet wel bewijsstukken meesturen, zoals loonstroken of een belastingaanslag uit Turkije.'"
+        },
+        {
+          "id": "l-b1-3-q10",
+          "text": "Waar kan de beller hulp krijgen bij het invullen?",
+          "options": [
+            "Alleen online via de website",
+            "Bij een belastingbalie of telefonisch via de BelastingTelefoon",
+            "Alleen bij een belastingadviseur op eigen kosten",
+            "Bij de gemeente waar hij woont"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker noemt twee opties: een gratis afspraak bij een belastingbalie en bellen met de BelastingTelefoon op werkdagen."
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-3-t2.mp3"
+    },
+    {
+      "id": "l-b1-3-t3",
+      "title": "Introductie werktraining op de werkvloer",
+      "transcript": "Leidinggevende: Welkom allemaal bij de introductiedag. Mijn naam is Frank Smits en ik ben de teamleider van de productieafdeling. Vandaag gaan we jullie wegwijs maken op de werkvloer. Veiligheid staat bij ons op nummer één.\nMedewerker: Goedemorgen. Ik ben Karen, de veiligheidscoördinator. Ik wil beginnen met de belangrijkste regels. In de productiehal is het dragen van veiligheidsschoenen en een gehoorbescherming verplicht. Zonder die beschermingsmiddelen mag je de hal niet betreden.\nDeelnemer: En een veiligheidsbril? Is die ook verplicht?\nMedewerker: Goed dat je dat vraagt. De veiligheidsbril is alleen verplicht in zone drie, waar met chemische stoffen wordt gewerkt. Maar ik raad iedereen aan om hem overal te dragen.\nLeidinggevende: Wat betreft de werktijden: jullie eerste twee weken zijn een inwerkperiode. Jullie werken dan van acht tot vier, met een half uur lunchpauze om twaalf uur. Na de inwerkperiode draaien jullie mee in het ploegensysteem: vroege dienst van zes tot twee, of late dienst van twee tot tien.\nDeelnemer: Hoe worden de diensten verdeeld?\nLeidinggevende: Het rooster wordt twee weken van tevoren bekendgemaakt. We proberen rekening te houden met persoonlijke voorkeuren, maar we kunnen niets garanderen. Heeft iemand nog vragen?\nMedewerker: Ik wil nog één ding toevoegen. Bij een noodsituatie gaat het alarm af. Dat is een luid, doorlopend signaal. Loop dan via de groene borden naar de dichtstbijzijnde nooduitgang. Het verzamelpunt is op het parkeerterrein aan de zijkant van het gebouw. Neem nooit de lift.",
+      "questions": [
+        {
+          "id": "l-b1-3-q11",
+          "text": "Welke beschermingsmiddelen zijn verplicht in de productiehal?",
+          "options": [
+            "Veiligheidsschoenen en een helm",
+            "Veiligheidsschoenen en gehoorbescherming",
+            "Gehoorbescherming en een veiligheidsbril",
+            "Een helm, handschoenen en veiligheidsschoenen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Karen zegt: 'In de productiehal is het dragen van veiligheidsschoenen en een gehoorbescherming verplicht.'"
+        },
+        {
+          "id": "l-b1-3-q12",
+          "text": "Waar is de veiligheidsbril verplicht?",
+          "options": [
+            "Overal in het gebouw",
+            "Alleen in de kantine",
+            "Alleen in zone drie, waar met chemische stoffen wordt gewerkt",
+            "In de productiehal en het magazijn"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karen zegt: 'De veiligheidsbril is alleen verplicht in zone drie, waar met chemische stoffen wordt gewerkt.'"
+        },
+        {
+          "id": "l-b1-3-q13",
+          "text": "Hoe laat is de lunchpauze tijdens de inwerkperiode?",
+          "options": [
+            "Om elf uur",
+            "Om half twaalf",
+            "Om twaalf uur",
+            "Om half één"
+          ],
+          "correctIndex": 2,
+          "explanation": "De leidinggevende zegt: 'met een half uur lunchpauze om twaalf uur.'"
+        },
+        {
+          "id": "l-b1-3-q14",
+          "text": "Hoe laat begint de late dienst na de inwerkperiode?",
+          "options": [
+            "Om twaalf uur 's middags",
+            "Om twee uur 's middags",
+            "Om vier uur 's middags",
+            "Om zes uur 's avonds"
+          ],
+          "correctIndex": 1,
+          "explanation": "De leidinggevende zegt: 'late dienst van twee tot tien.'"
+        },
+        {
+          "id": "l-b1-3-q15",
+          "text": "Wat moet je doen bij een noodsituatie?",
+          "options": [
+            "De lift nemen naar de begane grond",
+            "Wachten bij je werkplek tot de brandweer komt",
+            "Via de groene borden naar de nooduitgang lopen en naar het verzamelpunt gaan",
+            "Je leidinggevende bellen en instructies afwachten"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karen zegt: 'Loop dan via de groene borden naar de dichtstbijzijnde nooduitgang. Het verzamelpunt is op het parkeerterrein.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-3-t3.mp3"
+    },
+    {
+      "id": "l-b1-3-t4",
+      "title": "Consult bij de apotheek over medicatie",
+      "transcript": "Apotheker: Goedemiddag. U komt een recept ophalen, zie ik?\nPatiënt: Ja, mijn huisarts heeft me iets voorgeschreven voor mijn bloeddruk. Ik heb hier het recept.\nApotheker: Laat me even kijken. Ah ja, amlodipine, vijf milligram, één keer per dag. Dit is een veelgebruikt middel tegen hoge bloeddruk. Heeft u eerder bloeddrukmedicatie gebruikt?\nPatiënt: Nee, dit is de eerste keer. Ik ben een beetje nerveus eerlijk gezegd. Zijn er bijwerkingen waar ik op moet letten?\nApotheker: Dat kan ik begrijpen. De meest voorkomende bijwerkingen zijn opgezwollen enkels, hoofdpijn en duizeligheid, vooral in de eerste weken. Deze klachten verdwijnen meestal vanzelf. Als ze aanhouden of erger worden, neem dan contact op met uw huisarts.\nPatiënt: Ik gebruik ook al ibuprofen voor mijn knie. Kan dat een probleem zijn?\nApotheker: Goed dat u dat zegt. Ibuprofen kan de werking van bloeddrukmedicatie verminderen. Ik raad u aan om met uw huisarts te overleggen of u kunt overstappen op paracetamol. Dat heeft geen invloed op uw bloeddruk.\nPatiënt: Oh, dat wist ik niet. Zijn er nog andere dingen waar ik rekening mee moet houden?\nApotheker: Ja, neem het medicijn elke dag op hetzelfde tijdstip in, bij voorkeur 's ochtends. U kunt het met of zonder voedsel innemen. Vermijd grapefruitsap, want dat kan de werking van amlodipine versterken op een ongewenste manier. En drink niet te veel alcohol.\nPatiënt: Begrepen. En als ik een keer vergeet het in te nemen?\nApotheker: Neem het dan in zodra u het zich herinnert, tenzij het bijna tijd is voor de volgende dosis. Neem nooit een dubbele dosis om een gemiste in te halen.",
+      "questions": [
+        {
+          "id": "l-b1-3-q16",
+          "text": "Welk medicijn is voorgeschreven en hoe vaak moet het worden ingenomen?",
+          "options": [
+            "Paracetamol, twee keer per dag",
+            "Ibuprofen, drie keer per dag",
+            "Amlodipine, vijf milligram, één keer per dag",
+            "Amlodipine, tien milligram, twee keer per dag"
+          ],
+          "correctIndex": 2,
+          "explanation": "De apotheker zegt: 'Amlodipine, vijf milligram, één keer per dag.'"
+        },
+        {
+          "id": "l-b1-3-q17",
+          "text": "Welke bijwerkingen noemt de apotheker?",
+          "options": [
+            "Misselijkheid, diarree en vermoeidheid",
+            "Opgezwollen enkels, hoofdpijn en duizeligheid",
+            "Haaruitval, droge mond en slapeloosheid",
+            "Maagpijn, huiduitslag en jeuk"
+          ],
+          "correctIndex": 1,
+          "explanation": "De apotheker zegt: 'De meest voorkomende bijwerkingen zijn opgezwollen enkels, hoofdpijn en duizeligheid.'"
+        },
+        {
+          "id": "l-b1-3-q18",
+          "text": "Waarom is ibuprofen een probleem in combinatie met bloeddrukmedicatie?",
+          "options": [
+            "Het veroorzaakt ernstige allergische reacties",
+            "Het kan de werking van bloeddrukmedicatie verminderen",
+            "Het verhoogt het risico op een hartaanval",
+            "Het zorgt voor maagbloedingen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De apotheker legt uit: 'Ibuprofen kan de werking van bloeddrukmedicatie verminderen.'"
+        },
+        {
+          "id": "l-b1-3-q19",
+          "text": "Wat moet de patiënt vermijden tijdens het gebruik van amlodipine?",
+          "options": [
+            "Koffie en thee",
+            "Zuivelproducten",
+            "Grapefruitsap en te veel alcohol",
+            "Tarwe en gluten"
+          ],
+          "correctIndex": 2,
+          "explanation": "De apotheker waarschuwt: 'Vermijd grapefruitsap, want dat kan de werking van amlodipine versterken op een ongewenste manier. En drink niet te veel alcohol.'"
+        },
+        {
+          "id": "l-b1-3-q20",
+          "text": "Wat moet de patiënt doen als hij een dosis vergeet?",
+          "options": [
+            "De volgende dag een dubbele dosis nemen",
+            "Direct de huisarts bellen",
+            "De gemiste dosis overslaan en doorgaan met het normale schema",
+            "Het innemen zodra hij het zich herinnert, tenzij het bijna tijd is voor de volgende dosis"
+          ],
+          "correctIndex": 3,
+          "explanation": "De apotheker zegt: 'Neem het dan in zodra u het zich herinnert, tenzij het bijna tijd is voor de volgende dosis. Neem nooit een dubbele dosis.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-3-t4.mp3"
+    },
+    {
+      "id": "l-b1-3-t5",
+      "title": "Vergadering van de sportvereniging",
+      "transcript": "Voorzitter: Goedenavond allemaal, welkom bij de ledenvergadering van Sportclub De Meeuwen. Ik wil beginnen met een overzicht van het komende seizoen.\nBewoner: Voordat u begint, voorzitter, ik wil graag weten hoe het zit met de staat van de kleedkamers. Vorig seizoen waren er klachten over lekkages en kapotte douches.\nVoorzitter: Terecht punt. We hebben afgelopen zomer een aannemer ingehuurd die de douches heeft gerepareerd en de lekkages heeft verholpen. Daarnaast zijn de kleedkamers opnieuw geschilderd. De kosten waren twaalfduizend euro, gefinancierd uit het onderhoudsfonds.\nDeelnemer: En hoe zit het met de contributie? Ik heb gehoord dat die omhooggaat.\nVoorzitter: Dat klopt. De contributie stijgt met vijf procent. Dat komt neer op ongeveer tien euro per jaar extra voor senioren. Dit is noodzakelijk vanwege de gestegen energiekosten en de hogere huurprijs van de sporthal.\nBewoner: Vijf procent vind ik nog redelijk. Maar kunnen we dan ook verwachten dat de trainingstijden verbeteren? Vorig jaar moesten we steeds om half tien 's avonds trainen.\nVoorzitter: Ik heb goed nieuws. We hebben een extra zaaluur gekregen op woensdagavond. Daardoor kunnen de senioren voortaan om zeven uur trainen in plaats van half tien. De jeugd traint op dinsdagmiddag van vier tot half zes.\nDeelnemer: Geweldig. En hoe kan ik mijn kinderen inschrijven voor de jeugdafdeling?\nVoorzitter: U kunt ze aanmelden via onze website of aan de balie bij de sporthal. De inschrijving voor het nieuwe seizoen opent volgende week maandag. De eerste drie proeflessen zijn gratis, zodat kinderen kunnen kijken of het bij hen past.\nBewoner: Dat is een mooi aanbod. Bedankt voor de uitleg.",
+      "questions": [
+        {
+          "id": "l-b1-3-q21",
+          "text": "Welke renovatiewerkzaamheden zijn er in de zomer uitgevoerd?",
+          "options": [
+            "Er is een nieuw dak geplaatst",
+            "De douches zijn gerepareerd, lekkages verholpen en de kleedkamers opnieuw geschilderd",
+            "Er is een nieuwe sporthal gebouwd",
+            "De verwarming is vervangen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt dat de douches zijn gerepareerd, de lekkages verholpen en de kleedkamers opnieuw geschilderd."
+        },
+        {
+          "id": "l-b1-3-q22",
+          "text": "Hoeveel stijgt de contributie en waarom?",
+          "options": [
+            "Tien procent, vanwege nieuwe apparatuur",
+            "Drie procent, vanwege inflatie",
+            "Vijf procent, vanwege gestegen energiekosten en hogere huurprijs",
+            "Acht procent, vanwege de renovatie van de kleedkamers"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'De contributie stijgt met vijf procent... vanwege de gestegen energiekosten en de hogere huurprijs van de sporthal.'"
+        },
+        {
+          "id": "l-b1-3-q23",
+          "text": "Hoe laat trainen de senioren voortaan?",
+          "options": [
+            "Om half tien 's avonds",
+            "Om zeven uur 's avonds",
+            "Om acht uur 's avonds",
+            "Om vier uur 's middags"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'Daardoor kunnen de senioren voortaan om zeven uur trainen in plaats van half tien.'"
+        },
+        {
+          "id": "l-b1-3-q24",
+          "text": "Hoeveel kosten de renovatiewerkzaamheden?",
+          "options": [
+            "Achtduizend euro",
+            "Tienduizend euro",
+            "Twaalfduizend euro",
+            "Vijftienduizend euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'De kosten waren twaalfduizend euro, gefinancierd uit het onderhoudsfonds.'"
+        },
+        {
+          "id": "l-b1-3-q25",
+          "text": "Wat wordt er aangeboden voor nieuwe jeugdleden?",
+          "options": [
+            "Een gratis sportset",
+            "Drie gratis proeflessen",
+            "Een maand gratis lidmaatschap",
+            "Korting op de contributie"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'De eerste drie proeflessen zijn gratis, zodat kinderen kunnen kijken of het bij hen past.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-3-t5.mp3"
+    }
+  ]
+}

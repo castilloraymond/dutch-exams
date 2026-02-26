@@ -1,0 +1,77 @@
+{
+  "id": "schrijven-b1-3",
+  "title": "Schrijven B1 - Oefenexamen 3",
+  "module": "schrijven",
+  "difficulty": "B1",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": true,
+  "tips": [
+    "When writing a complaint, state the problem clearly and give specific details (dates, reference numbers).",
+    "Always explain how the issue has affected you — this strengthens your argument.",
+    "End your letter with a concrete request: what action do you want them to take?",
+    "Keep your tone firm but polite — avoid emotional language in formal complaints."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "formal-register",
+      "text": "I used formal language where appropriate",
+      "textEn": "I used formal language where appropriate"
+    },
+    {
+      "id": "clear-problem",
+      "text": "I described the problem clearly with specific details",
+      "textEn": "I described the problem clearly with specific details"
+    },
+    {
+      "id": "action-request",
+      "text": "I ended with a clear request for action",
+      "textEn": "I ended with a clear request for action"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-b1-3-q1",
+      "scenario": "U huurt een woning en er is al drie keer een waterlekkage geweest in de afgelopen twee maanden. De verhuurder heeft het probleem nog steeds niet opgelost.",
+      "scenarioEn": "You rent an apartment and there have been three water leaks in the past two months. The landlord has still not fixed the problem.",
+      "prompt": "Schrijf een formele klachtbrief aan uw verhuurder. Beschrijf het probleem, noem de eerdere lekkages en vraag om een definitieve oplossing.",
+      "promptEn": "Write a formal complaint letter to your landlord. Describe the problem, mention the previous leaks, and ask for a permanent solution.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-problem", "text": "I described the recurring leak problem with dates or details", "textEn": "I described the recurring leak problem with dates or details" },
+        { "id": "q1-impact", "text": "I explained how the leaks have affected me", "textEn": "I explained how the leaks have affected me" },
+        { "id": "q1-solution", "text": "I requested a specific solution or deadline", "textEn": "I requested a specific solution or deadline" }
+      ],
+      "modelAnswer": "Geachte heer Van Dijk,\n\nIk schrijf u over de herhaalde waterlekkage in mijn woning aan de Keizersgracht 84. Op 5 januari, 20 januari en 8 februari was er opnieuw lekkage in de badkamer. Het water heeft schade veroorzaakt aan het plafond en de vloer van de gang. Ondanks mijn eerdere meldingen is het probleem nog steeds niet definitief opgelost.\n\nIk verzoek u dringend om binnen twee weken een loodgieter te sturen voor een permanente reparatie. Als het probleem niet wordt opgelost, ben ik genoodzaakt contact op te nemen met het Juridisch Loket.\n\nMet vriendelijke groet,\nAmina Ouahabi"
+    },
+    {
+      "id": "schrijven-b1-3-q2",
+      "scenario": "Uw kind zit in groep 5 op de basisschool. U wilt dat uw kind naar een andere klas wordt overgeplaatst omdat er problemen zijn met een andere leerling.",
+      "scenarioEn": "Your child is in group 5 at primary school. You want your child transferred to a different class because of problems with another student.",
+      "prompt": "Schrijf een formele brief aan de schooldirectie. Leg de situatie uit en vraag om een overplaatsing naar een andere klas.",
+      "promptEn": "Write a formal letter to the school administration. Explain the situation and request a transfer to a different class.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-situation", "text": "I clearly explained the situation at school", "textEn": "I clearly explained the situation at school" },
+        { "id": "q2-request", "text": "I made a clear request for a class transfer", "textEn": "I made a clear request for a class transfer" }
+      ],
+      "modelAnswer": "Geachte mevrouw De Vries,\n\nIk schrijf u als ouder van Youssef Hadaoui, leerling in groep 5B. Sinds het begin van dit schooljaar heeft mijn zoon problemen met een andere leerling in de klas. Hij wordt regelmatig gepest en voelt zich onveilig. Wij hebben hier al eerder over gesproken met de leerkracht, maar de situatie is niet verbeterd.\n\nIk verzoek u vriendelijk om Youssef over te plaatsen naar groep 5A, zodat hij zich weer kan concentreren op zijn schoolwerk. Ik hoor graag wanneer wij hierover kunnen praten.\n\nMet vriendelijke groet,\nKarim Hadaoui"
+    },
+    {
+      "id": "schrijven-b1-3-q3",
+      "scenario": "U werkt bij een bedrijf waar het team wordt gereorganiseerd. De werktijden van uw afdeling veranderen per volgende maand.",
+      "scenarioEn": "You work at a company where the team is being reorganized. Your department's working hours are changing next month.",
+      "prompt": "Schrijf een email aan uw collega's om hen te informeren over de nieuwe werktijden en de reden van de verandering.",
+      "promptEn": "Write an email to your colleagues to inform them about the new working hours and the reason for the change.",
+      "taskType": "free-text",
+      "wordRange": { "min": 50, "max": 100 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-info", "text": "I clearly stated the new working hours and start date", "textEn": "I clearly stated the new working hours and start date" },
+        { "id": "q3-reason", "text": "I explained the reason for the schedule change", "textEn": "I explained the reason for the schedule change" }
+      ],
+      "modelAnswer": "Beste collega's,\n\nIk wil jullie informeren over een wijziging in onze werktijden. Vanaf 1 april werken wij van 8:30 tot 17:00 uur in plaats van 9:00 tot 17:30 uur. Deze verandering is het gevolg van de reorganisatie van ons team en de nieuwe samenwerking met de afdeling logistiek.\n\nAls jullie vragen hebben, kunnen we dit bespreken tijdens de teamvergadering op dinsdag.\n\nMet vriendelijke groet,\nSandra Bakker"
+    }
+  ]
+}

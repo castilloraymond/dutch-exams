@@ -1,0 +1,127 @@
+{
+  "id": "spreken-b1-4",
+  "title": "Spreken B1 - Oefenexamen 4",
+  "module": "spreken",
+  "difficulty": "B1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": true,
+  "tips": [
+    "Talk about your own experiences and habits to make your answers personal and convincing.",
+    "Don't just describe what you see in images — also give your opinion and explain your reasoning.",
+    "Use expressions like 'ik denk dat' (I think that) and 'naar mijn mening' (in my opinion) to share opinions.",
+    "For the story, describe not just actions but also emotions and possible reasons behind them."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "all-parts", "text": "I answered all parts of each question", "textEn": "I answered all parts of each question" },
+    { "id": "opinions", "text": "I gave my opinion and explained my reasons", "textEn": "I gave my opinion and explained my reasons" },
+    { "id": "fluency", "text": "I spoke fluently without many long pauses", "textEn": "I spoke fluently without many long pauses" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-b1-4-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Hoe blijf jij gezond? Wat doe je voor je gezondheid? Wat zou je willen veranderen aan je leefstijl?",
+      "questionEn": "How do you stay healthy? What do you do for your health? What would you like to change about your lifestyle?",
+      "questionParts": ["How do you stay healthy?", "What do you do for your health?", "What would you like to change about your lifestyle?"],
+      "personStatement": "I try to eat healthy food and I go running twice a week.",
+      "personStatementNl": "Ik probeer gezond te eten en ik ga twee keer per week hardlopen.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I try to stay healthy by cooking at home and eating a lot of vegetables. I also go cycling every weekend because I enjoy being outside. But I would like to change my sleeping habits. I often go to bed too late because of my phone, and I think that is not good for my health.",
+        "transcriptNl": "Ik probeer gezond te blijven door thuis te koken en veel groenten te eten. Ik ga ook elk weekend fietsen omdat ik graag buiten ben. Maar ik zou mijn slaapgewoontes willen veranderen. Ik ga vaak te laat naar bed vanwege mijn telefoon, en ik denk dat dat niet goed is voor mijn gezondheid."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-4-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Beschrijf wat je ziet. Doe jij ook aan sport? Waarom vind je beweging belangrijk of niet?",
+      "questionEn": "Look at the image. Describe what you see. Do you also exercise? Why do you think exercise is important or not?",
+      "images": [
+        {
+          "id": "b1-gym-exercise",
+          "src": "/images/spreken/b1-gym-people-exercising.jpg",
+          "alt": "People exercising together in a gym",
+          "altNl": "Mensen die samen sporten in een sportschool"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I see people exercising in a gym. Some are using machines and others are lifting weights. They look motivated and energetic. I also like to exercise, but I prefer to go outside and run in the park. I think exercise is very important because it is good for your body and also for your mind. After exercise I always feel more relaxed and I can concentrate better.",
+        "transcriptNl": "Ik zie mensen die sporten in een sportschool. Sommigen gebruiken apparaten en anderen tillen gewichten. Ze zien er gemotiveerd en energiek uit. Ik sport ook graag, maar ik ga liever buiten hardlopen in het park. Ik vind beweging erg belangrijk omdat het goed is voor je lichaam en ook voor je hoofd. Na het sporten voel ik me altijd meer ontspannen en kan ik me beter concentreren."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-4-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Vergelijk een gezonde zelfgemaakte maaltijd met fastfood. Welke eet jij het liefst? Leg uit waarom.",
+      "questionEn": "Look at both pictures. Compare a healthy home-cooked meal with fast food. Which do you prefer to eat? Explain why.",
+      "images": [
+        {
+          "id": "b1-food-healthy",
+          "src": "/images/spreken/b1-food-healthy-meal.jpg",
+          "alt": "A healthy home-cooked meal with vegetables and grains",
+          "altNl": "Een gezonde zelfgemaakte maaltijd met groenten en granen"
+        },
+        {
+          "id": "b1-food-fastfood",
+          "src": "/images/spreken/b1-food-fastfood.jpg",
+          "alt": "A fast food meal with a burger and fries",
+          "altNl": "Een fastfoodmaaltijd met een hamburger en patat"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "The first picture shows a healthy home-cooked meal with vegetables and grains. It looks colorful and fresh. The second picture shows fast food with a burger and fries. I prefer to eat home-cooked meals because they are healthier and I know exactly what is in the food. But sometimes I eat fast food too because it is quick and easy, especially when I have no time to cook. I think the best approach is to eat healthy most of the time and enjoy fast food once in a while.",
+        "transcriptNl": "De eerste foto laat een gezonde zelfgemaakte maaltijd zien met groenten en granen. Het ziet er kleurrijk en vers uit. De tweede foto toont fastfood met een hamburger en patat. Ik eet liever zelfgemaakte maaltijden omdat ze gezonder zijn en ik precies weet wat er in het eten zit. Maar soms eet ik ook fastfood omdat het snel en makkelijk is, vooral als ik geen tijd heb om te koken. Ik denk dat het het beste is om meestal gezond te eten en af en toe van fastfood te genieten."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-4-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel het verhaal in detail. Gebruik verbindingswoorden: eerst, vervolgens, ten slotte.",
+      "questionEn": "Look at the three pictures. Tell the story in detail. Use connecting words: first, next, finally.",
+      "images": [
+        {
+          "id": "b1-health-sick",
+          "src": "/images/spreken/b1-health-feeling-sick.jpg",
+          "alt": "A person feeling sick at home on the couch",
+          "altNl": "Een persoon die zich ziek voelt op de bank thuis"
+        },
+        {
+          "id": "b1-health-doctor",
+          "src": "/images/spreken/b1-health-visiting-doctor.jpg",
+          "alt": "A person visiting a doctor in a medical office",
+          "altNl": "Een persoon die een dokter bezoekt in een praktijk"
+        },
+        {
+          "id": "b1-health-recovered",
+          "src": "/images/spreken/b1-health-recovered-exercising.jpg",
+          "alt": "A healthy person jogging outdoors in a park",
+          "altNl": "Een gezond persoon die buiten in een park aan het joggen is"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First the person is feeling sick at home on the couch. They look tired and uncomfortable. They probably have the flu or a bad cold. Next the person goes to the doctor. The doctor examines them and gives advice about how to get better. They probably get medicine and rest. Finally we see the person outside in the park, jogging and looking healthy again. They have fully recovered and now they take better care of their health by exercising regularly.",
+        "transcriptNl": "Eerst voelt de persoon zich ziek thuis op de bank. Ze zien er moe en oncomfortabel uit. Ze hebben waarschijnlijk griep of een zware verkoudheid. Vervolgens gaat de persoon naar de dokter. De dokter onderzoekt hen en geeft advies over hoe ze beter kunnen worden. Ze krijgen waarschijnlijk medicijnen en rust. Ten slotte zien we de persoon buiten in het park, aan het joggen en weer gezond. Ze zijn helemaal hersteld en nu zorgen ze beter voor hun gezondheid door regelmatig te sporten."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

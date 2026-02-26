@@ -1,0 +1,127 @@
+{
+  "id": "spreken-b1-5",
+  "title": "Spreken B1 - Oefenexamen 5",
+  "module": "spreken",
+  "difficulty": "B1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": true,
+  "tips": [
+    "When talking about preferences, always explain the reasons behind your choice.",
+    "Use varied sentence structures — don't start every sentence the same way.",
+    "For comparison questions, use words like 'terwijl' (while), 'in tegenstelling tot' (in contrast to), and 'aan de andere kant' (on the other hand).",
+    "In the story question, add details about how the people might feel and why they are doing what they do."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "all-parts", "text": "I answered all parts of each question", "textEn": "I answered all parts of each question" },
+    { "id": "vocabulary", "text": "I used varied vocabulary and sentence structures", "textEn": "I used varied vocabulary and sentence structures" },
+    { "id": "detail", "text": "I gave detailed answers with opinions and reasons", "textEn": "I gave detailed answers with opinions and reasons" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-b1-5-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Hoe reis jij naar je werk of school? Wat vind je van het openbaar vervoer in Nederland? Wat zou je willen verbeteren?",
+      "questionEn": "How do you travel to work or school? What do you think of public transport in the Netherlands? What would you improve?",
+      "questionParts": ["How do you travel to work or school?", "What do you think of public transport?", "What would you improve?"],
+      "personStatement": "I take the train and then a bus to get to work every day.",
+      "personStatementNl": "Ik neem elke dag de trein en dan een bus om naar mijn werk te gaan.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I travel to work by bike because I live close to my office. It takes about twenty minutes. I think public transport in the Netherlands is generally good, especially the trains. But the buses are sometimes late, and in the evening there are fewer connections. I would improve the frequency of buses in the evening and make the tickets cheaper for people who travel every day.",
+        "transcriptNl": "Ik reis naar mijn werk met de fiets omdat ik dichtbij mijn kantoor woon. Het duurt ongeveer twintig minuten. Ik vind het openbaar vervoer in Nederland over het algemeen goed, vooral de treinen. Maar de bussen zijn soms te laat, en 's avonds zijn er minder verbindingen. Ik zou de frequentie van bussen in de avond willen verbeteren en de kaartjes goedkoper maken voor mensen die elke dag reizen."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-5-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Beschrijf wat je ziet. Hoe is jouw ervaring met reizen? Wat vind je leuk of vervelend aan drukke stations?",
+      "questionEn": "Look at the image. Describe what you see. What is your experience with traveling? What do you like or dislike about busy stations?",
+      "images": [
+        {
+          "id": "b1-train-station",
+          "src": "/images/spreken/b1-train-station-busy.jpg",
+          "alt": "A busy train station with many travelers and departure boards",
+          "altNl": "Een druk treinstation met veel reizigers en vertrekborden"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I see a busy train station with many travelers. There are departure boards showing different destinations and people are walking quickly to their platforms. I travel by train often and I am used to busy stations. What I like is that there are many shops and restaurants where you can wait comfortably. But what I find annoying is when it is very crowded during rush hour and you cannot find a seat on the train.",
+        "transcriptNl": "Ik zie een druk treinstation met veel reizigers. Er zijn vertrekborden die verschillende bestemmingen tonen en mensen lopen snel naar hun perron. Ik reis vaak met de trein en ik ben gewend aan drukke stations. Wat ik leuk vind is dat er veel winkels en restaurants zijn waar je comfortabel kunt wachten. Maar wat ik vervelend vind is als het erg druk is tijdens het spitsuur en je geen zitplaats in de trein kunt vinden."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-5-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Vergelijk fietsen met autorijden. Wat zijn de voordelen en nadelen? Welke manier van reizen heeft jouw voorkeur?",
+      "questionEn": "Look at both pictures. Compare cycling with driving. What are the advantages and disadvantages? Which way of traveling do you prefer?",
+      "images": [
+        {
+          "id": "b1-transport-cycling",
+          "src": "/images/spreken/b1-transport-cycling.jpg",
+          "alt": "A person cycling on a bike path along a canal",
+          "altNl": "Een persoon die fietst op een fietspad langs een gracht"
+        },
+        {
+          "id": "b1-transport-driving",
+          "src": "/images/spreken/b1-transport-driving.jpg",
+          "alt": "A person driving a car in traffic on a highway",
+          "altNl": "Een persoon die in een auto op de snelweg rijdt in het verkeer"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "The first picture shows someone cycling on a bike path along a canal. It looks peaceful and healthy. The second picture shows a person driving a car on a busy highway. I prefer cycling because it is good for your health and better for the environment. It is also free and you do not have to worry about parking. But driving has advantages too, especially for long distances or when the weather is bad. In the Netherlands, I think cycling is the best choice for short distances because of the good bike paths.",
+        "transcriptNl": "De eerste foto laat iemand zien die fietst op een fietspad langs een gracht. Het ziet er rustig en gezond uit. De tweede foto toont een persoon die in een auto rijdt op een drukke snelweg. Ik heb een voorkeur voor fietsen omdat het goed is voor je gezondheid en beter voor het milieu. Het is ook gratis en je hoeft niet na te denken over parkeren. Maar autorijden heeft ook voordelen, vooral voor lange afstanden of als het weer slecht is. In Nederland vind ik fietsen de beste keuze voor korte afstanden vanwege de goede fietspaden."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-5-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel het verhaal in detail. Gebruik verbindingswoorden: eerst, vervolgens, ten slotte.",
+      "questionEn": "Look at the three pictures. Tell the story in detail. Use connecting words: first, next, finally.",
+      "images": [
+        {
+          "id": "b1-vacation-planning",
+          "src": "/images/spreken/b1-vacation-planning.jpg",
+          "alt": "A couple looking at a map and planning a vacation at home",
+          "altNl": "Een stel dat thuis naar een kaart kijkt en een vakantie plant"
+        },
+        {
+          "id": "b1-vacation-traveling",
+          "src": "/images/spreken/b1-vacation-packing-traveling.jpg",
+          "alt": "A couple with suitcases at an airport check-in counter",
+          "altNl": "Een stel met koffers bij de incheckbalie op het vliegveld"
+        },
+        {
+          "id": "b1-vacation-arriving",
+          "src": "/images/spreken/b1-vacation-arriving-destination.jpg",
+          "alt": "A happy couple arriving at a sunny beach destination",
+          "altNl": "Een blij stel dat aankomt op een zonnige strandbestemming"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First the couple is at home planning their vacation. They are looking at a map together and they seem excited about choosing a destination. They are probably discussing where they want to go and what they want to do. Next they are at the airport with their suitcases. They are checking in for their flight and they look happy that the trip is finally starting. Finally they arrive at a beautiful sunny beach. They look very relaxed and happy. After all the planning and traveling, they can finally enjoy their vacation together.",
+        "transcriptNl": "Eerst is het stel thuis hun vakantie aan het plannen. Ze kijken samen naar een kaart en ze lijken enthousiast over het kiezen van een bestemming. Ze bespreken waarschijnlijk waar ze naartoe willen en wat ze willen doen. Vervolgens zijn ze op het vliegveld met hun koffers. Ze checken in voor hun vlucht en ze zien er blij uit dat de reis eindelijk begint. Ten slotte komen ze aan op een prachtig zonnig strand. Ze zien er heel ontspannen en gelukkig uit. Na al het plannen en reizen kunnen ze eindelijk samen van hun vakantie genieten."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

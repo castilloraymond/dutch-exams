@@ -1,0 +1,380 @@
+{
+  "id": "lezen-b1-5",
+  "title": "Lezen B1 - Oefenexamen 5",
+  "module": "lezen",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "45 min",
+  "passages": [
+    {
+      "id": "b1-5-p1",
+      "title": "Brief van de IND over de verblijfsvergunningprocedure",
+      "content": "Geachte mevrouw Okafor,\n\nOp 12 december 2025 heeft u een aanvraag ingediend voor een verblijfsvergunning regulier voor bepaalde tijd met als doel 'verblijf bij echtgenoot'. Uw aanvraag is geregistreerd onder zaaknummer V2025-187432.\n\nBeslistermijn\nDe wettelijke beslistermijn voor uw aanvraag bedraagt 90 dagen, gerekend vanaf de datum waarop wij uw aanvraag compleet hebben ontvangen. Omdat wij op 8 januari 2026 aanvullende documenten van u hebben ontvangen, gaat de beslistermijn in op die datum. U kunt een beslissing verwachten uiterlijk 8 april 2026.\n\nOntbrekend document\nBij de beoordeling van uw aanvraag is gebleken dat het volgende document ontbreekt:\n\u2022 Een gelegaliseerde en vertaalde geboorteakte\n\nWij verzoeken u dit document binnen vier weken na dagtekening van deze brief toe te sturen. U kunt het document uploaden via Mijn IND (ind.nl/mijn-ind) of per post versturen naar het in de kop van deze brief vermelde adres. Als wij het document niet op tijd ontvangen, nemen wij een beslissing op basis van de nu beschikbare gegevens. Dit kan leiden tot afwijzing van uw aanvraag.\n\nBiometrisch onderzoek\nU bent uitgenodigd voor het afnemen van biometrische gegevens (gezichtsfoto en vingerafdrukken) bij de IND-loket in Amsterdam. Uw afspraak is gepland op woensdag 5 februari 2026 om 10:30 uur. Neem een geldig identiteitsbewijs mee. Als u deze afspraak niet kunt nakomen, wijzig deze dan minimaal 24 uur van tevoren via Mijn IND.\n\nBezwaar en beroep\nIndien uw aanvraag wordt afgewezen, kunt u binnen vier weken na de datum van het besluit bezwaar maken. Meer informatie hierover vindt u op ind.nl/bezwaar.\n\nMet vriendelijke groet,\nImmigratie- en Naturalisatiedienst\nAfdeling Verblijfsvergunningen Regulier",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de IND. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-5-q1",
+          "text": "Wat is het doel van de verblijfsvergunning die mevrouw Okafor heeft aangevraagd?",
+          "options": [
+            "Studie aan een Nederlandse universiteit",
+            "Verblijf bij echtgenoot",
+            "Arbeid in loondienst",
+            "Asiel"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat de aanvraag is voor een verblijfsvergunning regulier voor bepaalde tijd met als doel 'verblijf bij echtgenoot'.",
+          "explanationEn": "The letter states the application is for a temporary regular residence permit for the purpose of 'residence with spouse'."
+        },
+        {
+          "id": "b1-5-q2",
+          "text": "Waarom gaat de beslistermijn in op 8 januari 2026 en niet op 12 december 2025?",
+          "options": [
+            "Omdat de IND gesloten was tijdens de feestdagen",
+            "Omdat de IND op 8 januari aanvullende documenten heeft ontvangen die de aanvraag compleet maakten",
+            "Omdat mevrouw Okafor op 8 januari haar biometrische gegevens heeft laten afnemen",
+            "Omdat de beslistermijn altijd in januari begint"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief stelt dat de beslistermijn ingaat op de datum waarop de aanvraag compleet is ontvangen, en er op 8 januari aanvullende documenten zijn ontvangen.",
+          "explanationEn": "The letter states the decision period starts from the date the application was received complete, and additional documents were received on January 8."
+        },
+        {
+          "id": "b1-5-q3",
+          "text": "Welk document ontbreekt er nog bij de aanvraag?",
+          "options": [
+            "Een kopie van het paspoort",
+            "Een werkgeversverklaring",
+            "Een gelegaliseerde en vertaalde geboorteakte",
+            "Een bewijs van inschrijving bij de gemeente"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brief noemt specifiek dat een gelegaliseerde en vertaalde geboorteakte ontbreekt.",
+          "explanationEn": "The letter specifically mentions that a legalized and translated birth certificate is missing."
+        },
+        {
+          "id": "b1-5-q4",
+          "text": "Wat gebeurt er als het ontbrekende document niet op tijd wordt ingediend?",
+          "options": [
+            "De aanvraag wordt automatisch verlengd met 30 dagen",
+            "De IND neemt een beslissing op basis van de beschikbare gegevens, wat kan leiden tot afwijzing",
+            "De aanvraag wordt ingetrokken en u moet opnieuw aanvragen",
+            "Er wordt een boete opgelegd"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief waarschuwt: 'Als wij het document niet op tijd ontvangen, nemen wij een beslissing op basis van de nu beschikbare gegevens. Dit kan leiden tot afwijzing.'",
+          "explanationEn": "The letter warns that if the document is not received on time, a decision will be made based on available information, which may lead to rejection."
+        },
+        {
+          "id": "b1-5-q5",
+          "text": "Hoeveel tijd heeft mevrouw Okafor om bezwaar te maken als haar aanvraag wordt afgewezen?",
+          "options": [
+            "Twee weken na de afwijzing",
+            "Vier weken na de datum van het besluit",
+            "Zes weken na ontvangst van de brief",
+            "Drie maanden na de afwijzing"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat men binnen vier weken na de datum van het besluit bezwaar kan maken.",
+          "explanationEn": "The letter states that an objection can be filed within four weeks of the date of the decision."
+        }
+      ]
+    },
+    {
+      "id": "b1-5-p2",
+      "title": "Het Nederlandse onderwijssysteem uitgelegd",
+      "content": "Het Nederlandse onderwijssysteem is opgebouwd uit meerdere niveaus en biedt verschillende routes om een diploma te behalen. Voor nieuwkomers kan het systeem ingewikkeld lijken. Dit artikel geeft een overzicht van de belangrijkste onderdelen.\n\nBasisonderwijs\nKinderen gaan in Nederland naar de basisschool vanaf hun vierde levensjaar. Het basisonderwijs duurt acht jaar (groep 1 tot en met 8). Aan het einde van groep 8 maken leerlingen een doorstroomtoets die, samen met het advies van de leerkracht, bepaalt naar welk type voortgezet onderwijs zij gaan.\n\nVoortgezet onderwijs\nHet voortgezet onderwijs kent drie hoofdniveaus:\n\u2022 vmbo (voorbereidend middelbaar beroepsonderwijs) \u2014 4 jaar, bereidt voor op het mbo\n\u2022 havo (hoger algemeen voortgezet onderwijs) \u2014 5 jaar, geeft toegang tot het hbo\n\u2022 vwo (voorbereidend wetenschappelijk onderwijs) \u2014 6 jaar, geeft toegang tot de universiteit\n\nMbo, hbo en universiteit\nHet mbo (middelbaar beroepsonderwijs) biedt praktijkgerichte opleidingen op vier niveaus. Het hbo (hoger beroepsonderwijs) leidt op tot een bachelordiploma in vier jaar aan een hogeschool. De universiteit (wo) biedt driejarige bacheloropleidingen gevolgd door \u00e9\u00e9n- of tweejarige masteropleidingen.\n\nDoorstromen\nEen belangrijk kenmerk van het Nederlandse systeem is dat leerlingen kunnen doorstromen naar een hoger niveau. Zo kan een leerling na het vmbo doorstromen naar het mbo, en vervolgens via het hbo naar de universiteit. Er zijn dus altijd mogelijkheden om verder te studeren, ook als u op een lager niveau bent begonnen.\n\nOnderwijs voor volwassenen\nVolwassenen die hun opleiding willen voortzetten of een diploma willen halen, kunnen terecht bij een regionaal opleidingencentrum (ROC) of de Open Universiteit. Statushouders die een inburgeringscursus volgen, krijgen vaak begeleiding bij het vinden van een passende vervolgopleiding.\n\nBekostiging\nHet basisonderwijs en voortgezet onderwijs zijn gratis. Voor het mbo, hbo en de universiteit betalen studenten collegegeld. Studenten kunnen studiefinanciering aanvragen bij DUO (Dienst Uitvoering Onderwijs), bestaande uit een basisbeurs, aanvullende beurs en een lening.",
+      "contentType": "article",
+      "instruction": "Lees het artikel over het Nederlandse onderwijssysteem. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-5-q6",
+          "text": "Op welke leeftijd gaan kinderen in Nederland naar de basisschool?",
+          "options": [
+            "Vanaf hun derde levensjaar",
+            "Vanaf hun vierde levensjaar",
+            "Vanaf hun vijfde levensjaar",
+            "Vanaf hun zesde levensjaar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt dat kinderen naar de basisschool gaan vanaf hun vierde levensjaar.",
+          "explanationEn": "The article states that children start primary school from the age of four."
+        },
+        {
+          "id": "b1-5-q7",
+          "text": "Welk type voortgezet onderwijs geeft directe toegang tot de universiteit?",
+          "options": [
+            "vmbo",
+            "havo",
+            "vwo",
+            "mbo"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het artikel vermeldt dat het vwo (voorbereidend wetenschappelijk onderwijs) toegang geeft tot de universiteit.",
+          "explanationEn": "The article states that vwo (pre-university education) provides access to university."
+        },
+        {
+          "id": "b1-5-q8",
+          "text": "Wat is een belangrijk kenmerk van het Nederlandse onderwijssysteem volgens het artikel?",
+          "options": [
+            "Leerlingen kunnen niet van niveau wisselen na hun schoolkeuze",
+            "Leerlingen kunnen doorstromen naar een hoger niveau",
+            "Alle leerlingen volgen hetzelfde programma tot 18 jaar",
+            "Alleen vwo-leerlingen mogen naar het hoger onderwijs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel benadrukt dat leerlingen kunnen doorstromen naar een hoger niveau als belangrijk kenmerk van het systeem.",
+          "explanationEn": "The article emphasizes that students can progress to a higher level as an important feature of the system."
+        },
+        {
+          "id": "b1-5-q9",
+          "text": "Waar kunnen volwassenen terecht als zij een diploma willen halen?",
+          "options": [
+            "Alleen bij de universiteit",
+            "Bij een regionaal opleidingencentrum (ROC) of de Open Universiteit",
+            "Alleen bij een particuliere school",
+            "Volwassenen kunnen in Nederland geen diploma meer halen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel noemt het regionaal opleidingencentrum (ROC) en de Open Universiteit als plekken waar volwassenen hun opleiding kunnen voortzetten.",
+          "explanationEn": "The article mentions the regional training center (ROC) and the Open University as places where adults can continue their education."
+        },
+        {
+          "id": "b1-5-q10",
+          "text": "Waar kunnen studenten studiefinanciering aanvragen?",
+          "options": [
+            "Bij de gemeente",
+            "Bij de Belastingdienst",
+            "Bij DUO (Dienst Uitvoering Onderwijs)",
+            "Bij de onderwijsinstelling zelf"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het artikel vermeldt dat studenten studiefinanciering kunnen aanvragen bij DUO (Dienst Uitvoering Onderwijs).",
+          "explanationEn": "The article states that students can apply for student finance at DUO (Education Executive Agency)."
+        }
+      ]
+    },
+    {
+      "id": "b1-5-p3",
+      "title": "Vrijwilligerswerk bij Buurthuis Het Kompas",
+      "content": "Wilt u iets betekenen voor uw buurt?\nWord vrijwilliger bij Buurthuis Het Kompas!\n\nBuurthuis Het Kompas is al meer dan 25 jaar het kloppend hart van de wijk Overvecht in Utrecht. Wij organiseren activiteiten voor jong en oud, van huiswerkbegeleiding voor kinderen tot koffieochtenden voor senioren. Om dit allemaal mogelijk te maken, zijn wij altijd op zoek naar enthousiaste vrijwilligers.\n\nWat kunt u doen?\n\nTaalmaatje\nHelp nieuwkomers met het oefenen van de Nederlandse taal. U spreekt wekelijks af met uw taalmaatje voor een gesprek, een wandeling of een activiteit. Geen ervaring nodig \u2014 wij bieden een korte training aan.\n\nHuiswerkbegeleider\nBegeleid basisschoolkinderen bij hun huiswerk op dinsdag- en donderdagmiddag van 15:30 tot 17:00. U helpt kinderen met lezen, rekenen en andere schoolvakken. Een mbo-diploma of hoger is voldoende.\n\nActiviteitenbegeleider\nHelp bij het organiseren en begeleiden van activiteiten zoals kooklessen, sportdagen, creatieve workshops en uitjes voor senioren. U kunt zelf idee\u00ebn aandragen voor nieuwe activiteiten.\n\nAdministratieve ondersteuning\nHelp het team met administratieve taken zoals het bijhouden van de website, het versturen van nieuwsbrieven en het ondersteunen bij subsidieaanvragen. U werkt flexibel vanuit huis of op locatie.\n\nWat bieden wij?\n\u2022 Een gezellige en diverse werkomgeving\n\u2022 Een vrijwilligersvergoeding van \u20ac 5,- per dagdeel\n\u2022 Gratis training en begeleiding\n\u2022 Een Verklaring Omtrent het Gedrag (VOG) op onze kosten\n\u2022 Een jaarlijks vrijwilligersuitje\n\u2022 Werkervaring die u kunt vermelden op uw CV\n\nGeinteresseerd?\nKom langs tijdens ons inloopspreekuur op vrijdag van 10:00 tot 12:00 of stuur een e-mail naar vrijwilligers@hetkompas.nl. U kunt ook bellen met onze co\u00f6rdinator Fatima El Amrani: 030-123 45 67.\n\nWij kijken ernaar uit u te ontmoeten!",
+      "contentType": "brochure",
+      "instruction": "Lees de brochure van Buurthuis Het Kompas. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-5-q11",
+          "text": "Wat is het doel van de brochure?",
+          "options": [
+            "Het aankondigen van de sluiting van het buurthuis",
+            "Het werven van nieuwe vrijwilligers",
+            "Het aanbieden van betaalde banen",
+            "Het informeren van bewoners over een buurtbijeenkomst"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure opent met de oproep 'Word vrijwilliger bij Buurthuis Het Kompas!' en beschrijft vervolgens de mogelijkheden.",
+          "explanationEn": "The brochure opens with the call 'Become a volunteer at Community Center Het Kompas!' and then describes the opportunities."
+        },
+        {
+          "id": "b1-5-q12",
+          "text": "Welke opleiding is minimaal nodig om huiswerkbegeleider te worden?",
+          "options": [
+            "Een universitair diploma",
+            "Een hbo-diploma",
+            "Een mbo-diploma of hoger",
+            "Er is geen opleiding nodig"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brochure vermeldt bij de functie huiswerkbegeleider: 'Een mbo-diploma of hoger is voldoende.'",
+          "explanationEn": "The brochure states for the homework tutor role: 'An MBO diploma or higher is sufficient.'"
+        },
+        {
+          "id": "b1-5-q13",
+          "text": "Wat is een 'taalmaatje' volgens de brochure?",
+          "options": [
+            "Een professionele taaldocent die lessen geeft",
+            "Een vrijwilliger die nieuwkomers helpt met het oefenen van Nederlands door samen activiteiten te doen",
+            "Een app waarmee u Nederlands kunt leren",
+            "Een vertaler die helpt bij offici\u00eble documenten"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure beschrijft het taalmaatje als iemand die nieuwkomers helpt met het oefenen van de Nederlandse taal door wekelijks af te spreken voor een gesprek, wandeling of activiteit.",
+          "explanationEn": "The brochure describes a language buddy as someone who helps newcomers practice Dutch by meeting weekly for a conversation, walk, or activity."
+        },
+        {
+          "id": "b1-5-q14",
+          "text": "Wat is een VOG?",
+          "options": [
+            "Een vrijwilligersovereenkomst",
+            "Een Verklaring Omtrent het Gedrag, een bewijs dat u geen strafblad heeft dat bezwaarlijk is voor het werk",
+            "Een vergoeding voor onkosten bij vrijwilligerswerk",
+            "Een training voor nieuwe vrijwilligers"
+          ],
+          "correctIndex": 1,
+          "explanation": "VOG staat voor Verklaring Omtrent het Gedrag. De brochure vermeldt dat het buurthuis deze op eigen kosten aanvraagt voor vrijwilligers.",
+          "explanationEn": "VOG stands for Certificate of Good Conduct. The brochure states that the community center arranges this at its own cost for volunteers."
+        },
+        {
+          "id": "b1-5-q15",
+          "text": "Hoe kunt u zich aanmelden als vrijwilliger?",
+          "options": [
+            "Alleen door een brief te sturen naar het buurthuis",
+            "Door langs te komen op vrijdag van 10:00 tot 12:00, een e-mail te sturen of te bellen met de co\u00f6rdinator",
+            "Door u online te registreren via de website van de gemeente",
+            "Door een sollicitatiebrief en CV op te sturen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure noemt drie manieren: langskomen tijdens het inloopspreekuur op vrijdag, e-mailen of bellen met de co\u00f6rdinator.",
+          "explanationEn": "The brochure mentions three ways: visiting during walk-in hours on Friday, emailing, or calling the coordinator."
+        }
+      ]
+    },
+    {
+      "id": "b1-5-p4",
+      "title": "Mededeling over wijzigingen in uw energiecontract",
+      "content": "Geachte bewoner,\n\nPer 1 april 2026 wijzigen de tarieven van uw energiecontract. Met deze brief informeren wij u over de aanpassingen en wat u kunt doen om uw energiekosten te beheersen.\n\nTariefwijziging\nDoor stijgende inkoopprijzen op de Europese energiemarkt zijn wij genoodzaakt onze tarieven aan te passen. Het tarief voor elektriciteit stijgt van \u20ac 0,28 naar \u20ac 0,34 per kWh. Het tarief voor gas stijgt van \u20ac 1,45 naar \u20ac 1,62 per m\u00b3. Op basis van uw gemiddeld verbruik betekent dit een verhoging van uw maandbedrag met ongeveer \u20ac 35.\n\nPrijsplafond\nDe overheid heeft een tijdelijk prijsplafond ingesteld voor huishoudens. Tot een verbruik van 2.900 kWh elektriciteit en 1.200 m\u00b3 gas per jaar betaalt u het lagere plafondtarief. Boven deze grens geldt het reguliere markttarief. Controleer uw jaarlijks verbruik om te zien of u onder het prijsplafond valt.\n\nEnergiebesparende maatregelen\nWilt u uw energierekening verlagen? Overweeg de volgende stappen:\n\u2022 Isoleer uw woning: muur-, dak- en vloerisolatie kunnen het gasverbruik met 30-50% verminderen\n\u2022 Installeer zonnepanelen: hiermee kunt u een groot deel van uw eigen elektriciteit opwekken\n\u2022 Vervang uw cv-ketel door een warmtepomp: dit is de meest effici\u00ebnte manier om uw woning te verwarmen\n\u2022 Gebruik een slimme thermostaat om uw verwarming beter te regelen\n\nSubsidies\nDe overheid biedt via de ISDE-regeling (Investeringssubsidie Duurzame Energie) subsidie aan voor warmtepompen, zonneboilers en isolatiemaatregelen. Daarnaast kunt u bij sommige gemeenten een energiebespaarlening aanvragen tegen een lage rente. Kijk op verbeterjehuis.nl voor een persoonlijk advies.\n\nOverstappen\nU bent vrij om over te stappen naar een andere energieleverancier. Vergelijk tarieven via onafhankelijke vergelijkingssites zoals energievergelijker.nl. Bij een overstap regelt uw nieuwe leverancier de opzegging bij ons.\n\nVragen? Neem contact op met onze klantenservice: 088-456 78 90 (ma-vr 8:00-20:00).",
+      "contentType": "notice",
+      "instruction": "Lees de mededeling over uw energiecontract. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-5-q16",
+          "text": "Waarom worden de energietarieven verhoogd?",
+          "options": [
+            "Omdat het bedrijf meer winst wil maken",
+            "Door stijgende inkoopprijzen op de Europese energiemarkt",
+            "Omdat de overheid hogere belastingen heft op energie",
+            "Omdat er minder gas wordt geproduceerd in Nederland"
+          ],
+          "correctIndex": 1,
+          "explanation": "De mededeling vermeldt: 'Door stijgende inkoopprijzen op de Europese energiemarkt zijn wij genoodzaakt onze tarieven aan te passen.'",
+          "explanationEn": "The notice states: 'Due to rising purchase prices on the European energy market, we are forced to adjust our rates.'"
+        },
+        {
+          "id": "b1-5-q17",
+          "text": "Wat houdt het prijsplafond in?",
+          "options": [
+            "Alle energie is gratis tot een bepaald verbruik",
+            "Tot een bepaald verbruik betaalt u een lager tarief; daarboven geldt het markttarief",
+            "De energieprijs mag nooit hoger worden dan vorig jaar",
+            "Het prijsplafond geldt alleen voor huiseigenaren"
+          ],
+          "correctIndex": 1,
+          "explanation": "De mededeling legt uit dat tot een bepaald verbruik (2.900 kWh en 1.200 m\u00b3) het lagere plafondtarief geldt, en daarboven het reguliere markttarief.",
+          "explanationEn": "The notice explains that up to a certain usage (2,900 kWh and 1,200 m\u00b3) the lower ceiling rate applies, and above that the regular market rate."
+        },
+        {
+          "id": "b1-5-q18",
+          "text": "Welke maatregel kan het gasverbruik met 30-50% verminderen?",
+          "options": [
+            "Het installeren van zonnepanelen",
+            "Het isoleren van de woning",
+            "Het gebruiken van een slimme thermostaat",
+            "Het overstappen naar een andere energieleverancier"
+          ],
+          "correctIndex": 1,
+          "explanation": "De mededeling vermeldt dat muur-, dak- en vloerisolatie het gasverbruik met 30-50% kunnen verminderen.",
+          "explanationEn": "The notice states that wall, roof, and floor insulation can reduce gas consumption by 30-50%."
+        },
+        {
+          "id": "b1-5-q19",
+          "text": "Wat is de ISDE-regeling?",
+          "options": [
+            "Een lening voor huiseigenaren die willen verhuizen",
+            "Een subsidie van de overheid voor duurzame energiemaatregelen zoals warmtepompen en isolatie",
+            "Een verzekering tegen hoge energierekeningen",
+            "Een regeling waarmee u gratis zonnepanelen krijgt"
+          ],
+          "correctIndex": 1,
+          "explanation": "De mededeling beschrijft de ISDE-regeling als een investeringssubsidie van de overheid voor warmtepompen, zonneboilers en isolatiemaatregelen.",
+          "explanationEn": "The notice describes the ISDE scheme as a government investment subsidy for heat pumps, solar water heaters, and insulation measures."
+        },
+        {
+          "id": "b1-5-q20",
+          "text": "Wat gebeurt er als u overstapt naar een andere energieleverancier?",
+          "options": [
+            "U moet zelf uw contract bij de huidige leverancier opzeggen",
+            "Uw nieuwe leverancier regelt de opzegging bij de huidige leverancier",
+            "U moet drie maanden wachten voordat de overstap ingaat",
+            "U betaalt een boete aan de huidige leverancier"
+          ],
+          "correctIndex": 1,
+          "explanation": "De mededeling vermeldt: 'Bij een overstap regelt uw nieuwe leverancier de opzegging bij ons.'",
+          "explanationEn": "The notice states: 'When switching, your new supplier handles the cancellation with us.'"
+        }
+      ]
+    },
+    {
+      "id": "b1-5-p5",
+      "title": "Klachtenprocedure in de gezondheidszorg",
+      "content": "Als pati\u00ebnt in Nederland heeft u recht op goede zorg. Maar wat kunt u doen als u ontevreden bent over de behandeling die u heeft ontvangen? De Wet kwaliteit, klachten en geschillen zorg (Wkkgz) regelt hoe u een klacht kunt indienen.\n\nStap 1: Bespreek het met uw zorgverlener\nDe eerste stap is altijd om uw onvrede te bespreken met de zorgverlener zelf. Veel klachten ontstaan door miscommunicatie en kunnen in een gesprek worden opgelost. Als u het moeilijk vindt om dit gesprek te voeren, kunt u een familielid of vriend meenemen.\n\nStap 2: De klachtenfunctionaris\nElke zorgaanbieder is wettelijk verplicht een onafhankelijke klachtenfunctionaris te hebben. Deze persoon bemiddelt tussen u en de zorgverlener en helpt om tot een oplossing te komen. De klachtenfunctionaris is gratis en werkt onpartijdig. U kunt de klachtenfunctionaris bereiken via de website of receptie van uw zorginstelling.\n\nStap 3: De geschilleninstantie\nAls bemiddeling niet lukt, kunt u uw klacht voorleggen aan een erkende geschilleninstantie. Deze instantie doet een bindende uitspraak en kan een schadevergoeding toekennen tot \u20ac 25.000. De zorgaanbieder is verplicht aangesloten te zijn bij een geschilleninstantie.\n\nStap 4: Het tuchtcollege\nBij ernstige klachten over het professioneel handelen van een BIG-geregistreerde zorgverlener (arts, tandarts, verpleegkundige, etc.) kunt u een klacht indienen bij het Regionaal Tuchtcollege voor de Gezondheidszorg. Het tuchtcollege kan maatregelen opleggen, vari\u00ebrend van een waarschuwing tot doorhaling van de registratie, waardoor de zorgverlener zijn beroep niet meer mag uitoefenen.\n\nOnafhankelijk advies\nHeeft u vragen of wilt u advies? Neem dan contact op met het Landelijk Meldpunt Zorg van de Inspectie Gezondheidszorg en Jeugd (IGJ) via telefoonnummer 088-120 50 20. U kunt ook terecht bij een pati\u00ebntenorganisatie of de Stichting Pati\u00ebntenbelang.",
+      "contentType": "article",
+      "instruction": "Lees het artikel over de klachtenprocedure. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-5-q21",
+          "text": "Wat is volgens het artikel de eerste stap als u ontevreden bent over uw zorg?",
+          "options": [
+            "Een klacht indienen bij het tuchtcollege",
+            "Uw onvrede bespreken met de zorgverlener zelf",
+            "Contact opnemen met de geschilleninstantie",
+            "Een advocaat raadplegen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel stelt dat de eerste stap altijd is om uw onvrede te bespreken met de zorgverlener zelf.",
+          "explanationEn": "The article states that the first step is always to discuss your dissatisfaction with the care provider themselves."
+        },
+        {
+          "id": "b1-5-q22",
+          "text": "Wat is de rol van de klachtenfunctionaris?",
+          "options": [
+            "De klachtenfunctionaris beslist wie er gelijk heeft",
+            "De klachtenfunctionaris bemiddelt onpartijdig tussen u en de zorgverlener",
+            "De klachtenfunctionaris is de advocaat van de pati\u00ebnt",
+            "De klachtenfunctionaris kan de zorgverlener ontslaan"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel beschrijft de klachtenfunctionaris als iemand die bemiddelt tussen de pati\u00ebnt en de zorgverlener en onpartijdig werkt.",
+          "explanationEn": "The article describes the complaints officer as someone who mediates between the patient and the care provider and works impartially."
+        },
+        {
+          "id": "b1-5-q23",
+          "text": "Hoeveel schadevergoeding kan de geschilleninstantie maximaal toekennen?",
+          "options": [
+            "\u20ac 5.000",
+            "\u20ac 10.000",
+            "\u20ac 25.000",
+            "\u20ac 50.000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het artikel vermeldt dat de geschilleninstantie een schadevergoeding kan toekennen tot \u20ac 25.000.",
+          "explanationEn": "The article states that the dispute resolution body can award compensation of up to \u20ac25,000."
+        },
+        {
+          "id": "b1-5-q24",
+          "text": "Wat is de zwaarste maatregel die het tuchtcollege kan opleggen?",
+          "options": [
+            "Een geldboete van \u20ac 25.000",
+            "Een schorsing van drie maanden",
+            "Doorhaling van de registratie, waardoor de zorgverlener zijn beroep niet meer mag uitoefenen",
+            "Een verplichte omscholing"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het artikel noemt doorhaling van de registratie als zwaarste maatregel, waardoor de zorgverlener zijn beroep niet meer mag uitoefenen.",
+          "explanationEn": "The article mentions striking off the register as the most severe measure, which means the care provider can no longer practice their profession."
+        },
+        {
+          "id": "b1-5-q25",
+          "text": "Welke wet regelt de klachtenprocedure in de gezondheidszorg?",
+          "options": [
+            "De Zorgverzekeringswet",
+            "De Wet kwaliteit, klachten en geschillen zorg (Wkkgz)",
+            "De Wet op de beroepen in de individuele gezondheidszorg (BIG)",
+            "De Algemene Wet Bijzondere Ziektekosten (AWBZ)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt de Wet kwaliteit, klachten en geschillen zorg (Wkkgz) als de wet die regelt hoe u een klacht kunt indienen.",
+          "explanationEn": "The article mentions the Healthcare Quality, Complaints and Disputes Act (Wkkgz) as the law that regulates how to file a complaint."
+        }
+      ]
+    }
+  ]
+}

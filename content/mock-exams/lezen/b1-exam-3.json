@@ -1,0 +1,380 @@
+{
+  "id": "lezen-b1-3",
+  "title": "Lezen B1 - Oefenexamen 3",
+  "module": "lezen",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "45 min",
+  "passages": [
+    {
+      "id": "b1-3-p1",
+      "title": "Brief van de Belastingdienst over de aangifte inkomstenbelasting",
+      "content": "Geachte heer/mevrouw,\n\nHierbij ontvangt u informatie over uw aangifte inkomstenbelasting over het belastingjaar 2025. Wij verzoeken u uiterlijk 1 mei 2026 uw aangifte in te dienen via Mijn Belastingdienst op belastingdienst.nl. Indien u niet tijdig aangifte doet, kunt u een verzuimboete ontvangen van maximaal \u20ac 5.514.\n\nUw voorlopige aanslag is berekend op basis van de gegevens die bij ons bekend zijn, waaronder uw jaaropgave van uw werkgever en eventuele aftrekposten uit voorgaande jaren. Controleer deze gegevens zorgvuldig in uw vooraf ingevulde aangifte. Mocht u afgelopen jaar van baan zijn gewisseld, een eigen woning hebben gekocht of verkocht, of buitenlands inkomen hebben ontvangen, dan dient u dit zelf aan te vullen.\n\nHeeft u recht op toeslagen, zoals zorgtoeslag of huurtoeslag? Dan is het belangrijk dat u uw inkomen correct opgeeft, zodat uw toeslag juist wordt berekend. Een te laag opgegeven inkomen kan leiden tot een terugvordering.\n\nAls u hulp nodig heeft bij het invullen van uw aangifte, kunt u gratis gebruikmaken van de invulhulp van de Belastingdienst. U kunt hiervoor een afspraak maken via het telefoonnummer 0800-0543 of online via onze website. De invulhulp is beschikbaar van 1 maart tot en met 30 april.\n\nLet op: als u uitstel wilt aanvragen, moet dit v\u00f3\u00f3r 1 mei gebeuren. U kunt dan tot 1 september de tijd krijgen. Uitstel aanvragen kan via Mijn Belastingdienst of door een belastingconsulent te machtigen.\n\nMet vriendelijke groet,\nDe Belastingdienst",
+      "contentType": "letter",
+      "instruction": "Lees de brief van de Belastingdienst. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-3-q1",
+          "text": "Wat is het hoofddoel van deze brief?",
+          "options": [
+            "De Belastingdienst wil u informeren dat u te veel belasting heeft betaald",
+            "De Belastingdienst herinnert u eraan om uw aangifte inkomstenbelasting in te dienen",
+            "De Belastingdienst meldt dat uw toeslag is stopgezet",
+            "De Belastingdienst vraagt u om extra documenten op te sturen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief begint met 'Hierbij ontvangt u informatie over uw aangifte inkomstenbelasting' en verzoekt de ontvanger om uiterlijk 1 mei aangifte te doen.",
+          "explanationEn": "The letter starts with information about the income tax return and requests the recipient to file by May 1st."
+        },
+        {
+          "id": "b1-3-q2",
+          "text": "Wat kan er gebeuren als u uw aangifte niet op tijd indient?",
+          "options": [
+            "U krijgt automatisch uitstel tot september",
+            "Uw toeslagen worden direct stopgezet",
+            "U kunt een verzuimboete krijgen van maximaal \u20ac 5.514",
+            "De Belastingdienst doet de aangifte namens u"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brief vermeldt expliciet: 'Indien u niet tijdig aangifte doet, kunt u een verzuimboete ontvangen van maximaal \u20ac 5.514.'",
+          "explanationEn": "The letter explicitly states that if you do not file on time, you may receive a penalty fine of up to \u20ac5,514."
+        },
+        {
+          "id": "b1-3-q3",
+          "text": "In welke situatie moet u zelf extra gegevens invullen in uw aangifte?",
+          "options": [
+            "Als u het hele jaar bij dezelfde werkgever heeft gewerkt",
+            "Als u van baan bent gewisseld, een woning heeft gekocht of verkocht, of buitenlands inkomen heeft ontvangen",
+            "Als u geen recht heeft op toeslagen",
+            "Als u jonger bent dan 30 jaar"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief noemt drie situaties waarin extra gegevens nodig zijn: van baan gewisseld, eigen woning gekocht of verkocht, of buitenlands inkomen ontvangen.",
+          "explanationEn": "The letter mentions three situations requiring additional information: changing jobs, buying or selling a home, or receiving foreign income."
+        },
+        {
+          "id": "b1-3-q4",
+          "text": "Wat kan er gebeuren als u een te laag inkomen opgeeft bij uw toeslagen?",
+          "options": [
+            "U krijgt een hogere toeslag waar u recht op heeft",
+            "Er verandert niets aan uw toeslag",
+            "U kunt te maken krijgen met een terugvordering",
+            "De Belastingdienst corrigeert dit automatisch"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brief waarschuwt: 'Een te laag opgegeven inkomen kan leiden tot een terugvordering.'",
+          "explanationEn": "The letter warns that declaring too low an income can lead to a reclaim of overpaid benefits."
+        },
+        {
+          "id": "b1-3-q5",
+          "text": "Hoe kunt u uitstel aanvragen voor uw aangifte?",
+          "options": [
+            "Door een brief te sturen naar de Belastingdienst",
+            "Door v\u00f3\u00f3r 1 mei uitstel aan te vragen via Mijn Belastingdienst of een belastingconsulent te machtigen",
+            "Door te bellen na 1 mei met het servicenummer",
+            "Uitstel is niet mogelijk; u moet altijd v\u00f3\u00f3r 1 mei aangifte doen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat uitstel v\u00f3\u00f3r 1 mei moet worden aangevraagd via Mijn Belastingdienst of door een belastingconsulent te machtigen.",
+          "explanationEn": "The letter states that an extension must be requested before May 1st via Mijn Belastingdienst or by authorizing a tax consultant."
+        }
+      ]
+    },
+    {
+      "id": "b1-3-p2",
+      "title": "Consumentenrechten bij online aankopen",
+      "content": "Steeds meer Nederlanders kopen producten via internet. Volgens het Centraal Bureau voor de Statistiek bestelde in 2025 ruim 85% van de bevolking minstens \u00e9\u00e9n keer online. Maar wat zijn uw rechten als consument wanneer een online aankoop tegenvalt?\n\nOp grond van de Wet koop op afstand heeft u bij online aankopen een bedenktijd van 14 kalenderdagen. Dit betekent dat u het product zonder opgaaf van reden kunt terugsturen. De bedenktijd gaat in op de dag dat u het product ontvangt. De webwinkel moet u hierover informeren; doet de verkoper dat niet, dan wordt de bedenktijd verlengd tot maximaal 12 maanden.\n\nLet op: de bedenktijd geldt niet voor alle producten. Uitgezonderd zijn onder andere bederfelijke waren, op maat gemaakte producten, verzegelde hygi\u00ebneproducten waarvan de verpakking is geopend, en digitale content die al is gedownload.\n\nBij retournering moet de verkoper het volledige aankoopbedrag inclusief standaard verzendkosten binnen 14 dagen terugbetalen. De kosten voor het terugsturen mogen voor rekening van de koper zijn, mits dit vooraf duidelijk is vermeld.\n\nHeeft u een defect product ontvangen? Dan heeft u recht op herstel, vervanging of \u2014 als dat niet mogelijk is \u2014 uw geld terug. Dit geldt tot twee jaar na aankoop op basis van de wettelijke garantie. Sommige webwinkels bieden daarnaast een fabrieksgarantie aan, die bovenop de wettelijke garantie komt.\n\nKomt u er met de webwinkel niet uit? Dan kunt u een klacht indienen bij het Europees Centrum voor de Consument of gebruikmaken van het Online Dispute Resolution-platform van de Europese Commissie.",
+      "contentType": "article",
+      "instruction": "Lees het artikel over consumentenrechten. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-3-q6",
+          "text": "Hoe lang is de bedenktijd bij een online aankoop?",
+          "options": [
+            "7 werkdagen",
+            "14 kalenderdagen",
+            "30 kalenderdagen",
+            "12 maanden"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt dat u op grond van de Wet koop op afstand een bedenktijd heeft van 14 kalenderdagen.",
+          "explanationEn": "The article states that under the Distance Selling Act, you have a reflection period of 14 calendar days."
+        },
+        {
+          "id": "b1-3-q7",
+          "text": "Wanneer wordt de bedenktijd verlengd tot maximaal 12 maanden?",
+          "options": [
+            "Als het product beschadigd is aangekomen",
+            "Als de webwinkel u niet informeert over de bedenktijd",
+            "Als u het product al heeft gebruikt",
+            "Als het product meer dan \u20ac 500 kost"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel stelt dat als de verkoper de consument niet informeert over de bedenktijd, deze wordt verlengd tot maximaal 12 maanden.",
+          "explanationEn": "The article states that if the seller does not inform the consumer about the reflection period, it is extended to a maximum of 12 months."
+        },
+        {
+          "id": "b1-3-q8",
+          "text": "Voor welk type product geldt de bedenktijd NIET?",
+          "options": [
+            "Kleding die niet past",
+            "Een boek dat u al heeft gelezen",
+            "Een op maat gemaakt meubel",
+            "Een telefoonhoesje in de verkeerde kleur"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het artikel noemt op maat gemaakte producten als uitzondering op de bedenktijd.",
+          "explanationEn": "The article lists custom-made products as an exception to the reflection period."
+        },
+        {
+          "id": "b1-3-q9",
+          "text": "Wie betaalt de verzendkosten bij het terugsturen van een product?",
+          "options": [
+            "Altijd de webwinkel",
+            "Altijd de koper",
+            "De koper, als dit vooraf duidelijk is vermeld door de webwinkel",
+            "De transportdienst"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het artikel vermeldt dat de retourkosten voor rekening van de koper mogen zijn, mits dit vooraf duidelijk is vermeld.",
+          "explanationEn": "The article states that return shipping costs may be charged to the buyer, provided this was clearly stated in advance."
+        },
+        {
+          "id": "b1-3-q10",
+          "text": "Wat kunt u doen als u een geschil met een webwinkel niet zelf kunt oplossen?",
+          "options": [
+            "U kunt direct naar de rechtbank gaan",
+            "U kunt een klacht indienen bij het Europees Centrum voor de Consument of het Online Dispute Resolution-platform",
+            "U kunt de betaling terugboeken via uw bank zonder verdere stappen",
+            "U kunt niets doen; de webwinkel heeft altijd gelijk"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel noemt twee opties: een klacht bij het Europees Centrum voor de Consument of het Online Dispute Resolution-platform van de Europese Commissie.",
+          "explanationEn": "The article mentions two options: filing a complaint with the European Consumer Centre or using the Online Dispute Resolution platform of the European Commission."
+        }
+      ]
+    },
+    {
+      "id": "b1-3-p3",
+      "title": "Ondersteuning voor statushouders in Nederland",
+      "content": "Welkom bij Stichting NieuweStart\n\nBent u statushouder en zoekt u hulp bij het opbouwen van uw leven in Nederland? Stichting NieuweStart biedt gratis ondersteuning op verschillende gebieden.\n\nOnze diensten:\n\nTaalondersteuning\nWij bieden aanvullende Nederlandse lessen aan naast uw reguliere inburgeringscursus. Onze taalcoaches helpen u met conversatie, het lezen van offici\u00eble brieven en het invullen van formulieren. De lessen zijn op maandag- en woensdagavond van 19:00 tot 21:00 uur.\n\nBegeleiding bij werk en opleiding\nOnze jobcoaches helpen u bij het schrijven van een CV, het voorbereiden op sollicitatiegesprekken en het zoeken naar werk of een opleiding die past bij uw achtergrond. Wij werken samen met lokale werkgevers en het UWV om kansen te cre\u00ebren voor statushouders.\n\nHulp bij huisvesting\nVindt u het lastig om te begrijpen wat er in uw huurcontract staat? Of wilt u weten wat uw rechten zijn als huurder? Onze vrijwilligers helpen u met vragen over huisvesting, contact met de woningcorporatie en het aanvragen van huurtoeslag.\n\nMaatschappelijke begeleiding\nVoor veel statushouders is het Nederlandse systeem nieuw en complex. Wij helpen u bij het regelen van zaken zoals de zorgverzekering, het openen van een bankrekening, de inschrijving bij de huisarts en het begrijpen van brieven van de gemeente of de Belastingdienst.\n\nAanmelden\nU kunt zich aanmelden via onze website www.nieuwstart.nl of langskomen op ons spreekuur: elke dinsdag van 10:00 tot 12:00 in Buurthuis De Brug, Kerkstraat 22, Utrecht. U hoeft geen afspraak te maken voor het spreekuur.",
+      "contentType": "brochure",
+      "instruction": "Lees de brochure van Stichting NieuweStart. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-3-q11",
+          "text": "Voor wie is deze brochure bedoeld?",
+          "options": [
+            "Voor Nederlandse werkgevers die statushouders willen aannemen",
+            "Voor statushouders die hulp zoeken bij het opbouwen van hun leven in Nederland",
+            "Voor vrijwilligers die willen helpen bij de stichting",
+            "Voor gemeenteambtenaren die werken met vluchtelingen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure opent met: 'Bent u statushouder en zoekt u hulp bij het opbouwen van uw leven in Nederland?'",
+          "explanationEn": "The brochure opens with: 'Are you a status holder looking for help building your life in the Netherlands?'"
+        },
+        {
+          "id": "b1-3-q12",
+          "text": "Wat biedt de stichting aan op het gebied van taal?",
+          "options": [
+            "Een volledige inburgeringscursus als vervanging van de offici\u00eble cursus",
+            "Aanvullende lessen naast de reguliere inburgeringscursus, met hulp bij conversatie en offici\u00eble brieven",
+            "Alleen schriftelijke taalcursussen per post",
+            "Taallessen uitsluitend voor kinderen van statushouders"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure vermeldt 'aanvullende Nederlandse lessen naast uw reguliere inburgeringscursus' met hulp bij conversatie, brieven lezen en formulieren invullen.",
+          "explanationEn": "The brochure mentions additional Dutch lessons alongside the regular integration course, with help on conversation, reading official letters, and filling in forms."
+        },
+        {
+          "id": "b1-3-q13",
+          "text": "Met welke organisatie werkt de stichting samen om werkkansen te cre\u00ebren?",
+          "options": [
+            "De Belastingdienst",
+            "De IND",
+            "Het UWV",
+            "De gemeente Utrecht"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brochure vermeldt dat de stichting samenwerkt met lokale werkgevers en het UWV om kansen te cre\u00ebren voor statushouders.",
+          "explanationEn": "The brochure states that the foundation works together with local employers and the UWV (Employee Insurance Agency) to create opportunities for status holders."
+        },
+        {
+          "id": "b1-3-q14",
+          "text": "Waarbij kan de stichting helpen op het gebied van huisvesting?",
+          "options": [
+            "Het kopen van een eigen woning",
+            "Het begrijpen van het huurcontract, contact met de woningcorporatie en het aanvragen van huurtoeslag",
+            "Het vinden van een kamer in een studentenhuis",
+            "Het verhuizen naar een andere stad"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure noemt hulp bij het begrijpen van het huurcontract, contact met de woningcorporatie en het aanvragen van huurtoeslag.",
+          "explanationEn": "The brochure mentions help with understanding the rental contract, contact with the housing corporation, and applying for housing benefit."
+        },
+        {
+          "id": "b1-3-q15",
+          "text": "Hoe kunt u het spreekuur bezoeken?",
+          "options": [
+            "U moet eerst online een afspraak maken",
+            "U kunt elke dinsdag van 10:00 tot 12:00 langskomen zonder afspraak",
+            "U kunt alleen op afspraak terecht, via de huisarts",
+            "Het spreekuur is uitsluitend telefonisch bereikbaar"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure vermeldt: 'elke dinsdag van 10:00 tot 12:00 in Buurthuis De Brug' en 'U hoeft geen afspraak te maken voor het spreekuur.'",
+          "explanationEn": "The brochure states the walk-in hours are every Tuesday from 10:00 to 12:00 at Buurthuis De Brug, and no appointment is needed."
+        }
+      ]
+    },
+    {
+      "id": "b1-3-p4",
+      "title": "Uitnodiging ouderavond basisschool De Regenboog",
+      "content": "Beste ouders en verzorgers,\n\nGraag nodigen wij u uit voor de ouderavond van basisschool De Regenboog op donderdag 20 maart 2026. Het programma begint om 19:00 uur en duurt tot ongeveer 21:30 uur.\n\nProgramma:\n19:00 - 19:15: Ontvangst met koffie en thee in de aula\n19:15 - 19:45: Presentatie door directeur mevrouw Van der Berg over de nieuwe lesmethoden voor rekenen en taal die na de voorjaarsvakantie worden ingevoerd\n19:45 - 20:15: Informatie over het pestprotocol en de vertrouwenspersoon, door intern begeleider de heer Yilmaz\n20:15 - 20:30: Pauze\n20:30 - 21:15: Individuele gesprekken met de leerkracht van uw kind (10 minuten per gesprek)\n21:15 - 21:30: Afsluiting en gelegenheid tot napraten\n\nBelangrijke mededelingen:\n- De individuele gesprekken gaan over de voortgang en het welbevinden van uw kind. U ontvangt vooraf per e-mail een tijdslot. Mocht het toegewezen tijdslot niet uitkomen, neem dan contact op met de leerkracht om te ruilen.\n- Als u niet aanwezig kunt zijn, verzoeken wij u dit v\u00f3\u00f3r 15 maart door te geven via het ouderportaal of per e-mail aan administratie@deregenboog.nl. Wij plannen dan een alternatief gesprek.\n- Er is geen kinderopvang aanwezig tijdens de ouderavond.\n- De school is bereikbaar met het openbaar vervoer (bus 12, halte Dorpsplein) en er is beperkte parkeergelegenheid op het schoolplein.\n\nWij hopen u allen te mogen verwelkomen.\n\nMet vriendelijke groet,\nHet team van basisschool De Regenboog",
+      "contentType": "notice",
+      "instruction": "Lees de uitnodiging van de school. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-3-q16",
+          "text": "Waarover gaat de presentatie van directeur mevrouw Van der Berg?",
+          "options": [
+            "Over het pestprotocol op school",
+            "Over de nieuwe lesmethoden voor rekenen en taal",
+            "Over de resultaten van de eindtoets",
+            "Over de planning van de schoolvakanties"
+          ],
+          "correctIndex": 1,
+          "explanation": "De uitnodiging vermeldt dat mevrouw Van der Berg een presentatie geeft over de nieuwe lesmethoden voor rekenen en taal die na de voorjaarsvakantie worden ingevoerd.",
+          "explanationEn": "The invitation states that Mrs. Van der Berg will present about the new teaching methods for math and language that will be introduced after the spring break."
+        },
+        {
+          "id": "b1-3-q17",
+          "text": "Wie geeft informatie over het pestprotocol?",
+          "options": [
+            "Directeur mevrouw Van der Berg",
+            "De leerkracht van uw kind",
+            "Intern begeleider de heer Yilmaz",
+            "Een externe deskundige"
+          ],
+          "correctIndex": 2,
+          "explanation": "De uitnodiging vermeldt dat de heer Yilmaz, intern begeleider, informatie geeft over het pestprotocol en de vertrouwenspersoon.",
+          "explanationEn": "The invitation states that Mr. Yilmaz, the internal counselor, will provide information about the anti-bullying protocol and the confidential advisor."
+        },
+        {
+          "id": "b1-3-q18",
+          "text": "Wat moet u doen als het toegewezen tijdslot voor het individuele gesprek niet uitkomt?",
+          "options": [
+            "U kunt gewoon op een ander moment langskomen",
+            "U moet contact opnemen met de leerkracht om te ruilen",
+            "U hoeft niets te doen; de school past het automatisch aan",
+            "U kunt een e-mail sturen naar de directeur"
+          ],
+          "correctIndex": 1,
+          "explanation": "De uitnodiging vermeldt: 'Mocht het toegewezen tijdslot niet uitkomen, neem dan contact op met de leerkracht om te ruilen.'",
+          "explanationEn": "The invitation states: if the assigned time slot does not work, contact the teacher to swap."
+        },
+        {
+          "id": "b1-3-q19",
+          "text": "Wat is er NIET beschikbaar tijdens de ouderavond?",
+          "options": [
+            "Koffie en thee",
+            "Kinderopvang",
+            "Parkeergelegenheid",
+            "Individuele gesprekken"
+          ],
+          "correctIndex": 1,
+          "explanation": "De uitnodiging vermeldt expliciet: 'Er is geen kinderopvang aanwezig tijdens de ouderavond.'",
+          "explanationEn": "The invitation explicitly states: 'There is no childcare available during the parent evening.'"
+        },
+        {
+          "id": "b1-3-q20",
+          "text": "Hoe kunt u doorgeven dat u niet kunt komen?",
+          "options": [
+            "Door te bellen naar de school op de avond zelf",
+            "Door v\u00f3\u00f3r 15 maart een bericht te sturen via het ouderportaal of per e-mail",
+            "Door een briefje mee te geven met uw kind",
+            "Het is niet nodig om afwezigheid door te geven"
+          ],
+          "correctIndex": 1,
+          "explanation": "De uitnodiging verzoekt ouders om v\u00f3\u00f3r 15 maart afwezigheid door te geven via het ouderportaal of per e-mail aan administratie@deregenboog.nl.",
+          "explanationEn": "The invitation asks parents to notify absence before March 15 via the parent portal or by email to the school administration."
+        }
+      ]
+    },
+    {
+      "id": "b1-3-p5",
+      "title": "Rechten en plichten van huurders in Nederland",
+      "content": "Een huurcontract in Nederland is meer dan alleen een afspraak over de maandelijkse huur. Het Burgerlijk Wetboek biedt huurders uitgebreide bescherming, maar legt ook verplichtingen op. In dit overzicht leest u de belangrijkste rechten en plichten.\n\nHuurbescherming\nAls huurder van een zelfstandige woning heeft u recht op huurbescherming. Dit betekent dat de verhuurder het huurcontract niet zomaar kan opzeggen. Opzegging is alleen mogelijk via de rechter en op wettelijk vastgestelde gronden, zoals dringend eigen gebruik of ernstige overlast. Een tijdelijk huurcontract van maximaal twee jaar vormt hierop een uitzondering: dit eindigt automatisch na de afgesproken periode, mits de verhuurder tijdig een schriftelijke herinnering stuurt.\n\nHuurprijs en verhoging\nVoor woningen in de sociale sector geldt een maximale huurprijs die wordt vastgesteld via het woningwaarderingsstelsel (puntensysteem). De jaarlijkse huurverhoging is gebonden aan een wettelijk maximum. Voor vrije sectorwoningen geldt dit puntensysteem sinds 2025 ook voor middenhuurwoningen tot een bepaalde grens. U heeft het recht om een te hoge huurprijs te laten toetsen door de Huurcommissie, mits u dit doet binnen zes maanden na aanvang van het contract.\n\nOnderhoud\nGroot onderhoud, zoals het vervangen van de cv-ketel of het herstellen van een lekkend dak, is de verantwoordelijkheid van de verhuurder. Klein dagelijks onderhoud, zoals het vervangen van lampen of het ontstoppen van een afvoer, is voor rekening van de huurder. Bij gebreken die de verhuurder niet herstelt, kunt u via de Huurcommissie tijdelijke huurverlaging aanvragen.\n\nVerplichtingen van de huurder\nU bent verplicht de huur op tijd te betalen, de woning als een goed huurder te gebruiken, geen overlast te veroorzaken en de woning niet zonder toestemming onder te verhuren. Overtreding van deze verplichtingen kan leiden tot ontbinding van het huurcontract door de rechter.",
+      "contentType": "article",
+      "instruction": "Lees het artikel over huurrechten. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-3-q21",
+          "text": "Wanneer kan een verhuurder het huurcontract opzeggen?",
+          "options": [
+            "Op elk moment, met een opzegtermijn van \u00e9\u00e9n maand",
+            "Alleen via de rechter en op wettelijk vastgestelde gronden",
+            "Als de huurder langer dan vijf jaar in de woning woont",
+            "Als de verhuurder de huurprijs wil verhogen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt dat opzegging alleen mogelijk is via de rechter en op wettelijk vastgestelde gronden, zoals dringend eigen gebruik of ernstige overlast.",
+          "explanationEn": "The article states that termination is only possible through the court and on legally established grounds, such as urgent personal use or serious nuisance."
+        },
+        {
+          "id": "b1-3-q22",
+          "text": "Wat gebeurt er met een tijdelijk huurcontract van maximaal twee jaar?",
+          "options": [
+            "Het wordt automatisch verlengd na twee jaar",
+            "Het eindigt automatisch na de afgesproken periode, als de verhuurder tijdig een herinnering stuurt",
+            "De huurder moet zelf opzeggen, anders loopt het door",
+            "Het wordt omgezet naar een contract voor onbepaalde tijd na \u00e9\u00e9n jaar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel stelt dat een tijdelijk huurcontract van maximaal twee jaar automatisch eindigt na de afgesproken periode, mits de verhuurder tijdig een schriftelijke herinnering stuurt.",
+          "explanationEn": "The article states that a temporary rental contract of up to two years ends automatically after the agreed period, provided the landlord sends a timely written reminder."
+        },
+        {
+          "id": "b1-3-q23",
+          "text": "Wat is het woningwaarderingsstelsel?",
+          "options": [
+            "Een systeem waarmee de waarde van een koopwoning wordt bepaald",
+            "Een puntensysteem waarmee de maximale huurprijs voor sociale huurwoningen wordt vastgesteld",
+            "Een subsidie voor huurders met een laag inkomen",
+            "Een lijst met goedgekeurde verhuurders"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel beschrijft het woningwaarderingsstelsel als een puntensysteem waarmee de maximale huurprijs voor sociale huurwoningen wordt vastgesteld.",
+          "explanationEn": "The article describes the housing valuation system as a points system that determines the maximum rent for social housing."
+        },
+        {
+          "id": "b1-3-q24",
+          "text": "Wie is verantwoordelijk voor het vervangen van een cv-ketel?",
+          "options": [
+            "De huurder",
+            "De verhuurder",
+            "De gemeente",
+            "De Huurcommissie"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel noemt het vervangen van de cv-ketel als voorbeeld van groot onderhoud, dat de verantwoordelijkheid is van de verhuurder.",
+          "explanationEn": "The article mentions replacing the central heating boiler as an example of major maintenance, which is the landlord's responsibility."
+        },
+        {
+          "id": "b1-3-q25",
+          "text": "Wat kan er gebeuren als een huurder zijn woning zonder toestemming onderverhuurt?",
+          "options": [
+            "De huurder krijgt een boete van de gemeente",
+            "De verhuurder kan via de rechter het huurcontract laten ontbinden",
+            "Er gebeurt niets zolang de huur op tijd wordt betaald",
+            "De onderhuurder krijgt automatisch huurbescherming"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt dat overtreding van huurdersverplichtingen, waaronder onderverhuur zonder toestemming, kan leiden tot ontbinding van het huurcontract door de rechter.",
+          "explanationEn": "The article states that violating tenant obligations, including subletting without permission, can lead to termination of the rental contract by the court."
+        }
+      ]
+    }
+  ]
+}
