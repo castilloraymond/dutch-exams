@@ -1,6 +1,6 @@
 "use client";
 
-import { LezenAccordionSelector } from "@/components/LezenAccordionSelector";
+import { ModuleAccordionSelector } from "@/components/ModuleAccordionSelector";
 import { getMockExamIndex } from "@/lib/content";
 import { usePremium } from "@/hooks/usePremium";
 import { useProgress } from "@/hooks/useProgress";
@@ -10,16 +10,13 @@ export default function LezenSelectPage() {
   const { isPremium } = usePremium();
   const { progress } = useProgress();
 
-  if (!index) {
-    return <div>Error loading exams</div>;
-  }
-
-  const examProgress = progress.examProgress ?? {};
+  if (!index) return <div>Error loading exams</div>;
 
   return (
-    <LezenAccordionSelector
+    <ModuleAccordionSelector
+      module="lezen"
       exams={index.exams}
-      examProgress={examProgress}
+      examProgress={progress.examProgress ?? {}}
       isPremium={isPremium}
     />
   );

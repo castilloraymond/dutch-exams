@@ -1,16 +1,23 @@
 "use client";
 
-import { DifficultySelector } from "@/components/DifficultySelector";
+import { ModuleAccordionSelector } from "@/components/ModuleAccordionSelector";
 import { getMockExamIndex } from "@/lib/content";
 import { usePremium } from "@/hooks/usePremium";
+import { useProgress } from "@/hooks/useProgress";
 
 export default function KNMSelectPage() {
   const index = getMockExamIndex("knm");
   const { isPremium } = usePremium();
+  const { progress } = useProgress();
 
-  if (!index) {
-    return <div>Error loading exams</div>;
-  }
+  if (!index) return <div>Error loading exams</div>;
 
-  return <DifficultySelector module="knm" exams={index.exams} isPremium={isPremium} />;
+  return (
+    <ModuleAccordionSelector
+      module="knm"
+      exams={index.exams}
+      examProgress={progress.examProgress ?? {}}
+      isPremium={isPremium}
+    />
+  );
 }
