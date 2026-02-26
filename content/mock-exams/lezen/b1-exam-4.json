@@ -1,0 +1,380 @@
+{
+  "id": "lezen-b1-4",
+  "title": "Lezen B1 - Oefenexamen 4",
+  "module": "lezen",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "45 min",
+  "passages": [
+    {
+      "id": "b1-4-p1",
+      "title": "Brief van het pensioenfonds over uw pensioenopbouw",
+      "content": "Geachte heer Bakker,\n\nAls deelnemer van Pensioenfonds Zorg en Welzijn informeren wij u hierbij over de stand van uw pensioenopbouw per 1 januari 2026.\n\nUw huidige pensioenopbouw\nOp basis van uw dienstverband bij Thuiszorg Amsterdam heeft u tot nu toe een jaarlijks ouderdomspensioen opgebouwd van \u20ac 14.820 bruto. Dit bedrag ontvangt u vanaf uw pensioenleeftijd van 67 jaar en 3 maanden, bovenop uw AOW-uitkering van de overheid.\n\nWijziging pensioenregeling\nPer 1 juli 2026 gaat de nieuwe Wet toekomst pensioenen in. Dit betekent dat uw pensioen wordt omgezet van een uitkeringsregeling naar een premieregeling. In de huidige regeling wordt u een vast pensioenbedrag beloofd. In de nieuwe regeling wordt een vaste premie ingelegd die wordt belegd. Uw uiteindelijke pensioen hangt dan mede af van de beleggingsresultaten.\n\nWat verandert er voor u?\nUw tot nu toe opgebouwde pensioen wordt omgerekend naar een persoonlijk pensioenvermogen. U ontvangt hierover in het tweede kwartaal van 2026 een persoonlijk overzicht. Wij streven ernaar dat u er niet op achteruitgaat, maar een garantie kunnen wij niet geven.\n\nNabestaandenpensioen\nBij overlijden heeft uw partner recht op een nabestaandenpensioen van 70% van het tot dan toe opgebouwde ouderdomspensioen. Als u niet getrouwd bent en geen geregistreerd partnerschap heeft, moet u uw partner aanmelden bij het pensioenfonds om dit recht veilig te stellen.\n\nVragen?\nKijk op www.pfzw.nl of bel onze servicelijn: 030-277 55 77 (maandag t/m vrijdag, 8:00-17:00). U kunt ook een persoonlijk adviesgesprek aanvragen bij een van onze pensioenadviseurs.\n\nMet vriendelijke groet,\nPensioenfonds Zorg en Welzijn",
+      "contentType": "letter",
+      "instruction": "Lees de brief van het pensioenfonds. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-4-q1",
+          "text": "Hoeveel ouderdomspensioen heeft de heer Bakker tot nu toe opgebouwd?",
+          "options": [
+            "\u20ac 14.820 netto per jaar",
+            "\u20ac 14.820 bruto per jaar",
+            "\u20ac 14.820 bruto per maand",
+            "\u20ac 14.820 netto per maand"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat de heer Bakker een jaarlijks ouderdomspensioen heeft opgebouwd van \u20ac 14.820 bruto.",
+          "explanationEn": "The letter states that Mr. Bakker has built up an annual retirement pension of \u20ac14,820 gross."
+        },
+        {
+          "id": "b1-4-q2",
+          "text": "Wat is het verschil tussen de oude en de nieuwe pensioenregeling?",
+          "options": [
+            "In de oude regeling betaalt de werkgever alles; in de nieuwe regeling betaalt de werknemer alles",
+            "In de oude regeling krijgt u een vast bedrag; in de nieuwe regeling hangt uw pensioen mede af van beleggingsresultaten",
+            "In de oude regeling is er geen AOW; in de nieuwe regeling wel",
+            "In de oude regeling gaat u met 65 met pensioen; in de nieuwe regeling met 70"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief legt uit dat de huidige regeling een vast pensioenbedrag belooft (uitkeringsregeling), terwijl in de nieuwe regeling een vaste premie wordt belegd en het pensioen afhangt van beleggingsresultaten (premieregeling).",
+          "explanationEn": "The letter explains that the current scheme promises a fixed pension amount, while the new scheme invests a fixed premium and the pension depends on investment results."
+        },
+        {
+          "id": "b1-4-q3",
+          "text": "Wat moet de heer Bakker doen als hij een ongetrouwde partner heeft die recht wil hebben op nabestaandenpensioen?",
+          "options": [
+            "Hij hoeft niets te doen; het nabestaandenpensioen wordt automatisch geregeld",
+            "Hij moet zijn partner aanmelden bij het pensioenfonds",
+            "Hij moet trouwen voordat hij met pensioen gaat",
+            "Hij moet een extra verzekering afsluiten"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat als u niet getrouwd bent en geen geregistreerd partnerschap heeft, u uw partner moet aanmelden bij het pensioenfonds om het recht op nabestaandenpensioen veilig te stellen.",
+          "explanationEn": "The letter states that if you are not married and do not have a registered partnership, you must register your partner with the pension fund to secure the right to survivor's pension."
+        },
+        {
+          "id": "b1-4-q4",
+          "text": "Welk percentage van het ouderdomspensioen ontvangt een nabestaande bij overlijden?",
+          "options": [
+            "50%",
+            "60%",
+            "70%",
+            "100%"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brief vermeldt dat de partner bij overlijden recht heeft op een nabestaandenpensioen van 70% van het opgebouwde ouderdomspensioen.",
+          "explanationEn": "The letter states that the partner is entitled to a survivor's pension of 70% of the accrued retirement pension."
+        },
+        {
+          "id": "b1-4-q5",
+          "text": "Wat bedoelt het pensioenfonds met 'wij streven ernaar dat u er niet op achteruitgaat, maar een garantie kunnen wij niet geven'?",
+          "options": [
+            "Het pensioen gaat zeker omhoog door de nieuwe regeling",
+            "Het pensioenfonds doet zijn best om het pensioen gelijk te houden, maar het resultaat is onzeker",
+            "Het pensioenfonds garandeert dat iedereen hetzelfde pensioen houdt",
+            "De heer Bakker moet zelf extra geld inleggen om zijn pensioen op peil te houden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De formulering 'streven ernaar' geeft aan dat het fonds zijn best doet, maar 'een garantie kunnen wij niet geven' maakt duidelijk dat het resultaat onzeker is.",
+          "explanationEn": "The phrasing 'we aim to' indicates the fund will try its best, but 'we cannot guarantee' makes clear that the outcome is uncertain."
+        }
+      ]
+    },
+    {
+      "id": "b1-4-p2",
+      "title": "Nederlands milieubeleid: afvalscheiding en recycling",
+      "content": "Nederland behoort tot de koplopers in Europa op het gebied van afvalscheiding en recycling. Toch staat het milieubeleid niet stil. De rijksoverheid heeft ambitieuze doelen gesteld: in 2030 moet 50% minder primaire grondstoffen worden gebruikt en in 2050 wil Nederland volledig circulair zijn.\n\nAfvalscheiding thuis\nGemeenten in Nederland hanteren verschillende systemen voor afvalscheiding. De meest voorkomende methode is het scheiden aan de bron: bewoners sorteren thuis hun afval in categorieën zoals restafval, gft (groente-, fruit- en tuinafval), papier, glas en plastic verpakkingen. In sommige gemeenten worden plastic, blik en drinkpakken (PMD) samen ingezameld. Andere gemeenten gebruiken een nascheiding, waarbij het afval achteraf machinaal wordt gescheiden.\n\nStatiegeld\nSinds 2023 geldt er statiegeld op alle plastic flessen en blikjes. U betaalt een kleine toeslag bij aankoop die u terugkrijgt als u de verpakking inlevert bij een innamepunt in de supermarkt. Dit systeem heeft geleid tot een forse daling van zwerfafval. De Rijksoverheid onderzoekt of statiegeld kan worden uitgebreid naar andere verpakkingen.\n\nDiftar\nEen groeiend aantal gemeenten werkt met diftar: u betaalt voor de hoeveelheid restafval die u aanbiedt. Hoe beter u afval scheidt, hoe lager uw afvalstoffenheffing. Uit onderzoek blijkt dat gemeenten met diftar gemiddeld 30% minder restafval produceren dan gemeenten met een vast tarief.\n\nTextielrecycling\nOude kleding en textiel horen niet bij het restafval. In veel gemeenten staan textielcontainers of kunt u textiel meegeven met de oud-papierinzameling. Vanaf 2025 zijn textielproducenten wettelijk verplicht om bij te dragen aan de inzameling en recycling van hun producten, onder het principe van uitgebreide producentenverantwoordelijkheid.\n\nWilt u weten welke regels in uw gemeente gelden? Kijk op de website van uw gemeente of download de app MijnAfvalwijzer.",
+      "contentType": "article",
+      "instruction": "Lees het artikel over milieubeleid. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-4-q6",
+          "text": "Wat is het doel van de Nederlandse overheid voor 2050?",
+          "options": [
+            "50% minder afval produceren",
+            "Volledig circulair zijn",
+            "Alle huishoudens laten recyclen",
+            "Statiegeld op alle producten invoeren"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt dat Nederland in 2050 volledig circulair wil zijn.",
+          "explanationEn": "The article states that the Netherlands wants to be fully circular by 2050."
+        },
+        {
+          "id": "b1-4-q7",
+          "text": "Wat is het verschil tussen bronscheiding en nascheiding?",
+          "options": [
+            "Bij bronscheiding betaalt u meer afvalstoffenheffing",
+            "Bij bronscheiding sorteren bewoners thuis; bij nascheiding wordt afval achteraf machinaal gescheiden",
+            "Bij nascheiding hoeven bewoners geen afval meer buiten te zetten",
+            "Bij bronscheiding wordt alleen papier gescheiden; bij nascheiding alles"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel legt uit dat bij bronscheiding bewoners thuis afval sorteren, terwijl bij nascheiding het afval achteraf machinaal wordt gescheiden.",
+          "explanationEn": "The article explains that with source separation residents sort waste at home, while with post-separation waste is mechanically separated afterwards."
+        },
+        {
+          "id": "b1-4-q8",
+          "text": "Wat is het effect van het statiegeldsysteem volgens het artikel?",
+          "options": [
+            "Mensen kopen minder plastic flessen",
+            "Het heeft geleid tot een forse daling van zwerfafval",
+            "Supermarkten verdienen meer geld",
+            "Er worden meer glazen flessen verkocht"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel stelt dat het statiegeldsysteem heeft geleid tot een forse daling van zwerfafval.",
+          "explanationEn": "The article states that the deposit system has led to a significant decrease in litter."
+        },
+        {
+          "id": "b1-4-q9",
+          "text": "Wat is 'diftar'?",
+          "options": [
+            "Een app waarmee u afval kunt scheiden",
+            "Een systeem waarbij u betaalt voor de hoeveelheid restafval die u aanbiedt",
+            "Een nieuwe manier om textiel te recyclen",
+            "Een container voor plastic en blik"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel legt uit dat diftar een systeem is waarbij u betaalt voor de hoeveelheid restafval die u aanbiedt.",
+          "explanationEn": "The article explains that diftar is a system where you pay for the amount of residual waste you produce."
+        },
+        {
+          "id": "b1-4-q10",
+          "text": "Wat houdt 'uitgebreide producentenverantwoordelijkheid' in bij textiel?",
+          "options": [
+            "Producenten moeten kleding goedkoper maken",
+            "Producenten zijn wettelijk verplicht bij te dragen aan de inzameling en recycling van hun producten",
+            "Consumenten moeten oude kleding terugbrengen naar de winkel",
+            "De overheid betaalt voor de recycling van textiel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het artikel vermeldt dat textielproducenten vanaf 2025 wettelijk verplicht zijn om bij te dragen aan de inzameling en recycling van hun producten, onder het principe van uitgebreide producentenverantwoordelijkheid.",
+          "explanationEn": "The article states that from 2025, textile producers are legally obliged to contribute to the collection and recycling of their products, under the principle of extended producer responsibility."
+        }
+      ]
+    },
+    {
+      "id": "b1-4-p3",
+      "title": "Kinderopvangtoeslag aanvragen",
+      "content": "Werken of studeren en uw kind naar de opvang?\nDan kunt u misschien kinderopvangtoeslag krijgen!\n\nWat is kinderopvangtoeslag?\nKinderopvangtoeslag is een bijdrage van de overheid in de kosten van kinderopvang. De toeslag geldt voor kinderen tot 12 jaar die naar een geregistreerd kindercentrum, buitenschoolse opvang (BSO) of gastouder gaan.\n\nVoorwaarden\nU komt in aanmerking voor kinderopvangtoeslag als u aan de volgende voorwaarden voldoet:\n\u2022 U en uw eventuele toeslagpartner werken allebei, volgen een opleiding, een inburgeringscursus of een re-integratietraject\n\u2022 Uw kind gaat naar een opvang die is geregistreerd in het Landelijk Register Kinderopvang (LRK)\n\u2022 U heeft een schriftelijke overeenkomst met de kinderopvang\n\u2022 U betaalt zelf een deel van de kosten (de eigen bijdrage)\n\nHoeveel toeslag krijgt u?\nDe hoogte van de toeslag hangt af van uw gezamenlijk toetsingsinkomen, het aantal kinderen en het uurtarief van de opvang. De overheid vergoedt maximaal 96% van de kosten voor het eerste kind en een hoger percentage voor volgende kinderen. Er geldt een maximumuurtarief; als uw opvang duurder is, betaalt u het verschil zelf.\n\nAanvragen\nU kunt kinderopvangtoeslag aanvragen via Mijn Toeslagen op toeslagen.nl. Hiervoor heeft u nodig:\n\u2022 Uw DigiD\n\u2022 Het LRK-nummer van de opvang\n\u2022 De overeenkomst met de opvang (met vermelding van het aantal uren en het uurtarief)\n\u2022 Gegevens van uw toeslagpartner\n\nLet op: de toeslag wordt maandelijks als voorschot uitbetaald. Na afloop van het jaar volgt een definitieve berekening. Als uw situatie verandert (u gaat minder werken, uw inkomen wijzigt of uw kind stopt met opvang), geef dit dan direct door. Anders moet u mogelijk toeslag terugbetalen.\n\nMeer informatie vindt u op toeslagen.nl of bel de BelastingTelefoon: 0800-0543.",
+      "contentType": "brochure",
+      "instruction": "Lees de brochure over kinderopvangtoeslag. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-4-q11",
+          "text": "Voor kinderen tot welke leeftijd geldt de kinderopvangtoeslag?",
+          "options": [
+            "Tot 4 jaar",
+            "Tot 8 jaar",
+            "Tot 12 jaar",
+            "Tot 16 jaar"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brochure vermeldt dat de toeslag geldt voor kinderen tot 12 jaar.",
+          "explanationEn": "The brochure states that the subsidy applies to children up to 12 years old."
+        },
+        {
+          "id": "b1-4-q12",
+          "text": "Aan welke voorwaarde moet de kinderopvang voldoen?",
+          "options": [
+            "De opvang moet in dezelfde gemeente liggen als uw woning",
+            "De opvang moet geregistreerd zijn in het Landelijk Register Kinderopvang",
+            "De opvang moet door de gemeente worden beheerd",
+            "De opvang moet minder dan 5 kilometer van uw werk liggen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure vermeldt als voorwaarde dat uw kind naar een opvang gaat die is geregistreerd in het Landelijk Register Kinderopvang (LRK).",
+          "explanationEn": "The brochure lists as a requirement that your child attends a childcare facility registered in the National Childcare Register (LRK)."
+        },
+        {
+          "id": "b1-4-q13",
+          "text": "Wat bepaalt hoeveel kinderopvangtoeslag u krijgt?",
+          "options": [
+            "Alleen het aantal kinderen dat u heeft",
+            "Uw gezamenlijk toetsingsinkomen, het aantal kinderen en het uurtarief van de opvang",
+            "Alleen uw inkomen en de afstand tot de opvang",
+            "Het type opvang en de leeftijd van uw kind"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure noemt drie factoren: het gezamenlijk toetsingsinkomen, het aantal kinderen en het uurtarief van de opvang.",
+          "explanationEn": "The brochure mentions three factors: the combined assessment income, the number of children, and the hourly rate of the childcare."
+        },
+        {
+          "id": "b1-4-q14",
+          "text": "Waarom is het belangrijk om wijzigingen in uw situatie direct door te geven?",
+          "options": [
+            "Anders verliest u permanent uw recht op toeslag",
+            "Anders moet u mogelijk toeslag terugbetalen",
+            "Anders krijgt u een boete van de Belastingdienst",
+            "Anders stopt de opvang met het opvangen van uw kind"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brochure waarschuwt: 'Als uw situatie verandert, geef dit dan direct door. Anders moet u mogelijk toeslag terugbetalen.'",
+          "explanationEn": "The brochure warns: if your situation changes, report it immediately, otherwise you may have to repay benefits."
+        },
+        {
+          "id": "b1-4-q15",
+          "text": "Welk document heeft u NIET nodig bij het aanvragen van kinderopvangtoeslag?",
+          "options": [
+            "Uw DigiD",
+            "Het LRK-nummer van de opvang",
+            "Een verklaring van de huisarts",
+            "De overeenkomst met de opvang"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brochure somt op wat u nodig heeft: DigiD, LRK-nummer, de overeenkomst en gegevens van uw toeslagpartner. Een verklaring van de huisarts wordt niet genoemd.",
+          "explanationEn": "The brochure lists what you need: DigiD, LRK number, the contract, and partner details. A doctor's statement is not mentioned."
+        }
+      ]
+    },
+    {
+      "id": "b1-4-p4",
+      "title": "Uitnodiging buurtbijeenkomst over parkeerproblematiek",
+      "content": "Aan de bewoners van de Lindenlaan en omgeving,\n\nDe afgelopen maanden heeft de gemeente meerdere klachten ontvangen over de parkeerproblematiek in uw buurt. Bewoners ervaren dagelijks problemen met het vinden van een parkeerplaats, foutgeparkeerde auto's blokkeren regelmatig de stoep en hulpdiensten kunnen sommige straten moeilijk bereiken.\n\nOm samen naar een oplossing te zoeken, organiseert de gemeente een buurtbijeenkomst:\n\nDatum: woensdag 8 april 2026\nTijd: 19:30 - 21:00 uur\nLocatie: Wijkcentrum De Linde, Lindenlaan 85\n\nAgenda:\n1. Welkomstwoord door wethouder mevrouw Ahmadi\n2. Presentatie van de resultaten van het parkeeronderzoek door verkeerskundige de heer De Vries\n3. Bespreking van drie mogelijke maatregelen:\n   a) Invoering van betaald parkeren met bewonersvergunningen\n   b) Aanleg van een extra parkeerterrein aan de rand van de wijk\n   c) Eenrichtingsverkeer in de smallere straten om dubbelparkeren te voorkomen\n4. Vragenronde en discussie\n5. Peiling onder aanwezigen over de voorkeursoplossing\n\nWij willen benadrukken dat er nog geen besluit is genomen. Het doel van deze avond is om samen met u de voor- en nadelen van elke optie te bespreken. Na de bijeenkomst neemt de gemeenteraad een definitief besluit, waarbij de uitkomst van de peiling wordt meegewogen.\n\nKunt u niet aanwezig zijn? Dan kunt u uw mening tot en met 15 april digitaal doorgeven via www.gemeente-voorbeeld.nl/parkeren. De resultaten van de digitale peiling worden gelijkwaardig meegenomen.\n\nMet vriendelijke groet,\nGemeente Voorbeeld\nAfdeling Verkeer en Vervoer",
+      "contentType": "notice",
+      "instruction": "Lees de uitnodiging voor de buurtbijeenkomst. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-4-q16",
+          "text": "Wat is de aanleiding voor deze buurtbijeenkomst?",
+          "options": [
+            "De gemeente wil de straten opnieuw bestraten",
+            "Er zijn meerdere klachten binnengekomen over parkeerproblematiek in de buurt",
+            "De gemeente wil het openbaar vervoer verbeteren",
+            "Er is een ongeluk gebeurd door foutparkeren"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief begint met te vermelden dat de gemeente meerdere klachten heeft ontvangen over de parkeerproblematiek in de buurt.",
+          "explanationEn": "The letter opens by stating that the municipality has received multiple complaints about parking problems in the neighborhood."
+        },
+        {
+          "id": "b1-4-q17",
+          "text": "Welke maatregel wordt NIET genoemd als mogelijke oplossing?",
+          "options": [
+            "Invoering van betaald parkeren met bewonersvergunningen",
+            "Aanleg van een extra parkeerterrein",
+            "Het volledig verbieden van auto's in de wijk",
+            "Eenrichtingsverkeer in de smallere straten"
+          ],
+          "correctIndex": 2,
+          "explanation": "De drie genoemde maatregelen zijn: betaald parkeren met bewonersvergunningen, een extra parkeerterrein, en eenrichtingsverkeer. Een volledig autoverbod wordt niet genoemd.",
+          "explanationEn": "The three mentioned measures are: paid parking with resident permits, an additional parking area, and one-way traffic. A complete car ban is not mentioned."
+        },
+        {
+          "id": "b1-4-q18",
+          "text": "Wie neemt het definitieve besluit over de parkeeroplossing?",
+          "options": [
+            "De bewoners tijdens de buurtbijeenkomst",
+            "Wethouder mevrouw Ahmadi",
+            "De gemeenteraad",
+            "De verkeerskundige de heer De Vries"
+          ],
+          "correctIndex": 2,
+          "explanation": "De brief vermeldt: 'Na de bijeenkomst neemt de gemeenteraad een definitief besluit, waarbij de uitkomst van de peiling wordt meegewogen.'",
+          "explanationEn": "The letter states that after the meeting, the municipal council will make a final decision, taking the poll results into account."
+        },
+        {
+          "id": "b1-4-q19",
+          "text": "Wat kunnen bewoners doen als zij niet naar de bijeenkomst kunnen komen?",
+          "options": [
+            "Ze kunnen een brief sturen naar de wethouder",
+            "Ze kunnen hun mening tot en met 15 april digitaal doorgeven via de gemeentewebsite",
+            "Ze kunnen een buurman machtigen om namens hen te stemmen",
+            "Ze kunnen niets doen; alleen aanwezigen mogen hun mening geven"
+          ],
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat bewoners hun mening tot en met 15 april digitaal kunnen doorgeven via de gemeentewebsite en dat de resultaten gelijkwaardig worden meegenomen.",
+          "explanationEn": "The letter states that residents can submit their opinion digitally until April 15 via the municipal website, and that digital results are weighted equally."
+        },
+        {
+          "id": "b1-4-q20",
+          "text": "Wat wordt er bedoeld met 'de uitkomst van de peiling wordt meegewogen'?",
+          "options": [
+            "De peiling bepaalt automatisch welke maatregel wordt gekozen",
+            "De gemeenteraad houdt rekening met de mening van bewoners bij het nemen van het besluit",
+            "De peiling is slechts een formaliteit en heeft geen invloed",
+            "Alleen de digitale peiling telt mee bij het besluit"
+          ],
+          "correctIndex": 1,
+          "explanation": "De formulering 'wordt meegewogen' betekent dat de gemeenteraad de mening van bewoners meeneemt in de besluitvorming, maar dat het geen bindende stemming is.",
+          "explanationEn": "The phrasing 'will be taken into account' means the council considers residents' opinions in its decision-making, but it is not a binding vote."
+        }
+      ]
+    },
+    {
+      "id": "b1-4-p5",
+      "title": "Veiligheidsreglement op de werkplek",
+      "content": "Op grond van de Arbeidsomstandighedenwet (Arbowet) is elke werkgever in Nederland verplicht om te zorgen voor een veilige en gezonde werkplek. Dit document beschrijft de belangrijkste veiligheidsregels die gelden voor alle medewerkers van Productiebedrijf Rijnmond BV.\n\nAlgemene regels\nAlle medewerkers zijn verplicht de voorgeschreven persoonlijke beschermingsmiddelen (PBM) te dragen in de daarvoor aangewezen zones. Dit omvat veiligheidsschoenen, een gehoorbescherming in ruimten boven 80 decibel, en een veiligheidsbril bij werkzaamheden met chemische stoffen. Het niet dragen van PBM kan leiden tot een officiële waarschuwing en bij herhaling tot schorsing.\n\nBedrijfshulpverlening (BHV)\nHet bedrijf heeft op elke afdeling minimaal twee opgeleide BHV'ers. Zij zijn herkenbaar aan het oranje hesje. Bij een calamiteit, zoals brand of een bedrijfsongeval, volgt u de aanwijzingen van de BHV'er op. De verzamelplaats bij ontruiming is het parkeerterrein aan de Havenweg.\n\nIncidenten melden\nElk incident, ook als er geen letsel is (een zogenaamd bijna-incident), moet worden gemeld bij uw leidinggevende en geregistreerd in het incidentenregistratiesysteem via het intranet. Het melden van bijna-incidenten is essentieel om toekomstige ongevallen te voorkomen. De Arbowet verplicht de werkgever om ernstige arbeidsongevallen te melden bij de Nederlandse Arbeidsinspectie.\n\nRisico-inventarisatie en -evaluatie (RI&E)\nHet bedrijf voert jaarlijks een RI&E uit om risico's in kaart te brengen. Op basis hiervan wordt een plan van aanpak opgesteld. Alle medewerkers worden uitgenodigd om risico's te signaleren en door te geven aan de preventiemedewerker, mevrouw Jansen (kamer 1.12, toestel 234).\n\nOpleiding en voorlichting\nNieuwe medewerkers ontvangen bij indiensttreding een veiligheidsinstructie. Daarnaast organiseert de afdeling QHSE (Quality, Health, Safety, Environment) halfjaarlijkse toolboxmeetings per afdeling en een jaarlijkse ontruimingsoefening.",
+      "contentType": "article",
+      "instruction": "Lees het veiligheidsreglement. Beantwoord de vragen.",
+      "questions": [
+        {
+          "id": "b1-4-q21",
+          "text": "Wat kan er gebeuren als een medewerker herhaaldelijk geen persoonlijke beschermingsmiddelen draagt?",
+          "options": [
+            "De medewerker krijgt een bonus als stimulans",
+            "De medewerker kan worden geschorst",
+            "Er gebeurt niets; PBM zijn vrijwillig",
+            "De medewerker wordt direct ontslagen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het reglement vermeldt dat het niet dragen van PBM kan leiden tot een officiële waarschuwing en bij herhaling tot schorsing.",
+          "explanationEn": "The regulation states that not wearing PPE can lead to an official warning and, if repeated, to suspension."
+        },
+        {
+          "id": "b1-4-q22",
+          "text": "Hoe herkent u een BHV'er bij een calamiteit?",
+          "options": [
+            "Aan een rode helm",
+            "Aan een oranje hesje",
+            "Aan een witte armband",
+            "Aan een fluitsignaal"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het reglement vermeldt dat BHV'ers herkenbaar zijn aan het oranje hesje.",
+          "explanationEn": "The regulation states that emergency response officers are recognizable by their orange vest."
+        },
+        {
+          "id": "b1-4-q23",
+          "text": "Waarom is het melden van bijna-incidenten belangrijk?",
+          "options": [
+            "Omdat u dan een vergoeding kunt krijgen",
+            "Omdat het essentieel is om toekomstige ongevallen te voorkomen",
+            "Omdat de politie dit vereist",
+            "Omdat u anders uw baan verliest"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het reglement stelt dat het melden van bijna-incidenten essentieel is om toekomstige ongevallen te voorkomen.",
+          "explanationEn": "The regulation states that reporting near-incidents is essential to prevent future accidents."
+        },
+        {
+          "id": "b1-4-q24",
+          "text": "Wat is een RI&E?",
+          "options": [
+            "Een jaarlijkse ontruimingsoefening",
+            "Een registratiesysteem voor incidenten",
+            "Een jaarlijkse inventarisatie van risico's op de werkplek",
+            "Een opleiding voor nieuwe medewerkers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Het reglement legt uit dat een RI&E (risico-inventarisatie en -evaluatie) jaarlijks wordt uitgevoerd om risico's in kaart te brengen.",
+          "explanationEn": "The regulation explains that a RI&E (risk inventory and evaluation) is carried out annually to identify risks."
+        },
+        {
+          "id": "b1-4-q25",
+          "text": "Hoe vaak worden toolboxmeetings georganiseerd?",
+          "options": [
+            "Maandelijks",
+            "Halfjaarlijks",
+            "Jaarlijks",
+            "Alleen bij incidenten"
+          ],
+          "correctIndex": 1,
+          "explanation": "Het reglement vermeldt dat de afdeling QHSE halfjaarlijkse toolboxmeetings per afdeling organiseert.",
+          "explanationEn": "The regulation states that the QHSE department organizes biannual toolbox meetings per department."
+        }
+      ]
+    }
+  ]
+}

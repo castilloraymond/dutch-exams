@@ -1,0 +1,350 @@
+{
+  "id": "luisteren-b1-5",
+  "title": "Luisteren B1 - Oefenexamen 5",
+  "module": "luisteren",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "60 min",
+  "transcripts": [
+    {
+      "id": "l-b1-5-t1",
+      "title": "Consult bij de immigratieadvocaat",
+      "transcript": "Adviseur: Goedemiddag, mevrouw Al-Hassan. Welkom. U had aangegeven dat u vragen heeft over uw verblijfsvergunning en gezinshereniging.\nKlant: Ja, klopt. Mijn verblijfsvergunning loopt over drie maanden af en ik wil die graag verlengen. Tegelijkertijd wil ik mijn man laten overkomen uit Syrië.\nAdviseur: Laten we beginnen met de verlenging. Uw huidige vergunning is een verblijfsvergunning asiel voor bepaalde tijd, geldig voor vijf jaar. Voor verlenging moet u een aanvraag indienen bij de IND, minimaal drie maanden voor de verloopdatum. Dat is dus nu al urgent.\nKlant: Welke documenten heb ik nodig?\nAdviseur: U heeft nodig: een geldig identiteitsdocument, een bewijs van inschrijving in de Basisregistratie Personen, uw huidige verblijfsvergunning en een bewijs dat u bezig bent met uw inburgering. Heeft u het inburgeringsexamen al gehaald?\nKlant: Ik heb drie van de zes onderdelen gehaald. Ik ben nog bezig met lezen, luisteren en Kennis van de Nederlandse Maatschappij.\nAdviseur: Dat is geen probleem voor de verlenging, zolang u kunt aantonen dat u actief bezig bent. De IND verwacht inspanning, niet per se voltooiing op dit moment.\nKlant: Oké, dat is een opluchting. En hoe zit het met de gezinshereniging?\nAdviseur: Voor gezinshereniging moet u voldoen aan het inkomensvereiste. U moet een stabiel inkomen hebben van minimaal het wettelijk minimumloon. Bovendien moet uw man in Syrië een machtiging tot voorlopig verblijf aanvragen bij de Nederlandse ambassade, of bij de dichtstbijzijnde ambassade als er in Syrië geen Nederlandse vertegenwoordiging is.\nKlant: Ik werk parttime als schoonmaakster. Is dat genoeg?\nAdviseur: Dat hangt af van het aantal uren en uw loon. Als uw inkomen onder het minimum valt, kunt u het combineren met eventuele toeslagen of een aanvullend inkomen. Ik raad u aan om uw loonstroken mee te nemen naar ons volgende gesprek, dan berekenen we het precies.\nKlant: Dank u wel. Ik voel me al beter geïnformeerd.",
+      "questions": [
+        {
+          "id": "l-b1-5-q1",
+          "text": "Wanneer loopt de verblijfsvergunning van mevrouw Al-Hassan af?",
+          "options": [
+            "Volgende maand",
+            "Over drie maanden",
+            "Over zes maanden",
+            "Over een jaar"
+          ],
+          "correctIndex": 1,
+          "explanation": "De klant zegt: 'Mijn verblijfsvergunning loopt over drie maanden af.'"
+        },
+        {
+          "id": "l-b1-5-q2",
+          "text": "Hoeveel onderdelen van het inburgeringsexamen heeft de klant gehaald?",
+          "options": [
+            "Eén van de zes",
+            "Twee van de zes",
+            "Drie van de zes",
+            "Vier van de zes"
+          ],
+          "correctIndex": 2,
+          "explanation": "De klant zegt: 'Ik heb drie van de zes onderdelen gehaald.'"
+        },
+        {
+          "id": "l-b1-5-q3",
+          "text": "Wat verwacht de IND bij de verlenging als het inburgeringsexamen nog niet volledig is gehaald?",
+          "options": [
+            "De verlenging wordt automatisch geweigerd",
+            "De klant moet een boete betalen",
+            "De IND verwacht dat de klant actief bezig is met inburgering",
+            "De klant krijgt een verlenging van slechts één jaar"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt: 'De IND verwacht inspanning, niet per se voltooiing op dit moment.'"
+        },
+        {
+          "id": "l-b1-5-q4",
+          "text": "Wat is een vereiste voor gezinshereniging?",
+          "options": [
+            "De klant moet een eigen woning bezitten",
+            "De klant moet minimaal het wettelijk minimumloon verdienen",
+            "De klant moet het inburgeringsexamen volledig hebben gehaald",
+            "De klant moet vijf jaar in Nederland wonen"
+          ],
+          "correctIndex": 1,
+          "explanation": "De adviseur zegt: 'U moet een stabiel inkomen hebben van minimaal het wettelijk minimumloon.'"
+        },
+        {
+          "id": "l-b1-5-q5",
+          "text": "Wat adviseert de adviseur voor het volgende gesprek?",
+          "options": [
+            "Het inburgeringsexamen eerst volledig afmaken",
+            "Een advocaat meenemen",
+            "Loonstroken meenemen zodat het inkomen precies berekend kan worden",
+            "Een brief schrijven aan de IND"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt: 'Ik raad u aan om uw loonstroken mee te nemen naar ons volgende gesprek, dan berekenen we het precies.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-5-t1.mp3"
+    },
+    {
+      "id": "l-b1-5-t2",
+      "title": "Ontslaggesprek uit het ziekenhuis",
+      "transcript": "Dokter: Meneer Yilmaz, goed nieuws. Uw operatie is goed verlopen en u mag morgen naar huis. Ik wil nu de nazorginstructies met u doornemen.\nPatiënt: Fijn om te horen, dokter. Ik was best gespannen.\nDokter: Dat is heel begrijpelijk. Laat ik beginnen met de wond. De hechtingen lossen vanzelf op binnen twee weken. U hoeft daar niet voor terug te komen. Houd de wond de eerste vijf dagen droog. Geen bad of zwembad, alleen douchen mag vanaf dag drie, maar richt de waterstraal niet direct op de wond.\nAssistente: Ik heb hier uw medicatieoverzicht. U krijgt drie medicijnen mee naar huis. Allereerst paracetamol, duizend milligram, maximaal vier keer per dag tegen de pijn. Ten tweede een antibioticakuur van zeven dagen, drie keer per dag één tablet. Het is heel belangrijk dat u deze kuur helemaal afmaakt, ook als u zich al beter voelt. En ten derde een bloedverdunner, één keer per dag, 's avonds.\nPatiënt: Mag ik die antibiotica met melk innemen? Dat doe ik meestal bij pillen.\nAssistente: Nee, deze specifieke antibiotica moet u op een lege maag innemen, minimaal een uur voor of twee uur na een maaltijd. Drink er gewoon een glas water bij.\nDokter: Over twee weken heeft u een controleafspraak bij mij. Dan controleer ik de wond en bespreken we de uitslagen van het weefselonderzoek. Mocht u eerder klachten krijgen, zoals koorts boven de achtendertig en een half graden, toenemende roodheid of zwelling rond de wond, of plotselinge hevige pijn, bel dan onmiddellijk de spoedeisende hulp.\nPatiënt: En mag ik autorijden?\nDokter: Niet de eerste twee weken. Dat heeft te maken met de bloedverdunner en het feit dat u nog herstellend bent. Fietsen en wandelen mag na de eerste week, maar begin rustig aan.\nAssistente: Ik geef u ook een folder mee met alle informatie. Mocht u thuis vragen hebben, dan kunt u bellen met de verpleegkundigenpost. Het nummer staat op de folder.",
+      "questions": [
+        {
+          "id": "l-b1-5-q6",
+          "text": "Hoe lang duurt het voordat de hechtingen oplossen?",
+          "options": [
+            "Eén week",
+            "Twee weken",
+            "Drie weken",
+            "Vier weken"
+          ],
+          "correctIndex": 1,
+          "explanation": "De dokter zegt: 'De hechtingen lossen vanzelf op binnen twee weken.'"
+        },
+        {
+          "id": "l-b1-5-q7",
+          "text": "Hoeveel medicijnen krijgt de patiënt mee naar huis?",
+          "options": [
+            "Eén",
+            "Twee",
+            "Drie",
+            "Vier"
+          ],
+          "correctIndex": 2,
+          "explanation": "De assistente noemt drie medicijnen: paracetamol, een antibioticakuur en een bloedverdunner."
+        },
+        {
+          "id": "l-b1-5-q8",
+          "text": "Hoe moet de antibiotica worden ingenomen?",
+          "options": [
+            "Met melk, bij het ontbijt",
+            "Op een lege maag, met water",
+            "Bij de avondmaaltijd, met sap",
+            "Het maakt niet uit hoe"
+          ],
+          "correctIndex": 1,
+          "explanation": "De assistente zegt: 'Deze specifieke antibiotica moet u op een lege maag innemen, minimaal een uur voor of twee uur na een maaltijd. Drink er gewoon een glas water bij.'"
+        },
+        {
+          "id": "l-b1-5-q9",
+          "text": "Wanneer moet de patiënt direct de spoedeisende hulp bellen?",
+          "options": [
+            "Als hij moe is of slecht slaapt",
+            "Als hij koorts krijgt boven de achtendertig en een half graden, of toenemende roodheid en zwelling ziet",
+            "Als de paracetamol niet helpt",
+            "Als hij hoofdpijn heeft"
+          ],
+          "correctIndex": 1,
+          "explanation": "De dokter noemt als alarmerende signalen: 'koorts boven de achtendertig en een half graden, toenemende roodheid of zwelling rond de wond, of plotselinge hevige pijn.'"
+        },
+        {
+          "id": "l-b1-5-q10",
+          "text": "Wanneer mag de patiënt weer autorijden?",
+          "options": [
+            "Direct na het ontslag",
+            "Na één week",
+            "Na twee weken",
+            "Na vier weken"
+          ],
+          "correctIndex": 2,
+          "explanation": "De dokter zegt: 'Niet de eerste twee weken. Dat heeft te maken met de bloedverdunner en het feit dat u nog herstellend bent.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-5-t2.mp3"
+    },
+    {
+      "id": "l-b1-5-t3",
+      "title": "Vakbondsvergadering over arbeidsvoorwaarden",
+      "transcript": "Voorzitter: Goedenavond, collega's. Welkom bij de ledenvergadering van vakbond FNV, afdeling Regio West. Vanavond bespreken we de voortgang van de cao-onderhandelingen in de schoonmaaksector.\nMedewerker: Voorzitter, ik wil meteen mijn frustratie uiten. We werken keihard, vaak 's avonds en in het weekend, en we verdienen amper boven het minimumloon. De werkgevers bieden twee procent loonsverhoging aan. Dat is een lachertje met de huidige inflatie.\nVoorzitter: Ik begrijp uw frustratie volledig. Het huidige bod van de werkgevers is inderdaad onvoldoende. Wij eisen vijf procent loonsverhoging plus een eindejaarsuitkering van vijfhonderd euro. Daarnaast willen we een toeslag van vijfentwintig procent voor avond- en weekendwerk.\nDeelnemer: Hoe staan de onderhandelingen er nu voor? Zijn de werkgevers bereid om te bewegen?\nVoorzitter: De gesprekken zitten op dit moment vast. De werkgeversorganisatie zegt dat vijf procent financieel niet haalbaar is. Ze bieden nu drie procent en een eenmalige uitkering van tweehonderd euro.\nMedewerker: Drie procent is nog steeds te weinig. De huren stijgen, de boodschappen worden duurder. Wat is ons drukmiddel?\nVoorzitter: Als de werkgevers niet voor het einde van de maand met een serieus bod komen, stellen we het bestuur voor om een stakingsactie te organiseren. We denken aan een werkonderbreking van vierentwintig uur op een nog te bepalen datum.\nDeelnemer: Hoeveel steun is er voor een staking onder de leden?\nVoorzitter: We hebben een peiling gehouden onder tweeduizend leden. Drieënzeventig procent steunt een stakingsactie als de onderhandelingen niet vlotten. Dat is een duidelijk mandaat.\nMedewerker: En wat gebeurt er met ons loon als we staken?\nVoorzitter: Tijdens een staking heeft u geen recht op loon van uw werkgever. Maar de vakbond heeft een stakingskas. Leden die meedoen aan de actie ontvangen een vergoeding van honderd euro per stakingsdag. Dat dekt niet alles, maar het is een steun in de rug.\nDeelnemer: Ik steun de actie volledig. Het wordt tijd dat er iets verandert.",
+      "questions": [
+        {
+          "id": "l-b1-5-q11",
+          "text": "Welke loonsverhoging eist de vakbond?",
+          "options": [
+            "Twee procent",
+            "Drie procent",
+            "Vijf procent",
+            "Zeven procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'Wij eisen vijf procent loonsverhoging plus een eindejaarsuitkering van vijfhonderd euro.'"
+        },
+        {
+          "id": "l-b1-5-q12",
+          "text": "Wat bieden de werkgevers op dit moment aan?",
+          "options": [
+            "Twee procent en geen uitkering",
+            "Drie procent en een eenmalige uitkering van tweehonderd euro",
+            "Vier procent en een eindejaarsuitkering van driehonderd euro",
+            "Vijf procent zonder toeslag"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'Ze bieden nu drie procent en een eenmalige uitkering van tweehonderd euro.'"
+        },
+        {
+          "id": "l-b1-5-q13",
+          "text": "Hoeveel procent van de leden steunt een stakingsactie?",
+          "options": [
+            "Vijfenvijftig procent",
+            "Zestig procent",
+            "Drieënzeventig procent",
+            "Tachtig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'Drieënzeventig procent steunt een stakingsactie als de onderhandelingen niet vlotten.'"
+        },
+        {
+          "id": "l-b1-5-q14",
+          "text": "Hoeveel vergoeding ontvangen stakende leden per dag?",
+          "options": [
+            "Vijftig euro",
+            "Vijfenzeventig euro",
+            "Honderd euro",
+            "Honderdvijftig euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'Leden die meedoen aan de actie ontvangen een vergoeding van honderd euro per stakingsdag.'"
+        },
+        {
+          "id": "l-b1-5-q15",
+          "text": "Welke extra toeslag eist de vakbond voor avond- en weekendwerk?",
+          "options": [
+            "Tien procent",
+            "Vijftien procent",
+            "Twintig procent",
+            "Vijfentwintig procent"
+          ],
+          "correctIndex": 3,
+          "explanation": "De voorzitter zegt: 'Daarnaast willen we een toeslag van vijfentwintig procent voor avond- en weekendwerk.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-5-t3.mp3"
+    },
+    {
+      "id": "l-b1-5-t4",
+      "title": "Buurtpreventiebijeenkomst",
+      "transcript": "Bewoner: Goedenavond allemaal. Bedankt dat u naar de buurtpreventiebijeenkomst bent gekomen. Ik ben Ahmed, de buurtcoördinator, en naast mij zit mevrouw Van Dijk van het wijkteam.\nVoorzitter: Dank je, Ahmed. Ik wil beginnen met de cijfers. In het afgelopen kwartaal zijn er veertien meldingen van inbraak geweest in onze wijk, dat is een stijging van vijftig procent ten opzichte van dezelfde periode vorig jaar. De meeste inbraken vonden overdag plaats, tussen tien en drie.\nBuurvrouw: Dat is schrikbarend. Bij mijn buurman is vorige week ingebroken terwijl hij op vakantie was. De politie zei dat het een typisch geval was: de brievenbus zat vol en de rolluiken waren de hele dag dicht.\nVoorzitter: Precies, en dat brengt me bij het eerste punt: zichtbare afwezigheid. Als u op vakantie gaat, vraag dan een buur om uw brievenbus te legen, de vuilnisbak buiten te zetten en 's avonds een lamp aan te doen. Kleine dingen die een groot verschil maken.\nBewoner: Wij hebben als buurtpreventieteam ook een WhatsApp-groep opgezet. Daar kunnen bewoners verdachte situaties melden. We hebben inmiddels honderdtwintig deelnemers, maar het doel is om elke straat vertegenwoordigd te hebben.\nBuurvrouw: Ik wil graag meedoen. Hoe kan ik me aanmelden?\nBewoner: U kunt het formulier invullen dat bij de ingang ligt, of u kunt me na afloop uw telefoonnummer geven. We sturen ook maandelijks een nieuwsbrief met tips en meldingen.\nVoorzitter: Daarnaast willen we samen met de gemeente betere verlichting aanvragen voor de steegjes achter de Lindelaan en de Kastanjestraat. Uit onderzoek blijkt dat goede straatverlichting het risico op inbraak met dertig procent vermindert.\nBuurvrouw: En hoe zit het met cameratoezicht? Mag dat zomaar?\nVoorzitter: U mag een camera op uw eigen terrein plaatsen, zolang die niet gericht is op de openbare weg of het terrein van uw buren. De gemeente overweegt wel om op twee plekken openbare camera's te plaatsen, maar daar moet eerst een privacytoets voor worden uitgevoerd.\nBewoner: We plannen de volgende bijeenkomst over zes weken. Dan is ook de wijkagent aanwezig om vragen te beantwoorden.",
+      "questions": [
+        {
+          "id": "l-b1-5-q16",
+          "text": "Hoeveel inbraken zijn er in het afgelopen kwartaal gemeld?",
+          "options": [
+            "Acht",
+            "Tien",
+            "Veertien",
+            "Twintig"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'In het afgelopen kwartaal zijn er veertien meldingen van inbraak geweest.'"
+        },
+        {
+          "id": "l-b1-5-q17",
+          "text": "Wanneer vonden de meeste inbraken plaats?",
+          "options": [
+            "'s Nachts, tussen middernacht en zes uur",
+            "Overdag, tussen tien en drie",
+            "'s Avonds, tussen acht en elf",
+            "In het weekend, 's ochtends vroeg"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'De meeste inbraken vonden overdag plaats, tussen tien en drie.'"
+        },
+        {
+          "id": "l-b1-5-q18",
+          "text": "Hoeveel deelnemers heeft de WhatsApp-groep voor buurtpreventie?",
+          "options": [
+            "Vijftig",
+            "Tachtig",
+            "Honderdtwintig",
+            "Tweehonderd"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ahmed zegt: 'We hebben inmiddels honderdtwintig deelnemers.'"
+        },
+        {
+          "id": "l-b1-5-q19",
+          "text": "Hoeveel vermindert goede straatverlichting het risico op inbraak?",
+          "options": [
+            "Tien procent",
+            "Twintig procent",
+            "Dertig procent",
+            "Vijftig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "De voorzitter zegt: 'Uit onderzoek blijkt dat goede straatverlichting het risico op inbraak met dertig procent vermindert.'"
+        },
+        {
+          "id": "l-b1-5-q20",
+          "text": "Wat zijn de regels voor het plaatsen van een camera?",
+          "options": [
+            "Camera's zijn verboden voor particulieren",
+            "U mag een camera plaatsen zolang die niet op de openbare weg of terrein van buren is gericht",
+            "U heeft toestemming nodig van de gemeente",
+            "Camera's mogen alleen binnen worden geplaatst"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'U mag een camera op uw eigen terrein plaatsen, zolang die niet gericht is op de openbare weg of het terrein van uw buren.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-5-t4.mp3"
+    },
+    {
+      "id": "l-b1-5-t5",
+      "title": "Inschrijving op een basisschool",
+      "transcript": "Receptionist: Goedemorgen, welkom bij basisschool De Regenboog. Kan ik u helpen?\nOuder: Goedemorgen. Ik wil mijn dochter graag inschrijven. We zijn drie maanden geleden naar deze buurt verhuisd.\nReceptionist: Natuurlijk. Hoe oud is uw dochter?\nOuder: Ze is zes jaar en ze zat op haar vorige school in groep drie.\nReceptionist: Goed. Laat ik u uitleggen hoe de inschrijving werkt. U vult eerst een aanmeldformulier in. Dat kunt u hier doen of thuis via onze website. Daarna plannen we een kennismakingsgesprek met de directrice en de leerkracht van de groep.\nOuder: Welke documenten moet ik meenemen?\nReceptionist: We hebben nodig: een geldig identiteitsbewijs van uw dochter, een uittreksel uit de Basisregistratie Personen, haar vaccinatieboekje en een onderwijskundig rapport van de vorige school. Dat laatste kunt u opvragen bij de oude school.\nOuder: Het onderwijskundig rapport, hoe lang duurt het om dat op te vragen?\nReceptionist: Meestal ontvangt de nieuwe school het rapport binnen twee weken nadat u het heeft aangevraagd. In de tussentijd kan uw dochter alvast starten op onze school. We plaatsen haar dan tijdelijk en passen het definitief aan zodra we het rapport hebben ontvangen.\nOuder: Oh, dat is fijn dat ze al kan beginnen. Wanneer zou de eerste schooldag kunnen zijn?\nReceptionist: Als u vandaag het formulier invult en we het kennismakingsgesprek deze week kunnen plannen, kan ze aanstaande maandag al starten. De schooltijden zijn van half negen tot drie uur. Op woensdag is het om kwart over twaalf uit.\nOuder: En de kosten? Is er een bijdrage voor activiteiten?\nReceptionist: Het onderwijs is gratis, maar we vragen een vrijwillige ouderbijdrage van vijfenzeventig euro per jaar. Die wordt gebruikt voor schoolreisjes, Sinterklaas, het kerstfeest en sportdagen. Het is echt vrijwillig; als u het niet kunt betalen, heeft dat geen gevolgen voor uw dochter.\nOuder: Heel fijn. Dan vul ik meteen het formulier in.",
+      "questions": [
+        {
+          "id": "l-b1-5-q21",
+          "text": "In welke groep zat de dochter op haar vorige school?",
+          "options": [
+            "Groep twee",
+            "Groep drie",
+            "Groep vier",
+            "Groep vijf"
+          ],
+          "correctIndex": 1,
+          "explanation": "De ouder zegt: 'Ze is zes jaar en ze zat op haar vorige school in groep drie.'"
+        },
+        {
+          "id": "l-b1-5-q22",
+          "text": "Welke documenten zijn nodig voor de inschrijving?",
+          "options": [
+            "Alleen een identiteitsbewijs en een pasfoto",
+            "Een identiteitsbewijs, BRP-uittreksel, vaccinatieboekje en onderwijskundig rapport",
+            "Een geboortecertificaat en twee pasfoto's",
+            "Een identiteitsbewijs en een bewijs van adres"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptionist noemt: een identiteitsbewijs, een BRP-uittreksel, het vaccinatieboekje en een onderwijskundig rapport."
+        },
+        {
+          "id": "l-b1-5-q23",
+          "text": "Kan de dochter al starten voordat het onderwijskundig rapport binnen is?",
+          "options": [
+            "Nee, dat moet eerst ontvangen zijn",
+            "Ja, ze wordt tijdelijk geplaatst en het wordt later definitief aangepast",
+            "Alleen als de ouder een schriftelijke verklaring tekent",
+            "Alleen na goedkeuring van de onderwijsinspectie"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptionist zegt: 'In de tussentijd kan uw dochter alvast starten op onze school. We plaatsen haar dan tijdelijk.'"
+        },
+        {
+          "id": "l-b1-5-q24",
+          "text": "Hoe laat is de school uit op woensdag?",
+          "options": [
+            "Om twaalf uur",
+            "Om kwart over twaalf",
+            "Om half één",
+            "Om drie uur"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptionist zegt: 'Op woensdag is het om kwart over twaalf uit.'"
+        },
+        {
+          "id": "l-b1-5-q25",
+          "text": "Hoeveel is de vrijwillige ouderbijdrage per jaar?",
+          "options": [
+            "Vijftig euro",
+            "Vijfenzeventig euro",
+            "Honderd euro",
+            "Honderdvijfentwintig euro"
+          ],
+          "correctIndex": 1,
+          "explanation": "De receptionist zegt: 'We vragen een vrijwillige ouderbijdrage van vijfenzeventig euro per jaar.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-5-t5.mp3"
+    }
+  ]
+}

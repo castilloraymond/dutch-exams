@@ -1,0 +1,127 @@
+{
+  "id": "spreken-b1-3",
+  "title": "Spreken B1 - Oefenexamen 3",
+  "module": "spreken",
+  "difficulty": "B1",
+  "questionCount": 4,
+  "recommendedTime": "15 min",
+  "isFreePreview": true,
+  "tips": [
+    "Structure your answer: introduce the topic, give your opinion, then support it with examples.",
+    "When comparing two things, mention both advantages and disadvantages before stating your preference.",
+    "Use connecting words like 'omdat' (because), 'maar' (but), and 'ook' (also) to link your ideas.",
+    "For the story question, use 'eerst', 'vervolgens', and 'ten slotte' to show the order of events."
+  ],
+  "selfAssessmentCriteria": [
+    { "id": "all-parts", "text": "I answered all parts of each question", "textEn": "I answered all parts of each question" },
+    { "id": "connectors", "text": "I used connecting words (maar, omdat, daarom, ook)", "textEn": "I used connecting words (maar, omdat, daarom, ook)" },
+    { "id": "detail", "text": "I gave detailed answers with opinions and reasons", "textEn": "I gave detailed answers with opinions and reasons" }
+  ],
+  "questions": [
+    {
+      "id": "spreken-b1-3-q1",
+      "partNumber": 1,
+      "partTitle": "Personal Questions",
+      "partTitleNl": "Persoonlijke Vragen",
+      "questionNl": "Wat voor opleiding doe je of heb je gedaan? Wat vond je leuk aan je opleiding? Wat zou je anders willen doen?",
+      "questionEn": "What education are you doing or have you done? What did you like about your education? What would you do differently?",
+      "questionParts": ["What education are you doing or have you done?", "What did you like about it?", "What would you do differently?"],
+      "personStatement": "I studied business administration at a university in my home country.",
+      "personStatementNl": "Ik heb bedrijfskunde gestudeerd aan een universiteit in mijn thuisland.",
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I studied economics at a university. I liked it because I learned a lot about how businesses work. The teachers were also very good. But if I could choose again, I would study something more practical, like IT, because there are more job opportunities in that field.",
+        "transcriptNl": "Ik heb economie gestudeerd aan een universiteit. Ik vond het leuk omdat ik veel heb geleerd over hoe bedrijven werken. De docenten waren ook erg goed. Maar als ik opnieuw mocht kiezen, zou ik iets praktischers studeren, zoals IT, omdat er meer banen zijn in dat vakgebied."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-3-q2",
+      "partNumber": 2,
+      "partTitle": "One-Picture Prompt",
+      "partTitleNl": "Eén Afbeelding",
+      "questionNl": "Kijk naar de afbeelding. Beschrijf wat je ziet. Hoe is jouw ervaring met school of een opleiding? Wat maakt een goede leeromgeving?",
+      "questionEn": "Look at the image. Describe what you see. What is your experience with school or education? What makes a good learning environment?",
+      "images": [
+        {
+          "id": "b1-classroom-1",
+          "src": "/images/spreken/b1-classroom-students.jpg",
+          "alt": "A classroom with students working together at desks",
+          "altNl": "Een klaslokaal met studenten die samenwerken aan tafels"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "I see a classroom where students are working together at desks. Some students are discussing and others are writing. My experience with school was positive because I had helpful teachers. I think a good learning environment has small groups, so the teacher can help everyone. It is also important that students feel comfortable to ask questions.",
+        "transcriptNl": "Ik zie een klaslokaal waar studenten samenwerken aan tafels. Sommige studenten zijn aan het overleggen en anderen zijn aan het schrijven. Mijn ervaring met school was positief omdat ik behulpzame docenten had. Ik denk dat een goede leeromgeving kleine groepen heeft, zodat de docent iedereen kan helpen. Het is ook belangrijk dat studenten zich op hun gemak voelen om vragen te stellen."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-3-q3",
+      "partNumber": 3,
+      "partTitle": "Two-Picture Prompt",
+      "partTitleNl": "Twee Afbeeldingen",
+      "questionNl": "Kijk naar de twee afbeeldingen. Vergelijk traditioneel onderwijs met online leren. Welke manier heeft jouw voorkeur? Leg uit waarom.",
+      "questionEn": "Look at both pictures. Compare traditional education with online learning. Which way do you prefer? Explain why.",
+      "images": [
+        {
+          "id": "b1-education-traditional",
+          "src": "/images/spreken/b1-education-traditional.jpg",
+          "alt": "A traditional classroom with a teacher at the blackboard",
+          "altNl": "Een traditioneel klaslokaal met een docent bij het schoolbord"
+        },
+        {
+          "id": "b1-education-online",
+          "src": "/images/spreken/b1-education-online.jpg",
+          "alt": "A person studying online at home with a laptop",
+          "altNl": "Een persoon die thuis online studeert met een laptop"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "The first picture shows a traditional classroom with a teacher at the blackboard. Students are sitting together and listening. The second picture shows someone studying online at home with a laptop. I prefer traditional education because you can ask the teacher questions directly and work with other students. But online learning is also handy because you can study at your own speed and at any time. For me, a mix of both would be ideal.",
+        "transcriptNl": "De eerste foto laat een traditioneel klaslokaal zien met een docent bij het schoolbord. Studenten zitten samen en luisteren. De tweede foto toont iemand die thuis online studeert met een laptop. Ik heb een voorkeur voor traditioneel onderwijs omdat je de docent direct vragen kunt stellen en met andere studenten kunt samenwerken. Maar online leren is ook handig omdat je in je eigen tempo kunt studeren en op elk moment. Voor mij zou een combinatie van beide ideaal zijn."
+      },
+      "sequencingWordsRequired": false
+    },
+    {
+      "id": "spreken-b1-3-q4",
+      "partNumber": 4,
+      "partTitle": "Three-Picture Prompt",
+      "partTitleNl": "Drie Afbeeldingen",
+      "questionNl": "Kijk naar de drie afbeeldingen. Vertel het verhaal in detail. Gebruik verbindingswoorden: eerst, vervolgens, ten slotte.",
+      "questionEn": "Look at the three pictures. Tell the story in detail. Use connecting words: first, next, finally.",
+      "images": [
+        {
+          "id": "b1-student-studying",
+          "src": "/images/spreken/b1-student-studying.jpg",
+          "alt": "A student studying at a desk with books at home",
+          "altNl": "Een student die thuis studeert aan een bureau met boeken"
+        },
+        {
+          "id": "b1-student-exam",
+          "src": "/images/spreken/b1-student-taking-exam.jpg",
+          "alt": "A student taking an exam in a large hall",
+          "altNl": "Een student die een examen maakt in een grote zaal"
+        },
+        {
+          "id": "b1-student-diploma",
+          "src": "/images/spreken/b1-student-diploma.jpg",
+          "alt": "A student receiving a diploma at a graduation ceremony",
+          "altNl": "Een student die een diploma ontvangt bij een diploma-uitreiking"
+        }
+      ],
+      "recommendedDuration": 45,
+      "softLimitWarning": 35,
+      "modelAnswer": {
+        "transcript": "First the student is studying hard at home. There are many books on the desk and they are making notes. They are probably preparing for an important exam. Next the student is taking the exam in a big hall with other students. They look concentrated and a bit nervous. Finally we see the student at the graduation ceremony. They are receiving their diploma and they look very proud and happy. Their hard work has paid off.",
+        "transcriptNl": "Eerst studeert de student hard thuis. Er liggen veel boeken op het bureau en ze maken aantekeningen. Ze bereiden zich waarschijnlijk voor op een belangrijk examen. Vervolgens maakt de student het examen in een grote zaal met andere studenten. Ze zien er geconcentreerd en een beetje zenuwachtig uit. Ten slotte zien we de student bij de diploma-uitreiking. Ze ontvangen hun diploma en ze zien er erg trots en blij uit. Hun harde werk heeft zich uitbetaald."
+      },
+      "sequencingWordsRequired": true
+    }
+  ]
+}

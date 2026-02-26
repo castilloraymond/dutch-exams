@@ -64,6 +64,30 @@
       "questionCount": 3,
       "recommendedTime": "30 min",
       "isFreePreview": false
+    },
+    {
+      "id": "schrijven-b1-3",
+      "title": "Schrijven B1 - Oefenexamen 3",
+      "difficulty": "B1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "schrijven-b1-4",
+      "title": "Schrijven B1 - Oefenexamen 4",
+      "difficulty": "B1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": true
+    },
+    {
+      "id": "schrijven-b1-5",
+      "title": "Schrijven B1 - Oefenexamen 5",
+      "difficulty": "B1",
+      "questionCount": 3,
+      "recommendedTime": "30 min",
+      "isFreePreview": true
     }
   ]
 }

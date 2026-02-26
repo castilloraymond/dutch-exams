@@ -464,7 +464,7 @@ async function main(): Promise<void> {
     "a2-exam-1", "a2-exam-2", "a2-exam-3", "a2-exam-4",
     "a2-exam-5", "a2-exam-6", "a2-exam-7", "a2-exam-8",
     "a2-exam-9", "a2-exam-10",
-    "b1-exam-1", "b1-exam-2",
+    "b1-exam-1", "b1-exam-2", "b1-exam-3", "b1-exam-4", "b1-exam-5",
   ];
   const mockExamsDir = path.join(process.cwd(), "content", "mock-exams", "luisteren");
   const mockOutputDir = path.join(process.cwd(), "public", "audio", "luisteren", "mock");

@@ -1,0 +1,78 @@
+{
+  "id": "schrijven-b1-5",
+  "title": "Schrijven B1 - Oefenexamen 5",
+  "module": "schrijven",
+  "difficulty": "B1",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": true,
+  "tips": [
+    "When writing to government agencies, use 'Geachte heer/mevrouw' and include any reference or file numbers.",
+    "Be specific about dates, locations, and events — vague complaints are harder to act on.",
+    "In professional emails, state the key information in the first sentence so colleagues can act quickly.",
+    "Always proofread your letter for consistent formal register — avoid mixing 'u' and 'je' forms."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "appropriate-register",
+      "text": "I used the appropriate register (formal for letters, professional for emails)",
+      "textEn": "I used the appropriate register (formal for letters, professional for emails)"
+    },
+    {
+      "id": "specific-details",
+      "text": "I included specific details like dates, reference numbers, or locations",
+      "textEn": "I included specific details like dates, reference numbers, or locations"
+    },
+    {
+      "id": "logical-structure",
+      "text": "My writing follows a logical order: context, problem/request, desired action",
+      "textEn": "My writing follows a logical order: context, problem/request, desired action"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-b1-5-q1",
+      "scenario": "U heeft zes maanden geleden een verblijfsvergunning aangevraagd bij de IND, maar u heeft nog steeds geen antwoord ontvangen. U wilt weten wat de status is van uw aanvraag.",
+      "scenarioEn": "You applied for a residence permit at the IND six months ago, but you still have not received a response. You want to know the status of your application.",
+      "prompt": "Schrijf een formele brief aan de IND. Verwijs naar uw aanvraag, leg uit dat u al lang wacht en vraag om een update over de status.",
+      "promptEn": "Write a formal letter to the IND. Reference your application, explain that you have been waiting a long time, and ask for a status update.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-reference", "text": "I included my application reference number and date", "textEn": "I included my application reference number and date" },
+        { "id": "q1-waiting", "text": "I clearly stated how long I have been waiting", "textEn": "I clearly stated how long I have been waiting" },
+        { "id": "q1-update", "text": "I asked for a specific status update or timeline", "textEn": "I asked for a specific status update or timeline" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nOp 25 augustus 2025 heb ik een aanvraag ingediend voor een verblijfsvergunning regulier (V-nummer: 2708195403). Het is nu zes maanden geleden en ik heb nog geen beslissing ontvangen. De beslistermijn van 90 dagen is inmiddels ruim verstreken.\n\nDeze onzekerheid heeft grote gevolgen voor mijn werk en woonsituatie. Ik verzoek u vriendelijk om mij zo spoedig mogelijk te informeren over de status van mijn aanvraag en de verwachte beslisdatum.\n\nMet vriendelijke groet,\nIsabel Ferreira dos Santos"
+    },
+    {
+      "id": "schrijven-b1-5-q2",
+      "scenario": "U reist dagelijks met de trein naar uw werk. De afgelopen maand zijn er bijna elke dag vertragingen of uitgevallen treinen op uw traject. U wilt een klacht indienen bij de vervoersmaatschappij.",
+      "scenarioEn": "You commute to work by train daily. In the past month, there have been delays or cancelled trains on your route almost every day. You want to file a complaint with the transport company.",
+      "prompt": "Schrijf een formele klachtbrief aan de vervoersmaatschappij. Beschrijf het probleem, geef voorbeelden en vraag om een oplossing of compensatie.",
+      "promptEn": "Write a formal complaint letter to the transport company. Describe the problem, give examples, and ask for a solution or compensation.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-examples", "text": "I gave specific examples of delays or cancellations", "textEn": "I gave specific examples of delays or cancellations" },
+        { "id": "q2-impact", "text": "I explained the impact on my daily life or work", "textEn": "I explained the impact on my daily life or work" },
+        { "id": "q2-compensation", "text": "I asked for a concrete solution or compensation", "textEn": "I asked for a concrete solution or compensation" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk maak dagelijks gebruik van de trein van Utrecht Centraal naar Amsterdam Zuidoost (vertrek 07:42). In de maand januari was deze trein op meer dan vijftien dagen vertraagd of uitgevallen. Op 12 en 19 januari reed er helemaal geen trein en moest ik een taxi naar mijn werk nemen.\n\nDoor deze vertragingen kom ik regelmatig te laat op mijn werk, wat gevolgen heeft voor mijn beoordeling. Ik verzoek u om compensatie voor de extra reiskosten en om maatregelen te nemen om de dienstverlening te verbeteren.\n\nMet vriendelijke groet,\nMustafa \u00d6zt\u00fcrk"
+    },
+    {
+      "id": "schrijven-b1-5-q3",
+      "scenario": "U bent projectleider op uw werk. De deadline van een belangrijk project is verschoven van 15 maart naar 31 maart. U moet uw teamleden hierover informeren.",
+      "scenarioEn": "You are a project leader at work. The deadline of an important project has been moved from March 15th to March 31st. You need to inform your team members about this.",
+      "prompt": "Schrijf een email aan uw team over de nieuwe deadline. Leg uit waarom de deadline is verschoven en wat dit betekent voor het werkschema.",
+      "promptEn": "Write an email to your team about the new deadline. Explain why the deadline has moved and what this means for the work schedule.",
+      "taskType": "free-text",
+      "wordRange": { "min": 50, "max": 100 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-dates", "text": "I clearly stated the old and new deadline dates", "textEn": "I clearly stated the old and new deadline dates" },
+        { "id": "q3-reason", "text": "I explained the reason for the deadline change", "textEn": "I explained the reason for the deadline change" }
+      ],
+      "modelAnswer": "Beste team,\n\nIk wil jullie laten weten dat de deadline van het Klantportaal-project is verschoven van 15 maart naar 31 maart. De opdrachtgever heeft extra functionaliteiten gevraagd die meer tijd vereisen.\n\nDit betekent dat we twee extra weken hebben voor de testfase. Ik stuur morgen een aangepaste planning rond. Laten we donderdag om 10:00 uur een overleg plannen om de taakverdeling te bespreken.\n\nGroet,\nRachid El Amrani"
+    }
+  ]
+}

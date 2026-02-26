@@ -1,0 +1,660 @@
+{
+  "id": "knm-b1-4",
+  "title": "KNM B1 - Oefenexamen 4",
+  "module": "knm",
+  "difficulty": "B1",
+  "questionCount": 50,
+  "recommendedTime": "40 min",
+  "questions": [
+    {
+      "id": "knm-b1-4-q1",
+      "text": "Wat is de Huurcommissie?",
+      "options": [
+        "Een bedrijf dat woningen verhuurt",
+        "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders beoordeelt, vooral over huurprijs en onderhoud",
+        "Een afdeling van de gemeente die woningen toewijst",
+        "Een commissie die hypotheekaanvragen beoordeelt"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen behandelt tussen huurders en verhuurders in de sociale huursector. Dit gaat onder andere over de huurprijs, servicekosten en achterstallig onderhoud. De Huurcommissie kan een bindende uitspraak doen.",
+      "explanationEn": "The Rent Tribunal (Huurcommissie) is an independent organization that handles disputes between tenants and landlords in the social housing sector. This includes rent prices, service costs, and maintenance backlogs. The Rent Tribunal can make binding decisions."
+    },
+    {
+      "id": "knm-b1-4-q2",
+      "text": "Wat is het verschil tussen sociale huur en vrije sector huur?",
+      "options": [
+        "Er is geen verschil",
+        "Sociale huur is alleen voor studenten, vrije sector is voor gezinnen",
+        "Sociale huurwoningen hebben een huurprijs tot de liberalisatiegrens en worden toegewezen via woningcorporaties; vrije sector woningen hebben een hogere huurprijs zonder maximale huurgrens",
+        "Sociale huur is altijd duurder dan vrije sector"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sociale huurwoningen hebben een huurprijs onder de liberalisatiegrens (circa €880 per maand in 2024) en worden vaak verhuurd door woningcorporaties. De huurprijs wordt bepaald door het puntensysteem. Vrije sector woningen hebben een huurprijs boven deze grens en de verhuurder bepaalt de prijs zelf.",
+      "explanationEn": "Social rental homes have a rent below the liberalization threshold (approximately €880/month in 2024) and are often rented out by housing corporations. The rent is determined by a points system. Free-sector homes have a rent above this threshold and the landlord sets the price."
+    },
+    {
+      "id": "knm-b1-4-q3",
+      "text": "Wat is de WOZ-waarde?",
+      "options": [
+        "De verkoopprijs van een woning op de markt",
+        "De waarde die de gemeente jaarlijks vaststelt voor onroerende zaken, die wordt gebruikt voor belastingen zoals de onroerendezaakbelasting (OZB)",
+        "Het bedrag dat u maximaal kunt lenen voor een hypotheek",
+        "De verzekerde waarde van uw inboedel"
+      ],
+      "correctIndex": 1,
+      "explanation": "De WOZ-waarde (Wet Waardering Onroerende Zaken) wordt jaarlijks door de gemeente vastgesteld. Deze waarde wordt gebruikt voor de berekening van belastingen zoals de OZB, het eigenwoningforfait in de inkomstenbelasting, en de watersysteemheffing. U kunt bezwaar maken als u het niet eens bent met de WOZ-waarde.",
+      "explanationEn": "The WOZ value is determined annually by the municipality. This value is used to calculate taxes such as property tax (OZB), the deemed rental value in income tax, and water system levies. You can object if you disagree with the WOZ value."
+    },
+    {
+      "id": "knm-b1-4-q4",
+      "text": "Wat is een woningcorporatie?",
+      "options": [
+        "Een commercieel bedrijf dat luxe woningen bouwt",
+        "Een organisatie zonder winstoogmerk die sociale huurwoningen bouwt, verhuurt en beheert",
+        "Een overheidsinstelling die hypotheken verstrekt",
+        "Een makelaarskantoor dat woningen verkoopt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een woningcorporatie is een organisatie zonder winstoogmerk die als kerntaak het bouwen, verhuren en beheren van sociale huurwoningen heeft. Woningcorporaties zijn verantwoordelijk voor een groot deel van de sociale huurwoningen in Nederland. Ze worden gereguleerd door de overheid.",
+      "explanationEn": "A housing corporation is a non-profit organization whose core task is building, renting out, and managing social rental housing. Housing corporations are responsible for a large portion of social rental homes in the Netherlands. They are regulated by the government."
+    },
+    {
+      "id": "knm-b1-4-q5",
+      "text": "Wat is huurtoeslag en wie komt ervoor in aanmerking?",
+      "options": [
+        "Een subsidie voor huiseigenaren om hun hypotheek te betalen",
+        "Een tegemoetkoming van de overheid voor huurders met een laag inkomen die een sociale huurwoning huren",
+        "Een vergoeding voor verhuurders die hun woningen onderhouden",
+        "Een belastingvoordeel voor alle huurders in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Huurtoeslag is een bijdrage van de overheid voor huurders met een laag inkomen. Voorwaarden zijn onder andere: u huurt een zelfstandige woonruimte, de huur is onder de huurtoeslaggrens, u bent 18 jaar of ouder, en uw inkomen en vermogen zijn onder bepaalde grenzen.",
+      "explanationEn": "Housing benefit (huurtoeslag) is a government contribution for tenants with a low income. Conditions include: you rent an independent living space, the rent is below the housing benefit threshold, you are 18 or older, and your income and assets are below certain limits."
+    },
+    {
+      "id": "knm-b1-4-q6",
+      "text": "Wat is een hypotheek?",
+      "options": [
+        "Een soort huurcontract voor sociale huurwoningen",
+        "Een lening van een bank of andere geldverstrekker om een woning te kopen, waarbij de woning als onderpand dient",
+        "Een verzekering tegen schade aan uw woning",
+        "Een belasting die u betaalt wanneer u een woning koopt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een hypotheek is een lening waarmee u een woning kunt kopen. De woning dient als onderpand: als u de lening niet kunt terugbetalen, kan de bank de woning verkopen. De hypotheekrente is (deels) aftrekbaar van de inkomstenbelasting (hypotheekrenteaftrek).",
+      "explanationEn": "A mortgage is a loan used to buy a home. The house serves as collateral: if you can't repay the loan, the bank can sell the house. Mortgage interest is (partially) tax-deductible from income tax (mortgage interest deduction)."
+    },
+    {
+      "id": "knm-b1-4-q7",
+      "text": "Wat is het puntensysteem (woningwaarderingsstelsel) voor huurwoningen?",
+      "options": [
+        "Een systeem om de kwaliteit van meubilair te beoordelen",
+        "Een systeem waarmee de maximale huurprijs van een sociale huurwoning wordt berekend op basis van kenmerken zoals oppervlakte, voorzieningen en energielabel",
+        "Een beoordelingssysteem voor verhuurders",
+        "Een puntensysteem voor huurders om voorrang te krijgen bij toewijzing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het woningwaarderingsstelsel (puntensysteem) bepaalt de maximale huurprijs voor sociale huurwoningen. Punten worden toegekend op basis van de oppervlakte, het energielabel, de voorzieningen (keuken, badkamer), en de WOZ-waarde. Meer punten betekent een hogere maximale huur.",
+      "explanationEn": "The housing valuation system (points system) determines the maximum rent for social rental homes. Points are assigned based on surface area, energy label, facilities (kitchen, bathroom), and WOZ value. More points means a higher maximum rent."
+    },
+    {
+      "id": "knm-b1-4-q8",
+      "text": "Wat is de overdrachtsbelasting bij het kopen van een woning?",
+      "options": [
+        "Een jaarlijkse belasting voor woningeigenaren",
+        "Een eenmalige belasting die u betaalt bij de aankoop van een woning, het tarief is 2% voor woningen (met vrijstelling voor starters onder bepaalde voorwaarden)",
+        "Een belasting die alleen door buitenlanders betaald moet worden",
+        "Een maandelijkse bijdrage aan de Vereniging van Eigenaren"
+      ],
+      "correctIndex": 1,
+      "explanation": "De overdrachtsbelasting is een eenmalige belasting bij de aankoop van een woning. Voor woningen is het tarief 2%. Starters (kopers tussen 18 en 35 jaar die een woning kopen onder een bepaalde waardegrens) kunnen eenmalig een vrijstelling krijgen. Voor niet-woningen geldt een tarief van 10,4%.",
+      "explanationEn": "Transfer tax is a one-time tax when purchasing a property. For homes, the rate is 2%. First-time buyers (ages 18-35 purchasing a home below a certain value) can receive a one-time exemption. For non-residential properties, the rate is 10.4%."
+    },
+    {
+      "id": "knm-b1-4-q9",
+      "text": "Hoe wordt u ingeschreven voor een sociale huurwoning?",
+      "options": [
+        "U gaat naar de woningcorporatie en krijgt direct een woning",
+        "U schrijft zich in bij een woonruimteverdeelsysteem (zoals WoningNet) en wacht op een woning; de wachttijd kan jaren duren, vooral in grote steden",
+        "U vraagt een woning aan bij de Belastingdienst",
+        "U koopt een lidmaatschap bij een makelaar"
+      ],
+      "correctIndex": 1,
+      "explanation": "In de meeste regio's schrijft u zich in bij een woonruimteverdeelsysteem zoals WoningNet. Woningen worden toegewezen op basis van inschrijfduur, urgentie of loting. De wachttijden zijn lang, vooral in de Randstad (soms meer dan 10 jaar in Amsterdam). In sommige gemeenten gelden andere systemen.",
+      "explanationEn": "In most regions, you register with a housing distribution system like WoningNet. Homes are assigned based on registration duration, urgency, or lottery. Wait times are long, especially in the Randstad (sometimes over 10 years in Amsterdam). Some municipalities use different systems."
+    },
+    {
+      "id": "knm-b1-4-q10",
+      "text": "Wat is de Nationale Hypotheek Garantie (NHG)?",
+      "options": [
+        "Een verplichte verzekering voor alle hypotheken",
+        "Een garantie van de Stichting Waarborgfonds Eigen Woningen die het risico voor de hypotheekverstrekker verkleint, waardoor u vaak een lagere rente krijgt",
+        "Een subsidie van de overheid voor de eerste hypotheekbetaling",
+        "Een toetsing van de gemeente of u een huis mag kopen"
+      ],
+      "correctIndex": 1,
+      "explanation": "NHG is een garantie die het risico voor de geldverstrekker verkleint. Als u uw hypotheek niet meer kunt betalen (bijvoorbeeld door werkloosheid of scheiding) en de woning met verlies wordt verkocht, kan NHG het resterende bedrag kwijtschelden. Door NHG betaalt u vaak een lagere hypotheekrente.",
+      "explanationEn": "NHG is a guarantee that reduces risk for the lender. If you can no longer pay your mortgage (e.g., due to unemployment or divorce) and the home is sold at a loss, NHG can write off the remaining amount. With NHG, you often pay a lower mortgage interest rate."
+    },
+    {
+      "id": "knm-b1-4-q11",
+      "text": "Wat betekent PMD bij het scheiden van afval?",
+      "options": [
+        "Papier, Metaal en Drankkartons",
+        "Plastic, Metalen verpakkingen en Drankkartons",
+        "Plastic, Medicijnen en Dozen",
+        "Papier, Meubilair en Dranken"
+      ],
+      "correctIndex": 1,
+      "explanation": "PMD staat voor Plastic verpakkingen, Metalen verpakkingen (blikjes, conservenblikken) en Drankkartons (melkpakken, sappakken). PMD wordt apart ingezameld en gerecycled. De regels voor PMD-scheiding kunnen per gemeente verschillen.",
+      "explanationEn": "PMD stands for Plastic packaging, Metal packaging (cans, tins), and Drink cartons (milk cartons, juice cartons). PMD is collected separately and recycled. The rules for PMD separation may vary by municipality."
+    },
+    {
+      "id": "knm-b1-4-q12",
+      "text": "Wat is GFT-afval?",
+      "options": [
+        "Glas, Flessen en Textiel",
+        "Groente-, Fruit- en Tuinafval",
+        "Gebruikte Frituurvet en Terpentine",
+        "Grote Fietsen en Televisies"
+      ],
+      "correctIndex": 1,
+      "explanation": "GFT staat voor Groente-, Fruit- en Tuinafval. Dit is biologisch afbreekbaar afval dat wordt gecomposteerd of vergist tot biogas. Voorbeelden: schillen, etensresten (plantaardig), bladeren, gras en snijbloemen. Vlees en vis horen er meestal niet bij.",
+      "explanationEn": "GFT stands for Vegetable, Fruit, and Garden waste. This is biodegradable waste that is composted or converted into biogas. Examples: peels, plant-based food scraps, leaves, grass, and cut flowers. Meat and fish usually don't belong in GFT."
+    },
+    {
+      "id": "knm-b1-4-q13",
+      "text": "Wat is statiegeld?",
+      "options": [
+        "Een belasting op alle dranken in Nederland",
+        "Een borgbedrag dat u betaalt bij de aankoop van bepaalde flessen en blikjes, dat u terugkrijgt als u de verpakking inlevert",
+        "Een subsidie voor het recyclen van plastic",
+        "Een boete voor het weggooien van afval op straat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Statiegeld is een borgbedrag op plastic flessen en blikjes. Bij aankoop betaalt u statiegeld (€0,15 voor kleine flesjes en blikjes, €0,25 voor grote flessen). Wanneer u de lege verpakking inlevert bij een inleverpunt (meestal in de supermarkt), krijgt u het statiegeld terug.",
+      "explanationEn": "Deposit (statiegeld) is a refundable amount on plastic bottles and cans. At purchase, you pay a deposit (€0.15 for small bottles/cans, €0.25 for large bottles). When you return the empty packaging at a collection point (usually in supermarkets), you get the deposit back."
+    },
+    {
+      "id": "knm-b1-4-q14",
+      "text": "Wat is een energielabel voor woningen?",
+      "options": [
+        "Een label dat aangeeft hoeveel elektriciteit een woning verbruikt per maand",
+        "Een classificatie van A++++ (zeer zuinig) tot G (zeer onzuinig) die de energie-efficiëntie van een woning aangeeft",
+        "Een sticker die op alle elektrische apparaten moet zitten",
+        "Een vergunning die nodig is om zonnepanelen te installeren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het energielabel geeft aan hoe energiezuinig een woning is, van A++++ (zeer zuinig) tot G (zeer onzuinig). Bij verkoop of verhuur van een woning is een geldig energielabel verplicht. Het label houdt rekening met isolatie, verwarming, ventilatie en duurzame energie.",
+      "explanationEn": "The energy label indicates how energy-efficient a home is, from A++++ (very efficient) to G (very inefficient). A valid energy label is required when selling or renting a home. The label considers insulation, heating, ventilation, and renewable energy."
+    },
+    {
+      "id": "knm-b1-4-q15",
+      "text": "Welke klimaatdoelen heeft Nederland zich gesteld?",
+      "options": [
+        "Nederland heeft geen klimaatdoelen",
+        "Nederland wil in 2030 49% minder CO2-uitstoot ten opzichte van 1990 en in 2050 klimaatneutraal zijn",
+        "Nederland wil alleen meer windmolens bouwen",
+        "Nederland wil in 2025 volledig overstappen op kernenergie"
+      ],
+      "correctIndex": 1,
+      "explanation": "In het Klimaatakkoord van 2019 heeft Nederland afgesproken de CO2-uitstoot in 2030 met 49% te verminderen ten opzichte van 1990. De Klimaatwet stelt als doel dat Nederland in 2050 klimaatneutraal is (95% minder CO2). Dit wordt bereikt via maatregelen in energieopwekking, industrie, landbouw, verkeer en gebouwde omgeving.",
+      "explanationEn": "In the 2019 Climate Agreement, the Netherlands committed to reducing CO2 emissions by 49% by 2030 compared to 1990. The Climate Act sets the goal of climate neutrality by 2050 (95% less CO2). This is achieved through measures in energy generation, industry, agriculture, transport, and the built environment."
+    },
+    {
+      "id": "knm-b1-4-q16",
+      "text": "Wat is de circulaire economie?",
+      "options": [
+        "Een economie waarin iedereen hetzelfde salaris verdient",
+        "Een economisch systeem dat erop gericht is afval te minimaliseren door grondstoffen en producten zo lang mogelijk te hergebruiken, herstellen en recyclen",
+        "Een economie die alleen draait op hernieuwbare energie",
+        "Een systeem waarbij geld rondgaat tussen banken"
+      ],
+      "correctIndex": 1,
+      "explanation": "De circulaire economie is een economisch systeem waarbij producten en grondstoffen zo lang mogelijk worden hergebruikt en er zo min mogelijk afval ontstaat. Nederland streeft ernaar om in 2050 volledig circulair te zijn. Dit betekent minder nieuwe grondstoffen gebruiken en meer recyclen, repareren en delen.",
+      "explanationEn": "The circular economy is an economic system where products and raw materials are reused for as long as possible and minimal waste is generated. The Netherlands aims to be fully circular by 2050. This means using fewer new raw materials and more recycling, repairing, and sharing."
+    },
+    {
+      "id": "knm-b1-4-q17",
+      "text": "Hoe wordt huishoudelijk afval gescheiden in de meeste Nederlandse gemeenten?",
+      "options": [
+        "Al het afval gaat in één container",
+        "Afval wordt gescheiden in restafval, GFT, papier/karton, glas, PMD en textiel",
+        "Afval wordt alleen gescheiden in plastic en niet-plastic",
+        "Afval hoeft niet gescheiden te worden, dat doet de gemeente"
+      ],
+      "correctIndex": 1,
+      "explanation": "In de meeste gemeenten wordt afval gescheiden in: restafval, GFT (groente, fruit, tuin), papier en karton, glas (gesorteerd op kleur), PMD (plastic, metaal, drankkartons) en textiel. Daarnaast zijn er milieustraten voor grofvuil, elektronica en chemisch afval. De exacte regels verschillen per gemeente.",
+      "explanationEn": "In most municipalities, waste is separated into: residual waste, GFT (vegetable, fruit, garden), paper and cardboard, glass (sorted by color), PMD (plastic, metal, drink cartons), and textiles. Additionally, there are recycling centers for bulky items, electronics, and chemical waste. Exact rules vary by municipality."
+    },
+    {
+      "id": "knm-b1-4-q18",
+      "text": "Wat moet u doen met klein chemisch afval (KCA)?",
+      "options": [
+        "U gooit het bij het restafval",
+        "U brengt het naar een speciaal inzamelpunt, zoals de milieustraat of een chemokar",
+        "U gooit het in de GFT-container",
+        "U spoelt het door de gootsteen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Klein chemisch afval (KCA) zoals verf, batterijen, medicijnen, lampen en schoonmaakmiddelen mag niet bij het restafval of door het riool. U brengt KCA naar een milieustraat of een inzamelpunt (soms een rijdende chemokar). Dit voorkomt vervuiling van het milieu.",
+      "explanationEn": "Small chemical waste (KCA) such as paint, batteries, medicines, lamps, and cleaning products may not go in residual waste or down the drain. You bring KCA to a recycling center or collection point (sometimes a mobile chemical waste van). This prevents environmental pollution."
+    },
+    {
+      "id": "knm-b1-4-q19",
+      "text": "Wat is het doel van het Klimaatakkoord van Parijs en hoe is Nederland erbij betrokken?",
+      "options": [
+        "Het akkoord gaat alleen over het verminderen van plastic in de oceaan",
+        "Het akkoord is een internationaal verdrag om de opwarming van de aarde te beperken tot ruim onder de 2°C; Nederland heeft het ondertekend en eigen doelen gesteld",
+        "Het akkoord verplicht alle landen om kernenergie te gebruiken",
+        "Het akkoord is alleen ondertekend door Europese landen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Klimaatakkoord van Parijs (2015) is een internationaal verdrag om de opwarming van de aarde te beperken tot ruim onder de 2°C, bij voorkeur 1,5°C. Nederland heeft het akkoord ondertekend en heeft via het Nederlandse Klimaatakkoord en de Klimaatwet eigen doelen gesteld.",
+      "explanationEn": "The Paris Climate Agreement (2015) is an international treaty to limit global warming to well below 2°C, preferably 1.5°C. The Netherlands signed the agreement and has set its own targets through the Dutch Climate Agreement and the Climate Act."
+    },
+    {
+      "id": "knm-b1-4-q20",
+      "text": "Wat is een milieustraat?",
+      "options": [
+        "Een straat waar geen auto's mogen rijden",
+        "Een gemeentelijk inzamelpunt waar inwoners grof afval, chemisch afval, elektronica en ander afval gratis of tegen een kleine vergoeding kunnen inleveren",
+        "Een winkel die milieuvriendelijke producten verkoopt",
+        "Een park dat door de gemeente wordt onderhouden"
+      ],
+      "correctIndex": 1,
+      "explanation": "Een milieustraat (ook wel recyclestation of afvalpunt genoemd) is een gemeentelijk inzamelpunt voor afval dat niet in de reguliere containers kan. U kunt er grofvuil, elektronica, chemisch afval, puin, hout en andere materialen inleveren. Meestal is dit gratis voor inwoners van de gemeente.",
+      "explanationEn": "A recycling center (milieustraat) is a municipal collection point for waste that doesn't fit in regular bins. You can bring bulky items, electronics, chemical waste, rubble, wood, and other materials. It is usually free for residents of the municipality."
+    },
+    {
+      "id": "knm-b1-4-q21",
+      "text": "Op welke leeftijd mag u in Nederland autorijden en wat heeft u daarvoor nodig?",
+      "options": [
+        "Vanaf 16 jaar met elk rijbewijs",
+        "Vanaf 18 jaar met een geldig rijbewijs categorie B",
+        "Vanaf 21 jaar met een internationaal rijbewijs",
+        "Vanaf 17 jaar, maar alleen met een begeleider in de auto"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland mag u vanaf 18 jaar zelfstandig autorijden met een geldig rijbewijs categorie B. Vanaf 17 jaar kunt u al rijden onder begeleiding (2toDrive). Om een rijbewijs te halen, moet u slagen voor een theorie-examen en een praktijkexamen bij het CBR.",
+      "explanationEn": "In the Netherlands, you may drive independently from age 18 with a valid category B driver's license. From age 17, you can drive under supervision (2toDrive). To get a license, you must pass a theory exam and a practical exam at the CBR."
+    },
+    {
+      "id": "knm-b1-4-q22",
+      "text": "Wat is een OV-chipkaart?",
+      "options": [
+        "Een legitimatiebewijs voor het openbaar vervoer",
+        "Een elektronische betaalkaart waarmee u in het openbaar vervoer (bus, tram, metro, trein) kunt reizen",
+        "Een abonnement op de NS-treindiensten",
+        "Een korting voor ouderen in het openbaar vervoer"
+      ],
+      "correctIndex": 1,
+      "explanation": "De OV-chipkaart is een elektronische betaalkaart voor het openbaar vervoer in Nederland. U checkt in bij het instappen en uit bij het uitstappen. Er zijn persoonlijke kaarten (op naam) en anonieme kaarten. Bij de trein moet u voldoende saldo hebben (minimaal €20 bij NS).",
+      "explanationEn": "The OV-chipkaart is an electronic payment card for public transport in the Netherlands. You check in when boarding and check out when exiting. There are personal (named) and anonymous cards. For trains, you need sufficient balance (minimum €20 for NS)."
+    },
+    {
+      "id": "knm-b1-4-q23",
+      "text": "Wat zijn de belangrijkste verkeersregels voor fietsers in Nederland?",
+      "options": [
+        "Fietsers hebben altijd voorrang op alle wegen",
+        "Fietsers moeten rechts rijden, een werkend voor- en achterlicht voeren in het donker, en mogen niet door rood licht rijden",
+        "Fietsers hoeven geen verkeersregels te volgen",
+        "Fietsers mogen alleen op de stoep rijden"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fietsers moeten rechts rijden, 's nachts verlichting voeren (wit/geel voor, rood achter), en zich houden aan verkeerslichten en -borden. Het is verboden om met een telefoon in de hand te fietsen. Op een rotonde met fietspad hebben fietsers op het fietspad vaak voorrang.",
+      "explanationEn": "Cyclists must ride on the right, use lights at night (white/yellow front, red rear), and obey traffic lights and signs. It is prohibited to cycle while holding a phone. On roundabouts with a bike path, cyclists on the bike path often have right of way."
+    },
+    {
+      "id": "knm-b1-4-q24",
+      "text": "Wat doet de NS (Nederlandse Spoorwegen)?",
+      "options": [
+        "De NS beheert alle wegen in Nederland",
+        "De NS is de grootste treinvervoerder van Nederland en verzorgt het treinverkeer op het hoofdrailnet",
+        "De NS is een busbedrijf",
+        "De NS is verantwoordelijk voor de aanleg van fietspaden"
+      ],
+      "correctIndex": 1,
+      "explanation": "De NS (Nederlandse Spoorwegen) is de grootste treinvervoerder van Nederland. De NS verzorgt het personenvervoer per trein op het hoofdrailnet (Intercity, Sprinter). ProRail beheert de spoorinfrastructuur. Naast NS zijn er ook regionale treinvervoerders actief.",
+      "explanationEn": "NS (Dutch Railways) is the largest train operator in the Netherlands. NS provides passenger transport by train on the main rail network (Intercity, Sprinter). ProRail manages the railway infrastructure. Besides NS, there are also regional train operators."
+    },
+    {
+      "id": "knm-b1-4-q25",
+      "text": "Wat is het maximaal toegestane promillage voor autobestuurders in Nederland?",
+      "options": [
+        "0,0 promille voor alle bestuurders",
+        "0,5 promille voor ervaren bestuurders en 0,2 promille voor beginnende bestuurders (de eerste 5 jaar na het behalen van het rijbewijs)",
+        "0,8 promille voor alle bestuurders",
+        "1,0 promille als u niet op de snelweg rijdt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Voor ervaren bestuurders geldt een maximaal toegestaan bloed-alcoholgehalte van 0,5 promille. Voor beginnende bestuurders (de eerste 5 jaar na het behalen van het rijbewijs) geldt een strenger maximum van 0,2 promille. Rijden onder invloed is een ernstige overtreding.",
+      "explanationEn": "For experienced drivers, the maximum permitted blood alcohol level is 0.5 per mille. For novice drivers (the first 5 years after obtaining a license), a stricter maximum of 0.2 per mille applies. Driving under the influence is a serious offense."
+    },
+    {
+      "id": "knm-b1-4-q26",
+      "text": "Wat moet u doen als u een buitenlands rijbewijs heeft en in Nederland wilt rijden?",
+      "options": [
+        "U mag altijd rijden met uw buitenlands rijbewijs",
+        "Als u een rijbewijs heeft uit een EU/EER-land, kunt u dit omwisselen. Bij een rijbewijs uit een ander land moet u mogelijk opnieuw examen doen bij het CBR",
+        "U moet altijd een volledig nieuw rijbewijs halen in Nederland",
+        "Buitenlandse rijbewijzen zijn niet geldig in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Met een EU/EER-rijbewijs kunt u in Nederland rijden en het omwisselen naar een Nederlands rijbewijs. Met een rijbewijs van buiten de EU/EER kunt u maximaal 185 dagen rijden na inschrijving in Nederland. Daarna moet u een Nederlands rijbewijs halen, eventueel via een verklaring van geschiktheid en een examen bij het CBR.",
+      "explanationEn": "With an EU/EEA license, you can drive in the Netherlands and exchange it for a Dutch license. With a non-EU/EEA license, you can drive for up to 185 days after registration in the Netherlands. After that, you must obtain a Dutch license, possibly through a fitness declaration and exam at the CBR."
+    },
+    {
+      "id": "knm-b1-4-q27",
+      "text": "Wat zijn de maximumsnelheden op Nederlandse wegen?",
+      "options": [
+        "50 km/u in de stad, 80 km/u buiten de bebouwde kom, 100 km/u op de snelweg",
+        "30 km/u overal",
+        "30 km/u in de stad, 80 km/u buiten de bebouwde kom, 100-130 km/u op de snelweg (afhankelijk van het traject en tijdstip)",
+        "Er zijn geen maximumsnelheden in Nederland"
+      ],
+      "correctIndex": 2,
+      "explanation": "In de bebouwde kom geldt 30 of 50 km/u, buiten de bebouwde kom 60 of 80 km/u, en op snelwegen 100 km/u (overdag, 06:00-19:00) of 120-130 km/u (afhankelijk van het traject, 's nachts vaak hoger). Borden geven de lokale maximumsnelheid aan.",
+      "explanationEn": "Within built-up areas the limit is 30 or 50 km/h, outside built-up areas 60 or 80 km/h, and on highways 100 km/h (daytime, 6AM-7PM) or 120-130 km/h (depending on the stretch, often higher at night). Signs indicate the local speed limit."
+    },
+    {
+      "id": "knm-b1-4-q28",
+      "text": "Wat is een parkeervergunning en wanneer heeft u er een nodig?",
+      "options": [
+        "Een bewijs dat u een rijbewijs heeft",
+        "Een vergunning van de gemeente die u het recht geeft om in bepaalde gebieden te parkeren waar betaald parkeren of vergunningparkeren geldt",
+        "Een bewijs dat uw auto is verzekerd",
+        "Een document dat u nodig heeft om een garage te huren"
+      ],
+      "correctIndex": 1,
+      "explanation": "In veel gemeenten, vooral in stadscentra, geldt vergunningparkeren. U heeft dan een parkeervergunning nodig van de gemeente om in uw straat of wijk te parkeren. De kosten en beschikbaarheid verschillen per gemeente. Zonder vergunning riskeert u een boete of wordt uw auto weggesleept.",
+      "explanationEn": "In many municipalities, especially city centers, permit parking applies. You need a parking permit from the municipality to park in your street or neighborhood. Costs and availability vary by municipality. Without a permit, you risk a fine or having your car towed."
+    },
+    {
+      "id": "knm-b1-4-q29",
+      "text": "Wat is het CBR?",
+      "options": [
+        "Het Centraal Bureau Rijvaardigheidsbewijzen, dat rijexamens afneemt en rijbewijzen uitgeeft",
+        "Een politiedienst die verkeersboetes uitschrijft",
+        "Een reparatiebedrijf voor auto's",
+        "Een cursusinstituut voor autorijlessen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Het CBR (Centraal Bureau Rijvaardigheidsbewijzen) is een zelfstandig bestuursorgaan dat verantwoordelijk is voor het afnemen van theorie- en praktijkexamens voor het rijbewijs, het afgeven van rijbewijzen en het beoordelen van de rijvaardigheid.",
+      "explanationEn": "The CBR (Central Office for Driving Licenses) is an independent administrative body responsible for administering theory and practical driving exams, issuing driver's licenses, and assessing driving competence."
+    },
+    {
+      "id": "knm-b1-4-q30",
+      "text": "Welke vervoersmiddelen vallen onder het openbaar vervoer in Nederland?",
+      "options": [
+        "Alleen treinen",
+        "Treinen, bussen, trams, metro's en veerboten die volgens een vaste dienstregeling rijden",
+        "Alleen bussen en trams",
+        "Taxi's en huurauto's"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het openbaar vervoer (OV) in Nederland omvat treinen (NS en regionale vervoerders), bussen, trams, metro's en sommige veerboten. Deze rijden volgens een vaste dienstregeling. De OV-chipkaart is het betaalmiddel voor bijna al het openbaar vervoer in Nederland.",
+      "explanationEn": "Public transport (OV) in the Netherlands includes trains (NS and regional operators), buses, trams, metros, and some ferries. These run according to a fixed schedule. The OV-chipkaart is the payment method for nearly all public transport in the Netherlands."
+    },
+    {
+      "id": "knm-b1-4-q31",
+      "text": "Wat is DigiD en waarvoor wordt het gebruikt?",
+      "options": [
+        "Een app om online te winkelen",
+        "Een digitale identiteit waarmee u zich kunt identificeren bij overheidsinstellingen en andere organisaties voor online diensten",
+        "Een type bankrekening",
+        "Een social media account van de Nederlandse overheid"
+      ],
+      "correctIndex": 1,
+      "explanation": "DigiD is uw digitale identiteit bij de Nederlandse overheid. Hiermee logt u in bij onder andere de Belastingdienst, het UWV, uw gemeente, DUO, het CAK en uw zorgverzekeraar. U kunt DigiD beveiligen met sms-verificatie of de DigiD-app voor een hoger betrouwbaarheidsniveau.",
+      "explanationEn": "DigiD is your digital identity with the Dutch government. You use it to log in at the Tax Authority, UWV, your municipality, DUO, CAK, and your health insurer, among others. You can secure DigiD with SMS verification or the DigiD app for a higher level of assurance."
+    },
+    {
+      "id": "knm-b1-4-q32",
+      "text": "Wat is MijnOverheid.nl en wat kunt u daar doen?",
+      "options": [
+        "Een webshop van de overheid",
+        "Een persoonlijke website waar u officiële berichten van de overheid ontvangt, uw persoonlijke gegevens kunt inzien en lopende zaken kunt volgen",
+        "Een website om verkiezingsuitslagen te bekijken",
+        "Een forum waar u klachten kunt indienen over de overheid"
+      ],
+      "correctIndex": 1,
+      "explanation": "MijnOverheid.nl is uw persoonlijke pagina bij de overheid. U kunt er uw Berichtenbox raadplegen (officiële post van overheidsorganisaties), uw persoonlijke gegevens bekijken die bij de overheid bekend zijn, en lopende zaken bij overheidsorganisaties volgen. U logt in met DigiD.",
+      "explanationEn": "MijnOverheid.nl is your personal government page. You can check your Berichtenbox (official correspondence from government organizations), view your personal data held by the government, and track ongoing matters with government organizations. You log in with DigiD."
+    },
+    {
+      "id": "knm-b1-4-q33",
+      "text": "Wat is de Berichtenbox?",
+      "options": [
+        "Een fysieke postbus bij het gemeentehuis",
+        "Een digitale postbus op MijnOverheid.nl waar overheidsorganisaties u officiële berichten sturen",
+        "Een app voor het versturen van berichten aan vrienden",
+        "Een archief van alle wetten in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Berichtenbox is een digitale postbus op MijnOverheid.nl. Overheidsorganisaties zoals de Belastingdienst, het UWV en gemeenten sturen hier officiële berichten naartoe. Als u de Berichtenbox activeert, ontvangt u steeds minder post op papier. Het is belangrijk om uw Berichtenbox regelmatig te controleren.",
+      "explanationEn": "The Berichtenbox is a digital mailbox on MijnOverheid.nl. Government organizations like the Tax Authority, UWV, and municipalities send official messages here. If you activate the Berichtenbox, you receive less paper mail. It's important to check your Berichtenbox regularly."
+    },
+    {
+      "id": "knm-b1-4-q34",
+      "text": "Wat is een BSN (burgerservicenummer)?",
+      "options": [
+        "Een bankrekeningnummer",
+        "Een uniek persoonsnummer dat iedereen die in Nederland woont of werkt krijgt en dat wordt gebruikt voor contact met de overheid",
+        "Een nummer van uw zorgverzekering",
+        "Een telefoonnummer van de gemeente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het BSN (burgerservicenummer) is een uniek persoonsnummer dat u krijgt bij inschrijving in de Basisregistratie Personen (BRP). Het BSN staat op uw identiteitsbewijs en wordt gebruikt voor alle contacten met de overheid, belastingen, zorg en werk. Organisaties mogen uw BSN alleen gebruiken als de wet dat toestaat.",
+      "explanationEn": "The BSN (citizen service number) is a unique personal number assigned when you register in the Personal Records Database (BRP). The BSN is on your ID and is used for all contacts with the government, taxes, healthcare, and work. Organizations may only use your BSN if the law permits it."
+    },
+    {
+      "id": "knm-b1-4-q35",
+      "text": "Wat is de BRP (Basisregistratie Personen)?",
+      "options": [
+        "Een register van alle bedrijven in Nederland",
+        "Een gemeentelijke registratie van alle personen die in Nederland wonen, met gegevens zoals naam, adres, geboortedatum en nationaliteit",
+        "Een database van alle rijbewijshouders",
+        "Een register van alle woningen in Nederland"
+      ],
+      "correctIndex": 1,
+      "explanation": "De BRP (Basisregistratie Personen) is de gemeentelijke persoonsregistratie. Iedereen die in Nederland woont, moet zich inschrijven bij de gemeente. De BRP bevat gegevens zoals naam, adres, geboortedatum, nationaliteit en burgerlijke staat. Wijzigingen (verhuizing, huwelijk) moet u doorgeven aan de gemeente.",
+      "explanationEn": "The BRP (Personal Records Database) is the municipal personal registration system. Everyone living in the Netherlands must register with the municipality. The BRP contains data such as name, address, date of birth, nationality, and marital status. Changes (moving, marriage) must be reported to the municipality."
+    },
+    {
+      "id": "knm-b1-4-q36",
+      "text": "Wat moet u doen als u verhuist binnen Nederland?",
+      "options": [
+        "U hoeft niets te doen, de overheid weet het automatisch",
+        "U moet zich binnen 5 dagen na de verhuizing inschrijven bij uw nieuwe gemeente",
+        "U moet een brief schrijven naar de minister-president",
+        "U moet een nieuwe DigiD aanvragen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij een verhuizing binnen Nederland moet u zich binnen 5 dagen inschrijven bij uw nieuwe gemeente. Dit kan vaak online via DigiD of aan de balie van het gemeentehuis. Uw adresgegevens in de BRP worden dan bijgewerkt. Dit is wettelijk verplicht.",
+      "explanationEn": "When moving within the Netherlands, you must register with your new municipality within 5 days. This can often be done online via DigiD or at the municipal office counter. Your address in the BRP will then be updated. This is legally required."
+    },
+    {
+      "id": "knm-b1-4-q37",
+      "text": "Welke betrouwbaarheidsniveaus heeft DigiD?",
+      "options": [
+        "Er is maar één niveau",
+        "Basis (gebruikersnaam + wachtwoord), Midden (met sms-verificatie of DigiD-app) en Substantieel/Hoog (met identiteitsbewijs via de DigiD-app)",
+        "Gratis en betaald",
+        "Online en offline"
+      ],
+      "correctIndex": 1,
+      "explanation": "DigiD heeft meerdere betrouwbaarheidsniveaus: Basis (gebruikersnaam + wachtwoord), Midden (met sms-verificatie of de DigiD-app), en Substantieel/Hoog (met uw identiteitsbewijs via de NFC-chip en de DigiD-app). Sommige diensten vereisen een hoger betrouwbaarheidsniveau.",
+      "explanationEn": "DigiD has multiple assurance levels: Basic (username + password), Medium (with SMS verification or the DigiD app), and Substantial/High (with your ID via the NFC chip and the DigiD app). Some services require a higher assurance level."
+    },
+    {
+      "id": "knm-b1-4-q38",
+      "text": "Wat is een eHerkenning?",
+      "options": [
+        "Een social media account voor bedrijven",
+        "Een digitaal inlogmiddel waarmee ondernemers en organisaties zich kunnen identificeren bij overheidsdiensten, vergelijkbaar met DigiD maar dan voor bedrijven",
+        "Een elektronische handtekening voor privépersonen",
+        "Een beveiligingscamera voor kantoren"
+      ],
+      "correctIndex": 1,
+      "explanation": "eHerkenning is het digitale inlogmiddel voor bedrijven en organisaties bij de overheid. Net als DigiD voor burgers, biedt eHerkenning een veilige manier om in te loggen bij overheidsdiensten. eHerkenning wordt verstrekt door commerciële leveranciers en kent verschillende betrouwbaarheidsniveaus.",
+      "explanationEn": "eHerkenning is the digital login tool for businesses and organizations with the government. Like DigiD for citizens, eHerkenning provides a secure way to log in to government services. eHerkenning is provided by commercial suppliers and has different assurance levels."
+    },
+    {
+      "id": "knm-b1-4-q39",
+      "text": "Wat is het Digitaal Loket van de gemeente?",
+      "options": [
+        "Een fysiek loket in het gemeentehuis",
+        "Een online portaal waar inwoners gemeentelijke zaken kunnen regelen, zoals het aanvragen van documenten, het doorgeven van een verhuizing of het indienen van een vergunningaanvraag",
+        "Een app voor het betalen van parkeerboetes",
+        "Een website met het laatste nieuws uit de gemeente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Digitaal Loket is een online portaal van de gemeente waar inwoners veel zaken kunnen regelen zonder naar het gemeentehuis te hoeven gaan. U kunt er onder andere documenten aanvragen, verhuizingen doorgeven en vergunningen aanvragen. U logt in met DigiD.",
+      "explanationEn": "The Digital Counter is an online portal of the municipality where residents can arrange many matters without visiting the town hall. You can request documents, report moves, and apply for permits, among other things. You log in with DigiD."
+    },
+    {
+      "id": "knm-b1-4-q40",
+      "text": "Wat is het Handelsregister van de Kamer van Koophandel (KVK)?",
+      "options": [
+        "Een register van alle werknemers in Nederland",
+        "Een register waarin alle ondernemingen en rechtspersonen in Nederland zijn ingeschreven met hun gegevens",
+        "Een lijst van alle producten die in Nederland worden verkocht",
+        "Een register van alle belastingbetalers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Handelsregister van de KVK (Kamer van Koophandel) is de basisregistratie van alle ondernemingen en rechtspersonen in Nederland. Bij het starten van een bedrijf moet u zich inschrijven bij de KVK. Het register bevat gegevens zoals bedrijfsnaam, adres, activiteiten en bestuurders.",
+      "explanationEn": "The Trade Register of the KVK (Chamber of Commerce) is the basic registration of all businesses and legal entities in the Netherlands. When starting a business, you must register with the KVK. The register contains data such as business name, address, activities, and directors."
+    },
+    {
+      "id": "knm-b1-4-q41",
+      "text": "Wat is de ACM (Autoriteit Consument & Markt)?",
+      "options": [
+        "Een winkelketen",
+        "De onafhankelijke toezichthouder die toeziet op eerlijke concurrentie, consumentenbescherming en regulering van sectoren zoals telecom en energie",
+        "Een adviesorgaan voor de Tweede Kamer",
+        "Een verzekeringsmaatschappij"
+      ],
+      "correctIndex": 1,
+      "explanation": "De ACM (Autoriteit Consument & Markt) is de onafhankelijke toezichthouder die toeziet op eerlijke mededinging, consumentenbescherming en regulering van sectoren zoals energie, telecom en vervoer. De ACM kan boetes opleggen bij overtredingen en beschermt consumenten tegen misleidende praktijken.",
+      "explanationEn": "The ACM (Authority for Consumers and Markets) is the independent supervisor overseeing fair competition, consumer protection, and regulation of sectors like energy, telecom, and transport. The ACM can impose fines for violations and protects consumers against misleading practices."
+    },
+    {
+      "id": "knm-b1-4-q42",
+      "text": "Wat is de bedenktijd bij online aankopen in Nederland?",
+      "options": [
+        "Er is geen bedenktijd",
+        "U heeft 14 dagen bedenktijd waarin u het product zonder reden kunt terugsturen en uw geld terugkrijgt",
+        "U heeft 30 dagen bedenktijd",
+        "Bedenktijd geldt alleen voor aankopen boven €500"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij online aankopen (koop op afstand) heeft u in Nederland 14 dagen bedenktijd, ook wel herroepingsrecht genoemd. U kunt het product zonder opgaaf van reden terugsturen en krijgt uw geld terug. De termijn gaat in op de dag dat u het product ontvangt. Er zijn uitzonderingen, zoals gepersonaliseerde producten.",
+      "explanationEn": "For online purchases (distance selling), you have 14 days cooling-off period in the Netherlands, also called the right of withdrawal. You can return the product without giving a reason and get your money back. The period starts the day you receive the product. There are exceptions, such as personalized products."
+    },
+    {
+      "id": "knm-b1-4-q43",
+      "text": "Wat is wettelijke garantie in Nederland?",
+      "options": [
+        "Een garantie van 1 jaar op alle producten",
+        "Het recht dat een product moet voldoen aan de verwachtingen die u ervan mag hebben; er is geen vaste termijn, maar het product moet deugdelijk zijn voor de te verwachten levensduur",
+        "Een garantie van exact 2 jaar, zoals in de EU-richtlijn staat",
+        "Garantie geldt alleen als u een garantiebewijs heeft"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nederland geldt de wettelijke garantie: een product moet aan redelijke verwachtingen voldoen (conformiteitseis). Er is geen vaste termijn; de verwachte levensduur verschilt per product. Een wasmachine moet langer meegaan dan een goedkope paraplu. Naast de wettelijke garantie kan een verkoper extra fabrieksgarantie geven.",
+      "explanationEn": "In the Netherlands, legal warranty applies: a product must meet reasonable expectations (conformity requirement). There is no fixed term; the expected lifespan differs per product. A washing machine should last longer than a cheap umbrella. Besides legal warranty, a seller may offer additional manufacturer's warranty."
+    },
+    {
+      "id": "knm-b1-4-q44",
+      "text": "Wat is een geschillencommissie?",
+      "options": [
+        "Een afdeling van de politie",
+        "Een onafhankelijke commissie die klachten en geschillen behandelt tussen consumenten en bedrijven, als alternatief voor de rechter",
+        "Een commissie van de Tweede Kamer",
+        "Een advocatenkantoor dat gratis juridisch advies geeft"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Geschillencommissie behandelt klachten tussen consumenten en bedrijven die bij de commissie zijn aangesloten. Het is een laagdrempelig en goedkoper alternatief voor de rechter. De uitspraak van de Geschillencommissie is bindend. Er zijn commissies voor verschillende sectoren.",
+      "explanationEn": "The Disputes Committee handles complaints between consumers and companies that are affiliated with the committee. It is an accessible and cheaper alternative to going to court. The ruling is binding. There are committees for different sectors."
+    },
+    {
+      "id": "knm-b1-4-q45",
+      "text": "Wat kunt u doen als u een klacht heeft over een product of dienst?",
+      "options": [
+        "U kunt niets doen, de verkoper heeft altijd gelijk",
+        "Eerst de klacht indienen bij het bedrijf, daarna eventueel bij een geschillencommissie, het Juridisch Loket of de rechter",
+        "Alleen de politie bellen",
+        "Direct naar de rechter gaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij een klacht gaat u eerst naar het bedrijf zelf. Als dat niet helpt, kunt u terecht bij een geschillencommissie (als het bedrijf is aangesloten), het Juridisch Loket (voor gratis juridisch advies), de ACM (bij misleiding), of uiteindelijk de kantonrechter.",
+      "explanationEn": "For a complaint, first contact the company itself. If that doesn't help, you can go to a disputes committee (if the company is affiliated), the Legal Services Counter (for free legal advice), the ACM (for misleading practices), or ultimately the subdistrict court."
+    },
+    {
+      "id": "knm-b1-4-q46",
+      "text": "Wat is het Juridisch Loket?",
+      "options": [
+        "Een advocatenkantoor",
+        "Een organisatie die gratis juridisch advies geeft aan mensen met een laag inkomen en hen doorverwijst naar de juiste instantie",
+        "Een rechtbank voor kleine zaken",
+        "Een website waar u juridische documenten kunt kopen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het Juridisch Loket is een organisatie die gratis eerstelijns juridische hulp biedt. U kunt er terecht voor informatie en advies over juridische problemen, zoals huur-, arbeids- of consumentenrecht. Het Juridisch Loket kan u ook doorverwijzen naar een advocaat of mediator.",
+      "explanationEn": "The Legal Services Counter (Juridisch Loket) is an organization that provides free first-line legal assistance. You can get information and advice on legal problems such as rental, labor, or consumer law. They can also refer you to a lawyer or mediator."
+    },
+    {
+      "id": "knm-b1-4-q47",
+      "text": "Wat houdt productaansprakelijkheid in Nederland in?",
+      "options": [
+        "De consument is altijd verantwoordelijk voor schade door een product",
+        "De producent is aansprakelijk voor schade veroorzaakt door een gebrekkig product, ongeacht of er een koopovereenkomst is met de consument",
+        "Alleen de winkel waar u het product kocht is aansprakelijk",
+        "Productaansprakelijkheid bestaat niet in Nederlands recht"
+      ],
+      "correctIndex": 1,
+      "explanation": "Op grond van de wet productaansprakelijkheid is de producent (fabrikant) aansprakelijk voor schade die wordt veroorzaakt door een gebrekkig product. Dit geldt ongeacht of de consument het product direct van de producent heeft gekocht. De consument moet bewijzen dat het product gebrekkig was en dat dit de schade heeft veroorzaakt.",
+      "explanationEn": "Under product liability law, the producer (manufacturer) is liable for damage caused by a defective product. This applies regardless of whether the consumer purchased the product directly from the producer. The consumer must prove that the product was defective and that this caused the damage."
+    },
+    {
+      "id": "knm-b1-4-q48",
+      "text": "Wat is het recht op conformiteit bij een aankoop?",
+      "options": [
+        "Het recht om altijd het goedkoopste product te kiezen",
+        "Het recht dat het gekochte product moet zijn wat u ervan mag verwachten: het moet overeenkomen met de beschrijving, geschikt zijn voor normaal gebruik, en de kwaliteit hebben die u mag verwachten",
+        "Het recht om elk product binnen 30 dagen terug te brengen",
+        "Het recht om korting te krijgen op elk product"
+      ],
+      "correctIndex": 1,
+      "explanation": "Het conformiteitsbeginsel houdt in dat een product moet voldoen aan de verwachtingen van de koper. Het product moet overeenkomen met de beschrijving, geschikt zijn voor normaal gebruik, en de kwaliteit en prestaties bieden die u mag verwachten. Als het product niet conform is, kunt u reparatie, vervanging of uw geld terug eisen.",
+      "explanationEn": "The conformity principle means a product must meet the buyer's reasonable expectations. The product must match the description, be suitable for normal use, and provide the quality and performance you can reasonably expect. If the product is not conforming, you can demand repair, replacement, or a refund."
+    },
+    {
+      "id": "knm-b1-4-q49",
+      "text": "Wat is de Consumentenbond?",
+      "options": [
+        "Een overheidsinstelling die producten test",
+        "Een onafhankelijke consumentenorganisatie die producten test, vergelijkt en opkomt voor de belangen van consumenten",
+        "Een winkelketen die goedkope producten verkoopt",
+        "Een vakbond voor winkelmedewerkers"
+      ],
+      "correctIndex": 1,
+      "explanation": "De Consumentenbond is een onafhankelijke organisatie die opkomt voor de belangen van consumenten. Ze testen en vergelijken producten en diensten, geven advies, en lobbyen bij de overheid voor betere consumentenbescherming. Het is een vereniging met leden die contributie betalen.",
+      "explanationEn": "The Consumentenbond (Consumer Association) is an independent organization that advocates for consumer interests. They test and compare products and services, provide advice, and lobby the government for better consumer protection. It is a membership-based association."
+    },
+    {
+      "id": "knm-b1-4-q50",
+      "text": "Wat kunt u doen als een bedrijf misleidende reclame maakt?",
+      "options": [
+        "U kunt niets doen, reclame is altijd overdreven",
+        "U kunt een melding doen bij de ACM (Autoriteit Consument & Markt) of een klacht indienen bij de Reclame Code Commissie",
+        "U kunt alleen de politie bellen",
+        "U kunt het bedrijf zelf een boete opleggen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bij misleidende reclame kunt u een melding doen bij de ACM, die toezicht houdt op eerlijke handel. U kunt ook een klacht indienen bij de Reclame Code Commissie, die beoordeelt of reclame in strijd is met de Nederlandse Reclame Code. Misleidende reclame is bovendien wettelijk verboden.",
+      "explanationEn": "For misleading advertising, you can report to the ACM, which oversees fair trade. You can also file a complaint with the Advertising Code Committee, which assesses whether advertising violates the Dutch Advertising Code. Misleading advertising is also prohibited by law."
+    }
+  ]
+}

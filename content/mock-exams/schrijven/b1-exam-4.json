@@ -1,0 +1,78 @@
+{
+  "id": "schrijven-b1-4",
+  "title": "Schrijven B1 - Oefenexamen 4",
+  "module": "schrijven",
+  "difficulty": "B1",
+  "questionCount": 3,
+  "recommendedTime": "30 min",
+  "isFreePreview": true,
+  "tips": [
+    "When writing an appeal letter, always reference the original decision (date, reference number).",
+    "Explain clearly why you disagree with the decision and provide supporting evidence.",
+    "A cancellation letter should include your customer number, contract details, and the desired end date.",
+    "Keep formal letters structured: introduction (reason for writing), body (arguments), conclusion (request)."
+  ],
+  "selfAssessmentCriteria": [
+    {
+      "id": "formal-tone",
+      "text": "I maintained a formal and professional tone throughout",
+      "textEn": "I maintained a formal and professional tone throughout"
+    },
+    {
+      "id": "references",
+      "text": "I included relevant reference numbers or dates",
+      "textEn": "I included relevant reference numbers or dates"
+    },
+    {
+      "id": "clear-structure",
+      "text": "My letters have a clear structure with introduction, body, and closing",
+      "textEn": "My letters have a clear structure with introduction, body, and closing"
+    }
+  ],
+  "questions": [
+    {
+      "id": "schrijven-b1-4-q1",
+      "scenario": "U heeft een brief ontvangen van de Belastingdienst met een aanslag die volgens u niet klopt. Het bedrag is veel hoger dan verwacht omdat uw aftrekposten niet zijn meegenomen.",
+      "scenarioEn": "You received a letter from the Belastingdienst (Dutch tax authority) with a tax assessment that you believe is incorrect. The amount is much higher than expected because your deductions were not included.",
+      "prompt": "Schrijf een bezwaarbrief aan de Belastingdienst. Verwijs naar de aanslag, leg uit wat er niet klopt en vraag om een herberekening.",
+      "promptEn": "Write an appeal letter to the Belastingdienst. Reference the assessment, explain what is incorrect, and ask for a recalculation.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-reference", "text": "I referenced the tax assessment with a date or number", "textEn": "I referenced the tax assessment with a date or number" },
+        { "id": "q1-error", "text": "I clearly explained what is incorrect in the assessment", "textEn": "I clearly explained what is incorrect in the assessment" },
+        { "id": "q1-action", "text": "I requested a specific action (recalculation)", "textEn": "I requested a specific action (recalculation)" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nHierbij maak ik bezwaar tegen de aanslag inkomstenbelasting 2025, met kenmerk BLS-2026-0847, die ik op 10 februari heb ontvangen. Het vastgestelde bedrag van \u20ac 3.200 is onjuist, omdat mijn hypotheekrenteaftrek en zorgkosten niet zijn meegenomen in de berekening.\n\nIk heb deze aftrekposten wel opgegeven in mijn aangifte. In de bijlage vindt u kopie\u00ebn van de relevante documenten. Ik verzoek u vriendelijk om de aanslag opnieuw te berekenen.\n\nMet vriendelijke groet,\nPriya Ramachandran"
+    },
+    {
+      "id": "schrijven-b1-4-q2",
+      "scenario": "U wilt uw internet- en telefoonabonnement opzeggen bij uw provider omdat u overstapt naar een andere aanbieder. Uw contract loopt af op 1 april.",
+      "scenarioEn": "You want to cancel your internet and phone subscription with your provider because you are switching to a different provider. Your contract expires on April 1st.",
+      "prompt": "Schrijf een formele opzegbrief aan uw provider. Vermeld uw klantnummer, het type abonnement en de gewenste einddatum.",
+      "promptEn": "Write a formal cancellation letter to your provider. Include your customer number, the type of subscription, and the desired end date.",
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-details", "text": "I included my customer number and contract details", "textEn": "I included my customer number and contract details" },
+        { "id": "q2-date", "text": "I stated the desired cancellation date", "textEn": "I stated the desired cancellation date" },
+        { "id": "q2-confirmation", "text": "I asked for a written confirmation of cancellation", "textEn": "I asked for a written confirmation of cancellation" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nHierbij zeg ik mijn internet- en telefoonabonnement op bij KPN. Mijn klantnummer is 9012345 en het betreft het gecombineerde pakket Internet Plus en Bellen Onbeperkt. Mijn contract loopt af op 1 april 2026 en ik wil het abonnement per die datum be\u00ebindigen.\n\nIk verzoek u om mij een schriftelijke bevestiging van de opzegging te sturen. Graag ontvang ik ook informatie over het retourneren van de router.\n\nMet vriendelijke groet,\nDavid Okonkwo"
+    },
+    {
+      "id": "schrijven-b1-4-q3",
+      "scenario": "Uw buurman houdt regelmatig feesten tot laat in de nacht. Dit gebeurt al weken en u kunt niet slapen. U wilt hem vriendelijk maar duidelijk vragen om hiermee te stoppen.",
+      "scenarioEn": "Your neighbor regularly hosts parties late into the night. This has been going on for weeks and you cannot sleep. You want to ask him politely but firmly to stop.",
+      "prompt": "Schrijf een email aan uw buurman over de overlast. Beschrijf het probleem en stel een oplossing voor.",
+      "promptEn": "Write an email to your neighbor about the nuisance. Describe the problem and suggest a solution.",
+      "taskType": "free-text",
+      "wordRange": { "min": 50, "max": 100 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-polite", "text": "I was polite but firm in my tone", "textEn": "I was polite but firm in my tone" },
+        { "id": "q3-solution", "text": "I suggested a reasonable solution or compromise", "textEn": "I suggested a reasonable solution or compromise" }
+      ],
+      "modelAnswer": "Beste meneer Jansen,\n\nIk wil graag iets met u bespreken. De afgelopen weken zijn er regelmatig feesten in uw woning tot na middernacht. Helaas kan ik hierdoor niet goed slapen en dat heeft invloed op mijn werk.\n\nIk begrijp dat u graag gasten ontvangt, maar zou u het geluid na 22:00 uur willen beperken? Ik stel het op prijs als we hier samen een oplossing voor kunnen vinden.\n\nMet vriendelijke groet,\nLin Nguyen"
+    }
+  ]
+}

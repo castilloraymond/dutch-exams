@@ -1,0 +1,350 @@
+{
+  "id": "luisteren-b1-4",
+  "title": "Luisteren B1 - Oefenexamen 4",
+  "module": "luisteren",
+  "difficulty": "B1",
+  "questionCount": 25,
+  "recommendedTime": "60 min",
+  "transcripts": [
+    {
+      "id": "l-b1-4-t1",
+      "title": "Bezichtiging van een huurappartement",
+      "transcript": "Makelaar: Welkom bij de bezichtiging. Dit appartement is op de derde verdieping en heeft een woonoppervlakte van vijfenzeventig vierkante meter. Laat ik u eerst de woonkamer laten zien.\nKlant: Wauw, het is licht hier. Die grote ramen zijn mooi. Is er ook een balkon?\nMakelaar: Jazeker, u heeft hier een ruim balkon op het zuiden. Ideaal voor de zomer. De keuken is recent gerenoveerd, met een nieuwe vaatwasser en inductiekookplaat. De koelkast en het fornuis zijn van de vorige huurder, maar die zijn nog in uitstekende staat.\nKlant: En hoeveel is de huur per maand?\nMakelaar: De kale huur is negenhonderdvijftig euro. Daar komen de servicekosten bij van honderdvijftig euro per maand. Die dekken het onderhoud van de gemeenschappelijke ruimtes, de lift en de centrale verwarming.\nKlant: Dus in totaal elfhonderd euro. En welke voorwaarden gelden er voor het huurcontract?\nMakelaar: Het contract is voor minimaal twaalf maanden. De opzegtermijn is twee maanden. Bij het tekenen betaalt u een borg van twee maanden kale huur, dat is negentienhonderd euro. Die krijgt u terug als u het appartement in goede staat achterlaat.\nKlant: Ik heb een hond. Zijn huisdieren toegestaan?\nMakelaar: Kleine huisdieren zoals katten en kleine honden zijn toegestaan, mits u geen overlast veroorzaakt voor de buren. Grote honden zijn helaas niet welkom.\nKlant: Hoe zit het met de buurt? Is het veilig?\nMakelaar: Dit is een rustige woonwijk. Er is een basisschool om de hoek, een supermarkt op vijf minuten lopen en het station is op tien minuten fietsen. De buurt scoort hoog op veiligheid volgens de gemeentelijke cijfers.\nKlant: Het klinkt goed. Ik wil graag een tweede bezichtiging plannen met mijn partner.",
+      "questions": [
+        {
+          "id": "l-b1-4-q1",
+          "text": "Hoe groot is het appartement?",
+          "options": [
+            "Zestig vierkante meter",
+            "Vijfenzeventig vierkante meter",
+            "Negentig vierkante meter",
+            "Honderd vierkante meter"
+          ],
+          "correctIndex": 1,
+          "explanation": "De makelaar zegt: 'Dit appartement heeft een woonoppervlakte van vijfenzeventig vierkante meter.'"
+        },
+        {
+          "id": "l-b1-4-q2",
+          "text": "Hoeveel bedragen de totale maandelijkse woonlasten?",
+          "options": [
+            "Negenhonderdvijftig euro",
+            "Duizend euro",
+            "Elfhonderd euro",
+            "Twaalfhonderd euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De kale huur is negenhonderdvijftig euro plus honderdvijftig euro servicekosten, in totaal elfhonderd euro."
+        },
+        {
+          "id": "l-b1-4-q3",
+          "text": "Hoe hoog is de borgsom?",
+          "options": [
+            "Eén maand kale huur",
+            "Twee maanden kale huur, negentienhonderd euro",
+            "Drie maanden huur inclusief servicekosten",
+            "Eén maand huur inclusief servicekosten"
+          ],
+          "correctIndex": 1,
+          "explanation": "De makelaar zegt: 'Bij het tekenen betaalt u een borg van twee maanden kale huur, dat is negentienhonderd euro.'"
+        },
+        {
+          "id": "l-b1-4-q4",
+          "text": "Wat is het beleid voor huisdieren?",
+          "options": [
+            "Geen huisdieren toegestaan",
+            "Alle huisdieren zijn welkom",
+            "Kleine huisdieren zijn toegestaan, grote honden niet",
+            "Alleen katten zijn toegestaan"
+          ],
+          "correctIndex": 2,
+          "explanation": "De makelaar zegt: 'Kleine huisdieren zoals katten en kleine honden zijn toegestaan... Grote honden zijn helaas niet welkom.'"
+        },
+        {
+          "id": "l-b1-4-q5",
+          "text": "Hoe ver is het station van het appartement?",
+          "options": [
+            "Vijf minuten lopen",
+            "Tien minuten lopen",
+            "Tien minuten fietsen",
+            "Vijftien minuten fietsen"
+          ],
+          "correctIndex": 2,
+          "explanation": "De makelaar zegt: 'het station is op tien minuten fietsen.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-4-t1.mp3"
+    },
+    {
+      "id": "l-b1-4-t2",
+      "title": "Gemeentelijk debat over verkeersveiligheid",
+      "transcript": "Voorzitter: Dames en heren, welkom bij de openbare raadsvergadering. Vanavond bespreken we de verkeersveiligheid in de schoolzones van onze gemeente. Ik geef eerst het woord aan mevrouw Jansen.\nBewoner: Dank u, voorzitter. Ik woon al vijftien jaar aan de Schoolstraat en de situatie is onhoudbaar geworden. Auto's rijden structureel te hard, vooral tijdens de breng- en haaltijden. Vorige maand is een kind bijna aangereden op het zebrapad. Wij, de bewoners, hebben een petitie ingediend die door driehonderdvijftig mensen is ondertekend.\nVoorzitter: Dank u. Ik geef nu het woord aan de heer De Vries van de afdeling Verkeer.\nMedewerker: Bedankt. We hebben de afgelopen maand snelheidsmetingen laten uitvoeren. Daaruit blijkt dat veertig procent van het verkeer harder rijdt dan de toegestane dertig kilometer per uur. Dat is inderdaad zorgwekkend. We stellen drie maatregelen voor.\nBewoner: En welke maatregelen zijn dat dan?\nMedewerker: Ten eerste willen we twee extra drempels aanleggen op de Schoolstraat. Ten tweede stellen we voor om een knipperlicht te plaatsen bij het zebrapad dat automatisch aangaat tijdens schooltijden. En ten derde willen we de straat afsluiten voor doorgaand verkeer tussen half acht en kwart over acht 's ochtends, en tussen drie en half vier 's middags.\nBewoner: Dat zijn goede plannen, maar wanneer worden ze uitgevoerd? We horen al jaren beloftes.\nMedewerker: De drempels en het knipperlicht kunnen we binnen drie maanden realiseren. De straatafsluiting vereist meer onderzoek naar alternatieve routes, dus dat duurt naar verwachting zes maanden.\nVoorzitter: Ik stel voor dat we over twee maanden een evaluatiebijeenkomst houden om de voortgang te bespreken. Is iedereen het daarmee eens?",
+      "questions": [
+        {
+          "id": "l-b1-4-q6",
+          "text": "Hoeveel mensen hebben de petitie ondertekend?",
+          "options": [
+            "Honderdvijftig",
+            "Tweehonderd",
+            "Driehonderdvijftig",
+            "Vijfhonderd"
+          ],
+          "correctIndex": 2,
+          "explanation": "De bewoner zegt: 'Wij, de bewoners, hebben een petitie ingediend die door driehonderdvijftig mensen is ondertekend.'"
+        },
+        {
+          "id": "l-b1-4-q7",
+          "text": "Welk percentage van het verkeer rijdt te hard?",
+          "options": [
+            "Twintig procent",
+            "Dertig procent",
+            "Veertig procent",
+            "Vijftig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'Daaruit blijkt dat veertig procent van het verkeer harder rijdt dan de toegestane dertig kilometer per uur.'"
+        },
+        {
+          "id": "l-b1-4-q8",
+          "text": "Welke maatregel vereist meer onderzoek?",
+          "options": [
+            "De drempels op de Schoolstraat",
+            "Het knipperlicht bij het zebrapad",
+            "De straatafsluiting voor doorgaand verkeer",
+            "De snelheidscamera's"
+          ],
+          "correctIndex": 2,
+          "explanation": "De medewerker zegt: 'De straatafsluiting vereist meer onderzoek naar alternatieve routes, dus dat duurt naar verwachting zes maanden.'"
+        },
+        {
+          "id": "l-b1-4-q9",
+          "text": "Wanneer wordt de straat afgesloten volgens het voorstel?",
+          "options": [
+            "De hele dag tijdens schooldagen",
+            "Tussen half acht en kwart over acht 's ochtends, en tussen drie en half vier 's middags",
+            "Alleen 's ochtends van zeven tot negen",
+            "Alleen in het weekend"
+          ],
+          "correctIndex": 1,
+          "explanation": "De medewerker stelt voor: 'de straat afsluiten voor doorgaand verkeer tussen half acht en kwart over acht 's ochtends, en tussen drie en half vier 's middags.'"
+        },
+        {
+          "id": "l-b1-4-q10",
+          "text": "Wat stelt de voorzitter voor aan het einde van de vergadering?",
+          "options": [
+            "De petitie doorsturen naar de landelijke overheid",
+            "Een evaluatiebijeenkomst over twee maanden",
+            "Direct beginnen met alle drie de maatregelen",
+            "Een nieuw onderzoek laten uitvoeren door een extern bureau"
+          ],
+          "correctIndex": 1,
+          "explanation": "De voorzitter zegt: 'Ik stel voor dat we over twee maanden een evaluatiebijeenkomst houden om de voortgang te bespreken.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-4-t2.mp3"
+    },
+    {
+      "id": "l-b1-4-t3",
+      "title": "Mediationgesprek op de werkvloer",
+      "transcript": "Manager: Goedemorgen. Bedankt dat jullie allebei er zijn. We zijn hier om het conflict over de werkroosters te bespreken. Ik heb mevrouw Visser, onze externe mediator, gevraagd om dit gesprek te begeleiden.\nAdviseur: Dank je, Paul. Laat ik beginnen met de spelregels. Iedereen krijgt de kans om zijn of haar kant van het verhaal te vertellen zonder onderbrekingen. We zoeken samen naar een oplossing. Tom, wil jij beginnen?\nMedewerker: Ja. Ik werk hier al zes jaar en ik heb altijd de vroege dienst gedraaid, van zeven tot drie. Drie maanden geleden is mijn rooster zonder overleg veranderd naar de late dienst. Ik heb twee kleine kinderen die ik 's ochtends naar school moet brengen. De late dienst is voor mij praktisch onmogelijk.\nAdviseur: Ik begrijp het. Paul, kun jij uitleggen waarom het rooster is veranderd?\nManager: We hebben een nieuwe klant binnengehaald die ondersteuning nodig heeft in de avonduren. Tom heeft de meeste ervaring met dat type werk. Ik dacht dat het een tijdelijke oplossing zou zijn, maar het duurt langer dan verwacht.\nAdviseur: Tom, hoe voelde het dat je niet vooraf bent geraadpleegd?\nMedewerker: Gefrustreerd. Ik voel me niet serieus genomen. Een simpel gesprek vooraf had al veel gescheeld.\nManager: Daar heb je gelijk in. Ik had eerder met je moeten overleggen. Dat was een fout van mijn kant.\nAdviseur: Goed dat je dat erkent, Paul. Laten we nu kijken naar mogelijke oplossingen. Zijn er collega's die de late dienst kunnen overnemen?\nManager: Eigenlijk wel. Sandra heeft aangegeven dat ze graag meer avonduren wil draaien. We zouden een roulatiesysteem kunnen invoeren: twee weken Tom, twee weken Sandra.\nMedewerker: Dat zou al een groot verschil maken. En als ik de late dienst draai, kan mijn vrouw de kinderen brengen als ze het minstens een week van tevoren weet.\nAdviseur: Mooi. Dan stel ik voor dat we dit als proefperiode van twee maanden afspreken en daarna evalueren.",
+      "questions": [
+        {
+          "id": "l-b1-4-q11",
+          "text": "Wat is de kern van het conflict?",
+          "options": [
+            "Tom wil meer salaris",
+            "Tom's rooster is zonder overleg veranderd van vroege naar late dienst",
+            "Tom wil minder uren werken",
+            "Tom heeft een conflict met een collega"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tom zegt: 'Drie maanden geleden is mijn rooster zonder overleg veranderd naar de late dienst.'"
+        },
+        {
+          "id": "l-b1-4-q12",
+          "text": "Waarom is het rooster veranderd?",
+          "options": [
+            "Omdat Tom erom had gevraagd",
+            "Vanwege een reorganisatie van de afdeling",
+            "Omdat een nieuwe klant ondersteuning in de avonduren nodig heeft",
+            "Omdat er een tekort aan personeel is"
+          ],
+          "correctIndex": 2,
+          "explanation": "De manager legt uit: 'We hebben een nieuwe klant binnengehaald die ondersteuning nodig heeft in de avonduren.'"
+        },
+        {
+          "id": "l-b1-4-q13",
+          "text": "Waarom is de late dienst voor Tom problematisch?",
+          "options": [
+            "Hij heeft een bijbaan 's avonds",
+            "Hij woont te ver van het werk",
+            "Hij heeft twee kleine kinderen die hij 's ochtends naar school moet brengen",
+            "Hij heeft gezondheidsproblemen"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tom zegt: 'Ik heb twee kleine kinderen die ik 's ochtends naar school moet brengen.'"
+        },
+        {
+          "id": "l-b1-4-q14",
+          "text": "Welke oplossing wordt voorgesteld?",
+          "options": [
+            "Tom krijgt permanent de vroege dienst terug",
+            "Een roulatiesysteem van twee weken Tom, twee weken Sandra",
+            "Tom wordt overgeplaatst naar een andere afdeling",
+            "De klant wordt overgedragen aan een extern bureau"
+          ],
+          "correctIndex": 1,
+          "explanation": "De manager stelt voor: 'We zouden een roulatiesysteem kunnen invoeren: twee weken Tom, twee weken Sandra.'"
+        },
+        {
+          "id": "l-b1-4-q15",
+          "text": "Hoe lang duurt de proefperiode voor de nieuwe regeling?",
+          "options": [
+            "Eén maand",
+            "Twee maanden",
+            "Drie maanden",
+            "Zes maanden"
+          ],
+          "correctIndex": 1,
+          "explanation": "De mediator stelt voor: 'Dan stel ik voor dat we dit als proefperiode van twee maanden afspreken en daarna evalueren.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-4-t3.mp3"
+    },
+    {
+      "id": "l-b1-4-t4",
+      "title": "Hypotheekgesprek bij de bank",
+      "transcript": "Adviseur: Goedemiddag, welkom bij de Rabobank. U heeft een afspraak voor hypotheekinformatie, klopt dat?\nKlant: Ja, mijn partner en ik willen graag een huis kopen en we willen weten wat onze mogelijkheden zijn.\nAdviseur: Uitstekend. Laat ik beginnen met de basis. Er zijn drie hoofdtypen hypotheken in Nederland. De annuïteitenhypotheek, waarbij u elke maand hetzelfde bedrag betaalt. De lineaire hypotheek, waarbij de maandlasten geleidelijk dalen. En de aflossingsvrije hypotheek, waarbij u alleen rente betaalt, maar die is tegenwoordig beperkt tot maximaal vijftig procent van de woningwaarde.\nKlant: Welk type raadt u aan voor starters zoals wij?\nAdviseur: Voor de meeste starters is de annuïteitenhypotheek het meest geschikt. U heeft dan voorspelbare maandlasten en u kunt de hypotheekrente aftrekken van de belasting gedurende dertig jaar.\nKlant: En hoeveel kunnen wij maximaal lenen?\nAdviseur: Dat hangt af van uw gezamenlijke inkomen, bestaande schulden en de rente. Op basis van wat u bij de aanvraag heeft ingevuld, schat ik dat u ongeveer driehonderdvijftigduizend euro kunt lenen. Maar ik moet dat nog precies berekenen.\nKlant: We hebben ook wat spaargeld. Is het slim om eigen geld in te brengen?\nAdviseur: Absoluut. Hoe meer eigen geld u inlegt, hoe lager uw maandlasten en hoe gunstiger de rente. Bij een eigen inleg van tien procent of meer van de koopprijs krijgt u doorgaans een lagere rente.\nKlant: Welke documenten hebben we nodig?\nAdviseur: Van beide partners heb ik nodig: een geldig identiteitsbewijs, de drie meest recente loonstroken, een werkgeversverklaring en de jaaropgaven van de laatste twee jaar. Als u een vast contract heeft, versterkt dat uw aanvraag.\nKlant: Mijn partner heeft een tijdelijk contract. Is dat een probleem?\nAdviseur: Dat hoeft geen belemmering te zijn, maar de bank kijkt dan wel strenger naar het inkomen. Een intentieverklaring van de werkgever dat het contract wordt verlengd, helpt enorm.",
+      "questions": [
+        {
+          "id": "l-b1-4-q16",
+          "text": "Welke drie hoofdtypen hypotheken worden genoemd?",
+          "options": [
+            "Annuïteiten-, lineaire en spaarhypotheek",
+            "Annuïteiten-, lineaire en aflossingsvrije hypotheek",
+            "Lineaire, aflossingsvrije en beleggingshypotheek",
+            "Annuïteiten-, aflossingsvrije en starterslening"
+          ],
+          "correctIndex": 1,
+          "explanation": "De adviseur noemt drie typen: de annuïteitenhypotheek, de lineaire hypotheek en de aflossingsvrije hypotheek."
+        },
+        {
+          "id": "l-b1-4-q17",
+          "text": "Hoeveel kunnen de klanten naar schatting maximaal lenen?",
+          "options": [
+            "Tweehonderdduizend euro",
+            "Driehonderdduizend euro",
+            "Driehonderdvijftigduizend euro",
+            "Vierhonderdduizend euro"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur schat: 'U kunt ongeveer driehonderdvijftigduizend euro lenen.'"
+        },
+        {
+          "id": "l-b1-4-q18",
+          "text": "Wat is het voordeel van eigen geld inbrengen?",
+          "options": [
+            "De looptijd van de hypotheek wordt korter",
+            "U hoeft geen documenten in te leveren",
+            "U krijgt lagere maandlasten en een gunstiger rente",
+            "De bank neemt alle bijkomende kosten over"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt: 'Hoe meer eigen geld u inlegt, hoe lager uw maandlasten en hoe gunstiger de rente.'"
+        },
+        {
+          "id": "l-b1-4-q19",
+          "text": "Welke documenten zijn nodig voor de hypotheekaanvraag?",
+          "options": [
+            "Alleen een identiteitsbewijs en loonstroken",
+            "Identiteitsbewijs, loonstroken, werkgeversverklaring en jaaropgaven",
+            "Belastingaangiftes van de afgelopen vijf jaar",
+            "Een uittreksel van de Kamer van Koophandel"
+          ],
+          "correctIndex": 1,
+          "explanation": "De adviseur somt op: 'een geldig identiteitsbewijs, de drie meest recente loonstroken, een werkgeversverklaring en de jaaropgaven van de laatste twee jaar.'"
+        },
+        {
+          "id": "l-b1-4-q20",
+          "text": "Wat adviseert de adviseur over het tijdelijke contract van de partner?",
+          "options": [
+            "Dat is geen enkel probleem",
+            "De partner moet eerst een vast contract krijgen",
+            "Een intentieverklaring van de werkgever helpt bij de aanvraag",
+            "Het tijdelijke contract wordt niet meegeteld"
+          ],
+          "correctIndex": 2,
+          "explanation": "De adviseur zegt: 'Een intentieverklaring van de werkgever dat het contract wordt verlengd, helpt enorm.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-4-t4.mp3"
+    },
+    {
+      "id": "l-b1-4-t5",
+      "title": "Theorie-examen rijbewijs: uitleg verkeersregels",
+      "transcript": "Docent: Goedemiddag allemaal. Vandaag behandelen we voorrangsregels en bijzondere verkeerssituaties. Dit is belangrijk stof voor het theorie-examen. Heeft iedereen het lesboek bij zich?\nDeelnemer: Ja. Ik heb een vraag over de voorrangsregel rechts. Geldt die altijd?\nDocent: Goed dat je dat vraagt. De basisregel is: verkeer van rechts heeft voorrang, tenzij er verkeersborden of haaietanden aanwezig zijn. Haaietanden, dat zijn die driehoekjes op het wegdek, betekenen dat jij voorrang moet verlenen. En een stopbord betekent dat je helemaal tot stilstand moet komen.\nDeelnemer: En hoe zit het met rotondes?\nDocent: Bij rotondes in Nederland geldt over het algemeen dat het verkeer op de rotonde voorrang heeft. Je ziet dan meestal haaietanden bij de oprit. Maar let op: in sommige oudere wijken zijn er nog rotondes waar rechts voorrang gaat. Kijk dus altijd naar de borden.\nDeelnemer: Ik vind het moeilijk om te weten wanneer ik een tram voorrang moet geven.\nDocent: Trams hebben in principe altijd voorrang, tenzij er verkeerslichten staan. Dit is een veelgemaakte fout op het examen. Onthoud het zo: de tram is een koning in het verkeer. Ook bij gelijkwaardige kruispunten gaat de tram voor.\nDeelnemer: En als er een ongeluk is gebeurd of als een politieagent het verkeer regelt?\nDocent: Uitstekende vraag. Aanwijzingen van de politie gaan boven alles, ook boven verkeerslichten en borden. Als een agent je wenkt, moet je doorrijden, ook als het licht rood is. Daarnaast moet je altijd ruimte maken voor hulpdiensten met zwaailicht en sirene. Je mag dan ook door rood rijden als dat nodig is, maar alleen als het veilig kan.\nDeelnemer: Dat is duidelijk. Wordt dit allemaal gevraagd op het examen?\nDocent: Ja, voorrangsregels vormen ongeveer dertig procent van de examenvragen. Ik raad jullie aan om de oefentoetsen op de website minstens vijf keer te maken voordat je het echte examen doet.",
+      "questions": [
+        {
+          "id": "l-b1-4-q21",
+          "text": "Wat betekenen haaietanden op het wegdek?",
+          "options": [
+            "Je mag hier niet parkeren",
+            "Je moet voorrang verlenen",
+            "Je rijdt op een fietspad",
+            "Je nadert een schoolzone"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent legt uit: 'Haaietanden, dat zijn die driehoekjes op het wegdek, betekenen dat jij voorrang moet verlenen.'"
+        },
+        {
+          "id": "l-b1-4-q22",
+          "text": "Wie heeft er meestal voorrang op een rotonde in Nederland?",
+          "options": [
+            "Het verkeer dat de rotonde oprijdt",
+            "Het verkeer op de rotonde",
+            "Fietsers hebben altijd voorrang",
+            "Er is geen vaste regel"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent zegt: 'Bij rotondes in Nederland geldt over het algemeen dat het verkeer op de rotonde voorrang heeft.'"
+        },
+        {
+          "id": "l-b1-4-q23",
+          "text": "Wanneer heeft een tram geen voorrang?",
+          "options": [
+            "Bij een gelijkwaardig kruispunt",
+            "Als er verkeerslichten staan",
+            "Bij een rotonde",
+            "Trams hebben altijd voorrang, zonder uitzondering"
+          ],
+          "correctIndex": 1,
+          "explanation": "De docent zegt: 'Trams hebben in principe altijd voorrang, tenzij er verkeerslichten staan.'"
+        },
+        {
+          "id": "l-b1-4-q24",
+          "text": "Wat gaat boven verkeerslichten en verkeersborden?",
+          "options": [
+            "Wegmarkeringen op het wegdek",
+            "De voorrangsregel rechts",
+            "Aanwijzingen van de politie",
+            "De regels voor trams"
+          ],
+          "correctIndex": 2,
+          "explanation": "De docent zegt: 'Aanwijzingen van de politie gaan boven alles, ook boven verkeerslichten en borden.'"
+        },
+        {
+          "id": "l-b1-4-q25",
+          "text": "Welk percentage van de examenvragen gaat over voorrangsregels?",
+          "options": [
+            "Twintig procent",
+            "Vijfentwintig procent",
+            "Dertig procent",
+            "Veertig procent"
+          ],
+          "correctIndex": 2,
+          "explanation": "De docent zegt: 'Voorrangsregels vormen ongeveer dertig procent van de examenvragen.'"
+        }
+      ],
+      "audioFile": "/audio/luisteren/mock/l-b1-4-t5.mp3"
+    }
+  ]
+}
