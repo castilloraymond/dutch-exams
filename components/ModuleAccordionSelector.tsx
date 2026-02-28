@@ -237,7 +237,7 @@ function LevelCard({
               style={{ transition: "stroke-dashoffset 0.5s ease" }} />
           </svg>
           <div className="absolute inset-0 flex items-center justify-center">
-            <span style={{ fontSize: "13px", fontWeight: 800, color: level.color, letterSpacing: "-0.02em" }}>
+            <span style={{ fontSize: "17px", fontWeight: 800, color: level.color, letterSpacing: "-0.02em" }}>
               {level.difficulty}
             </span>
           </div>
@@ -380,7 +380,7 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
                 boxShadow: isActive ? "0 1px 4px rgba(0,0,0,0.08)" : undefined,
               }}
             >
-              <div className="text-xs font-bold"
+              <div className="text-sm font-bold"
                 style={{ color: isActive ? level.color : "var(--ink)" }}>
                 {level.difficulty}
               </div>
