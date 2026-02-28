@@ -7,71 +7,121 @@
   "recommendedTime": "30 min",
   "isFreePreview": true,
   "tips": [
-    "A formal letter to a government body always starts with 'Geachte heer/mevrouw'.",
-    "Reference the original decision with a date or reference number.",
-    "Structure your arguments clearly — one argument per sentence.",
-    "End with a specific request: what do you want them to do?"
+    "Begin een formele brief altijd met 'Geachte heer/mevrouw' en sluit af met 'Met vriendelijke groet'.",
+    "Noem bij bezwaar altijd het kenmerk of referentienummer uit de ontvangen brief.",
+    "Geef duidelijke argumenten: waarom bent u het niet eens? Wat zijn de gevolgen?",
+    "Eindig met een concrete vraag: wat wil u dat ze doen?"
   ],
   "selfAssessmentCriteria": [
     {
+      "id": "bullets-covered",
+      "text": "I addressed all three bullet points in my answer",
+      "textEn": "I addressed all three bullet points in my answer"
+    },
+    {
       "id": "formal-register",
-      "text": "I used formal language where appropriate",
-      "textEn": "I used formal language where appropriate"
+      "text": "I used formal language throughout (Geachte, u/uw, Met vriendelijke groet)",
+      "textEn": "I used formal language throughout (Geachte, u/uw, Met vriendelijke groet)"
     },
     {
-      "id": "arguments",
-      "text": "I provided clear arguments and reasons",
-      "textEn": "I provided clear arguments and reasons"
-    },
-    {
-      "id": "structure",
-      "text": "My letters are well-structured with introduction, body, and conclusion",
-      "textEn": "My letters are well-structured with introduction, body, and conclusion"
+      "id": "clear-structure",
+      "text": "My letters have a clear structure: reason for writing, arguments, request",
+      "textEn": "My letters have a clear structure: reason for writing, arguments, request"
     }
   ],
   "questions": [
     {
       "id": "schrijven-b1-1-q1",
-      "scenario": "U wilt bezwaar maken tegen een besluit van de gemeente over uw parkeervergunning.",
-      "scenarioEn": "You want to object to a municipality decision about your parking permit.",
-      "prompt": "Schrijf een formele brief aan de gemeente. Leg uit waarom u bezwaar maakt en vraag om heroverweging.",
-      "promptEn": "Write a formal letter to the municipality. Explain why you are objecting and ask for reconsideration.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q1-formal", "text": "I used formal language throughout", "textEn": "I used formal language throughout" },
-        { "id": "q1-arguments", "text": "I gave clear arguments", "textEn": "I gave clear arguments" },
-        { "id": "q1-request", "text": "I made a clear request", "textEn": "I made a clear request" }
+      "scenario": "U heeft een brief ontvangen van de gemeente. Uw aanvraag voor een parkeervergunning is afgewezen. Kenmerk: PV-2026-0342. U bent het hier niet mee eens en schrijft een e-mail om bezwaar te maken.",
+      "scenarioEn": "You received a letter from the municipality. Your application for a parking permit has been rejected. Reference: PV-2026-0342. You disagree with this and write an email to object.",
+      "bullets": [
+        "Schrijf dat u bezwaar maakt en noem het kenmerk.",
+        "Geef twee redenen waarom u de parkeervergunning nodig heeft.",
+        "Vraag de gemeente om het besluit te heroverwegen."
       ],
-      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u naar aanleiding van uw brief van 15 januari over de afwijzing van mijn parkeervergunning. Ik woon in een straat zonder vrij parkeren en werk in ploegendienst. Zonder auto kan ik niet naar mijn werk. Ik verzoek u om het besluit te heroverwegen.\n\nMet vriendelijke groet,\nMohammed Al-Hassan"
+      "bulletsEn": [
+        "Write that you are objecting and include the reference number.",
+        "Give two reasons why you need the parking permit.",
+        "Ask the municipality to reconsider the decision."
+      ],
+      "prompt": "Schrijf de e-mail.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "bezwaar@gemeente.nl",
+        "subject": "Bezwaar parkeervergunning - kenmerk PV-2026-0342",
+        "salutation": "Geachte heer/mevrouw,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-reference", "text": "I mentioned the reference number PV-2026-0342", "textEn": "I mentioned the reference number PV-2026-0342" },
+        { "id": "q1-reasons", "text": "I gave two reasons why I need the permit", "textEn": "I gave two reasons why I need the permit" },
+        { "id": "q1-request", "text": "I asked for reconsideration", "textEn": "I asked for reconsideration" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u naar aanleiding van uw brief over de afwijzing van mijn parkeervergunning (kenmerk PV-2026-0342). Ik ben het niet eens met dit besluit en maak hiertegen bezwaar.\n\nIk woon in een straat waar geen vrij parkeren mogelijk is. Ik werk in ploegendienst en ben afhankelijk van mijn auto omdat er 's nachts geen openbaar vervoer rijdt. Bovendien is de dichtstbijzijnde parkeergarage meer dan een kilometer van mijn woning.\n\nIk verzoek u vriendelijk om uw besluit te heroverwegen. Ik ben bereid om aanvullende informatie te verstrekken als dat nodig is.\n\nMet vriendelijke groet,\nMohammed Al-Hassan\nStraatnaam 42, 1234 AB Amsterdam"
     },
     {
       "id": "schrijven-b1-1-q2",
-      "scenario": "Uw zorgverzekering heeft een declaratie voor fysiotherapie afgewezen.",
-      "scenarioEn": "Your health insurance rejected a claim for physiotherapy.",
-      "prompt": "Schrijf een klachtbrief aan uw zorgverzekering. Verwijs naar de verwijzing van uw huisarts.",
-      "promptEn": "Write a complaint letter to your health insurance. Refer to your GP's referral.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-formal", "text": "I used formal language", "textEn": "I used formal language" },
-        { "id": "q2-reference", "text": "I included reference numbers", "textEn": "I included reference numbers" }
+      "scenario": "Uw zorgverzekering heeft uw declaratie voor fysiotherapie afgewezen. Declaratienummer: ZV-2026-1587. Uw huisarts heeft de behandeling voorgeschreven. U bent het niet eens met de afwijzing en schrijft een klachtbrief.",
+      "scenarioEn": "Your health insurance rejected your claim for physiotherapy. Claim number: ZV-2026-1587. Your GP prescribed the treatment. You disagree with the rejection and write a complaint letter.",
+      "bullets": [
+        "Schrijf over welke declaratie uw klacht gaat. Noem het nummer.",
+        "Schrijf waarom u het niet eens bent met de afwijzing.",
+        "Vraag om herziening van het besluit."
       ],
-      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u over de afwijzing van mijn declaratie voor fysiotherapie (nr. ZV-2026-1587). Mijn huisarts heeft mij doorverwezen voor deze behandeling. Ik verzoek u om het besluit te herzien.\n\nMet vriendelijke groet,\nFatima Yilmaz"
+      "bulletsEn": [
+        "Write which claim your complaint is about. Include the claim number.",
+        "Write why you disagree with the rejection.",
+        "Ask for a review of the decision."
+      ],
+      "prompt": "Schrijf de klachtbrief.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the complaint letter.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "klantenservice@zorgverzekering.nl",
+        "subject": "Bezwaar afwijzing declaratie ZV-2026-1587",
+        "salutation": "Geachte heer/mevrouw,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-number", "text": "I mentioned the claim number ZV-2026-1587", "textEn": "I mentioned the claim number ZV-2026-1587" },
+        { "id": "q2-gp", "text": "I mentioned that my GP prescribed the treatment", "textEn": "I mentioned that my GP prescribed the treatment" },
+        { "id": "q2-review", "text": "I asked for a review of the decision", "textEn": "I asked for a review of the decision" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk schrijf u over de afwijzing van mijn declaratie voor fysiotherapie (declaratienummer: ZV-2026-1587). Ik ben het niet eens met dit besluit.\n\nMijn huisarts, dr. Visser, heeft mij doorverwezen naar fysiotherapie vanwege chronische rugklachten. Deze behandeling is medisch noodzakelijk en door een arts voorgeschreven. Volgens mijn polis worden behandelingen op verwijzing van de huisarts vergoed.\n\nIk verzoek u om mijn declaratie opnieuw te beoordelen. Ik kan een kopie van de verwijsbrief meesturen als dat nodig is.\n\nMet vriendelijke groet,\nFatima Yilmaz\nPolisnummer: 456789012"
     },
     {
       "id": "schrijven-b1-1-q3",
-      "scenario": "U wilt verlof aanvragen bij uw werkgever voor een familiebezoek in het buitenland.",
-      "scenarioEn": "You want to request leave from your employer for a family visit abroad.",
-      "prompt": "Schrijf een email aan uw leidinggevende om verlof aan te vragen. Geef data en stel een oplossing voor uw werk voor.",
-      "promptEn": "Write an email to your manager to request leave. Give dates and suggest a solution for your work.",
-      "taskType": "free-text",
-      "wordRange": { "min": 50, "max": 100 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-dates", "text": "I included specific dates", "textEn": "I included specific dates" },
-        { "id": "q3-coverage", "text": "I suggested work coverage", "textEn": "I suggested work coverage" }
+      "scenario": "U wilt twee weken vakantieverlof aanvragen bij uw leidinggevende Jan. U wilt van 14 tot en met 25 juli vrij. Uw collega Anke heeft aangeboden uw werk over te nemen.",
+      "scenarioEn": "You want to request two weeks of annual leave from your manager Jan. You want to be off from July 14 to July 25. Your colleague Anke has offered to cover your work.",
+      "bullets": [
+        "Schrijf wanneer u verlof wilt. Noem de exacte data.",
+        "Schrijf waarom u verlof wilt. Bedenk zelf een reden.",
+        "Schrijf hoe uw werk geregeld wordt tijdens uw afwezigheid."
       ],
-      "modelAnswer": "Beste Jan,\n\nIk wil graag twee weken verlof aanvragen van 14 tot en met 25 juli voor een familiebezoek. Mijn collega Anke kan mijn werk overnemen. Laat u mij weten of dit mogelijk is?\n\nMet vriendelijke groet,\nAhmed Benali"
+      "bulletsEn": [
+        "Write when you want leave. Give the exact dates.",
+        "Write why you want leave. Think of a reason yourself.",
+        "Write how your work will be covered during your absence."
+      ],
+      "prompt": "Schrijf de e-mail.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "jan.peters@bedrijf.nl",
+        "subject": "Verlofaanvraag juli",
+        "salutation": "Beste Jan,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 60, "max": 120 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-dates", "text": "I included the exact dates (14-25 July)", "textEn": "I included the exact dates (14-25 July)" },
+        { "id": "q3-reason", "text": "I gave a reason for wanting leave", "textEn": "I gave a reason for wanting leave" },
+        { "id": "q3-coverage", "text": "I mentioned that Anke will cover my work", "textEn": "I mentioned that Anke will cover my work" }
+      ],
+      "modelAnswer": "Beste Jan,\n\nIk wil graag verlof aanvragen van maandag 14 juli tot en met vrijdag 25 juli. Ik ga mijn familie in Marokko bezoeken. Ik heb mijn ouders al meer dan een jaar niet gezien.\n\nIk heb met mijn collega Anke gesproken en zij is bereid om mijn lopende projecten over te nemen tijdens mijn afwezigheid. Ik zal ervoor zorgen dat ik voor mijn vertrek een overdracht maak van alle taken.\n\nLaat u mij weten of deze data mogelijk zijn?\n\nMet vriendelijke groet,\nAhmed Benali"
     }
   ]
 }

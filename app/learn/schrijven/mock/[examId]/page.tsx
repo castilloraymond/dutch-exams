@@ -212,18 +212,30 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
       <section className="flex-1 container mx-auto px-4 py-6">
         <div className="max-w-2xl mx-auto">
           {stage === "writing" && currentQuestion && (
-            <div className="space-y-6">
+            <div className="space-y-5">
               {/* Scenario */}
               <div className="landing-card p-4 bg-[var(--ink)]/5">
                 <p className="text-[var(--ink)]">{currentQuestion.scenario}</p>
               </div>
 
-              {/* Prompt */}
-              <div>
-                <h2 className="font-bold text-[var(--ink)] mb-2">
+              {/* Bullet list */}
+              {currentQuestion.bullets && currentQuestion.bullets.length > 0 && (
+                <ul className="space-y-1 pl-1">
+                  {currentQuestion.bullets.map((bullet, i) => (
+                    <li key={i} className="flex gap-2 text-[var(--ink)]">
+                      <span className="mt-0.5 shrink-0">•</span>
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {/* Instruction line */}
+              {currentQuestion.prompt && (
+                <p className="font-semibold text-[var(--ink)] whitespace-pre-line">
                   {currentQuestion.prompt}
-                </h2>
-              </div>
+                </p>
+              )}
 
               {/* Input area */}
               {currentQuestion.taskType === "form" ? (
@@ -238,6 +250,7 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
                   onChange={(val) => setSubmission(val)}
                   placeholder="Schrijf hier je antwoord..."
                   wordRange={currentQuestion.wordRange}
+                  emailTemplate={currentQuestion.emailTemplate}
                 />
               )}
 

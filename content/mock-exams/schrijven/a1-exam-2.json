@@ -7,51 +7,121 @@
   "recommendedTime": "30 min",
   "isFreePreview": false,
   "tips": [
-    "Your BSN (burgerservicenummer) is a 9-digit number on your residence permit or ID.",
-    "Make sure you know your health insurance company name and policy number.",
-    "A note to a neighbor can be informal — use 'je' or 'u', both are fine.",
-    "Keep it short and clear — just the essential information."
+    "Bij een formulier: uw BSN staat op uw verblijfsvergunning of identiteitsbewijs.",
+    "Een briefje aan de buurvrouw mag informeel zijn.",
+    "Schrijf in hele zinnen. Geen opsomming.",
+    "Vergeet uw naam niet aan het einde."
   ],
   "selfAssessmentCriteria": [
     {
-      "id": "all-fields",
-      "text": "I filled in all required fields correctly",
-      "textEn": "I filled in all required fields correctly"
+      "id": "all-fields-complete",
+      "text": "I filled in all required fields correctly (for forms)",
+      "textEn": "I filled in all required fields correctly (for forms)"
     },
     {
-      "id": "clear-message",
-      "text": "My messages are clear and easy to understand",
-      "textEn": "My messages are clear and easy to understand"
+      "id": "bullets-covered",
+      "text": "I addressed all the bullet points in my written answer",
+      "textEn": "I addressed all the bullet points in my written answer"
     },
     {
       "id": "greeting-closing",
-      "text": "I used appropriate greetings and closings",
-      "textEn": "I used appropriate greetings and closings"
+      "text": "I used an appropriate greeting and closing",
+      "textEn": "I used an appropriate greeting and closing"
     }
   ],
   "questions": [
     {
       "id": "schrijven-a1-2-q1",
       "scenario": "U bent verhuisd naar een nieuwe stad en wilt zich inschrijven bij een huisarts.",
-      "scenarioEn": "You have moved to a new city and want to register with a GP.",
+      "scenarioEn": "You have moved to a new city and want to register with a GP (general practitioner).",
       "prompt": "Vul het inschrijfformulier van de huisartsenpraktijk in.",
       "promptEn": "Fill in the GP registration form.",
       "taskType": "form",
       "formFields": [
-        { "id": "voornaam", "label": "Voornaam", "labelEn": "First name", "type": "text", "required": true, "placeholder": "Uw voornaam" },
-        { "id": "achternaam", "label": "Achternaam", "labelEn": "Last name", "type": "text", "required": true, "placeholder": "Uw achternaam" },
-        { "id": "geboortedatum", "label": "Geboortedatum", "labelEn": "Date of birth", "type": "date", "required": true },
-        { "id": "bsn", "label": "BSN-nummer", "labelEn": "BSN number", "type": "text", "required": true, "placeholder": "123456789" },
-        { "id": "adres", "label": "Adres", "labelEn": "Address", "type": "text", "required": true, "placeholder": "Straat en huisnummer" },
-        { "id": "postcode", "label": "Postcode", "labelEn": "Postal code", "type": "text", "required": true, "placeholder": "1234 AB" },
-        { "id": "woonplaats", "label": "Woonplaats", "labelEn": "City", "type": "text", "required": true, "placeholder": "Uw stad" },
-        { "id": "telefoonnummer", "label": "Telefoonnummer", "labelEn": "Phone number", "type": "text", "required": true, "placeholder": "06-12345678" },
-        { "id": "zorgverzekeraar", "label": "Zorgverzekeraar", "labelEn": "Health insurance company", "type": "select", "required": true, "options": ["Zilveren Kruis", "CZ", "VGZ", "Menzis", "OHRA", "Anders"] },
-        { "id": "polisnummer", "label": "Polisnummer zorgverzekering", "labelEn": "Insurance policy number", "type": "text", "required": true, "placeholder": "Uw polisnummer" }
+        {
+          "id": "voornaam",
+          "label": "Voornaam",
+          "labelEn": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw voornaam"
+        },
+        {
+          "id": "achternaam",
+          "label": "Achternaam",
+          "labelEn": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw achternaam"
+        },
+        {
+          "id": "geboortedatum",
+          "label": "Geboortedatum",
+          "labelEn": "Date of birth",
+          "type": "date",
+          "required": true
+        },
+        {
+          "id": "bsn",
+          "label": "BSN-nummer",
+          "labelEn": "BSN number (citizen service number)",
+          "type": "text",
+          "required": true,
+          "placeholder": "123456789"
+        },
+        {
+          "id": "adres",
+          "label": "Adres",
+          "labelEn": "Address",
+          "type": "text",
+          "required": true,
+          "placeholder": "Straat en huisnummer"
+        },
+        {
+          "id": "postcode",
+          "label": "Postcode",
+          "labelEn": "Postal code",
+          "type": "text",
+          "required": true,
+          "placeholder": "1234 AB"
+        },
+        {
+          "id": "woonplaats",
+          "label": "Woonplaats",
+          "labelEn": "City",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw stad"
+        },
+        {
+          "id": "telefoonnummer",
+          "label": "Telefoonnummer",
+          "labelEn": "Phone number",
+          "type": "text",
+          "required": true,
+          "placeholder": "06-12345678"
+        },
+        {
+          "id": "zorgverzekeraar",
+          "label": "Zorgverzekeraar",
+          "labelEn": "Health insurance company",
+          "type": "select",
+          "required": true,
+          "options": ["Zilveren Kruis", "CZ", "VGZ", "Menzis", "OHRA", "Anders"]
+        },
+        {
+          "id": "polisnummer",
+          "label": "Polisnummer zorgverzekering",
+          "labelEn": "Insurance policy number",
+          "type": "text",
+          "required": true,
+          "placeholder": "Uw polisnummer"
+        }
       ],
       "selfAssessmentCriteria": [
         { "id": "q1-all-fields", "text": "I filled in all required fields", "textEn": "I filled in all required fields" },
-        { "id": "q1-bsn", "text": "I entered a valid BSN number", "textEn": "I entered a valid BSN number" }
+        { "id": "q1-date-format", "text": "I used the correct date format", "textEn": "I used the correct date format" },
+        { "id": "q1-insurance", "text": "I filled in my insurance details", "textEn": "I filled in my insurance details" }
       ],
       "modelAnswer": {
         "voornaam": "Amina",
@@ -68,33 +138,53 @@
     },
     {
       "id": "schrijven-a1-2-q2",
-      "scenario": "U heeft een nieuwe buurman. U wilt uzelf voorstellen en hem welkom heten.",
-      "scenarioEn": "You have a new neighbor. You want to introduce yourself and welcome them.",
-      "prompt": "Schrijf een kort briefje aan uw nieuwe buurman. Stel uzelf voor en heet hem welkom.",
-      "promptEn": "Write a short note to your new neighbor. Introduce yourself and welcome them.",
-      "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-intro", "text": "I introduced myself", "textEn": "I introduced myself" },
-        { "id": "q2-welcome", "text": "I welcomed the neighbor", "textEn": "I welcomed the neighbor" },
-        { "id": "q2-offer", "text": "I offered help or contact", "textEn": "I offered help or contact" }
+      "scenario": "De kat van uw buurvrouw Ria zit in uw tuin. Uw buurvrouw is er nu niet. U schrijft haar een briefje op haar deur.",
+      "scenarioEn": "Your neighbour Ria's cat is in your garden. Your neighbour is not home. You write her a note on her door.",
+      "bullets": [
+        "Schrijf dat haar kat in uw tuin is.",
+        "Schrijf dat het goed gaat met de kat.",
+        "Schrijf wanneer ze hem kan ophalen."
       ],
-      "modelAnswer": "Beste buurman,\n\nWelkom in het gebouw! Ik ben Karim, uw buurman op nummer 12. Als u iets nodig heeft, kunt u altijd bij mij aanbellen.\n\nVeel plezier in uw nieuwe woning!\n\nGroetjes,\nKarim"
+      "bulletsEn": [
+        "Write that her cat is in your garden.",
+        "Write that the cat is doing well.",
+        "Write when she can come to pick him up."
+      ],
+      "prompt": "Schrijf het briefje.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the note.\nWrite in complete sentences.",
+      "taskType": "free-text",
+      "wordRange": { "min": 25, "max": 55 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-cat", "text": "I mentioned that her cat is in my garden", "textEn": "I mentioned that her cat is in my garden" },
+        { "id": "q2-ok", "text": "I said the cat is doing well", "textEn": "I said the cat is doing well" },
+        { "id": "q2-pickup", "text": "I said when she can pick him up", "textEn": "I said when she can pick him up" }
+      ],
+      "modelAnswer": "Dag Ria,\n\nUw kat zit in mijn tuin. Het gaat goed met hem. Ik heb hem wat water gegeven. U kunt hem ophalen wanneer u wilt. Ik ben vandaag tot 20:00 uur thuis.\n\nGroetjes,\nKarim"
     },
     {
       "id": "schrijven-a1-2-q3",
-      "scenario": "U verwacht een pakketje, maar u bent niet thuis. U wilt uw buurman vragen of hij het pakketje kan aannemen.",
-      "scenarioEn": "You are expecting a package, but you won't be home. You want to ask your neighbor if they can accept the package.",
-      "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat er een pakketje komt. Vraag of hij het kan aannemen. Zeg wanneer u het komt ophalen.",
-      "promptEn": "Write a short note to your neighbor. Tell them a package is coming. Ask if they can accept it. Say when you will pick it up.",
-      "taskType": "free-text",
-      "wordRange": { "min": 30, "max": 60 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-package", "text": "I mentioned the package", "textEn": "I mentioned the package" },
-        { "id": "q3-request", "text": "I asked the neighbor to accept it", "textEn": "I asked the neighbor to accept it" },
-        { "id": "q3-pickup", "text": "I mentioned when I will pick it up", "textEn": "I mentioned when I will pick it up" }
+      "scenario": "U geeft zaterdagavond een feestje. Het kan laat en luid worden. Uw buurvrouw Noor woont naast u. U schrijft haar een briefje.",
+      "scenarioEn": "You are having a party on Saturday evening. It might get late and loud. Your neighbour Noor lives next door. You write her a note.",
+      "bullets": [
+        "Vertel dat u een feestje geeft.",
+        "Schrijf op welke dag en hoe laat het begint.",
+        "Schrijf dat u uw best doet om het niet te luid te maken."
       ],
-      "modelAnswer": "Beste buurman,\n\nEr komt vandaag een pakketje voor mij, maar ik ben niet thuis. Kunt u het pakketje voor mij aannemen? Ik kom het vanavond na zes uur ophalen.\n\nAlvast bedankt!\n\nGroetjes,\nKarim"
+      "bulletsEn": [
+        "Tell her you are having a party.",
+        "Write which day and what time it starts.",
+        "Write that you will try not to make too much noise."
+      ],
+      "prompt": "Schrijf het briefje.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the note.\nWrite in complete sentences.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 55 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-party", "text": "I mentioned the party", "textEn": "I mentioned the party" },
+        { "id": "q3-when", "text": "I said when the party is", "textEn": "I said when the party is" },
+        { "id": "q3-considerate", "text": "I said I would try to keep noise down", "textEn": "I said I would try to keep noise down" }
+      ],
+      "modelAnswer": "Beste Noor,\n\nIk wil u even laten weten dat ik zaterdagavond vanaf 19:00 uur een feestje geef. Het kan misschien een beetje luid worden. Ik doe mijn best om niet te veel lawaai te maken.\n\nSorry voor het ongemak!\n\nGroetjes,\nLin"
     }
   ]
 }

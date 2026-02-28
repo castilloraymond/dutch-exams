@@ -7,26 +7,26 @@
   "recommendedTime": "30 min",
   "isFreePreview": false,
   "tips": [
-    "When writing about a problem, explain what is wrong AND what you want to happen.",
-    "With colleagues, you can use informal language (je/jij) — with a landlord, use formal language (u/uw).",
-    "A good message has three parts: greeting, content, and closing.",
-    "Always include practical details like dates, times, and contact information."
+    "Bij een formulier: schrijf uw motivatie in korte, duidelijke zinnen.",
+    "Bij een e-mail aan een verhuurder: gebruik altijd 'u' en een formele afsluiting.",
+    "Aan een collega mag u informeel schrijven.",
+    "Schrijf wat gevraagd wordt. Niet meer, niet minder."
   ],
   "selfAssessmentCriteria": [
+    {
+      "id": "bullets-covered",
+      "text": "I addressed all required points in each answer",
+      "textEn": "I addressed all required points in each answer"
+    },
     {
       "id": "register",
       "text": "I used the right formality level for each recipient",
       "textEn": "I used the right formality level for each recipient"
     },
     {
-      "id": "complete",
-      "text": "I included all requested information in each answer",
-      "textEn": "I included all requested information in each answer"
-    },
-    {
-      "id": "structure",
-      "text": "My messages have a clear beginning, middle, and end",
-      "textEn": "My messages have a clear beginning, middle, and end"
+      "id": "whole-sentences",
+      "text": "I wrote in complete sentences where required",
+      "textEn": "I wrote in complete sentences where required"
     }
   ],
   "questions": [
@@ -138,34 +138,59 @@
     },
     {
       "id": "schrijven-a2-4-q2",
-      "scenario": "De verwarming in uw woning doet het niet meer. Het is winter en het is erg koud in huis.",
-      "scenarioEn": "The heating in your home is no longer working. It is winter and it is very cold in the house.",
-      "prompt": "Schrijf een brief aan uw verhuurder. Leg uit wat het probleem is en vraag om een snelle oplossing.",
-      "promptEn": "Write a letter to your landlord. Explain the problem and ask for a quick solution.",
+      "scenario": "U woont in een huurwoning. De verwarming doet het al vier dagen niet. Het is winter en het is erg koud in huis. Uw verhuurder is de heer Janssen. U schrijft hem een e-mail.",
+      "scenarioEn": "You live in a rental home. The heating has not been working for four days. It is winter and it is very cold in the house. Your landlord is Mr Janssen. You write him an email.",
+      "bullets": [
+        "Schrijf wat er mis is in uw woning.",
+        "Schrijf hoelang het probleem al bestaat.",
+        "Vraag om een snelle reparatie."
+      ],
+      "bulletsEn": [
+        "Write what is wrong in your home.",
+        "Write how long the problem has existed.",
+        "Ask for a quick repair."
+      ],
+      "prompt": "Schrijf de e-mail.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "janssen@verhuurkantoor.nl",
+        "subject": "Defecte verwarming",
+        "salutation": "Geachte heer Janssen,",
+        "closing": "Met vriendelijke groet,"
+      },
       "taskType": "free-text",
-      "wordRange": { "min": 30, "max": 60 },
+      "wordRange": { "min": 40, "max": 75 },
       "selfAssessmentCriteria": [
         { "id": "q2-problem", "text": "I clearly described the heating problem", "textEn": "I clearly described the heating problem" },
-        { "id": "q2-urgency", "text": "I explained why it is urgent (winter/cold)", "textEn": "I explained why it is urgent (winter/cold)" },
-        { "id": "q2-request", "text": "I asked for a repair or solution", "textEn": "I asked for a repair or solution" },
-        { "id": "q2-formal", "text": "I used formal language (u/uw)", "textEn": "I used formal language (u/uw)" }
+        { "id": "q2-duration", "text": "I said how long the problem has existed", "textEn": "I said how long the problem has existed" },
+        { "id": "q2-request", "text": "I asked for a quick repair", "textEn": "I asked for a quick repair" }
       ],
-      "modelAnswer": "Geachte heer Janssen,\n\nIk schrijf u omdat de verwarming in mijn woning niet meer werkt. Sinds maandag is het koud in huis en de radiator blijft koud. Het is nu winter en de temperatuur binnen is erg laag. Dit is niet gezond, vooral voor mijn kinderen.\n\nKunt u zo snel mogelijk een monteur sturen? U kunt mij bereiken op 06-34567890.\n\nMet vriendelijke groet,\nAhmed El Fassi"
+      "modelAnswer": "Geachte heer Janssen,\n\nDe verwarming in mijn woning werkt al vier dagen niet meer. Het is nu winter en de temperatuur in huis is erg laag. Dit is niet goed voor mijn kinderen. Kunt u zo snel mogelijk een monteur sturen om de verwarming te repareren?\n\nMet vriendelijke groet,\nAhmed El Fassi\nVondelstraat 78, Utrecht"
     },
     {
       "id": "schrijven-a2-4-q3",
-      "scenario": "Uw collega Sanne vraagt of u volgende week dinsdag haar dienst kunt overnemen. U kunt dat doen, maar alleen als zij dan uw dienst op woensdag overneemt.",
-      "scenarioEn": "Your colleague Sanne asks if you can take over her shift next Tuesday. You can do it, but only if she takes your shift on Wednesday in return.",
-      "prompt": "Schrijf een antwoord aan Sanne. Zeg dat u kunt helpen en vraag of zij woensdag voor u wilt werken.",
-      "promptEn": "Write a reply to Sanne. Say you can help and ask if she will work Wednesday for you.",
-      "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-yes", "text": "I said I can take the Tuesday shift", "textEn": "I said I can take the Tuesday shift" },
-        { "id": "q3-condition", "text": "I asked about the Wednesday shift swap", "textEn": "I asked about the Wednesday shift swap" },
-        { "id": "q3-friendly", "text": "My message is friendly and clear", "textEn": "My message is friendly and clear" }
+      "scenario": "Uw collega Sanne vraagt via WhatsApp of u volgende week dinsdag haar dienst kunt overnemen. U kunt dat doen, maar alleen als zij dan uw dienst op woensdag overneemt. U stuurt haar een bericht terug.",
+      "scenarioEn": "Your colleague Sanne messages you on WhatsApp asking if you can take her shift next Tuesday. You can do this, but only if she takes your Wednesday shift in return. You send her a reply.",
+      "bullets": [
+        "Schrijf dat u haar dienst kunt overnemen.",
+        "Schrijf onder welke voorwaarde u dat doet.",
+        "Vraag of zij het ermee eens is."
       ],
-      "modelAnswer": "Hoi Sanne,\n\nJa, ik kan dinsdag je dienst overnemen. Maar ik wil je wel iets vragen: kun jij dan woensdag mijn dienst overnemen? Dan ruilen we gewoon. Laat even weten of dat lukt!\n\nGroetjes,\nAhmed"
+      "bulletsEn": [
+        "Write that you can take her shift.",
+        "Write on what condition you will do this.",
+        "Ask if she agrees."
+      ],
+      "prompt": "Schrijf het bericht.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the message.\nWrite in complete sentences.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-yes", "text": "I agreed to take the Tuesday shift", "textEn": "I agreed to take the Tuesday shift" },
+        { "id": "q3-condition", "text": "I mentioned the Wednesday shift as a condition", "textEn": "I mentioned the Wednesday shift as a condition" },
+        { "id": "q3-question", "text": "I asked if she agrees", "textEn": "I asked if she agrees" }
+      ],
+      "modelAnswer": "Hoi Sanne,\n\nJa, ik kan dinsdag je dienst overnemen. Maar dan vraag ik jou of jij woensdag mijn dienst wilt overnemen. Dan ruilen we gewoon! Is dat goed voor jou? Laat het even weten.\n\nGroetjes,\nAhmed"
     }
   ]
 }

@@ -7,56 +7,90 @@
   "recommendedTime": "30 min",
   "isFreePreview": false,
   "tips": [
-    "Always include reference numbers in formal complaints.",
-    "Be specific about your family composition — include ages of children.",
-    "Clearly explain why you need something — this strengthens any application.",
-    "Be firm but polite — avoid emotional language in formal letters."
+    "Bij een vergunningaanvraag: geef alle praktische details (datum, tijdstip, locatie, aantal personen).",
+    "Bij een klacht aan de gemeente: wees specifiek. Noem data, tijden en gevolgen.",
+    "Bij een woningaanvraag: geef details over uw gezin en uw huidige woonsituatie.",
+    "Eindig altijd met een concrete vraag of verzoek."
   ],
   "selfAssessmentCriteria": [
     {
+      "id": "bullets-covered",
+      "text": "I addressed all required points in each answer",
+      "textEn": "I addressed all required points in each answer"
+    },
+    {
       "id": "formal-register",
-      "text": "I used appropriate formality levels",
-      "textEn": "I used appropriate formality levels"
+      "text": "I used formal language throughout",
+      "textEn": "I used formal language throughout"
     },
     {
-      "id": "detail",
-      "text": "I provided sufficient detail and supporting arguments",
-      "textEn": "I provided sufficient detail and supporting arguments"
-    },
-    {
-      "id": "completeness",
-      "text": "I addressed all parts of each question",
-      "textEn": "I addressed all parts of each question"
+      "id": "specific-details",
+      "text": "I included specific details (dates, times, numbers)",
+      "textEn": "I included specific details (dates, times, numbers)"
     }
   ],
   "questions": [
     {
       "id": "schrijven-b1-2-q1",
-      "scenario": "U wilt een vergunning aanvragen voor een evenement in uw buurt.",
-      "scenarioEn": "You want to apply for a permit for a neighborhood event.",
-      "prompt": "Schrijf een brief aan de gemeente om een vergunning aan te vragen voor een buurtfeest. Geef details over het evenement.",
-      "promptEn": "Write a letter to the municipality to request a permit for a neighborhood party. Give details about the event.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q1-details", "text": "I included event details (date, time, location)", "textEn": "I included event details (date, time, location)" },
-        { "id": "q1-request", "text": "I clearly requested a permit", "textEn": "I clearly requested a permit" }
+      "scenario": "U organiseert samen met andere bewoners een buurtfeest in de Kerkstraat. Het feest is op zaterdag 21 juni van 14:00 tot 22:00 uur. U wilt een vergunning aanvragen bij de gemeente.",
+      "scenarioEn": "You are organising a neighbourhood party on Kerkstraat together with other residents. The party is on Saturday 21 June from 2 PM to 10 PM. You want to apply for a permit from the municipality.",
+      "bullets": [
+        "Schrijf voor welk evenement u een vergunning aanvraagt.",
+        "Geef details: datum, tijdstip en locatie.",
+        "Vraag wat u moet doen om de vergunning te krijgen."
       ],
-      "modelAnswer": "Geachte heer/mevrouw,\n\nNamens de bewoners van de Kerkstraat wil ik graag een vergunning aanvragen voor een buurtfeest. Het feest vindt plaats op zaterdag 21 juni van 14:00 tot 22:00 uur op het plein bij nummer 30. Wij verwachten ongeveer 50 bezoekers.\n\nKunt u mij laten weten welke stappen ik moet nemen?\n\nMet vriendelijke groet,\nSara Bakker"
+      "bulletsEn": [
+        "Write what event you are applying a permit for.",
+        "Give details: date, time, and location.",
+        "Ask what you need to do to obtain the permit."
+      ],
+      "prompt": "Schrijf de brief.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the letter.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "evenementen@gemeente.nl",
+        "subject": "Vergunningaanvraag buurtfeest Kerkstraat",
+        "salutation": "Geachte heer/mevrouw,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-event", "text": "I described the event I want a permit for", "textEn": "I described the event I want a permit for" },
+        { "id": "q1-details", "text": "I included the date, time, and location", "textEn": "I included the date, time, and location" },
+        { "id": "q1-request", "text": "I asked for information about obtaining the permit", "textEn": "I asked for information about obtaining the permit" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nNamens de bewoners van de Kerkstraat wil ik graag een vergunning aanvragen voor een buurtfeest. Het feest vindt plaats op zaterdag 21 juni van 14:00 tot 22:00 uur op het plein bij de Kerkstraat, ter hoogte van nummer 30. Wij verwachten ongeveer 60 bezoekers uit de buurt.\n\nKunt u mij informeren welke stappen ik moet ondernemen om de vergunning aan te vragen? Zijn er kosten verbonden aan de aanvraag?\n\nMet vriendelijke groet,\nSara Bakker\n06-12345678"
     },
     {
       "id": "schrijven-b1-2-q2",
-      "scenario": "U heeft een klacht over geluidsoverlast in uw buurt en wilt de gemeente vragen om actie te ondernemen.",
-      "scenarioEn": "You have a complaint about noise nuisance and want the municipality to take action.",
-      "prompt": "Schrijf een brief aan de gemeente over de geluidsoverlast. Beschrijf het probleem en vraag om een oplossing.",
-      "promptEn": "Write a letter to the municipality about the noise nuisance. Describe the problem and ask for a solution.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-problem", "text": "I clearly described the noise problem", "textEn": "I clearly described the noise problem" },
-        { "id": "q2-solution", "text": "I asked for a specific action or solution", "textEn": "I asked for a specific action or solution" }
+      "scenario": "U woont aan de Hoofdstraat 15. Naast uw woning is al weken een bouwproject bezig. Het werk begint elke dag al om 7:00 uur 's ochtends en stopt pas om 20:00 uur 's avonds. U slaapt slecht en uw kinderen kunnen moeilijk huiswerk maken.",
+      "scenarioEn": "You live at Hoofdstraat 15. Next to your home there has been a construction project for weeks. The work starts every day at 7 AM and does not stop until 8 PM. You are sleeping badly and your children are having trouble doing their homework.",
+      "bullets": [
+        "Beschrijf het probleem dat u ondervindt.",
+        "Schrijf wat de gevolgen zijn voor u en uw gezin.",
+        "Vraag de gemeente om maatregelen te nemen."
       ],
-      "modelAnswer": "Geachte heer/mevrouw,\n\nIk woon aan de Hoofdstraat 15 en ondervind al weken geluidsoverlast van het bouwproject naast mijn woning. Het werk begint vaak al om 7:00 uur 's ochtends en duurt tot laat in de avond. Dit is in strijd met de bouwverordening.\n\nIk verzoek u om de aannemer aan te spreken op de werktijden.\n\nMet vriendelijke groet,\nPeter de Jong"
+      "bulletsEn": [
+        "Describe the problem you are experiencing.",
+        "Write what the consequences are for you and your family.",
+        "Ask the municipality to take action."
+      ],
+      "prompt": "Schrijf de brief aan de gemeente.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the letter to the municipality.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "overlast@gemeente.nl",
+        "subject": "Klacht bouwoverlast Hoofdstraat 15",
+        "salutation": "Geachte heer/mevrouw,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-problem", "text": "I clearly described the construction noise problem", "textEn": "I clearly described the construction noise problem" },
+        { "id": "q2-impact", "text": "I explained the impact on my family", "textEn": "I explained the impact on my family" },
+        { "id": "q2-action", "text": "I asked the municipality to take action", "textEn": "I asked the municipality to take action" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk woon aan de Hoofdstraat 15 en ondervind al weken ernstige overlast van het bouwproject naast mijn woning. Het bouwwerk begint elke ochtend al om 7:00 uur en gaat door tot 20:00 uur. Dit is ver buiten de toegestane werktijden.\n\nDoor het constante lawaai slaap ik slecht en mijn kinderen kunnen 's avonds moeilijk hun huiswerk maken. Dit heeft gevolgen voor onze gezondheid en voor de schoolresultaten van mijn kinderen.\n\nIk verzoek u om de aannemer aan te spreken op de werktijden en te controleren of zij zich houden aan de wettelijke normen.\n\nMet vriendelijke groet,\nPeter de Jong\nHoofdstraat 15, Amsterdam"
     },
     {
       "id": "schrijven-b1-2-q3",
@@ -66,16 +100,16 @@
       "promptEn": "Fill in the application form with your details.",
       "taskType": "form",
       "formFields": [
-        { "id": "naam", "label": "Volledige naam", "labelEn": "Full name", "type": "text", "placeholder": "Voornaam en achternaam" },
-        { "id": "geboortedatum", "label": "Geboortedatum", "labelEn": "Date of birth", "type": "text", "placeholder": "DD-MM-JJJJ" },
-        { "id": "adres", "label": "Huidig adres", "labelEn": "Current address", "type": "text", "placeholder": "Straatnaam, huisnummer, postcode, plaats" },
-        { "id": "telefoon", "label": "Telefoonnummer", "labelEn": "Phone number", "type": "text", "placeholder": "06-..." },
-        { "id": "email", "label": "E-mailadres", "labelEn": "Email address", "type": "text", "placeholder": "uw@email.nl" },
-        { "id": "gezin", "label": "Gezinssamenstelling (hoeveel personen en leeftijden)", "labelEn": "Family composition (how many people and ages)", "type": "textarea", "placeholder": "Bijv: 2 volwassenen, 1 kind (4 jaar)" },
-        { "id": "huidig-woning", "label": "Huidige woonsituatie (huur/koop, type woning, reden van verhuizing)", "labelEn": "Current housing situation (rent/own, type, reason for moving)", "type": "textarea", "placeholder": "Beschrijf uw huidige situatie" },
-        { "id": "wensen", "label": "Wensen nieuwe woning (type, aantal kamers, buurt)", "labelEn": "New home preferences (type, rooms, neighborhood)", "type": "textarea", "placeholder": "Beschrijf uw wensen" },
-        { "id": "inkomen", "label": "Bruto jaarinkomen huishouden", "labelEn": "Gross annual household income", "type": "text", "placeholder": "€..." },
-        { "id": "toelichting", "label": "Aanvullende toelichting (optioneel)", "labelEn": "Additional notes (optional)", "type": "textarea", "placeholder": "Bijzondere omstandigheden of opmerkingen" }
+        { "id": "naam", "label": "Volledige naam", "labelEn": "Full name", "type": "text", "required": true, "placeholder": "Voornaam en achternaam" },
+        { "id": "geboortedatum", "label": "Geboortedatum", "labelEn": "Date of birth", "type": "text", "required": true, "placeholder": "DD-MM-JJJJ" },
+        { "id": "adres", "label": "Huidig adres", "labelEn": "Current address", "type": "text", "required": true, "placeholder": "Straatnaam, huisnummer, postcode, plaats" },
+        { "id": "telefoon", "label": "Telefoonnummer", "labelEn": "Phone number", "type": "text", "required": true, "placeholder": "06-..." },
+        { "id": "email", "label": "E-mailadres", "labelEn": "Email address", "type": "text", "required": true, "placeholder": "uw@email.nl" },
+        { "id": "gezin", "label": "Gezinssamenstelling (hoeveel personen en leeftijden)", "labelEn": "Family composition (how many people and ages)", "type": "textarea", "required": true, "placeholder": "Bijv: 2 volwassenen, 1 kind (4 jaar)" },
+        { "id": "huidig-woning", "label": "Huidige woonsituatie (huur/koop, type woning, reden van verhuizing)", "labelEn": "Current housing situation (rent/own, type, reason for moving)", "type": "textarea", "required": true, "placeholder": "Beschrijf uw huidige situatie" },
+        { "id": "wensen", "label": "Wensen nieuwe woning (type, aantal kamers, buurt)", "labelEn": "New home preferences (type, rooms, neighbourhood)", "type": "textarea", "required": true, "placeholder": "Beschrijf uw wensen" },
+        { "id": "inkomen", "label": "Bruto jaarinkomen huishouden", "labelEn": "Gross annual household income", "type": "text", "required": true, "placeholder": "€..." },
+        { "id": "toelichting", "label": "Aanvullende toelichting (optioneel)", "labelEn": "Additional notes (optional)", "type": "textarea", "required": false, "placeholder": "Bijzondere omstandigheden of opmerkingen" }
       ],
       "selfAssessmentCriteria": [
         { "id": "q3-complete", "text": "I filled in all required fields", "textEn": "I filled in all required fields" },
@@ -88,8 +122,8 @@
         "telefoon": "06-12345678",
         "email": "amira.elkhoury@email.nl",
         "gezin": "2 volwassenen, 2 kinderen (3 jaar en 6 jaar)",
-        "huidig-woning": "Huurwoning, bovenwoning 2 kamers. Te klein voor ons gezin.",
-        "wensen": "Appartement met minimaal 3 slaapkamers, Amsterdam-Oost of Zuidoost",
+        "huidig-woning": "Huurwoning, bovenwoning 2 kamers. Te klein voor ons gezin, kinderen delen een kamer.",
+        "wensen": "Appartement met minimaal 3 slaapkamers, Amsterdam-Oost of Zuidoost, in de buurt van een basisschool.",
         "inkomen": "€38.000",
         "toelichting": "Wij staan sinds 2023 ingeschreven bij WoningNet."
       }

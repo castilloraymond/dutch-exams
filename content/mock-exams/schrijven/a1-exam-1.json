@@ -7,26 +7,26 @@
   "recommendedTime": "30 min",
   "isFreePreview": true,
   "tips": [
-    "On the real exam, you'll write by hand. Practice your Dutch handwriting too!",
-    "Dutch postal codes have 4 numbers followed by 2 letters (e.g., 1012 AB).",
-    "Use the format DD-MM-YYYY for dates in the Netherlands.",
-    "Keep your messages short and clear — you don't get extra points for complex vocabulary."
+    "Bij een formulier: gebruik het juiste datumformaat (DD-MM-JJJJ) en postcodesformaat (1234 AB).",
+    "Een briefje aan de buurman mag informeel zijn: 'Beste buurman' of 'Dag Bas'.",
+    "Schrijf in hele zinnen. Geen opsomming.",
+    "Vergeet uw naam niet aan het einde."
   ],
   "selfAssessmentCriteria": [
     {
-      "id": "all-fields",
-      "text": "I filled in all required fields correctly",
-      "textEn": "I filled in all required fields correctly"
+      "id": "all-fields-complete",
+      "text": "I filled in all required fields correctly (for forms)",
+      "textEn": "I filled in all required fields correctly (for forms)"
     },
     {
-      "id": "clear-message",
-      "text": "My messages are clear and easy to understand",
-      "textEn": "My messages are clear and easy to understand"
+      "id": "bullets-covered",
+      "text": "I addressed all the bullet points in my written answer",
+      "textEn": "I addressed all the bullet points in my written answer"
     },
     {
       "id": "greeting-closing",
-      "text": "I used appropriate greetings and closings",
-      "textEn": "I used appropriate greetings and closings"
+      "text": "I used an appropriate greeting and closing",
+      "textEn": "I used an appropriate greeting and closing"
     }
   ],
   "questions": [
@@ -137,32 +137,53 @@
     },
     {
       "id": "schrijven-a1-1-q2",
-      "scenario": "U gaat een feestje geven en het kan laat worden. U wilt uw buurman waarschuwen.",
-      "scenarioEn": "You are having a party and it might get loud. You want to warn your neighbor.",
-      "prompt": "Schrijf een briefje aan uw buurman. Vertel dat u een feestje geeft en dat het misschien laat wordt.",
-      "promptEn": "Write a note to your neighbor. Tell them you are having a party and it might be late.",
-      "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-info", "text": "I mentioned the party", "textEn": "I mentioned the party" },
-        { "id": "q2-warning", "text": "I warned about possible noise", "textEn": "I warned about possible noise" },
-        { "id": "q2-polite", "text": "I was polite and considerate", "textEn": "I was polite and considerate" }
+      "scenario": "U verwacht vandaag een pakketje, maar u bent de hele dag niet thuis. Uw buurman heet Bas. U schrijft hem een briefje.",
+      "scenarioEn": "You are expecting a package today but will not be home all day. Your neighbour is called Bas. You write him a note.",
+      "bullets": [
+        "Schrijf waarom u hem schrijft.",
+        "Vraag of hij het pakketje voor u kan aannemen.",
+        "Schrijf wanneer u het komt ophalen."
       ],
-      "modelAnswer": "Beste buurman,\n\nIk wil u even laten weten dat ik zaterdagavond een feestje geef. Het kan misschien een beetje luid worden. Ik doe mijn best om niet te veel lawaai te maken.\n\nSorry voor het ongemak!\n\nGroetjes,\nKarim"
+      "bulletsEn": [
+        "Write why you are writing to him.",
+        "Ask if he can accept the package for you.",
+        "Write when you will come to collect it."
+      ],
+      "prompt": "Schrijf het briefje.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the note.\nWrite in complete sentences.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-package", "text": "I mentioned that a package is coming", "textEn": "I mentioned that a package is coming" },
+        { "id": "q2-request", "text": "I asked him to accept the package", "textEn": "I asked him to accept the package" },
+        { "id": "q2-pickup", "text": "I said when I will pick it up", "textEn": "I said when I will pick it up" }
+      ],
+      "modelAnswer": "Beste Bas,\n\nIk verwacht vandaag een pakketje, maar ik ben niet thuis. Kun jij het voor mij aannemen? Ik kom het vanavond na zes uur ophalen. Alvast bedankt!\n\nGroetjes,\nKarim"
     },
     {
       "id": "schrijven-a1-1-q3",
-      "scenario": "De kat van uw buurman zit in uw tuin. U wilt de buurman informeren.",
-      "scenarioEn": "Your neighbor's cat is in your garden. You want to let the neighbor know.",
-      "prompt": "Schrijf een kort briefje aan uw buurman. Vertel dat zijn kat in uw tuin is.",
-      "promptEn": "Write a short note to your neighbor. Tell them their cat is in your garden.",
-      "taskType": "free-text",
-      "wordRange": { "min": 20, "max": 45 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-info", "text": "I mentioned the cat", "textEn": "I mentioned the cat" },
-        { "id": "q3-friendly", "text": "My message is friendly", "textEn": "My message is friendly" }
+      "scenario": "U ontvangt elke week een wijkkrant. Iedereen in de buurt mag iets schrijven. U schrijft iets over uzelf en uw hobby. Schrijf minimaal drie zinnen. Denk aan:",
+      "scenarioEn": "You receive a neighbourhood newsletter every week. Everyone in the neighbourhood can write something. You write about yourself and your hobby. Write at least three sentences. Think about:",
+      "bullets": [
+        "Hoe heet u en waar woont u?",
+        "Welke hobby heeft u?",
+        "Waarom vindt u uw hobby leuk?"
       ],
-      "modelAnswer": "Dag buurman,\n\nUw kat zit in mijn tuin. Ik heb hem eten gegeven. U kunt hem ophalen wanneer u wilt. Ik ben tot 20:00 uur thuis.\n\nGroetjes,\nKarim"
+      "bulletsEn": [
+        "What is your name and where do you live?",
+        "What is your hobby?",
+        "Why do you enjoy your hobby?"
+      ],
+      "prompt": "Dit is mijn tekst:",
+      "promptEn": "This is my text:",
+      "taskType": "free-text",
+      "wordRange": { "min": 35, "max": 65 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-intro", "text": "I introduced myself (name and where I live)", "textEn": "I introduced myself (name and where I live)" },
+        { "id": "q3-hobby", "text": "I described my hobby", "textEn": "I described my hobby" },
+        { "id": "q3-why", "text": "I explained why I enjoy it", "textEn": "I explained why I enjoy it" }
+      ],
+      "modelAnswer": "Mijn naam is Karim en ik woon in de Hoofdstraat in Amsterdam. Ik woon hier al twee jaar. Mijn hobby is voetbal. Iedere zaterdag speel ik voetbal met vrienden in het park. Ik vind het leuk omdat het goed is voor mijn gezondheid en ik nieuwe mensen leer kennen."
     }
   ]
 }
