@@ -8,653 +8,604 @@
   "questions": [
     {
       "id": "knm-b1-3-q1",
-      "text": "Vanaf welke leeftijd begint de leerplicht in Nederland?",
+      "text": "Amara's dochter is 4 jaar. Ze vraagt of haar dochter al naar school moet. Wanneer begint de leerplicht in Nederland?",
       "options": [
-        "Vanaf 4 jaar",
-        "Vanaf 5 jaar",
         "Vanaf 6 jaar",
-        "Vanaf 7 jaar"
+        "Vanaf 5 jaar",
+        "Vanaf 4 jaar"
       ],
       "correctIndex": 1,
-      "explanation": "In Nederland begint de leerplicht op de eerste schooldag van de maand nadat een kind 5 jaar is geworden. Kinderen mogen al vanaf 4 jaar naar de basisschool, maar dit is niet verplicht.",
-      "explanationEn": "In the Netherlands, compulsory education starts on the first school day of the month after a child turns 5. Children may attend primary school from age 4, but this is not mandatory."
+      "explanation": "De leerplicht begint op de eerste schooldag van de maand nadat een kind 5 jaar is geworden. Kinderen mogen al vanaf 4 jaar naar de basisschool.",
+      "explanationEn": "Compulsory education starts on the first school day of the month after a child turns 5. Children may attend school from age 4."
     },
     {
       "id": "knm-b1-3-q2",
-      "text": "Tot welke leeftijd geldt de volledige leerplicht in Nederland?",
+      "text": "De zoon van Kofi is 16 jaar en wil stoppen met school. Kofi weet dat er een leerplicht is. Tot welke leeftijd geldt de volledige leerplicht?",
       "options": [
         "Tot 14 jaar",
         "Tot 16 jaar",
-        "Tot 18 jaar",
-        "Tot 21 jaar"
+        "Tot 18 jaar"
       ],
       "correctIndex": 1,
-      "explanation": "De volledige leerplicht geldt tot en met het schooljaar waarin het kind 16 jaar wordt. Daarna geldt de kwalificatieplicht tot 18 jaar: jongeren moeten onderwijs volgen totdat ze een startkwalificatie (havo, vwo of mbo niveau 2) hebben behaald.",
-      "explanationEn": "Full compulsory education applies until the end of the school year in which the child turns 16. After that, the qualification obligation applies until age 18: young people must continue education until they have obtained a basic qualification (havo, vwo, or mbo level 2 diploma)."
+      "explanation": "De volledige leerplicht geldt tot de leeftijd van 16 jaar. Daarna geldt de kwalificatieplicht tot 18 jaar.",
+      "explanationEn": "Full compulsory education applies until the age of 16. After that, the qualification obligation applies until age 18."
     },
     {
       "id": "knm-b1-3-q3",
-      "text": "Wat is de Cito-toets?",
+      "text": "Sanne's zoon is 17 jaar en heeft de school verlaten zonder diploma. Zijn moeder hoort dat hij nog steeds naar school moet of een opleiding moet doen. Hoe heet deze verplichting?",
       "options": [
-        "Een toelatingsexamen voor de universiteit",
-        "Een eindtoets in groep 8 van de basisschool die helpt bij het schooladvies voor het voortgezet onderwijs",
-        "Een verplichte taaltoets voor inburgeraars",
-        "Een jaarlijkse toets die alle leerlingen in het voortgezet onderwijs moeten maken"
+        "De kwalificatieplicht",
+        "De stageplicht",
+        "De leerplicht"
       ],
-      "correctIndex": 1,
-      "explanation": "De Cito-toets (officieel: Centrale Eindtoets) wordt afgenomen in groep 8 van de basisschool. De toets geeft een advies voor het niveau van het voortgezet onderwijs (vmbo, havo of vwo). Het schooladvies van de leraar weegt zwaarder dan de toetsuitslag.",
-      "explanationEn": "The Cito test (officially: Central Final Test) is taken in group 8 of primary school. It provides a recommendation for the level of secondary education (vmbo, havo, or vwo). The teacher's school recommendation carries more weight than the test result."
+      "correctIndex": 0,
+      "explanation": "De kwalificatieplicht geldt van 16 tot 18 jaar. Jongeren moeten een startkwalificatie (mbo 2, havo of vwo) halen, tenzij ze al een diploma hebben.",
+      "explanationEn": "The qualification obligation applies from ages 16 to 18. Young people must obtain a basic qualification (mbo 2, havo, or vwo) unless they already have a diploma."
     },
     {
       "id": "knm-b1-3-q4",
-      "text": "Welke drie niveaus heeft het voortgezet onderwijs (middelbare school) in Nederland?",
+      "text": "Lars heeft zijn basisschool afgerond. De school adviseert hem het VMBO. Zijn ouders vragen wat VMBO is. Wat legt de decaan uit?",
       "options": [
-        "Vmbo, havo en vwo",
-        "Mbo, hbo en wo",
-        "Basisschool, middelbare school en universiteit",
-        "Groep 1, groep 2 en groep 3"
+        "VMBO is voorbereidend middelbaar beroepsonderwijs, gericht op mbo na de middelbare school",
+        "VMBO is hetzelfde als VWO maar voor oudere kinderen",
+        "VMBO is voorbereidend wetenschappelijk onderwijs voor hbo"
       ],
       "correctIndex": 0,
-      "explanation": "Het voortgezet onderwijs in Nederland heeft drie niveaus: vmbo (4 jaar, beroepsgericht), havo (5 jaar, voorbereiding op hbo) en vwo (6 jaar, voorbereiding op universiteit).",
-      "explanationEn": "Secondary education in the Netherlands has three levels: vmbo (4 years, vocational), havo (5 years, preparation for universities of applied sciences), and vwo (6 years, preparation for research universities)."
+      "explanation": "VMBO (voorbereidend middelbaar beroepsonderwijs) bereidt leerlingen voor op het MBO. Er zijn vier leerwegen met verschillende niveaus.",
+      "explanationEn": "VMBO (preparatory secondary vocational education) prepares students for MBO. There are four learning pathways with different levels."
     },
     {
       "id": "knm-b1-3-q5",
-      "text": "Wat is DUO en welke rol speelt het in het onderwijs?",
+      "text": "Nina heeft HAVO gedaan en wil nu verder studeren. Ze wil een praktische opleiding volgen, niet puur wetenschappelijk. Welk type onderwijs past hierbij?",
       "options": [
-        "Een privaat opleidingsinstituut voor volwassenenonderwijs",
-        "De organisatie die diploma's uitgeeft aan buitenlandse studenten",
-        "De Dienst Uitvoering Onderwijs, verantwoordelijk voor studiefinanciering, het bekostigen van onderwijsinstellingen en het erkennen van diploma's",
-        "Een adviesbureau dat scholen helpt bij het maken van lesprogramma's"
+        "Universiteit (WO)",
+        "Hogeschool (HBO)",
+        "MBO"
       ],
-      "correctIndex": 2,
-      "explanation": "DUO (Dienst Uitvoering Onderwijs) is een uitvoeringsorganisatie van het Ministerie van Onderwijs. DUO verzorgt onder andere studiefinanciering, bekostigt onderwijsinstellingen, registreert diploma's en beoordeelt buitenlandse diploma's.",
-      "explanationEn": "DUO (Education Executive Agency) is an executive agency of the Ministry of Education. DUO handles student financing, funds educational institutions, registers diplomas, and evaluates foreign diplomas."
+      "correctIndex": 1,
+      "explanation": "Een hogeschool (HBO) biedt praktijkgerichte opleidingen. HAVO-diploma is de toelatingsvereiste voor HBO.",
+      "explanationEn": "A university of applied sciences (HBO) offers practice-oriented programs. HAVO diploma is the admission requirement for HBO."
     },
     {
       "id": "knm-b1-3-q6",
-      "text": "Wie komt er in aanmerking voor studiefinanciering in Nederland?",
+      "text": "Reza heeft zijn VWO-diploma en wil medisch onderzoeker worden. Zijn studieadviseur raadt hem aan te gaan studeren aan een wetenschappelijke instelling. Welke instelling is dit?",
       "options": [
-        "Alle studenten die in Nederland wonen",
-        "Studenten van 18 tot 30 jaar die een voltijdopleiding volgen aan een door de overheid erkende instelling",
-        "Alleen Nederlandse studenten onder 25 jaar",
-        "Alleen studenten aan de universiteit"
+        "Een universiteit (WO)",
+        "Een hogeschool (HBO)",
+        "Een ROC (MBO-school)"
       ],
-      "correctIndex": 1,
-      "explanation": "Studiefinanciering is beschikbaar voor studenten tussen 18 en 30 jaar die een voltijds mbo-, hbo- of wo-opleiding volgen aan een door de overheid erkende (bekostigde) instelling. EU-studenten die in Nederland werken kunnen ook in aanmerking komen.",
-      "explanationEn": "Student financing is available for students aged 18 to 30 who are enrolled full-time in an mbo, hbo, or wo program at a government-accredited institution. EU students who work in the Netherlands may also be eligible."
+      "correctIndex": 0,
+      "explanation": "Een universiteit (WO) biedt wetenschappelijk onderwijs. VWO is de directe toegang tot een universitaire opleiding.",
+      "explanationEn": "A university (WO) provides academic education. VWO is the direct pathway to a university program."
     },
     {
       "id": "knm-b1-3-q7",
-      "text": "Wat is het verschil tussen hbo en wo in Nederland?",
+      "text": "Sofia wil na haar VMBO-diploma leren en werken tegelijk. Ze wil een opleiding waarbij ze een dag per week naar school gaat en vier dagen werkt bij een bedrijf. Hoe heet dit in het MBO?",
       "options": [
-        "Hbo is alleen voor buitenlandse studenten, wo is voor Nederlandse studenten",
-        "Hbo is goedkoper dan wo",
-        "Hbo is hoger beroepsonderwijs met een praktijkgerichte opleiding, wo is wetenschappelijk onderwijs gericht op onderzoek en theorie",
-        "Er is geen verschil, het zijn twee namen voor hetzelfde type onderwijs"
+        "Dubbele leertijd",
+        "BOL (beroepsopleidende leerweg)",
+        "BBL (beroepsbegeleidende leerweg)"
       ],
       "correctIndex": 2,
-      "explanation": "Hbo (hoger beroepsonderwijs) wordt gegeven aan hogescholen en is praktijkgericht. Wo (wetenschappelijk onderwijs) wordt gegeven aan universiteiten en is gericht op wetenschappelijk onderzoek en theorie. Beide niveaus vallen onder het hoger onderwijs.",
-      "explanationEn": "Hbo (higher professional education) is provided at universities of applied sciences and is practice-oriented. Wo (scientific education) is provided at research universities and focuses on academic research and theory. Both levels are part of higher education."
+      "explanation": "De BBL (beroepsbegeleidende leerweg) is een MBO-leerweg waarbij je voornamelijk leert op de werkvloer en één dag per week naar school gaat.",
+      "explanationEn": "The BBL (work-based learning pathway) is an MBO program where you mainly learn at the workplace and attend school one day per week."
     },
     {
       "id": "knm-b1-3-q8",
-      "text": "Hoe lang duurt de basisschool in Nederland?",
+      "text": "Yuki wil Nederlander worden. Ze woont al 7 jaar in Nederland en heeft haar inburgeringsexamen gehaald. Hoe heet de procedure om de Nederlandse nationaliteit te krijgen?",
       "options": [
-        "6 jaar (groep 1 tot en met 6)",
-        "8 jaar (groep 1 tot en met 8)",
-        "7 jaar (groep 1 tot en met 7)",
-        "5 jaar (groep 4 tot en met 8)"
+        "Verblijfsvergunning",
+        "Migratie",
+        "Naturalisatie"
       ],
-      "correctIndex": 1,
-      "explanation": "De basisschool in Nederland duurt 8 jaar, van groep 1 tot en met groep 8. Kinderen beginnen meestal op 4-jarige leeftijd in groep 1 en verlaten de basisschool rond hun 12e jaar.",
-      "explanationEn": "Primary school in the Netherlands lasts 8 years, from group 1 through group 8. Children usually start in group 1 at age 4 and leave primary school around age 12."
+      "correctIndex": 2,
+      "explanation": "Naturalisatie is de procedure waarbij je de Nederlandse nationaliteit aanvraagt. Voorwaarden zijn onder andere: minimaal 5 jaar wonen in Nederland en inburgering.",
+      "explanationEn": "Naturalization is the procedure for applying for Dutch citizenship. Requirements include: living in the Netherlands for at least 5 years and integration."
     },
     {
       "id": "knm-b1-3-q9",
-      "text": "Wat zijn de vier leerwegen binnen het vmbo?",
+      "text": "Hassan wil naturaliseren tot Nederlander. Hij vraagt hoelang hij minimaal in Nederland moet wonen voordat hij dit kan aanvragen. Wat is de algemene vereiste?",
       "options": [
-        "Basis, kader, gemengd en theoretisch",
-        "Techniek, zorg, economie en landbouw",
-        "Mbo 1, mbo 2, mbo 3 en mbo 4",
-        "Havo, vwo, gymnasium en atheneum"
+        "10 jaar",
+        "5 jaar",
+        "3 jaar"
       ],
-      "correctIndex": 0,
-      "explanation": "Het vmbo heeft vier leerwegen: de basisberoepsgerichte leerweg, de kaderberoepsgerichte leerweg, de gemengde leerweg en de theoretische leerweg. De theoretische leerweg is het meest theoretisch en geeft toegang tot havo.",
-      "explanationEn": "Vmbo has four learning pathways: the basic vocational pathway, the middle-management vocational pathway, the combined pathway, and the theoretical pathway. The theoretical pathway is the most academic and provides access to havo."
+      "correctIndex": 1,
+      "explanation": "Voor naturalisatie moet je in de meeste gevallen minimaal 5 jaar aaneengesloten in Nederland hebben gewoond met een geldige verblijfsvergunning.",
+      "explanationEn": "For naturalization, you must generally have lived in the Netherlands continuously for at least 5 years with a valid residence permit."
     },
     {
       "id": "knm-b1-3-q10",
-      "text": "Wat is een mbo-opleiding en welke niveaus zijn er?",
+      "text": "Fatima wil naturaliseren maar heeft ook een andere nationaliteit. Haar adviseur vertelt haar dat Nederland in principe geen dubbele nationaliteit toestaat. Wat is de algemene regel?",
       "options": [
-        "Middelbaar beroepsonderwijs met 4 niveaus, van mbo 1 (entreeopleiding) tot mbo 4 (middenkaderopleiding)",
-        "Middelbaar basisonderwijs met 3 niveaus",
-        "Een type voortgezet onderwijs met 2 niveaus",
-        "Speciaal onderwijs voor volwassenen met 5 niveaus"
+        "Nederland staat in principe geen dubbele nationaliteit toe, maar er zijn uitzonderingen",
+        "Dubbele nationaliteit is altijd toegestaan in Nederland",
+        "Je moet kiezen vóór je 30e"
       ],
       "correctIndex": 0,
-      "explanation": "Mbo (middelbaar beroepsonderwijs) heeft vier niveaus: mbo 1 (entreeopleiding), mbo 2 (basisberoepsopleiding), mbo 3 (vakopleiding) en mbo 4 (middenkaderopleiding). Een mbo-2 diploma geldt als startkwalificatie.",
-      "explanationEn": "Mbo (secondary vocational education) has four levels: mbo 1 (entry training), mbo 2 (basic vocational training), mbo 3 (professional training), and mbo 4 (middle management training). An mbo-2 diploma counts as a basic qualification."
+      "explanation": "Nederland staat in principe geen dubbele nationaliteit toe. Bij naturalisatie moet je de andere nationaliteit in de meeste gevallen afstaan, maar er zijn uitzonderingen.",
+      "explanationEn": "The Netherlands generally does not allow dual nationality. When naturalizing, you must in most cases give up the other nationality, but there are exceptions."
     },
     {
       "id": "knm-b1-3-q11",
-      "text": "Wat is kinderopvangtoeslag?",
+      "text": "Elena heeft de Nederlandse nationaliteit verkregen via naturalisatie. Ze wil weten welke rechten ze nu heeft die ze daarvoor niet had. Welk recht heeft ze nu?",
       "options": [
-        "Een verplichte bijdrage van ouders aan de school",
-        "Een tegemoetkoming van de overheid in de kosten van kinderopvang voor werkende ouders",
-        "Een subsidie die kinderopvangcentra rechtstreeks ontvangen",
-        "Een bijstandsuitkering voor alleenstaande ouders"
+        "Het stemrecht bij alle verkiezingen, inclusief de Tweede Kamer",
+        "Het recht op een hogere uitkering",
+        "Het recht om in Nederland te wonen"
       ],
-      "correctIndex": 1,
-      "explanation": "Kinderopvangtoeslag is een tegemoetkoming van de Belastingdienst in de kosten van kinderopvang. Beide ouders moeten werken, studeren of een inburgeringscursus volgen om in aanmerking te komen. De hoogte hangt af van het inkomen.",
-      "explanationEn": "Childcare benefit (kinderopvangtoeslag) is a government contribution toward childcare costs from the Tax Authority. Both parents must work, study, or take an integration course to be eligible. The amount depends on income."
+      "correctIndex": 0,
+      "explanation": "Met de Nederlandse nationaliteit krijg je stemrecht bij alle verkiezingen, waaronder de Tweede Kamerverkiezingen. Niet-Nederlanders mogen alleen bij gemeenteraadsverkiezingen stemmen.",
+      "explanationEn": "With Dutch citizenship, you get voting rights in all elections, including the House of Representatives. Non-Dutch residents may only vote in municipal elections."
     },
     {
       "id": "knm-b1-3-q12",
-      "text": "Wat is een gastouder?",
+      "text": "David woont al 3 jaar in Nederland met een verblijfsvergunning. Er zijn gemeenteraadsverkiezingen. Mag hij stemmen?",
       "options": [
-        "Een leraar op een basisschool",
-        "Een professional die in een kinderdagverblijf werkt",
-        "Iemand die bij zich thuis of bij de ouders thuis op kinderen past, geregistreerd bij een gastouderbureau",
-        "Een vrijwilliger die gratis op kinderen past"
+        "Ja, EU-burgers en mensen die 5 jaar of langer legaal in Nederland wonen mogen stemmen bij gemeenteraadsverkiezingen",
+        "Nee, hij moet eerst naturaliseren",
+        "Nee, alleen Nederlanders mogen stemmen"
       ],
-      "correctIndex": 2,
-      "explanation": "Een gastouder vangt kinderen op in een huiselijke omgeving, bij de gastouder thuis of bij de ouders thuis. De gastouder moet geregistreerd zijn bij een gastouderbureau en voldoen aan kwaliteitseisen. Ouders kunnen kinderopvangtoeslag krijgen voor gastouderopvang.",
-      "explanationEn": "A childminder (gastouder) cares for children in a home environment, either at the childminder's home or the parents' home. The childminder must be registered with a childminding agency and meet quality requirements. Parents can receive childcare benefit for childminding."
+      "correctIndex": 0,
+      "explanation": "Bij gemeenteraadsverkiezingen mogen ook niet-Nederlanders stemmen als ze legaal 5 jaar of langer in Nederland wonen. EU-burgers mogen dit eerder.",
+      "explanationEn": "In municipal elections, non-Dutch people may also vote if they have legally lived in the Netherlands for 5 years or more. EU citizens can do this earlier."
     },
     {
       "id": "knm-b1-3-q13",
-      "text": "Wat is buitenschoolse opvang (BSO)?",
+      "text": "Pieter wil de overheid een vraag stellen over zijn belastingaangifte. Hij heeft geen antwoord gekregen. Waar kan hij terecht om zijn rechten als burger jegens de overheid te beschermen?",
       "options": [
-        "Extra lessen na schooltijd voor kinderen die slecht presteren",
-        "Opvang voor kinderen voor en na schooltijd en tijdens schoolvakanties",
-        "Een sportprogramma dat scholen aanbieden na schooltijd",
-        "Opvang voor kinderen van 0 tot 4 jaar"
+        "Bij de burgemeester",
+        "Bij de Nationale ombudsman",
+        "Bij de Tweede Kamer"
       ],
       "correctIndex": 1,
-      "explanation": "BSO (buitenschoolse opvang) biedt opvang voor kinderen van 4 tot 12 jaar voor en na schooltijd en tijdens schoolvakanties. Ouders die werken of studeren kunnen kinderopvangtoeslag aanvragen voor BSO.",
-      "explanationEn": "BSO (out-of-school care) provides care for children aged 4 to 12 before and after school hours and during school holidays. Working or studying parents can apply for childcare benefit for BSO."
+      "explanation": "De Nationale ombudsman behandelt klachten over de overheid. Hij is onafhankelijk en onderzoekt of de overheid correct heeft gehandeld.",
+      "explanationEn": "The National Ombudsman handles complaints about the government. He is independent and investigates whether the government acted correctly."
     },
     {
       "id": "knm-b1-3-q14",
-      "text": "Wat is een kinderdagverblijf (KDV)?",
+      "text": "Marie wil bezwaar maken tegen een beslissing van de gemeente. Haar belastingadviseur zegt dat er een officieel systeem bestaat. Hoe heet de procedure om bezwaar te maken?",
       "options": [
-        "Een school voor kinderen van 4 tot 12 jaar",
-        "Opvang voor kinderen van 0 tot 4 jaar, meestal gedurende hele dagen",
-        "Een ziekenhuis voor kinderen",
-        "Een speeltuin die door de gemeente wordt beheerd"
+        "Een rechtszaak starten",
+        "Een klacht indienen bij de politie",
+        "Een bezwaarschrift indienen bij de instantie die het besluit nam"
       ],
-      "correctIndex": 1,
-      "explanation": "Een kinderdagverblijf (KDV) biedt professionele opvang voor kinderen van 0 tot 4 jaar, meestal gedurende hele dagen. KDV's moeten voldoen aan strenge kwaliteitseisen en zijn geregistreerd in het Landelijk Register Kinderopvang (LRK).",
-      "explanationEn": "A day care center (KDV) provides professional care for children aged 0 to 4, usually for full days. Day care centers must meet strict quality requirements and are registered in the National Childcare Register (LRK)."
+      "correctIndex": 2,
+      "explanation": "Je kunt bezwaar maken door een bezwaarschrift in te dienen bij de overheidsinstantie die het besluit heeft genomen. Als dat niet helpt, kun je in beroep gaan bij de rechter.",
+      "explanationEn": "You can appeal by submitting an objection letter to the government body that made the decision. If that doesn't help, you can appeal to a court."
     },
     {
       "id": "knm-b1-3-q15",
-      "text": "Aan welke eis moet kinderopvang voldoen om in aanmerking te komen voor kinderopvangtoeslag?",
+      "text": "Tom wil meer weten over de Nederlandse democratie. Hij weet dat burgers elke vier jaar kunnen stemmen. Welk orgaan worden er bij de Tweede Kamerverkiezingen gekozen?",
       "options": [
-        "De opvang moet door een familielid worden gegeven",
-        "De opvang moet geregistreerd staan in het Landelijk Register Kinderopvang (LRK)",
-        "De opvang moet gratis zijn",
-        "De opvang moet op een school plaatsvinden"
+        "De burgemeesters",
+        "De leden van de Tweede Kamer (150 volksvertegenwoordigers)",
+        "De ministers"
       ],
       "correctIndex": 1,
-      "explanation": "Om kinderopvangtoeslag te kunnen ontvangen, moet de kinderopvang geregistreerd staan in het Landelijk Register Kinderopvang (LRK). De GGD controleert of opvanglocaties aan de kwaliteitseisen voldoen.",
-      "explanationEn": "To receive childcare benefit, the childcare provider must be registered in the National Childcare Register (LRK). The GGD (municipal health service) inspects whether childcare locations meet quality requirements."
+      "explanation": "Bij de Tweede Kamerverkiezingen kiezen burgers 150 volksvertegenwoordigers die nieuwe wetten maken en de regering controleren.",
+      "explanationEn": "In the House of Representatives elections, citizens choose 150 members of parliament who make new laws and oversee the government."
     },
     {
       "id": "knm-b1-3-q16",
-      "text": "Wat is een peuterspeelzaal en voor welke leeftijd is deze bedoeld?",
+      "text": "Lena hoort op het nieuws over Prinsjesdag. Ze weet niet wat dit is. Haar man legt het uit. Wat gebeurt er op Prinsjesdag?",
       "options": [
-        "Een school voor kinderen van 6 tot 8 jaar",
-        "Een opvangplek voor baby's van 0 tot 1 jaar",
-        "Een speelgroep voor peuters van 2 tot 4 jaar, meestal enkele dagdelen per week",
-        "Een naschoolse opvang voor kinderen van 4 tot 12 jaar"
+        "De koning spreekt de Troonrede uit en de minister van Financiën presenteert de rijksbegroting",
+        "Er worden nieuwe wetten aangenomen door de Tweede Kamer",
+        "De verjaardag van de kroonprins wordt gevierd"
       ],
-      "correctIndex": 2,
-      "explanation": "Een peuterspeelzaal (tegenwoordig vaak samengevoegd met kinderopvang) is bedoeld voor peuters van 2 tot 4 jaar. Kinderen gaan er enkele dagdelen per week naartoe om te spelen en zich te ontwikkelen. Het stimuleert de sociale en taalontwikkeling.",
-      "explanationEn": "A preschool playgroup (nowadays often merged with childcare) is for toddlers aged 2 to 4. Children attend a few half-days per week to play and develop. It stimulates social and language development."
+      "correctIndex": 0,
+      "explanation": "Op Prinsjesdag (derde dinsdag van september) opent de koning het nieuwe parlementaire jaar met de Troonrede. De minister van Financiën presenteert de rijksbegroting.",
+      "explanationEn": "On Budget Day (third Tuesday of September), the king opens the new parliamentary year with the Speech from the Throne. The Minister of Finance presents the national budget."
     },
     {
       "id": "knm-b1-3-q17",
-      "text": "Hoeveel kinderen mag een gastouder maximaal tegelijk opvangen?",
+      "text": "Mustafa vraagt wat de rol van de burgemeester is. Zijn vriendin legt het uit. Wat doet een burgemeester?",
       "options": [
-        "Maximaal 4 kinderen, inclusief eigen kinderen tot 10 jaar",
-        "Maximaal 6 kinderen",
-        "Maximaal 8 kinderen",
-        "Er is geen maximum"
+        "De burgemeester wordt gekozen door de inwoners van de stad",
+        "De burgemeester maakt nationale wetten",
+        "De burgemeester leidt de gemeente, zit de gemeenteraad voor en is verantwoordelijk voor openbare orde en veiligheid"
       ],
-      "correctIndex": 1,
-      "explanation": "Een gastouder mag maximaal 6 kinderen tegelijk opvangen, inclusief de eigen kinderen tot 10 jaar. Er gelden aanvullende regels over het maximum aantal kinderen per leeftijdsgroep.",
-      "explanationEn": "A childminder may care for a maximum of 6 children at the same time, including their own children under 10. Additional rules apply regarding the maximum number of children per age group."
+      "correctIndex": 2,
+      "explanation": "De burgemeester leidt de gemeente en is verantwoordelijk voor openbare orde en veiligheid. Hij wordt benoemd door de Kroon, niet gekozen door burgers.",
+      "explanationEn": "The mayor leads the municipality and is responsible for public order and safety. They are appointed by the Crown, not elected by citizens."
     },
     {
       "id": "knm-b1-3-q18",
-      "text": "Wat is voorschoolse educatie (VVE)?",
+      "text": "Carlos leest over de Tweede Wereldoorlog. Hij weet dat Nederland bevrijd werd op 5 mei 1945. Maar op welke datum herdenkt Nederland de slachtoffers van de oorlog?",
       "options": [
-        "Een extra examenvak in het voortgezet onderwijs",
-        "Onderwijs voor volwassenen die willen leren lezen",
-        "Een programma voor peuters van 2,5 tot 4 jaar met een (risico op) taalachterstand, aangeboden op kinderopvanglocaties",
-        "Bijles voor basisschoolleerlingen"
+        "27 april",
+        "5 mei",
+        "4 mei"
       ],
       "correctIndex": 2,
-      "explanation": "Voorschoolse en vroegschoolse educatie (VVE) is bedoeld voor peuters van 2,5 tot 4 jaar die een (risico op) taalachterstand hebben. Het programma wordt aangeboden op kinderopvanglocaties en richt zich op taal, rekenen en sociaal-emotionele ontwikkeling.",
-      "explanationEn": "Pre-school and early childhood education (VVE) is aimed at toddlers aged 2.5 to 4 who have (or are at risk of) a language delay. The program is offered at childcare locations and focuses on language, numeracy, and social-emotional development."
+      "explanation": "Op 4 mei is Dodenherdenking: Nederland herdenkt de slachtoffers van de Tweede Wereldoorlog. Op 5 mei viert Nederland de bevrijding.",
+      "explanationEn": "On May 4, Remembrance Day is observed: the Netherlands commemorates the victims of World War II. On May 5, the Netherlands celebrates liberation."
     },
     {
       "id": "knm-b1-3-q19",
-      "text": "Wat regelt het Landelijk Register Kinderopvang (LRK)?",
+      "text": "Anya woont in een sociaal huurhuis en betaalt elke maand huur. Ze wil weten of ze zorgtoeslag kan aanvragen. Bij welke organisatie vraagt ze toeslagen aan?",
       "options": [
-        "Het registreert alle basisscholen in Nederland",
-        "Het is een database met alle geregistreerde en goedgekeurde kinderopvangvoorzieningen in Nederland",
-        "Het bepaalt de prijzen van kinderopvang",
-        "Het geeft diploma's uit aan pedagogisch medewerkers"
+        "Bij de gemeente",
+        "Bij het UWV",
+        "Via de Belastingdienst (Toeslagen)"
       ],
-      "correctIndex": 1,
-      "explanation": "Het Landelijk Register Kinderopvang (LRK) is een openbare database waarin alle goedgekeurde kinderopvangvoorzieningen in Nederland staan geregistreerd. Ouders kunnen in het LRK controleren of hun opvang geregistreerd is, wat een voorwaarde is voor kinderopvangtoeslag.",
-      "explanationEn": "The National Childcare Register (LRK) is a public database listing all approved childcare facilities in the Netherlands. Parents can check in the LRK whether their childcare provider is registered, which is a requirement for childcare benefit."
+      "correctIndex": 2,
+      "explanation": "Toeslagen zoals zorgtoeslag, huurtoeslag en kindgebonden budget worden aangevraagd via de Belastingdienst/Toeslagen.",
+      "explanationEn": "Benefits such as healthcare allowance, housing benefit, and child benefit are applied for through the Tax Authority/Benefits (Belastingdienst/Toeslagen)."
     },
     {
       "id": "knm-b1-3-q20",
-      "text": "Welke kosten betalen ouders zelf naast de kinderopvangtoeslag?",
+      "text": "Peter heeft de AOW-leeftijd bereikt en wil met pensioen. Naast zijn AOW heeft hij pensioen opgebouwd via zijn werk. Hoe heet dit extra pensioen?",
       "options": [
-        "Ouders betalen niets, de overheid vergoedt alles",
-        "Ouders betalen een eigen bijdrage; de hoogte hangt af van het inkomen en het aantal opvanguren",
-        "Ouders betalen altijd 50% van de kosten",
-        "Ouders betalen alleen de kosten boven €1000 per maand"
+        "WIA",
+        "Bijstandsuitkering",
+        "Aanvullend pensioen (werknemerspensioen via het pensioenfonds)"
       ],
-      "correctIndex": 1,
-      "explanation": "Ouders betalen altijd een eigen bijdrage. De kinderopvangtoeslag vergoedt een deel van de kosten, afhankelijk van het gezamenlijk inkomen, het aantal kinderen en het aantal opvanguren. Hogere inkomens betalen een groter deel zelf.",
-      "explanationEn": "Parents always pay a personal contribution. Childcare benefit covers part of the costs, depending on combined household income, number of children, and number of childcare hours. Higher incomes pay a larger share themselves."
+      "correctIndex": 2,
+      "explanation": "Naast de AOW (staatspensioen) kunnen werknemers via hun werkgever een aanvullend pensioen opbouwen bij een pensioenfonds.",
+      "explanationEn": "In addition to the AOW (state pension), employees can build up a supplementary pension through their employer at a pension fund."
     },
     {
       "id": "knm-b1-3-q21",
-      "text": "Wat staat er in artikel 1 van de Nederlandse Grondwet?",
+      "text": "Layla heeft een bijstandsuitkering. Ze heeft een deeltijdbaan gevonden. Ze is bang dat ze haar volledige uitkering verliest. Wat geldt er?",
       "options": [
-        "Iedereen die in Nederland woont, moet de Nederlandse taal spreken",
-        "Allen die zich in Nederland bevinden, worden in gelijke gevallen gelijk behandeld. Discriminatie is niet toegestaan",
-        "Nederland is een democratische rechtsstaat met een koning als staatshoofd",
-        "Iedereen in Nederland heeft het recht op gratis onderwijs"
+        "Haar bijstandsuitkering wordt verminderd met het bedrag dat ze verdient, maar ze behoudt een aanvulling als haar inkomen onder het bijstandsniveau ligt",
+        "Ze mag niet werken met een bijstandsuitkering",
+        "Ze verliest direct haar volledige uitkering"
       ],
-      "correctIndex": 1,
-      "explanation": "Artikel 1 van de Grondwet bepaalt dat allen die zich in Nederland bevinden, in gelijke gevallen gelijk behandeld worden. Discriminatie wegens godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht of op welke grond dan ook, is niet toegestaan.",
-      "explanationEn": "Article 1 of the Dutch Constitution states that all persons in the Netherlands shall be treated equally in equal circumstances. Discrimination on the grounds of religion, belief, political opinion, race, sex, or on any other grounds whatsoever, is not permitted."
+      "correctIndex": 0,
+      "explanation": "Als je werkt met bijstand, wordt je uitkering verminderd met je inkomsten. De gemeente vult aan tot het bijstandsniveau als je inkomen te laag is.",
+      "explanationEn": "If you work while receiving social assistance, your benefit is reduced by your earnings. The municipality tops up to the social assistance level if your income is too low."
     },
     {
       "id": "knm-b1-3-q22",
-      "text": "Wat is het College voor de Rechten van de Mens?",
+      "text": "Nina heeft haar kind ingeschreven op een school die gebaseerd is op haar religie. Is dit mogelijk in Nederland?",
       "options": [
-        "Een rechtbank die alleen strafzaken behandelt",
-        "Een onafhankelijk orgaan dat oordeelt over klachten van discriminatie en mensenrechtenschendingen",
-        "Een afdeling van de politie die haatmisdrijven onderzoekt",
-        "Een internationale organisatie in Den Haag"
+        "Alleen als ze hiervoor een speciale vergunning aanvraagt",
+        "Nee, in Nederland zijn alleen openbare scholen toegestaan",
+        "Ja, de vrijheid van onderwijs staat in de Grondwet: ouders mogen kiezen voor bijzonder onderwijs op religieuze of levensbeschouwelijke grondslag"
       ],
-      "correctIndex": 1,
-      "explanation": "Het College voor de Rechten van de Mens is een onafhankelijk orgaan dat oordeelt over klachten van discriminatie op het werk, in het onderwijs, bij het aanbieden van goederen en diensten, en andere gebieden. Het oordeel is niet juridisch bindend, maar heeft wel gezag.",
-      "explanationEn": "The Netherlands Institute for Human Rights is an independent body that rules on complaints of discrimination in the workplace, education, provision of goods and services, and other areas. Its ruling is not legally binding but carries authority."
+      "correctIndex": 2,
+      "explanation": "De vrijheid van onderwijs (artikel 23 Grondwet) geeft ouders het recht om bijzonder onderwijs op te richten op religieuze of levensbeschouwelijke grondslag.",
+      "explanationEn": "Freedom of education (Article 23 of the Constitution) gives parents the right to establish special education based on religious or philosophical foundations."
     },
     {
       "id": "knm-b1-3-q23",
-      "text": "Welke grenzen stelt de wet aan de vrijheid van meningsuiting in Nederland?",
+      "text": "Tom rijdt te hard op de snelweg en wordt bekeurd. Hij is het niet eens met de boete. Wat kan hij doen?",
       "options": [
-        "Er zijn geen grenzen, iedereen mag alles zeggen",
-        "Je mag geen kritiek uiten op de overheid",
-        "Discriminatie, belediging, opruiing en het aanzetten tot haat of geweld zijn strafbaar",
-        "Je mag alleen je mening uiten als je de Nederlandse nationaliteit hebt"
+        "Hij kan bezwaar maken (beroep WAHV) bij de officier van justitie",
+        "Hij kan direct naar de Hoge Raad",
+        "Hij moet altijd betalen en kan niets doen"
       ],
-      "correctIndex": 2,
-      "explanation": "De vrijheid van meningsuiting is vastgelegd in de Grondwet, maar heeft grenzen. Discriminatie, belediging van personen of groepen, opruiing (aanzetten tot strafbare feiten) en het aanzetten tot haat of geweld zijn strafbaar volgens het Wetboek van Strafrecht.",
-      "explanationEn": "Freedom of expression is enshrined in the Constitution but has limits. Discrimination, insulting individuals or groups, incitement to commit criminal acts, and inciting hatred or violence are punishable under the Criminal Code."
+      "correctIndex": 0,
+      "explanation": "Bij een verkeersboete (WAHV-beschikking) kun je bezwaar maken bij de officier van justitie. Als dat niet helpt, kun je verder in beroep.",
+      "explanationEn": "For a traffic fine (WAHV decision), you can appeal to the public prosecutor. If that doesn't help, you can appeal further."
     },
     {
       "id": "knm-b1-3-q24",
-      "text": "Hoe wordt de vrijheid van godsdienst beschermd in Nederland?",
+      "text": "Hana heeft een ernstig ongeluk gehad en kan door een handicap niet meer werken. Ze is jonger dan de AOW-leeftijd. Welke uitkering kan ze aanvragen?",
       "options": [
-        "Iedereen moet een religie kiezen en zich registreren",
-        "Alleen erkende religies zijn toegestaan",
-        "Iedereen heeft het recht om een godsdienst of levensovertuiging te hebben en te belijden, ook in het openbaar",
-        "Godsdienst is alleen toegestaan in privéruimtes"
+        "WW-uitkering",
+        "WIA-uitkering (arbeidsongeschiktheidsuitkering)",
+        "AOW"
       ],
-      "correctIndex": 2,
-      "explanation": "De vrijheid van godsdienst is vastgelegd in artikel 6 van de Grondwet. Iedereen mag zijn of haar godsdienst of levensovertuiging vrij belijden, individueel of in gemeenschap met anderen. De overheid mag zich niet bemoeien met de inhoud van religies.",
-      "explanationEn": "Freedom of religion is enshrined in Article 6 of the Constitution. Everyone may freely practice their religion or belief, individually or in community with others. The government may not interfere with the content of religions."
+      "correctIndex": 1,
+      "explanation": "De WIA (Wet werk en inkomen naar arbeidsvermogen) is een uitkering voor mensen die door ziekte of handicap niet meer (volledig) kunnen werken.",
+      "explanationEn": "The WIA (Work and Income according to Labor Capacity Act) is a benefit for people who can no longer (fully) work due to illness or disability."
     },
     {
       "id": "knm-b1-3-q25",
-      "text": "Wat is de Algemene wet gelijke behandeling (AWGB)?",
+      "text": "Erik werkt als chauffeur maar zijn rijbewijs is verlopen. Hij mag niet meer rijden. Zijn werkgever stuurt hem naar een herbeoordeling. Welke instantie beoordeelt rijbewijzen en medische geschiktheid?",
       "options": [
-        "Een wet die bepaalt dat mannen en vrouwen hetzelfde loon moeten krijgen",
-        "Een wet die discriminatie verbiedt op grond van godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht, nationaliteit, seksuele gerichtheid en burgerlijke staat",
-        "Een wet die alleen discriminatie op de werkvloer verbiedt",
-        "Een wet die de rechten van vluchtelingen regelt"
+        "Het CBR (Centraal Bureau Rijvaardigheidsbewijzen)",
+        "Het UWV",
+        "De gemeente"
       ],
-      "correctIndex": 1,
-      "explanation": "De AWGB verbiedt discriminatie op grond van godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht, nationaliteit, hetero- of homoseksuele gerichtheid en burgerlijke staat. De wet geldt op het werk, in het onderwijs, bij het aanbieden van goederen en diensten, en meer.",
-      "explanationEn": "The Equal Treatment Act prohibits discrimination on the grounds of religion, belief, political opinion, race, sex, nationality, sexual orientation, and marital status. It applies in the workplace, education, provision of goods and services, and more."
+      "correctIndex": 0,
+      "explanation": "Het CBR (Centraal Bureau Rijvaardigheidsbewijzen) regelt rijbewijzen, rijexamens en medische keuringen voor rijgeschiktheid.",
+      "explanationEn": "The CBR (Central Office of Driving Licences) manages driving licenses, driving tests, and medical examinations for fitness to drive."
     },
     {
       "id": "knm-b1-3-q26",
-      "text": "Wat is emancipatie in de context van de Nederlandse samenleving?",
+      "text": "Sophie is als vluchtelinge naar Nederland gekomen. Ze heeft een asielstatus gekregen. Ze vraagt of ze nu recht heeft op sociale voorzieningen. Wat geldt er?",
       "options": [
-        "Het verbod op kinderarbeid",
-        "Het proces waarbij alle groepen in de samenleving gelijke rechten en kansen krijgen, ongeacht geslacht, afkomst of seksuele gerichtheid",
-        "Het recht om te stemmen bij verkiezingen",
-        "De verplichting om Nederlands te leren"
+        "Nee, vluchtelingen hebben geen recht op sociale voorzieningen",
+        "Ja, erkende vluchtelingen met een verblijfsvergunning asiel hebben recht op dezelfde sociale voorzieningen als andere inwoners",
+        "Alleen als ze al 10 jaar in Nederland zijn"
       ],
       "correctIndex": 1,
-      "explanation": "Emancipatie in Nederland verwijst naar het streven naar gelijke rechten, kansen en behandeling voor alle groepen in de samenleving. Dit omvat gendergelijkheid, LHBTI-rechten, en gelijke kansen ongeacht afkomst of handicap.",
-      "explanationEn": "Emancipation in the Netherlands refers to the pursuit of equal rights, opportunities, and treatment for all groups in society. This includes gender equality, LGBTI rights, and equal opportunities regardless of background or disability."
+      "explanation": "Erkende vluchtelingen met een verblijfsvergunning asiel hebben recht op dezelfde sociale voorzieningen als andere inwoners, zoals bijstand, zorgverzekering en onderwijs.",
+      "explanationEn": "Recognized refugees with an asylum residence permit are entitled to the same social provisions as other residents, such as social assistance, health insurance, and education."
     },
     {
       "id": "knm-b1-3-q27",
-      "text": "Wat is de scheiding van kerk en staat in Nederland?",
+      "text": "Mia's kind is ziek en ze wil thuis blijven om voor hem te zorgen. Ze werkt parttime. Heeft ze recht op verlof voor zorgverlening?",
       "options": [
-        "De overheid bepaalt de regels van religieuze organisaties",
-        "Religieuze leiders mogen geen lid zijn van politieke partijen",
-        "De overheid en religieuze organisaties functioneren onafhankelijk van elkaar; de overheid bemoeit zich niet met de inhoud van religies en religies hebben geen formele invloed op de overheid",
-        "Kerken moeten belasting betalen aan de overheid"
+        "Ja, een werknemer heeft recht op kortdurend zorgverlof voor de noodzakelijke zorg voor een ziek kind",
+        "Nee, dat moet ze maar regelen met vakantiedagen",
+        "Alleen als het kind in het ziekenhuis ligt"
       ],
-      "correctIndex": 2,
-      "explanation": "De scheiding van kerk en staat betekent dat de overheid zich niet bemoeit met religieuze zaken en dat religieuze organisaties geen formele invloed hebben op het bestuur. Er is geen staatsgodsdienst. Wel mogen religieuze mensen deelnemen aan de politiek.",
-      "explanationEn": "The separation of church and state means the government does not interfere in religious matters and religious organizations have no formal influence on governance. There is no state religion. However, religious individuals may participate in politics."
+      "correctIndex": 0,
+      "explanation": "Werknemers hebben recht op kortdurend zorgverlof voor noodzakelijke zorg aan een ziek kind, partner of ouder. De werkgever betaalt minimaal 70% van het loon.",
+      "explanationEn": "Employees are entitled to short-term care leave for necessary care for a sick child, partner, or parent. The employer pays at least 70% of the salary."
     },
     {
       "id": "knm-b1-3-q28",
-      "text": "Welke vormen van discriminatie komen het meest voor in Nederland volgens meldingen bij antidiscriminatievoorzieningen?",
+      "text": "Lars wil meer weten over de rechtsstaat. Zijn leraar vertelt hem over de drie machten in een democratische rechtsstaat. Welke drie machten zijn dit?",
       "options": [
-        "Discriminatie op grond van leeftijd en geslacht",
-        "Discriminatie op grond van ras en herkomst",
-        "Discriminatie op grond van handicap en chronische ziekte",
-        "Discriminatie op grond van politieke voorkeur"
+        "De wetgevende macht (parlement), de uitvoerende macht (regering) en de rechterlijke macht (rechtbanken)",
+        "De Eerste Kamer, de Tweede Kamer en de gemeenteraad",
+        "De president, de minister en de burgemeester"
       ],
-      "correctIndex": 1,
-      "explanation": "Volgens meldingen bij antidiscriminatievoorzieningen (ADV's) komt discriminatie op grond van ras en herkomst het meest voor in Nederland. Dit kan zich uiten op de arbeidsmarkt, in het onderwijs, bij het zoeken naar een woning en in het dagelijks leven.",
-      "explanationEn": "According to reports to anti-discrimination services, discrimination based on race and origin is most common in the Netherlands. This can manifest in the labor market, education, housing searches, and daily life."
+      "correctIndex": 0,
+      "explanation": "In een rechtsstaat is er een scheiding der machten: de wetgevende macht (parlement maakt wetten), uitvoerende macht (regering voert uit) en rechterlijke macht (rechtbanken).",
+      "explanationEn": "In a constitutional state, there is a separation of powers: the legislative power (parliament makes laws), executive power (government executes), and judicial power (courts)."
     },
     {
       "id": "knm-b1-3-q29",
-      "text": "Wat kunt u doen als u gediscrimineerd wordt op uw werk?",
+      "text": "Reza heeft een kind van 8 jaar op de basisschool. De groepsleraar wil Reza's zoon naar een andere school sturen. Reza wil weten wat zijn rechten zijn als ouder. Wat geldt er?",
       "options": [
-        "U kunt niets doen, discriminatie op het werk is niet verboden",
-        "U kunt alleen ontslag nemen",
-        "U kunt een klacht indienen bij de werkgever, een melding doen bij een antidiscriminatievoorziening (ADV), of een oordeel vragen aan het College voor de Rechten van de Mens",
-        "U kunt alleen aangifte doen bij de politie"
+        "Ouders hebben inspraak bij schoolbeslissingen. De school moet ouders informeren en overleggen. Ouders kunnen bezwaar maken bij de klachtencommissie",
+        "Reza moet doen wat de leraar zegt",
+        "De school beslist alles, ouders hebben geen rechten"
       ],
-      "correctIndex": 2,
-      "explanation": "Bij discriminatie op het werk kunt u: een klacht indienen bij uw werkgever, een melding doen bij de antidiscriminatievoorziening (ADV) in uw gemeente, een oordeel vragen aan het College voor de Rechten van de Mens, of aangifte doen bij de politie als het om een strafbaar feit gaat.",
-      "explanationEn": "In case of workplace discrimination, you can: file a complaint with your employer, report to the anti-discrimination service (ADV) in your municipality, request a ruling from the Netherlands Institute for Human Rights, or file a police report if it constitutes a criminal offense."
+      "correctIndex": 0,
+      "explanation": "Ouders hebben rechten op het gebied van informatie en inspraak bij onderwijs. Bij geschillen kan een klachtencommissie worden ingeschakeld.",
+      "explanationEn": "Parents have rights regarding information and participation in education. In disputes, a complaints committee can be engaged."
     },
     {
       "id": "knm-b1-3-q30",
-      "text": "Sinds wanneer is het homohuwelijk (huwelijk tussen personen van hetzelfde geslacht) toegestaan in Nederland?",
+      "text": "Nadia heeft het inburgeringsexamen gedaan en geslaagd. Ze vraagt wat het inburgeringsexamen inhoudt. Welke onderdelen zijn er?",
       "options": [
-        "Sinds 1990",
-        "Sinds 1995",
-        "Sinds 2001",
-        "Sinds 2010"
+        "Het examen bestaat uit onderdelen: spreken, lezen, schrijven, luisteren, Kennis van de Nederlandse Maatschappij (KNM) en Oriëntatie op de Nederlandse Arbeidsmarkt (ONA)",
+        "Alleen een mondeling gesprek",
+        "Alleen een schriftelijk taaltoets"
       ],
-      "correctIndex": 2,
-      "explanation": "Nederland was in 2001 het eerste land ter wereld dat het huwelijk openstelde voor paren van hetzelfde geslacht. Sindsdien hebben partners van hetzelfde geslacht dezelfde rechten als heteroseksuele echtparen, inclusief adoptie.",
-      "explanationEn": "The Netherlands was the first country in the world to open marriage to same-sex couples in 2001. Since then, same-sex partners have the same rights as heterosexual married couples, including adoption."
+      "correctIndex": 0,
+      "explanation": "Het inburgeringsexamen bestaat uit: spreken, lezen, schrijven, luisteren (niveau A2), KNM (kennis van de maatschappij) en ONA (oriëntatie op de arbeidsmarkt).",
+      "explanationEn": "The civic integration exam consists of: speaking, reading, writing, listening (level A2), KNM (knowledge of society), and ONA (orientation on the labor market)."
     },
     {
       "id": "knm-b1-3-q31",
-      "text": "Hoeveel leden heeft de Tweede Kamer en hoe worden zij gekozen?",
+      "text": "Joris wil weten wat een 'gemeente' doet. Hij woont in Rotterdam en is nieuw in Nederland. Welke taken voert de gemeente uit?",
       "options": [
-        "100 leden, gekozen door de Eerste Kamer",
-        "150 leden, rechtstreeks gekozen door de Nederlandse kiesgerechtigden",
-        "75 leden, benoemd door de koning",
-        "200 leden, gekozen door de provinciale staten"
+        "De gemeente regelt lokale zaken zoals bijstand, zorg, vergunningen, openbare ruimte en onderwijs in de gemeente",
+        "De gemeente maakt nationale wetten",
+        "De gemeente controleert de nationale belastingen"
       ],
-      "correctIndex": 1,
-      "explanation": "De Tweede Kamer heeft 150 leden die rechtstreeks worden gekozen door alle Nederlanders van 18 jaar en ouder. Verkiezingen voor de Tweede Kamer vinden normaal gesproken elke vier jaar plaats.",
-      "explanationEn": "The House of Representatives (Tweede Kamer) has 150 members who are directly elected by all Dutch citizens aged 18 and older. Elections for the House of Representatives normally take place every four years."
+      "correctIndex": 0,
+      "explanation": "De gemeente is verantwoordelijk voor lokale taken: bijstand, Wmo (zorg), vergunningen, openbare ruimte en lokaal onderwijs.",
+      "explanationEn": "The municipality is responsible for local tasks: social assistance, Wmo (care), permits, public space, and local education."
     },
     {
       "id": "knm-b1-3-q32",
-      "text": "Wat is het verschil tussen de Tweede Kamer en de Eerste Kamer?",
+      "text": "Fatima werkt 's nachts en overdag zorgt ze voor haar kinderen. Ze wil haar kinderen naar de kinderopvang brengen overdag. Kan ze hiervoor een toeslag krijgen?",
       "options": [
-        "De Tweede Kamer maakt wetten en de Eerste Kamer controleert ze. De Tweede Kamer wordt rechtstreeks gekozen, de Eerste Kamer door de Provinciale Staten",
-        "De Eerste Kamer heeft meer macht dan de Tweede Kamer",
-        "De Eerste Kamer maakt wetten en de Tweede Kamer keurt ze goed",
-        "Er is geen verschil, ze hebben dezelfde taak"
+        "Alleen als haar kinderen jonger dan 1 jaar zijn",
+        "Nee, kinderopvang is altijd volledig eigen kosten",
+        "Ja, werkende ouders kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst"
       ],
-      "correctIndex": 0,
-      "explanation": "De Tweede Kamer maakt wetten samen met de regering en controleert de regering. De Eerste Kamer (75 leden) toetst wetten en kan ze alleen goedkeuren of afwijzen, niet wijzigen. De Eerste Kamer wordt indirect gekozen door de leden van de Provinciale Staten.",
-      "explanationEn": "The House of Representatives makes laws together with the government and scrutinizes the government. The Senate (75 members) reviews laws and can only approve or reject them, not amend them. The Senate is indirectly elected by members of the Provincial Councils."
+      "correctIndex": 2,
+      "explanation": "Werkende ouders kunnen kinderopvangtoeslag aanvragen via de Belastingdienst. De toeslag hangt af van het inkomen en het aantal uren opvang.",
+      "explanationEn": "Working parents can apply for childcare allowance (kinderopvangtoeslag) through the Tax Authority. The allowance depends on income and the number of hours of care."
     },
     {
       "id": "knm-b1-3-q33",
-      "text": "Wat is een coalitie in de Nederlandse politiek?",
+      "text": "Boris heeft een conflict met zijn buurman over een schutting. Ze komen er niet samen uit. Naar welke instantie kunnen ze gaan voor een laagdrempelige oplossing zonder rechtszaak?",
       "options": [
-        "Een samenwerking tussen alle politieke partijen in het parlement",
-        "Een samenwerking van twee of meer politieke partijen die samen een meerderheid vormen en een regering vormen",
-        "Een overleg tussen de Tweede Kamer en de Eerste Kamer",
-        "Een groep burgers die een petitie indient bij de overheid"
+        "Het buurtbemiddelingsbureau of de kantonrechter voor kleine geschillen",
+        "De Hoge Raad",
+        "De Tweede Kamer"
       ],
-      "correctIndex": 1,
-      "explanation": "Een coalitie is een samenwerking van twee of meer politieke partijen die samen een meerderheid hebben in de Tweede Kamer (minimaal 76 van de 150 zetels). Zij vormen samen de regering en maken afspraken in een regeerakkoord.",
-      "explanationEn": "A coalition is a cooperation of two or more political parties that together hold a majority in the House of Representatives (at least 76 of 150 seats). They form the government together and make agreements in a coalition agreement."
+      "correctIndex": 0,
+      "explanation": "Buurtbemiddeling biedt een laagdrempelige manier om conflicten tussen buren op te lossen. Voor kleine civiele geschillen kan ook de kantonrechter worden ingeschakeld.",
+      "explanationEn": "Neighborhood mediation offers a low-threshold way to resolve disputes between neighbors. For small civil disputes, the cantonal court can also be engaged."
     },
     {
       "id": "knm-b1-3-q34",
-      "text": "Wie is het staatshoofd van Nederland en welke rol heeft deze persoon?",
+      "text": "Elly is 70 jaar en woont alleen. Ze heeft moeite met de dagelijkse verzorging. De gemeente biedt haar hulp aan huis. Via welke wet krijgt ze deze zorg?",
       "options": [
-        "De minister-president, die alle wetten maakt",
-        "De voorzitter van de Tweede Kamer, die het parlement leidt",
-        "De koning, die een ceremoniële rol heeft en samen met de ministers de regering vormt",
-        "De president, die door het volk wordt gekozen"
+        "Via de Wmo (Wet maatschappelijke ondersteuning)",
+        "Via de WW (Werkloosheidswet)",
+        "Via de Zvw (Zorgverzekeringswet)"
       ],
-      "correctIndex": 2,
-      "explanation": "De koning (momenteel Koning Willem-Alexander) is het staatshoofd van Nederland. De koning heeft een ceremoniële rol: hij ondertekent wetten, leest de Troonrede voor op Prinsjesdag en ontvangt buitenlandse staatshoofden. De koning is onschendbaar; ministers zijn verantwoordelijk.",
-      "explanationEn": "The King (currently King Willem-Alexander) is the head of state. The King has a ceremonial role: he signs laws, reads the Speech from the Throne on Budget Day (Prinsjesdag), and receives foreign heads of state. The King is inviolable; ministers are responsible."
+      "correctIndex": 0,
+      "explanation": "De Wmo (Wet maatschappelijke ondersteuning) regelt ondersteuning zoals huishoudelijke hulp, begeleiding en woningaanpassingen voor mensen die dat nodig hebben.",
+      "explanationEn": "The Wmo (Social Support Act) arranges support such as household help, guidance, and home adaptations for people who need it."
     },
     {
       "id": "knm-b1-3-q35",
-      "text": "Wat is een gemeenteraad?",
+      "text": "Lars heeft ernstige psychische klachten en zijn huisarts verwijst hem door. Naar welk type zorg gaat Lars?",
       "options": [
-        "Een groep ambtenaren die het dagelijks bestuur van een gemeente voert",
-        "Het gekozen volksvertegenwoordigende orgaan van een gemeente dat de belangrijkste besluiten neemt en het college van B&W controleert",
-        "Een commissie die de burgemeester adviseert over veiligheid",
-        "Een landelijk orgaan dat de gemeenten coördineert"
+        "Naar de ggz (geestelijke gezondheidszorg)",
+        "Naar de thuiszorg",
+        "Naar de bedrijfsarts"
       ],
-      "correctIndex": 1,
-      "explanation": "De gemeenteraad is het hoogste bestuursorgaan van een gemeente. De leden worden elke vier jaar rechtstreeks gekozen door de inwoners. De gemeenteraad stelt kaders, neemt besluiten over lokale zaken en controleert het college van burgemeester en wethouders (B&W).",
-      "explanationEn": "The municipal council is the highest governing body of a municipality. Members are directly elected every four years by residents. The council sets policy frameworks, makes decisions on local matters, and oversees the board of mayor and aldermen."
+      "correctIndex": 0,
+      "explanation": "GGZ staat voor geestelijke gezondheidszorg. Huisartsen verwijzen patiënten met psychische klachten door naar GGZ-instellingen.",
+      "explanationEn": "GGZ stands for mental health care. GPs refer patients with psychological issues to GGZ institutions."
     },
     {
       "id": "knm-b1-3-q36",
-      "text": "Wie mag er stemmen bij de gemeenteraadsverkiezingen?",
+      "text": "Kim gaat binnenkort met pensioen. Ze vraagt hoe hoog haar AOW-uitkering zal zijn. Waar hangt de hoogte van de AOW van af?",
       "options": [
-        "Alleen Nederlanders van 18 jaar en ouder",
-        "Alle inwoners van de gemeente van 18 jaar en ouder die de Nederlandse nationaliteit hebben, of EU-burgers zijn, of langer dan 5 jaar legaal in Nederland verblijven",
-        "Alle inwoners van de gemeente, ongeacht leeftijd",
-        "Alleen inwoners die een huis bezitten in de gemeente"
+        "Van het salaris dat ze verdiende",
+        "Van haar leeftijd bij pensionering",
+        "Van het aantal jaren dat ze in Nederland heeft gewoond (voor elke jaar 2% opbouw)"
       ],
-      "correctIndex": 1,
-      "explanation": "Bij gemeenteraadsverkiezingen mogen stemmen: Nederlanders van 18 jaar en ouder, EU-burgers die in de gemeente wonen, en niet-EU-burgers die minimaal 5 jaar legaal in Nederland verblijven. Dit is ruimer dan bij Tweede Kamerverkiezingen, waarbij alleen Nederlanders mogen stemmen.",
-      "explanationEn": "In municipal elections, the following may vote: Dutch citizens aged 18 and older, EU citizens residing in the municipality, and non-EU citizens who have legally resided in the Netherlands for at least 5 years. This is broader than parliamentary elections, where only Dutch citizens may vote."
+      "correctIndex": 2,
+      "explanation": "De AOW wordt opgebouwd per jaar dat je in Nederland woont: voor elk jaar bouw je 2% op. Een volledige AOW vereist 50 jaar wonen in Nederland.",
+      "explanationEn": "The AOW is built up per year that you live in the Netherlands: for each year you build up 2%. A full AOW requires 50 years of living in the Netherlands."
     },
     {
       "id": "knm-b1-3-q37",
-      "text": "Wat is de rol van de minister-president in Nederland?",
+      "text": "Nadia ontvangt een kindgebonden budget voor haar kinderen. Ze begrijpt niet goed wat dit is. Wat is het kindgebonden budget?",
       "options": [
-        "De minister-president is het staatshoofd en maakt alle wetten",
-        "De minister-president is de voorzitter van de ministerraad en leidt het kabinet, maar is formeel geen baas van de andere ministers",
-        "De minister-president wordt benoemd door de koning voor het leven",
-        "De minister-president is de burgemeester van Den Haag"
+        "Geld van het pensioenfonds",
+        "Geld dat kinderen krijgen als ze goed leren",
+        "Een toeslag van de overheid voor gezinnen met een laag of middeninkomen met kinderen"
       ],
-      "correctIndex": 1,
-      "explanation": "De minister-president is de voorzitter van de ministerraad (het kabinet). Hij of zij leidt de vergaderingen en vertegenwoordigt Nederland internationaal. De minister-president is formeel 'primus inter pares' (eerste onder gelijken) en is dus geen baas van de andere ministers.",
-      "explanationEn": "The Prime Minister chairs the Council of Ministers (the cabinet). They lead meetings and represent the Netherlands internationally. The PM is formally 'primus inter pares' (first among equals) and is therefore not the boss of other ministers."
+      "correctIndex": 2,
+      "explanation": "Het kindgebonden budget is een toeslag van de overheid voor gezinnen met kinderen die een laag of middel inkomen hebben. Het wordt aangevraagd bij de Belastingdienst.",
+      "explanationEn": "The child-related budget is a government allowance for families with children who have a low or medium income. It is applied for at the Tax Authority."
     },
     {
       "id": "knm-b1-3-q38",
-      "text": "Wat zijn de drie bestuurslagen in Nederland?",
+      "text": "Erik is 80 jaar en heeft intensieve zorg nodig. Hij gaat naar een verzorgingstehuis. Via welke wet wordt deze langdurige zorg gefinancierd?",
       "options": [
-        "Rijk, provincie en gemeente",
-        "Europese Unie, rijk en provincie",
-        "Koning, parlement en rechterlijke macht",
-        "Stad, dorp en wijk"
+        "Via de Wmo",
+        "Via de Wlz (Wet langdurige zorg)",
+        "Via de Zvw (basisverzekering)"
       ],
-      "correctIndex": 0,
-      "explanation": "Nederland heeft drie bestuurslagen: het Rijk (de landelijke overheid), de provincies (12 stuks) en de gemeenten (ruim 340). Elke bestuurslaag heeft een eigen bestuur en volksvertegenwoordiging. Daarnaast zijn er waterschappen voor het waterbeheer.",
-      "explanationEn": "The Netherlands has three levels of government: the national government (Rijk), the provinces (12), and the municipalities (over 340). Each level has its own executive and representative body. Additionally, there are water boards for water management."
+      "correctIndex": 1,
+      "explanation": "De Wlz (Wet langdurige zorg) regelt de financiering van intensieve langdurige zorg, zoals in een verpleeghuis of verzorgingstehuis.",
+      "explanationEn": "The Wlz (Long-term Care Act) regulates the financing of intensive long-term care, such as in a nursing home or residential care facility."
     },
     {
       "id": "knm-b1-3-q39",
-      "text": "Wat is Prinsjesdag?",
+      "text": "Sara heeft een klacht over haar zorgverzekeraar. Ze is er niet uitgekomen. Welke onafhankelijke instantie kan haar klacht behandelen?",
       "options": [
-        "De verjaardag van de koning",
-        "De dag waarop de regering de plannen en begroting voor het komende jaar presenteert, op de derde dinsdag in september",
-        "De dag waarop de Tweede Kamer nieuwe leden installeert",
-        "Een nationale feestdag waarop alle winkels gesloten zijn"
+        "Het UWV",
+        "De Stichting Klachten en Geschillen Zorgverzekeringen (SKGZ)",
+        "De Belastingdienst"
       ],
       "correctIndex": 1,
-      "explanation": "Prinsjesdag is op de derde dinsdag in september. De koning leest dan in de Ridderzaal in Den Haag de Troonrede voor, waarin de plannen van de regering voor het komende jaar worden gepresenteerd. Op dezelfde dag wordt de Miljoenennota (de rijksbegroting) aangeboden aan de Tweede Kamer.",
-      "explanationEn": "Budget Day (Prinsjesdag) is on the third Tuesday in September. The King reads the Speech from the Throne in the Hall of Knights in The Hague, presenting the government's plans for the coming year. On the same day, the national budget is presented to the House of Representatives."
+      "explanation": "De SKGZ (Stichting Klachten en Geschillen Zorgverzekeringen) behandelt klachten en geschillen tussen verzekerden en zorgverzekeraars.",
+      "explanationEn": "The SKGZ (Foundation for Complaints and Disputes in Health Insurance) handles complaints and disputes between insured persons and health insurers."
     },
     {
       "id": "knm-b1-3-q40",
-      "text": "Wat is het verschil tussen de oppositie en de coalitie?",
+      "text": "Daan vraagt wat het verschil is tussen de Eerste en Tweede Kamer. Zijn docent legt het uit. Wat is de hoofdrol van de Tweede Kamer?",
       "options": [
-        "De oppositie vormt de regering, de coalitie controleert",
-        "De coalitie vormt de regering; de oppositie bestaat uit de partijen die niet in de regering zitten en controleert en bekritiseert het beleid",
-        "De oppositie zijn de leden van de Eerste Kamer",
-        "Er is geen verschil"
+        "De Tweede Kamer benoemt de ministers",
+        "De Tweede Kamer controleert alleen de Eerste Kamer",
+        "De Tweede Kamer maakt nieuwe wetten, controleert de regering en vertegenwoordigt de bevolking"
       ],
-      "correctIndex": 1,
-      "explanation": "De coalitiepartijen vormen samen de regering en hebben een meerderheid in de Tweede Kamer. De oppositie bestaat uit de overige partijen die niet deelnemen aan de regering. De oppositie controleert en bekritiseert het regeringsbeleid en kan alternatieven voorstellen.",
-      "explanationEn": "The coalition parties form the government together and hold a majority in the House of Representatives. The opposition consists of the other parties not participating in the government. The opposition scrutinizes and criticizes government policy and can propose alternatives."
+      "correctIndex": 2,
+      "explanation": "De Tweede Kamer (Kamers der Staten-Generaal) is het belangrijkste wetgevende orgaan. De 150 leden worden direct gekozen door de bevolking.",
+      "explanationEn": "The House of Representatives (Tweede Kamer) is the main legislative body. Its 150 members are directly elected by the public."
     },
     {
       "id": "knm-b1-3-q41",
-      "text": "Wat is de NPO?",
+      "text": "Carlos leest een artikel over het Nederlandse onderwijssysteem. Hij vraagt wat de overheid doet om te zorgen dat het onderwijs goed is. Welke wet regelt de kwaliteit van het onderwijs?",
       "options": [
-        "Een commerciële televisiezender",
-        "De Nederlandse Publieke Omroep, het samenwerkingsverband van publieke omroeporganisaties dat radio- en televisieprogramma's maakt",
-        "Een nieuwswebsite van de overheid",
-        "Een organisatie die reclame reguleert op televisie"
+        "De Arbowet",
+        "De Wet op het voortgezet onderwijs en de Wet primair onderwijs, gecontroleerd door de Onderwijsinspectie",
+        "De Grondwet artikel 23"
       ],
       "correctIndex": 1,
-      "explanation": "De NPO (Nederlandse Publieke Omroep) is het samenwerkingsverband van alle publieke omroeporganisaties in Nederland. De NPO verzorgt programma's op drie tv-zenders (NPO 1, 2, 3) en diverse radiozenders. De publieke omroep wordt grotendeels gefinancierd door de overheid.",
-      "explanationEn": "The NPO (Dutch Public Broadcasting) is the cooperative organization of all public broadcasting associations in the Netherlands. NPO provides programs on three TV channels (NPO 1, 2, 3) and various radio stations. Public broadcasting is largely funded by the government."
+      "explanation": "De kwaliteit van onderwijs wordt bewaakt door de Onderwijsinspectie, die scholen controleert op basis van onderwijswetgeving.",
+      "explanationEn": "The quality of education is monitored by the Education Inspectorate, which checks schools based on education legislation."
     },
     {
       "id": "knm-b1-3-q42",
-      "text": "Wat houdt de vrijheid van pers in Nederland in?",
+      "text": "Mia wil weten hoe de gezondheidszorg in Nederland is georganiseerd. Haar huisarts vertelt haar over de 'poortwachtersfunctie'. Wat betekent dit?",
       "options": [
-        "Journalisten mogen alleen positief schrijven over de overheid",
-        "De pers mag vrij berichten zonder voorafgaande censuur van de overheid, maar is achteraf verantwoordelijk voor wat wordt gepubliceerd",
-        "De overheid moet alle persberichten goedkeuren",
-        "Alleen kranten die door de overheid zijn erkend, mogen publiceren"
+        "De huisarts bewaakt de ingang van het ziekenhuis",
+        "De huisarts schrijft altijd medicijnen voor",
+        "De huisarts is de eerste stap in de zorg en bepaalt of een patiënt naar een specialist (tweede lijn) moet"
       ],
-      "correctIndex": 1,
-      "explanation": "De persvrijheid is vastgelegd in artikel 7 van de Grondwet. De pers mag vrij publiceren zonder voorafgaande censuur door de overheid. Na publicatie kan de pers wel verantwoordelijk worden gehouden, bijvoorbeeld bij smaad, laster of het schenden van de privacy.",
-      "explanationEn": "Freedom of the press is enshrined in Article 7 of the Constitution. The press may publish freely without prior government censorship. After publication, the press can be held accountable, for example for defamation, libel, or privacy violations."
+      "correctIndex": 2,
+      "explanation": "De huisarts heeft een poortwachtersfunctie: hij is de eerste arts die je bezoekt en beslist of je naar een specialist verwezen wordt.",
+      "explanationEn": "The GP has a gatekeeper function: they are the first doctor you visit and decide whether you need to be referred to a specialist."
     },
     {
       "id": "knm-b1-3-q43",
-      "text": "Wat is de Autoriteit Persoonsgegevens (AP)?",
+      "text": "Ali wil zijn kind inschrijven voor de basisschool. Hij twijfelt of de school ook aandacht besteedt aan zijn cultuur. Wat is de wettelijke basis voor scholen met een eigen identiteit?",
       "options": [
-        "Een afdeling van de politie die cybercriminaliteit bestrijdt",
-        "De onafhankelijke toezichthouder die controleert of organisaties zich houden aan de privacywetgeving (AVG)",
-        "Een bedrijf dat persoonsgegevens verzamelt voor marketingdoeleinden",
-        "Een Europese instantie die de grenzen bewaakt"
+        "Artikel 23 van de Grondwet garandeert de vrijheid van onderwijs: scholen mogen worden opgericht op religieuze of levensbeschouwelijke grondslag",
+        "Alleen openbare scholen zijn wettelijk toegestaan",
+        "Scholen mogen geen eigen identiteit hebben"
       ],
-      "correctIndex": 1,
-      "explanation": "De Autoriteit Persoonsgegevens (AP) is de onafhankelijke toezichthouder op de bescherming van persoonsgegevens in Nederland. De AP houdt toezicht op de naleving van de Algemene verordening gegevensbescherming (AVG) en kan boetes opleggen bij overtredingen.",
-      "explanationEn": "The Dutch Data Protection Authority (AP) is the independent supervisory authority for the protection of personal data in the Netherlands. It oversees compliance with the General Data Protection Regulation (GDPR/AVG) and can impose fines for violations."
+      "correctIndex": 0,
+      "explanation": "Artikel 23 van de Grondwet regelt de vrijheid van onderwijs. Bijzondere scholen (religieus of levensbeschouwelijk) zijn volledig erkend en gelijkwaardig gefinancierd.",
+      "explanationEn": "Article 23 of the Constitution regulates freedom of education. Special schools (religious or philosophical) are fully recognized and equally funded."
     },
     {
       "id": "knm-b1-3-q44",
-      "text": "Wat is DigiD?",
+      "text": "Petra heeft een laag inkomen en gaat een bezoek brengen aan haar tandarts. Ze weet niet of de tandarts vergoed wordt door haar zorgverzekering. Wat geldt er?",
       "options": [
-        "Een social media platform van de Nederlandse overheid",
-        "Een digitale identiteit waarmee u zich kunt identificeren bij overheidsdiensten en andere organisaties op internet",
-        "Een antivirusprogramma dat verplicht is voor alle computers in Nederland",
-        "Een digitale bankpas voor online betalingen"
+        "Tandheelkunde is alleen vergoed voor mensen ouder dan 65",
+        "Tandheelkunde is volledig vergoed door de basisverzekering",
+        "Tandheelkunde voor volwassenen valt niet in de basisverzekering maar is wel te verzekeren via een aanvullende verzekering"
       ],
-      "correctIndex": 1,
-      "explanation": "DigiD (Digitale Identiteit) is een inlogsysteem waarmee u zich kunt identificeren bij overheidsinstellingen en andere organisaties, zoals de Belastingdienst, het UWV, uw gemeente en uw zorgverzekeraar. U heeft een gebruikersnaam en wachtwoord nodig, eventueel aangevuld met sms-verificatie of de DigiD-app.",
-      "explanationEn": "DigiD (Digital Identity) is a login system for identifying yourself with government agencies and other organizations, such as the Tax Authority, UWV, your municipality, and your health insurer. You need a username and password, optionally supplemented with SMS verification or the DigiD app."
+      "correctIndex": 2,
+      "explanation": "Tandheelkunde voor volwassenen (18+) zit niet in het basispakket van de zorgverzekering. Je kunt dit apart verzekeren via een aanvullende zorgverzekering.",
+      "explanationEn": "Dental care for adults (18+) is not included in the basic health insurance package. You can insure this separately through supplementary health insurance."
     },
     {
       "id": "knm-b1-3-q45",
-      "text": "Wat is de AVG (Algemene verordening gegevensbescherming)?",
+      "text": "Tom heeft zijn rijbewijs gehaald en rijdt voor het eerst op een snelweg. Hij wil weten wat de maximumsnelheid 's avonds na 19:00 uur is op de meeste snelwegen. Wat is dit?",
       "options": [
-        "Een Nederlandse wet die alleen voor bedrijven geldt",
-        "Een Europese privacywet die regelt hoe organisaties persoonsgegevens mogen verzamelen, verwerken en bewaren",
-        "Een wet die sociale media verplicht om gratis te zijn",
-        "Een overeenkomst tussen Nederland en België over databescherming"
+        "130 km/u",
+        "120 km/u",
+        "100 km/u"
       ],
-      "correctIndex": 1,
-      "explanation": "De AVG is een Europese verordening (in het Engels: GDPR) die sinds 2018 geldt en regelt hoe organisaties persoonsgegevens mogen verwerken. Burgers hebben rechten zoals het recht op inzage, correctie en verwijdering van hun gegevens. De Autoriteit Persoonsgegevens houdt toezicht.",
-      "explanationEn": "The AVG (GDPR in English) is a European regulation effective since 2018 that governs how organizations may process personal data. Citizens have rights such as the right to access, correct, and delete their data. The Dutch Data Protection Authority oversees compliance."
+      "correctIndex": 0,
+      "explanation": "Op de meeste snelwegen geldt overdag (6:00-19:00 uur) een maximumsnelheid van 100 km/u. 's Avonds en 's nachts (19:00-6:00 uur) is dat vaak 130 km/u.",
+      "explanationEn": "On most highways, the maximum speed during the day (6:00-19:00) is 100 km/h. In the evening and at night (19:00-6:00), it is often 130 km/h."
     },
     {
       "id": "knm-b1-3-q46",
-      "text": "Wat zijn de regels over haatzaaien op sociale media in Nederland?",
+      "text": "Yasmina ontvangt bijstand en gaat een kleine cursus volgen. Ze is bang dat ze haar uitkering kwijtraakt. Welke plicht heeft ze tegenover de gemeente?",
       "options": [
-        "Er zijn geen regels, sociale media vallen buiten de wet",
-        "Haatzaaien, discriminatie en het aanzetten tot geweld zijn ook op sociale media strafbaar volgens het Nederlandse strafrecht",
-        "Alleen berichten met meer dan 1000 views kunnen strafbaar zijn",
-        "Sociale media worden gereguleerd door een apart ministerie"
+        "Ze hoeft niets te melden",
+        "Ze moet de gemeente op de hoogte stellen van veranderingen in haar situatie, zoals inkomsten of een opleiding",
+        "Ze moet elke week op gesprek bij de gemeente"
       ],
       "correctIndex": 1,
-      "explanation": "Het Nederlandse strafrecht geldt ook online. Haatzaaien, discriminatie, bedreiging en het aanzetten tot geweld zijn strafbaar, ongeacht of ze offline of online (waaronder sociale media) plaatsvinden. Het Openbaar Ministerie kan vervolging instellen.",
-      "explanationEn": "Dutch criminal law also applies online. Hate speech, discrimination, threats, and incitement to violence are punishable regardless of whether they occur offline or online (including social media). The Public Prosecution Service can initiate prosecution."
+      "explanation": "Bijstandsontvangers hebben een inlichtingenplicht: zij moeten alle veranderingen in hun situatie melden aan de gemeente.",
+      "explanationEn": "Social assistance recipients have an obligation to provide information: they must report all changes in their situation to the municipality."
     },
     {
       "id": "knm-b1-3-q47",
-      "text": "Wat is het Commissariaat voor de Media?",
+      "text": "Boris is 55 jaar en wordt ontslagen. Hij wil weten welke hulp er beschikbaar is om een nieuwe baan te vinden. Naar welke instantie kan hij gaan voor begeleiding naar werk?",
       "options": [
-        "Een productiebedrijf dat programma's maakt voor de NPO",
-        "De onafhankelijke toezichthouder op het media-aanbod in Nederland, die toezicht houdt op naleving van de Mediawet",
-        "Een zender die alleen nieuws uitzendt",
-        "Een adviesorgaan van de Tweede Kamer over media"
+        "Naar de gemeente voor een bijstandsuitkering",
+        "Naar het UWV voor re-integratiediensten of een re-integratiebureau",
+        "Naar de Belastingdienst"
       ],
       "correctIndex": 1,
-      "explanation": "Het Commissariaat voor de Media is een onafhankelijk bestuursorgaan dat toezicht houdt op de naleving van de Mediawet in Nederland. Het houdt onder andere toezicht op publieke en commerciële omroepen, reclameregels en de bescherming van minderjarigen.",
-      "explanationEn": "The Dutch Media Authority is an independent administrative body that oversees compliance with the Media Act in the Netherlands. It supervises public and commercial broadcasters, advertising rules, and the protection of minors."
+      "explanation": "Het UWV biedt re-integratiediensten voor mensen die hun baan hebben verloren en terug willen naar de arbeidsmarkt.",
+      "explanationEn": "The UWV provides reintegration services for people who have lost their jobs and want to return to the labor market."
     },
     {
       "id": "knm-b1-3-q48",
-      "text": "Hoe kan een burger een DigiD-account aanvragen?",
+      "text": "Lena is nieuw in Nederland en wil haar rijbewijs omzetten naar een Nederlands rijbewijs. Bij welke instantie doet ze dit?",
       "options": [
-        "Door naar het gemeentehuis te gaan met een paspoort",
-        "Via de website digid.nl met uw BSN (burgerservicenummer), waarna u een activeringscode per post ontvangt",
-        "Door te bellen naar de Belastingdienst",
-        "DigiD wordt automatisch verstrekt bij geboorte"
+        "Bij de gemeente (in combinatie met het CBR)",
+        "Bij het UWV",
+        "Bij de politie"
       ],
-      "correctIndex": 1,
-      "explanation": "U kunt een DigiD aanvragen via www.digid.nl. U heeft uw BSN (burgerservicenummer) nodig. Na de aanvraag ontvangt u een activeringscode per brief op uw woonadres. Daarmee activeert u uw DigiD. U moet 14 jaar of ouder zijn.",
-      "explanationEn": "You can apply for DigiD via www.digid.nl. You need your BSN (citizen service number). After applying, you receive an activation code by letter at your home address. You use this to activate your DigiD. You must be 14 years or older."
+      "correctIndex": 0,
+      "explanation": "Een buitenlands rijbewijs omzetten naar een Nederlands rijbewijs doe je bij de gemeente. Afhankelijk van het land kan een rijvaardigheidstest vereist zijn.",
+      "explanationEn": "Converting a foreign driving license to a Dutch driving license is done at the municipality. Depending on the country, a driving test may be required."
     },
     {
       "id": "knm-b1-3-q49",
-      "text": "Wat is het verschil tussen publieke en commerciële omroepen in Nederland?",
+      "text": "Ahmed wil weten wat de rechten zijn van mensen zonder werk of inkomen in Nederland. Welk fundamenteel principe beschermt iedereen die in Nederland woont?",
       "options": [
-        "Er is geen verschil",
-        "Publieke omroepen worden gefinancierd door de overheid en hebben een maatschappelijke taak; commerciële omroepen worden gefinancierd door reclame en abonnementen",
-        "Commerciële omroepen zijn gratis, publieke omroepen kosten geld",
-        "Publieke omroepen zenden alleen nieuws uit"
+        "Iedereen is zelf verantwoordelijk, de overheid helpt niet",
+        "Alleen Nederlanders hebben recht op overheidssteun",
+        "De verzorgingsstaat: de overheid zorgt voor een sociaal vangnet voor iedereen die het nodig heeft"
       ],
-      "correctIndex": 1,
-      "explanation": "Publieke omroepen (NPO) worden grotendeels gefinancierd door de overheid en hebben een wettelijke taak om informatie, educatie en cultuur te bieden. Commerciële omroepen (zoals RTL en SBS) worden gefinancierd door reclame-inkomsten en abonnementen.",
-      "explanationEn": "Public broadcasters (NPO) are largely funded by the government and have a legal obligation to provide information, education, and culture. Commercial broadcasters (like RTL and SBS) are funded by advertising revenue and subscriptions."
+      "correctIndex": 2,
+      "explanation": "Nederland is een verzorgingsstaat: de overheid biedt een sociaal vangnet (uitkeringen, zorg, onderwijs) voor mensen die dit nodig hebben, ongeacht nationaliteit.",
+      "explanationEn": "The Netherlands is a welfare state: the government provides a social safety net (benefits, healthcare, education) for people who need it, regardless of nationality."
     },
     {
       "id": "knm-b1-3-q50",
-      "text": "Wat is MijnOverheid.nl?",
+      "text": "Maria heeft een conflict met een bedrijf over een product dat kapot gegaan is. Het bedrijf wil niet reageren. Welke instantie kan haar helpen bij een consumentengeschil?",
       "options": [
-        "Een website waar u online kunt winkelen",
-        "Een persoonlijke website van de overheid waar u uw officiële berichten, gegevens en lopende zaken bij de overheid kunt inzien via DigiD",
-        "Een website van de gemeente Amsterdam",
-        "Een online forum waar burgers kunnen discussiëren over politiek"
+        "De IND",
+        "De Geschillencommissie of het Juridisch Loket voor gratis juridisch advies",
+        "De Belastingdienst"
       ],
       "correctIndex": 1,
-      "explanation": "MijnOverheid.nl is een persoonlijke website van de Nederlandse overheid. Via DigiD kunt u uw Berichtenbox bekijken (officiële post van de overheid), uw persoonlijke gegevens inzien die bij de overheid bekend zijn, en lopende zaken volgen.",
-      "explanationEn": "MijnOverheid.nl is a personal website of the Dutch government. Via DigiD you can view your Berichtenbox (official government correspondence), review your personal data held by the government, and track ongoing matters."
+      "explanation": "De Geschillencommissie behandelt consumentengeschillen. Het Juridisch Loket biedt gratis eerste rechtshulp voor mensen met juridische vragen.",
+      "explanationEn": "The Disputes Committee handles consumer disputes. The Legal Aid Desk (Juridisch Loket) provides free initial legal assistance for people with legal questions."
     }
-  ]
+  ],
+  "isFreePreview": false
 }
