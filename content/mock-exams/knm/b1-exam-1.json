@@ -8,653 +8,604 @@
   "questions": [
     {
       "id": "knm-b1-1-q1",
-      "text": "Als u meer dan drie maanden werkloos bent en u had een arbeidscontract, waar vraagt u dan een WW-uitkering aan?",
+      "text": "Yusuf werkt al twee jaar bij een bedrijf. Hij wordt ontslagen omdat het bedrijf minder werk heeft. Na drie maanden vraagt hij een uitkering aan. Bij welke organisatie doet hij dit?",
       "options": [
-        "Bij de gemeente",
         "Bij het UWV",
-        "Bij de Belastingdienst",
-        "Bij de werkgever"
+        "Bij de gemeente",
+        "Bij de Belastingdienst"
       ],
-      "correctIndex": 1,
-      "explanation": "De WW-uitkering (Werkloosheidswet) vraagt u aan bij het UWV (Uitvoeringsinstituut Werknemersverzekeringen).",
-      "explanationEn": "The WW benefit (Unemployment Insurance Act) is requested at the UWV (Employee Insurance Agency)."
+      "correctIndex": 0,
+      "explanation": "De WW-uitkering (Werkloosheidswet) vraag je aan bij het UWV (Uitvoeringsinstituut Werknemersverzekeringen).",
+      "explanationEn": "The WW benefit (unemployment benefit) is applied for at the UWV (Employee Insurance Agency)."
     },
     {
       "id": "knm-b1-1-q2",
-      "text": "Wat is de proeftijd in een arbeidscontract en wat zijn de regels?",
+      "text": "Nadia begint een nieuwe baan. In haar contract staat een proeftijd van twee maanden. Haar werkgever zegt dat hij haar tijdens de proeftijd kan ontslaan zonder reden. Is dit correct?",
       "options": [
-        "Een periode van maximaal 2 maanden waarin beide partijen het contract kunnen opzeggen zonder opzegtermijn",
-        "Een verplichte trainingsperiode van 3 maanden voor nieuwe werknemers",
-        "Een periode van 6 maanden voor tijdelijke contracten",
-        "De eerste maand van een vast contract waarin het loon lager is"
+        "Ja, beide partijen mogen het contract tijdens de proeftijd zonder reden en direct beëindigen",
+        "Nee, ontslag tijdens proeftijd vereist altijd een reden en opzegtermijn",
+        "Alleen de werkgever mag het contract beëindigen, de werknemer niet"
       ],
       "correctIndex": 0,
-      "explanation": "De proeftijd is maximaal 2 maanden (bij een contract van meer dan 6 maanden). Tijdens de proeftijd kunnen beide partijen het contract direct opzeggen zonder opzegtermijn.",
-      "explanationEn": "The probationary period is a maximum of 2 months (for contracts longer than 6 months). During this period, both parties can terminate the contract immediately without notice."
+      "explanation": "Tijdens de proeftijd (maximaal 2 maanden) kunnen zowel werkgever als werknemer het contract direct beëindigen zonder reden of opzegtermijn.",
+      "explanationEn": "During the probationary period (maximum 2 months), both employer and employee can terminate the contract immediately without reason or notice period."
     },
     {
       "id": "knm-b1-1-q3",
-      "text": "Hoe lang is de wettelijke opzegtermijn voor een werknemer met een contract van meer dan 5 jaar?",
+      "text": "Lars wil stoppen met zijn baan. Hij heeft een vast contract. Zijn HR-afdeling zegt dat hij een maand van tevoren moet zeggen dat hij stopt. Hoe heet dit?",
       "options": [
-        "1 week",
-        "1 maand",
-        "2 maanden",
-        "4 maanden"
+        "De opzegtermijn",
+        "De proeftijd",
+        "De ontslagvergoeding"
       ],
-      "correctIndex": 1,
-      "explanation": "De wettelijke opzegtermijn voor een werknemer is altijd 1 maand, ongeacht hoe lang het dienstverband duurt. De opzegtermijn voor de werkgever is langer naarmate het dienstverband langer is.",
-      "explanationEn": "The statutory notice period for an employee is always 1 month, regardless of how long the employment has lasted. The employer's notice period is longer the longer the employment relationship."
+      "correctIndex": 0,
+      "explanation": "De opzegtermijn is de periode die je in acht moet nemen als je je contract opzegt. Voor werknemers is dit minimaal één maand.",
+      "explanationEn": "The notice period is the period you must observe when terminating your contract. For employees, this is a minimum of one month."
     },
     {
       "id": "knm-b1-1-q4",
-      "text": "Wanneer heeft een werknemer recht op een transitievergoeding bij ontslag?",
+      "text": "Fatima werkt in een ziekenhuis. Haar collega vertelt haar dat hun salaris en vakantiedagen niet alleen in hun persoonlijk contract staan, maar ook in een sectorafspraak. Wat is dit?",
       "options": [
-        "Altijd, ook tijdens de proeftijd",
-        "Alleen bij ontslag wegens disfunctioneren",
-        "Vanaf de eerste dag van het dienstverband bij ontslag door de werkgever",
-        "Alleen na meer dan 2 jaar in dienst"
+        "Een arbeidscontract",
+        "Een CAO (collectieve arbeidsovereenkomst)",
+        "Een pensioenregeling"
       ],
-      "correctIndex": 2,
-      "explanation": "Sinds 2020 heeft een werknemer recht op een transitievergoeding vanaf de eerste dag van het dienstverband als de werkgever het contract beëindigt. De vergoeding is 1/3 maandsalaris per jaar in dienst.",
-      "explanationEn": "Since 2020, an employee is entitled to a transition allowance from the first day of employment when the employer terminates the contract. The compensation is 1/3 monthly salary per year of service."
+      "correctIndex": 1,
+      "explanation": "Een CAO (collectieve arbeidsovereenkomst) is een afspraak tussen werkgevers en vakbonden over arbeidsvoorwaarden voor een hele sector of bedrijf.",
+      "explanationEn": "A CAO (collective labor agreement) is an agreement between employers and unions about working conditions for an entire sector or company."
     },
     {
       "id": "knm-b1-1-q5",
-      "text": "Wat regelt de cao (collectieve arbeidsovereenkomst)?",
+      "text": "Erik werkt in een fabriek en vindt dat zijn werkomstandigheden niet goed zijn. Zijn collega raadt hem aan om lid te worden van een organisatie die voor werknemersrechten opkomt. Welke organisatie is dit?",
       "options": [
-        "Uitsluitend de werktijden en vakantiedagen",
-        "Arbeidsvoorwaarden afgesproken tussen werkgeversorganisaties en vakbonden voor een hele sector",
-        "Persoonlijke afspraken tussen werkgever en werknemer",
-        "Alleen het minimumloon per sector"
+        "Het UWV",
+        "De Belastingdienst",
+        "Een vakbond"
       ],
-      "correctIndex": 1,
-      "explanation": "Een cao is een overeenkomst tussen werkgeversorganisaties en vakbonden met afspraken over arbeidsvoorwaarden zoals loon, werktijden en vakantiedagen voor een hele sector of bedrijf.",
-      "explanationEn": "A collective labor agreement (cao) is an agreement between employer organizations and trade unions with agreements on working conditions such as wages, working hours, and vacation days for an entire sector or company."
+      "correctIndex": 2,
+      "explanation": "Een vakbond is een organisatie die de belangen van werknemers behartigt, onderhandelt over de CAO en hulp biedt bij arbeidsconflicten.",
+      "explanationEn": "A trade union is an organization that represents the interests of employees, negotiates the CAO, and provides assistance in labor disputes."
     },
     {
       "id": "knm-b1-1-q6",
-      "text": "Wat is de loondoorbetaling bij ziekte en hoe lang duurt deze?",
+      "text": "Mia is ziek en kan niet naar haar werk. Ze belt haar werkgever. Na twee weken stuurt haar werkgever haar naar een arts die namens het bedrijf advies geeft. Welke arts is dit?",
       "options": [
-        "100% van het loon voor maximaal 6 maanden",
-        "70% van het loon (minimaal minimumloon) voor maximaal 2 jaar",
-        "50% van het loon voor maximaal 1 jaar",
-        "De werkgever hoeft niets te betalen; het UWV neemt het over"
+        "De specialist in het ziekenhuis",
+        "De huisarts",
+        "De bedrijfsarts"
       ],
-      "correctIndex": 1,
-      "explanation": "Bij ziekte betaalt de werkgever minimaal 70% van het loon door, maar minimaal het wettelijk minimumloon. Dit duurt maximaal 2 jaar (104 weken).",
-      "explanationEn": "When sick, the employer pays at least 70% of the salary, but at least the statutory minimum wage. This lasts a maximum of 2 years (104 weeks)."
+      "correctIndex": 2,
+      "explanation": "De bedrijfsarts is een arts die namens de werkgever de situatie van een zieke werknemer beoordeelt en advies geeft over re-integratie.",
+      "explanationEn": "The occupational physician (bedrijfsarts) is a doctor who, on behalf of the employer, assesses a sick employee's situation and advises on reintegration."
     },
     {
       "id": "knm-b1-1-q7",
-      "text": "Wat doet de ondernemingsraad (OR) in een bedrijf?",
+      "text": "Bart is ziek en kan zijn werk niet doen. Hij vraagt hoelang zijn werkgever zijn salaris moet doorbetalen tijdens ziekte. Wat zegt de wet?",
       "options": [
-        "De OR beheert de financiën van het bedrijf",
-        "De OR vertegenwoordigt werknemers en heeft instemmings- en adviesrecht bij belangrijke bedrijfsbesluiten",
-        "De OR stelt de salarissen vast voor alle medewerkers",
-        "De OR is verantwoordelijk voor het aannemen van nieuw personeel"
+        "De werkgever betaalt minimaal 70% van het salaris door gedurende maximaal 2 jaar",
+        "De werkgever hoeft niets te betalen bij ziekte",
+        "De werkgever betaalt maximaal 2 weken door"
       ],
-      "correctIndex": 1,
-      "explanation": "De ondernemingsraad vertegenwoordigt werknemers en heeft bij bepaalde besluiten instemmingsrecht (de OR moet het ermee eens zijn) en bij andere besluiten adviesrecht (de OR mag advies geven).",
-      "explanationEn": "The works council represents employees and has the right of consent for certain decisions (the OR must agree) and advisory rights for other decisions (the OR may give advice)."
+      "correctIndex": 0,
+      "explanation": "Bij ziekte moet de werkgever minimaal 70% van het salaris doorbetalen voor maximaal 2 jaar (104 weken).",
+      "explanationEn": "When sick, the employer must continue to pay at least 70% of the salary for a maximum of 2 years (104 weeks)."
     },
     {
       "id": "knm-b1-1-q8",
-      "text": "Wanneer is een werkgever verplicht een vast contract aan te bieden?",
+      "text": "Joris is al langer dan 2 jaar ziek en kan niet meer volledig werken. Hij heeft recht op een uitkering bij langdurige arbeidsongeschiktheid. Hoe heet deze uitkering?",
       "options": [
-        "Na 1 tijdelijk contract",
-        "Na 3 tijdelijke contracten in 3 jaar, of bij het 4e tijdelijke contract",
-        "Pas na 5 jaar tijdelijke contracten",
-        "Na 2 tijdelijke contracten van elk minimaal 6 maanden"
+        "WW-uitkering",
+        "WIA-uitkering",
+        "Bijstandsuitkering"
       ],
       "correctIndex": 1,
-      "explanation": "Door de ketenregeling heeft een werknemer recht op een vast contract na 3 opeenvolgende tijdelijke contracten in 3 jaar, of automatisch bij het 4e tijdelijke contract.",
-      "explanationEn": "Due to the chain rule, an employee is entitled to a permanent contract after 3 consecutive temporary contracts in 3 years, or automatically at the 4th temporary contract."
+      "explanation": "De WIA (Wet Werk en Inkomen naar Arbeidsvermogen) is de uitkering voor mensen die na 2 jaar ziekte nog steeds niet volledig kunnen werken.",
+      "explanationEn": "The WIA (Work and Income according to Labor Capacity Act) is the benefit for people who, after 2 years of illness, still cannot fully work."
     },
     {
       "id": "knm-b1-1-q9",
-      "text": "Wat is het verschil tussen een nul-urencontract en een min-maxcontract?",
+      "text": "Sandra wordt ontslagen na 5 jaar bij hetzelfde bedrijf. Haar werkgever wil een vergoeding betalen omdat het niet haar schuld is. Hoe heet deze vergoeding?",
       "options": [
-        "Er is geen verschil; het zijn synoniemen",
-        "Bij een nul-urencontract zijn geen uren gegarandeerd; bij een min-maxcontract is een minimum aantal uren gegarandeerd",
-        "Bij een nul-urencontract werkt u altijd 40 uur; bij een min-maxcontract werkt u minder",
-        "Een min-maxcontract is alleen voor zelfstandigen"
+        "Transitievergoeding",
+        "Vakantiegeld",
+        "Ontslaguitkering van de gemeente"
       ],
-      "correctIndex": 1,
-      "explanation": "Bij een nul-urencontract garandeert de werkgever geen uren. Bij een min-maxcontract worden minimaal een X-aantal uren per week gegarandeerd en maximaal Y-uren gevraagd.",
-      "explanationEn": "With a zero-hours contract, the employer guarantees no hours. With a min-max contract, a minimum number of hours per week are guaranteed and a maximum number of hours can be requested."
+      "correctIndex": 0,
+      "explanation": "Bij ontslag heeft een werknemer recht op een transitievergoeding, berekend op basis van het dienstverband. Dit geld kan worden gebruikt voor scholing of omscholing.",
+      "explanationEn": "Upon dismissal, an employee is entitled to a transition allowance, calculated based on their employment history. This money can be used for training or retraining."
     },
     {
       "id": "knm-b1-1-q10",
-      "text": "Wat is de rol van de vakbond in Nederland?",
+      "text": "Ahmed steelt geld uit de kassa op zijn werk. Zijn werkgever wil hem direct ontslaan zonder opzegtermijn. Mag dit?",
       "options": [
-        "De vakbond int belasting voor de overheid",
-        "De vakbond behartigt de belangen van werknemers en onderhandelt over cao's met werkgevers",
-        "De vakbond is verantwoordelijk voor het uitkeren van werkloosheidsuitkeringen",
-        "De vakbond controleert of werkgevers zich aan de wet houden"
+        "Ja, bij ernstig wangedrag is ontslag op staande voet mogelijk",
+        "Nee, er is altijd een opzegtermijn nodig",
+        "Alleen als Ahmed al eerder gewaarschuwd is"
       ],
-      "correctIndex": 1,
-      "explanation": "Vakbonden behartigen de collectieve belangen van werknemers. Ze onderhandelen met werkgevers over cao's en kunnen staken als beschermingsmiddel.",
-      "explanationEn": "Trade unions represent the collective interests of workers. They negotiate collective labor agreements with employers and can strike as a means of protection."
+      "correctIndex": 0,
+      "explanation": "Bij ernstig wangedrag, zoals diefstal, mag een werkgever een werknemer ontslaan op staande voet: direct, zonder opzegtermijn.",
+      "explanationEn": "For serious misconduct, such as theft, an employer may dismiss an employee on the spot: immediately, without notice period."
     },
     {
       "id": "knm-b1-1-q11",
-      "text": "Wat is het eigen risico in de Nederlandse zorgverzekering en hoe werkt het?",
+      "text": "Pieter werkt fulltime en hoort dat hij recht heeft op vakantiegeld. Wanneer wordt vakantiegeld uitbetaald en hoeveel is het?",
       "options": [
-        "Een jaarlijks bedrag dat u zelf moet betalen voordat de verzekering bijspringt, wettelijk vastgesteld op €385",
-        "Een maandelijkse bijdrage die de werkgever betaalt",
-        "Het bedrag dat u zelf bepaalt hoeveel zorg u wilt ontvangen",
-        "Een vergoeding die u terugkrijgt als u weinig zorg gebruikt"
+        "Maandelijks, 5% van het loon",
+        "Jaarlijks in mei of juni, minimaal 8% van het jaarsalaris",
+        "Alleen als je op vakantie gaat"
       ],
-      "correctIndex": 0,
-      "explanation": "Het verplicht eigen risico is een jaarlijks bedrag (in 2024: €385) dat u eerst zelf moet betalen voor zorgkosten. Daarna vergoedt de verzekering de kosten. Huisartsbezoeken vallen niet onder het eigen risico.",
-      "explanationEn": "The mandatory deductible is an annual amount (in 2024: €385) that you must first pay yourself for healthcare costs. After that, the insurance reimburses the costs. GP visits are not subject to the deductible."
+      "correctIndex": 1,
+      "explanation": "Vakantiegeld wordt in mei of juni uitbetaald en bedraagt minimaal 8% van het bruto jaarsalaris.",
+      "explanationEn": "Holiday pay is paid in May or June and amounts to a minimum of 8% of the gross annual salary."
     },
     {
       "id": "knm-b1-1-q12",
-      "text": "Wanneer kunt u naar een specialist gaan zonder verwijzing van de huisarts?",
+      "text": "Reza begint een nieuwe baan en krijgt zijn eerste loonstrookje. Hij ziet dat er veel ingehouden wordt van zijn brutoloon. Wat is het verschil tussen bruto en netto loon?",
       "options": [
-        "Altijd, u hoeft nooit een verwijzing te hebben",
-        "Alleen voor oogarts en tandarts",
-        "Zelden; in de meeste gevallen heeft u een verwijzing van de huisarts nodig",
-        "Alleen in spoedeisende gevallen via de spoedeisende hulp"
+        "Brutoloon is je salaris voor aftrek van belastingen en premies. Nettoloon is wat je daarna overhoudt",
+        "Er is geen verschil, het zijn dezelfde bedragen",
+        "Brutoloon is het loon dat je baas verdient, nettoloon is jouw deel"
       ],
-      "correctIndex": 2,
-      "explanation": "In Nederland werkt het zorgsysteem met een poortwachtersfunctie: u gaat eerst naar de huisarts, die u indien nodig verwijst naar een specialist. Zonder verwijzing vergoedt de zorgverzekering de specialistische zorg meestal niet.",
-      "explanationEn": "In the Netherlands, the healthcare system works with a gatekeeper function: you first go to the GP, who refers you to a specialist if necessary. Without a referral, health insurance usually does not reimburse specialist care."
+      "correctIndex": 0,
+      "explanation": "Brutoloon is je loon vóór aftrek van belastingen en premies. Nettoloon is het bedrag dat je daadwerkelijk op je rekening krijgt.",
+      "explanationEn": "Gross salary is your pay before deduction of taxes and contributions. Net salary is the amount you actually receive in your bank account."
     },
     {
       "id": "knm-b1-1-q13",
-      "text": "Wat is een persoonsgebonden budget (pgb) en voor wie is het bedoeld?",
+      "text": "Elif is net in Nederland komen wonen en heeft werk gevonden. Ze heeft een BSN-nummer gekregen. Waarvoor heeft ze dit nummer nodig op haar werk?",
       "options": [
-        "Een maandelijkse uitkering voor mensen met een laag inkomen",
-        "Een budget waarmee mensen met een zorgbehoefte zelf zorg kunnen inkopen",
-        "Een studietoelage voor studenten met een functiebeperking",
-        "Een belastingteruggave voor mensen met hoge zorgkosten"
+        "Het BSN is alleen voor stemmen bij verkiezingen",
+        "Het BSN is nodig voor belastingen, loon en sociale voorzieningen — haar werkgever heeft het nodig voor de loonadministratie",
+        "Alleen voor de zorgverzekering"
       ],
       "correctIndex": 1,
-      "explanation": "Een pgb is een geldbedrag waarmee mensen met een lichamelijke, verstandelijke of psychische beperking zelf hun zorg en ondersteuning kunnen regelen en inkopen bij zorgverleners naar keuze.",
-      "explanationEn": "A personal budget (pgb) is a sum of money with which people with a physical, intellectual, or psychological disability can organize and purchase their own care and support from providers of their choice."
+      "explanation": "Het BSN (Burgerservicenummer) is een persoonlijk nummer dat nodig is voor belastingen, loon, zorgverzekering en andere overheidszaken.",
+      "explanationEn": "The BSN (citizen service number) is a personal number needed for taxes, salary, health insurance, and other government matters."
     },
     {
       "id": "knm-b1-1-q14",
-      "text": "Wat doet de GGD (Gemeentelijke Gezondheidsdienst)?",
+      "text": "Lena werkt via een uitzendbureau bij een groot bedrijf. Ze krijgt haar loon van het uitzendbureau, niet van het bedrijf. Hoe heet haar type dienstverband?",
       "options": [
-        "De GGD is een ziekenhuis voor spoedeisende hulp",
-        "De GGD is verantwoordelijk voor de openbare gezondheidszorg: infectieziektebestrijding, jeugdgezondheidszorg en gezondheidsbevordering",
-        "De GGD verstrekt medicijnen gratis aan mensen zonder verzekering",
-        "De GGD regelt de zorgverzekeringen voor mensen met schulden"
+        "Een uitzendcontract",
+        "Een freelancecontract",
+        "Een vast contract"
       ],
-      "correctIndex": 1,
-      "explanation": "De GGD beschermt de volksgezondheid. Taken zijn onder andere: infectieziektebestrijding (zoals bij uitbraken), jeugdgezondheidszorg (consultatiebureau, schoolarts) en gezondheidsbevordering.",
-      "explanationEn": "The GGD protects public health. Tasks include: infectious disease control (such as during outbreaks), youth health care (child health clinic, school doctor), and health promotion."
+      "correctIndex": 0,
+      "explanation": "Bij een uitzendcontract werkt een werknemer via een uitzendbureau. Het uitzendbureau is de officiële werkgever en betaalt het loon.",
+      "explanationEn": "With an agency contract, an employee works through a temp agency. The agency is the official employer and pays the salary."
     },
     {
       "id": "knm-b1-1-q15",
-      "text": "Wat is het verschil tussen de basisverzekering en de aanvullende verzekering?",
+      "text": "Carlos heeft een nulurencontract bij een restaurant. Hij werkt alleen als het druk is. Zijn werkgever belt hem soms twee uur van tevoren. Wat is een kenmerk van een nulurencontract?",
       "options": [
-        "Er is geen verschil; ze zijn wettelijk verplicht",
-        "De basisverzekering is wettelijk verplicht en dekt standaard zorg; de aanvullende verzekering is optioneel en dekt extra's zoals fysiotherapie of tandarts",
-        "De aanvullende verzekering is verplicht voor iedereen boven de 65",
-        "De basisverzekering is gratis; de aanvullende verzekering kost altijd €500 per jaar"
+        "Je hebt gegarandeerde werktijden elke week",
+        "Je hebt geen vaste uren en werkt alleen op oproep",
+        "Je werkt altijd 's nachts"
       ],
       "correctIndex": 1,
-      "explanation": "Iedereen in Nederland is verplicht een basisverzekering te hebben. De aanvullende verzekering is vrijwillig en vergoedt zorg die niet onder de basisverzekering valt, zoals fysiotherapie, orthodontie of brillen.",
-      "explanationEn": "Everyone in the Netherlands is required to have basic insurance. The supplementary insurance is voluntary and covers care not covered by basic insurance, such as physiotherapy, orthodontics, or glasses."
+      "explanation": "Bij een nulurencontract zijn er geen vaste werktijden. Je werkt alleen als de werkgever je oproept.",
+      "explanationEn": "With a zero-hours contract, there are no fixed working hours. You only work when the employer calls you in."
     },
     {
       "id": "knm-b1-1-q16",
-      "text": "Wat is de zorgtoeslag en wie komt er voor in aanmerking?",
+      "text": "Yasmine is zwanger en wil weten hoelang ze betaald verlof krijgt rond de bevalling. Wat is het wettelijke zwangerschaps- en bevallingsverlof?",
       "options": [
-        "Een vergoeding voor iedereen die in een zorginstelling werkt",
-        "Een bijdrage van de overheid in de premiekosten van de zorgverzekering voor mensen met een laag inkomen",
-        "Een toeslag voor mantelzorgers die thuis voor een zieke zorgen",
-        "Een gratis zorgverzekering voor bijstandsontvangers"
+        "1 jaar volledig betaald verlof",
+        "4 weken verlof",
+        "Minimaal 16 weken verlof (4 weken voor de uitgerekende datum en 10 weken daarna)"
       ],
-      "correctIndex": 1,
-      "explanation": "Zorgtoeslag is een financiële bijdrage van de overheid om de zorgverzekeringspremie betaalbaar te houden voor mensen met een laag of middeninkomen. U vraagt het aan bij de Belastingdienst Toeslagen.",
-      "explanationEn": "Healthcare allowance is a financial contribution from the government to keep health insurance premiums affordable for people with low or middle incomes. You apply for it at the Tax and Customs Administration Allowances."
+      "correctIndex": 2,
+      "explanation": "Zwangerschapsverlof duurt minimaal 16 weken: 4-6 weken voor de bevalling en 10-12 weken erna. Dit heet bevallingsverlof.",
+      "explanationEn": "Maternity leave lasts a minimum of 16 weeks: 4-6 weeks before the birth and 10-12 weeks after. This is called bevallingsverlof."
     },
     {
       "id": "knm-b1-1-q17",
-      "text": "Wat is de rol van het zorgkantoor in de Nederlandse zorg?",
+      "text": "Tom heeft een conflict met zijn werkgever over zijn salaris. Hij wil zijn rechten kennen. Zijn collega stelt voor lid te worden van een vakbond. Wat kan een vakbond voor Tom doen?",
       "options": [
-        "Het zorgkantoor is een ziekenhuis voor complexe operaties",
-        "Het zorgkantoor voert de Wet langdurige zorg (Wlz) uit voor mensen die permanent intensieve zorg nodig hebben",
-        "Het zorgkantoor verkoopt aanvullende zorgverzekeringen",
-        "Het zorgkantoor is verantwoordelijk voor de spoedeisende hulp in de regio"
+        "De vakbond betaalt Tom een hoger salaris",
+        "De vakbond kan Tom adviseren en helpen bij het conflict met zijn werkgever",
+        "De vakbond kan Tom ontslaan als hij niet tevreden is"
       ],
       "correctIndex": 1,
-      "explanation": "Het zorgkantoor voert de Wet langdurige zorg (Wlz) uit. Dit is bedoeld voor mensen die vanwege een ernstige beperking of chronische ziekte permanent intensieve zorg of toezicht nodig hebben, zoals in een verpleeghuis.",
-      "explanationEn": "The care office administers the Long-term Care Act (Wlz). This is intended for people who need permanent intensive care or supervision due to a serious disability or chronic illness, such as in a nursing home."
+      "explanation": "Een vakbond behartigt de belangen van werknemers, geeft advies bij arbeidsconflicten en onderhandelt over arbeidsvoorwaarden.",
+      "explanationEn": "A trade union represents employees' interests, provides advice in labor disputes, and negotiates working conditions."
     },
     {
       "id": "knm-b1-1-q18",
-      "text": "Wat houdt de Wet maatschappelijke ondersteuning (Wmo) in?",
+      "text": "Sanne wordt geïntimideerd door haar leidinggevende op het werk. Ze wil een klacht indienen maar weet niet bij wie. Haar HR-afdeling wijst haar op een vertrouwenspersoon. Wat doet een vertrouwenspersoon?",
       "options": [
-        "Een uitkering voor mensen die niet kunnen werken",
-        "Gemeentelijke ondersteuning bij zelfstandig wonen: huishoudelijke hulp, dagbesteding, aanpassingen in huis",
-        "Gratis geestelijke gezondheidszorg voor iedereen",
-        "Een regeling voor thuiszorg die via de zorgverzekering loopt"
+        "De vertrouwenspersoon regelt alleen salarisadministratie",
+        "De vertrouwenspersoon is de baas die beslissingen neemt",
+        "De vertrouwenspersoon luistert naar klachten over ongewenst gedrag en helpt bij het vinden van een oplossing"
       ],
-      "correctIndex": 1,
-      "explanation": "De Wmo is een gemeentelijke wet die mensen ondersteunt bij zelfstandig wonen en meedoen in de samenleving. Denk aan: huishoudelijke hulp, dagbesteding, woningaanpassingen en begeleiding.",
-      "explanationEn": "The Wmo is a municipal law that supports people in living independently and participating in society. Think of: domestic help, day activities, home adaptations, and guidance."
+      "correctIndex": 2,
+      "explanation": "Een vertrouwenspersoon op de werkvloer luistert naar werknemers met klachten over ongewenst gedrag, intimidatie of pesten en helpt bij het vinden van een oplossing.",
+      "explanationEn": "A confidential counselor in the workplace listens to employees with complaints about unwanted behavior, harassment, or bullying and helps find a solution."
     },
     {
       "id": "knm-b1-1-q19",
-      "text": "Hoe vraagt u een verwijsbrief aan bij uw huisarts en wat zijn uw rechten hierbij?",
+      "text": "Lars solliciteert bij een beveiligingsbedrijf. De werkgever vraagt hem een VOG aan te vragen. Wat is een VOG?",
       "options": [
-        "U heeft geen recht op een verwijsbrief; de huisarts beslist volledig",
-        "U kunt een verwijsbrief aanvragen; als de huisarts weigert, kunt u om een uitleg vragen en eventueel een tweede mening bij een andere huisarts",
-        "U moet de verwijsbrief altijd online aanvragen via MijnOverheid",
-        "Een verwijsbrief is gratis, maar u betaalt altijd de eerste afspraak bij de specialist zelf"
+        "Een Verklaring Omtrent het Gedrag: een officieel bewijs dat je geen relevante strafbare feiten hebt gepleegd",
+        "Een bewijs dat je Nederlands spreekt",
+        "Een bewijs van werkervaring"
       ],
-      "correctIndex": 1,
-      "explanation": "U kunt de huisarts om een verwijzing vragen. De huisarts beoordeelt of dit medisch noodzakelijk is. Als u het niet eens bent met de beslissing, heeft u recht op uitleg en kunt u een andere mening vragen.",
-      "explanationEn": "You can ask the GP for a referral. The GP assesses whether this is medically necessary. If you disagree with the decision, you have the right to an explanation and can seek another opinion."
+      "correctIndex": 0,
+      "explanation": "Een VOG (Verklaring Omtrent het Gedrag) is een officieel document waaruit blijkt dat er geen bezwaren zijn vanuit justitie voor de functie waarvoor je solliciteert.",
+      "explanationEn": "A VOG (Certificate of Good Conduct) is an official document showing there are no objections from the justice system for the position you are applying for."
     },
     {
       "id": "knm-b1-1-q20",
-      "text": "Wat is het verschil tussen een huisarts en een specialist?",
+      "text": "Amira werkt in hetzelfde team als haar mannelijke collega's maar krijgt een lager salaris voor hetzelfde werk. Ze vraagt haar baas om uitleg. Wat zegt de wet hierover?",
       "options": [
-        "Een specialist kost meer maar is altijd beter",
-        "De huisarts is de eerstelijns arts voor algemene klachten; een specialist is tweedelijns en behandelt specifieke aandoeningen op verwijzing",
-        "Een huisarts mag geen medicijnen voorschrijven; een specialist wel",
-        "Er is geen verschil; ze hebben dezelfde opleiding"
+        "Gelijke beloning voor gelijk werk is wettelijk verplicht; ongelijke beloning op basis van geslacht is discriminatie",
+        "Werkgevers mogen zelf bepalen wie welk salaris krijgt",
+        "Vrouwen krijgen altijd minder, dat is normaal"
       ],
-      "correctIndex": 1,
-      "explanation": "De huisarts is de poortwachter van de gezondheidszorg. Hij/zij behandelt de meeste klachten. Als specialistische kennis nodig is, verwijst de huisarts door naar een specialist in het ziekenhuis.",
-      "explanationEn": "The GP is the gatekeeper of healthcare. He/she treats most complaints. When specialist knowledge is needed, the GP refers to a specialist at the hospital."
+      "correctIndex": 0,
+      "explanation": "De wet verplicht gelijke beloning voor gelijk werk. Ongelijke beloning op basis van geslacht is discriminatie en is verboden.",
+      "explanationEn": "The law requires equal pay for equal work. Unequal pay based on gender is discrimination and is prohibited."
     },
     {
       "id": "knm-b1-1-q21",
-      "text": "Wat is het verschil tussen sociale huur en vrije sectorhuur?",
+      "text": "Daan werkt bij een groot bedrijf. Het bedrijf wil veel mensen ontslaan wegens financiële problemen. Er zijn meer dan 20 ontslagen. Hoe heet dit?",
       "options": [
-        "Sociale huur is altijd luxer dan vrije sectorhuur",
-        "Sociale huurwoningen hebben een huurprijs onder de liberalisatiegrens en zijn bedoeld voor mensen met lagere inkomens; vrije sector heeft geen maximale huurprijs",
-        "Vrije sectorhuur is gesubsidieerd door de gemeente",
-        "Er is geen verschil; beide zijn gelimiteerd door dezelfde huurprijsregels"
+        "Individueel ontslag",
+        "Collectief ontslag",
+        "Ontslag op staande voet"
       ],
       "correctIndex": 1,
-      "explanation": "Sociale huurwoningen hebben een maximale huurprijs (liberalisatiegrens, ca. €879 in 2024) en worden verdeeld via woningcorporaties op basis van inkomen en wachttijd. Vrije sectorhuur heeft geen maximale prijs.",
-      "explanationEn": "Social rental housing has a maximum rental price (liberalization limit, approx. €879 in 2024) and is distributed through housing associations based on income and waiting time. Private sector rent has no maximum price."
+      "explanation": "Als een werkgever 20 of meer mensen binnen 3 maanden ontslaat in hetzelfde werkgebied, heet dat collectief ontslag. Hiervoor gelden speciale regels.",
+      "explanationEn": "When an employer dismisses 20 or more people within 3 months in the same work area, it is called collective dismissal. Special rules apply for this."
     },
     {
       "id": "knm-b1-1-q22",
-      "text": "Hoe vraagt u huurtoeslag aan en aan welke voorwaarden moet u voldoen?",
+      "text": "Kim werkt parttime bij een winkel. Ze hoort dat ze recht heeft op dezelfde arbeidsvoorwaarden als haar fulltimecollega's, maar dan naar rato. Welk principe is dit?",
       "options": [
-        "Via de gemeente; u moet jonger dan 65 zijn",
-        "Via de Belastingdienst Toeslagen; u moet een huurwoning hebben, een inkomen onder de grens en een huurprijs binnen de toeslag grenzen",
-        "Via uw woningcorporatie; alleen voor sociale huurders",
-        "Via het UWV; u moet werkzoekend zijn"
+        "Het gelijkheidsbeginsel: parttimers hebben dezelfde rechten naar rato van hun uren",
+        "CAO-principe",
+        "Het minimumloonprincipe"
       ],
-      "correctIndex": 1,
-      "explanation": "Huurtoeslag vraagt u aan via de website van de Belastingdienst Toeslagen. Voorwaarden: u huurt een woning, uw huur is niet te hoog, uw inkomen en vermogen zijn binnen de grenzen, en u bent 18 jaar of ouder.",
-      "explanationEn": "You apply for housing benefit via the Tax and Customs Administration Allowances website. Conditions: you rent a property, your rent is not too high, your income and assets are within the limits, and you are 18 years or older."
+      "correctIndex": 0,
+      "explanation": "Parttimers hebben recht op dezelfde arbeidsvoorwaarden als fulltimers, berekend naar rato van hun werkuren. Dit heet het pro-ratabeginsel.",
+      "explanationEn": "Part-time workers are entitled to the same employment conditions as full-time workers, calculated proportionally to their working hours. This is called the pro-rata principle."
     },
     {
       "id": "knm-b1-1-q23",
-      "text": "Hoe lang kan de wachttijd voor een sociale huurwoning zijn in grote steden?",
+      "text": "Peter werkt bij een groot bedrijf. Hij hoort dat er een Ondernemingsraad (OR) is. Zijn collega legt uit wat de OR doet. Wat is de rol van de OR?",
       "options": [
-        "Maximaal 6 maanden, wettelijk geregeld",
-        "Gemiddeld 1 tot 2 jaar",
-        "In steden als Amsterdam en Utrecht kan de wachttijd 10 tot 15 jaar of langer zijn",
-        "Er is geen wachttijd; iedereen met laag inkomen krijgt direct een woning"
+        "De OR organiseert bedrijfsfeestjes",
+        "De OR vertegenwoordigt de werknemers en heeft advies- en instemmingsrecht bij bepaalde beslissingen van het management",
+        "De OR bepaalt de salarissen van alle werknemers"
       ],
-      "correctIndex": 2,
-      "explanation": "In grote steden zoals Amsterdam en Utrecht kan de wachttijd voor sociale huurwoningen oplopen tot 10-15 jaar of meer vanwege grote vraag en beperkt aanbod. Inschrijven zo snel mogelijk is belangrijk.",
-      "explanationEn": "In major cities like Amsterdam and Utrecht, the waiting time for social rental housing can be 10-15 years or more due to high demand and limited supply. Registering as soon as possible is important."
+      "correctIndex": 1,
+      "explanation": "De Ondernemingsraad (OR) vertegenwoordigt de belangen van werknemers. Ze hebben adviesrecht en instemmingsrecht bij organisatorische beslissingen.",
+      "explanationEn": "The works council (OR) represents the interests of employees. They have advisory and consent rights in organizational decisions."
     },
     {
       "id": "knm-b1-1-q24",
-      "text": "Wanneer mag een verhuurder de huur verhogen en met hoeveel?",
+      "text": "Fatima bouwt pensioen op via haar werk. Haar werkgever draagt bij aan een pensioenfonds. Wat is het doel van dit pensioenfonds?",
       "options": [
-        "Wanneer de verhuurder wil, zonder beperkingen",
-        "Maximaal één keer per jaar, met een wettelijk bepaald maximumpercentage",
-        "Alleen bij renovatie van de woning",
-        "Alleen als de huurder meer verdient dan het jaar daarvoor"
+        "Het pensioenfonds zorgt voor een uitkering als ze op pensioengerechtigde leeftijd is gestopt met werken",
+        "Het pensioenfonds betaalt haar salaris nu",
+        "Het pensioenfonds betaalt haar huur"
       ],
-      "correctIndex": 1,
-      "explanation": "Verhuurders mogen de huur maximaal één keer per jaar verhogen. Voor sociale huur stelt de overheid een maximumpercentage vast. Voor vrije sector gelden andere regels maar ook beperkingen.",
-      "explanationEn": "Landlords may raise the rent a maximum of once a year. For social rental housing, the government sets a maximum percentage. Different rules and also restrictions apply to the private sector."
+      "correctIndex": 0,
+      "explanation": "Een pensioenfonds beheert het geld dat werknemers en werkgevers inleggen, zodat werknemers later een pensioenuitkering ontvangen naast de AOW.",
+      "explanationEn": "A pension fund manages the money that employees and employers contribute, so that employees later receive a pension benefit in addition to the AOW."
     },
     {
       "id": "knm-b1-1-q25",
-      "text": "Wat zijn servicekosten in een huurwoning en wat mag de verhuurder daarvoor vragen?",
+      "text": "Sven solliciteert op een nieuwe baan maar zijn huidige werkgever wil niet dat hij daarna bij een concurrent gaat werken. In zijn contract staat een clausule hierover. Hoe heet dit?",
       "options": [
-        "Servicekosten zijn extra kosten bovenop de huur, die de verhuurder vrijelijk mag bepalen",
-        "Servicekosten zijn kosten voor diensten zoals schoonmaak trappenhuis of tuinonderhoud; de verhuurder mag alleen werkelijke kosten doorberekenen",
-        "Servicekosten zijn wettelijk verboden en de verhuurder mag ze niet in rekening brengen",
-        "Servicekosten zijn een vergoeding voor de makelaar bij het afsluiten van het huurcontract"
+        "Een geheimhoudingsverklaring",
+        "Een proeftijdbeding",
+        "Een non-concurrentiebeding"
       ],
-      "correctIndex": 1,
-      "explanation": "Servicekosten zijn vergoedingen voor diensten die de verhuurder levert, zoals schoonmaak gemeenschappelijke ruimtes, tuinonderhoud of een intercominstallatie. De verhuurder mag alleen de werkelijke kosten in rekening brengen.",
-      "explanationEn": "Service charges are fees for services provided by the landlord, such as cleaning common areas, garden maintenance, or an intercom system. The landlord may only charge actual costs."
+      "correctIndex": 2,
+      "explanation": "Een non-concurrentiebeding verbiedt een werknemer om na het dienstverband bij een concurrent te gaan werken voor een bepaalde periode.",
+      "explanationEn": "A non-compete clause prohibits an employee from working for a competitor after their employment for a certain period."
     },
     {
       "id": "knm-b1-1-q26",
-      "text": "Hoe kunt u bezwaar maken tegen een huurverhoging die u onterecht vindt?",
+      "text": "Aiko heeft een tijdelijk contract van één jaar. Haar werkgever wil het contract niet verlengen. Wat moet de werkgever doen als het contract afloopt?",
       "options": [
-        "Dat kunt u niet; de verhuurder heeft altijd gelijk",
-        "U kunt bezwaar maken bij de Huurcommissie, die de huurprijs onafhankelijk beoordeelt",
-        "U moet naar de rechter; de Huurcommissie bestaat niet meer",
-        "U stuurt een bezwaarbrief naar de gemeente en zij regelen het"
+        "De werkgever moet minimaal één maand voor het aflopen schriftelijk laten weten of hij het contract verlengt of niet (aanzegtermijn)",
+        "De werkgever moet een transitievergoeding betalen bij elk tijdelijk contract",
+        "Niets, het contract eindigt automatisch"
       ],
-      "correctIndex": 1,
-      "explanation": "Als u het niet eens bent met een huurverhoging, kunt u bezwaar maken bij de Huurcommissie. Dit is een onafhankelijke organisatie die geschillen tussen huurder en verhuurder beslist.",
-      "explanationEn": "If you disagree with a rent increase, you can object to the Huurcommissie (Rent Tribunal). This is an independent organization that decides disputes between tenant and landlord."
+      "correctIndex": 0,
+      "explanation": "Bij tijdelijke contracten van 6 maanden of langer moet de werkgever minimaal 1 maand voor het einde schriftelijk melden of hij verlengt. Dit heet de aanzegtermijn.",
+      "explanationEn": "For temporary contracts of 6 months or longer, the employer must notify in writing at least 1 month before the end whether they will renew. This is called the notification period."
     },
     {
       "id": "knm-b1-1-q27",
-      "text": "Wat is de taak van een woningcorporatie?",
+      "text": "Nadia heeft na 3 opeenvolgende tijdelijke contracten bij hetzelfde bedrijf recht op een vast contract. Hoelang moet je aaneengesloten tijdelijk werken om recht te krijgen op een vast contract?",
       "options": [
-        "Luxe appartementen bouwen voor mensen met hoge inkomens",
-        "Betaalbare huurwoningen aanbieden aan mensen met lagere inkomens en maatschappelijke taken uitvoeren",
-        "Hypotheken verstrekken aan kopers van een eerste woning",
-        "Belasting innen voor de gemeente op huurwoningen"
+        "Na 1 jaar",
+        "Na 3 jaar of na 3 contracten binnen 3 jaar (de ketenregeling)",
+        "Na 5 jaar"
       ],
       "correctIndex": 1,
-      "explanation": "Woningcorporaties zijn sociale verhuurorganisaties die zich richten op het aanbieden van betaalbare woningen aan mensen met lagere inkomens. Ze zijn verplicht minimaal 80% van hun woningen toe te wijzen aan mensen met een inkomen tot de grens.",
-      "explanationEn": "Housing associations are social rental organizations focused on providing affordable housing to people with lower incomes. They are required to assign at least 80% of their homes to people with an income up to the limit."
+      "explanation": "De ketenregeling bepaalt dat je na maximaal 3 opeenvolgende tijdelijke contracten of na 3 jaar recht hebt op een vast contract.",
+      "explanationEn": "The chain rule (ketenregeling) stipulates that after a maximum of 3 consecutive temporary contracts or after 3 years, you are entitled to a permanent contract."
     },
     {
       "id": "knm-b1-1-q28",
-      "text": "Wat is de opzegtermijn voor een huurder bij een onbepaalde termijn huurcontract?",
+      "text": "Omar wordt ontslagen. Hij is het niet eens met zijn ontslag. Wat kan hij doen als hij denkt dat zijn ontslag onterecht is?",
       "options": [
-        "1 week",
-        "1 maand",
-        "3 maanden",
-        "6 maanden"
+        "Niets, de werkgever heeft altijd gelijk",
+        "Hij mag zijn werkplek bezetten",
+        "Hij kan naar de rechter stappen of een procedure starten bij het UWV om het ontslag aan te vechten"
       ],
-      "correctIndex": 1,
-      "explanation": "Een huurder kan een huurcontract voor onbepaalde tijd opzeggen met een opzegtermijn van 1 maand. De verhuurder heeft een langere opzegtermijn en kan alleen opzeggen op wettelijk bepaalde gronden.",
-      "explanationEn": "A tenant can terminate an indefinite rental contract with a notice period of 1 month. The landlord has a longer notice period and can only terminate on statutory grounds."
+      "correctIndex": 2,
+      "explanation": "Als een werknemer het niet eens is met zijn ontslag, kan hij dit aanvechten via de kantonrechter of het UWV.",
+      "explanationEn": "If an employee disagrees with their dismissal, they can challenge it through the cantonal court or the UWV."
     },
     {
       "id": "knm-b1-1-q29",
-      "text": "Wat zijn de rechten van een huurder als de verhuurder de woning niet goed onderhoudt?",
+      "text": "Elena zorgt elke dag voor haar zieke moeder en werkt ook. Ze wil haar werktijd tijdelijk verminderen om te zorgen. Welk recht heeft ze hiervoor?",
       "options": [
-        "De huurder moet alles zelf repareren en daarna de rekening sturen",
-        "De huurder kan de verhuurder schriftelijk sommeren, huurverlaging aanvragen bij de Huurcommissie, of in ernstige gevallen zelf reparaties laten uitvoeren op kosten van de verhuurder",
-        "De huurder heeft geen rechten; de verhuurder bepaalt zelf wat hij repareert",
-        "De huurder moet direct de huur stopzetten om druk uit te oefenen"
+        "Ze heeft geen recht op minder werken",
+        "Ze kan alleen verlof nemen als haar werkgever ermee instemt",
+        "Ze kan een beroep doen op de Wet aanpassing arbeidsduur om haar uren te verminderen"
       ],
-      "correctIndex": 1,
-      "explanation": "Als de verhuurder achterstallig onderhoud niet aanpakt, kan de huurder schriftelijk sommeren, een klacht indienen bij de Huurcommissie of gemeente, huurverlaging aanvragen, of in uiterste gevallen zelf laten repareren en kosten verrekenen.",
-      "explanationEn": "If the landlord does not address deferred maintenance, the tenant can issue a written demand, file a complaint with the Huurcommissie or municipality, apply for rent reduction, or in extreme cases have repairs done themselves and offset costs."
+      "correctIndex": 2,
+      "explanation": "De Wet aanpassing arbeidsduur geeft werknemers het recht om meer of minder uren te werken. De werkgever mag dit alleen weigeren bij zwaarwegend bedrijfsbelang.",
+      "explanationEn": "The Working Hours Adjustment Act gives employees the right to work more or fewer hours. The employer may only refuse this for compelling business reasons."
     },
     {
       "id": "knm-b1-1-q30",
-      "text": "Wat is het verschil tussen een eenpersoonshuishouden en een meerpersoons huishouden voor toeslagen?",
+      "text": "Mark werkt in de bouw. Zijn werkgever biedt geen veilige werkomstandigheden: er is geen bescherming bij werken op hoogte. Welke wet beschermt Mark?",
       "options": [
-        "Er is geen verschil; toeslagen zijn voor iedereen gelijk",
-        "De hoogte van toeslagen zoals huurtoeslag en zorgtoeslag verschilt op basis van gezinsgrootte en gezamenlijk inkomen",
-        "Alleen eenpersoonshuishoudens hebben recht op huurtoeslag",
-        "Meerpersoons huishoudens krijgen altijd meer toeslag, ongeacht inkomen"
+        "De Arbeidsomstandighedenwet (Arbowet)",
+        "De Wet minimumloon",
+        "De Arbeidstijdenwet"
       ],
-      "correctIndex": 1,
-      "explanation": "Toeslagen zoals huurtoeslag en zorgtoeslag worden berekend op basis van uw persoonlijke situatie, inclusief gezinsgrootte en het totale inkomen van alle huisgenoten. Bij een meerpersoons huishouden tellen alle inkomens mee.",
-      "explanationEn": "Allowances such as housing benefit and healthcare allowance are calculated based on your personal situation, including family size and the total income of all household members. In a multi-person household, all incomes count."
+      "correctIndex": 0,
+      "explanation": "De Arbowet (Arbeidsomstandighedenwet) verplicht werkgevers om een veilige en gezonde werkplek te bieden.",
+      "explanationEn": "The Working Conditions Act (Arbowet) obliges employers to provide a safe and healthy workplace."
     },
     {
       "id": "knm-b1-1-q31",
-      "text": "Hoeveel leden telt de Tweede Kamer in Nederland en hoe lang is een zittingsperiode?",
+      "text": "Sophie werkt als verpleegkundige en is 's nachts aan het werk. Ze vraagt of ze recht heeft op meer loon voor nachtdiensten. Wat geldt hier?",
       "options": [
-        "100 leden voor 4 jaar",
-        "150 leden voor 4 jaar",
-        "75 leden voor 5 jaar",
-        "200 leden voor 4 jaar"
+        "Ja, in veel CAO's staat een toeslag voor onregelmatige diensten zoals nachtwerk",
+        "Nachtdiensten zijn verboden voor vrouwen",
+        "Nee, nachtdiensten worden hetzelfde betaald als dagdiensten"
       ],
-      "correctIndex": 1,
-      "explanation": "De Tweede Kamer bestaat uit 150 leden (volksvertegenwoordigers) die via evenredige vertegenwoordiging worden gekozen voor een periode van 4 jaar. Bij een kabinetscrisis kunnen er tussentijdse verkiezingen zijn.",
-      "explanationEn": "The House of Representatives consists of 150 members (representatives) who are elected by proportional representation for a period of 4 years. During a cabinet crisis, there may be early elections."
+      "correctIndex": 0,
+      "explanation": "In de meeste CAO's is er een onregelmatigheidstoeslag voor nachtdiensten, weekenden en feestdagen.",
+      "explanationEn": "In most CAOs, there is an irregular hours allowance for night shifts, weekends, and public holidays."
     },
     {
       "id": "knm-b1-1-q32",
-      "text": "Wat is het verschil tussen de Eerste Kamer en de Tweede Kamer?",
+      "text": "Ali heeft een WW-uitkering aangevraagd na zijn ontslag. Hij weet niet hoelang hij deze uitkering krijgt. Hoelang duurt de WW-uitkering maximaal?",
       "options": [
-        "De Eerste Kamer maakt wetten; de Tweede Kamer controleert ze",
-        "De Tweede Kamer initieert en debatteert over wetten; de Eerste Kamer toetst wetten op uitvoerbaarheid en rechtmatigheid maar kan ze niet amenderen",
-        "Ze zijn volledig gelijk in bevoegdheden",
-        "De Eerste Kamer wordt direct gekozen; de Tweede Kamer indirect"
+        "Onbeperkt, totdat je een nieuwe baan vindt",
+        "Maximaal 6 maanden",
+        "Maximaal 24 maanden (2 jaar), afhankelijk van je arbeidsverleden"
       ],
-      "correctIndex": 1,
-      "explanation": "De Tweede Kamer is het primaire wetgevende orgaan: ze initieert debatten en kan wetten aanpassen. De Eerste Kamer (senaat) toetst wetten maar kan ze alleen accepteren of verwerpen, niet zelf wijzigen.",
-      "explanationEn": "The House of Representatives is the primary legislative body: it initiates debates and can amend laws. The Senate checks laws but can only accept or reject them, not amend them itself."
+      "correctIndex": 2,
+      "explanation": "De WW-uitkering duurt maximaal 24 maanden. De duur hangt af van het arbeidsverleden: hoe langer je gewerkt hebt, hoe langer je recht hebt.",
+      "explanationEn": "The WW benefit lasts a maximum of 24 months. The duration depends on your work history: the longer you have worked, the longer you are entitled to benefits."
     },
     {
       "id": "knm-b1-1-q33",
-      "text": "Wat is een coalitieakkoord en welke rol speelt het in de Nederlandse politiek?",
+      "text": "Roos is ziek thuis en haar werkgever vraagt haar terug te komen voor passend werk. Ze vindt het moeilijk maar is er eigenlijk wel geschikt voor. Wat heet het als werknemer en werkgever samenwerken om terug te keren naar werk?",
       "options": [
-        "Een akkoord waarbij alle partijen in het parlement samenwerken",
-        "Een schriftelijke overeenkomst tussen de partijen die samen een kabinet vormen, met de plannen voor de regeringsperiode",
-        "Een verdrag tussen Nederland en de Europese Unie",
-        "Een intern document van een politieke partij over haar standpunten"
+        "Re-integratieplan",
+        "Ontslag met wederzijds goedvinden",
+        "Collectief ontslag"
       ],
-      "correctIndex": 1,
-      "explanation": "Na de formatie sluiten de coalitiepartijen een coalitieakkoord, ook wel regeerakkoord. Dit beschrijft de plannen en compromissen voor de komende regeringsperiode (4 jaar).",
-      "explanationEn": "After the formation, the coalition parties conclude a coalition agreement. This describes the plans and compromises for the coming governing period (4 years)."
+      "correctIndex": 0,
+      "explanation": "Re-integratie is het proces waarbij een zieke werknemer stap voor stap terugkeert naar werk, in samenwerking met werkgever en bedrijfsarts.",
+      "explanationEn": "Reintegration is the process by which a sick employee gradually returns to work, in collaboration with the employer and occupational physician."
     },
     {
       "id": "knm-b1-1-q34",
-      "text": "Wat doet een wethouder in een gemeente?",
+      "text": "Kofi is zzp'er en heeft geen werkgever. Hij wordt ziek en vraagt of hij een WW-uitkering kan krijgen. Wat is het antwoord?",
       "options": [
-        "De wethouder is de voorzitter van de gemeenteraad",
-        "De wethouder is een lid van het college van B&W en is verantwoordelijk voor een of meer beleidsterreinen",
-        "De wethouder is de ambtenaar die bouwvergunningen afgeeft",
-        "De wethouder is de juridische adviseur van de burgemeester"
+        "Nee, een zzp'er is niet verzekerd via de WW omdat hij geen werknemersverzekeringen betaalt",
+        "Ja, een zzp'er heeft dezelfde rechten als een werknemer",
+        "Ja, maar alleen als hij langer dan een jaar ziek is"
       ],
-      "correctIndex": 1,
-      "explanation": "Wethouders zijn leden van het college van burgemeester en wethouders (B&W). Ze zijn verantwoordelijk voor specifieke beleidsterreinen zoals onderwijs, wonen of openbare ruimte en worden benoemd door de gemeenteraad.",
-      "explanationEn": "Aldermen are members of the college of mayor and aldermen (B&W). They are responsible for specific policy areas such as education, housing, or public space, and are appointed by the municipal council."
+      "correctIndex": 0,
+      "explanation": "Een zzp'er heeft geen recht op WW of loondoorbetaling bij ziekte. Hij is niet verplicht verzekerd via werknemersverzekeringen.",
+      "explanationEn": "A self-employed person (zzp'er) is not entitled to WW or continued salary payment during illness. They are not mandatorily insured through employee insurance schemes."
     },
     {
       "id": "knm-b1-1-q35",
-      "text": "Hoe wordt een staatssecretaris benoemd en wat is zijn/haar rol?",
+      "text": "Petra wil weten of haar werkgever haar contract mag verlengen na drie tijdelijke contracten. Haar HR-afdeling zegt dat ze na drie contracten een vast contract moet krijgen. Welke wet regelt dit?",
       "options": [
-        "Via directe verkiezingen, net als Tweede Kamerleden",
-        "Door de Koning/Koningin op voordracht van de Minister-President; een staatssecretaris ondersteunt een minister op een deelterrein",
-        "Door de Tweede Kamer na een sollicitatieprocedure",
-        "Een staatssecretaris is een gekozen lid van de Eerste Kamer"
+        "De ketenregeling in het Burgerlijk Wetboek",
+        "De Grondwet",
+        "De Arbowet"
       ],
-      "correctIndex": 1,
-      "explanation": "Staatssecretarissen worden benoemd door de Koning op voordracht van de Minister-President. Ze ondersteunen een minister op een specifiek beleidsterrein en nemen deel aan het kabinet maar hebben geen stemrecht in de ministerraad.",
-      "explanationEn": "State secretaries are appointed by the King on the recommendation of the Prime Minister. They support a minister in a specific policy area and participate in the cabinet but do not have voting rights in the Council of Ministers."
+      "correctIndex": 0,
+      "explanation": "De ketenregeling in het Burgerlijk Wetboek bepaalt dat na drie opeenvolgende tijdelijke contracten of na drie jaar een vast contract ontstaat.",
+      "explanationEn": "The chain rule in the Civil Code stipulates that after three consecutive temporary contracts or after three years, a permanent contract arises."
     },
     {
       "id": "knm-b1-1-q36",
-      "text": "Wat is de rol van Provinciale Staten?",
+      "text": "David werkt bij een restaurant en wil weten hoeveel overuren hij betaald moet krijgen. In de CAO staat een overurentoeslag. Wat is dit?",
       "options": [
-        "Provinciale Staten zijn een adviesorgaan van de Tweede Kamer",
-        "Provinciale Staten zijn het gekozen bestuur van een provincie en stellen het provinciale beleid en budget vast",
-        "Provinciale Staten controleren de gemeenteraden",
-        "Provinciale Staten zijn verantwoordelijk voor de belastingen in de provincie"
+        "Extra loon (toeslag) bovenop het normale uurloon voor uren die boven de contracturen worden gewerkt",
+        "Extra verlof in plaats van extra loon voor overwerk",
+        "Een bonus aan het einde van het jaar"
       ],
-      "correctIndex": 1,
-      "explanation": "Provinciale Staten zijn het volksvertegenwoordigend orgaan van de provincie. Ze stellen het beleid en de begroting van de provincie vast en controleren het dagelijks bestuur (Gedeputeerde Staten).",
-      "explanationEn": "Provincial States are the representative body of the province. They determine the policy and budget of the province and supervise the daily administration (Executive Council)."
+      "correctIndex": 0,
+      "explanation": "Een overurentoeslag is extra loon voor uren die boven de afgesproken contracturen worden gewerkt. In veel CAO's is dit 25% of 50% extra.",
+      "explanationEn": "An overtime allowance is extra pay for hours worked above the agreed contractual hours. In many CAOs, this is 25% or 50% extra."
     },
     {
       "id": "knm-b1-1-q37",
-      "text": "Wat is de informateur en wat doet hij/zij na de Tweede Kamerverkiezingen?",
+      "text": "Nina wil haar WW-uitkering aanvragen. Haar adviseur zegt dat ze dit online moet doen. Via welke website vraagt ze haar WW aan?",
       "options": [
-        "De informateur is een journalist die over de formatie rapporteert",
-        "De informateur onderzoekt welke partijen bereid zijn samen een kabinet te vormen en brengt verslag uit aan de Tweede Kamer",
-        "De informateur stelt direct het coalitieakkoord op",
-        "De informateur benoemt de nieuwe ministers"
+        "Via de website van het UWV (uwv.nl)",
+        "Via de website van de Belastingdienst",
+        "Via de website van de gemeente"
       ],
-      "correctIndex": 1,
-      "explanation": "Na verkiezingen wordt een informateur aangesteld om te onderzoeken welke partijen bereid zijn samen te regeren. De informateur voert gesprekken en brengt verslag uit. Daarna kan een formateur worden aangesteld om het kabinet te vormen.",
-      "explanationEn": "After elections, an informateur is appointed to investigate which parties are willing to govern together. The informateur conducts talks and reports back. Then a formateur may be appointed to form the cabinet."
+      "correctIndex": 0,
+      "explanation": "WW- en andere uitkeringen worden aangevraagd via de website van het UWV (uwv.nl) of bij een UWV-kantoor.",
+      "explanationEn": "WW and other benefits are applied for through the UWV website (uwv.nl) or at a UWV office."
     },
     {
       "id": "knm-b1-1-q38",
-      "text": "Welk principe ligt ten grondslag aan het Nederlandse kiesstelsel?",
+      "text": "Lucas werkt bij een bedrijf dat failliet gaat. Er is geen geld meer om zijn loon te betalen. Wie betaalt zijn achterstallig loon?",
       "options": [
-        "Meerderheidsstelsel: de partij met de meeste stemmen wint alle zetels",
-        "Evenredige vertegenwoordiging: zetels worden verdeeld naar rato van het stempercentage",
-        "Districtenstelsel: elke regio kiest één vertegenwoordiger",
-        "Tweepartijenstelsel: alleen de twee grootste partijen doen mee"
+        "De Belastingdienst betaalt het achterstallige loon",
+        "Het UWV neemt de loonbetalingsverplichting over bij faillissement",
+        "Hij krijgt zijn loon niet meer"
       ],
       "correctIndex": 1,
-      "explanation": "Nederland heeft een stelsel van evenredige vertegenwoordiging. Als een partij 10% van de stemmen krijgt, krijgt ze ook ongeveer 10% van de 150 zetels in de Tweede Kamer. Hierdoor zijn er veel partijen vertegenwoordigd.",
-      "explanationEn": "The Netherlands has a system of proportional representation. If a party gets 10% of the votes, it also gets about 10% of the 150 seats in the House of Representatives. This means many parties are represented."
+      "explanation": "Bij faillissement van een werkgever neemt het UWV de loonbetalingen over voor een bepaalde periode via de loongarantieregeling.",
+      "explanationEn": "When an employer goes bankrupt, the UWV takes over salary payments for a certain period through the wage guarantee scheme."
     },
     {
       "id": "knm-b1-1-q39",
-      "text": "Wat is de motie van wantrouwen in het Nederlandse parlementaire stelsel?",
+      "text": "Layla mist haar werk wegens ziekte. Na 6 weken wil ze begrijpen wat haar rechten zijn. Haar werkgever kan haar niet zomaar ontslaan tijdens ziekte. Hoelang geldt dit beschermingsrecht?",
       "options": [
-        "Een aanklacht door de Eerste Kamer tegen een minister",
-        "Een formele stemming in de Tweede Kamer waarbij wordt uitgesproken dat het parlement geen vertrouwen meer heeft in een minister of het gehele kabinet",
-        "Een klacht van een burger bij de Nationale Ombudsman",
-        "Een bezwaar van de koning tegen een wet"
+        "Gedurende de eerste 2 jaar van ziekte is ontslag wegens ziekte verboden (opzegverbod bij ziekte)",
+        "6 maanden",
+        "2 weken"
       ],
-      "correctIndex": 1,
-      "explanation": "Een motie van wantrouwen is een formeel instrument van de Tweede Kamer. Als een meerderheid voor stemt, moet de betrokken minister of het gehele kabinet aftreden. Dit is een cruciaal onderdeel van de parlementaire democratie.",
-      "explanationEn": "A motion of no confidence is a formal instrument of the House of Representatives. If a majority votes in favor, the minister concerned or the entire cabinet must resign. This is a crucial part of parliamentary democracy."
+      "correctIndex": 0,
+      "explanation": "Tijdens de eerste 2 jaar van ziekte geldt een opzegverbod. De werkgever mag de werknemer in die periode niet ontslaan vanwege de ziekte.",
+      "explanationEn": "During the first 2 years of illness, there is a prohibition on dismissal. The employer may not dismiss the employee during that period due to illness."
     },
     {
       "id": "knm-b1-1-q40",
-      "text": "Wat is het verschil tussen formeel en informeel onderwijs in Nederland?",
+      "text": "Tom heeft zijn baan verloren en heeft geen recht op WW omdat hij te kort heeft gewerkt. Zijn inkomen is nul. Bij welke instantie kan hij terecht voor een basisuitkering?",
       "options": [
-        "Formeel onderwijs is gratis; informeel onderwijs kost altijd geld",
-        "Formeel onderwijs leidt tot erkende diploma's via geregistreerde onderwijsinstellingen; informeel onderwijs is niet-gecertificeerd leren",
-        "Formeel onderwijs is alleen voor kinderen; informeel voor volwassenen",
-        "Er is geen wettelijk verschil"
+        "Bij het UWV voor een WIA-uitkering",
+        "Bij de Belastingdienst",
+        "Bij de gemeente voor een bijstandsuitkering"
       ],
-      "correctIndex": 1,
-      "explanation": "Formeel onderwijs vindt plaats via geregistreerde instellingen (scholen, mbo, hbo, universiteiten) en leidt tot erkende diploma's. Informeel onderwijs omvat cursussen, workshops en zelfstudie zonder officieel certificaat.",
-      "explanationEn": "Formal education takes place through registered institutions (schools, vocational colleges, universities of applied sciences, universities) and leads to recognized diplomas. Informal education includes courses, workshops, and self-study without official certification."
+      "correctIndex": 2,
+      "explanation": "Als je geen recht hebt op WW, kun je bij de gemeente bijstand aanvragen (participatiewet). Dit is een vangnetuitkering voor mensen zonder inkomen.",
+      "explanationEn": "If you are not entitled to WW, you can apply for social assistance (bijstand) at the municipality. This is a safety net benefit for people without income."
     },
     {
       "id": "knm-b1-1-q41",
-      "text": "Wat is de belastingaangifte en wanneer moet u die indienen?",
+      "text": "Miriam werkt 32 uur per week en is bij haar werkgever al 10 jaar in dienst. Ze wil weten hoeveel vakantiedagen ze heeft. Hoe bereken je dit?",
       "options": [
-        "Een jaarlijks overzicht van uw inkomsten dat u opstuurt naar de gemeente vóór 1 maart",
-        "Een jaarlijkse opgave van uw inkomsten en aftrekposten die u indient bij de Belastingdienst, doorgaans vóór 1 mei",
-        "Een maandelijkse betaling die uw werkgever automatisch regelt",
-        "Een eenmalige opgave die u alleen doet als u van baan verandert"
+        "Naar rato van je werkuren, dus bij 32 uur (0,8 fte) is het minimum 0,8 × 20 = 16 dagen",
+        "Meer dan fulltime medewerkers",
+        "Altijd 20 dagen, ongeacht je uren"
       ],
-      "correctIndex": 1,
-      "explanation": "De belastingaangifte is een jaarlijkse opgave aan de Belastingdienst over uw inkomsten, vermogen en aftrekposten van het afgelopen jaar. De deadline is doorgaans 1 mei. U kunt dit doen via de website van de Belastingdienst of de app.",
-      "explanationEn": "The tax return is an annual statement to the Tax and Customs Administration about your income, assets, and deductions for the past year. The deadline is usually May 1. You can do this via the Tax and Customs Administration website or app."
+      "correctIndex": 0,
+      "explanation": "Vakantiedagen worden berekend naar rato van de werkuren. Bij 32 uur per week (0,8 fte) is het wettelijk minimum 16 vakantiedagen.",
+      "explanationEn": "Vacation days are calculated proportionally to working hours. At 32 hours per week (0.8 FTE), the legal minimum is 16 vacation days."
     },
     {
       "id": "knm-b1-1-q42",
-      "text": "Waarvoor heeft u DigiD nodig en hoe vraagt u het aan?",
+      "text": "Hassan heeft een conflict gehad met zijn werkgever en ze zijn het eens geworden om het dienstverband te beëindigen. Er is geen rechtszaak. Hoe heet dit?",
       "options": [
-        "Alleen voor het bekijken van uw medisch dossier bij de huisarts",
-        "Voor het inloggen bij de meeste overheidsdiensten online, zoals Belastingdienst en MijnOverheid; aanvragen via digid.nl",
-        "Uitsluitend voor het aanvragen van paspoort of rijbewijs",
-        "DigiD is verplicht voor alle online bankzaken"
+        "Ontslag op staande voet",
+        "Ontslag met wederzijds goedvinden (via een vaststellingsovereenkomst)",
+        "Collectief ontslag"
       ],
       "correctIndex": 1,
-      "explanation": "DigiD is uw digitale identiteit voor overheidsdiensten. U heeft het nodig voor belastingaangifte, toeslagen aanvragen, zorgverzekering, gemeente en UWV. U vraagt het aan via digid.nl met uw BSN-nummer.",
-      "explanationEn": "DigiD is your digital identity for government services. You need it for tax returns, applying for allowances, health insurance, municipality, and UWV. You apply for it at digid.nl with your BSN number."
+      "explanation": "Ontslag met wederzijds goedvinden betekent dat werkgever en werknemer samen besluiten het dienstverband te beëindigen. Dit wordt vastgelegd in een vaststellingsovereenkomst (VSO).",
+      "explanationEn": "Dismissal by mutual consent means that employer and employee jointly decide to end the employment. This is recorded in a settlement agreement (VSO)."
     },
     {
       "id": "knm-b1-1-q43",
-      "text": "Wat is de DUO-inburgeringslening en wie kan deze aanvragen?",
+      "text": "Anouk werkt bij een bedrijf en wil meer uren gaan werken. Ze vraagt haar baas om meer uren. Haar baas weigert zonder reden. Heeft Anouk rechten hierin?",
       "options": [
-        "Een gratis subsidie voor alle nieuwkomers in Nederland",
-        "Een lening van DUO voor inburgeraars om de kosten van taalcursus en examens te betalen; terug te betalen als het examen is gehaald",
-        "Een beurs voor studenten aan een Nederlandse universiteit",
-        "Een lening van de gemeente voor het kopen van een eerste woning"
+        "Alleen als ze al langer dan 5 jaar werkt",
+        "Ja, de Wet aanpassing arbeidsduur geeft werknemers het recht om meer uren aan te vragen. De werkgever moet een zwaarwegende reden hebben om te weigeren",
+        "Nee, de werkgever beslist altijd over de uren"
       ],
       "correctIndex": 1,
-      "explanation": "Inburgeraars die zelf hun inburgering moeten betalen, kunnen een lening aanvragen bij DUO. Na het succesvol afronden van het inburgeringsexamen wordt (een deel van) de lening kwijtgescholden.",
-      "explanationEn": "Inburgeraars who have to pay for their own integration can apply for a loan from DUO. After successfully completing the integration exam, (part of) the loan is remitted."
+      "explanation": "De Wet aanpassing arbeidsduur geeft werknemers het recht om meer of minder uren te vragen. Een weigering moet een zwaarwegende bedrijfsreden hebben.",
+      "explanationEn": "The Working Hours Adjustment Act gives employees the right to request more or fewer hours. A refusal must have a compelling business reason."
     },
     {
       "id": "knm-b1-1-q44",
-      "text": "Wat is het verschil tussen kinderopvangtoeslag en kinderbijslag?",
+      "text": "Priya werkt bij een groot bedrijf en wil weten of haar werkgever haar zomaar kan overplaatsen naar een andere stad. Wat zijn haar rechten?",
       "options": [
-        "Het zijn synoniemen voor dezelfde toeslag",
-        "Kinderopvangtoeslag vergoedt een deel van de kinderopvangkosten; kinderbijslag is een vaste bijdrage per kind voor algemene kosten",
-        "Kinderbijslag is alleen voor alleenstaande ouders",
-        "Kinderopvangtoeslag is voor kinderen tot 4 jaar; kinderbijslag voor kinderen van 4-18 jaar"
+        "Ze kan nooit worden overgeplaatst",
+        "De werkgever kan haar altijd overplaatsen",
+        "De werkgever heeft een instructierecht maar moet rekening houden met persoonlijke belangen. Overplaatsing naar een andere stad vereist in de meeste gevallen overleg en redelijkheid"
       ],
-      "correctIndex": 1,
-      "explanation": "Kinderopvangtoeslag is een bijdrage van de overheid in de kosten van kinderopvang (dagopvang, BSO) voor werkende ouders. Kinderbijslag is een vaste bedrag per kwartaal per kind voor alle ouders met kinderen tot 18 jaar.",
-      "explanationEn": "Childcare allowance is a government contribution to childcare costs (day care, after-school care) for working parents. Child benefit is a fixed amount per quarter per child for all parents with children up to 18 years."
+      "correctIndex": 2,
+      "explanation": "De werkgever heeft instructierecht maar moet redelijk handelen. Een overplaatsing naar een andere stad moet in verhouding staan tot het bedrijfsbelang en er moet rekening gehouden worden met de persoonlijke situatie.",
+      "explanationEn": "The employer has the right to give instructions but must act reasonably. A transfer to another city must be proportionate to the business interest and take into account personal circumstances."
     },
     {
       "id": "knm-b1-1-q45",
-      "text": "Wat is de AOW en wanneer heeft u er recht op?",
+      "text": "Boris wordt ontslagen en krijgt een vaststellingsovereenkomst aangeboden. Zijn werkgever dringt aan op direct tekenen. Wat moet Boris weten?",
       "options": [
-        "Een aanvullend pensioen dat u via uw werkgever opbouwt",
-        "De Algemene Ouderdomswet: een staatspensioen dat u ontvangt als u de AOW-leeftijd bereikt, momenteel 67 jaar",
-        "Een uitkering voor mensen die arbeidsongeschikt zijn",
-        "Een spaarpot die de overheid beheert totdat u 65 wordt"
+        "Hij heeft een bedenktijd van 14 dagen na ondertekening. Binnen die tijd kan hij de overeenkomst herroepen",
+        "Een vaststellingsovereenkomst is pas geldig na goedkeuring van het UWV",
+        "Hij moet direct tekenen anders verliest hij zijn rechten"
       ],
-      "correctIndex": 1,
-      "explanation": "De AOW is het basispensioen van de overheid. U ontvangt het als u de AOW-leeftijd bereikt (in 2024: 67 jaar). De hoogte hangt af van hoeveel jaren u in Nederland heeft gewoond of gewerkt (50 jaar = volledig AOW).",
-      "explanationEn": "The AOW is the government's basic pension. You receive it when you reach the AOW age (in 2024: 67 years). The amount depends on how many years you have lived or worked in the Netherlands (50 years = full AOW)."
+      "correctIndex": 0,
+      "explanation": "Na ondertekening van een vaststellingsovereenkomst heeft een werknemer 14 dagen bedenktijd. In die periode kan hij de overeenkomst herroepen zonder gevolgen.",
+      "explanationEn": "After signing a settlement agreement, an employee has 14 days to reconsider. During this period, they can revoke the agreement without consequences."
     },
     {
       "id": "knm-b1-1-q46",
-      "text": "Wat is de bijstandsuitkering en aan welke voorwaarden moet u voldoen?",
+      "text": "Eva is met ouderschapsverlof. Ze weet dat dit verlof onbetaald is, maar vraagt of er een regeling bestaat die haar wat inkomen geeft. Wat is er mogelijk?",
       "options": [
-        "Een uitkering voor iedereen zonder werk, zonder voorwaarden",
-        "Een uitkering als sociaal vangnet voor mensen zonder inkomen en zonder recht op andere uitkeringen; u moet beschikbaar zijn voor werk en actief solliciteren",
-        "Een subsidie voor studenten met een laag inkomen",
-        "Een tijdelijke vergoeding die werkgevers betalen als zij u ontslaan"
+        "Er is geen enkele tegemoetkoming bij ouderschapsverlof",
+        "Sinds 2022 heeft een werknemer recht op een gedeeltelijk betaald ouderschapsverlof (UWV betaalt 70% van het dagloon voor maximaal 9 weken)",
+        "De gemeente betaalt het volledige salaris door"
       ],
       "correctIndex": 1,
-      "explanation": "Bijstand (Participatiewet) is het laatste vangnet. U heeft er recht op als u geen inkomen heeft en geen recht op andere uitkeringen. U moet beschikbaar zijn voor de arbeidsmarkt en meewerken aan re-integratie. De gemeente voert de bijstand uit.",
-      "explanationEn": "Social assistance (Participation Act) is the last safety net. You are entitled to it if you have no income and no right to other benefits. You must be available for the labor market and cooperate with reintegration. The municipality administers social assistance."
+      "explanation": "Sinds 2 augustus 2022 heeft elke werknemer recht op 9 weken gedeeltelijk betaald ouderschapsverlof in het eerste jaar van het kind. Het UWV betaalt 70% van het dagloon.",
+      "explanationEn": "Since August 2, 2022, every employee is entitled to 9 weeks of partially paid parental leave in the first year of the child's life. The UWV pays 70% of the daily wage."
     },
     {
       "id": "knm-b1-1-q47",
-      "text": "Hoe werkt het Nederlandse belastingstelsel met box 1, box 2 en box 3?",
+      "text": "Sam werkt zwart bij een tuinbedrijf: hij werkt maar krijgt geen loonstrookje en er wordt geen belasting afgedragen. Welk risico loopt Sam?",
       "options": [
-        "Box 1 is voor eigen woningbezitters, box 2 voor huurders, box 3 voor gepensioneerden",
-        "Box 1 belast inkomen uit werk en woning; box 2 belast inkomen uit aanmerkelijk belang (aandelen); box 3 belast inkomen uit vermogen en spaargeld",
-        "De boxen zijn postgebieden voor belastingformulieren",
-        "Box 1 is het laagste tarief, box 3 het hoogste"
+        "Geen risico, zwartwerken is alleen het probleem van de werkgever",
+        "Sam betaalt alleen later belasting, dat is het enige nadeel",
+        "Sam bouwt geen pensioen of sociale zekerheid op en kan bij controle een boete krijgen. Ook de werkgever riskeert hoge boetes"
       ],
-      "correctIndex": 1,
-      "explanation": "Het Nederlandse belastingstelsel heeft drie boxen: Box 1 (inkomen uit werk en woning, progressief tarief), Box 2 (aanmerkelijk belang: winst uit eigen bedrijf of >5% aandelen), Box 3 (vermogen zoals spaargeld en beleggingen).",
-      "explanationEn": "The Dutch tax system has three boxes: Box 1 (income from work and home, progressive rate), Box 2 (substantial interest: profit from own business or >5% shares), Box 3 (assets such as savings and investments)."
+      "correctIndex": 2,
+      "explanation": "Zwartwerken is illegaal. Er worden geen belastingen of premies betaald, dus Sam bouwt geen rechten op (pensioen, WW). Bij controle riskeert hij een boete.",
+      "explanationEn": "Working off the books is illegal. No taxes or contributions are paid, so Sam builds up no rights (pension, WW). Upon inspection, he risks a fine."
     },
     {
       "id": "knm-b1-1-q48",
-      "text": "Wat is de zorgtoeslag en hoe verschilt deze van de zorgverzekering?",
+      "text": "Dani solliciteert bij een bedrijf en vraagt of ze voor het gesprek in haar eigen taal mag spreken. Het bedrijf weigert en zegt dat ze Nederlands moeten spreken. Is dit altijd discriminatie?",
       "options": [
-        "Ze zijn hetzelfde; zorgtoeslag is een andere naam voor de zorgverzekering",
-        "De zorgverzekering is de verzekering zelf (u betaalt maandelijks premie); de zorgtoeslag is een overheidssubsidie die de premiekosten verlaagt voor mensen met een lager inkomen",
-        "Zorgtoeslag vervangt de zorgverzekering voor mensen met een laag inkomen",
-        "De zorgtoeslag is een aanvulling op de eigen risicokosten"
+        "Ja, dit is altijd discriminatie",
+        "Ja, taal mag nooit een rol spelen bij sollicitaties",
+        "Nee, als de functie vereist dat iemand Nederlands spreekt, mag dit worden gevraagd. Het hangt af van of de taaleis aantoonbaar relevant is voor de functie"
       ],
-      "correctIndex": 1,
-      "explanation": "De zorgverzekering is verplicht voor iedereen en u betaalt er maandelijks premie voor. De zorgtoeslag is een financiële bijdrage van de overheid die u helpt de premie te betalen als u een lager inkomen heeft. U vraagt de toeslag aan bij de Belastingdienst.",
-      "explanationEn": "Health insurance is mandatory for everyone and you pay a monthly premium for it. The healthcare allowance is a financial contribution from the government that helps you pay the premium if you have a lower income. You apply for the allowance at the Tax and Customs Administration."
+      "correctIndex": 2,
+      "explanation": "Taaleisen bij een functie kunnen legitiem zijn als de functie dit vereist. Dit is geen discriminatie als de eis objectief gerechtvaardigd is.",
+      "explanationEn": "Language requirements for a position can be legitimate if the position requires it. This is not discrimination if the requirement is objectively justified."
     },
     {
       "id": "knm-b1-1-q49",
-      "text": "Wat is MijnOverheid en waarvoor gebruikt u het?",
+      "text": "Lena heeft een nieuwe baan gevonden en wil haar huidige baan opzeggen. Ze heeft een vast contract. Hoe lang is haar wettelijke opzegtermijn als werknemer?",
       "options": [
-        "Een sociale media platform van de Nederlandse overheid",
-        "Een persoonlijk online portaal waar u berichten van overheidsinstanties ontvangt en uw gegevens kunt inzien",
-        "Een platform voor het aanvragen van alle toeslagen",
-        "Een app voor het betalen van gemeentelijke belastingen"
+        "1 maand (tenzij een langere termijn is afgesproken in het contract of de CAO)",
+        "2 weken",
+        "3 maanden"
       ],
-      "correctIndex": 1,
-      "explanation": "MijnOverheid is een persoonlijk digitaal portaal van de overheid. U ontvangt er officiële berichten van instanties als Belastingdienst, RDW en gemeente. U logt in met DigiD. Het heeft ook een berichtenbox ter vervanging van papieren post.",
-      "explanationEn": "MijnOverheid is a personal digital portal of the government. You receive official messages from agencies such as the Tax and Customs Administration, RDW, and municipality. You log in with DigiD. It also has a message box to replace paper mail."
+      "correctIndex": 0,
+      "explanation": "De wettelijke opzegtermijn voor een werknemer is 1 maand. In het contract of de CAO kan een langere termijn zijn afgesproken.",
+      "explanationEn": "The statutory notice period for an employee is 1 month. A longer period may be agreed in the contract or CAO."
     },
     {
       "id": "knm-b1-1-q50",
-      "text": "Wat is het BSN-nummer en wanneer heeft u het nodig?",
+      "text": "Marco werkt al 8 jaar bij een bedrijf. Hij wordt ontslagen. Hij weet dat hij recht heeft op een transitievergoeding. Hoe wordt de hoogte van de transitievergoeding berekend?",
       "options": [
-        "Een nummer dat alleen nodig is voor het aanvragen van een paspoort",
-        "Het Burgerservicenummer: een uniek persoonsnummer dat u nodig heeft bij contact met de overheid, zorg, werk en belasting",
-        "Een bankrekeningnummer verstrekt door de Belastingdienst",
-        "Een nummer dat alleen asielzoekers ontvangen"
+        "Een derde maandsalaris per gewerkt jaar",
+        "Een vaste vergoeding van €5.000 voor iedereen",
+        "Één maandsalaris per gewerkt jaar"
       ],
-      "correctIndex": 1,
-      "explanation": "Het BSN (Burgerservicenummer) is een uniek identificatienummer. U heeft het nodig bij: inschrijving gemeente, zorgverzekering afsluiten, werken, bankrekening openen, belastingaangifte en contact met bijna alle overheidsinstanties.",
-      "explanationEn": "The BSN (Citizen Service Number) is a unique identification number. You need it for: registering with the municipality, taking out health insurance, working, opening a bank account, filing tax returns, and contact with almost all government agencies."
+      "correctIndex": 0,
+      "explanation": "De transitievergoeding bedraagt een derde van het maandsalaris per gewerkt jaar. Er is een wettelijk maximum.",
+      "explanationEn": "The transition allowance amounts to one-third of the monthly salary per year worked. There is a statutory maximum."
     }
-  ]
+  ],
+  "isFreePreview": true
 }

@@ -8,328 +8,303 @@
   "questions": [
     {
       "id": "knm-a1-1-q1",
-      "text": "Wat is de hoofdstad van Nederland?",
+      "text": "De buurman van Bas valt plotseling op straat en reageert niet. Bas wil snel hulp bellen. Welk nummer belt hij?",
       "options": [
-        "Rotterdam",
-        "Den Haag",
-        "Amsterdam",
-        "Utrecht"
+        "0900-8844",
+        "112",
+        "088-0040066"
       ],
-      "correctIndex": 2,
-      "explanation": "Amsterdam is de hoofdstad van Nederland.",
-      "explanationEn": "Amsterdam is the capital of the Netherlands."
+      "correctIndex": 1,
+      "explanation": "112 is het alarmnummer voor alle noodgevallen: politie, brandweer en ambulance.",
+      "explanationEn": "112 is the emergency number for all emergencies: police, fire department, and ambulance."
     },
     {
       "id": "knm-a1-1-q2",
-      "text": "In welke kleur is de Nederlandse vlag NIET?",
+      "text": "Jana is ziek en kan vandaag niet werken. Ze werkt bij een supermarkt. Wat moet ze als eerste doen?",
       "options": [
-        "Rood",
-        "Wit",
-        "Blauw",
-        "Geel"
+        "Een week wachten en dan pas iets zeggen",
+        "Haar werkgever bellen",
+        "Direct naar het ziekenhuis gaan"
       ],
-      "correctIndex": 3,
-      "explanation": "De Nederlandse vlag is rood, wit en blauw. Geel zit er niet in.",
-      "explanationEn": "The Dutch flag is red, white, and blue. Yellow is not in it."
+      "correctIndex": 1,
+      "explanation": "Als je ziek bent, moet je je werkgever zo snel mogelijk bellen om je ziekmelding te doen.",
+      "explanationEn": "If you are sick, you must call your employer as soon as possible to report your sick leave."
     },
     {
       "id": "knm-a1-1-q3",
-      "text": "Wie is het staatshoofd van Nederland?",
+      "text": "Ahmed woont in Utrecht en wil voor het eerst naar de dokter. Hij heeft nog geen dokter. Waar moet hij naartoe?",
+      "options": [
+        "Naar de apotheek",
+        "Naar een huisartspraktijk in zijn buurt",
+        "Direct naar het ziekenhuis"
+      ],
+      "correctIndex": 1,
+      "explanation": "De huisarts is de eerste dokter die je bezoekt als je ziek bent. Je schrijft je in bij een huisartspraktijk in je buurt.",
+      "explanationEn": "The GP (huisarts) is the first doctor you visit when you are sick. You register at a GP practice in your neighborhood."
+    },
+    {
+      "id": "knm-a1-1-q4",
+      "text": "Erik maakt een werkstuk op school over Nederland. Hij wil de kleuren van de Nederlandse vlag beschrijven. Welke kleuren heeft de Nederlandse vlag?",
+      "options": [
+        "Oranje, wit en blauw",
+        "Rood, geel en groen",
+        "Rood, wit en blauw"
+      ],
+      "correctIndex": 2,
+      "explanation": "De Nederlandse vlag is rood, wit en blauw. De kleur oranje is nationaal, maar zit niet in de vlag.",
+      "explanationEn": "The Dutch flag is red, white, and blue. The color orange is national, but is not in the flag."
+    },
+    {
+      "id": "knm-a1-1-q5",
+      "text": "Sara wil op de goede dag een feestje geven voor Koningsdag. Op welke datum is Koningsdag?",
+      "options": [
+        "5 mei",
+        "30 april",
+        "27 april"
+      ],
+      "correctIndex": 2,
+      "explanation": "Koningsdag is op 27 april, de verjaardag van koning Willem-Alexander.",
+      "explanationEn": "King's Day is on April 27, the birthday of King Willem-Alexander."
+    },
+    {
+      "id": "knm-a1-1-q6",
+      "text": "Lena doet mee aan een quiz over Nederland. De vraag is: wie is het officiële staatshoofd van Nederland?",
       "options": [
         "De minister-president",
         "De koning",
-        "De burgemeester",
-        "De president"
+        "De burgemeester van Amsterdam"
       ],
       "correctIndex": 1,
       "explanation": "De koning (Willem-Alexander) is het staatshoofd van Nederland.",
       "explanationEn": "The king (Willem-Alexander) is the head of state of the Netherlands."
     },
     {
-      "id": "knm-a1-1-q4",
-      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
-      "options": [
-        "Niets zeggen",
-        "Je baas bellen",
-        "Naar de vakantie gaan",
-        "Zelf medicijnen kopen"
-      ],
-      "correctIndex": 1,
-      "explanation": "Als je ziek bent, moet je je baas (werkgever) bellen om het te melden.",
-      "explanationEn": "If you are sick, you must call your boss (employer) to report it."
-    },
-    {
-      "id": "knm-a1-1-q5",
-      "text": "Wat is 112?",
-      "options": [
-        "Het telefoonnummer van de dokter",
-        "Het alarmnummer voor noodgevallen",
-        "Het nummer van de gemeente",
-        "Het nummer van de politie alleen"
-      ],
-      "correctIndex": 1,
-      "explanation": "112 is het alarmnummer voor alle noodgevallen (politie, brandweer, ambulance).",
-      "explanationEn": "112 is the emergency number for all emergencies (police, fire department, ambulance)."
-    },
-    {
-      "id": "knm-a1-1-q6",
-      "text": "Op welke dag is Koningsdag?",
-      "options": [
-        "30 april",
-        "27 april",
-        "5 mei",
-        "25 december"
-      ],
-      "correctIndex": 1,
-      "explanation": "Koningsdag is op 27 april, de verjaardag van koning Willem-Alexander.",
-      "explanationEn": "King's Day is on April 27, the birthday of King Willem-Alexander."
-    },
-    {
       "id": "knm-a1-1-q7",
-      "text": "Wat doe je met oud papier?",
+      "text": "Priya komt uit India en bezoekt Nederland voor het eerst. Ze vraagt: wat is de hoofdstad van Nederland?",
       "options": [
-        "In de grijze bak",
-        "In de groene bak",
-        "In de blauwe bak of papiercontainer",
-        "Bij het glas"
+        "Amsterdam",
+        "Den Haag",
+        "Rotterdam"
       ],
-      "correctIndex": 2,
-      "explanation": "Oud papier gaat in de blauwe bak of papiercontainer.",
-      "explanationEn": "Old paper goes in the blue bin or paper container."
+      "correctIndex": 0,
+      "explanation": "Amsterdam is de hoofdstad van Nederland. De regering zit in Den Haag.",
+      "explanationEn": "Amsterdam is the capital of the Netherlands. The government is located in The Hague."
     },
     {
       "id": "knm-a1-1-q8",
-      "text": "Wanneer moet je een rijbewijs hebben?",
+      "text": "Rafi wil met de bus naar zijn werk. Hij heeft nog nooit de bus genomen in Nederland. Wat heeft hij nodig om te betalen in de bus?",
       "options": [
-        "Als je fietst",
-        "Als je auto rijdt",
-        "Als je wandelt",
-        "Als je met de bus gaat"
+        "Een OV-chipkaart",
+        "Contant geld in de bus betalen",
+        "Een paspoort"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
+      "explanation": "In het openbaar vervoer betaal je met een OV-chipkaart. Je in- en uitchecken met de kaart.",
+      "explanationEn": "In public transport, you pay with an OV-chipkaart. You check in and out with the card."
+    },
+    {
+      "id": "knm-a1-1-q9",
+      "text": "Nadia wil op vakantie naar Marokko. Ze heeft een verlopen paspoort. Waar moet ze een nieuw paspoort aanvragen?",
+      "options": [
+        "Bij het gemeentehuis",
+        "Bij de bank",
+        "Bij de politie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Een paspoort vraag je aan bij het gemeentehuis (stadhuis) van je woonplaats.",
+      "explanationEn": "You apply for a passport at the city hall of your place of residence."
+    },
+    {
+      "id": "knm-a1-1-q10",
+      "text": "Tom heeft een stapel oude kranten en papieren dozen. Hij wil ze goed recyclen. In welke bak gooit hij papier?",
+      "options": [
+        "In de groene GFT-bak",
+        "In de grijze restafvalbak",
+        "In de blauwe bak of papiercontainer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oud papier en karton gaan in de blauwe bak of papiercontainer.",
+      "explanationEn": "Old paper and cardboard go in the blue bin or paper container."
+    },
+    {
+      "id": "knm-a1-1-q11",
+      "text": "Yara wil een auto kopen en daarmee rijden. Ze heeft nooit autorijles gehad. Wat heeft ze nodig voordat ze mag rijden?",
+      "options": [
+        "Een rijbewijs",
+        "Alleen een verzekering",
+        "Een identiteitskaart is genoeg"
+      ],
+      "correctIndex": 0,
       "explanation": "Voor het rijden in een auto heb je een rijbewijs nodig.",
       "explanationEn": "You need a driver's license to drive a car."
     },
     {
-      "id": "knm-a1-1-q9",
-      "text": "Waar kun je een paspoort aanvragen?",
-      "options": [
-        "Bij de supermarkt",
-        "Bij het gemeentehuis",
-        "Bij de school",
-        "Bij de bank"
-      ],
-      "correctIndex": 1,
-      "explanation": "Een paspoort vraag je aan bij het gemeentehuis.",
-      "explanationEn": "You apply for a passport at the city hall."
-    },
-    {
-      "id": "knm-a1-1-q10",
-      "text": "Hoeveel dagen per week werken de meeste mensen fulltime?",
-      "options": [
-        "3 dagen",
-        "4 dagen",
-        "5 dagen",
-        "6 dagen"
-      ],
-      "correctIndex": 2,
-      "explanation": "De meeste mensen werken 5 dagen per week fulltime.",
-      "explanationEn": "Most people work 5 days per week full-time."
-    },
-    {
-      "id": "knm-a1-1-q11",
-      "text": "Wat is een huisarts?",
-      "options": [
-        "Een arts in het ziekenhuis",
-        "De eerste dokter die je bezoekt bij ziekte",
-        "Een specialist",
-        "Een tandarts"
-      ],
-      "correctIndex": 1,
-      "explanation": "De huisarts is de eerste dokter die je bezoekt als je ziek bent.",
-      "explanationEn": "The general practitioner (huisarts) is the first doctor you visit when you are sick."
-    },
-    {
       "id": "knm-a1-1-q12",
-      "text": "Welke taal spreekt men in Nederland?",
+      "text": "Paulo heeft volgende week een afspraak bij de tandarts maar kan door zijn werk niet komen. Wat moet hij doen?",
       "options": [
-        "Duits",
-        "Engels",
-        "Frans",
-        "Nederlands"
+        "Zijn broer sturen in zijn plaats",
+        "De afspraak afzeggen door de tandarts te bellen",
+        "Gewoon niet komen zonder iets te zeggen"
       ],
-      "correctIndex": 3,
-      "explanation": "In Nederland spreekt men Nederlands.",
-      "explanationEn": "In the Netherlands, people speak Dutch."
+      "correctIndex": 1,
+      "explanation": "Je moet een afspraak altijd afzeggen als je niet kunt komen, zodat de tandarts iemand anders kan helpen.",
+      "explanationEn": "You must always cancel an appointment if you cannot come, so the dentist can help someone else."
     },
     {
       "id": "knm-a1-1-q13",
-      "text": "Wat is een zorgverzekering?",
+      "text": "Anna is net naar Nederland verhuisd. Ze heeft nog geen zorgverzekering. Ze weet niet waarvoor een zorgverzekering is. Wat betaalt een zorgverzekering?",
       "options": [
-        "Verzekering voor je auto",
-        "Verzekering voor je huis",
-        "Verzekering voor medische kosten",
-        "Verzekering voor je werk"
+        "Schade aan je auto",
+        "Medische kosten zoals doktersbezoek en medicijnen",
+        "Je huur als je geen geld hebt"
       ],
-      "correctIndex": 2,
-      "explanation": "Een zorgverzekering betaalt (een deel van) je medische kosten.",
-      "explanationEn": "A health insurance pays (part of) your medical costs."
+      "correctIndex": 1,
+      "explanation": "Een zorgverzekering betaalt (een deel van) je medische kosten, zoals bezoek aan de huisarts, het ziekenhuis en medicijnen.",
+      "explanationEn": "A health insurance pays (part of) your medical costs, such as visits to the GP, hospital, and medications."
     },
     {
       "id": "knm-a1-1-q14",
-      "text": "Moet je in Nederland verplicht naar school?",
+      "text": "Dawit en zijn vrouw hebben een kind van 6 jaar. Ze vragen zich af of hun kind naar school moet. Wat geldt er in Nederland?",
       "options": [
-        "Nee, school is vrijwillig",
-        "Ja, tot je 16 jaar bent",
-        "Alleen als je wilt",
-        "Alleen voor jongens"
+        "In Nederland is er leerplicht: kinderen moeten naar school",
+        "Alleen als het kind wil, gaat het naar school",
+        "School is vrijwillig, kinderen hoeven niet"
       ],
-      "correctIndex": 1,
-      "explanation": "In Nederland is er leerplicht tot 16 jaar.",
-      "explanationEn": "In the Netherlands, there is compulsory education until age 16."
+      "correctIndex": 0,
+      "explanation": "In Nederland is er leerplicht. Kinderen moeten vanaf hun 5e naar school.",
+      "explanationEn": "In the Netherlands, there is compulsory education. Children must attend school from age 5."
     },
     {
       "id": "knm-a1-1-q15",
-      "text": "Wat doe je als je een afspraak hebt bij de dokter maar niet kunt komen?",
+      "text": "Carlos staat bij de kassa in de supermarkt en wil betalen. Hij heeft geen contant geld bij zich. Waarmee kan hij pinnen?",
       "options": [
-        "Gewoon niet komen",
-        "De afspraak afzeggen",
-        "Iemand anders sturen",
-        "Een week later komen"
+        "Met zijn paspoort",
+        "Met zijn pinpas (bankpas)",
+        "Met zijn OV-chipkaart"
       ],
       "correctIndex": 1,
-      "explanation": "Je moet de afspraak afzeggen als je niet kunt komen.",
-      "explanationEn": "You must cancel the appointment if you cannot come."
+      "explanation": "Een pinpas is een bankpas waarmee je kunt betalen in winkels door te pinnen.",
+      "explanationEn": "A debit card (pinpas) is a bank card you can use to pay in shops."
     },
     {
       "id": "knm-a1-1-q16",
-      "text": "Wat betekent BTW?",
+      "text": "Mia koopt een jas en ziet op de bon staan: 'inclusief BTW'. Haar vriendin vraagt wat BTW is. Wat legt Mia uit?",
       "options": [
-        "Belasting Toegevoegde Waarde",
-        "Betaling Totale Winst",
-        "Bedrijf Totaal Werk",
-        "Bank Transfer Winkel"
+        "BTW is een toeslag voor de winkel",
+        "BTW is een korting op de prijs",
+        "BTW is een belasting die op producten zit"
       ],
-      "correctIndex": 0,
-      "explanation": "BTW staat voor Belasting Toegevoegde Waarde, een belasting op producten.",
-      "explanationEn": "BTW stands for Value Added Tax, a tax on products."
+      "correctIndex": 2,
+      "explanation": "BTW staat voor Belasting Toegevoegde Waarde. Het is een belasting die in de prijs van producten en diensten zit.",
+      "explanationEn": "BTW stands for Value Added Tax. It is a tax included in the price of products and services."
     },
     {
       "id": "knm-a1-1-q17",
-      "text": "Wie betaalt AOW in Nederland?",
+      "text": "De vader van Halil is 68 jaar en woont in Nederland. Hij heeft nooit gewerkt. Toch krijgt hij elke maand geld van de overheid. Hoe heet deze uitkering?",
       "options": [
-        "Alleen werkgevers",
-        "Alleen werknemers",
-        "De overheid aan 65-plussers",
-        "De bank"
+        "Bijstandsuitkering",
+        "AOW-uitkering",
+        "WW-uitkering"
       ],
-      "correctIndex": 2,
-      "explanation": "De AOW is een pensioen dat de overheid betaalt aan mensen vanaf de AOW-leeftijd.",
-      "explanationEn": "The AOW is a state pension that the government pays to people from the AOW retirement age."
+      "correctIndex": 1,
+      "explanation": "De AOW is een staatspensioen dat de overheid betaalt aan iedereen die de AOW-leeftijd heeft bereikt.",
+      "explanationEn": "The AOW is a state pension that the government pays to everyone who has reached the AOW retirement age."
     },
     {
       "id": "knm-a1-1-q18",
-      "text": "Wat is de euro?",
+      "text": "Kevin solliciteert op een vacature. De werkgever vraagt hem een CV te sturen. Kevin weet niet wat dat is. Wat is een CV?",
       "options": [
-        "De Nederlandse taal",
-        "De munt van Nederland",
-        "Een Nederlandse stad",
-        "Een feestdag"
+        "Een bewijs dat je in Nederland mag werken",
+        "Een motivatiebrief aan de werkgever",
+        "Een overzicht van je werkervaring en opleiding"
       ],
-      "correctIndex": 1,
-      "explanation": "De euro (€) is de munt die in Nederland (en veel andere Europese landen) wordt gebruikt.",
-      "explanationEn": "The euro (€) is the currency used in the Netherlands (and many other European countries)."
+      "correctIndex": 2,
+      "explanation": "Een CV (curriculum vitae) is een overzicht van je werkervaring, opleiding en vaardigheden.",
+      "explanationEn": "A CV (curriculum vitae) is an overview of your work experience, education, and skills."
     },
     {
       "id": "knm-a1-1-q19",
-      "text": "Wat is een CV?",
+      "text": "Olivia merkt dat haar fiets gestolen is. Ze wil aangifte doen. Naar wie gaat ze toe?",
       "options": [
-        "Een brief aan je vrienden",
-        "Een overzicht van je werkervaring en opleiding",
-        "Een contract",
-        "Een rekening"
+        "Naar de rechter",
+        "Naar de politie",
+        "Naar de gemeente"
       ],
       "correctIndex": 1,
-      "explanation": "Een CV (curriculum vitae) is een overzicht van je werkervaring en opleiding.",
-      "explanationEn": "A CV (curriculum vitae) is an overview of your work experience and education."
+      "explanation": "Als er iets gestolen is, ga je naar de politie om aangifte te doen.",
+      "explanationEn": "If something has been stolen, you go to the police to file a report."
     },
     {
       "id": "knm-a1-1-q20",
-      "text": "Hoe heet de Nederlandse politie?",
+      "text": "Sam gaat een huis huren. De verhuurder geeft hem een document dat hij moet tekenen. Hoe heet dit document?",
       "options": [
-        "De gendarmerie",
-        "De politie",
-        "De carabinieri",
-        "De sheriff"
+        "Een arbeidscontract",
+        "Een huurcontract",
+        "Een koopcontract"
       ],
       "correctIndex": 1,
-      "explanation": "In Nederland heet het de politie.",
-      "explanationEn": "In the Netherlands, it is called the police (politie)."
+      "explanation": "Een huurcontract is een contract tussen huurder en verhuurder over het huren van een woning.",
+      "explanationEn": "A rental contract is a contract between tenant and landlord about renting a home."
     },
     {
       "id": "knm-a1-1-q21",
-      "text": "Wat is een huurcontract?",
+      "text": "Layla woont in Nederland en wil haar mening geven over de politiek. Ze is bang dat dit niet mag. Wat geldt er in Nederland?",
       "options": [
-        "Een contract voor een baan",
-        "Een contract voor het huren van een huis",
-        "Een contract voor een auto",
-        "Een contract voor school"
+        "Je mag je mening vrijuit geven, ook over de politiek",
+        "Je mag nooit kritiek geven op de overheid",
+        "Je mag alleen positieve dingen zeggen over de regering"
       ],
-      "correctIndex": 1,
-      "explanation": "Een huurcontract is een contract voor het huren van een woning.",
-      "explanationEn": "A rental contract is a contract for renting a home."
+      "correctIndex": 0,
+      "explanation": "In Nederland heb je vrijheid van meningsuiting. Je mag je mening geven, ook over de politiek.",
+      "explanationEn": "In the Netherlands, you have freedom of expression. You may give your opinion, even about politics."
     },
     {
       "id": "knm-a1-1-q22",
-      "text": "Welke vrijheid heb je in Nederland?",
+      "text": "Wouter doet mee aan een quiz. De vraag is: hoeveel provincies heeft Nederland?",
       "options": [
-        "Je mag zeggen wat je denkt",
-        "Je mag niet stemmen",
-        "Je moet een religie hebben",
-        "Je mag niet werken"
+        "15 provincies",
+        "12 provincies",
+        "10 provincies"
       ],
-      "correctIndex": 0,
-      "explanation": "In Nederland heb je vrijheid van meningsuiting: je mag zeggen wat je denkt.",
-      "explanationEn": "In the Netherlands, you have freedom of expression: you may say what you think."
+      "correctIndex": 1,
+      "explanation": "Nederland heeft 12 provincies, zoals Noord-Holland, Zuid-Holland, Utrecht en Friesland.",
+      "explanationEn": "The Netherlands has 12 provinces, such as North Holland, South Holland, Utrecht, and Friesland."
     },
     {
       "id": "knm-a1-1-q23",
-      "text": "Wat is een pinpas?",
+      "text": "Rosa heeft groente geschild en heeft veel schillen over. Ze wil het goed weggooien. In welke bak gooit ze groente- en fruitafval?",
       "options": [
-        "Een identiteitskaart",
-        "Een kaart om te betalen",
-        "Een bibliotheekkaart",
-        "Een rijbewijs"
+        "In de blauwe papierbak",
+        "In de grijze restafvalbak",
+        "In de groene of bruine GFT-bak"
       ],
-      "correctIndex": 1,
-      "explanation": "Een pinpas is een bankpas waarmee je kunt betalen.",
-      "explanationEn": "A debit card (pinpas) is a bank card with which you can pay."
+      "correctIndex": 2,
+      "explanation": "Groente-, fruit- en tuinafval (GFT) gaat in de groene of bruine GFT-bak.",
+      "explanationEn": "Vegetable, fruit, and garden waste (GFT) goes in the green or brown GFT bin."
     },
     {
       "id": "knm-a1-1-q24",
-      "text": "Hoeveel provincies heeft Nederland?",
+      "text": "Ivan heeft zijn eerste baan gevonden in Nederland. Zijn collega vertelt hem dat hij een zorgverzekering moet afsluiten. Is dit verplicht?",
       "options": [
-        "10",
-        "11",
-        "12",
-        "13"
+        "Alleen als je ouder bent dan 18 jaar",
+        "Nee, een zorgverzekering is vrijwillig",
+        "Ja, iedereen die in Nederland woont is verplicht een zorgverzekering te hebben"
       ],
       "correctIndex": 2,
-      "explanation": "Nederland heeft 12 provincies.",
-      "explanationEn": "The Netherlands has 12 provinces."
+      "explanation": "In Nederland is het verplicht om een basisverzekering te hebben. Iedereen die in Nederland woont of werkt moet zich verzekeren.",
+      "explanationEn": "In the Netherlands, it is mandatory to have basic health insurance. Everyone who lives or works in the Netherlands must be insured."
     },
     {
       "id": "knm-a1-1-q25",
-      "text": "Wat is een OV-chipkaart?",
+      "text": "Maria woont in Rotterdam en wil met de trein naar Amsterdam. Ze heeft een OV-chipkaart. Wat moet ze doen als ze instap in de trein?",
       "options": [
-        "Een kaart voor de supermarkt",
-        "Een kaart voor het openbaar vervoer",
-        "Een kaart voor de bioscoop",
-        "Een bibliotheekkaart"
+        "Inchecken bij de poortje of paal met haar OV-chipkaart",
+        "Haar kaart laten zien aan de conducteur",
+        "Een papieren kaartje kopen bij de kassa"
       ],
-      "correctIndex": 1,
-      "explanation": "Een OV-chipkaart gebruik je om te betalen in het openbaar vervoer (bus, tram, trein, metro).",
-      "explanationEn": "An OV-chipkaart is used to pay for public transport (bus, tram, train, metro)."
+      "correctIndex": 0,
+      "explanation": "Met een OV-chipkaart moet je inchecken bij het poortje of de paal als je instapt, en uitchecken als je uitstapt.",
+      "explanationEn": "With an OV-chipkaart, you must check in at the gate or pole when you board, and check out when you alight."
     }
   ],
   "isFreePreview": true

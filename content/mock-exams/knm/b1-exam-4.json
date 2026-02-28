@@ -8,653 +8,604 @@
   "questions": [
     {
       "id": "knm-b1-4-q1",
-      "text": "Wat is de Huurcommissie?",
+      "text": "Yasmine huurt een sociale woning en is het oneens met een huurverhoging. Haar verhuurder reageert niet op haar klacht. Bij welke onafhankelijke organisatie kan ze een uitspraak aanvragen?",
       "options": [
-        "Een bedrijf dat woningen verhuurt",
-        "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders beoordeelt, vooral over huurprijs en onderhoud",
-        "Een afdeling van de gemeente die woningen toewijst",
-        "Een commissie die hypotheekaanvragen beoordeelt"
+        "Bij de gemeente",
+        "Bij de Huurcommissie",
+        "Bij de rechtbank"
       ],
       "correctIndex": 1,
-      "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen behandelt tussen huurders en verhuurders in de sociale huursector. Dit gaat onder andere over de huurprijs, servicekosten en achterstallig onderhoud. De Huurcommissie kan een bindende uitspraak doen.",
-      "explanationEn": "The Rent Tribunal (Huurcommissie) is an independent organization that handles disputes between tenants and landlords in the social housing sector. This includes rent prices, service costs, and maintenance backlogs. The Rent Tribunal can make binding decisions."
+      "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen behandelt tussen huurders en verhuurders in de sociale huursector, onder andere over huurprijzen.",
+      "explanationEn": "The Rent Tribunal (Huurcommissie) is an independent organization that handles disputes between tenants and landlords in the social housing sector, including about rent prices."
     },
     {
       "id": "knm-b1-4-q2",
-      "text": "Wat is het verschil tussen sociale huur en vrije sector huur?",
+      "text": "Lars zoekt een woning. De makelaar legt het verschil uit tussen sociale huur en vrije sectorhuur. Wat is een kenmerk van sociale huurwoningen?",
       "options": [
-        "Er is geen verschil",
-        "Sociale huur is alleen voor studenten, vrije sector is voor gezinnen",
-        "Sociale huurwoningen hebben een huurprijs tot de liberalisatiegrens en worden toegewezen via woningcorporaties; vrije sector woningen hebben een hogere huurprijs zonder maximale huurgrens",
-        "Sociale huur is altijd duurder dan vrije sector"
+        "Sociale huurwoningen hebben een huurprijs onder de liberalisatiegrens en worden verhuurd via woningcorporaties aan mensen met een laag inkomen",
+        "Sociale huurwoningen zijn altijd nieuw gebouwd",
+        "Sociale huurwoningen zijn alleen voor studenten"
       ],
-      "correctIndex": 2,
-      "explanation": "Sociale huurwoningen hebben een huurprijs onder de liberalisatiegrens (circa €880 per maand in 2024) en worden vaak verhuurd door woningcorporaties. De huurprijs wordt bepaald door het puntensysteem. Vrije sector woningen hebben een huurprijs boven deze grens en de verhuurder bepaalt de prijs zelf.",
-      "explanationEn": "Social rental homes have a rent below the liberalization threshold (approximately €880/month in 2024) and are often rented out by housing corporations. The rent is determined by a points system. Free-sector homes have a rent above this threshold and the landlord sets the price."
+      "correctIndex": 0,
+      "explanation": "Sociale huurwoningen hebben een huurprijs onder de liberalisatiegrens. Ze worden toegewezen door woningcorporaties aan mensen met een inkomen onder een bepaalde grens.",
+      "explanationEn": "Social rental homes have a rent price below the liberalization threshold. They are allocated by housing corporations to people with income below a certain limit."
     },
     {
       "id": "knm-b1-4-q3",
-      "text": "Wat is de WOZ-waarde?",
+      "text": "Nadia betaalt €600 huur per maand voor een sociale woning. Haar inkomen is laag. Haar buurvrouw vertelt haar dat ze geld van de overheid kan krijgen voor de huur. Waar vraagt ze dit aan?",
       "options": [
-        "De verkoopprijs van een woning op de markt",
-        "De waarde die de gemeente jaarlijks vaststelt voor onroerende zaken, die wordt gebruikt voor belastingen zoals de onroerendezaakbelasting (OZB)",
-        "Het bedrag dat u maximaal kunt lenen voor een hypotheek",
-        "De verzekerde waarde van uw inboedel"
+        "Bij de woningcorporatie",
+        "Via de Belastingdienst/Toeslagen",
+        "Bij de gemeente"
       ],
       "correctIndex": 1,
-      "explanation": "De WOZ-waarde (Wet Waardering Onroerende Zaken) wordt jaarlijks door de gemeente vastgesteld. Deze waarde wordt gebruikt voor de berekening van belastingen zoals de OZB, het eigenwoningforfait in de inkomstenbelasting, en de watersysteemheffing. U kunt bezwaar maken als u het niet eens bent met de WOZ-waarde.",
-      "explanationEn": "The WOZ value is determined annually by the municipality. This value is used to calculate taxes such as property tax (OZB), the deemed rental value in income tax, and water system levies. You can object if you disagree with the WOZ value."
+      "explanation": "Huurtoeslag vraag je aan via de Belastingdienst/Toeslagen. Je hebt er recht op als je een lager inkomen hebt en een sociale huurwoning huurt.",
+      "explanationEn": "Housing benefit (huurtoeslag) is applied for through the Tax Authority/Benefits. You are entitled to it if you have a lower income and rent a social housing property."
     },
     {
       "id": "knm-b1-4-q4",
-      "text": "Wat is een woningcorporatie?",
+      "text": "Tom heeft een sociale huurwoning en zijn verhuurder wil de huur verhogen. Hij weet niet hoeveel de huur maximaal mag stijgen. Wie bepaalt de maximale huurverhoging in de sociale sector?",
       "options": [
-        "Een commercieel bedrijf dat luxe woningen bouwt",
-        "Een organisatie zonder winstoogmerk die sociale huurwoningen bouwt, verhuurt en beheert",
-        "Een overheidsinstelling die hypotheken verstrekt",
-        "Een makelaarskantoor dat woningen verkoopt"
+        "De overheid stelt elk jaar een maximale huurverhoging vast voor de sociale huursector",
+        "De verhuurder bepaalt dit zelf",
+        "De Huurcommissie beslist voor elke huurder apart"
       ],
-      "correctIndex": 1,
-      "explanation": "Een woningcorporatie is een organisatie zonder winstoogmerk die als kerntaak het bouwen, verhuren en beheren van sociale huurwoningen heeft. Woningcorporaties zijn verantwoordelijk voor een groot deel van de sociale huurwoningen in Nederland. Ze worden gereguleerd door de overheid.",
-      "explanationEn": "A housing corporation is a non-profit organization whose core task is building, renting out, and managing social rental housing. Housing corporations are responsible for a large portion of social rental homes in the Netherlands. They are regulated by the government."
+      "correctIndex": 0,
+      "explanation": "De overheid bepaalt elk jaar de maximale huurverhoging in de sociale sector. Verhuurders mogen hier niet boven gaan.",
+      "explanationEn": "The government sets the maximum rent increase in the social sector every year. Landlords may not exceed this."
     },
     {
       "id": "knm-b1-4-q5",
-      "text": "Wat is huurtoeslag en wie komt ervoor in aanmerking?",
+      "text": "Mia huurt een appartement en ontvangt een servicekosten-rekening van haar verhuurder. Ze weet niet wat servicekosten zijn. Wat zijn servicekosten?",
       "options": [
-        "Een subsidie voor huiseigenaren om hun hypotheek te betalen",
-        "Een tegemoetkoming van de overheid voor huurders met een laag inkomen die een sociale huurwoning huren",
-        "Een vergoeding voor verhuurders die hun woningen onderhouden",
-        "Een belastingvoordeel voor alle huurders in Nederland"
+        "De kosten voor de aankoop van meubels",
+        "Kosten voor diensten die de verhuurder levert naast de kale huur, zoals schoonmaak, onderhoud en verwarming",
+        "Een extra huurverhoging"
       ],
       "correctIndex": 1,
-      "explanation": "Huurtoeslag is een bijdrage van de overheid voor huurders met een laag inkomen. Voorwaarden zijn onder andere: u huurt een zelfstandige woonruimte, de huur is onder de huurtoeslaggrens, u bent 18 jaar of ouder, en uw inkomen en vermogen zijn onder bepaalde grenzen.",
-      "explanationEn": "Housing benefit (huurtoeslag) is a government contribution for tenants with a low income. Conditions include: you rent an independent living space, the rent is below the housing benefit threshold, you are 18 or older, and your income and assets are below certain limits."
+      "explanation": "Servicekosten zijn kosten die de verhuurder in rekening brengt bovenop de kale huur voor geleverde diensten zoals verwarming, onderhoud en schoonmaak van gemeenschappelijke ruimtes.",
+      "explanationEn": "Service costs are charges that the landlord adds on top of the basic rent for provided services such as heating, maintenance, and cleaning of common areas."
     },
     {
       "id": "knm-b1-4-q6",
-      "text": "Wat is een hypotheek?",
+      "text": "Erik woont in een huurhuis en er is een lekkende kraan. De verhuurder weigert dit te repareren. Wie is verantwoordelijk voor groot onderhoud aan de woning?",
       "options": [
-        "Een soort huurcontract voor sociale huurwoningen",
-        "Een lening van een bank of andere geldverstrekker om een woning te kopen, waarbij de woning als onderpand dient",
-        "Een verzekering tegen schade aan uw woning",
-        "Een belasting die u betaalt wanneer u een woning koopt"
+        "De verhuurder is verantwoordelijk voor groot onderhoud. De huurder is verantwoordelijk voor kleine reparaties",
+        "Ze moeten de kosten altijd delen",
+        "De huurder is altijd verantwoordelijk"
       ],
-      "correctIndex": 1,
-      "explanation": "Een hypotheek is een lening waarmee u een woning kunt kopen. De woning dient als onderpand: als u de lening niet kunt terugbetalen, kan de bank de woning verkopen. De hypotheekrente is (deels) aftrekbaar van de inkomstenbelasting (hypotheekrenteaftrek).",
-      "explanationEn": "A mortgage is a loan used to buy a home. The house serves as collateral: if you can't repay the loan, the bank can sell the house. Mortgage interest is (partially) tax-deductible from income tax (mortgage interest deduction)."
+      "correctIndex": 0,
+      "explanation": "De verhuurder is verantwoordelijk voor groot onderhoud (dak, cv-ketel, kozijnen). De huurder is verantwoordelijk voor kleine dagelijkse reparaties.",
+      "explanationEn": "The landlord is responsible for major maintenance (roof, boiler, window frames). The tenant is responsible for small day-to-day repairs."
     },
     {
       "id": "knm-b1-4-q7",
-      "text": "Wat is het puntensysteem (woningwaarderingsstelsel) voor huurwoningen?",
+      "text": "Sofia wil een sociale huurwoning in Amsterdam. Ze schrijft zich in bij de woningcorporatie. Ze hoort dat de wachttijd erg lang kan zijn. Waarvoor schrijft ze zich in?",
       "options": [
-        "Een systeem om de kwaliteit van meubilair te beoordelen",
-        "Een systeem waarmee de maximale huurprijs van een sociale huurwoning wordt berekend op basis van kenmerken zoals oppervlakte, voorzieningen en energielabel",
-        "Een beoordelingssysteem voor verhuurders",
-        "Een puntensysteem voor huurders om voorrang te krijgen bij toewijzing"
+        "Voor het woningzoekende register, zodat ze punten of wachttijd opbouwt om een woning te krijgen",
+        "Voor een urgentieverklaring",
+        "Voor een hypotheek"
       ],
-      "correctIndex": 1,
-      "explanation": "Het woningwaarderingsstelsel (puntensysteem) bepaalt de maximale huurprijs voor sociale huurwoningen. Punten worden toegekend op basis van de oppervlakte, het energielabel, de voorzieningen (keuken, badkamer), en de WOZ-waarde. Meer punten betekent een hogere maximale huur.",
-      "explanationEn": "The housing valuation system (points system) determines the maximum rent for social rental homes. Points are assigned based on surface area, energy label, facilities (kitchen, bathroom), and WOZ value. More points means a higher maximum rent."
+      "correctIndex": 0,
+      "explanation": "Voor een sociale huurwoning schrijf je je in bij een woningcorporatie of regionaal woonruimteverdeling systeem. Je bouwt wachttijd of inschrijfjaren op.",
+      "explanationEn": "For a social rental home, you register with a housing corporation or regional housing distribution system. You build up waiting time or registration years."
     },
     {
       "id": "knm-b1-4-q8",
-      "text": "Wat is de overdrachtsbelasting bij het kopen van een woning?",
+      "text": "Daan wil een woning kopen. De bank biedt hem een hypotheek aan. Hij vraagt wat de hypotheek precies is. Wat is een hypotheek?",
       "options": [
-        "Een jaarlijkse belasting voor woningeigenaren",
-        "Een eenmalige belasting die u betaalt bij de aankoop van een woning, het tarief is 2% voor woningen (met vrijstelling voor starters onder bepaalde voorwaarden)",
-        "Een belasting die alleen door buitenlanders betaald moet worden",
-        "Een maandelijkse bijdrage aan de Vereniging van Eigenaren"
+        "Een huurcontract voor een koopwoning",
+        "Een verzekering voor je huis",
+        "Een lening bij de bank om een woning te kopen, waarbij de woning als onderpand dient"
       ],
-      "correctIndex": 1,
-      "explanation": "De overdrachtsbelasting is een eenmalige belasting bij de aankoop van een woning. Voor woningen is het tarief 2%. Starters (kopers tussen 18 en 35 jaar die een woning kopen onder een bepaalde waardegrens) kunnen eenmalig een vrijstelling krijgen. Voor niet-woningen geldt een tarief van 10,4%.",
-      "explanationEn": "Transfer tax is a one-time tax when purchasing a property. For homes, the rate is 2%. First-time buyers (ages 18-35 purchasing a home below a certain value) can receive a one-time exemption. For non-residential properties, the rate is 10.4%."
+      "correctIndex": 2,
+      "explanation": "Een hypotheek is een lening van de bank om een huis te kopen. De bank heeft het recht de woning te verkopen als je de lening niet terugbetaalt (onderpand).",
+      "explanationEn": "A mortgage is a loan from the bank to buy a house. The bank has the right to sell the property if you don't repay the loan (collateral)."
     },
     {
       "id": "knm-b1-4-q9",
-      "text": "Hoe wordt u ingeschreven voor een sociale huurwoning?",
+      "text": "Lena heeft een koopwoning. Ze betaalt jaarlijks een belasting aan de gemeente voor haar woning. Hoe heet deze belasting?",
       "options": [
-        "U gaat naar de woningcorporatie en krijgt direct een woning",
-        "U schrijft zich in bij een woonruimteverdeelsysteem (zoals WoningNet) en wacht op een woning; de wachttijd kan jaren duren, vooral in grote steden",
-        "U vraagt een woning aan bij de Belastingdienst",
-        "U koopt een lidmaatschap bij een makelaar"
+        "OZB (onroerendezaakbelasting)",
+        "Inkomstenbelasting",
+        "BTW"
       ],
-      "correctIndex": 1,
-      "explanation": "In de meeste regio's schrijft u zich in bij een woonruimteverdeelsysteem zoals WoningNet. Woningen worden toegewezen op basis van inschrijfduur, urgentie of loting. De wachttijden zijn lang, vooral in de Randstad (soms meer dan 10 jaar in Amsterdam). In sommige gemeenten gelden andere systemen.",
-      "explanationEn": "In most regions, you register with a housing distribution system like WoningNet. Homes are assigned based on registration duration, urgency, or lottery. Wait times are long, especially in the Randstad (sometimes over 10 years in Amsterdam). Some municipalities use different systems."
+      "correctIndex": 0,
+      "explanation": "De OZB (onroerendezaakbelasting) is een gemeentelijke belasting op het bezit van een woning of gebouw.",
+      "explanationEn": "The OZB (real estate tax) is a municipal tax on the ownership of a home or building."
     },
     {
       "id": "knm-b1-4-q10",
-      "text": "Wat is de Nationale Hypotheek Garantie (NHG)?",
+      "text": "Carlos wil een koopwoning kopen. De makelaar vraagt een bod uit te brengen. Carlos vraagt hoe het aankoopproces werkt. Wat is de rol van de notaris bij het kopen van een huis?",
       "options": [
-        "Een verplichte verzekering voor alle hypotheken",
-        "Een garantie van de Stichting Waarborgfonds Eigen Woningen die het risico voor de hypotheekverstrekker verkleint, waardoor u vaak een lagere rente krijgt",
-        "Een subsidie van de overheid voor de eerste hypotheekbetaling",
-        "Een toetsing van de gemeente of u een huis mag kopen"
+        "De notaris bepaalt de prijs van het huis",
+        "De notaris stelt de koopakte en hypotheekakte op en zorgt voor de officiële eigendomsoverdracht",
+        "De notaris geeft een hypotheek"
       ],
       "correctIndex": 1,
-      "explanation": "NHG is een garantie die het risico voor de geldverstrekker verkleint. Als u uw hypotheek niet meer kunt betalen (bijvoorbeeld door werkloosheid of scheiding) en de woning met verlies wordt verkocht, kan NHG het resterende bedrag kwijtschelden. Door NHG betaalt u vaak een lagere hypotheekrente.",
-      "explanationEn": "NHG is a guarantee that reduces risk for the lender. If you can no longer pay your mortgage (e.g., due to unemployment or divorce) and the home is sold at a loss, NHG can write off the remaining amount. With NHG, you often pay a lower mortgage interest rate."
+      "explanation": "Bij de aankoop van een woning stelt de notaris de koopakte en hypotheekakte op. De eigendomsoverdracht vindt officieel plaats bij de notaris.",
+      "explanationEn": "When buying a home, the notary draws up the purchase deed and mortgage deed. The transfer of ownership officially takes place at the notary's office."
     },
     {
       "id": "knm-b1-4-q11",
-      "text": "Wat betekent PMD bij het scheiden van afval?",
+      "text": "Pieter heeft zijn huurwoning ernstig beschadigd. Nu gaat hij weg. De verhuurder wil de borg niet teruggeven omdat er schade is. Is dit toegestaan?",
       "options": [
-        "Papier, Metaal en Drankkartons",
-        "Plastic, Metalen verpakkingen en Drankkartons",
-        "Plastic, Medicijnen en Dozen",
-        "Papier, Meubilair en Dranken"
+        "Borg is altijd verloren na het verlaten van de woning",
+        "De verhuurder mag de borg (deels) inhouden als er aantoonbare schade is die verder gaat dan normale slijtage",
+        "De verhuurder moet altijd de borg terugbetalen"
       ],
       "correctIndex": 1,
-      "explanation": "PMD staat voor Plastic verpakkingen, Metalen verpakkingen (blikjes, conservenblikken) en Drankkartons (melkpakken, sappakken). PMD wordt apart ingezameld en gerecycled. De regels voor PMD-scheiding kunnen per gemeente verschillen.",
-      "explanationEn": "PMD stands for Plastic packaging, Metal packaging (cans, tins), and Drink cartons (milk cartons, juice cartons). PMD is collected separately and recycled. The rules for PMD separation may vary by municipality."
+      "explanation": "De verhuurder mag de borg inhouden voor kosten die verder gaan dan normale slijtage, zoals echte beschadigingen aan de woning.",
+      "explanationEn": "The landlord may withhold the deposit for costs that go beyond normal wear and tear, such as actual damage to the property."
     },
     {
       "id": "knm-b1-4-q12",
-      "text": "Wat is GFT-afval?",
+      "text": "Reza wil zijn huurwoning onderverhuren aan een vriend terwijl hij op reis is. Zijn verhuurder verbiedt dit. Mag de verhuurder dit verbieden?",
       "options": [
-        "Glas, Flessen en Textiel",
-        "Groente-, Fruit- en Tuinafval",
-        "Gebruikte Frituurvet en Terpentine",
-        "Grote Fietsen en Televisies"
+        "Nee, de huurder mag altijd onderverhuren",
+        "Ja, zonder toestemming van de verhuurder is onderverhuur in de meeste gevallen verboden",
+        "Alleen als het om minder dan 3 maanden gaat"
       ],
       "correctIndex": 1,
-      "explanation": "GFT staat voor Groente-, Fruit- en Tuinafval. Dit is biologisch afbreekbaar afval dat wordt gecomposteerd of vergist tot biogas. Voorbeelden: schillen, etensresten (plantaardig), bladeren, gras en snijbloemen. Vlees en vis horen er meestal niet bij.",
-      "explanationEn": "GFT stands for Vegetable, Fruit, and Garden waste. This is biodegradable waste that is composted or converted into biogas. Examples: peels, plant-based food scraps, leaves, grass, and cut flowers. Meat and fish usually don't belong in GFT."
+      "explanation": "Onderverhuur zonder toestemming van de verhuurder is in de meeste huurcontracten verboden. De huurder kan hierdoor zelfs zijn woning verliezen.",
+      "explanationEn": "Subletting without the landlord's permission is prohibited in most rental contracts. The tenant may even lose their home as a result."
     },
     {
       "id": "knm-b1-4-q13",
-      "text": "Wat is statiegeld?",
+      "text": "Anna heeft dringend een woning nodig omdat ze met haar kinderen op straat staat na een scheiding. Ze wil sneller in aanmerking komen voor een sociale woning. Wat kan ze aanvragen?",
       "options": [
-        "Een belasting op alle dranken in Nederland",
-        "Een borgbedrag dat u betaalt bij de aankoop van bepaalde flessen en blikjes, dat u terugkrijgt als u de verpakking inlevert",
-        "Een subsidie voor het recyclen van plastic",
-        "Een boete voor het weggooien van afval op straat"
+        "Een bijstandsuitkering",
+        "Een hypotheek",
+        "Een urgentieverklaring bij de woningcorporatie of gemeente"
       ],
-      "correctIndex": 1,
-      "explanation": "Statiegeld is een borgbedrag op plastic flessen en blikjes. Bij aankoop betaalt u statiegeld (€0,15 voor kleine flesjes en blikjes, €0,25 voor grote flessen). Wanneer u de lege verpakking inlevert bij een inleverpunt (meestal in de supermarkt), krijgt u het statiegeld terug.",
-      "explanationEn": "Deposit (statiegeld) is a refundable amount on plastic bottles and cans. At purchase, you pay a deposit (€0.15 for small bottles/cans, €0.25 for large bottles). When you return the empty packaging at a collection point (usually in supermarkets), you get the deposit back."
+      "correctIndex": 2,
+      "explanation": "Een urgentieverklaring geeft voorrang bij het toewijzen van een sociale huurwoning aan mensen in een noodsituatie, zoals dakloosheid of een onveilige thuissituatie.",
+      "explanationEn": "An urgency certificate gives priority when allocating a social rental home to people in an emergency situation, such as homelessness or an unsafe home situation."
     },
     {
       "id": "knm-b1-4-q14",
-      "text": "Wat is een energielabel voor woningen?",
+      "text": "Joris heeft een appartement gekocht in een flatgebouw. Hij hoort over de Vereniging van Eigenaren (VvE). Wat is de rol van de VvE?",
       "options": [
-        "Een label dat aangeeft hoeveel elektriciteit een woning verbruikt per maand",
-        "Een classificatie van A++++ (zeer zuinig) tot G (zeer onzuinig) die de energie-efficiëntie van een woning aangeeft",
-        "Een sticker die op alle elektrische apparaten moet zitten",
-        "Een vergunning die nodig is om zonnepanelen te installeren"
+        "De VvE geeft hypotheekadvies",
+        "De VvE beheert het gemeenschappelijk bezit van het gebouw, zoals het dak en de lift, en alle eigenaren zijn automatisch lid",
+        "De VvE verhuurt de appartementen"
       ],
       "correctIndex": 1,
-      "explanation": "Het energielabel geeft aan hoe energiezuinig een woning is, van A++++ (zeer zuinig) tot G (zeer onzuinig). Bij verkoop of verhuur van een woning is een geldig energielabel verplicht. Het label houdt rekening met isolatie, verwarming, ventilatie en duurzame energie.",
-      "explanationEn": "The energy label indicates how energy-efficient a home is, from A++++ (very efficient) to G (very inefficient). A valid energy label is required when selling or renting a home. The label considers insulation, heating, ventilation, and renewable energy."
+      "explanation": "De Vereniging van Eigenaren (VvE) beheert en onderhoudt het gemeenschappelijk deel van een gebouw. Alle appartementseigenaren zijn automatisch lid.",
+      "explanationEn": "The Association of Owners (VvE) manages and maintains the communal parts of a building. All apartment owners are automatically members."
     },
     {
       "id": "knm-b1-4-q15",
-      "text": "Welke klimaatdoelen heeft Nederland zich gesteld?",
+      "text": "Kim wil haar huurwoning verbouwen: ze wil een wand weghalen. Ze vraagt of ze toestemming nodig heeft van de verhuurder. Wat is de regel?",
       "options": [
-        "Nederland heeft geen klimaatdoelen",
-        "Nederland wil in 2030 49% minder CO2-uitstoot ten opzichte van 1990 en in 2050 klimaatneutraal zijn",
-        "Nederland wil alleen meer windmolens bouwen",
-        "Nederland wil in 2025 volledig overstappen op kernenergie"
+        "Verbouwen is altijd verboden in een huurwoning",
+        "Huurders mogen altijd verbouwen",
+        "Voor structurele aanpassingen heeft de huurder toestemming nodig van de verhuurder"
       ],
-      "correctIndex": 1,
-      "explanation": "In het Klimaatakkoord van 2019 heeft Nederland afgesproken de CO2-uitstoot in 2030 met 49% te verminderen ten opzichte van 1990. De Klimaatwet stelt als doel dat Nederland in 2050 klimaatneutraal is (95% minder CO2). Dit wordt bereikt via maatregelen in energieopwekking, industrie, landbouw, verkeer en gebouwde omgeving.",
-      "explanationEn": "In the 2019 Climate Agreement, the Netherlands committed to reducing CO2 emissions by 49% by 2030 compared to 1990. The Climate Act sets the goal of climate neutrality by 2050 (95% less CO2). This is achieved through measures in energy generation, industry, agriculture, transport, and the built environment."
+      "correctIndex": 2,
+      "explanation": "Voor structurele wijzigingen aan een huurwoning, zoals het weghalen van een dragende muur, heeft de huurder schriftelijke toestemming nodig van de verhuurder.",
+      "explanationEn": "For structural changes to a rental home, such as removing a load-bearing wall, the tenant needs written permission from the landlord."
     },
     {
       "id": "knm-b1-4-q16",
-      "text": "Wat is de circulaire economie?",
+      "text": "Sam heeft een woning in de vrije sector. Zijn verhuurder verhoogt de huur sterk. Sam weet dat er een wet is die huurders in de vrije sector meer beschermt. Wat regelt de nieuwe Wet betaalbare huur?",
       "options": [
-        "Een economie waarin iedereen hetzelfde salaris verdient",
-        "Een economisch systeem dat erop gericht is afval te minimaliseren door grondstoffen en producten zo lang mogelijk te hergebruiken, herstellen en recyclen",
-        "Een economie die alleen draait op hernieuwbare energie",
-        "Een systeem waarbij geld rondgaat tussen banken"
+        "De wet verbiedt alle huurverhogingen",
+        "De Wet betaalbare huur introduceert maximale huurprijzen ook voor middenhuurwoningen (vrije sector tot een bepaalde grens)",
+        "Verhuurders mogen de huur vrij verhogen in de vrije sector"
       ],
       "correctIndex": 1,
-      "explanation": "De circulaire economie is een economisch systeem waarbij producten en grondstoffen zo lang mogelijk worden hergebruikt en er zo min mogelijk afval ontstaat. Nederland streeft ernaar om in 2050 volledig circulair te zijn. Dit betekent minder nieuwe grondstoffen gebruiken en meer recyclen, repareren en delen.",
-      "explanationEn": "The circular economy is an economic system where products and raw materials are reused for as long as possible and minimal waste is generated. The Netherlands aims to be fully circular by 2050. This means using fewer new raw materials and more recycling, repairing, and sharing."
+      "explanation": "De Wet betaalbare huur (2024) breidt de huurprijsbescherming uit naar middenhuurwoningen. Woningen tot een bepaald puntenaantal vallen onder een maximale huurprijs.",
+      "explanationEn": "The Affordable Rent Act (2024) extends rent price protection to middle-rent homes. Properties up to a certain number of points fall under a maximum rent price."
     },
     {
       "id": "knm-b1-4-q17",
-      "text": "Hoe wordt huishoudelijk afval gescheiden in de meeste Nederlandse gemeenten?",
+      "text": "Fatima gaat een huurcontract tekenen. De verhuurder vraagt twee maanden borg. Is dit wettelijk toegestaan?",
       "options": [
-        "Al het afval gaat in één container",
-        "Afval wordt gescheiden in restafval, GFT, papier/karton, glas, PMD en textiel",
-        "Afval wordt alleen gescheiden in plastic en niet-plastic",
-        "Afval hoeft niet gescheiden te worden, dat doet de gemeente"
+        "Borg is alleen toegestaan bij commerciële verhuur",
+        "Ja, een verhuurder mag een borg vragen. Maximaal is wettelijk begrensd (doorgaans twee maanden)",
+        "Nee, borg is niet toegestaan in Nederland"
       ],
       "correctIndex": 1,
-      "explanation": "In de meeste gemeenten wordt afval gescheiden in: restafval, GFT (groente, fruit, tuin), papier en karton, glas (gesorteerd op kleur), PMD (plastic, metaal, drankkartons) en textiel. Daarnaast zijn er milieustraten voor grofvuil, elektronica en chemisch afval. De exacte regels verschillen per gemeente.",
-      "explanationEn": "In most municipalities, waste is separated into: residual waste, GFT (vegetable, fruit, garden), paper and cardboard, glass (sorted by color), PMD (plastic, metal, drink cartons), and textiles. Additionally, there are recycling centers for bulky items, electronics, and chemical waste. Exact rules vary by municipality."
+      "explanation": "Een verhuurder mag een borg vragen bij het afsluiten van een huurcontract als zekerheid voor eventuele schade. De wettelijke maximumborg is twee maanden kale huur.",
+      "explanationEn": "A landlord may request a deposit when signing a rental contract as security for potential damage. The statutory maximum deposit is two months' basic rent."
     },
     {
       "id": "knm-b1-4-q18",
-      "text": "Wat moet u doen met klein chemisch afval (KCA)?",
+      "text": "Marc woont al tien jaar in dezelfde huurwoning. De verhuurder wil hem eruit zetten omdat hij de woning zelf wil gebruiken. Kan de verhuurder een huurder zomaar uitzetten?",
       "options": [
-        "U gooit het bij het restafval",
-        "U brengt het naar een speciaal inzamelpunt, zoals de milieustraat of een chemokar",
-        "U gooit het in de GFT-container",
-        "U spoelt het door de gootsteen"
+        "Alleen als de huurder al achterstallige huur heeft",
+        "Nee, huurders hebben huurbescherming. De verhuurder moet een geldige reden hebben en de rechter om toestemming vragen",
+        "Ja, de verhuurder mag dit altijd doen"
       ],
       "correctIndex": 1,
-      "explanation": "Klein chemisch afval (KCA) zoals verf, batterijen, medicijnen, lampen en schoonmaakmiddelen mag niet bij het restafval of door het riool. U brengt KCA naar een milieustraat of een inzamelpunt (soms een rijdende chemokar). Dit voorkomt vervuiling van het milieu.",
-      "explanationEn": "Small chemical waste (KCA) such as paint, batteries, medicines, lamps, and cleaning products may not go in residual waste or down the drain. You bring KCA to a recycling center or collection point (sometimes a mobile chemical waste van). This prevents environmental pollution."
+      "explanation": "Huurders in Nederland hebben huurbescherming. Een verhuurder kan niet zomaar opzeggen. Er zijn beperkte gronden (eigen gebruik, renovatie) en de rechter beslist.",
+      "explanationEn": "Tenants in the Netherlands have tenancy protection. A landlord cannot simply terminate the contract. There are limited grounds (own use, renovation) and the court decides."
     },
     {
       "id": "knm-b1-4-q19",
-      "text": "Wat is het doel van het Klimaatakkoord van Parijs en hoe is Nederland erbij betrokken?",
+      "text": "Nadia wil weten of haar verhuurder de huur ieder jaar mag verhogen en met hoeveel. Wat is de situatie voor huurders in sociale huurwoningen?",
       "options": [
-        "Het akkoord gaat alleen over het verminderen van plastic in de oceaan",
-        "Het akkoord is een internationaal verdrag om de opwarming van de aarde te beperken tot ruim onder de 2°C; Nederland heeft het ondertekend en eigen doelen gesteld",
-        "Het akkoord verplicht alle landen om kernenergie te gebruiken",
-        "Het akkoord is alleen ondertekend door Europese landen"
+        "Verhuurders mogen elk jaar zoveel verhogen als ze willen",
+        "In de sociale sector geldt een maximale huurverhoging die jaarlijks door de overheid wordt vastgesteld",
+        "De huur in sociale woningen is bevroren en mag nooit omhoog"
       ],
       "correctIndex": 1,
-      "explanation": "Het Klimaatakkoord van Parijs (2015) is een internationaal verdrag om de opwarming van de aarde te beperken tot ruim onder de 2°C, bij voorkeur 1,5°C. Nederland heeft het akkoord ondertekend en heeft via het Nederlandse Klimaatakkoord en de Klimaatwet eigen doelen gesteld.",
-      "explanationEn": "The Paris Climate Agreement (2015) is an international treaty to limit global warming to well below 2°C, preferably 1.5°C. The Netherlands signed the agreement and has set its own targets through the Dutch Climate Agreement and the Climate Act."
+      "explanation": "De overheid stelt jaarlijks een maximale huurverhoging vast voor de sociale sector. Verhuurders mogen de huur niet meer verhogen dan dit maximum.",
+      "explanationEn": "The government sets an annual maximum rent increase for the social sector. Landlords may not raise the rent more than this maximum."
     },
     {
       "id": "knm-b1-4-q20",
-      "text": "Wat is een milieustraat?",
+      "text": "Peter wil een huis kopen. Zijn adviseur stelt voor om een bouwkundige keuring te laten doen. Waarom is dit nuttig?",
       "options": [
-        "Een straat waar geen auto's mogen rijden",
-        "Een gemeentelijk inzamelpunt waar inwoners grof afval, chemisch afval, elektronica en ander afval gratis of tegen een kleine vergoeding kunnen inleveren",
-        "Een winkel die milieuvriendelijke producten verkoopt",
-        "Een park dat door de gemeente wordt onderhouden"
+        "Een bouwkundige keuring geeft inzicht in de technische staat van het huis en eventuele verborgen gebreken voordat je koopt",
+        "Een bouwkundige keuring is verplicht bij elke woningaankoop",
+        "De bouwkundige keuring bepaalt de verkoopprijs"
       ],
-      "correctIndex": 1,
-      "explanation": "Een milieustraat (ook wel recyclestation of afvalpunt genoemd) is een gemeentelijk inzamelpunt voor afval dat niet in de reguliere containers kan. U kunt er grofvuil, elektronica, chemisch afval, puin, hout en andere materialen inleveren. Meestal is dit gratis voor inwoners van de gemeente.",
-      "explanationEn": "A recycling center (milieustraat) is a municipal collection point for waste that doesn't fit in regular bins. You can bring bulky items, electronics, chemical waste, rubble, wood, and other materials. It is usually free for residents of the municipality."
+      "correctIndex": 0,
+      "explanation": "Een bouwkundige keuring is een technische inspectie van het huis. Het geeft de koper inzicht in de staat van de woning en eventuele toekomstige kosten.",
+      "explanationEn": "A structural survey is a technical inspection of the house. It gives the buyer insight into the condition of the property and any future costs."
     },
     {
       "id": "knm-b1-4-q21",
-      "text": "Op welke leeftijd mag u in Nederland autorijden en wat heeft u daarvoor nodig?",
+      "text": "Sophie huurt een woning en heeft al drie maanden geen huur betaald. De verhuurder wil haar eruit zetten. Hoe kan de verhuurder de huurovereenkomst beëindigen bij huurachterstand?",
       "options": [
-        "Vanaf 16 jaar met elk rijbewijs",
-        "Vanaf 18 jaar met een geldig rijbewijs categorie B",
-        "Vanaf 21 jaar met een internationaal rijbewijs",
-        "Vanaf 17 jaar, maar alleen met een begeleider in de auto"
+        "De verhuurder moet via de rechter een ontruimingsvordering instellen",
+        "De verhuurder kan het slot veranderen",
+        "De verhuurder kan haar direct op straat zetten"
       ],
-      "correctIndex": 1,
-      "explanation": "In Nederland mag u vanaf 18 jaar zelfstandig autorijden met een geldig rijbewijs categorie B. Vanaf 17 jaar kunt u al rijden onder begeleiding (2toDrive). Om een rijbewijs te halen, moet u slagen voor een theorie-examen en een praktijkexamen bij het CBR.",
-      "explanationEn": "In the Netherlands, you may drive independently from age 18 with a valid category B driver's license. From age 17, you can drive under supervision (2toDrive). To get a license, you must pass a theory exam and a practical exam at the CBR."
+      "correctIndex": 0,
+      "explanation": "Een verhuurder mag nooit zelf een huurder uitzetten. Dit kan alleen via een gerechtelijke procedure. De rechter beslist of er ontruimd mag worden.",
+      "explanationEn": "A landlord may never evict a tenant themselves. This can only happen through a legal procedure. The court decides whether eviction is allowed."
     },
     {
       "id": "knm-b1-4-q22",
-      "text": "Wat is een OV-chipkaart?",
+      "text": "David heeft een huurhuis in een slechte staat. Er is schimmel en de verwarming werkt niet. De verhuurder negeert zijn klachten al maanden. Wat kan David doen?",
       "options": [
-        "Een legitimatiebewijs voor het openbaar vervoer",
-        "Een elektronische betaalkaart waarmee u in het openbaar vervoer (bus, tram, metro, trein) kunt reizen",
-        "Een abonnement op de NS-treindiensten",
-        "Een korting voor ouderen in het openbaar vervoer"
+        "Hij kan een klacht indienen bij de Huurcommissie of naar de rechter stappen om verplicht onderhoud af te dwingen",
+        "Hij moet zelf de reparaties uitvoeren en betalen",
+        "Hij kan zijn huur zomaar stopzetten"
       ],
-      "correctIndex": 1,
-      "explanation": "De OV-chipkaart is een elektronische betaalkaart voor het openbaar vervoer in Nederland. U checkt in bij het instappen en uit bij het uitstappen. Er zijn persoonlijke kaarten (op naam) en anonieme kaarten. Bij de trein moet u voldoende saldo hebben (minimaal €20 bij NS).",
-      "explanationEn": "The OV-chipkaart is an electronic payment card for public transport in the Netherlands. You check in when boarding and check out when exiting. There are personal (named) and anonymous cards. For trains, you need sufficient balance (minimum €20 for NS)."
+      "correctIndex": 0,
+      "explanation": "Als de verhuurder zijn onderhoudsplicht niet nakomt, kan de huurder een procedure starten bij de Huurcommissie of de rechter om onderhoud af te dwingen.",
+      "explanationEn": "If the landlord fails to fulfill maintenance obligations, the tenant can start a procedure at the Rent Tribunal or court to enforce maintenance."
     },
     {
       "id": "knm-b1-4-q23",
-      "text": "Wat zijn de belangrijkste verkeersregels voor fietsers in Nederland?",
+      "text": "Elly wil weten wat haar energielabel zegt. Haar huis heeft label G. Haar adviseur legt uit wat dit betekent. Wat zegt het energielabel?",
       "options": [
-        "Fietsers hebben altijd voorrang op alle wegen",
-        "Fietsers moeten rechts rijden, een werkend voor- en achterlicht voeren in het donker, en mogen niet door rood licht rijden",
-        "Fietsers hoeven geen verkeersregels te volgen",
-        "Fietsers mogen alleen op de stoep rijden"
+        "Het energielabel geeft aan hoe energiezuinig een woning is: van A+++ (zeer zuinig) tot G (onzuinig)",
+        "Het energielabel zegt niets over de woning",
+        "Het energielabel geeft de leeftijd van het gebouw aan"
       ],
-      "correctIndex": 1,
-      "explanation": "Fietsers moeten rechts rijden, 's nachts verlichting voeren (wit/geel voor, rood achter), en zich houden aan verkeerslichten en -borden. Het is verboden om met een telefoon in de hand te fietsen. Op een rotonde met fietspad hebben fietsers op het fietspad vaak voorrang.",
-      "explanationEn": "Cyclists must ride on the right, use lights at night (white/yellow front, red rear), and obey traffic lights and signs. It is prohibited to cycle while holding a phone. On roundabouts with a bike path, cyclists on the bike path often have right of way."
+      "correctIndex": 0,
+      "explanation": "Het energielabel geeft aan hoe energiezuinig een woning is. Label A is het meest zuinig, label G het minst. Een slecht label betekent hogere energiekosten.",
+      "explanationEn": "The energy label indicates how energy-efficient a home is. Label A is the most efficient, label G the least. A poor label means higher energy costs."
     },
     {
       "id": "knm-b1-4-q24",
-      "text": "Wat doet de NS (Nederlandse Spoorwegen)?",
+      "text": "Boris verhuist naar een nieuwe woning. Zijn buurvrouw vertelt hem dat hij zich moet uitschrijven bij zijn vorige gemeente en inschrijven bij de nieuwe. Binnen hoeveel dagen moet hij dit doen?",
       "options": [
-        "De NS beheert alle wegen in Nederland",
-        "De NS is de grootste treinvervoerder van Nederland en verzorgt het treinverkeer op het hoofdrailnet",
-        "De NS is een busbedrijf",
-        "De NS is verantwoordelijk voor de aanleg van fietspaden"
+        "Binnen 6 maanden na verhuizing",
+        "Binnen 30 dagen na verhuizing",
+        "Binnen 5 werkdagen na verhuizing"
       ],
-      "correctIndex": 1,
-      "explanation": "De NS (Nederlandse Spoorwegen) is de grootste treinvervoerder van Nederland. De NS verzorgt het personenvervoer per trein op het hoofdrailnet (Intercity, Sprinter). ProRail beheert de spoorinfrastructuur. Naast NS zijn er ook regionale treinvervoerders actief.",
-      "explanationEn": "NS (Dutch Railways) is the largest train operator in the Netherlands. NS provides passenger transport by train on the main rail network (Intercity, Sprinter). ProRail manages the railway infrastructure. Besides NS, there are also regional train operators."
+      "correctIndex": 2,
+      "explanation": "Na een verhuizing moet je je binnen 5 werkdagen inschrijven op je nieuwe adres bij de gemeente (BRP). Uitschrijven regelt de gemeente zelf.",
+      "explanationEn": "After moving, you must register at your new address at the municipality (BRP) within 5 working days. Deregistration is handled by the municipality itself."
     },
     {
       "id": "knm-b1-4-q25",
-      "text": "Wat is het maximaal toegestane promillage voor autobestuurders in Nederland?",
+      "text": "Roos wil weten of ze haar huurcontract mag opzeggen. Ze wil weten wat de opzegtermijn is voor huurders. Wat is de wettelijke opzegtermijn voor een huurder?",
       "options": [
-        "0,0 promille voor alle bestuurders",
-        "0,5 promille voor ervaren bestuurders en 0,2 promille voor beginnende bestuurders (de eerste 5 jaar na het behalen van het rijbewijs)",
-        "0,8 promille voor alle bestuurders",
-        "1,0 promille als u niet op de snelweg rijdt"
+        "3 maanden",
+        "1 week",
+        "1 maand"
       ],
-      "correctIndex": 1,
-      "explanation": "Voor ervaren bestuurders geldt een maximaal toegestaan bloed-alcoholgehalte van 0,5 promille. Voor beginnende bestuurders (de eerste 5 jaar na het behalen van het rijbewijs) geldt een strenger maximum van 0,2 promille. Rijden onder invloed is een ernstige overtreding.",
-      "explanationEn": "For experienced drivers, the maximum permitted blood alcohol level is 0.5 per mille. For novice drivers (the first 5 years after obtaining a license), a stricter maximum of 0.2 per mille applies. Driving under the influence is a serious offense."
+      "correctIndex": 2,
+      "explanation": "Een huurder heeft een opzegtermijn van 1 maand. Dit is de wettelijke minimumtermijn voor huurders om een huurcontract op te zeggen.",
+      "explanationEn": "A tenant has a notice period of 1 month. This is the statutory minimum period for tenants to terminate a rental contract."
     },
     {
       "id": "knm-b1-4-q26",
-      "text": "Wat moet u doen als u een buitenlands rijbewijs heeft en in Nederland wilt rijden?",
+      "text": "Ali heeft zijn woning te koop gezet. Een koper wil het huis en doet een bod. Ze zijn het eens geworden. Hoe wordt de overeenkomst officieel gemaakt?",
       "options": [
-        "U mag altijd rijden met uw buitenlands rijbewijs",
-        "Als u een rijbewijs heeft uit een EU/EER-land, kunt u dit omwisselen. Bij een rijbewijs uit een ander land moet u mogelijk opnieuw examen doen bij het CBR",
-        "U moet altijd een volledig nieuw rijbewijs halen in Nederland",
-        "Buitenlandse rijbewijzen zijn niet geldig in Nederland"
+        "Door het geld te betalen",
+        "Door een koopovereenkomst te tekenen bij de makelaar, gevolgd door notarieel transport",
+        "Met een mondelinge afspraak"
       ],
       "correctIndex": 1,
-      "explanation": "Met een EU/EER-rijbewijs kunt u in Nederland rijden en het omwisselen naar een Nederlands rijbewijs. Met een rijbewijs van buiten de EU/EER kunt u maximaal 185 dagen rijden na inschrijving in Nederland. Daarna moet u een Nederlands rijbewijs halen, eventueel via een verklaring van geschiktheid en een examen bij het CBR.",
-      "explanationEn": "With an EU/EEA license, you can drive in the Netherlands and exchange it for a Dutch license. With a non-EU/EEA license, you can drive for up to 185 days after registration in the Netherlands. After that, you must obtain a Dutch license, possibly through a fitness declaration and exam at the CBR."
+      "explanation": "Bij de verkoop van een woning wordt een schriftelijke koopovereenkomst getekend. Daarna vindt de officiële eigendomsoverdracht (het transport) plaats bij de notaris.",
+      "explanationEn": "When selling a home, a written purchase agreement is signed. Then the official transfer of ownership (the transport) takes place at the notary's office."
     },
     {
       "id": "knm-b1-4-q27",
-      "text": "Wat zijn de maximumsnelheden op Nederlandse wegen?",
+      "text": "Nadia wil een aanvulling op haar basisverzekering zodat ze ook alternatieve zorg vergoed krijgt. Hoe heet dit?",
       "options": [
-        "50 km/u in de stad, 80 km/u buiten de bebouwde kom, 100 km/u op de snelweg",
-        "30 km/u overal",
-        "30 km/u in de stad, 80 km/u buiten de bebouwde kom, 100-130 km/u op de snelweg (afhankelijk van het traject en tijdstip)",
-        "Er zijn geen maximumsnelheden in Nederland"
+        "Eigen risico",
+        "Aanvullende zorgverzekering",
+        "Zorgtoeslag"
       ],
-      "correctIndex": 2,
-      "explanation": "In de bebouwde kom geldt 30 of 50 km/u, buiten de bebouwde kom 60 of 80 km/u, en op snelwegen 100 km/u (overdag, 06:00-19:00) of 120-130 km/u (afhankelijk van het traject, 's nachts vaak hoger). Borden geven de lokale maximumsnelheid aan.",
-      "explanationEn": "Within built-up areas the limit is 30 or 50 km/h, outside built-up areas 60 or 80 km/h, and on highways 100 km/h (daytime, 6AM-7PM) or 120-130 km/h (depending on the stretch, often higher at night). Signs indicate the local speed limit."
+      "correctIndex": 1,
+      "explanation": "Een aanvullende zorgverzekering biedt dekking voor zorg die niet in het basispakket zit, zoals fysiotherapie, tandheelkunde en alternatieve geneeswijzen.",
+      "explanationEn": "Supplementary health insurance provides coverage for care not included in the basic package, such as physiotherapy, dentistry, and alternative medicine."
     },
     {
       "id": "knm-b1-4-q28",
-      "text": "Wat is een parkeervergunning en wanneer heeft u er een nodig?",
+      "text": "Lars heeft een woning gehuurd maar de verhuurder heeft nog niet zijn borg terugbetaald, 3 maanden na vertrek. Hoelang mag een verhuurder wachten met het terugbetalen van de borg?",
       "options": [
-        "Een bewijs dat u een rijbewijs heeft",
-        "Een vergunning van de gemeente die u het recht geeft om in bepaalde gebieden te parkeren waar betaald parkeren of vergunningparkeren geldt",
-        "Een bewijs dat uw auto is verzekerd",
-        "Een document dat u nodig heeft om een garage te huren"
+        "Pas na een jaar",
+        "Onbeperkt",
+        "De verhuurder moet de borg binnen een redelijke termijn (in de praktijk: een tot twee maanden) terugbetalen na het einde van de huur"
       ],
-      "correctIndex": 1,
-      "explanation": "In veel gemeenten, vooral in stadscentra, geldt vergunningparkeren. U heeft dan een parkeervergunning nodig van de gemeente om in uw straat of wijk te parkeren. De kosten en beschikbaarheid verschillen per gemeente. Zonder vergunning riskeert u een boete of wordt uw auto weggesleept.",
-      "explanationEn": "In many municipalities, especially city centers, permit parking applies. You need a parking permit from the municipality to park in your street or neighborhood. Costs and availability vary by municipality. Without a permit, you risk a fine or having your car towed."
+      "correctIndex": 2,
+      "explanation": "De verhuurder moet de borg terugbetalen binnen een redelijke termijn na het einde van de huurovereenkomst, tenzij er gegronde redenen zijn om (een deel van) de borg in te houden.",
+      "explanationEn": "The landlord must return the deposit within a reasonable period after the end of the rental agreement, unless there are valid reasons to retain (part of) the deposit."
     },
     {
       "id": "knm-b1-4-q29",
-      "text": "Wat is het CBR?",
+      "text": "Sofia heeft een klacht over haar woningcorporatie. De corporatie heeft haar klacht niet goed behandeld. Bij welke instantie kan ze haar klacht escaleren?",
       "options": [
-        "Het Centraal Bureau Rijvaardigheidsbewijzen, dat rijexamens afneemt en rijbewijzen uitgeeft",
-        "Een politiedienst die verkeersboetes uitschrijft",
-        "Een reparatiebedrijf voor auto's",
-        "Een cursusinstituut voor autorijlessen"
+        "Bij de Huurcommissie of de klachtencommissie van de woningcorporatie",
+        "Bij de Belastingdienst",
+        "Bij het UWV"
       ],
       "correctIndex": 0,
-      "explanation": "Het CBR (Centraal Bureau Rijvaardigheidsbewijzen) is een zelfstandig bestuursorgaan dat verantwoordelijk is voor het afnemen van theorie- en praktijkexamens voor het rijbewijs, het afgeven van rijbewijzen en het beoordelen van de rijvaardigheid.",
-      "explanationEn": "The CBR (Central Office for Driving Licenses) is an independent administrative body responsible for administering theory and practical driving exams, issuing driver's licenses, and assessing driving competence."
+      "explanation": "Bij een klacht over een woningcorporatie kun je eerst naar de interne klachtencommissie van de corporatie. Daarna kan de Huurcommissie worden ingeschakeld.",
+      "explanationEn": "For a complaint about a housing corporation, you can first go to the corporation's internal complaints committee. After that, the Rent Tribunal can be engaged."
     },
     {
       "id": "knm-b1-4-q30",
-      "text": "Welke vervoersmiddelen vallen onder het openbaar vervoer in Nederland?",
+      "text": "Thomas woont in een flat en zijn buren maken veel lawaai 's nachts. Hij wil een klacht indienen. Wat is de eerste stap?",
       "options": [
-        "Alleen treinen",
-        "Treinen, bussen, trams, metro's en veerboten die volgens een vaste dienstregeling rijden",
-        "Alleen bussen en trams",
-        "Taxi's en huurauto's"
+        "Eerst proberen er zelf met de buur uit te komen, daarna de verhuurder of huismeester informeren",
+        "Direct de politie bellen",
+        "Direct naar de rechter"
       ],
-      "correctIndex": 1,
-      "explanation": "Het openbaar vervoer (OV) in Nederland omvat treinen (NS en regionale vervoerders), bussen, trams, metro's en sommige veerboten. Deze rijden volgens een vaste dienstregeling. De OV-chipkaart is het betaalmiddel voor bijna al het openbaar vervoer in Nederland.",
-      "explanationEn": "Public transport (OV) in the Netherlands includes trains (NS and regional operators), buses, trams, metros, and some ferries. These run according to a fixed schedule. The OV-chipkaart is the payment method for nearly all public transport in the Netherlands."
+      "correctIndex": 0,
+      "explanation": "Bij overlastklachten is het eerst aangeraden om het gesprek aan te gaan met de buur. Als dat niet helpt, informeer je de verhuurder of huismeester, die kan bemiddelen.",
+      "explanationEn": "For nuisance complaints, it is first recommended to talk to the neighbor. If that doesn't help, inform the landlord or building manager, who can mediate."
     },
     {
       "id": "knm-b1-4-q31",
-      "text": "Wat is DigiD en waarvoor wordt het gebruikt?",
+      "text": "Kim overweegt een huurwoning te kopen via het 'Koopgarant' systeem van de woningcorporatie. Ze vraagt wat dit inhoudt. Wat is Koopgarant?",
       "options": [
-        "Een app om online te winkelen",
-        "Een digitale identiteit waarmee u zich kunt identificeren bij overheidsinstellingen en andere organisaties voor online diensten",
-        "Een type bankrekening",
-        "Een social media account van de Nederlandse overheid"
+        "Een hypotheek met lage rente",
+        "Een huursubsidie",
+        "Een regeling waarbij je een woning van de corporatie koopt met korting, maar de corporatie terugkooprecht heeft"
       ],
-      "correctIndex": 1,
-      "explanation": "DigiD is uw digitale identiteit bij de Nederlandse overheid. Hiermee logt u in bij onder andere de Belastingdienst, het UWV, uw gemeente, DUO, het CAK en uw zorgverzekeraar. U kunt DigiD beveiligen met sms-verificatie of de DigiD-app voor een hoger betrouwbaarheidsniveau.",
-      "explanationEn": "DigiD is your digital identity with the Dutch government. You use it to log in at the Tax Authority, UWV, your municipality, DUO, CAK, and your health insurer, among others. You can secure DigiD with SMS verification or the DigiD app for a higher level of assurance."
+      "correctIndex": 2,
+      "explanation": "Koopgarant is een constructie waarbij je een woning met korting koopt van een woningcorporatie. De corporatie heeft het recht de woning terug te kopen bij verkoop.",
+      "explanationEn": "Koopgarant is an arrangement where you buy a home at a discount from a housing corporation. The corporation has the right to buy the property back upon sale."
     },
     {
       "id": "knm-b1-4-q32",
-      "text": "Wat is MijnOverheid.nl en wat kunt u daar doen?",
+      "text": "Mark wil weten of hij een huurcontract voor onbepaalde tijd kan opzeggen. Zijn verhuurder zegt dat opzegging alleen met een geldige reden mag. Klopt dit?",
       "options": [
-        "Een webshop van de overheid",
-        "Een persoonlijke website waar u officiële berichten van de overheid ontvangt, uw persoonlijke gegevens kunt inzien en lopende zaken kunt volgen",
-        "Een website om verkiezingsuitslagen te bekijken",
-        "Een forum waar u klachten kunt indienen over de overheid"
+        "Nee, voor een verhuurder gelden strikte regels. Hij mag alleen opzeggen op basis van de in de wet genoemde gronden",
+        "Ja, een verhuurder kan altijd opzeggen",
+        "Een huurcontract voor onbepaalde tijd kan nooit worden opgezegd"
       ],
-      "correctIndex": 1,
-      "explanation": "MijnOverheid.nl is uw persoonlijke pagina bij de overheid. U kunt er uw Berichtenbox raadplegen (officiële post van overheidsorganisaties), uw persoonlijke gegevens bekijken die bij de overheid bekend zijn, en lopende zaken bij overheidsorganisaties volgen. U logt in met DigiD.",
-      "explanationEn": "MijnOverheid.nl is your personal government page. You can check your Berichtenbox (official correspondence from government organizations), view your personal data held by the government, and track ongoing matters with government organizations. You log in with DigiD."
+      "correctIndex": 0,
+      "explanation": "Een verhuurder kan een huurcontract voor onbepaalde tijd alleen opzeggen op wettelijke gronden, zoals dringend eigen gebruik of ernstige overlast.",
+      "explanationEn": "A landlord can only terminate an open-ended rental contract on statutory grounds, such as urgent own use or serious nuisance."
     },
     {
       "id": "knm-b1-4-q33",
-      "text": "Wat is de Berichtenbox?",
+      "text": "Dina wil haar servicekosten laten controleren. Ze vermoedt dat haar verhuurder te veel berekent. Wat kan ze doen?",
       "options": [
-        "Een fysieke postbus bij het gemeentehuis",
-        "Een digitale postbus op MijnOverheid.nl waar overheidsorganisaties u officiële berichten sturen",
-        "Een app voor het versturen van berichten aan vrienden",
-        "Een archief van alle wetten in Nederland"
+        "Ze kan de Huurcommissie vragen de servicekosten te beoordelen op redelijkheid",
+        "Ze kan de verhuurder aanklagen bij de politie",
+        "Ze moet het bedrag altijd accepteren"
       ],
-      "correctIndex": 1,
-      "explanation": "De Berichtenbox is een digitale postbus op MijnOverheid.nl. Overheidsorganisaties zoals de Belastingdienst, het UWV en gemeenten sturen hier officiële berichten naartoe. Als u de Berichtenbox activeert, ontvangt u steeds minder post op papier. Het is belangrijk om uw Berichtenbox regelmatig te controleren.",
-      "explanationEn": "The Berichtenbox is a digital mailbox on MijnOverheid.nl. Government organizations like the Tax Authority, UWV, and municipalities send official messages here. If you activate the Berichtenbox, you receive less paper mail. It's important to check your Berichtenbox regularly."
+      "correctIndex": 0,
+      "explanation": "De Huurcommissie kan toetsen of servicekosten redelijk zijn. Als de kosten te hoog zijn, kan de Huurcommissie een lagere bijdrage opleggen.",
+      "explanationEn": "The Rent Tribunal can assess whether service costs are reasonable. If the costs are too high, the Rent Tribunal can impose a lower contribution."
     },
     {
       "id": "knm-b1-4-q34",
-      "text": "Wat is een BSN (burgerservicenummer)?",
+      "text": "Hana wil haar huurcontract voor bepaalde tijd na het aflopen omzetten in een vast contract. Wat is de situatie in Nederland?",
       "options": [
-        "Een bankrekeningnummer",
-        "Een uniek persoonsnummer dat iedereen die in Nederland woont of werkt krijgt en dat wordt gebruikt voor contact met de overheid",
-        "Een nummer van uw zorgverzekering",
-        "Een telefoonnummer van de gemeente"
+        "De huurder moet altijd opnieuw onderhandelen",
+        "Een huurder heeft bij tijdelijke contracten van 2 jaar (zelfstandig) of 5 jaar (onzelfstandig) na afloop recht op een contract voor onbepaalde tijd als de verhuurder het niet opzegt",
+        "Tijdelijke huurcontracten eindigen altijd en worden nooit vast"
       ],
       "correctIndex": 1,
-      "explanation": "Het BSN (burgerservicenummer) is een uniek persoonsnummer dat u krijgt bij inschrijving in de Basisregistratie Personen (BRP). Het BSN staat op uw identiteitsbewijs en wordt gebruikt voor alle contacten met de overheid, belastingen, zorg en werk. Organisaties mogen uw BSN alleen gebruiken als de wet dat toestaat.",
-      "explanationEn": "The BSN (citizen service number) is a unique personal number assigned when you register in the Personal Records Database (BRP). The BSN is on your ID and is used for all contacts with the government, taxes, healthcare, and work. Organizations may only use your BSN if the law permits it."
+      "explanation": "Tijdelijke huurcontracten van 2 jaar (voor zelfstandige woningen) gaan automatisch over in een huurcontract voor onbepaalde tijd als de verhuurder niet tijdig opzegt.",
+      "explanationEn": "Temporary rental contracts of 2 years (for independent homes) automatically convert to an open-ended contract if the landlord does not terminate in time."
     },
     {
       "id": "knm-b1-4-q35",
-      "text": "Wat is de BRP (Basisregistratie Personen)?",
+      "text": "Leo heeft een kapotte cv-ketel in zijn huurhuis. Het is midden in de winter en zijn verhuurder reageert pas na een week. Wat zijn Leo's rechten?",
       "options": [
-        "Een register van alle bedrijven in Nederland",
-        "Een gemeentelijke registratie van alle personen die in Nederland wonen, met gegevens zoals naam, adres, geboortedatum en nationaliteit",
-        "Een database van alle rijbewijshouders",
-        "Een register van alle woningen in Nederland"
+        "Bij een spoedreparatie heeft de huurder het recht om zelf actie te ondernemen en de kosten te verhalen op de verhuurder als die niet reageert",
+        "Leo moet zelf een nieuwe ketel kopen",
+        "Leo moet wachten totdat de verhuurder beschikbaar is"
       ],
-      "correctIndex": 1,
-      "explanation": "De BRP (Basisregistratie Personen) is de gemeentelijke persoonsregistratie. Iedereen die in Nederland woont, moet zich inschrijven bij de gemeente. De BRP bevat gegevens zoals naam, adres, geboortedatum, nationaliteit en burgerlijke staat. Wijzigingen (verhuizing, huwelijk) moet u doorgeven aan de gemeente.",
-      "explanationEn": "The BRP (Personal Records Database) is the municipal personal registration system. Everyone living in the Netherlands must register with the municipality. The BRP contains data such as name, address, date of birth, nationality, and marital status. Changes (moving, marriage) must be reported to the municipality."
+      "correctIndex": 0,
+      "explanation": "Bij een urgent gebrek (zoals kapotte verwarming in de winter) mag een huurder zelf voor herstel zorgen als de verhuurder niet reageert. De kosten kunnen worden verhaald.",
+      "explanationEn": "For an urgent defect (such as broken heating in winter), a tenant may arrange repairs themselves if the landlord does not respond. The costs can be recovered."
     },
     {
       "id": "knm-b1-4-q36",
-      "text": "Wat moet u doen als u verhuist binnen Nederland?",
+      "text": "Maria overweegt te verhuizen naar een sociale huurwoning maar twijfelt of ze in aanmerking komt. Wat is het inkomensgrenssysteem voor sociale huurwoningen?",
       "options": [
-        "U hoeft niets te doen, de overheid weet het automatisch",
-        "U moet zich binnen 5 dagen na de verhuizing inschrijven bij uw nieuwe gemeente",
-        "U moet een brief schrijven naar de minister-president",
-        "U moet een nieuwe DigiD aanvragen"
+        "Iedereen kan een sociale huurwoning krijgen",
+        "Sociale huurwoningen zijn in principe bedoeld voor huishoudens met een inkomen onder de inkomensgrens (de zogenaamde toewijzingsgrens)",
+        "Alleen mensen met een bijstandsuitkering komen in aanmerking"
       ],
       "correctIndex": 1,
-      "explanation": "Bij een verhuizing binnen Nederland moet u zich binnen 5 dagen inschrijven bij uw nieuwe gemeente. Dit kan vaak online via DigiD of aan de balie van het gemeentehuis. Uw adresgegevens in de BRP worden dan bijgewerkt. Dit is wettelijk verplicht.",
-      "explanationEn": "When moving within the Netherlands, you must register with your new municipality within 5 days. This can often be done online via DigiD or at the municipal office counter. Your address in the BRP will then be updated. This is legally required."
+      "explanation": "Sociale huurwoningen worden in principe toegewezen aan huishoudens met een inkomen onder de inkomensgrens. Hogere inkomens komen in aanmerking voor vrije sector woningen.",
+      "explanationEn": "Social rental homes are in principle allocated to households with an income below the income limit. Higher incomes qualify for free market sector homes."
     },
     {
       "id": "knm-b1-4-q37",
-      "text": "Welke betrouwbaarheidsniveaus heeft DigiD?",
+      "text": "Nina heeft een goede baan en woont in een sociale huurwoning. Ze hoort dat ze te veel verdient. Kan de woningcorporatie haar vragen te vertrekken?",
       "options": [
-        "Er is maar één niveau",
-        "Basis (gebruikersnaam + wachtwoord), Midden (met sms-verificatie of DigiD-app) en Substantieel/Hoog (met identiteitsbewijs via de DigiD-app)",
-        "Gratis en betaald",
-        "Online en offline"
+        "Alleen als ze al 10 jaar in de woning woont",
+        "Nee, huurbescherming geldt altijd",
+        "Ja, als je inkomen de inkomensgrens structureel overschrijdt, kan de corporatie een hogere huur vragen (inkomensafhankelijke huurverhoging)"
       ],
-      "correctIndex": 1,
-      "explanation": "DigiD heeft meerdere betrouwbaarheidsniveaus: Basis (gebruikersnaam + wachtwoord), Midden (met sms-verificatie of de DigiD-app), en Substantieel/Hoog (met uw identiteitsbewijs via de NFC-chip en de DigiD-app). Sommige diensten vereisen een hoger betrouwbaarheidsniveau.",
-      "explanationEn": "DigiD has multiple assurance levels: Basic (username + password), Medium (with SMS verification or the DigiD app), and Substantial/High (with your ID via the NFC chip and the DigiD app). Some services require a higher assurance level."
+      "correctIndex": 2,
+      "explanation": "Mensen die te veel verdienen voor sociale huur kunnen een inkomensafhankelijke huurverhoging opgelegd krijgen om hen te stimuleren door te stromen naar de vrije sector.",
+      "explanationEn": "People who earn too much for social housing can be given an income-based rent increase to encourage them to move to the free market sector."
     },
     {
       "id": "knm-b1-4-q38",
-      "text": "Wat is een eHerkenning?",
+      "text": "Joris koopt een huis. De makelaar vraagt om een waarborgsom of bankgarantie te betalen na het tekenen van het koopcontract. Wat is het doel hiervan?",
       "options": [
-        "Een social media account voor bedrijven",
-        "Een digitaal inlogmiddel waarmee ondernemers en organisaties zich kunnen identificeren bij overheidsdiensten, vergelijkbaar met DigiD maar dan voor bedrijven",
-        "Een elektronische handtekening voor privépersonen",
-        "Een beveiligingscamera voor kantoren"
+        "Dit is de vergoeding voor de makelaar",
+        "Dit is de aanbetaling op de koopprijs",
+        "Dit is een zekerheid voor de verkoper dat de koper de koop ook echt doorzet (doorgaans 10% van de koopprijs)"
       ],
-      "correctIndex": 1,
-      "explanation": "eHerkenning is het digitale inlogmiddel voor bedrijven en organisaties bij de overheid. Net als DigiD voor burgers, biedt eHerkenning een veilige manier om in te loggen bij overheidsdiensten. eHerkenning wordt verstrekt door commerciële leveranciers en kent verschillende betrouwbaarheidsniveaus.",
-      "explanationEn": "eHerkenning is the digital login tool for businesses and organizations with the government. Like DigiD for citizens, eHerkenning provides a secure way to log in to government services. eHerkenning is provided by commercial suppliers and has different assurance levels."
+      "correctIndex": 2,
+      "explanation": "De waarborgsom (10% van de koopprijs) of een bankgarantie dient als zekerheid voor de verkoper. Als de koper afziet, kan de waarborgsom worden verbeurd.",
+      "explanationEn": "The deposit (10% of the purchase price) or bank guarantee serves as security for the seller. If the buyer withdraws, the deposit may be forfeited."
     },
     {
       "id": "knm-b1-4-q39",
-      "text": "Wat is het Digitaal Loket van de gemeente?",
+      "text": "Elly is starter op de woningmarkt en wil een eerste huis kopen. Ze hoort over de vrijstelling overdrachtsbelasting. Wat houdt dit in?",
       "options": [
-        "Een fysiek loket in het gemeentehuis",
-        "Een online portaal waar inwoners gemeentelijke zaken kunnen regelen, zoals het aanvragen van documenten, het doorgeven van een verhuizing of het indienen van een vergunningaanvraag",
-        "Een app voor het betalen van parkeerboetes",
-        "Een website met het laatste nieuws uit de gemeente"
+        "Starters onder de 35 jaar die een woning kopen voor eigen bewoning onder een bepaalde grens zijn vrijgesteld van overdrachtsbelasting",
+        "Starters betalen nooit belasting over een huis",
+        "Overdrachtsbelasting bestaat niet in Nederland"
       ],
-      "correctIndex": 1,
-      "explanation": "Het Digitaal Loket is een online portaal van de gemeente waar inwoners veel zaken kunnen regelen zonder naar het gemeentehuis te hoeven gaan. U kunt er onder andere documenten aanvragen, verhuizingen doorgeven en vergunningen aanvragen. U logt in met DigiD.",
-      "explanationEn": "The Digital Counter is an online portal of the municipality where residents can arrange many matters without visiting the town hall. You can request documents, report moves, and apply for permits, among other things. You log in with DigiD."
+      "correctIndex": 0,
+      "explanation": "Kopers jonger dan 35 jaar die een woning kopen voor eigen bewoning zijn onder bepaalde voorwaarden vrijgesteld van overdrachtsbelasting (2% startersvoordeel).",
+      "explanationEn": "Buyers under 35 who buy a home for own occupation are exempt from transfer tax under certain conditions (2% starter advantage)."
     },
     {
       "id": "knm-b1-4-q40",
-      "text": "Wat is het Handelsregister van de Kamer van Koophandel (KVK)?",
+      "text": "Paul wil een huurwoning. Hij zoekt via Funda maar ziet ook dat er urgentiesystemen zijn bij woningcorporaties. Wat is het verschil tussen de vrije markt en een woningcorporatie?",
       "options": [
-        "Een register van alle werknemers in Nederland",
-        "Een register waarin alle ondernemingen en rechtspersonen in Nederland zijn ingeschreven met hun gegevens",
-        "Een lijst van alle producten die in Nederland worden verkocht",
-        "Een register van alle belastingbetalers"
+        "Woningcorporaties verhuren alleen koopwoningen",
+        "Er is geen verschil",
+        "Woningcorporaties verhuren sociale huurwoningen (onder de huurliberalisatiegrens) aan mensen met een inkomen onder de toewijzingsgrens. De vrije markt heeft geen inkomenseisen"
       ],
-      "correctIndex": 1,
-      "explanation": "Het Handelsregister van de KVK (Kamer van Koophandel) is de basisregistratie van alle ondernemingen en rechtspersonen in Nederland. Bij het starten van een bedrijf moet u zich inschrijven bij de KVK. Het register bevat gegevens zoals bedrijfsnaam, adres, activiteiten en bestuurders.",
-      "explanationEn": "The Trade Register of the KVK (Chamber of Commerce) is the basic registration of all businesses and legal entities in the Netherlands. When starting a business, you must register with the KVK. The register contains data such as business name, address, activities, and directors."
+      "correctIndex": 2,
+      "explanation": "Woningcorporaties zijn non-profitorganisaties die sociale huurwoningen verhuren aan mensen met een laag of middeninkomen. De vrije markt kent geen inkomensbegrenzingen.",
+      "explanationEn": "Housing corporations are non-profit organizations that rent social housing to people with low or medium incomes. The free market has no income restrictions."
     },
     {
       "id": "knm-b1-4-q41",
-      "text": "Wat is de ACM (Autoriteit Consument & Markt)?",
+      "text": "Tamara heeft een huurcontract voor onbepaalde tijd. De verhuurder wil haar eruit zetten voor renovatie. Wat zijn haar rechten?",
       "options": [
-        "Een winkelketen",
-        "De onafhankelijke toezichthouder die toeziet op eerlijke concurrentie, consumentenbescherming en regulering van sectoren zoals telecom en energie",
-        "Een adviesorgaan voor de Tweede Kamer",
-        "Een verzekeringsmaatschappij"
+        "Renovatie is nooit een reden voor ontruiming",
+        "Ze moet direct vertrekken",
+        "De verhuurder moet haar een passende vervangende woning aanbieden of een vergoeding betalen"
       ],
-      "correctIndex": 1,
-      "explanation": "De ACM (Autoriteit Consument & Markt) is de onafhankelijke toezichthouder die toeziet op eerlijke mededinging, consumentenbescherming en regulering van sectoren zoals energie, telecom en vervoer. De ACM kan boetes opleggen bij overtredingen en beschermt consumenten tegen misleidende praktijken.",
-      "explanationEn": "The ACM (Authority for Consumers and Markets) is the independent supervisor overseeing fair competition, consumer protection, and regulation of sectors like energy, telecom, and transport. The ACM can impose fines for violations and protects consumers against misleading practices."
+      "correctIndex": 2,
+      "explanation": "Als een verhuurder opzegt wegens renovatie, moet hij een vervangende woning aanbieden of een vergoeding betalen. De huurder heeft recht op huurbescherming.",
+      "explanationEn": "If a landlord terminates due to renovation, they must offer a replacement home or pay compensation. The tenant has the right to tenancy protection."
     },
     {
       "id": "knm-b1-4-q42",
-      "text": "Wat is de bedenktijd bij online aankopen in Nederland?",
+      "text": "Lars wil zijn maandelijkse huur verlagen. Hij denkt dat zijn huur te hoog is voor zijn type woning. Wat kan hij doen om de huur te laten toetsen?",
       "options": [
-        "Er is geen bedenktijd",
-        "U heeft 14 dagen bedenktijd waarin u het product zonder reden kunt terugsturen en uw geld terugkrijgt",
-        "U heeft 30 dagen bedenktijd",
-        "Bedenktijd geldt alleen voor aankopen boven €500"
+        "De woning verlaten",
+        "Een huurprijscheck uitvoeren via de Huurcommissie om te controleren of de huur past bij de puntentelling van de woning",
+        "Gewoon minder betalen"
       ],
       "correctIndex": 1,
-      "explanation": "Bij online aankopen (koop op afstand) heeft u in Nederland 14 dagen bedenktijd, ook wel herroepingsrecht genoemd. U kunt het product zonder opgaaf van reden terugsturen en krijgt uw geld terug. De termijn gaat in op de dag dat u het product ontvangt. Er zijn uitzonderingen, zoals gepersonaliseerde producten.",
-      "explanationEn": "For online purchases (distance selling), you have 14 days cooling-off period in the Netherlands, also called the right of withdrawal. You can return the product without giving a reason and get your money back. The period starts the day you receive the product. There are exceptions, such as personalized products."
+      "explanation": "Via het woningwaarderingsstelsel (puntensysteem) wordt de maximale huurprijs van een sociale huurwoning bepaald. De Huurcommissie kan toetsen of de huur klopt.",
+      "explanationEn": "Through the housing valuation system (points system), the maximum rent for a social rental home is determined. The Rent Tribunal can check whether the rent is correct."
     },
     {
       "id": "knm-b1-4-q43",
-      "text": "Wat is wettelijke garantie in Nederland?",
+      "text": "Sara heeft een energielabel D voor haar huurwoning. De verhuurder heeft geen plannen om het huis te isoleren. Ze vraagt of ze een lagere huur kan eisen vanwege het slechte energielabel. Wat is er wettelijk geregeld?",
       "options": [
-        "Een garantie van 1 jaar op alle producten",
-        "Het recht dat een product moet voldoen aan de verwachtingen die u ervan mag hebben; er is geen vaste termijn, maar het product moet deugdelijk zijn voor de te verwachten levensduur",
-        "Een garantie van exact 2 jaar, zoals in de EU-richtlijn staat",
-        "Garantie geldt alleen als u een garantiebewijs heeft"
+        "Het energielabel speelt geen rol bij de huurprijs",
+        "De huurder moet zelf zorgen voor een beter energielabel",
+        "Het energielabel is onderdeel van het woningwaarderingsstelsel. Een slechter label kan leiden tot minder punten en daarmee een lagere maximale huurprijs"
       ],
-      "correctIndex": 1,
-      "explanation": "In Nederland geldt de wettelijke garantie: een product moet aan redelijke verwachtingen voldoen (conformiteitseis). Er is geen vaste termijn; de verwachte levensduur verschilt per product. Een wasmachine moet langer meegaan dan een goedkope paraplu. Naast de wettelijke garantie kan een verkoper extra fabrieksgarantie geven.",
-      "explanationEn": "In the Netherlands, legal warranty applies: a product must meet reasonable expectations (conformity requirement). There is no fixed term; the expected lifespan differs per product. A washing machine should last longer than a cheap umbrella. Besides legal warranty, a seller may offer additional manufacturer's warranty."
+      "correctIndex": 2,
+      "explanation": "Het energielabel telt mee in het woningwaarderingsstelsel. Woningen met een slechter energielabel scoren minder punten, wat kan leiden tot een lagere maximale huurprijs.",
+      "explanationEn": "The energy label counts in the housing valuation system. Homes with a worse energy label score fewer points, which can lead to a lower maximum rent."
     },
     {
       "id": "knm-b1-4-q44",
-      "text": "Wat is een geschillencommissie?",
+      "text": "Hans gaat samenwonen met zijn vriendin in zijn huurwoning. Hij wil haar op het huurcontract laten zetten. Heeft hij daarvoor toestemming nodig?",
       "options": [
-        "Een afdeling van de politie",
-        "Een onafhankelijke commissie die klachten en geschillen behandelt tussen consumenten en bedrijven, als alternatief voor de rechter",
-        "Een commissie van de Tweede Kamer",
-        "Een advocatenkantoor dat gratis juridisch advies geeft"
+        "Ja, voor medehuurderschap heeft de huurder toestemming nodig van de verhuurder",
+        "Zijn vriendin staat automatisch op het contract",
+        "Nee, hij mag iedereen in laten trekken"
       ],
-      "correctIndex": 1,
-      "explanation": "De Geschillencommissie behandelt klachten tussen consumenten en bedrijven die bij de commissie zijn aangesloten. Het is een laagdrempelig en goedkoper alternatief voor de rechter. De uitspraak van de Geschillencommissie is bindend. Er zijn commissies voor verschillende sectoren.",
-      "explanationEn": "The Disputes Committee handles complaints between consumers and companies that are affiliated with the committee. It is an accessible and cheaper alternative to going to court. The ruling is binding. There are committees for different sectors."
+      "correctIndex": 0,
+      "explanation": "Voor medehuurderschap moet de huurder toestemming vragen aan de verhuurder. De verhuurder kan dit weigeren als er redenen zijn.",
+      "explanationEn": "For joint tenancy, the tenant must request permission from the landlord. The landlord can refuse this if there are reasons."
     },
     {
       "id": "knm-b1-4-q45",
-      "text": "Wat kunt u doen als u een klacht heeft over een product of dienst?",
+      "text": "Maria wil een hypotheek afsluiten voor haar eerste huis. De adviseur noemt de nationale hypotheekgarantie (NHG). Wat is het voordeel van NHG?",
       "options": [
-        "U kunt niets doen, de verkoper heeft altijd gelijk",
-        "Eerst de klacht indienen bij het bedrijf, daarna eventueel bij een geschillencommissie, het Juridisch Loket of de rechter",
-        "Alleen de politie bellen",
-        "Direct naar de rechter gaan"
+        "Met NHG krijg je een lagere rente en is de hypotheek gegarandeerd als je in financiële problemen komt door onvrijwillige werkloosheid of scheiding",
+        "NHG is verplicht voor alle hypotheken",
+        "De overheid betaalt je hypotheek bij ontslag"
       ],
-      "correctIndex": 1,
-      "explanation": "Bij een klacht gaat u eerst naar het bedrijf zelf. Als dat niet helpt, kunt u terecht bij een geschillencommissie (als het bedrijf is aangesloten), het Juridisch Loket (voor gratis juridisch advies), de ACM (bij misleiding), of uiteindelijk de kantonrechter.",
-      "explanationEn": "For a complaint, first contact the company itself. If that doesn't help, you can go to a disputes committee (if the company is affiliated), the Legal Services Counter (for free legal advice), the ACM (for misleading practices), or ultimately the subdistrict court."
+      "correctIndex": 0,
+      "explanation": "Met een NHG-hypotheek profiteer je van een lagere rente. Als je door onvrijwillig inkomensverlies de hypotheek niet meer kunt betalen, kan NHG het resterende schuld kwijtschelden.",
+      "explanationEn": "With an NHG mortgage, you benefit from a lower interest rate. If you can no longer pay the mortgage due to involuntary income loss, NHG can write off the remaining debt."
     },
     {
       "id": "knm-b1-4-q46",
-      "text": "Wat is het Juridisch Loket?",
+      "text": "Erik heeft een appartement gekocht. Hij wil weten welke maandelijkse kosten hij heeft naast de hypotheek. Zijn makelaar noemt de VvE-bijdrage. Wat is dit?",
       "options": [
-        "Een advocatenkantoor",
-        "Een organisatie die gratis juridisch advies geeft aan mensen met een laag inkomen en hen doorverwijst naar de juiste instantie",
-        "Een rechtbank voor kleine zaken",
-        "Een website waar u juridische documenten kunt kopen"
+        "Een belasting aan de gemeente",
+        "Een verzekeringspremie",
+        "Een maandelijkse bijdrage voor het beheer en onderhoud van het gemeenschappelijk deel van het gebouw"
       ],
-      "correctIndex": 1,
-      "explanation": "Het Juridisch Loket is een organisatie die gratis eerstelijns juridische hulp biedt. U kunt er terecht voor informatie en advies over juridische problemen, zoals huur-, arbeids- of consumentenrecht. Het Juridisch Loket kan u ook doorverwijzen naar een advocaat of mediator.",
-      "explanationEn": "The Legal Services Counter (Juridisch Loket) is an organization that provides free first-line legal assistance. You can get information and advice on legal problems such as rental, labor, or consumer law. They can also refer you to a lawyer or mediator."
+      "correctIndex": 2,
+      "explanation": "Als lid van de VvE (Vereniging van Eigenaren) betaal je maandelijks een bijdrage voor het onderhoud van het gemeenschappelijk gedeelte van het gebouw.",
+      "explanationEn": "As a member of the VvE (Association of Owners), you pay a monthly contribution for the maintenance of the communal part of the building."
     },
     {
       "id": "knm-b1-4-q47",
-      "text": "Wat houdt productaansprakelijkheid in Nederland in?",
+      "text": "Yuki gaat een huurwoning bekijken. Ze heeft gehoord dat verhuurders soms illegale huurprijzen vragen voor kamers. Hoe heet het systeem dat de maximale huurprijs bepaalt?",
       "options": [
-        "De consument is altijd verantwoordelijk voor schade door een product",
-        "De producent is aansprakelijk voor schade veroorzaakt door een gebrekkig product, ongeacht of er een koopovereenkomst is met de consument",
-        "Alleen de winkel waar u het product kocht is aansprakelijk",
-        "Productaansprakelijkheid bestaat niet in Nederlands recht"
+        "De marktprijsmethode",
+        "De huurindexering",
+        "Het woningwaarderingsstelsel (WWS), ook wel het puntensysteem"
       ],
-      "correctIndex": 1,
-      "explanation": "Op grond van de wet productaansprakelijkheid is de producent (fabrikant) aansprakelijk voor schade die wordt veroorzaakt door een gebrekkig product. Dit geldt ongeacht of de consument het product direct van de producent heeft gekocht. De consument moet bewijzen dat het product gebrekkig was en dat dit de schade heeft veroorzaakt.",
-      "explanationEn": "Under product liability law, the producer (manufacturer) is liable for damage caused by a defective product. This applies regardless of whether the consumer purchased the product directly from the producer. The consumer must prove that the product was defective and that this caused the damage."
+      "correctIndex": 2,
+      "explanation": "Het woningwaarderingsstelsel (WWS) bepaalt via punten de maximale huurprijs van sociale huurwoningen. Kamer, oppervlakte, voorzieningen en energielabel tellen mee.",
+      "explanationEn": "The housing valuation system (WWS) determines the maximum rent of social rental homes through points. Room, surface area, facilities, and energy label all count."
     },
     {
       "id": "knm-b1-4-q48",
-      "text": "Wat is het recht op conformiteit bij een aankoop?",
+      "text": "Nadia werkt bij een bedrijf en hoort dat haar werkgever een huurwoning als arbeidsvoorwaarde aanbiedt. Ze verliest haar baan. Mag ze in de woning blijven?",
       "options": [
-        "Het recht om altijd het goedkoopste product te kiezen",
-        "Het recht dat het gekochte product moet zijn wat u ervan mag verwachten: het moet overeenkomen met de beschrijving, geschikt zijn voor normaal gebruik, en de kwaliteit hebben die u mag verwachten",
-        "Het recht om elk product binnen 30 dagen terug te brengen",
-        "Het recht om korting te krijgen op elk product"
+        "Ja, ze heeft altijd huurbescherming",
+        "De woning wordt automatisch haar eigendom",
+        "Nee, als de woning direct aan het dienstverband is gekoppeld, kan ze bij ontslag ook de woning verliezen"
       ],
-      "correctIndex": 1,
-      "explanation": "Het conformiteitsbeginsel houdt in dat een product moet voldoen aan de verwachtingen van de koper. Het product moet overeenkomen met de beschrijving, geschikt zijn voor normaal gebruik, en de kwaliteit en prestaties bieden die u mag verwachten. Als het product niet conform is, kunt u reparatie, vervanging of uw geld terug eisen.",
-      "explanationEn": "The conformity principle means a product must meet the buyer's reasonable expectations. The product must match the description, be suitable for normal use, and provide the quality and performance you can reasonably expect. If the product is not conforming, you can demand repair, replacement, or a refund."
+      "correctIndex": 2,
+      "explanation": "Dienstwoningen zijn direct gekoppeld aan het dienstverband. Als het dienstverband eindigt, eindigt in de meeste gevallen ook het recht op de dienstwoning.",
+      "explanationEn": "Tied accommodations are directly linked to employment. When employment ends, the right to the tied accommodation usually ends as well."
     },
     {
       "id": "knm-b1-4-q49",
-      "text": "Wat is de Consumentenbond?",
+      "text": "Joris heeft net een huis gekocht. Zijn buurman vertelt hem over het recht van erfdienstbaarheid op zijn perceel. Wat is dit?",
       "options": [
-        "Een overheidsinstelling die producten test",
-        "Een onafhankelijke consumentenorganisatie die producten test, vergelijkt en opkomt voor de belangen van consumenten",
-        "Een winkelketen die goedkope producten verkoopt",
-        "Een vakbond voor winkelmedewerkers"
+        "Het recht om het huis te erven",
+        "Een zakelijk recht dat een derde (bijv. buren) toestaat iets te doen op andermans perceel, zoals een toegangspad gebruiken",
+        "Een soort hypotheek"
       ],
       "correctIndex": 1,
-      "explanation": "De Consumentenbond is een onafhankelijke organisatie die opkomt voor de belangen van consumenten. Ze testen en vergelijken producten en diensten, geven advies, en lobbyen bij de overheid voor betere consumentenbescherming. Het is een vereniging met leden die contributie betalen.",
-      "explanationEn": "The Consumentenbond (Consumer Association) is an independent organization that advocates for consumer interests. They test and compare products and services, provide advice, and lobby the government for better consumer protection. It is a membership-based association."
+      "explanation": "Een erfdienstbaarheid is een recht dat iemand heeft op de grond van een ander, zoals het recht van overpad (gebruik van een pad). Dit is vastgelegd in de notariële akte.",
+      "explanationEn": "An easement is a right that someone has on another person's land, such as a right of way (use of a path). This is recorded in the notarial deed."
     },
     {
       "id": "knm-b1-4-q50",
-      "text": "Wat kunt u doen als een bedrijf misleidende reclame maakt?",
+      "text": "Tom wil zijn huurwoning schilderen en gordijnen ophangen. Mag hij dit zonder toestemming van zijn verhuurder?",
       "options": [
-        "U kunt niets doen, reclame is altijd overdreven",
-        "U kunt een melding doen bij de ACM (Autoriteit Consument & Markt) of een klacht indienen bij de Reclame Code Commissie",
-        "U kunt alleen de politie bellen",
-        "U kunt het bedrijf zelf een boete opleggen"
+        "Nee, huurders mogen niets veranderen",
+        "Ja, kleine aanpassingen die eenvoudig ongedaan te maken zijn (zoals gordijnen en schilderen) zijn meestal toegestaan. Structurele wijzigingen vereisen toestemming",
+        "Alleen als hij langer dan 5 jaar in de woning woont"
       ],
       "correctIndex": 1,
-      "explanation": "Bij misleidende reclame kunt u een melding doen bij de ACM, die toezicht houdt op eerlijke handel. U kunt ook een klacht indienen bij de Reclame Code Commissie, die beoordeelt of reclame in strijd is met de Nederlandse Reclame Code. Misleidende reclame is bovendien wettelijk verboden.",
-      "explanationEn": "For misleading advertising, you can report to the ACM, which oversees fair trade. You can also file a complaint with the Advertising Code Committee, which assesses whether advertising violates the Dutch Advertising Code. Misleading advertising is also prohibited by law."
+      "explanation": "Huurders mogen kleine niet-structurele aanpassingen doen (zoals schilderen en ophangen). Voor structurele wijzigingen is schriftelijke toestemming van de verhuurder nodig.",
+      "explanationEn": "Tenants may make small non-structural modifications (such as painting and hanging). For structural changes, written permission from the landlord is required."
     }
-  ]
+  ],
+  "isFreePreview": false
 }
