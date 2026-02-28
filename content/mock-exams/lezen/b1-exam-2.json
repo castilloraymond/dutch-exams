@@ -15,16 +15,16 @@
       "questions": [
         {
           "id": "b1-2-q1",
-          "text": "Wat is de deadline voor het afronden van de inburgering?",
+          "text": "Meneer Al-Rashid ontvangt deze brief in januari 2024. Hij heeft zijn inburgering nog niet gestart. Hoeveel tijd heeft hij nog om aan zijn inburgeringsplicht te voldoen?",
           "options": [
-            "31 december 2024",
-            "31 december 2025",
-            "15 januari 2025",
-            "1 januari 2026"
+            "Hij heeft nog tot het einde van 2024, want de brief is gestuurd in 2024.",
+            "Hij heeft nog bijna twee jaar, want de inburgeringstermijn loopt af op 31 december 2025.",
+            "Hij heeft nog slechts twee weken, want de deadline was 15 januari 2025.",
+            "Hij heeft onbeperkt de tijd, want DUO geeft altijd automatisch verlenging."
           ],
           "correctIndex": 1,
-          "explanation": "De brief vermeldt dat de persoonlijke inburgeringstermijn afloopt op 31 december 2025.",
-          "explanationEn": "The letter states that the personal integration deadline expires on December 31, 2025."
+          "explanation": "De brief vermeldt dat de inburgeringstermijn afloopt op 31 december 2025. De brief is gestuurd in januari 2024, dus hij heeft nog bijna twee jaar.",
+          "explanationEn": "The letter states the integration deadline expires December 31, 2025. The letter was sent in January 2024, so he has nearly two years."
         },
         {
           "id": "b1-2-q2",
@@ -41,16 +41,16 @@
         },
         {
           "id": "b1-2-q3",
-          "text": "Wat is de maximale bestuurlijke boete als u niet tijdig inburgert?",
+          "text": "Mevrouw Santos heeft de inburgeringstermijn niet gehaald. DUO legt haar een boete op. Wat voor gevolgen kan dit naast de boete nog hebben?",
           "options": [
-            "€ 500",
-            "€ 750",
-            "€ 1.250",
-            "€ 2.500"
+            "Er zijn geen andere gevolgen; na betaling van de boete is de zaak gesloten.",
+            "Ze wordt automatisch teruggestuurd naar haar land van herkomst.",
+            "Naast de boete kan het niet voldoen ook gevolgen hebben voor haar verblijfsvergunning.",
+            "Ze moet de kosten van haar inburgeringscursus volledig terugbetalen aan DUO."
           ],
           "correctIndex": 2,
-          "explanation": "De brief vermeldt dat DUO een bestuurlijke boete kan opleggen van maximaal €1.250 als u niet tijdig aan uw inburgeringsplicht voldoet.",
-          "explanationEn": "The letter states that DUO can impose an administrative fine of a maximum of €1,250 if you do not meet your integration obligation on time."
+          "explanation": "De brief vermeldt dat naast een boete het niet voldoen aan de inburgeringsplicht ook gevolgen kan hebben voor de verblijfsvergunning.",
+          "explanationEn": "The letter states that besides a fine, failing to meet the integration obligation can also have consequences for the residence permit."
         },
         {
           "id": "b1-2-q4",
@@ -176,16 +176,16 @@
         },
         {
           "id": "b1-2-q12",
-          "text": "Hoe lang heeft u de tijd om bezwaar te maken?",
+          "text": "Meneer Bakr ontvangt een beslissing van de gemeente over zijn bijstandsuitkering op 1 maart. Hij is het er niet mee eens. Tot wanneer kan hij uiterlijk bezwaar maken?",
           "options": [
-            "2 weken",
-            "4 weken",
-            "6 weken",
-            "3 maanden"
+            "Hij kan bezwaar maken tot 15 maart, want de termijn is twee weken na het besluit.",
+            "Hij kan bezwaar maken tot 29 maart, want de termijn is vier weken na het besluit.",
+            "Hij kan bezwaar maken tot 12 april, want de termijn is zes weken na het besluit.",
+            "Hij kan bezwaar maken tot 1 juni, want de termijn is drie maanden na het besluit."
           ],
           "correctIndex": 2,
-          "explanation": "U heeft zes weken de tijd om bezwaar te maken, gerekend vanaf de datum van het besluit.",
-          "explanationEn": "You have six weeks to file an objection, counted from the date of the decision."
+          "explanation": "De bezwaartermijn is zes weken gerekend vanaf de datum van het besluit. Zes weken na 1 maart is 12 april.",
+          "explanationEn": "The objection period is six weeks from the date of the decision. Six weeks after March 1 is April 12."
         },
         {
           "id": "b1-2-q13",
@@ -237,42 +237,42 @@
       "questions": [
         {
           "id": "b1-2-q16",
-          "text": "Met hoeveel euro stijgt de huur per maand?",
+          "text": "De huurder wil weten of de gevraagde huurverhoging van 4,0% wettelijk is toegestaan. Wat concludeert hij na het lezen van de brief?",
           "options": [
-            "€ 25,00",
-            "€ 35,00",
-            "€ 45,00",
-            "€ 50,00"
+            "Nee, de verhoging is niet toegestaan want het maximum is 2,8% voor sociale huurwoningen.",
+            "Ja, de verhoging is wettelijk toegestaan want 4,0% ligt ruim onder het wettelijke maximum van 5,5% voor de vrije sector.",
+            "Nee, de verhuurder had eerst toestemming moeten vragen aan de Huurcommissie.",
+            "Ja, maar alleen als de huurder akkoord gaat; anders is de verhoging niet geldig."
           ],
           "correctIndex": 1,
-          "explanation": "De huurprijs stijgt van €875 naar €910, een verhoging van €35 per maand.",
-          "explanationEn": "The rental price increases from €875 to €910, an increase of €35 per month."
+          "explanation": "De brief vermeldt dat het wettelijke maximum voor vrijesectorhuur 5,5% is en dat de gevraagde 4,0% ruim onder dit maximum ligt.",
+          "explanationEn": "The letter states the legal maximum for private sector rent is 5.5% and that the requested 4.0% is well below this maximum."
         },
         {
           "id": "b1-2-q17",
-          "text": "Wat is het wettelijke maximum voor huurverhoging in de vrije sector in 2024?",
+          "text": "De huurder wil bezwaar maken tegen de huurverhoging. Wat moet hij doen en hoe snel?",
           "options": [
-            "2,8%",
-            "4,0%",
-            "5,5%",
-            "7,0%"
+            "Hij moet direct stoppen met het betalen van de hogere huur en een brief sturen naar de verhuurder.",
+            "Hij moet binnen acht weken na dagtekening van de brief bezwaar maken bij de Huurcommissie.",
+            "Hij moet binnen zes weken contact opnemen met zijn gemeente om een klacht in te dienen.",
+            "Hij kan de huurverhoging altijd weigeren zonder gevolgen door de huur terug te storten."
           ],
-          "correctIndex": 2,
-          "explanation": "Het wettelijk maximum voor vrijesectorhuur in 2024 is 5,5%. De verhuurder vraagt 4,0%, wat onder dit maximum ligt.",
-          "explanationEn": "The legal maximum for private sector rent in 2024 is 5.5%. The landlord is asking 4.0%, which is below this maximum."
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat de huurder binnen acht weken na dagtekening bezwaar kan maken bij de Huurcommissie.",
+          "explanationEn": "The letter states the tenant can file an objection with the Huurcommissie within eight weeks of the date of the letter."
         },
         {
           "id": "b1-2-q18",
-          "text": "Hoeveel tijd heeft de huurder om bezwaar te maken?",
+          "text": "De huurder overweegt de huurverhoging te weigeren. Wat waarschuwt de verhuurder in de brief als de huurder dat doet?",
           "options": [
-            "4 weken",
-            "6 weken",
-            "8 weken",
-            "12 weken"
+            "De verhuurder zal dan direct naar de rechter stappen om de huurder te laten uitzetten.",
+            "De verhuurder zal de woning te koop zetten als de huurder niet akkoord gaat.",
+            "Het weigeren van de huurverhoging kan voor de verhuurder reden zijn om de huur op te zeggen.",
+            "Er zijn geen gevolgen; de huurder heeft altijd het recht te weigeren in de vrije sector."
           ],
           "correctIndex": 2,
-          "explanation": "De huurder heeft acht weken na dagtekening van de brief om bezwaar te maken bij de Huurcommissie.",
-          "explanationEn": "The tenant has eight weeks from the date of the letter to file an objection with the Huurcommissie."
+          "explanation": "De brief vermeldt dat het weigeren van de huurverhoging voor de verhuurder reden kan zijn om de huur op te zeggen.",
+          "explanationEn": "The letter states that refusing the rent increase can be reason for the landlord to terminate the tenancy."
         },
         {
           "id": "b1-2-q19",
@@ -311,16 +311,16 @@
       "questions": [
         {
           "id": "b1-2-q21",
-          "text": "Met hoeveel euro stijgt de maandelijkse premie?",
+          "text": "De verzekerde wil zijn zorgtoeslag aanpassen na het lezen van de brief. Waarom is dit belangrijk?",
           "options": [
-            "€ 10,00",
-            "€ 13,75",
-            "€ 15,50",
-            "€ 20,00"
+            "Omdat de verzekerde anders zijn aanvullende verzekering kwijtraakt.",
+            "Omdat de premie verandert en de zorgtoeslag op het juiste inkomen gebaseerd moet zijn.",
+            "Omdat de zorgtoeslag automatisch stopt als u van verzekeraar wisselt.",
+            "Omdat de Belastingdienst het niet accepteert als u een hogere premie betaalt."
           ],
           "correctIndex": 1,
-          "explanation": "De premie stijgt van €142,50 naar €156,25, een verhoging van €13,75 per maand.",
-          "explanationEn": "The premium increases from €142.50 to €156.25, an increase of €13.75 per month."
+          "explanation": "De brief adviseert de zorgtoeslag aan te passen als de premie wijzigt, zodat de toeslag correct berekend wordt.",
+          "explanationEn": "The letter advises adjusting the healthcare benefit when the premium changes, so the benefit is correctly calculated."
         },
         {
           "id": "b1-2-q22",
@@ -350,16 +350,16 @@
         },
         {
           "id": "b1-2-q24",
-          "text": "Wanneer moet u uiterlijk een nieuwe verzekering hebben als u opzegt?",
+          "text": "De verzekerde besluit van verzekeraar te wisselen omdat hij het niet eens is met de premiewijziging. Wat moet hij weten over de acceptatie door een nieuwe verzekeraar?",
           "options": [
-            "Vóór 1 december 2023",
-            "Vóór 1 januari 2024",
-            "Vóór 1 februari 2024",
-            "Vóór 1 april 2024"
+            "Een nieuwe verzekeraar mag hem weigeren als hij een chronische ziekte heeft.",
+            "Hij moet eerst een medische keuring ondergaan voordat hij elders terecht kan.",
+            "Zorgverzekeraars zijn verplicht hem te accepteren en mogen hem niet weigeren vanwege zijn gezondheid.",
+            "Hij kan alleen overstappen als zijn huidige verzekeraar akkoord gaat."
           ],
           "correctIndex": 2,
-          "explanation": "De brief vermeldt dat u vóór 1 februari 2024 een nieuwe verzekering moet afsluiten om te voorkomen dat u onverzekerd bent.",
-          "explanationEn": "The letter states that you must take out a new insurance policy before February 1, 2024 to avoid being uninsured."
+          "explanation": "De brief vermeldt: 'Zorgverzekeraars zijn verplicht u te accepteren — u mag niet worden geweigerd vanwege uw gezondheid.'",
+          "explanationEn": "The letter states: 'Health insurers are obliged to accept you — you cannot be refused because of your health.'"
         },
         {
           "id": "b1-2-q25",

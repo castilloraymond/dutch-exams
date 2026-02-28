@@ -176,16 +176,16 @@
         },
         {
           "id": "b1-1-q12",
-          "text": "Welke maximale huurprijs geldt voor de huurtoeslag in 2024?",
+          "text": "Mevrouw Osei huurt een appartement voor € 920,00 per maand en heeft een laag inkomen. Kan zij huurtoeslag aanvragen?",
           "options": [
-            "€ 650 per maand",
-            "€ 750 per maand",
-            "€ 879,66 per maand",
-            "€ 1.000 per maand"
+            "Ja, want haar huurprijs is lager dan € 1.000 per maand.",
+            "Ja, want de hoogte van de huur maakt niet uit als het inkomen laag genoeg is.",
+            "Nee, want haar huurprijs is hoger dan de maximale huurgrens van € 879,66 per maand.",
+            "Nee, want huurtoeslag is alleen voor mensen die minder dan € 800 per maand huur betalen."
           ],
           "correctIndex": 2,
-          "explanation": "Uw huur mag niet hoger zijn dan de maximale huurgrens van €879,66 per maand (in 2024) om in aanmerking te komen voor huurtoeslag.",
-          "explanationEn": "Your rent must not exceed the maximum rental limit of €879.66 per month (in 2024) to be eligible for housing benefit."
+          "explanation": "De huurgrens voor huurtoeslag in 2024 is € 879,66 per maand. Mevrouw Osei betaalt € 920,00, dus ze komt niet in aanmerking.",
+          "explanationEn": "The rent limit for housing benefit in 2024 is €879.66 per month. Ms. Osei pays €920.00, so she is not eligible."
         },
         {
           "id": "b1-1-q13",
@@ -202,16 +202,16 @@
         },
         {
           "id": "b1-1-q14",
-          "text": "Hoeveel maanden met terugwerkende kracht kunt u maximaal aanvragen?",
+          "text": "De heer Mensah ontdekt in oktober dat hij al sinds juni recht had op huurtoeslag. Over welke maanden kan hij de toeslag nog aanvragen?",
           "options": [
-            "1 maand",
-            "3 maanden",
-            "6 maanden",
-            "12 maanden"
+            "Over alle maanden vanaf juni, want er geldt geen beperking voor terugwerkende kracht.",
+            "Alleen over oktober zelf, want eerder aanvragen is niet mogelijk.",
+            "Over maximaal drie maanden terug, dus over augustus, september en oktober.",
+            "Over maximaal zes maanden terug, dus vanaf april."
           ],
-          "correctIndex": 1,
-          "explanation": "Volgens de brochure kunt u de toeslag maximaal drie maanden met terugwerkende kracht aanvragen.",
-          "explanationEn": "According to the brochure, you can apply for the allowance retroactively for a maximum of three months."
+          "correctIndex": 2,
+          "explanation": "U kunt maximaal drie maanden met terugwerkende kracht aanvragen. Vanuit oktober gerekend zijn dat augustus, september en oktober.",
+          "explanationEn": "You can apply retroactively for a maximum of three months. Counting back from October, those are August, September, and October."
         },
         {
           "id": "b1-1-q15",
@@ -324,29 +324,29 @@
         },
         {
           "id": "b1-1-q22",
-          "text": "Met hoeveel procent wordt het salaris verhoogd?",
+          "text": "Mevrouw De Vries vertelt een collega over haar salarisverhoging. Welke omschrijving klopt?",
           "options": [
-            "1,4%",
-            "2,8%",
-            "4,2%",
-            "5,0%"
+            "Ze krijgt alleen een cao-loonsverhoging van 2,8%, want haar beoordeling was niet uitmuntend.",
+            "Ze krijgt een persoonlijke prestatietoeslag van 4,2% bovenop de cao-verhoging.",
+            "Ze krijgt een totale verhoging van 4,2%, bestaande uit een cao-verhoging van 2,8% en een prestatietoeslag van 1,4%.",
+            "Ze krijgt een verhoging van 1,4% omdat ze nog maar één jaar bij het bedrijf werkt."
           ],
           "correctIndex": 2,
-          "explanation": "Het bruto maandsalaris wordt verhoogd met 4,2%, bestaande uit een cao-loonsverhoging van 2,8% en een persoonlijke prestatietoeslag van 1,4%.",
-          "explanationEn": "The gross monthly salary will be increased by 4.2%, consisting of a collective labor agreement wage increase of 2.8% and a personal performance bonus of 1.4%."
+          "explanation": "De totale verhoging is 4,2%: de cao-loonsverhoging van 2,8% plus de persoonlijke prestatietoeslag van 1,4%.",
+          "explanationEn": "The total increase is 4.2%: the collective wage increase of 2.8% plus the personal performance bonus of 1.4%."
         },
         {
           "id": "b1-1-q23",
-          "text": "Wat is het nieuwe bruto maandsalaris na de verhoging?",
+          "text": "Mevrouw De Vries wil weten of de salarisverhoging al zeker is. Wat moet ze begrijpen uit de brief?",
           "options": [
-            "€ 2.950",
-            "€ 3.000",
-            "€ 3.074",
-            "€ 3.150"
+            "De verhoging is al definitief en gaat zeker in per 1 april.",
+            "De verhoging is nog niet zeker; de directie moet het eerst goedkeuren op de aandeelhoudersvergadering van 10 maart.",
+            "De verhoging gaat pas in na een tweede positief functioneringsgesprek volgend jaar.",
+            "De verhoging is zeker, maar de hoogte kan nog veranderen afhankelijk van de jaarcijfers."
           ],
-          "correctIndex": 2,
-          "explanation": "Het nieuwe salaris na verhoging van 4,2% op €2.950 is €3.074.",
-          "explanationEn": "The new salary after a 4.2% increase on €2,950 is €3,074."
+          "correctIndex": 1,
+          "explanation": "De brief vermeldt dat de aanpassing 'onder voorbehoud' is van definitieve goedkeuring door de directie op 10 maart.",
+          "explanationEn": "The letter states the adjustment is 'subject to' final approval by the board on March 10."
         },
         {
           "id": "b1-1-q24",

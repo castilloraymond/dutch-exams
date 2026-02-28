@@ -15,55 +15,55 @@
       "questions": [
         {
           "id": "a2-5-q1",
-          "text": "Wanneer is de afspraak bij de tandarts?",
+          "text": "Mevrouw Yilmaz ontvangt deze brief op 10 maart. Ze realiseert zich dat ze die dag niet kan komen. Wat moet ze doen om de boete van € 35,00 te vermijden?",
           "options": [
-            "Dinsdag 10 maart",
-            "Woensdag 25 maart",
-            "Donderdag 26 maart",
-            "Vrijdag 27 maart"
+            "Ze moet vóór 25 maart om 10:45 de tandarts bellen om de afspraak te verzetten.",
+            "Ze moet een e-mail sturen naar de tandarts uiterlijk de dag van de afspraak.",
+            "Ze hoeft niets te doen; de boete geldt alleen bij herhaling.",
+            "Ze moet de tandarts minstens een week van tevoren bellen."
           ],
-          "correctIndex": 2,
-          "explanation": "De afspraak is op donderdag 26 maart 2026.",
-          "explanationEn": "The appointment is on Thursday, March 26, 2026."
+          "correctIndex": 0,
+          "explanation": "De brief zegt dat ze minstens 24 uur van tevoren moet bellen. De afspraak is op 26 maart om 10:45, dus ze moet uiterlijk op 25 maart om 10:45 bellen.",
+          "explanationEn": "The letter says she must call at least 24 hours in advance. The appointment is on March 26 at 10:45, so she must call by March 25 at 10:45 at the latest."
         },
         {
           "id": "a2-5-q2",
-          "text": "Wat moet mevrouw Yilmaz meenemen naar de afspraak?",
+          "text": "Mevrouw Yilmaz vraagt haar man wat ze mee moet nemen naar de tandarts. Wat is het juiste antwoord?",
           "options": [
-            "Haar identiteitsbewijs, zorgpas en medicijnlijst",
-            "Haar tandenborstel en tandpasta",
-            "Alleen haar identiteitsbewijs",
-            "Haar röntgenfoto's"
+            "Haar tandenborstel, tandpasta en identiteitsbewijs.",
+            "Haar identiteitsbewijs, zorgpas en een lijst van medicijnen die ze gebruikt.",
+            "Alleen haar identiteitsbewijs en zorgpas.",
+            "Haar identiteitsbewijs en een röntgenfoto van haar gebit."
           ],
-          "correctIndex": 0,
-          "explanation": "Ze moet haar identiteitsbewijs, zorgpas en een lijst van medicijnen meenemen.",
-          "explanationEn": "She needs to bring her ID, health insurance card, and a list of medications."
+          "correctIndex": 1,
+          "explanation": "De brief zegt dat ze drie dingen moet meenemen: identiteitsbewijs, zorgpas van de zorgverzekeraar en een lijst van medicijnen.",
+          "explanationEn": "The letter says she needs to bring three things: ID, health insurance card, and a list of medications she uses."
         },
         {
           "id": "a2-5-q3",
-          "text": "Wat gebeurt er als je niet komt en niet belt?",
+          "text": "Mevrouw Yilmaz vraagt zich af hoe lang de afspraak bij de tandarts gaat duren. Wat zegt de brief hierover?",
           "options": [
-            "Er gebeurt niets",
-            "Je krijgt een waarschuwing per e-mail",
-            "Je moet € 35,00 betalen",
-            "Je kunt geen nieuwe afspraak maken"
+            "De controle duurt ongeveer 15 minuten.",
+            "De controle duurt ongeveer 30 minuten.",
+            "De controle duurt ongeveer 45 minuten.",
+            "De brief noemt geen tijdsduur voor de controle."
           ],
-          "correctIndex": 2,
-          "explanation": "Als je niet belt en niet komt, brengt de tandarts € 35,00 in rekening.",
-          "explanationEn": "If you don't call and don't show up, the dentist charges €35.00."
+          "correctIndex": 1,
+          "explanation": "De brief zegt: 'De controle duurt ongeveer 30 minuten.'",
+          "explanationEn": "The letter says: 'The check-up takes approximately 30 minutes.'"
         },
         {
           "id": "a2-5-q4",
-          "text": "Wordt de gebitsreiniging vergoed door de verzekering?",
+          "text": "Mevrouw Yilmaz heeft alleen de basisverzekering. Ze maakt zich zorgen over de kosten van de gebitsreiniging. Wat zegt de brief hierover?",
           "options": [
-            "Nee, je moet alles zelf betalen",
-            "Ja, door de basisverzekering",
-            "Alleen als je een aanvullende verzekering hebt",
-            "Alleen voor kinderen"
+            "De gebitsreiniging wordt niet vergoed; ze moet het zelf betalen.",
+            "De gebitsreiniging wordt vergoed door de basisverzekering.",
+            "De gebitsreiniging wordt alleen vergoed als ze een aanvullende verzekering heeft.",
+            "De gebitsreiniging kost € 35,00 en dat wordt niet vergoed."
           ],
           "correctIndex": 1,
-          "explanation": "De gebitsreiniging wordt vergoed door de basisverzekering.",
-          "explanationEn": "The dental cleaning is covered by basic health insurance."
+          "explanation": "De brief zegt: 'De gebitsreiniging wordt vergoed door de basisverzekering.' Mevrouw Yilmaz hoeft hier niets voor te betalen.",
+          "explanationEn": "The letter says: 'The dental cleaning is covered by basic health insurance.' Mrs. Yilmaz does not need to pay for this."
         }
       ]
     },
@@ -76,55 +76,55 @@
       "questions": [
         {
           "id": "a2-5-q5",
-          "text": "Wat verandert er aan de openingstijden op zaterdag?",
+          "text": "Mevrouw Hassan sport elke zaterdag in de sportschool. Ze gaat altijd om 08:30 naar binnen. Kan ze dat vanaf 1 april nog steeds doen?",
           "options": [
-            "De sportschool gaat later open en later dicht",
-            "De sportschool gaat eerder open en later dicht",
-            "De sportschool is de hele dag dicht",
-            "Er verandert niets op zaterdag"
+            "Nee, want de sportschool opent op zaterdag pas om 09:00, net als voorheen.",
+            "Ja, want de sportschool opent op zaterdag vanaf 1 april al om 08:00.",
+            "Nee, want de sportschool is op zaterdag helemaal gesloten vanaf 1 april.",
+            "Ja, maar alleen als ze zich van tevoren heeft ingeschreven."
           ],
           "correctIndex": 1,
-          "explanation": "Op zaterdag gaat de sportschool eerder open (08:00 in plaats van 09:00) en later dicht (20:00 in plaats van 18:00).",
-          "explanationEn": "On Saturday, the gym opens earlier (08:00 instead of 09:00) and closes later (20:00 instead of 18:00)."
+          "explanation": "Vanaf 1 april is de sportschool op zaterdag al open vanaf 08:00 (was 09:00). Mevrouw Hassan kan om 08:30 naar binnen.",
+          "explanationEn": "From April 1, the gym opens on Saturday at 08:00 (was 09:00). Mrs. Hassan can enter at 08:30."
         },
         {
           "id": "a2-5-q6",
-          "text": "Waarom is het zwembad gesloten?",
+          "text": "De heer De Jong wil op 10 april gaan zwemmen in de sportschool. Kan hij dat doen?",
           "options": [
-            "Er is onderhoud aan de tegels en het verwarmingssysteem",
-            "Er is een wedstrijd",
-            "Het zwembad wordt vergroot",
-            "Er is te weinig personeel"
+            "Ja, want het zwembad is alleen in het weekend gesloten.",
+            "Nee, want het zwembad is gesloten van 6 april tot en met 17 april.",
+            "Ja, want alleen de sauna is gesloten, niet het zwembad.",
+            "Nee, want de hele sportschool is gesloten in april."
           ],
-          "correctIndex": 0,
-          "explanation": "Het zwembad is dicht voor onderhoud aan de tegels en het verwarmingssysteem.",
-          "explanationEn": "The pool is closed for maintenance on the tiles and the heating system."
+          "correctIndex": 1,
+          "explanation": "Het zwembad is gesloten van maandag 6 april tot en met vrijdag 17 april. Op 10 april kan de heer De Jong dus niet zwemmen.",
+          "explanationEn": "The pool is closed from Monday April 6 through Friday April 17. On April 10, Mr. De Jong cannot swim."
         },
         {
           "id": "a2-5-q7",
-          "text": "Wanneer is de Zumba-les voor 50+?",
+          "text": "Mevrouw Okonkwo is 55 jaar oud en wil graag een nieuwe groepsles proberen die bij haar leeftijd past. Welke les raadt het mededelingenbord aan?",
           "options": [
-            "Dinsdag 19:00 - 20:00",
-            "Woensdag 07:30 - 08:15",
-            "Donderdag 10:00 - 11:00",
-            "Vrijdag 07:30 - 08:15"
+            "Yoga voor beginners op dinsdag van 19:00 tot 20:00.",
+            "Spinning op woensdag of vrijdag van 07:30 tot 08:15.",
+            "Zumba 50+ op donderdag van 10:00 tot 11:00.",
+            "Het mededelingenbord noemt geen les speciaal voor 50-plussers."
           ],
           "correctIndex": 2,
-          "explanation": "Zumba 50+ is op donderdag van 10:00 tot 11:00.",
-          "explanationEn": "Zumba 50+ is on Thursday from 10:00 to 11:00."
+          "explanation": "De les 'Zumba 50+' is speciaal voor mensen van 50 jaar en ouder, op donderdag van 10:00 tot 11:00 in zaal 3.",
+          "explanationEn": "The 'Zumba 50+' class is specifically for people aged 50 and over, on Thursday from 10:00 to 11:00 in room 3."
         },
         {
           "id": "a2-5-q8",
-          "text": "Wat kost de eerste groepsles?",
+          "text": "Khalid overweegt de spinningles te proberen, maar wil niet meteen betalen als hij het niet leuk vindt. Wat zegt het bord hierover?",
           "options": [
-            "€ 5,00",
-            "€ 10,00",
-            "Het hangt af van de les",
-            "Niets, de eerste les is gratis"
+            "Hij moet eerst een abonnement afsluiten voordat hij een les kan proberen.",
+            "De eerste les is gratis om te proberen.",
+            "Hij kan de les gratis proberen, maar alleen als hij lid is van de sportschool.",
+            "Hij moet € 5,00 betalen voor de eerste les als proef."
           ],
-          "correctIndex": 3,
-          "explanation": "De eerste les is gratis om te proberen.",
-          "explanationEn": "The first class is free to try."
+          "correctIndex": 1,
+          "explanation": "Het mededelingenbord zegt: 'De eerste les is gratis om te proberen!' Khalid kan de spinningles dus gratis uitproberen.",
+          "explanationEn": "The notice board says: 'The first class is free to try!' Khalid can therefore try the spinning class for free."
         }
       ]
     },
@@ -137,55 +137,55 @@
       "questions": [
         {
           "id": "a2-5-q9",
-          "text": "Op welke dag is het restaurant gesloten?",
+          "text": "Nadia wil maandag gaan lunchen bij restaurant De Tulp. Kan dat?",
           "options": [
-            "Zondag",
-            "Zaterdag",
-            "Dinsdag",
-            "Maandag"
+            "Ja, het restaurant is elke dag open van 11:30 tot 15:00.",
+            "Ja, maar alleen als ze vóór 13:00 aankomt.",
+            "Nee, want het restaurant is op maandag gesloten.",
+            "Nee, want het restaurant serveert op maandag geen warme gerechten."
           ],
-          "correctIndex": 3,
-          "explanation": "Het restaurant is op maandag gesloten.",
-          "explanationEn": "The restaurant is closed on Monday."
+          "correctIndex": 2,
+          "explanation": "Het menu vermeldt: 'Open: dinsdag t/m zondag, 11:30 - 15:00 (maandag gesloten).' Nadia kan er op maandag niet terecht.",
+          "explanationEn": "The menu states: 'Open: Tuesday through Sunday, 11:30 - 15:00 (closed on Monday).' Nadia cannot go there on Monday."
         },
         {
           "id": "a2-5-q10",
-          "text": "Welk gerecht op het menu is veganistisch?",
+          "text": "Fatima eet geen vlees en wil een soep bestellen die ook geen dierlijke producten bevat. Welk gerecht past bij haar?",
           "options": [
-            "Groentesoep",
-            "Tomatensoep",
-            "Mosterdsoep",
-            "Broodje gezond"
+            "De tomatensoep, omdat die geen vlees bevat.",
+            "De groentesoep, want die is veganistisch.",
+            "De mosterdsoep, want die is vegetarisch.",
+            "Het broodje geitenkaas, want dat bevat geen vlees."
           ],
-          "correctIndex": 0,
-          "explanation": "De groentesoep is veganistisch.",
-          "explanationEn": "The vegetable soup is vegan."
+          "correctIndex": 1,
+          "explanation": "Het menu zegt dat de groentesoep veganistisch is. Dat betekent dat het geen dierlijke producten bevat, ook geen zuivel of eieren.",
+          "explanationEn": "The menu states that the vegetable soup is vegan. That means it contains no animal products, including no dairy or eggs."
         },
         {
           "id": "a2-5-q11",
-          "text": "Hoeveel kost de dagschotel?",
+          "text": "De heer Pham wil op woensdag de goedkoopste warme maaltijd bestellen. Wat is zijn beste keuze?",
           "options": [
-            "€ 9,50",
-            "€ 11,00",
-            "€ 8,50",
-            "€ 13,50"
+            "De pannenkoek voor € 9,50.",
+            "De dagschotel voor € 13,50.",
+            "De uitsmijter voor € 11,00.",
+            "De dagspecial erwtensoep met roggebrood voor € 8,50."
           ],
           "correctIndex": 3,
-          "explanation": "De dagschotel kost € 13,50.",
-          "explanationEn": "The daily special costs €13.50."
+          "explanation": "Op woensdag is er een dagspecial: erwtensoep met roggebrood voor € 8,50. Dat is goedkoper dan de pannenkoek (€ 9,50), uitsmijter (€ 11,00) of dagschotel (€ 13,50).",
+          "explanationEn": "On Wednesday there is a daily special: pea soup with rye bread for €8.50. That is cheaper than the pancake (€9.50), fried eggs (€11.00), or daily dish (€13.50)."
         },
         {
           "id": "a2-5-q12",
-          "text": "Kun je met contant geld betalen bij De Tulp?",
+          "text": "De heer Ahmadi wil na zijn lunch alleen contant betalen. Is dat mogelijk bij De Tulp?",
           "options": [
-            "Ja, dat kan altijd",
-            "Alleen bij bedragen onder € 10,00",
-            "Nee, alleen pinbetaling",
-            "Ja, maar alleen voor het lunchmenu"
+            "Ja, het restaurant accepteert zowel pin als contant geld.",
+            "Ja, maar alleen voor bedragen onder € 10,00.",
+            "Nee, het restaurant accepteert alleen pinbetaling.",
+            "Nee, maar hij kan ook betalen via een betaalapp op zijn telefoon."
           ],
           "correctIndex": 2,
-          "explanation": "Het restaurant accepteert alleen pinbetaling, geen contant geld.",
-          "explanationEn": "The restaurant only accepts card payment, no cash."
+          "explanation": "Het menu zegt: 'Wij accepteren alleen pinbetaling, geen contant geld.' De heer Ahmadi kan dus niet contant betalen.",
+          "explanationEn": "The menu says: 'We only accept card payment, no cash.' Mr. Ahmadi therefore cannot pay cash."
         }
       ]
     },
@@ -198,55 +198,55 @@
       "questions": [
         {
           "id": "a2-5-q13",
-          "text": "Voor welke groepen is de ouderavond?",
+          "text": "De ouders van Yasmin zitten in groep 4. Mogen zij naar de ouderavond op 2 april komen?",
           "options": [
-            "Groep 3 en 4",
-            "Groep 5 en 6",
-            "Groep 7 en 8",
-            "Alle groepen"
+            "Ja, de ouderavond is voor alle ouders van de school.",
+            "Nee, de ouderavond is alleen voor ouders van groep 5 en 6.",
+            "Ja, maar ze moeten zich wel apart aanmelden.",
+            "Nee, de ouderavond is alleen voor ouders van groep 7 en 8."
           ],
           "correctIndex": 1,
-          "explanation": "De ouderavond is voor groep 5 en 6.",
-          "explanationEn": "The parent evening is for groups 5 and 6."
+          "explanation": "De brief zegt: 'Op donderdag 2 april organiseren wij de ouderavond voor groep 5 en 6.' Ouders van groep 4 zijn niet uitgenodigd.",
+          "explanationEn": "The letter says: 'On Thursday April 2 we are organising the parent evening for groups 5 and 6.' Parents of group 4 are not invited."
         },
         {
           "id": "a2-5-q14",
-          "text": "Hoe lang duurt het gesprek met de leerkracht per ouder?",
+          "text": "De moeder van Luca wil weten hoe lang haar gesprek met de leerkracht duurt. Wat zegt de brief?",
           "options": [
-            "15 minuten",
-            "10 minuten",
-            "20 minuten",
-            "30 minuten"
+            "Het gesprek duurt 10 minuten per ouder.",
+            "Het gesprek duurt 15 minuten per ouder.",
+            "Het gesprek duurt 20 minuten per ouder.",
+            "De brief noemt geen tijdsduur voor het gesprek."
           ],
-          "correctIndex": 0,
-          "explanation": "Het gesprek met de leerkracht duurt 15 minuten per ouder.",
-          "explanationEn": "The conversation with the teacher lasts 15 minutes per parent."
+          "correctIndex": 1,
+          "explanation": "De brief zegt: 'Gesprek met de leerkracht over de voortgang van uw kind (15 minuten per ouder).'",
+          "explanationEn": "The letter says: 'Conversation with the teacher about your child's progress (15 minutes per parent).'"
         },
         {
           "id": "a2-5-q15",
-          "text": "Hoe kun je je aanmelden voor de ouderavond?",
+          "text": "De vader van Emma heeft geen smartphone en kan de Parro-app niet gebruiken. Hoe kan hij zich toch aanmelden voor de ouderavond?",
           "options": [
-            "Door te bellen naar de school",
-            "Via de Parro-app of het formulier in de tas",
-            "Door een e-mail te sturen",
-            "Aanmelden is niet nodig"
+            "Hij kan de school bellen op het telefoonnummer in de brief.",
+            "Hij kan een e-mail sturen naar info@deregenboog-almere.nl.",
+            "Hij kan het formulier invullen dat in de tas van zijn kind zit.",
+            "Hij hoeft zich niet aan te melden; aanmelden is vrijwillig."
           ],
-          "correctIndex": 1,
-          "explanation": "Je kunt je inschrijven via de Parro-app of door het formulier in te vullen.",
-          "explanationEn": "You can sign up via the Parro app or by filling in the form."
+          "correctIndex": 2,
+          "explanation": "De brief zegt: 'U kunt zich inschrijven via de Parro-app of door het formulier in de tas van uw kind in te vullen.' De vader van Emma kan het formulier invullen.",
+          "explanationEn": "The letter says: 'You can sign up via the Parro app or by filling in the form in your child's bag.' Emma's father can fill in the form."
         },
         {
           "id": "a2-5-q16",
-          "text": "Wat moeten ouders meenemen naar het gesprek?",
+          "text": "Meneer Santos wil naar de ouderavond en heeft zijn kind gevraagd wat hij mee moet nemen. Wat is het juiste antwoord?",
           "options": [
-            "Het huiswerk van hun kind",
-            "Het rapport van hun kind",
-            "Een foto van hun kind",
-            "Een notitieboekje"
+            "Hij moet het laatste rapport van zijn kind meenemen.",
+            "Hij moet het huiswerk van zijn kind meenemen.",
+            "Hij moet een notitieboekje en pen meenemen.",
+            "Hij hoeft niets mee te nemen."
           ],
-          "correctIndex": 1,
-          "explanation": "Ouders moeten het rapport van hun kind meenemen.",
-          "explanationEn": "Parents need to bring their child's report card."
+          "correctIndex": 0,
+          "explanation": "De brief zegt: 'Neem het rapport van uw kind mee naar het gesprek.' Meneer Santos moet dus het rapport van zijn kind meenemen.",
+          "explanationEn": "The letter says: 'Bring your child's report card to the conversation.' Mr. Santos therefore needs to bring his child's report card."
         }
       ]
     },
@@ -259,55 +259,55 @@
       "questions": [
         {
           "id": "a2-5-q17",
-          "text": "Hoeveel Nederlanders fietsen elke dag naar hun werk?",
+          "text": "Reza wil weten of 30 minuten fietsen per dag genoeg is om gezond te blijven. Wat zegt het artikel?",
           "options": [
-            "Meer dan 1 miljoen",
-            "Meer dan 2 miljoen",
-            "Meer dan 3 miljoen",
-            "Meer dan 5 miljoen"
+            "Nee, je moet minstens 60 minuten per dag fietsen om voldoende actief te zijn.",
+            "Ja, 30 minuten fietsen per dag is al voldoende actief volgens de beweegrichtlijnen.",
+            "Ja, maar alleen als je ook op de andere dagen sport.",
+            "Het artikel noemt geen aanbevolen tijdsduur voor fietsen."
           ],
-          "correctIndex": 2,
-          "explanation": "Meer dan 3 miljoen Nederlanders fietsen elke dag naar hun werk.",
-          "explanationEn": "More than 3 million Dutch people cycle to work every day."
+          "correctIndex": 1,
+          "explanation": "Het artikel zegt: 'Als je elke dag 30 minuten fietst, ben je al voldoende actief volgens de beweegrichtlijnen.'",
+          "explanationEn": "The article says: 'If you cycle 30 minutes every day, you are already sufficiently active according to the exercise guidelines.'"
         },
         {
           "id": "a2-5-q18",
-          "text": "Wat is een fietsplan?",
+          "text": "Mevrouw Li wil een nieuwe fiets kopen voor haar woon-werkverkeer, maar dat is duur. Haar collega noemt het 'fietsplan'. Wat houdt dit in?",
           "options": [
-            "Een kaart met fietspaden",
-            "Een cursus om te leren fietsen",
-            "Een regeling waarmee je een fiets kunt kopen via je werkgever",
-            "Een verzekering voor je fiets"
+            "Een fietsplan is een kaart met de veiligste fietsroutes naar het werk.",
+            "Een fietsplan is een cursus van de gemeente om veilig te leren fietsen.",
+            "Via een fietsplan kan ze een nieuwe fiets kopen via haar werkgever en de kosten aftrekken van haar brutoloon.",
+            "Een fietsplan is een verzekering die je werkgever aanbiedt voor je fiets."
           ],
           "correctIndex": 2,
-          "explanation": "Via een fietsplan kun je een nieuwe fiets kopen en de kosten aftrekken van je brutoloon.",
-          "explanationEn": "Through a bike plan, you can buy a new bike and deduct the costs from your gross salary."
+          "explanation": "Het artikel legt uit: 'Via zo'n fietsplan kun je een nieuwe fiets kopen en de kosten aftrekken van je brutoloon. Dat scheelt soms honderden euro's.'",
+          "explanationEn": "The article explains: 'Through such a bike plan you can buy a new bike and deduct the costs from your gross salary. That can save hundreds of euros.'"
         },
         {
           "id": "a2-5-q19",
-          "text": "Wanneer moet je verlichting gebruiken op je fiets?",
+          "text": "Karim rijdt elke avond in het donker naar huis op zijn e-bike. Wat adviseert het artikel voor zijn veiligheid?",
           "options": [
-            "Als het donker is",
-            "Alleen in de winter",
-            "Altijd",
-            "Alleen op de snelweg"
+            "Hij moet bij voorkeur een helm dragen en altijd verlichting gebruiken.",
+            "Hij moet alleen overdag fietsen en 's avonds de bus nemen.",
+            "Hij moet een fluorescerend vest dragen maar geen verlichting gebruiken.",
+            "Hij hoeft geen extra maatregelen te nemen als hij het fietspad gebruikt."
           ],
           "correctIndex": 0,
-          "explanation": "Je moet altijd verlichting gebruiken als het donker is.",
-          "explanationEn": "You should always use lights when it is dark."
+          "explanation": "Het artikel zegt: 'Gebruik altijd verlichting als het donker is. Draag bij voorkeur een helm, vooral op een e-bike.'",
+          "explanationEn": "The article says: 'Always use lights when it is dark. Preferably wear a helmet, especially on an e-bike.'"
         },
         {
           "id": "a2-5-q20",
-          "text": "Welke tip geeft het artikel voor beginners?",
+          "text": "Hassan is nog nooit naar zijn werk gefietst en vindt het spannend. Welk advies geeft het artikel aan iemand die pas begint met fietsen naar het werk?",
           "options": [
-            "Koop eerst een goede fiets",
-            "Fiets alleen als het mooi weer is",
-            "Begin met twee dagen per week",
-            "Fiets altijd samen met een collega"
+            "Begin meteen met elke dag fietsen zodat je lichaam snel went.",
+            "Koop eerst een goede e-bike zodat het minder zwaar is.",
+            "Begin met twee dagen per week en bouw het langzaam op.",
+            "Fiets altijd samen met een collega zodat het veiliger is."
           ],
           "correctIndex": 2,
-          "explanation": "De tip is om te beginnen met twee dagen per week en het langzaam op te bouwen.",
-          "explanationEn": "The tip is to start with two days per week and build up slowly."
+          "explanation": "Het artikel geeft als tip: 'Begin met twee dagen per week en bouw het langzaam op. Zo went je lichaam aan het fietsen.'",
+          "explanationEn": "The article's tip is: 'Start with two days per week and build up slowly. That way your body gets used to cycling.'"
         }
       ]
     }
