@@ -89,16 +89,16 @@
       "questions": [
         {
           "id": "b1-5-q6",
-          "text": "Op welke leeftijd gaan kinderen in Nederland naar de basisschool?",
+          "text": "De vader van een driejarig kind wil weten wanneer zijn kind naar de basisschool kan. Wat vertelt het artikel hem?",
           "options": [
-            "Vanaf hun derde levensjaar",
-            "Vanaf hun vierde levensjaar",
-            "Vanaf hun vijfde levensjaar",
-            "Vanaf hun zesde levensjaar"
+            "Zijn kind kan al dit jaar beginnen, want basisscholen accepteren kinderen vanaf drie jaar.",
+            "Zijn kind kan volgend jaar beginnen, want kinderen gaan naar de basisschool vanaf hun vierde levensjaar.",
+            "Zijn kind moet nog twee jaar wachten, want de basisschool begint pas op vijfjarige leeftijd.",
+            "Zijn kind kan beginnen zodra het de taal voldoende beheerst, ongeacht de leeftijd."
           ],
           "correctIndex": 1,
-          "explanation": "Het artikel vermeldt dat kinderen naar de basisschool gaan vanaf hun vierde levensjaar.",
-          "explanationEn": "The article states that children start primary school from the age of four."
+          "explanation": "Het artikel vermeldt dat kinderen naar de basisschool gaan vanaf hun vierde levensjaar. Het kind is nu drie, dus volgend jaar kan het beginnen.",
+          "explanationEn": "The article states children start primary school from age four. The child is now three, so it can start next year."
         },
         {
           "id": "b1-5-q7",
@@ -337,16 +337,16 @@
         },
         {
           "id": "b1-5-q23",
-          "text": "Hoeveel schadevergoeding kan de geschilleninstantie maximaal toekennen?",
+          "text": "Mevrouw Bakker is niet tevreden over de bemiddeling door de klachtenfunctionaris. Wat is haar volgende stap en welke bevoegdheid heeft die instantie?",
           "options": [
-            "\u20ac 5.000",
-            "\u20ac 10.000",
-            "\u20ac 25.000",
-            "\u20ac 50.000"
+            "Ze kan direct naar het tuchtcollege stappen, dat een boete kan opleggen aan de zorgverlener.",
+            "Ze kan haar klacht voorleggen aan een erkende geschilleninstantie, die een bindende uitspraak kan doen en een schadevergoeding kan toekennen.",
+            "Ze kan alleen nog naar de politie gaan als er sprake is van een strafbaar feit.",
+            "Ze kan via haar zorgverzekeraar een klacht indienen, maar die heeft geen bevoegdheid om te oordelen."
           ],
-          "correctIndex": 2,
-          "explanation": "Het artikel vermeldt dat de geschilleninstantie een schadevergoeding kan toekennen tot \u20ac 25.000.",
-          "explanationEn": "The article states that the dispute resolution body can award compensation of up to \u20ac25,000."
+          "correctIndex": 1,
+          "explanation": "Als bemiddeling door de klachtenfunctionaris niet lukt, kan de pati\u00ebnt naar de erkende geschilleninstantie, die een bindende uitspraak doet en een schadevergoeding kan toekennen.",
+          "explanationEn": "If mediation by the complaints officer fails, the patient can go to the recognized disputes body, which makes a binding ruling and can award compensation."
         },
         {
           "id": "b1-5-q24",

@@ -15,55 +15,55 @@
       "questions": [
         {
           "id": "a2-3-q1",
-          "text": "Hoeveel gaat de huur omhoog?",
+          "text": "Meneer Hassan ontvangt de brief op 3 februari. Hij is het niet eens met de huurverhoging. Wat kan hij doen, en wanneer moet hij dat uiterlijk doen?",
           "options": [
-            "2,1%",
-            "2,5%",
-            "3,1%",
-            "4,0%"
+            "Hij kan de huur weigeren te betalen totdat de verhuurder de verhoging terugtrekt.",
+            "Hij kan een brief sturen naar de Huurcommissie, maar dat moet binnen 6 weken na de brief.",
+            "Hij kan bellen naar de verhuurder en mondeling bezwaar maken vóór 1 april.",
+            "Hij kan een brief sturen naar de Huurcommissie, maar dat moet binnen 3 weken na de brief."
           ],
-          "correctIndex": 2,
-          "explanation": "De huur gaat omhoog met 3,1%.",
-          "explanationEn": "The rent goes up by 3.1%."
+          "correctIndex": 1,
+          "explanation": "De brief zegt: stuur een brief naar de Huurcommissie binnen 6 weken na deze brief als u het er niet mee eens bent.",
+          "explanationEn": "The letter says: send a letter to the Rent Tribunal within 6 weeks of this letter if you disagree."
         },
         {
           "id": "a2-3-q2",
-          "text": "Wat wordt de nieuwe huurprijs?",
+          "text": "Hoeveel betaalt de huurder op dit moment, en hoeveel wordt de nieuwe huur?",
           "options": [
-            "€ 800,00",
-            "€ 810,00",
-            "€ 825,00",
-            "€ 850,00"
+            "Nu betaalt hij € 825,00 en de nieuwe huur wordt € 850,00.",
+            "Nu betaalt hij € 800,00 en de nieuwe huur wordt € 825,00.",
+            "Nu betaalt hij € 790,00 en de nieuwe huur wordt € 800,00.",
+            "Nu betaalt hij € 800,00 en de nieuwe huur wordt € 831,00."
           ],
-          "correctIndex": 2,
-          "explanation": "De nieuwe huur wordt € 825,00 per maand.",
-          "explanationEn": "The new rent will be €825.00 per month."
+          "correctIndex": 1,
+          "explanation": "De huurder betaalt nu € 800,00. De nieuwe huur wordt € 825,00 per maand.",
+          "explanationEn": "The tenant currently pays €800.00. The new rent will be €825.00 per month."
         },
         {
           "id": "a2-3-q3",
-          "text": "Wanneer gaat de nieuwe huurprijs in?",
+          "text": "Yasmine vraagt zich af: is de huurverhoging van 3,1% normaal of bijzonder hoog?",
           "options": [
-            "1 februari 2025",
-            "1 maart 2025",
-            "1 april 2025",
-            "1 mei 2025"
+            "Het is bijzonder hoog, want de maximale verhoging is normaal 1,5%.",
+            "Het is het maximale percentage dat de verhuurder dit jaar mag vragen.",
+            "Het is lager dan het maximum; de verhuurder had ook meer mogen vragen.",
+            "Het is een willekeurig percentage; er is geen wettelijk maximum."
           ],
-          "correctIndex": 2,
-          "explanation": "De nieuwe huurprijs gaat in per 1 april 2025.",
-          "explanationEn": "The new rent price takes effect on April 1, 2025."
+          "correctIndex": 1,
+          "explanation": "De brief zegt: 'Het maximale percentage is dit jaar 3,1%.' De verhuurder vraagt dus precies het maximum.",
+          "explanationEn": "The letter says: 'The maximum percentage this year is 3.1%.' The landlord is therefore charging exactly the maximum."
         },
         {
           "id": "a2-3-q4",
-          "text": "Wat kun je doen als je het niet eens bent met de verhoging?",
+          "text": "Vanaf welke datum gaat de nieuwe huurprijs in?",
           "options": [
-            "De huur niet betalen",
-            "Een brief sturen naar de Huurcommissie",
-            "Bellen naar de verhuurder",
-            "Verhuizen binnen 6 weken"
+            "Per 3 februari 2025, de datum van de brief.",
+            "Per 1 maart 2025, één maand na de brief.",
+            "Per 1 april 2025, zoals vermeld in de brief.",
+            "Per 1 januari 2026, aan het begin van het nieuwe jaar."
           ],
-          "correctIndex": 1,
-          "explanation": "Je kunt bezwaar maken door een brief te sturen naar de Huurcommissie.",
-          "explanationEn": "You can object by sending a letter to the Rent Tribunal."
+          "correctIndex": 2,
+          "explanation": "De brief vermeldt dat de huurverhoging per 1 april 2025 ingaat.",
+          "explanationEn": "The letter states that the rent increase takes effect on April 1, 2025."
         }
       ]
     },
@@ -76,55 +76,55 @@
       "questions": [
         {
           "id": "a2-3-q5",
-          "text": "Hoeveel betaalt een kind van 10 jaar voor lidmaatschap?",
+          "text": "Ibrahim is 15 jaar en wil lid worden van de bibliotheek. Hoeveel betaalt hij per jaar?",
           "options": [
-            "€ 10,00",
-            "€ 15,00",
-            "€ 42,00",
-            "Niets, het is gratis"
+            "Hij betaalt niets, want kinderen tot 16 jaar zijn gratis lid.",
+            "Hij betaalt € 15,00 per jaar, want hij valt in de categorie jongeren.",
+            "Hij betaalt € 42,00 per jaar, want hij is geen kind meer.",
+            "Hij betaalt € 28,50 per jaar, de helft van het volwassenentarief."
           ],
-          "correctIndex": 3,
-          "explanation": "Kinderen van 0 tot 12 jaar hebben gratis lidmaatschap.",
-          "explanationEn": "Children aged 0 to 12 have free membership."
+          "correctIndex": 1,
+          "explanation": "Jongeren van 13 tot 17 jaar betalen € 15,00 per jaar. Ibrahim is 15, dus hij betaalt € 15,00.",
+          "explanationEn": "Youth aged 13 to 17 pay €15.00 per year. Ibrahim is 15, so he pays €15.00."
         },
         {
           "id": "a2-3-q6",
-          "text": "Hoeveel items mag je tegelijk lenen?",
+          "text": "Nadia heeft 3 weken geleden 2 boeken geleend. Ze levert ze vandaag 5 dagen te laat in. Hoeveel boete moet ze betalen?",
           "options": [
-            "5",
-            "8",
-            "10",
-            "15"
+            "Ze betaalt € 0,30 in totaal, want de boete is per keer.",
+            "Ze betaalt € 1,50 in totaal, want de boete is € 0,30 per dag voor alle items samen.",
+            "Ze betaalt € 3,00 in totaal: € 0,30 per item per dag, voor 2 items gedurende 5 dagen.",
+            "Ze betaalt niets, want 5 dagen te laat is toegestaan als uitzondering."
           ],
           "correctIndex": 2,
-          "explanation": "U mag maximaal 10 items tegelijk lenen.",
-          "explanationEn": "You may borrow a maximum of 10 items at a time."
+          "explanation": "De boete is € 0,30 per item per dag. Nadia heeft 2 items, 5 dagen te laat: 2 × 5 × € 0,30 = € 3,00.",
+          "explanationEn": "The fine is €0.30 per item per day. Nadia has 2 items, 5 days late: 2 × 5 × €0.30 = €3.00."
         },
         {
           "id": "a2-3-q7",
-          "text": "Hoeveel betaal je als je een boek 5 dagen te laat inlevert?",
+          "text": "Ali wil 12 boeken tegelijk lenen bij de bibliotheek. Is dat mogelijk?",
           "options": [
-            "€ 0,30",
-            "€ 0,50",
-            "€ 1,00",
-            "€ 1,50"
+            "Ja, want er is geen limiet op het aantal items dat je mag lenen.",
+            "Nee, want je mag maximaal 10 items tegelijk lenen.",
+            "Ja, maar alleen als hij al meer dan een jaar lid is.",
+            "Nee, want hij mag maximaal 5 boeken per keer lenen."
           ],
-          "correctIndex": 3,
-          "explanation": "De boete is € 0,30 per item per dag. Bij 5 dagen is dat € 1,50.",
-          "explanationEn": "The fine is €0.30 per item per day. For 5 days that is €1.50."
+          "correctIndex": 1,
+          "explanation": "U mag maximaal 10 items tegelijk lenen. Ali wil 12, dus dat is niet mogelijk.",
+          "explanationEn": "You may borrow a maximum of 10 items at a time. Ali wants 12, so that is not possible."
         },
         {
           "id": "a2-3-q8",
-          "text": "Wanneer is het voorleesuurtje voor kinderen?",
+          "text": "De dochter van mevrouw Chen is 6 jaar. Mevrouw Chen wil haar meenemen naar een activiteit in de bibliotheek. Welke activiteit is er speciaal voor haar dochter?",
           "options": [
-            "Elke maandag om 10:30",
-            "Elke woensdag om 10:30",
-            "Elke vrijdag om 14:00",
-            "Elke zaterdag om 11:00"
+            "Er is elke maandag een schilderworkshop voor kinderen van 4 tot 10 jaar.",
+            "Er is elke woensdag om 10:30 een voorleesuurtje voor kinderen van 4 tot 8 jaar.",
+            "Er is elke vrijdag een boekenclub voor kinderen van 6 tot 12 jaar.",
+            "Er zijn geen activiteiten voor kinderen; de bibliotheek is alleen voor volwassenen."
           ],
           "correctIndex": 1,
-          "explanation": "Elke woensdag is er een voorleesuurtje om 10:30 uur.",
-          "explanationEn": "Every Wednesday there is a reading hour at 10:30."
+          "explanation": "Elke woensdag is er een voorleesuurtje om 10:30 uur voor kinderen van 4 tot 8 jaar. Het dochtertje van 6 jaar past precies in deze leeftijdsgroep.",
+          "explanationEn": "Every Wednesday there is a reading hour at 10:30 for children aged 4 to 8. The 6-year-old daughter fits exactly in this age group."
         }
       ]
     },
@@ -137,55 +137,55 @@
       "questions": [
         {
           "id": "a2-3-q9",
-          "text": "Hoeveel groente moet je per dag eten volgens het Voedingscentrum?",
+          "text": "Sara eet elke dag 200 gram groente en 1 stuk fruit. Volgt ze de aanbevelingen van het Voedingscentrum?",
           "options": [
-            "Minimaal 150 gram",
-            "Minimaal 200 gram",
-            "Minimaal 250 gram",
-            "Minimaal 300 gram"
+            "Ja, want 200 gram groente is al meer dan genoeg voor een volwassene.",
+            "Nee, want ze zou minimaal 250 gram groente en 2 stuks fruit per dag moeten eten.",
+            "Ja, maar alleen als ze ook minstens 2 liter water per dag drinkt.",
+            "Nee, want ze zou minimaal 500 gram groente per dag moeten eten."
           ],
-          "correctIndex": 2,
-          "explanation": "Je moet ten minste 250 gram groente per dag eten.",
-          "explanationEn": "You should eat at least 250 grams of vegetables per day."
+          "correctIndex": 1,
+          "explanation": "Het Voedingscentrum adviseert minimaal 250 gram groente én 2 stuks fruit per dag. Sara eet te weinig van beiden.",
+          "explanationEn": "The Netherlands Nutrition Centre advises at least 250 grams of vegetables and 2 pieces of fruit per day. Sara eats too little of both."
         },
         {
           "id": "a2-3-q10",
-          "text": "Wat kan er gebeuren als je te veel zout en suiker eet?",
+          "text": "Wat kan er gebeuren als iemand structureel te veel zout, suiker en vet eet?",
           "options": [
-            "Je wordt moe",
-            "Je krijgt hoge bloeddruk en overgewicht",
-            "Je krijgt hoofdpijn",
-            "Je slaapt slecht"
+            "De persoon wordt moe en heeft moeite met slapen.",
+            "De persoon kan hoge bloeddruk en overgewicht krijgen.",
+            "De persoon krijgt hoofdpijn en concentratieproblemen.",
+            "De persoon heeft meer energie maar ook een slechter humeur."
           ],
           "correctIndex": 1,
-          "explanation": "Te veel zout, suiker en vet kan leiden tot hoge bloeddruk en overgewicht.",
-          "explanationEn": "Too much salt, sugar, and fat can lead to high blood pressure and being overweight."
+          "explanation": "Het artikel zegt dat te veel zout, suiker en verzadigd vet kan leiden tot hoge bloeddruk en overgewicht.",
+          "explanationEn": "The article says that too much salt, sugar, and saturated fat can lead to high blood pressure and being overweight."
         },
         {
           "id": "a2-3-q11",
-          "text": "Wat is de beste drank volgens het artikel?",
+          "text": "Rami drinkt elke dag 2 glazen sinaasappelsap en geen water. Is dat een goed idee volgens het artikel?",
           "options": [
-            "Sap",
-            "Thee",
-            "Water",
-            "Melk"
+            "Ja, want vruchtensap bevat vitamines en is daardoor gezond.",
+            "Nee, want sap bevat veel suiker en water is de beste drank.",
+            "Ja, maar hij moet dan minder fruit eten om het te compenseren.",
+            "Nee, want hij zou in plaats van sap melk moeten drinken."
           ],
-          "correctIndex": 2,
-          "explanation": "Water is de beste drank.",
-          "explanationEn": "Water is the best drink."
+          "correctIndex": 1,
+          "explanation": "Het artikel zegt dat water de beste drank is en dat frisdrank en sap veel suiker bevatten. Rami doet er beter aan water te drinken.",
+          "explanationEn": "The article says water is the best drink and that soft drinks and juice contain a lot of sugar. Rami would be better off drinking water."
         },
         {
           "id": "a2-3-q12",
-          "text": "Waarom is ontbijten belangrijk?",
+          "text": "Lena slaat haar ontbijt altijd over omdat ze geen tijd heeft. Wat zegt het artikel hierover?",
           "options": [
-            "Je valt ervan af",
-            "Je hebt meer energie en concentratie",
-            "Je hoeft 's middags niet te eten",
-            "Je slaapt beter"
+            "Ontbijten is niet nodig als je 's avonds genoeg eet.",
+            "Ontbijten is belangrijk: mensen die ontbijten hebben meer energie en concentreren zich beter.",
+            "Ontbijten is alleen belangrijk voor kinderen, niet voor volwassenen.",
+            "Overslaan van het ontbijt is gezond omdat het het lichaam rust geeft."
           ],
           "correctIndex": 1,
-          "explanation": "Mensen die ontbijten hebben meer energie en kunnen zich beter concentreren.",
-          "explanationEn": "People who eat breakfast have more energy and can concentrate better."
+          "explanation": "Het artikel zegt dat mensen die ontbijten meer energie hebben en zich beter kunnen concentreren. Lena mist deze voordelen.",
+          "explanationEn": "The article says that people who eat breakfast have more energy and can concentrate better. Lena misses these benefits."
         }
       ]
     },
@@ -198,55 +198,55 @@
       "questions": [
         {
           "id": "a2-3-q13",
-          "text": "Hoe laat begint de barbecue?",
+          "text": "Zara wil naar het buurtfeest maar heeft geen eten meegenomen. Moet ze honger lijden?",
           "options": [
-            "15:00",
-            "16:00",
-            "17:30",
-            "19:00"
+            "Ja, want iedereen moet zelf eten en drinken meenemen.",
+            "Nee, want het eten wordt verzorgd door de buurtcommissie.",
+            "Ja, want alleen aangemelde buren krijgen eten.",
+            "Nee, maar ze moet wel van tevoren betalen voor de barbecue."
           ],
-          "correctIndex": 2,
-          "explanation": "De buurtbarbecue begint om 17:30.",
-          "explanationEn": "The neighborhood barbecue starts at 17:30."
+          "correctIndex": 1,
+          "explanation": "De uitnodiging zegt: 'Eten wordt verzorgd.' Zara hoeft geen eten mee te nemen.",
+          "explanationEn": "The invitation says: 'Food is provided.' Zara does not need to bring food."
         },
         {
           "id": "a2-3-q14",
-          "text": "Wat moeten de buren zelf meenemen?",
+          "text": "Omar wil naar het buurtfeest maar heeft zich niet aangemeld. Mag hij toch komen?",
           "options": [
-            "Eten",
-            "Stoelen",
-            "Drinken",
-            "Bestek"
+            "Nee, want aanmelden is verplicht en hij heeft de deadline gemist.",
+            "Ja, want aanmelden is niet nodig; iedereen is welkom.",
+            "Ja, maar hij moet dan wel eigen eten en drinken meenemen.",
+            "Nee, want er is een maximumaantal bezoekers en die plaatsen zijn vol."
           ],
-          "correctIndex": 2,
-          "explanation": "De buren moeten hun eigen drinken meenemen. Eten wordt verzorgd.",
-          "explanationEn": "Neighbors should bring their own drinks. Food is provided."
+          "correctIndex": 1,
+          "explanation": "De uitnodiging zegt: 'Aanmelden is niet nodig' en 'Iedereen is welkom.' Omar kan gewoon komen.",
+          "explanationEn": "The invitation says: 'Registration is not required' and 'Everyone is welcome.' Omar can simply come."
         },
         {
           "id": "a2-3-q15",
-          "text": "Is aanmelden verplicht?",
+          "text": "Het kind van mevrouw Patel is dol op spelletjes. Om hoe laat moet het kind aanwezig zijn voor de kinderspelen?",
           "options": [
-            "Ja, dat is verplicht",
-            "Nee, maar het helpt met de inkopen",
-            "Ja, voor woensdag",
-            "Nee, en het is ook niet nodig"
+            "Het kind moet om 15:00 aanwezig zijn voor de opening.",
+            "Het kind moet om 16:00 aanwezig zijn voor de spelletjes.",
+            "Het kind moet om 17:30 aanwezig zijn voor de barbecue.",
+            "Het kind moet om 19:00 aanwezig zijn voor de muziek."
           ],
           "correctIndex": 1,
-          "explanation": "Aanmelden is niet nodig, maar het helpt met de inkopen.",
-          "explanationEn": "Registration is not required, but it helps with the shopping."
+          "explanation": "Volgens het programma zijn de spelletjes voor kinderen om 16:00.",
+          "explanationEn": "According to the programme, the children's games are at 16:00."
         },
         {
           "id": "a2-3-q16",
-          "text": "Wat is het laatste onderdeel van het programma?",
+          "text": "Kim wil graag meedoen aan de verloting. Tot hoe laat moet ze blijven op het feest?",
           "options": [
-            "Muziek en dans",
-            "Barbecue",
-            "Verloting",
-            "Koffie en thee"
+            "Ze moet blijven tot 19:00, want dan is de muziek en dans, het laatste onderdeel.",
+            "Ze moet blijven tot 20:30, want dan begint de verloting.",
+            "Ze moet blijven tot 21:00, want dan sluit het feest officieel.",
+            "Ze moet blijven tot 17:30, want dan is de barbecue en wordt de verloting gehouden."
           ],
-          "correctIndex": 2,
-          "explanation": "Het laatste onderdeel is de verloting om 20:30.",
-          "explanationEn": "The last item is the raffle at 20:30."
+          "correctIndex": 1,
+          "explanation": "Volgens het programma is de verloting om 20:30. Kim moet tot dat moment blijven.",
+          "explanationEn": "According to the programme, the raffle is at 20:30. Kim needs to stay until that time."
         }
       ]
     },
@@ -259,55 +259,55 @@
       "questions": [
         {
           "id": "a2-3-q17",
-          "text": "Hoeveel kost een parkeervergunning voor de eerste auto?",
+          "text": "Kevin heeft twee auto's en wil beide registreren in wijk Zonnedael. Is dat mogelijk, en wat kost het totaal per jaar?",
           "options": [
-            "€ 80,00 per jaar",
-            "€ 100,00 per jaar",
-            "€ 120,00 per jaar",
-            "€ 180,00 per jaar"
+            "Nee, want inwoners mogen maar één auto per adres registreren.",
+            "Ja, dat is mogelijk. De eerste auto kost € 120,00 en de tweede € 180,00, dus € 300,00 per jaar totaal.",
+            "Ja, maar de tweede auto kost ook € 120,00, dus € 240,00 per jaar totaal.",
+            "Nee, want twee auto's op één vergunning is niet toegestaan in deze wijk."
           ],
-          "correctIndex": 2,
-          "explanation": "Een vergunning voor de eerste auto kost € 120,00 per jaar.",
-          "explanationEn": "A permit for the first car costs €120.00 per year."
+          "correctIndex": 1,
+          "explanation": "Twee auto's is mogelijk: de eerste kost € 120,00 en de tweede € 180,00. Totaal: € 300,00 per jaar.",
+          "explanationEn": "Two cars is possible: the first costs €120.00 and the second €180.00. Total: €300.00 per year."
         },
         {
           "id": "a2-3-q18",
-          "text": "Hoeveel auto's mag je maximaal registreren?",
+          "text": "De zus van meneer Bakker wil hem bezoeken. Ze heeft geen vergunning. Hoe kan ze betaald parkeren in de wijk?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "Onbeperkt"
+            "Ze kan parkeren met een bezoekerspas van € 2,50 per dagdeel, gekocht door haar broer.",
+            "Ze kan gratis parkeren als bezoeker, want bezoekers hebben geen vergunning nodig.",
+            "Ze kan een dagvergunning kopen voor € 70,00 direct bij de parkeerautomaat.",
+            "Ze kan niet parkeren in de wijk zonder vergunning; er is geen regeling voor bezoekers."
           ],
-          "correctIndex": 1,
-          "explanation": "Een derde auto of meer is niet mogelijk, dus maximaal 2.",
-          "explanationEn": "A third car or more is not possible, so a maximum of 2."
+          "correctIndex": 0,
+          "explanation": "Er is een bezoekerspas van € 2,50 per dagdeel. Meneer Bakker kan deze kopen via www.gemeente.nl/parkeren voor zijn zus.",
+          "explanationEn": "There is a visitor pass for €2.50 per time period. Mr. Bakker can purchase this at www.gemeente.nl/parkeren for his sister."
         },
         {
           "id": "a2-3-q19",
-          "text": "Hoeveel boete krijg je als je zonder vergunning parkeert?",
+          "text": "Lisa parkeert om 22:00 uur in de wijk zonder vergunning. Krijgt ze een boete?",
           "options": [
-            "€ 50,00",
-            "€ 60,00",
-            "€ 70,00",
-            "€ 90,00"
+            "Ja, want ze heeft geen vergunning en dat is altijd een boete van € 70,00.",
+            "Nee, want na 21:00 uur is betaald parkeren niet meer van kracht.",
+            "Ja, maar na 21:00 is de boete lager: € 35,00 in plaats van € 70,00.",
+            "Nee, want 's avonds laat gelden de parkeerregels niet in de wijk."
           ],
-          "correctIndex": 2,
-          "explanation": "Parkeren zonder vergunning kost een boete van € 70,00.",
-          "explanationEn": "Parking without a permit results in a fine of €70.00."
+          "correctIndex": 1,
+          "explanation": "Betaald parkeren is alleen van kracht tussen 09:00 en 21:00 uur. Om 22:00 is de regeling niet actief, dus Lisa krijgt geen boete.",
+          "explanationEn": "Paid parking is only in effect between 09:00 and 21:00. At 22:00 the scheme is not active, so Lisa will not get a fine."
         },
         {
           "id": "a2-3-q20",
-          "text": "Wanneer is betaald parkeren van kracht?",
+          "text": "Mohammed heeft drie auto's en wil ze alle drie registreren in wijk Zonnedael. Wat staat er in de regels?",
           "options": [
-            "08:00 tot 20:00",
-            "09:00 tot 21:00",
-            "10:00 tot 22:00",
-            "De hele dag"
+            "Dat is mogelijk, maar de derde auto kost € 240,00 per jaar.",
+            "Dat is niet mogelijk; een derde auto of meer kan niet worden geregistreerd.",
+            "Dat is mogelijk als hij een speciale aanvraag indient bij de gemeente.",
+            "Dat is niet mogelijk; hij mag maximaal twee adressen registreren."
           ],
           "correctIndex": 1,
-          "explanation": "Betaald parkeren is van kracht tussen 09:00 en 21:00 uur.",
-          "explanationEn": "Paid parking is in effect between 09:00 and 21:00."
+          "explanation": "De regels zeggen duidelijk: 'Derde auto of meer: niet mogelijk.' Mohammed kan alleen zijn eerste twee auto's registreren.",
+          "explanationEn": "The rules clearly state: 'Third car or more: not possible.' Mohammed can only register his first two cars."
         }
       ]
     }

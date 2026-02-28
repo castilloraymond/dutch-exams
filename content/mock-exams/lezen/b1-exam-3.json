@@ -89,16 +89,16 @@
       "questions": [
         {
           "id": "b1-3-q6",
-          "text": "Hoe lang is de bedenktijd bij een online aankoop?",
+          "text": "Karim koopt een trui via een webwinkel. Na een week besluit hij dat hij de trui niet wil houden. Kan hij het product nog terugsturen?",
           "options": [
-            "7 werkdagen",
-            "14 kalenderdagen",
-            "30 kalenderdagen",
-            "12 maanden"
+            "Nee, want de bedenktijd is zeven werkdagen en die zijn al voorbij.",
+            "Ja, want de bedenktijd is veertien kalenderdagen en een week is korter dan dat.",
+            "Nee, want kleding valt onder de uitzondering op de bedenktijd.",
+            "Ja, maar alleen als hij kan bewijzen dat het product beschadigd is aangekomen."
           ],
           "correctIndex": 1,
-          "explanation": "Het artikel vermeldt dat u op grond van de Wet koop op afstand een bedenktijd heeft van 14 kalenderdagen.",
-          "explanationEn": "The article states that under the Distance Selling Act, you have a reflection period of 14 calendar days."
+          "explanation": "De bedenktijd is 14 kalenderdagen. Karim heeft na één week nog steeds tijd om het product terug te sturen.",
+          "explanationEn": "The reflection period is 14 calendar days. After one week, Karim still has time to return the product."
         },
         {
           "id": "b1-3-q7",

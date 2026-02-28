@@ -15,55 +15,55 @@
       "questions": [
         {
           "id": "a2-6-q1",
-          "text": "Wat wordt er NIET gedaan tijdens het onderhoud?",
+          "text": "Mevrouw Ngo woont op de derde verdieping van de flat aan de Kerkstraat. Ze hoort 's morgens om 07:30 lawaai van de werklieden. Is dat normaal?",
           "options": [
-            "Schilderwerk aan de buitenkant",
-            "Reparatie van de balkons",
-            "Vervanging van het dak",
-            "Vervanging van de kozijnen"
+            "Nee, want de werklieden mogen pas beginnen om 09:00 uur.",
+            "Ja, want de werkzaamheden vinden plaats van 07:30 tot 16:30 uur op werkdagen.",
+            "Nee, want het schilderwerk mag niet voor 08:00 beginnen.",
+            "Ja, maar alleen op maandag en vrijdag zijn vroege starttijden toegestaan."
           ],
-          "correctIndex": 2,
-          "explanation": "Vervanging van het dak staat niet in de brief. Er wordt geschilderd, balkons worden gerepareerd en kozijnen worden vervangen.",
-          "explanationEn": "Roof replacement is not mentioned. The work includes painting, balcony repair, and window frame replacement."
+          "correctIndex": 1,
+          "explanation": "De brief zegt dat er gewerkt wordt van maandag tot en met vrijdag, van 07:30 tot 16:30 uur. Het lawaai om 07:30 is dus normaal.",
+          "explanationEn": "The letter says work takes place Monday through Friday, from 07:30 to 16:30. The noise at 07:30 is therefore normal."
         },
         {
           "id": "a2-6-q2",
-          "text": "Hoelang duren de werkzaamheden?",
+          "text": "De heer Bakr woont in de flat en ontvangt de brief op 4 februari. Hij vraagt zich af wanneer de werkzaamheden beginnen. Wat staat er in de brief?",
           "options": [
-            "Ongeveer zes weken",
-            "Twee weken",
-            "Drie maanden",
-            "Eén maand"
+            "De werkzaamheden beginnen op maandag 4 februari 2026.",
+            "De werkzaamheden beginnen op maandag 16 maart 2026.",
+            "De werkzaamheden beginnen op vrijdag 24 april 2026.",
+            "De brief noemt geen startdatum voor de werkzaamheden."
           ],
-          "correctIndex": 0,
-          "explanation": "De werkzaamheden duren van 16 maart tot en met 24 april 2026, dat is ongeveer zes weken.",
-          "explanationEn": "The work lasts from March 16 to April 24, 2026, which is approximately six weeks."
+          "correctIndex": 1,
+          "explanation": "De brief zegt: 'De werkzaamheden beginnen op maandag 16 maart 2026 en duren tot en met vrijdag 24 april 2026.'",
+          "explanationEn": "The letter says: 'The work starts on Monday March 16, 2026 and runs until Friday April 24, 2026.'"
         },
         {
           "id": "a2-6-q3",
-          "text": "Wat moeten bewoners doen als er bij hun verdieping gewerkt wordt?",
+          "text": "Op de dag dat de kozijnen bij mevrouw Chen vervangen worden, staat ze vroeg op en wil ze naar haar werk gaan. Wat zegt de brief dat ze moet doen?",
           "options": [
-            "Het gebouw verlaten",
-            "De ramen en balkondeur gesloten houden",
-            "De verwarming uitzetten",
-            "Niet op het balkon komen"
+            "Ze mag gewoon naar haar werk gaan; de werklieden hebben een sleutel.",
+            "Ze moet thuis zijn op de dag dat haar kozijnen vervangen worden.",
+            "Ze moet de avond van tevoren haar ramen en deuren openzetten voor de werklieden.",
+            "Ze hoeft niets te doen; het kozijnenwerk duurt maar een paar minuten."
           ],
           "correctIndex": 1,
-          "explanation": "Bewoners moeten hun ramen en balkondeur gesloten houden als er bij hun verdieping gewerkt wordt.",
-          "explanationEn": "Residents should keep their windows and balcony door closed when work is being done on their floor."
+          "explanation": "De brief zegt: 'Op de dag dat uw kozijnen vervangen worden, moet u thuis zijn.' Mevrouw Chen kan die dag niet naar haar werk.",
+          "explanationEn": "The letter says: 'On the day your window frames are replaced, you must be home.' Mrs. Chen cannot go to work that day."
         },
         {
           "id": "a2-6-q4",
-          "text": "Wanneer is de klantenservice bereikbaar?",
+          "text": "De heer Pham heeft een vraag over het onderhoud en wil de klantenservice bellen. Hij is alleen beschikbaar op zaterdagochtend. Kan hij dan bellen?",
           "options": [
-            "Elke dag van 08:00 tot 18:00",
-            "Op werkdagen van 09:00 tot 17:00",
-            "Alleen op maandag en woensdag",
-            "Op werkdagen van 07:30 tot 16:30"
+            "Ja, want de klantenservice is zeven dagen per week bereikbaar van 09:00 tot 17:00.",
+            "Ja, maar alleen op zaterdagochtend van 09:00 tot 12:00.",
+            "Nee, want de klantenservice is alleen bereikbaar op werkdagen van 09:00 tot 17:00.",
+            "Nee, want de klantenservice is tijdelijk gesloten tijdens de onderhoudswerkzaamheden."
           ],
-          "correctIndex": 1,
-          "explanation": "De klantenservice is bereikbaar op werkdagen van 09:00 tot 17:00.",
-          "explanationEn": "Customer service is available on weekdays from 09:00 to 17:00."
+          "correctIndex": 2,
+          "explanation": "De brief zegt dat de klantenservice bereikbaar is op werkdagen van 09:00 tot 17:00. Zaterdag is geen werkdag, dus de heer Pham kan op zaterdagochtend niet bellen.",
+          "explanationEn": "The letter says customer service is available on weekdays from 09:00 to 17:00. Saturday is not a weekday, so Mr. Pham cannot call on Saturday morning."
         }
       ]
     },
@@ -76,55 +76,55 @@
       "questions": [
         {
           "id": "a2-6-q5",
-          "text": "Waar begint het buurtfeest?",
+          "text": "Mevrouw Rios woont in de wijk en wil haar neef uitnodigen voor het buurtfeest. Haar neef woont in een andere wijk. Hoeveel moet hij betalen?",
           "options": [
-            "Bij de ingang van het park",
-            "Op het sportveld",
-            "In de grote tent",
-            "Bij het podium"
+            "Niets, want de lunch en barbecue zijn gratis voor alle bezoekers.",
+            "€ 5,00 per persoon, want gasten van buiten de wijk betalen entree.",
+            "€ 10,00 per persoon, want dat is het standaardtarief voor niet-bewoners.",
+            "Hij mag gratis komen als mevrouw Rios hem aanbrengt als haar gast."
           ],
-          "correctIndex": 0,
-          "explanation": "De opening is bij de ingang van het park.",
-          "explanationEn": "The opening is at the entrance of the park."
+          "correctIndex": 1,
+          "explanation": "Het programma zegt: 'Gasten van buiten de wijk betalen € 5,00 per persoon.' De neef van mevrouw Rios woont niet in de wijk en moet dus € 5,00 betalen.",
+          "explanationEn": "The programme says: 'Guests from outside the neighbourhood pay €5.00 per person.' Mrs. Rios's nephew does not live in the neighbourhood and must therefore pay €5.00."
         },
         {
           "id": "a2-6-q6",
-          "text": "Wat kunnen volwassenen doen om 13:30?",
+          "text": "De heer Khalid wil zijn zoon van 9 jaar mee laten doen aan het voetbaltoernooi. Hoe laat begint dat en is zijn zoon oud genoeg?",
           "options": [
-            "Meedoen aan het voetbaltoernooi",
-            "Naar het optreden kijken",
-            "Een workshop bloemschikken volgen",
-            "Meedoen aan de bingo"
+            "Het toernooi begint om 13:30 en zijn zoon van 9 jaar mag meedoen, want het is voor kinderen van 6 tot 12 jaar.",
+            "Het toernooi begint om 15:00 en zijn zoon mag meedoen, want hij is onder de 12 jaar.",
+            "Het toernooi begint om 13:30, maar zijn zoon is te oud want het is alleen voor kinderen tot 8 jaar.",
+            "Het toernooi begint om 11:15 en zijn zoon mag meedoen als hij zich heeft aangemeld."
           ],
-          "correctIndex": 2,
-          "explanation": "Om 13:30 is er een workshop bloemschikken voor volwassenen in de kleine tent.",
-          "explanationEn": "At 13:30 there is a flower arranging workshop for adults in the small tent."
+          "correctIndex": 0,
+          "explanation": "Het programma zegt: '13:30 — Voetbaltoernooi voor kinderen (6-12 jaar).' De zoon van 9 jaar valt binnen de leeftijdscategorie.",
+          "explanationEn": "The programme says: '13:30 — Football tournament for children (6-12 years).' The 9-year-old son falls within the age category."
         },
         {
           "id": "a2-6-q7",
-          "text": "Hoeveel betaalt een buurtbewoner voor de barbecue?",
+          "text": "Mevrouw Osei wil graag iets drinken op het buurtfeest maar wil niets meenemen. Kan ze toch iets drinken?",
           "options": [
-            "€ 5,00",
-            "€ 10,00",
-            "€ 2,50",
-            "Niets, het is gratis"
+            "Nee, want er is geen mogelijkheid om iets te kopen; iedereen moet zijn eigen drinken meenemen.",
+            "Ja, want er is een bar waar ze drankjes kan kopen.",
+            "Ja, want koffie en thee worden gratis aangeboden aan buurtbewoners.",
+            "Nee, want er is alleen een bar voor mensen van buiten de wijk."
           ],
-          "correctIndex": 3,
-          "explanation": "De lunch en barbecue zijn gratis voor alle buurtbewoners.",
-          "explanationEn": "The lunch and barbecue are free for all neighborhood residents."
+          "correctIndex": 1,
+          "explanation": "Het programma zegt: 'Eigen drinken (er is ook een bar met drankjes te koop).' Mevrouw Osei kan dus iets kopen bij de bar.",
+          "explanationEn": "The programme says: 'Own drinks (there is also a bar with drinks for sale).' Mrs. Osei can therefore buy something at the bar."
         },
         {
           "id": "a2-6-q8",
-          "text": "Vóór welke datum moet je je aanmelden?",
+          "text": "De heer Pham wil zich aanmelden voor het buurtfeest. Hij heeft geen toegang tot e-mail. De laatste aanmelddatum is 13 juni. Wat staat er in het programma over hoe hij zich kan aanmelden?",
           "options": [
-            "Vóór 1 juni",
-            "Vóór 13 juni",
-            "Vóór 20 juni",
-            "Aanmelden is niet nodig"
+            "Hij kan zich aanmelden via de website van het wijkpark.",
+            "Het programma noemt alleen e-mail als aanmeldmogelijkheid.",
+            "Hij kan zich persoonlijk aanmelden bij de wijkvoorzitter.",
+            "Hij hoeft zich niet aan te melden; aanmelden is vrijwillig."
           ],
           "correctIndex": 1,
-          "explanation": "Je moet je aanmelden vóór 13 juni.",
-          "explanationEn": "You need to register before June 13."
+          "explanation": "Het programma zegt: 'Aanmelden: stuur een bericht naar buurtfeest@wijkpark.nl vóór 13 juni.' Er wordt alleen e-mail als aanmeldmethode genoemd.",
+          "explanationEn": "The programme says: 'Register: send a message to buurtfeest@wijkpark.nl before June 13.' Only email is mentioned as a registration method."
         }
       ]
     },
@@ -137,55 +137,55 @@
       "questions": [
         {
           "id": "a2-6-q9",
-          "text": "Waarom schrijft het bedrijf deze brief?",
+          "text": "De heer Ahmadi ontvangt de brief op 20 februari. Hij wil het nieuwe contract accepteren. Wat moet hij doen en voor welke datum?",
           "options": [
-            "De heer Ahmadi is ontslagen",
-            "Het bedrijf wil het contract verlengen",
-            "De heer Ahmadi moet op vakantie",
-            "Het bedrijf gaat sluiten"
+            "Hij moet het formulier ondertekend terugsturen of afgeven vóór 31 maart 2026.",
+            "Hij moet het formulier ondertekend terugsturen of afgeven vóór 10 maart 2026.",
+            "Hij moet de bakkerij bellen vóór 10 maart om zijn akkoord te geven.",
+            "Hij hoeft niets te doen; als hij niet reageert, wordt het contract automatisch verlengd."
           ],
           "correctIndex": 1,
-          "explanation": "Het bedrijf is tevreden en wil het contract verlengen.",
-          "explanationEn": "The company is satisfied and wants to extend the contract."
+          "explanation": "De brief zegt: 'Graag ontvangen wij uw reactie vóór 10 maart 2026. U kunt het bijgevoegde formulier ondertekend terugsturen per post of afgeven bij de afdeling personeelszaken.'",
+          "explanationEn": "The letter says: 'We would like to receive your response before March 10, 2026. You can return the enclosed form signed by post or hand it in to the HR department.'"
         },
         {
           "id": "a2-6-q10",
-          "text": "Hoeveel uur per week gaat de heer Ahmadi werken in het nieuwe contract?",
+          "text": "De heer Ahmadi werkt nu 32 uur per week. Hoeveel uur per week gaat hij werken als hij het nieuwe contract tekent?",
           "options": [
-            "36 uur",
-            "34 uur",
-            "32 uur",
-            "40 uur"
+            "Hij gaat 32 uur per week werken, want dat verandert niet.",
+            "Hij gaat 34 uur per week werken.",
+            "Hij gaat 36 uur per week werken.",
+            "Hij gaat 40 uur per week werken."
           ],
-          "correctIndex": 0,
-          "explanation": "Hij gaat van 32 uur naar 36 uur per week werken.",
-          "explanationEn": "He goes from 32 hours to 36 hours per week."
+          "correctIndex": 2,
+          "explanation": "De brief zegt: 'U gaat van 32 uur naar 36 uur per week werken.' In het nieuwe contract werkt hij 36 uur per week.",
+          "explanationEn": "The letter says: 'You will go from 32 hours to 36 hours per week.' In the new contract he works 36 hours per week."
         },
         {
           "id": "a2-6-q11",
-          "text": "Hoeveel meer salaris krijgt de heer Ahmadi per maand?",
+          "text": "De heer Ahmadi vraagt zijn vrouw hoeveel meer salaris hij krijgt in het nieuwe contract. Wat is het juiste antwoord?",
           "options": [
-            "€ 100,00",
-            "€ 150,00",
-            "€ 200,00",
-            "€ 250,00"
+            "Hij krijgt € 100,00 meer per maand.",
+            "Hij krijgt € 150,00 meer per maand.",
+            "Hij krijgt € 200,00 meer per maand.",
+            "Hij krijgt € 2.600,00 meer per maand."
           ],
           "correctIndex": 1,
-          "explanation": "Zijn salaris gaat van € 2.450,00 naar € 2.600,00, dat is € 150,00 meer.",
-          "explanationEn": "His salary goes from €2,450.00 to €2,600.00, which is €150.00 more."
+          "explanation": "Zijn salaris gaat van € 2.450,00 naar € 2.600,00. Het verschil is € 150,00 meer per maand.",
+          "explanationEn": "His salary goes from €2,450.00 to €2,600.00. The difference is €150.00 more per month."
         },
         {
           "id": "a2-6-q12",
-          "text": "Vóór wanneer moet de heer Ahmadi reageren?",
+          "text": "De heer Ahmadi heeft een vraag over zijn nieuwe contract en wil iemand van de bakkerij spreken. Met wie moet hij contact opnemen?",
           "options": [
-            "Vóór 1 maart 2026",
-            "Vóór 20 maart 2026",
-            "Vóór 31 maart 2026",
-            "Vóór 10 maart 2026"
+            "Hij moet de heer Van Dijk bellen, de directeur van de bakkerij.",
+            "Hij moet mevrouw Bakker van personeelszaken bellen.",
+            "Hij moet mailen naar het e-mailadres van de bakkerij.",
+            "Hij moet persoonlijk langsgaan bij de directeur."
           ],
-          "correctIndex": 3,
-          "explanation": "Hij moet vóór 10 maart 2026 reageren.",
-          "explanationEn": "He must respond before March 10, 2026."
+          "correctIndex": 1,
+          "explanation": "De brief zegt: 'Heeft u vragen? Neem contact op met mevrouw Bakker van personeelszaken, tel: 078-631 45 00.'",
+          "explanationEn": "The letter says: 'Do you have questions? Contact Ms. Bakker from HR, tel: 078-631 45 00.'"
         }
       ]
     },
@@ -198,55 +198,55 @@
       "questions": [
         {
           "id": "a2-6-q13",
-          "text": "Hoelang is de kinderopvang gesloten met Pasen?",
+          "text": "Het kind van mevrouw Santos heeft op donderdag koorts van 38,8°C. Wil mevrouw Santos haar kind toch brengen naar de kinderopvang. Mag dat?",
           "options": [
-            "Eén dag",
-            "Twee dagen",
-            "Drie dagen",
-            "Vier dagen"
+            "Ja, want de kinderopvang kan medicijnen geven bij koorts.",
+            "Ja, maar alleen als het kind geen andere symptomen heeft.",
+            "Nee, want bij koorts boven 38,5°C mag het kind niet naar de opvang komen.",
+            "Nee, want de kinderopvang is op donderdag gesloten."
           ],
-          "correctIndex": 3,
-          "explanation": "De kinderopvang is gesloten van vrijdag 3 april tot en met maandag 6 april, dat zijn vier dagen.",
-          "explanationEn": "The daycare is closed from Friday April 3 through Monday April 6, which is four days."
+          "correctIndex": 2,
+          "explanation": "Het prikbord zegt: 'Bij koorts (boven 38,5°C), overgeven of besmettelijke ziekten mag uw kind niet komen.' De koorts van 38,8°C is boven de grens van 38,5°C.",
+          "explanationEn": "The notice board says: 'With fever (above 38.5°C), vomiting, or contagious illnesses, your child may not come.' The fever of 38.8°C is above the limit of 38.5°C."
         },
         {
           "id": "a2-6-q14",
-          "text": "Wanneer mag een ziek kind terugkomen naar de opvang?",
+          "text": "Het kind van meneer Yilmaz is drie dagen ziek geweest met koorts. Gisteren was zijn temperatuur voor het eerst normaal. Mag zijn kind vandaag weer naar de opvang?",
           "options": [
-            "Als het kind 24 uur koortsvrij is",
-            "Na een bezoek aan de dokter",
-            "Na drie dagen thuis",
-            "Als de ouders dat beslissen"
+            "Ja, want het kind is al drie dagen thuis geweest en dat is lang genoeg.",
+            "Ja, want het kind is gisteren al koortsvrij geworden en dat is 24 uur geleden.",
+            "Nee, want het kind moet minstens drie dagen koortsvrij zijn voordat het terug mag.",
+            "Nee, want het kind moet eerst naar de dokter voordat het terug kan."
           ],
-          "correctIndex": 0,
-          "explanation": "Het kind mag terugkomen als het 24 uur koortsvrij is.",
-          "explanationEn": "The child can return when they have been fever-free for 24 hours."
+          "correctIndex": 1,
+          "explanation": "Het prikbord zegt: 'Uw kind mag terugkomen als het 24 uur koortsvrij is.' Als gisteren de eerste koortsvrije dag was, is het kind nu 24 uur koortsvrij en mag het terug.",
+          "explanationEn": "The notice board says: 'Your child may return when it has been fever-free for 24 hours.' If yesterday was the first fever-free day, the child is now fever-free for 24 hours and may return."
         },
         {
           "id": "a2-6-q15",
-          "text": "Wat moeten ouders meegeven voor het buitenspelen in het bos?",
+          "text": "De dochter van mevrouw Pham gaat elke donderdag buitenspelen in het bos. Wat moet mevrouw Pham meegeven?",
           "options": [
-            "Een lunchpakket en drinken",
-            "Sportkleding en sportschoenen",
-            "Laarzen en een regenjas",
-            "Een rugzak en een pet"
+            "Een lunchpakket en extra drinken voor onderweg.",
+            "Sportschoenen en een warme jas.",
+            "Laarzen en een regenjas.",
+            "Een rugzak met reservekleding."
           ],
           "correctIndex": 2,
-          "explanation": "Ouders moeten laarzen en een regenjas meegeven voor het buitenspelen.",
-          "explanationEn": "Parents should provide rain boots and a raincoat for the outdoor play."
+          "explanation": "Het prikbord zegt: 'Voor het buitenspelen: geef uw kind laarzen en een regenjas mee.'",
+          "explanationEn": "The notice board says: 'For the outdoor play: give your child rain boots and a raincoat.'"
         },
         {
           "id": "a2-6-q16",
-          "text": "Binnen hoeveel dagen moet de factuur betaald worden?",
+          "text": "De heer Bakr ontvangt de factuur van februari op 5 maart. Voor welke datum moet hij betalen?",
           "options": [
-            "7 dagen",
-            "10 dagen",
-            "14 dagen",
-            "30 dagen"
+            "Hij moet uiterlijk 12 maart betalen.",
+            "Hij moet uiterlijk 19 maart betalen.",
+            "Hij moet uiterlijk 5 april betalen.",
+            "Hij moet uiterlijk 1 maart betalen."
           ],
-          "correctIndex": 2,
-          "explanation": "De factuur moet binnen 14 dagen na ontvangst betaald worden.",
-          "explanationEn": "The invoice must be paid within 14 days of receipt."
+          "correctIndex": 1,
+          "explanation": "De factuur wordt rond 5 maart verstuurd en moet binnen 14 dagen betaald worden. 5 maart + 14 dagen = uiterlijk 19 maart.",
+          "explanationEn": "The invoice is sent around March 5 and must be paid within 14 days. March 5 + 14 days = by March 19 at the latest."
         }
       ]
     },
@@ -259,55 +259,55 @@
       "questions": [
         {
           "id": "a2-6-q17",
-          "text": "Hoeveel bespaart elke graad lager op de verwarming?",
+          "text": "De heer Reza zet zijn verwarming normaal op 21 graden. Hij wil energie besparen door de verwarming twee graden lager te zetten. Hoeveel bespaart hij daarmee op zijn gasrekening?",
           "options": [
-            "Ongeveer 3%",
-            "Ongeveer 5%",
-            "Ongeveer 7%",
-            "Ongeveer 10%"
+            "Ongeveer 5% op zijn gasrekening.",
+            "Ongeveer 7% op zijn gasrekening.",
+            "Ongeveer 14% op zijn gasrekening.",
+            "Ongeveer 21% op zijn gasrekening."
           ],
           "correctIndex": 2,
-          "explanation": "Elke graad lager bespaart ongeveer 7% op de gasrekening.",
-          "explanationEn": "Each degree lower saves approximately 7% on the gas bill."
+          "explanation": "Het artikel zegt dat elke graad lager ongeveer 7% bespaart. Twee graden lager bespaart dus 2 x 7% = ongeveer 14%.",
+          "explanationEn": "The article says each degree lower saves approximately 7%. Two degrees lower therefore saves 2 x 7% = approximately 14%."
         },
         {
           "id": "a2-6-q18",
-          "text": "Hoeveel kun je per jaar besparen door korter te douchen?",
+          "text": "Mevrouw Li doucht nu elke dag 10 minuten. Ze wil korter douchen om geld te besparen. Hoeveel kan ze per jaar besparen als ze 5 minuten gaat douchen?",
           "options": [
-            "Ongeveer € 50,00",
-            "Ongeveer € 80,00",
-            "Ongeveer € 150,00",
-            "Ongeveer € 250,00"
+            "Ongeveer € 50,00 per jaar.",
+            "Ongeveer € 80,00 per jaar.",
+            "Ongeveer € 150,00 per jaar.",
+            "Ongeveer € 300,00 per jaar."
           ],
           "correctIndex": 2,
-          "explanation": "Korter douchen (5 minuten in plaats van 10) bespaart ongeveer € 150,00 per jaar.",
-          "explanationEn": "Showering shorter (5 minutes instead of 10) saves approximately €150.00 per year."
+          "explanation": "Het artikel zegt: 'Douche korter: 5 minuten in plaats van 10 minuten. Dat bespaart ongeveer € 150,00 per jaar.'",
+          "explanationEn": "The article says: 'Shower shorter: 5 minutes instead of 10 minutes. That saves approximately €150.00 per year.'"
         },
         {
           "id": "a2-6-q19",
-          "text": "Hoeveel minder stroom gebruiken led-lampen ten opzichte van oude lampen?",
+          "text": "De heer Okonkwo laat zijn televisie altijd op standby staan als hij slaapt. Een vriend zegt dat dit geld kost. Klopt dat en hoeveel kost het gemiddeld per jaar?",
           "options": [
-            "50% minder",
-            "60% minder",
-            "70% minder",
-            "80% minder"
+            "Ja dat klopt, standby kost een gemiddeld huishouden ongeveer € 80,00 per jaar.",
+            "Ja dat klopt, maar het kost maar een paar euro per jaar en is dus verwaarloosbaar.",
+            "Nee, moderne apparaten gebruiken geen stroom in standby-modus.",
+            "Ja dat klopt, standby kost een gemiddeld huishouden ongeveer € 150,00 per jaar."
           ],
-          "correctIndex": 3,
-          "explanation": "Led-lampen gebruiken 80% minder stroom dan oude lampen.",
-          "explanationEn": "LED bulbs use 80% less electricity than old bulbs."
+          "correctIndex": 0,
+          "explanation": "Het artikel zegt: 'Standby-verbruik kost een gemiddeld huishouden € 80,00 per jaar.' De vriend van de heer Okonkwo heeft gelijk.",
+          "explanationEn": "The article says: 'Standby consumption costs an average household €80.00 per year.' Mr. Okonkwo's friend is right."
         },
         {
           "id": "a2-6-q20",
-          "text": "Hoeveel subsidie kun je maximaal krijgen voor isolatie?",
+          "text": "Mevrouw Ngo wil haar dak laten isoleren en heeft gehoord dat de overheid geld teruggeeft. Hoeveel subsidie kan zij maximaal krijgen?",
           "options": [
-            "Tot € 1.000,00",
-            "Tot € 1.500,00",
-            "Tot € 2.000,00",
-            "Tot € 2.500,00"
+            "Tot € 1.000,00 terugkrijgen van de overheid.",
+            "Tot € 1.500,00 terugkrijgen van de overheid.",
+            "Tot € 2.000,00 terugkrijgen van de overheid.",
+            "Tot € 2.500,00 terugkrijgen van de overheid."
           ],
           "correctIndex": 3,
-          "explanation": "U kunt tot € 2.500,00 terugkrijgen als u uw dak of vloer laat isoleren.",
-          "explanationEn": "You can get up to €2,500.00 back if you have your roof or floor insulated."
+          "explanation": "Het artikel zegt: 'U kunt tot € 2.500,00 terugkrijgen als u uw dak of vloer laat isoleren.'",
+          "explanationEn": "The article says: 'You can get up to €2,500.00 back if you have your roof or floor insulated.'"
         }
       ]
     }

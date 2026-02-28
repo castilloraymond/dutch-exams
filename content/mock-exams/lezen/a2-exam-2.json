@@ -15,55 +15,55 @@
       "questions": [
         {
           "id": "a2-2-q1",
-          "text": "Hoeveel uur per week moet je kunnen werken?",
+          "text": "Jamal is 17 jaar en wil solliciteren bij Albert Heijn. Kan hij de baan krijgen?",
           "options": [
-            "10 uur",
-            "15 uur",
-            "20 uur",
-            "40 uur"
+            "Ja, want er is geen leeftijdseis voor deze functie.",
+            "Nee, want hij moet minimaal 18 jaar oud zijn.",
+            "Ja, maar hij mag dan maar 10 uur per week werken.",
+            "Nee, want hij spreekt niet goed genoeg Nederlands."
           ],
-          "correctIndex": 2,
-          "explanation": "Je moet 20 uur per week kunnen werken.",
-          "explanationEn": "You must be able to work 20 hours per week."
+          "correctIndex": 1,
+          "explanation": "De vacature zegt dat je minimaal 18 jaar moet zijn. Jamal is 17, dus hij kan de baan niet krijgen.",
+          "explanationEn": "The vacancy states you must be at least 18 years old. Jamal is 17, so he cannot get the job."
         },
         {
           "id": "a2-2-q2",
-          "text": "Wat is het salaris per uur?",
+          "text": "Samira werkt 20 uur per week bij Albert Heijn. Welk voordeel krijgt zij op haar boodschappen?",
           "options": [
-            "€ 11,50",
-            "€ 12,50",
-            "€ 13,50",
-            "€ 14,50"
+            "Ze krijgt 5% korting op alle boodschappen.",
+            "Ze krijgt 10% korting op boodschappen.",
+            "Ze krijgt 15% korting, maar alleen op bepaalde producten.",
+            "Ze krijgt geen korting, alleen een hoger salaris."
           ],
-          "correctIndex": 2,
-          "explanation": "Het salaris is € 13,50 per uur.",
-          "explanationEn": "The salary is €13.50 per hour."
+          "correctIndex": 1,
+          "explanation": "Albert Heijn biedt 10% korting op boodschappen als arbeidsvoorwaarde.",
+          "explanationEn": "Albert Heijn offers a 10% discount on groceries as an employment benefit."
         },
         {
           "id": "a2-2-q3",
-          "text": "Hoe oud moet je minimaal zijn?",
+          "text": "Thomas wil solliciteren. Hij wil zijn interesse laten weten. Wat moet hij doen?",
           "options": [
-            "16 jaar",
-            "17 jaar",
-            "18 jaar",
-            "21 jaar"
+            "Hij moet langsgaan bij de winkel en vragen naar de manager.",
+            "Hij moet bellen naar het nummer op de vacature.",
+            "Hij moet zijn CV sturen naar vacatures@ah-utrecht.nl.",
+            "Hij moet een brief sturen naar het hoofdkantoor van Albert Heijn."
           ],
           "correctIndex": 2,
-          "explanation": "Je moet minimaal 18 jaar zijn.",
-          "explanationEn": "You must be at least 18 years old."
+          "explanation": "Onderaan de vacature staat: stuur je CV naar vacatures@ah-utrecht.nl.",
+          "explanationEn": "At the bottom of the vacancy it says: send your CV to vacatures@ah-utrecht.nl."
         },
         {
           "id": "a2-2-q4",
-          "text": "Hoeveel korting krijg je op boodschappen?",
+          "text": "Welke eigenschap wordt NIET gevraagd in de vacature?",
           "options": [
-            "5%",
-            "10%",
-            "15%",
-            "20%"
+            "Je spreekt goed Nederlands.",
+            "Je hebt ervaring in de horeca.",
+            "Je bent vriendelijk en geduldig.",
+            "Je kunt 20 uur per week werken."
           ],
           "correctIndex": 1,
-          "explanation": "Je krijgt 10% korting op boodschappen.",
-          "explanationEn": "You get a 10% discount on groceries."
+          "explanation": "Horecaervaring wordt nergens in de vacature gevraagd. De eisen zijn: goed Nederlands, minimaal 18 jaar, 20 uur/week beschikbaar, vriendelijk en geduldig.",
+          "explanationEn": "Hospitality experience is not mentioned anywhere in the vacancy. The requirements are: good Dutch, at least 18 years old, available 20 hours/week, friendly and patient."
         }
       ]
     },
@@ -76,55 +76,55 @@
       "questions": [
         {
           "id": "a2-2-q5",
-          "text": "Wanneer wordt het plastic opgehaald?",
+          "text": "Sofia heeft plastic flessen en lege blikjes. Op welke dag en in welke bak moet ze dit buiten zetten?",
           "options": [
-            "Maandag",
-            "Dinsdag",
-            "Woensdag",
-            "Vrijdag"
+            "Op maandag in de grijze bak.",
+            "Op woensdag in de oranje bak.",
+            "Op vrijdag in de blauwe bak.",
+            "Op woensdag in de grijze bak."
           ],
-          "correctIndex": 2,
-          "explanation": "Op woensdag wordt plastic en blik opgehaald.",
-          "explanationEn": "On Wednesday, plastic and cans are collected."
+          "correctIndex": 1,
+          "explanation": "Plastic en blik worden opgehaald op woensdag. Daarvoor gebruik je de oranje bak.",
+          "explanationEn": "Plastic and cans are collected on Wednesday. You use the orange bin for this."
         },
         {
           "id": "a2-2-q6",
-          "text": "Waar moet je GFT-afval brengen?",
+          "text": "Ahmed heeft groente- en fruitresten. Wat moet hij hiermee doen volgens de brief?",
           "options": [
-            "In de grijze bak",
-            "Naar het gemeentehuis",
-            "Naar de container op het Marktplein",
-            "In de oranje bak"
+            "Hij moet het in de grijze restafvalbak gooien.",
+            "Hij moet het op maandag buiten zetten in de oranje bak.",
+            "Hij moet het zelf naar de GFT-container op het Marktplein brengen.",
+            "Hij moet bellen naar de gemeente om het te laten ophalen."
           ],
           "correctIndex": 2,
-          "explanation": "GFT-afval kun je naar de GFT-container op het Marktplein brengen.",
-          "explanationEn": "You can bring organic waste to the organic waste container at the Market Square."
+          "explanation": "GFT-afval (groente, fruit, tuin) kun je zelf naar de GFT-container op het Marktplein brengen.",
+          "explanationEn": "Organic waste (vegetables, fruit, garden) you can bring yourself to the organic waste container at the Market Square."
         },
         {
           "id": "a2-2-q7",
-          "text": "Wanneer mag je je afval buiten zetten?",
+          "text": "Mia wil haar vuilnisbak op dinsdag om 19:00 uur buiten zetten. Mag dat?",
           "options": [
-            "'s Morgens vroeg",
-            "Na 18:00 uur",
-            "Na 20:00 uur",
-            "Wanneer je wilt"
+            "Ja, want ze zet hem een dag van tevoren buiten zodat hij zeker wordt geleegd.",
+            "Nee, want afval mag pas na 20:00 uur buiten worden gezet.",
+            "Ja, want er zijn geen regels over het tijdstip.",
+            "Nee, want op dinsdag wordt er geen afval opgehaald en mag de bak ook niet buiten."
           ],
-          "correctIndex": 2,
-          "explanation": "Je mag je afval pas na 20:00 uur buiten zetten.",
-          "explanationEn": "You may only put your waste outside after 20:00."
+          "correctIndex": 1,
+          "explanation": "Afval mag pas na 20:00 uur buiten worden gezet, ongeacht de dag.",
+          "explanationEn": "Waste may only be put outside after 20:00, regardless of the day."
         },
         {
           "id": "a2-2-q8",
-          "text": "Wat gebeurt er als je bak te vol is?",
+          "text": "Carlos zet zijn grijze bak buiten op maandag. De bak is heel vol. Wat zal er waarschijnlijk gebeuren?",
           "options": [
-            "Je krijgt een grotere bak",
-            "De bak wordt toch geleegd",
-            "De bak wordt niet geleegd",
-            "Je krijgt een boete"
+            "De gemeente leegt de bak en stuurt hem een brief.",
+            "Hij krijgt een grotere bak bezorgd.",
+            "De bak wordt niet geleegd omdat hij te vol is.",
+            "De gemeente leegt de bak maar hij krijgt een boete."
           ],
           "correctIndex": 2,
-          "explanation": "Overvolle bakken worden niet geleegd.",
-          "explanationEn": "Overfull bins will not be emptied."
+          "explanation": "Overvolle bakken worden niet geleegd, staat er in de brief.",
+          "explanationEn": "Overfull bins will not be emptied, according to the letter."
         }
       ]
     },
@@ -137,55 +137,55 @@
       "questions": [
         {
           "id": "a2-2-q9",
-          "text": "Welke sporten zijn het populairst?",
+          "text": "Leila sport 2 keer per week. Past dat bij het gemiddelde voor volwassenen in Nederland?",
           "options": [
-            "Voetbal en tennis",
-            "Wandelen en fietsen",
-            "Zwemmen en hardlopen",
-            "Yoga en fitness"
+            "Nee, want volwassenen sporten gemiddeld 3 keer per week.",
+            "Ja, want volwassenen sporten gemiddeld 2 keer per week.",
+            "Nee, want volwassenen sporten gemiddeld maar 1 keer per week.",
+            "Ja, maar alleen als ze ook wandelen of fietsen."
           ],
           "correctIndex": 1,
-          "explanation": "Vooral wandelen en fietsen zijn populair.",
-          "explanationEn": "Walking and cycling are especially popular."
+          "explanation": "Volwassenen sporten gemiddeld 2 keer per week. Leila past precies bij dit gemiddelde.",
+          "explanationEn": "Adults exercise on average 2 times per week. Leila fits exactly this average."
         },
         {
           "id": "a2-2-q10",
-          "text": "Hoe vaak sporten volwassenen gemiddeld?",
+          "text": "Volgens het artikel: waarom gaan de meeste mensen sporten?",
           "options": [
-            "1 keer per week",
-            "2 keer per week",
-            "3 keer per week",
-            "4 keer per week"
+            "Omdat ze vrienden willen maken en gezelligheid zoeken.",
+            "Omdat ze willen afvallen en er beter uit willen zien.",
+            "Omdat ze gezond willen blijven.",
+            "Omdat de gemeente dit verplicht heeft gesteld."
           ],
-          "correctIndex": 1,
-          "explanation": "Volwassenen sporten gemiddeld 2 keer per week.",
-          "explanationEn": "Adults exercise on average 2 times per week."
+          "correctIndex": 2,
+          "explanation": "De meeste mensen sporten om gezond te blijven, aldus het artikel.",
+          "explanationEn": "Most people exercise to stay healthy, according to the article."
         },
         {
           "id": "a2-2-q11",
-          "text": "Waarom sporten de meeste mensen?",
+          "text": "Karim heeft weinig geld maar wil graag sporten. Wat kan hij doen volgens het artikel?",
           "options": [
-            "Om geld te verdienen",
-            "Om vrienden te maken",
-            "Om gezond te blijven",
-            "Om beroemd te worden"
+            "Hij kan alleen wandelen of fietsen, want andere sporten zijn te duur.",
+            "Hij kan gebruik maken van goedkope sportabonnementen of gratis sportlessen in het park.",
+            "Hij kan contact opnemen met het sportcentrum voor een persoonlijk aanbod.",
+            "Hij kan een lening aanvragen bij de gemeente voor een sportabonnement."
           ],
-          "correctIndex": 2,
-          "explanation": "De meeste mensen sporten om gezond te blijven.",
-          "explanationEn": "Most people exercise to stay healthy."
+          "correctIndex": 1,
+          "explanation": "De gemeente biedt goedkope sportabonnementen voor mensen met weinig geld en er zijn gratis sportlessen in het park.",
+          "explanationEn": "The municipality offers affordable sports subscriptions for people with little money and there are free sports lessons in the park."
         },
         {
           "id": "a2-2-q12",
-          "text": "Wie sport er vaker: mannen of vrouwen?",
+          "text": "Welke twee sporten worden in het artikel als populairst beschreven?",
           "options": [
-            "Mannen sporten vaker",
-            "Vrouwen sporten vaker",
-            "Ze sporten even vaak",
-            "Staat niet in het artikel"
+            "Voetbal en tennis zijn de populairst beoefende sporten.",
+            "Zwemmen en hardlopen zijn de meest populaire activiteiten.",
+            "Wandelen en fietsen zijn de populairste sporten.",
+            "Fitness en yoga scoren het hoogst in het onderzoek."
           ],
-          "correctIndex": 0,
-          "explanation": "Mannen sporten iets vaker dan vrouwen.",
-          "explanationEn": "Men exercise slightly more often than women."
+          "correctIndex": 2,
+          "explanation": "Het artikel zegt: 'Vooral wandelen en fietsen zijn populair.'",
+          "explanationEn": "The article says: 'Walking and cycling are especially popular.'"
         }
       ]
     },
@@ -198,55 +198,55 @@
       "questions": [
         {
           "id": "a2-2-q13",
-          "text": "Hoeveel gram bloem heb je nodig?",
+          "text": "Tariq volgt het recept. Hij heeft de bloem, eieren en melk gemengd en het zout toegevoegd. Wat moet hij daarna doen?",
           "options": [
-            "150 gram",
-            "200 gram",
-            "250 gram",
-            "300 gram"
+            "Hij moet direct boter verhitten in een pan en gaan bakken.",
+            "Hij moet het beslag 30 minuten laten rusten voordat hij verder gaat.",
+            "Hij moet nog 500 ml melk extra toevoegen en opnieuw roeren.",
+            "Hij moet de eieren er apart van bakken en daarna mengen."
           ],
-          "correctIndex": 2,
-          "explanation": "Je hebt 250 gram bloem nodig.",
-          "explanationEn": "You need 250 grams of flour."
+          "correctIndex": 1,
+          "explanation": "Na het mengen en het zout toevoegen, moet het beslag 30 minuten rusten. Daarna pas verhit je de boter.",
+          "explanationEn": "After mixing and adding salt, the batter must rest for 30 minutes. Only then do you heat the butter."
         },
         {
           "id": "a2-2-q14",
-          "text": "Hoeveel eieren gebruik je?",
+          "text": "Voor hoeveel personen is dit recept bedoeld?",
           "options": [
-            "2",
-            "3",
-            "4",
-            "5"
+            "Het recept is bedoeld voor 2 personen.",
+            "Het recept is bedoeld voor 3 personen.",
+            "Het recept is bedoeld voor 4 personen.",
+            "Het recept is bedoeld voor 6 personen."
           ],
-          "correctIndex": 1,
-          "explanation": "Je gebruikt 3 eieren.",
-          "explanationEn": "You use 3 eggs."
+          "correctIndex": 2,
+          "explanation": "De titel zegt: 'Nederlandse pannenkoeken (voor 4 personen)'.",
+          "explanationEn": "The title says: 'Dutch pancakes (for 4 persons)'."
         },
         {
           "id": "a2-2-q15",
-          "text": "Hoe lang moet het beslag rusten?",
+          "text": "In welke volgorde worden de ingrediënten aan de kom toegevoegd?",
           "options": [
-            "10 minuten",
-            "20 minuten",
-            "30 minuten",
-            "1 uur"
+            "Eerst melk, dan eieren, dan bloem, dan zout.",
+            "Eerst bloem, dan eieren, dan melk, dan zout.",
+            "Eerst eieren, dan bloem, dan zout, dan melk.",
+            "Eerst zout, dan bloem, dan melk, dan eieren."
           ],
-          "correctIndex": 2,
-          "explanation": "Het beslag moet 30 minuten rusten.",
-          "explanationEn": "The batter needs to rest for 30 minutes."
+          "correctIndex": 1,
+          "explanation": "Stap 1 is bloem in de kom. Stap 2 is eieren toevoegen. Stap 3 is langzaam de melk toevoegen. Stap 4 is het zout toevoegen.",
+          "explanationEn": "Step 1 is flour in the bowl. Step 2 is adding eggs. Step 3 is slowly adding the milk. Step 4 is adding the salt."
         },
         {
           "id": "a2-2-q16",
-          "text": "Wat doe je als laatste voordat je gaat bakken?",
+          "text": "Nour bakt pannenkoeken. Ze gaat de pannenkoek in de pan leggen. Hoe weet ze wanneer de pannenkoek klaar is?",
           "options": [
-            "Eieren toevoegen",
-            "Melk toevoegen",
-            "Het beslag laten rusten",
-            "Boter verhitten"
+            "De pannenkoek is klaar als hij 10 minuten in de pan heeft gelegen.",
+            "De pannenkoek is klaar als hij aan beide kanten goudbruin is.",
+            "De pannenkoek is klaar als alle boter uit de pan is verdwenen.",
+            "De pannenkoek is klaar als hij aan één kant bruin is."
           ],
-          "correctIndex": 3,
-          "explanation": "Na het rusten verhit je een beetje boter in een pan voordat je gaat bakken.",
-          "explanationEn": "After resting, you heat a little butter in a pan before you start cooking."
+          "correctIndex": 1,
+          "explanation": "Het recept zegt: 'bak de pannenkoek aan beide kanten goudbruin'.",
+          "explanationEn": "The recipe says: 'bake the pancake until golden brown on both sides'."
         }
       ]
     },
@@ -259,55 +259,55 @@
       "questions": [
         {
           "id": "a2-2-q17",
-          "text": "Wanneer krijgen de kinderen hun rapport?",
+          "text": "Fatima wil een oudergesprek plannen voor haar dochter. Hoe moet ze dit doen en wanneer uiterlijk?",
           "options": [
-            "15 februari",
-            "16 februari",
-            "17 februari",
-            "18 februari"
+            "Ze moet bellen naar school en een afspraak maken vóór 17 februari.",
+            "Ze moet een brief sturen naar de school vóór 16 februari.",
+            "Ze moet online een tijd kiezen via www.ouderportaal.nl vóór 10 februari.",
+            "Ze moet op 17 februari naar school komen zonder afspraak."
           ],
-          "correctIndex": 1,
-          "explanation": "Op 16 februari gaat het rapport mee naar huis.",
-          "explanationEn": "On February 16, the report card goes home."
+          "correctIndex": 2,
+          "explanation": "U kunt online een tijd kiezen via www.ouderportaal.nl. Dit moet vóór 10 februari.",
+          "explanationEn": "You can choose a time online at www.ouderportaal.nl. This must be done before February 10."
         },
         {
           "id": "a2-2-q18",
-          "text": "Hoe lang duurt een oudergesprek?",
+          "text": "De zoon van meneer De Vries zit in groep 4. Wat moet meneer De Vries meegeven na de vakantie?",
           "options": [
-            "5 minuten",
-            "10 minuten",
-            "15 minuten",
-            "20 minuten"
+            "Een ingevuld formulier en schoolgeld voor het nieuwe kwartaal.",
+            "Zwemkleding en een handdoek voor de zwemlessen.",
+            "Een doktersverklaring voor deelname aan zwemlessen.",
+            "Een nieuw gymtasje en sportschoenen."
           ],
           "correctIndex": 1,
-          "explanation": "De oudergesprekken duren 10 minuten per kind.",
-          "explanationEn": "The parent-teacher meetings last 10 minutes per child."
+          "explanation": "Na de vakantie starten de zwemlessen voor groep 4. De brief vraagt om zwemkleding en een handdoek mee te geven.",
+          "explanationEn": "After the vacation, swimming lessons start for group 4. The letter asks to bring swimwear and a towel."
         },
         {
           "id": "a2-2-q19",
-          "text": "Wanneer begint de school weer na de vakantie?",
+          "text": "Op welke dag krijgen de kinderen hun rapport mee naar huis?",
           "options": [
-            "24 februari",
-            "25 februari",
-            "26 februari",
-            "27 februari"
+            "Op 15 februari, de dag voor de uitreiking.",
+            "Op 16 februari gaat het rapport mee naar huis.",
+            "Op 17 februari, na de oudergesprekken.",
+            "Op 18 februari, de laatste dag voor de vakantie."
           ],
-          "correctIndex": 2,
-          "explanation": "De school begint weer op 26 februari.",
-          "explanationEn": "School starts again on February 26."
+          "correctIndex": 1,
+          "explanation": "Volgens de brief gaat het rapport op 16 februari mee naar huis.",
+          "explanationEn": "According to the letter, the report card goes home on February 16."
         },
         {
           "id": "a2-2-q20",
-          "text": "Voor welke groep beginnen de zwemlessen?",
+          "text": "Hoe lang is de school gesloten tijdens de voorjaarsvakantie?",
           "options": [
-            "Groep 3",
-            "Groep 4",
-            "Groep 5",
-            "Groep 6"
+            "De school is 3 dagen gesloten, van 19 tot en met 21 februari.",
+            "De school is 5 dagen gesloten, van 19 tot en met 23 februari.",
+            "De school is 7 dagen gesloten, van 18 tot en met 24 februari.",
+            "De school is 1 week gesloten, van 17 tot en met 23 februari."
           ],
           "correctIndex": 1,
-          "explanation": "Na de vakantie starten de zwemlessen voor groep 4.",
-          "explanationEn": "After the vacation, swimming lessons start for group 4."
+          "explanation": "De school is gesloten van 19 tot en met 23 februari. Dat zijn 5 dagen: maandag tot en met vrijdag.",
+          "explanationEn": "The school is closed from February 19 through 23. That is 5 days: Monday through Friday."
         }
       ]
     }

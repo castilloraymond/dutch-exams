@@ -15,51 +15,51 @@
       "questions": [
         {
           "id": "a2-1-q1",
-          "text": "Op welke dagen is de cursus?",
+          "text": "Kwame werkt elke dinsdag en donderdag. Hij wil de taalcursus volgen. Kan hij komen?",
           "options": [
-            "Maandag en woensdag",
-            "Dinsdag en donderdag",
-            "Woensdag en vrijdag",
-            "Zaterdag en zondag"
+            "Ja, want de cursus is op maandag en woensdag, dus hij heeft geen conflict.",
+            "Nee, want de cursus is elke dinsdag en donderdag, en hij werkt dan.",
+            "Ja, want hij kan de lessen op zaterdag inhalen.",
+            "Nee, want de cursus is al vol en er is geen plek meer."
           ],
           "correctIndex": 1,
-          "explanation": "De cursus is elke dinsdag en donderdag.",
-          "explanationEn": "The course is every Tuesday and Thursday."
+          "explanation": "De cursus is elke dinsdag en donderdag. Kwame werkt op die dagen, dus hij kan niet komen.",
+          "explanationEn": "The course is every Tuesday and Thursday. Kwame works on those days, so he cannot attend."
         },
         {
           "id": "a2-1-q2",
-          "text": "Hoeveel kost de cursus per maand?",
+          "text": "Fatima wil de cursus volgen maar heeft maar € 40 per maand. Kan ze de cursus betalen?",
           "options": [
-            "€ 25",
-            "€ 40",
-            "€ 50",
-            "€ 75"
+            "Ja, want de cursus kost € 40 per maand.",
+            "Ja, want de cursus is gratis voor mensen met weinig geld.",
+            "Nee, want de cursus kost € 50 per maand en dat is meer dan ze heeft.",
+            "Nee, want de cursus kost € 75 per maand."
           ],
           "correctIndex": 2,
-          "explanation": "De cursus kost € 50 per maand.",
-          "explanationEn": "The course costs €50 per month."
+          "explanation": "De cursus kost € 50 per maand. Fatima heeft maar € 40, dus ze kan de cursus niet betalen.",
+          "explanationEn": "The course costs €50 per month. Fatima only has €40, so she cannot pay for the course."
         },
         {
           "id": "a2-1-q3",
-          "text": "Hoeveel mensen zitten er maximaal in een groep?",
+          "text": "Amir wil zich inschrijven voor de cursus. Wat moet hij doen?",
           "options": [
-            "5",
-            "8",
-            "10",
-            "15"
+            "Hij moet naar het gemeentehuis gaan en een formulier invullen.",
+            "Hij moet maandag naar Buurthuis De Vlinder komen voor een gesprek.",
+            "Hij moet een e-mail sturen naar info@taalcursus.nl of bellen naar 020-1234567.",
+            "Hij moet eerst een toets doen om te kijken of hij goed genoeg is."
           ],
           "correctIndex": 2,
-          "explanation": "De groepen zijn klein: maximaal 10 personen.",
-          "explanationEn": "The groups are small: a maximum of 10 people."
+          "explanation": "Je kunt je inschrijven via info@taalcursus.nl of door te bellen naar 020-1234567.",
+          "explanationEn": "You can register via info@taalcursus.nl or by calling 020-1234567."
         },
         {
           "id": "a2-1-q4",
-          "text": "Wat krijgt u na de cursus?",
+          "text": "Saida heeft de taalcursus afgerond. Wat heeft ze nu?",
           "options": [
-            "Geld terug",
-            "Een diploma",
-            "Een certificaat",
-            "Een gratis les"
+            "Ze heeft een diploma van het ministerie van Onderwijs.",
+            "Ze heeft niets, want de cursus geeft geen bewijs.",
+            "Ze heeft een certificaat van de cursus.",
+            "Ze heeft automatisch toegang tot een vervolgcursus."
           ],
           "correctIndex": 2,
           "explanation": "Na de cursus krijgt u een certificaat.",
@@ -76,55 +76,55 @@
       "questions": [
         {
           "id": "a2-1-q5",
-          "text": "Waarom krijgt meneer Van der Berg deze brief?",
+          "text": "Meneer Van der Berg ontvangt deze brief. Waarom heeft hij de brief gekregen?",
           "options": [
-            "Zijn rijbewijs is verlopen",
-            "Zijn paspoort is bijna verlopen",
-            "Hij moet belasting betalen",
-            "Hij moet verhuizen"
+            "Zijn rijbewijs is verlopen en hij moet een nieuw aanvragen.",
+            "Zijn paspoort is bijna verlopen en hij moet actie ondernemen.",
+            "Hij moet belasting betalen voor het nieuwe jaar.",
+            "Hij moet zijn adres doorgeven aan de gemeente."
           ],
           "correctIndex": 1,
-          "explanation": "De brief zegt dat het paspoort bijna verlopen is.",
-          "explanationEn": "The letter says that the passport is almost expired."
+          "explanation": "De brief zegt dat het paspoort bijna verlopen is op 15 februari 2024.",
+          "explanationEn": "The letter says the passport is almost expired on February 15, 2024."
         },
         {
           "id": "a2-1-q6",
-          "text": "Wat moet je eerst doen voor een nieuw paspoort?",
+          "text": "Meneer Van der Berg wil een nieuw paspoort aanvragen. Wat is de eerste stap?",
           "options": [
-            "Naar het gemeentehuis gaan",
-            "Een foto maken",
-            "Online een afspraak maken",
-            "Bellen naar de gemeente"
+            "Hij moet direct naar het gemeentehuis gaan zonder afspraak.",
+            "Hij moet een pasfoto laten maken bij de fotograaf.",
+            "Hij moet eerst online een afspraak maken via www.amsterdam.nl.",
+            "Hij moet bellen naar de gemeente om te vragen wat hij moet doen."
           ],
           "correctIndex": 2,
-          "explanation": "Je moet eerst online een afspraak maken.",
-          "explanationEn": "You must first make an appointment online."
+          "explanation": "Je moet eerst online een afspraak maken via www.amsterdam.nl.",
+          "explanationEn": "You must first make an appointment online at www.amsterdam.nl."
         },
         {
           "id": "a2-1-q7",
-          "text": "Hoeveel kost een nieuw paspoort?",
+          "text": "Meneer Van der Berg gaat naar het gemeentehuis. Wat moet hij meenemen?",
           "options": [
-            "€ 55,80",
-            "€ 65,80",
-            "€ 75,80",
-            "€ 85,80"
+            "Zijn nieuwe pasfoto, geld en een kopie van zijn huurcontract.",
+            "Zijn oude paspoort, een recente pasfoto en € 75,80 voor pinbetaling.",
+            "Zijn identiteitskaart, een pasfoto en contant geld.",
+            "Alleen zijn identiteitskaart, want zijn oude paspoort is verlopen."
           ],
-          "correctIndex": 2,
-          "explanation": "Een nieuw paspoort kost € 75,80.",
-          "explanationEn": "A new passport costs €75.80."
+          "correctIndex": 1,
+          "explanation": "Je moet meenemen: je oude paspoort, een recente pasfoto en € 75,80 (pinbetaling).",
+          "explanationEn": "You must bring: your old passport, a recent passport photo, and €75.80 (card payment)."
         },
         {
           "id": "a2-1-q8",
-          "text": "Hoe lang duurt het voordat het paspoort klaar is?",
+          "text": "Meneer Van der Berg heeft dinsdag zijn paspoort aangevraagd. Wanneer is het paspoort waarschijnlijk klaar?",
           "options": [
-            "1 dag",
-            "3 werkdagen",
-            "5 werkdagen",
-            "10 werkdagen"
+            "Dezelfde dag nog, want de gemeente werkt snel.",
+            "Na 2 werkdagen, dus donderdag.",
+            "Na 3 werkdagen, dus vrijdag.",
+            "Na ongeveer 5 werkdagen, dus de week daarna."
           ],
-          "correctIndex": 2,
-          "explanation": "De levertijd is ongeveer 5 werkdagen.",
-          "explanationEn": "The delivery time is approximately 5 business days."
+          "correctIndex": 3,
+          "explanation": "De levertijd is ongeveer 5 werkdagen. Als hij dinsdag aanvraagt, is het na 5 werkdagen klaar.",
+          "explanationEn": "The delivery time is approximately 5 working days. If he applies on Tuesday, it will be ready after 5 working days."
         }
       ]
     },
@@ -137,55 +137,55 @@
       "questions": [
         {
           "id": "a2-1-q9",
-          "text": "Tot hoe laat mag je lawaai maken?",
+          "text": "Yusuf heeft een feestje en zijn vrienden maken veel lawaai. Het is 23:00 uur. Is dit toegestaan?",
           "options": [
-            "20:00 uur",
-            "21:00 uur",
-            "22:00 uur",
-            "23:00 uur"
+            "Ja, want het feestje is in zijn eigen appartement en dat is zijn eigen ruimte.",
+            "Ja, want het is alleen in het weekend verboden om lawaai te maken.",
+            "Nee, want het is na 22:00 uur en lawaai is dan verboden.",
+            "Nee, want feestjes zijn helemaal verboden in dit complex."
           ],
           "correctIndex": 2,
-          "explanation": "Na 22:00 uur mag je geen lawaai meer maken.",
-          "explanationEn": "After 22:00 you are not allowed to make noise."
+          "explanation": "Na 22:00 uur mag je geen lawaai meer maken. Het is 23:00, dus dit is niet toegestaan.",
+          "explanationEn": "After 22:00 you are not allowed to make noise. It is 23:00, so this is not permitted."
         },
         {
           "id": "a2-1-q10",
-          "text": "Hoeveel katten mag je maximaal hebben?",
+          "text": "Maria heeft twee honden en één kat. Wil ze in dit complex wonen. Is dat mogelijk?",
           "options": [
-            "1",
-            "2",
-            "3",
-            "Geen"
+            "Ja, want ze heeft minder dan vijf huisdieren in totaal.",
+            "Ja, want twee honden en een kat is minder dan het maximum.",
+            "Nee, want ze mag maximaal één hond hebben, en twee honden is te veel.",
+            "Nee, want katten zijn helemaal niet toegestaan in dit complex."
           ],
-          "correctIndex": 1,
-          "explanation": "Je mag maximaal 1 hond of 2 katten hebben.",
-          "explanationEn": "You may have a maximum of 1 dog or 2 cats."
+          "correctIndex": 2,
+          "explanation": "Je mag maximaal 1 hond of 2 katten hebben. Maria heeft 2 honden, dat is te veel.",
+          "explanationEn": "You may have a maximum of 1 dog or 2 cats. Maria has 2 dogs, which is too many."
         },
         {
           "id": "a2-1-q11",
-          "text": "Waar moet je je fiets zetten?",
+          "text": "Omar zet zijn fiets elke avond in de gang bij zijn appartement. Klopt dit?",
           "options": [
-            "In de gang",
-            "In de fietsenstalling",
-            "In de tuin",
-            "In je appartement"
+            "Ja, want hij woont op de begane grond en dat is dicht bij de ingang.",
+            "Ja, want de fietsenstalling 's avonds gesloten is.",
+            "Nee, want fietsen horen in de fietsenstalling, niet in de gang.",
+            "Nee, want fietsen moeten buiten voor het gebouw staan."
           ],
-          "correctIndex": 1,
-          "explanation": "Fietsen horen in de fietsenstalling, niet in de gang.",
-          "explanationEn": "Bicycles belong in the bicycle storage, not in the hallway."
+          "correctIndex": 2,
+          "explanation": "Fietsen horen in de fietsenstalling, niet in de gang. Omar doet het dus fout.",
+          "explanationEn": "Bicycles belong in the bicycle storage, not in the hallway. Omar is therefore doing it wrong."
         },
         {
           "id": "a2-1-q12",
-          "text": "Mag je roken in de gezamenlijke ruimtes?",
+          "text": "Lena wil een sigaret roken in de lift van het appartementencomplex. Is dit toegestaan?",
           "options": [
-            "Ja, overal",
-            "Ja, alleen buiten",
-            "Nee, dat is verboden",
-            "Alleen met toestemming"
+            "Ja, want roken is alleen verboden buiten voor het gebouw.",
+            "Ja, als de andere mensen in de lift het goed vinden.",
+            "Nee, want roken in de gezamenlijke ruimtes is verboden.",
+            "Nee, maar ze mag wel roken in de trappenhal."
           ],
           "correctIndex": 2,
-          "explanation": "Roken in de gezamenlijke ruimtes is verboden.",
-          "explanationEn": "Smoking in the shared spaces is prohibited."
+          "explanation": "Roken in de gezamenlijke ruimtes is verboden. De lift is een gezamenlijke ruimte.",
+          "explanationEn": "Smoking in communal areas is prohibited. The elevator is a communal area."
         }
       ]
     },
@@ -198,55 +198,55 @@
       "questions": [
         {
           "id": "a2-1-q13",
-          "text": "Hoeveel kilometer aan fietspaden zijn er in Nederland?",
+          "text": "Nadia fietst 's avonds in het donker naar huis zonder verlichting. Wat kan er gebeuren?",
           "options": [
-            "Meer dan 15.000 km",
-            "Meer dan 25.000 km",
-            "Meer dan 35.000 km",
-            "Meer dan 50.000 km"
+            "Niets, want verlichting is niet verplicht voor volwassenen.",
+            "Ze kan een boete krijgen van € 55 omdat verlichting verplicht is.",
+            "Ze krijgt een waarschuwing van de politie maar geen boete.",
+            "Ze kan een boete krijgen van € 35 als de politie haar ziet."
           ],
-          "correctIndex": 2,
-          "explanation": "Er zijn meer dan 35.000 kilometer aan fietspaden in Nederland.",
-          "explanationEn": "There are more than 35,000 kilometers of bicycle paths in the Netherlands."
+          "correctIndex": 1,
+          "explanation": "Verlichting is verplicht in het donker. Als je zonder licht fietst, kun je een boete van € 55 krijgen.",
+          "explanationEn": "Lighting is mandatory in the dark. If you cycle without lights, you can get a fine of €55."
         },
         {
           "id": "a2-1-q14",
-          "text": "Waarom is fietsen goed volgens het artikel?",
+          "text": "David wil elke dag naar zijn werk gaan maar wil niet in de file staan. Wat adviseert het artikel?",
           "options": [
-            "Het is goedkoop en gezond",
-            "Het is snel",
-            "Je kunt overal parkeren",
-            "Je krijgt geen boetes"
+            "Hij moet de trein nemen, want die staat nooit in de file.",
+            "Hij moet fietsen, want je staat niet in de file en je hoeft geen benzine te kopen.",
+            "Hij moet vroeger vertrekken zodat hij de file vermijdt.",
+            "Hij moet een elektrische scooter kopen, want die is sneller dan een fiets."
           ],
-          "correctIndex": 0,
-          "explanation": "Fietsen is gezond en goed voor het milieu. Je hoeft geen benzine te kopen.",
-          "explanationEn": "Cycling is healthy and good for the environment. You don't need to buy gasoline."
+          "correctIndex": 1,
+          "explanation": "Het artikel zegt dat fietsen gezond en goed is: je hoeft geen benzine te kopen en je staat niet in de file.",
+          "explanationEn": "The article says cycling is healthy and good: you don't need to buy petrol and you don't get stuck in traffic."
         },
         {
           "id": "a2-1-q15",
-          "text": "Hoeveel boete kun je krijgen als je zonder licht fietst?",
+          "text": "Faisal rijdt op zijn fiets en ziet een rood verkeerslicht. Wat moet hij doen?",
           "options": [
-            "€ 35",
-            "€ 45",
-            "€ 55",
-            "€ 95"
+            "Hij mag doorrijden als er geen auto's aankomen.",
+            "Hij mag doorrijden want fietsers hoeven niet te stoppen bij rood.",
+            "Hij moet stoppen en wachten totdat het licht groen is.",
+            "Hij moet afstappen en lopen totdat hij het licht voorbij is."
           ],
           "correctIndex": 2,
-          "explanation": "Als je zonder licht fietst, kun je een boete krijgen van € 55.",
-          "explanationEn": "If you cycle without lights, you can get a fine of €55."
+          "explanation": "Ook fietsers moeten stoppen bij een rood verkeerslicht.",
+          "explanationEn": "Cyclists must also stop at a red traffic light."
         },
         {
           "id": "a2-1-q16",
-          "text": "Wat is verplicht als je in het donker fietst?",
+          "text": "Welke twee voordelen van fietsen noemt het artikel voor iemand die elke dag naar werk gaat?",
           "options": [
-            "Een helm",
-            "Een reflecterend vest",
-            "Verlichting",
-            "Een bel"
+            "Je kunt overal parkeren en je rijdt altijd sneller dan de bus.",
+            "Fietsen is gezond en goed voor het milieu, en je hoeft geen benzine te kopen.",
+            "Je krijgt geen boetes en je kunt gratis gebruik maken van de fietspaden.",
+            "Fietsen is gratis en je hebt nooit een kapotte fiets."
           ],
-          "correctIndex": 2,
-          "explanation": "Je moet altijd verlichting gebruiken in het donker. Dit is verplicht!",
-          "explanationEn": "You must always use lights in the dark. This is mandatory!"
+          "correctIndex": 1,
+          "explanation": "Het artikel noemt: fietsen is gezond en goed voor het milieu, en je hoeft geen benzine te kopen.",
+          "explanationEn": "The article mentions: cycling is healthy and good for the environment, and you don't need to buy petrol."
         }
       ]
     },
@@ -259,55 +259,55 @@
       "questions": [
         {
           "id": "a2-1-q17",
-          "text": "Wat gaat het team doen op het uitje?",
+          "text": "Ahmed wil zijn partner meenemen naar het teamuitje. Is dat mogelijk?",
           "options": [
-            "Naar de film en eten",
-            "Bowlen en eten",
-            "Wandelen en eten",
-            "Zwemmen en eten"
+            "Nee, het uitje is alleen voor medewerkers van het team.",
+            "Ja, maar hij moet er extra voor betalen aan Linda.",
+            "Ja, partners zijn welkom bij het uitje.",
+            "Nee, tenzij zijn partner ook bij het bedrijf werkt."
           ],
-          "correctIndex": 1,
-          "explanation": "Ze gaan bowlen en daarna eten in een restaurant.",
-          "explanationEn": "They are going bowling and then eating at a restaurant."
-        },
-        {
-          "id": "a2-1-q18",
-          "text": "Hoe laat begint het bowlen?",
-          "options": [
-            "14:00",
-            "14:30",
-            "15:00",
-            "17:00"
-          ],
-          "correctIndex": 1,
-          "explanation": "Om 14:30 gaan ze bowlen bij Bowling City.",
-          "explanationEn": "At 14:30 they go bowling at Bowling City."
-        },
-        {
-          "id": "a2-1-q19",
-          "text": "Mogen partners ook mee?",
-          "options": [
-            "Nee, alleen collega's",
-            "Ja, partners zijn welkom",
-            "Alleen als er plek is",
-            "Staat niet in de e-mail"
-          ],
-          "correctIndex": 1,
+          "correctIndex": 2,
           "explanation": "Linda schrijft: Partners zijn ook welkom!",
           "explanationEn": "Linda writes: Partners are also welcome!"
         },
         {
-          "id": "a2-1-q20",
-          "text": "Wanneer moet je doorgeven of je komt?",
+          "id": "a2-1-q18",
+          "text": "Het team vertrekt om 14:00 uur vanaf kantoor. Hoe laat begint het bowlen?",
           "options": [
-            "Voor dinsdag",
-            "Voor woensdag",
-            "Voor donderdag",
-            "Op vrijdag"
+            "Om 14:00 uur direct als ze vertrekken.",
+            "Om 14:30 uur na het reizen van kantoor naar Bowling City.",
+            "Om 15:00 uur want ze moeten eerst koffiedrinken.",
+            "Om 17:00 uur na het diner."
           ],
           "correctIndex": 1,
-          "explanation": "Je moet voor woensdag doorgeven of je komt.",
-          "explanationEn": "You must let them know by Wednesday if you are coming."
+          "explanation": "Om 14:30 gaan ze bowlen bij Bowling City. Het vertrek is om 14:00 vanaf kantoor.",
+          "explanationEn": "At 14:30 they go bowling at Bowling City. Departure is at 14:00 from the office."
+        },
+        {
+          "id": "a2-1-q19",
+          "text": "Rania wil komen maar weet nog niet of haar man mee kan. Wanneer moet ze het doorgeven en wat moet ze zeggen?",
+          "options": [
+            "Ze hoeft niets door te geven; ze kan gewoon komen op de dag zelf.",
+            "Ze moet het voor woensdag doorgeven of ze komt en met hoeveel personen.",
+            "Ze moet het voor donderdag doorgeven alleen of ze zelf komt.",
+            "Ze moet het voor vrijdag doorgeven aan het begin van de dag."
+          ],
+          "correctIndex": 1,
+          "explanation": "Linda vraagt iedereen voor woensdag door te geven of ze komen en met hoeveel personen.",
+          "explanationEn": "Linda asks everyone to let her know by Wednesday whether they are coming and with how many people."
+        },
+        {
+          "id": "a2-1-q20",
+          "text": "Omar heeft de e-mail gelezen. Wat is het doel van deze e-mail van Linda?",
+          "options": [
+            "Linda wil geld inzamelen van het team voor het uitje.",
+            "Linda informeert het team over het uitje en vraagt iedereen om te reageren.",
+            "Linda stelt een nieuwe collega voor aan het team.",
+            "Linda vraagt of iemand haar kan helpen het uitje te organiseren."
+          ],
+          "correctIndex": 1,
+          "explanation": "Linda informeert het team over het teamuitje (programma, details) en vraagt iedereen voor woensdag te reageren.",
+          "explanationEn": "Linda informs the team about the outing (program, details) and asks everyone to respond by Wednesday."
         }
       ]
     }

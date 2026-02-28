@@ -15,16 +15,16 @@
       "questions": [
         {
           "id": "b1-4-q1",
-          "text": "Hoeveel ouderdomspensioen heeft de heer Bakker tot nu toe opgebouwd?",
+          "text": "De heer Bakker vraagt zich af wanneer hij zijn opgebouwde pensioen zal ontvangen en of het het enige inkomen is dat hij dan krijgt. Wat vertelt de brief hem?",
           "options": [
-            "\u20ac 14.820 netto per jaar",
-            "\u20ac 14.820 bruto per jaar",
-            "\u20ac 14.820 bruto per maand",
-            "\u20ac 14.820 netto per maand"
+            "Hij ontvangt zijn pensioen pas als hij 70 jaar is, en dan is het zijn enige inkomen.",
+            "Hij ontvangt zijn pensioen vanaf 67 jaar en 3 maanden, bovenop zijn AOW-uitkering van de overheid.",
+            "Hij ontvangt zijn pensioen al vanaf zijn 65e, maar alleen als hij stopt met werken.",
+            "Hij ontvangt zijn pensioen zodra hij 30 jaar in dienst is bij Thuiszorg Amsterdam."
           ],
           "correctIndex": 1,
-          "explanation": "De brief vermeldt dat de heer Bakker een jaarlijks ouderdomspensioen heeft opgebouwd van \u20ac 14.820 bruto.",
-          "explanationEn": "The letter states that Mr. Bakker has built up an annual retirement pension of \u20ac14,820 gross."
+          "explanation": "De brief vermeldt dat hij het pensioen ontvangt vanaf pensioenleeftijd 67 jaar en 3 maanden, bovenop de AOW-uitkering.",
+          "explanationEn": "The letter states he will receive the pension from retirement age 67 years and 3 months, on top of the AOW benefit."
         },
         {
           "id": "b1-4-q2",
@@ -54,16 +54,16 @@
         },
         {
           "id": "b1-4-q4",
-          "text": "Welk percentage van het ouderdomspensioen ontvangt een nabestaande bij overlijden?",
+          "text": "De heer Bakker heeft een vaste partner maar zij zijn niet getrouwd en hebben geen geregistreerd partnerschap. Wat moet hij doen om er zeker van te zijn dat zijn partner recht heeft op nabestaandenpensioen?",
           "options": [
-            "50%",
-            "60%",
-            "70%",
-            "100%"
+            "Hij hoeft niets te doen; het nabestaandenpensioen wordt automatisch aan de langstlevende partner uitgekeerd.",
+            "Hij moet trouwen of een geregistreerd partnerschap aangaan voor zijn pensioendatum.",
+            "Hij moet zijn partner aanmelden bij het pensioenfonds om het recht op nabestaandenpensioen veilig te stellen.",
+            "Hij moet een extra levensverzekering afsluiten, want zijn partner heeft geen recht op pensioen."
           ],
           "correctIndex": 2,
-          "explanation": "De brief vermeldt dat de partner bij overlijden recht heeft op een nabestaandenpensioen van 70% van het opgebouwde ouderdomspensioen.",
-          "explanationEn": "The letter states that the partner is entitled to a survivor's pension of 70% of the accrued retirement pension."
+          "explanation": "De brief vermeldt dat als u niet getrouwd bent en geen geregistreerd partnerschap heeft, u uw partner moet aanmelden bij het pensioenfonds.",
+          "explanationEn": "The letter states that if you are not married and have no registered partnership, you must register your partner with the pension fund."
         },
         {
           "id": "b1-4-q5",
@@ -163,16 +163,16 @@
       "questions": [
         {
           "id": "b1-4-q11",
-          "text": "Voor kinderen tot welke leeftijd geldt de kinderopvangtoeslag?",
+          "text": "Mevrouw Li werkt en haar dochter van 11 jaar gaat naar de buitenschoolse opvang. Komt zij in aanmerking voor kinderopvangtoeslag?",
           "options": [
-            "Tot 4 jaar",
-            "Tot 8 jaar",
-            "Tot 12 jaar",
-            "Tot 16 jaar"
+            "Nee, want de buitenschoolse opvang wordt niet vergoed door kinderopvangtoeslag.",
+            "Nee, want de toeslag geldt alleen voor kinderen tot 8 jaar.",
+            "Ja, want haar dochter van 11 jaar valt nog binnen de leeftijdsgrens van 12 jaar.",
+            "Ja, maar alleen als haar dochter op een geregistreerde basisschool zit."
           ],
           "correctIndex": 2,
-          "explanation": "De brochure vermeldt dat de toeslag geldt voor kinderen tot 12 jaar.",
-          "explanationEn": "The brochure states that the subsidy applies to children up to 12 years old."
+          "explanation": "De brochure vermeldt dat de toeslag geldt voor kinderen tot 12 jaar. De dochter van 11 jaar valt daar dus binnen.",
+          "explanationEn": "The brochure states the benefit applies to children up to 12 years old. The 11-year-old daughter therefore qualifies."
         },
         {
           "id": "b1-4-q12",
