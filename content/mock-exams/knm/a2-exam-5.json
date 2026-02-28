@@ -5,526 +5,487 @@
   "difficulty": "A2",
   "questionCount": 40,
   "recommendedTime": "30 min",
+  "isFreePreview": false,
   "questions": [
     {
       "id": "knm-a2-5-q1",
-      "text": "Wat staat er in een arbeidscontract?",
+      "text": "Lars wil weten hoe de Nederlandse democratie werkt. Zijn kind vraagt hem: hoeveel kamers heeft het parlement van Nederland?",
       "options": [
-        "Alleen je naam en adres",
-        "Je salaris, werktijden en functie",
-        "Alleen het adres van het bedrijf",
-        "Je medische gegevens"
+        "Eén kamer",
+        "Drie kamers: de Tweede Kamer, de Eerste Kamer en de Derde Kamer",
+        "Twee kamers: de Tweede Kamer en de Eerste Kamer"
       ],
-      "correctIndex": 1,
-      "explanation": "In een arbeidscontract staan afspraken over je salaris, werktijden, functie, vakantiedagen en andere arbeidsvoorwaarden.",
-      "explanationEn": "An employment contract contains agreements about your salary, working hours, job title, vacation days, and other employment conditions."
+      "correctIndex": 2,
+      "explanation": "Het Nederlandse parlement (de Staten-Generaal) bestaat uit twee kamers: de Tweede Kamer (150 leden) en de Eerste Kamer (75 leden). De Tweede Kamer heeft de meeste politieke macht.",
+      "explanationEn": "The Dutch parliament (States-General) consists of two chambers: the House of Representatives (150 members) and the Senate (75 members). The House of Representatives has the most political power."
     },
     {
       "id": "knm-a2-5-q2",
-      "text": "Wat is het minimumloon in Nederland?",
+      "text": "Fatima wil stemmen bij de Tweede Kamerverkiezingen. Ze wil weten hoe oud ze moet zijn om te mogen stemmen. Wat is de minimumleeftijd?",
       "options": [
-        "Het laagste bedrag dat een werkgever per uur mag betalen volgens de wet",
-        "Het gemiddelde salaris in Nederland",
-        "Het hoogste salaris dat je kunt verdienen",
-        "Het bedrag dat je aan belasting betaalt"
+        "16 jaar",
+        "18 jaar",
+        "21 jaar"
       ],
-      "correctIndex": 0,
-      "explanation": "Het minimumloon is het laagste bedrag dat een werkgever wettelijk verplicht is te betalen. Het wordt twee keer per jaar aangepast.",
-      "explanationEn": "The minimum wage is the lowest amount an employer is legally required to pay. It is adjusted twice a year."
+      "correctIndex": 1,
+      "explanation": "In Nederland mag je stemmen bij Tweede Kamerverkiezingen als je 18 jaar of ouder bent en de Nederlandse nationaliteit hebt.",
+      "explanationEn": "In the Netherlands you may vote in general elections if you are 18 years or older and hold Dutch nationality."
     },
     {
       "id": "knm-a2-5-q3",
-      "text": "Wat moet je doen als je ziek bent en niet kunt werken?",
+      "text": "Omar heeft gehoord dat de Eerste Kamer minder macht heeft dan de Tweede Kamer. Wat kan de Eerste Kamer wél doen maar niet?",
       "options": [
-        "Je hoeft niets te doen",
-        "Je gaat gewoon naar je werk",
-        "Je belt je werkgever om je ziek te melden",
-        "Je stuurt een brief naar de gemeente"
+        "Wetten van de Tweede Kamer goedkeuren of afwijzen, maar niet zelf wijzigen",
+        "De minister-president ontslaan",
+        "Wetten zelf indienen"
       ],
-      "correctIndex": 2,
-      "explanation": "Als je ziek bent, moet je je zo snel mogelijk ziek melden bij je werkgever. De werkgever betaalt je loon door tijdens ziekte (minimaal 70%).",
-      "explanationEn": "When you are sick, you must report your illness to your employer as soon as possible. The employer continues to pay your salary during illness (at least 70%)."
+      "correctIndex": 0,
+      "explanation": "De Eerste Kamer kan wetten die door de Tweede Kamer zijn aangenomen goedkeuren of verwerpen, maar kan ze niet zelf wijzigen of nieuwe wetten indienen. Daardoor wordt het ook de 'Senaat' of 'chambre de réflexion' (reflectiekamer) genoemd.",
+      "explanationEn": "The Senate can approve or reject bills passed by the House of Representatives, but cannot amend them or introduce new bills itself. That's why it is also called the 'chambre de réflexion' (reflection chamber)."
     },
     {
       "id": "knm-a2-5-q4",
-      "text": "Waar kun je je inschrijven als je werkloos wordt?",
+      "text": "Nadia wil begrijpen hoe een minister-president aan de macht komt. Na de verkiezingen begint het proces om een nieuwe regering te vormen. Hoe heet de persoon die dit proces begeleidt?",
       "options": [
-        "Bij de huisarts",
-        "Bij de school",
-        "Bij de woningcorporatie",
-        "Bij het UWV"
+        "De Nationale Ombudsman",
+        "De premier ad interim",
+        "De informateur of formateur"
       ],
-      "correctIndex": 3,
-      "explanation": "Als je werkloos wordt, kun je je inschrijven bij het UWV (Uitvoeringsinstituut Werknemersverzekeringen). Het UWV helpt je bij het zoeken naar werk en je kunt een WW-uitkering aanvragen.",
-      "explanationEn": "When you become unemployed, you can register with the UWV (Employee Insurance Agency). The UWV helps you find work and you can apply for unemployment benefits."
+      "correctIndex": 2,
+      "explanation": "Na verkiezingen wordt eerst een informateur aangesteld die onderzoekt welke partijen kunnen samenwerken. Daarna zoekt een formateur de samenwerking uit. Ten slotte wordt een nieuw kabinet gevormd.",
+      "explanationEn": "After elections, an informateur is first appointed to investigate which parties can work together. Then a formateur works out the cooperation. Finally, a new cabinet is formed."
     },
     {
       "id": "knm-a2-5-q5",
-      "text": "Hoeveel vakantiedagen heb je minimaal per jaar bij een fulltime baan in Nederland?",
+      "text": "Bas leest dat Nederland een coalitieregering heeft. Wat betekent dat?",
       "options": [
-        "10 dagen",
-        "15 dagen",
-        "20 dagen",
-        "30 dagen"
+        "Dat meerdere partijen samen een meerderheid vormen en gezamenlijk regeren",
+        "Dat de koning zelf de ministers kiest",
+        "Dat één partij de absolute meerderheid heeft en alleen regeert"
       ],
-      "correctIndex": 2,
-      "explanation": "Bij een fulltime baan heb je wettelijk recht op minimaal 20 vakantiedagen per jaar (4 keer het aantal werkdagen per week).",
-      "explanationEn": "With a full-time job, you are legally entitled to at least 20 vacation days per year (4 times the number of working days per week)."
+      "correctIndex": 0,
+      "explanation": "Nederland heeft een coalitieregering omdat nooit één partij een absolute meerderheid behaalt. Meerdere partijen moeten samenwerken en een regeerakkoord sluiten om samen te kunnen regeren.",
+      "explanationEn": "The Netherlands has a coalition government because no single party ever achieves an absolute majority. Multiple parties must cooperate and conclude a coalition agreement to govern together."
     },
     {
       "id": "knm-a2-5-q6",
-      "text": "Wat is een huurcontract?",
+      "text": "Mia wil weten wat er op Prinsjesdag gebeurt. Ze hoort dat dit een bijzondere dag is. Wat wordt er op Prinsjesdag gedaan?",
       "options": [
-        "Een contract om een auto te kopen",
-        "Een schriftelijke afspraak tussen huurder en verhuurder over het huren van een woning",
-        "Een contract bij de bank voor een lening",
-        "Een document van de gemeente over je adres"
+        "De verjaardag van de kroonprins wordt gevierd",
+        "De koning leest de Troonrede voor en presenteert de plannen voor het komende jaar (begroting)",
+        "De Tweede Kamer kiest een nieuwe minister-president"
       ],
       "correctIndex": 1,
-      "explanation": "Een huurcontract is een schriftelijke overeenkomst tussen de huurder en de verhuurder. Hierin staan afspraken over de huurprijs, de woning en de rechten en plichten.",
-      "explanationEn": "A rental contract is a written agreement between the tenant and the landlord. It contains agreements about the rent, the property, and rights and obligations."
+      "explanation": "Prinsjesdag is de derde dinsdag van september. De koning rijdt in de Gouden Koets naar de Ridderzaal en leest de Troonrede voor. Daarin staan de plannen van de regering voor het komende jaar en de rijksbegroting.",
+      "explanationEn": "Budget Day (Prinsjesdag) is the third Tuesday of September. The king rides in the Golden Carriage to the Hall of Knights and reads the Speech from the Throne. It outlines the government's plans for the coming year and the national budget."
     },
     {
       "id": "knm-a2-5-q7",
-      "text": "Wat is een woningcorporatie?",
+      "text": "Lars hoort dat Nederland 12 provincies heeft. Welk orgaan bestuurt een provincie?",
       "options": [
-        "Een bedrijf dat huizen bouwt en verkoopt aan rijke mensen",
-        "Een organisatie die sociale huurwoningen verhuurt aan mensen met een lager inkomen",
-        "Een afdeling van de politie",
-        "Een winkel waar je meubels koopt"
+        "Het Rijk en de minister van Binnenlandse Zaken",
+        "De Provinciale Staten en de Gedeputeerde Staten",
+        "De gemeenteraad"
       ],
       "correctIndex": 1,
-      "explanation": "Een woningcorporatie is een organisatie die betaalbare sociale huurwoningen aanbiedt, vooral voor mensen met een lager inkomen.",
-      "explanationEn": "A housing corporation is an organization that offers affordable social rental housing, especially for people with lower incomes."
+      "explanation": "Een provincie wordt bestuurd door Provinciale Staten (het gekozen volksvertegenwoordiging) en het dagelijks bestuur heet Gedeputeerde Staten. De Commissaris van de Koning leidt het dagelijks bestuur.",
+      "explanationEn": "A province is governed by Provincial States (the elected representatives) and the day-to-day board is called Executive Council (Gedeputeerde Staten). The King's Commissioner leads the day-to-day administration."
     },
     {
       "id": "knm-a2-5-q8",
-      "text": "Wat zegt het energielabel van een woning?",
+      "text": "Fatima woont in een gemeente en wil weten wie er lokale beslissingen neemt. Welk orgaan bepaalt het beleid in een gemeente?",
       "options": [
-        "Hoe groot de woning is",
-        "Hoeveel kamers de woning heeft",
-        "Hoe energiezuinig de woning is",
-        "Hoe oud de woning is"
+        "De minister van Binnenlandse Zaken",
+        "De provincieraad",
+        "De gemeenteraad"
       ],
       "correctIndex": 2,
-      "explanation": "Het energielabel geeft aan hoe energiezuinig een woning is. Label A is heel zuinig, label G is niet zuinig. Dit heeft invloed op je energiekosten.",
-      "explanationEn": "The energy label indicates how energy-efficient a house is. Label A is very efficient, label G is not efficient. This affects your energy costs."
+      "explanation": "De gemeenteraad is het hoogste democratische orgaan in een gemeente. Raadsleden worden gekozen door de inwoners. Het dagelijks bestuur wordt gevormd door het college van burgemeester en wethouders (B&W).",
+      "explanationEn": "The municipal council is the highest democratic body in a municipality. Council members are elected by residents. The day-to-day administration consists of the board of mayor and aldermen."
     },
     {
       "id": "knm-a2-5-q9",
-      "text": "Wat is huurtoeslag?",
+      "text": "Omar weet dat de burgemeester een gemeente leidt. Hoe wordt een burgemeester in Nederland aangesteld?",
       "options": [
-        "Extra huur die je moet betalen aan de verhuurder",
-        "Geld dat je betaalt voor een parkeerplaats",
-        "Een toeslag van de overheid om je huur te helpen betalen als je een laag inkomen hebt",
-        "Een verzekering voor je huurwoning"
+        "Benoemd door de Tweede Kamer",
+        "Direct gekozen door de inwoners van de gemeente",
+        "Benoemd door de Kroon (de koning op voordracht van de minister van Binnenlandse Zaken)"
       ],
       "correctIndex": 2,
-      "explanation": "Huurtoeslag is een bijdrage van de overheid voor mensen met een laag inkomen. Je kunt het aanvragen bij de Belastingdienst/Toeslagen.",
-      "explanationEn": "Huurtoeslag (rent subsidy) is a government contribution for people with a low income. You can apply for it at the Tax Authority/Benefits department."
+      "explanation": "In Nederland wordt een burgemeester niet direct gekozen. De burgemeester wordt benoemd door de Kroon: de minister van Binnenlandse Zaken stelt iemand voor, en de koning benoemt formeel. De gemeenteraad adviseert bij de benoeming.",
+      "explanationEn": "In the Netherlands, a mayor is not directly elected. The mayor is appointed by the Crown: the Minister of Interior Affairs proposes a candidate, and the king formally appoints. The municipal council advises on the appointment."
     },
     {
       "id": "knm-a2-5-q10",
-      "text": "Waar staat 'GWE' voor op je maandelijkse rekening?",
+      "text": "Nadia leest over het Nederlandse staatsbestel. Welke drie bestuurslagen zijn er in Nederland?",
       "options": [
-        "Gas, Water en Elektriciteit",
-        "Gemeente, Woning en Energie",
-        "Geld, Werk en Economie",
-        "Garantie, Woning en Eigendom"
+        "Rijk, provincies en waterschappen",
+        "Rijk, districten en wijken",
+        "Rijk, provincies en gemeenten"
       ],
-      "correctIndex": 0,
-      "explanation": "GWE staat voor Gas, Water en Elektriciteit. Dit zijn de basisvoorzieningen in je woning waarvoor je maandelijks betaalt.",
-      "explanationEn": "GWE stands for Gas, Water, and Electricity. These are the basic utilities in your home that you pay for monthly."
+      "correctIndex": 2,
+      "explanation": "Nederland kent drie bestuurslagen: het Rijk (nationale overheid), de provincies (12 stuks), en de gemeenten (ruim 340). Waterschappen bestaan ook maar zijn geen bestuurslaag in de klassieke zin.",
+      "explanationEn": "The Netherlands has three levels of government: the national government (Rijk), the provinces (12 in total), and the municipalities (over 340). Water boards (waterschappen) also exist but are not a classic level of government."
     },
     {
       "id": "knm-a2-5-q11",
-      "text": "Wat moet je doen als je in Nederland naar een specialist in het ziekenhuis wilt?",
+      "text": "Bas wil een klacht indienen over de overheid. Hij hoort dat er een speciale ombudsman is. Wat doet de Nationale Ombudsman?",
       "options": [
-        "Je gaat direct naar het ziekenhuis",
-        "Je belt 112",
-        "Je vraagt eerst een verwijzing aan je huisarts",
-        "Je belt de apotheek"
+        "De Nationale Ombudsman controleert de staatsuitgaven",
+        "De Nationale Ombudsman beslist over belastingkwesties",
+        "De Nationale Ombudsman onderzoekt klachten van burgers over de overheid"
       ],
       "correctIndex": 2,
-      "explanation": "In Nederland heb je een verwijzing van je huisarts nodig om naar een specialist in het ziekenhuis te gaan. De huisarts is altijd het eerste aanspreekpunt.",
-      "explanationEn": "In the Netherlands, you need a referral from your GP to see a specialist at the hospital. The GP is always the first point of contact."
+      "explanation": "De Nationale Ombudsman is een onafhankelijke instantie die klachten van burgers over de overheid behandelt. Als je vindt dat de overheid je oneerlijk heeft behandeld, kun je een klacht indienen.",
+      "explanationEn": "The National Ombudsman is an independent body that handles complaints from citizens about the government. If you feel the government has treated you unfairly, you can file a complaint."
     },
     {
       "id": "knm-a2-5-q12",
-      "text": "Wat is het 'eigen risico' bij de zorgverzekering?",
+      "text": "Mia hoort in het nieuws over de Raad van State. Wat is de taak van de Raad van State?",
       "options": [
-        "De premie die je elke maand betaalt",
-        "Het bedrag dat je zelf moet betalen voordat de verzekering de kosten vergoedt",
-        "De kosten voor een bezoek aan de huisarts",
-        "Het geld dat je terugkrijgt van de verzekering"
+        "De Raad van State kiest de formateur",
+        "De Raad van State adviseert de regering en Tweede Kamer over wetsvoorstellen en behandelt bestuursrechtelijke geschillen",
+        "De Raad van State is de hoogste rechter in strafzaken"
       ],
       "correctIndex": 1,
-      "explanation": "Het eigen risico is het bedrag dat je eerst zelf moet betalen aan zorgkosten voordat de zorgverzekering gaat betalen. De huisarts valt niet onder het eigen risico.",
-      "explanationEn": "The eigen risico (deductible) is the amount you must first pay yourself in healthcare costs before the insurance starts paying. GP visits are not subject to the deductible."
+      "explanation": "De Raad van State is het hoogste adviesorgaan van de overheid. Het adviseert over wetsvoorstellen en internationale verdragen. Ook is het de hoogste rechter in het bestuursrecht (geschillen tussen burgers en overheid).",
+      "explanationEn": "The Council of State is the highest advisory body of the government. It advises on legislative proposals and international treaties. It is also the highest court in administrative law (disputes between citizens and government)."
     },
     {
       "id": "knm-a2-5-q13",
-      "text": "Wat doet de GGD?",
+      "text": "Lars wil weten wat de rol van de koning is in Nederland. Is de koning politiek actief?",
       "options": [
-        "De GGD verkoopt medicijnen",
-        "De GGD is de gemeentelijke gezondheidsdienst die zorgt voor de publieke gezondheid",
-        "De GGD is een ziekenhuis voor ouderen",
-        "De GGD regelt je zorgverzekering"
+        "Ja, de koning heeft veel politieke macht en kan wetten tegenhouden",
+        "De koning heeft het recht om de Tweede Kamer te ontbinden wanneer hij wil",
+        "De koning heeft een ceremoniële rol; de politieke macht ligt bij de ministers die verantwoording afleggen aan het parlement"
       ],
-      "correctIndex": 1,
-      "explanation": "De GGD (Gemeentelijke Gezondheidsdienst) zorgt voor de publieke gezondheid. Ze geven vaccinaties, doen gezondheidsonderzoek en geven voorlichting.",
-      "explanationEn": "The GGD (Municipal Health Service) is responsible for public health. They provide vaccinations, conduct health screenings, and give health education."
+      "correctIndex": 2,
+      "explanation": "De Nederlandse koning heeft een ceremoniële rol. De ministers zijn politiek verantwoordelijk — zij leggen verantwoording af aan de Tweede Kamer. De koning is onschendbaar (niet persoonlijk verantwoordelijk voor beleid).",
+      "explanationEn": "The Dutch king has a ceremonial role. Ministers are politically responsible — they are accountable to the House of Representatives. The king is inviolable (not personally responsible for policy)."
     },
     {
       "id": "knm-a2-5-q14",
-      "text": "Welk telefoonnummer bel je bij een levensbedreigende situatie in Nederland?",
+      "text": "Fatima hoort dat politieke partijen een programma hebben. Wat staat er in een verkiezingsprogramma?",
       "options": [
-        "0800-1234",
-        "0900-8844",
-        "112",
-        "144"
+        "De plannen en beleid die de partij wil uitvoeren als ze aan de macht komen",
+        "De regels voor het lidmaatschap van de partij",
+        "De biografie van de lijsttrekker"
       ],
-      "correctIndex": 2,
-      "explanation": "Bij een levensbedreigende situatie bel je 112. Dit is het alarmnummer voor politie, brandweer en ambulance in heel Europa.",
-      "explanationEn": "In a life-threatening situation, you call 112. This is the emergency number for police, fire department, and ambulance across Europe."
+      "correctIndex": 0,
+      "explanation": "Een verkiezingsprogramma (of partijprogramma) bevat de standpunten, plannen en beleidsideeën van een politieke partij. Kiezers kunnen het programma lezen om te beslissen op welke partij ze stemmen.",
+      "explanationEn": "An election program (or party program) contains the positions, plans, and policy ideas of a political party. Voters can read the program to decide which party to vote for."
     },
     {
       "id": "knm-a2-5-q15",
-      "text": "Waar haal je medicijnen op die de huisarts heeft voorgeschreven?",
+      "text": "Omar wil weten wat een stembureau is. Op verkiezingsdag hoort hij dat hij naar een stembureau moet. Wat gebeurt er in een stembureau?",
       "options": [
-        "Bij de supermarkt",
-        "Bij het gemeentehuis",
-        "Bij de apotheek",
-        "Bij het ziekenhuis"
+        "Daar brengt u uw stem uit op een kandidaat of partij",
+        "Daar haalt u uw stempas op",
+        "Daar meld je je aan als nieuwe kiezer bij de gemeente"
       ],
-      "correctIndex": 2,
-      "explanation": "Medicijnen die de huisarts voorschrijft, haal je op bij de apotheek. De apotheker controleert of de medicijnen veilig zijn voor jou.",
-      "explanationEn": "Medications prescribed by the GP are picked up at the pharmacy. The pharmacist checks whether the medications are safe for you."
+      "correctIndex": 0,
+      "explanation": "In een stembureau brengt u uw stem uit. U toont uw identiteitsbewijs en stempas, ontvangt een stembiljet en stemt in een stemhokje. De stemming is geheim.",
+      "explanationEn": "In a polling station you cast your vote. You show your ID and voting card, receive a ballot paper, and vote in a voting booth. The vote is secret."
     },
     {
       "id": "knm-a2-5-q16",
-      "text": "Wanneer wordt Koningsdag gevierd in Nederland?",
+      "text": "Nadia wil weten hoe het mogelijk is dat Nederland zo veel politieke partijen heeft. Hoe is de zetelverdeling in de Tweede Kamer?",
       "options": [
-        "Op 5 mei",
-        "Op 27 april",
-        "Op 25 december",
-        "Op 1 januari"
+        "Op basis van evenredige vertegenwoordiging — elke partij krijgt zetels naar rato van het aantal stemmen",
+        "De vijf grootste partijen verdelen de 150 zetels gelijkmatig",
+        "Op basis van districtenstelsel — de partij met de meeste stemmen per district wint alle zetels"
       ],
-      "correctIndex": 1,
-      "explanation": "Koningsdag wordt gevierd op 27 april, de verjaardag van Koning Willem-Alexander. Het is een nationale feestdag met markten en festiviteiten.",
-      "explanationEn": "King's Day is celebrated on April 27th, the birthday of King Willem-Alexander. It is a national holiday with markets and festivities."
+      "correctIndex": 0,
+      "explanation": "Nederland gebruikt evenredige vertegenwoordiging. Elke partij die meer dan de kiesdeler haalt (ongeveer 0,67% van de stemmen) krijgt zetels. Dit bevordert het meerpartijenstelsel.",
+      "explanationEn": "The Netherlands uses proportional representation. Every party that gets more than the electoral quota (about 0.67% of votes) gets seats. This promotes the multi-party system."
     },
     {
       "id": "knm-a2-5-q17",
-      "text": "Wat wordt er op 4 mei herdacht in Nederland?",
+      "text": "Bas wil weten wat een motie van wantrouwen is. Hij hoort dat het kabinet gevallen is door zo'n motie. Wat is een motie van wantrouwen?",
       "options": [
-        "De verjaardag van de koning",
-        "Het einde van de Eerste Wereldoorlog",
-        "Alle slachtoffers van de Tweede Wereldoorlog en andere oorlogen",
-        "De oprichting van de Europese Unie"
+        "Een brief van de oppositie aan de formateur",
+        "Een verklaring van de minister-president dat hij zijn beleid wil veranderen",
+        "Een uitspraak van de Tweede Kamer dat ze geen vertrouwen meer heeft in een minister of het kabinet"
       ],
       "correctIndex": 2,
-      "explanation": "Op 4 mei is de Dodenherdenking. Dan herdenken Nederlanders alle slachtoffers van de Tweede Wereldoorlog en latere oorlogen. Om 20:00 uur zijn er twee minuten stilte.",
-      "explanationEn": "On May 4th is Remembrance Day. The Dutch commemorate all victims of World War II and later wars. At 8:00 PM, there are two minutes of silence."
+      "explanation": "Een motie van wantrouwen is een uitspraak van de Tweede Kamer dat ze geen vertrouwen meer heeft in een minister of het kabinet. Als de motie wordt aangenomen, moet de minister of het hele kabinet aftreden.",
+      "explanationEn": "A vote of no confidence is a statement by the House of Representatives that it no longer has confidence in a minister or the cabinet. If the motion is passed, the minister or the entire cabinet must resign."
     },
     {
       "id": "knm-a2-5-q18",
-      "text": "Wie was Willem van Oranje?",
+      "text": "Mia wil stemmen bij de gemeenteraadsverkiezingen maar is geen Nederlander — ze is EU-burger. Mag ze stemmen?",
       "options": [
-        "De eerste president van Nederland",
-        "De vader des vaderlands en leider van de opstand tegen Spanje",
-        "De burgemeester van Amsterdam in de 17e eeuw",
-        "De oprichter van de VOC"
+        "Nee, alleen Nederlandse staatsburgers mogen stemmen bij gemeenteraadsverkiezingen",
+        "Ja, alle inwoners van Nederland mogen stemmen, ongeacht nationaliteit",
+        "Ja, EU-burgers die in Nederland wonen mogen stemmen bij gemeenteraadsverkiezingen en Europese verkiezingen"
       ],
-      "correctIndex": 1,
-      "explanation": "Willem van Oranje wordt de 'Vader des Vaderlands' genoemd. Hij leidde de opstand tegen de Spaanse overheersing in de 16e eeuw.",
-      "explanationEn": "William of Orange is called the 'Father of the Fatherland.' He led the revolt against Spanish rule in the 16th century."
+      "correctIndex": 2,
+      "explanation": "EU-burgers die legaal in Nederland wonen, mogen stemmen bij gemeenteraadsverkiezingen en Europees Parlementsverkiezingen. Voor Tweede Kamerverkiezingen heb je de Nederlandse nationaliteit nodig.",
+      "explanationEn": "EU citizens who legally live in the Netherlands may vote in municipal council elections and European Parliament elections. For general elections you need Dutch nationality."
     },
     {
       "id": "knm-a2-5-q19",
-      "text": "Wat zijn polders?",
+      "text": "Lars hoort dat er naast de nationale overheid ook een Europees Parlement is. Waar zetelt het Europees Parlement?",
       "options": [
-        "Bergen in het zuiden van Nederland",
-        "Grote meren in het noorden",
-        "Stukken land die drooggemaakt zijn door het water weg te pompen",
-        "Bossen die door de overheid beschermd worden"
+        "In Brussel en Straatsburg",
+        "In Den Haag",
+        "In Genève"
       ],
-      "correctIndex": 2,
-      "explanation": "Polders zijn stukken land die onder de zeespiegel liggen en drooggemaakt zijn door het water weg te pompen. Waterschappen beheren het waterpeil.",
-      "explanationEn": "Polders are pieces of land that lie below sea level and have been reclaimed by pumping away the water. Water boards manage the water levels."
+      "correctIndex": 0,
+      "explanation": "Het Europees Parlement zetelt in twee steden: Straatsburg (Frankrijk) is de officiële zetel waar de plenaire vergaderingen plaatsvinden, en Brussel (België) waar de commissies vergaderen.",
+      "explanationEn": "The European Parliament sits in two cities: Strasbourg (France) is the official seat where plenary sessions take place, and Brussels (Belgium) where the committees meet."
     },
     {
       "id": "knm-a2-5-q20",
-      "text": "Wat was de VOC?",
+      "text": "Fatima wil weten wie de wetten ondertekent nadat ze door het parlement zijn aangenomen. Wie ondertekent wetten in Nederland?",
       "options": [
-        "Een Nederlandse voetbalclub",
-        "Een vakbond voor arbeiders",
-        "De Verenigde Oost-Indische Compagnie, een handelsonderneming die handel dreef met Azië",
-        "Een politieke partij uit de 18e eeuw"
+        "De minister-president",
+        "De Tweede Kamer",
+        "De koning, samen met de betrokken minister"
       ],
       "correctIndex": 2,
-      "explanation": "De VOC (Verenigde Oost-Indische Compagnie) was een Nederlandse handelsonderneming opgericht in 1602. Ze dreef handel met Azië en was een van de eerste multinationale bedrijven.",
-      "explanationEn": "The VOC (Dutch East India Company) was a Dutch trading company founded in 1602. It traded with Asia and was one of the first multinational companies."
+      "explanation": "Wetten worden officieel ondertekend door de koning én de betrokken minister. Dit heet de 'koninklijke handtekening' of 'contraseign'. De koning heeft geen politieke rol in dit proces.",
+      "explanationEn": "Laws are officially signed by the king and the relevant minister. This is called the 'royal signature' or 'countersign'. The king has no political role in this process."
     },
     {
       "id": "knm-a2-5-q21",
-      "text": "Hoe lang duurt de basisschool in Nederland?",
+      "text": "Omar wil een bezwaar maken bij de gemeente. De ambtenaar zegt dat hij dat schriftelijk moet doen. Hoe heet de procedure als je het niet eens bent met een besluit van de overheid?",
       "options": [
-        "6 jaar (groep 1 tot en met 6)",
-        "8 jaar (groep 1 tot en met 8)",
-        "5 jaar (groep 1 tot en met 5)",
-        "10 jaar (groep 1 tot en met 10)"
+        "Een bezwaarschrift indienen bij het bestuursorgaan",
+        "Een gerechtelijk bevel vragen bij de rechter",
+        "Een klacht indienen via de Ombudsman"
       ],
-      "correctIndex": 1,
-      "explanation": "De basisschool in Nederland duurt 8 jaar, van groep 1 tot en met groep 8. Kinderen beginnen meestal als ze 4 jaar oud zijn.",
-      "explanationEn": "Primary school in the Netherlands lasts 8 years, from group 1 through group 8. Children usually start when they are 4 years old."
+      "correctIndex": 0,
+      "explanation": "Als je het niet eens bent met een besluit van de overheid (bijv. afwijzing vergunning), kun je een bezwaarschrift indienen bij het bestuursorgaan zelf. Als dat niet helpt, kun je daarna naar de rechter (bestuursrecht).",
+      "explanationEn": "If you disagree with a government decision (e.g., permit rejection), you can submit an objection (bezwaarschrift) to the administrative body itself. If that doesn't help, you can go to court (administrative law)."
     },
     {
       "id": "knm-a2-5-q22",
-      "text": "Wat is de CITO-toets?",
+      "text": "Nadia wil een nieuwe weg aanleggen in haar gemeente stoppen. Ze wil meepraten over plannen. Hoe kunnen burgers officieel inspraak hebben op bouwplannen en bestemmingsplannen?",
       "options": [
-        "Een examen om je rijbewijs te halen",
-        "Een taaltoets voor inburgering",
-        "Een eindtoets in groep 8 die helpt bij de keuze voor het middelbaar onderwijs",
-        "Een examen voor de universiteit"
+        "Door een petitie te sturen naar de Eerste Kamer",
+        "Door naar de rechtbank te stappen",
+        "Via de inspraakprocedure of zienswijze bij de gemeente"
       ],
       "correctIndex": 2,
-      "explanation": "De CITO-toets (of doorstroomtoets) is een eindtoets in groep 8 van de basisschool. Het resultaat helpt bij het advies voor het niveau van het middelbaar onderwijs.",
-      "explanationEn": "The CITO test (or transition test) is a final test in group 8 of primary school. The result helps determine the recommendation for the level of secondary education."
+      "explanation": "Burgers kunnen via de zienswijzeprocedure bezwaar maken tegen ruimtelijke plannen. Als een gemeente een nieuw bestemmingsplan of bouwproject bekendmaakt, kan iedereen een zienswijze indienen.",
+      "explanationEn": "Citizens can object to spatial plans through the 'zienswijze' procedure. When a municipality announces a new zoning plan or construction project, anyone can submit a view."
     },
     {
       "id": "knm-a2-5-q23",
-      "text": "Wat is het verschil tussen MBO, HBO en WO?",
+      "text": "Bas hoort dat Nederland lid is van de NAVO. Wat is de NAVO?",
       "options": [
-        "MBO is beroepsonderwijs, HBO is hoger beroepsonderwijs, WO is wetenschappelijk onderwijs aan de universiteit",
-        "Het zijn drie verschillende basisscholen",
-        "MBO, HBO en WO zijn drie soorten middelbare scholen",
-        "Er is geen verschil, het zijn dezelfde opleiding"
+        "Een Europese handelsorganisatie",
+        "Een militaire alliantie van Westerse landen gericht op collectieve verdediging",
+        "Een VN-orgaan voor mensenrechten"
       ],
-      "correctIndex": 0,
-      "explanation": "MBO is middelbaar beroepsonderwijs (praktijkgericht), HBO is hoger beroepsonderwijs (hogeschool) en WO is wetenschappelijk onderwijs (universiteit).",
-      "explanationEn": "MBO is secondary vocational education (practical), HBO is higher professional education (university of applied sciences), and WO is academic education (university)."
+      "correctIndex": 1,
+      "explanation": "De NAVO (Noord-Atlantische Verdragsorganisatie) is een militair bondgenootschap van voornamelijk Westerse landen. Als één lid wordt aangevallen, komen de anderen te hulp (artikel 5).",
+      "explanationEn": "NATO (North Atlantic Treaty Organization) is a military alliance of mainly Western countries. If one member is attacked, the others come to its aid (Article 5)."
     },
     {
       "id": "knm-a2-5-q24",
-      "text": "Vanaf welke leeftijd is een kind in Nederland leerplichtig?",
+      "text": "Mia hoort in het nieuws dat er een nieuwe wet is aangenomen. Hoe verloopt het wetgevingsproces in grote lijnen in Nederland?",
       "options": [
-        "Vanaf 3 jaar",
-        "Vanaf 4 jaar",
-        "Vanaf 5 jaar",
-        "Vanaf 6 jaar"
+        "De koning schrijft een wet, de minister keurt het goed",
+        "De rechter beslist of een nieuwe wet ingevoerd wordt",
+        "De minister schrijft een wet, de Tweede Kamer keurt het goed, de Eerste Kamer ook, de koning ondertekent"
       ],
       "correctIndex": 2,
-      "explanation": "In Nederland zijn kinderen leerplichtig vanaf 5 jaar. De meeste kinderen gaan al naar school als ze 4 zijn, maar dat is niet verplicht.",
-      "explanationEn": "In the Netherlands, children are required to attend school from the age of 5. Most children already go to school at age 4, but that is not mandatory."
+      "explanation": "Een wetsvoorstel wordt ingediend (door de regering of een Kamerlid), behandeld en gestemd in de Tweede Kamer, daarna in de Eerste Kamer. Na goedkeuring tekenen de koning en minister. Dan wordt de wet gepubliceerd in het Staatsblad.",
+      "explanationEn": "A bill is submitted (by the government or a member of parliament), debated and voted on in the House of Representatives, then in the Senate. After approval, the king and minister sign it. The law is then published in the Official Gazette."
     },
     {
       "id": "knm-a2-5-q25",
-      "text": "Wie kiest de school voor een kind in Nederland?",
+      "text": "Lars wil een petitie indienen bij de Tweede Kamer. Hoeveel handtekeningen zijn minimaal nodig voor een petitie die officieel in behandeling wordt genomen?",
       "options": [
-        "De gemeente kiest de school",
-        "De ouders kiezen de school",
-        "De overheid wijst een school toe",
-        "Het kind moet naar de dichtstbijzijnde school"
+        "Elke petitie wordt behandeld, ongeacht het aantal handtekeningen",
+        "Minimaal 40.000 handtekeningen voor een burgerinitiatief aan de Tweede Kamer",
+        "Minimaal 100 handtekeningen"
       ],
       "correctIndex": 1,
-      "explanation": "In Nederland hebben ouders vrijheid van schoolkeuze. Ze mogen zelf kiezen naar welke school hun kind gaat, ongeacht richting (openbaar, religieus, etc.).",
-      "explanationEn": "In the Netherlands, parents have freedom of school choice. They may choose which school their child attends, regardless of the school's orientation (public, religious, etc.)."
+      "explanation": "Voor een burgerinitiatief dat de Tweede Kamer verplicht om het onderwerp te bespreken, zijn minimaal 40.000 geldige handtekeningen nodig. Voor een gewone petitie is er geen minimumgrens.",
+      "explanationEn": "For a citizen initiative that obliges the House of Representatives to discuss the subject, at least 40,000 valid signatures are needed. For a regular petition there is no minimum threshold."
     },
     {
       "id": "knm-a2-5-q26",
-      "text": "Zijn mannen en vrouwen gelijk in Nederland?",
+      "text": "Fatima wil weten wat de Tweede Kamer doet als het kabinet beleidsplannen heeft. Wat is de controlerende taak van de Tweede Kamer?",
       "options": [
-        "Nee, mannen hebben meer rechten",
-        "Ja, mannen en vrouwen zijn wettelijk gelijk en hebben dezelfde rechten",
-        "Alleen op het werk zijn ze gelijk",
-        "Alleen als ze getrouwd zijn"
+        "De Tweede Kamer schrijft zelf het regeerakkoord",
+        "De Tweede Kamer voert zelf wetten uit",
+        "De Tweede Kamer controleert of de regering haar beleid goed uitvoert en kan ministers ter verantwoording roepen"
       ],
-      "correctIndex": 1,
-      "explanation": "In Nederland zijn mannen en vrouwen wettelijk gelijk. Ze hebben dezelfde rechten, bijvoorbeeld op het gebied van werk, onderwijs en stemrecht. Dit staat in de Grondwet.",
-      "explanationEn": "In the Netherlands, men and women are legally equal. They have the same rights, for example in the areas of work, education, and voting. This is stated in the Constitution."
+      "correctIndex": 2,
+      "explanation": "De Tweede Kamer heeft een controlerende taak: ministers worden uitgenodigd om vragen te beantwoorden (interpellatie), er zijn debatten, en ministers moeten verantwoording afleggen over hun beleid.",
+      "explanationEn": "The House of Representatives has a supervisory role: ministers are invited to answer questions (interpellation), there are debates, and ministers must account for their policy."
     },
     {
       "id": "knm-a2-5-q27",
-      "text": "Wat is een belangrijke Nederlandse norm als het gaat om verschillende meningen en culturen?",
+      "text": "Omar heeft een brief gekregen van de gemeente. Hij wil weten hoeveel gemeenten er in Nederland zijn. Hoeveel gemeenten heeft Nederland (globaal)?",
       "options": [
-        "Iedereen moet hetzelfde denken",
-        "Je mag alleen je mening geven als de overheid het toestaat",
-        "Tolerantie: je respecteert dat andere mensen anders denken of leven",
-        "Je moet altijd het eens zijn met je buren"
+        "Precies 12 gemeenten",
+        "Ongeveer 340 gemeenten",
+        "Ongeveer 100 gemeenten"
       ],
-      "correctIndex": 2,
-      "explanation": "Tolerantie is een belangrijke waarde in Nederland. Je hoeft het niet met iedereen eens te zijn, maar je respecteert dat mensen anders kunnen denken of leven.",
-      "explanationEn": "Tolerance is an important value in the Netherlands. You don't have to agree with everyone, but you respect that people may think or live differently."
+      "correctIndex": 1,
+      "explanation": "Nederland heeft momenteel ruim 340 gemeenten. Dit aantal neemt af omdat gemeenten steeds vaker fuseren om efficiënter te kunnen werken.",
+      "explanationEn": "The Netherlands currently has over 340 municipalities. This number is decreasing as municipalities increasingly merge to work more efficiently."
     },
     {
       "id": "knm-a2-5-q28",
-      "text": "Je hebt een afspraak om 14:00 bij de tandarts. Wat wordt er van je verwacht?",
+      "text": "Nadia hoort dat de lokale verkiezingen in maart zijn. Bij welke verkiezingen kiest ze de leden van de gemeenteraad?",
       "options": [
-        "Je komt wanneer het jou uitkomt",
-        "Je komt op tijd of belt van tevoren als je later komt",
-        "Je hoeft niet te bellen als je niet komt",
-        "Je kunt een uur later komen, dat is normaal"
+        "De Provinciale Statenverkiezingen",
+        "De Tweede Kamerverkiezingen",
+        "De gemeenteraadsverkiezingen"
       ],
-      "correctIndex": 1,
-      "explanation": "In Nederland is het belangrijk om afspraken na te komen en op tijd te zijn. Als je niet kunt komen of later bent, bel je van tevoren om dit te melden.",
-      "explanationEn": "In the Netherlands, it is important to keep appointments and be on time. If you cannot come or will be late, you call in advance to let them know."
+      "correctIndex": 2,
+      "explanation": "De gemeenteraadsverkiezingen worden elke 4 jaar gehouden (in maart). Je kiest dan de leden van de gemeenteraad — het hoogste democratische orgaan in jouw gemeente.",
+      "explanationEn": "Municipal council elections are held every 4 years (in March). You then elect the members of the municipal council — the highest democratic body in your municipality."
     },
     {
       "id": "knm-a2-5-q29",
-      "text": "Hoe communiceren Nederlanders over het algemeen?",
+      "text": "Bas wil weten wat een wethouder doet. Hij hoort dat een wethouder onderdeel is van het college van B&W. Wat is de rol van een wethouder?",
       "options": [
-        "Ze zeggen nooit wat ze denken",
-        "Ze zijn heel formeel en spreken alleen via brieven",
-        "Ze communiceren direct en zeggen eerlijk wat ze vinden",
-        "Ze praten alleen via sociale media"
+        "Een wethouder is hetzelfde als een gemeenteraadslid",
+        "Een wethouder schrijft nieuwe nationale wetten",
+        "Een wethouder leidt een bepaald beleidsterrein (bijv. onderwijs of sport) namens de gemeente"
       ],
       "correctIndex": 2,
-      "explanation": "Nederlanders staan bekend om hun directe communicatie. Ze zeggen eerlijk wat ze vinden. Dit is niet onbeleefd bedoeld, maar wordt gezien als eerlijk en efficiënt.",
-      "explanationEn": "The Dutch are known for their direct communication. They honestly say what they think. This is not meant to be rude, but is seen as honest and efficient."
+      "explanation": "Een wethouder is een lid van het college van Burgemeester en Wethouders. Elke wethouder heeft een eigen portefeuille (bijv. onderwijs, sport, financiën) en is verantwoordelijk voor het uitvoeren van gemeentelijk beleid op dat terrein.",
+      "explanationEn": "An alderman (wethouder) is a member of the board of Mayor and Aldermen. Each alderman has their own portfolio (e.g., education, sports, finance) and is responsible for implementing municipal policy in that area."
     },
     {
       "id": "knm-a2-5-q30",
-      "text": "Wat is een belangrijk recht in Nederland met betrekking tot privacy?",
+      "text": "Mia wil begrijpen hoe een regeerakkoord werkt. Wat is een regeerakkoord?",
       "options": [
-        "Je werkgever mag altijd je e-mails lezen",
-        "De politie mag zonder reden je huis binnenkomen",
-        "Iedereen mag je medische gegevens inzien",
-        "Je hebt recht op privacy; je persoonlijke gegevens worden beschermd door de wet"
+        "Een verdrag met andere landen",
+        "Een overeenkomst tussen coalitiepartijen over de plannen voor de komende regeerperiode",
+        "Een jaarlijks financieel verslag van het kabinet"
       ],
-      "correctIndex": 3,
-      "explanation": "In Nederland heb je recht op privacy. De wet beschermt je persoonlijke gegevens. Niemand mag zomaar je post openen, je huis binnenkomen of je gegevens delen.",
-      "explanationEn": "In the Netherlands, you have the right to privacy. The law protects your personal data. No one may open your mail, enter your home, or share your data without reason."
+      "correctIndex": 1,
+      "explanation": "Een regeerakkoord is het document waarin de coalitiepartijen vastleggen wat zij in de komende 4 jaar willen bereiken. Het is de basis voor het beleid van het kabinet.",
+      "explanationEn": "A coalition agreement is the document in which the coalition parties record what they want to achieve in the coming 4 years. It forms the basis for the cabinet's policy."
     },
     {
       "id": "knm-a2-5-q31",
-      "text": "Wat doet de Tweede Kamer?",
+      "text": "Lars wil een klacht indienen over de politie. Bij wie kan hij terecht?",
       "options": [
-        "De Tweede Kamer bestuurt de provincies",
-        "De Tweede Kamer controleert de regering en maakt wetten",
-        "De Tweede Kamer is het hoogste gerechtshof",
-        "De Tweede Kamer organiseert verkiezingen"
+        "Bij de politie zelf of bij de Nationale Ombudsman",
+        "Alleen bij de burgemeester",
+        "Bij het Openbaar Ministerie"
       ],
-      "correctIndex": 1,
-      "explanation": "De Tweede Kamer is een onderdeel van het parlement. De 150 leden controleren de regering en stemmen over wetsvoorstellen.",
-      "explanationEn": "The Tweede Kamer (House of Representatives) is part of parliament. The 150 members scrutinize the government and vote on legislative proposals."
+      "correctIndex": 0,
+      "explanation": "Een klacht over de politie kan ingediend worden bij de politie zelf (intern klachtrecht) of bij de Nationale Ombudsman als je vindt dat de klacht niet goed is behandeld.",
+      "explanationEn": "A complaint about the police can be filed with the police themselves (internal complaints procedure) or with the National Ombudsman if you feel the complaint was not handled properly."
     },
     {
       "id": "knm-a2-5-q32",
-      "text": "Wie is de burgemeester?",
+      "text": "Fatima hoort dat de rechterlijke macht onafhankelijk moet zijn. Wat betekent dit?",
       "options": [
-        "De leider van een politieke partij",
-        "Het hoofd van de regering",
-        "Het hoofd van de gemeente",
-        "De voorzitter van de Tweede Kamer"
+        "Dat rechters zelf wetten mogen maken",
+        "Dat de rechter altijd in het voordeel van de burger beslist",
+        "Dat rechters vrij zijn van politieke invloed en alleen de wet toepassen"
       ],
       "correctIndex": 2,
-      "explanation": "De burgemeester is het hoofd van de gemeente. De burgemeester wordt niet gekozen door de inwoners, maar benoemd door de Koning op voordracht van de gemeenteraad.",
-      "explanationEn": "The mayor is the head of the municipality. The mayor is not elected by residents, but appointed by the King on the recommendation of the municipal council."
+      "explanation": "De onafhankelijkheid van de rechterlijke macht is een kernprincipe van de rechtsstaat. Rechters worden niet beïnvloed door de politiek en passen alleen het geldende recht toe. Dit beschermt burgers tegen willekeur.",
+      "explanationEn": "The independence of the judiciary is a core principle of the rule of law. Judges are not influenced by politics and only apply existing law. This protects citizens from arbitrary treatment."
     },
     {
       "id": "knm-a2-5-q33",
-      "text": "Wat doet de gemeenteraad?",
+      "text": "Omar hoort dat Nederland een constitutionele monarchie is. Wat betekent dat?",
       "options": [
-        "De gemeenteraad maakt landelijke wetten",
-        "De gemeenteraad beslist over zaken in de gemeente en controleert het gemeentebestuur",
-        "De gemeenteraad beheert de provincies",
-        "De gemeenteraad benoemt de minister-president"
+        "Dat de macht van de koning beperkt is door de Grondwet",
+        "Dat Nederland een republiek is zonder koning",
+        "Dat de koning absolute macht heeft"
       ],
-      "correctIndex": 1,
-      "explanation": "De gemeenteraad is het hoogste bestuursorgaan van de gemeente. De raadsleden worden gekozen door de inwoners en beslissen over lokale zaken.",
-      "explanationEn": "The municipal council is the highest governing body of the municipality. Council members are elected by residents and decide on local matters."
+      "correctIndex": 0,
+      "explanation": "Nederland is een constitutionele monarchie: er is een koning, maar zijn macht is beperkt door de Grondwet. De werkelijke politieke macht ligt bij de ministers en het parlement.",
+      "explanationEn": "The Netherlands is a constitutional monarchy: there is a king, but his power is limited by the Constitution. Real political power lies with the ministers and parliament."
     },
     {
       "id": "knm-a2-5-q34",
-      "text": "Hoe werken verkiezingen in Nederland?",
+      "text": "Nadia hoort over de scheiding der machten. Welke drie machten worden onderscheiden in de Trias Politica?",
       "options": [
-        "Alleen mannen mogen stemmen",
-        "Je moet stemmen, anders krijg je een boete",
-        "Elke Nederlander van 18 jaar of ouder mag stemmen; stemmen is niet verplicht",
-        "Je mag pas stemmen als je 21 jaar bent"
+        "De wetgevende macht, de uitvoerende macht en de rechterlijke macht",
+        "De koning, de minister-president en het parlement",
+        "De gemeente, de provincie en het Rijk"
       ],
-      "correctIndex": 2,
-      "explanation": "In Nederland mag iedereen met de Nederlandse nationaliteit van 18 jaar of ouder stemmen. Stemmen is een recht, maar geen plicht.",
-      "explanationEn": "In the Netherlands, everyone with Dutch nationality aged 18 or older may vote. Voting is a right, but not an obligation."
+      "correctIndex": 0,
+      "explanation": "De Trias Politica (leer van de scheiding der machten) onderscheidt drie machten: de wetgevende macht (parlement), de uitvoerende macht (kabinet/ministers) en de rechterlijke macht (rechters). Ze controleren elkaar.",
+      "explanationEn": "The Trias Politica (doctrine of separation of powers) distinguishes three powers: the legislative power (parliament), the executive power (cabinet/ministers), and the judicial power (judges). They check and balance each other."
     },
     {
       "id": "knm-a2-5-q35",
-      "text": "Wat zijn politieke partijen?",
+      "text": "Bas wil weten wat het Openbaar Ministerie (OM) doet. Hij hoort dit in het nieuws bij een strafzaak. Wat is de taak van het OM?",
       "options": [
-        "Groepen mensen die dezelfde ideeën hebben over hoe het land bestuurd moet worden",
-        "Organisaties die feesten organiseren",
-        "Afdelingen van de politie",
-        "Bedrijven die voor de overheid werken"
+        "Het OM vervolgt verdachten in strafzaken en vertegenwoordigt de staat",
+        "Het OM verdedigt verdachten in rechtszaken",
+        "Het OM schrijft wetten voor de Tweede Kamer"
       ],
       "correctIndex": 0,
-      "explanation": "Politieke partijen zijn groepen mensen met dezelfde ideeën over het bestuur van het land. In Nederland zijn er veel partijen, wat het een meerpartijenstelsel maakt.",
-      "explanationEn": "Political parties are groups of people with the same ideas about governing the country. In the Netherlands there are many parties, making it a multi-party system."
+      "explanation": "Het Openbaar Ministerie (OM) is de organisatie die in Nederland beslist of verdachten worden vervolgd en de belangen van de samenleving in strafzaken vertegenwoordigt. De officier van justitie is de aanklager.",
+      "explanationEn": "The Public Prosecution Service (OM) is the organization that decides whether suspects are prosecuted and represents the interests of society in criminal cases. The public prosecutor is the plaintiff."
     },
     {
       "id": "knm-a2-5-q36",
-      "text": "Hoeveel provincies heeft Nederland?",
+      "text": "Mia wil weten wat de AOW is. Ze hoort dat haar oma AOW ontvangt. Welke overheidsinstantie is verantwoordelijk voor de AOW?",
       "options": [
-        "10",
-        "12",
-        "14",
-        "16"
+        "De gemeente",
+        "De Sociale Verzekeringsbank (SVB)",
+        "Het UWV"
       ],
       "correctIndex": 1,
-      "explanation": "Nederland heeft 12 provincies, zoals Noord-Holland, Zuid-Holland, Utrecht, Gelderland, Limburg en Friesland.",
-      "explanationEn": "The Netherlands has 12 provinces, such as Noord-Holland, Zuid-Holland, Utrecht, Gelderland, Limburg, and Friesland."
+      "explanation": "De AOW (Algemene Ouderdomswet) is de basispensioenuitkering voor ouderen. De Sociale Verzekeringsbank (SVB) voert de AOW uit. De uitkering gaat in op de AOW-gerechtigde leeftijd (momenteel 67 jaar).",
+      "explanationEn": "The AOW (General Old Age Pensions Act) is the basic pension benefit for the elderly. The Social Insurance Bank (SVB) administers the AOW. The benefit starts at the AOW retirement age (currently 67 years)."
     },
     {
       "id": "knm-a2-5-q37",
-      "text": "Wat is de Randstad?",
+      "text": "Lars hoort dat er binnenkort verkiezingen zijn voor de Provinciale Staten. Hoe vaak worden Provinciale Statenverkiezingen gehouden?",
       "options": [
-        "Een snelweg in het noorden van Nederland",
-        "Het stedelijk gebied met Amsterdam, Rotterdam, Den Haag en Utrecht",
-        "Een eiland in de Waddenzee",
-        "Een berggebied in Limburg"
+        "Elke 4 jaar",
+        "Elke 2 jaar",
+        "Elke 6 jaar"
       ],
-      "correctIndex": 1,
-      "explanation": "De Randstad is het dichtbevolkte stedelijke gebied in het westen van Nederland met de vier grote steden: Amsterdam, Rotterdam, Den Haag en Utrecht.",
-      "explanationEn": "The Randstad is the densely populated urban area in the west of the Netherlands with the four major cities: Amsterdam, Rotterdam, The Hague, and Utrecht."
+      "correctIndex": 0,
+      "explanation": "Provinciale Statenverkiezingen worden elke 4 jaar gehouden. De gekozen leden van Provinciale Staten kiezen daarna de leden van de Eerste Kamer.",
+      "explanationEn": "Provincial States elections are held every 4 years. The elected members of the Provincial States then elect the members of the Senate."
     },
     {
       "id": "knm-a2-5-q38",
-      "text": "Welke grote rivieren stromen door Nederland?",
+      "text": "Fatima wil weten hoe de leden van de Eerste Kamer worden gekozen. Is dit een directe of indirecte verkiezing?",
       "options": [
-        "De Donau en de Elbe",
-        "De Rijn, de Maas en de Waal",
-        "De Seine en de Theems",
-        "De Oder en de Weser"
+        "Direct door alle Nederlandse kiezers",
+        "Indirect door de leden van de Provinciale Staten",
+        "Door de minister-president"
       ],
       "correctIndex": 1,
-      "explanation": "De belangrijkste rivieren in Nederland zijn de Rijn, de Maas en de Waal. Ze stromen van oost naar west en monden uit in de Noordzee.",
-      "explanationEn": "The main rivers in the Netherlands are the Rhine, the Meuse, and the Waal. They flow from east to west and discharge into the North Sea."
+      "explanation": "De leden van de Eerste Kamer worden indirect gekozen: de leden van de Provinciale Staten kiezen de 75 senatoren. Dit is waarom Provinciale Statenverkiezingen ook politiek belangrijk zijn op nationaal niveau.",
+      "explanationEn": "The members of the Senate are indirectly elected: the members of Provincial States elect the 75 senators. This is why Provincial States elections are also politically important at the national level."
     },
     {
       "id": "knm-a2-5-q39",
-      "text": "Hoe is het klimaat in Nederland?",
+      "text": "Omar wil weten hoeveel zetels de Tweede Kamer heeft. Hij zoekt dit op voor zijn inburgeringsexamen. Hoeveel zetels heeft de Tweede Kamer?",
       "options": [
-        "Tropisch met veel zon",
-        "Gematigd zeeklimaat met milde winters en koele zomers",
-        "Heel koud met veel sneeuw in de winter",
-        "Droog en warm het hele jaar"
+        "100 zetels",
+        "150 zetels",
+        "75 zetels"
       ],
       "correctIndex": 1,
-      "explanation": "Nederland heeft een gematigd zeeklimaat. Dat betekent milde winters, koele zomers en het hele jaar door regen. Het weer verandert vaak.",
-      "explanationEn": "The Netherlands has a temperate maritime climate. That means mild winters, cool summers, and rain throughout the year. The weather changes often."
+      "explanation": "De Tweede Kamer heeft 150 zetels. Deze worden verdeeld naar evenredigheid van het aantal stemmen. De Eerste Kamer heeft 75 zetels.",
+      "explanationEn": "The House of Representatives has 150 seats. These are distributed proportionally to the number of votes. The Senate has 75 seats."
     },
     {
       "id": "knm-a2-5-q40",
-      "text": "Welke landen grenzen aan Nederland?",
+      "text": "Nadia wil weten wat de waterschappen doen. Ze hoort dat ze ook mogen stemmen voor een waterschap. Wat is de taak van een waterschap?",
       "options": [
-        "Frankrijk en Zwitserland",
-        "België en Duitsland",
-        "Denemarken en Polen",
-        "Engeland en Luxemburg"
+        "Waterschappen beheren drinkwaterreservoirs en controleren de kwaliteit van kraanwater",
+        "Waterschappen regelen de hoogte van het water in rivieren en kanalen, en onderhouden dijken en sluizen",
+        "Waterschappen zijn verantwoordelijk voor de visserij in Nederlandse wateren"
       ],
       "correctIndex": 1,
-      "explanation": "Nederland grenst aan België (in het zuiden) en Duitsland (in het oosten). In het westen en noorden ligt de Noordzee.",
-      "explanationEn": "The Netherlands borders Belgium (to the south) and Germany (to the east). To the west and north lies the North Sea."
+      "explanation": "Waterschappen zijn verantwoordelijk voor het waterbeheer in hun gebied: dijken, polders, waterpeilen en zuivering van afvalwater. Ze zijn een van de oudste democratische instellingen van Nederland.",
+      "explanationEn": "Water boards are responsible for water management in their area: dykes, polders, water levels, and wastewater treatment. They are one of the oldest democratic institutions in the Netherlands."
     }
   ]
 }

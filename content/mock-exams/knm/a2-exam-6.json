@@ -5,526 +5,487 @@
   "difficulty": "A2",
   "questionCount": 40,
   "recommendedTime": "30 min",
+  "isFreePreview": false,
   "questions": [
     {
       "id": "knm-a2-6-q1",
-      "text": "Wat is een uitzendbureau?",
+      "text": "Bas is ziek geworden en moet naar de dokter. Hij wil weten of hij altijd een verwijsbrief nodig heeft om een specialist te zien. Wanneer heb je in Nederland een verwijzing nodig?",
       "options": [
-        "Een kantoor waar je je paspoort aanvraagt",
-        "Een organisatie die tijdelijke werknemers aan bedrijven uitleent",
-        "Een winkel waar je werkkleding koopt",
-        "Een afdeling van de gemeente voor werklozen"
+        "Meestal wel — de huisarts verwijst je naar een specialist als dat nodig is",
+        "Altijd — je kunt nooit rechtstreeks naar een specialist",
+        "Nooit — je kunt altijd direct naar een specialist"
       ],
-      "correctIndex": 1,
-      "explanation": "Een uitzendbureau is een organisatie die werknemers tijdelijk uitleent aan bedrijven. Je bent in dienst bij het uitzendbureau, maar werkt bij een ander bedrijf.",
-      "explanationEn": "A temporary employment agency is an organization that lends workers temporarily to companies. You are employed by the agency but work at another company."
+      "correctIndex": 0,
+      "explanation": "In Nederland heb je bij de meeste medisch specialisten een verwijsbrief van de huisarts nodig. De huisarts is de poortwachter van de zorg. Alleen bij spoedeisende hulp en sommige vrije specialisten is dit niet nodig.",
+      "explanationEn": "In the Netherlands, you usually need a referral from your general practitioner for most medical specialists. The GP is the gatekeeper of care. Only for emergency care and some direct-access specialists is this not required."
     },
     {
       "id": "knm-a2-6-q2",
-      "text": "Wie is verantwoordelijk voor goede arbeidsomstandigheden op het werk?",
+      "text": "Mia heeft een zorgverzekering. Ze hoort de term 'eigen risico'. Wat is het eigen risico?",
       "options": [
-        "Alleen de werknemer",
-        "Alleen de vakbond",
-        "De werkgever is verantwoordelijk voor een veilige en gezonde werkplek",
-        "Alleen de gemeente"
+        "Het bedrag dat de werkgever betaalt voor je zorgverzekering",
+        "Het bedrag dat je per maand betaalt aan premie",
+        "Het bedrag dat je zelf betaalt voordat de zorgverzekeraar kosten vergoedt"
       ],
       "correctIndex": 2,
-      "explanation": "De werkgever is wettelijk verplicht om te zorgen voor goede arbeidsomstandigheden. De Arbeidsinspectie controleert of bedrijven zich aan de regels houden.",
-      "explanationEn": "The employer is legally obliged to ensure good working conditions. The Labour Inspectorate checks whether companies comply with the rules."
+      "explanation": "Het eigen risico is het bedrag dat je per jaar zelf betaalt voor zorgkosten voordat de verzekering bijspringt. In 2024 is het verplichte eigen risico €385 per jaar.",
+      "explanationEn": "The deductible is the amount you pay yourself for healthcare costs per year before the insurance contributes. In 2024, the mandatory deductible is €385 per year."
     },
     {
       "id": "knm-a2-6-q3",
-      "text": "Wat is een CAO?",
+      "text": "Lars heeft een zorgverzekering maar wil meer vergoed krijgen, zoals fysiotherapie en tandarts. Hoe heet de aanvullende verzekering?",
       "options": [
-        "Een soort belasting die je betaalt",
-        "Een collectieve arbeidsovereenkomst met afspraken over loon en werktijden voor een hele sector",
-        "Een persoonlijk contract tussen jou en je baas",
-        "Een certificaat dat je nodig hebt om te werken"
+        "Een aanvullende zorgverzekering",
+        "Een inkomstenverzekering",
+        "Een basisverzekering plus"
       ],
-      "correctIndex": 1,
-      "explanation": "Een CAO (collectieve arbeidsovereenkomst) is een overeenkomst tussen werkgevers en vakbonden over arbeidsvoorwaarden zoals loon, werktijden en vakantie voor een hele sector.",
-      "explanationEn": "A CAO (collective labour agreement) is an agreement between employers and unions about employment conditions such as wages, working hours, and vacation for an entire sector."
+      "correctIndex": 0,
+      "explanation": "Naast de verplichte basisverzekering kun je een aanvullende zorgverzekering afsluiten voor extra vergoedingen zoals fysiotherapie, tandarts en brillen. Dit is niet verplicht.",
+      "explanationEn": "In addition to the mandatory basic insurance, you can take out supplementary health insurance for extra benefits such as physiotherapy, dentist, and glasses. This is not mandatory."
     },
     {
       "id": "knm-a2-6-q4",
-      "text": "Wat is een sollicitatiebrief?",
+      "text": "Fatima heeft psychische klachten en wil hulp zoeken. Ze hoort dat ze terecht kan bij de GGZ. Wat betekent GGZ?",
       "options": [
-        "Een brief waarin je ontslag neemt",
-        "Een brief waarin je een klacht indient",
-        "Een brief waarin je schrijft waarom je geschikt bent voor een baan",
-        "Een brief van je werkgever over je salaris"
+        "Gemeentelijke gezondheidszone",
+        "Geestelijke gezondheidszorg",
+        "Gecombineerde gezins- en zorginstelling"
       ],
-      "correctIndex": 2,
-      "explanation": "Een sollicitatiebrief is een brief die je stuurt als je op een vacature reageert. Je schrijft waarom je geschikt bent voor de baan en waarom je er wilt werken.",
-      "explanationEn": "A cover letter is a letter you send when applying for a job vacancy. You write why you are suitable for the job and why you want to work there."
+      "correctIndex": 1,
+      "explanation": "GGZ staat voor Geestelijke Gezondheidszorg. Dit zijn instellingen en professionals die hulp bieden bij psychische klachten zoals depressie, angst, burn-out en andere mentale problemen.",
+      "explanationEn": "GGZ stands for Mental Health Care (Geestelijke Gezondheidszorg). These are institutions and professionals that provide help with psychological complaints such as depression, anxiety, burn-out, and other mental health problems."
     },
     {
       "id": "knm-a2-6-q5",
-      "text": "Wat is een proeftijd?",
+      "text": "Omar is 70 jaar en kan thuis niet meer goed voor zichzelf zorgen. Zijn kinderen willen weten welke wet zijn recht op zorgondersteuning regelt. Welke wet is dit voor langdurige zorg?",
       "options": [
-        "De periode dat je met vakantie bent",
-        "De tijd dat je een opleiding volgt",
-        "Een korte periode aan het begin van je contract waarin jij of je werkgever het contract makkelijk kan opzeggen",
-        "De periode waarin je geen salaris krijgt"
+        "De Zorgverzekeringswet (Zvw)",
+        "De Wet langdurige zorg (Wlz)",
+        "De Participatiewet"
       ],
-      "correctIndex": 2,
-      "explanation": "Een proeftijd is een korte periode (maximaal 2 maanden) aan het begin van een arbeidscontract. In deze periode kunnen zowel de werkgever als de werknemer het contract direct opzeggen.",
-      "explanationEn": "A probation period is a short period (maximum 2 months) at the start of an employment contract. During this period, both employer and employee can terminate the contract immediately."
+      "correctIndex": 1,
+      "explanation": "De Wet langdurige zorg (Wlz) regelt de zorg voor mensen die blijvend intensieve zorg nodig hebben, zoals ouderen in een verpleeghuis of mensen met een ernstige beperking. Het CIZ (Centrum Indicatiestelling Zorg) bepaalt of iemand recht heeft.",
+      "explanationEn": "The Long-term Care Act (Wlz) governs care for people who need permanent intensive care, such as elderly people in nursing homes or people with serious disabilities. The CIZ (Centre for Needs Assessment) determines entitlement."
     },
     {
       "id": "knm-a2-6-q6",
-      "text": "Wat is de Huurcommissie?",
+      "text": "Nadia heeft een thuiswonende moeder die hulp nodig heeft bij het huishouden. De gemeente biedt hiervoor ondersteuning. Welke wet regelt dit soort gemeentelijke ondersteuning?",
       "options": [
-        "Een organisatie die huizen verkoopt",
-        "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders beoordeelt",
-        "Een afdeling van de politie",
-        "Een bedrijf dat huurwoningen bouwt"
+        "De Participatiewet",
+        "De Wet maatschappelijke ondersteuning (Wmo)",
+        "De Wet langdurige zorg (Wlz)"
       ],
       "correctIndex": 1,
-      "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen tussen huurders en verhuurders behandelt, bijvoorbeeld over de huurprijs of onderhoud van de woning.",
-      "explanationEn": "The Rent Tribunal is an independent organization that handles disputes between tenants and landlords, for example about rent prices or property maintenance."
+      "explanation": "De Wmo (Wet maatschappelijke ondersteuning) regelt gemeentelijke ondersteuning voor mensen die niet zelfstandig kunnen meedoen aan de samenleving. Denk aan huishoudelijke hulp, dagbesteding en woningaanpassingen.",
+      "explanationEn": "The Wmo (Social Support Act) governs municipal support for people who cannot independently participate in society. Think of household help, day activities, and home adaptations."
     },
     {
       "id": "knm-a2-6-q7",
-      "text": "Wat zijn servicekosten bij een huurwoning?",
+      "text": "Bas heeft online een laptop gekocht maar hij werkt niet naar behoren. Hij wil het product terugsturen. Hoeveel dagen heeft hij het recht om een online aankoop te retourneren (herroepingsrecht)?",
       "options": [
-        "De kosten voor het kopen van meubels",
-        "Extra kosten bovenop de huur voor zaken als schoonmaak, verlichting en onderhoud van gemeenschappelijke ruimtes",
-        "De kosten voor internet en televisie",
-        "De kosten voor een verhuisbedrijf"
+        "7 dagen",
+        "14 dagen",
+        "30 dagen"
       ],
       "correctIndex": 1,
-      "explanation": "Servicekosten zijn extra kosten bovenop de kale huur. Ze zijn voor gemeenschappelijke voorzieningen zoals trappenhuis verlichting, schoonmaak en tuinonderhoud.",
-      "explanationEn": "Service costs are extra costs on top of the basic rent. They are for shared facilities such as stairwell lighting, cleaning, and garden maintenance."
+      "explanation": "Bij online aankopen heb je in de EU 14 dagen bedenktijd (herroepingsrecht). Binnen die periode mag je de aankoop zonder opgave van reden retourneren. Dit recht geldt niet voor alle producten (bijv. bederfelijke waren).",
+      "explanationEn": "For online purchases in the EU, you have 14 days of cooling-off period (right of withdrawal). Within that period you may return the purchase without giving a reason. This right does not apply to all products (e.g., perishable goods)."
     },
     {
       "id": "knm-a2-6-q8",
-      "text": "Wat is buurtpreventie?",
+      "text": "Mia heeft een wasmachine gekocht die na 3 maanden kapot gaat. De winkel wil niks doen. Wat zijn haar rechten?",
       "options": [
-        "Een verzekering voor je huis",
-        "Bewoners die samen opletten om hun buurt veilig te houden",
-        "Een dienst van de politie die elke nacht door de straten loopt",
-        "Een subsidie van de gemeente voor renovatie"
+        "Ze heeft alleen rechten als ze de uitgebreide garantie heeft gekocht",
+        "Ze heeft recht op reparatie, vervanging of terugbetaling via het wettelijk garantierecht (conformiteitsvereiste)",
+        "Ze heeft geen rechten — het product valt buiten garantie"
       ],
       "correctIndex": 1,
-      "explanation": "Buurtpreventie betekent dat bewoners samen met de politie zorgen voor een veilige buurt. Ze letten op verdachte situaties en melden die bij de politie.",
-      "explanationEn": "Neighbourhood watch means that residents work together with the police to keep their neighbourhood safe. They watch for suspicious situations and report them to the police."
+      "explanation": "In Nederland heb je altijd wettelijke garantie: een product moet doen wat je redelijkerwijs mag verwachten. Als een wasmachine na 3 maanden al kapot is, voldoet het niet aan de conformiteitsvereiste. De verkoper moet het repareren, vervangen of het geld teruggeven.",
+      "explanationEn": "In the Netherlands, you always have a legal guarantee: a product must do what you can reasonably expect. If a washing machine breaks after 3 months, it does not meet the conformity requirement. The seller must repair, replace it, or refund the money."
     },
     {
       "id": "knm-a2-6-q9",
-      "text": "Hoe moet je in Nederland je afval weggooien?",
+      "text": "Lars heeft een conflict met een winkel over een defect product. De zaak kan niet opgelost worden. Welke organisatie helpt hem met consumentengeschillen buiten de rechtbank?",
       "options": [
-        "Je gooit alles in één bak",
-        "Je scheidt je afval: papier, glas, plastic en restafval gaan apart",
-        "Je brengt al je afval naar het gemeentehuis",
-        "Je mag je afval op straat zetten wanneer je wilt"
+        "De Autoriteit Consument & Markt (ACM)",
+        "De Geschillencommissie",
+        "De Kamer van Koophandel"
       ],
       "correctIndex": 1,
-      "explanation": "In Nederland is het verplicht om afval te scheiden. Papier, glas, plastic en restafval moeten apart worden weggegooid. De gemeente haalt het afval op volgens een schema.",
-      "explanationEn": "In the Netherlands, it is mandatory to separate waste. Paper, glass, plastic, and residual waste must be disposed of separately. The municipality collects waste according to a schedule."
+      "explanation": "De Geschillencommissie is een onafhankelijke instelling die consumentengeschillen buiten de rechtbank behandelt. Dit is goedkoper en sneller dan een rechtszaak. Veel branches hebben hun eigen geschillencommissie.",
+      "explanationEn": "The Disputes Committee is an independent body that handles consumer disputes outside the courts. This is cheaper and faster than a lawsuit. Many industries have their own disputes committee."
     },
     {
       "id": "knm-a2-6-q10",
-      "text": "Wat moet je doen als je naar een andere gemeente verhuist?",
+      "text": "Fatima hoort over de AVG. Ze wil weten wat dit betekent voor haar persoonsgegevens. Wat is de AVG?",
       "options": [
-        "Je hoeft niets te doen",
-        "Je meldt het alleen bij je werkgever",
-        "Je moet je inschrijven bij de nieuwe gemeente binnen 5 dagen",
-        "Je stuurt een brief naar de koning"
+        "De Algemene Verzekerings- en Garantiewet",
+        "De Arbeidswet Gezondheidszorg",
+        "De Algemene Verordening Gegevensbescherming — de Europese privacywet"
       ],
       "correctIndex": 2,
-      "explanation": "Als je verhuist naar een andere gemeente, moet je je binnen 5 dagen inschrijven bij de nieuwe gemeente. Dit heet je 'adreswijziging doorgeven' bij de Basisregistratie Personen (BRP).",
-      "explanationEn": "When you move to another municipality, you must register at the new municipality within 5 days. This is called reporting your change of address to the Personal Records Database (BRP)."
+      "explanation": "De AVG (Algemene Verordening Gegevensbescherming) is de Europese privacywet (in het Engels: GDPR). Het regelt hoe organisaties persoonsgegevens mogen verwerken. Je hebt rechten zoals inzage, correctie en verwijdering van je gegevens.",
+      "explanationEn": "The AVG (General Data Protection Regulation, or GDPR) is the European privacy law. It regulates how organizations may process personal data. You have rights such as access, correction, and deletion of your data."
     },
     {
       "id": "knm-a2-6-q11",
-      "text": "Hoe vaak moet je naar de tandarts voor een controle?",
+      "text": "Omar wil weten of een bedrijf zijn persoonsgegevens mag delen met derden zonder zijn toestemming. Wat zegt de AVG hierover?",
       "options": [
-        "Eén keer per 5 jaar",
-        "Alleen als je pijn hebt",
-        "Het is aan te raden om twee keer per jaar te gaan",
-        "Eén keer per 10 jaar"
+        "Bedrijven mogen gegevens nooit delen, ook niet met toestemming",
+        "Bedrijven mogen altijd gegevens delen als het voor commerciële doeleinden is",
+        "Bedrijven mogen gegevens alleen delen als er een wettelijke grondslag is, zoals toestemming van de betrokkene"
       ],
       "correctIndex": 2,
-      "explanation": "Het is aan te raden om twee keer per jaar naar de tandarts te gaan voor een controle. Tandartskosten worden niet altijd vergoed door de basisverzekering; een aanvullende verzekering kan helpen.",
-      "explanationEn": "It is recommended to visit the dentist twice a year for a check-up. Dental costs are not always covered by basic insurance; supplementary insurance can help."
+      "explanation": "Onder de AVG mogen persoonsgegevens alleen worden verwerkt als er een geldige rechtsgrond is: toestemming, uitvoering van een overeenkomst, wettelijke verplichting, vitaal belang, publieke taak of gerechtvaardigd belang.",
+      "explanationEn": "Under the GDPR, personal data may only be processed if there is a valid legal basis: consent, performance of a contract, legal obligation, vital interests, public task, or legitimate interest."
     },
     {
       "id": "knm-a2-6-q12",
-      "text": "Wat is een verloskundige?",
+      "text": "Nadia wil de gegevens zien die een bedrijf over haar heeft opgeslagen. Wat is dit recht onder de AVG?",
       "options": [
-        "Een arts die operaties uitvoert",
-        "Een specialist voor hartproblemen",
-        "Een zorgverlener die zwangere vrouwen begeleidt voor, tijdens en na de bevalling",
-        "Een tandarts voor kinderen"
+        "Het recht op vergetelheid",
+        "Het inzagerecht",
+        "Het recht op dataportabiliteit"
       ],
-      "correctIndex": 2,
-      "explanation": "Een verloskundige begeleidt zwangere vrouwen. In Nederland gaan de meeste vrouwen eerst naar de verloskundige, niet naar het ziekenhuis. Na de bevalling komt de kraamzorg thuis helpen.",
-      "explanationEn": "A midwife supports pregnant women. In the Netherlands, most women first go to a midwife, not to the hospital. After birth, maternity care comes to help at home."
+      "correctIndex": 1,
+      "explanation": "Het inzagerecht (ook wel recht op toegang) geeft je het recht om te vragen welke persoonsgegevens een organisatie over jou heeft opgeslagen. Je kunt hierom vragen bij elk bedrijf of overheidsinstelling.",
+      "explanationEn": "The right of access gives you the right to ask what personal data an organization has stored about you. You can request this from any company or government body."
     },
     {
       "id": "knm-a2-6-q13",
-      "text": "Wat is mantelzorg?",
+      "text": "Bas heeft een DigiD aangevraagd. Hij wil weten wat hij er allemaal mee kan doen. Waarvoor gebruik je DigiD?",
       "options": [
-        "Zorg door een arts in het ziekenhuis",
-        "Zorg die je van familie, vrienden of buren krijgt als je ziek of hulpbehoevend bent",
-        "Zorg door een professionele verpleegkundige thuis",
-        "Zorg die je krijgt bij de huisarts"
+        "Om jezelf te identificeren bij overheidswebsites zoals de Belastingdienst, UWV en het ziekenhuis",
+        "Om te betalen bij online winkels",
+        "Om in te loggen op sociale media"
       ],
-      "correctIndex": 1,
-      "explanation": "Mantelzorg is zorg die je krijgt van mensen uit je omgeving, zoals familie, vrienden of buren. Het is onbetaalde zorg voor mensen die langdurig ziek of hulpbehoevend zijn.",
-      "explanationEn": "Mantelzorg (informal care) is care you receive from people around you, such as family, friends, or neighbours. It is unpaid care for people who are chronically ill or need help."
+      "correctIndex": 0,
+      "explanation": "DigiD is de digitale identificatie voor diensten van de overheid en gezondheidszorg. Je gebruikt het om in te loggen op sites zoals MijnBelastingdienst, MijnUWV, MijnGemeente en zorgportalen.",
+      "explanationEn": "DigiD is the digital identification for government and healthcare services. You use it to log in to sites like MyTaxAuthority, MyUWV, MyMunicipality, and healthcare portals."
     },
     {
       "id": "knm-a2-6-q14",
-      "text": "Waar kun je terecht als je psychische problemen hebt?",
+      "text": "Mia heeft twee jonge kinderen. Ze hoort dat ze recht heeft op kinderbijslag. Welke organisatie betaalt kinderbijslag uit?",
       "options": [
-        "Alleen bij de apotheek",
-        "Bij de geestelijke gezondheidszorg (GGZ), via een verwijzing van de huisarts",
-        "Alleen bij de tandarts",
-        "Je kunt nergens terecht in Nederland"
+        "De gemeente",
+        "Het UWV",
+        "De Sociale Verzekeringsbank (SVB)"
       ],
-      "correctIndex": 1,
-      "explanation": "Bij psychische problemen kun je naar de GGZ (geestelijke gezondheidszorg). Je hebt meestal een verwijzing van je huisarts nodig. De huisarts kan je ook zelf helpen bij lichte klachten.",
-      "explanationEn": "For mental health issues, you can go to the GGZ (mental health care). You usually need a referral from your GP. The GP can also help you with mild complaints."
+      "correctIndex": 2,
+      "explanation": "De SVB (Sociale Verzekeringsbank) betaalt kinderbijslag uit. Kinderbijslag is een bijdrage in de kosten van de opvoeding van kinderen onder de 18 jaar. Het wordt elk kwartaal uitgekeerd.",
+      "explanationEn": "The SVB (Social Insurance Bank) pays child benefit. Child benefit is a contribution to the costs of raising children under 18. It is paid out quarterly."
     },
     {
       "id": "knm-a2-6-q15",
-      "text": "Wat is het Donorregister?",
+      "text": "Lars werkt en zijn kind gaat naar de kinderopvang. Hij wil weten of hij financiële hulp kan krijgen. Wat is kinderopvangtoeslag?",
       "options": [
-        "Een register voor bloeddonoren bij het Rode Kruis",
-        "Een lijst van alle ziekenhuizen in Nederland",
-        "Een register waarin je vastlegt of je na je overlijden organen en weefsels wilt doneren",
-        "Een lijst van alle huisartsen in je gemeente"
+        "Een vergoeding die de werkgever betaalt voor kinderopvang",
+        "Een gratis kinderopvang voor alle gezinnen met kinderen onder de 4 jaar",
+        "Een bijdrage van de overheid (Belastingdienst/Toeslagen) in de kosten van kinderopvang voor werkende ouders"
       ],
       "correctIndex": 2,
-      "explanation": "In het Donorregister leg je vast of je na je overlijden organen en weefsels wilt doneren. Alle inwoners van 18 jaar of ouder krijgen een brief om hun keuze te registreren.",
-      "explanationEn": "In the Donor Register, you record whether you want to donate organs and tissues after death. All residents aged 18 or older receive a letter to register their choice."
+      "explanation": "Kinderopvangtoeslag is een bijdrage van de overheid in de kosten van kinderopvang. Ouders die werken of studeren en gebruik maken van erkende kinderopvang kunnen een toeslag aanvragen bij de Belastingdienst/Toeslagen.",
+      "explanationEn": "Childcare allowance is a government contribution to childcare costs. Parents who work or study and use recognized childcare can apply for an allowance from the Tax Authority/Benefits."
     },
     {
       "id": "knm-a2-6-q16",
-      "text": "Wat was de Gouden Eeuw in Nederland?",
+      "text": "Fatima ontvangt een bijstandsuitkering. Ze wil weten of ze vrij mag werken naast de uitkering. Wat zijn de regels?",
       "options": [
-        "De periode rond 1900 toen Nederland veel goud vond",
-        "De 17e eeuw, toen Nederland een wereldmacht was op het gebied van handel, wetenschap en kunst",
-        "De periode na de Tweede Wereldoorlog",
-        "De tijd van de Romeinen in Nederland"
+        "Je mag werken, maar je inkomen wordt in mindering gebracht op je bijstand",
+        "Je mag onbeperkt werken en je behoudt de volledige bijstand",
+        "Je mag helemaal niet werken als je bijstand ontvangt"
       ],
-      "correctIndex": 1,
-      "explanation": "De Gouden Eeuw was de 17e eeuw (1600-1700). Nederland was toen een wereldmacht in handel, wetenschap en kunst. Bekende schilders zoals Rembrandt leefden in deze periode.",
-      "explanationEn": "The Golden Age was the 17th century (1600-1700). The Netherlands was a world power in trade, science, and art. Famous painters like Rembrandt lived during this period."
+      "correctIndex": 0,
+      "explanation": "Als je bijstand ontvangt en inkomsten verdient, wordt dit in mindering gebracht op je uitkering. Volledige bijstand plus een volledig salaris is niet mogelijk — de uitkering is een vangnet.",
+      "explanationEn": "If you receive social assistance and earn income, this is deducted from your benefit. Full social assistance plus a full salary is not possible — the benefit is a safety net."
     },
     {
       "id": "knm-a2-6-q17",
-      "text": "Wat was verzuiling in Nederland?",
+      "text": "Omar wil weten wat de zorgtoeslag is. Hij verdient weinig en betaalt een hoge premie. Wie heeft recht op zorgtoeslag?",
       "options": [
-        "Een manier van bouwen in de middeleeuwen",
-        "Het verdelen van de samenleving in groepen op basis van geloof of politieke overtuiging, elk met eigen scholen, kranten en verenigingen",
-        "Een systeem om water uit polders te pompen",
-        "Een politieke partij uit de 19e eeuw"
+        "Iedereen met een zorgverzekering",
+        "Mensen met een laag inkomen die een basisverzekering hebben",
+        "Alleen mensen met een chronische ziekte"
       ],
       "correctIndex": 1,
-      "explanation": "Verzuiling was de opdeling van de Nederlandse samenleving in zuilen (groepen) op basis van religie of politiek. Elke zuil had eigen scholen, kranten, omroepen en vakbonden. Dit duurde tot ongeveer 1960.",
-      "explanationEn": "Pillarisation was the division of Dutch society into pillars (groups) based on religion or politics. Each pillar had its own schools, newspapers, broadcasters, and unions. This lasted until about 1960."
+      "explanation": "Zorgtoeslag is een bijdrage van de overheid voor mensen met een laag of middeninkomen om de premie van de zorgverzekering te betalen. Je vraagt het aan via de Belastingdienst/Toeslagen.",
+      "explanationEn": "Healthcare allowance is a government contribution for people with a low or middle income to help pay the health insurance premium. You apply for it through the Tax Authority/Benefits."
     },
     {
       "id": "knm-a2-6-q18",
-      "text": "Is Nederland lid van de Europese Unie?",
+      "text": "Nadia wil weten wat het verschil is tussen de Wlz en de Wmo. Haar buurvrouw ontvangt thuiszorg via de gemeente. Welke wet regelt gemeentelijke thuishulp?",
       "options": [
-        "Nee, Nederland is geen lid",
-        "Ja, Nederland is een van de oprichters van de EU",
-        "Nederland is alleen waarnemer, geen lid",
-        "Nederland is lid geworden in 2010"
+        "De Wmo",
+        "De Zorgverzekeringswet",
+        "De Wlz"
       ],
-      "correctIndex": 1,
-      "explanation": "Nederland is een van de zes oprichters van de Europese Unie (toen nog de EEG, in 1957). De EU zorgt voor samenwerking op het gebied van handel, veiligheid en wetgeving.",
-      "explanationEn": "The Netherlands is one of the six founding members of the European Union (then the EEC, in 1957). The EU ensures cooperation in trade, security, and legislation."
+      "correctIndex": 0,
+      "explanation": "Thuiszorg en huishoudelijke hulp via de gemeente vallen onder de Wmo (Wet maatschappelijke ondersteuning). De Wlz is voor zware, blijvende zorg (bijv. verpleeghuis). De Zorgverzekeringswet dekt medische zorg.",
+      "explanationEn": "Home care and household help through the municipality fall under the Wmo (Social Support Act). The Wlz is for heavy, permanent care (e.g., nursing home). The Health Insurance Act covers medical care."
     },
     {
       "id": "knm-a2-6-q19",
-      "text": "Wat is het slavernijverleden van Nederland?",
+      "text": "Bas heeft een abonnement op een tijdschrift opgezegd maar het bedrijf incasseert nog steeds geld. Welke stap kan hij het beste eerst nemen?",
       "options": [
-        "Nederland heeft nooit iets met slavernij te maken gehad",
-        "Nederland was betrokken bij de transatlantische slavenhandel en slavernij in de koloniën, vooral in Suriname en de Caribische eilanden",
-        "Slavernij bestond alleen in de middeleeuwen in Nederland zelf",
-        "Nederland heeft slavernij alleen in Azië uitgeoefend"
+        "Het bedrijf schriftelijk aanmanen en vragen het geld terug te storten",
+        "De bank bellen om de rekening te blokkeren",
+        "Direct naar de rechtbank gaan"
       ],
-      "correctIndex": 1,
-      "explanation": "Nederland was betrokken bij de transatlantische slavenhandel. Tot 1863 werden mensen als slaven ingezet in de koloniën, vooral in Suriname en de Caribische eilanden. Op 1 juli (Keti Koti) wordt de afschaffing herdacht.",
-      "explanationEn": "The Netherlands was involved in the transatlantic slave trade. Until 1863, people were enslaved in the colonies, especially in Suriname and the Caribbean islands. On July 1st (Keti Koti), the abolition is commemorated."
+      "correctIndex": 0,
+      "explanation": "De eerste stap is het bedrijf schriftelijk aanmanen (een aanmaningsbrief sturen) en eisen dat de onterechte incasso wordt teruggestort. Als dat niet werkt, kun je de bank inschakelen om de automatische incasso te stoppen en een stornering aanvragen.",
+      "explanationEn": "The first step is to formally demand payment from the company (send a demand letter) and require that the incorrect debit is reversed. If that doesn't work, you can contact the bank to stop the direct debit and request a reversal."
     },
     {
       "id": "knm-a2-6-q20",
-      "text": "Wat is democratie?",
+      "text": "Mia heeft een product op afbetaling gekocht maar kan niet meer betalen. Een incassobureau heeft contact opgenomen. Wat mag een incassobureau doen?",
       "options": [
-        "Een systeem waarin één persoon alle macht heeft",
-        "Een systeem waarin het leger het land bestuurt",
-        "Een systeem waarin het volk de macht heeft en vertegenwoordigers kiest",
-        "Een systeem waarin alleen rijke mensen mogen beslissen"
+        "Incassobureaus mogen uitsluitend betaling innen via brieven, telefoontjes en gerechtelijke procedures",
+        "Incassobureaus mogen je werkgever inlichten over de schuld",
+        "Incassobureaus mogen thuis langskomen en spullen meenemen"
       ],
-      "correctIndex": 2,
-      "explanation": "Democratie betekent dat het volk de macht heeft. In Nederland kiezen burgers hun vertegenwoordigers in het parlement. Nederland is een parlementaire democratie en een constitutionele monarchie.",
-      "explanationEn": "Democracy means the people have power. In the Netherlands, citizens elect their representatives in parliament. The Netherlands is a parliamentary democracy and a constitutional monarchy."
+      "correctIndex": 0,
+      "explanation": "Incassobureaus mogen je aanschrijven, bellen en uiteindelijk gerechtelijke stappen ondernemen. Ze mogen je niet intimideren, thuis binnendringen of je persoonlijk aansprakelijk stellen voor andermans schulden.",
+      "explanationEn": "Debt collection agencies may write to you, call you, and ultimately take legal action. They may not intimidate you, enter your home, or hold you personally liable for someone else's debts."
     },
     {
       "id": "knm-a2-6-q21",
-      "text": "Wat is het verschil tussen vmbo, havo en vwo?",
+      "text": "Lars heeft schulden bij meerdere schuldeisers en kan niet meer rondkomen. Welke instantie kan hem helpen bij schuldsanering?",
       "options": [
-        "Het zijn drie verschillende basisscholen",
-        "Vmbo duurt 4 jaar en bereidt voor op MBO; havo duurt 5 jaar en bereidt voor op HBO; vwo duurt 6 jaar en bereidt voor op de universiteit",
-        "Er is geen verschil, ze leiden allemaal naar de universiteit",
-        "Vmbo is voor jonge kinderen, havo voor tieners, vwo voor volwassenen"
+        "Het incassobureau",
+        "De Belastingdienst",
+        "De schuldhulpverlening via de gemeente of NVVK"
       ],
-      "correctIndex": 1,
-      "explanation": "Het vmbo (4 jaar) leidt op naar het MBO, het havo (5 jaar) naar het HBO en het vwo (6 jaar) naar de universiteit. De keuze hangt af van het advies van de basisschool.",
-      "explanationEn": "The vmbo (4 years) leads to MBO, the havo (5 years) to HBO, and the vwo (6 years) to university. The choice depends on the primary school's recommendation."
+      "correctIndex": 2,
+      "explanation": "Gemeenten zijn verplicht schuldhulpverlening aan te bieden. Via de schuldhulpverlening kan een regeling worden getroffen met schuldeisers. In ernstige gevallen kan de WSNP (Wet schuldsanering natuurlijke personen) worden aangevraagd.",
+      "explanationEn": "Municipalities are required to offer debt counseling. Through debt counseling, an arrangement can be made with creditors. In serious cases, the WSNP (Debt Restructuring Act) can be requested."
     },
     {
       "id": "knm-a2-6-q22",
-      "text": "Kunnen volwassenen in Nederland ook nog een opleiding volgen?",
+      "text": "Fatima hoort over de Autoriteit Persoonsgegevens (AP). Wat doet deze organisatie?",
       "options": [
-        "Nee, onderwijs is alleen voor kinderen",
-        "Alleen als je jonger bent dan 30 jaar",
-        "Ja, er is volwassenenonderwijs, zoals taalcursussen, MBO-opleidingen en avondscholen",
-        "Alleen als je werkgever dat wil"
+        "De AP controleert belastingaangiftes",
+        "De AP geeft DigiD-accounts uit",
+        "De AP handhaaft de AVG/GDPR en beschermt privacyrechten van burgers"
       ],
       "correctIndex": 2,
-      "explanation": "In Nederland kunnen volwassenen altijd een opleiding volgen. Er zijn ROC's (Regionaal Opleidingen Centrum), avondscholen, en veel online cursussen beschikbaar.",
-      "explanationEn": "In the Netherlands, adults can always pursue education. There are ROCs (Regional Education Centers), evening schools, and many online courses available."
+      "explanation": "De Autoriteit Persoonsgegevens (AP) is de toezichthouder op de naleving van de AVG in Nederland. Als je denkt dat een organisatie jouw privacyrechten schendt, kun je een klacht indienen bij de AP.",
+      "explanationEn": "The Dutch Data Protection Authority (AP) is the regulator for compliance with the GDPR in the Netherlands. If you think an organization is violating your privacy rights, you can file a complaint with the AP."
     },
     {
       "id": "knm-a2-6-q23",
-      "text": "Wat is een stagiair?",
+      "text": "Omar wil weten wat een AOW-uitkering is. Zijn vader is 67 en ontvangt deze uitkering. Hoeveel AOW bouw je op voor elk jaar dat je in Nederland hebt gewoond of gewerkt?",
       "options": [
-        "Een leraar op een basisschool",
-        "Iemand die werkervaring opdoet bij een bedrijf als onderdeel van een opleiding",
-        "Een manager van een groot bedrijf",
-        "Een werknemer die bijna met pensioen gaat"
+        "2% per jaar — dus 50 jaar = 100% AOW",
+        "1% per jaar",
+        "5% per jaar"
       ],
-      "correctIndex": 1,
-      "explanation": "Een stagiair is een student die stage loopt bij een bedrijf als onderdeel van de opleiding. Zo doe je praktijkervaring op in het echte werkveld.",
-      "explanationEn": "An intern is a student who does an internship at a company as part of their education. This way you gain practical experience in the real work field."
+      "correctIndex": 0,
+      "explanation": "Je bouwt 2% AOW op per jaar dat je tussen je 15e en 67e jaar in Nederland woont of werkt. Na 50 jaar heb je recht op een volledige AOW. Wie minder jaren in NL heeft gewoond, krijgt een lagere uitkering.",
+      "explanationEn": "You build up 2% AOW per year that you live or work in the Netherlands between the ages of 15 and 67. After 50 years you are entitled to a full AOW. Those who have lived fewer years in the Netherlands receive a lower benefit."
     },
     {
       "id": "knm-a2-6-q24",
-      "text": "Wat is DUO en wat doet het?",
+      "text": "Nadia heeft haar rijbewijs verloren. Ze wil een nieuw aanvragen. Waar doet ze dat in Nederland?",
       "options": [
-        "DUO is een televisieomroep",
-        "DUO is de Dienst Uitvoering Onderwijs; het regelt onder andere studiefinanciering en studieleningen",
-        "DUO is een zorgverzekering voor studenten",
-        "DUO is een woningcorporatie voor studenten"
+        "Bij de politie",
+        "Bij het CBR",
+        "Bij de gemeente"
       ],
-      "correctIndex": 1,
-      "explanation": "DUO (Dienst Uitvoering Onderwijs) regelt studiefinanciering, studieleningen en het inburgeringsexamen. Studenten kunnen bij DUO een lening aanvragen om hun studie te betalen.",
-      "explanationEn": "DUO (Education Executive Agency) handles student finance, student loans, and the civic integration exam. Students can apply to DUO for a loan to pay for their studies."
+      "correctIndex": 2,
+      "explanation": "Een rijbewijs vraag je aan bij de gemeente. Je neemt een pasfoto en identiteitsbewijs mee. Het CBR organiseert rijexamens maar geeft zelf geen rijbewijzen uit.",
+      "explanationEn": "You apply for a driving license at the municipality. You bring a passport photo and ID. The CBR organizes driving tests but does not issue driving licenses itself."
     },
     {
       "id": "knm-a2-6-q25",
-      "text": "Wanneer zijn de schoolvakanties in Nederland?",
+      "text": "Bas heeft een klacht over zijn arts. Hij wil weten bij welke instantie hij dat kan melden. Welke organisatie behandelt klachten over artsen?",
       "options": [
-        "Scholen zijn het hele jaar open zonder vakanties",
-        "Er is alleen een zomervakantie van 3 maanden",
-        "Er zijn meerdere vakanties: herfst, kerst, voorjaar, mei en 6 weken zomer",
-        "Elke school bepaalt zelf wanneer de vakantie is, er zijn geen vaste periodes"
+        "De zorgverzekeraar",
+        "De gemeente",
+        "Het Regionaal Tuchtcollege voor de Gezondheidszorg"
       ],
       "correctIndex": 2,
-      "explanation": "In Nederland zijn er vaste schoolvakanties: herfstvakantie, kerstvakantie, voorjaarsvakantie, meivakantie en een zomervakantie van ongeveer 6 weken. De data worden bepaald door de overheid.",
-      "explanationEn": "In the Netherlands, there are fixed school holidays: autumn break, Christmas break, spring break, May break, and a summer holiday of about 6 weeks. The dates are determined by the government."
+      "explanation": "Klachten over artsen kunnen worden ingediend bij het Regionaal Tuchtcollege voor de Gezondheidszorg. Zij beoordelen of een arts correct heeft gehandeld. Je kunt ook een klacht indienen bij de klachtencommissie van de instelling zelf.",
+      "explanationEn": "Complaints about doctors can be filed with the Regional Disciplinary Tribunal for Healthcare. They assess whether a doctor acted correctly. You can also file a complaint with the complaints committee of the institution itself."
     },
     {
       "id": "knm-a2-6-q26",
-      "text": "Hoe staat Nederland tegenover homoseksualiteit?",
+      "text": "Mia wil haar medisch dossier inzien. Ze wil weten wat haar rechten zijn als patiënt. Heeft ze recht op inzage in haar eigen medisch dossier?",
       "options": [
-        "Homoseksualiteit is verboden in Nederland",
-        "Nederland was in 2001 het eerste land ter wereld dat het huwelijk openstelde voor mensen van hetzelfde geslacht",
-        "Homoseksualiteit wordt alleen getolereerd in Amsterdam",
-        "Er is geen wet over homoseksualiteit in Nederland"
+        "Ja, patiënten hebben het recht om hun eigen medisch dossier in te zien",
+        "Alleen als een rechter dit toestaat",
+        "Nee, medische dossiers zijn altijd geheim"
       ],
-      "correctIndex": 1,
-      "explanation": "Nederland was in 2001 het eerste land ter wereld waar mensen van hetzelfde geslacht konden trouwen. Discriminatie op basis van seksuele geaardheid is bij wet verboden.",
-      "explanationEn": "In 2001, the Netherlands became the first country in the world where same-sex couples could marry. Discrimination based on sexual orientation is prohibited by law."
+      "correctIndex": 0,
+      "explanation": "Patiënten hebben op grond van de WGBO (Wet geneeskundige behandelingsovereenkomst) het recht om hun eigen medisch dossier in te zien. Je kunt dit aanvragen bij je arts of zorginstelling.",
+      "explanationEn": "Under the Medical Treatment Contract Act (WGBO), patients have the right to access their own medical records. You can request this from your doctor or healthcare institution."
     },
     {
       "id": "knm-a2-6-q27",
-      "text": "Wat is vrijheid van meningsuiting?",
+      "text": "Lars wil weten wat een 'no-cure-no-pay' advocaat is. Hij heeft een rechtszaak maar weinig geld. Wat houdt dit in?",
       "options": [
-        "Je mag zeggen wat je wilt, maar je mag niet discrimineren of aanzetten tot haat",
-        "Je mag alleen positieve dingen zeggen over de overheid",
-        "Je mag helemaal niets zeggen over politiek",
-        "Vrijheid van meningsuiting bestaat niet in Nederland"
+        "De advocaat rekent alleen honorarium als je de zaak wint",
+        "De advocaat werkt gratis als je verliest",
+        "De overheid betaalt altijd voor je advocaat"
       ],
       "correctIndex": 0,
-      "explanation": "Vrijheid van meningsuiting is een grondrecht in Nederland. Je mag je mening uiten, maar er zijn grenzen: je mag niet discrimineren, beledigen of aanzetten tot haat of geweld.",
-      "explanationEn": "Freedom of expression is a fundamental right in the Netherlands. You may express your opinion, but there are limits: you may not discriminate, insult, or incite hatred or violence."
+      "explanation": "'No cure, no pay' betekent dat de advocaat alleen betaald krijgt als de zaak gewonnen wordt. In Nederland is dit in sommige gevallen mogelijk. Er is ook gesubsidieerde rechtsbijstand (toevoeging) voor mensen met een laag inkomen.",
+      "explanationEn": "'No cure, no pay' means the lawyer is only paid if the case is won. In the Netherlands this is possible in some cases. There is also subsidized legal aid (toevoeging) for people with low incomes."
     },
     {
       "id": "knm-a2-6-q28",
-      "text": "Mag je in Nederland iemand discrimineren?",
+      "text": "Fatima wil weten of haar buurman haar in het geheim mag filmen. Mag iemand een ander filmen zonder toestemming in Nederland?",
       "options": [
-        "Ja, als je een goede reden hebt",
-        "Alleen op het werk is discriminatie verboden",
-        "Nee, discriminatie is verboden. Iedereen is gelijk, ongeacht afkomst, geslacht, religie of seksuele geaardheid",
-        "Discriminatie is alleen verboden voor de overheid, niet voor burgers"
+        "Filmen is altijd verboden zonder schriftelijke toestemming",
+        "In de publieke ruimte is filmen toegestaan, maar mensen in hun privésituatie filmen zonder toestemming is verboden",
+        "Ja, filmen op straat is altijd toegestaan"
       ],
-      "correctIndex": 2,
-      "explanation": "Artikel 1 van de Nederlandse Grondwet verbiedt discriminatie. Iedereen wordt gelijk behandeld, ongeacht godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht of seksuele gerichtheid.",
-      "explanationEn": "Article 1 of the Dutch Constitution prohibits discrimination. Everyone is treated equally, regardless of religion, belief, political opinion, race, gender, or sexual orientation."
+      "correctIndex": 1,
+      "explanation": "In Nederland mag je mensen in de openbare ruimte fotograferen en filmen. Maar het heimelijk filmen van mensen in hun privésituatie (bijv. via de slaapkamermuur) is strafbaar. Verspreiding van privé-opnames is ook verboden onder de AVG.",
+      "explanationEn": "In the Netherlands, you may photograph and film people in public spaces. But secretly filming people in their private situation (e.g., through a bedroom wall) is a criminal offense. Distribution of private recordings is also prohibited under the GDPR."
     },
     {
       "id": "knm-a2-6-q29",
-      "text": "Wat betekent de uitdrukking 'Doe maar normaal, dan doe je al gek genoeg'?",
+      "text": "Omar wil zijn zorgverzekering opzeggen en overstappen. Wanneer mag hij overstappen?",
       "options": [
-        "Je moet altijd grappen maken",
-        "Je moet je zo raar mogelijk gedragen",
-        "Nederlanders vinden het belangrijk om je gewoon en bescheiden te gedragen, niet opvallend",
-        "Je moet altijd heel formeel zijn"
+        "Alleen in november",
+        "Ieder jaar in de periode 1–31 december voor het nieuwe jaar",
+        "Op elk moment in het jaar"
       ],
-      "correctIndex": 2,
-      "explanation": "Deze uitdrukking betekent dat Nederlanders nuchterheid en bescheidenheid waarderen. Je hoeft je niet beter voor te doen dan je bent. Gewoon doen is genoeg.",
-      "explanationEn": "This expression means that the Dutch value down-to-earth behavior and modesty. You don't need to pretend to be better than you are. Just acting normally is enough."
+      "correctIndex": 1,
+      "explanation": "Je kunt jaarlijks overstappen van zorgverzekeraar. De overstapperiode is van 1 tot en met 31 december. De nieuwe verzekering gaat in op 1 januari van het nieuwe jaar.",
+      "explanationEn": "You can switch health insurance provider annually. The switching period is from December 1 to 31. The new insurance starts on January 1 of the new year."
     },
     {
       "id": "knm-a2-6-q30",
-      "text": "Je bent uitgenodigd bij een Nederlandse collega thuis. Wat is gebruikelijk?",
+      "text": "Nadia wil een second opinion bij een andere dokter. Heeft ze daar recht op?",
       "options": [
-        "Je komt onaangekondigd en neemt je hele familie mee",
-        "Je komt op de afgesproken tijd en neemt een klein cadeautje mee, zoals bloemen of iets lekkers",
-        "Je hoeft niet te komen als je geen zin hebt, zonder iets te zeggen",
-        "Je blijft de hele nacht, het is onbeleefd om vroeg weg te gaan"
+        "Nee, de eerste arts heeft altijd het laatste woord",
+        "Ja, patiënten hebben in Nederland altijd het recht om een second opinion te vragen",
+        "Ja, maar alleen als de eerste arts dit goedkeurt"
       ],
       "correctIndex": 1,
-      "explanation": "In Nederland is het gebruikelijk om op de afgesproken tijd te komen en een klein cadeautje mee te nemen, zoals bloemen, wijn of chocola. Het is beleefd om van tevoren te bevestigen dat je komt.",
-      "explanationEn": "In the Netherlands, it is customary to arrive at the agreed time and bring a small gift, such as flowers, wine, or chocolate. It is polite to confirm beforehand that you are coming."
+      "explanation": "In Nederland hebben patiënten het recht op een second opinion: een tweede mening van een andere arts. Dit is vastgelegd in de Wet op de geneeskundige behandelingsovereenkomst (WGBO).",
+      "explanationEn": "In the Netherlands, patients have the right to a second opinion: a second view from another doctor. This is established in the Medical Treatment Contract Act (WGBO)."
     },
     {
       "id": "knm-a2-6-q31",
-      "text": "Wat is de Eerste Kamer?",
+      "text": "Bas wil weten hoe een geregistreerd partnerschap verschilt van een huwelijk. Wat is het juridische verschil in Nederland?",
       "options": [
-        "De eerste kamer in het gemeentehuis",
-        "Een onderdeel van het parlement dat wetsvoorstellen van de Tweede Kamer controleert",
-        "De kamer waar de koning woont",
-        "Een vergaderzaal van de minister-president"
+        "Geregistreerd partnerschap heeft minder rechten dan een huwelijk",
+        "Een geregistreerd partnerschap is alleen voor stellen zonder kinderen",
+        "Er is geen juridisch verschil — ze zijn volledig gelijkgesteld"
       ],
-      "correctIndex": 1,
-      "explanation": "De Eerste Kamer (ook wel de Senaat) is een deel van het parlement. De 75 leden controleren wetsvoorstellen die al door de Tweede Kamer zijn goedgekeurd. Ze worden gekozen door de Provinciale Staten.",
-      "explanationEn": "The Eerste Kamer (Senate) is part of parliament. The 75 members review legislative proposals already approved by the Tweede Kamer. They are elected by the Provincial Councils."
+      "correctIndex": 2,
+      "explanation": "In Nederland zijn een huwelijk en een geregistreerd partnerschap juridisch grotendeels gelijkgesteld. Beide geven rechten en plichten op het gebied van vermogen, erfrecht en fiscaliteit.",
+      "explanationEn": "In the Netherlands, marriage and registered partnership are largely legally equivalent. Both confer rights and obligations in terms of property, inheritance, and taxation."
     },
     {
       "id": "knm-a2-6-q32",
-      "text": "Wie is de minister-president van Nederland?",
+      "text": "Mia heeft haar portemonnee gestolen. Ze wil aangifte doen bij de politie. Waarvoor dient een politieaangifte?",
       "options": [
-        "De koning",
-        "De voorzitter van de Eerste Kamer",
-        "De leider van de regering, die de ministerraad voorzit",
-        "De burgemeester van Den Haag"
+        "Om bij de verzekeraar bewijs te leveren — de politie doet niets met de aangifte",
+        "Om officieel vast te laten leggen dat er een strafbaar feit heeft plaatsgevonden, zodat de politie onderzoek kan doen",
+        "Om de dief direct op te laten pakken door de politie"
       ],
-      "correctIndex": 2,
-      "explanation": "De minister-president is de leider van de regering en voorzitter van de ministerraad. De minister-president wordt niet rechtstreeks gekozen, maar komt voort uit de coalitieonderhandelingen na verkiezingen.",
-      "explanationEn": "The prime minister is the leader of the government and chairs the Council of Ministers. The PM is not directly elected but emerges from coalition negotiations after elections."
+      "correctIndex": 1,
+      "explanation": "Een aangifte is een officieel document waarbij je de politie informeert over een strafbaar feit. De politie beslist daarna of ze een onderzoek instellt. Een aangifte is ook nuttig als bewijs voor de verzekeraar.",
+      "explanationEn": "A police report is an official document informing the police about a criminal offense. The police then decide whether to conduct an investigation. A police report is also useful as evidence for the insurance company."
     },
     {
       "id": "knm-a2-6-q33",
-      "text": "Wat is een referendum?",
+      "text": "Lars wil weten wat het BSN (burgerservicenummer) is. Wanneer gebruik je dit nummer?",
       "options": [
-        "Een verkiezing voor de gemeenteraad",
-        "Een volkstemming waarbij burgers direct over een bepaald onderwerp stemmen",
-        "Een vergadering van alle ministers",
-        "Een debat in de Tweede Kamer"
+        "Het BSN is je inschrijfnummer bij de gemeente",
+        "Het BSN is je unieke persoonsnummer dat je gebruikt bij de overheid, zorgverzekering, werk en belastingen",
+        "Het BSN is je bankrekeningnummer"
       ],
       "correctIndex": 1,
-      "explanation": "Een referendum is een volkstemming waarbij burgers direct mogen stemmen over een bepaald onderwerp of wet. In Nederland zijn referenda niet heel gebruikelijk.",
-      "explanationEn": "A referendum is a public vote in which citizens vote directly on a specific issue or law. In the Netherlands, referendums are not very common."
+      "explanation": "Het BSN (burgerservicenummer) is een uniek persoonsnummer dat elke inwoner van Nederland heeft. Het wordt gebruikt bij alle contacten met de overheid, bij je werkgever, belastingaangifte en zorgverzekering.",
+      "explanationEn": "The BSN (citizen service number) is a unique personal number that every resident of the Netherlands has. It is used in all contacts with the government, with your employer, in tax returns, and with health insurance."
     },
     {
       "id": "knm-a2-6-q34",
-      "text": "Wat is de Nationale ombudsman?",
+      "text": "Fatima wil een klacht indienen bij een webshop. De webshop heeft zijn klachtenafhandeling niet goed geregeld. Welke Europese organisatie kan helpen bij grensoverschrijdende online consumentengeschillen?",
       "options": [
-        "Een rechter bij het hoogste gerechtshof",
-        "De minister van Justitie",
-        "Een onafhankelijke functionaris die klachten van burgers over de overheid onderzoekt",
-        "De directeur van de Belastingdienst"
+        "Het Europees Parlement",
+        "Het ODR-platform (Online Dispute Resolution) van de Europese Commissie",
+        "INTERPOL"
       ],
-      "correctIndex": 2,
-      "explanation": "De Nationale ombudsman onderzoekt klachten van burgers over de overheid. Als je vindt dat een overheidsinstantie je niet goed heeft behandeld, kun je een klacht indienen bij de ombudsman.",
-      "explanationEn": "The National Ombudsman investigates citizens' complaints about government bodies. If you feel a government agency has not treated you properly, you can file a complaint with the ombudsman."
+      "correctIndex": 1,
+      "explanation": "De Europese Commissie heeft het ODR-platform (Online Dispute Resolution) opgericht voor grensoverschrijdende online consumentengeschillen. Via dit platform kun je contact leggen met de buitenlandse webshop en een oplossing zoeken.",
+      "explanationEn": "The European Commission has established the ODR (Online Dispute Resolution) platform for cross-border online consumer disputes. Through this platform you can contact the foreign webshop and seek a solution."
     },
     {
       "id": "knm-a2-6-q35",
-      "text": "Wat doet de Belastingdienst?",
+      "text": "Omar heeft gehoord dat hij recht heeft op huurtoeslag. Waar vraagt hij dit aan?",
       "options": [
-        "De Belastingdienst geeft paspoorten uit",
-        "De Belastingdienst is verantwoordelijk voor het innen van belastingen en het uitbetalen van toeslagen",
-        "De Belastingdienst organiseert verkiezingen",
-        "De Belastingdienst beheert de ziekenhuizen"
+        "Bij zijn verhuurder",
+        "Bij de Belastingdienst/Toeslagen",
+        "Bij de gemeente"
       ],
       "correctIndex": 1,
-      "explanation": "De Belastingdienst int belastingen (zoals inkomstenbelasting en btw) en betaalt toeslagen uit, zoals huurtoeslag, zorgtoeslag en kinderbijslag-gerelateerde toeslagen.",
-      "explanationEn": "The Tax Authority collects taxes (such as income tax and VAT) and pays out benefits, such as rent subsidy, healthcare allowance, and child-benefit-related allowances."
+      "explanation": "Huurtoeslag vraag je aan bij de Belastingdienst/Toeslagen (ook bekend als Dienst Toeslagen). Je kunt dit online doen via de website van de Belastingdienst met behulp van DigiD.",
+      "explanationEn": "You apply for housing allowance at the Tax Authority/Benefits (also known as Dienst Toeslagen). You can do this online via the Tax Authority's website using DigiD."
     },
     {
       "id": "knm-a2-6-q36",
-      "text": "Wat zijn de Waddeneilanden?",
+      "text": "Nadia wil weten wat het recht op vergetelheid inhoudt. Ze wil dat een website haar gegevens verwijdert. Wat houdt dit recht in?",
       "options": [
-        "Eilanden in de Middellandse Zee die bij Nederland horen",
-        "Een groep eilanden in het noorden van Nederland, in de Waddenzee",
-        "Kunstmatige eilanden bij Rotterdam",
-        "Eilanden in het IJsselmeer"
+        "Het recht om je eigen strafblad te wissen bij de politie",
+        "Het recht om een organisatie te vragen jouw persoonsgegevens te verwijderen als er geen geldige reden meer is om ze te bewaren",
+        "Het recht om vergeten schulden niet te hoeven betalen"
       ],
       "correctIndex": 1,
-      "explanation": "De Waddeneilanden liggen in het noorden van Nederland in de Waddenzee. Er zijn vijf bewoonde eilanden: Texel, Vlieland, Terschelling, Ameland en Schiermonnikoog. De Waddenzee is UNESCO Werelderfgoed.",
-      "explanationEn": "The Wadden Islands are in the north of the Netherlands in the Wadden Sea. There are five inhabited islands: Texel, Vlieland, Terschelling, Ameland, and Schiermonnikoog. The Wadden Sea is a UNESCO World Heritage Site."
+      "explanation": "Het recht op vergetelheid (artikel 17 AVG) geeft je het recht om te vragen dat een organisatie jouw persoonsgegevens verwijdert wanneer er geen legitiem doel meer is voor het bewaren ervan.",
+      "explanationEn": "The right to erasure (Article 17 GDPR) gives you the right to ask an organization to delete your personal data when there is no longer a legitimate purpose for keeping it."
     },
     {
       "id": "knm-a2-6-q37",
-      "text": "Wat is het IJsselmeer?",
+      "text": "Bas heeft een zorgverzekering nodig maar hij heeft een pre-existente aandoening (een ziekte die hij al had). Mag een verzekeraar hem weigeren voor de basisverzekering?",
       "options": [
-        "Een rivier in het zuiden van Nederland",
-        "Een groot meer in het midden van Nederland dat ontstond door de bouw van de Afsluitdijk",
-        "Een kanaal in Amsterdam",
-        "Een meer op de grens met Duitsland"
+        "Ja, maar alleen als de aandoening ernstig is",
+        "Nee, verzekeraars hebben een acceptatieplicht voor de basisverzekering",
+        "Ja, verzekeraars mogen iedereen weigeren"
       ],
       "correctIndex": 1,
-      "explanation": "Het IJsselmeer is een groot zoetwatermeer dat ontstond in 1932 toen de Afsluitdijk de Zuiderzee afsloot van de Noordzee. Een deel van het IJsselmeer is later drooggemaakt (Flevoland).",
-      "explanationEn": "The IJsselmeer is a large freshwater lake that was created in 1932 when the Afsluitdijk closed off the Zuiderzee from the North Sea. Part of the IJsselmeer was later reclaimed (Flevoland)."
+      "explanation": "In Nederland hebben zorgverzekeraars een acceptatieplicht voor de basisverzekering. Ze mogen niemand weigeren voor de basisverzekering, ongeacht leeftijd, geslacht of gezondheid.",
+      "explanationEn": "In the Netherlands, health insurers have a duty to accept for the basic insurance. They may not refuse anyone for the basic insurance, regardless of age, gender, or health status."
     },
     {
       "id": "knm-a2-6-q38",
-      "text": "Wat zijn de Deltawerken?",
+      "text": "Mia wil weten of ze recht heeft op gesubsidieerde rechtsbijstand (een 'toevoeging'). Wat is een toevoeging?",
       "options": [
-        "Een reeks bruggen over de grote rivieren",
-        "Een systeem van dammen, sluizen en stormvloedkeringen om Nederland te beschermen tegen de zee",
-        "Een netwerk van fietspaden in de Randstad",
-        "Een serie windmolenparken in de Noordzee"
+        "Een gratis advocaat die door de rechtbank wordt aangesteld in strafzaken",
+        "Een subsidie voor rechtenstudenten",
+        "Een overheidsbijdrage in de kosten van een advocaat voor mensen met een laag inkomen"
       ],
-      "correctIndex": 1,
-      "explanation": "De Deltawerken zijn een systeem van dammen, sluizen en stormvloedkeringen in het zuidwesten van Nederland. Ze werden gebouwd na de watersnoodramp van 1953 om het land te beschermen tegen overstromingen.",
-      "explanationEn": "The Delta Works are a system of dams, sluices, and storm surge barriers in the southwest of the Netherlands. They were built after the flood disaster of 1953 to protect the country from flooding."
+      "correctIndex": 2,
+      "explanation": "Een toevoeging is gesubsidieerde rechtsbijstand voor mensen met een laag inkomen. Via het Juridisch Loket kun je advies krijgen over of je recht hebt op een toevoeging. Je betaalt dan een kleine eigen bijdrage.",
+      "explanationEn": "A 'toevoeging' is subsidized legal aid for people with low incomes. Through the Legal Services Counter (Juridisch Loket) you can get advice on whether you are entitled to a toevoeging. You then pay a small co-payment."
     },
     {
       "id": "knm-a2-6-q39",
-      "text": "Waar ligt Schiphol?",
+      "text": "Lars heeft een jonge baby gekregen. Hij wil weten hoe lang geboorteverlof hij heeft recht op in Nederland. Hoeveel weken geboorteverlof heeft een partner?",
       "options": [
-        "In Rotterdam",
-        "In Den Haag",
-        "Bij Amsterdam, in de gemeente Haarlemmermeer",
-        "In Utrecht"
+        "Geen recht op verlof — alleen de moeder heeft recht op verlof",
+        "4 weken volledig betaald verlof",
+        "2 weken betaald (100% loon) en 5 weken aanvullend geboorteverlof (70% loon via UWV)"
       ],
       "correctIndex": 2,
-      "explanation": "Luchthaven Schiphol ligt bij Amsterdam, in de gemeente Haarlemmermeer. Het is de grootste luchthaven van Nederland en een van de grootste van Europa. Schiphol ligt onder de zeespiegel.",
-      "explanationEn": "Schiphol Airport is located near Amsterdam, in the municipality of Haarlemmermeer. It is the largest airport in the Netherlands and one of the largest in Europe. Schiphol lies below sea level."
+      "explanation": "De partner heeft recht op eenmaal de wekelijkse arbeidsduur als geboorteverlof (doorgaans 1 week betaald door werkgever). Daarna is er aanvullend geboorteverlof: maximaal 5 weken à 70% van het loon (via UWV), op te nemen in het eerste half jaar.",
+      "explanationEn": "The partner is entitled to one week's working time as birth leave (usually 1 week paid by the employer). Then there is additional birth leave: up to 5 weeks at 70% of salary (via UWV), to be taken in the first half year."
     },
     {
       "id": "knm-a2-6-q40",
-      "text": "Wat is de grachtengordel in Amsterdam?",
+      "text": "Fatima heeft een klacht over haar zorgverzekeraar ingediend maar is niet tevreden met de afhandeling. Welke onafhankelijke instantie kan haar verder helpen?",
       "options": [
-        "Een modern winkelcentrum in het centrum",
-        "Een snelweg rond Amsterdam",
-        "Een ring van grachten uit de 17e eeuw in het centrum van Amsterdam, UNESCO Werelderfgoed",
-        "Een park langs de rivier de Amstel"
+        "De rechter in een civiele procedure",
+        "De Stichting Klachten en Geschillen Zorgverzekeringen (SKGZ)",
+        "De Autoriteit Consument & Markt (ACM)"
       ],
-      "correctIndex": 2,
-      "explanation": "De grachtengordel is een ring van grachten in het centrum van Amsterdam, aangelegd in de 17e eeuw. Sinds 2010 staat de grachtengordel op de UNESCO Werelderfgoedlijst.",
-      "explanationEn": "The canal ring is a ring of canals in the center of Amsterdam, constructed in the 17th century. Since 2010, the canal ring has been on the UNESCO World Heritage List."
+      "correctIndex": 1,
+      "explanation": "De SKGZ (Stichting Klachten en Geschillen Zorgverzekeringen) behandelt klachten en geschillen tussen verzekerden en zorgverzekeraars. Dit is een snellere en goedkopere route dan naar de rechter gaan.",
+      "explanationEn": "The SKGZ (Health Insurance Complaints and Disputes Foundation) handles complaints and disputes between insured persons and health insurers. This is a faster and cheaper route than going to court."
     }
   ]
 }

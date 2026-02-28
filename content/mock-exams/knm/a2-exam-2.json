@@ -8,523 +8,483 @@
   "questions": [
     {
       "id": "knm-a2-2-q1",
-      "text": "Wanneer kun je een WW-uitkering krijgen?",
+      "text": "Lars werkt bij een bedrijf en wordt ontslagen. Hij heeft 2 jaar gewerkt. Zijn werkgever wil hem niets betalen. Waar heeft Lars recht op bij ontslag na 2 jaar?",
       "options": [
-        "Als je zelf ontslag neemt",
-        "Als je ontslagen wordt en je hebt genoeg gewerkt",
-        "Als je met pensioen gaat",
-        "Als je ziek bent"
+        "Niets, de werkgever bepaalt zelf",
+        "Een transitievergoeding berekend op basis van zijn dienstverband",
+        "Een volledig jaarsalaris als vergoeding"
       ],
       "correctIndex": 1,
-      "explanation": "Je kunt een WW-uitkering krijgen als je onvrijwillig werkloos wordt en aan de wekeneis voldoet.",
-      "explanationEn": "You can receive unemployment benefits (WW) if you become involuntarily unemployed and meet the weeks-worked requirement."
+      "explanation": "Bij ontslag heeft een werknemer recht op een transitievergoeding. De hoogte is een derde maandsalaris per gewerkt jaar.",
+      "explanationEn": "Upon dismissal, an employee is entitled to a transition allowance. The amount is one-third of the monthly salary per year worked."
     },
     {
       "id": "knm-a2-2-q2",
-      "text": "Wat is een sollicitatiegesprek?",
+      "text": "Fatima heeft 3 tijdelijke contracten gehad bij hetzelfde bedrijf, elk van 1 jaar. Nu biedt haar werkgever een vierde tijdelijk contract aan. Wat zegt de wet?",
       "options": [
-        "Een gesprek met je collega's",
-        "Een gesprek waarin je laat zien waarom je geschikt bent voor de baan",
-        "Een gesprek over je salaris na aanname",
-        "Een functioneringsgesprek"
+        "Na 3 opeenvolgende tijdelijke contracten heeft ze recht op een vast contract (ketenregeling)",
+        "Ze moet het accepteren, de werkgever beslist",
+        "Ze mag maximaal 5 tijdelijke contracten hebben"
       ],
-      "correctIndex": 1,
-      "explanation": "In een sollicitatiegesprek laat je zien waarom je geschikt bent voor een baan.",
-      "explanationEn": "In a job interview, you show why you are suitable for a job."
+      "correctIndex": 0,
+      "explanation": "De ketenregeling bepaalt dat na 3 opeenvolgende tijdelijke contracten (of 3 jaar) automatisch een vast contract ontstaat.",
+      "explanationEn": "The chain rule (ketenregeling) stipulates that after 3 consecutive temporary contracts (or 3 years), a permanent contract automatically arises."
     },
     {
       "id": "knm-a2-2-q3",
-      "text": "Wat is een tijdelijk contract?",
+      "text": "Kofi werkt meer uren dan zijn contract zegt. Zijn leidinggevende vraagt hem overuren te werken zonder extra loon. Is dit altijd toegestaan?",
       "options": [
-        "Een contract voor onbepaalde tijd",
-        "Een contract met een vaste einddatum",
-        "Een mondeling contract",
-        "Een vrijwilligersovereenkomst"
+        "Overuren zijn altijd verplicht",
+        "Nee, overuren moeten worden vergoed of gecompenseerd in vrije tijd, afhankelijk van de CAO of het contract",
+        "Ja, de werkgever mag altijd extra uren eisen"
       ],
       "correctIndex": 1,
-      "explanation": "Een tijdelijk contract heeft een vaste begin- en einddatum.",
-      "explanationEn": "A temporary contract has a fixed start and end date."
+      "explanation": "Overuren moeten worden vergoed (in geld of vrije tijd) als dit in de CAO of het contract staat. Werkgevers mogen niet onbeperkt gratis overwerk eisen.",
+      "explanationEn": "Overtime must be compensated (in money or time off) as specified in the CAO or contract. Employers cannot demand unlimited unpaid overtime."
     },
     {
       "id": "knm-a2-2-q4",
-      "text": "Hoeveel uur per week werkt een fulltime werknemer meestal?",
+      "text": "Sanne heeft een arbeidsconflict met haar werkgever. Ze wil weten welke organisatie voor werknemers opkomt bij conflicten. Welke organisatie is dit?",
       "options": [
-        "32 uur",
-        "36-40 uur",
-        "42 uur",
-        "45 uur"
+        "Een vakbond",
+        "Het UWV",
+        "De Belastingdienst"
       ],
-      "correctIndex": 1,
-      "explanation": "Een fulltime werkweek is meestal 36 tot 40 uur, afhankelijk van de sector.",
-      "explanationEn": "A full-time work week is usually 36 to 40 hours, depending on the sector."
+      "correctIndex": 0,
+      "explanation": "Een vakbond behartigt de belangen van werknemers en biedt hulp bij arbeidsconflicten, advies en juridische bijstand.",
+      "explanationEn": "A trade union represents the interests of employees and provides help with labor disputes, advice, and legal assistance."
     },
     {
       "id": "knm-a2-2-q5",
-      "text": "Wat is een woningcorporatie?",
+      "text": "Tom heeft een nieuwe baan en ondertekent zijn contract. Er staat een proeftijd van 2 maanden in. Zijn baas zegt dat hij in die periode zonder reden ontslagen kan worden. Is dit correct?",
       "options": [
-        "Een makelaar",
-        "Een organisatie die sociale huurwoningen verhuurt",
-        "Een bank voor hypotheken",
-        "Een bouwbedrijf"
+        "Nee, ook tijdens proeftijd is een reden verplicht",
+        "Ja, tijdens de proeftijd kunnen beide partijen het contract direct opzeggen zonder reden of opzegtermijn",
+        "Alleen de werkgever mag opzeggen tijdens proeftijd"
       ],
       "correctIndex": 1,
-      "explanation": "Een woningcorporatie is een organisatie die sociale huurwoningen verhuurt.",
-      "explanationEn": "A housing corporation is an organization that rents out social housing."
+      "explanation": "Tijdens de proeftijd (max 2 maanden) mogen zowel werkgever als werknemer het contract direct beëindigen zonder reden of opzegtermijn.",
+      "explanationEn": "During the probationary period (max 2 months), both employer and employee may terminate the contract immediately without reason or notice period."
     },
     {
       "id": "knm-a2-2-q6",
-      "text": "Wat moet je doen als je je huur niet kunt betalen?",
+      "text": "Nadia wordt ziek en haar werkgever vraagt haar om een re-integratieplan op te stellen na 6 weken ziekte. Wie begeleidt dit plan medisch?",
       "options": [
-        "Niets doen en afwachten",
-        "Contact opnemen met de verhuurder om een oplossing te zoeken",
-        "Verhuizen zonder te zeggen",
-        "Geld lenen bij vrienden"
+        "Het UWV direct",
+        "De huisarts",
+        "De bedrijfsarts"
       ],
-      "correctIndex": 1,
-      "explanation": "Je moet contact opnemen met de verhuurder om samen een oplossing te zoeken.",
-      "explanationEn": "You must contact the landlord to find a solution together."
+      "correctIndex": 2,
+      "explanation": "De bedrijfsarts begeleidt zieke werknemers bij het re-integratieproces en adviseert werkgever en werknemer over werkhervatting.",
+      "explanationEn": "The occupational physician guides sick employees in the reintegration process and advises employer and employee on return to work."
     },
     {
       "id": "knm-a2-2-q7",
-      "text": "Wat is de Woonbond?",
+      "text": "Reza werkt bij een bedrijf en wil weten of hij recht heeft op een salaris hoger dan het minimumloon. Zijn werkgever zegt dat de CAO dit bepaalt. Wat is een CAO?",
       "options": [
-        "Een verzekeringsmaatschappij",
-        "Een organisatie die huurders helpt en adviseert",
-        "Een bank",
-        "Een gemeentelijke dienst"
+        "Een overheidsregeling",
+        "Een collectieve afspraak over arbeidsvoorwaarden voor een sector of bedrijf",
+        "Een persoonlijk contract"
       ],
       "correctIndex": 1,
-      "explanation": "De Woonbond is een organisatie die opkomt voor de belangen van huurders.",
-      "explanationEn": "The Woonbond is an organization that advocates for the interests of tenants."
+      "explanation": "Een CAO is een collectieve arbeidsovereenkomst die afspraken bevat over loon, vakantie, werktijden en andere arbeidsvoorwaarden voor een sector.",
+      "explanationEn": "A CAO is a collective labor agreement containing agreements about wages, vacation, working hours, and other employment conditions for a sector."
     },
     {
       "id": "knm-a2-2-q8",
-      "text": "Wat is een huurcommissie?",
+      "text": "Erik heeft een baan als beveiliger. Zijn werkgever vraagt een Verklaring Omtrent het Gedrag (VOG). Waarvoor dient dit?",
       "options": [
-        "Een organisatie die huizen verkoopt",
-        "Een organisatie die geschillen tussen huurder en verhuurder behandelt",
-        "Een bank voor hypotheken",
-        "Een verzekeringsmaatschappij"
+        "Als bewijs van zijn nationaliteit",
+        "Om zijn diploma te bewijzen",
+        "Als bewijs dat hij geen relevante strafbare feiten heeft gepleegd die een bezwaar zijn voor de functie"
       ],
-      "correctIndex": 1,
-      "explanation": "De huurcommissie behandelt geschillen tussen huurders en verhuurders.",
-      "explanationEn": "The rent tribunal handles disputes between tenants and landlords."
+      "correctIndex": 2,
+      "explanation": "Een VOG (Verklaring Omtrent het Gedrag) toont aan dat er vanuit justitie geen bezwaar is voor een bepaalde functie, op basis van het strafblad.",
+      "explanationEn": "A VOG (Certificate of Good Conduct) shows that there is no objection from the justice system for a specific position, based on the criminal record."
     },
     {
       "id": "knm-a2-2-q9",
-      "text": "Wat is de basiszorgverzekering?",
+      "text": "Sofia werkt parttime 20 uur per week. Haar collega die fulltime werkt heeft 25 vakantiedagen. Hoeveel dagen heeft Sofia naar rato?",
       "options": [
-        "Een vrijwillige verzekering",
-        "Een verplichte verzekering die iedereen in Nederland moet hebben",
-        "Een aanvullende verzekering",
-        "Een verzekering alleen voor kinderen"
+        "12,5 dagen (naar rato van haar uren: 20/40 × 25)",
+        "10 dagen, want parttime werknemers hebben minder rechten",
+        "Dezelfde 25 dagen"
       ],
-      "correctIndex": 1,
-      "explanation": "De basiszorgverzekering is verplicht voor iedereen in Nederland.",
-      "explanationEn": "Basic health insurance is mandatory for everyone in the Netherlands."
+      "correctIndex": 0,
+      "explanation": "Parttimers hebben recht op vakantiedagen naar rato van hun uren. Sofia werkt de helft (20/40 uur), dus heeft ze de helft van 25 = 12,5 vakantiedagen.",
+      "explanationEn": "Part-time workers are entitled to vacation days proportional to their hours. Sofia works half (20/40 hours), so she has half of 25 = 12.5 vacation days."
     },
     {
       "id": "knm-a2-2-q10",
-      "text": "Wat vergoedt de basiszorgverzekering?",
+      "text": "Pieter wil zijn arbeidsovereenkomst opzeggen. Hij werkt al 3 jaar bij het bedrijf met een vast contract. Hoe lang is zijn minimale opzegtermijn als werknemer?",
       "options": [
-        "Alleen ziekenhuiskosten",
-        "Basismedische zorg zoals huisarts, ziekenhuis en medicijnen",
-        "Alles inclusief tandarts",
-        "Alleen medicijnen"
+        "1 maand (wettelijk minimum voor werknemers)",
+        "2 weken",
+        "3 maanden"
       ],
-      "correctIndex": 1,
-      "explanation": "De basiszorgverzekering vergoedt onder andere huisarts, ziekenhuis en noodzakelijke medicijnen.",
-      "explanationEn": "Basic health insurance covers, among other things, the general practitioner, hospital care, and necessary medication."
+      "correctIndex": 0,
+      "explanation": "De wettelijke opzegtermijn voor een werknemer is minimaal 1 maand. In de CAO of het contract kan een langere termijn zijn afgesproken.",
+      "explanationEn": "The statutory notice period for an employee is a minimum of 1 month. A longer period may be agreed in the CAO or contract."
     },
     {
       "id": "knm-a2-2-q11",
-      "text": "Wat is een consultatiebureau?",
+      "text": "Amira solliciteert op een baan als programmeur. Ze is zes maanden zwanger. De werkgever vraagt naar haar zwangerschap. Mag de werkgever haar hierom afwijzen?",
       "options": [
-        "Een plek waar je advies krijgt over je werk",
-        "Een plek waar baby's en jonge kinderen worden gecontroleerd",
-        "Een plek voor volwassenen om te sporten",
-        "Een plek om taalles te krijgen"
+        "Alleen als de functie fysiek zwaar is",
+        "Nee, afwijzing wegens zwangerschap is discriminatie en is wettelijk verboden",
+        "Ja, de werkgever kan altijd kiezen wie hij aanneemt"
       ],
       "correctIndex": 1,
-      "explanation": "Bij het consultatiebureau worden baby's en jonge kinderen gecontroleerd op gezondheid en groei.",
-      "explanationEn": "At the child health clinic, babies and young children are checked for health and growth."
+      "explanation": "Discriminatie op basis van zwangerschap is verboden. Een werkgever mag een sollicitant niet afwijzen omdat ze zwanger is.",
+      "explanationEn": "Discrimination based on pregnancy is prohibited. An employer may not reject an applicant because she is pregnant."
     },
     {
       "id": "knm-a2-2-q12",
-      "text": "Wat is het verschil tussen de huisarts en een specialist?",
+      "text": "Daan heeft zijn baan verloren. Hij heeft 3 jaar gewerkt en voldoet aan de eisen. Bij welke organisatie vraagt hij een WW-uitkering aan?",
       "options": [
-        "Er is geen verschil",
-        "De huisarts is de eerste dokter, de specialist behandelt specifieke problemen",
-        "De specialist is goedkoper",
-        "De huisarts werkt in het ziekenhuis"
+        "Bij het UWV",
+        "Bij zijn vorige werkgever",
+        "Bij de gemeente"
       ],
-      "correctIndex": 1,
-      "explanation": "De huisarts is de eerste dokter die je bezoekt, de specialist behandelt specifieke medische problemen.",
-      "explanationEn": "The general practitioner is the first doctor you visit; the specialist treats specific medical problems."
+      "correctIndex": 0,
+      "explanation": "Een WW-uitkering (werkloosheidsuitkering) vraag je aan bij het UWV.",
+      "explanationEn": "A WW benefit (unemployment benefit) is applied for at the UWV."
     },
     {
       "id": "knm-a2-2-q13",
-      "text": "Wanneer bel je 112?",
+      "text": "Yasmine werkt bij een zorg-instelling en wordt gepest door collega's. Haar leidinggevende doet niets. Wie kan ze intern aanspreken?",
       "options": [
-        "Bij elke vraag",
-        "Bij levensbedreigende situaties",
-        "Als je een afspraak wilt maken",
-        "Als je klachten hebt over de gemeente"
+        "De politie",
+        "De vertrouwenspersoon van het bedrijf",
+        "De vakbond meteen"
       ],
       "correctIndex": 1,
-      "explanation": "112 bel je alleen bij levensbedreigende noodsituaties.",
-      "explanationEn": "You only call 112 in life-threatening emergency situations."
+      "explanation": "Een vertrouwenspersoon op de werkvloer is aangesteld om klachten over ongewenst gedrag (pesten, intimidatie) te behandelen.",
+      "explanationEn": "A confidential counselor in the workplace is appointed to handle complaints about unwanted behavior (bullying, intimidation)."
     },
     {
       "id": "knm-a2-2-q14",
-      "text": "Wat doet de gemeenteraad?",
+      "text": "Hana gaat met zwangerschapsverlof. Ze vraagt hoelang ze verlof heeft. Wat is de minimale duur van zwangerschaps- en bevallingsverlof in Nederland?",
       "options": [
-        "Regeert het hele land",
-        "Neemt beslissingen over de gemeente",
-        "Spreekt recht",
-        "Maakt landelijke wetten"
+        "16 weken",
+        "8 weken",
+        "6 maanden"
       ],
-      "correctIndex": 1,
-      "explanation": "De gemeenteraad neemt beslissingen over zaken in de gemeente.",
-      "explanationEn": "The municipal council makes decisions about matters in the municipality."
+      "correctIndex": 0,
+      "explanation": "Vrouwen hebben recht op minimaal 16 weken zwangerschaps- en bevallingsverlof: 4-6 weken voor de uitgerekende datum en 10-12 weken daarna.",
+      "explanationEn": "Women are entitled to a minimum of 16 weeks of maternity leave: 4-6 weeks before the due date and 10-12 weeks after."
     },
     {
       "id": "knm-a2-2-q15",
-      "text": "Wie kiest de burgemeester?",
+      "text": "Lucas is zelfstandig ondernemer (zzp'er). Hij wordt ziek en kan niet werken. Hoeveel loon krijgt hij doorbetaald van zijn opdrachtgever?",
       "options": [
-        "De inwoners van de gemeente",
-        "De gemeenteraad op voordracht van de commissaris",
-        "De koning",
-        "De minister-president"
+        "70% van zijn loon, net als werknemers",
+        "100% via het UWV",
+        "Niets. Een zzp'er is niet verplicht verzekerd voor ziekte en heeft geen werkgever die doorbetaalt"
       ],
-      "correctIndex": 1,
-      "explanation": "De burgemeester wordt benoemd door de Kroon op voordracht van de gemeenteraad.",
-      "explanationEn": "The mayor is appointed by the Crown on the recommendation of the municipal council."
+      "correctIndex": 2,
+      "explanation": "Als zzp'er ben je niet verplicht verzekerd voor ziekte. Bij ziekte krijg je geen doorbetaling, tenzij je een eigen arbeidsongeschiktheidsverzekering hebt.",
+      "explanationEn": "As a self-employed person, you are not mandatorily insured for illness. When sick, you receive no continued payment unless you have your own disability insurance."
     },
     {
       "id": "knm-a2-2-q16",
-      "text": "Wat is een politieke partij?",
+      "text": "Boris heeft zijn arbeidscontract opgezegd en wil weten of hij recht heeft op WW. Een collega zegt dat hij zelf heeft opgezegd, dus hij heeft geen recht. Klopt dit?",
       "options": [
-        "Een feest voor politici",
-        "Een groep mensen met dezelfde politieke ideeën",
-        "Een rechtbank",
-        "Een ministerie"
+        "In principe klopt dit: als je zelf opzegt, heb je geen recht op WW (verwijtbare werkloosheid)",
+        "Alleen als je langer dan 5 jaar hebt gewerkt",
+        "Nee, je hebt altijd recht op WW"
       ],
-      "correctIndex": 1,
-      "explanation": "Een politieke partij is een groep mensen die dezelfde politieke ideeën hebben.",
-      "explanationEn": "A political party is a group of people who share the same political ideas."
+      "correctIndex": 0,
+      "explanation": "Als je zelf je baan opzegt zonder goede reden, ben je verwijtbaar werkloos en heb je in principe geen recht op WW.",
+      "explanationEn": "If you voluntarily quit your job without good reason, you are deemed culpably unemployed and generally have no right to WW benefits."
     },
     {
       "id": "knm-a2-2-q17",
-      "text": "Wanneer was de Tweede Wereldoorlog?",
+      "text": "Sara wil meer uren werken. Ze werkt nu 24 uur per week maar wil 36 uur. Haar werkgever weigert zonder uitleg. Heeft Sara een wettelijk recht?",
       "options": [
-        "1914-1918",
-        "1939-1945",
-        "1950-1955",
-        "1960-1965"
+        "Nee, de werkgever bepaalt altijd de uren",
+        "Ja, de Wet aanpassing arbeidsduur geeft werknemers het recht meer uren te vragen. De werkgever moet een zwaarwegende reden hebben om te weigeren",
+        "Alleen als ze een vast contract heeft"
       ],
       "correctIndex": 1,
-      "explanation": "De Tweede Wereldoorlog was van 1939 tot 1945.",
-      "explanationEn": "World War II was from 1939 to 1945."
+      "explanation": "De Wet aanpassing arbeidsduur geeft werknemers het recht om meer of minder uren aan te vragen. De werkgever kan alleen weigeren bij zwaarwegend bedrijfsbelang.",
+      "explanationEn": "The Working Hours Adjustment Act gives employees the right to request more or fewer hours. The employer can only refuse for compelling business reasons."
     },
     {
       "id": "knm-a2-2-q18",
-      "text": "Wat gebeurde er tijdens de bezetting van Nederland?",
+      "text": "Joris is ontslagen en niet tevreden met zijn transitievergoeding. Hij wil weten waarvoor hij de transitievergoeding kan gebruiken. Wat is het doel?",
       "options": [
-        "Nederland was vrij",
-        "Duitsland bezette Nederland",
-        "Frankrijk bezette Nederland",
-        "Er was vrede"
+        "Alleen voor levensonderhoud",
+        "Hij moet het terugbetalen als hij snel een baan vindt",
+        "Voor scholing, omscholing of het vinden van een nieuwe baan"
       ],
-      "correctIndex": 1,
-      "explanation": "Tijdens de Tweede Wereldoorlog was Nederland bezet door Duitsland (1940-1945).",
-      "explanationEn": "During World War II, the Netherlands was occupied by Germany (1940-1945)."
+      "correctIndex": 2,
+      "explanation": "De transitievergoeding is bedoeld om de werknemer te helpen de stap naar ander werk te maken, via scholing of coaching.",
+      "explanationEn": "The transition allowance is intended to help the employee make the transition to other work, through training or coaching."
     },
     {
       "id": "knm-a2-2-q19",
-      "text": "Wat is Prinsjesdag?",
+      "text": "Kim werkt in een fabriek en hoort dat de Arbeidsinspectie bedrijven controleert. Wat doet de Nederlandse Arbeidsinspectie (NLA)?",
       "options": [
-        "De verjaardag van de koning",
-        "De dag waarop de koning de troonrede voorleest en de begroting wordt gepresenteerd",
-        "Een feestdag in december",
-        "Een dag voor kinderen"
+        "De Arbeidsinspectie regelt salarissen",
+        "De Arbeidsinspectie geeft arbeidscontracten uit",
+        "De Arbeidsinspectie controleert of bedrijven de arbeidswetgeving naleven (veiligheid, minimumloon, werktijden)"
       ],
-      "correctIndex": 1,
-      "explanation": "Op Prinsjesdag (derde dinsdag van september) leest de koning de troonrede voor.",
-      "explanationEn": "On Prinsjesdag (the third Tuesday of September), the king reads the Speech from the Throne."
+      "correctIndex": 2,
+      "explanation": "De Nederlandse Arbeidsinspectie (NLA) controleert of werkgevers de arbeidswetgeving naleven, zoals veiligheidsregels, minimumloon en werktijden.",
+      "explanationEn": "The Dutch Labour Authority (NLA) checks whether employers comply with labor legislation, such as safety rules, minimum wage, and working hours."
     },
     {
       "id": "knm-a2-2-q20",
-      "text": "Wat is de Gouden Eeuw?",
+      "text": "Peter heeft een arbeidsconflict dat hij wil oplossen zonder rechtszaak. Een collega stelt mediation voor. Wat is mediation?",
       "options": [
-        "De tijd van de Romeinen",
-        "De 17e eeuw toen Nederland rijk en machtig was",
-        "De 19e eeuw",
-        "De 21e eeuw"
+        "Een bemiddelingsproces waarbij een neutrale derde helpt bij het vinden van een oplossing",
+        "Een klacht bij de vakbond",
+        "Een rechtszaak via de kantonrechter"
       ],
-      "correctIndex": 1,
-      "explanation": "De Gouden Eeuw was de 17e eeuw toen Nederland een belangrijke handelsnatie was.",
-      "explanationEn": "The Golden Age was the 17th century when the Netherlands was an important trading nation."
+      "correctIndex": 0,
+      "explanation": "Mediation is een conflictoplossingsmethode waarbij een onpartijdige mediator helpt om partijen tot een akkoord te brengen, zonder rechtszaak.",
+      "explanationEn": "Mediation is a conflict resolution method where an impartial mediator helps bring parties to an agreement, without a court case."
     },
     {
       "id": "knm-a2-2-q21",
-      "text": "Wie was Anne Frank?",
+      "text": "Elena werkt bij een school. Ze heeft gehoord dat scholen een MedezeggenschapsRaad (MR) hebben. Wat doet een MR?",
       "options": [
-        "Een koningin",
-        "Een Joods meisje dat een dagboek schreef tijdens de oorlog",
-        "Een schilderes",
-        "Een politica"
+        "De MR vertegenwoordigt ouders, leerlingen en personeel en heeft advies- en instemmingsrecht bij schoolbeslissingen",
+        "De MR controleert de financiën van de school",
+        "De MR neemt alle beslissingen voor de school"
       ],
-      "correctIndex": 1,
-      "explanation": "Anne Frank was een Joods meisje dat tijdens de Tweede Wereldoorlog een beroemd dagboek schreef.",
-      "explanationEn": "Anne Frank was a Jewish girl who wrote a famous diary during World War II."
+      "correctIndex": 0,
+      "explanation": "De medezeggenschapsraad (MR) geeft ouders, leerlingen en leraren inspraak bij schoolbeleid. Ze hebben advies- en instemmingsrecht.",
+      "explanationEn": "The participation council (MR) gives parents, students, and teachers a say in school policy. They have advisory and consent rights."
     },
     {
       "id": "knm-a2-2-q22",
-      "text": "Wat is de basisschool-citotoets?",
+      "text": "Roos werkt al 10 jaar bij dezelfde werkgever. Haar contract wordt beëindigd wegens reorganisatie. Hoe wordt haar transitievergoeding berekend?",
       "options": [
-        "Een sporttest",
-        "Een eindtoets die bepaalt naar welk niveau middelbaar onderwijs een kind gaat",
-        "Een taaltest voor volwassenen",
-        "Een test voor de rijschool"
+        "Één maandsalaris voor elk gewerkt jaar",
+        "Een vast bedrag van €5.000",
+        "Een derde maandsalaris voor elk gewerkt jaar"
       ],
-      "correctIndex": 1,
-      "explanation": "De citotoets (eindtoets) helpt bepalen naar welk niveau middelbaar onderwijs een kind kan.",
-      "explanationEn": "The Cito test (final test) helps determine which level of secondary education a child can attend."
+      "correctIndex": 2,
+      "explanation": "De transitievergoeding bedraagt een derde van het maandsalaris per gewerkt jaar. Bij 10 jaar = 10 × ⅓ maandsalaris.",
+      "explanationEn": "The transition allowance amounts to one-third of the monthly salary per year worked. For 10 years = 10 × ⅓ monthly salary."
     },
     {
       "id": "knm-a2-2-q23",
-      "text": "Wat is het VWO?",
+      "text": "Yusuf wil gaan werken voor een bedrijf maar heeft nog nooit in Nederland gewerkt. Welk document heeft hij nodig om belasting en sociale premies correct te laten verwerken?",
       "options": [
-        "Een beroepsopleiding",
-        "Het hoogste niveau middelbaar onderwijs, voorbereiding op de universiteit",
-        "Een basisschool",
-        "Een taalopleiding"
+        "Zijn BSN-nummer (Burgerservicenummer)",
+        "Alleen zijn paspoort",
+        "Een werkvergunning altijd"
       ],
-      "correctIndex": 1,
-      "explanation": "VWO (voorbereidend wetenschappelijk onderwijs) is het hoogste niveau en bereidt voor op de universiteit.",
-      "explanationEn": "VWO (pre-university education) is the highest level of secondary education and prepares students for university."
+      "correctIndex": 0,
+      "explanation": "Het BSN is nodig voor de loonadministratie van de werkgever. De werkgever houdt hierop belasting en premies in.",
+      "explanationEn": "The BSN is required for the employer's payroll administration. The employer withholds taxes and contributions based on this."
     },
     {
       "id": "knm-a2-2-q24",
-      "text": "Wat is MBO?",
+      "text": "Miriam werkt bij een klein bedrijf zonder Ondernemingsraad (OR). Ze wil meer inspraak. Wanneer is een bedrijf verplicht een OR te hebben?",
       "options": [
-        "Middelbaar algemeen onderwijs",
-        "Middelbaar beroepsonderwijs",
-        "Een universiteit",
-        "Een basisschool"
+        "Als het bedrijf 50 of meer medewerkers heeft",
+        "Altijd, ook bij kleine bedrijven",
+        "Alleen bij internationale bedrijven"
       ],
-      "correctIndex": 1,
-      "explanation": "MBO staat voor middelbaar beroepsonderwijs, gericht op een praktisch beroep.",
-      "explanationEn": "MBO stands for secondary vocational education, focused on a practical profession."
+      "correctIndex": 0,
+      "explanation": "Bedrijven met 50 of meer werknemers zijn verplicht een Ondernemingsraad (OR) te hebben.",
+      "explanationEn": "Companies with 50 or more employees are required to have a works council (OR)."
     },
     {
       "id": "knm-a2-2-q25",
-      "text": "Wat is vrijheid van onderwijs?",
+      "text": "David werkt 's nachts in een ziekenhuis. Hij vraagt of hij recht heeft op een toeslag voor nachtdiensten. Wat staat er in de meeste CAO's?",
       "options": [
-        "Je hoeft niet naar school",
-        "Ouders mogen kiezen naar welke school hun kind gaat",
-        "Onderwijs is gratis",
-        "Je mag je eigen school beginnen"
+        "In de meeste CAO's is er een onregelmatigheidstoeslag voor nacht-, avond- en weekenddiensten",
+        "Nachtwerk is verboden in ziekenhuizen",
+        "Nachtwerk wordt hetzelfde betaald als dagwerk"
       ],
-      "correctIndex": 1,
-      "explanation": "Vrijheid van onderwijs betekent dat ouders mogen kiezen naar welke school hun kind gaat.",
-      "explanationEn": "Freedom of education means that parents may choose which school their child attends."
+      "correctIndex": 0,
+      "explanation": "Veel CAO's bevatten een onregelmatigheidstoeslag (ORT) voor werk buiten normale werktijden, zoals 's nachts, in het weekend of op feestdagen.",
+      "explanationEn": "Many CAOs include an irregular hours allowance (ORT) for work outside normal working hours, such as at night, on weekends, or on public holidays."
     },
     {
       "id": "knm-a2-2-q26",
-      "text": "Wat betekent 'tolerantie' in de Nederlandse cultuur?",
+      "text": "Boris werkt bij een bedrijf en wil weten wat zijn werkgever wettelijk moet bijhouden over hem. Zijn werkgever houdt een personeelsdossier bij. Heeft Boris inzagerecht?",
       "options": [
-        "Je moet het met iedereen eens zijn",
-        "Je accepteert dat anderen andere meningen en gewoontes hebben",
-        "Je mag geen mening hebben",
-        "Je moet je aanpassen aan anderen"
+        "Ja, een werknemer heeft het recht om zijn eigen personeelsdossier in te zien",
+        "Nee, het dossier is privé voor de werkgever",
+        "Alleen na zijn ontslag"
       ],
-      "correctIndex": 1,
-      "explanation": "Tolerantie betekent dat je accepteert dat anderen andere meningen en gewoontes hebben.",
-      "explanationEn": "Tolerance means that you accept that others have different opinions and customs."
+      "correctIndex": 0,
+      "explanation": "Op grond van de AVG (privacywet) heeft een werknemer het recht om zijn eigen personeelsdossier in te zien en onjuiste gegevens te laten corrigeren.",
+      "explanationEn": "Under the GDPR (privacy law), an employee has the right to view their own personnel file and have incorrect data corrected."
     },
     {
       "id": "knm-a2-2-q27",
-      "text": "Wat is geweld in relaties?",
+      "text": "Aiko solliciteert bij een bedrijf. De werkgever vraagt haar leeftijd en of ze van plan is kinderen te krijgen. Is dit een toegestane sollicitatievraag?",
       "options": [
-        "Normaal in sommige culturen",
-        "Verboden en strafbaar in Nederland",
-        "Toegestaan als je getrouwd bent",
-        "Alleen verboden voor mannen"
+        "Nee, vragen over leeftijd en gezinsplannen zijn discriminatoir en niet toegestaan",
+        "Alleen als de functie speciale eisen heeft",
+        "Ja, de werkgever mag alles vragen"
       ],
-      "correctIndex": 1,
-      "explanation": "Geweld in relaties is verboden en strafbaar in Nederland, ongeacht je achtergrond.",
-      "explanationEn": "Domestic violence is prohibited and punishable in the Netherlands, regardless of your background."
+      "correctIndex": 0,
+      "explanation": "Vragen over gezinsplannen, leeftijd en zwangerschap zijn discriminatoir en niet toegestaan bij een sollicitatie.",
+      "explanationEn": "Questions about family plans, age, and pregnancy are discriminatory and not permitted during a job interview."
     },
     {
       "id": "knm-a2-2-q28",
-      "text": "Wat is euthanasie?",
+      "text": "Tamara vraagt haar werkgever om drie weken aaneengesloten vakantie in de zomer. De werkgever weigert zonder reden. Heeft Tamara het recht op aaneengesloten vakantie?",
       "options": [
-        "Moord",
-        "Levensbeëindiging op verzoek van een ernstig zieke patiënt, onder strikte voorwaarden toegestaan",
-        "Zelfmoord",
-        "Een medische behandeling"
+        "Alleen als ze langer dan 5 jaar werkt",
+        "Ja, werknemers hebben recht op minimaal 2 aaneengesloten weken vakantie als ze dit aanvragen",
+        "Nee, de werkgever bepaalt wanneer je vakantie opneemt"
       ],
       "correctIndex": 1,
-      "explanation": "Euthanasie is levensbeëindiging op verzoek van een patiënt, in Nederland onder strikte voorwaarden toegestaan.",
-      "explanationEn": "Euthanasia is the termination of life at the request of a patient, permitted in the Netherlands under strict conditions."
+      "explanation": "Werknemers hebben het recht op minimaal 2 aaneengesloten weken vakantie per jaar. De werkgever kan dit alleen weigeren bij zwaarwegend bedrijfsbelang.",
+      "explanationEn": "Employees have the right to at least 2 consecutive weeks of vacation per year. The employer can only refuse this for compelling business reasons."
     },
     {
       "id": "knm-a2-2-q29",
-      "text": "Wat is de AOW-leeftijd?",
+      "text": "Sam heeft een vast contract maar zijn werkgever wil hem ontslaan wegens disfunctioneren. Wat moet de werkgever doen voordat hij kan ontslaan?",
       "options": [
-        "55 jaar",
-        "60 jaar",
-        "Ongeveer 67 jaar, afhankelijk van je geboortejaar",
-        "70 jaar"
+        "De werkgever moet het disfunctioneren aantonen, de werknemer de kans geven te verbeteren en een verbetertraject doorlopen",
+        "Alleen de rechter kan beslissen",
+        "Niets, hij kan direct ontslaan"
       ],
-      "correctIndex": 2,
-      "explanation": "De AOW-leeftijd is momenteel ongeveer 67 jaar en hangt af van je geboortejaar.",
-      "explanationEn": "The state pension age (AOW) is currently approximately 67 years and depends on your year of birth."
+      "correctIndex": 0,
+      "explanation": "Bij ontslag wegens disfunctioneren moet de werkgever het probleem aantonen, de werknemer informeren, een verbetertraject aanbieden en dit documenteren.",
+      "explanationEn": "For dismissal due to poor performance, the employer must demonstrate the issue, inform the employee, offer an improvement plan, and document this."
     },
     {
       "id": "knm-a2-2-q30",
-      "text": "Wat is pensioen?",
+      "text": "Nadia is in dienst bij een bedrijf. Ze is al 2 jaar ziek. Haar werkgever mag haar nu mogelijk ontslaan. Via welke route kan de werkgever dan ontslag aanvragen?",
       "options": [
-        "Geld dat je verdient met werken",
-        "Geld dat je krijgt als je stopt met werken vanwege je leeftijd",
-        "Een lening",
-        "Geld voor je kinderen"
+        "Direct, zonder procedure",
+        "Via de gemeente",
+        "Via het UWV (ontslagprocedure wegens langdurige arbeidsongeschiktheid)"
       ],
-      "correctIndex": 1,
-      "explanation": "Pensioen is inkomen dat je ontvangt nadat je gestopt bent met werken vanwege je leeftijd.",
-      "explanationEn": "A pension is income you receive after you stop working due to your age."
+      "correctIndex": 2,
+      "explanation": "Na 2 jaar ziekte kan de werkgever een ontslagvergunning aanvragen bij het UWV. Het opzegverbod bij ziekte vervalt na 2 jaar.",
+      "explanationEn": "After 2 years of illness, the employer can apply for a dismissal permit at the UWV. The prohibition on dismissal during illness expires after 2 years."
     },
     {
       "id": "knm-a2-2-q31",
-      "text": "Wat zijn de Waddeneilanden?",
+      "text": "Pieter wil weten wanneer een werkgever een werknemer op staande voet mag ontslaan. Wat is de definitie van ontslag op staande voet?",
       "options": [
-        "Bergen in het zuiden",
-        "Eilanden in het noorden van Nederland",
-        "Rivieren in het midden",
-        "Steden in het westen"
+        "Onmiddellijk ontslag wegens een dringende reden, zoals diefstal of ernstig wangedrag, zonder opzegtermijn",
+        "Ontslag na instemming van de vakbond",
+        "Ontslag na een opzegtermijn van 1 week"
       ],
-      "correctIndex": 1,
-      "explanation": "De Waddeneilanden zijn eilanden in het noorden van Nederland, in de Waddenzee.",
-      "explanationEn": "The Wadden Islands are islands in the north of the Netherlands, in the Wadden Sea."
+      "correctIndex": 0,
+      "explanation": "Ontslag op staande voet is onmiddellijk ontslag wegens een dringende reden (zoals diefstal of ernstig wangedrag). Er is geen opzegtermijn.",
+      "explanationEn": "Summary dismissal (ontslag op staande voet) is immediate dismissal for urgent cause (such as theft or serious misconduct). There is no notice period."
     },
     {
       "id": "knm-a2-2-q32",
-      "text": "Welke grote rivieren stromen door Nederland?",
+      "text": "Maria heeft een conflict met haar werkgever en overweegt een rechtszaak. Welke rechter behandelt arbeidsgeschillen in eerste aanleg?",
       "options": [
-        "De Donau en de Elbe",
-        "De Rijn, Maas en Schelde",
-        "De Theems en de Seine",
-        "De Wolga en de Oder"
+        "De Hoge Raad",
+        "De kantonrechter",
+        "De bestuursrechter"
       ],
       "correctIndex": 1,
-      "explanation": "De grote rivieren die door Nederland stromen zijn de Rijn, Maas en Schelde.",
-      "explanationEn": "The major rivers that flow through the Netherlands are the Rhine, Meuse, and Scheldt."
+      "explanation": "Arbeidsgeschillen worden in eerste instantie behandeld door de kantonrechter.",
+      "explanationEn": "Labor disputes are handled in the first instance by the cantonal court (kantonrechter)."
     },
     {
       "id": "knm-a2-2-q33",
-      "text": "Wat is een polder?",
+      "text": "Elsa werkt als winkelbediende en haar werkgever wil haar overplaatsen naar een vestiging in een andere stad. Ze wil dit niet. Wat zijn haar rechten?",
       "options": [
-        "Een berg",
-        "Land dat door dijken is ingepolderd en drooggehouden wordt",
-        "Een bos",
-        "Een meer"
+        "Ze kan het contract direct opzeggen zonder gevolgen",
+        "De werkgever heeft instructierecht maar moet redelijk handelen. Overplaatsing naar een andere stad vereist een goede reden en overleg",
+        "Ze moet altijd doen wat de werkgever zegt"
       ],
       "correctIndex": 1,
-      "explanation": "Een polder is drooggelegd land dat door dijken en pompen droog wordt gehouden.",
-      "explanationEn": "A polder is reclaimed land that is kept dry by dikes and pumps."
+      "explanation": "De werkgever heeft instructierecht maar moet redelijk handelen. Een overplaatsing moet proportioneel zijn en rekening houden met de persoonlijke situatie.",
+      "explanationEn": "The employer has the right to give instructions but must act reasonably. A transfer must be proportionate and consider the personal situation."
     },
     {
       "id": "knm-a2-2-q34",
-      "text": "Waarom zijn windmolens belangrijk in de Nederlandse geschiedenis?",
+      "text": "Tom werkt in de bouw en zijn werkgever geeft hem geen beschermende kleding. Hij loopt gevaar. Welke wet beschermt Tom hiertegen?",
       "options": [
-        "Voor elektriciteit",
-        "Om water uit polders te pompen",
-        "Voor transport",
-        "Voor verwarming"
+        "De Wet minimumloon",
+        "De Grondwet",
+        "De Arbeidsomstandighedenwet (Arbowet)"
       ],
-      "correctIndex": 1,
-      "explanation": "Windmolens werden gebruikt om water uit polders weg te pompen en het land droog te houden.",
-      "explanationEn": "Windmills were used to pump water out of polders and keep the land dry."
+      "correctIndex": 2,
+      "explanation": "De Arbowet verplicht werkgevers om te zorgen voor een veilige werkplek en de nodige beschermingsmiddelen te verstrekken.",
+      "explanationEn": "The Working Conditions Act (Arbowet) obliges employers to ensure a safe workplace and provide necessary protective equipment."
     },
     {
       "id": "knm-a2-2-q35",
-      "text": "Wat is een kinderopvang?",
+      "text": "Fatima heeft een oproepcontract. Ze werkt alleen als de werkgever haar belt. Ze vraagt wanneer de werkgever haar minimaal een uur van tevoren moet oproepen. Wat zegt de wet?",
       "options": [
-        "Een school voor kinderen",
-        "Een plek waar kinderen worden opgevangen terwijl ouders werken",
-        "Een ziekenhuis voor kinderen",
-        "Een speeltuin"
+        "De werkgever moet oproepkrachten minimaal 4 dagen van tevoren oproepen, en bij afzegging binnen 4 dagen heeft de werknemer recht op loon",
+        "De werkgever moet 24 uur van tevoren bellen",
+        "Er is geen minimumduur"
       ],
-      "correctIndex": 1,
-      "explanation": "Kinderopvang is een plek waar kinderen worden opgevangen terwijl de ouders werken.",
-      "explanationEn": "Childcare is a place where children are looked after while the parents work."
+      "correctIndex": 0,
+      "explanation": "De werkgever moet oproepkrachten minimaal 4 dagen van tevoren oproepen. Als hij dit afzegt, heeft de oproepkracht recht op loon voor de geplande uren.",
+      "explanationEn": "The employer must call in on-call workers at least 4 days in advance. If cancelled, the on-call worker is entitled to pay for the planned hours."
     },
     {
       "id": "knm-a2-2-q36",
-      "text": "Wat is kinderopvangtoeslag?",
+      "text": "Lars werkt in een bedrijf en zijn werkgever gaat failliet. Er is geen geld meer voor zijn loon. Wat kan Lars doen?",
       "options": [
-        "Geld voor speelgoed",
-        "Een toeslag van de overheid om kinderopvang te betalen",
-        "Geld voor school",
-        "Een lening voor ouders"
+        "Niets, bij faillissement verlies je je loon",
+        "Het UWV neemt de loonbetalingen over via de loongarantieregeling",
+        "De gemeente betaalt zijn loon"
       ],
       "correctIndex": 1,
-      "explanation": "Kinderopvangtoeslag is een toeslag van de overheid om de kosten van kinderopvang te betalen.",
-      "explanationEn": "Childcare allowance is a government allowance to pay for the costs of childcare."
+      "explanation": "Bij faillissement van de werkgever neemt het UWV via de loongarantieregeling de loonbetalingen over voor een bepaalde periode.",
+      "explanationEn": "When the employer goes bankrupt, the UWV takes over salary payments for a certain period through the wage guarantee scheme."
     },
     {
       "id": "knm-a2-2-q37",
-      "text": "Wat moet je doen als je je kind ziek meldt op school?",
+      "text": "Ester werkt als zzp'er en denkt na over een aanvullende verzekering voor als ze ziek wordt. Welke verzekering kan ze hiervoor afsluiten?",
       "options": [
-        "Niets doen",
-        "De school bellen om te melden dat je kind ziek is",
-        "Je kind toch naar school sturen",
-        "Wachten tot de school belt"
+        "Een WW-verzekering",
+        "Een hypotheekverzekering",
+        "Een arbeidsongeschiktheidsverzekering (AOV)"
       ],
-      "correctIndex": 1,
-      "explanation": "Als je kind ziek is, moet je de school bellen om het te melden.",
-      "explanationEn": "If your child is sick, you must call the school to report it."
+      "correctIndex": 2,
+      "explanation": "Een zzp'er kan een arbeidsongeschiktheidsverzekering (AOV) afsluiten om inkomen te ontvangen bij ziekte of arbeidsongeschiktheid.",
+      "explanationEn": "A self-employed person can take out a disability insurance (AOV) to receive income in case of illness or disability."
     },
     {
       "id": "knm-a2-2-q38",
-      "text": "Wat is de Belastingtelefoon?",
+      "text": "Erik wil weten of hij zijn vakantiedagen mag laten uitbetalen in plaats van opnemen. Zijn baas zegt dat dit niet mag. Klopt dit?",
       "options": [
-        "Een telefoon om te klagen",
-        "Een telefoonnummer om vragen over belastingen te stellen",
-        "Een telefoon voor noodgevallen",
-        "Een commerciële dienst"
+        "Nee, je mag altijd kiezen: opnemen of uitbetalen",
+        "Vakantiedagen mogen altijd worden uitbetaald",
+        "In principe moeten wettelijke vakantiedagen worden opgenomen. Uitbetalen is alleen toegestaan boven het wettelijk minimum"
       ],
-      "correctIndex": 1,
-      "explanation": "Via de Belastingtelefoon kun je vragen stellen over belastingen en toeslagen.",
-      "explanationEn": "Through the Tax Helpline (Belastingtelefoon), you can ask questions about taxes and benefits."
+      "correctIndex": 2,
+      "explanation": "De wettelijke vakantiedagen (4× de werkweek) mogen niet worden uitbetaald in plaats van opgenomen. Bovenwettelijke vakantiedagen mogen wel worden uitbetaald.",
+      "explanationEn": "The statutory vacation days (4× the working week) cannot be paid out instead of taken. Above-statutory vacation days may be paid out."
     },
     {
       "id": "knm-a2-2-q39",
-      "text": "Wat is DigiD?",
+      "text": "Carmen heeft een tijdelijk contract van 8 maanden. Haar werkgever heeft haar niet op tijd laten weten of het wordt verlengd. Wat is zijn verplichting?",
       "options": [
-        "Een sociale media app",
-        "Een digitale identiteit om in te loggen bij overheidsdiensten",
-        "Een bank app",
-        "Een spelletje"
+        "Bij contracten van 6 maanden of langer moet de werkgever minimaal 1 maand voor het aflopen aanzeggen of hij verlengt (aanzegtermijn)",
+        "De werkgever heeft geen verplichting",
+        "De werkgever moet altijd een vast contract aanbieden"
       ],
-      "correctIndex": 1,
-      "explanation": "DigiD is een digitale identiteit waarmee je kunt inloggen bij overheidsdiensten.",
-      "explanationEn": "DigiD is a digital identity that allows you to log in to government services."
+      "correctIndex": 0,
+      "explanation": "Bij een tijdelijk contract van 6 maanden of langer geldt een aanzegtermijn: de werkgever moet minimaal 1 maand voor het einde laten weten of hij verlengt.",
+      "explanationEn": "For a temporary contract of 6 months or longer, a notification period applies: the employer must inform at least 1 month before the end whether they will renew."
     },
     {
       "id": "knm-a2-2-q40",
-      "text": "Wat is de betekenis van inburgeren?",
+      "text": "Nadia heeft haar pensioen opgebouwd via haar werkgever bij een pensioenfonds. Ze vraagt wanneer ze haar pensioen ontvangt naast de AOW. Hoe oud is de AOW-leeftijd op dit moment?",
       "options": [
-        "Alleen een examen maken",
-        "Meedoen in de Nederlandse samenleving: taal leren, werken en de normen en waarden kennen",
-        "Alleen Nederlands leren",
-        "Een visum krijgen"
+        "67 jaar",
+        "65 jaar",
+        "70 jaar"
       ],
-      "correctIndex": 1,
-      "explanation": "Inburgeren betekent meedoen in de Nederlandse samenleving: de taal leren, werken en de normen en waarden kennen.",
-      "explanationEn": "Civic integration (inburgeren) means participating in Dutch society: learning the language, working, and knowing the norms and values."
+      "correctIndex": 0,
+      "explanation": "De AOW-leeftijd is 67 jaar (en wordt in de toekomst mogelijk verder verhoogd gekoppeld aan de levensverwachting).",
+      "explanationEn": "The AOW retirement age is 67 (and may be further increased in the future linked to life expectancy)."
     }
   ],
   "isFreePreview": false
