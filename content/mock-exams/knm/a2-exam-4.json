@@ -5,527 +5,487 @@
   "difficulty": "A2",
   "questionCount": 40,
   "recommendedTime": "30 min",
+  "isFreePreview": false,
   "questions": [
     {
       "id": "knm-a2-4-q1",
-      "text": "Wat moet je doen als je in Nederland een eigen bedrijf wilt starten?",
+      "text": "Fatima wil een kledingwinkel starten. Ze weet nog niet welke stap ze als eerste moet zetten. Haar vriend zegt dat er één organisatie is waar alle bedrijven verplicht geregistreerd staan. Welke organisatie is dat?",
       "options": [
-        "Je moet je inschrijven bij de Kamer van Koophandel (KvK)",
-        "Je hoeft niets te doen, je kunt meteen beginnen",
-        "Je moet toestemming vragen aan de gemeente",
-        "Je moet een vergunning aanvragen bij de politie"
+        "De Kamer van Koophandel (KvK)",
+        "De Belastingdienst",
+        "Het UWV"
       ],
       "correctIndex": 0,
-      "explanation": "Als je een bedrijf wilt starten in Nederland, moet je je inschrijven bij de Kamer van Koophandel (KvK). Dit is verplicht.",
-      "explanationEn": "If you want to start a business in the Netherlands, you must register with the Chamber of Commerce (KvK). This is mandatory."
+      "explanation": "Elk bedrijf in Nederland moet ingeschreven staan bij de Kamer van Koophandel (KvK). Dit is verplicht voordat je kunt beginnen.",
+      "explanationEn": "Every business in the Netherlands must be registered with the Chamber of Commerce (KvK). This is mandatory before you can start."
     },
     {
       "id": "knm-a2-4-q2",
-      "text": "Wat is een btw-nummer?",
+      "text": "Lars is zzp'er en ontvangt een opdracht ter waarde van €1.000 exclusief btw. Hij weet dat hij btw moet rekenen. Hoeveel procent btw geldt in Nederland voor de meeste diensten en producten?",
       "options": [
-        "Een nummer van je bankrekening",
-        "Een nummer van je zorgverzekering",
-        "Een nummer van je rijbewijs",
-        "Een nummer van de Belastingdienst om belasting over je producten of diensten te berekenen"
+        "9%",
+        "15%",
+        "21%"
       ],
-      "correctIndex": 3,
-      "explanation": "Een btw-nummer krijg je van de Belastingdienst. Het staat voor belasting over de toegevoegde waarde en is nodig als je producten of diensten verkoopt.",
-      "explanationEn": "You receive a VAT number from the Tax Authority. It stands for value-added tax and is required when selling products or services."
+      "correctIndex": 2,
+      "explanation": "Het standaard btw-tarief in Nederland is 21%. Voor sommige producten zoals voedsel en geneesmiddelen geldt het verlaagde tarief van 9%.",
+      "explanationEn": "The standard VAT rate in the Netherlands is 21%. For some products like food and medicines, the reduced rate of 9% applies."
     },
     {
       "id": "knm-a2-4-q3",
-      "text": "Wat is een zzp'er?",
+      "text": "Mia werkt als zelfstandige zonder personeel. Ze werkt voor meerdere opdrachtgevers en regelt alles zelf. Hoe wordt dit type ondernemer in Nederland officieel genoemd?",
       "options": [
-        "Een werknemer bij de overheid",
-        "Een student met een bijbaan",
-        "Een zelfstandige zonder personeel",
-        "Een vrijwilliger bij een stichting"
+        "Een stagiair",
+        "Een zzp'er (zelfstandige zonder personeel)",
+        "Een uitzendkracht"
       ],
-      "correctIndex": 2,
-      "explanation": "Een zzp'er is een zelfstandige zonder personeel. Je werkt dan voor jezelf en hebt geen werknemers in dienst.",
-      "explanationEn": "A zzp'er is a self-employed person without personnel. You work for yourself and have no employees."
+      "correctIndex": 1,
+      "explanation": "Een zzp'er is iemand die als zelfstandige werkt zonder personeel in dienst. Ze werken voor meerdere opdrachtgevers maar zijn geen werknemer.",
+      "explanationEn": "A zzp'er is someone who works as a self-employed person without employees. They work for multiple clients but are not an employee."
     },
     {
       "id": "knm-a2-4-q4",
-      "text": "Wat is een proeftijd?",
+      "text": "Omar heeft een eenmanszaak en zijn bedrijf gaat slecht. Een klant heeft niet betaald. De schuldeiser wil nu ook zijn privébezittingen aanslaan. Is dit mogelijk?",
       "options": [
-        "De tijd dat je op vakantie bent",
-        "Een periode aan het begin van je contract waarin werkgever en werknemer kunnen stoppen",
-        "De tijd dat je ziek thuis bent",
-        "De tijd dat je een cursus volgt voor je werk"
+        "Alleen de Belastingdienst mag privébezittingen aanslaan",
+        "Nee, een eenmanszaak beschermt altijd het privévermogen",
+        "Ja, bij een eenmanszaak is de eigenaar persoonlijk aansprakelijk"
       ],
-      "correctIndex": 1,
-      "explanation": "Een proeftijd is een korte periode aan het begin van een arbeidscontract. In deze tijd kan zowel de werkgever als de werknemer het contract opzeggen.",
-      "explanationEn": "A probation period is a short period at the start of an employment contract. During this time, both the employer and the employee can terminate the contract."
+      "correctIndex": 2,
+      "explanation": "Bij een eenmanszaak is de eigenaar persoonlijk aansprakelijk. Dit betekent dat schuldeisers ook aanspraak kunnen maken op privébezittingen.",
+      "explanationEn": "With a sole proprietorship, the owner is personally liable. This means creditors can also claim personal assets."
     },
     {
       "id": "knm-a2-4-q5",
-      "text": "Hoe lang mag de proeftijd maximaal duren bij een vast contract?",
+      "text": "Nadia en haar broer willen samen een horecabedrijf starten. Ze dragen beide geld in en delen de winst. Ze willen een rechtsvorm waarbij ze beiden eigenaar zijn en geen werknemers. Welke rechtsvorm past het beste?",
       "options": [
-        "1 week",
-        "1 maand",
-        "6 maanden",
-        "2 maanden"
+        "Een besloten vennootschap (BV)",
+        "Een stichting",
+        "Een vennootschap onder firma (VOF)"
       ],
-      "correctIndex": 3,
-      "explanation": "Bij een vast contract (contract voor onbepaalde tijd) is de maximale proeftijd 2 maanden.",
-      "explanationEn": "For a permanent contract (indefinite-term contract), the maximum probation period is 2 months."
+      "correctIndex": 2,
+      "explanation": "Een vennootschap onder firma (VOF) is een samenwerkingsvorm waarbij twee of meer personen samen een bedrijf runnen. Ze zijn beiden eigenaar en aansprakelijk.",
+      "explanationEn": "A general partnership (VOF) is a business form where two or more people run a business together. They are both owners and jointly liable."
     },
     {
       "id": "knm-a2-4-q6",
-      "text": "Wat is de kantonrechter?",
+      "text": "Bas heeft een BV opgericht. Het bedrijf gaat failliet. Zijn schuldeiser wil nu zijn privéhuis aanslaan. Kan dit?",
       "options": [
-        "Een rechter die beslist over arbeidsgeschillen en huurzaken",
-        "Een rechter die beslist over zware misdrijven",
-        "Een rechter die alleen over verkeerszaken beslist",
-        "Een rechter bij het Europees Hof"
+        "Ja, bij een BV is de directeur altijd persoonlijk aansprakelijk",
+        "Alleen als de schuld meer dan €10.000 is",
+        "Nee, bij een BV is de aansprakelijkheid beperkt tot het bedrijfsvermogen"
       ],
-      "correctIndex": 0,
-      "explanation": "De kantonrechter behandelt onder andere arbeidsgeschillen, huurzaken en kleine civiele zaken.",
-      "explanationEn": "The subdistrict court judge handles employment disputes, rental cases, and small civil cases, among other things."
+      "correctIndex": 2,
+      "explanation": "Bij een BV (besloten vennootschap) is de aansprakelijkheid in principe beperkt tot het vermogen van de BV. Het privévermogen van de directeur is in principe beschermd.",
+      "explanationEn": "With a BV (private limited company), liability is in principle limited to the company's assets. The director's personal assets are in principle protected."
     },
     {
       "id": "knm-a2-4-q7",
-      "text": "Wat moet een werkgever doen als hij een werknemer wil ontslaan?",
+      "text": "Fatima is zzp'er en wil weten of ze recht heeft op een WW-uitkering als ze geen opdrachten meer krijgt. Wat klopt?",
       "options": [
-        "Hij mag de werknemer meteen ontslaan zonder reden",
-        "Hij moet de werknemer een SMS sturen",
-        "Hij heeft een geldige reden nodig en moet zich aan de regels houden",
-        "Hij moet de politie bellen"
+        "Ja, maar alleen als ze meer dan 5 jaar gewerkt hebben",
+        "Nee, zzp'ers hebben geen recht op WW",
+        "Ja, zzp'ers hebben recht op WW als ze werkloos worden"
       ],
-      "correctIndex": 2,
-      "explanation": "In Nederland kan een werkgever een werknemer niet zomaar ontslaan. Er moet een geldige reden zijn en de werkgever moet zich aan de ontslagregels houden.",
-      "explanationEn": "In the Netherlands, an employer cannot simply fire an employee. There must be a valid reason and the employer must follow dismissal rules."
+      "correctIndex": 1,
+      "explanation": "Zzp'ers betalen geen WW-premie en hebben daarom geen recht op een WW-uitkering bij werkloosheid. Ze zijn zelf verantwoordelijk voor hun financiële buffer.",
+      "explanationEn": "Self-employed persons do not pay unemployment insurance premiums and therefore have no right to unemployment benefits. They are responsible for their own financial safety net."
     },
     {
       "id": "knm-a2-4-q8",
-      "text": "Wat is iDEAL?",
+      "text": "Lars is zzp'er en valt uit door een ongeluk. Hij kan 6 maanden niet werken en heeft geen inkomen. Welke verzekering had hem hier kunnen helpen?",
       "options": [
-        "Een app om te bellen",
-        "Een sociale media app",
-        "Een soort creditcard",
-        "Een online betaalmethode waarmee je direct via je bank betaalt"
+        "Een arbeidsongeschiktheidsverzekering (AOV)",
+        "Een werkloosheidsverzekering (WW)",
+        "Een inboedelverzekering"
       ],
-      "correctIndex": 3,
-      "explanation": "iDEAL is een veelgebruikte online betaalmethode in Nederland waarmee je direct geld overmaakt via je eigen bank.",
-      "explanationEn": "iDEAL is a widely used online payment method in the Netherlands that allows you to transfer money directly through your own bank."
+      "correctIndex": 0,
+      "explanation": "Een arbeidsongeschiktheidsverzekering (AOV) biedt inkomen als je als zzp'er niet kunt werken door ziekte of een ongeluk. Dit is een particuliere verzekering die zzp'ers zelf afsluiten.",
+      "explanationEn": "Disability insurance (AOV) provides income if you as a self-employed person cannot work due to illness or accident. This is private insurance that self-employed persons take out themselves."
     },
     {
       "id": "knm-a2-4-q9",
-      "text": "Waarvoor wordt Tikkie gebruikt?",
+      "text": "Mia is zzp'er. Aan het einde van het kwartaal moet ze btw die ze bij klanten heeft gerekend afdragen aan de overheid. Waar doet ze dit?",
       "options": [
-        "Om je belastingaangifte te doen",
-        "Om geld te vragen of te betalen aan vrienden en bekenden",
-        "Om een afspraak bij de huisarts te maken",
-        "Om een klacht in te dienen bij de gemeente"
+        "Bij de KvK",
+        "Bij de Belastingdienst via de btw-aangifte",
+        "Bij het UWV"
       ],
       "correctIndex": 1,
-      "explanation": "Tikkie is een app waarmee je eenvoudig een betaalverzoek kunt sturen naar vrienden of bekenden.",
-      "explanationEn": "Tikkie is an app that allows you to easily send a payment request to friends or acquaintances."
+      "explanation": "Zzp'ers zijn verplicht periodiek btw-aangifte te doen bij de Belastingdienst. Ze dragen de btw af die ze van klanten ontvangen.",
+      "explanationEn": "Self-employed persons are required to periodically file VAT returns with the Tax Authority. They remit the VAT they collected from clients."
     },
     {
       "id": "knm-a2-4-q10",
-      "text": "Wat is het verschil tussen een betaalrekening en een spaarrekening?",
+      "text": "Omar wil een uittreksel van het KvK-register aanvragen om te bewijzen dat zijn bedrijf bestaat. Bij wie vraagt hij dit aan?",
       "options": [
-        "Een betaalrekening is voor dagelijkse betalingen, een spaarrekening is om geld opzij te zetten",
-        "Er is geen verschil",
-        "Een spaarrekening is alleen voor bedrijven",
-        "Een betaalrekening geeft meer rente dan een spaarrekening"
+        "Bij het gemeentehuis",
+        "Bij de Kamer van Koophandel (KvK)",
+        "Bij de Belastingdienst"
       ],
-      "correctIndex": 0,
-      "explanation": "Een betaalrekening gebruik je voor dagelijkse betalingen zoals boodschappen en huur. Een spaarrekening is bedoeld om geld te sparen, vaak met een kleine rente.",
-      "explanationEn": "A current account is used for daily payments like groceries and rent. A savings account is meant to save money, often with a small interest rate."
+      "correctIndex": 1,
+      "explanation": "Een uittreksel uit het Handelsregister vraag je aan bij de KvK. Dit document bewijst dat je bedrijf is geregistreerd en bevat bedrijfsgegevens.",
+      "explanationEn": "You request a trade register extract from the KvK. This document proves your business is registered and contains company details."
     },
     {
       "id": "knm-a2-4-q11",
-      "text": "Wanneer moet je in Nederland belastingaangifte doen?",
+      "text": "Nadia heeft een eigen bedrijf en wil pensioen opbouwen voor later. Ze merkt dat haar werkgever geen pensioenpremie afdraagt. Waarom is dat?",
       "options": [
-        "In december",
-        "Elke maand",
-        "Meestal voor 1 mei over het voorgaande jaar",
-        "Alleen als je meer dan 100.000 euro verdient"
+        "Werkgevers zijn nooit verplicht pensioen te regelen",
+        "Omdat Nadia zelf verantwoordelijk is als zelfstandige — er is geen werkgever",
+        "De overheid regelt automatisch pensioen voor zzp'ers"
       ],
-      "correctIndex": 2,
-      "explanation": "In Nederland moet je meestal voor 1 mei belastingaangifte doen over het voorgaande jaar. Je doet dit bij de Belastingdienst.",
-      "explanationEn": "In the Netherlands, you usually need to file your tax return by May 1 for the previous year. You do this with the Tax Authority."
+      "correctIndex": 1,
+      "explanation": "Zzp'ers hebben geen werkgever die pensioenpremie afdraagt. Ze zijn zelf verantwoordelijk voor hun pensioenopbouw, bijvoorbeeld via een lijfrenteverzekering of banksparen.",
+      "explanationEn": "Self-employed persons have no employer to pay pension premiums. They are responsible for building their own pension, for example through an annuity insurance or bank savings."
     },
     {
       "id": "knm-a2-4-q12",
-      "text": "Wat zijn toeslagen?",
+      "text": "Bas is timmerman en werkt voor één grote opdrachtgever. De Belastingdienst zegt dat hij eigenlijk een werknemer is, geen zzp'er. Wat is een kenmerk dat iemand eerder werknemer dan zzp'er is?",
       "options": [
-        "Boetes van de Belastingdienst",
-        "Extra belastingen die je moet betalen",
-        "Bonussen van je werkgever",
-        "Financiele bijdragen van de overheid om kosten te helpen betalen"
+        "Je hebt een eigen KvK-inschrijving",
+        "Je werkt voor meerdere opdrachtgevers tegelijk",
+        "Je werkt uitsluitend voor één opdrachtgever die ook jouw werktijden bepaalt"
       ],
-      "correctIndex": 3,
-      "explanation": "Toeslagen zijn financiele bijdragen van de overheid. Voorbeelden zijn zorgtoeslag, huurtoeslag, kinderopvangtoeslag en het kindgebonden budget.",
-      "explanationEn": "Toeslagen (allowances) are financial contributions from the government. Examples include healthcare allowance, rent allowance, childcare allowance, and child budget."
+      "correctIndex": 2,
+      "explanation": "Als je uitsluitend voor één opdrachtgever werkt en die bepaalt je werktijden en methoden, is er mogelijk sprake van een arbeidsrelatie (schijnzelfstandigheid). De Belastingdienst kan dan vinden dat je eigenlijk werknemer bent.",
+      "explanationEn": "If you work exclusively for one client who also determines your working hours and methods, there may be an employment relationship (false self-employment). The Tax Authority may then find you are actually an employee."
     },
     {
       "id": "knm-a2-4-q13",
-      "text": "Wat is een voorlopige aanslag?",
+      "text": "In de 17e eeuw was Nederland een grote handelsreputatie. Nederlandse schepen voeren overal ter wereld. Welke organisatie organiseerde de handel met Azië in die tijd?",
       "options": [
-        "Een schatting van de Belastingdienst van hoeveel belasting je moet betalen of terugkrijgt",
-        "Een boete voor te laat betalen",
-        "Een factuur van je werkgever",
-        "Een rekening van de zorgverzekering"
+        "De VOC (Vereenigde Oost-Indische Compagnie)",
+        "De Rode Kruis",
+        "De Staten-Generaal"
       ],
       "correctIndex": 0,
-      "explanation": "Een voorlopige aanslag is een schatting van de Belastingdienst. Je betaalt dan alvast belasting of krijgt al geld terug, voordat de definitieve aanslag komt.",
-      "explanationEn": "A provisional assessment is an estimate from the Tax Authority. You pay tax in advance or receive money back before the final assessment is issued."
+      "explanation": "De VOC (Vereenigde Oost-Indische Compagnie) was een handelsorganisatie die van 1602 tot 1799 de handel met Azië domineerde. Het was een van de eerste naamloze vennootschappen ter wereld.",
+      "explanationEn": "The VOC (United East India Company) was a trading organization that dominated trade with Asia from 1602 to 1799. It was one of the world's first joint-stock companies."
     },
     {
       "id": "knm-a2-4-q14",
-      "text": "Waar kun je terecht als je financiele problemen hebt en hulp nodig hebt?",
+      "text": "Een leraar vraagt leerlingen hoe Nederland onafhankelijk werd van Spanje. Welk conflict leidde tot de Nederlandse onafhankelijkheid?",
       "options": [
-        "Bij de politie",
-        "Bij het maatschappelijk werk",
-        "Bij de dierenarts",
-        "Bij de bibliotheek"
+        "De Tachtigjarige Oorlog",
+        "De Honderdjarige Oorlog",
+        "De Eerste Wereldoorlog"
       ],
-      "correctIndex": 1,
-      "explanation": "Het maatschappelijk werk helpt mensen met allerlei problemen, waaronder financiele problemen, schulden en het aanvragen van hulp.",
-      "explanationEn": "Social work helps people with various problems, including financial problems, debts, and applying for assistance."
+      "correctIndex": 0,
+      "explanation": "De Tachtigjarige Oorlog (1568–1648) was de strijd van de Nederlanden tegen Spaans bestuur. Het resulteerde in de onafhankelijkheid van de Republiek der Zeven Verenigde Nederlanden.",
+      "explanationEn": "The Eighty Years' War (1568–1648) was the struggle of the Netherlands against Spanish rule. It resulted in the independence of the Republic of the Seven United Netherlands."
     },
     {
       "id": "knm-a2-4-q15",
-      "text": "Wat doet een maatschappelijk werker?",
+      "text": "Omar leest over de Gouden Eeuw. Hij wil weten wie de leider was die de Nederlandse opstand aanvoerde. Wie was de vader des vaderlands?",
       "options": [
-        "Hij repareert je huis",
-        "Hij geeft rijlessen",
-        "Hij helpt mensen met persoonlijke, financiele en sociale problemen",
-        "Hij werkt alleen met kinderen op school"
+        "Willem van Oranje",
+        "Karel de Grote",
+        "Napoleon Bonaparte"
       ],
-      "correctIndex": 2,
-      "explanation": "Een maatschappelijk werker helpt mensen met persoonlijke, financiele en sociale problemen. Dit kan bijvoorbeeld gaan over schulden, opvoeding of eenzaamheid.",
-      "explanationEn": "A social worker helps people with personal, financial, and social problems. This can involve debts, parenting, or loneliness, for example."
+      "correctIndex": 0,
+      "explanation": "Willem van Oranje (ook wel 'Vader des Vaderlands' genoemd) leidde de opstand tegen de Spaanse overheersing in de 16e eeuw. Hij werd in 1584 vermoord in Delft.",
+      "explanationEn": "William of Orange (also called 'Father of the Fatherland') led the revolt against Spanish rule in the 16th century. He was assassinated in Delft in 1584."
     },
     {
       "id": "knm-a2-4-q16",
-      "text": "Wat betekent GGZ?",
+      "text": "Mia leest in de krant over de donkere kant van de Gouden Eeuw. Ze weet dat Nederland betrokken was bij de slavenhandel. Wanneer schafte Nederland de slavernij officieel af?",
       "options": [
-        "Gemeentelijke Gezondheids Zaken",
-        "Geneeskundige Groeps Zorg",
-        "Groot Gezinnen Zorgnet",
-        "Geestelijke Gezondheidszorg"
+        "1945",
+        "1795",
+        "1863"
       ],
-      "correctIndex": 3,
-      "explanation": "GGZ staat voor Geestelijke Gezondheidszorg. Dit is de zorg voor mensen met psychische klachten of problemen.",
-      "explanationEn": "GGZ stands for Mental Health Care. This is the care for people with psychological complaints or problems."
+      "correctIndex": 2,
+      "explanation": "Nederland schafte de slavernij officieel af op 1 juli 1863. Dit wordt herdacht op 1 juli (Keti Koti). De daadwerkelijke vrijheid van alle voormalige slaven liet in Suriname echter nog tot 1873 op zich wachten.",
+      "explanationEn": "The Netherlands officially abolished slavery on July 1, 1863. This is commemorated on July 1 (Keti Koti). However, in Suriname all formerly enslaved people did not gain full freedom until 1873."
     },
     {
       "id": "knm-a2-4-q17",
-      "text": "Wat heb je nodig om naar de GGZ te gaan?",
+      "text": "Lars heeft een project over de Tweede Wereldoorlog. Hij wil weten wanneer Nederland bezet werd door nazi-Duitsland. In welk jaar begon de bezetting van Nederland?",
       "options": [
-        "Een verwijsbrief van je huisarts",
-        "Een brief van de burgemeester",
-        "Een paspoort en een foto",
-        "Niets, je kunt zelf een afspraak maken"
+        "1940",
+        "1939",
+        "1941"
       ],
       "correctIndex": 0,
-      "explanation": "Om naar de GGZ te gaan, heb je een verwijsbrief van je huisarts nodig. De huisarts beoordeelt eerst of je hulp nodig hebt van de GGZ.",
-      "explanationEn": "To go to the GGZ, you need a referral letter from your general practitioner. The GP first assesses whether you need help from mental health care."
+      "explanation": "Op 10 mei 1940 viel Duitsland Nederland binnen. Vijf dagen later, op 15 mei 1940, capituleerde het Nederlandse leger. Zo begon de bezetting die duurde tot mei 1945.",
+      "explanationEn": "On May 10, 1940, Germany invaded the Netherlands. Five days later, on May 15, 1940, the Dutch army surrendered. This began the occupation that lasted until May 1945."
     },
     {
       "id": "knm-a2-4-q18",
-      "text": "Wat is dal voordeel bij de NS?",
+      "text": "Fatima bezoekt het Anne Frank Huis in Amsterdam. Anne Frank was een Joods meisje dat zich schuilhield tijdens de oorlog en een dagboek schreef. In welke stad hield zij zich schuil?",
       "options": [
-        "Je mag gratis reizen in de spits",
-        "Je krijgt een gratis fiets bij het station",
-        "Je krijgt korting als je buiten de spits reist",
-        "Je mag met twee personen reizen op een kaartje"
+        "Rotterdam",
+        "Amsterdam",
+        "Den Haag"
       ],
-      "correctIndex": 2,
-      "explanation": "Met Dal Voordeel krijg je 40% korting op treinreizen buiten de spitsuren. De spits is doordeweeks van 6:30-9:00 en 16:00-18:30.",
-      "explanationEn": "With Off-Peak Discount, you get 40% off train trips outside peak hours. Peak hours are weekdays from 6:30-9:00 and 16:00-18:30."
+      "correctIndex": 1,
+      "explanation": "Anne Frank schuilhield zich in Amsterdam in een achterhuis aan de Prinsengracht. Haar dagboek werd wereldberoemd. Ze werd in 1944 ontdekt en overleed in het concentratiekamp Bergen-Belsen.",
+      "explanationEn": "Anne Frank hid in Amsterdam in a secret annex on the Prinsengracht canal. Her diary became world-famous. She was discovered in 1944 and died in Bergen-Belsen concentration camp."
     },
     {
       "id": "knm-a2-4-q19",
-      "text": "Welke soorten OV-chipkaarten bestaan er?",
+      "text": "Omar weet dat Nederland bevrijd werd op 5 mei 1945. Op 4 mei is er ook een herdenkingsdag. Wat wordt er op 4 mei herdacht?",
       "options": [
-        "Alleen een persoonlijke kaart",
-        "Een persoonlijke kaart en een anonieme kaart",
-        "Alleen een anonieme kaart",
-        "Een gouden kaart en een zilveren kaart"
+        "Alle Nederlandse oorlogsslachtoffers — Dodenherdenking",
+        "Het einde van de Eerste Wereldoorlog",
+        "De val van de Berlijnse Muur"
       ],
-      "correctIndex": 1,
-      "explanation": "Er zijn twee soorten OV-chipkaarten: een persoonlijke kaart (op je naam) en een anonieme kaart (zonder naam, iedereen kan hem gebruiken).",
-      "explanationEn": "There are two types of OV-chipkaarten: a personal card (in your name) and an anonymous card (without a name, anyone can use it)."
+      "correctIndex": 0,
+      "explanation": "Op 4 mei vindt de Nationale Dodenherdenking plaats. Nederland herdenkt alle slachtoffers van oorlogen en vredesmissies. Om 20:00 uur is er twee minuten stilte. De bevrijding op 5 mei wordt de dag erna gevierd.",
+      "explanationEn": "On May 4, the National Remembrance Day takes place. The Netherlands commemorates all victims of wars and peacekeeping missions. At 8 PM there are two minutes of silence. Liberation on May 5 is celebrated the next day."
     },
     {
       "id": "knm-a2-4-q20",
-      "text": "Wat is NS Flex?",
+      "text": "Nadia leest over de watersnoodramp. In 1953 kwamen veel mensen om door overstromingen in het zuidwesten van Nederland. Wat werd daarna gebouwd om dit te voorkomen?",
       "options": [
-        "Een sportabonnement van de NS",
-        "Een fietsverhuurservice",
-        "Een app om taxi's te bestellen",
-        "Een reisproduct waarbij je achteraf betaalt voor je treinreizen"
+        "De Deltawerken",
+        "De Afsluitdijk",
+        "Het Amsterdam-Rijnkanaal"
       ],
-      "correctIndex": 3,
-      "explanation": "NS Flex is een reisproduct van de NS. Je reist met je persoonlijke OV-chipkaart en betaalt achteraf via automatische incasso.",
-      "explanationEn": "NS Flex is a travel product from NS. You travel with your personal OV-chipkaart and pay afterwards via direct debit."
+      "correctIndex": 0,
+      "explanation": "Na de watersnoodramp van 1953 (waarbij ruim 1.800 mensen omkwamen) werden de Deltawerken aangelegd. Dit is een systeem van dammen, sluizen en stormvloedkeringen om het zuidwesten van Nederland te beschermen.",
+      "explanationEn": "After the flood disaster of 1953 (in which over 1,800 people died), the Delta Works were constructed. This is a system of dams, sluices, and storm surge barriers to protect the southwest of the Netherlands."
     },
     {
       "id": "knm-a2-4-q21",
-      "text": "Wat is een milieustraat?",
+      "text": "Bas legt aan zijn kind uit hoe Nederland is ontstaan. Hij vertelt dat grote delen van het land vroeger zee waren. Hoe worden de stukken land die door mensen drooggelegd zijn in Nederland genoemd?",
       "options": [
-        "Een gemeentelijke locatie waar je afval kunt brengen dat niet in de gewone container past",
-        "Een straat waar geen auto's mogen rijden",
-        "Een winkelstraat met duurzame winkels",
-        "Een park met veel bomen"
+        "Weiden",
+        "Hoeven",
+        "Polders"
       ],
-      "correctIndex": 0,
-      "explanation": "Een milieustraat is een gemeentelijke locatie waar je grof afval, chemisch afval en andere speciale afvalsoorten kunt inleveren.",
-      "explanationEn": "A recycling center (milieustraat) is a municipal location where you can drop off bulky waste, chemical waste, and other special types of waste."
+      "correctIndex": 2,
+      "explanation": "Polders zijn stukken land die zijn drooggelegd door het water weg te pompen en dijken aan te leggen. Nederland heeft veel polders, en een groot deel van het land ligt onder de zeespiegel.",
+      "explanationEn": "Polders are pieces of land that have been reclaimed by pumping water away and building dykes. The Netherlands has many polders, and a large part of the country lies below sea level."
     },
     {
       "id": "knm-a2-4-q22",
-      "text": "Hoe kun je grofvuil laten ophalen?",
+      "text": "Mia wil weten wat de Verzuiling was. Ze hoort dit woord in een geschiedenisles. Wat was de Verzuiling in Nederland?",
       "options": [
-        "Je zet het gewoon bij de container op straat",
-        "Je brengt het naar de politie",
-        "Je maakt een afspraak met de gemeente voor ophaling",
-        "Je gooit het in de gracht"
+        "Een architecturale bouwstijl van kerken in de Middeleeuwen",
+        "Een politiek systeem waarbij protestanten, katholieken en socialisten gescheiden leefden in eigen organisaties",
+        "Het systeem van polders en waterbeheersing"
       ],
-      "correctIndex": 2,
-      "explanation": "Grofvuil kun je laten ophalen door de gemeente. Je maakt dan een afspraak via de website of telefoon van de gemeente. Soms is dit gratis, soms betaal je een kleine bijdrage.",
-      "explanationEn": "You can have bulky waste collected by the municipality. You make an appointment via the municipality's website or phone. Sometimes this is free, sometimes you pay a small fee."
+      "correctIndex": 1,
+      "explanation": "De Verzuiling was een maatschappelijk systeem (grofweg 1900–1960) waarbij protestanten, katholieken en socialisten elk in hun eigen 'zuil' leefden met eigen scholen, ziekenhuizen, kranten en omroepen.",
+      "explanationEn": "Pillarization was a social system (roughly 1900–1960) in which Protestants, Catholics, and Socialists each lived in their own 'pillar' with their own schools, hospitals, newspapers, and broadcasters."
     },
     {
       "id": "knm-a2-4-q23",
-      "text": "Waar breng je lege batterijen en oude medicijnen naartoe?",
+      "text": "Lars wil weten wanneer Suriname onafhankelijk werd van Nederland. Zijn docent vertelt dat dit in de 20e eeuw was. In welk jaar werd Suriname onafhankelijk?",
       "options": [
-        "In de gewone afvalbak",
-        "Je gooit ze in de gft-bak",
-        "Je stuurt ze naar de Belastingdienst",
-        "Naar speciale inzamelpunten, zoals de apotheek voor medicijnen"
+        "1990",
+        "1954",
+        "1975"
       ],
-      "correctIndex": 3,
-      "explanation": "Lege batterijen lever je in bij speciale inzamelpunten, bijvoorbeeld in de supermarkt. Oude medicijnen breng je terug naar de apotheek.",
-      "explanationEn": "Empty batteries go to special collection points, for example in the supermarket. Old medicines should be returned to the pharmacy."
+      "correctIndex": 2,
+      "explanation": "Suriname werd op 25 november 1975 onafhankelijk van Nederland. De Nederlandse Antillen (inclusief Aruba en Curaçao) hebben een andere status gekregen en zijn nog onderdeel van het Koninkrijk.",
+      "explanationEn": "Suriname became independent from the Netherlands on November 25, 1975. The Netherlands Antilles (including Aruba and Curaçao) have a different status and are still part of the Kingdom."
     },
     {
       "id": "knm-a2-4-q24",
-      "text": "Wat is de rol van een makelaar bij het kopen van een huis?",
+      "text": "Fatima wil weten wie koning was vlak voor de huidige koning. Haar collega's praten over Koningin Beatrix. Wanneer deed Beatrix afstand van de troon?",
       "options": [
-        "De makelaar bouwt het huis",
-        "De makelaar helpt je bij het zoeken, bezichtigen en onderhandelen over een huis",
-        "De makelaar betaalt de belasting voor je",
-        "De makelaar geeft je een hypotheek"
+        "2020",
+        "2005",
+        "2013"
       ],
-      "correctIndex": 1,
-      "explanation": "Een makelaar helpt bij het zoeken naar een woning, het bezichtigen van huizen en het onderhandelen over de prijs.",
-      "explanationEn": "A real estate agent helps with searching for a property, viewing houses, and negotiating the price."
+      "correctIndex": 2,
+      "explanation": "Koningin Beatrix deed op 30 april 2013 afstand van de troon ten gunste van haar zoon Willem-Alexander. Die dag heet nu 'Koningsdag' (vroeger Koninginnedag).",
+      "explanationEn": "Queen Beatrix abdicated on April 30, 2013, in favor of her son Willem-Alexander. That day is now called 'King's Day' (formerly Queen's Day)."
     },
     {
       "id": "knm-a2-4-q25",
-      "text": "Wat doet de notaris bij het kopen van een huis?",
+      "text": "Omar hoort het Nederlandse volkslied op een sportevenement. Hij wil weten hoe het heet. Wat is de naam van het Nederlandse volkslied?",
       "options": [
-        "De notaris maakt de koopakte officieel en zorgt voor de overdracht",
-        "De notaris schildert het huis",
-        "De notaris verhuurt het huis",
-        "De notaris bepaalt de huurprijs"
+        "God Save the King",
+        "Het Wilhelmus",
+        "De Marseillaise"
       ],
-      "correctIndex": 0,
-      "explanation": "De notaris maakt de koopakte en de hypotheekakte officieel. Bij de overdracht zorgt de notaris dat het huis juridisch op jouw naam komt.",
-      "explanationEn": "The notary makes the purchase deed and mortgage deed official. During the transfer, the notary ensures the house is legally registered in your name."
+      "correctIndex": 1,
+      "explanation": "Het Nederlandse volkslied heet 'Het Wilhelmus'. Het is geschreven als een loflied op Willem van Oranje en stamt uit de 16e eeuw. Het is een van de oudste volksliederen ter wereld.",
+      "explanationEn": "The Dutch national anthem is called 'Het Wilhelmus'. It was written as a tribute to William of Orange and dates from the 16th century. It is one of the oldest national anthems in the world."
     },
     {
       "id": "knm-a2-4-q26",
-      "text": "Wat is overdrachtsbelasting?",
+      "text": "Nadia kijkt naar het wapen van Nederland op een officieel document. Ze ziet een leeuw met een zwaard en een bundel pijlen. Hoeveel pijlen houdt de leeuw vast, en wat staan ze symbool voor?",
       "options": [
-        "Belasting die je betaalt als je een auto koopt",
-        "Belasting op je salaris",
-        "Belasting die je betaalt bij het kopen van een bestaand huis",
-        "Belasting op boodschappen"
+        "4 pijlen — de vier windstreken",
+        "12 pijlen — de 12 provincies van Nederland",
+        "7 pijlen — de zeven gewesten van de Republiek der Zeven Verenigde Nederlanden"
       ],
       "correctIndex": 2,
-      "explanation": "Overdrachtsbelasting is de belasting die je betaalt als je een bestaande woning koopt. Voor starters tot 35 jaar kan er een vrijstelling gelden.",
-      "explanationEn": "Transfer tax is the tax you pay when buying an existing property. First-time buyers under 35 may be exempt."
+      "explanation": "De Nederlandse leeuw houdt 7 pijlen vast die symbool staan voor de zeven provincies van de Republiek der Zeven Verenigde Nederlanden. Samen zijn ze sterk, afzonderlijk kwetsbaar.",
+      "explanationEn": "The Dutch lion holds 7 arrows representing the seven provinces of the Republic of the Seven United Netherlands. Together they are strong, individually vulnerable."
     },
     {
       "id": "knm-a2-4-q27",
-      "text": "Welke beroemde schilder heeft 'De Nachtwacht' geschilderd?",
+      "text": "Bas wil weten welke kleuren de Nederlandse vlag heeft. Wat zijn de kleuren van de vlag van Nederland?",
       "options": [
-        "Vincent van Gogh",
-        "Johannes Vermeer",
-        "Piet Mondriaan",
-        "Rembrandt van Rijn"
+        "Rood, wit en blauw",
+        "Oranje, wit en blauw",
+        "Blauw, wit en rood"
       ],
-      "correctIndex": 3,
-      "explanation": "De Nachtwacht is geschilderd door Rembrandt van Rijn in 1642. Het schilderij hangt in het Rijksmuseum in Amsterdam.",
-      "explanationEn": "The Night Watch was painted by Rembrandt van Rijn in 1642. The painting is displayed in the Rijksmuseum in Amsterdam."
+      "correctIndex": 0,
+      "explanation": "De Nederlandse vlag bestaat uit drie horizontale strepen: rood, wit en blauw (van boven naar beneden). Oranje is wel de nationale kleur (vanwege Oranje-Nassau) maar zit niet in de vlag.",
+      "explanationEn": "The Dutch flag consists of three horizontal stripes: red, white, and blue (from top to bottom). Orange is the national color (from the House of Orange-Nassau) but is not in the flag."
     },
     {
       "id": "knm-a2-4-q28",
-      "text": "Welk schilderij is gemaakt door Johannes Vermeer?",
+      "text": "Mia leert dat Nederland schilders heeft gehad die wereldberoemd zijn. Welke Nederlandse schilder uit de Gouden Eeuw schilderde 'De Nachtwacht'?",
       "options": [
-        "Het Meisje met de Parel",
-        "De Zonnebloemen",
-        "De Sterrennacht",
-        "De Nachtwacht"
+        "Vincent van Gogh",
+        "Rembrandt van Rijn",
+        "Johannes Vermeer"
       ],
-      "correctIndex": 0,
-      "explanation": "Het Meisje met de Parel is een beroemd schilderij van Johannes Vermeer. Het hangt in het Mauritshuis in Den Haag.",
-      "explanationEn": "Girl with a Pearl Earring is a famous painting by Johannes Vermeer. It is displayed in the Mauritshuis in The Hague."
+      "correctIndex": 1,
+      "explanation": "Rembrandt van Rijn schilderde 'De Nachtwacht' in 1642. Het hangt in het Rijksmuseum in Amsterdam. Rembrandt is een van de beroemdste schilders uit de Gouden Eeuw.",
+      "explanationEn": "Rembrandt van Rijn painted 'The Night Watch' in 1642. It hangs in the Rijksmuseum in Amsterdam. Rembrandt is one of the most famous painters of the Golden Age."
     },
     {
       "id": "knm-a2-4-q29",
-      "text": "Waar hangt De Nachtwacht van Rembrandt?",
+      "text": "Lars hoort dat Koningsdag elk jaar een groot feest is in Nederland. Op welke datum wordt Koningsdag gevierd?",
       "options": [
-        "In het Van Gogh Museum",
-        "In het Mauritshuis",
-        "In het Rijksmuseum",
-        "In het Stedelijk Museum"
+        "30 april",
+        "27 april",
+        "5 mei"
       ],
-      "correctIndex": 2,
-      "explanation": "De Nachtwacht hangt in het Rijksmuseum in Amsterdam. Het is een van de beroemdste schilderijen van Nederland.",
-      "explanationEn": "The Night Watch is displayed in the Rijksmuseum in Amsterdam. It is one of the most famous paintings in the Netherlands."
+      "correctIndex": 1,
+      "explanation": "Koningsdag wordt gevierd op 27 april, de verjaardag van Koning Willem-Alexander. Als 27 april op een zondag valt, wordt het feest op 26 april gevierd.",
+      "explanationEn": "King's Day is celebrated on April 27, the birthday of King Willem-Alexander. If April 27 falls on a Sunday, the celebration moves to April 26."
     },
     {
       "id": "knm-a2-4-q30",
-      "text": "Vincent van Gogh is beroemd om zijn schilderijen. Waar is hij geboren?",
+      "text": "Fatima wil begrijpen waarom tulpen zo typisch Nederlands zijn. Haar collega vertelt dat ze oorspronkelijk niet uit Nederland komen. Waar komen tulpen oorspronkelijk vandaan?",
       "options": [
-        "In Amsterdam",
-        "In Zundert, Noord-Brabant",
-        "In Rotterdam",
-        "In Maastricht"
+        "Uit Zuid-Amerika",
+        "Uit Turkije en Centraal-Azië",
+        "Uit Duitsland"
       ],
       "correctIndex": 1,
-      "explanation": "Vincent van Gogh is geboren in 1853 in Zundert, een dorp in de provincie Noord-Brabant.",
-      "explanationEn": "Vincent van Gogh was born in 1853 in Zundert, a village in the province of Noord-Brabant."
+      "explanation": "Tulpen komen oorspronkelijk uit Centraal-Azië en Turkije. In de 16e eeuw werden ze naar de Nederlanden gebracht en werd Nederland het centrum van de tulpenteelt — een traditie die voortduurt tot vandaag.",
+      "explanationEn": "Tulips originally come from Central Asia and Turkey. In the 16th century they were brought to the Netherlands, which became the center of tulip cultivation — a tradition that continues today."
     },
     {
       "id": "knm-a2-4-q31",
-      "text": "Wie waren de gastarbeiders die in de jaren 60 en 70 naar Nederland kwamen?",
+      "text": "Omar ziet in zijn buurt windmolens. Zijn buurman vertelt dat traditionele Nederlandse molens UNESCO-status hebben. Waarvoor werden de traditionele houten molens in Nederland vroeger gebruikt?",
       "options": [
-        "Toeristen uit Duitsland",
-        "Studenten uit Engeland",
-        "Soldaten uit Amerika",
-        "Arbeiders uit landen als Turkije en Marokko die kwamen werken in Nederlandse fabrieken"
+        "Om water weg te malen en graan te malen",
+        "Als uitkijkpost voor schepen",
+        "Als verdedigingstorens tegen vijanden"
       ],
-      "correctIndex": 3,
-      "explanation": "In de jaren 60 en 70 kwamen gastarbeiders uit landen als Turkije en Marokko naar Nederland om te werken in fabrieken. Veel van hen zijn gebleven.",
-      "explanationEn": "In the 1960s and 70s, guest workers from countries like Turkey and Morocco came to the Netherlands to work in factories. Many of them stayed."
+      "correctIndex": 0,
+      "explanation": "De traditionele Nederlandse windmolens werden gebruikt voor het bemalen van polders (waterbeheer) en voor het malen van graan, hout en andere materialen. Ze zijn UNESCO werelderfgoed (Kinderdijk).",
+      "explanationEn": "Traditional Dutch windmills were used for draining polders (water management) and for grinding grain, wood, and other materials. They are UNESCO World Heritage Sites (Kinderdijk)."
     },
     {
       "id": "knm-a2-4-q32",
-      "text": "Wie zijn de Molukkers in Nederland?",
+      "text": "Nadia leert dat er in december twee feestdagen zijn voor kinderen. Op welke datum komen Sint en Piet traditioneel aan in Nederland?",
       "options": [
-        "Mensen afkomstig van de Molukken die na de onafhankelijkheid van Indonesie naar Nederland kwamen",
-        "Toeristen uit Indonesie",
-        "Studenten uit Japan",
-        "Handelaren uit China"
+        "Rond 11 november",
+        "5 december",
+        "6 januari"
       ],
       "correctIndex": 0,
-      "explanation": "Molukkers kwamen in 1951 naar Nederland vanuit de Molukken (voormalig Nederlands-Indie). Veel KNIL-militairen en hun families werden naar Nederland gebracht.",
-      "explanationEn": "Moluccans came to the Netherlands in 1951 from the Moluccas (former Dutch East Indies). Many KNIL soldiers and their families were brought to the Netherlands."
+      "explanation": "Sinterklaas komt elk jaar traditioneel aan in Nederland op een zaterdag rondom 11 november. De intocht wordt op televisie uitgezonden. De echte Sinterklaasavond is op 5 december.",
+      "explanationEn": "Sinterklaas traditionally arrives in the Netherlands on a Saturday around November 11. The arrival is broadcast on television. The actual Saint Nicholas Eve is on December 5."
     },
     {
       "id": "knm-a2-4-q33",
-      "text": "Wat is DigiD?",
+      "text": "Bas wil aan zijn kind uitleggen waarom zo veel mensen in Nederland op de fiets gaan. Wat is een goede reden waarom fietsen in Nederland zo populair is?",
       "options": [
-        "Een sociale media app",
-        "Een digitale identiteit om in te loggen bij de overheid en andere organisaties",
-        "Een e-mailadres van de gemeente",
-        "Een digitale portemonnee"
+        "Fietsen is gratis, Nederland is vlak en er is een uitgebreid fietspadennetwerk",
+        "Het is verboden om in steden met de auto te rijden",
+        "Openbaar vervoer bestaat niet in Nederland"
       ],
-      "correctIndex": 1,
-      "explanation": "DigiD is je digitale identiteit. Met DigiD kun je inloggen bij websites van de overheid, zoals de Belastingdienst, DUO en je zorgverzekeraar.",
-      "explanationEn": "DigiD is your digital identity. With DigiD you can log in to government websites, such as the Tax Authority, DUO, and your health insurance company."
+      "correctIndex": 0,
+      "explanation": "Nederland heeft meer dan 35.000 km fietspad. Het land is relatief vlak, waardoor fietsen gemakkelijk is. Bovendien is fietsen goedkoop en milieuvriendelijk. Nederland heeft meer fietsen dan inwoners.",
+      "explanationEn": "The Netherlands has over 35,000 km of cycle paths. The country is relatively flat, making cycling easy. Furthermore, cycling is cheap and environmentally friendly. The Netherlands has more bicycles than inhabitants."
     },
     {
       "id": "knm-a2-4-q34",
-      "text": "Wat is MijnOverheid?",
+      "text": "Mia hoort dat Nederland een groot aandeel heeft in de wereldwijde bloemenhandel. In welke veiling worden de meeste bloemen in Nederland verhandeld?",
       "options": [
-        "Een politieke partij",
-        "Een app om te stemmen",
-        "Een website om kleding te kopen",
-        "Een website waar je berichten en informatie van de overheid kunt bekijken"
+        "De Keukenhof in Lisse",
+        "De Bloemenveiling in Aalsmeer (Royal FloraHolland)",
+        "De Bloemenmarkt in Amsterdam"
       ],
-      "correctIndex": 3,
-      "explanation": "MijnOverheid is een website waar je persoonlijke berichten van de overheid ontvangt, bijvoorbeeld van de Belastingdienst of je gemeente. Je logt in met DigiD.",
-      "explanationEn": "MijnOverheid is a website where you receive personal messages from the government, for example from the Tax Authority or your municipality. You log in with DigiD."
+      "correctIndex": 1,
+      "explanation": "De Royal FloraHolland veiling in Aalsmeer is een van de grootste bloemenhandelscentra ter wereld. Miljoenen bloemen worden hier dagelijks verhandeld en verspreid over de hele wereld.",
+      "explanationEn": "The Royal FloraHolland auction in Aalsmeer is one of the largest flower trading centers in the world. Millions of flowers are traded here daily and distributed around the world."
     },
     {
       "id": "knm-a2-4-q35",
-      "text": "Wat is de Berichtenbox op MijnOverheid?",
+      "text": "Lars hoort de term 'de Lage Landen'. Wat bedoelt men hiermee als het gaat om Nederland?",
       "options": [
-        "Een chatfunctie om met de politie te praten",
-        "Een app om pakketten te volgen",
-        "Een digitale postbus waar je officiele berichten van de overheid ontvangt",
-        "Een fysieke brievenbus bij het gemeentehuis"
+        "Dat Nederland weinig bergen heeft maar wel heuvelachtig is",
+        "Dat Nederland een arm land is",
+        "Dat grote delen van Nederland laag liggen, deels onder zeeniveau"
       ],
       "correctIndex": 2,
-      "explanation": "De Berichtenbox is de digitale postbus op MijnOverheid. Hier ontvang je officiele berichten van overheidsinstanties, zoals belastingaanslagen.",
-      "explanationEn": "The Berichtenbox is the digital mailbox on MijnOverheid. Here you receive official messages from government agencies, such as tax assessments."
+      "explanation": "Ongeveer een kwart van Nederland ligt onder zeeniveau. Daardoor wordt het wel 'de Lage Landen' genoemd. Door een uitgebreid stelsel van dijken, duinen en gemalen wordt het land beschermd tegen het water.",
+      "explanationEn": "About a quarter of the Netherlands lies below sea level. This is why it is called 'the Low Countries'. An extensive system of dykes, dunes, and pumping stations protects the land from the water."
     },
     {
       "id": "knm-a2-4-q36",
-      "text": "Wat is een DigiD-machtiging?",
+      "text": "Fatima wil weten hoe Nederland heet in het Engels. Collega's zeggen soms 'Holland' en soms 'the Netherlands'. Wat is het verschil?",
       "options": [
-        "Toestemming geven aan iemand anders om namens jou digitale zaken te regelen",
-        "Een extra wachtwoord voor DigiD",
-        "Een upgrade naar een betaalde versie van DigiD",
-        "Een code om wifi te gebruiken bij de gemeente"
+        "Het zijn synoniemen en mogen allebei worden gebruikt",
+        "Nederland is de officiële naam; Holland verwijst alleen naar de provincies Noord- en Zuid-Holland",
+        "Holland is de officiële naam van Nederland"
       ],
-      "correctIndex": 0,
-      "explanation": "Met een DigiD-machtiging geef je iemand anders toestemming om namens jou zaken te regelen bij de overheid, bijvoorbeeld als je hier zelf niet toe in staat bent.",
-      "explanationEn": "With a DigiD authorization, you give someone else permission to handle government matters on your behalf, for example if you are unable to do so yourself."
+      "correctIndex": 1,
+      "explanation": "De officiële naam is Nederland (in het Engels: the Netherlands). Holland is eigenlijk alleen de naam voor de provincies Noord-Holland en Zuid-Holland. Toch wordt Holland informeel veel gebruikt om het hele land aan te duiden.",
+      "explanationEn": "The official name is the Netherlands. Holland actually refers only to the provinces of North Holland and South Holland. However, Holland is informally often used to refer to the entire country."
     },
     {
       "id": "knm-a2-4-q37",
-      "text": "Welke taal wordt in Friesland naast het Nederlands gesproken?",
+      "text": "Omar wil weten wanneer de WIC (West-Indische Compagnie) opereerde. Hij weet dat de VOC handel dreef met Azië. Met welk werelddeel dreef de WIC handel?",
       "options": [
-        "Duits",
-        "Engels",
-        "Limburgs",
-        "Fries"
+        "Azië (net als de VOC)",
+        "Afrika en Amerika (Atlantische handelsroutes, waaronder slavenhandel)",
+        "Australië en Nieuw-Zeeland"
       ],
-      "correctIndex": 3,
-      "explanation": "In de provincie Friesland wordt naast het Nederlands ook Fries gesproken. Het Fries is een officieel erkende taal in Nederland.",
-      "explanationEn": "In the province of Friesland, Frisian is spoken alongside Dutch. Frisian is an officially recognized language in the Netherlands."
+      "correctIndex": 1,
+      "explanation": "De WIC (West-Indische Compagnie, opgericht 1621) richtte zich op handel met Afrika en Amerika. De WIC was ook betrokken bij de trans-Atlantische slavenhandel, waarbij mensen uit Afrika werden verscheept naar plantages in Amerika.",
+      "explanationEn": "The WIC (West India Company, founded 1621) focused on trade with Africa and the Americas. The WIC was also involved in the trans-Atlantic slave trade, shipping people from Africa to plantations in the Americas."
     },
     {
       "id": "knm-a2-4-q38",
-      "text": "Wat is een warmtepomp?",
+      "text": "Nadia kijkt naar een documentaire over de poldermodel. Wat is het poldermodel in Nederland?",
       "options": [
-        "Een apparaat dat warmte uit de lucht, bodem of water haalt om je huis te verwarmen",
-        "Een apparaat dat water opwarmt met gas",
-        "Een radiator aan de muur",
-        "Een soort open haard"
+        "Een politiek systeem waarbij de meerderheid alles beslist",
+        "Een methode om polders droog te leggen met behulp van molens",
+        "Een overlegcultuur waarbij werkgevers, vakbonden en overheid samen beslissingen nemen"
       ],
-      "correctIndex": 0,
-      "explanation": "Een warmtepomp haalt warmte uit de lucht, bodem of het grondwater en gebruikt dit om je huis te verwarmen. Het is duurzamer dan verwarmen met gas.",
-      "explanationEn": "A heat pump extracts heat from the air, ground, or groundwater and uses this to heat your home. It is more sustainable than heating with gas."
+      "correctIndex": 2,
+      "explanation": "Het poldermodel is de Nederlandse overlegcultuur waarbij werkgevers, vakbonden en overheid samenwerken om tot compromissen te komen. Het Sociaal-Economische Raad (SER) speelt hierin een belangrijke rol.",
+      "explanationEn": "The polder model is the Dutch consultation culture where employers, trade unions, and government work together to reach compromises. The Social-Economic Council (SER) plays an important role in this."
     },
     {
       "id": "knm-a2-4-q39",
-      "text": "Wat is een energielabel voor een woning?",
+      "text": "Bas heeft een opdracht over de Nederlandse onafhankelijkheidsverklaring. In welk jaar ondertekenden de gewesten de Akte van Verlatinghe, waarmee ze officieel koningschip van Filips II afwezen?",
       "options": [
-        "Een sticker met het adres van het huis",
-        "Een label dat aangeeft hoe energiezuinig een woning is, van A tot G",
-        "Een vergunning om zonnepanelen te plaatsen",
-        "Een factuur van het energiebedrijf"
+        "1581",
+        "1568",
+        "1648"
       ],
-      "correctIndex": 1,
-      "explanation": "Een energielabel geeft aan hoe energiezuinig een woning is. Label A (of hoger) is zeer zuinig, label G is het minst zuinig. Bij verkoop of verhuur is een energielabel verplicht.",
-      "explanationEn": "An energy label indicates how energy efficient a home is. Label A (or higher) is very efficient, label G is the least efficient. An energy label is required when selling or renting."
+      "correctIndex": 0,
+      "explanation": "De Akte van Verlatinghe werd op 26 juli 1581 ondertekend. Hiermee verklaarden de zeven noordelijke gewesten de Spaanse koning Filips II niet meer als hun soeverein te erkennen. Dit is de eerste officiële onafhankelijkheidsverklaring.",
+      "explanationEn": "The Act of Abjuration was signed on July 26, 1581. With this, the seven northern provinces declared they no longer recognized the Spanish King Philip II as their sovereign. This is the first official declaration of independence."
     },
     {
       "id": "knm-a2-4-q40",
-      "text": "Waarom plaatsen veel mensen in Nederland zonnepanelen op hun dak?",
+      "text": "Mia wil weten welk land ten noorden van Nederland ligt. Ze kijkt op een kaart. Welk land grenst direct aan de noordoostkant van Nederland?",
       "options": [
-        "Omdat het verplicht is van de overheid",
-        "Om het dak te beschermen tegen regen",
-        "Om zelf duurzame energie op te wekken en de energiekosten te verlagen",
-        "Omdat de buren het ook hebben"
+        "Duitsland",
+        "België",
+        "Denemarken"
       ],
-      "correctIndex": 2,
-      "explanation": "Zonnepanelen zetten zonlicht om in elektriciteit. Hiermee kun je duurzame energie opwekken en je energiekosten verlagen. De overheid stimuleert dit met subsidies.",
-      "explanationEn": "Solar panels convert sunlight into electricity. This allows you to generate sustainable energy and reduce your energy costs. The government encourages this with subsidies."
+      "correctIndex": 0,
+      "explanation": "Nederland grenst aan Duitsland in het oosten en noordoosten, en aan België in het zuiden. In het westen en noorden grenst het aan de Noordzee. Denemarken grenst niet direct aan Nederland.",
+      "explanationEn": "The Netherlands borders Germany to the east and northeast, and Belgium to the south. To the west and north it borders the North Sea. Denmark does not directly border the Netherlands."
     }
-  ],
-  "isFreePreview": false
+  ]
 }

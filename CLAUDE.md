@@ -78,6 +78,7 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 
 - Questions use a shared `Question` interface in `lib/types.ts`: `{ id, text, options, correctIndex, explanation?, explanationEn?, image? }`
 - Questions are shuffled per session using Fisher-Yates in `useMemo`
+- **Mock exam quality standard:** All MCQ questions must use scenario format (named character + situation, 3 options, varied correctIndex distribution). See `docs/MOCK-EXAM-QUALITY.md` for the full standard, topic coverage by level, and validation script.
 - Progress stored per exercise ID in `PassageProgress` objects (completed, correctAnswers, totalQuestions, lastAttempt)
 - Audio uses Azure TTS via `hooks/useAzureTTS.ts` and `app/api/tts/route.ts`, fallback to Web Speech Synthesis API at 0.85x speed (nl-NL)
 - Results threshold: 60% to pass

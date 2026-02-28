@@ -8,328 +8,303 @@
   "questions": [
     {
       "id": "knm-a1-4-q1",
-      "text": "Wat kun je doen bij de bibliotheek?",
+      "text": "Sanne krijgt elke maand een brief van haar energieleverancier met een bedrag dat ze moet betalen voor gas en elektriciteit. Hoe heet dit?",
       "options": [
-        "Een huis huren",
-        "Eten kopen",
-        "Een paspoort aanvragen",
-        "Boeken lenen"
+        "Een belastingaanslag",
+        "Een energierekening of energienota",
+        "Een huurrekening"
       ],
-      "correctIndex": 3,
-      "explanation": "Bij de bibliotheek kun je boeken lenen. Je kunt ook kranten, tijdschriften en dvd's lenen.",
-      "explanationEn": "At the library you can borrow books. You can also borrow newspapers, magazines, and DVDs."
+      "correctIndex": 1,
+      "explanation": "Een energierekening (of energienota) is de rekening die je betaalt aan je energieleverancier voor gas en elektriciteit.",
+      "explanationEn": "An energy bill (energierekening) is the bill you pay to your energy provider for gas and electricity."
     },
     {
       "id": "knm-a1-4-q2",
-      "text": "Wat heb je nodig om boeken te lenen bij de bibliotheek?",
+      "text": "Daan heeft meegedaan aan verkiezingen. In het stemhokje heeft hij op een naam gestemd op een papier. Hoe heet dit papier?",
       "options": [
-        "Een rijbewijs",
-        "Een DigiD",
-        "Een lidmaatschap (bibliotheekpas)",
-        "Een OV-chipkaart"
+        "Een stembiljet",
+        "Een aanvraagformulier",
+        "Een formulier"
       ],
-      "correctIndex": 2,
-      "explanation": "Je hebt een lidmaatschap nodig. Je krijgt dan een bibliotheekpas waarmee je boeken kunt lenen.",
-      "explanationEn": "You need a membership. You will get a library card with which you can borrow books."
+      "correctIndex": 0,
+      "explanation": "Een stembiljet is het officiële papier waarop je je stem uitbrengt bij verkiezingen in het stemhokje.",
+      "explanationEn": "A ballot paper (stembiljet) is the official paper on which you cast your vote in the polling booth."
     },
     {
       "id": "knm-a1-4-q3",
-      "text": "Welk telefoonnummer bel je voor de politie als het GEEN noodgeval is?",
+      "text": "Kim woont in een dorp en wil weten wie het dorp bestuurt. Haar man zegt dat er een verschil is tussen gemeente en provincie. Wat is een gemeente?",
       "options": [
-        "0900-8844",
-        "112",
-        "0800-1351",
-        "144"
+        "Een landelijk bestuursniveau zoals een provincie",
+        "Het lokale bestuur van een stad of dorp",
+        "Een afdeling van de nationale overheid"
       ],
-      "correctIndex": 0,
-      "explanation": "0900-8844 is het niet-spoed nummer van de politie. 112 is alleen voor echte noodgevallen.",
-      "explanationEn": "0900-8844 is the non-emergency police number. 112 is only for real emergencies."
+      "correctIndex": 1,
+      "explanation": "Een gemeente is het lokale bestuur dat verantwoordelijk is voor zaken in een stad of dorp, zoals wegen, vergunningen en sociale zaken.",
+      "explanationEn": "A municipality (gemeente) is the local government responsible for matters in a city or village, such as roads, permits, and social affairs."
     },
     {
       "id": "knm-a1-4-q4",
-      "text": "Hoe laat eten de meeste Nederlanders hun avondeten?",
+      "text": "Lars heeft last van zijn rug en de huisarts wil hem doorsturen. Hij gaat naar een arts die gespecialiseerd is in een bepaald gebied. Hoe heet zo'n arts?",
       "options": [
-        "Rond 15:00",
-        "Rond 18:00",
-        "Rond 21:00",
-        "Rond 12:00"
+        "Een huisarts",
+        "Een specialist of medisch specialist",
+        "Een tandarts"
       ],
       "correctIndex": 1,
-      "explanation": "De meeste Nederlanders eten hun avondeten (warme maaltijd) rond 18:00 uur.",
-      "explanationEn": "Most Dutch people eat their dinner (warm meal) around 6:00 PM."
+      "explanation": "Een medisch specialist is een arts die gespecialiseerd is in een bepaald medisch vakgebied, zoals cardiologie of orthopedie.",
+      "explanationEn": "A medical specialist is a doctor who specializes in a specific medical field, such as cardiology or orthopedics."
     },
     {
       "id": "knm-a1-4-q5",
-      "text": "Wat eten veel Nederlanders 's middags als lunch?",
+      "text": "Carlos rijdt in zijn auto en ziet dat zijn tank bijna leeg is. Waar tankt hij zijn auto?",
       "options": [
-        "Rijst met vlees",
-        "Pasta",
-        "Soep met broodjes",
-        "Brood met beleg"
+        "Bij de supermarkt",
+        "Bij een benzinestation of tankstation",
+        "Bij de garage voor autopech"
       ],
-      "correctIndex": 3,
-      "explanation": "Veel Nederlanders eten 's middags een broodmaaltijd: boterhammen met kaas, ham, of pindakaas.",
-      "explanationEn": "Many Dutch people eat a bread meal for lunch: sandwiches with cheese, ham, or peanut butter."
+      "correctIndex": 1,
+      "explanation": "Benzine, diesel of andere brandstoffen koop je bij een benzinestation of tankstation langs de weg.",
+      "explanationEn": "Petrol, diesel, or other fuels are purchased at a petrol station or filling station along the road."
     },
     {
       "id": "knm-a1-4-q6",
-      "text": "Hoe begroeten goede vrienden en familie elkaar vaak in Nederland?",
+      "text": "Nadia heeft een kind van 8 jaar. Haar kind heeft buikpijn en zij wil de dokter bellen. Ze wil de niet-spoed huisartsenlijn bellen. Welk nummer belt ze?",
       "options": [
-        "Met een buiging",
-        "Met een high five",
-        "Met 3 zoenen op de wang",
-        "Met een handdruk"
+        "Ze belt haar eigen huisartspraktijk of de huisartsenpost",
+        "112",
+        "0900-8844 (de algemene politielijn voor niet-spoed) — nee, voor huisarts: de huisartsenpost via de eigen huisartsenpraktijk"
       ],
-      "correctIndex": 2,
-      "explanation": "Goede vrienden en familie begroeten elkaar vaak met 3 zoenen op de wang (rechts-links-rechts).",
-      "explanationEn": "Close friends and family often greet each other with 3 kisses on the cheek (right-left-right)."
+      "correctIndex": 0,
+      "explanation": "Voor een niet-spoedvraag belt je je eigen huisartspraktijk. Buiten openingstijden bel je de huisartsenpost. 112 is alleen voor levensbedreigende noodgevallen.",
+      "explanationEn": "For a non-urgent question, you call your own GP practice. Outside opening hours, you call the out-of-hours GP service. 112 is only for life-threatening emergencies."
     },
     {
       "id": "knm-a1-4-q7",
-      "text": "Hoe heet het lidmaatschapsgeld bij een sportvereniging?",
+      "text": "Reza heeft een OV-chipkaart maar er staat te weinig saldo op. De trein gaat zo. Wat moet hij doen?",
       "options": [
-        "Contributie",
-        "Huur",
-        "Borg",
-        "Premie"
+        "De trein is gratis als hij geen saldo heeft",
+        "Eerst saldo opladen bij een automaat of online, dan inchecken",
+        "Toch instappen en later betalen"
       ],
-      "correctIndex": 0,
-      "explanation": "Het lidmaatschapsgeld bij een sportvereniging heet contributie.",
-      "explanationEn": "The membership fee at a sports club is called contributie (contribution)."
+      "correctIndex": 1,
+      "explanation": "Je moet genoeg saldo op je OV-chipkaart hebben om in te kunnen checken. Je laadt saldo op bij een automaat op het station, online of bij een servicepunt.",
+      "explanationEn": "You must have enough balance on your OV-chipkaart to be able to check in. You add credit at a machine at the station, online, or at a service point."
     },
     {
       "id": "knm-a1-4-q8",
-      "text": "Wat is een dierenarts?",
+      "text": "Fatima wil een vergunning aanvragen voor een aanbouw aan haar huis. Waar doet ze dit?",
       "options": [
-        "Een dokter voor kinderen",
-        "Een tandarts",
-        "Een dokter voor dieren",
-        "Een fysiotherapeut"
+        "Bij de gemeente (bouw- en woningtoezicht)",
+        "Bij de notaris",
+        "Bij de politie"
       ],
-      "correctIndex": 2,
-      "explanation": "Een dierenarts is een dokter voor dieren (huisdieren zoals honden en katten).",
-      "explanationEn": "A dierenarts (vet) is a doctor for animals (pets like dogs and cats)."
+      "correctIndex": 0,
+      "explanation": "Voor een bouwvergunning ga je naar de gemeente. Via het omgevingsloket kun je een omgevingsvergunning aanvragen.",
+      "explanationEn": "For a building permit, you go to the municipality. Via the environmental desk, you can apply for an environmental permit."
     },
     {
       "id": "knm-a1-4-q9",
-      "text": "Wat is een borg als je een huis huurt?",
+      "text": "Tom wil weten hoeveel mensen er in Nederland wonen. Hij vraagt zijn leraar. Hoeveel inwoners heeft Nederland ongeveer?",
       "options": [
-        "De maandelijkse huur",
-        "De kosten voor reparaties",
-        "Het salaris van de verhuurder",
-        "Een bedrag dat je betaalt als waarborg en terugkrijgt"
+        "Ongeveer 17-18 miljoen",
+        "Ongeveer 30 miljoen",
+        "Ongeveer 5 miljoen"
       ],
-      "correctIndex": 3,
-      "explanation": "De borg is een bedrag (vaak 1-2 maanden huur) dat je vooruit betaalt. Je krijgt het terug als je het huis goed achterlaat.",
-      "explanationEn": "The deposit is an amount (often 1-2 months' rent) you pay upfront. You get it back if you leave the house in good condition."
+      "correctIndex": 0,
+      "explanation": "Nederland heeft ongeveer 17 tot 18 miljoen inwoners, waarmee het een dichtbevolkt land is.",
+      "explanationEn": "The Netherlands has approximately 17 to 18 million inhabitants, making it a densely populated country."
     },
     {
       "id": "knm-a1-4-q10",
-      "text": "Wat is DigiD?",
+      "text": "Pieter wil zijn zieke vader bezoeken in een ander ziekenhuis. Hij wil weten hoe hij er het beste naartoe kan. Hij woont in Amsterdam. Welke vervoersoptie is handig?",
       "options": [
-        "Een digitale identiteit voor overheidszaken",
-        "Een soort e-mail",
-        "Een sociale media app",
-        "Een bankrekening"
+        "Met het openbaar vervoer (trein/bus) of de auto",
+        "Altijd met de auto",
+        "Altijd te voet"
       ],
       "correctIndex": 0,
-      "explanation": "DigiD is je digitale identiteit. Hiermee kun je inloggen bij de overheid en andere organisaties, zoals de Belastingdienst.",
-      "explanationEn": "DigiD is your digital identity. You use it to log in to government services and other organizations, such as the Tax Authority."
+      "explanation": "Voor reizen in Nederland kun je kiezen tussen openbaar vervoer (trein, bus, tram) of de auto. OV is vaak handig voor steden.",
+      "explanationEn": "For travel within the Netherlands, you can choose between public transport (train, bus, tram) or the car. Public transport is often convenient for cities."
     },
     {
       "id": "knm-a1-4-q11",
-      "text": "Wanneer ga je naar de huisartsenpost?",
+      "text": "Sofia werkt in een kantoor. Ze hoort dat het salaris wordt gestort op haar rekening. Hoe heet het geld dat je maandelijks ontvangt van je werkgever?",
       "options": [
-        "Elke dag voor een afspraak",
-        "In het weekend of 's nachts bij spoed",
-        "Alleen voor vaccinaties",
-        "Als je medicijnen wilt kopen"
+        "Subsidie",
+        "Salaris of loon",
+        "Uitkering"
       ],
       "correctIndex": 1,
-      "explanation": "De huisartsenpost is open buiten kantoortijden: 's avonds, 's nachts en in het weekend, voor spoedeisende huisartsenzorg.",
-      "explanationEn": "The huisartsenpost (GP post) is open outside office hours: evenings, nights, and weekends, for urgent GP care."
+      "explanation": "Salaris of loon is het geld dat je van je werkgever ontvangt voor je werk. Dit wordt maandelijks uitbetaald.",
+      "explanationEn": "Salary or wages (salaris/loon) is the money you receive from your employer for your work. This is paid monthly."
     },
     {
       "id": "knm-a1-4-q12",
-      "text": "Wat is een aansprakelijkheidsverzekering?",
+      "text": "Elena heeft last van haar ogen en bezoekt een specialist. Ze gaat naar een arts die gespecialiseerd is in ogen. Hoe heet deze arts?",
       "options": [
-        "Een reisverzekering",
-        "Een verzekering voor je auto",
-        "Een levensverzekering",
-        "Een verzekering als je per ongeluk schade maakt bij iemand anders"
+        "Een oogarts of oogspecialist",
+        "Een tandarts",
+        "Een dermatoloog"
       ],
-      "correctIndex": 3,
-      "explanation": "Een aansprakelijkheidsverzekering (AVP) betaalt als je per ongeluk schade veroorzaakt bij anderen, zoals een kapotte laptop of een gebroken ruit.",
-      "explanationEn": "Liability insurance (AVP) pays when you accidentally cause damage to others, such as a broken laptop or a broken window."
+      "correctIndex": 0,
+      "explanation": "Een oogarts (of oogspecialist) is een medisch specialist die gespecialiseerd is in oogklachten en oogziekten.",
+      "explanationEn": "An ophthalmologist (oogarts) is a medical specialist who specializes in eye complaints and eye diseases."
     },
     {
       "id": "knm-a1-4-q13",
-      "text": "Wanneer vieren Nederlanders Kerst?",
+      "text": "Yuki heeft een baby gekregen. Ze hoort van de kraamverpleegkundige. Wie is de kraamverpleegkundige?",
       "options": [
-        "31 december",
-        "5 december",
-        "25 en 26 december",
-        "1 januari"
+        "Een arts die bevalling begeleidt",
+        "Een kinderarts in het ziekenhuis",
+        "Een verpleegkundige die na de bevalling thuis helpt bij de verzorging van moeder en baby"
       ],
       "correctIndex": 2,
-      "explanation": "Kerst (Kerstmis) wordt gevierd op 25 en 26 december. Dit zijn Eerste en Tweede Kerstdag.",
-      "explanationEn": "Christmas is celebrated on December 25 and 26. These are First and Second Christmas Day."
+      "explanation": "Een kraamverpleegkundige of kraamverzorgende helpt de moeder en pasgeboren baby thuis in de eerste dagen na de bevalling.",
+      "explanationEn": "A postnatal nurse (kraamverpleegkundige) helps the mother and newborn baby at home in the first days after birth."
     },
     {
       "id": "knm-a1-4-q14",
-      "text": "Wat is Sinterklaas?",
+      "text": "Hassan staat met autopech langs de weg. Hij belt zijn wegenwacht. Welke organisatie helpt automobilisten met autopech in Nederland?",
       "options": [
-        "Een kinderfeest rond 5 december met cadeautjes",
-        "Een feest op 31 december",
-        "Een zomerfestival",
-        "Een religieuze feestdag in maart"
+        "De politie",
+        "De ANWB of een andere wegenwachtdienst",
+        "De brandweer"
       ],
-      "correctIndex": 0,
-      "explanation": "Sinterklaas is een traditioneel kinderfeest. Op pakjesavond (5 december) krijgen kinderen cadeautjes.",
-      "explanationEn": "Sinterklaas is a traditional children's holiday. On pakjesavond (December 5), children receive presents."
+      "correctIndex": 1,
+      "explanation": "De ANWB en andere pechdiensten (zoals Alarmcentrale) helpen automobilisten die met autopech langs de weg staan.",
+      "explanationEn": "The ANWB and other roadside assistance services help motorists who are stranded with car trouble."
     },
     {
       "id": "knm-a1-4-q15",
-      "text": "Kun je bij de bibliotheek ook internet gebruiken?",
+      "text": "Lena wil haar kind inenten (vaccineren) tegen ziektes. Bij welke dienst kunnen kinderen gratis worden ingeënt?",
       "options": [
-        "Nee, dat mag niet",
-        "Alleen als je betaalt",
-        "Alleen voor kinderen",
-        "Ja, er zijn vaak gratis computers met internet"
+        "Bij de huisarts, maar dit is niet gratis",
+        "Via het Rijksvaccinatieprogramma, gratis via de GGD of jeugdgezondheidszorg",
+        "Alleen in het ziekenhuis"
       ],
-      "correctIndex": 3,
-      "explanation": "In de meeste bibliotheken kun je gratis internet gebruiken op de computers daar.",
-      "explanationEn": "In most libraries you can use the internet for free on the computers there."
+      "correctIndex": 1,
+      "explanation": "Via het Rijksvaccinatieprogramma (RVP) worden kinderen gratis ingeënt tegen infectieziekten. Dit loopt via de GGD of het consultatiebureau.",
+      "explanationEn": "Through the National Immunisation Programme (RVP), children are vaccinated for free against infectious diseases. This is organized through the GGD or child health clinic."
     },
     {
       "id": "knm-a1-4-q16",
-      "text": "Wat is stamppot?",
+      "text": "Amir wil weten hoe hij zijn huur moet betalen aan zijn verhuurder. Zijn verhuurder vraagt om een maandelijkse overschrijving. Hoe heet dit in de bank?",
       "options": [
-        "Een soort brood",
-        "Een soort kaas",
-        "Een traditioneel Nederlands gerecht met aardappelen en groenten",
-        "Een dessert"
+        "Een contante betaling",
+        "Een automatische incasso of bankoverschrijving",
+        "Een creditcardbetaling"
       ],
-      "correctIndex": 2,
-      "explanation": "Stamppot is een traditioneel Nederlands gerecht. Het is gemaakt van gestampte aardappelen met groenten, zoals boerenkool of zuurkool.",
-      "explanationEn": "Stamppot is a traditional Dutch dish. It is made of mashed potatoes with vegetables, such as kale or sauerkraut."
+      "correctIndex": 1,
+      "explanation": "Huur betaal je via een bankoverschrijving of automatische incasso, waarbij het bedrag elke maand automatisch van je rekening wordt afgeschreven.",
+      "explanationEn": "Rent is paid via a bank transfer or direct debit, where the amount is automatically debited from your account each month."
     },
     {
       "id": "knm-a1-4-q17",
-      "text": "Wat is de opzegtermijn bij het huren van een woning?",
+      "text": "Marco wil een brief versturen maar weet niet hoeveel hij moet betalen voor een postzegel. Bij wie of waar kan hij dit navragen?",
       "options": [
-        "Je moet 1 jaar wachten",
-        "Je kunt nooit opzeggen",
-        "Je kunt direct vertrekken",
-        "Meestal 1 maand van tevoren opzeggen"
+        "Bij PostNL of een Primera-winkel",
+        "Bij de Belastingdienst",
+        "Bij de gemeente"
       ],
-      "correctIndex": 3,
-      "explanation": "Als huurder moet je meestal minimaal 1 maand van tevoren opzeggen. Dit staat in je huurcontract.",
-      "explanationEn": "As a tenant you usually must give at least 1 month's notice. This is stated in your rental contract."
+      "correctIndex": 0,
+      "explanation": "PostNL (het nationale postbedrijf) en Primera-winkels verkopen postzegels en kunnen je informeren over de portokosten.",
+      "explanationEn": "PostNL (the national postal company) and Primera stores sell stamps and can inform you about postage costs."
     },
     {
       "id": "knm-a1-4-q18",
-      "text": "Wat kun je doen op MijnOverheid.nl?",
+      "text": "Joris wil een nieuwe baan vinden. Hij wil kijken welke vacatures er zijn. Welke website is het meest bekend in Nederland voor het zoeken naar werk?",
       "options": [
-        "Je post van de overheid digitaal bekijken",
-        "Online winkelen",
-        "Eten bestellen",
-        "Muziek luisteren"
+        "Marktplaats.nl",
+        "Indeed.nl of LinkedIn",
+        "Thuisbezorgd.nl"
       ],
-      "correctIndex": 0,
-      "explanation": "Op MijnOverheid.nl kun je digitale post van de overheid bekijken, zoals brieven van de Belastingdienst of je gemeente. Je logt in met DigiD.",
-      "explanationEn": "On MijnOverheid.nl you can view digital mail from the government, such as letters from the Tax Authority or your municipality. You log in with DigiD."
+      "correctIndex": 1,
+      "explanation": "Indeed en LinkedIn zijn veelgebruikte websites voor het zoeken naar werk. Ook Werk.nl (van het UWV) biedt vacatures.",
+      "explanationEn": "Indeed and LinkedIn are widely used websites for job searching. Werk.nl (from the UWV) also offers vacancies."
     },
     {
       "id": "knm-a1-4-q19",
-      "text": "Moeten honden in sommige gemeenten geregistreerd worden?",
+      "text": "Petra woont op de derde verdieping van een flat. De lift is al weken kapot. Ze heeft moeite met de trappen. Waar kan ze klagen?",
       "options": [
-        "Alleen als de hond groot is",
-        "Nee, dat hoeft nooit",
-        "Ja, en in sommige gemeenten betaal je hondenbelasting",
-        "Alleen als je in een flat woont"
+        "Bij de politie",
+        "Bij de verhuurder of woningcorporatie",
+        "Bij de Belastingdienst"
       ],
-      "correctIndex": 2,
-      "explanation": "In sommige gemeenten moet je je hond aanmelden en betaal je hondenbelasting.",
-      "explanationEn": "In some municipalities you must register your dog and pay dog tax."
+      "correctIndex": 1,
+      "explanation": "Klachten over de onderhoudsstaat van een huurwoning of gemeenschappelijke ruimtes meld je bij de verhuurder of woningcorporatie.",
+      "explanationEn": "Complaints about the maintenance of a rental home or communal areas are reported to the landlord or housing corporation."
     },
     {
       "id": "knm-a1-4-q20",
-      "text": "Wat is een inboedelverzekering?",
+      "text": "Sarah wil weten hoe laat het wordt als het buiten zomertijd wordt ingevoerd. Nederland schakelt twee keer per jaar de klok. Wanneer gaat de klok een uur vooruit?",
       "options": [
-        "Een verzekering voor je auto",
-        "Een verzekering voor de spullen in je huis",
-        "Een ziekteverzekering",
-        "Een reisverzekering"
+        "Op Koningsdag",
+        "In de zomer (op de laatste zondag van maart)",
+        "In de winter"
       ],
       "correctIndex": 1,
-      "explanation": "Een inboedelverzekering vergoedt schade aan de spullen in je huis, zoals meubels, kleding en elektronica, bij bijvoorbeeld brand of diefstal.",
-      "explanationEn": "Contents insurance covers damage to belongings in your home, such as furniture, clothing, and electronics, for example in case of fire or theft."
+      "explanation": "Op de laatste zondag van maart gaat de klok een uur vooruit (zomertijd). Op de laatste zondag van oktober gaat de klok een uur terug (wintertijd).",
+      "explanationEn": "On the last Sunday in March, the clock moves forward one hour (summer time). On the last Sunday in October, the clock moves back one hour (winter time)."
     },
     {
       "id": "knm-a1-4-q21",
-      "text": "Wanneer is Oud en Nieuw in Nederland?",
+      "text": "Bas heeft zijn rijbewijs en wil een auto kopen. Zijn vriend zegt dat een auto ook verzekerd moet zijn. Welke autoverzekering is verplicht in Nederland?",
       "options": [
-        "5 december",
-        "27 april",
-        "25 december",
-        "31 december en 1 januari"
+        "Er is geen verplichte autoverzekering",
+        "Een allrisk verzekering",
+        "Een WA-verzekering (wettelijke aansprakelijkheidsverzekering)"
       ],
-      "correctIndex": 3,
-      "explanation": "Oud en Nieuw is op 31 december (oudejaarsavond) en 1 januari (nieuwjaarsdag). Mensen vieren het met vuurwerk.",
-      "explanationEn": "New Year's Eve and New Year's Day are on December 31 and January 1. People celebrate with fireworks."
+      "correctIndex": 2,
+      "explanation": "Elke auto in Nederland moet minimaal een WA-verzekering (aansprakelijkheidsverzekering) hebben. Deze vergoedt schade die je aan anderen veroorzaakt.",
+      "explanationEn": "Every car in the Netherlands must have at least a third-party liability insurance (WA-verzekering). This covers damage you cause to others."
     },
     {
       "id": "knm-a1-4-q22",
-      "text": "Wat is belangrijk als kinderen buiten op de speelplaats spelen?",
+      "text": "Nadia wil haar kind aanmelden bij een basisschool. Ze hoort dat er een aanmeldingsprocedure is. Wanneer moet je je kind aanmelden voor de basisschool?",
       "options": [
-        "Er moet een volwassene in de buurt zijn voor toezicht",
-        "Kinderen mogen altijd alleen spelen",
-        "Kinderen mogen niet buiten spelen",
-        "Kinderen moeten altijd binnen blijven"
+        "Pas als het kind 5 jaar is en de leerplicht begint",
+        "Op de dag dat het kind 4 jaar wordt",
+        "Ruim van tevoren, vaak al een jaar voor de start, bij de school van keuze"
       ],
-      "correctIndex": 0,
-      "explanation": "Bij jonge kinderen is het belangrijk dat een volwassene toezicht houdt als ze buiten spelen.",
-      "explanationEn": "For young children it is important that an adult supervises when they play outside."
+      "correctIndex": 2,
+      "explanation": "Het is verstandig je kind ruim van tevoren aan te melden bij een basisschool, soms zelfs een jaar voor aanvang. Populaire scholen hebben een wachtlijst.",
+      "explanationEn": "It is wise to register your child at a primary school well in advance, sometimes even a year before starting. Popular schools have a waiting list."
     },
     {
       "id": "knm-a1-4-q23",
-      "text": "Wat is de huurcommissie?",
+      "text": "Elly heeft gehoord dat 4 en 5 mei bijzondere dagen zijn in Nederland. Ze wil weten wat er op 5 mei wordt gevierd. Wat viert Nederland op 5 mei?",
       "options": [
-        "Een verzekeringsmaatschappij",
-        "Een winkel voor huurhuizen",
-        "Een bank voor huurders",
-        "Een organisatie die helpt bij problemen tussen huurder en verhuurder"
+        "De verjaardag van de koning",
+        "Bevrijdingsdag: de bevrijding van Nederland van de Duitse bezetting in 1945",
+        "De oprichting van de Europese Unie"
       ],
-      "correctIndex": 3,
-      "explanation": "De Huurcommissie helpt bij geschillen (problemen) tussen huurders en verhuurders, bijvoorbeeld over de huurprijs of onderhoud.",
-      "explanationEn": "The Rent Tribunal helps with disputes between tenants and landlords, for example about rent prices or maintenance."
+      "correctIndex": 1,
+      "explanation": "Op 5 mei viert Nederland Bevrijdingsdag, de dag waarop Nederland in 1945 werd bevrijd van de Duitse bezetting tijdens de Tweede Wereldoorlog.",
+      "explanationEn": "On May 5, the Netherlands celebrates Liberation Day, the day the Netherlands was liberated in 1945 from the German occupation during World War II."
     },
     {
       "id": "knm-a1-4-q24",
-      "text": "Wanneer is Pasen?",
+      "text": "Tom heeft zijn werk verloren en heeft geen geld meer. Hij weet dat hij hulp van de overheid kan krijgen. Welke basisuitkering kan hij aanvragen bij de gemeente?",
       "options": [
-        "Altijd in februari",
-        "Altijd op 1 mei",
-        "In maart of april, het is elk jaar anders",
-        "In december"
+        "Bijstandsuitkering",
+        "WW-uitkering",
+        "AOW"
       ],
-      "correctIndex": 2,
-      "explanation": "Pasen valt in maart of april. De datum verandert elk jaar. Eerste en Tweede Paasdag zijn vrije dagen.",
-      "explanationEn": "Easter falls in March or April. The date changes every year. First and Second Easter Day are public holidays."
+      "correctIndex": 0,
+      "explanation": "Als je geen werk en geen andere uitkering hebt en weinig spaargeld, kun je bij de gemeente een bijstandsuitkering aanvragen.",
+      "explanationEn": "If you have no work, no other benefit, and little savings, you can apply for a social assistance benefit (bijstand) at the municipality."
     },
     {
       "id": "knm-a1-4-q25",
-      "text": "Als je bij een sportvereniging wilt, wat moet je dan meestal doen?",
+      "text": "Maria heeft haar sleutels verloren en kan haar huis niet in. Het is laat in de avond. Wie kan haar helpen om in haar huis te komen?",
       "options": [
-        "Je moet een diploma hebben",
-        "Je moet lid worden en contributie betalen",
-        "Je hoeft niets te doen, je kunt altijd komen",
-        "Je moet een verwijsbrief van de huisarts hebben"
+        "Een slotenmaker",
+        "De politie opent altijd deuren",
+        "De brandweer"
       ],
-      "correctIndex": 1,
-      "explanation": "Bij de meeste sportverenigingen moet je lid worden en contributie (lidmaatschapsgeld) betalen.",
-      "explanationEn": "At most sports clubs you must become a member and pay contributie (membership fee)."
+      "correctIndex": 0,
+      "explanation": "Een slotenmaker kan een deur openen als je je sleutels bent kwijtgeraakt. Dit is een betaalde dienst.",
+      "explanationEn": "A locksmith can open a door if you have lost your keys. This is a paid service."
     }
   ],
   "isFreePreview": false

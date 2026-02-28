@@ -8,523 +8,483 @@
   "questions": [
     {
       "id": "knm-a2-3-q1",
-      "text": "Wat is het Juridisch Loket?",
+      "text": "Kim woont al 3 jaar in een sociale huurwoning en haar inkomen is gestegen boven de inkomensgrens. Haar woningcorporatie wil de huur verhogen. Hoe heet deze maatregel?",
       "options": [
-        "Een organisatie die gratis juridisch advies geeft",
-        "Een advocatenkantoor waar je moet betalen",
-        "Een rechtbank voor kleine zaken",
-        "Een kantoor van de politie"
+        "Een huurvriesperiode",
+        "Een inkomensafhankelijke huurverhoging",
+        "Een gewone huurverhoging"
       ],
-      "correctIndex": 0,
-      "explanation": "Het Juridisch Loket is een organisatie waar je gratis juridisch advies kunt krijgen over alledaagse juridische vragen.",
-      "explanationEn": "The Juridisch Loket is an organization where you can get free legal advice about everyday legal questions."
+      "correctIndex": 1,
+      "explanation": "Als een huurder te veel verdient voor sociale huur, kan de verhuurder een inkomensafhankelijke huurverhoging opleggen om doorstroming naar de vrije sector te stimuleren.",
+      "explanationEn": "If a tenant earns too much for social housing, the landlord can impose an income-based rent increase to encourage moving to the free market sector."
     },
     {
       "id": "knm-a2-3-q2",
-      "text": "Waarvoor kun je terecht bij het Juridisch Loket?",
+      "text": "Lars wil een conflict met zijn verhuurder oplossen over een huurverhoging. De verhuurder zegt dat hij niet bij de Huurcommissie terecht kan. Klopt dit?",
       "options": [
-        "Alleen voor strafzaken",
-        "Alleen voor problemen met je werkgever",
-        "Voor juridische vragen over bijvoorbeeld huur, werk of familierecht",
-        "Voor het aanvragen van een verblijfsvergunning"
+        "Ja, de Huurcommissie is alleen voor nieuwbouwwoningen",
+        "Nee, huurders in de sociale sector kunnen altijd een procedure starten bij de Huurcommissie over de huurprijs",
+        "Ja, de rechtbank is de enige optie"
       ],
-      "correctIndex": 2,
-      "explanation": "Bij het Juridisch Loket kun je terecht met allerlei juridische vragen, zoals over huur, werk, familierecht en consumentenrecht.",
-      "explanationEn": "At the Juridisch Loket you can get help with various legal questions, such as about rent, work, family law, and consumer law."
+      "correctIndex": 1,
+      "explanation": "De Huurcommissie behandelt geschillen over huurprijzen in de sociale sector. Huurders kunnen altijd een procedure starten.",
+      "explanationEn": "The Rent Tribunal handles disputes about rent prices in the social sector. Tenants can always start a procedure."
     },
     {
       "id": "knm-a2-3-q3",
-      "text": "Wat doet de Nationale Ombudsman?",
+      "text": "Reza wil zijn huurhuis verlaten en vraagt hoelang zijn opzegtermijn als huurder is. Wat is de wettelijke opzegtermijn voor huurders?",
       "options": [
-        "Hij maakt nieuwe wetten",
-        "Hij beslist over strafzaken",
-        "Hij controleert de belastingaangifte",
-        "Hij onderzoekt klachten van burgers over de overheid"
+        "1 maand",
+        "3 maanden",
+        "2 weken"
       ],
-      "correctIndex": 3,
-      "explanation": "De Nationale Ombudsman onderzoekt klachten van burgers over de overheid en overheidsinstanties.",
-      "explanationEn": "The National Ombudsman investigates complaints from citizens about the government and government agencies."
+      "correctIndex": 0,
+      "explanation": "De wettelijke opzegtermijn voor huurders is 1 maand. Dit geldt voor de meeste huurcontracten.",
+      "explanationEn": "The statutory notice period for tenants is 1 month. This applies to most rental contracts."
     },
     {
       "id": "knm-a2-3-q4",
-      "text": "Wanneer kun je een klacht indienen bij de Nationale Ombudsman?",
+      "text": "Fatima heeft een borg betaald van twee maanden huur. Ze vertrekt uit haar huurwoning in goede staat. Wat moet de verhuurder doen met de borg?",
       "options": [
-        "Als je ontevreden bent over een product dat je hebt gekocht",
-        "Als een overheidsinstantie je klacht niet goed heeft behandeld",
-        "Als je buurman te veel lawaai maakt",
-        "Als je het niet eens bent met een wet"
+        "De verhuurder moet de borg terugbetalen als er geen schade is die verder gaat dan normale slijtage",
+        "De borg wordt altijd na 6 maanden terugbetaald",
+        "De verhuurder mag de borg altijd houden"
       ],
-      "correctIndex": 1,
-      "explanation": "Je kunt bij de Nationale Ombudsman terecht als je een klacht hebt over een overheidsinstantie en die instantie je klacht niet goed heeft afgehandeld.",
-      "explanationEn": "You can go to the National Ombudsman if you have a complaint about a government agency and that agency did not handle your complaint properly."
+      "correctIndex": 0,
+      "explanation": "De verhuurder moet de borg terugbetalen als de woning in goede staat is achtergelaten. Alleen echte schade (niet normale slijtage) mag worden ingehouden.",
+      "explanationEn": "The landlord must return the deposit if the property has been left in good condition. Only actual damage (not normal wear and tear) may be withheld."
     },
     {
       "id": "knm-a2-3-q5",
-      "text": "Wat is de FNV?",
+      "text": "Sanne heeft een koopwoning en wil weten wat de OZB is. Ze heeft een brief van de gemeente gekregen. Wat is OZB?",
       "options": [
-        "Een politieke partij",
-        "Een overheidsorganisatie voor sociale zekerheid",
-        "De grootste vakbond van Nederland",
-        "Een uitzendbureau"
+        "Een verzekering voor je huis",
+        "Onroerendezaakbelasting: een gemeentelijke belasting op het bezit van een woning of gebouw",
+        "Een toeslag voor huiseigenaren"
       ],
-      "correctIndex": 2,
-      "explanation": "De FNV (Federatie Nederlandse Vakbeweging) is de grootste vakbond van Nederland en komt op voor de rechten van werknemers.",
-      "explanationEn": "The FNV (Federation of Dutch Trade Unions) is the largest trade union in the Netherlands and advocates for workers' rights."
+      "correctIndex": 1,
+      "explanation": "OZB (onroerendezaakbelasting) is een jaarlijkse gemeentelijke belasting die eigenaren van woningen en gebouwen betalen.",
+      "explanationEn": "OZB (real estate tax) is an annual municipal tax paid by owners of homes and buildings."
     },
     {
       "id": "knm-a2-3-q6",
-      "text": "Wat is een voordeel van lidmaatschap van een vakbond?",
+      "text": "Daan wil een huis kopen en heeft een hypotheek nodig. Zijn adviseur noemt de NHG (Nationale Hypotheek Garantie). Wat is het voordeel van NHG?",
       "options": [
-        "Je krijgt automatisch een hoger salaris",
-        "Je hoeft geen belasting meer te betalen",
-        "Je kunt gratis reizen met het OV",
-        "Je krijgt hulp bij problemen op het werk en juridisch advies"
+        "NHG geeft je een hogere lening",
+        "Met NHG krijg je een lagere rente en is er een vangnet als je door onvrijwillige omstandigheden de hypotheek niet meer kunt betalen",
+        "De overheid betaalt je hypotheek bij ontslag"
       ],
-      "correctIndex": 3,
-      "explanation": "Als lid van een vakbond kun je hulp krijgen bij arbeidsconflicten, juridisch advies en ondersteuning bij ontslagzaken.",
-      "explanationEn": "As a union member, you can get help with labor disputes, legal advice, and support in dismissal cases."
+      "correctIndex": 1,
+      "explanation": "Met NHG profiteer je van een lagere rente. Als je door onvrijwillige inkomensdaling de hypotheek niet meer kunt betalen, kan NHG de restschuld kwijtschelden.",
+      "explanationEn": "With NHG, you benefit from a lower interest rate. If you can no longer pay the mortgage due to involuntary income loss, NHG can write off the remaining debt."
     },
     {
       "id": "knm-a2-3-q7",
-      "text": "Wat zijn de provinciale staten?",
+      "text": "Erik woont in een flat met andere eigenaren. Er is een defecte lift in het gebouw. Wie is verantwoordelijk voor de reparatie?",
       "options": [
-        "De volksvertegenwoordiging van een provincie",
-        "Het bestuur van een gemeente",
-        "De leden van de Eerste Kamer",
-        "De bestuurders van de waterschappen"
+        "De gemeente",
+        "De Vereniging van Eigenaren (VvE) is verantwoordelijk voor het onderhoud van gemeenschappelijke delen",
+        "Elke eigenaar betaalt zelf"
       ],
-      "correctIndex": 0,
-      "explanation": "De provinciale staten zijn de gekozen volksvertegenwoordigers van een provincie. Zij controleren het provinciebestuur.",
-      "explanationEn": "The provincial states are the elected representatives of a province. They oversee the provincial government."
+      "correctIndex": 1,
+      "explanation": "De VvE (Vereniging van Eigenaren) beheert en onderhoudt de gemeenschappelijke delen van een gebouw, zoals de lift en het dak.",
+      "explanationEn": "The VvE (Association of Owners) manages and maintains the communal parts of a building, such as the elevator and roof."
     },
     {
       "id": "knm-a2-3-q8",
-      "text": "Wat doen de waterschappen in Nederland?",
+      "text": "Mia wil weten of ze haar huurwoning mag onderverhuren aan een vriendin terwijl ze op vakantie is. Haar verhuurder heeft dit verboden. Wat geldt er?",
       "options": [
-        "Ze beheren de wegen en snelwegen",
-        "Ze organiseren verkiezingen",
-        "Ze zorgen voor het waterbeheer, zoals dijken en waterkwaliteit",
-        "Ze verlenen bouwvergunningen"
+        "Onderverhuur is altijd toegestaan voor maximaal 1 maand",
+        "Huurders mogen altijd onderverhuren",
+        "Onderverhuur zonder toestemming van de verhuurder is in de meeste gevallen verboden"
       ],
       "correctIndex": 2,
-      "explanation": "De waterschappen zorgen voor het waterbeheer in Nederland: dijken, waterkwaliteit, en bescherming tegen overstromingen.",
-      "explanationEn": "Water boards manage water in the Netherlands: dikes, water quality, and flood protection."
+      "explanation": "Onderverhuur zonder toestemming van de verhuurder is in de meeste huurcontracten verboden. Bij overtreding kan de huurder de woning verliezen.",
+      "explanationEn": "Subletting without the landlord's permission is prohibited in most rental contracts. Violation can result in the tenant losing the property."
     },
     {
       "id": "knm-a2-3-q9",
-      "text": "Hoeveel provincies heeft Nederland?",
+      "text": "Petra is net gescheiden en haar kind woont bij haar. Ze wil weten wat co-ouderschap inhoudt. Haar advocaat legt uit. Wat is co-ouderschap?",
       "options": [
-        "10",
-        "12",
-        "14",
-        "16"
+        "De vader heeft geen rechten na een scheiding",
+        "Beide ouders delen de zorg voor de kinderen na een scheiding, waarbij het kind bij beide ouders verblijft",
+        "De kinderen wonen alleen bij de moeder"
       ],
       "correctIndex": 1,
-      "explanation": "Nederland heeft 12 provincies, zoals Noord-Holland, Zuid-Holland, Utrecht en Limburg.",
-      "explanationEn": "The Netherlands has 12 provinces, such as North Holland, South Holland, Utrecht, and Limburg."
+      "explanation": "Co-ouderschap betekent dat beide ouders na een scheiding de zorg voor hun kinderen delen. Het kind verblijft bij beide ouders.",
+      "explanationEn": "Co-parenting means both parents share the care of their children after a divorce. The child stays with both parents."
     },
     {
       "id": "knm-a2-3-q10",
-      "text": "Welk land was een kolonie van Nederland in Azië?",
+      "text": "Carlos en zijn vrouw willen trouwen in Nederland. Hij vraagt of er alternatieven zijn naast het traditioneel huwelijk. Welk alternatief bestaat er?",
       "options": [
-        "India",
-        "China",
-        "Japan",
-        "Indonesië"
+        "Een geregistreerd partnerschap, dat dezelfde juridische rechten geeft als een huwelijk",
+        "Er zijn geen alternatieven",
+        "Een samenlevingscontract met dezelfde rechten als een huwelijk"
       ],
-      "correctIndex": 3,
-      "explanation": "Indonesië (vroeger Nederlands-Indië) was eeuwenlang een kolonie van Nederland tot de onafhankelijkheid in 1945/1949.",
-      "explanationEn": "Indonesia (formerly the Dutch East Indies) was a Dutch colony for centuries until independence in 1945/1949."
+      "correctIndex": 0,
+      "explanation": "In Nederland kan je ook een geregistreerd partnerschap afsluiten. Dit heeft dezelfde juridische status als een huwelijk.",
+      "explanationEn": "In the Netherlands, you can also enter into a registered partnership. This has the same legal status as a marriage."
     },
     {
       "id": "knm-a2-3-q11",
-      "text": "Welk land in Zuid-Amerika was een kolonie van Nederland?",
+      "text": "Nadia wil weten wat er met haar kinderen gebeurt als zij en haar partner overlijden. Ze wil een voogd aanwijzen. Hoe heet de persoon die de kinderen opvoedt als de ouders er niet meer zijn?",
       "options": [
-        "Suriname",
-        "Brazilië",
-        "Argentinië",
-        "Colombia"
+        "Een voogd",
+        "Een pleegouder",
+        "Een adoptieouder"
       ],
       "correctIndex": 0,
-      "explanation": "Suriname was een Nederlandse kolonie en werd in 1975 onafhankelijk.",
-      "explanationEn": "Suriname was a Dutch colony and became independent in 1975."
+      "explanation": "Een voogd is de persoon die aangewezen is om voor kinderen te zorgen als de ouders overlijden of niet in staat zijn de ouderlijke verantwoordelijkheid te dragen.",
+      "explanationEn": "A guardian (voogd) is the person designated to care for children if the parents die or are unable to bear parental responsibility."
     },
     {
       "id": "knm-a2-3-q12",
-      "text": "Wanneer werd de slavernij in het Koninkrijk der Nederlanden officieel afgeschaft?",
+      "text": "Tom heeft zijn bankpas verloren. Hij heeft geen geld meer. Wat moet hij doen?",
       "options": [
-        "In 1776",
-        "In 1814",
-        "In 1863",
-        "In 1945"
+        "Zijn bankpas direct blokkeren via de bank of via vervangend nummer, en een nieuwe aanvragen",
+        "Aangifte doen bij de politie is voldoende",
+        "Niets, de bank merkt het vanzelf"
       ],
-      "correctIndex": 2,
-      "explanation": "De slavernij in het Koninkrijk der Nederlanden werd officieel afgeschaft op 1 juli 1863.",
-      "explanationEn": "Slavery in the Kingdom of the Netherlands was officially abolished on July 1, 1863."
+      "correctIndex": 0,
+      "explanation": "Als je je bankpas verliest, moet je deze direct blokkeren via de bank of via 116 888 (nationaal blokkeerrekeningsnummer). Daarna vraag je een nieuwe pas aan.",
+      "explanationEn": "If you lose your bank card, you must immediately block it through the bank or via 116 888 (national block account number). Then request a new card."
     },
     {
       "id": "knm-a2-3-q13",
-      "text": "Nederland is lid van de Europese Unie. Wat betekent dit onder andere?",
+      "text": "Layla wil een spaarrekening openen bij haar bank om geld apart te zetten. Wat is het verschil tussen een betaalrekening en een spaarrekening?",
       "options": [
-        "Nederlanders mogen niet in andere EU-landen werken",
-        "Nederland moet de euro afschaffen",
-        "Nederland hoeft geen Europese wetten te volgen",
-        "Burgers van EU-landen mogen vrij reizen en werken in Nederland"
+        "Een spaarrekening kun je alleen gebruiken bij de bank zelf",
+        "Een betaalrekening gebruik je voor dagelijkse transacties. Een spaarrekening gebruik je om geld te sparen, vaak met een hogere rente",
+        "Er is geen verschil"
       ],
-      "correctIndex": 3,
-      "explanation": "Als EU-lid geldt het vrij verkeer van personen: EU-burgers mogen vrij reizen, wonen en werken in andere EU-landen.",
-      "explanationEn": "As an EU member, free movement of persons applies: EU citizens can freely travel, live, and work in other EU countries."
+      "correctIndex": 1,
+      "explanation": "Een betaalrekening is voor dagelijks gebruik. Een spaarrekening is bedoeld om geld opzij te zetten, met doorgaans een hogere rente dan een betaalrekening.",
+      "explanationEn": "A current account is for daily use. A savings account is for setting money aside, typically with a higher interest rate than a current account."
     },
     {
       "id": "knm-a2-3-q14",
-      "text": "Wat is het Schengengebied?",
+      "text": "Joris betaalt zijn rekeningen online via internetbankieren. Hij gebruikt iDEAL. Wat is iDEAL?",
       "options": [
-        "Een groep Europese landen zonder grenscontroles onderling",
-        "Een gebied waar je alleen met een visum mag komen",
-        "Een vrijhandelszone buiten Europa",
-        "Een militair bondgenootschap"
+        "Een creditcard",
+        "Een buitenlandse betaaldienst",
+        "Een Nederlands online betaalsysteem waarmee je direct van je bankrekening kunt betalen"
       ],
-      "correctIndex": 0,
-      "explanation": "Het Schengengebied is een groep Europese landen waartussen geen grenscontroles zijn bij het reizen.",
-      "explanationEn": "The Schengen area is a group of European countries between which there are no border controls when traveling."
+      "correctIndex": 2,
+      "explanation": "iDEAL is een Nederlands online betaalmethode waarbij je direct betaalt via je eigen bank. Het is de meest gebruikte betaalmethode voor online aankopen in Nederland.",
+      "explanationEn": "iDEAL is a Dutch online payment method that allows you to pay directly through your own bank. It is the most used payment method for online purchases in the Netherlands."
     },
     {
       "id": "knm-a2-3-q15",
-      "text": "Wat is het Klimaatakkoord?",
+      "text": "Mei heeft een schuld bij een winkel. Ze kan niet betalen. De winkel stuurt een incassobureau. Wat doet een incassobureau?",
       "options": [
-        "Een afspraak om meer auto's te produceren",
-        "Een Nederlands akkoord om de uitstoot van broeikasgassen te verminderen",
-        "Een wet die windmolens verbiedt",
-        "Een Europese belasting op energie"
+        "Een incassobureau geeft korting op schulden",
+        "Een incassobureau probeert schulden te innen namens de schuldeiser",
+        "Een incassobureau leent geld aan mensen"
       ],
       "correctIndex": 1,
-      "explanation": "Het Klimaatakkoord is een afspraak van de Nederlandse overheid met bedrijven en organisaties om de CO2-uitstoot te verminderen.",
-      "explanationEn": "The Climate Agreement is a deal between the Dutch government, businesses, and organizations to reduce CO2 emissions."
+      "explanation": "Een incassobureau int openstaande schulden voor bedrijven. Ze sturen aanmaningen en kunnen juridische stappen nemen.",
+      "explanationEn": "A debt collection agency (incassobureau) collects outstanding debts on behalf of companies. They send reminders and can take legal action."
     },
     {
       "id": "knm-a2-3-q16",
-      "text": "Welke maatregel hoort bij het Nederlandse milieubeleid?",
+      "text": "Elena heeft schulden en weet niet meer hoe ze ze moet betalen. Ze wil hulp. Welke gemeentelijke dienst kan haar helpen?",
       "options": [
-        "Meer kolencentrales bouwen",
-        "Plastic afval in de zee dumpen",
-        "Het openbaar vervoer afschaffen",
-        "Investeren in zonne- en windenergie"
+        "De gemeentelijke schuldhulpverlening",
+        "De Belastingdienst",
+        "De politie"
       ],
-      "correctIndex": 3,
-      "explanation": "Nederland investeert in duurzame energie zoals zonne- en windenergie als onderdeel van het milieubeleid.",
-      "explanationEn": "The Netherlands invests in sustainable energy such as solar and wind energy as part of its environmental policy."
+      "correctIndex": 0,
+      "explanation": "De gemeentelijke schuldhulpverlening helpt mensen met schulden door een plan op te stellen om de schulden af te betalen en verdere schulden te voorkomen.",
+      "explanationEn": "The municipal debt assistance service helps people with debts by drawing up a plan to pay off the debts and prevent further debts."
     },
     {
       "id": "knm-a2-3-q17",
-      "text": "Waar kun je een klacht indienen over discriminatie?",
+      "text": "Boris wil een testament maken voor als hij overlijdt. Bij wie moet hij zijn?",
       "options": [
-        "Bij de belastingdienst",
-        "Bij het College voor de Rechten van de Mens",
-        "Bij de Kamer van Koophandel",
-        "Bij het kadaster"
+        "Bij de gemeente",
+        "Bij de rechtbank",
+        "Bij een notaris"
       ],
-      "correctIndex": 1,
-      "explanation": "Het College voor de Rechten van de Mens onderzoekt klachten over discriminatie op grond van ras, geslacht, leeftijd, handicap, enz.",
-      "explanationEn": "The Netherlands Institute for Human Rights investigates complaints about discrimination based on race, gender, age, disability, etc."
+      "correctIndex": 2,
+      "explanation": "Een testament (of uiterste wil) stel je op bij een notaris. De notaris legt je wensen officieel vast.",
+      "explanationEn": "A will (testament) is drawn up with a notary. The notary officially records your wishes."
     },
     {
       "id": "knm-a2-3-q18",
-      "text": "Op welke gronden is discriminatie verboden in Nederland?",
+      "text": "Sven wil zijn woning verbouwen. Hij wil een slaapkamer toevoegen door een dakkapel te plaatsen. Heeft hij toestemming nodig?",
       "options": [
-        "Alleen op grond van ras",
-        "Alleen op grond van geslacht",
-        "Op grond van ras, godsdienst, geslacht, seksuele gerichtheid en meer",
-        "Discriminatie is niet verboden in Nederland"
+        "Nee, je mag altijd verbouwen in je eigen huis",
+        "Alleen als de buren bezwaar maken",
+        "Ja, voor veel verbouwingen is een omgevingsvergunning van de gemeente nodig"
       ],
       "correctIndex": 2,
-      "explanation": "Discriminatie is verboden op vele gronden, waaronder ras, godsdienst, geslacht, seksuele gerichtheid, leeftijd en handicap (Artikel 1 Grondwet).",
-      "explanationEn": "Discrimination is prohibited on many grounds, including race, religion, gender, sexual orientation, age, and disability (Article 1 of the Constitution)."
+      "explanation": "Voor veel verbouwingen, zoals een dakkapel, heb je een omgevingsvergunning van de gemeente nodig. Check altijd van tevoren.",
+      "explanationEn": "For many renovations, such as a dormer window, you need an environmental permit from the municipality. Always check in advance."
     },
     {
       "id": "knm-a2-3-q19",
-      "text": "Wat is de Huurcommissie?",
+      "text": "Fatima wil haar kind aanmelden voor een kinderopvang maar het is duur. Haar adviseur noemt kinderopvangtoeslag. Wie heeft hier recht op?",
       "options": [
-        "Een organisatie die huizen verkoopt",
-        "Een makelaardij",
-        "Een afdeling van de gemeente die woningen toewijst",
-        "Een onafhankelijke organisatie die geschillen tussen huurders en verhuurders behandelt"
+        "Alleen alleenstaande ouders",
+        "Alle ouders ongeacht of ze werken",
+        "Werkende ouders kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst"
       ],
-      "correctIndex": 3,
-      "explanation": "De Huurcommissie is een onafhankelijke organisatie die geschillen behandelt tussen huurders en verhuurders over bijvoorbeeld de huurprijs of onderhoud.",
-      "explanationEn": "The Rent Tribunal is an independent organization that handles disputes between tenants and landlords about, for example, rent prices or maintenance."
+      "correctIndex": 2,
+      "explanation": "Werkende ouders kunnen kinderopvangtoeslag aanvragen via de Belastingdienst. De toeslag hangt af van het inkomen en het aantal uren opvang.",
+      "explanationEn": "Working parents can apply for childcare allowance through the Tax Authority. The allowance depends on income and the number of hours of care."
     },
     {
       "id": "knm-a2-3-q20",
-      "text": "Wie is verantwoordelijk voor groot onderhoud van een huurwoning?",
+      "text": "Piet wil weten hoe energie wordt verbruikt en wat het energielabel van zijn huis betekent. Zijn huis heeft label C. Wat zegt dit?",
       "options": [
-        "De huurder",
-        "De verhuurder",
-        "De gemeente",
-        "De Huurcommissie"
+        "Zijn huis is heel energiezuinig",
+        "Zijn huis is gevaarlijk inefficiënt",
+        "Zijn huis heeft gemiddelde energie-efficiëntie. Label A is het beste, label G het slechtste"
       ],
-      "correctIndex": 1,
-      "explanation": "De verhuurder is verantwoordelijk voor groot onderhoud, zoals het dak, de buitenmuren en leidingen.",
-      "explanationEn": "The landlord is responsible for major maintenance, such as the roof, exterior walls, and pipes."
+      "correctIndex": 2,
+      "explanation": "Het energielabel loopt van A+++ (meest zuinig) tot G (minst zuinig). Label C is gemiddeld. Een beter label betekent lagere energiekosten.",
+      "explanationEn": "The energy label ranges from A+++ (most efficient) to G (least efficient). Label C is average. A better label means lower energy costs."
     },
     {
       "id": "knm-a2-3-q21",
-      "text": "Wat kun je doen als je vindt dat je huur te hoog is?",
+      "text": "Petra woont naast een bouwplaats. Er is de hele dag lawaai. Ze wil weten of er regels zijn voor bouwlawaai. Wat geldt er?",
       "options": [
-        "De huurprijs laten toetsen door de Huurcommissie",
-        "Niets, je moet het accepteren",
-        "Zelf de huur verlagen",
-        "Meteen verhuizen"
+        "Er zijn regels voor bouwtijden en maximale geluidsniveaus. Bij overlast kan ze klagen bij de gemeente",
+        "Ze moet het accepteren",
+        "Er zijn geen regels voor bouwlawaai"
       ],
       "correctIndex": 0,
-      "explanation": "Als je denkt dat je huurprijs te hoog is, kun je de Huurcommissie vragen om de huurprijs te toetsen.",
-      "explanationEn": "If you think your rent is too high, you can ask the Rent Tribunal to assess your rent price."
+      "explanation": "Gemeenten stellen regels voor bouwtijden en geluidsoverlast. Bij structurele overlast kun je een klacht indienen bij de gemeente of omgevingsdienst.",
+      "explanationEn": "Municipalities set rules for construction hours and noise levels. For structural nuisance, you can file a complaint with the municipality or environmental service."
     },
     {
       "id": "knm-a2-3-q22",
-      "text": "Wat is DUO?",
+      "text": "Anna wil weten wat het verschil is tussen een huwelijkse gemeenschap van goederen en huwelijkse voorwaarden. Haar notaris legt uit. Wat is het verschil?",
       "options": [
-        "Een zorgverzekeraar",
-        "Een uitzendbureau voor jongeren",
-        "De Dienst Uitvoering Onderwijs — verantwoordelijk voor studiefinanciering",
-        "Een afdeling van het UWV"
+        "Huwelijkse voorwaarden zijn goedkoper",
+        "Er is geen verschil",
+        "Bij gemeenschap van goederen zijn alle bezittingen gemeenschappelijk. Bij huwelijkse voorwaarden behoud je je eigen bezit"
       ],
       "correctIndex": 2,
-      "explanation": "DUO (Dienst Uitvoering Onderwijs) is verantwoordelijk voor studiefinanciering, het bekostigen van scholen en het erkennen van diploma's.",
-      "explanationEn": "DUO (Education Executive Agency) is responsible for student finance, school funding, and diploma recognition."
+      "explanation": "Bij gemeenschap van goederen zijn bezittingen en schulden gemeenschappelijk. Met huwelijkse voorwaarden regelen partners hun vermogen apart.",
+      "explanationEn": "With community of property, assets and debts are shared. With a prenuptial agreement, partners keep their assets separate."
     },
     {
       "id": "knm-a2-3-q23",
-      "text": "Wat is studiefinanciering?",
+      "text": "Tom wil weten hoe hij zijn ouders financieel kan ondersteunen die in het buitenland wonen. Hij wil geld overmaken. Via welk systeem kan hij internationaal geld overmaken?",
       "options": [
-        "Een belasting op onderwijs",
-        "Een lening van een bank voor studenten",
-        "Geld dat ouders verplicht moeten betalen aan de school",
-        "Financiële steun van de overheid voor studenten in het hoger onderwijs"
+        "Via een internationale bankoverschrijving (SEPA of SWIFT) of een geldoverschrijvingsdienst",
+        "Via de Nederlandse post",
+        "Alleen contant geld meenemen"
       ],
-      "correctIndex": 3,
-      "explanation": "Studiefinanciering is financiële steun van de overheid (via DUO) voor studenten in het mbo, hbo en de universiteit.",
-      "explanationEn": "Student finance is financial support from the government (via DUO) for students in vocational, applied, and academic higher education."
+      "correctIndex": 0,
+      "explanation": "Internationaal geld overmaken kan via een SEPA-overschrijving (binnen Europa) of SWIFT (wereldwijd), of via diensten zoals Western Union.",
+      "explanationEn": "International money transfers can be made via SEPA transfer (within Europe) or SWIFT (worldwide), or via services like Western Union."
     },
     {
       "id": "knm-a2-3-q24",
-      "text": "Wat is een kinderdagverblijf?",
+      "text": "Sara is net teruggekeerd van vakantie en merkt dat haar huis is ingebroken. Wat zijn de eerste stappen?",
       "options": [
-        "Een opvang voor kinderen van 0 tot 4 jaar gedurende de dag",
-        "Een school voor kinderen van 4 tot 12 jaar",
-        "Een ziekenhuis voor kinderen",
-        "Een naschoolse activiteit voor tieners"
+        "Zelf de schade repareren",
+        "Direct aangifte doen bij de politie en de schade melden bij de inboedelverzekering",
+        "Wachten tot de buren haar bellen"
       ],
-      "correctIndex": 0,
-      "explanation": "Een kinderdagverblijf is een opvang waar kinderen van 0 tot 4 jaar overdag worden verzorgd, vaak terwijl de ouders werken.",
-      "explanationEn": "A daycare center provides care for children aged 0 to 4 during the day, usually while parents are working."
+      "correctIndex": 1,
+      "explanation": "Bij inbraak doe je aangifte bij de politie en meld je de schade bij je inboedelverzekering voor vergoeding van gestolen of beschadigde spullen.",
+      "explanationEn": "In case of burglary, you file a report with the police and report the damage to your contents insurance for compensation for stolen or damaged items."
     },
     {
       "id": "knm-a2-3-q25",
-      "text": "Wat is BSO (buitenschoolse opvang)?",
+      "text": "Erik heeft een inboedelverzekering. Zijn laptop is gestolen. Hij vraagt of de verzekering dit vergoedt. Wat dekt een inboedelverzekering?",
       "options": [
-        "Een soort middelbare school",
-        "Opvang voor kinderen vóór en na schooltijd en in vakanties",
-        "Een opleiding voor onderwijzers",
-        "Een sportclub voor scholieren"
+        "Schade aan of verlies van spullen in de woning, zoals meubels, elektronica en kleding",
+        "Alleen brand in de woning",
+        "Alleen schade aan de woning zelf"
       ],
-      "correctIndex": 1,
-      "explanation": "BSO (buitenschoolse opvang) vangt basisschoolkinderen op vóór en na schooltijd en tijdens schoolvakanties.",
-      "explanationEn": "BSO (out-of-school care) provides care for primary school children before and after school hours and during school holidays."
+      "correctIndex": 0,
+      "explanation": "Een inboedelverzekering vergoedt schade aan of verlies van de inboedel (spullen in je huis), bij diefstal, brand, waterschade en andere oorzaken.",
+      "explanationEn": "A contents insurance covers damage to or loss of the contents of your home (items in your house), including theft, fire, water damage, and other causes."
     },
     {
       "id": "knm-a2-3-q26",
-      "text": "Wat is een gastouder?",
+      "text": "Kofi betaalt maandelijks premie voor zijn woning. Er is brand uitgebroken en zijn huis is beschadigd. Welke verzekering vergoedt schade aan de woning zelf?",
       "options": [
-        "Een vrijwilliger op school",
-        "Een leraar op een basisschool",
-        "Iemand die bij zich thuis kinderen opvangt voor werkende ouders",
-        "Een adoptieouder"
+        "Inboedelverzekering",
+        "Opstalverzekering (woonhuisverzekering)",
+        "Aansprakelijkheidsverzekering"
       ],
-      "correctIndex": 2,
-      "explanation": "Een gastouder is iemand die bij zich thuis (of bij de ouders thuis) kinderen opvangt. Gastouders moeten geregistreerd zijn.",
-      "explanationEn": "A childminder cares for children at their own home (or at the parents' home). Childminders must be registered."
+      "correctIndex": 1,
+      "explanation": "Een opstalverzekering (of woonhuisverzekering) vergoedt schade aan het gebouw zelf, zoals bij brand, storm of waterschade.",
+      "explanationEn": "A buildings insurance (opstalverzekering) covers damage to the building itself, such as from fire, storm, or water damage."
     },
     {
       "id": "knm-a2-3-q27",
-      "text": "Kunnen ouders kinderopvangtoeslag krijgen?",
+      "text": "Lena heeft schulden bij meerdere partijen en kan niets meer betalen. Ze wil weten of er een wettelijke regeling is. Wat is de WSNP?",
       "options": [
-        "Nee, kinderopvang is altijd gratis in Nederland",
-        "Alleen ouders met meer dan drie kinderen",
-        "Alleen ouders met een hoog inkomen",
-        "Ja, werkende ouders kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst"
+        "De Wet Schuldsanering Natuurlijke Personen: een wettelijke schuldsaneringsregeling waarbij je schulden worden gesaneerd als je er niet zelf uitkomt",
+        "Een belastingregeling voor armen",
+        "Een boetesysteem van de overheid"
       ],
-      "correctIndex": 3,
-      "explanation": "Werkende ouders (of ouders die een opleiding volgen) kunnen kinderopvangtoeslag aanvragen bij de Belastingdienst om een deel van de kosten vergoed te krijgen.",
-      "explanationEn": "Working parents (or parents in education) can apply for childcare allowance from the Tax Authority to have part of the costs reimbursed."
+      "correctIndex": 0,
+      "explanation": "De WSNP (Wet Schuldsanering Natuurlijke Personen) is een rechterlijke procedure waarbij schulden worden gesaneerd na een periode van aflossing.",
+      "explanationEn": "The WSNP is a legal debt restructuring procedure where debts are settled after a repayment period."
     },
     {
       "id": "knm-a2-3-q28",
-      "text": "Wat betekent EHBO?",
+      "text": "Dina's kind heeft een ongeluk gehad op school. De school is aansprakelijk. Welke verzekering van de school dekt dit?",
       "options": [
-        "Eerste Hulp Bij Ongevallen",
-        "Eerste Hulp Bij Onderzoek",
-        "Europese Hulpdienst Bij Ongelukken",
-        "Extra Hulp Bij Operaties"
+        "De aansprakelijkheidsverzekering van de school",
+        "De WA-verzekering van de ouders",
+        "De inboedelverzekering"
       ],
       "correctIndex": 0,
-      "explanation": "EHBO staat voor Eerste Hulp Bij Ongevallen. Het gaat om de eerste hulp die je aan iemand geeft bij een ongeluk of noodsituatie.",
-      "explanationEn": "EHBO stands for First Aid in Accidents. It refers to the initial help you give someone in case of an accident or emergency."
+      "explanation": "Scholen hebben een aansprakelijkheidsverzekering voor schade die ontstaat door nalatigheid van de school.",
+      "explanationEn": "Schools have liability insurance for damage arising from the school's negligence."
     },
     {
       "id": "knm-a2-3-q29",
-      "text": "Wat is een AED?",
+      "text": "Hassan wil via internet een tweedehands auto kopen van een particulier. De auto blijkt veel gebreken te hebben. Wat zijn zijn rechten bij een particuliere koop?",
       "options": [
-        "Een soort ambulance",
-        "Een alarmsysteem voor gebouwen",
-        "Een type brandblusser",
-        "Een apparaat dat een elektrische schok geeft bij een hartstilstand"
+        "Bij een particuliere verkoop zijn de garantierechten minder sterk. Koper beware geldt meer. Het is verstandig de auto te laten keuren",
+        "Geen rechten bij een particuliere koop",
+        "Dezelfde garantierechten als bij een dealer"
       ],
-      "correctIndex": 3,
-      "explanation": "Een AED (Automatische Externe Defibrillator) is een apparaat dat een elektrische schok kan geven bij een hartstilstand om het hart weer op gang te brengen.",
-      "explanationEn": "An AED (Automated External Defibrillator) is a device that can deliver an electric shock during cardiac arrest to restart the heart."
+      "correctIndex": 0,
+      "explanation": "Bij een particuliere koop zijn de wettelijke garantierechten beperkter dan bij een professionele dealer. Het is verstandig de auto vooraf te laten keuren.",
+      "explanationEn": "In a private purchase, the legal warranty rights are more limited than with a professional dealer. It is wise to have the car inspected beforehand."
     },
     {
       "id": "knm-a2-3-q30",
-      "text": "Waar kun je AED's vinden in Nederland?",
+      "text": "Nora verhuurt een kamer in haar huis. Ze wil weten hoeveel borg ze mag vragen van een nieuwe huurder. Wat is de wettelijke maximale borg?",
       "options": [
-        "Alleen in ziekenhuizen",
-        "Op veel openbare plekken, zoals stations, winkelcentra en sportclubs",
-        "Alleen in ambulances",
-        "Je kunt ze alleen online kopen"
+        "Twee maanden kale huur",
+        "Eén maand huur",
+        "Er is geen maximum"
       ],
-      "correctIndex": 1,
-      "explanation": "AED's hangen op veel openbare plekken in Nederland, zoals stations, winkelcentra, sportclubs en overheidsgebouwen.",
-      "explanationEn": "AEDs can be found in many public places in the Netherlands, such as stations, shopping centers, sports clubs, and government buildings."
+      "correctIndex": 0,
+      "explanation": "De wettelijke maximale waarborgsom is twee maanden kale huur. Dit geldt voor zowel zelfstandige als onzelfstandige woonruimte.",
+      "explanationEn": "The statutory maximum security deposit is two months' basic rent. This applies to both independent and non-independent living spaces."
     },
     {
       "id": "knm-a2-3-q31",
-      "text": "Wat is de NPO?",
+      "text": "Joris koopt een huis. Na het tekenen van het koopcontract wil hij toch van de koop af. Heeft hij een bedenktijd?",
       "options": [
-        "De Nederlandse Publieke Omroep — publieke radio en televisie",
-        "Een commerciële televisiezender",
-        "Een politieke partij",
-        "Een nieuwswebsite van de overheid"
+        "Ja, kopers van een woning hebben 3 dagen wettelijke bedenktijd na ondertekening van het koopcontract",
+        "Nee, een getekend koopcontract is bindend",
+        "Alleen als de verkoper akkoord gaat"
       ],
       "correctIndex": 0,
-      "explanation": "De NPO (Nederlandse Publieke Omroep) is het stelsel van publieke radio- en televisiezenders in Nederland, gefinancierd met belastinggeld.",
-      "explanationEn": "The NPO (Dutch Public Broadcasting) is the system of public radio and television channels in the Netherlands, funded by tax money."
+      "explanation": "Particuliere kopers van een woning hebben een wettelijke bedenktijd van 3 dagen na ondertekening van het koopcontract om zonder opgave van reden de koop te ontbinden.",
+      "explanationEn": "Individual home buyers have a statutory cooling-off period of 3 days after signing the purchase contract to cancel the purchase without giving a reason."
     },
     {
       "id": "knm-a2-3-q32",
-      "text": "Wat is de NOS?",
+      "text": "Maria wil haar bankrekening sluiten en overstappen naar een andere bank. Is dit mogelijk?",
       "options": [
-        "Een commercieel mediabedrijf",
-        "Een streamingdienst voor films",
-        "De publieke nieuwsorganisatie die het nieuws en sport verzorgt",
-        "Een overheidsafdeling voor communicatie"
+        "Alleen als je geen schulden hebt",
+        "Nee, je kunt niet overstappen van bank",
+        "Ja, je kunt altijd overstappen. Via de 'Overstapservice' worden betaalopdrachten automatisch doorgezet naar de nieuwe rekening"
       ],
       "correctIndex": 2,
-      "explanation": "De NOS (Nederlandse Omroep Stichting) is de publieke nieuwsorganisatie die verantwoordelijk is voor het nieuws, sport en evenementen op radio en televisie.",
-      "explanationEn": "The NOS (Dutch Broadcasting Foundation) is the public news organization responsible for news, sports, and events on radio and television."
+      "explanation": "Je kunt altijd van bank wisselen. De Overstapservice van de banken helpt bij het automatisch doorsturen van betalingen naar je nieuwe rekening.",
+      "explanationEn": "You can always switch banks. The bank's switching service helps automatically forward payments to your new account."
     },
     {
       "id": "knm-a2-3-q33",
-      "text": "Wat betekent persvrijheid?",
+      "text": "Tom heeft online iets gekocht maar het product is niet geleverd. Wat zijn zijn rechten?",
       "options": [
-        "Dat kranten gratis moeten zijn",
-        "Dat iedereen journalist mag worden",
-        "Dat de overheid bepaalt wat er in de krant komt",
-        "Dat de media vrij zijn om nieuws te brengen zonder censuur van de overheid"
+        "Bij online aankopen heeft hij recht op levering. Als het niet wordt geleverd, kan hij het geld terugvragen",
+        "Hij heeft geen rechten bij online aankopen",
+        "Hij moet altijd zelf het product ophalen"
       ],
-      "correctIndex": 3,
-      "explanation": "Persvrijheid betekent dat de media vrij zijn om nieuws te brengen en de overheid te bekritiseren zonder censuur.",
-      "explanationEn": "Freedom of the press means that media are free to report news and criticize the government without censorship."
+      "correctIndex": 0,
+      "explanation": "Bij online aankopen heb je recht op levering. Als het product niet wordt geleverd, heb je recht op terugbetaling van het aankoopbedrag.",
+      "explanationEn": "For online purchases, you have the right to delivery. If the product is not delivered, you are entitled to a refund of the purchase amount."
     },
     {
       "id": "knm-a2-3-q34",
-      "text": "Wat is een fietspad?",
+      "text": "Laura heeft een huis gekocht en wil het hypotheekbedrag aftrekken van haar belasting. Hoe heet dit belastingvoordeel?",
       "options": [
-        "Een snelweg voor auto's",
-        "Een parkeerplaats voor fietsen",
-        "Een speciaal pad of strook op de weg alleen voor fietsers",
-        "Een fietswinkel"
+        "Hypotheekrenteaftrek",
+        "Zorgtoeslag",
+        "Huurtoeslag"
       ],
-      "correctIndex": 2,
-      "explanation": "Een fietspad is een apart pad of een strook op de weg die alleen bedoeld is voor fietsers. Nederland heeft een uitgebreid netwerk van fietspaden.",
-      "explanationEn": "A cycle path is a separate path or lane on the road intended only for cyclists. The Netherlands has an extensive network of cycle paths."
+      "correctIndex": 0,
+      "explanation": "Hypotheekrenteaftrek is een belastingvoordeel waarbij je de betaalde hypotheekrente kunt aftrekken van je inkomen, waardoor je minder belasting betaalt.",
+      "explanationEn": "Mortgage interest relief (hypotheekrenteaftrek) is a tax benefit where you can deduct the paid mortgage interest from your income, reducing the tax you pay."
     },
     {
       "id": "knm-a2-3-q35",
-      "text": "Waarom is Nederland zo bekend om zijn fietsinfrastructuur?",
+      "text": "Boris heeft een kind van 4 jaar. Hij vraagt welke financiële toeslagen hij bij de overheid kan aanvragen. Welke toeslag is er specifiek voor kosten van kinderen?",
       "options": [
-        "Omdat auto's verboden zijn in Nederland",
-        "Omdat fietsen verplicht is voor iedereen",
-        "Omdat er geen openbaar vervoer is",
-        "Omdat er meer fietsen dan inwoners zijn en er uitgebreide fietspaden zijn"
+        "Kinderbijslag en kindgebonden budget",
+        "Zorgtoeslag",
+        "Huurtoeslag"
       ],
-      "correctIndex": 3,
-      "explanation": "Nederland heeft meer fietsen dan inwoners en een uitgebreid netwerk van fietspaden, fietsparkeerplaatsen en fietsbruggen.",
-      "explanationEn": "The Netherlands has more bicycles than inhabitants and an extensive network of cycle paths, bike parking facilities, and bicycle bridges."
+      "correctIndex": 0,
+      "explanation": "Kinderbijslag (via SVB) is een vergoeding voor alle ouders met kinderen. Kindgebonden budget (via Belastingdienst) is een inkomensafhankelijke aanvulling.",
+      "explanationEn": "Child benefit (kinderbijslag, via SVB) is a benefit for all parents with children. Child-related budget (via Tax Authority) is an income-dependent supplement."
     },
     {
       "id": "knm-a2-3-q36",
-      "text": "Wat is het Donorregister?",
+      "text": "Rina wil een zonnepanelen systeem op haar dak plaatsen. Ze huurt haar woning. Mag ze dit zomaar doen?",
       "options": [
-        "Een register van bloeddonoren bij het Rode Kruis",
-        "Een register van vrijwilligers",
-        "Een register waarin je vastlegt of je na je dood organen en weefsels wilt doneren",
-        "Een lijst van artsen"
+        "Ja, dit mag altijd in je huurwoning",
+        "Alleen als de panelen niet zichtbaar zijn",
+        "Nee, voor structurele aanpassingen aan een huurwoning heb je toestemming nodig van de verhuurder"
       ],
       "correctIndex": 2,
-      "explanation": "In het Donorregister leg je vast of je na je overlijden organen en weefsels wilt doneren. Iedereen van 18 jaar en ouder wordt geregistreerd.",
-      "explanationEn": "In the Donor Register, you record whether you want to donate organs and tissues after death. Everyone aged 18 and older is registered."
+      "explanation": "Het plaatsen van zonnepanelen is een structurele wijziging waarvoor de huurder toestemming nodig heeft van de verhuurder.",
+      "explanationEn": "Installing solar panels is a structural modification for which the tenant needs permission from the landlord."
     },
     {
       "id": "knm-a2-3-q37",
-      "text": "Welke keuzes kun je vastleggen in het Donorregister?",
+      "text": "Elena heeft een huurcontract voor onbepaalde tijd. Haar verhuurder wil opzeggen omdat hij de woning zelf wil bewonen. Kan hij dit zomaar?",
       "options": [
-        "Alleen ja of nee",
-        "Ja, nee, mijn nabestaanden beslissen, of een specifieke persoon beslist",
-        "Je kunt geen keuze maken, het is verplicht",
-        "Alleen artsen mogen een keuze maken"
+        "Ja, maar hij moet een jaar van tevoren zeggen",
+        "Ja, de verhuurder mag altijd opzeggen",
+        "Nee, dit kan alleen als er sprake is van dringend eigen gebruik, en de rechter moet toestemming geven"
       ],
-      "correctIndex": 1,
-      "explanation": "In het Donorregister kun je kiezen: ja (alles of bepaalde organen), nee, mijn nabestaanden beslissen, of een specifieke persoon beslist.",
-      "explanationEn": "In the Donor Register, you can choose: yes (all or specific organs), no, my next of kin decides, or a specific person decides."
+      "correctIndex": 2,
+      "explanation": "Een verhuurder kan een huurcontract voor onbepaalde tijd opzeggen wegens dringend eigen gebruik, maar alleen met toestemming van de rechter.",
+      "explanationEn": "A landlord can terminate an open-ended rental contract due to urgent personal use, but only with the court's permission."
     },
     {
       "id": "knm-a2-3-q38",
-      "text": "Wat is naturalisatie?",
+      "text": "Sander wil zijn kind geld laten sparen. Hij opent een spaarrekening voor zijn kind. Wie heeft toegang tot het geld op de rekening van een minderjarig kind?",
       "options": [
-        "Een cursus over de Nederlandse natuur",
-        "Een medisch onderzoek voor immigranten",
-        "Het aanvragen van een verblijfsvergunning",
-        "Het proces om Nederlander te worden en een Nederlands paspoort te krijgen"
+        "Het kind kan zelf alles doen vanaf 12 jaar",
+        "De ouders/wettelijke voogden beheren de rekening totdat het kind 18 jaar oud is",
+        "De bank beheert het geld"
       ],
-      "correctIndex": 3,
-      "explanation": "Naturalisatie is het proces waarbij je de Nederlandse nationaliteit krijgt. Je moet onder andere het inburgeringsexamen halen en minstens 5 jaar in Nederland wonen.",
-      "explanationEn": "Naturalization is the process of obtaining Dutch nationality. You must, among other things, pass the civic integration exam and live in the Netherlands for at least 5 years."
+      "correctIndex": 1,
+      "explanation": "Ouders of voogden beheren de bankrekening van minderjarige kinderen. Het kind neemt het beheer over als het 18 jaar is.",
+      "explanationEn": "Parents or guardians manage the bank account of minor children. The child takes over management at age 18."
     },
     {
       "id": "knm-a2-3-q39",
-      "text": "Wat is een voorwaarde voor naturalisatie tot Nederlander?",
+      "text": "Kofi is blij: hij ontvangt voor het tweede jaar zijn belastingteruggave. Wanneer moet je aangifte inkomstenbelasting doen in Nederland?",
       "options": [
-        "Je moet het inburgeringsexamen hebben gehaald",
-        "Je moet minstens 1 jaar in Nederland wonen",
-        "Je moet een eigen bedrijf hebben",
-        "Je moet geboren zijn in een EU-land"
+        "Alleen als je meer dan €50.000 verdient",
+        "Jaarlijks, voor 1 mei van het jaar volgend op het belastingjaar (of eerder als je uitstel aanvraagt)",
+        "Elke maand"
       ],
-      "correctIndex": 0,
-      "explanation": "Een van de voorwaarden voor naturalisatie is dat je het inburgeringsexamen hebt gehaald. Andere voorwaarden zijn onder meer 5 jaar legaal verblijf en geen strafblad.",
-      "explanationEn": "One of the requirements for naturalization is passing the civic integration exam. Other requirements include 5 years of legal residence and no criminal record."
+      "correctIndex": 1,
+      "explanation": "Aangifte inkomstenbelasting doe je jaarlijks, voor 1 mei. Je kunt uitstel aanvragen. De Belastingdienst stuurt je een uitnodiging.",
+      "explanationEn": "Income tax return is filed annually, before May 1. You can request an extension. The Tax Authority will send you an invitation."
     },
     {
       "id": "knm-a2-3-q40",
-      "text": "Wat gebeurt er als je geen keuze maakt in het Donorregister?",
+      "text": "Nadia betaalt haar huur contant en haar verhuurder geeft geen kwitantie. Haar vriendin zegt dat dit risicovol is. Waarom?",
       "options": [
-        "Je nabestaanden worden gevraagd om te beslissen",
-        "Je organen worden altijd gedoneerd",
-        "Je wordt automatisch geregistreerd als 'geen bezwaar tegen donatie'",
-        "Er verandert niets, je wordt nooit donor"
+        "De verhuurder moet altijd electronisch ontvangen",
+        "Contante betaling is verboden",
+        "Zonder kwitantie heeft Nadia geen bewijs dat ze de huur heeft betaald, wat problemen kan geven bij een geschil"
       ],
       "correctIndex": 2,
-      "explanation": "Sinds de nieuwe Donorwet (2020) word je automatisch geregistreerd als 'geen bezwaar tegen donatie' als je zelf geen keuze maakt. Je kunt dit altijd wijzigen.",
-      "explanationEn": "Since the new Donor Act (2020), you are automatically registered as 'no objection to donation' if you do not make a choice yourself. You can always change this."
+      "explanation": "Altijd om een kwitantie vragen bij contante betaling. Zonder bewijs kun je niet aantonen dat je betaald hebt bij een conflict met de verhuurder.",
+      "explanationEn": "Always ask for a receipt when paying in cash. Without proof, you cannot show you have paid in case of a dispute with the landlord."
     }
   ],
   "isFreePreview": false
