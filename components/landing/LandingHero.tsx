@@ -16,18 +16,18 @@ export function LandingHero() {
                 </div>
 
                 <h1 className="text-[2.2rem] sm:text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.1] sm:leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-6 font-extrabold">
-                    Pass your inburgering exam
+                    The best way to prepare for the inburgering exam
                 </h1>
 
                 <p className="text-[1rem] sm:text-[1.15rem] text-[var(--ink-soft)] leading-[1.55] sm:leading-[1.7] mb-6 sm:mb-8 sm:max-w-[480px]">
-                    Don&apos;t just study Dutch. Train for the test. Ask anyone who has passed: the best way to prepare is by doing mock exams.
+                    Don&apos;t just study Dutch. Train for the test.<br />1,000+ questions across all 5 modules. Exact exam format. Nothing you don&apos;t need.
                 </p>
 
                 <div className="hidden sm:block space-y-3 mb-8">
                     {[
-                        "All 5 modules: Lezen, Luisteren, KNM, Schrijven & Spreken",
-                        "Exact format and layout used in the exams",
-                        "Free to start — no account required",
+                        "All 5 exam modules",
+                        "Mirrors the actual DUO exam interface",
+                        "Start practicing today — no signup needed",
                     ].map((item) => (
                         <div key={item} className="flex items-start gap-3 text-[1.08rem] text-[var(--ink-soft)]">
                             <CircleCheck className="h-5 w-5 text-[var(--green)] shrink-0 mt-0.5" />
