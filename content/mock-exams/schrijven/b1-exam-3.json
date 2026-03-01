@@ -7,71 +7,121 @@
   "recommendedTime": "30 min",
   "isFreePreview": true,
   "tips": [
-    "When writing a complaint, state the problem clearly and give specific details (dates, reference numbers).",
-    "Always explain how the issue has affected you — this strengthens your argument.",
-    "End your letter with a concrete request: what action do you want them to take?",
-    "Keep your tone firm but polite — avoid emotional language in formal complaints."
+    "Bij een klacht aan een verhuurder: noem de data van eerdere meldingen als bewijs.",
+    "Bij een brief aan school: vermeld de naam van uw kind en de klas.",
+    "Schrijf bij een team-e-mail wat er verandert, waarom, en wat dat betekent voor het werk.",
+    "Eindig altijd met een concrete vraag of actie."
   ],
   "selfAssessmentCriteria": [
     {
+      "id": "bullets-covered",
+      "text": "I addressed all three bullet points in my answer",
+      "textEn": "I addressed all three bullet points in my answer"
+    },
+    {
       "id": "formal-register",
-      "text": "I used formal language where appropriate",
-      "textEn": "I used formal language where appropriate"
+      "text": "I used the appropriate register (formal for official letters, professional for work emails)",
+      "textEn": "I used the appropriate register (formal for official letters, professional for work emails)"
     },
     {
-      "id": "clear-problem",
-      "text": "I described the problem clearly with specific details",
-      "textEn": "I described the problem clearly with specific details"
-    },
-    {
-      "id": "action-request",
-      "text": "I ended with a clear request for action",
-      "textEn": "I ended with a clear request for action"
+      "id": "specific-details",
+      "text": "I included specific details (dates, names, consequences)",
+      "textEn": "I included specific details (dates, names, consequences)"
     }
   ],
   "questions": [
     {
       "id": "schrijven-b1-3-q1",
-      "scenario": "U huurt een woning en er is al drie keer een waterlekkage geweest in de afgelopen twee maanden. De verhuurder heeft het probleem nog steeds niet opgelost.",
-      "scenarioEn": "You rent an apartment and there have been three water leaks in the past two months. The landlord has still not fixed the problem.",
-      "prompt": "Schrijf een formele klachtbrief aan uw verhuurder. Beschrijf het probleem, noem de eerdere lekkages en vraag om een definitieve oplossing.",
-      "promptEn": "Write a formal complaint letter to your landlord. Describe the problem, mention the previous leaks, and ask for a permanent solution.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q1-problem", "text": "I described the recurring leak problem with dates or details", "textEn": "I described the recurring leak problem with dates or details" },
-        { "id": "q1-impact", "text": "I explained how the leaks have affected me", "textEn": "I explained how the leaks have affected me" },
-        { "id": "q1-solution", "text": "I requested a specific solution or deadline", "textEn": "I requested a specific solution or deadline" }
+      "scenario": "U huurt een woning aan de Keizersgracht 84. Er zijn al drie keer waterlekkages geweest in de afgelopen twee maanden: op 5 januari, 20 januari en 8 februari. De verhuurder heeft het probleem nog steeds niet definitief opgelost.",
+      "scenarioEn": "You rent a home at Keizersgracht 84. There have been three water leaks in the past two months: on January 5, January 20, and February 8. The landlord has still not permanently fixed the problem.",
+      "bullets": [
+        "Schrijf over het probleem en noem de data van de lekkages.",
+        "Schrijf welke schade de lekkages hebben veroorzaakt.",
+        "Stel een deadline voor de reparatie en noem de gevolgen als dit niet gebeurt."
       ],
-      "modelAnswer": "Geachte heer Van Dijk,\n\nIk schrijf u over de herhaalde waterlekkage in mijn woning aan de Keizersgracht 84. Op 5 januari, 20 januari en 8 februari was er opnieuw lekkage in de badkamer. Het water heeft schade veroorzaakt aan het plafond en de vloer van de gang. Ondanks mijn eerdere meldingen is het probleem nog steeds niet definitief opgelost.\n\nIk verzoek u dringend om binnen twee weken een loodgieter te sturen voor een permanente reparatie. Als het probleem niet wordt opgelost, ben ik genoodzaakt contact op te nemen met het Juridisch Loket.\n\nMet vriendelijke groet,\nAmina Ouahabi"
+      "bulletsEn": [
+        "Write about the problem and mention the dates of the leaks.",
+        "Write what damage the leaks have caused.",
+        "Set a deadline for the repair and state the consequences if it is not fixed."
+      ],
+      "prompt": "Schrijf de klachtbrief aan uw verhuurder.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the complaint letter to your landlord.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "vandijk@verhuur.nl",
+        "subject": "Klacht waterlekkage Keizersgracht 84",
+        "salutation": "Geachte heer Van Dijk,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-dates", "text": "I mentioned the three leak dates", "textEn": "I mentioned the three leak dates" },
+        { "id": "q1-damage", "text": "I described the damage caused by the leaks", "textEn": "I described the damage caused by the leaks" },
+        { "id": "q1-deadline", "text": "I set a deadline and mentioned consequences", "textEn": "I set a deadline and mentioned consequences" }
+      ],
+      "modelAnswer": "Geachte heer Van Dijk,\n\nIk schrijf u over de herhaalde waterlekkage in mijn woning aan de Keizersgracht 84. Op 5 januari, 20 januari en 8 februari was er opnieuw lekkage in de badkamer. Het water heeft schade veroorzaakt aan het plafond en de vloer van de gang. Ondanks mijn eerdere meldingen is het probleem nog steeds niet definitief opgelost.\n\nIk verzoek u dringend om binnen twee weken een loodgieter te sturen voor een permanente reparatie. Als het probleem niet binnen deze termijn wordt opgelost, ben ik genoodzaakt contact op te nemen met het Juridisch Loket.\n\nMet vriendelijke groet,\nAmina Ouahabi\nKeizersgracht 84, Amsterdam"
     },
     {
       "id": "schrijven-b1-3-q2",
-      "scenario": "Uw kind zit in groep 5 op de basisschool. U wilt dat uw kind naar een andere klas wordt overgeplaatst omdat er problemen zijn met een andere leerling.",
-      "scenarioEn": "Your child is in group 5 at primary school. You want your child transferred to a different class because of problems with another student.",
-      "prompt": "Schrijf een formele brief aan de schooldirectie. Leg de situatie uit en vraag om een overplaatsing naar een andere klas.",
-      "promptEn": "Write a formal letter to the school administration. Explain the situation and request a transfer to a different class.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-situation", "text": "I clearly explained the situation at school", "textEn": "I clearly explained the situation at school" },
-        { "id": "q2-request", "text": "I made a clear request for a class transfer", "textEn": "I made a clear request for a class transfer" }
+      "scenario": "Uw kind Youssef zit in groep 5B op de basisschool. Hij wordt al weken gepest door een andere leerling in zijn klas. U heeft eerder met de leerkracht gesproken, maar de situatie is niet verbeterd. U schrijft nu een brief aan de schooldirecteur, mevrouw De Vries.",
+      "scenarioEn": "Your child Youssef is in group 5B at primary school. He has been bullied by another student for weeks. You have already spoken with his teacher, but the situation has not improved. You now write a letter to the school director, Mrs De Vries.",
+      "bullets": [
+        "Beschrijf de situatie van uw kind op school.",
+        "Schrijf wat u al heeft gedaan om het probleem op te lossen.",
+        "Vraag om overplaatsing naar een andere klas."
       ],
-      "modelAnswer": "Geachte mevrouw De Vries,\n\nIk schrijf u als ouder van Youssef Hadaoui, leerling in groep 5B. Sinds het begin van dit schooljaar heeft mijn zoon problemen met een andere leerling in de klas. Hij wordt regelmatig gepest en voelt zich onveilig. Wij hebben hier al eerder over gesproken met de leerkracht, maar de situatie is niet verbeterd.\n\nIk verzoek u vriendelijk om Youssef over te plaatsen naar groep 5A, zodat hij zich weer kan concentreren op zijn schoolwerk. Ik hoor graag wanneer wij hierover kunnen praten.\n\nMet vriendelijke groet,\nKarim Hadaoui"
+      "bulletsEn": [
+        "Describe your child's situation at school.",
+        "Write what you have already done to address the problem.",
+        "Ask for a transfer to a different class."
+      ],
+      "prompt": "Schrijf de brief.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the letter.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "directeur@basisschool.nl",
+        "subject": "Overplaatsing Youssef Hadaoui - groep 5B",
+        "salutation": "Geachte mevrouw De Vries,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-situation", "text": "I described what is happening to Youssef at school", "textEn": "I described what is happening to Youssef at school" },
+        { "id": "q2-previous", "text": "I mentioned that I already spoke with the teacher", "textEn": "I mentioned that I already spoke with the teacher" },
+        { "id": "q2-transfer", "text": "I asked for a class transfer", "textEn": "I asked for a class transfer" }
+      ],
+      "modelAnswer": "Geachte mevrouw De Vries,\n\nIk schrijf u als ouder van Youssef Hadaoui, leerling in groep 5B. Mijn zoon wordt al weken gepest door een andere leerling in zijn klas. Hij voelt zich onveilig en wil niet meer naar school. Wij hebben hier al eerder over gesproken met zijn juf, maar de situatie is helaas niet verbeterd.\n\nIk verzoek u vriendelijk om Youssef over te plaatsen naar groep 5A, zodat hij zich weer kan concentreren op zijn schoolwerk. Ik hoor graag wanneer wij hierover kunnen praten.\n\nMet vriendelijke groet,\nKarim Hadaoui\n06-34567890"
     },
     {
       "id": "schrijven-b1-3-q3",
-      "scenario": "U werkt bij een bedrijf waar het team wordt gereorganiseerd. De werktijden van uw afdeling veranderen per volgende maand.",
-      "scenarioEn": "You work at a company where the team is being reorganized. Your department's working hours are changing next month.",
-      "prompt": "Schrijf een email aan uw collega's om hen te informeren over de nieuwe werktijden en de reden van de verandering.",
-      "promptEn": "Write an email to your colleagues to inform them about the new working hours and the reason for the change.",
-      "taskType": "free-text",
-      "wordRange": { "min": 50, "max": 100 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-info", "text": "I clearly stated the new working hours and start date", "textEn": "I clearly stated the new working hours and start date" },
-        { "id": "q3-reason", "text": "I explained the reason for the schedule change", "textEn": "I explained the reason for the schedule change" }
+      "scenario": "U werkt bij een bedrijf en de werktijden van uw afdeling veranderen per 1 april. De nieuwe werktijden zijn 8:30 tot 17:00 uur in plaats van 9:00 tot 17:30 uur. Dit is het gevolg van de reorganisatie en de samenwerking met de afdeling logistiek. U informeert uw collega's per e-mail.",
+      "scenarioEn": "You work at a company and your department's working hours are changing from April 1. The new hours are 8:30 to 17:00 instead of 9:00 to 17:30. This is due to the reorganisation and collaboration with the logistics department. You inform your colleagues by email.",
+      "bullets": [
+        "Schrijf wat er verandert en wanneer de nieuwe werktijden ingaan.",
+        "Schrijf waarom de werktijden veranderen.",
+        "Stel voor om hierover te praten met het team."
       ],
-      "modelAnswer": "Beste collega's,\n\nIk wil jullie informeren over een wijziging in onze werktijden. Vanaf 1 april werken wij van 8:30 tot 17:00 uur in plaats van 9:00 tot 17:30 uur. Deze verandering is het gevolg van de reorganisatie van ons team en de nieuwe samenwerking met de afdeling logistiek.\n\nAls jullie vragen hebben, kunnen we dit bespreken tijdens de teamvergadering op dinsdag.\n\nMet vriendelijke groet,\nSandra Bakker"
+      "bulletsEn": [
+        "Write what is changing and when the new hours start.",
+        "Write why the working hours are changing.",
+        "Suggest discussing this with the team."
+      ],
+      "prompt": "Schrijf de e-mail aan uw collega's.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email to your colleagues.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "team@bedrijf.nl",
+        "subject": "Nieuwe werktijden vanaf 1 april",
+        "salutation": "Beste collega's,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 55, "max": 110 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-change", "text": "I clearly stated the new working hours and start date", "textEn": "I clearly stated the new working hours and start date" },
+        { "id": "q3-reason", "text": "I explained why the hours are changing", "textEn": "I explained why the hours are changing" },
+        { "id": "q3-meeting", "text": "I suggested discussing this with the team", "textEn": "I suggested discussing this with the team" }
+      ],
+      "modelAnswer": "Beste collega's,\n\nIk wil jullie informeren over een wijziging in onze werktijden. Vanaf 1 april werken wij van 8:30 tot 17:00 uur in plaats van 9:00 tot 17:30 uur. Deze verandering is het gevolg van de reorganisatie van ons team en de nieuwe samenwerking met de afdeling logistiek.\n\nIk stel voor om hierover te praten tijdens de teamvergadering op dinsdag. Dan kunnen we samen de taakverdeling bespreken.\n\nMet vriendelijke groet,\nSandra Bakker"
     }
   ]
 }

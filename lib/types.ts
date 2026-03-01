@@ -247,12 +247,22 @@ export interface AssessmentCriterion {
   textEn: string;
 }
 
+export interface WritingEmailTemplate {
+  to: string;
+  subject: string;
+  salutation: string;
+  closing: string;
+}
+
 export interface WritingQuestion {
   id: string;
   scenario: string;
   scenarioEn: string;
   prompt: string;
   promptEn: string;
+  bullets?: string[];
+  bulletsEn?: string[];
+  emailTemplate?: WritingEmailTemplate;
   taskType: WritingTaskType;
   wordRange?: {
     min: number;

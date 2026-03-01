@@ -7,26 +7,26 @@
   "recommendedTime": "30 min",
   "isFreePreview": false,
   "tips": [
-    "Read the scenario carefully — make sure you understand what information is asked.",
-    "For forms, use the Dutch date format (DD-MM-YYYY) and postal code format (1234 AB).",
-    "When writing to a doctor's office or business, use formal language (u/uw).",
-    "Keep your messages simple and to the point — include all requested details but don't over-explain."
+    "Bij een formulier: gebruik het juiste datumformaat (DD-MM-JJJJ) en postcodesformaat (1234 AB).",
+    "Bij een e-mail aan een artsenpraktijk: gebruik altijd 'u' en een formele afsluiting.",
+    "Aan een vriend mag u informeel schrijven.",
+    "Schrijf in hele zinnen. Geen opsomming."
   ],
   "selfAssessmentCriteria": [
+    {
+      "id": "bullets-covered",
+      "text": "I addressed all required points in each answer",
+      "textEn": "I addressed all required points in each answer"
+    },
     {
       "id": "register",
       "text": "I used the right formality level for each situation",
       "textEn": "I used the right formality level for each situation"
     },
     {
-      "id": "complete",
-      "text": "I included all necessary information in each answer",
-      "textEn": "I included all necessary information in each answer"
-    },
-    {
-      "id": "structure",
-      "text": "My messages are well-structured with a greeting and closing",
-      "textEn": "My messages are well-structured with a greeting and closing"
+      "id": "whole-sentences",
+      "text": "I wrote in complete sentences where required",
+      "textEn": "I wrote in complete sentences where required"
     }
   ],
   "questions": [
@@ -137,34 +137,59 @@
     },
     {
       "id": "schrijven-a2-3-q2",
-      "scenario": "U heeft een afspraak bij de huisarts, maar u kunt niet komen. U wilt de afspraak verzetten.",
-      "scenarioEn": "You have an appointment at the GP, but you cannot make it. You want to reschedule.",
-      "prompt": "Schrijf een bericht aan de huisartsenpraktijk. Zeg dat u de afspraak niet kunt komen en vraag om een nieuwe afspraak.",
-      "promptEn": "Write a message to the GP practice. Say you cannot make the appointment and ask for a new one.",
-      "taskType": "free-text",
-      "wordRange": { "min": 30, "max": 60 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-cancel", "text": "I clearly said I cannot come to the appointment", "textEn": "I clearly said I cannot come to the appointment" },
-        { "id": "q2-date", "text": "I mentioned when the original appointment is", "textEn": "I mentioned when the original appointment is" },
-        { "id": "q2-new", "text": "I asked for a new appointment", "textEn": "I asked for a new appointment" },
-        { "id": "q2-formal", "text": "I used formal language (u/uw)", "textEn": "I used formal language (u/uw)" }
+      "scenario": "U hebt woensdag om 14:00 uur een afspraak bij de huisarts. U kunt niet komen omdat u die middag moet werken. U stuurt een e-mail naar de praktijk.",
+      "scenarioEn": "You have a GP appointment on Wednesday at 2 PM. You cannot make it because you have to work that afternoon. You send an email to the practice.",
+      "bullets": [
+        "Schrijf dat u uw afspraak wilt verzetten.",
+        "Schrijf wanneer uw afspraak gepland staat.",
+        "Geef aan wanneer u wel kunt komen. Bedenk zelf een dag en tijd."
       ],
-      "modelAnswer": "Geachte mevrouw, mijnheer,\n\nIk heb een afspraak op donderdag 12 maart om 14:00 uur bij dokter Visser. Helaas kan ik niet komen omdat ik die dag moet werken. Kunt u een nieuwe afspraak voor mij maken? Ik ben beschikbaar op maandag of vrijdag in de middag.\n\nMet vriendelijke groet,\nSofia Martinez\nTel: 06-23456789"
+      "bulletsEn": [
+        "Write that you want to reschedule your appointment.",
+        "Write when your current appointment is.",
+        "State when you are available. Think of a day and time yourself."
+      ],
+      "prompt": "Schrijf de e-mail.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "praktijk@huisartsvisser.nl",
+        "subject": "Afspraak verzetten",
+        "salutation": "Geachte mevrouw, mijnheer,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 40, "max": 75 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-reschedule", "text": "I said I want to reschedule", "textEn": "I said I want to reschedule" },
+        { "id": "q2-when", "text": "I mentioned when my current appointment is", "textEn": "I mentioned when my current appointment is" },
+        { "id": "q2-available", "text": "I suggested when I can come instead", "textEn": "I suggested when I can come instead" }
+      ],
+      "modelAnswer": "Geachte mevrouw, mijnheer,\n\nIk heb woensdag 12 maart om 14:00 uur een afspraak bij dokter Visser. Helaas kan ik die dag niet komen omdat ik moet werken. Kunt u mijn afspraak verzetten naar vrijdag, bij voorkeur in de ochtend?\n\nMet vriendelijke groet,\nSofia Martinez\n06-23456789"
     },
     {
       "id": "schrijven-a2-3-q3",
-      "scenario": "Een vriend heeft u uitgenodigd om te komen eten. U bent vegetariër.",
-      "scenarioEn": "A friend has invited you for dinner. You are a vegetarian.",
-      "prompt": "Schrijf een bericht aan uw vriend. Vertel dat u vegetariër bent zodat hij of zij daar rekening mee kan houden.",
-      "promptEn": "Write a message to your friend. Tell them you are a vegetarian so they can take that into account.",
-      "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-thanks", "text": "I thanked my friend for the invitation", "textEn": "I thanked my friend for the invitation" },
-        { "id": "q3-diet", "text": "I clearly explained that I am a vegetarian", "textEn": "I clearly explained that I am a vegetarian" },
-        { "id": "q3-friendly", "text": "My message is friendly and positive", "textEn": "My message is friendly and positive" }
+      "scenario": "Uw vriend Thomas nodigt u via WhatsApp uit om bij hem te komen eten op zaterdag. U wilt graag komen, maar u eet geen vlees. U stuurt hem een terugbericht.",
+      "scenarioEn": "Your friend Thomas invites you on WhatsApp to come for dinner on Saturday. You want to come, but you do not eat meat. You send him a reply.",
+      "bullets": [
+        "Schrijf dat u blij bent met de uitnodiging en dat u komt.",
+        "Schrijf dat u geen vlees eet.",
+        "Stel voor wat u kunt meenemen. Bedenk zelf iets."
       ],
-      "modelAnswer": "Hoi Thomas,\n\nBedankt voor de uitnodiging, ik kom graag eten! Ik wil je wel even laten weten dat ik vegetariër ben. Ik eet dus geen vlees en vis. Is dat een probleem? Anders kan ik ook iets meenemen.\n\nTot zaterdag!\nGroetjes,\nSofia"
+      "bulletsEn": [
+        "Write that you are happy with the invitation and will come.",
+        "Write that you do not eat meat.",
+        "Suggest what you could bring. Think of something yourself."
+      ],
+      "prompt": "Schrijf het bericht.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the message.\nWrite in complete sentences.",
+      "taskType": "free-text",
+      "wordRange": { "min": 35, "max": 65 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-yes", "text": "I accepted the invitation", "textEn": "I accepted the invitation" },
+        { "id": "q3-vegetarian", "text": "I explained I do not eat meat", "textEn": "I explained I do not eat meat" },
+        { "id": "q3-bring", "text": "I suggested something I could bring", "textEn": "I suggested something I could bring" }
+      ],
+      "modelAnswer": "Hoi Thomas,\n\nLeuk, ik kom graag! Ik moet je wel even zeggen dat ik geen vlees eet. Ik ben vegetariër. Ik maak me er geen zorgen over, maar wilde het je laten weten. Ik kan een lekkere salade meenemen als je wil?\n\nTot zaterdag!\nGroetjes,\nSofia"
     }
   ]
 }

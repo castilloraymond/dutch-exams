@@ -7,72 +7,121 @@
   "recommendedTime": "30 min",
   "isFreePreview": true,
   "tips": [
-    "When writing to government agencies, use 'Geachte heer/mevrouw' and include any reference or file numbers.",
-    "Be specific about dates, locations, and events — vague complaints are harder to act on.",
-    "In professional emails, state the key information in the first sentence so colleagues can act quickly.",
-    "Always proofread your letter for consistent formal register — avoid mixing 'u' and 'je' forms."
+    "Bij een brief aan de IND: noem altijd uw V-nummer en de datum van uw aanvraag.",
+    "Bij een klacht aan een vervoersbedrijf: geef specifieke data als bewijs.",
+    "Bij een team-e-mail over een deadline: vermeld de oude én de nieuwe datum.",
+    "Schrijf formeel aan instanties, maar professioneel (niet stijfjes) aan collega's."
   ],
   "selfAssessmentCriteria": [
     {
+      "id": "bullets-covered",
+      "text": "I addressed all three bullet points in my answer",
+      "textEn": "I addressed all three bullet points in my answer"
+    },
+    {
       "id": "appropriate-register",
-      "text": "I used the appropriate register (formal for letters, professional for emails)",
-      "textEn": "I used the appropriate register (formal for letters, professional for emails)"
+      "text": "I used the appropriate register (formal for official letters, professional for team emails)",
+      "textEn": "I used the appropriate register (formal for official letters, professional for team emails)"
     },
     {
       "id": "specific-details",
-      "text": "I included specific details like dates, reference numbers, or locations",
-      "textEn": "I included specific details like dates, reference numbers, or locations"
-    },
-    {
-      "id": "logical-structure",
-      "text": "My writing follows a logical order: context, problem/request, desired action",
-      "textEn": "My writing follows a logical order: context, problem/request, desired action"
+      "text": "I included specific details such as dates, reference numbers, or locations",
+      "textEn": "I included specific details such as dates, reference numbers, or locations"
     }
   ],
   "questions": [
     {
       "id": "schrijven-b1-5-q1",
-      "scenario": "U heeft zes maanden geleden een verblijfsvergunning aangevraagd bij de IND, maar u heeft nog steeds geen antwoord ontvangen. U wilt weten wat de status is van uw aanvraag.",
-      "scenarioEn": "You applied for a residence permit at the IND six months ago, but you still have not received a response. You want to know the status of your application.",
-      "prompt": "Schrijf een formele brief aan de IND. Verwijs naar uw aanvraag, leg uit dat u al lang wacht en vraag om een update over de status.",
-      "promptEn": "Write a formal letter to the IND. Reference your application, explain that you have been waiting a long time, and ask for a status update.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q1-reference", "text": "I included my application reference number and date", "textEn": "I included my application reference number and date" },
-        { "id": "q1-waiting", "text": "I clearly stated how long I have been waiting", "textEn": "I clearly stated how long I have been waiting" },
-        { "id": "q1-update", "text": "I asked for a specific status update or timeline", "textEn": "I asked for a specific status update or timeline" }
+      "scenario": "U heeft zes maanden geleden een verblijfsvergunning aangevraagd bij de IND. Uw V-nummer is 2708195403. U heeft nog steeds geen antwoord ontvangen. De beslistermijn van 90 dagen is al lang verstreken. U maakt zich zorgen.",
+      "scenarioEn": "You applied for a residence permit at the IND six months ago. Your V-number is 2708195403. You have still not received a response. The 90-day decision period has long passed. You are worried.",
+      "bullets": [
+        "Schrijf wanneer u de aanvraag heeft ingediend en noem uw V-nummer.",
+        "Schrijf dat u al lang wacht en dat de beslistermijn voorbij is.",
+        "Vraag om een update over de status van uw aanvraag."
       ],
-      "modelAnswer": "Geachte heer/mevrouw,\n\nOp 25 augustus 2025 heb ik een aanvraag ingediend voor een verblijfsvergunning regulier (V-nummer: 2708195403). Het is nu zes maanden geleden en ik heb nog geen beslissing ontvangen. De beslistermijn van 90 dagen is inmiddels ruim verstreken.\n\nDeze onzekerheid heeft grote gevolgen voor mijn werk en woonsituatie. Ik verzoek u vriendelijk om mij zo spoedig mogelijk te informeren over de status van mijn aanvraag en de verwachte beslisdatum.\n\nMet vriendelijke groet,\nIsabel Ferreira dos Santos"
+      "bulletsEn": [
+        "Write when you submitted the application and include your V-number.",
+        "Write that you have been waiting a long time and that the decision period has passed.",
+        "Ask for an update on the status of your application."
+      ],
+      "prompt": "Schrijf de brief.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the letter.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "info@ind.nl",
+        "subject": "Status verblijfsvergunning - V-nummer 2708195403",
+        "salutation": "Geachte heer/mevrouw,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-vnumber", "text": "I included my V-number 2708195403 and the application date", "textEn": "I included my V-number 2708195403 and the application date" },
+        { "id": "q1-waiting", "text": "I stated that I have been waiting six months and the deadline has passed", "textEn": "I stated that I have been waiting six months and the deadline has passed" },
+        { "id": "q1-update", "text": "I asked for a status update", "textEn": "I asked for a status update" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nOp 25 augustus 2025 heb ik een aanvraag ingediend voor een verblijfsvergunning regulier (V-nummer: 2708195403). Het is nu zes maanden geleden en ik heb nog geen beslissing ontvangen. De beslistermijn van 90 dagen is inmiddels ruim verstreken.\n\nDeze onzekerheid heeft grote gevolgen voor mijn werk en woonsituatie. Ik verzoek u vriendelijk om mij zo spoedig mogelijk te informeren over de status van mijn aanvraag en de verwachte beslisdatum.\n\nMet vriendelijke groet,\nIsabel Ferreira dos Santos\nV-nummer: 2708195403"
     },
     {
       "id": "schrijven-b1-5-q2",
-      "scenario": "U reist dagelijks met de trein naar uw werk. De afgelopen maand zijn er bijna elke dag vertragingen of uitgevallen treinen op uw traject. U wilt een klacht indienen bij de vervoersmaatschappij.",
-      "scenarioEn": "You commute to work by train daily. In the past month, there have been delays or cancelled trains on your route almost every day. You want to file a complaint with the transport company.",
-      "prompt": "Schrijf een formele klachtbrief aan de vervoersmaatschappij. Beschrijf het probleem, geef voorbeelden en vraag om een oplossing of compensatie.",
-      "promptEn": "Write a formal complaint letter to the transport company. Describe the problem, give examples, and ask for a solution or compensation.",
-      "taskType": "free-text",
-      "wordRange": { "min": 60, "max": 120 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-examples", "text": "I gave specific examples of delays or cancellations", "textEn": "I gave specific examples of delays or cancellations" },
-        { "id": "q2-impact", "text": "I explained the impact on my daily life or work", "textEn": "I explained the impact on my daily life or work" },
-        { "id": "q2-compensation", "text": "I asked for a concrete solution or compensation", "textEn": "I asked for a concrete solution or compensation" }
+      "scenario": "U reist dagelijks van Utrecht Centraal naar Amsterdam Zuidoost met de trein van 07:42 uur. In de maand januari was deze trein op meer dan vijftien dagen vertraagd of uitgevallen. Op 12 en 19 januari reed er helemaal geen trein en moest u een taxi nemen.",
+      "scenarioEn": "You commute daily from Utrecht Centraal to Amsterdam Zuidoost on the 7:42 train. In January, this train was delayed or cancelled on more than fifteen days. On January 12 and 19 there was no train at all and you had to take a taxi.",
+      "bullets": [
+        "Beschrijf het probleem en noem de specifieke data.",
+        "Schrijf welke gevolgen dit heeft voor u.",
+        "Vraag om compensatie of verbeteringen."
       ],
-      "modelAnswer": "Geachte heer/mevrouw,\n\nIk maak dagelijks gebruik van de trein van Utrecht Centraal naar Amsterdam Zuidoost (vertrek 07:42). In de maand januari was deze trein op meer dan vijftien dagen vertraagd of uitgevallen. Op 12 en 19 januari reed er helemaal geen trein en moest ik een taxi naar mijn werk nemen.\n\nDoor deze vertragingen kom ik regelmatig te laat op mijn werk, wat gevolgen heeft voor mijn beoordeling. Ik verzoek u om compensatie voor de extra reiskosten en om maatregelen te nemen om de dienstverlening te verbeteren.\n\nMet vriendelijke groet,\nMustafa \u00d6zt\u00fcrk"
+      "bulletsEn": [
+        "Describe the problem and mention the specific dates.",
+        "Write what consequences this has for you.",
+        "Ask for compensation or improvements."
+      ],
+      "prompt": "Schrijf de klachtbrief.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the complaint letter.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "klantenservice@ns.nl",
+        "subject": "Klacht vertragingen Utrecht Centraal - Amsterdam Zuidoost",
+        "salutation": "Geachte heer/mevrouw,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 70, "max": 130 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-dates", "text": "I mentioned the specific dates (January 12 and 19)", "textEn": "I mentioned the specific dates (January 12 and 19)" },
+        { "id": "q2-impact", "text": "I explained the impact on my work and daily life", "textEn": "I explained the impact on my work and daily life" },
+        { "id": "q2-compensation", "text": "I asked for compensation or improvements", "textEn": "I asked for compensation or improvements" }
+      ],
+      "modelAnswer": "Geachte heer/mevrouw,\n\nIk maak dagelijks gebruik van de trein van Utrecht Centraal naar Amsterdam Zuidoost (vertrek 07:42). In de maand januari was deze trein op meer dan vijftien dagen vertraagd of uitgevallen. Op 12 en 19 januari reed er helemaal geen trein en moest ik een taxi naar mijn werk nemen.\n\nDoor deze vertragingen kom ik regelmatig te laat op mijn werk, wat gevolgen heeft voor mijn beoordeling. De taxikosten bedroegen in totaal € 85. Ik verzoek u om compensatie voor de extra kosten en om maatregelen te nemen om de dienstverlening te verbeteren.\n\nMet vriendelijke groet,\nMustafa Öztürk\nOV-chipkaartnummer: 0123456789"
     },
     {
       "id": "schrijven-b1-5-q3",
-      "scenario": "U bent projectleider op uw werk. De deadline van een belangrijk project is verschoven van 15 maart naar 31 maart. U moet uw teamleden hierover informeren.",
-      "scenarioEn": "You are a project leader at work. The deadline of an important project has been moved from March 15th to March 31st. You need to inform your team members about this.",
-      "prompt": "Schrijf een email aan uw team over de nieuwe deadline. Leg uit waarom de deadline is verschoven en wat dit betekent voor het werkschema.",
-      "promptEn": "Write an email to your team about the new deadline. Explain why the deadline has moved and what this means for the work schedule.",
-      "taskType": "free-text",
-      "wordRange": { "min": 50, "max": 100 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-dates", "text": "I clearly stated the old and new deadline dates", "textEn": "I clearly stated the old and new deadline dates" },
-        { "id": "q3-reason", "text": "I explained the reason for the deadline change", "textEn": "I explained the reason for the deadline change" }
+      "scenario": "U bent projectleider op uw werk. De deadline van het Klantportaal-project is verschoven van 15 maart naar 31 maart. De opdrachtgever heeft extra functies gevraagd die meer tijd nodig hebben. U informeert uw teamleden per e-mail.",
+      "scenarioEn": "You are a project leader at work. The deadline of the Klantportaal project has been moved from March 15 to March 31. The client has requested extra features that require more time. You inform your team members by email.",
+      "bullets": [
+        "Schrijf wat er verandert en noem de oude en nieuwe deadline.",
+        "Schrijf waarom de deadline is verschoven.",
+        "Schrijf wat dit betekent voor de planning van het team."
       ],
-      "modelAnswer": "Beste team,\n\nIk wil jullie laten weten dat de deadline van het Klantportaal-project is verschoven van 15 maart naar 31 maart. De opdrachtgever heeft extra functionaliteiten gevraagd die meer tijd vereisen.\n\nDit betekent dat we twee extra weken hebben voor de testfase. Ik stuur morgen een aangepaste planning rond. Laten we donderdag om 10:00 uur een overleg plannen om de taakverdeling te bespreken.\n\nGroet,\nRachid El Amrani"
+      "bulletsEn": [
+        "Write what is changing and state the old and new deadline.",
+        "Write why the deadline has been moved.",
+        "Write what this means for the team's planning."
+      ],
+      "prompt": "Schrijf de e-mail aan uw team.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email to your team.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "team@bedrijf.nl",
+        "subject": "Nieuwe deadline Klantportaal-project",
+        "salutation": "Beste team,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 55, "max": 110 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-dates", "text": "I clearly stated both the old (15 March) and new (31 March) deadline", "textEn": "I clearly stated both the old (15 March) and new (31 March) deadline" },
+        { "id": "q3-reason", "text": "I explained why the deadline moved (extra features)", "textEn": "I explained why the deadline moved (extra features)" },
+        { "id": "q3-planning", "text": "I explained what this means for the team's work", "textEn": "I explained what this means for the team's work" }
+      ],
+      "modelAnswer": "Beste team,\n\nIk wil jullie laten weten dat de deadline van het Klantportaal-project is verschoven van 15 maart naar 31 maart. De opdrachtgever heeft extra functionaliteiten gevraagd die meer ontwikkeltijd vereisen.\n\nDit betekent dat we twee extra weken hebben voor de testfase. Ik stuur morgen een aangepaste planning rond met de nieuwe taakverdeling. Laten we donderdag om 10:00 uur een kort overleg plannen om dit te bespreken.\n\nMet vriendelijke groet,\nRachid El Amrani"
     }
   ]
 }

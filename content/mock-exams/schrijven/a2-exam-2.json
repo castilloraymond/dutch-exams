@@ -7,72 +7,115 @@
   "recommendedTime": "30 min",
   "isFreePreview": false,
   "tips": [
-    "Be polite but clear about problems — always state what you need.",
-    "With colleagues, you can use informal language (je/jij instead of u).",
-    "When saying no, give a reason and be polite about it.",
-    "Always re-read your answer before submitting."
+    "Schrijf aan de leerkracht met 'Beste mevrouw/meneer' of 'Geachte mevrouw/meneer'.",
+    "Schrijf aan een verhuurder altijd formeel: gebruik 'u' en 'uw'.",
+    "Aan een collega mag u informeel schrijven: 'hoi', 'je', 'jij'.",
+    "Schrijf in hele zinnen en sluit altijd af met uw naam."
   ],
   "selfAssessmentCriteria": [
     {
+      "id": "bullets-covered",
+      "text": "I addressed all three bullet points in my answer",
+      "textEn": "I addressed all three bullet points in my answer"
+    },
+    {
       "id": "register",
-      "text": "I used the right formality level for each recipient",
-      "textEn": "I used the right formality level for each recipient"
+      "text": "I used the right level of formality for each recipient",
+      "textEn": "I used the right level of formality for each recipient"
     },
     {
-      "id": "complete",
-      "text": "I included all requested information",
-      "textEn": "I included all requested information"
-    },
-    {
-      "id": "structure",
-      "text": "My messages have a clear beginning, middle, and end",
-      "textEn": "My messages have a clear beginning, middle, and end"
+      "id": "whole-sentences",
+      "text": "I wrote in complete sentences",
+      "textEn": "I wrote in complete sentences"
     }
   ],
   "questions": [
     {
       "id": "schrijven-a2-2-q1",
-      "scenario": "Uw kind moet naar de dokter en mist een dag school.",
-      "scenarioEn": "Your child has a doctor's appointment and will miss a day of school.",
-      "prompt": "Schrijf een kort bericht aan de leerkracht over de doktersafspraak van uw kind.",
-      "promptEn": "Write a short message to the teacher about your child's doctor appointment.",
-      "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
-      "selfAssessmentCriteria": [
-        { "id": "q1-date", "text": "I mentioned the date", "textEn": "I mentioned the date" },
-        { "id": "q1-reason", "text": "I explained why my child is absent", "textEn": "I explained why my child is absent" }
+      "scenario": "Uw dochter Emma is vandaag ziek en kan niet naar school. De juf heet mevrouw Van den Berg. U schrijft haar een e-mail om dit te laten weten.",
+      "scenarioEn": "Your daughter Emma is sick today and cannot go to school. The teacher is Mrs Van den Berg. You write her an email to let her know.",
+      "bullets": [
+        "Schrijf dat Emma vandaag niet naar school kan komen.",
+        "Schrijf wat er met haar aan de hand is. Bedenk zelf iets.",
+        "Schrijf wanneer u denkt dat Emma weer naar school kan."
       ],
-      "modelAnswer": "Beste juf Van den Berg,\n\nIk wil u laten weten dat Lisa woensdag niet op school kan komen. Zij heeft een afspraak bij de dokter om 10:00 uur. Donderdag is zij weer op school.\n\nGroetjes,\nMaria Bakker"
+      "bulletsEn": [
+        "Write that Emma cannot come to school today.",
+        "Write what is wrong with her. Think of something yourself.",
+        "Write when you expect Emma to be back at school."
+      ],
+      "prompt": "Schrijf de e-mail.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "vandenberg@obs-deklaver.nl",
+        "subject": "Afwezigheid Emma",
+        "salutation": "Beste mevrouw Van den Berg,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 40, "max": 75 },
+      "selfAssessmentCriteria": [
+        { "id": "q1-absent", "text": "I said Emma cannot come to school today", "textEn": "I said Emma cannot come to school today" },
+        { "id": "q1-reason", "text": "I explained what is wrong with her", "textEn": "I explained what is wrong with her" },
+        { "id": "q1-return", "text": "I mentioned when Emma will be back", "textEn": "I mentioned when Emma will be back" }
+      ],
+      "modelAnswer": "Beste mevrouw Van den Berg,\n\nEmma is vandaag helaas ziek. Ze heeft hoge koorts en hoofdpijn. Ze kan niet naar school komen. Als het goed gaat, is ze morgen of overmorgen weer beter en terug op school.\n\nMet vriendelijke groet,\nFatima Yilmaz"
     },
     {
       "id": "schrijven-a2-2-q2",
-      "scenario": "Het raam in uw slaapkamer sluit niet goed. Het is koud in huis.",
-      "scenarioEn": "The window in your bedroom doesn't close properly. It's cold in the house.",
-      "prompt": "Schrijf een bericht aan uw verhuurder over het kapotte raam. Leg uit wat het probleem is.",
-      "promptEn": "Write a message to your landlord about the broken window. Explain what the problem is.",
-      "taskType": "free-text",
-      "wordRange": { "min": 30, "max": 60 },
-      "selfAssessmentCriteria": [
-        { "id": "q2-problem", "text": "I explained what is wrong with the window", "textEn": "I explained what is wrong with the window" },
-        { "id": "q2-urgency", "text": "I explained why it needs to be fixed", "textEn": "I explained why it needs to be fixed" },
-        { "id": "q2-polite", "text": "I was polite in my request", "textEn": "I was polite in my request" }
+      "scenario": "De verwarming in uw slaapkamer werkt al drie dagen niet. Het is koud in huis. Uw verhuurder heet de heer Jansen. U schrijft hem een e-mail.",
+      "scenarioEn": "The heating in your bedroom has not been working for three days. It is cold in the house. Your landlord is Mr Jansen. You write him an email.",
+      "bullets": [
+        "Schrijf wat er kapot is.",
+        "Schrijf hoelang het al kapot is.",
+        "Vraag wanneer iemand kan komen om het te repareren."
       ],
-      "modelAnswer": "Geachte mevrouw De Groot,\n\nHet raam in mijn slaapkamer sluit niet goed meer. Er komt koude lucht binnen en het is erg koud in huis. Kunt u dit zo snel mogelijk laten repareren?\n\nU kunt mij bellen op 06-12345678.\n\nMet vriendelijke groet,\nFatima El Amrani"
+      "bulletsEn": [
+        "Write what is broken.",
+        "Write how long it has been broken.",
+        "Ask when someone can come to repair it."
+      ],
+      "prompt": "Schrijf de e-mail.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the email.\nWrite in complete sentences.",
+      "emailTemplate": {
+        "to": "jansen.verhuur@mail.nl",
+        "subject": "Kapotte verwarming",
+        "salutation": "Geachte heer Jansen,",
+        "closing": "Met vriendelijke groet,"
+      },
+      "taskType": "free-text",
+      "wordRange": { "min": 40, "max": 75 },
+      "selfAssessmentCriteria": [
+        { "id": "q2-what", "text": "I described what is broken", "textEn": "I described what is broken" },
+        { "id": "q2-how-long", "text": "I said how long it has been broken", "textEn": "I said how long it has been broken" },
+        { "id": "q2-repair", "text": "I asked for a repair", "textEn": "I asked for a repair" }
+      ],
+      "modelAnswer": "Geachte heer Jansen,\n\nDe verwarming in mijn slaapkamer is al drie dagen kapot. De radiator wordt niet warm en 's nachts is het erg koud in huis. Kunt u zo snel mogelijk een monteur sturen? Ik ben elke dag na 17:00 uur thuis.\n\nMet vriendelijke groet,\nKarim El Mansouri"
     },
     {
       "id": "schrijven-a2-2-q3",
-      "scenario": "Uw collega Mark vraagt of u zondag kunt werken. U kunt niet omdat u een familiefeest heeft.",
-      "scenarioEn": "Your colleague Mark asks if you can work Sunday. You can't because you have a family party.",
-      "prompt": "Schrijf een antwoord aan Mark. Zeg dat u niet kunt helpen en leg uit waarom.",
-      "promptEn": "Write a reply to Mark. Say you cannot help and explain why.",
-      "taskType": "free-text",
-      "wordRange": { "min": 25, "max": 50 },
-      "selfAssessmentCriteria": [
-        { "id": "q3-answer", "text": "I clearly said no", "textEn": "I clearly said no" },
-        { "id": "q3-reason", "text": "I gave a reason", "textEn": "I gave a reason" },
-        { "id": "q3-polite", "text": "I was polite about saying no", "textEn": "I was polite about saying no" }
+      "scenario": "Uw collega Bas is ziek en kan morgen niet werken. Hij vraagt via WhatsApp of u zijn dienst wilt overnemen. U kunt dat doen. U stuurt hem een terugbericht.",
+      "scenarioEn": "Your colleague Bas is sick and cannot work tomorrow. He messages you on WhatsApp asking if you can take his shift. You can. You send him a reply.",
+      "bullets": [
+        "Schrijf dat u zijn dienst kunt overnemen.",
+        "Vraag hoe laat u moet beginnen.",
+        "Wens hem beterschap."
       ],
-      "modelAnswer": "Hoi Mark,\n\nSorry, ik kan zondag helaas niet werken. Ik heb een familiefeest en kan niet afzeggen. Misschien kun je het aan iemand anders vragen?\n\nSucces!\nGroetjes,\nSarah"
+      "bulletsEn": [
+        "Write that you can take his shift.",
+        "Ask what time you need to start.",
+        "Wish him a speedy recovery."
+      ],
+      "prompt": "Schrijf het bericht.\nSchrijf in hele zinnen.",
+      "promptEn": "Write the message.\nWrite in complete sentences.",
+      "taskType": "free-text",
+      "wordRange": { "min": 30, "max": 60 },
+      "selfAssessmentCriteria": [
+        { "id": "q3-yes", "text": "I agreed to take the shift", "textEn": "I agreed to take the shift" },
+        { "id": "q3-time", "text": "I asked what time to start", "textEn": "I asked what time to start" },
+        { "id": "q3-beterschap", "text": "I wished him a speedy recovery", "textEn": "I wished him a speedy recovery" }
+      ],
+      "modelAnswer": "Hoi Bas,\n\nGeen probleem, ik kan morgen je dienst overnemen! Hoe laat moet ik beginnen? En is er nog iets wat ik moet weten?\n\nBeterschap!\n\nGroetjes,\nNadia"
     }
   ]
 }
