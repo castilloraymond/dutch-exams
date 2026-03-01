@@ -2,9 +2,9 @@ import { X, Check } from "lucide-react";
 
 export function IsThisForYou() {
     const notFor = [
-        "Your goal is to be fluent. This tool is optimized for you to pass the test and not necessarily to help you have a conversation with a local.",
-        "You are a total beginner. Mock exams assume that you already have a base level of knowledge.",
-        "You want personal feedback from a teacher. This is a self-study tool — there's no tutor reviewing your answers or giving personalized corrections.",
+        "You want fluency, not just a passing score.",
+        "You're a total beginner — no base Dutch knowledge.",
+        "You need a teacher to review and correct your work.",
     ];
 
     const isFor = [
