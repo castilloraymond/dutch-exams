@@ -23,7 +23,7 @@ const sections = [
             { href: "/faq", label: "FAQ" },
             { href: "/blog", label: "Blog" },
             { href: "/blog/learning-resources", label: "Learning Resources" },
-            { href: "/try", label: "Free Assessment" },
+            { href: "/learn", label: "Mock Exams" },
         ],
     },
     {
@@ -108,8 +108,8 @@ export function LandingFooter() {
                             <Link href="/blog/learning-resources" className="hover:text-[var(--ink-soft)] transition-colors">
                                 Learning Resources
                             </Link>
-                            <Link href="/try" className="hover:text-[var(--ink-soft)] transition-colors">
-                                Free Assessment
+                            <Link href="/learn" className="hover:text-[var(--ink-soft)] transition-colors">
+                                Mock Exams
                             </Link>
                         </div>
                     </div>

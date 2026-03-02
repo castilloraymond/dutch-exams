@@ -1,12 +1,7 @@
-"use client";
-
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { useAuth } from "@/contexts/AuthContext";
 
 export function FinalCTA() {
-    const { user } = useAuth();
-
     return (
         <section className="py-12 sm:py-[80px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
             {/* Subtle radial accent gradient */}
@@ -16,13 +11,13 @@ export function FinalCTA() {
                 Ready to start practicing?
             </h2>
             <p className="text-white/60 text-[1.1rem] max-w-[500px] mx-auto mb-10 leading-[1.7] relative">
-                46 mock exams across all 5 modules. Real exam format. Explanations for every question. Free to start — no account required.
+                46 mock exams across all 5 modules. Real exam format. Explanations for every question. Completely free — no account required.
             </p>
             <Link
                 href="/learn"
                 className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto max-w-[320px] px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
             >
-                {user ? "Continue practicing" : "Try a full mock exam"}
+                Start a mock exam
                 <ArrowRight className="h-4 w-4" />
             </Link>
         </section>

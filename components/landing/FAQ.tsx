@@ -19,7 +19,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "Do I need an account to start?",
-        answer: "No. You can try a full mock exam right now without creating an account. A free account lets you save your progress across devices and track your scores over time.",
+        answer: "No. You can start practicing right now — no account and no payment needed. Create a free account if you want to sync progress across devices.",
     },
     {
         question: "How is this different from the DUO practice materials?",

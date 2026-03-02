@@ -3,7 +3,7 @@ export function TrustBar() {
         { value: "50+", label: "Mock exams" },
         { value: "1,000+", label: "Practice questions" },
         { value: "All 5", label: "Topics covered in the test" },
-        { value: "Totally Free", label: "During beta" },
+        { value: "100% Free", label: "No payment required" },
     ];
 
     return (

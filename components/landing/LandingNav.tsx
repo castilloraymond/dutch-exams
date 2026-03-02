@@ -63,7 +63,7 @@ export function LandingNav() {
                         href="/learn"
                         className="hidden sm:inline-flex bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250"
                     >
-                        {!loading && user ? "Start practicing" : "Start for free →"}
+                        Start practicing
                     </Link>
 
                     {/* Mobile hamburger */}
@@ -95,7 +95,7 @@ export function LandingNav() {
                         >
                             Exam Resources
                         </Link>
-                        {!loading && user ? (
+                        {!loading && user && (
                             <Link
                                 href="/profile"
                                 onClick={() => setMenuOpen(false)}
@@ -104,21 +104,13 @@ export function LandingNav() {
                                 <CircleUser className="h-5 w-5" />
                                 Profile
                             </Link>
-                        ) : (
-                            <Link
-                                href="/auth/login"
-                                onClick={() => setMenuOpen(false)}
-                                className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
-                            >
-                                Log in
-                            </Link>
                         )}
                         <Link
                             href="/learn"
                             onClick={() => setMenuOpen(false)}
                             className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-sm text-center hover:bg-[var(--accent)] transition-all"
                         >
-                            {!loading && user ? "Start practicing" : "Start for free →"}
+                            Start practicing
                         </Link>
                     </div>
                 </div>

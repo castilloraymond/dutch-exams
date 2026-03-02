@@ -2,12 +2,10 @@
 
 import { ModuleAccordionSelector } from "@/components/ModuleAccordionSelector";
 import { getMockExamIndex } from "@/lib/content";
-import { usePremium } from "@/hooks/usePremium";
 import { useProgress } from "@/hooks/useProgress";
 
 export default function LezenSelectPage() {
   const index = getMockExamIndex("lezen");
-  const { isPremium } = usePremium();
   const { progress } = useProgress();
 
   if (!index) return <div>Error loading exams</div>;
@@ -17,7 +15,6 @@ export default function LezenSelectPage() {
       module="lezen"
       exams={index.exams}
       examProgress={progress.examProgress ?? {}}
-      isPremium={isPremium}
     />
   );
 }

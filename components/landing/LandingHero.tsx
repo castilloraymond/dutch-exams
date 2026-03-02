@@ -1,18 +1,13 @@
-"use client";
-
 import Link from "next/link";
 import { ArrowRight, Check, Clock, CircleCheck, ChevronDown } from "lucide-react";
-import { useAuth } from "@/contexts/AuthContext";
 
 export function LandingHero() {
-    const { user } = useAuth();
-
     return (
         <section className="min-h-svh sm:min-h-0 flex flex-col pt-[88px] sm:pt-[120px] pb-0 sm:pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-[60px] sm:items-center">
             {/* Left column */}
             <div className="animate-reveal text-center sm:text-left flex-1 flex flex-col justify-center sm:block">
                 <div className="hidden sm:inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
-                    ✨ Free during beta — no payment required
+                    ✨ 100% free — no payment required
                 </div>
 
                 <h1 className="text-[2.2rem] sm:text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.1] sm:leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-6 font-extrabold">
@@ -38,10 +33,10 @@ export function LandingHero() {
 
                 <div className="flex flex-col items-center sm:flex-row sm:items-center gap-4 mb-4">
                     <Link
-                        href={user ? "/learn" : "/try"}
+                        href="/learn"
                         className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-9 py-4 rounded-full font-semibold text-base"
                     >
-                        {user ? "Continue practicing" : "Start a mock exam"}
+                        Start a mock exam
                         <ArrowRight className="h-4 w-4" />
                     </Link>
                     <a
