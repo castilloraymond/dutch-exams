@@ -1,6 +1,6 @@
 /**
  * Appends a new row to BUGS.md via the GitHub Contents API.
- * Owner reports go to "### My Reports", user reports go to "### Needs Triage".
+ * Owner reports go to "## Owner Reports", user reports go to "## User Reports".
  *
  * Requires env vars:
  *   GITHUB_TOKEN  — fine-grained PAT with "Contents: Read and write" on castilloraymond/dutch-exams
@@ -10,8 +10,8 @@ const REPO_OWNER = "castilloraymond";
 const REPO_NAME = "dutch-exams";
 const FILE_PATH = "docs/BUGS.md";
 const BRANCH = "main";
-const TRIAGE_HEADER = "### Needs Triage (reported via bug widget)";
-const OWNER_REPORTS_HEADER = "### My Reports (owner-reported via bug widget)";
+const TRIAGE_HEADER = "## User Reports (needs triage)";
+const OWNER_REPORTS_HEADER = "## Owner Reports (reported by hello@passinburgering.com)";
 
 function todayISO(): string {
     return new Date().toISOString().split("T")[0]; // YYYY-MM-DD
@@ -21,7 +21,7 @@ function todayISO(): string {
 function nextBugNumber(content: string): number {
     const matches = content.match(/^\|\s*(\d+)\s*\|/gm) ?? [];
     const nums = matches.map((m) => parseInt(m.replace(/\D/g, ""), 10)).filter(Boolean);
-    return nums.length > 0 ? Math.max(...nums) + 1 : 13;
+    return nums.length > 0 ? Math.max(...nums) + 1 : 1;
 }
 
 interface OwnerContext {
