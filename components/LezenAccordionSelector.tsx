@@ -2,14 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { BookOpen, ArrowLeft, ChevronDown, Check, Lock } from "lucide-react";
+import { BookOpen, ArrowLeft, ChevronDown, Check } from "lucide-react";
 import { MockupNote } from "./MockupNote";
 import type { MockExamSummary, Difficulty, ExamCompletion } from "@/lib/types";
 
 interface Props {
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
-  isPremium?: boolean;
 }
 
 const LEVELS = [
@@ -60,13 +59,11 @@ interface ExamRowProps {
   exam: MockExamSummary;
   href: string;
   completion: ExamCompletion | undefined;
-  isPremium?: boolean;
   color: string;
 }
 
-function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
+function ExamRow({ exam, href, completion, color }: ExamRowProps) {
   const isCompleted = !!completion;
-  const isLocked = !exam.isFreePreview && !isPremium;
   const score =
     completion
       ? Math.round((completion.correctAnswers / completion.totalQuestions) * 100)
@@ -77,7 +74,7 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
   const circumference = 2 * Math.PI * r;
 
   return (
-    <Link href={isLocked ? "/upgrade" : href}>
+    <Link href={href}>
       <div className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:-translate-y-px hover:shadow-sm transition-all cursor-pointer">
         {/* Status ring */}
         <div
@@ -116,11 +113,6 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
               <Check className="h-3.5 w-3.5" style={{ color }} />
             </div>
           )}
-          {isLocked && !isCompleted && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Lock className="h-3 w-3 text-[var(--ink)]/30" />
-            </div>
-          )}
         </div>
 
         {/* Content */}
@@ -129,11 +121,6 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
             <span className="text-sm font-medium text-[var(--ink)] truncate">
               {formatExamTitle(exam.title)}
             </span>
-            {exam.isFreePreview && (
-              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-[var(--green)]/10 text-[var(--green)]">
-                Gratis · Free
-              </span>
-            )}
           </div>
           <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-0.5">
             <span>
@@ -155,11 +142,7 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
 
         {/* Action */}
         <div className="flex-shrink-0">
-          {isLocked ? (
-            <span className="text-xs px-2.5 py-1 rounded-full border border-[var(--ink)]/20 text-[var(--ink)]/40">
-              Upgrade
-            </span>
-          ) : isCompleted ? (
+          {isCompleted ? (
             <div className="text-center">
               <span className="text-xs px-2.5 py-1 rounded-full border border-[var(--ink)]/20 text-[var(--ink)]/50 block">
                 Opnieuw
@@ -186,7 +169,6 @@ interface LevelCardProps {
   level: (typeof LEVELS)[number];
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
-  isPremium?: boolean;
   isExpanded: boolean;
   onToggle: () => void;
   showCompleted: boolean;
@@ -197,7 +179,6 @@ function LevelCard({
   level,
   exams,
   examProgress,
-  isPremium,
   isExpanded,
   onToggle,
   showCompleted,
@@ -326,7 +307,7 @@ function LevelCard({
                   exam={exam}
                   href={`/learn/lezen/mock/${exam.id}`}
                   completion={examProgress[exam.id]}
-                  isPremium={isPremium}
+
                   color={level.color}
                 />
               </div>
@@ -361,7 +342,7 @@ function LevelCard({
                   exam={exam}
                   href={`/learn/lezen/mock/${exam.id}`}
                   completion={undefined}
-                  isPremium={isPremium}
+
                   color={level.color}
                 />
               ))}
@@ -389,7 +370,7 @@ function LevelCard({
                       exam={exam}
                       href={`/learn/lezen/mock/${exam.id}`}
                       completion={examProgress[exam.id]}
-                      isPremium={isPremium}
+    
                       color={level.color}
                     />
                   ))}
@@ -414,10 +395,9 @@ function LevelCard({
 interface MobileTabViewProps {
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
-  isPremium?: boolean;
 }
 
-function MobileTabView({ exams, examProgress, isPremium }: MobileTabViewProps) {
+function MobileTabView({ exams, examProgress }: MobileTabViewProps) {
   const [activeLevel, setActiveLevel] = useState<Difficulty>("A1");
   const [showCompleted, setShowCompleted] = useState(false);
 
@@ -499,7 +479,7 @@ function MobileTabView({ exams, examProgress, isPremium }: MobileTabViewProps) {
                 exam={exam}
                 href={`/learn/lezen/mock/${exam.id}`}
                 completion={undefined}
-                isPremium={isPremium}
+  
                 color={activeConfig.color}
               />
             ))}
@@ -527,7 +507,7 @@ function MobileTabView({ exams, examProgress, isPremium }: MobileTabViewProps) {
                     exam={exam}
                     href={`/learn/lezen/mock/${exam.id}`}
                     completion={examProgress[exam.id]}
-                    isPremium={isPremium}
+  
                     color={activeConfig.color}
                   />
                 ))}
@@ -548,7 +528,7 @@ function MobileTabView({ exams, examProgress, isPremium }: MobileTabViewProps) {
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 
-export function LezenAccordionSelector({ exams, examProgress, isPremium }: Props) {
+export function LezenAccordionSelector({ exams, examProgress }: Props) {
   const [headerVisible, setHeaderVisible] = useState(true);
   const [expandedLevel, setExpandedLevel] = useState<Difficulty | null>(null);
   const [showCompleted, setShowCompleted] = useState<Record<Difficulty, boolean>>({
@@ -656,7 +636,7 @@ export function LezenAccordionSelector({ exams, examProgress, isPremium }: Props
             <MobileTabView
               exams={exams}
               examProgress={examProgress}
-              isPremium={isPremium}
+
             />
           </div>
 
@@ -673,7 +653,7 @@ export function LezenAccordionSelector({ exams, examProgress, isPremium }: Props
                   level={level}
                   exams={levelExams}
                   examProgress={examProgress}
-                  isPremium={isPremium}
+
                   isExpanded={expandedLevel === level.difficulty}
                   onToggle={() => handleToggle(level.difficulty)}
                   showCompleted={showCompleted[level.difficulty]}

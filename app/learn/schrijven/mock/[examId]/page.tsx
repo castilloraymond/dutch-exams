@@ -6,8 +6,6 @@ import Link from "next/link";
 import { ArrowLeft, Clock, PenLine } from "lucide-react";
 import { getWritingMockExam } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
-import { usePremium } from "@/hooks/usePremium";
-import { PremiumGate } from "@/components/PremiumGate";
 import type { FormAnswer, WritingAttempt, WritingSubmission } from "@/lib/types";
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
@@ -24,8 +22,6 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
   const { examId } = use(params);
   const router = useRouter();
   const { saveWritingAttempt } = useProgress();
-  const { isPremium } = usePremium();
-
   const exam = useMemo(() => getWritingMockExam(examId), [examId]);
   const questions = exam?.questions || [];
 
@@ -131,10 +127,6 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Examen niet gevonden</div>
       </div>
     );
-  }
-
-  if (!exam.isFreePreview && !isPremium) {
-    return <PremiumGate backHref="/learn/schrijven/select" backLabel="Back to Writing" />;
   }
 
   // Build all submissions for results (including current)

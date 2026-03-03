@@ -6,8 +6,6 @@ import Link from "next/link";
 import { ArrowLeft, Mic, Clock, AlertCircle } from "lucide-react";
 import { getSpeakingMockExam } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
-import { usePremium } from "@/hooks/usePremium";
-import { PremiumGate } from "@/components/PremiumGate";
 import { useAudioRecorder } from "@/hooks/useAudioRecorder";
 import type { SpeakingAttempt, SpeakingTask } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
@@ -31,8 +29,6 @@ export default function SprekenMockExamPage({ params }: PageProps) {
   const { examId } = use(params);
   const router = useRouter();
   const { saveSpeakingAttempt } = useProgress();
-  const { isPremium } = usePremium();
-
   const exam = useMemo(() => getSpeakingMockExam(examId), [examId]);
   const questions = exam?.questions || [];
 
@@ -161,10 +157,6 @@ export default function SprekenMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Examen niet gevonden</div>
       </div>
     );
-  }
-
-  if (!exam.isFreePreview && !isPremium) {
-    return <PremiumGate backHref="/learn/spreken/select" backLabel="Back to Speaking" />;
   }
 
   // Construct a SpeakingTask-compatible object for SpeakingPrompt and SpeakingResults

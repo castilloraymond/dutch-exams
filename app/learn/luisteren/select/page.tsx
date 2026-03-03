@@ -2,12 +2,10 @@
 
 import { ModuleAccordionSelector } from "@/components/ModuleAccordionSelector";
 import { getMockExamIndex } from "@/lib/content";
-import { usePremium } from "@/hooks/usePremium";
 import { useProgress } from "@/hooks/useProgress";
 
 export default function LuisterenSelectPage() {
   const index = getMockExamIndex("luisteren");
-  const { isPremium } = usePremium();
   const { progress } = useProgress();
 
   if (!index) return <div>Error loading exams</div>;
@@ -17,7 +15,6 @@ export default function LuisterenSelectPage() {
       module="luisteren"
       exams={index.exams}
       examProgress={progress.examProgress ?? {}}
-      isPremium={isPremium}
     />
   );
 }

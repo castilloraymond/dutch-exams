@@ -16,8 +16,6 @@ import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useAuth } from "@/contexts/AuthContext";
 import { useProgress } from "@/hooks/useProgress";
-import { usePremium } from "@/hooks/usePremium";
-import { PremiumGate } from "@/components/PremiumGate";
 
 interface PageProps {
   params: Promise<{ examId: string }>;
@@ -28,7 +26,6 @@ export default function KNMMockExamPage({ params }: PageProps) {
   const router = useRouter();
   const { user } = useAuth();
   const { recordExamCompletion } = useProgress();
-  const { isPremium } = usePremium();
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
@@ -125,10 +122,6 @@ export default function KNMMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Exam not found</div>
       </div>
     );
-  }
-
-  if (!exam.isFreePreview && !isPremium) {
-    return <PremiumGate backHref="/learn/knm/select" backLabel="Back to KNM" />;
   }
 
   if (!started) {

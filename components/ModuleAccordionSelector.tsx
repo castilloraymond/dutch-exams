@@ -11,7 +11,6 @@ import {
   ArrowLeft,
   ChevronDown,
   Check,
-  Lock,
 } from "lucide-react";
 import { MockupNote } from "./MockupNote";
 import type { MockExamSummary, Difficulty, ExamCompletion } from "@/lib/types";
@@ -22,7 +21,6 @@ interface Props {
   module: Module;
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
-  isPremium?: boolean;
 }
 
 const MODULE_CONFIG: Record<
@@ -84,13 +82,11 @@ interface ExamRowProps {
   exam: MockExamSummary;
   href: string;
   completion: ExamCompletion | undefined;
-  isPremium?: boolean;
   color: string;
 }
 
-function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
+function ExamRow({ exam, href, completion, color }: ExamRowProps) {
   const isCompleted = !!completion;
-  const isLocked = !exam.isFreePreview && !isPremium;
   const score = completion
     ? Math.round((completion.correctAnswers / completion.totalQuestions) * 100)
     : null;
@@ -100,7 +96,7 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
   const circumference = 2 * Math.PI * r;
 
   return (
-    <Link href={isLocked ? "/upgrade" : href}>
+    <Link href={href}>
       <div className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:-translate-y-px hover:shadow-sm transition-all cursor-pointer">
         {/* Status ring */}
         <div className="relative flex-shrink-0" style={{ width: ringSize, height: ringSize }}>
@@ -123,11 +119,6 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
               <Check className="h-3.5 w-3.5" style={{ color }} />
             </div>
           )}
-          {isLocked && !isCompleted && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Lock className="h-3 w-3 text-[var(--ink)]/30" />
-            </div>
-          )}
         </div>
 
         {/* Content */}
@@ -136,11 +127,6 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
             <span className="text-sm font-medium text-[var(--ink)] truncate">
               {formatExamTitle(exam.title)}
             </span>
-            {exam.isFreePreview && (
-              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-[var(--green)]/10 text-[var(--green)]">
-                Gratis · Free
-              </span>
-            )}
           </div>
           <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-0.5">
             <span>{exam.questionCount} vragen · {exam.recommendedTime}</span>
@@ -155,11 +141,7 @@ function ExamRow({ exam, href, completion, isPremium, color }: ExamRowProps) {
 
         {/* Action */}
         <div className="flex-shrink-0">
-          {isLocked ? (
-            <span className="text-xs px-2.5 py-1 rounded-full border border-[var(--ink)]/20 text-[var(--ink)]/40">
-              Upgrade
-            </span>
-          ) : isCompleted ? (
+          {isCompleted ? (
             <div className="text-center">
               <span className="text-xs px-2.5 py-1 rounded-full border border-[var(--ink)]/20 text-[var(--ink)]/50 block">
                 Opnieuw
@@ -185,7 +167,6 @@ interface LevelCardProps {
   module: Module;
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
-  isPremium?: boolean;
   isExpanded: boolean;
   onToggle: () => void;
   showCompleted: boolean;
@@ -193,7 +174,7 @@ interface LevelCardProps {
 }
 
 function LevelCard({
-  level, module, exams, examProgress, isPremium,
+  level, module, exams, examProgress,
   isExpanded, onToggle, showCompleted, onToggleCompleted,
 }: LevelCardProps) {
   const { notStarted, completed } = sortExams(exams, examProgress);
@@ -277,7 +258,7 @@ function LevelCard({
             {previewExams.map((exam, i) => (
               <div key={exam.id} style={{ opacity: i === 0 ? 1 : 0.45 }}>
                 <ExamRow exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                  completion={examProgress[exam.id]} isPremium={isPremium} color={level.color} />
+                  completion={examProgress[exam.id]} color={level.color} />
               </div>
             ))}
           </div>
@@ -299,7 +280,7 @@ function LevelCard({
             <div className="space-y-1">
               {notStarted.map((exam) => (
                 <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                  completion={undefined} isPremium={isPremium} color={level.color} />
+                  completion={undefined} color={level.color} />
               ))}
             </div>
           )}
@@ -317,7 +298,7 @@ function LevelCard({
                 <div className="space-y-1 mt-1" style={{ opacity: 0.6 }}>
                   {completed.map((exam) => (
                     <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                      completion={examProgress[exam.id]} isPremium={isPremium} color={level.color} />
+                      completion={examProgress[exam.id]} color={level.color} />
                   ))}
                 </div>
               )}
@@ -340,10 +321,9 @@ interface MobileTabViewProps {
   module: Module;
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
-  isPremium?: boolean;
 }
 
-function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabViewProps) {
+function MobileTabView({ module, exams, examProgress }: MobileTabViewProps) {
   const [activeLevel, setActiveLevel] = useState<Difficulty>("A1");
   const [showCompleted, setShowCompleted] = useState(false);
 
@@ -406,7 +386,7 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
           <div className="p-2 space-y-1">
             {notStarted.map((exam) => (
               <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                completion={undefined} isPremium={isPremium} color={activeConfig.color} />
+                completion={undefined} color={activeConfig.color} />
             ))}
           </div>
         )}
@@ -425,7 +405,7 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
               <div className="space-y-1 mt-1" style={{ opacity: 0.6 }}>
                 {completed.map((exam) => (
                   <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                    completion={examProgress[exam.id]} isPremium={isPremium} color={activeConfig.color} />
+                    completion={examProgress[exam.id]} color={activeConfig.color} />
                 ))}
               </div>
             )}
@@ -443,7 +423,7 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
 
 // ─── Main Export ──────────────────────────────────────────────────────────────
 
-export function ModuleAccordionSelector({ module, exams, examProgress, isPremium }: Props) {
+export function ModuleAccordionSelector({ module, exams, examProgress }: Props) {
   const { title, titleEn, Icon } = MODULE_CONFIG[module];
 
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -529,7 +509,7 @@ export function ModuleAccordionSelector({ module, exams, examProgress, isPremium
 
           {/* Mobile: segmented tabs */}
           <div className="md:hidden">
-            <MobileTabView module={module} exams={exams} examProgress={examProgress} isPremium={isPremium} />
+            <MobileTabView module={module} exams={exams} examProgress={examProgress} />
           </div>
 
           {/* Desktop: accordion */}
@@ -544,8 +524,7 @@ export function ModuleAccordionSelector({ module, exams, examProgress, isPremium
                   module={module}
                   exams={levelExams}
                   examProgress={examProgress}
-                  isPremium={isPremium}
-                  isExpanded={expandedLevel === level.difficulty}
+                                   isExpanded={expandedLevel === level.difficulty}
                   onToggle={() => setExpandedLevel((p) => p === level.difficulty ? null : level.difficulty)}
                   showCompleted={showCompleted[level.difficulty]}
                   onToggleCompleted={() =>
