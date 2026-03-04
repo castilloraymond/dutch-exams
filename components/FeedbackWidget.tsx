@@ -136,7 +136,7 @@ export function FeedbackWidget() {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-50">
+    <div className="fixed bottom-20 sm:bottom-5 right-5 z-50">
       {/* Success state */}
       {isOpen && submitted && (
         <div className="landing-card p-5 mb-3 w-80 text-center animate-in fade-in">
