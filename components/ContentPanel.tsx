@@ -31,8 +31,11 @@ type ContentPanelProps = ContentPanelLezenProps | ContentPanelLuisterenProps | C
 function renderListContent(content: string) {
   const lines = content.split("\n").filter((line) => line.trim());
   const title = lines[0];
-  const intro = lines.slice(1).find((line) => !line.match(/^\d+\./));
-  const listItems = lines.filter((line) => line.match(/^\d+\./));
+  const isDashList = lines.some((line) => line.match(/^-\s+/));
+  const listItems = lines.filter((line) =>
+    isDashList ? line.match(/^-\s+/) : line.match(/^\d+\./)
+  );
+  const intro = lines.slice(1).find((line) => !listItems.includes(line));
 
   return (
     <div className="space-y-4">
@@ -42,16 +45,23 @@ function renderListContent(content: string) {
       {intro && (
         <p className="text-[var(--ink)]/80">{intro}</p>
       )}
-      <ol className="list-decimal list-outside ml-5 space-y-3">
-        {listItems.map((item, idx) => {
-          const text = item.replace(/^\d+\.\s*/, "");
-          return (
+      {isDashList ? (
+        <ul className="list-disc list-outside ml-5 space-y-3">
+          {listItems.map((item, idx) => (
             <li key={idx} className="text-[var(--ink)] pl-2">
-              {text}
+              {item.replace(/^-\s+/, "")}
             </li>
-          );
-        })}
-      </ol>
+          ))}
+        </ul>
+      ) : (
+        <ol className="list-decimal list-outside ml-5 space-y-3">
+          {listItems.map((item, idx) => (
+            <li key={idx} className="text-[var(--ink)] pl-2">
+              {item.replace(/^\d+\.\s*/, "")}
+            </li>
+          ))}
+        </ol>
+      )}
     </div>
   );
 }
