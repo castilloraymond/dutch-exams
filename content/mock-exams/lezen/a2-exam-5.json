@@ -132,7 +132,7 @@
       "id": "a2-5-p3",
       "title": "Menu van restaurant De Tulp",
       "content": "Restaurant De Tulp — Lunchmenu\nBereikbaar: Marktstraat 8, Haarlem | Tel: 023-531 22 80\nOpen: dinsdag t/m zondag, 11:30 - 15:00 (maandag gesloten)\n\nSOEPEN\nTomatensoep met brood — € 6,50\nMosterdsoep (dagsoep) — € 7,00\nGroentesoep (veganistisch) — € 6,50\n\nBROODJES\nBroodje gezond (ham, kaas, ei, groente) — € 8,50\nBroodje tonijnsalade — € 7,95\nBroodje geitenkaas met honing — € 9,50\nTosti ham-kaas — € 6,50\n\nWARME GERECHTEN\nDagschotel (vraag de bediening) — € 13,50\nUitsmijter (3 eieren, ham, kaas, brood) — € 11,00\nPannenkoek naar keuze — € 9,50\n\nALLERGENEN: Vraag onze bediening naar de allergenenkaart.\nAlle prijzen zijn inclusief btw.\n\n*** DAGSPECIAL WOENSDAG: Erwtensoep met roggebrood — € 8,50 ***\n\nWij accepteren alleen pinbetaling, geen contant geld.",
-      "contentType": "list",
+      "contentType": "text",
       "instruction": "Lees het lunchmenu van restaurant De Tulp.",
       "questions": [
         {

@@ -106,7 +106,7 @@
       "id": "a1-2-p3",
       "title": "Menu restaurant",
       "content": "Menu van de dag\n\nSoep: tomatensoep - € 4,50\nHoofdgerecht: spaghetti - € 12,00\nDessert: appeltaart - € 5,00\n\nDrankjes:\nKoffie - € 2,50\nThee - € 2,50\nCola - € 3,00",
-      "contentType": "list",
+      "contentType": "notice",
       "instruction": "Bekijk het menu.",
       "questions": [
         {

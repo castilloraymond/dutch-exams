@@ -106,7 +106,7 @@
       "id": "a1-3-p3",
       "title": "Prijslijst kapper",
       "content": "Kapsalon Knipkunst — Prijslijst\n\nKnippen heren: € 18,00\nKnippen dames: € 25,00\nKnippen kinderen (t/m 12 jaar): € 12,50\nWassen en knippen: € 30,00\nVerven: € 45,00\n\nOpen: dinsdag t/m zaterdag\nAfspraak maken: 030-9876543",
-      "contentType": "list",
+      "contentType": "notice",
       "instruction": "Lees de prijslijst van de kapper.",
       "questions": [
         {
