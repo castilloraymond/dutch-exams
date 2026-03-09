@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { supabaseAdmin } from "@/lib/supabase-admin";
+import { clerkClient } from "@clerk/nextjs/server";
 
 export async function POST(request: NextRequest) {
   try {
@@ -14,13 +14,6 @@ export async function POST(request: NextRequest) {
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
       apiVersion: "2026-01-28.clover",
     });
-
-    if (!supabaseAdmin) {
-      return NextResponse.json(
-        { error: "Admin client not configured" },
-        { status: 503 }
-      );
-    }
 
     const body = await request.text();
     const signature = request.headers.get("stripe-signature");
@@ -49,31 +42,24 @@ export async function POST(request: NextRequest) {
 
     if (event.type === "checkout.session.completed") {
       const session = event.data.object as Stripe.Checkout.Session;
-      const userId = session.metadata?.supabase_user_id;
+      const userId = session.metadata?.clerk_user_id;
 
       if (!userId) {
-        console.error("No supabase_user_id in session metadata");
+        console.error("No clerk_user_id in session metadata");
         return NextResponse.json(
           { error: "Missing user ID" },
           { status: 400 }
         );
       }
 
-      const { error } = await supabaseAdmin.auth.admin.updateUserById(userId, {
-        user_metadata: {
+      const client = await clerkClient();
+      await client.users.updateUserMetadata(userId, {
+        publicMetadata: {
           isPremium: true,
           stripeCustomerId: session.customer as string,
           premiumSince: new Date().toISOString(),
         },
       });
-
-      if (error) {
-        console.error("Failed to update user metadata:", error);
-        return NextResponse.json(
-          { error: "Failed to update user" },
-          { status: 500 }
-        );
-      }
 
       console.log(`User ${userId} upgraded to Founding Member`);
     }

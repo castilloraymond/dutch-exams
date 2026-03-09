@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
-import { LoginForm } from "@/components/auth";
+import { SignIn } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "Log In",
@@ -9,8 +8,11 @@ export const metadata: Metadata = {
 
 export default function LoginPage() {
   return (
-    <Suspense>
-      <LoginForm />
-    </Suspense>
+    <main className="min-h-screen flex items-center justify-center bg-[var(--cream)] px-4">
+      <SignIn
+        routing="hash"
+        fallbackRedirectUrl="/learn"
+      />
+    </main>
   );
 }

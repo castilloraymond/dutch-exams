@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser } from "@clerk/nextjs";
 
 export function BlogCTA() {
-  const { user } = useAuth();
+  const { user } = useUser();
 
   return (
     <div className="my-10 rounded-2xl bg-[var(--cream-dark)] p-6 md:p-8">

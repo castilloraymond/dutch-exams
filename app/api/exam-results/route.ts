@@ -1,28 +1,25 @@
-import { createServerComponentClient } from "@/lib/supabase-server";
+import { auth } from "@clerk/nextjs/server";
+import { createServerSupabaseClient } from "@/lib/supabase-server";
 import { rateLimit } from "@/lib/rate-limit";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerComponentClient();
+    const { userId } = await auth();
 
-    if (!supabase) {
-      return NextResponse.json(
-        { error: "Authentication not configured" },
-        { status: 503 }
-      );
-    }
-
-    // Get the current user
-    const {
-      data: { user },
-      error: authError,
-    } = await supabase.auth.getUser();
-
-    if (authError || !user) {
+    if (!userId) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
+      );
+    }
+
+    const supabase = createServerSupabaseClient();
+
+    if (!supabase) {
+      return NextResponse.json(
+        { error: "Database not configured" },
+        { status: 503 }
       );
     }
 
@@ -38,7 +35,7 @@ export async function POST(request: NextRequest) {
     } = body;
 
     // Rate limit: 50 requests per hour per user
-    const { allowed, retryAfterMs } = rateLimit(`exam-results:${user.id}`, 50, 60 * 60 * 1000);
+    const { allowed, retryAfterMs } = rateLimit(`exam-results:${userId}`, 50, 60 * 60 * 1000);
     if (!allowed) {
       return NextResponse.json(
         { error: "Too many requests. Please try again later." },
@@ -88,7 +85,7 @@ export async function POST(request: NextRequest) {
     const { data, error } = await supabase
       .from("exam_results")
       .insert({
-        user_id: user.id,
+        user_id: userId,
         exam_id: examId,
         module,
         difficulty,
@@ -122,32 +119,28 @@ export async function POST(request: NextRequest) {
 
 export async function GET() {
   try {
-    const supabase = await createServerComponentClient();
+    const { userId } = await auth();
 
-    if (!supabase) {
-      return NextResponse.json(
-        { error: "Authentication not configured" },
-        { status: 503 }
-      );
-    }
-
-    // Get the current user
-    const {
-      data: { user },
-      error: authError,
-    } = await supabase.auth.getUser();
-
-    if (authError || !user) {
+    if (!userId) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
       );
     }
 
+    const supabase = createServerSupabaseClient();
+
+    if (!supabase) {
+      return NextResponse.json(
+        { error: "Database not configured" },
+        { status: 503 }
+      );
+    }
+
     const { data, error } = await supabase
       .from("exam_results")
       .select("*")
-      .eq("user_id", user.id)
+      .eq("user_id", userId)
       .order("created_at", { ascending: false });
 
     if (error) {

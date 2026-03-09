@@ -11,11 +11,10 @@ import {
   PenLine,
   Mic,
   LogOut,
-  KeyRound,
   Mail,
   Chrome,
 } from "lucide-react";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser, useClerk } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
 import { usePremium } from "@/hooks/usePremium";
 import { Button } from "@/components/ui/button";
@@ -36,19 +35,19 @@ const SPREKEN_IDS = getSpeakingIndex().tasks.map((t) => t.id);
 
 export default function ProfilePage() {
   const router = useRouter();
-  const { user, loading, isConfigured, resetPassword, signOut } = useAuth();
+  const { user, isLoaded } = useUser();
+  const { signOut } = useClerk();
   const { progress } = useProgress();
   const { isPremium } = usePremium();
-  const [resetStatus, setResetStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [signingOut, setSigningOut] = useState(false);
 
   useEffect(() => {
-    if (!loading && !user) {
+    if (isLoaded && !user) {
       router.push("/learn");
     }
-  }, [loading, user, router]);
+  }, [isLoaded, user, router]);
 
-  if (loading || !user) {
+  if (!isLoaded || !user) {
     return (
       <main className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
         <div className="h-8 w-8 rounded-full border-2 border-[var(--accent)] border-t-transparent animate-spin" />
@@ -56,8 +55,8 @@ export default function ProfilePage() {
     );
   }
 
-  const email = user.email || "";
-  const isGoogleUser = user.app_metadata?.provider === "google";
+  const email = user.primaryEmailAddress?.emailAddress || "";
+  const isGoogleUser = user.externalAccounts?.some(a => a.provider === "google");
 
   // Compute progress per module
   const lezenCompleted = LEZEN_IDS.filter((id) => progress.passageProgress[id]?.completed).length;
@@ -73,12 +72,6 @@ export default function ProfilePage() {
     { name: "Schrijven (Writing)", icon: PenLine, completed: schrijvenCompleted, total: SCHRIJVEN_IDS.length },
     { name: "Spreken (Speaking)", icon: Mic, completed: sprekenCompleted, total: SPREKEN_IDS.length },
   ];
-
-  const handleResetPassword = async () => {
-    setResetStatus("sending");
-    const result = await resetPassword(email);
-    setResetStatus(result.error ? "error" : "sent");
-  };
 
   const handleSignOut = async () => {
     setSigningOut(true);
@@ -139,33 +132,6 @@ export default function ProfilePage() {
               </div>
             </div>
           </div>
-
-          {/* Reset Password (email users only) */}
-          {!isGoogleUser && (
-            <div className="landing-card p-6">
-              <h2 className="font-semibold text-[var(--ink)] mb-3 flex items-center gap-2">
-                <KeyRound className="h-5 w-5 text-[var(--accent)]" />
-                Password
-              </h2>
-              {resetStatus === "sent" ? (
-                <p className="text-sm text-green-700">
-                  Password reset email sent! Check your inbox.
-                </p>
-              ) : resetStatus === "error" ? (
-                <p className="text-sm text-red-600">
-                  Failed to send reset email. Please try again.
-                </p>
-              ) : (
-                <Button
-                  variant="outline"
-                  onClick={handleResetPassword}
-                  disabled={resetStatus === "sending"}
-                >
-                  {resetStatus === "sending" ? "Sending..." : "Send Password Reset Email"}
-                </Button>
-              )}
-            </div>
-          )}
 
           {/* Progress Overview */}
           <div className="landing-card p-6">

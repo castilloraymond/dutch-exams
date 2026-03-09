@@ -14,8 +14,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { getQuickAssessmentWritingTask, getQuickAssessmentModules } from "@/lib/content";
-import { useAuth } from "@/contexts/AuthContext";
-import { GoogleSignInButton } from "@/components/GoogleSignInButton";
+import { useUser } from "@clerk/nextjs";
 
 type Stage = "writing" | "results";
 
@@ -23,7 +22,7 @@ const STORAGE_KEY = "quick-assessment-schrijven-result";
 
 export default function SchrijvenTrialPage() {
   const router = useRouter();
-  const { user, isConfigured } = useAuth();
+  const { user } = useUser();
 
   const task = useMemo(() => getQuickAssessmentWritingTask(), []);
   const moduleInfo = useMemo(
@@ -268,27 +267,18 @@ export default function SchrijvenTrialPage() {
                   </div>
 
                   <div className="flex flex-col gap-2">
-                    {isConfigured && (
-                      <GoogleSignInButton
-                        className="w-full justify-center py-3"
-                        redirectTo="/try/schrijven"
-                      >
-                        Sign up with Google
-                      </GoogleSignInButton>
-                    )}
-
                     <Link
-                      href="/auth/signup?redirect=/try/schrijven"
+                      href="/auth/signup?redirect_url=/try/schrijven"
                       className="inline-flex items-center justify-center gap-2 w-full px-5 py-3 bg-[var(--ink)] text-white rounded-full font-medium hover:bg-[var(--ink)]/90 transition-colors text-sm"
                     >
                       <Mail className="h-4 w-4" />
-                      Sign up with Email
+                      Sign up
                     </Link>
 
                     <p className="text-center text-xs text-[var(--ink)]/50">
                       Already have an account?{" "}
                       <Link
-                        href="/auth/login?redirect=/try/schrijven"
+                        href="/auth/login?redirect_url=/try/schrijven"
                         className="text-[var(--accent)] hover:underline"
                       >
                         Log in
