@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Check, ShieldCheck, Flame } from "lucide-react";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser } from "@clerk/nextjs";
 import { usePremium } from "@/hooks/usePremium";
 
 const SPOTS_TAKEN = 84;
@@ -19,7 +19,7 @@ const features = [
 ];
 
 export function PricingCard({ compact }: { compact?: boolean }) {
-  const { user } = useAuth();
+  const { user } = useUser();
   const { isPremium } = usePremium();
   const router = useRouter();
   const [loading, setLoading] = useState(false);

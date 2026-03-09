@@ -18,8 +18,7 @@ import {
   type QuickAssessmentQuestion,
 } from "@/lib/content";
 import type { QuickAssessmentModule, QuickAssessmentAttempt } from "@/lib/types";
-import { useAuth } from "@/contexts/AuthContext";
-import { GoogleSignInButton } from "@/components/GoogleSignInButton";
+import { useUser } from "@clerk/nextjs";
 
 const STORAGE_KEY_PREFIX = "quick-assessment-";
 
@@ -34,7 +33,7 @@ export default function ResultsPage() {
   const params = useParams();
   const router = useRouter();
   const module = params.module as QuickAssessmentModule;
-  const { user, loading: authLoading, isConfigured } = useAuth();
+  const { user, isLoaded } = useUser();
 
   const [result, setResult] = useState<QuickAssessmentAttempt | null>(null);
   const [questions, setQuestions] = useState<QuickAssessmentQuestion[]>([]);
@@ -42,7 +41,8 @@ export default function ResultsPage() {
 
   // Fire Loops quick_assessment_completed event (once per user)
   useEffect(() => {
-    if (!user?.email || !result) return;
+    const email = user?.primaryEmailAddress?.emailAddress;
+    if (!email || !result) return;
     const flag = "loops-qa-event-sent";
     if (localStorage.getItem(flag)) return;
 
@@ -71,7 +71,7 @@ export default function ResultsPage() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        email: user.email,
+        email,
         eventName: "quick_assessment_completed",
         contactProperties: {
           quickAssessmentCompleted: true,
@@ -116,7 +116,7 @@ export default function ResultsPage() {
     setIsLoading(false);
   }, [module, router]);
 
-  if (isLoading || authLoading || !result) {
+  if (isLoading || !isLoaded || !result) {
     return (
       <main className="min-h-screen flex items-center justify-center bg-[var(--cream)]">
         <div className="text-[var(--ink)]/60">Loading results...</div>
@@ -327,27 +327,18 @@ export default function ResultsPage() {
               </div>
 
               <div className="flex flex-col gap-3">
-                {isConfigured && (
-                  <GoogleSignInButton
-                    className="w-full justify-center py-3.5"
-                    redirectTo={`/try/${module}/results`}
-                  >
-                    Sign up with Google
-                  </GoogleSignInButton>
-                )}
-
                 <Link
-                  href={`/auth/signup?redirect=/try/${module}/results`}
+                  href={`/auth/signup?redirect_url=/try/${module}/results`}
                   className="inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-[var(--ink)] text-white rounded-full font-medium hover:bg-[var(--ink)]/90 transition-colors"
                 >
                   <Mail className="h-4 w-4" />
-                  Sign up with Email
+                  Sign up
                 </Link>
 
                 <p className="text-center text-sm text-[var(--ink)]/50">
                   Already have an account?{" "}
                   <Link
-                    href={`/auth/login?redirect=/try/${module}/results`}
+                    href={`/auth/login?redirect_url=/try/${module}/results`}
                     className="text-[var(--accent)] hover:underline"
                   >
                     Log in

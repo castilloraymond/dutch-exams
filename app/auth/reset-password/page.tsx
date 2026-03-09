@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ResetPasswordForm } from "@/components/auth";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Reset Password",
@@ -7,5 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function ResetPasswordPage() {
-  return <ResetPasswordForm />;
+  // Clerk handles password reset within the SignIn component
+  redirect("/auth/login");
 }

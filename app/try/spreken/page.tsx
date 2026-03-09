@@ -23,8 +23,7 @@ import {
 import { getQuickAssessmentSpeakingTask, getQuickAssessmentModules } from "@/lib/content";
 import { useAudioRecorder } from "@/hooks/useAudioRecorder";
 import type { AssessmentCriterion } from "@/lib/types";
-import { useAuth } from "@/contexts/AuthContext";
-import { GoogleSignInButton } from "@/components/GoogleSignInButton";
+import { useUser } from "@clerk/nextjs";
 
 type Stage = "prompt" | "recording" | "playback" | "self-assessment" | "results";
 
@@ -32,7 +31,7 @@ const STORAGE_KEY = "quick-assessment-spreken-result";
 
 export default function SprekenTrialPage() {
   const router = useRouter();
-  const { user, isConfigured } = useAuth();
+  const { user } = useUser();
 
   const task = useMemo(() => getQuickAssessmentSpeakingTask(), []);
   const moduleInfo = useMemo(
@@ -704,27 +703,18 @@ export default function SprekenTrialPage() {
                   </div>
 
                   <div className="flex flex-col gap-3">
-                    {isConfigured && (
-                      <GoogleSignInButton
-                        className="w-full justify-center py-3.5"
-                        redirectTo="/try/spreken"
-                      >
-                        Sign up with Google
-                      </GoogleSignInButton>
-                    )}
-
                     <Link
-                      href="/auth/signup?redirect=/try/spreken"
+                      href="/auth/signup?redirect_url=/try/spreken"
                       className="inline-flex items-center justify-center gap-2 w-full px-6 py-3.5 bg-[var(--ink)] text-white rounded-full font-medium hover:bg-[var(--ink)]/90 transition-colors"
                     >
                       <Mail className="h-4 w-4" />
-                      Sign up with Email
+                      Sign up
                     </Link>
 
                     <p className="text-center text-sm text-[var(--ink)]/50">
                       Already have an account?{" "}
                       <Link
-                        href="/auth/login?redirect=/try/spreken"
+                        href="/auth/login?redirect_url=/try/spreken"
                         className="text-[var(--accent)] hover:underline"
                       >
                         Log in

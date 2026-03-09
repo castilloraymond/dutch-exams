@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
-import { AuthProvider } from "@/contexts/AuthContext";
+import { ClerkProvider } from "@clerk/nextjs";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { JsonLd } from "@/components/JsonLd";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
@@ -115,11 +115,11 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <GoogleAnalytics />
-        <AuthProvider>
+        <ClerkProvider>
           {children}
           <FeedbackWidget />
           <CookieConsent />
-        </AuthProvider>
+        </ClerkProvider>
       </body>
     </html>
   );

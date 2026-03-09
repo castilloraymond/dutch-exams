@@ -13,7 +13,7 @@ import { ResultsSummary } from "@/components/ResultsSummary";
 import { ExitWarningModal } from "@/components/ExitWarningModal";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import type { Question } from "@/lib/types";
@@ -25,7 +25,7 @@ interface PageProps {
 export default function LuisterenMockExamPage({ params }: PageProps) {
   const { examId } = use(params);
   const router = useRouter();
-  const { user } = useAuth();
+  const { user } = useUser();
   const { recordExamCompletion } = useProgress();
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);

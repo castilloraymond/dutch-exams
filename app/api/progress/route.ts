@@ -1,32 +1,34 @@
-import { createServerComponentClient } from "@/lib/supabase-server";
+import { auth, clerkClient } from "@clerk/nextjs/server";
+import { createServerSupabaseClient } from "@/lib/supabase-server";
 import { rateLimit } from "@/lib/rate-limit";
 import { NextRequest, NextResponse } from "next/server";
 import type { UserProgress } from "@/lib/types";
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createServerComponentClient();
+    const { userId } = await auth();
 
-    if (!supabase) {
-      return NextResponse.json(
-        { error: "Authentication not configured" },
-        { status: 503 }
-      );
-    }
-
-    const {
-      data: { user },
-      error: authError,
-    } = await supabase.auth.getUser();
-
-    if (authError || !user) {
+    if (!userId) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
       );
     }
 
-    const email = user.email;
+    const supabase = createServerSupabaseClient();
+
+    if (!supabase) {
+      return NextResponse.json(
+        { error: "Database not configured" },
+        { status: 503 }
+      );
+    }
+
+    // Get email from Clerk
+    const client = await clerkClient();
+    const clerkUser = await client.users.getUser(userId);
+    const email = clerkUser.emailAddresses[0]?.emailAddress;
+
     if (!email) {
       return NextResponse.json(
         { error: "User email not available" },
@@ -98,28 +100,29 @@ export async function POST(request: NextRequest) {
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function GET(_request: NextRequest) {
   try {
-    const supabase = await createServerComponentClient();
+    const { userId } = await auth();
 
-    if (!supabase) {
-      return NextResponse.json(
-        { error: "Authentication not configured" },
-        { status: 503 }
-      );
-    }
-
-    const {
-      data: { user },
-      error: authError,
-    } = await supabase.auth.getUser();
-
-    if (authError || !user) {
+    if (!userId) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
       );
     }
 
-    const email = user.email;
+    const supabase = createServerSupabaseClient();
+
+    if (!supabase) {
+      return NextResponse.json(
+        { error: "Database not configured" },
+        { status: 503 }
+      );
+    }
+
+    // Get email from Clerk
+    const client = await clerkClient();
+    const clerkUser = await client.users.getUser(userId);
+    const email = clerkUser.emailAddresses[0]?.emailAddress;
+
     if (!email) {
       return NextResponse.json(
         { error: "User email not available" },

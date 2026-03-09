@@ -2,8 +2,8 @@
 
 import { useState, useRef } from "react";
 import { Bug, X, Send, CheckCircle } from "lucide-react";
-import { useAuth } from "@/contexts/AuthContext";
-import { createClient } from "@/lib/supabase-browser";
+import { useUser } from "@clerk/nextjs";
+import { createClient } from "@/lib/supabase-storage";
 
 type FeedbackType = "bug" | "feedback";
 
@@ -62,8 +62,8 @@ export function FeedbackWidget() {
   const [submitted, setSubmitted] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
 
-  const { user } = useAuth();
-  const isOwner = user?.email?.toLowerCase() === OWNER_EMAIL;
+  const { user } = useUser();
+  const isOwner = user?.primaryEmailAddress?.emailAddress?.toLowerCase() === OWNER_EMAIL;
 
   const reset = () => {
     setDescription("");

@@ -14,7 +14,7 @@ import { ExitWarningModal } from "@/components/ExitWarningModal";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
 import type { Question } from "@/lib/types";
 
@@ -25,7 +25,7 @@ interface PageProps {
 export default function LezenMockExamPage({ params }: PageProps) {
   const { examId } = use(params);
   const router = useRouter();
-  const { user } = useAuth();
+  const { user } = useUser();
   const { recordExamCompletion } = useProgress();
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
