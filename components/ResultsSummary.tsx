@@ -5,7 +5,7 @@ import Link from "next/link";
 import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown, UserPlus } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser } from "@clerk/nextjs";
 
 const LABELS = ["A", "B", "C", "D"];
 
@@ -50,7 +50,7 @@ export function ResultsSummary({
   allModulesCompleted = false,
   showSignupCTA = false,
 }: ResultsSummaryProps) {
-  const { user } = useAuth();
+  const { user } = useUser();
   const [showReview, setShowReview] = useState(false);
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;
