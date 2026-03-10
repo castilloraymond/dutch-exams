@@ -33,7 +33,7 @@ export function LandingHero() {
 
                 <div className="flex flex-col items-center sm:flex-row sm:items-center gap-4 mb-4">
                     <Link
-                        href="/learn"
+                        href="/try"
                         className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-9 py-4 rounded-full font-semibold text-base"
                     >
                         Start a mock exam

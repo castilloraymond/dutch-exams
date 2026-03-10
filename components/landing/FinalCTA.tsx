@@ -14,7 +14,7 @@ export function FinalCTA() {
                 46 mock exams across all 5 modules. Real exam format. Explanations for every question. Completely free — no account required.
             </p>
             <Link
-                href="/learn"
+                href="/try"
                 className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto max-w-[320px] px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
             >
                 Start a mock exam

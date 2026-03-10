@@ -51,6 +51,14 @@ export function LandingNav() {
                     >
                         Exam Resources
                     </Link>
+                    {!loading && !user && (
+                        <Link
+                            href="/auth/login"
+                            className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
+                        >
+                            Log In
+                        </Link>
+                    )}
                     {!loading && user ? (
                         <Link
                             href="/profile"
@@ -60,7 +68,7 @@ export function LandingNav() {
                         </Link>
                     ) : null}
                     <Link
-                        href="/learn"
+                        href="/try"
                         className="hidden sm:inline-flex bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250"
                     >
                         Start practicing
@@ -95,6 +103,15 @@ export function LandingNav() {
                         >
                             Exam Resources
                         </Link>
+                        {!loading && !user && (
+                            <Link
+                                href="/auth/login"
+                                onClick={() => setMenuOpen(false)}
+                                className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
+                            >
+                                Log In
+                            </Link>
+                        )}
                         {!loading && user && (
                             <Link
                                 href="/profile"
@@ -106,7 +123,7 @@ export function LandingNav() {
                             </Link>
                         )}
                         <Link
-                            href="/learn"
+                            href="/try"
                             onClick={() => setMenuOpen(false)}
                             className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-sm text-center hover:bg-[var(--accent)] transition-all"
                         >
