@@ -58,7 +58,7 @@
       "id": "a1-4-p2",
       "title": "Zwembad informatie",
       "content": "Zwembad De Watervriend\n\nOpeningstijden:\nMaandag t/m vrijdag: 07:00 - 21:00\nZaterdag en zondag: 09:00 - 17:00\n\nPrijzen:\nVolwassenen: € 5,50\nKinderen (4-12 jaar): € 3,50\nKinderen onder 4 jaar: gratis\n\nVergeet uw badmuts niet! Die is verplicht.",
-      "contentType": "list",
+      "contentType": "notice",
       "instruction": "Lees de informatie over het zwembad.",
       "questions": [
         {

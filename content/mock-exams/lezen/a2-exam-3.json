@@ -254,7 +254,7 @@
       "id": "a2-3-p5",
       "title": "Informatie over parkeren",
       "content": "Parkeerregels wijk Zonnedael\n\nInwoners van wijk Zonnedael hebben een parkeervergunning nodig om in de wijk te parkeren.\n\nKosten vergunning:\n- Eerste auto: € 120,00 per jaar\n- Tweede auto: € 180,00 per jaar\n- Derde auto of meer: niet mogelijk\n\nBezoekers:\n- Bezoekerspas: € 2,50 per dagdeel (ochtend, middag of avond)\n- U kunt maximaal 200 dagdelen per jaar kopen via www.gemeente.nl/parkeren\n\nRegels:\n- Parkeren zonder vergunning: boete van € 70,00\n- Altijd parkeren binnen de vakken\n- Gehandicaptenparkeerplaatsen zijn alleen voor mensen met een gehandicaptenparkeerkaart\n- Tussen 09:00 en 21:00 uur is betaald parkeren van kracht",
-      "contentType": "list",
+      "contentType": "text",
       "instruction": "Lees de informatie over parkeren in de wijk.",
       "questions": [
         {
