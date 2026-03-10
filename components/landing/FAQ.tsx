@@ -19,11 +19,11 @@ const faqs: FAQItem[] = [
     },
     {
         question: "Do I need an account to start?",
-        answer: "No. You can start practicing right now — no account and no payment needed. Create a free account if you want to sync progress across devices.",
+        answer: "No. You can start practicing right now — no signup needed. 25 mock exams are free. Upgrade to Pro (\u20AC24.99, one-time) for unlimited access to all 71 mock exams.",
     },
     {
         question: "How is this different from the DUO practice materials?",
-        answer: "DUO offers a limited set of sample questions. We have 46 full mock exams with 1,000+ questions, English explanations for every answer, and progress tracking across all modules so you can see exactly where you stand.",
+        answer: "DUO offers a limited set of sample questions. We have 71 full mock exams with 1,000+ questions, English explanations for every answer, and progress tracking across all modules so you can see exactly where you stand.",
     },
     {
         question: "Is my progress saved?",

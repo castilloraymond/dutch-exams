@@ -7,7 +7,7 @@ export function LandingHero() {
             {/* Left column */}
             <div className="animate-reveal text-center sm:text-left flex-1 flex flex-col justify-center sm:block">
                 <div className="hidden sm:inline-flex items-center gap-2 bg-[var(--accent-soft)] text-[var(--accent)] font-semibold text-[0.82rem] px-4 py-2 rounded-full mb-7 tracking-[0.02em]">
-                    ✨ 100% free — no payment required
+                    ✨ Start practicing for free — no signup required
                 </div>
 
                 <h1 className="text-[2.2rem] sm:text-[clamp(2.8rem,4.5vw,3.8rem)] leading-[1.1] sm:leading-[1.12] text-[var(--ink)] tracking-[-0.03em] mb-4 sm:mb-6 font-extrabold">
