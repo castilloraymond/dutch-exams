@@ -169,6 +169,7 @@ export default function KNMMockExamPage({ params }: PageProps) {
         <ExamHeader title={exam.title} startTime={startTime} />
 
         <ExamLayout
+          scrollKey={currentQuestionIndex}
           left={
             <ContentPanel
               type="knm"
