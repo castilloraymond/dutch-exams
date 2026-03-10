@@ -2,19 +2,11 @@
 
 Ongoing bug tracker for passinburgering.com. Detailed original report: [BUG_REPORT.md](../BUG_REPORT.md) (Feb 5, 2026).
 
-**Status values:** `Open` · `In Progress` · `Needs Triage` · `Stale` · `Won't Fix` · `Fixed`
+**Status values:** `Open` · `In Progress` · `Won't Fix` · `Fixed`
+
+> **Widget-reported bugs** are now tracked as [GitHub Issues](https://github.com/castilloraymond/dutch-exams/issues?q=label%3Abug).
 
 ## Open Bugs
-
-### My Reports (owner-reported via bug widget)
-
-| # | Bug | Location | Reported | Status | Notes |
-|---|-----|----------|----------|--------|-------|
-
-### Needs Triage (reported via bug widget)
-
-| # | Bug | Location | Reported | Status | Notes |
-|---|-----|----------|----------|--------|-------|
 
 ### Critical
 

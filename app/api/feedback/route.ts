@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 import { rateLimit } from "@/lib/rate-limit";
-import { appendBugToTracker } from "@/lib/github-bugs";
+import { createBugIssue } from "@/lib/github-bugs";
 
 const OWNER_EMAIL = "hello@passinburgering.com";
 
@@ -123,8 +123,8 @@ export async function POST(request: NextRequest) {
                 }
                 : undefined;
 
-            appendBugToTracker(description.trim(), page_url || "", email?.trim() || null, ownerContext).catch(
-                (err) => console.error("Failed to update BUGS.md:", err)
+            createBugIssue(description.trim(), page_url || "", email?.trim() || null, ownerContext).catch(
+                (err) => console.error("Failed to create GitHub issue:", err)
             );
         }
 
