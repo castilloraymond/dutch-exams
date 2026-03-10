@@ -222,6 +222,7 @@ export default function FreeExamPage() {
         <ExamHeader title={exam.title} startTime={startTime} />
 
         <ExamLayout
+          scrollKey={currentQuestionIndex}
           left={leftPanel}
           right={
             currentQuestion && (

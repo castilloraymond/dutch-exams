@@ -179,6 +179,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
         <ExamHeader title={exam.title} startTime={startTime} />
 
         <ExamLayout
+          scrollKey={currentQuestionIndex}
           left={
             currentPassage && (
               <ContentPanel

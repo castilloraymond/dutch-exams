@@ -107,6 +107,7 @@ export default function LezenExamPage() {
       <ExamHeader title="Lezen A2 Oefenexamen" startTime={startTime} />
 
       <ExamLayout
+        scrollKey={currentQuestionIndex}
         left={
           currentPassage && (
             <ContentPanel

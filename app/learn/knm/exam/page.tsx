@@ -104,6 +104,7 @@ export default function KNMExamPage() {
       <ExamHeader title="KNM Oefenexamen" startTime={startTime} />
 
       <ExamLayout
+        scrollKey={currentQuestionIndex}
         left={
           <ContentPanel
             type="knm"

@@ -108,6 +108,7 @@ export default function LuisterenExamPage() {
       <ExamHeader title="Luisteren A2 Oefenexamen" startTime={startTime} />
 
       <ExamLayout
+        scrollKey={currentQuestionIndex}
         left={
           currentExercise && (
             <ContentPanel
