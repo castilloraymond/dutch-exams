@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown } from "lucide-react";
+import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown, UserPlus } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { useUser } from "@clerk/nextjs";
 
 const LABELS = ["A", "B", "C", "D"];
 
@@ -27,6 +28,7 @@ interface ResultsSummaryProps {
   backLabel?: string;
   suggestedExams?: SuggestedExam[];
   allModulesCompleted?: boolean;
+  showSignupCTA?: boolean;
 }
 
 const MODULE_ICONS = {
@@ -46,7 +48,9 @@ export function ResultsSummary({
   backLabel = "Back to Modules",
   suggestedExams = [],
   allModulesCompleted = false,
+  showSignupCTA = false,
 }: ResultsSummaryProps) {
+  const { user } = useUser();
   const [showReview, setShowReview] = useState(false);
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;
@@ -110,8 +114,38 @@ export function ResultsSummary({
         </div>
       </div>
 
+      {/* Signup CTA for free preview users */}
+      {showSignupCTA && !user && (
+        <div className="w-full max-w-2xl mt-6">
+          <div className="landing-card p-6 bg-gradient-to-br from-[var(--accent)]/5 to-[var(--accent)]/10 border-2 border-[var(--accent)]/20">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0">
+                <UserPlus className="h-6 w-6 text-white" />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-[var(--ink)] text-lg mb-2">
+                  Create a free account to unlock more exams
+                </h3>
+                <p className="text-sm text-[var(--ink)]/70 mb-4">
+                  Access all mock exams across all 5 modules — Lezen, Luisteren, KNM, Schrijven, and Spreken.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link href="/auth/signup" className="cta-primary py-3 px-6 cursor-pointer inline-flex items-center justify-center gap-2">
+                    Sign up free
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                  <Link href="/auth/login" className="py-3 px-6 text-sm font-medium text-[var(--ink)]/70 hover:text-[var(--ink)] transition-colors inline-flex items-center justify-center">
+                    Already have an account? Log in
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Next Steps Section */}
-      {suggestedExams.length > 0 && !allModulesCompleted && (
+      {suggestedExams.length > 0 && !showSignupCTA && !allModulesCompleted && (
         <div className="w-full max-w-2xl mt-6">
           <div className="landing-card p-6">
             <h3 className="font-semibold text-[var(--ink)] mb-4">
@@ -150,7 +184,7 @@ export function ResultsSummary({
       )}
 
       {/* All Completed - Congratulations */}
-      {allModulesCompleted && (
+      {allModulesCompleted && !showSignupCTA && (
         <div className="w-full max-w-2xl mt-6">
           <div className="landing-card p-6 bg-gradient-to-br from-[var(--accent)]/5 to-[var(--accent)]/10 border-2 border-[var(--accent)]/20">
             <div className="flex items-start gap-4">

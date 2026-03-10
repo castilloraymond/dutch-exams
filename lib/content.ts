@@ -453,6 +453,14 @@ export function getSuggestedExams(
   return shuffleArray(allExams);
 }
 
+export function getFreePreviewExamId(module: string): string | null {
+  const index = mockExamIndices[module];
+  if (!index) return null;
+  const a2 = index.exams.find((e) => e.isFreePreview && e.difficulty === "A2");
+  if (a2) return a2.id;
+  return index.exams.find((e) => e.isFreePreview)?.id || null;
+}
+
 export function getAllExamCount(): number {
   let count = 0;
   for (const index of Object.values(mockExamIndices)) {
