@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
     // Check if already premium via Clerk publicMetadata
     if (clerkUser.publicMetadata?.isPremium === true) {
       return NextResponse.json(
-        { error: "You already have Founding Member access" },
+        { error: "You already have Pro access" },
         { status: 400 }
       );
     }
@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
       custom_text: {
         submit: {
           message:
-            "Thank you for becoming a Founding Member! You're getting lifetime access to all current and future content, early access to new features, and a full refund guarantee — no questions asked.",
+            "Thank you for upgrading to Pro! You're getting unlimited access to all mock exams across all levels. 7-day money-back guarantee — no questions asked.",
         },
       },
       success_url: `${origin}/learn?upgraded=true`,

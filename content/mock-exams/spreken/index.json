@@ -15,7 +15,7 @@
       "difficulty": "A1",
       "questionCount": 4,
       "recommendedTime": "15 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "spreken-a2-1",
@@ -31,7 +31,7 @@
       "difficulty": "A2",
       "questionCount": 4,
       "recommendedTime": "15 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "spreken-a2-3",
@@ -71,7 +71,7 @@
       "difficulty": "B1",
       "questionCount": 4,
       "recommendedTime": "15 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "spreken-b1-4",
@@ -79,7 +79,7 @@
       "difficulty": "B1",
       "questionCount": 4,
       "recommendedTime": "15 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "spreken-b1-5",
@@ -87,7 +87,7 @@
       "difficulty": "B1",
       "questionCount": 4,
       "recommendedTime": "15 min",
-      "isFreePreview": true
+      "isFreePreview": false
     }
   ]
 }

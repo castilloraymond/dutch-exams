@@ -112,7 +112,7 @@ export default function ProfilePage() {
                   <p className="font-semibold text-[var(--ink)]">{email}</p>
                   {isPremium && (
                     <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
-                      Founding Member
+                      Pro
                     </span>
                   )}
                 </div>

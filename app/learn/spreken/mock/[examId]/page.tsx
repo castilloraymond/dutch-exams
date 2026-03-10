@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, Mic, Clock, AlertCircle } from "lucide-react";
 import { getSpeakingMockExam } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
 import { useAudioRecorder } from "@/hooks/useAudioRecorder";
 import type { SpeakingAttempt, SpeakingTask } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
@@ -30,6 +31,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
   const router = useRouter();
   const { saveSpeakingAttempt } = useProgress();
   const exam = useMemo(() => getSpeakingMockExam(examId), [examId]);
+  const { isPremium, loading: premiumLoading } = usePremium();
   const questions = exam?.questions || [];
 
   const [stage, setStage] = useState<Stage>("prompt");
@@ -157,6 +159,12 @@ export default function SprekenMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Examen niet gevonden</div>
       </div>
     );
+  }
+
+  // Premium gating: redirect non-premium users away from locked exams
+  if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
+    router.replace('/learn/spreken/select?locked=true');
+    return null;
   }
 
   // Construct a SpeakingTask-compatible object for SpeakingPrompt and SpeakingResults

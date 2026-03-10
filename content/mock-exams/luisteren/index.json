@@ -15,7 +15,7 @@
       "difficulty": "A1",
       "questionCount": 15,
       "recommendedTime": "30 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "luisteren-a2-1",
@@ -31,7 +31,7 @@
       "difficulty": "A2",
       "questionCount": 20,
       "recommendedTime": "45 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "luisteren-a2-3",
@@ -135,7 +135,7 @@
       "difficulty": "B1",
       "questionCount": 25,
       "recommendedTime": "60 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "luisteren-b1-4",
@@ -143,7 +143,7 @@
       "difficulty": "B1",
       "questionCount": 25,
       "recommendedTime": "60 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "luisteren-b1-5",
@@ -151,7 +151,7 @@
       "difficulty": "B1",
       "questionCount": 25,
       "recommendedTime": "60 min",
-      "isFreePreview": true
+      "isFreePreview": false
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   BookOpen,
   Landmark,
@@ -11,8 +12,10 @@ import {
   ArrowLeft,
   ChevronDown,
   Check,
+  Lock,
 } from "lucide-react";
 import { MockupNote } from "./MockupNote";
+import { usePremium } from "@/hooks/usePremium";
 import type { MockExamSummary, Difficulty, ExamCompletion } from "@/lib/types";
 
 type Module = "lezen" | "knm" | "luisteren" | "schrijven" | "spreken";
@@ -61,7 +64,7 @@ const LEVELS = [
   },
 ];
 
-// Strip the module+difficulty prefix, e.g. "Lezen A1 - Oefenexamen 1" → "Oefenexamen 1"
+// Strip the module+difficulty prefix, e.g. "Lezen A1 - Oefenexamen 1" -> "Oefenexamen 1"
 function formatExamTitle(title: string): string {
   return title.replace(/^\S+\s+[A-Z0-9]+\s*-\s*/i, "");
 }
@@ -83,81 +86,107 @@ interface ExamRowProps {
   href: string;
   completion: ExamCompletion | undefined;
   color: string;
+  isPremium: boolean;
 }
 
-function ExamRow({ exam, href, completion, color }: ExamRowProps) {
+function ExamRow({ exam, href, completion, color, isPremium }: ExamRowProps) {
+  const router = useRouter();
   const isCompleted = !!completion;
   const score = completion
     ? Math.round((completion.correctAnswers / completion.totalQuestions) * 100)
     : null;
+  const isLocked = !isPremium && !exam.isFreePreview;
 
   const ringSize = 32;
   const r = 11;
   const circumference = 2 * Math.PI * r;
 
-  return (
-    <Link href={href}>
-      <div className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:-translate-y-px hover:shadow-sm transition-all cursor-pointer">
-        {/* Status ring */}
-        <div className="relative flex-shrink-0" style={{ width: ringSize, height: ringSize }}>
-          <svg
-            width={ringSize}
-            height={ringSize}
-            viewBox={`0 0 ${ringSize} ${ringSize}`}
-            className="absolute inset-0 -rotate-90"
-          >
-            <circle cx={ringSize / 2} cy={ringSize / 2} r={r} fill="none"
-              stroke="var(--ink)" strokeOpacity={0.1} strokeWidth={3} />
-            <circle cx={ringSize / 2} cy={ringSize / 2} r={r} fill="none"
-              stroke={isCompleted ? color : "transparent"} strokeWidth={3}
-              strokeDasharray={circumference}
-              strokeDashoffset={isCompleted ? 0 : circumference}
-              strokeLinecap="round" />
-          </svg>
-          {isCompleted && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Check className="h-3.5 w-3.5" style={{ color }} />
-            </div>
-          )}
-        </div>
-
-        {/* Content */}
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-sm font-medium text-[var(--ink)] truncate">
-              {formatExamTitle(exam.title)}
-            </span>
+  const rowContent = (
+    <div
+      className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:-translate-y-px hover:shadow-sm transition-all cursor-pointer"
+      style={{ opacity: isLocked ? 0.6 : 1 }}
+    >
+      {/* Status ring or lock icon */}
+      <div className="relative flex-shrink-0" style={{ width: ringSize, height: ringSize }}>
+        {isLocked ? (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Lock className="h-4 w-4 text-[var(--ink)]/40" />
           </div>
-          <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-0.5">
-            <span>{exam.questionCount} vragen · {exam.recommendedTime}</span>
-            <span className="text-[var(--ink)]/30">({exam.questionCount} questions)</span>
-            {score !== null && (
-              <span className="font-medium" style={{ color: score >= 60 ? "var(--green)" : "var(--accent)" }}>
-                {score}%
-              </span>
+        ) : (
+          <>
+            <svg
+              width={ringSize}
+              height={ringSize}
+              viewBox={`0 0 ${ringSize} ${ringSize}`}
+              className="absolute inset-0 -rotate-90"
+            >
+              <circle cx={ringSize / 2} cy={ringSize / 2} r={r} fill="none"
+                stroke="var(--ink)" strokeOpacity={0.1} strokeWidth={3} />
+              <circle cx={ringSize / 2} cy={ringSize / 2} r={r} fill="none"
+                stroke={isCompleted ? color : "transparent"} strokeWidth={3}
+                strokeDasharray={circumference}
+                strokeDashoffset={isCompleted ? 0 : circumference}
+                strokeLinecap="round" />
+            </svg>
+            {isCompleted && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <Check className="h-3.5 w-3.5" style={{ color }} />
+              </div>
             )}
-          </div>
-        </div>
+          </>
+        )}
+      </div>
 
-        {/* Action */}
-        <div className="flex-shrink-0">
-          {isCompleted ? (
-            <div className="text-center">
-              <span className="text-xs px-2.5 py-1 rounded-full border border-[var(--ink)]/20 text-[var(--ink)]/50 block">
-                Opnieuw
-              </span>
-              <span className="text-[10px] text-[var(--ink)]/30">Retry</span>
-            </div>
-          ) : (
-            <span className="text-xs px-2.5 py-1 rounded-full border font-medium"
-              style={{ borderColor: color, color }}>
-              Start →
+      {/* Content */}
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-sm font-medium text-[var(--ink)] truncate">
+            {formatExamTitle(exam.title)}
+          </span>
+        </div>
+        <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-0.5">
+          <span>{exam.questionCount} vragen · {exam.recommendedTime}</span>
+          <span className="text-[var(--ink)]/30">({exam.questionCount} questions)</span>
+          {score !== null && (
+            <span className="font-medium" style={{ color: score >= 60 ? "var(--green)" : "var(--accent)" }}>
+              {score}%
             </span>
           )}
         </div>
       </div>
-    </Link>
+
+      {/* Action */}
+      <div className="flex-shrink-0">
+        {isLocked ? (
+          <span className="text-[10px] px-2 py-0.5 rounded-full bg-[var(--ink)]/8 text-[var(--ink)]/40 font-medium">
+            Pro
+          </span>
+        ) : isCompleted ? (
+          <div className="text-center">
+            <span className="text-xs px-2.5 py-1 rounded-full border border-[var(--ink)]/20 text-[var(--ink)]/50 block">
+              Opnieuw
+            </span>
+            <span className="text-[10px] text-[var(--ink)]/30">Retry</span>
+          </div>
+        ) : (
+          <span className="text-xs px-2.5 py-1 rounded-full border font-medium"
+            style={{ borderColor: color, color }}>
+            Start →
+          </span>
+        )}
+      </div>
+    </div>
   );
+
+  if (isLocked) {
+    return (
+      <div onClick={() => router.push("/upgrade")} role="button" tabIndex={0}>
+        {rowContent}
+      </div>
+    );
+  }
+
+  return <Link href={href}>{rowContent}</Link>;
 }
 
 // ─── Desktop Level Card (Accordion) ──────────────────────────────────────────
@@ -171,11 +200,12 @@ interface LevelCardProps {
   onToggle: () => void;
   showCompleted: boolean;
   onToggleCompleted: () => void;
+  isPremium: boolean;
 }
 
 function LevelCard({
   level, module, exams, examProgress,
-  isExpanded, onToggle, showCompleted, onToggleCompleted,
+  isExpanded, onToggle, showCompleted, onToggleCompleted, isPremium,
 }: LevelCardProps) {
   const { notStarted, completed } = sortExams(exams, examProgress);
   const totalCount = exams.length;
@@ -258,7 +288,7 @@ function LevelCard({
             {previewExams.map((exam, i) => (
               <div key={exam.id} style={{ opacity: i === 0 ? 1 : 0.45 }}>
                 <ExamRow exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                  completion={examProgress[exam.id]} color={level.color} />
+                  completion={examProgress[exam.id]} color={level.color} isPremium={isPremium} />
               </div>
             ))}
           </div>
@@ -280,7 +310,7 @@ function LevelCard({
             <div className="space-y-1">
               {notStarted.map((exam) => (
                 <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                  completion={undefined} color={level.color} />
+                  completion={undefined} color={level.color} isPremium={isPremium} />
               ))}
             </div>
           )}
@@ -298,7 +328,7 @@ function LevelCard({
                 <div className="space-y-1 mt-1" style={{ opacity: 0.6 }}>
                   {completed.map((exam) => (
                     <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                      completion={examProgress[exam.id]} color={level.color} />
+                      completion={examProgress[exam.id]} color={level.color} isPremium={isPremium} />
                   ))}
                 </div>
               )}
@@ -321,9 +351,10 @@ interface MobileTabViewProps {
   module: Module;
   exams: MockExamSummary[];
   examProgress: Record<string, ExamCompletion>;
+  isPremium: boolean;
 }
 
-function MobileTabView({ module, exams, examProgress }: MobileTabViewProps) {
+function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabViewProps) {
   const [activeLevel, setActiveLevel] = useState<Difficulty>("A1");
   const [showCompleted, setShowCompleted] = useState(false);
 
@@ -386,7 +417,7 @@ function MobileTabView({ module, exams, examProgress }: MobileTabViewProps) {
           <div className="p-2 space-y-1">
             {notStarted.map((exam) => (
               <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                completion={undefined} color={activeConfig.color} />
+                completion={undefined} color={activeConfig.color} isPremium={isPremium} />
             ))}
           </div>
         )}
@@ -405,7 +436,7 @@ function MobileTabView({ module, exams, examProgress }: MobileTabViewProps) {
               <div className="space-y-1 mt-1" style={{ opacity: 0.6 }}>
                 {completed.map((exam) => (
                   <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                    completion={examProgress[exam.id]} color={activeConfig.color} />
+                    completion={examProgress[exam.id]} color={activeConfig.color} isPremium={isPremium} />
                 ))}
               </div>
             )}
@@ -421,10 +452,34 @@ function MobileTabView({ module, exams, examProgress }: MobileTabViewProps) {
   );
 }
 
+// ─── Upgrade Banner ──────────────────────────────────────────────────────────
+
+function UpgradeBanner() {
+  return (
+    <Link href="/upgrade">
+      <div className="rounded-xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 px-4 py-3 flex items-center justify-between gap-4 hover:border-[var(--accent)]/40 transition-colors cursor-pointer">
+        <div>
+          <p className="text-sm font-semibold text-[var(--ink)]">
+            Unlock all mock exams
+          </p>
+          <p className="text-xs text-[var(--ink)]/50 mt-0.5">
+            7-day money-back guarantee
+          </p>
+        </div>
+        <span className="text-xs font-semibold px-3 py-1.5 rounded-full text-white flex-shrink-0"
+          style={{ background: "var(--accent)" }}>
+          Upgrade
+        </span>
+      </div>
+    </Link>
+  );
+}
+
 // ─── Main Export ──────────────────────────────────────────────────────────────
 
 export function ModuleAccordionSelector({ module, exams, examProgress }: Props) {
   const { title, titleEn, Icon } = MODULE_CONFIG[module];
+  const { isPremium } = usePremium();
 
   const [headerVisible, setHeaderVisible] = useState(true);
   const [expandedLevel, setExpandedLevel] = useState<Difficulty | null>(null);
@@ -503,13 +558,20 @@ export function ModuleAccordionSelector({ module, exams, examProgress }: Props) 
             </div>
           </div>
 
+          {/* Upgrade banner (non-premium only) */}
+          {!isPremium && (
+            <div className="mb-6">
+              <UpgradeBanner />
+            </div>
+          )}
+
           <div className="mb-6">
             <MockupNote />
           </div>
 
           {/* Mobile: segmented tabs */}
           <div className="md:hidden">
-            <MobileTabView module={module} exams={exams} examProgress={examProgress} />
+            <MobileTabView module={module} exams={exams} examProgress={examProgress} isPremium={isPremium} />
           </div>
 
           {/* Desktop: accordion */}
@@ -530,6 +592,7 @@ export function ModuleAccordionSelector({ module, exams, examProgress }: Props) 
                   onToggleCompleted={() =>
                     setShowCompleted((p) => ({ ...p, [level.difficulty]: !p[level.difficulty] }))
                   }
+                  isPremium={isPremium}
                 />
               );
             })}

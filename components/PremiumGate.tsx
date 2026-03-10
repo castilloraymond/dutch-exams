@@ -18,11 +18,11 @@ export function PremiumGate({ backHref, backLabel }: PremiumGateProps) {
 
         <div>
           <h1 className="text-2xl font-bold text-[var(--ink)] mb-2">
-            Founding Member Content
+            Pro Content
           </h1>
           <p className="text-[var(--ink)]/60">
-            This exercise is available to Founding Members. Get lifetime access
-            to all 46 mock exams, writing tasks, and speaking exercises.
+            This exercise is available to Pro users. Get unlimited access to all
+            71 mock exams, writing tasks, and speaking exercises.
           </p>
         </div>
 
@@ -30,12 +30,12 @@ export function PremiumGate({ backHref, backLabel }: PremiumGateProps) {
           href="/upgrade"
           className="cta-primary inline-flex items-center gap-2 px-8 py-3 rounded-lg font-semibold text-white"
         >
-          Get Founding Member Access
+          Unlock All Exams
         </Link>
 
         <div className="flex items-center justify-center gap-2 text-sm text-[var(--ink)]/50">
           <ShieldCheck className="h-4 w-4" />
-          <span>One-time payment &middot; Pass or get a refund</span>
+          <span>One-time payment &middot; 7-day money-back guarantee</span>
         </div>
 
         <Link

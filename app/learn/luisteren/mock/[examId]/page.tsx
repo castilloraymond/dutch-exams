@@ -15,6 +15,7 @@ import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useUser } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import type { Question } from "@/lib/types";
 
@@ -27,6 +28,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
   const router = useRouter();
   const { user } = useUser();
   const { recordExamCompletion } = useProgress();
+  const { isPremium, loading: premiumLoading } = usePremium();
   const [started, setStarted] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
@@ -138,6 +140,12 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Exam not found</div>
       </div>
     );
+  }
+
+  // Premium gating: redirect non-premium users away from locked exams
+  if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
+    router.replace('/learn/luisteren/select?locked=true');
+    return null;
   }
 
   if (!started) {
