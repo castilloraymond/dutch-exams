@@ -57,6 +57,7 @@ export async function POST(request: NextRequest) {
         publicMetadata: {
           isPremium: true,
           stripeCustomerId: session.customer as string,
+          stripePaymentIntentId: session.payment_intent as string,
           premiumSince: new Date().toISOString(),
         },
       });
