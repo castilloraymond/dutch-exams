@@ -11,7 +11,7 @@ export function FinalCTA() {
                 Ready to start practicing?
             </h2>
             <p className="text-white/60 text-[1.1rem] max-w-[500px] mx-auto mb-10 leading-[1.7] relative">
-                46 mock exams across all 5 modules. Real exam format. Explanations for every question. Completely free — no account required.
+                71 mock exams across all 5 modules. Real exam format. Explanations for every question. Start practicing for free — no signup required.
             </p>
             <Link
                 href="/try"

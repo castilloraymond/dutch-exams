@@ -18,7 +18,7 @@ import { JsonLd } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "passinburgering | Pass Your Dutch Inburgering Exam First Try",
   description:
-    "Free practice exams for all 5 Dutch inburgering modules — Lezen, Luisteren, KNM, Schrijven & Spreken. Realistic computer-based simulations, built by expats for expats.",
+    "Practice exams for all 5 Dutch inburgering modules — Lezen, Luisteren, KNM, Schrijven & Spreken. Realistic computer-based simulations, built by expats for expats.",
   alternates: {
     canonical: "https://passinburgering.com",
   },
@@ -33,16 +33,15 @@ export default function Home() {
           "@type": "Course",
           name: "Dutch Inburgering Exam Practice",
           description:
-            "Free practice exams covering all 5 modules of the Dutch civic integration exam: Reading (Lezen), Listening (Luisteren), Dutch Society (KNM), Writing (Schrijven), and Speaking (Spreken).",
+            "Practice exams covering all 5 modules of the Dutch civic integration exam: Reading (Lezen), Listening (Luisteren), Dutch Society (KNM), Writing (Schrijven), and Speaking (Spreken).",
           provider: {
             "@type": "Organization",
             name: "passinburgering",
             url: "https://passinburgering.com",
           },
-          isAccessibleForFree: true,
           educationalLevel: "A1-B1",
           inLanguage: ["nl", "en"],
-          numberOfCredits: 46,
+          numberOfCredits: 71,
           hasCourseInstance: {
             "@type": "CourseInstance",
             courseMode: "online",
@@ -52,7 +51,7 @@ export default function Home() {
       />
       <ScrollRevealInit />
       <div className="hidden sm:block py-1.5 sm:py-2 px-4 text-center text-xs sm:text-sm font-medium text-white bg-[var(--accent)]">
-        ✨ 100% free — no payment, no signup required
+        ✨ Start practicing for free — no signup required
       </div>
       <LandingNav />
       <LandingHero />
