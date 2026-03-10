@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, Clock, PenLine } from "lucide-react";
 import { getWritingMockExam } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
+import { usePremium } from "@/hooks/usePremium";
 import type { FormAnswer, WritingAttempt, WritingSubmission } from "@/lib/types";
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
@@ -23,6 +24,7 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
   const router = useRouter();
   const { saveWritingAttempt } = useProgress();
   const exam = useMemo(() => getWritingMockExam(examId), [examId]);
+  const { isPremium, loading: premiumLoading } = usePremium();
   const questions = exam?.questions || [];
 
   const [stage, setStage] = useState<Stage>("writing");
@@ -127,6 +129,12 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
         <div className="text-[var(--ink)]">Examen niet gevonden</div>
       </div>
     );
+  }
+
+  // Premium gating: redirect non-premium users away from locked exams
+  if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
+    router.replace('/learn/schrijven/select?locked=true');
+    return null;
   }
 
   // Build all submissions for results (including current)

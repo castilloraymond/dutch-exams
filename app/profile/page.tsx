@@ -13,6 +13,7 @@ import {
   LogOut,
   Mail,
   Chrome,
+  RotateCcw,
 } from "lucide-react";
 import { useUser, useClerk } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
@@ -40,6 +41,7 @@ export default function ProfilePage() {
   const { progress } = useProgress();
   const { isPremium } = usePremium();
   const [signingOut, setSigningOut] = useState(false);
+  const [refunding, setRefunding] = useState(false);
 
   useEffect(() => {
     if (isLoaded && !user) {
@@ -57,6 +59,32 @@ export default function ProfilePage() {
 
   const email = user.primaryEmailAddress?.emailAddress || "";
   const isGoogleUser = user.externalAccounts?.some(a => a.provider === "google");
+
+  // Refund eligibility
+  const premiumSince = user.publicMetadata?.premiumSince as string | undefined;
+  const daysSincePurchase = premiumSince
+    ? (Date.now() - new Date(premiumSince).getTime()) / (1000 * 60 * 60 * 24)
+    : null;
+  const daysRemaining = daysSincePurchase !== null ? Math.ceil(7 - daysSincePurchase) : 0;
+  const showRefund = isPremium && premiumSince && daysRemaining > 0;
+
+  const handleRefund = async () => {
+    if (!window.confirm("Are you sure? This will revoke your Pro access and issue a full refund.")) return;
+    setRefunding(true);
+    try {
+      const res = await fetch("/api/stripe/refund", { method: "POST" });
+      const data = await res.json();
+      if (res.ok) {
+        window.location.reload();
+      } else {
+        alert(data.error || "Refund failed. Please try again.");
+        setRefunding(false);
+      }
+    } catch {
+      alert("Refund failed. Please try again.");
+      setRefunding(false);
+    }
+  };
 
   // Compute progress per module
   const lezenCompleted = LEZEN_IDS.filter((id) => progress.passageProgress[id]?.completed).length;
@@ -112,7 +140,7 @@ export default function ProfilePage() {
                   <p className="font-semibold text-[var(--ink)]">{email}</p>
                   {isPremium && (
                     <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-[var(--accent)]/10 text-[var(--accent)]">
-                      Founding Member
+                      Pro
                     </span>
                   )}
                 </div>
@@ -132,6 +160,25 @@ export default function ProfilePage() {
               </div>
             </div>
           </div>
+
+          {/* Money-Back Guarantee Refund */}
+          {showRefund && (
+            <div className="landing-card p-6">
+              <p className="text-sm text-[var(--ink)]/60 mb-1">Money-back guarantee</p>
+              <p className="text-sm text-[var(--ink)] mb-4">
+                {daysRemaining} {daysRemaining === 1 ? "day" : "days"} remaining to request a full refund
+              </p>
+              <Button
+                variant="outline"
+                className="w-full text-red-600 border-red-200 hover:bg-red-50 hover:text-red-700"
+                onClick={handleRefund}
+                disabled={refunding}
+              >
+                <RotateCcw className="h-4 w-4 mr-2" />
+                {refunding ? "Processing refund..." : "Request Refund"}
+              </Button>
+            </div>
+          )}
 
           {/* Progress Overview */}
           <div className="landing-card p-6">

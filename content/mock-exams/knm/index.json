@@ -15,7 +15,7 @@
       "difficulty": "A1",
       "questionCount": 25,
       "recommendedTime": "20 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "knm-a2-1",
@@ -31,7 +31,7 @@
       "difficulty": "A2",
       "questionCount": 40,
       "recommendedTime": "30 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "knm-a1-3",
@@ -103,7 +103,7 @@
       "difficulty": "B1",
       "questionCount": 50,
       "recommendedTime": "40 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "knm-b1-4",
@@ -111,7 +111,7 @@
       "difficulty": "B1",
       "questionCount": 50,
       "recommendedTime": "40 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "knm-b1-5",
@@ -119,7 +119,7 @@
       "difficulty": "B1",
       "questionCount": 50,
       "recommendedTime": "40 min",
-      "isFreePreview": true
+      "isFreePreview": false
     }
   ]
 }

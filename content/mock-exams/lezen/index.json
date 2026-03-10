@@ -15,7 +15,7 @@
       "difficulty": "A1",
       "questionCount": 15,
       "recommendedTime": "25 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "lezen-a1-3",
@@ -47,7 +47,7 @@
       "difficulty": "A2",
       "questionCount": 20,
       "recommendedTime": "35 min",
-      "isFreePreview": false
+      "isFreePreview": true
     },
     {
       "id": "lezen-a2-3",
@@ -103,7 +103,7 @@
       "difficulty": "B1",
       "questionCount": 25,
       "recommendedTime": "45 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "lezen-b1-4",
@@ -111,7 +111,7 @@
       "difficulty": "B1",
       "questionCount": 25,
       "recommendedTime": "45 min",
-      "isFreePreview": true
+      "isFreePreview": false
     },
     {
       "id": "lezen-b1-5",
@@ -119,7 +119,7 @@
       "difficulty": "B1",
       "questionCount": 25,
       "recommendedTime": "45 min",
-      "isFreePreview": true
+      "isFreePreview": false
     }
   ]
 }
