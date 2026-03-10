@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { UpdatePasswordForm } from "@/components/auth";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Update Password",
@@ -7,5 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function UpdatePasswordPage() {
-  return <UpdatePasswordForm />;
+  // Clerk handles password update within the SignIn component
+  redirect("/auth/login");
 }

@@ -1,7 +1,7 @@
-import { createBrowserClient } from "@supabase/ssr";
+import { createClient as createSupabaseClient } from "@supabase/supabase-js";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
-// Browser client for client components
+// Browser client for Supabase Storage uploads (e.g., bug screenshots)
 // Returns null if Supabase credentials are not configured
 export function createClient(): SupabaseClient | null {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -11,5 +11,5 @@ export function createClient(): SupabaseClient | null {
     return null;
   }
 
-  return createBrowserClient(url, key);
+  return createSupabaseClient(url, key);
 }

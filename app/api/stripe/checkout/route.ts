@@ -1,4 +1,4 @@
-import { createServerComponentClient } from "@/lib/supabase-server";
+import { auth, clerkClient } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 
@@ -15,28 +15,22 @@ export async function POST(request: NextRequest) {
       apiVersion: "2026-01-28.clover",
     });
 
-    const supabase = await createServerComponentClient();
-    if (!supabase) {
-      return NextResponse.json(
-        { error: "Authentication not configured" },
-        { status: 503 }
-      );
-    }
+    const { userId } = await auth();
 
-    const {
-      data: { user },
-      error: authError,
-    } = await supabase.auth.getUser();
-
-    if (authError || !user) {
+    if (!userId) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
       );
     }
 
-    // Check if already premium
-    if (user.user_metadata?.isPremium === true) {
+    // Get user details from Clerk
+    const client = await clerkClient();
+    const clerkUser = await client.users.getUser(userId);
+    const email = clerkUser.emailAddresses[0]?.emailAddress;
+
+    // Check if already premium via Clerk publicMetadata
+    if (clerkUser.publicMetadata?.isPremium === true) {
       return NextResponse.json(
         { error: "You already have Founding Member access" },
         { status: 400 }
@@ -54,9 +48,9 @@ export async function POST(request: NextRequest) {
           quantity: 1,
         },
       ],
-      customer_email: user.email!,
+      customer_email: email!,
       metadata: {
-        supabase_user_id: user.id,
+        clerk_user_id: userId,
       },
       custom_text: {
         submit: {

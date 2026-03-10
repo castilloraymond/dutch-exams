@@ -1,5 +1,9 @@
 "use client";
 
+import { useUser } from "@clerk/nextjs";
+
 export function usePremium() {
-  return { isPremium: true, loading: false };
+  const { user, isLoaded } = useUser();
+  const isPremium = !!user?.publicMetadata?.isPremium;
+  return { isPremium, loading: !isLoaded };
 }

@@ -39,7 +39,7 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 - **Styling:** Tailwind CSS 4 + shadcn/ui (Radix UI primitives) + CSS custom properties design system
 - **State:** localStorage via `useSyncExternalStore` hook, optional Supabase cloud sync
 - **Content:** Static JSON files in `/content/` imported at build time via `/lib/content.ts`
-- **Auth:** Supabase Auth (email/password + Google OAuth) via `contexts/AuthContext.tsx`
+- **Auth:** Clerk (email/password + Google OAuth) via `@clerk/nextjs` — `useUser()`, `useClerk()`, `auth()` server helper
 - **Blog:** Markdown files in `/content/blog/` parsed by `lib/blog.ts` (gray-matter + marked + DOMPurify)
 - **Mobile:** Expo React Native app in `/mobile/` sharing content structure from `/content/`
 - **All exercise/module pages are client components** (`"use client"`)
@@ -52,7 +52,7 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 |------|-------------|-----------------|
 | `lib/types.ts` | 25+ files | All TypeScript interfaces (Question, Passage, UserProgress, etc.) |
 | `lib/content.ts` | 20+ files | All content getter functions — central content hub |
-| `contexts/AuthContext.tsx` | 17+ files | `AuthProvider`, `useAuth()` hook |
+| `@clerk/nextjs` | 17+ files | `useUser()`, `useClerk()`, `auth()`, `ClerkProvider` |
 | `hooks/useProgress.ts` | 16+ files (web + mobile) | Progress read/write hooks |
 | `lib/utils.ts` | 12+ files | `cn()` classname helper, `formatTime()`, `isPassing()` |
 | `hooks/useExamState.ts` | 7 files | Exam state machine (question nav, answers, timer) |
@@ -63,6 +63,9 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 | `components/ResultsSummary.tsx` | 6 files | Exam results display |
 | `components/landing/LandingFooter.tsx` | 8+ files | Reused footer on many pages |
 | `lib/progress.ts` | 2 files (hooks) | Raw localStorage progress CRUD |
+| `lib/supabase-server.ts` | 4 API routes | DB-only Supabase client (service role, no auth) |
+| `lib/supabase-storage.ts` | 1 file (FeedbackWidget) | Browser Supabase client for Storage uploads |
+| `hooks/usePremium.ts` | 2 files | Reads `user.publicMetadata.isPremium` from Clerk |
 
 ## Modules
 
@@ -86,18 +89,24 @@ Dutch Inburgering Prep — the ultimate resource for passing the Dutch Inburgeri
 - Exam flow pattern: select page -> exam/mock page -> ExamLayout + useExamState -> ResultsSummary
 - All exam pages share: ExamHeader, ExamLayout, ContentPanel, QuestionGrid, ExamBottomNav, ResultsSummary
 - Writing/Speaking use self-assessment rubrics instead of auto-grading
+- Auth via Clerk: client-side uses `useUser()` / `useClerk()`, server-side uses `auth()` from `@clerk/nextjs/server`
+- Premium status stored in Clerk `user.publicMetadata.isPremium`, set by Stripe webhook via `clerkClient.users.updateUserMetadata()`
+- Signup tracking via Clerk webhook (`app/api/clerk/webhook/`) → Loops CRM
 
 ## Environment Variables (Optional)
 
-- `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anonymous key
+- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` — Clerk publishable key
+- `CLERK_SECRET_KEY` — Clerk secret key
+- `CLERK_WEBHOOK_SECRET` — Clerk webhook signing secret (for `app/api/clerk/webhook/`)
+- `NEXT_PUBLIC_SUPABASE_URL` — Supabase project URL (DB + Storage only)
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase anonymous key (Storage uploads)
+- `SUPABASE_SERVICE_ROLE_KEY` — Supabase service-role key (server-side DB access)
 - `LOOPS_API_KEY` — Loops CRM API key (server-side only, used in `lib/loops.ts`)
 - `AZURE_TTS_KEY` — Azure Speech Services API key (used in `app/api/tts/route.ts` and `scripts/generate-audio-azure.ts`)
 - `AZURE_TTS_REGION` — Azure Speech Services region (defaults to `westeurope`)
 - `STRIPE_SECRET_KEY` — Stripe secret key (used in `app/api/stripe/`)
 - `STRIPE_PRICE_ID` — Stripe price ID for checkout
 - `STRIPE_WEBHOOK_SECRET` — Stripe webhook signing secret
-- `SUPABASE_SERVICE_ROLE_KEY` — Supabase service-role key (used by `lib/supabase-admin.ts` for Stripe webhook)
 
 ## Git Workflow
 

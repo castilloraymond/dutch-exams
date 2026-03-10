@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { CircleUser, Menu, X } from "lucide-react";
-import { useAuth } from "@/contexts/AuthContext";
+import { useUser } from "@clerk/nextjs";
 
 export function LandingNav() {
-    const { user, loading } = useAuth();
+    const { user, isLoaded } = useUser();
     const [menuOpen, setMenuOpen] = useState(false);
     const [hidden, setHidden] = useState(false);
     const lastScrollY = useRef(0);
@@ -51,7 +51,7 @@ export function LandingNav() {
                     >
                         Exam Resources
                     </Link>
-                    {!loading && !user && (
+                    {isLoaded && !user && (
                         <Link
                             href="/auth/login"
                             className="text-[0.9rem] font-medium text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors hidden sm:block"
@@ -59,7 +59,7 @@ export function LandingNav() {
                             Log In
                         </Link>
                     )}
-                    {!loading && user ? (
+                    {isLoaded && user ? (
                         <Link
                             href="/profile"
                             className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors cursor-pointer hidden sm:block"
@@ -103,7 +103,7 @@ export function LandingNav() {
                         >
                             Exam Resources
                         </Link>
-                        {!loading && !user && (
+                        {isLoaded && !user && (
                             <Link
                                 href="/auth/login"
                                 onClick={() => setMenuOpen(false)}
@@ -112,7 +112,7 @@ export function LandingNav() {
                                 Log In
                             </Link>
                         )}
-                        {!loading && user && (
+                        {isLoaded && user && (
                             <Link
                                 href="/profile"
                                 onClick={() => setMenuOpen(false)}

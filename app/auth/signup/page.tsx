@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
-import { SignupForm } from "@/components/auth";
+import { SignUp } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "Sign Up",
@@ -9,8 +8,11 @@ export const metadata: Metadata = {
 
 export default function SignupPage() {
   return (
-    <Suspense>
-      <SignupForm />
-    </Suspense>
+    <main className="min-h-screen flex items-center justify-center bg-[var(--cream)] px-4">
+      <SignUp
+        routing="hash"
+        fallbackRedirectUrl="/learn"
+      />
+    </main>
   );
 }
