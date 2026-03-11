@@ -77,10 +77,10 @@ export function SpeakingResults({
 
     onModelAnswerPlayed();
 
-    if (task.modelAnswer.audioFile && audioRef.current) {
+    if (task.modelAnswer?.audioFile && audioRef.current) {
       audioRef.current.play();
       isPlayingRef.current = true;
-    } else {
+    } else if (task.modelAnswer?.transcriptNl) {
       azureSpeak(task.modelAnswer.transcriptNl);
     }
   };
@@ -88,7 +88,7 @@ export function SpeakingResults({
   return (
     <div className="space-y-6">
       {/* Hidden audio element for model answer */}
-      {task.modelAnswer.audioFile && (
+      {task.modelAnswer?.audioFile && (
         <audio
           ref={audioRef}
           src={task.modelAnswer.audioFile}
@@ -166,18 +166,20 @@ export function SpeakingResults({
                           <FileText className="h-3 w-3 text-green-700" />
                           <span className="text-xs font-medium text-green-700">Model Answer</span>
                         </div>
-                        <button
-                          onClick={() => playModelAnswerTTS(q.modelAnswer.transcriptNl)}
-                          className="text-xs px-2 py-1 rounded bg-green-100 text-green-700 hover:bg-green-200 cursor-pointer"
-                        >
-                          Listen
-                        </button>
+                        {q.modelAnswer?.transcriptNl && (
+                          <button
+                            onClick={() => playModelAnswerTTS(q.modelAnswer.transcriptNl)}
+                            className="text-xs px-2 py-1 rounded bg-green-100 text-green-700 hover:bg-green-200 cursor-pointer"
+                          >
+                            Listen
+                          </button>
+                        )}
                       </div>
                       <p className="text-sm text-[var(--ink)]">
-                        {q.modelAnswer.transcriptNl}
+                        {q.modelAnswer?.transcriptNl}
                       </p>
                       <p className="text-xs text-[var(--ink)]/60 italic mt-1">
-                        {q.modelAnswer.transcript}
+                        {q.modelAnswer?.transcript}
                       </p>
                     </div>
                   </div>
@@ -232,10 +234,10 @@ export function SpeakingResults({
                 </span>
               </div>
               <p className="text-[var(--ink)] mb-2">
-                {task.modelAnswer.transcriptNl}
+                {task.modelAnswer?.transcriptNl}
               </p>
               <p className="text-sm text-[var(--ink)]/60 italic">
-                {task.modelAnswer.transcript}
+                {task.modelAnswer?.transcript}
               </p>
             </div>
           </div>

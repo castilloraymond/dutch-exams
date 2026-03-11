@@ -189,7 +189,7 @@ export function ResultsSummary({
             </p>
             <div className="space-y-3">
               {suggestedExams.slice(0, 3).map((exam) => {
-                const Icon = MODULE_ICONS[exam.module];
+                const Icon = MODULE_ICONS[exam.module] || BookOpen;
                 return (
                   <Link
                     key={exam.id}
@@ -298,7 +298,7 @@ export function ResultsSummary({
                               isCorrect ? "text-[var(--green)]" : "text-red-600"
                             )}
                           >
-                            {LABELS[record.userAnswer!]}. {record.options[record.userAnswer!]}
+                            {LABELS[record.userAnswer!]}. {record.options?.[record.userAnswer!]}
                           </span>
                         </p>
                       ) : (
@@ -311,7 +311,7 @@ export function ResultsSummary({
                         <p>
                           <span className="text-[var(--ink)]/60">Correct answer: </span>
                           <span className="font-medium text-[var(--green)]">
-                            {LABELS[record.correctAnswer]}. {record.options[record.correctAnswer]}
+                            {LABELS[record.correctAnswer]}. {record.options?.[record.correctAnswer]}
                           </span>
                         </p>
                       )}
