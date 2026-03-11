@@ -2,8 +2,7 @@
 
 import { useState, useMemo, useEffect, useCallback, use } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
-import { ArrowLeft, Mic, Clock, AlertCircle } from "lucide-react";
+import { Mic, AlertCircle } from "lucide-react";
 import { getSpeakingMockExam } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
 import { usePremium } from "@/hooks/usePremium";
@@ -12,7 +11,10 @@ import type { SpeakingAttempt, SpeakingTask } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
 import { AudioRecorder } from "@/components/spreken/AudioRecorder";
 import { SpeakingResults } from "@/components/spreken/SpeakingResults";
-import { useExitWarning } from "@/hooks/useExitWarning";
+import { ExamHeader } from "@/components/ExamHeader";
+import { ExamBottomNav } from "@/components/ExamBottomNav";
+import { QuestionGrid } from "@/components/QuestionGrid";
+import { ExitWarningModal } from "@/components/ExitWarningModal";
 
 type Stage = "prompt" | "recording" | "playback" | "results";
 
@@ -39,11 +41,15 @@ export default function SprekenMockExamPage({ params }: PageProps) {
   const [modelAnswerPlayed, setModelAnswerPlayed] = useState(false);
   const [attemptCount, setAttemptCount] = useState(0);
   const [showTimeWarning, setShowTimeWarning] = useState(false);
-  const [recordedAnswers, setRecordedAnswers] = useState<RecordedAnswer[]>([]);
+  const [showGrid, setShowGrid] = useState(false);
+  const [showExitModal, setShowExitModal] = useState(false);
+  const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+  const [startTime] = useState(() => Date.now());
+
+  // Per-question recordings stored by question index
+  const [recordedAnswers, setRecordedAnswers] = useState<Map<number, RecordedAnswer>>(new Map());
 
   const currentQuestion = questions[currentQuestionIndex];
-
-  useExitWarning(stage === "recording" || stage === "playback");
 
   const {
     isRecording,
@@ -56,6 +62,19 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     requestPermission,
     error: recorderError,
   } = useAudioRecorder();
+
+  // Warn on browser close during exam (not on results)
+  useEffect(() => {
+    if (stage === "results") return;
+
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "";
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [stage]);
 
   // Time warning effect
   useEffect(() => {
@@ -76,11 +95,66 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     }
   }, [isRecording, recordingTime, currentQuestion, showTimeWarning, stopRecording]);
 
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, "0")}`;
-  };
+  // --- Navigation helpers ---
+
+  // Save current recording to the map (if in playback with an audioUrl)
+  const saveCurrentRecording = useCallback(() => {
+    if (audioUrl) {
+      setRecordedAnswers((prev) => {
+        const next = new Map(prev);
+        next.set(currentQuestionIndex, {
+          questionIndex: currentQuestionIndex,
+          audioUrl,
+          recordingTime,
+        });
+        return next;
+      });
+    }
+  }, [audioUrl, currentQuestionIndex, recordingTime]);
+
+  const navigateToQuestion = useCallback((index: number) => {
+    if (index < 0 || index >= questions.length) return;
+    if (index === currentQuestionIndex) return;
+
+    // Save current recording before navigating away
+    if (stage === "playback" && audioUrl) {
+      saveCurrentRecording();
+    }
+
+    resetRecording();
+    setShowTimeWarning(false);
+    setCurrentQuestionIndex(index);
+
+    // If the target question has a saved recording, show playback; otherwise prompt
+    setStage(recordedAnswers.has(index) ? "playback" : "prompt");
+  }, [questions.length, currentQuestionIndex, stage, audioUrl, saveCurrentRecording, resetRecording, recordedAnswers]);
+
+  const goNext = useCallback(() => {
+    if (currentQuestionIndex < questions.length - 1) {
+      navigateToQuestion(currentQuestionIndex + 1);
+    }
+  }, [currentQuestionIndex, questions.length, navigateToQuestion]);
+
+  const goPrevious = useCallback(() => {
+    if (currentQuestionIndex > 0) {
+      navigateToQuestion(currentQuestionIndex - 1);
+    }
+  }, [currentQuestionIndex, navigateToQuestion]);
+
+  const toggleBookmark = useCallback(() => {
+    if (!currentQuestion) return;
+    setBookmarked((prev) => {
+      const next = new Set(prev);
+      if (next.has(currentQuestion.id)) {
+        next.delete(currentQuestion.id);
+      } else {
+        next.add(currentQuestion.id);
+      }
+      return next;
+    });
+  }, [currentQuestion]);
+
+  // --- Recording handlers ---
 
   const handleStartRecording = async () => {
     setShowTimeWarning(false);
@@ -100,29 +174,15 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     setStage("prompt");
   };
 
-  const handleSubmit = () => {
-    // Save this answer
-    setRecordedAnswers((prev) => [
-      ...prev,
-      {
-        questionIndex: currentQuestionIndex,
-        audioUrl,
-        recordingTime,
-      },
-    ]);
+  // --- Submit handler ---
 
-    // If more questions, advance to next
-    if (currentQuestionIndex < questions.length - 1) {
-      resetRecording();
-      setShowTimeWarning(false);
-      setCurrentQuestionIndex((prev) => prev + 1);
-      setStage("prompt");
-      return;
+  const handleSubmitExam = useCallback(() => {
+    // Save current recording if in playback
+    if (stage === "playback" && audioUrl) {
+      saveCurrentRecording();
     }
-
-    // Last question: go to results
     setStage("results");
-  };
+  }, [stage, audioUrl, saveCurrentRecording]);
 
   const handleModelAnswerPlayed = () => {
     setModelAnswerPlayed(true);
@@ -150,8 +210,36 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     setCurrentQuestionIndex(0);
     setModelAnswerPlayed(false);
     setShowTimeWarning(false);
-    setRecordedAnswers([]);
+    setRecordedAnswers(new Map());
+    setBookmarked(new Set());
   };
+
+  const confirmExit = () => {
+    router.push("/learn/spreken/select");
+  };
+
+  // --- Derived state for QuestionGrid ---
+
+  const answeredSet = useMemo(() => {
+    const set = new Set<string>();
+    for (const [idx] of recordedAnswers) {
+      const q = questions[idx];
+      if (q) set.add(q.id);
+    }
+    // Also count current question if in playback with audio
+    if (stage === "playback" && audioUrl && currentQuestion) {
+      set.add(currentQuestion.id);
+    }
+    return set;
+  }, [recordedAnswers, questions, stage, audioUrl, currentQuestion]);
+
+  const questionIds = useMemo(() => questions.map((q) => q.id), [questions]);
+
+  // Get the audio URL for current question: live recording or saved
+  const currentAudioUrl = audioUrl || recordedAnswers.get(currentQuestionIndex)?.audioUrl || null;
+
+  // Navigation disabled during recording
+  const navDisabled = stage === "recording";
 
   if (!exam || !currentQuestion) {
     return (
@@ -161,14 +249,13 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     );
   }
 
-  // Premium gating: redirect non-premium users away from locked exams
+  // Premium gating
   if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
     router.replace('/learn/spreken/select?locked=true');
     return null;
   }
 
-  // Construct a SpeakingTask-compatible object for SpeakingPrompt and SpeakingResults
-  // SpeakingPrompt uses task.partNumber to decide rendering (Part 1 vs Parts 2-4)
+  // Construct SpeakingTask-compatible object for SpeakingPrompt and SpeakingResults
   const taskCompat: SpeakingTask = {
     id: exam.id,
     partNumber: currentQuestion.partNumber || 1,
@@ -195,87 +282,67 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     questions: questions,
   };
 
+  // Results stage — full screen, no nav
+  if (stage === "results") {
+    // Build recordedAnswers array for SpeakingResults
+    const answersArray: RecordedAnswer[] = [];
+    for (let i = 0; i < questions.length; i++) {
+      const saved = recordedAnswers.get(i);
+      if (saved) {
+        answersArray.push(saved);
+      }
+    }
+
+    return (
+      <SpeakingResults
+        task={taskCompat}
+        questions={questions}
+        audioUrl={currentAudioUrl}
+        recordingTime={recordingTime}
+        recordedAnswers={answersArray}
+        checkedCriteria={[]}
+        modelAnswerPlayed={modelAnswerPlayed}
+        onModelAnswerPlayed={handleModelAnswerPlayed}
+        onRetry={handleRetry}
+        onComplete={handleComplete}
+        backHref="/learn/spreken/select"
+        backLabel="Back to Exams"
+        isFreePreview={exam.isFreePreview}
+      />
+    );
+  }
+
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
-      {/* Header */}
-      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Link
-                href="/learn/spreken/select"
-                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
-              >
-                <ArrowLeft className="h-5 w-5" />
-              </Link>
-              <div className="flex items-center gap-2">
-                <Mic className="h-5 w-5 text-[var(--accent)]" />
-                <h1 className="text-lg font-bold text-[var(--ink)]">
-                  {exam.title}
-                </h1>
-              </div>
-            </div>
-            {(stage === "recording" || stage === "playback") && (
-              <div
-                className={`flex items-center gap-2 ${
-                  showTimeWarning
-                    ? "text-orange-500"
-                    : "text-[var(--ink)]/60"
-                }`}
-              >
-                <Clock className="h-4 w-4" />
-                <span className="font-mono text-sm">
-                  {formatTime(recordingTime)}
-                </span>
-              </div>
-            )}
-          </div>
-        </div>
-      </header>
+    <main className="min-h-screen flex flex-col">
+      <ExamHeader
+        title={exam.title}
+        startTime={startTime}
+        backHref="/learn/spreken/select"
+      />
 
-      {/* Prominent part + question counter */}
-      {stage !== "results" && (
-        <div className="bg-[var(--cream)] px-4 pt-4">
-          <div className="container mx-auto">
-            <div className="max-w-2xl mx-auto">
-              <div className="flex flex-col items-center gap-2">
-                <div className="flex items-center gap-2">
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/10 text-[var(--ink)]/70">
-                    Deel {currentQuestion.partNumber} — {currentQuestion.partTitleNl}
-                  </span>
-                  <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--accent)]/10 text-[var(--accent)] font-semibold text-sm">
-                    Vraag {currentQuestionIndex + 1} van {questions.length}
-                  </span>
-                </div>
-                <div className="w-full h-1.5 bg-[var(--ink)]/10 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-[var(--accent)] rounded-full transition-all duration-300"
-                    style={{
-                      width: `${((currentQuestionIndex + (stage === "playback" ? 0.5 : 0)) / questions.length) * 100}%`,
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Time warning banner */}
-      {showTimeWarning && isRecording && (
-        <div className="bg-orange-100 border-b border-orange-300 px-4 py-2">
-          <div className="container mx-auto flex items-center gap-2 text-orange-700 text-sm">
-            <AlertCircle className="h-4 w-4" />
-            <span>
-              Nog {currentQuestion.recommendedDuration - recordingTime} seconden! Rond je
-              antwoord af.
+      {/* Content area */}
+      <div className="flex-1 bg-[var(--cream)] overflow-y-auto p-4 sm:p-6">
+        <div className="max-w-2xl mx-auto">
+          {/* Part + question indicator */}
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--ink)]/10 text-[var(--ink)]/70">
+              Deel {currentQuestion.partNumber} — {currentQuestion.partTitleNl}
             </span>
           </div>
-        </div>
-      )}
 
-      <section className="flex-1 container mx-auto px-4 py-6">
-        <div className="max-w-2xl mx-auto">
+          {/* Time warning banner */}
+          {showTimeWarning && isRecording && (
+            <div className="bg-orange-100 border border-orange-300 rounded-lg px-4 py-2 mb-4">
+              <div className="flex items-center gap-2 text-orange-700 text-sm">
+                <AlertCircle className="h-4 w-4" />
+                <span>
+                  Nog {currentQuestion.recommendedDuration - recordingTime} seconden! Rond je
+                  antwoord af.
+                </span>
+              </div>
+            </div>
+          )}
+
           {/* Permission error */}
           {recorderError && (
             <div className="mb-6 bg-red-50 border border-red-200 rounded-lg p-4">
@@ -291,7 +358,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
           {/* Prompt stage */}
           {stage === "prompt" && (
             <div className="space-y-6">
-              <SpeakingPrompt task={taskCompat} question={currentQuestion} autoPlay={stage === "prompt"} />
+              <SpeakingPrompt task={taskCompat} question={currentQuestion} autoPlay />
 
               {permissionStatus === "prompt" ? (
                 <button
@@ -334,7 +401,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
           )}
 
           {/* Playback stage */}
-          {stage === "playback" && audioUrl && (
+          {stage === "playback" && currentAudioUrl && (
             <div className="space-y-6">
               <SpeakingPrompt task={taskCompat} question={currentQuestion} compact />
 
@@ -342,48 +409,51 @@ export default function SprekenMockExamPage({ params }: PageProps) {
                 <h3 className="font-bold text-[var(--ink)] mb-4">
                   Je opname
                 </h3>
-                <audio controls src={audioUrl} className="w-full mb-4" />
+                <audio controls src={currentAudioUrl} className="w-full mb-4" />
 
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <button
-                    onClick={handleReRecord}
-                    className="flex-1 border-2 border-[var(--ink)] text-[var(--ink)] hover:bg-[var(--ink)] hover:text-white px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer"
-                  >
-                    Opnieuw opnemen
-                  </button>
-                  <button
-                    onClick={handleSubmit}
-                    className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer"
-                  >
-                    {currentQuestionIndex < questions.length - 1
-                      ? "Volgende vraag"
-                      : "Versturen"}
-                  </button>
-                </div>
+                <button
+                  onClick={handleReRecord}
+                  className="w-full border-2 border-[var(--ink)] text-[var(--ink)] hover:bg-[var(--ink)] hover:text-white px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer"
+                >
+                  Opnieuw opnemen
+                </button>
               </div>
             </div>
           )}
-
-          {/* Results stage */}
-          {stage === "results" && (
-            <SpeakingResults
-              task={taskCompat}
-              questions={questions}
-              audioUrl={audioUrl}
-              recordingTime={recordingTime}
-              recordedAnswers={recordedAnswers}
-              checkedCriteria={[]}
-              modelAnswerPlayed={modelAnswerPlayed}
-              onModelAnswerPlayed={handleModelAnswerPlayed}
-              onRetry={handleRetry}
-              onComplete={handleComplete}
-              backHref="/learn/spreken/select"
-              backLabel="Back to Exams"
-              isFreePreview={exam.isFreePreview}
-            />
-          )}
         </div>
-      </section>
+      </div>
+
+      {/* Shared bottom navigation */}
+      <ExamBottomNav
+        currentIndex={currentQuestionIndex}
+        totalQuestions={questions.length}
+        isBookmarked={currentQuestion ? bookmarked.has(currentQuestion.id) : false}
+        onPrevious={navDisabled ? () => {} : goPrevious}
+        onNext={navDisabled ? () => {} : goNext}
+        onOpenGrid={navDisabled ? () => {} : () => setShowGrid(true)}
+        onToggleBookmark={navDisabled ? () => {} : toggleBookmark}
+        onSubmit={navDisabled ? () => {} : handleSubmitExam}
+      />
+
+      {/* Question grid modal */}
+      {showGrid && (
+        <QuestionGrid
+          totalQuestions={questions.length}
+          currentIndex={currentQuestionIndex}
+          answeredQuestions={answeredSet}
+          bookmarkedQuestions={bookmarked}
+          questionIds={questionIds}
+          onSelectQuestion={navigateToQuestion}
+          onClose={() => setShowGrid(false)}
+        />
+      )}
+
+      {/* Exit warning modal */}
+      <ExitWarningModal
+        isOpen={showExitModal}
+        onCancel={() => setShowExitModal(false)}
+        onConfirm={confirmExit}
+      />
     </main>
   );
 }
