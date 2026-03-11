@@ -11,6 +11,7 @@ import { QuestionGrid } from "@/components/QuestionGrid";
 import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
 import { ExitWarningModal } from "@/components/ExitWarningModal";
+import { TimeUpModal } from "@/components/TimeUpModal";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
@@ -34,8 +35,16 @@ export default function LezenMockExamPage({ params }: PageProps) {
   const [showExitModal, setShowExitModal] = useState(false);
   const [results, setResults] = useState<ExamResults | null>(null);
   const [retryKey, setRetryKey] = useState(0);
+  const [timeUp, setTimeUp] = useState(false);
 
   const exam = useMemo(() => getMockExam(examId), [examId]);
+
+  // Parse "35 min" → seconds
+  const timeLimitSeconds = useMemo(() => {
+    if (!exam?.recommendedTime) return undefined;
+    const match = exam.recommendedTime.match(/(\d+)/);
+    return match ? parseInt(match[1], 10) * 60 : undefined;
+  }, [exam]);
 
   // Build questions from passages
   const { questions, passageMap } = useMemo(() => {
@@ -98,9 +107,14 @@ export default function LezenMockExamPage({ params }: PageProps) {
     onComplete: handleComplete,
   });
 
+  const handleTimeUp = useCallback(() => {
+    setTimeUp(true);
+  }, []);
+
   const handleRetry = () => {
     setResults(null);
     setStarted(false);
+    setTimeUp(false);
     setRetryKey((prev) => prev + 1);
   };
 
@@ -186,7 +200,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
   return (
     <ErrorBoundary fallbackHref="/learn/lezen/select" fallbackLabel="Back to Reading">
       <main className="min-h-screen flex flex-col">
-        <ExamHeader title={exam.title} startTime={startTime} />
+        <ExamHeader title={exam.title} startTime={startTime} timeLimitSeconds={timeLimitSeconds} onTimeUp={handleTimeUp} />
 
         <ExamLayout
           scrollKey={currentQuestionIndex}
@@ -240,6 +254,11 @@ export default function LezenMockExamPage({ params }: PageProps) {
           isOpen={showExitModal}
           onCancel={() => setShowExitModal(false)}
           onConfirm={confirmExit}
+        />
+
+        <TimeUpModal
+          isOpen={timeUp && !results}
+          onViewResults={submitExam}
         />
       </main>
     </ErrorBoundary>

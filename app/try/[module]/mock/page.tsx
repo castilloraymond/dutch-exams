@@ -10,6 +10,7 @@ import { ExamBottomNav } from "@/components/ExamBottomNav";
 import { QuestionGrid } from "@/components/QuestionGrid";
 import { ContentPanel } from "@/components/ContentPanel";
 import { ResultsSummary } from "@/components/ResultsSummary";
+import { TimeUpModal } from "@/components/TimeUpModal";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getFreePreviewExamId } from "@/lib/content";
@@ -26,6 +27,7 @@ export default function FreeExamPage() {
   const [showGrid, setShowGrid] = useState(false);
   const [results, setResults] = useState<ExamResults | null>(null);
   const [retryKey, setRetryKey] = useState(0);
+  const [timeUp, setTimeUp] = useState(false);
 
   // Resolve the free preview exam for this module
   const examId = useMemo(() => {
@@ -37,6 +39,12 @@ export default function FreeExamPage() {
     if (!examId) return null;
     return getMockExam(examId);
   }, [examId]);
+
+  const timeLimitSeconds = useMemo(() => {
+    if (!exam?.recommendedTime) return undefined;
+    const match = exam.recommendedTime.match(/(\d+)/);
+    return match ? parseInt(match[1], 10) * 60 : undefined;
+  }, [exam]);
 
   // Build questions based on module type
   const { questions, passageMap, transcriptMap } = useMemo(() => {
@@ -108,9 +116,14 @@ export default function FreeExamPage() {
     onComplete: handleComplete,
   });
 
+  const handleTimeUp = useCallback(() => {
+    setTimeUp(true);
+  }, []);
+
   const handleRetry = () => {
     setResults(null);
     setStarted(false);
+    setTimeUp(false);
     setRetryKey((prev) => prev + 1);
   };
 
@@ -221,7 +234,7 @@ export default function FreeExamPage() {
   return (
     <ErrorBoundary fallbackHref="/try" fallbackLabel="Back to Free Exams">
       <main className="min-h-screen flex flex-col">
-        <ExamHeader title={exam.title} startTime={startTime} backHref="/try" />
+        <ExamHeader title={exam.title} startTime={startTime} backHref="/try" timeLimitSeconds={timeLimitSeconds} onTimeUp={handleTimeUp} />
 
         <ExamLayout
           scrollKey={currentQuestionIndex}
@@ -262,6 +275,11 @@ export default function FreeExamPage() {
             onClose={() => setShowGrid(false)}
           />
         )}
+
+        <TimeUpModal
+          isOpen={timeUp && !results}
+          onViewResults={submitExam}
+        />
       </main>
     </ErrorBoundary>
   );
