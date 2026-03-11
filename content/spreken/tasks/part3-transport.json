@@ -62,5 +62,6 @@
     "Give at least two reasons for your choice.",
     "You can mention both options to show comparison."
   ],
-  "isFreePreview": false
+  "isFreePreview": false,
+  "questionAudioFile": "/audio/spreken/questions/task-part3-transport-question.mp3"
 }

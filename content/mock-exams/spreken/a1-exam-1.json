@@ -13,9 +13,21 @@
     "If you make a mistake, just keep going. Fluency matters more than perfection."
   ],
   "selfAssessmentCriteria": [
-    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
-    { "id": "clear-pace", "text": "I spoke clearly and slowly", "textEn": "I spoke clearly and slowly" },
-    { "id": "simple", "text": "I used simple sentences", "textEn": "I used simple sentences" }
+    {
+      "id": "answered",
+      "text": "I answered all four questions",
+      "textEn": "I answered all four questions"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and slowly",
+      "textEn": "I spoke clearly and slowly"
+    },
+    {
+      "id": "simple",
+      "text": "I used simple sentences",
+      "textEn": "I used simple sentences"
+    }
   ],
   "questions": [
     {
@@ -33,7 +45,9 @@
         "transcript": "My name is Maria. I have one brother and two sisters. My brother lives in Amsterdam.",
         "transcriptNl": "Ik heet Maria. Ik heb een broer en twee zussen. Mijn broer woont in Amsterdam."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-1-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/spreken-a1-1-q1-person.mp3"
     },
     {
       "id": "spreken-a1-1-q2",
@@ -45,7 +59,7 @@
       "images": [
         {
           "id": "a1-food-1",
-          "src": "/images/spreken/a1-food-table.jpg",
+          "src": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=600&fit=crop",
           "alt": "A table with Dutch food",
           "altNl": "Een tafel met Nederlands eten"
         }
@@ -56,7 +70,8 @@
         "transcript": "I see a table with food. There is bread, cheese, and milk. I like to eat cheese. I also like fruit.",
         "transcriptNl": "Ik zie een tafel met eten. Er is brood, kaas en melk. Ik eet graag kaas. Ik hou ook van fruit."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-1-q2-question.mp3"
     },
     {
       "id": "spreken-a1-1-q3",
@@ -68,13 +83,13 @@
       "images": [
         {
           "id": "a1-room-1",
-          "src": "/images/spreken/a1-room-modern.jpg",
+          "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&h=600&fit=crop",
           "alt": "A modern living room",
           "altNl": "Een moderne woonkamer"
         },
         {
           "id": "a1-room-2",
-          "src": "/images/spreken/a1-room-traditional.jpg",
+          "src": "https://images.unsplash.com/photo-1582037928769-181f2644ecb7?w=600&h=600&fit=crop",
           "alt": "A traditional living room",
           "altNl": "Een traditionele woonkamer"
         }
@@ -85,7 +100,8 @@
         "transcript": "I like the first room more. It is modern and clean. There is a big window. I like light rooms. The second room is also nice but it is a bit dark.",
         "transcriptNl": "Ik vind de eerste kamer leuker. Het is modern en schoon. Er is een groot raam. Ik hou van lichte kamers. De tweede kamer is ook mooi maar het is een beetje donker."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-1-q3-question.mp3"
     },
     {
       "id": "spreken-a1-1-q4",
@@ -97,19 +113,19 @@
       "images": [
         {
           "id": "a1-morning-1",
-          "src": "/images/spreken/a1-morning-wake.jpg",
+          "src": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&h=600&fit=crop",
           "alt": "Person waking up",
           "altNl": "Persoon wordt wakker"
         },
         {
           "id": "a1-morning-2",
-          "src": "/images/spreken/a1-morning-breakfast.jpg",
+          "src": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&h=600&fit=crop",
           "alt": "Person eating breakfast",
           "altNl": "Persoon ontbijt"
         },
         {
           "id": "a1-morning-3",
-          "src": "/images/spreken/a1-morning-bike.jpg",
+          "src": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=600&fit=crop",
           "alt": "Person cycling to work",
           "altNl": "Persoon fietst naar werk"
         }
@@ -120,7 +136,8 @@
         "transcript": "First the person wakes up. It is morning. Then they eat breakfast. They eat bread and drink coffee. After that they ride their bike to work.",
         "transcriptNl": "Eerst wordt de persoon wakker. Het is ochtend. Dan ontbijt hij. Hij eet brood en drinkt koffie. Daarna fietst hij naar zijn werk."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-1-q4-question.mp3"
     }
   ]
 }

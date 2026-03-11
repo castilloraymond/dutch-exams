@@ -79,7 +79,8 @@
       "modelAnswer": {
         "transcript": "Sem is eating a salad with vegetables. I think this is healthy food. I also like to eat salad, especially in the summer.",
         "transcriptNl": "Sem eet een salade met groenten. Ik vind dit gezond eten. Ik eet ook graag salade, vooral in de zomer."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/part2-lunch-q1-question.mp3"
     },
     {
       "id": "part2-lunch-q2",
@@ -103,7 +104,8 @@
       "modelAnswer": {
         "transcript": "Lisa is jogging in the park. She is running between the trees. I also like the park. I go walking there with my dog.",
         "transcriptNl": "Lisa rent in het park. Ze rent tussen de bomen. Ik vind het park ook leuk. Ik ga daar wandelen met mijn hond."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/part2-lunch-q2-question.mp3"
     },
     {
       "id": "part2-lunch-q3",
@@ -127,7 +129,9 @@
       "modelAnswer": {
         "transcript": "Mark is cooking dinner in the kitchen. He is making food on the stove. I also like to cook. I cook every day for my family.",
         "transcriptNl": "Mark kookt het avondeten in de keuken. Hij maakt eten op het fornuis. Ik kook ook graag. Ik kook elke dag voor mijn familie."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/part2-lunch-q3-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-part2-lunch-question.mp3"
 }

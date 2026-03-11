@@ -9,14 +9,14 @@
   "images": [
     {
       "id": "room-small",
-      "src": "/images/placeholder.jpg",
+      "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&h=600&fit=crop",
       "alt": "A small room with a bed and a desk",
       "altNl": "Een kleine kamer met een bed en een bureau",
       "label": "A"
     },
     {
       "id": "room-big",
-      "src": "/images/placeholder.jpg",
+      "src": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=600&fit=crop",
       "alt": "A big room with a sofa and a window",
       "altNl": "Een grote kamer met een bank en een raam",
       "label": "B"
@@ -62,14 +62,14 @@
       "images": [
         {
           "id": "room-small",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&h=600&fit=crop",
           "alt": "A small room with a bed and a desk",
           "altNl": "Een kleine kamer met een bed en een bureau",
           "label": "A"
         },
         {
           "id": "room-big",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=600&fit=crop",
           "alt": "A big room with a sofa and a window",
           "altNl": "Een grote kamer met een bank en een raam",
           "label": "B"
@@ -80,7 +80,8 @@
       "modelAnswer": {
         "transcript": "I like room B more. It is big and has a nice window. I like rooms with a lot of light.",
         "transcriptNl": "Ik vind kamer B mooier. Hij is groot en heeft een mooi raam. Ik vind kamers met veel licht fijn."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/a1-part3-rooms-q1-question.mp3"
     },
     {
       "id": "a1-part3-rooms-q2",
@@ -89,14 +90,14 @@
       "images": [
         {
           "id": "kitchen-old",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=600&fit=crop",
           "alt": "An old kitchen with a small stove",
           "altNl": "Een oude keuken met een klein fornuis",
           "label": "A"
         },
         {
           "id": "kitchen-new",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1556909114-44e3e70034e2?w=600&h=600&fit=crop",
           "alt": "A new kitchen with a big table",
           "altNl": "Een nieuwe keuken met een grote tafel",
           "label": "B"
@@ -107,7 +108,8 @@
       "modelAnswer": {
         "transcript": "I like kitchen B more. It is new and has a big table. I can cook there with my family.",
         "transcriptNl": "Ik vind keuken B fijner. Hij is nieuw en heeft een grote tafel. Ik kan daar koken met mijn familie."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/a1-part3-rooms-q2-question.mp3"
     },
     {
       "id": "a1-part3-rooms-q3",
@@ -116,14 +118,14 @@
       "images": [
         {
           "id": "livingroom-dark",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&h=600&fit=crop",
           "alt": "A dark living room with a small window",
           "altNl": "Een donkere woonkamer met een klein raam",
           "label": "A"
         },
         {
           "id": "livingroom-light",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=600&fit=crop",
           "alt": "A light living room with big windows and plants",
           "altNl": "Een lichte woonkamer met grote ramen en planten",
           "label": "B"
@@ -134,7 +136,9 @@
       "modelAnswer": {
         "transcript": "I like living room B. It has big windows and plants. It is light and gezellig.",
         "transcriptNl": "Ik vind woonkamer B leuker. Hij heeft grote ramen en planten. Het is licht en gezellig."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/a1-part3-rooms-q3-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-a1-part3-rooms-question.mp3"
 }

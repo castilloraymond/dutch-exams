@@ -182,6 +182,8 @@ export default function SprekenMockExamPage({ params }: PageProps) {
     questionParts: currentQuestion.questionParts,
     personStatement: currentQuestion.personStatement,
     personStatementNl: currentQuestion.personStatementNl,
+    questionAudioFile: currentQuestion.questionAudioFile,
+    personStatementAudioFile: currentQuestion.personStatementAudioFile,
     images: currentQuestion.images,
     recommendedDuration: currentQuestion.recommendedDuration,
     softLimitWarning: currentQuestion.softLimitWarning,

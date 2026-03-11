@@ -354,6 +354,8 @@ export interface SpeakingQuestion {
   questionParts?: string[];
   personStatement?: string;
   personStatementNl?: string;
+  questionAudioFile?: string;
+  personStatementAudioFile?: string;
   images?: TaskImage[];
   recommendedDuration: number;
   softLimitWarning: number;
@@ -376,6 +378,8 @@ export interface SpeakingTask {
   // Legacy single-question fields (kept for backward compat)
   personStatement?: string;
   personStatementNl?: string;
+  questionAudioFile?: string;
+  personStatementAudioFile?: string;
   images?: TaskImage[];
   questionNl: string;
   questionEn: string;

@@ -70,5 +70,6 @@
     "Take your time to mention all three items clearly."
   ],
   "sequencingWordsRequired": true,
-  "isFreePreview": false
+  "isFreePreview": false,
+  "questionAudioFile": "/audio/spreken/questions/task-part4-kitchen-question.mp3"
 }

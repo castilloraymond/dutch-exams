@@ -9,7 +9,7 @@
   "images": [
     {
       "id": "food-1",
-      "src": "/images/placeholder.jpg",
+      "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=600&fit=crop",
       "alt": "A plate of bread with cheese and a glass of milk",
       "altNl": "Een bord brood met kaas en een glas melk",
       "label": "Eva"
@@ -55,7 +55,7 @@
       "images": [
         {
           "id": "food-1",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=600&fit=crop",
           "alt": "A plate of bread with cheese and a glass of milk",
           "altNl": "Een bord brood met kaas en een glas melk",
           "label": "Eva"
@@ -66,7 +66,8 @@
       "modelAnswer": {
         "transcript": "I see bread with cheese. There is also a glass of milk. I like bread with cheese. I eat it every morning.",
         "transcriptNl": "Ik zie brood met kaas. Er is ook een glas melk. Ik vind brood met kaas lekker. Ik eet het elke ochtend."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/a1-part2-food-q1-question.mp3"
     },
     {
       "id": "a1-part2-food-q2",
@@ -75,7 +76,7 @@
       "images": [
         {
           "id": "food-2",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop",
           "alt": "A bowl of soup with bread on the side",
           "altNl": "Een kom soep met brood erbij",
           "label": "Tom"
@@ -86,7 +87,8 @@
       "modelAnswer": {
         "transcript": "Tom eats soup. There is also bread. I also like soup. I eat soup when it is cold.",
         "transcriptNl": "Tom eet soep. Er is ook brood. Ik vind soep ook lekker. Ik eet soep als het koud is."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/a1-part2-food-q2-question.mp3"
     },
     {
       "id": "a1-part2-food-q3",
@@ -95,7 +97,7 @@
       "images": [
         {
           "id": "food-3",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=600&fit=crop",
           "alt": "A plate of rice with vegetables",
           "altNl": "Een bord rijst met groenten",
           "label": "Sara"
@@ -106,7 +108,9 @@
       "modelAnswer": {
         "transcript": "I see rice with vegetables. It looks healthy. I eat rice every day. I kook it at home.",
         "transcriptNl": "Ik zie rijst met groenten. Het ziet er gezond uit. Ik eet elke dag rijst. Ik kook het thuis."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/a1-part2-food-q3-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-a1-part2-food-question.mp3"
 }

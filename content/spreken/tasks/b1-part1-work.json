@@ -68,7 +68,9 @@
         "transcript": "I work as an IT consultant. I like it because every project is different. But I would like more free time and to work from home more.",
         "transcriptNl": "Ik werk als IT-consultant. Ik vind het leuk omdat elk project anders is. Maar ik zou graag meer vrije tijd willen en vaker thuis werken."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/b1-part1-work-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/b1-part1-work-q1-person.mp3"
     },
     {
       "id": "b1-part1-work-q2",
@@ -87,7 +89,9 @@
         "transcript": "I learned Dutch at a language school and also by talking with my Dutch colleagues. I find the grammar difficult, especially the word order. My tip is to practice every day, even if it is just five minutes.",
         "transcriptNl": "Ik heb Nederlands geleerd op een taalschool en ook door met mijn Nederlandse collega's te praten. Ik vind de grammatica moeilijk, vooral de woordvolgorde. Mijn tip is om elke dag te oefenen, ook al is het maar vijf minuten."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/b1-part1-work-q2-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/b1-part1-work-q2-person.mp3"
     },
     {
       "id": "b1-part1-work-q3",
@@ -105,7 +109,11 @@
         "transcript": "I try to stay healthy by cycling to work every day and cooking fresh food at home. I also go to the gym twice a week. I find it important because I want to have enough energy for my work and my family.",
         "transcriptNl": "Ik probeer gezond te blijven door elke dag naar mijn werk te fietsen en thuis vers eten te koken. Ik ga ook twee keer per week naar de sportschool. Ik vind het belangrijk omdat ik genoeg energie wil hebben voor mijn werk en mijn gezin."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/b1-part1-work-q3-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/b1-part1-work-q3-person.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-b1-part1-work-question.mp3",
+  "personStatementAudioFile": "/audio/spreken/questions/task-b1-part1-work-person.mp3"
 }

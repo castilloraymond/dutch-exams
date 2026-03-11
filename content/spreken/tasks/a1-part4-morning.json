@@ -9,21 +9,21 @@
   "images": [
     {
       "id": "morning-wake",
-      "src": "/images/placeholder.jpg",
+      "src": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&h=600&fit=crop",
       "alt": "A person waking up in bed",
       "altNl": "Een persoon wordt wakker in bed",
       "label": "1"
     },
     {
       "id": "morning-breakfast",
-      "src": "/images/placeholder.jpg",
+      "src": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&h=600&fit=crop",
       "alt": "A person eating breakfast at the table",
       "altNl": "Een persoon eet ontbijt aan tafel",
       "label": "2"
     },
     {
       "id": "morning-leave",
-      "src": "/images/placeholder.jpg",
+      "src": "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?w=600&h=600&fit=crop",
       "alt": "A person leaving the house with a bag",
       "altNl": "Een persoon gaat het huis uit met een tas",
       "label": "3"
@@ -70,21 +70,21 @@
       "images": [
         {
           "id": "morning-wake",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&h=600&fit=crop",
           "alt": "A person waking up in bed",
           "altNl": "Een persoon wordt wakker in bed",
           "label": "1"
         },
         {
           "id": "morning-breakfast",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&h=600&fit=crop",
           "alt": "A person eating breakfast at the table",
           "altNl": "Een persoon eet ontbijt aan tafel",
           "label": "2"
         },
         {
           "id": "morning-leave",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?w=600&h=600&fit=crop",
           "alt": "A person leaving the house with a bag",
           "altNl": "Een persoon gaat het huis uit met een tas",
           "label": "3"
@@ -96,7 +96,8 @@
         "transcript": "First the person wakes up. Then the person eats breakfast. Finally the person leaves the house.",
         "transcriptNl": "Eerst wordt de persoon wakker. Daarna eet de persoon ontbijt. Tenslotte gaat de persoon het huis uit."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/a1-part4-morning-q1-question.mp3"
     },
     {
       "id": "a1-part4-morning-q2",
@@ -105,21 +106,21 @@
       "images": [
         {
           "id": "evening-cook",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop",
           "alt": "A person cooking dinner in the kitchen",
           "altNl": "Een persoon kookt in de keuken",
           "label": "1"
         },
         {
           "id": "evening-eat",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=600&h=600&fit=crop",
           "alt": "A family eating dinner together at the table",
           "altNl": "Een gezin eet samen aan tafel",
           "label": "2"
         },
         {
           "id": "evening-dishes",
-          "src": "/images/placeholder.jpg",
+          "src": "https://images.unsplash.com/photo-1585837146751-a44118595680?w=600&h=600&fit=crop",
           "alt": "A person washing the dishes",
           "altNl": "Een persoon doet de afwas",
           "label": "3"
@@ -131,7 +132,9 @@
         "transcript": "First the person cooks dinner. Then the family eats together. Finally the person washes the dishes.",
         "transcriptNl": "Eerst kookt de persoon het eten. Daarna eet het gezin samen. Tenslotte doet de persoon de afwas."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/a1-part4-morning-q2-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-a1-part4-morning-question.mp3"
 }

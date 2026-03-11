@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import Image from "next/image";
 import { Volume2, User } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
@@ -13,8 +13,65 @@ interface SpeakingPromptProps {
   autoPlay?: boolean;
 }
 
+/**
+ * Hook to play pre-generated MP3 audio files with TTS fallback.
+ */
+function usePregenAudio() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const { speak: ttsFallback, stop: ttsStop, isPlaying: ttsPlaying } = useAzureTTS();
+
+  const stop = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    ttsStop();
+    setIsPlaying(false);
+  }, [ttsStop]);
+
+  const play = useCallback((audioFile: string | undefined, fallbackText: string) => {
+    // Stop any current playback
+    stop();
+
+    if (audioFile) {
+      // Cache-bust to ensure browser loads latest file
+      const bustUrl = audioFile + "?v=2";
+      const audio = new Audio(bustUrl);
+      audioRef.current = audio;
+      audio.onended = () => setIsPlaying(false);
+      audio.onerror = () => {
+        setIsPlaying(false);
+        ttsFallback(fallbackText);
+      };
+      setIsPlaying(true);
+      audio.play().catch(() => {
+        setIsPlaying(false);
+        ttsFallback(fallbackText);
+      });
+    } else {
+      // No pre-generated file, use real-time TTS
+      ttsFallback(fallbackText);
+    }
+  }, [stop, ttsFallback]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  const playing = isPlaying || ttsPlaying;
+
+  return { play, stop, isPlaying: playing };
+}
+
 export function SpeakingPrompt({ task, question, compact = false, autoPlay = false }: SpeakingPromptProps) {
-  const { speak, stop, isPlaying } = useAzureTTS();
+  const { play, stop, isPlaying } = usePregenAudio();
 
   // Use question data if provided, otherwise fall back to task-level fields
   const questionNl = question?.questionNl ?? task.questionNl;
@@ -23,15 +80,20 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
   const images = question?.images ?? task.images;
   const sequencingWordsRequired = question?.sequencingWordsRequired ?? task.sequencingWordsRequired;
 
-  // Auto-play TTS when component mounts and autoPlay is true
+  // Audio file references (prefer question-level, fall back to task-level)
+  const questionAudioFile = question?.questionAudioFile ?? task.questionAudioFile;
+  const personStatementAudioFile = question?.personStatementAudioFile ?? task.personStatementAudioFile;
+
+  // Auto-play when component mounts and autoPlay is true
   useEffect(() => {
     if (!autoPlay) return;
 
-    const textToRead = personStatementNl || questionNl;
-    if (!textToRead) return;
-
     const timer = setTimeout(() => {
-      speak(textToRead);
+      if (personStatementNl) {
+        play(personStatementAudioFile, personStatementNl);
+      } else if (questionNl) {
+        play(questionAudioFile, questionNl);
+      }
     }, 500);
 
     return () => {
@@ -41,14 +103,6 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
     // Only run on mount / when autoPlay changes
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoPlay]);
-
-  const playTTS = () => {
-    if (isPlaying) {
-      stop();
-      return;
-    }
-    speak(personStatementNl || "");
-  };
 
   // Part 1: Personal questions with TTS
   if (task.partNumber === 1 && personStatementNl) {
@@ -66,7 +120,13 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
               </p>
             </div>
             <button
-              onClick={playTTS}
+              onClick={() => {
+                if (isPlaying) {
+                  stop();
+                } else {
+                  play(personStatementAudioFile, personStatementNl);
+                }
+              }}
               className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
                 isPlaying
                   ? "bg-[var(--accent)] text-white"
@@ -145,14 +205,7 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
                     alt={image.altNl}
                     fill
                     className="object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
                   />
-                  <div className="absolute inset-0 flex items-center justify-center text-gray-400 text-sm">
-                    {image.altNl}
-                  </div>
                 </div>
                 {image.label && (
                   <div className="absolute bottom-2 left-2 px-2 py-1 bg-white/90 rounded text-xs font-medium text-[var(--ink)]">
@@ -165,11 +218,30 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
         </div>
       )}
 
-      {/* Question */}
+      {/* Question with play button */}
       <div className={compact ? "" : "pt-2"}>
-        <h2 className="font-bold text-[var(--ink)] mb-1">
-          {questionNl}
-        </h2>
+        <div className="flex items-start gap-2">
+          <h2 className="font-bold text-[var(--ink)] mb-1 flex-1">
+            {questionNl}
+          </h2>
+          <button
+            onClick={() => {
+              if (isPlaying) {
+                stop();
+              } else {
+                play(questionAudioFile, questionNl);
+              }
+            }}
+            className={`flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
+              isPlaying
+                ? "bg-[var(--accent)] text-white"
+                : "bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20"
+            }`}
+            aria-label={isPlaying ? "Stop audio" : "Play question audio"}
+          >
+            <Volume2 className="h-4 w-4" />
+          </button>
+        </div>
         {questionParts && (
           <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
             <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">

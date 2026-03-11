@@ -80,7 +80,8 @@
       "modelAnswer": {
         "transcript": "Eva is having a meeting with colleagues. I think it is a nice work environment because it looks modern with a lot of light.",
         "transcriptNl": "Eva heeft een vergadering met collega's. Ik vind het een fijne werkomgeving omdat het er modern uitziet met veel licht."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/b1-part2-workplace-q1-question.mp3"
     },
     {
       "id": "b1-part2-workplace-q2",
@@ -104,7 +105,9 @@
       "modelAnswer": {
         "transcript": "Jan is working at a construction site outside. He is building something. I think working outside can be nice in the summer but difficult in the winter because of the cold and rain.",
         "transcriptNl": "Jan werkt op een bouwplaats buiten. Hij is iets aan het bouwen. Ik denk dat buiten werken fijn kan zijn in de zomer maar moeilijk in de winter vanwege de kou en regen."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/b1-part2-workplace-q2-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-b1-part2-workplace-question.mp3"
 }

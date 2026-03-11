@@ -13,9 +13,21 @@
     "Practice answering within the time limit — the recording stops automatically."
   ],
   "selfAssessmentCriteria": [
-    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
-    { "id": "detail", "text": "I gave detailed answers with reasons", "textEn": "I gave detailed answers with reasons" },
-    { "id": "connecting", "text": "I used connecting words", "textEn": "I used connecting words" }
+    {
+      "id": "answered",
+      "text": "I answered all four questions",
+      "textEn": "I answered all four questions"
+    },
+    {
+      "id": "detail",
+      "text": "I gave detailed answers with reasons",
+      "textEn": "I gave detailed answers with reasons"
+    },
+    {
+      "id": "connecting",
+      "text": "I used connecting words",
+      "textEn": "I used connecting words"
+    }
   ],
   "questions": [
     {
@@ -33,7 +45,9 @@
         "transcript": "Yes, I do homework every day. I study Dutch for one hour after dinner. I sit at my desk in my room. I use a book and an app. I think it is important to practice every day.",
         "transcriptNl": "Ja, ik maak elke dag huiswerk. Ik studeer Nederlands voor een uur na het eten. Ik zit aan mijn bureau in mijn kamer. Ik gebruik een boek en een app. Ik vind het belangrijk om elke dag te oefenen."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-1-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/spreken-a2-1-q1-person.mp3"
     },
     {
       "id": "spreken-a2-1-q2",
@@ -45,7 +59,7 @@
       "images": [
         {
           "id": "a2-lunch-1",
-          "src": "/images/spreken/a2-lunch-canteen.jpg",
+          "src": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=600&h=600&fit=crop",
           "alt": "People eating lunch in a canteen",
           "altNl": "Mensen lunchen in een kantine"
         }
@@ -56,7 +70,8 @@
         "transcript": "I see people eating lunch in a canteen. They have sandwiches and drinks. For lunch I usually eat bread with cheese. I eat at my work because I don't have time to go home. Sometimes I bring soup from home.",
         "transcriptNl": "Ik zie mensen die lunchen in een kantine. Ze hebben broodjes en drinken. Voor de lunch eet ik meestal brood met kaas. Ik eet op mijn werk want ik heb geen tijd om naar huis te gaan. Soms neem ik soep van huis mee."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-1-q2-question.mp3"
     },
     {
       "id": "spreken-a2-1-q3",
@@ -68,13 +83,13 @@
       "images": [
         {
           "id": "a2-edu-classroom",
-          "src": "/images/spreken/a2-classroom.jpg",
+          "src": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=600&fit=crop",
           "alt": "A modern classroom with students",
           "altNl": "Een modern klaslokaal met studenten"
         },
         {
           "id": "a2-edu-online",
-          "src": "/images/spreken/a2-online-learning.jpg",
+          "src": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&h=600&fit=crop",
           "alt": "Person studying online at home",
           "altNl": "Persoon studeert online thuis"
         }
@@ -85,7 +100,8 @@
         "transcript": "In the first picture I see a classroom with students and a teacher. In the second picture someone studies online at home. I learned Dutch in a classroom because I like to practice with other students. But online is also good because you can study at any time.",
         "transcriptNl": "Op de eerste foto zie ik een klaslokaal met studenten en een docent. Op de tweede foto studeert iemand online thuis. Ik heb Nederlands geleerd in een klaslokaal want ik oefen graag met andere studenten. Maar online is ook goed want je kunt op elk moment studeren."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-1-q3-question.mp3"
     },
     {
       "id": "spreken-a2-1-q4",
@@ -97,19 +113,19 @@
       "images": [
         {
           "id": "a2-class-1",
-          "src": "/images/spreken/a2-class-arrive.jpg",
+          "src": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=600&fit=crop",
           "alt": "Students arriving at a school building",
           "altNl": "Studenten komen aan bij een schoolgebouw"
         },
         {
           "id": "a2-class-2",
-          "src": "/images/spreken/a2-class-lesson.jpg",
+          "src": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=600&fit=crop",
           "alt": "Students in a classroom lesson",
           "altNl": "Studenten in een les"
         },
         {
           "id": "a2-class-3",
-          "src": "/images/spreken/a2-class-coffee.jpg",
+          "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=600&fit=crop",
           "alt": "Students having coffee during break",
           "altNl": "Studenten drinken koffie in de pauze"
         }
@@ -120,7 +136,8 @@
         "transcript": "First the students arrive at the school building in the morning. They go inside. Then they have a Dutch lesson in the classroom. The teacher explains grammar. After that the students drink coffee together during the break. They practice speaking Dutch with each other.",
         "transcriptNl": "Eerst komen de studenten 's ochtends aan bij het schoolgebouw. Ze gaan naar binnen. Dan hebben ze een les Nederlands in het klaslokaal. De docent legt grammatica uit. Daarna drinken de studenten samen koffie in de pauze. Ze oefenen Nederlands spreken met elkaar."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-1-q4-question.mp3"
     }
   ]
 }
