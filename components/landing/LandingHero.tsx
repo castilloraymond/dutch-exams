@@ -6,7 +6,6 @@ import { useUser } from "@clerk/nextjs";
 
 export function LandingHero() {
     const { user, isLoaded } = useUser();
-    const { user } = useUser();
     const ctaHref = user ? "/learn" : "/try";
 
     return (

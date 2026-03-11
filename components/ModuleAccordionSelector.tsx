@@ -69,16 +69,6 @@ function formatExamTitle(title: string): string {
   return title.replace(/^\S+\s+[A-Z0-9]+\s*-\s*/i, "");
 }
 
-function sortExams(
-  exams: MockExamSummary[],
-  examProgress: Record<string, ExamCompletion>
-) {
-  return {
-    notStarted: exams.filter((e) => !examProgress[e.id]),
-    completed: exams.filter((e) => !!examProgress[e.id]),
-  };
-}
-
 // ─── Exam Row ─────────────────────────────────────────────────────────────────
 
 interface ExamRowProps {
@@ -198,18 +188,15 @@ interface LevelCardProps {
   examProgress: Record<string, ExamCompletion>;
   isExpanded: boolean;
   onToggle: () => void;
-  showCompleted: boolean;
-  onToggleCompleted: () => void;
   isPremium: boolean;
 }
 
 function LevelCard({
   level, module, exams, examProgress,
-  isExpanded, onToggle, showCompleted, onToggleCompleted, isPremium,
+  isExpanded, onToggle, isPremium,
 }: LevelCardProps) {
-  const { notStarted, completed } = sortExams(exams, examProgress);
   const totalCount = exams.length;
-  const completedCount = completed.length;
+  const completedCount = exams.filter((e) => !!examProgress[e.id]).length;
 
   const ringSize = 64;
   const r = 26;
@@ -217,7 +204,7 @@ function LevelCard({
   const progress = totalCount > 0 ? completedCount / totalCount : 0;
   const strokeOffset = circumference * (1 - progress);
 
-  const previewExams = [...notStarted, ...completed].slice(0, 2);
+  const previewExams = exams.slice(0, 2);
   const moreCount = totalCount - 2;
 
   return (
@@ -306,35 +293,14 @@ function LevelCard({
       {/* Expanded content */}
       {isExpanded && (
         <div className="px-4 pb-4">
-          {notStarted.length > 0 && (
+          {exams.length > 0 ? (
             <div className="space-y-1">
-              {notStarted.map((exam) => (
+              {exams.map((exam) => (
                 <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                  completion={undefined} color={level.color} isPremium={isPremium} />
+                  completion={examProgress[exam.id]} color={level.color} isPremium={isPremium} />
               ))}
             </div>
-          )}
-          {completed.length > 0 && (
-            <div className="mt-2">
-              <button
-                className="text-xs text-[var(--ink)]/40 hover:text-[var(--ink)]/60 transition-colors py-1"
-                onClick={(e) => { e.stopPropagation(); onToggleCompleted(); }}
-              >
-                {showCompleted
-                  ? "Verberg afgerond · Hide completed"
-                  : `Toon afgerond (${completed.length}) · Show completed`}
-              </button>
-              {showCompleted && (
-                <div className="space-y-1 mt-1" style={{ opacity: 0.6 }}>
-                  {completed.map((exam) => (
-                    <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                      completion={examProgress[exam.id]} color={level.color} isPremium={isPremium} />
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
-          {notStarted.length === 0 && completed.length === 0 && (
+          ) : (
             <p className="text-sm text-[var(--ink)]/40 py-2">
               Geen examens beschikbaar · No exams available
             </p>
@@ -356,7 +322,6 @@ interface MobileTabViewProps {
 
 function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabViewProps) {
   const [activeLevel, setActiveLevel] = useState<Difficulty>("A1");
-  const [showCompleted, setShowCompleted] = useState(false);
 
   useEffect(() => {
     const first = LEVELS.find((level) => {
@@ -369,7 +334,6 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
 
   const activeConfig = LEVELS.find((l) => l.difficulty === activeLevel)!;
   const levelExams = exams.filter((e) => e.difficulty === activeLevel);
-  const { notStarted, completed } = sortExams(levelExams, examProgress);
 
   return (
     <div>
@@ -384,7 +348,7 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
           return (
             <button
               key={level.difficulty}
-              onClick={() => { setActiveLevel(level.difficulty); setShowCompleted(false); }}
+              onClick={() => setActiveLevel(level.difficulty)}
               className="flex-1 py-2 px-1 rounded-lg text-center transition-all duration-200"
               style={{
                 background: isActive ? "white" : "transparent",
@@ -413,36 +377,14 @@ function MobileTabView({ module, exams, examProgress, isPremium }: MobileTabView
       {/* Exam list */}
       <div className="rounded-xl overflow-hidden"
         style={{ background: "white", border: `2px solid color-mix(in srgb, ${activeConfig.color} 15%, transparent)` }}>
-        {notStarted.length > 0 && (
+        {levelExams.length > 0 ? (
           <div className="p-2 space-y-1">
-            {notStarted.map((exam) => (
+            {levelExams.map((exam) => (
               <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                completion={undefined} color={activeConfig.color} isPremium={isPremium} />
+                completion={examProgress[exam.id]} color={activeConfig.color} isPremium={isPremium} />
             ))}
           </div>
-        )}
-        {completed.length > 0 && (
-          <div className="px-2 pb-2">
-            {notStarted.length > 0 && <div className="border-t border-[var(--ink)]/5 my-1" />}
-            <button
-              className="text-xs text-[var(--ink)]/40 hover:text-[var(--ink)]/60 transition-colors py-1.5 px-1"
-              onClick={() => setShowCompleted((v) => !v)}
-            >
-              {showCompleted
-                ? "Verberg afgerond · Hide completed"
-                : `Toon afgerond (${completed.length}) · Show completed`}
-            </button>
-            {showCompleted && (
-              <div className="space-y-1 mt-1" style={{ opacity: 0.6 }}>
-                {completed.map((exam) => (
-                  <ExamRow key={exam.id} exam={exam} href={`/learn/${module}/mock/${exam.id}`}
-                    completion={examProgress[exam.id]} color={activeConfig.color} isPremium={isPremium} />
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-        {notStarted.length === 0 && completed.length === 0 && (
+        ) : (
           <p className="text-sm text-[var(--ink)]/40 p-4">
             Geen examens beschikbaar · No exams available
           </p>
@@ -483,9 +425,6 @@ export function ModuleAccordionSelector({ module, exams, examProgress }: Props) 
 
   const [headerVisible, setHeaderVisible] = useState(true);
   const [expandedLevel, setExpandedLevel] = useState<Difficulty | null>(null);
-  const [showCompleted, setShowCompleted] = useState<Record<Difficulty, boolean>>({
-    A1: false, A2: false, B1: false,
-  });
 
   useEffect(() => {
     const firstIncomplete = LEVELS.find((level) => {
@@ -588,10 +527,6 @@ export function ModuleAccordionSelector({ module, exams, examProgress }: Props) 
                   examProgress={examProgress}
                                    isExpanded={expandedLevel === level.difficulty}
                   onToggle={() => setExpandedLevel((p) => p === level.difficulty ? null : level.difficulty)}
-                  showCompleted={showCompleted[level.difficulty]}
-                  onToggleCompleted={() =>
-                    setShowCompleted((p) => ({ ...p, [level.difficulty]: !p[level.difficulty] }))
-                  }
                   isPremium={isPremium}
                 />
               );
