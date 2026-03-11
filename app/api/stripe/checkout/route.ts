@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
       custom_text: {
         submit: {
           message:
-            "Thank you for upgrading to Pro! You're getting unlimited access to all mock exams across all levels. 7-day money-back guarantee — no questions asked.",
+            "Your Pro Access includes:\n✓ 1,200+ Drill Questions\n✓ All 5 Exam Modules\n✓ 71 Mock Exams (A1, A2 & B1)\n✓ All future updates (new exams, AI explanations & more)\n✓ 7-day money-back guarantee — no questions asked",
         },
       },
       success_url: `${origin}/learn?upgraded=true`,
