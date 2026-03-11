@@ -6,7 +6,7 @@ import { useUser } from "@clerk/nextjs";
 
 export function LandingHero() {
     const { user, isLoaded } = useUser();
-    const ctaHref = user ? "/learn" : "/try";
+    const ctaHref = isLoaded && user ? "/learn" : "/try";
 
     return (
         <section className="min-h-svh sm:min-h-0 flex flex-col pt-[88px] sm:pt-[120px] pb-0 sm:pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-[60px] sm:items-center">
