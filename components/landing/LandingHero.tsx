@@ -6,6 +6,9 @@ import { useUser } from "@clerk/nextjs";
 
 export function LandingHero() {
     const { user, isLoaded } = useUser();
+    const { user } = useUser();
+    const ctaHref = user ? "/learn" : "/try";
+
     return (
         <section className="min-h-svh sm:min-h-0 flex flex-col pt-[88px] sm:pt-[120px] pb-0 sm:pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-[60px] sm:items-center">
             {/* Left column */}
@@ -37,7 +40,7 @@ export function LandingHero() {
 
                 <div className="flex flex-col items-center sm:flex-row sm:items-center gap-4 mb-4">
                     <Link
-                        href="/try"
+                        href={ctaHref}
                         className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-9 py-4 rounded-full font-semibold text-base"
                     >
                         Start a mock exam

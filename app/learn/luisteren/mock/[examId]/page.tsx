@@ -186,6 +186,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
       <ExamHeader title={exam.title} startTime={startTime} />
 
       <ExamLayout
+        scrollKey={currentQuestionIndex}
         left={
           currentTranscript && (
             <ContentPanel

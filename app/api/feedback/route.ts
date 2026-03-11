@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 import { rateLimit } from "@/lib/rate-limit";
-import { appendBugToTracker } from "@/lib/github-bugs";
+import { createBugIssue } from "@/lib/github-bugs";
 
 const OWNER_EMAIL = "hello@passinburgering.com";
 
@@ -112,7 +112,7 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // Append bug reports to BUGS.md in the repo (fire-and-forget — don't block the response)
+        // Create GitHub Issue for bug reports (awaited so Vercel doesn't kill the function early)
         if (feedback_type === "bug" || !feedback_type) {
             const ownerContext = verifiedOwnerReport
                 ? {
@@ -123,9 +123,11 @@ export async function POST(request: NextRequest) {
                 }
                 : undefined;
 
-            appendBugToTracker(description.trim(), page_url || "", email?.trim() || null, ownerContext).catch(
-                (err) => console.error("Failed to update BUGS.md:", err)
-            );
+            try {
+                await createBugIssue(description.trim(), page_url || "", email?.trim() || null, ownerContext);
+            } catch (err) {
+                console.error("Failed to create GitHub issue:", err);
+            }
         }
 
         return NextResponse.json(
