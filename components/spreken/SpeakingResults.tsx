@@ -2,9 +2,11 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp, Users } from "lucide-react";
+import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp, Users, Crown, ArrowRight, ShieldCheck } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 import { useAzureTTS } from "@/hooks/useAzureTTS";
+import { useUser } from "@clerk/nextjs";
+import { usePremium } from "@/hooks/usePremium";
 
 interface RecordedAnswer {
   questionIndex: number;
@@ -23,8 +25,9 @@ interface SpeakingResultsProps {
   onModelAnswerPlayed: () => void;
   onRetry: () => void;
   onComplete: () => void;
-  onGoToIndex?: () => void;
-  goToIndexLabel?: string;
+  backHref?: string;
+  backLabel?: string;
+  isFreePreview?: boolean;
 }
 
 export function SpeakingResults({
@@ -36,13 +39,17 @@ export function SpeakingResults({
   onModelAnswerPlayed,
   onRetry,
   onComplete,
-  onGoToIndex,
-  goToIndexLabel = "Another Part",
+  backHref = "/learn/spreken/select",
+  backLabel = "Back to Exams",
+  isFreePreview = false,
 }: SpeakingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const isPlayingRef = useRef(false);
   const { speak: azureSpeak, stop: azureStop, isPlaying: azureIsPlaying } = useAzureTTS();
+  const { user } = useUser();
+  const { isPremium } = usePremium();
+  const showUpgradeCTA = isFreePreview && user && !isPremium;
 
   const isMultiQuestion = questions.length > 1;
 
@@ -285,6 +292,33 @@ export function SpeakingResults({
         </ul>
       </div>
 
+      {/* Upgrade CTA for free users */}
+      {showUpgradeCTA && (
+        <div className="landing-card p-6 bg-gradient-to-br from-[var(--accent)]/5 to-[var(--accent)]/10 border-2 border-[var(--accent)]/20">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0">
+              <Crown className="h-6 w-6 text-white" />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-bold text-[var(--ink)] text-lg mb-2">
+                Unlock All Speaking Exams
+              </h3>
+              <p className="text-sm text-[var(--ink)]/70 mb-4">
+                Get unlimited access to all mock exams across Spreken, Schrijven, Lezen, Luisteren, and KNM.
+              </p>
+              <Link href="/upgrade" className="cta-primary py-3 px-6 cursor-pointer inline-flex items-center gap-2">
+                Upgrade to Pro
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-3">
+                <ShieldCheck className="h-3.5 w-3.5" />
+                <span>One-time payment &middot; 7-day money-back guarantee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Action buttons */}
       <div className="flex flex-col sm:flex-row gap-3">
         <button
@@ -293,21 +327,12 @@ export function SpeakingResults({
         >
           Try Again
         </button>
-        {onGoToIndex ? (
-          <button
-            onClick={onGoToIndex}
-            className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
-          >
-            {goToIndexLabel}
-          </button>
-        ) : (
-          <Link
-            href="/learn/spreken"
-            className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
-          >
-            {goToIndexLabel}
-          </Link>
-        )}
+        <Link
+          href={backHref}
+          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer text-center"
+        >
+          {backLabel}
+        </Link>
       </div>
     </div>
   );
