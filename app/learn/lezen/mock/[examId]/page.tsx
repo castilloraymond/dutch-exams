@@ -44,15 +44,16 @@ export default function LezenMockExamPage({ params }: PageProps) {
     const allQuestions: Question[] = [];
     const map = new Map<string, typeof exam.passages[0]>();
 
-    for (const passage of exam.passages) {
+    // Shuffle passage order, but keep each passage's questions grouped together
+    const shuffledPassages = shuffleArray([...exam.passages]);
+    for (const passage of shuffledPassages) {
       for (const question of passage.questions) {
         allQuestions.push(question);
         map.set(question.id, passage);
       }
     }
 
-    // Shuffle for each attempt
-    return { questions: shuffleArray(allQuestions), passageMap: map };
+    return { questions: allQuestions, passageMap: map };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exam, retryKey]);
 

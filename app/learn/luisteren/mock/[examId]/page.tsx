@@ -44,15 +44,16 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
     const allQuestions: Question[] = [];
     const map = new Map<string, typeof exam.transcripts[0]>();
 
-    for (const transcript of exam.transcripts) {
+    // Shuffle transcript order, but keep each transcript's questions grouped together
+    const shuffledTranscripts = shuffleArray([...exam.transcripts]);
+    for (const transcript of shuffledTranscripts) {
       for (const question of transcript.questions) {
         allQuestions.push(question);
         map.set(question.id, transcript);
       }
     }
 
-    // Shuffle for each attempt
-    return { questions: shuffleArray(allQuestions), transcriptMap: map };
+    return { questions: allQuestions, transcriptMap: map };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exam, retryKey]);
 
