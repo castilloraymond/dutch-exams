@@ -274,7 +274,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
         </div>
       )}
 
-      <section className="flex-1 container mx-auto px-4 py-6">
+      <section className="flex-1 container mx-auto px-4 py-4">
         <div className="max-w-2xl mx-auto">
           {/* Permission error */}
           {recorderError && (

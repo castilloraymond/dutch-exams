@@ -183,7 +183,7 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
             if (isPlaceholder) {
               return (
                 <div key={image.id} className="relative">
-                  <div className="aspect-square rounded-lg border-2 border-dashed border-[var(--ink)]/20 bg-[var(--ink)]/5 flex flex-col items-center justify-center p-4 text-center">
+                  <div className="aspect-[4/3] rounded-lg border-2 border-dashed border-[var(--ink)]/20 bg-[var(--ink)]/5 flex flex-col items-center justify-center p-4 text-center">
                     <p className="text-sm font-medium text-[var(--ink)]/80">
                       {image.altNl}
                     </p>
@@ -199,7 +199,7 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
 
             return (
               <div key={image.id} className="relative">
-                <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-200">
+                <div className="aspect-[4/3] relative rounded-lg overflow-hidden bg-gray-200">
                   <Image
                     src={image.src}
                     alt={image.altNl}
