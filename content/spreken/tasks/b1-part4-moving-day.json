@@ -23,7 +23,7 @@
     },
     {
       "id": "new-home",
-      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+      "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=600&fit=crop",
       "alt": "People unpacking in a new empty apartment",
       "altNl": "Mensen pakken uit in een nieuw leeg appartement",
       "label": "3"
@@ -98,7 +98,7 @@
         },
         {
           "id": "new-home",
-          "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=600&fit=crop",
+          "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=600&fit=crop",
           "alt": "People unpacking in new apartment",
           "altNl": "Mensen pakken uit in nieuw appartement",
           "label": "3"

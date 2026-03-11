@@ -69,12 +69,12 @@ function renderListContent(content: string) {
 function renderLetterContent(content: string) {
   const lines = content.split("\n");
   return (
-    <div className="space-y-4">
+    <div className="space-y-1">
       {lines.map((line, idx) => {
-        if (!line.trim()) return <div key={idx} className="h-4" />;
+        if (!line.trim()) return <div key={idx} className="h-2" />;
         if (line.match(/^(Geachte|Beste|Met vriendelijke groet|Hoogachtend)/)) {
           return (
-            <p key={idx} className="text-[var(--ink)]">
+            <p key={idx} className="text-[var(--ink)] pt-1">
               {line}
             </p>
           );
@@ -101,7 +101,7 @@ function renderNoticeContent(content: string) {
           {title}
         </h2>
       )}
-      <div className="space-y-2">
+      <div className="space-y-1">
         {body.map((line, idx) => (
           <p key={idx} className="text-[var(--ink)]">
             {line}
@@ -131,9 +131,18 @@ export function ContentPanel(props: ContentPanelProps) {
           {props.contentType === "letter" && renderLetterContent(props.content)}
           {props.contentType === "notice" && renderNoticeContent(props.content)}
           {(!props.contentType || props.contentType === "text" || props.contentType === "article" || props.contentType === "brochure") && (
-            <p className="text-base leading-relaxed whitespace-pre-wrap text-[var(--ink)]">
-              {props.content}
-            </p>
+            <div className="space-y-3">
+              {props.content.split("\n\n").map((paragraph, idx) => (
+                <p key={idx} className="text-base leading-relaxed text-[var(--ink)]">
+                  {paragraph.split("\n").map((line, lineIdx, arr) => (
+                    <span key={lineIdx}>
+                      {line}
+                      {lineIdx < arr.length - 1 && <br />}
+                    </span>
+                  ))}
+                </p>
+              ))}
+            </div>
           )}
         </div>
       </div>
