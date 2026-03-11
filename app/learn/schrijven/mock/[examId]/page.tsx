@@ -1,9 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback, use } from "react";
+import { useState, useMemo, useCallback, useEffect, use } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
-import { ArrowLeft, Clock, PenLine } from "lucide-react";
 import { getWritingMockExam } from "@/lib/content";
 import { useProgress } from "@/hooks/useProgress";
 import { usePremium } from "@/hooks/usePremium";
@@ -12,6 +10,9 @@ import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
 import { WritingResults } from "@/components/schrijven/WritingResults";
 import { useExitWarning } from "@/hooks/useExitWarning";
+import { ExamHeader } from "@/components/ExamHeader";
+import { ExamBottomNav } from "@/components/ExamBottomNav";
+import { QuestionGrid } from "@/components/QuestionGrid";
 
 type Stage = "writing" | "results";
 
@@ -29,8 +30,9 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
 
   const [stage, setStage] = useState<Stage>("writing");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [submission, setSubmission] = useState<string | FormAnswer>("");
-  const [submissions, setSubmissions] = useState<WritingSubmission[]>([]);
+  const [drafts, setDrafts] = useState<Record<string, string | FormAnswer>>({});
+  const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+  const [showGrid, setShowGrid] = useState(false);
   const [startTime] = useState(() => Date.now());
   const [elapsedTime, setElapsedTime] = useState(0);
   const [checkedCriteria, setCheckedCriteria] = useState<string[]>([]);
@@ -39,17 +41,6 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
   const currentQuestion = questions[currentQuestionIndex];
 
   useExitWarning(stage === "writing");
-
-  // Restore saved submission when question changes, or reset to empty
-  useEffect(() => {
-    if (!currentQuestion) return;
-    const saved = submissions.find((s) => s.questionId === currentQuestion.id);
-    if (saved) {
-      setSubmission(saved.submission);
-    } else {
-      setSubmission(currentQuestion.taskType === "form" ? {} : "");
-    }
-  }, [currentQuestionIndex, currentQuestion, submissions]);
 
   // Timer effect
   useEffect(() => {
@@ -60,67 +51,77 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
     return () => clearInterval(interval);
   }, [startTime, stage]);
 
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, "0")}`;
-  };
+  // Current draft (auto-initialized to empty on first access)
+  const currentDraft = currentQuestion
+    ? (drafts[currentQuestion.id] ?? (currentQuestion.taskType === "form" ? {} : ""))
+    : "";
 
-  const handleSubmit = () => {
-    // Save this submission
-    setSubmissions((prev) => {
-      const updated = [...prev];
-      const existingIdx = updated.findIndex((s) => s.questionId === currentQuestion.id);
-      const entry = { questionId: currentQuestion.id, submission };
-      if (existingIdx >= 0) {
-        updated[existingIdx] = entry;
-      } else {
-        updated.push(entry);
-      }
-      return updated;
+  const handleDraftChange = useCallback(
+    (val: string | FormAnswer) => {
+      if (!currentQuestion) return;
+      setDrafts((prev) => ({ ...prev, [currentQuestion.id]: val }));
+    },
+    [currentQuestion]
+  );
+
+  const goToQuestion = useCallback((index: number) => {
+    setCurrentQuestionIndex(index);
+  }, []);
+
+  const goPrevious = useCallback(() => {
+    setCurrentQuestionIndex((prev) => Math.max(0, prev - 1));
+  }, []);
+
+  const goNext = useCallback(() => {
+    setCurrentQuestionIndex((prev) => Math.min(questions.length - 1, prev + 1));
+  }, [questions.length]);
+
+  const toggleBookmark = useCallback((questionId: string) => {
+    setBookmarked((prev) => {
+      const next = new Set(prev);
+      if (next.has(questionId)) next.delete(questionId);
+      else next.add(questionId);
+      return next;
     });
+  }, []);
 
-    // If more questions, advance
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex((prev) => prev + 1);
-      return;
-    }
-
-    // Last question: go to results
+  const submitExam = useCallback(() => {
     setStage("results");
-  };
+  }, []);
 
-  const handlePrevious = () => {
-    if (currentQuestionIndex <= 0) return;
-    // Save current answer before going back
-    setSubmissions((prev) => {
-      const updated = [...prev];
-      const existingIdx = updated.findIndex((s) => s.questionId === currentQuestion.id);
-      const entry = { questionId: currentQuestion.id, submission };
-      if (existingIdx >= 0) {
-        updated[existingIdx] = entry;
+  // All submissions derived from drafts
+  const allSubmissions: WritingSubmission[] = useMemo(
+    () =>
+      questions.map((q) => ({
+        questionId: q.id,
+        submission: drafts[q.id] ?? (q.taskType === "form" ? {} : ""),
+      })),
+    [questions, drafts]
+  );
+
+  // Which questions have non-empty drafts (for the question grid)
+  const answeredSet = useMemo(() => {
+    const set = new Set<string>();
+    for (const q of questions) {
+      const draft = drafts[q.id];
+      if (!draft) continue;
+      if (q.taskType === "form") {
+        if (Object.values(draft as FormAnswer).some((v) => (v as string)?.trim())) set.add(q.id);
       } else {
-        updated.push(entry);
+        if ((draft as string).trim().length > 0) set.add(q.id);
       }
-      return updated;
-    });
-    setCurrentQuestionIndex((prev) => prev - 1);
-  };
+    }
+    return set;
+  }, [drafts, questions]);
 
-  const handleRevealModelAnswer = () => {
-    setModelAnswerRevealed(true);
-  };
+  const questionIds = useMemo(() => questions.map((q) => q.id), [questions]);
+
+  const handleRevealModelAnswer = () => setModelAnswerRevealed(true);
 
   const handleComplete = useCallback(() => {
     if (!exam) return;
-
-    const allSubmissions: WritingSubmission[] = [
-      ...submissions,
-      { questionId: currentQuestion.id, submission },
-    ];
-
     const attempt: WritingAttempt = {
-      submission: allSubmissions[0]?.submission || "",
+      submission: (allSubmissions[0]?.submission as string) || "",
       submissions: allSubmissions,
       selfAssessmentScore: checkedCriteria.length,
       selfAssessmentTotal: exam.selfAssessmentCriteria.length,
@@ -129,28 +130,17 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
       completedAt: new Date().toISOString(),
       timeElapsed: elapsedTime,
     };
-
     saveWritingAttempt(examId, attempt);
-  }, [exam, submissions, currentQuestion, submission, checkedCriteria, modelAnswerRevealed, elapsedTime, saveWritingAttempt, examId]);
+  }, [exam, allSubmissions, checkedCriteria, modelAnswerRevealed, elapsedTime, saveWritingAttempt, examId]);
 
   const handleRetry = () => {
     setStage("writing");
     setCurrentQuestionIndex(0);
-    setSubmission(questions[0]?.taskType === "form" ? {} : "");
-    setSubmissions([]);
+    setDrafts({});
+    setBookmarked(new Set());
     setCheckedCriteria([]);
     setModelAnswerRevealed(false);
   };
-
-  const isSubmitDisabled = useMemo(() => {
-    if (!currentQuestion) return true;
-    if (currentQuestion.taskType === "form") {
-      const formSubmission = submission as FormAnswer;
-      const requiredFields = currentQuestion.formFields?.filter((f) => f.required) || [];
-      return requiredFields.some((field) => !formSubmission[field.id]?.trim());
-    }
-    return (submission as string).trim().length < 10;
-  }, [currentQuestion, submission]);
 
   if (!exam) {
     return (
@@ -160,23 +150,17 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
     );
   }
 
-  // Premium gating: redirect non-premium users away from locked exams
+  // Premium gating
   if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
-    router.replace('/learn/schrijven/select?locked=true');
+    router.replace("/learn/schrijven/select?locked=true");
     return null;
   }
-
-  // Build all submissions for results (including current)
-  const allSubmissions: WritingSubmission[] = [
-    ...submissions,
-    { questionId: currentQuestion?.id || "", submission },
-  ];
 
   // Construct a WritingTask-compatible object for WritingResults
   const taskCompat = {
     ...exam,
     titleEn: exam.title,
-    taskType: questions[0]?.taskType || "free-text" as const,
+    taskType: questions[0]?.taskType || ("free-text" as const),
     scenario: "",
     scenarioEn: "",
     prompt: "",
@@ -185,62 +169,33 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
     isFreePreview: exam.isFreePreview,
   };
 
+  if (stage === "results") {
+    return (
+      <WritingResults
+        task={taskCompat}
+        submission={allSubmissions[0]?.submission || ""}
+        questions={questions}
+        submissions={allSubmissions}
+        checkedCriteria={checkedCriteria}
+        elapsedTime={elapsedTime}
+        modelAnswerRevealed={modelAnswerRevealed}
+        onRevealModelAnswer={handleRevealModelAnswer}
+        onRetry={handleRetry}
+        onComplete={handleComplete}
+        backHref="/learn/schrijven/select"
+        backLabel="Back to Exams"
+        isFreePreview={exam.isFreePreview}
+      />
+    );
+  }
+
   return (
-    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
-      {/* Header */}
-      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Link
-                href="/learn/schrijven/select"
-                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
-              >
-                <ArrowLeft className="h-5 w-5" />
-              </Link>
-              <div className="flex items-center gap-2">
-                <PenLine className="h-5 w-5 text-[var(--accent)]" />
-                <h1 className="text-lg font-bold text-[var(--ink)]">
-                  {exam.title}
-                </h1>
-              </div>
-            </div>
-            {stage === "writing" && (
-              <div className="flex items-center gap-2 text-[var(--ink)]/60">
-                <Clock className="h-4 w-4" />
-                <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
-              </div>
-            )}
-          </div>
-        </div>
-      </header>
+    <main className="min-h-screen flex flex-col">
+      <ExamHeader title={exam.title} startTime={startTime} />
 
-      {/* Prominent question counter */}
-      {stage === "writing" && (
-        <div className="bg-[var(--cream)] px-4 pt-4">
-          <div className="container mx-auto">
-            <div className="max-w-2xl mx-auto">
-              <div className="flex flex-col items-center gap-2">
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--accent)]/10 text-[var(--accent)] font-semibold text-sm">
-                  Vraag {currentQuestionIndex + 1} van {questions.length}
-                </span>
-                <div className="w-full h-1.5 bg-[var(--ink)]/10 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-[var(--accent)] rounded-full transition-all duration-300"
-                    style={{
-                      width: `${(currentQuestionIndex / questions.length) * 100}%`,
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <section className="flex-1 container mx-auto px-4 py-6">
+      <section className="flex-1 container mx-auto px-4 py-6 pb-24">
         <div className="max-w-2xl mx-auto">
-          {stage === "writing" && currentQuestion && (
+          {currentQuestion && (
             <div className="space-y-5">
               {/* Scenario */}
               <div className="landing-card p-4 bg-[var(--ink)]/5">
@@ -270,61 +225,48 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
               {currentQuestion.taskType === "form" ? (
                 <FormInput
                   fields={currentQuestion.formFields || []}
-                  value={submission as FormAnswer}
-                  onChange={setSubmission}
+                  value={currentDraft as FormAnswer}
+                  onChange={handleDraftChange}
                 />
               ) : (
                 <WritingInput
-                  value={submission as string}
-                  onChange={(val) => setSubmission(val)}
+                  value={currentDraft as string}
+                  onChange={handleDraftChange}
                   placeholder="Schrijf hier je antwoord..."
                   wordRange={currentQuestion.wordRange}
                   emailTemplate={currentQuestion.emailTemplate}
                 />
               )}
-
-              {/* Navigation buttons */}
-              <div className="flex gap-3">
-                {currentQuestionIndex > 0 && (
-                  <button
-                    onClick={handlePrevious}
-                    className="flex-1 border-2 border-[var(--ink)]/20 text-[var(--ink)] hover:border-[var(--ink)]/40 px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
-                  >
-                    Vorige vraag
-                  </button>
-                )}
-                <button
-                  onClick={handleSubmit}
-                  disabled={isSubmitDisabled}
-                  className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
-                >
-                  {currentQuestionIndex < questions.length - 1
-                    ? "Volgende vraag"
-                    : "Versturen"}
-                </button>
-              </div>
             </div>
-          )}
-
-          {stage === "results" && (
-            <WritingResults
-              task={taskCompat}
-              submission={submission}
-              questions={questions}
-              submissions={allSubmissions}
-              checkedCriteria={checkedCriteria}
-              elapsedTime={elapsedTime}
-              modelAnswerRevealed={modelAnswerRevealed}
-              onRevealModelAnswer={handleRevealModelAnswer}
-              onRetry={handleRetry}
-              onComplete={handleComplete}
-              backHref="/learn/schrijven/select"
-              backLabel="Back to Exams"
-              isFreePreview={exam.isFreePreview}
-            />
           )}
         </div>
       </section>
+
+      <ExamBottomNav
+        currentIndex={currentQuestionIndex}
+        totalQuestions={questions.length}
+        isBookmarked={currentQuestion ? bookmarked.has(currentQuestion.id) : false}
+        onPrevious={goPrevious}
+        onNext={goNext}
+        onOpenGrid={() => setShowGrid(true)}
+        onToggleBookmark={() => currentQuestion && toggleBookmark(currentQuestion.id)}
+        onSubmit={submitExam}
+      />
+
+      {showGrid && (
+        <QuestionGrid
+          totalQuestions={questions.length}
+          currentIndex={currentQuestionIndex}
+          answeredQuestions={answeredSet}
+          bookmarkedQuestions={bookmarked}
+          questionIds={questionIds}
+          onSelectQuestion={(index) => {
+            goToQuestion(index);
+            setShowGrid(false);
+          }}
+          onClose={() => setShowGrid(false)}
+        />
+      )}
     </main>
   );
 }
