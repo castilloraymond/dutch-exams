@@ -7,6 +7,7 @@ import { useUser } from "@clerk/nextjs";
 
 export function LandingNav() {
     const { user, isLoaded } = useUser();
+    const ctaHref = user ? "/learn" : "/try";
     const [menuOpen, setMenuOpen] = useState(false);
     const [hidden, setHidden] = useState(false);
     const lastScrollY = useRef(0);
@@ -68,7 +69,7 @@ export function LandingNav() {
                         </Link>
                     ) : null}
                     <Link
-                        href="/try"
+                        href={ctaHref}
                         className="hidden sm:inline-flex bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250"
                     >
                         Start practicing
@@ -123,7 +124,7 @@ export function LandingNav() {
                             </Link>
                         )}
                         <Link
-                            href="/try"
+                            href={ctaHref}
                             onClick={() => setMenuOpen(false)}
                             className="bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-sm text-center hover:bg-[var(--accent)] transition-all"
                         >
