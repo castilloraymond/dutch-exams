@@ -110,7 +110,8 @@
         "transcript": "First someone is packing boxes. Then they load the van. Finally they unpack in the new home. I also moved two years ago and it was stressful but my neighbors helped.",
         "transcriptNl": "Eerst pakt iemand dozen in. Daarna laden ze de verhuiswagen. Tenslotte pakken ze uit in het nieuwe huis. Ik ben ook twee jaar geleden verhuisd en het was stressvol maar mijn buren hielpen."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/b1-part4-moving-day-q1-question.mp3"
     },
     {
       "id": "b1-part4-moving-day-q2",
@@ -149,7 +150,9 @@
         "transcript": "First the person goes shopping for food at the supermarket. Then they cook a big meal in the kitchen. Finally everyone is at the dinner party and they are eating together. I have also organized a birthday party for my wife last year. I cooked traditional food from my country.",
         "transcriptNl": "Eerst gaat de persoon boodschappen doen in de supermarkt. Daarna kookt hij een grote maaltijd in de keuken. Tenslotte is iedereen op het etentje en eten ze samen. Ik heb ook een verjaardagsfeest georganiseerd voor mijn vrouw vorig jaar. Ik kookte traditioneel eten uit mijn land."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/b1-part4-moving-day-q2-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-b1-part4-moving-day-question.mp3"
 }

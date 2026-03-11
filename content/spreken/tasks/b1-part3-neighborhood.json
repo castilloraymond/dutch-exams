@@ -95,7 +95,8 @@
       "modelAnswer": {
         "transcript": "I prefer the village because it is quiet and green. But there are fewer shops and you need a car.",
         "transcriptNl": "Ik kies het dorp omdat het rustig en groen is. Maar er zijn minder winkels en je hebt een auto nodig."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/b1-part3-neighborhood-q1-question.mp3"
     },
     {
       "id": "b1-part3-neighborhood-q2",
@@ -127,7 +128,9 @@
       "modelAnswer": {
         "transcript": "I prefer the beach holiday because I like warm weather and swimming. The advantage is that you can relax. But the disadvantage is that it can be very busy and expensive in the summer.",
         "transcriptNl": "Ik kies de strandvakantie omdat ik van warm weer en zwemmen houd. Het voordeel is dat je kunt ontspannen. Maar het nadeel is dat het erg druk en duur kan zijn in de zomer."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/b1-part3-neighborhood-q2-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-b1-part3-neighborhood-question.mp3"
 }

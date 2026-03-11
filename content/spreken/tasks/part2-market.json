@@ -55,5 +55,6 @@
     "Use the person's name (Lisa) in your answer.",
     "Give a reason for your opinion - don't just say 'yes' or 'no'."
   ],
-  "isFreePreview": false
+  "isFreePreview": false,
+  "questionAudioFile": "/audio/spreken/questions/task-part2-market-question.mp3"
 }

@@ -66,7 +66,9 @@
         "transcript": "I like to do homework in the living room. It is quiet there and there is a lot of light. I can concentrate well there.",
         "transcriptNl": "Ik maak graag huiswerk in de woonkamer. Het is daar rustig en er is veel licht. Ik kan me daar goed concentreren."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q1-person.mp3"
     },
     {
       "id": "part1-homework-q2",
@@ -84,7 +86,9 @@
         "transcript": "On the weekend I go to the park with my friends. We walk together and drink coffee. Sometimes we also go shopping.",
         "transcriptNl": "In het weekend ga ik naar het park met mijn vrienden. We wandelen samen en drinken koffie. Soms gaan we ook winkelen."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q2-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q2-person.mp3"
     },
     {
       "id": "part1-homework-q3",
@@ -102,7 +106,9 @@
         "transcript": "I like to cook rice with chicken. It is easy and fast to make. My family also likes to eat it.",
         "transcriptNl": "Ik kook graag rijst met kip. Het is makkelijk en snel om te maken. Mijn familie eet het ook graag."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q3-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q3-person.mp3"
     },
     {
       "id": "part1-homework-q4",
@@ -120,7 +126,9 @@
         "transcript": "I go to the supermarket in my street. It is close to my house and not expensive. They have also fresh fruit and vegetables.",
         "transcriptNl": "Ik ga naar de supermarkt in mijn straat. Het is dichtbij mijn huis en niet duur. Ze hebben ook verse groenten en fruit."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q4-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q4-person.mp3"
     },
     {
       "id": "part1-homework-q5",
@@ -138,7 +146,9 @@
         "transcript": "I like warm weather with sun. Then I can outside walk and in the park sit. When it rains, I stay home.",
         "transcriptNl": "Ik vind warm weer met zon fijn. Dan kan ik buiten wandelen en in het park zitten. Als het regent, blijf ik thuis."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q5-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q5-person.mp3"
     },
     {
       "id": "part1-homework-q6",
@@ -156,7 +166,9 @@
         "transcript": "I like to swim. I go two times per week to the swimming pool. It is good for my body and I feel relaxed after.",
         "transcriptNl": "Ik zwem graag. Ik ga twee keer per week naar het zwembad. Het is goed voor mijn lichaam en ik voel me ontspannen daarna."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q6-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q6-person.mp3"
     },
     {
       "id": "part1-homework-q7",
@@ -174,7 +186,9 @@
         "transcript": "I like Dutch music and also pop music. I listen to music in the morning and when I clean the house. Music makes me happy.",
         "transcriptNl": "Ik vind Nederlandse muziek en ook popmuziek leuk. Ik luister naar muziek in de ochtend en als ik het huis schoonmaak. Muziek maakt me blij."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q7-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q7-person.mp3"
     },
     {
       "id": "part1-homework-q8",
@@ -192,7 +206,11 @@
         "transcript": "Yes, I know my neighbors. They are very nice people. Sometimes we talk in the garden and we help each other.",
         "transcriptNl": "Ja, ik ken mijn buren. Het zijn heel aardige mensen. Soms praten we in de tuin en we helpen elkaar."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/part1-homework-q8-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/part1-homework-q8-person.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-part1-homework-question.mp3",
+  "personStatementAudioFile": "/audio/spreken/questions/task-part1-homework-person.mp3"
 }

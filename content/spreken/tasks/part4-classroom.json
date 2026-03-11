@@ -9,21 +9,21 @@
   "images": [
     {
       "id": "whiteboard",
-      "src": "/images/spreken/part4-whiteboard.jpg",
+      "src": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=600&fit=crop",
       "alt": "Whiteboard in a classroom",
       "altNl": "Whiteboard in een klaslokaal",
       "label": "1"
     },
     {
       "id": "world-map",
-      "src": "/images/spreken/part4-world-map.jpg",
+      "src": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=600&fit=crop",
       "alt": "World map hanging on a wall",
       "altNl": "Wereldkaart aan de muur",
       "label": "2"
     },
     {
       "id": "clock",
-      "src": "/images/spreken/part4-clock.jpg",
+      "src": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=600&fit=crop",
       "alt": "Clock on a wall",
       "altNl": "Klok aan de muur",
       "label": "3"
@@ -109,7 +109,8 @@
         "transcript": "First I see a whiteboard. Then I see a world map. Finally I see a clock. Students can write on the whiteboard. With the map they can learn countries. With the clock they know what time it is.",
         "transcriptNl": "Eerst zie ik een whiteboard. Daarna zie ik een wereldkaart. Tenslotte zie ik een klok. Leerlingen kunnen op het whiteboard schrijven. Met de kaart kunnen ze landen leren. Met de klok weten ze hoe laat het is."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/part4-classroom-q1-question.mp3"
     },
     {
       "id": "part4-classroom-q2",
@@ -148,7 +149,9 @@
         "transcript": "First the alarm clock goes off. Then the person eats breakfast at the table. Finally the person cycles to work. I also wake up early. I eat bread with cheese and then I take the bus.",
         "transcriptNl": "Eerst gaat de wekker af. Daarna eet de persoon ontbijt aan tafel. Tenslotte fietst de persoon naar het werk. Ik word ook vroeg wakker. Ik eet brood met kaas en dan neem ik de bus."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/part4-classroom-q2-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-part4-classroom-question.mp3"
 }

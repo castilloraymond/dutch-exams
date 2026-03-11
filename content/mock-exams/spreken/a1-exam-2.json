@@ -13,9 +13,21 @@
     "The recording stops automatically — use the full time available."
   ],
   "selfAssessmentCriteria": [
-    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
-    { "id": "clear-pace", "text": "I spoke clearly and at a steady pace", "textEn": "I spoke clearly and at a steady pace" },
-    { "id": "sequencing", "text": "I used sequencing words (eerst, dan, daarna) in Part 4", "textEn": "I used sequencing words (eerst, dan, daarna) in Part 4" }
+    {
+      "id": "answered",
+      "text": "I answered all four questions",
+      "textEn": "I answered all four questions"
+    },
+    {
+      "id": "clear-pace",
+      "text": "I spoke clearly and at a steady pace",
+      "textEn": "I spoke clearly and at a steady pace"
+    },
+    {
+      "id": "sequencing",
+      "text": "I used sequencing words (eerst, dan, daarna) in Part 4",
+      "textEn": "I used sequencing words (eerst, dan, daarna) in Part 4"
+    }
   ],
   "questions": [
     {
@@ -33,7 +45,9 @@
         "transcript": "I live in Amsterdam. I live in an apartment. It is small but nice. I have one bedroom and a kitchen.",
         "transcriptNl": "Ik woon in Amsterdam. Ik woon in een flat. Het is klein maar leuk. Ik heb een slaapkamer en een keuken."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-2-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/spreken-a1-2-q1-person.mp3"
     },
     {
       "id": "spreken-a1-2-q2",
@@ -45,7 +59,7 @@
       "images": [
         {
           "id": "a1-market-1",
-          "src": "/images/spreken/a1-market.jpg",
+          "src": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&h=600&fit=crop",
           "alt": "An outdoor market with fruit and vegetables",
           "altNl": "Een buitenmarkt met groente en fruit"
         }
@@ -56,7 +70,8 @@
         "transcript": "I see a market. There are fruits and vegetables. I see apples and oranges. I go to the market every Saturday. I buy fruit there.",
         "transcriptNl": "Ik zie een markt. Er zijn groenten en fruit. Ik zie appels en sinaasappels. Ik ga elke zaterdag naar de markt. Ik koop daar fruit."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-2-q2-question.mp3"
     },
     {
       "id": "spreken-a1-2-q3",
@@ -68,13 +83,13 @@
       "images": [
         {
           "id": "a1-transport-bike",
-          "src": "/images/spreken/a1-transport-bike.jpg",
+          "src": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&h=600&fit=crop",
           "alt": "Person riding a bicycle",
           "altNl": "Persoon op een fiets"
         },
         {
           "id": "a1-transport-bus",
-          "src": "/images/spreken/a1-transport-bus.jpg",
+          "src": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=600&h=600&fit=crop",
           "alt": "Person taking the bus",
           "altNl": "Persoon in de bus"
         }
@@ -85,7 +100,8 @@
         "transcript": "I go to school by bike. I think the bike is better. It is healthy and free. The bus is also good when it rains. But the bus costs money.",
         "transcriptNl": "Ik ga naar school met de fiets. Ik denk dat de fiets beter is. Het is gezond en gratis. De bus is ook goed als het regent. Maar de bus kost geld."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-2-q3-question.mp3"
     },
     {
       "id": "spreken-a1-2-q4",
@@ -97,19 +113,19 @@
       "images": [
         {
           "id": "a1-shopping-1",
-          "src": "/images/spreken/a1-shopping-list.jpg",
+          "src": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=600&fit=crop",
           "alt": "Person writing a shopping list",
           "altNl": "Persoon schrijft een boodschappenlijst"
         },
         {
           "id": "a1-shopping-2",
-          "src": "/images/spreken/a1-shopping-store.jpg",
+          "src": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=600&h=600&fit=crop",
           "alt": "Person shopping in a supermarket",
           "altNl": "Persoon doet boodschappen in de supermarkt"
         },
         {
           "id": "a1-shopping-3",
-          "src": "/images/spreken/a1-shopping-cooking.jpg",
+          "src": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop",
           "alt": "Person cooking dinner",
           "altNl": "Persoon kookt het avondeten"
         }
@@ -120,7 +136,8 @@
         "transcript": "First the person writes a shopping list. Then they go to the supermarket. They buy food. After that they cook dinner at home.",
         "transcriptNl": "Eerst schrijft de persoon een boodschappenlijst. Dan gaat hij naar de supermarkt. Hij koopt eten. Daarna kookt hij thuis het avondeten."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a1-2-q4-question.mp3"
     }
   ]
 }

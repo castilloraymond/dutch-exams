@@ -9,14 +9,14 @@
   "images": [
     {
       "id": "old-building",
-      "src": "/images/spreken/part3-old-building.jpg",
+      "src": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=600&fit=crop",
       "alt": "Old traditional brick school building",
       "altNl": "Oud traditioneel bakstenen schoolgebouw",
       "label": "A"
     },
     {
       "id": "modern-building",
-      "src": "/images/spreken/part3-modern-building.jpg",
+      "src": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=600&fit=crop",
       "alt": "Modern glass and steel school building",
       "altNl": "Modern school gebouw van glas en staal",
       "label": "B"
@@ -93,7 +93,8 @@
       "modelAnswer": {
         "transcript": "I prefer to have lessons in the modern building. It looks clean and new. There is probably also better technology, like computers and screens.",
         "transcriptNl": "Ik heb liever les in het moderne gebouw. Het ziet er schoon en nieuw uit. Er is waarschijnlijk ook betere technologie, zoals computers en schermen."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/part3-education-q1-question.mp3"
     },
     {
       "id": "part3-education-q2",
@@ -124,7 +125,8 @@
       "modelAnswer": {
         "transcript": "I prefer to go by bicycle. It is healthy and good for the environment. The bicycle is also faster in the city because there is no traffic jam.",
         "transcriptNl": "Ik ga het liefst met de fiets. Het is gezond en goed voor het milieu. De fiets is ook sneller in de stad omdat er geen file is."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/part3-education-q2-question.mp3"
     },
     {
       "id": "part3-education-q3",
@@ -155,7 +157,9 @@
       "modelAnswer": {
         "transcript": "I prefer to live in a house. A house has more space and a garden. My children can play outside in the garden.",
         "transcriptNl": "Ik woon liever in een huis. Een huis heeft meer ruimte en een tuin. Mijn kinderen kunnen buiten spelen in de tuin."
-      }
+      },
+      "questionAudioFile": "/audio/spreken/questions/part3-education-q3-question.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-part3-education-question.mp3"
 }

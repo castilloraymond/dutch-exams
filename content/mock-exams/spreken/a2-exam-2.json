@@ -13,9 +13,21 @@
     "Don't worry about small mistakes — keep speaking."
   ],
   "selfAssessmentCriteria": [
-    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
-    { "id": "detail", "text": "I described pictures before giving opinions", "textEn": "I described pictures before giving opinions" },
-    { "id": "sequencing", "text": "I used sequencing words in Part 4", "textEn": "I used sequencing words in Part 4" }
+    {
+      "id": "answered",
+      "text": "I answered all four questions",
+      "textEn": "I answered all four questions"
+    },
+    {
+      "id": "detail",
+      "text": "I described pictures before giving opinions",
+      "textEn": "I described pictures before giving opinions"
+    },
+    {
+      "id": "sequencing",
+      "text": "I used sequencing words in Part 4",
+      "textEn": "I used sequencing words in Part 4"
+    }
   ],
   "questions": [
     {
@@ -33,7 +45,9 @@
         "transcript": "In the morning I wake up at 7 o'clock. I eat breakfast and go to school by bike. In the afternoon I study Dutch. In the evening I cook dinner and watch television. I go to bed at 11 o'clock.",
         "transcriptNl": "Ik word 's ochtends om 7 uur wakker. Ik ontbijt en ga met de fiets naar school. 's Middags studeer ik Nederlands. 's Avonds kook ik en kijk ik televisie. Ik ga om 11 uur naar bed."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-2-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/spreken-a2-2-q1-person.mp3"
     },
     {
       "id": "spreken-a2-2-q2",
@@ -45,7 +59,7 @@
       "images": [
         {
           "id": "a2-market-1",
-          "src": "/images/spreken/a2-market-stall.jpg",
+          "src": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&h=600&fit=crop",
           "alt": "A market stall with fresh produce",
           "altNl": "Een marktkraam met verse producten"
         }
@@ -56,7 +70,8 @@
         "transcript": "I see a market stall with fresh fruits and vegetables. There are tomatoes, peppers, and apples. I go to the market every week on Saturday. The food is fresh and often cheaper than the supermarket. I buy vegetables and sometimes flowers.",
         "transcriptNl": "Ik zie een marktkraam met verse groenten en fruit. Er zijn tomaten, paprika's en appels. Ik ga elke week op zaterdag naar de markt. Het eten is vers en vaak goedkoper dan de supermarkt. Ik koop groenten en soms bloemen."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-2-q2-question.mp3"
     },
     {
       "id": "spreken-a2-2-q3",
@@ -68,13 +83,13 @@
       "images": [
         {
           "id": "a2-transport-train",
-          "src": "/images/spreken/a2-transport-train.jpg",
+          "src": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=600&h=600&fit=crop",
           "alt": "Interior of a Dutch train",
           "altNl": "Binnenkant van een Nederlandse trein"
         },
         {
           "id": "a2-transport-car",
-          "src": "/images/spreken/a2-transport-car.jpg",
+          "src": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=600&fit=crop",
           "alt": "Person driving a car in traffic",
           "altNl": "Persoon rijdt auto in het verkeer"
         }
@@ -85,7 +100,8 @@
         "transcript": "In the first picture I see the inside of a train. It looks comfortable. In the second picture someone drives a car in traffic. I prefer the train because you can read or work during the trip. A car is useful for visiting family but there is often traffic.",
         "transcriptNl": "Op de eerste foto zie ik de binnenkant van een trein. Het ziet er comfortabel uit. Op de tweede foto rijdt iemand auto in het verkeer. Ik reis het liefst met de trein want je kunt lezen of werken tijdens de reis. Een auto is handig voor familiebezoek maar er is vaak file."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-2-q3-question.mp3"
     },
     {
       "id": "spreken-a2-2-q4",
@@ -97,19 +113,19 @@
       "images": [
         {
           "id": "a2-kitchen-1",
-          "src": "/images/spreken/a2-kitchen-recipe.jpg",
+          "src": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=600&h=600&fit=crop",
           "alt": "Person reading a recipe book",
           "altNl": "Persoon leest een kookboek"
         },
         {
           "id": "a2-kitchen-2",
-          "src": "/images/spreken/a2-kitchen-cooking.jpg",
+          "src": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop",
           "alt": "Person cooking in the kitchen",
           "altNl": "Persoon kookt in de keuken"
         },
         {
           "id": "a2-kitchen-3",
-          "src": "/images/spreken/a2-kitchen-eating.jpg",
+          "src": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=600&h=600&fit=crop",
           "alt": "Family eating dinner together",
           "altNl": "Familie eet samen"
         }
@@ -120,7 +136,8 @@
         "transcript": "First the person reads a recipe in a cookbook. They choose what to cook. Then they prepare the food in the kitchen. They cut vegetables and cook on the stove. After that the whole family eats dinner together at the table. They enjoy the meal.",
         "transcriptNl": "Eerst leest de persoon een recept in een kookboek. Hij kiest wat hij gaat koken. Dan bereidt hij het eten in de keuken. Hij snijdt groenten en kookt op het fornuis. Daarna eet het hele gezin samen aan tafel. Ze genieten van de maaltijd."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-2-q4-question.mp3"
     }
   ]
 }

@@ -53,7 +53,9 @@
         "transcript": "My name is Maria. I have one brother and two sisters. My brother lives in Amsterdam.",
         "transcriptNl": "Ik heet Maria. Ik heb een broer en twee zussen. Mijn broer woont in Amsterdam."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/a1-part1-family-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/a1-part1-family-q1-person.mp3"
     },
     {
       "id": "a1-part1-family-q2",
@@ -67,7 +69,9 @@
         "transcript": "My parents live in Turkey. They do not live nearby. I call them every week.",
         "transcriptNl": "Mijn ouders wonen in Turkije. Ze wonen niet dichtbij. Ik bel ze elke week."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/a1-part1-family-q2-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/a1-part1-family-q2-person.mp3"
     },
     {
       "id": "a1-part1-family-q3",
@@ -81,7 +85,11 @@
         "transcript": "Yes, I have one son. He is 6 years old. He goes to school.",
         "transcriptNl": "Ja, ik heb een zoon. Hij is 6 jaar oud. Hij gaat naar school."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/a1-part1-family-q3-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/a1-part1-family-q3-person.mp3"
     }
-  ]
+  ],
+  "questionAudioFile": "/audio/spreken/questions/task-a1-part1-family-question.mp3",
+  "personStatementAudioFile": "/audio/spreken/questions/task-a1-part1-family-person.mp3"
 }

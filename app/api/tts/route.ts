@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { rateLimit } from "@/lib/rate-limit";
 
-const AZURE_TTS_KEY = process.env.AZURE_TTS_KEY;
-const AZURE_TTS_REGION = process.env.AZURE_TTS_REGION || "westeurope";
+const AZURE_TTS_KEY = process.env.AZURE_TTS_KEY || process.env.AZURE_SPEECH_KEY;
+const AZURE_TTS_REGION = process.env.AZURE_TTS_REGION || process.env.AZURE_SPEECH_REGION || "westeurope";
 
 // Whitelist of allowed Azure Dutch voices to prevent SSML injection
 const ALLOWED_VOICES = new Set([

@@ -13,9 +13,21 @@
     "If you forget a word, describe it in a different way — don't stop talking."
   ],
   "selfAssessmentCriteria": [
-    { "id": "answered", "text": "I answered all four questions", "textEn": "I answered all four questions" },
-    { "id": "detail", "text": "I described pictures before giving opinions", "textEn": "I described pictures before giving opinions" },
-    { "id": "sequencing", "text": "I used sequencing words in Part 4", "textEn": "I used sequencing words in Part 4" }
+    {
+      "id": "answered",
+      "text": "I answered all four questions",
+      "textEn": "I answered all four questions"
+    },
+    {
+      "id": "detail",
+      "text": "I described pictures before giving opinions",
+      "textEn": "I described pictures before giving opinions"
+    },
+    {
+      "id": "sequencing",
+      "text": "I used sequencing words in Part 4",
+      "textEn": "I used sequencing words in Part 4"
+    }
   ],
   "questions": [
     {
@@ -33,7 +45,9 @@
         "transcript": "In my free time I like to cook. I cook every day for my family. I also like watching football on television. On Saturday I play football with friends in the park. Sometimes I read a book in the evening. I like Dutch books because I want to learn the language better.",
         "transcriptNl": "In mijn vrije tijd kook ik graag. Ik kook elke dag voor mijn gezin. Ik kijk ook graag naar voetbal op televisie. Op zaterdag voetbal ik met vrienden in het park. Soms lees ik een boek in de avond. Ik lees graag Nederlandse boeken want ik wil de taal beter leren."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-3-q1-question.mp3",
+      "personStatementAudioFile": "/audio/spreken/questions/spreken-a2-3-q1-person.mp3"
     },
     {
       "id": "spreken-a2-3-q2",
@@ -45,7 +59,7 @@
       "images": [
         {
           "id": "a2-3-park",
-          "src": "/images/spreken/a2-park-scene.jpg",
+          "src": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=600&h=600&fit=crop",
           "alt": "People enjoying a park on a sunny day",
           "altNl": "Mensen genieten van een park op een zonnige dag"
         }
@@ -56,7 +70,8 @@
         "transcript": "I see people in a park on a sunny day. Some people sit on the grass and others walk on a path. There are also children playing. I go to the park every week. I like walking there because it is quiet and green. In the summer I have a picnic with my family.",
         "transcriptNl": "Ik zie mensen in een park op een zonnige dag. Sommige mensen zitten op het gras en anderen lopen op een pad. Er zijn ook kinderen die spelen. Ik ga elke week naar het park. Ik wandel daar graag want het is rustig en groen. In de zomer heb ik een picknick met mijn gezin."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-3-q2-question.mp3"
     },
     {
       "id": "spreken-a2-3-q3",
@@ -68,13 +83,13 @@
       "images": [
         {
           "id": "a2-3-supermarket",
-          "src": "/images/spreken/a2-supermarket.jpg",
+          "src": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=600&h=600&fit=crop",
           "alt": "Inside a supermarket with shelves of products",
           "altNl": "Binnenkant van een supermarkt met schappen vol producten"
         },
         {
           "id": "a2-3-outdoor-market",
-          "src": "/images/spreken/a2-outdoor-market.jpg",
+          "src": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&h=600&fit=crop",
           "alt": "Outdoor market with fresh produce stalls",
           "altNl": "Buitenmarkt met kramen met verse producten"
         }
@@ -85,7 +100,8 @@
         "transcript": "In the first picture I see the inside of a supermarket. There are many products on the shelves. In the second picture I see an outdoor market with fruit and vegetables. I prefer to buy food at the supermarket because it is close to my house and I can find everything there. But the market has fresher vegetables and it is cheaper.",
         "transcriptNl": "Op de eerste foto zie ik de binnenkant van een supermarkt. Er staan veel producten in de schappen. Op de tweede foto zie ik een buitenmarkt met groenten en fruit. Ik koop het liefst eten bij de supermarkt want die is dicht bij mijn huis en ik kan alles daar vinden. Maar de markt heeft versere groenten en het is goedkoper."
       },
-      "sequencingWordsRequired": false
+      "sequencingWordsRequired": false,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-3-q3-question.mp3"
     },
     {
       "id": "spreken-a2-3-q4",
@@ -97,19 +113,19 @@
       "images": [
         {
           "id": "a2-3-sick",
-          "src": "/images/spreken/a2-feeling-sick.jpg",
+          "src": "https://images.unsplash.com/photo-1512678080530-7760d81faba6?w=600&h=600&fit=crop",
           "alt": "Person feeling sick at home",
           "altNl": "Persoon voelt zich ziek thuis"
         },
         {
           "id": "a2-3-doctor",
-          "src": "/images/spreken/a2-doctor-visit.jpg",
+          "src": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=600&fit=crop",
           "alt": "Patient talking to a doctor",
           "altNl": "Patiënt praat met een dokter"
         },
         {
           "id": "a2-3-pharmacy",
-          "src": "/images/spreken/a2-pharmacy.jpg",
+          "src": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=600&h=600&fit=crop",
           "alt": "Person picking up medicine at pharmacy",
           "altNl": "Persoon haalt medicijnen op bij de apotheek"
         }
@@ -120,7 +136,8 @@
         "transcript": "First the person feels sick at home. He has a headache and a sore throat. Then he goes to the doctor. The doctor examines him and writes a prescription. After that he goes to the pharmacy to pick up his medicine. Now he can rest at home and get better.",
         "transcriptNl": "Eerst voelt de persoon zich ziek thuis. Hij heeft hoofdpijn en keelpijn. Dan gaat hij naar de dokter. De dokter onderzoekt hem en schrijft een recept. Daarna gaat hij naar de apotheek om zijn medicijnen op te halen. Nu kan hij thuis rusten en beter worden."
       },
-      "sequencingWordsRequired": true
+      "sequencingWordsRequired": true,
+      "questionAudioFile": "/audio/spreken/questions/spreken-a2-3-q4-question.mp3"
     }
   ]
 }

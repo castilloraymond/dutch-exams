@@ -9,6 +9,7 @@
     "lint": "eslint",
     "generate-audio:google": "tsx scripts/generate-audio-google.ts",
     "generate-audio:azure": "tsx scripts/generate-audio-azure.ts",
+    "generate-spreken-audio": "tsx scripts/generate-spreken-audio.ts",
     "generate-audio": "npm run generate-audio:google && npm run generate-audio:azure"
   },
   "dependencies": {

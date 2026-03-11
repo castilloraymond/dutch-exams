@@ -48,5 +48,7 @@
     "Start with a direct answer about your transport, then give your reason.",
     "You can mention practical details like travel time or distance."
   ],
-  "isFreePreview": false
+  "isFreePreview": false,
+  "questionAudioFile": "/audio/spreken/questions/task-part1-daily-routine-question.mp3",
+  "personStatementAudioFile": "/audio/spreken/questions/task-part1-daily-routine-person.mp3"
 }
