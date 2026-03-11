@@ -28,6 +28,7 @@ interface AudioJob {
   text: string;
   voice: string;
   outputPath: string;
+  slow?: boolean; // A1/A2 use slower pace (85%)
 }
 
 /**
@@ -41,11 +42,13 @@ async function generateAudio(
     return true; // Already exists
   }
 
-  // Chirp3-HD uses plain text (no SSML) for most natural results
+  // A1/A2: slower pace via SSML prosody; B1: natural pace via plain text
+  const input = job.slow
+    ? { ssml: `<speak><prosody rate="85%">${escapeXml(job.text)}</prosody></speak>` }
+    : { text: job.text };
+
   const request: protos.google.cloud.texttospeech.v1.ISynthesizeSpeechRequest = {
-    input: {
-      text: job.text,
-    },
+    input,
     voice: {
       languageCode: "nl-NL",
       name: job.voice,
@@ -88,24 +91,25 @@ function collectJobs(outputDir: string): AudioJob[] {
   const seen = new Set<string>();
   const contentBase = path.join(process.cwd(), "content");
 
-  function addJob(id: string, text: string, voice: string) {
+  function addJob(id: string, text: string, voice: string, slow?: boolean) {
     if (seen.has(id)) return;
     seen.add(id);
-    jobs.push({ id, text, voice, outputPath: path.join(outputDir, `${id}.mp3`) });
+    jobs.push({ id, text, voice, slow, outputPath: path.join(outputDir, `${id}.mp3`) });
   }
 
   // --- Task files ---
   const taskDir = path.join(contentBase, "spreken", "tasks");
   for (const file of fs.readdirSync(taskDir).filter((f) => f.endsWith(".json"))) {
     const data = JSON.parse(fs.readFileSync(path.join(taskDir, file), "utf-8"));
+    const slow = data.difficulty !== "B1";
 
-    if (data.questionNl) addJob(`task-${data.id}-question`, data.questionNl, VOICE_QUESTION);
-    if (data.personStatementNl) addJob(`task-${data.id}-person`, data.personStatementNl, VOICE_PERSON);
+    if (data.questionNl) addJob(`task-${data.id}-question`, data.questionNl, VOICE_QUESTION, slow);
+    if (data.personStatementNl) addJob(`task-${data.id}-person`, data.personStatementNl, VOICE_PERSON, slow);
 
     if (data.questions) {
       for (const q of data.questions) {
-        if (q.questionNl) addJob(`${q.id}-question`, q.questionNl, VOICE_QUESTION);
-        if (q.personStatementNl) addJob(`${q.id}-person`, q.personStatementNl, VOICE_PERSON);
+        if (q.questionNl) addJob(`${q.id}-question`, q.questionNl, VOICE_QUESTION, slow);
+        if (q.personStatementNl) addJob(`${q.id}-person`, q.personStatementNl, VOICE_PERSON, slow);
       }
     }
   }
@@ -114,11 +118,12 @@ function collectJobs(outputDir: string): AudioJob[] {
   const mockDir = path.join(contentBase, "mock-exams", "spreken");
   for (const file of fs.readdirSync(mockDir).filter((f) => f.endsWith(".json") && f !== "index.json")) {
     const data = JSON.parse(fs.readFileSync(path.join(mockDir, file), "utf-8"));
+    const slow = data.difficulty !== "B1";
 
     if (data.questions) {
       for (const q of data.questions) {
-        if (q.questionNl) addJob(`${q.id}-question`, q.questionNl, VOICE_QUESTION);
-        if (q.personStatementNl) addJob(`${q.id}-person`, q.personStatementNl, VOICE_PERSON);
+        if (q.questionNl) addJob(`${q.id}-question`, q.questionNl, VOICE_QUESTION, slow);
+        if (q.personStatementNl) addJob(`${q.id}-person`, q.personStatementNl, VOICE_PERSON, slow);
       }
     }
   }
