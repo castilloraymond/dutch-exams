@@ -9,7 +9,7 @@ export async function POST(request: NextRequest) {
     try {
         // Rate limit: 10 requests per 15 minutes per IP
         const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
-        const { allowed, retryAfterMs } = rateLimit(`feedback:${ip}`, 10, 15 * 60 * 1000);
+        const { allowed, retryAfterMs } = await rateLimit(`feedback:${ip}`, 10, 15 * 60 * 1000);
         if (!allowed) {
             return NextResponse.json(
                 { error: "Too many requests. Please try again later." },

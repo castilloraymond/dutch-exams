@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Rate limit: 30 requests per 15 minutes per user
-    const { allowed, retryAfterMs } = rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
+    const { allowed, retryAfterMs } = await rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
     if (!allowed) {
       return NextResponse.json(
         { error: "Too many requests. Please try again later." },
@@ -131,7 +131,7 @@ export async function GET(_request: NextRequest) {
     }
 
     // Rate limit: 30 requests per 15 minutes per user
-    const { allowed, retryAfterMs } = rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
+    const { allowed, retryAfterMs } = await rateLimit(`progress:${email}`, 30, 15 * 60 * 1000);
     if (!allowed) {
       return NextResponse.json(
         { error: "Too many requests. Please try again later." },

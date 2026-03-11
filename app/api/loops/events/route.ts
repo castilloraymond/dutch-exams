@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
       request.headers.get("x-real-ip") ||
       request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
       "unknown";
-    const { allowed, retryAfterMs } = rateLimit(
+    const { allowed, retryAfterMs } = await rateLimit(
       `loops-event:${ip}`,
       20,
       60 * 1000

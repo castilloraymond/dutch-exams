@@ -1,3 +1,4 @@
+import { auth } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 import { rateLimit } from "@/lib/rate-limit";
 
@@ -52,9 +53,13 @@ interface RequestBody {
 
 export async function POST(request: NextRequest) {
   try {
-    // Rate limit: 10 requests per hour per IP
-    const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
-    const { allowed, retryAfterMs } = rateLimit(`reddit-response:${ip}`, 10, 60 * 60 * 1000);
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    // Rate limit: 10 requests per hour per user
+    const { allowed, retryAfterMs } = await rateLimit(`reddit-response:${userId}`, 10, 60 * 60 * 1000);
     if (!allowed) {
       return NextResponse.json(
         { error: "Too many requests. Please try again later." },
