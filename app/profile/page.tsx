@@ -94,11 +94,11 @@ export default function ProfilePage() {
   const sprekenCompleted = SPREKEN_IDS.filter((id) => progress.speakingProgress?.[id]?.completedAt).length;
 
   const modules = [
-    { name: "Lezen (Reading)", icon: BookOpen, completed: lezenCompleted, total: LEZEN_IDS.length },
-    { name: "KNM (Dutch Society)", icon: Landmark, completed: knmCompleted, total: KNM_IDS.length },
-    { name: "Luisteren (Listening)", icon: Headphones, completed: luisterenCompleted, total: LUISTEREN_IDS.length },
-    { name: "Schrijven (Writing)", icon: PenLine, completed: schrijvenCompleted, total: SCHRIJVEN_IDS.length },
-    { name: "Spreken (Speaking)", icon: Mic, completed: sprekenCompleted, total: SPREKEN_IDS.length },
+    { name: "Lezen (Reading)", icon: BookOpen, completed: lezenCompleted, total: LEZEN_IDS.length, href: "/learn/lezen/select" },
+    { name: "KNM (Dutch Society)", icon: Landmark, completed: knmCompleted, total: KNM_IDS.length, href: "/learn/knm/select" },
+    { name: "Luisteren (Listening)", icon: Headphones, completed: luisterenCompleted, total: LUISTEREN_IDS.length, href: "/learn/luisteren/select" },
+    { name: "Schrijven (Writing)", icon: PenLine, completed: schrijvenCompleted, total: SCHRIJVEN_IDS.length, href: "/learn/schrijven/select" },
+    { name: "Spreken (Speaking)", icon: Mic, completed: sprekenCompleted, total: SPREKEN_IDS.length, href: "/learn/spreken/select" },
   ];
 
   const handleSignOut = async () => {
@@ -190,7 +190,7 @@ export default function ProfilePage() {
                 const Icon = mod.icon;
                 const pct = mod.total > 0 ? Math.round((mod.completed / mod.total) * 100) : 0;
                 return (
-                  <div key={mod.name} className="flex items-center gap-4">
+                  <Link key={mod.name} href={mod.href} className="flex items-center gap-4 rounded-lg hover:bg-[var(--accent)]/5 transition-colors -mx-2 px-2 py-1">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center">
                       <Icon className="h-5 w-5 text-[var(--accent)]" />
                     </div>
@@ -210,7 +210,7 @@ export default function ProfilePage() {
                         />
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 );
               })}
             </div>
