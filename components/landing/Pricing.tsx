@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useCallback, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Check, ShieldCheck } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
 import { usePremium } from "@/hooks/usePremium";
@@ -20,11 +20,16 @@ export function PricingCard({ compact }: { compact?: boolean }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const handleCheckout = async () => {
+  const searchParams = useSearchParams();
+
+  const handleCheckout = useCallback(async () => {
     if (!isLoaded) return;
 
     if (!user) {
-      router.push("/auth/signup?redirect=/upgrade");
+      router.push(
+        "/auth/signup#/?redirect_url=" +
+          encodeURIComponent("/upgrade?checkout=true")
+      );
       return;
     }
 
@@ -43,7 +48,14 @@ export function PricingCard({ compact }: { compact?: boolean }) {
       setError("Could not connect to payment service. Please try again.");
       setLoading(false);
     }
-  };
+  }, [isLoaded, user, router]);
+
+  // Auto-trigger checkout after signup redirects back with ?checkout=true
+  useEffect(() => {
+    if (searchParams.get("checkout") === "true" && isLoaded && user && !isPremium) {
+      handleCheckout();
+    }
+  }, [searchParams, isLoaded, user, isPremium, handleCheckout]);
 
   return (
     <div className="bg-white rounded-[24px] p-8 sm:p-10 border-2 border-[#ebe8e0] relative overflow-hidden max-w-[480px] mx-auto">
@@ -115,7 +127,9 @@ export function Pricing() {
         Less than the cost of one failed exam retake.
       </p>
 
-      <PricingCard />
+      <Suspense>
+        <PricingCard />
+      </Suspense>
     </section>
   );
 }
