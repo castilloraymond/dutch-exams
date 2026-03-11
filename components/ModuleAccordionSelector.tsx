@@ -424,16 +424,10 @@ export function ModuleAccordionSelector({ module, exams, examProgress }: Props) 
   const { isPremium } = usePremium();
 
   const [headerVisible, setHeaderVisible] = useState(true);
-  const [expandedLevel, setExpandedLevel] = useState<Difficulty | null>(null);
-
-  useEffect(() => {
-    const firstIncomplete = LEVELS.find((level) => {
-      const levelExams = exams.filter((e) => e.difficulty === level.difficulty);
-      return levelExams.some((e) => !examProgress[e.id]);
-    });
-    setExpandedLevel(firstIncomplete?.difficulty ?? null);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  const [expandedLevels, setExpandedLevels] = useState<Set<Difficulty>>(() => {
+    // Default all levels expanded so every Start button is immediately clickable
+    return new Set(LEVELS.map((l) => l.difficulty));
+  });
 
   useEffect(() => {
     let lastY = window.scrollY;
@@ -525,8 +519,13 @@ export function ModuleAccordionSelector({ module, exams, examProgress }: Props) 
                   module={module}
                   exams={levelExams}
                   examProgress={examProgress}
-                                   isExpanded={expandedLevel === level.difficulty}
-                  onToggle={() => setExpandedLevel((p) => p === level.difficulty ? null : level.difficulty)}
+                  isExpanded={expandedLevels.has(level.difficulty)}
+                  onToggle={() => setExpandedLevels((prev) => {
+                    const next = new Set(prev);
+                    if (next.has(level.difficulty)) next.delete(level.difficulty);
+                    else next.add(level.difficulty);
+                    return next;
+                  })}
                   isPremium={isPremium}
                 />
               );
