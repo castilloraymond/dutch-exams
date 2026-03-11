@@ -5,6 +5,7 @@ import { ArrowRight, Check, Clock, CircleCheck, ChevronDown } from "lucide-react
 import { useUser } from "@clerk/nextjs";
 
 export function LandingHero() {
+    const { user, isLoaded } = useUser();
     const { user } = useUser();
     const ctaHref = user ? "/learn" : "/try";
 
@@ -53,6 +54,18 @@ export function LandingHero() {
                         <ArrowRight className="h-3.5 w-3.5" />
                     </a>
                 </div>
+                {isLoaded && !user && (
+                    <p className="text-[0.9rem] text-[var(--ink-muted)] text-center sm:text-left">
+                        or{" "}
+                        <Link href="/auth/signup" className="text-[var(--ink-soft)] underline underline-offset-2 hover:text-[var(--ink)] transition-colors">
+                            create a free account
+                        </Link>
+                        {" · "}
+                        <Link href="/auth/login" className="text-[var(--ink-soft)] underline underline-offset-2 hover:text-[var(--ink)] transition-colors">
+                            log in
+                        </Link>
+                    </p>
+                )}
             </div>
 
             {/* Scroll to explore indicator — mobile only, pinned to bottom */}
