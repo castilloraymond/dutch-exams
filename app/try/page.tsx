@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, BookOpen, Landmark, Headphones, PenLine, Mic } from "lucide-react";
+import { useUser } from "@clerk/nextjs";
 import { getMockExamIndex, getFreePreviewExamId } from "@/lib/content";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 
@@ -15,13 +17,19 @@ const modules = [
 ];
 
 export default function TryPage() {
+  const router = useRouter();
+  const { user, isLoaded } = useUser();
   const [freeExamCompleted, setFreeExamCompleted] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    if (isLoaded && user) {
+      router.replace("/learn");
+      return;
+    }
     setFreeExamCompleted(!!localStorage.getItem("free-exam-completed"));
     setIsLoading(false);
-  }, []);
+  }, [isLoaded, user, router]);
 
   // Build module cards with real exam data
   const moduleCards = modules.map((mod) => {

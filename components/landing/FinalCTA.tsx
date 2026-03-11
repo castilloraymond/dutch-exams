@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
 
 export function FinalCTA() {
-    const { user } = useUser();
-    const ctaHref = user ? "/learn" : "/try";
+    const { user, isLoaded } = useUser();
+    const ctaHref = isLoaded && user ? "/learn" : "/try";
 
     return (
         <section className="py-12 sm:py-[80px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
