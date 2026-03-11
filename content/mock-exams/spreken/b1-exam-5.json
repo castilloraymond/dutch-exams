@@ -5,7 +5,7 @@
   "difficulty": "B1",
   "questionCount": 4,
   "recommendedTime": "15 min",
-  "isFreePreview": true,
+  "isFreePreview": false,
   "tips": [
     "When talking about preferences, always explain the reasons behind your choice.",
     "Use varied sentence structures — don't start every sentence the same way.",
@@ -38,9 +38,9 @@
       "questionNl": "Hoe reis jij naar je werk of school? Wat vind je van het openbaar vervoer in Nederland? Wat zou je willen verbeteren?",
       "questionEn": "How do you travel to work or school? What do you think of public transport in the Netherlands? What would you improve?",
       "questionParts": [
-        "How do you travel to work or school?",
-        "What do you think of public transport?",
-        "What would you improve?"
+        "Hoe reis jij naar je werk of school?",
+        "Wat vind je van het openbaar vervoer?",
+        "Wat zou je willen verbeteren?"
       ],
       "personStatement": "I take the train and then a bus to get to work every day.",
       "personStatementNl": "Ik neem elke dag de trein en dan een bus om naar mijn werk te gaan.",

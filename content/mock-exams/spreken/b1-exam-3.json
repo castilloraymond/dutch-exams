@@ -5,7 +5,7 @@
   "difficulty": "B1",
   "questionCount": 4,
   "recommendedTime": "15 min",
-  "isFreePreview": true,
+  "isFreePreview": false,
   "tips": [
     "Structure your answer: introduce the topic, give your opinion, then support it with examples.",
     "When comparing two things, mention both advantages and disadvantages before stating your preference.",
@@ -38,9 +38,9 @@
       "questionNl": "Wat voor opleiding doe je of heb je gedaan? Wat vond je leuk aan je opleiding? Wat zou je anders willen doen?",
       "questionEn": "What education are you doing or have you done? What did you like about your education? What would you do differently?",
       "questionParts": [
-        "What education are you doing or have you done?",
-        "What did you like about it?",
-        "What would you do differently?"
+        "Wat voor opleiding doe je of heb je gedaan?",
+        "Wat vond je leuk aan je opleiding?",
+        "Wat zou je anders willen doen?"
       ],
       "personStatement": "I studied business administration at a university in my home country.",
       "personStatementNl": "Ik heb bedrijfskunde gestudeerd aan een universiteit in mijn thuisland.",

@@ -1,12 +1,9 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
-  ArrowLeft,
-  Clock,
-  PenLine,
   Check,
   Lock,
   Lightbulb,
@@ -15,6 +12,10 @@ import {
 } from "lucide-react";
 import { getQuickAssessmentWritingTask, getQuickAssessmentModules } from "@/lib/content";
 import { useUser } from "@clerk/nextjs";
+import { WritingInput } from "@/components/schrijven/WritingInput";
+import { ExamHeader } from "@/components/ExamHeader";
+import { ExamBottomNav } from "@/components/ExamBottomNav";
+import { QuestionGrid } from "@/components/QuestionGrid";
 
 type Stage = "writing" | "results";
 
@@ -33,7 +34,8 @@ export default function SchrijvenTrialPage() {
   const [stage, setStage] = useState<Stage>("writing");
   const [submission, setSubmission] = useState("");
   const [startTime] = useState(() => Date.now());
-  const [elapsedTime, setElapsedTime] = useState(0);
+  const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+  const [showGrid, setShowGrid] = useState(false);
 
   // Check completed assessment
   useEffect(() => {
@@ -43,24 +45,7 @@ export default function SchrijvenTrialPage() {
     }
   }, [router]);
 
-  // Timer effect
-  useEffect(() => {
-    if (stage !== "writing") return;
-
-    const interval = setInterval(() => {
-      setElapsedTime(Math.floor((Date.now() - startTime) / 1000));
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, [startTime, stage]);
-
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, "0")}`;
-  };
-
-  const handleSubmit = () => {
+  const handleSubmit = useCallback(() => {
     // Save result to localStorage and go directly to results
     const result = {
       module: "schrijven",
@@ -70,10 +55,20 @@ export default function SchrijvenTrialPage() {
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(result));
     setStage("results");
-  };
+  }, [submission, startTime]);
 
   const isSubmitDisabled = submission.trim().length < 10;
   const isUnlocked = !!user;
+
+  const toggleBookmark = useCallback(() => {
+    if (!task) return;
+    setBookmarked((prev) => {
+      const next = new Set(prev);
+      if (next.has(task.id)) next.delete(task.id);
+      else next.add(task.id);
+      return next;
+    });
+  }, [task]);
 
   if (!task) {
     return (
@@ -83,90 +78,84 @@ export default function SchrijvenTrialPage() {
     );
   }
 
-  return (
-    <main className="min-h-screen flex flex-col bg-[var(--cream)]">
-      {/* Header */}
-      <header className="border-b border-[var(--ink)]/10 sticky top-0 bg-[var(--cream)] z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Link
-                href="/try"
-                className="text-[var(--ink)]/60 hover:text-[var(--ink)] transition-colors"
-              >
-                <ArrowLeft className="h-5 w-5" />
-              </Link>
-              <div className="flex items-center gap-2">
-                <PenLine className="h-5 w-5 text-[var(--accent)]" />
-                <h1 className="text-lg font-bold text-[var(--ink)]">
-                  {moduleInfo?.name} Trial
-                </h1>
-              </div>
-            </div>
-            {stage === "writing" && (
-              <div className="flex items-center gap-2 text-[var(--ink)]/60">
-                <Clock className="h-4 w-4" />
-                <span className="font-mono text-sm">{formatTime(elapsedTime)}</span>
-              </div>
-            )}
-          </div>
-        </div>
-      </header>
+  const questionIds = [task.id];
+  const answeredSet = useMemo(() => {
+    const set = new Set<string>();
+    if (submission.trim().length > 0) set.add(task.id);
+    return set;
+  }, [submission, task.id]);
 
-      <section className="flex-1 container mx-auto px-4 py-6">
-        <div className="max-w-2xl mx-auto">
-          {/* Writing Stage */}
-          {stage === "writing" && (
-            <div className="space-y-6">
+  const title = moduleInfo?.name
+    ? `${moduleInfo.name} Trial`
+    : "Schrijven Trial";
+
+  return (
+    <main className="min-h-screen flex flex-col">
+      {stage === "writing" ? (
+        <>
+          <ExamHeader
+            title={title}
+            startTime={startTime}
+            backHref="/try"
+          />
+
+          <section className="flex-1 bg-[var(--cream)] overflow-y-auto p-4 sm:p-6 pb-24">
+            <div className="max-w-2xl mx-auto space-y-5">
               {/* Scenario */}
               <div className="landing-card p-4 bg-[var(--ink)]/5">
-                <p className="text-[var(--ink)] mb-2">{task.scenario}</p>
-                <p className="text-sm text-[var(--ink)]/60 italic">
-                  {task.scenarioEn}
-                </p>
+                <p className="text-[var(--ink)]">{task.scenario}</p>
               </div>
 
               {/* Prompt */}
-              <div>
-                <h2 className="font-bold text-[var(--ink)] mb-2">
-                  {task.prompt}
-                </h2>
-                <p className="text-sm text-[var(--ink)]/60">
-                  {task.promptEn}
-                </p>
-              </div>
+              <p className="font-semibold text-[var(--ink)] whitespace-pre-line">
+                {task.prompt}
+              </p>
 
-              {/* Text input */}
-              <div className="space-y-2">
-                <textarea
-                  value={submission}
-                  onChange={(e) => setSubmission(e.target.value)}
-                  placeholder="Schrijf hier je antwoord..."
-                  className="w-full min-h-[200px] p-4 rounded-lg border border-[var(--ink)]/20 bg-white text-[var(--ink)] placeholder:text-[var(--ink)]/40 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/50 focus:border-[var(--accent)] resize-y"
-                  style={{ fontFamily: "inherit" }}
-                />
-                {submission.trim().length < 10 && submission.length > 0 && (
-                  <p className="text-sm text-[var(--ink)]/60">
-                    Write at least a few sentences to submit.
-                  </p>
-                )}
-              </div>
-
-              {/* Submit button */}
-              <button
-                onClick={handleSubmit}
-                disabled={isSubmitDisabled}
-                className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors"
-              >
-                Submit
-              </button>
+              {/* Writing input */}
+              <WritingInput
+                value={submission}
+                onChange={setSubmission}
+                placeholder="Schrijf hier je antwoord..."
+                wordRange={task.wordRange}
+              />
             </div>
-          )}
+          </section>
 
-          {/* Results Stage */}
-          {stage === "results" && (
-            <div className="space-y-4">
-              {/* Side-by-side answer comparison - shown immediately */}
+          <ExamBottomNav
+            currentIndex={0}
+            totalQuestions={1}
+            isBookmarked={bookmarked.has(task.id)}
+            onPrevious={() => {}}
+            onNext={() => {}}
+            onOpenGrid={() => setShowGrid(true)}
+            onToggleBookmark={toggleBookmark}
+            onSubmit={isSubmitDisabled ? () => {} : handleSubmit}
+          />
+
+          {showGrid && (
+            <QuestionGrid
+              totalQuestions={1}
+              currentIndex={0}
+              answeredQuestions={answeredSet}
+              bookmarkedQuestions={bookmarked}
+              questionIds={questionIds}
+              onSelectQuestion={() => setShowGrid(false)}
+              onClose={() => setShowGrid(false)}
+            />
+          )}
+        </>
+      ) : (
+        /* Results Stage */
+        <div className="min-h-screen flex flex-col bg-[var(--cream)]">
+          <ExamHeader
+            title={title}
+            startTime={startTime}
+            backHref="/try"
+          />
+
+          <section className="flex-1 container mx-auto px-4 py-6">
+            <div className="max-w-2xl mx-auto space-y-4">
+              {/* Side-by-side answer comparison */}
               <div className="rounded-xl shadow-lg p-4 bg-white">
                 <h3 className="font-bold text-[var(--ink)] mb-3">
                   Compare Your Answer
@@ -194,7 +183,7 @@ export default function SchrijvenTrialPage() {
                 </div>
               </div>
 
-              {/* AI Feedback teaser - with correct gradient styling */}
+              {/* AI Feedback teaser */}
               <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--ink)] to-[var(--ink)]/90">
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
@@ -217,7 +206,7 @@ export default function SchrijvenTrialPage() {
                 </div>
               </div>
 
-              {/* Tips section - compact inline pills */}
+              {/* Tips section */}
               <div className="rounded-xl shadow-lg p-4 bg-white">
                 <div className="flex items-center gap-2 mb-2">
                   <Lightbulb className="h-4 w-4 text-[var(--accent)]" />
@@ -238,7 +227,6 @@ export default function SchrijvenTrialPage() {
 
               {/* CTA Section */}
               {isUnlocked ? (
-                /* Logged in: Show next step */
                 <div className="rounded-xl shadow-lg p-4 bg-gradient-to-r from-[var(--accent)]/5 to-[var(--accent)]/10">
                   <h3 className="font-semibold text-[var(--ink)] mb-1">
                     Ready to practice more?
@@ -255,7 +243,6 @@ export default function SchrijvenTrialPage() {
                   </Link>
                 </div>
               ) : (
-                /* Not logged in: Show signup CTAs */
                 <div className="space-y-3">
                   <div className="text-center">
                     <h3 className="font-semibold text-[var(--ink)] mb-1 text-sm">
@@ -288,9 +275,9 @@ export default function SchrijvenTrialPage() {
                 </div>
               )}
             </div>
-          )}
+          </section>
         </div>
-      </section>
+      )}
     </main>
   );
 }
