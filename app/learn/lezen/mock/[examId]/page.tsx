@@ -177,6 +177,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
         backLabel="Back to Reading"
         suggestedExams={suggestedExams}
         allModulesCompleted={allModulesCompleted}
+        isFreePreview={exam.isFreePreview}
       />
     );
   }

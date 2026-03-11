@@ -176,6 +176,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
         backLabel="Back to Listening"
         suggestedExams={suggestedExams}
         allModulesCompleted={allModulesCompleted}
+        isFreePreview={exam.isFreePreview}
       />
     );
   }

@@ -2,17 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown, UserPlus } from "lucide-react";
+import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, PenLine, Mic, Crown, UserPlus, ShieldCheck } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { useUser } from "@clerk/nextjs";
+import { usePremium } from "@/hooks/usePremium";
 
 const LABELS = ["A", "B", "C", "D"];
 
 export interface SuggestedExam {
   id: string;
   title: string;
-  module: "lezen" | "knm" | "luisteren";
+  module: "lezen" | "knm" | "luisteren" | "schrijven" | "spreken";
   difficulty: string;
   href: string;
 }
@@ -29,12 +30,15 @@ interface ResultsSummaryProps {
   suggestedExams?: SuggestedExam[];
   allModulesCompleted?: boolean;
   showSignupCTA?: boolean;
+  isFreePreview?: boolean;
 }
 
 const MODULE_ICONS = {
   lezen: BookOpen,
   knm: Landmark,
   luisteren: Headphones,
+  schrijven: PenLine,
+  spreken: Mic,
 };
 
 export function ResultsSummary({
@@ -49,8 +53,11 @@ export function ResultsSummary({
   suggestedExams = [],
   allModulesCompleted = false,
   showSignupCTA = false,
+  isFreePreview = false,
 }: ResultsSummaryProps) {
   const { user } = useUser();
+  const { isPremium } = usePremium();
+  const showUpgradeCTA = isFreePreview && user && !isPremium;
   const [showReview, setShowReview] = useState(false);
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;
@@ -144,8 +151,37 @@ export function ResultsSummary({
         </div>
       )}
 
+      {/* Upgrade CTA for logged-in free users */}
+      {showUpgradeCTA && (
+        <div className="w-full max-w-2xl mt-6">
+          <div className="landing-card p-6 bg-gradient-to-br from-[var(--accent)]/5 to-[var(--accent)]/10 border-2 border-[var(--accent)]/20">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0">
+                <Crown className="h-6 w-6 text-white" />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-bold text-[var(--ink)] text-lg mb-2">
+                  Unlock All Mock Exams
+                </h3>
+                <p className="text-sm text-[var(--ink)]/70 mb-4">
+                  Get unlimited access to all 71 mock exams across Lezen, Luisteren, KNM, Schrijven, and Spreken.
+                </p>
+                <Link href="/upgrade" className="cta-primary py-3 px-6 cursor-pointer inline-flex items-center gap-2">
+                  Upgrade to Pro
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+                <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-3">
+                  <ShieldCheck className="h-3.5 w-3.5" />
+                  <span>One-time payment &middot; 7-day money-back guarantee</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Next Steps Section */}
-      {suggestedExams.length > 0 && !showSignupCTA && !allModulesCompleted && (
+      {suggestedExams.length > 0 && !showSignupCTA && !showUpgradeCTA && !allModulesCompleted && (
         <div className="w-full max-w-2xl mt-6">
           <div className="landing-card p-6">
             <h3 className="font-semibold text-[var(--ink)] mb-4">

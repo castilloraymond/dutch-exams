@@ -279,8 +279,9 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
               onRevealModelAnswer={handleRevealModelAnswer}
               onRetry={handleRetry}
               onComplete={handleComplete}
-              onGoToIndex={() => router.push("/learn/schrijven/select")}
-              goToIndexLabel="Back to Exams"
+              backHref="/learn/schrijven/select"
+              backLabel="Back to Exams"
+              isFreePreview={exam.isFreePreview}
             />
           )}
         </div>

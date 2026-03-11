@@ -1,8 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Check, Lightbulb, Clock, ListChecks, ChevronDown, ChevronUp } from "lucide-react";
+import Link from "next/link";
+import { Check, Lightbulb, Clock, ListChecks, ChevronDown, ChevronUp, Crown, ArrowRight, ShieldCheck } from "lucide-react";
 import type { WritingTask, WritingQuestion, WritingSubmission, FormAnswer } from "@/lib/types";
+import { useUser } from "@clerk/nextjs";
+import { usePremium } from "@/hooks/usePremium";
 
 interface WritingResultsProps {
   task: WritingTask;
@@ -15,8 +18,9 @@ interface WritingResultsProps {
   onRevealModelAnswer: () => void;
   onRetry: () => void;
   onComplete: () => void;
-  onGoToIndex: () => void;
-  goToIndexLabel?: string;
+  backHref?: string;
+  backLabel?: string;
+  isFreePreview?: boolean;
 }
 
 function AnswerComparison({
@@ -80,11 +84,15 @@ export function WritingResults({
   onRevealModelAnswer,
   onRetry,
   onComplete,
-  onGoToIndex,
-  goToIndexLabel = "Another Task",
+  backHref = "/learn/schrijven/select",
+  backLabel = "Back to Exams",
+  isFreePreview = false,
 }: WritingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(0);
   const isMultiQuestion = questions.length > 1;
+  const { user } = useUser();
+  const { isPremium } = usePremium();
+  const showUpgradeCTA = isFreePreview && user && !isPremium;
 
   // Call onComplete and reveal model answer when component mounts
   useEffect(() => {
@@ -253,6 +261,33 @@ export function WritingResults({
 
       </div>
 
+      {/* Upgrade CTA for free users */}
+      {showUpgradeCTA && (
+        <div className="landing-card p-6 bg-gradient-to-br from-[var(--accent)]/5 to-[var(--accent)]/10 border-2 border-[var(--accent)]/20">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0">
+              <Crown className="h-6 w-6 text-white" />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-bold text-[var(--ink)] text-lg mb-2">
+                Unlock All Writing Exams
+              </h3>
+              <p className="text-sm text-[var(--ink)]/70 mb-4">
+                Get unlimited access to all mock exams across Schrijven, Spreken, Lezen, Luisteren, and KNM.
+              </p>
+              <Link href="/upgrade" className="cta-primary py-3 px-6 cursor-pointer inline-flex items-center gap-2">
+                Upgrade to Pro
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <div className="flex items-center gap-2 text-xs text-[var(--ink)]/50 mt-3">
+                <ShieldCheck className="h-3.5 w-3.5" />
+                <span>One-time payment &middot; 7-day money-back guarantee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Action buttons */}
       <div className="flex flex-col sm:flex-row gap-3">
         <button
@@ -261,12 +296,12 @@ export function WritingResults({
         >
           Try Again
         </button>
-        <button
-          onClick={onGoToIndex}
-          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
+        <Link
+          href={backHref}
+          className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer text-center"
         >
-          {goToIndexLabel}
-        </button>
+          {backLabel}
+        </Link>
       </div>
     </div>
   );

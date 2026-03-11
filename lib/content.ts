@@ -422,7 +422,7 @@ export function shuffleArray<T>(array: T[]): T[] {
 export interface SuggestedExamInfo {
   id: string;
   title: string;
-  module: "lezen" | "knm" | "luisteren";
+  module: "lezen" | "knm" | "luisteren" | "schrijven" | "spreken";
   difficulty: string;
   href: string;
 }
@@ -441,7 +441,7 @@ export function getSuggestedExams(
         allExams.push({
           id: fullId,
           title: exam.title,
-          module: module as "lezen" | "knm" | "luisteren",
+          module: module as SuggestedExamInfo["module"],
           difficulty: exam.difficulty,
           href: `/learn/${module}/mock/${fullId}`,
         });

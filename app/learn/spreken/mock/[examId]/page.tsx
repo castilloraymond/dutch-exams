@@ -375,8 +375,9 @@ export default function SprekenMockExamPage({ params }: PageProps) {
               onModelAnswerPlayed={handleModelAnswerPlayed}
               onRetry={handleRetry}
               onComplete={handleComplete}
-              onGoToIndex={() => router.push("/learn/spreken/select")}
-              goToIndexLabel="Back to Exams"
+              backHref="/learn/spreken/select"
+              backLabel="Back to Exams"
+              isFreePreview={exam.isFreePreview}
             />
           )}
         </div>
