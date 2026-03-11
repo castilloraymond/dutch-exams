@@ -5,8 +5,6 @@ import Link from "next/link";
 import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp, Users, Crown, ArrowRight, ShieldCheck } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 import { useAzureTTS } from "@/hooks/useAzureTTS";
-import { useUser } from "@clerk/nextjs";
-import { usePremium } from "@/hooks/usePremium";
 
 interface RecordedAnswer {
   questionIndex: number;
@@ -27,7 +25,7 @@ interface SpeakingResultsProps {
   onComplete: () => void;
   backHref?: string;
   backLabel?: string;
-  isFreePreview?: boolean;
+  showUpgradeCTA?: boolean;
 }
 
 export function SpeakingResults({
@@ -41,15 +39,12 @@ export function SpeakingResults({
   onComplete,
   backHref = "/learn/spreken/select",
   backLabel = "Back to Exams",
-  isFreePreview = false,
+  showUpgradeCTA = false,
 }: SpeakingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const isPlayingRef = useRef(false);
   const { speak: azureSpeak, stop: azureStop, isPlaying: azureIsPlaying } = useAzureTTS();
-  const { user } = useUser();
-  const { isPremium } = usePremium();
-  const showUpgradeCTA = isFreePreview && user && !isPremium;
 
   const isMultiQuestion = questions.length > 1;
 
@@ -254,7 +249,7 @@ export function SpeakingResults({
           <h3 className="font-bold text-[var(--ink)]">Tips</h3>
         </div>
         <ul className="space-y-2">
-          {task.tips.map((tip, index) => (
+          {(task.tips || []).map((tip, index) => (
             <li
               key={index}
               className="flex items-start gap-2 text-sm text-[var(--ink)]"

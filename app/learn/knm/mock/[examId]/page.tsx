@@ -159,7 +159,7 @@ export default function KNMMockExamPage({ params }: PageProps) {
         backLabel="Back to KNM"
         suggestedExams={suggestedExams}
         allModulesCompleted={allModulesCompleted}
-        isFreePreview={exam.isFreePreview}
+        showUpgradeCTA={!!exam.isFreePreview && !!user && !isPremium}
       />
     );
   }

@@ -6,7 +6,6 @@ import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, Ar
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { useUser } from "@clerk/nextjs";
-import { usePremium } from "@/hooks/usePremium";
 
 const LABELS = ["A", "B", "C", "D"];
 
@@ -30,7 +29,7 @@ interface ResultsSummaryProps {
   suggestedExams?: SuggestedExam[];
   allModulesCompleted?: boolean;
   showSignupCTA?: boolean;
-  isFreePreview?: boolean;
+  showUpgradeCTA?: boolean;
 }
 
 const MODULE_ICONS = {
@@ -53,11 +52,9 @@ export function ResultsSummary({
   suggestedExams = [],
   allModulesCompleted = false,
   showSignupCTA = false,
-  isFreePreview = false,
+  showUpgradeCTA = false,
 }: ResultsSummaryProps) {
   const { user } = useUser();
-  const { isPremium } = usePremium();
-  const showUpgradeCTA = isFreePreview && user && !isPremium;
   const [showReview, setShowReview] = useState(false);
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;

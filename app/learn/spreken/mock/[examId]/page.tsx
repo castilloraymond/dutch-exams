@@ -377,7 +377,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
               onComplete={handleComplete}
               backHref="/learn/spreken/select"
               backLabel="Back to Exams"
-              isFreePreview={exam.isFreePreview}
+              showUpgradeCTA={!!exam.isFreePreview && !isPremium && !premiumLoading}
             />
           )}
         </div>

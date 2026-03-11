@@ -4,8 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Check, Lightbulb, Clock, ListChecks, ChevronDown, ChevronUp, Crown, ArrowRight, ShieldCheck } from "lucide-react";
 import type { WritingTask, WritingQuestion, WritingSubmission, FormAnswer } from "@/lib/types";
-import { useUser } from "@clerk/nextjs";
-import { usePremium } from "@/hooks/usePremium";
 
 interface WritingResultsProps {
   task: WritingTask;
@@ -20,7 +18,7 @@ interface WritingResultsProps {
   onComplete: () => void;
   backHref?: string;
   backLabel?: string;
-  isFreePreview?: boolean;
+  showUpgradeCTA?: boolean;
 }
 
 function AnswerComparison({
@@ -86,13 +84,10 @@ export function WritingResults({
   onComplete,
   backHref = "/learn/schrijven/select",
   backLabel = "Back to Exams",
-  isFreePreview = false,
+  showUpgradeCTA = false,
 }: WritingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(0);
   const isMultiQuestion = questions.length > 1;
-  const { user } = useUser();
-  const { isPremium } = usePremium();
-  const showUpgradeCTA = isFreePreview && user && !isPremium;
 
   // Call onComplete and reveal model answer when component mounts
   useEffect(() => {
@@ -130,7 +125,7 @@ export function WritingResults({
           </h3>
         </div>
         <ul className="space-y-2">
-          {task.selfAssessmentCriteria.map((criterion) => (
+          {(task.selfAssessmentCriteria || []).map((criterion) => (
             <li
               key={criterion.id}
               className="flex items-start gap-2 text-sm text-[var(--ink)]"
@@ -183,10 +178,10 @@ export function WritingResults({
                     </div>
 
                     {/* Criteria for this question */}
-                    {q.selfAssessmentCriteria.length > 0 && (
+                    {(q.selfAssessmentCriteria || []).length > 0 && (
                       <div className="space-y-1">
                         <p className="text-xs font-medium text-[var(--ink)]/60">Criteria:</p>
-                        {q.selfAssessmentCriteria.map((c) => (
+                        {(q.selfAssessmentCriteria || []).map((c) => (
                           <div key={c.id} className="flex items-center gap-1.5 text-xs text-[var(--ink)]/70">
                             <Check className="h-3 w-3 text-[var(--accent)] flex-shrink-0" />
                             <span>{c.text}</span>
@@ -227,7 +222,7 @@ export function WritingResults({
           <h3 className="font-bold text-[var(--ink)]">Tips</h3>
         </div>
         <ul className="space-y-2">
-          {task.tips.map((tip, index) => (
+          {(task.tips || []).map((tip, index) => (
             <li
               key={index}
               className="flex items-start gap-2 text-sm text-[var(--ink)]"
