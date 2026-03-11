@@ -9,7 +9,8 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.passinburgering.com https://challenges.cloudflare.com",
+      // 'unsafe-inline' is required by Google Tag Manager — cannot be removed without switching to GTM server-side
+      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.passinburgering.com https://challenges.cloudflare.com",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
       "img-src 'self' data: blob: https://media.giphy.com https://images.unsplash.com https://images.pexels.com https://www.google-analytics.com https://www.googletagmanager.com https://img.clerk.com https://img.clerk.com",

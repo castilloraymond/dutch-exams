@@ -6,7 +6,7 @@ export async function POST(request: NextRequest) {
     try {
         // Rate limit: 5 requests per hour per IP
         const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
-        const { allowed, retryAfterMs } = rateLimit(`subscribe:${ip}`, 5, 60 * 60 * 1000);
+        const { allowed, retryAfterMs } = await rateLimit(`subscribe:${ip}`, 5, 60 * 60 * 1000);
         if (!allowed) {
             return NextResponse.json(
                 { error: "Too many requests. Please try again later." },
@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
         // Check if Supabase is configured
         if (!isSupabaseConfigured() || !supabase) {
             // In development without Supabase, just return success
-            console.log("Subscriber (dev mode):", email);
+            console.log("Subscriber received (dev mode)");
             return NextResponse.json({
                 success: true,
                 message: "Thanks for subscribing! We'll be in touch soon.",

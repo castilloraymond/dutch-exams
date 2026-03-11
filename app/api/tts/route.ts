@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
 
   // Rate limit: 20 requests per minute per IP
   const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
-  const { allowed, retryAfterMs } = rateLimit(`tts:${ip}`, 20, 60 * 1000);
+  const { allowed, retryAfterMs } = await rateLimit(`tts:${ip}`, 20, 60 * 1000);
   if (!allowed) {
     return NextResponse.json(
       { error: "Too many requests. Please try again later." },

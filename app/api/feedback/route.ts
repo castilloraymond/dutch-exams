@@ -9,7 +9,7 @@ export async function POST(request: NextRequest) {
     try {
         // Rate limit: 10 requests per 15 minutes per IP
         const ip = request.headers.get("x-real-ip") || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
-        const { allowed, retryAfterMs } = rateLimit(`feedback:${ip}`, 10, 15 * 60 * 1000);
+        const { allowed, retryAfterMs } = await rateLimit(`feedback:${ip}`, 10, 15 * 60 * 1000);
         if (!allowed) {
             return NextResponse.json(
                 { error: "Too many requests. Please try again later." },
@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
         }
 
         if (!isSupabaseConfigured() || !supabase) {
-            console.log("Beta feedback (dev mode):", { description, page_url, feedback_type, email, verifiedOwnerReport });
+            console.log("Beta feedback (dev mode):", { description, page_url, feedback_type, verifiedOwnerReport });
             return NextResponse.json(
                 { success: true, message: "Feedback received. Thank you!" },
                 { status: 201 }

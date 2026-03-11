@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
     } = body;
 
     // Rate limit: 50 requests per hour per user
-    const { allowed, retryAfterMs } = rateLimit(`exam-results:${userId}`, 50, 60 * 60 * 1000);
+    const { allowed, retryAfterMs } = await rateLimit(`exam-results:${userId}`, 50, 60 * 60 * 1000);
     if (!allowed) {
       return NextResponse.json(
         { error: "Too many requests. Please try again later." },
