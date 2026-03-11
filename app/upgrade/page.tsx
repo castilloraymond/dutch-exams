@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { PricingCard } from "@/components/landing/Pricing";
@@ -25,7 +26,9 @@ export default function UpgradePage() {
 
       <section className="flex-1 flex items-center justify-center px-4 py-10">
         <div className="w-full max-w-[600px]">
-          <PricingCard compact />
+          <Suspense>
+            <PricingCard compact />
+          </Suspense>
         </div>
       </section>
     </main>

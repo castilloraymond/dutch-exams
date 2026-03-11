@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useCallback, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Check, ShieldCheck } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
 import { usePremium } from "@/hooks/usePremium";
@@ -14,32 +14,48 @@ const features = [
 ];
 
 export function PricingCard({ compact }: { compact?: boolean }) {
-  const { user } = useUser();
+  const { user, isLoaded } = useUser();
   const { isPremium } = usePremium();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleCheckout = async () => {
+  const searchParams = useSearchParams();
+
+  const handleCheckout = useCallback(async () => {
+    if (!isLoaded) return;
+
     if (!user) {
-      router.push("/auth/signup?redirect=/upgrade");
+      router.push(
+        "/auth/signup#/?redirect_url=" +
+          encodeURIComponent("/upgrade?checkout=true")
+      );
       return;
     }
 
     setLoading(true);
+    setError(null);
     try {
       const res = await fetch("/api/stripe/checkout", { method: "POST" });
       const data = await res.json();
       if (data.url) {
         window.location.href = data.url;
       } else {
-        console.error("Checkout error:", data.error);
+        setError(data.error || "Something went wrong. Please try again.");
         setLoading(false);
       }
     } catch {
-      console.error("Failed to create checkout session");
+      setError("Could not connect to payment service. Please try again.");
       setLoading(false);
     }
-  };
+  }, [isLoaded, user, router]);
+
+  // Auto-trigger checkout after signup redirects back with ?checkout=true
+  useEffect(() => {
+    if (searchParams.get("checkout") === "true" && isLoaded && user && !isPremium) {
+      handleCheckout();
+    }
+  }, [searchParams, isLoaded, user, isPremium, handleCheckout]);
 
   return (
     <div className="bg-white rounded-[24px] p-8 sm:p-10 border-2 border-[#ebe8e0] relative overflow-hidden max-w-[480px] mx-auto">
@@ -76,13 +92,18 @@ export function PricingCard({ compact }: { compact?: boolean }) {
             You have Pro access!
           </div>
         ) : (
-          <button
-            onClick={handleCheckout}
-            disabled={loading}
-            className="cta-primary w-full inline-flex items-center justify-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.05rem] disabled:opacity-50"
-          >
-            {loading ? "Loading..." : "Unlock All Exams"}
-          </button>
+          <>
+            <button
+              onClick={handleCheckout}
+              disabled={loading || !isLoaded}
+              className="cta-primary w-full inline-flex items-center justify-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.05rem] disabled:opacity-50"
+            >
+              {loading ? "Loading..." : "Unlock All Exams"}
+            </button>
+            {error && (
+              <p className="mt-3 text-sm text-red-600">{error}</p>
+            )}
+          </>
         )}
 
         {/* Guarantee */}
@@ -108,7 +129,9 @@ export function Pricing() {
         Less than the cost of one failed exam retake.
       </p>
 
-      <PricingCard />
+      <Suspense>
+        <PricingCard />
+      </Suspense>
     </section>
   );
 }
