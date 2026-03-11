@@ -14,6 +14,7 @@ import {
   Mail,
   Chrome,
   RotateCcw,
+  Trash2,
 } from "lucide-react";
 import { useUser, useClerk } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
@@ -42,6 +43,7 @@ export default function ProfilePage() {
   const { isPremium } = usePremium();
   const [signingOut, setSigningOut] = useState(false);
   const [refunding, setRefunding] = useState(false);
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     if (isLoaded && !user) {
@@ -105,6 +107,25 @@ export default function ProfilePage() {
     setSigningOut(true);
     await signOut();
     router.push("/");
+  };
+
+  const handleDeleteAccount = async () => {
+    if (!window.confirm("Are you sure? This will permanently delete your account and all your progress. This cannot be undone.")) return;
+    setDeleting(true);
+    try {
+      const res = await fetch("/api/account/delete", { method: "DELETE" });
+      if (res.ok) {
+        await signOut();
+        router.push("/");
+      } else {
+        const data = await res.json();
+        alert(data.error || "Failed to delete account. Please try again.");
+        setDeleting(false);
+      }
+    } catch {
+      alert("Failed to delete account. Please try again.");
+      setDeleting(false);
+    }
   };
 
   return (
@@ -226,6 +247,23 @@ export default function ProfilePage() {
             >
               <LogOut className="h-4 w-4 mr-2" />
               {signingOut ? "Signing out..." : "Sign Out"}
+            </Button>
+          </div>
+
+          {/* Danger Zone */}
+          <div className="landing-card p-6 border border-red-200">
+            <p className="text-sm font-semibold text-red-600 mb-1">Danger Zone</p>
+            <p className="text-sm text-[var(--ink)]/60 mb-4">
+              Permanently delete your account and all associated data. This cannot be undone.
+            </p>
+            <Button
+              variant="outline"
+              className="w-full text-red-600 border-red-200 hover:bg-red-50 hover:text-red-700"
+              onClick={handleDeleteAccount}
+              disabled={deleting}
+            >
+              <Trash2 className="h-4 w-4 mr-2" />
+              {deleting ? "Deleting account..." : "Delete My Account"}
             </Button>
           </div>
         </div>

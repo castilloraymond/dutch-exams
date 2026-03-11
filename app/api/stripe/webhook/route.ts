@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
         },
       });
 
-      console.log(`User ${userId} upgraded to Pro`);
+      console.log("User upgraded to Pro");
     }
 
     return NextResponse.json({ received: true });

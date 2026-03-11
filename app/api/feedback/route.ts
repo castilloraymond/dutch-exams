@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
         }
 
         if (!isSupabaseConfigured() || !supabase) {
-            console.log("Beta feedback (dev mode):", { description, page_url, feedback_type, email, verifiedOwnerReport });
+            console.log("Beta feedback (dev mode):", { description, page_url, feedback_type, verifiedOwnerReport });
             return NextResponse.json(
                 { success: true, message: "Feedback received. Thank you!" },
                 { status: 201 }

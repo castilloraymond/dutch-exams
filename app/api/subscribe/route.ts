@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
         // Check if Supabase is configured
         if (!isSupabaseConfigured() || !supabase) {
             // In development without Supabase, just return success
-            console.log("Subscriber (dev mode):", email);
+            console.log("Subscriber received (dev mode)");
             return NextResponse.json({
                 success: true,
                 message: "Thanks for subscribing! We'll be in touch soon.",

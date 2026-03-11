@@ -79,7 +79,7 @@ export async function POST() {
       },
     });
 
-    console.log(`User ${userId} refunded`);
+    console.log("User refunded");
 
     return NextResponse.json({ success: true });
   } catch (error) {
