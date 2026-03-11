@@ -1,7 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { useUser } from "@clerk/nextjs";
 
 export function FinalCTA() {
+    const { user } = useUser();
+    const ctaHref = user ? "/learn" : "/try";
+
     return (
         <section className="py-12 sm:py-[80px] px-6 lg:px-10 text-center bg-[var(--ink)] relative overflow-hidden">
             {/* Subtle radial accent gradient */}
@@ -14,7 +20,7 @@ export function FinalCTA() {
                 71 mock exams across all 5 modules. Real exam format. Explanations for every question. Start practicing for free — no signup required.
             </p>
             <Link
-                href="/try"
+                href={ctaHref}
                 className="cta-primary inline-flex items-center justify-center gap-2.5 w-full sm:w-auto max-w-[320px] px-11 py-[18px] rounded-full font-semibold text-[1.08rem] relative"
             >
                 Start a mock exam
