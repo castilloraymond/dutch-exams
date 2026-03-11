@@ -8,36 +8,6 @@ Ongoing bug tracker for passinburgering.com. Detailed original report: [BUG_REPO
 
 ## Open Bugs
 
-### Critical
-
-| # | Bug | Location | Reported | Status | Notes |
-|---|-----|----------|----------|--------|-------|
-| 1 | Login/Signup pages return 404 | `/login`, `/signup` | Unknown | Open | Blocks user registration |
-| 2 | Trial Lezen questions missing reading passages | `/try/lezen` | Unknown | Open | Questions shown without passage context. Full mock at `/learn/lezen/mock/` works fine |
-
-### High
-
-| # | Bug | Location | Reported | Status | Notes |
-|---|-----|----------|----------|--------|-------|
-| 3 | Spreken image not loading in trial | `/try/spreken` | Unknown | Open | Shows alt text only ("Persoon eet een gezonde salade...") |
-| 4 | Inconsistent "Coming Soon" labels | Homepage vs `/try` | Unknown | Open | Homepage says Coming Soon for Schrijven/Spreken, but /try has them available |
-
-### Medium
-
-| # | Bug | Location | Reported | Status | Notes |
-|---|-----|----------|----------|--------|-------|
-| 5 | Question count mismatch (10 vs 9) | `/try` Lezen | Unknown | Open | Card says 10 questions, quiz shows "Question X of 9" |
-| 6 | Spreken skips Part 1 | `/try/spreken` | Unknown | Open | Immediately shows "Part 2" with no Part 1 |
-| 7 | Footer links broken (href="#") | All pages | Unknown | Open | Privacy, Terms, Contact link to "#" |
-| 8 | "View Pricing" button shows no prices | Footer CTA | Unknown | Open | Scrolls to #modules section, not pricing |
-
-### Low / UX
-
-| # | Bug | Location | Reported | Status | Notes |
-|---|-----|----------|----------|--------|-------|
-| 9 | Writing uses self-assessment only | `/try/schrijven` | Unknown | Open | No actual evaluation of writing quality |
-| 10 | No homepage nav from assessments | `/try/*` | Unknown | Open | Missing logo/home link in assessment header |
-
 ### Security — Deferred (requires infrastructure)
 
 | # | Issue | Location | Reported | Status | Notes |
@@ -47,10 +17,25 @@ Ongoing bug tracker for passinburgering.com. Detailed original report: [BUG_REPO
 
 ## Fixed Bugs
 
-| # | Bug | Reported | Fixed | Commit |
-|---|-----|----------|-------|--------|
-| - | Lezen passage text missing + timer reset after idle | Unknown | Feb 2026 | af34cc4 |
-| - | Route logged-in users to /learn from Start Practice | Unknown | Feb 2026 | c9ca821 |
+| # | Bug | Reported | Fixed | Notes |
+|---|-----|----------|-------|-------|
+| 1 | Login/Signup pages return 404 | Unknown | Mar 2026 | Redirects added in `next.config.ts` |
+| 2 | Trial Lezen questions missing reading passages | Unknown | Mar 2026 | Passages load correctly in free preview |
+| 4 | Inconsistent "Coming Soon" labels | Unknown | Mar 2026 | No "Coming Soon" labels exist in current code |
+| 5 | Question count mismatch (10 vs 9) | Unknown | Mar 2026 | Index and content both show correct count |
+| 6 | Spreken skips Part 1 | Unknown | Mar 2026 | Task correctly has `partNumber: 1` |
+| 7 | Footer links broken (href="#") | Unknown | Mar 2026 | Links go to `/privacy`, `/terms`, `/contact` |
+| 8 | "View Pricing" shows no prices | Unknown | Mar 2026 | `/upgrade` page has full pricing |
+| 10 | No homepage nav from assessments | Unknown | Mar 2026 | Added back arrow to ExamHeader on `/try/*` exams |
+| - | Lezen passage text missing + timer reset after idle | Unknown | Feb 2026 | Commit af34cc4 |
+| - | Route logged-in users to /learn from Start Practice | Unknown | Feb 2026 | Commit c9ca821 |
+
+## Won't Fix
+
+| # | Bug | Notes |
+|---|-----|-------|
+| 3 | Spreken image not loading in trial | Free task (`part1-homework`) has no images by design |
+| 9 | Writing uses self-assessment only | By design — rubric-based self-assessment per CLAUDE.md |
 
 ## Report a New Bug
 

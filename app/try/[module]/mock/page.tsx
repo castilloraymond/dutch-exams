@@ -219,7 +219,7 @@ export default function FreeExamPage() {
   return (
     <ErrorBoundary fallbackHref="/try" fallbackLabel="Back to Free Exams">
       <main className="min-h-screen flex flex-col">
-        <ExamHeader title={exam.title} startTime={startTime} />
+        <ExamHeader title={exam.title} startTime={startTime} backHref="/try" />
 
         <ExamLayout
           scrollKey={currentQuestionIndex}
