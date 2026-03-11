@@ -92,16 +92,18 @@ export function PricingCard({ compact }: { compact?: boolean }) {
             You have Pro access!
           </div>
         ) : (
-          <button
-            onClick={handleCheckout}
-            disabled={loading || !isLoaded}
-            className="cta-primary w-full inline-flex items-center justify-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.05rem] disabled:opacity-50"
-          >
-            {loading ? "Loading..." : "Unlock All Exams"}
-          </button>
-          {error && (
-            <p className="mt-3 text-sm text-red-600">{error}</p>
-          )}
+          <>
+            <button
+              onClick={handleCheckout}
+              disabled={loading || !isLoaded}
+              className="cta-primary w-full inline-flex items-center justify-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.05rem] disabled:opacity-50"
+            >
+              {loading ? "Loading..." : "Unlock All Exams"}
+            </button>
+            {error && (
+              <p className="mt-3 text-sm text-red-600">{error}</p>
+            )}
+          </>
         )}
 
         {/* Guarantee */}
