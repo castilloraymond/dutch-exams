@@ -40,11 +40,16 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
 
   useExitWarning(stage === "writing");
 
-  // Reset submission when question changes
+  // Restore saved submission when question changes, or reset to empty
   useEffect(() => {
     if (!currentQuestion) return;
-    setSubmission(currentQuestion.taskType === "form" ? {} : "");
-  }, [currentQuestionIndex, currentQuestion]);
+    const saved = submissions.find((s) => s.questionId === currentQuestion.id);
+    if (saved) {
+      setSubmission(saved.submission);
+    } else {
+      setSubmission(currentQuestion.taskType === "form" ? {} : "");
+    }
+  }, [currentQuestionIndex, currentQuestion, submissions]);
 
   // Timer effect
   useEffect(() => {
@@ -63,10 +68,17 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
 
   const handleSubmit = () => {
     // Save this submission
-    setSubmissions((prev) => [
-      ...prev,
-      { questionId: currentQuestion.id, submission },
-    ]);
+    setSubmissions((prev) => {
+      const updated = [...prev];
+      const existingIdx = updated.findIndex((s) => s.questionId === currentQuestion.id);
+      const entry = { questionId: currentQuestion.id, submission };
+      if (existingIdx >= 0) {
+        updated[existingIdx] = entry;
+      } else {
+        updated.push(entry);
+      }
+      return updated;
+    });
 
     // If more questions, advance
     if (currentQuestionIndex < questions.length - 1) {
@@ -76,6 +88,23 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
 
     // Last question: go to results
     setStage("results");
+  };
+
+  const handlePrevious = () => {
+    if (currentQuestionIndex <= 0) return;
+    // Save current answer before going back
+    setSubmissions((prev) => {
+      const updated = [...prev];
+      const existingIdx = updated.findIndex((s) => s.questionId === currentQuestion.id);
+      const entry = { questionId: currentQuestion.id, submission };
+      if (existingIdx >= 0) {
+        updated[existingIdx] = entry;
+      } else {
+        updated.push(entry);
+      }
+      return updated;
+    });
+    setCurrentQuestionIndex((prev) => prev - 1);
   };
 
   const handleRevealModelAnswer = () => {
@@ -254,16 +283,26 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
                 />
               )}
 
-              {/* Submit button */}
-              <button
-                onClick={handleSubmit}
-                disabled={isSubmitDisabled}
-                className="w-full bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
-              >
-                {currentQuestionIndex < questions.length - 1
-                  ? "Volgende vraag"
-                  : "Versturen"}
-              </button>
+              {/* Navigation buttons */}
+              <div className="flex gap-3">
+                {currentQuestionIndex > 0 && (
+                  <button
+                    onClick={handlePrevious}
+                    className="flex-1 border-2 border-[var(--ink)]/20 text-[var(--ink)] hover:border-[var(--ink)]/40 px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
+                  >
+                    Vorige vraag
+                  </button>
+                )}
+                <button
+                  onClick={handleSubmit}
+                  disabled={isSubmitDisabled}
+                  className="flex-1 bg-[var(--accent)] hover:bg-[var(--accent)]/90 disabled:bg-gray-300 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-medium transition-colors cursor-pointer"
+                >
+                  {currentQuestionIndex < questions.length - 1
+                    ? "Volgende vraag"
+                    : "Versturen"}
+                </button>
+              </div>
             </div>
           )}
 
