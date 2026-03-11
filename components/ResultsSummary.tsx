@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, Crown, UserPlus } from "lucide-react";
+import { CheckCircle2, XCircle, RotateCcw, ArrowLeft, ChevronDown, ChevronUp, ArrowRight, BookOpen, Headphones, Landmark, PenLine, Mic, Crown, UserPlus } from "lucide-react";
 import type { AnswerRecord } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { useUser } from "@clerk/nextjs";
@@ -12,7 +12,7 @@ const LABELS = ["A", "B", "C", "D"];
 export interface SuggestedExam {
   id: string;
   title: string;
-  module: "lezen" | "knm" | "luisteren";
+  module: "lezen" | "knm" | "luisteren" | "schrijven" | "spreken";
   difficulty: string;
   href: string;
 }
@@ -35,6 +35,8 @@ const MODULE_ICONS = {
   lezen: BookOpen,
   knm: Landmark,
   luisteren: Headphones,
+  schrijven: PenLine,
+  spreken: Mic,
 };
 
 export function ResultsSummary({
