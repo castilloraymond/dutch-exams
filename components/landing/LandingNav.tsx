@@ -67,6 +67,14 @@ export function LandingNav() {
                             <CircleUser className="h-5 w-5" />
                         </Link>
                     ) : null}
+                    {isLoaded && !user && (
+                        <Link
+                            href="/auth/signup"
+                            className="hidden sm:inline-flex border border-[var(--ink)]/20 text-[var(--ink)] hover:bg-[var(--ink)]/5 px-6 py-2.5 rounded-full font-semibold text-[0.88rem] transition-all duration-250"
+                        >
+                            Sign Up
+                        </Link>
+                    )}
                     <Link
                         href="/try"
                         className="hidden sm:inline-flex bg-[var(--ink)] text-[var(--cream)] px-6 py-2.5 rounded-full font-semibold text-[0.88rem] hover:bg-[var(--accent)] hover:translate-y-[-1px] transition-all duration-250"
@@ -104,13 +112,22 @@ export function LandingNav() {
                             Exam Resources
                         </Link>
                         {isLoaded && !user && (
-                            <Link
-                                href="/auth/login"
-                                onClick={() => setMenuOpen(false)}
-                                className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
-                            >
-                                Log In
-                            </Link>
+                            <>
+                                <Link
+                                    href="/auth/login"
+                                    onClick={() => setMenuOpen(false)}
+                                    className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
+                                >
+                                    Log In
+                                </Link>
+                                <Link
+                                    href="/auth/signup"
+                                    onClick={() => setMenuOpen(false)}
+                                    className="text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors py-2"
+                                >
+                                    Sign Up
+                                </Link>
+                            </>
                         )}
                         {isLoaded && user && (
                             <Link

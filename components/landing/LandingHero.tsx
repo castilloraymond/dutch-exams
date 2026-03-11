@@ -1,7 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowRight, Check, Clock, CircleCheck, ChevronDown } from "lucide-react";
+import { useUser } from "@clerk/nextjs";
 
 export function LandingHero() {
+    const { user, isLoaded } = useUser();
     return (
         <section className="min-h-svh sm:min-h-0 flex flex-col pt-[88px] sm:pt-[120px] pb-0 sm:pb-[70px] px-6 lg:px-10 max-w-[1200px] mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-2 sm:gap-[60px] sm:items-center">
             {/* Left column */}
@@ -47,6 +51,18 @@ export function LandingHero() {
                         <ArrowRight className="h-3.5 w-3.5" />
                     </a>
                 </div>
+                {isLoaded && !user && (
+                    <p className="text-[0.9rem] text-[var(--ink-muted)] text-center sm:text-left">
+                        or{" "}
+                        <Link href="/auth/signup" className="text-[var(--ink-soft)] underline underline-offset-2 hover:text-[var(--ink)] transition-colors">
+                            create a free account
+                        </Link>
+                        {" · "}
+                        <Link href="/auth/login" className="text-[var(--ink-soft)] underline underline-offset-2 hover:text-[var(--ink)] transition-colors">
+                            log in
+                        </Link>
+                    </p>
+                )}
             </div>
 
             {/* Scroll to explore indicator — mobile only, pinned to bottom */}
