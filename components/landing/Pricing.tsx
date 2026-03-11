@@ -14,29 +14,33 @@ const features = [
 ];
 
 export function PricingCard({ compact }: { compact?: boolean }) {
-  const { user } = useUser();
+  const { user, isLoaded } = useUser();
   const { isPremium } = usePremium();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleCheckout = async () => {
+    if (!isLoaded) return;
+
     if (!user) {
       router.push("/auth/signup?redirect=/upgrade");
       return;
     }
 
     setLoading(true);
+    setError(null);
     try {
       const res = await fetch("/api/stripe/checkout", { method: "POST" });
       const data = await res.json();
       if (data.url) {
         window.location.href = data.url;
       } else {
-        console.error("Checkout error:", data.error);
+        setError(data.error || "Something went wrong. Please try again.");
         setLoading(false);
       }
     } catch {
-      console.error("Failed to create checkout session");
+      setError("Could not connect to payment service. Please try again.");
       setLoading(false);
     }
   };
@@ -78,11 +82,14 @@ export function PricingCard({ compact }: { compact?: boolean }) {
         ) : (
           <button
             onClick={handleCheckout}
-            disabled={loading}
+            disabled={loading || !isLoaded}
             className="cta-primary w-full inline-flex items-center justify-center gap-2.5 px-11 py-[18px] rounded-full font-semibold text-[1.05rem] disabled:opacity-50"
           >
             {loading ? "Loading..." : "Unlock All Exams"}
           </button>
+          {error && (
+            <p className="mt-3 text-sm text-red-600">{error}</p>
+          )}
         )}
 
         {/* Guarantee */}
