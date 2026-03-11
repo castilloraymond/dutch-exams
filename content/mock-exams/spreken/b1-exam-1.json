@@ -38,9 +38,9 @@
       "questionNl": "Wat voor werk doe jij? Vertel ook wat je leuk vindt aan je werk en wat je zou willen veranderen.",
       "questionEn": "What kind of work do you do? Also tell what you like about it and what you would change.",
       "questionParts": [
-        "What kind of work do you do?",
-        "What do you like about it?",
-        "What would you change?"
+        "Wat voor werk doe jij?",
+        "Wat vind je leuk aan je werk?",
+        "Wat zou je willen veranderen?"
       ],
       "personStatement": "I work as a project manager at a construction company.",
       "personStatementNl": "Ik werk als projectmanager bij een bouwbedrijf.",

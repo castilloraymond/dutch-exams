@@ -181,9 +181,6 @@ export function SpeakingResults({
                       <p className="text-sm text-[var(--ink)]">
                         {q.modelAnswer.transcriptNl}
                       </p>
-                      <p className="text-xs text-[var(--ink)]/60 italic mt-1">
-                        {q.modelAnswer.transcript}
-                      </p>
                     </div>
                   </div>
                 )}
@@ -238,9 +235,6 @@ export function SpeakingResults({
               </div>
               <p className="text-[var(--ink)] mb-2">
                 {task.modelAnswer.transcriptNl}
-              </p>
-              <p className="text-sm text-[var(--ink)]/60 italic">
-                {task.modelAnswer.transcript}
               </p>
             </div>
           </div>
