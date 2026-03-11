@@ -401,7 +401,19 @@ export function getMockExamIndex(module: string): MockExamIndex | null {
 }
 
 export function getMockExam(examId: string): MockExam | null {
-  return mockExams[examId] || null;
+  const exam = mockExams[examId];
+  if (!exam) return null;
+
+  // Use index as source of truth for isFreePreview (content files may be out of sync)
+  const index = mockExamIndices[exam.module];
+  if (index) {
+    const entry = index.exams.find((e) => e.id === examId);
+    if (entry) {
+      return { ...exam, isFreePreview: entry.isFreePreview };
+    }
+  }
+
+  return exam;
 }
 
 export function getAllMockExamIds(): string[] {
