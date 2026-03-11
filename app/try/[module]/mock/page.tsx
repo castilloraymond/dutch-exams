@@ -42,30 +42,32 @@ export default function FreeExamPage() {
   const { questions, passageMap, transcriptMap } = useMemo(() => {
     if (!exam) return { questions: [] as Question[], passageMap: new Map(), transcriptMap: new Map() };
 
-    // Lezen: questions from passages
+    // Lezen: shuffle passage order, keep each passage's questions grouped
     if (module === "lezen" && exam.passages) {
       const allQuestions: Question[] = [];
       const pMap = new Map<string, NonNullable<typeof exam.passages>[0]>();
-      for (const passage of exam.passages) {
+      const shuffledPassages = shuffleArray([...exam.passages]);
+      for (const passage of shuffledPassages) {
         for (const question of passage.questions) {
           allQuestions.push(question);
           pMap.set(question.id, passage);
         }
       }
-      return { questions: shuffleArray(allQuestions), passageMap: pMap, transcriptMap: new Map() };
+      return { questions: allQuestions, passageMap: pMap, transcriptMap: new Map() };
     }
 
-    // Luisteren: questions from transcripts
+    // Luisteren: shuffle transcript order, keep each transcript's questions grouped
     if (module === "luisteren" && exam.transcripts) {
       const allQuestions: Question[] = [];
       const tMap = new Map<string, NonNullable<typeof exam.transcripts>[0]>();
-      for (const transcript of exam.transcripts) {
+      const shuffledTranscripts = shuffleArray([...exam.transcripts]);
+      for (const transcript of shuffledTranscripts) {
         for (const question of transcript.questions) {
           allQuestions.push(question);
           tMap.set(question.id, transcript);
         }
       }
-      return { questions: shuffleArray(allQuestions), passageMap: new Map(), transcriptMap: tMap };
+      return { questions: allQuestions, passageMap: new Map(), transcriptMap: tMap };
     }
 
     // KNM: flat questions array
