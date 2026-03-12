@@ -78,7 +78,7 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
   const questionParts = question?.questionParts ?? task.questionParts;
   const personStatementNl = question?.personStatementNl ?? task.personStatementNl;
   const images = question?.images ?? task.images;
-  const sequencingWordsRequired = question?.sequencingWordsRequired ?? task.sequencingWordsRequired;
+
 
   // Audio file references (prefer question-level, fall back to task-level)
   const questionAudioFile = question?.questionAudioFile ?? task.questionAudioFile;
@@ -254,14 +254,6 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
                 </li>
               ))}
             </ul>
-          </div>
-        )}
-        {sequencingWordsRequired && (
-          <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-            <p className="text-sm text-blue-800">
-              <strong>Tip:</strong> Gebruik volgorde woorden: <em>Eerst</em> (First),{" "}
-              <em>Daarna</em> (Then), <em>Tenslotte</em> (Finally)
-            </p>
           </div>
         )}
       </div>
