@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Check, Lightbulb, Clock, Volume2, FileText, ChevronDown, ChevronUp, Users, Crown, ArrowRight, ShieldCheck } from "lucide-react";
+import { Check, Lightbulb, Clock, Volume2, Square, FileText, ChevronDown, ChevronUp, Users, Crown, ArrowRight, ShieldCheck } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 import { useAzureTTS } from "@/hooks/useAzureTTS";
 import { useUser } from "@clerk/nextjs";
@@ -44,8 +44,8 @@ export function SpeakingResults({
   isFreePreview = false,
 }: SpeakingResultsProps) {
   const [expandedQuestion, setExpandedQuestion] = useState<number | null>(null);
-  const audioRef = useRef<HTMLAudioElement>(null);
-  const isPlayingRef = useRef(false);
+  const [playingModelIdx, setPlayingModelIdx] = useState<number | null>(null);
+  const modelAudioRef = useRef<HTMLAudioElement | null>(null);
   const { speak: azureSpeak, stop: azureStop, isPlaying: azureIsPlaying } = useAzureTTS();
   const { user } = useUser();
   const { isPremium } = usePremium();
@@ -58,50 +58,71 @@ export function SpeakingResults({
     onComplete();
   }, [onComplete]);
 
+  // Cleanup model audio on unmount
+  useEffect(() => {
+    return () => {
+      if (modelAudioRef.current) {
+        modelAudioRef.current.pause();
+        modelAudioRef.current = null;
+      }
+    };
+  }, []);
+
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
-  const playModelAnswerTTS = (transcriptNl: string) => {
-    onModelAnswerPlayed();
-    azureSpeak(transcriptNl);
+  const stopModelAudio = () => {
+    azureStop();
+    if (modelAudioRef.current) {
+      modelAudioRef.current.pause();
+      modelAudioRef.current.currentTime = 0;
+      modelAudioRef.current = null;
+    }
+    setPlayingModelIdx(null);
   };
 
-  const playSingleModelAnswer = () => {
-    if (azureIsPlaying || isPlayingRef.current) {
-      azureStop();
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current.currentTime = 0;
-      }
-      isPlayingRef.current = false;
+  const playModelAnswer = (transcriptNl: string, audioFile?: string, idx: number = -1) => {
+    // If already playing this one, stop it
+    if (playingModelIdx === idx && (azureIsPlaying || modelAudioRef.current)) {
+      stopModelAudio();
       return;
     }
 
+    // Stop any other playback first
+    stopModelAudio();
     onModelAnswerPlayed();
+    setPlayingModelIdx(idx);
 
-    if (task.modelAnswer.audioFile && audioRef.current) {
-      audioRef.current.play();
-      isPlayingRef.current = true;
+    if (audioFile) {
+      const audio = new Audio(audioFile);
+      modelAudioRef.current = audio;
+      audio.onended = () => { setPlayingModelIdx(null); modelAudioRef.current = null; };
+      audio.onerror = () => {
+        // Fallback to TTS if audio file fails
+        modelAudioRef.current = null;
+        azureSpeak(transcriptNl);
+      };
+      audio.play().catch(() => {
+        modelAudioRef.current = null;
+        azureSpeak(transcriptNl);
+      });
     } else {
-      azureSpeak(task.modelAnswer.transcriptNl);
+      azureSpeak(transcriptNl);
     }
   };
 
+  // Track when TTS finishes to clear playing state
+  useEffect(() => {
+    if (!azureIsPlaying && playingModelIdx !== null && !modelAudioRef.current) {
+      setPlayingModelIdx(null);
+    }
+  }, [azureIsPlaying, playingModelIdx]);
+
   return (
     <div className="space-y-6">
-      {/* Hidden audio element for model answer */}
-      {task.modelAnswer.audioFile && (
-        <audio
-          ref={audioRef}
-          src={task.modelAnswer.audioFile}
-          onEnded={() => { isPlayingRef.current = false; }}
-          onError={() => { isPlayingRef.current = false; }}
-        />
-      )}
-
       {/* Recording time / summary */}
       <div className="landing-card p-4">
         <div className="flex items-center justify-center gap-4 text-[var(--ink)]/60">
@@ -172,10 +193,15 @@ export function SpeakingResults({
                           <span className="text-xs font-medium text-green-700">Model Answer</span>
                         </div>
                         <button
-                          onClick={() => playModelAnswerTTS(q.modelAnswer.transcriptNl)}
-                          className="text-xs px-2 py-1 rounded bg-green-100 text-green-700 hover:bg-green-200 cursor-pointer"
+                          onClick={() => playModelAnswer(q.modelAnswer.transcriptNl, q.modelAnswer.audioFile, idx)}
+                          className={`text-xs px-3 py-1.5 rounded font-medium flex items-center gap-1.5 cursor-pointer transition-colors ${
+                            playingModelIdx === idx
+                              ? "bg-green-700 text-white"
+                              : "bg-green-100 text-green-700 hover:bg-green-200"
+                          }`}
                         >
-                          Listen
+                          {playingModelIdx === idx ? <Square className="h-3 w-3" /> : <Volume2 className="h-3 w-3" />}
+                          {playingModelIdx === idx ? "Stop" : "Luister"}
                         </button>
                       </div>
                       <p className="text-sm text-[var(--ink)]">
@@ -216,10 +242,15 @@ export function SpeakingResults({
                 </span>
               </div>
               <button
-                onClick={playSingleModelAnswer}
-                className="w-full py-2 px-4 rounded-lg font-medium text-sm transition-colors bg-green-100 text-green-700 hover:bg-green-200 cursor-pointer"
+                onClick={() => playModelAnswer(task.modelAnswer.transcriptNl, task.modelAnswer.audioFile, -1)}
+                className={`w-full py-2 px-4 rounded-lg font-medium text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer ${
+                  playingModelIdx === -1
+                    ? "bg-green-700 text-white"
+                    : "bg-green-100 text-green-700 hover:bg-green-200"
+                }`}
               >
-                Listen to Model
+                {playingModelIdx === -1 ? <Square className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+                {playingModelIdx === -1 ? "Stop" : "Luister naar het modelantwoord"}
               </button>
             </div>
           </div>
