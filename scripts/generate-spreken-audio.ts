@@ -36,9 +36,10 @@ interface AudioJob {
  */
 async function generateAudio(
   client: TextToSpeechClient,
-  job: AudioJob
+  job: AudioJob,
+  force = false
 ): Promise<boolean> {
-  if (fs.existsSync(job.outputPath)) {
+  if (!force && fs.existsSync(job.outputPath)) {
     return true; // Already exists
   }
 
@@ -205,15 +206,18 @@ async function main(): Promise<void> {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  const force = process.argv.includes("--force");
+  if (force) console.log("Force mode: regenerating all audio files\n");
+
   const jobs = collectJobs(outputDir);
-  const newJobs = jobs.filter((j) => !fs.existsSync(j.outputPath));
-  console.log(`Found ${jobs.length} total, ${newJobs.length} new to generate\n`);
+  const newJobs = force ? jobs : jobs.filter((j) => !fs.existsSync(j.outputPath));
+  console.log(`Found ${jobs.length} total, ${newJobs.length} to generate\n`);
 
   let generated = 0;
   let failed = 0;
 
   for (const job of newJobs) {
-    const success = await generateAudio(client, job);
+    const success = await generateAudio(client, job, force);
     if (success) {
       generated++;
     } else {

@@ -649,7 +649,19 @@ const writingMockExams: Record<string, WritingMockExam> = {
 };
 
 export function getWritingMockExam(examId: string): WritingMockExam | null {
-  return writingMockExams[examId] || null;
+  const exam = writingMockExams[examId];
+  if (!exam) return null;
+
+  // Use index as source of truth for isFreePreview (content files may be out of sync)
+  const index = mockExamIndices["schrijven"];
+  if (index) {
+    const entry = index.exams.find((e) => e.id === examId);
+    if (entry) {
+      return { ...exam, isFreePreview: entry.isFreePreview ?? false };
+    }
+  }
+
+  return exam;
 }
 
 // ============================================
@@ -671,5 +683,17 @@ const speakingMockExams: Record<string, SpeakingMockExam> = {
 };
 
 export function getSpeakingMockExam(examId: string): SpeakingMockExam | null {
-  return speakingMockExams[examId] || null;
+  const exam = speakingMockExams[examId];
+  if (!exam) return null;
+
+  // Use index as source of truth for isFreePreview (content files may be out of sync)
+  const index = mockExamIndices["spreken"];
+  if (index) {
+    const entry = index.exams.find((e) => e.id === examId);
+    if (entry) {
+      return { ...exam, isFreePreview: entry.isFreePreview ?? false };
+    }
+  }
+
+  return exam;
 }
