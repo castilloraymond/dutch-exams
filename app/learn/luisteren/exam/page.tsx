@@ -13,6 +13,7 @@ import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getLuisterenExamQuestions, shuffleArray } from "@/lib/content";
 import { useExitWarning } from "@/hooks/useExitWarning";
 import { useProgress } from "@/hooks/useProgress";
+import { trackExamCompleted } from "@/lib/analytics";
 
 export default function LuisterenExamPage() {
   const [started, setStarted] = useState(false);
@@ -33,6 +34,17 @@ export default function LuisterenExamPage() {
   const handleComplete = useCallback((examResults: ExamResults) => {
     setResults(examResults);
     recordExamCompletion("luisteren-free-exam", examResults.correctAnswers, examResults.totalQuestions);
+    const pct = Math.round((examResults.correctAnswers / examResults.totalQuestions) * 100);
+    trackExamCompleted({
+      module: "luisteren",
+      examId: "luisteren-free-exam",
+      examType: "free",
+      correctAnswers: examResults.correctAnswers,
+      totalQuestions: examResults.totalQuestions,
+      percentage: pct,
+      passed: pct >= 60,
+      timeTakenSeconds: examResults.elapsedTime,
+    });
   }, [recordExamCompletion]);
 
   const {

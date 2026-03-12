@@ -17,6 +17,7 @@ import { useExamState, ExamResults } from "@/hooks/useExamState";
 import { getMockExam, shuffleArray, getSuggestedExams } from "@/lib/content";
 import { useUser } from "@clerk/nextjs";
 import { useProgress } from "@/hooks/useProgress";
+import { trackExamCompleted } from "@/lib/analytics";
 import { usePremium } from "@/hooks/usePremium";
 import type { Question } from "@/lib/types";
 
@@ -69,6 +70,20 @@ export default function LezenMockExamPage({ params }: PageProps) {
   const handleComplete = useCallback((examResults: ExamResults) => {
     setResults(examResults);
     recordExamCompletion(examId, examResults.correctAnswers, examResults.totalQuestions);
+
+    if (exam) {
+      const pct = Math.round((examResults.correctAnswers / examResults.totalQuestions) * 100);
+      trackExamCompleted({
+        module: exam.module as import("@/lib/analytics").ExamModule,
+        examId: exam.id,
+        examType: "mock",
+        correctAnswers: examResults.correctAnswers,
+        totalQuestions: examResults.totalQuestions,
+        percentage: pct,
+        passed: pct >= 60,
+        timeTakenSeconds: examResults.elapsedTime,
+      });
+    }
 
     // Save results to database if user is logged in
     if (user && exam) {

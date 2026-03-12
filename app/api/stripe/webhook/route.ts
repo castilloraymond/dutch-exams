@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { clerkClient } from "@clerk/nextjs/server";
+import { PostHog } from "posthog-node";
 
 export async function POST(request: NextRequest) {
   try {
@@ -63,6 +64,20 @@ export async function POST(request: NextRequest) {
       });
 
       console.log("User upgraded to Pro");
+
+      const phKey = process.env.POSTHOG_KEY;
+      if (phKey) {
+        const ph = new PostHog(phKey, { host: process.env.POSTHOG_HOST ?? "https://eu.i.posthog.com" });
+        ph.capture({
+          distinctId: userId,
+          event: "purchase_completed",
+          properties: {
+            amount: session.amount_total ? session.amount_total / 100 : null,
+            currency: session.currency,
+          },
+        });
+        await ph.shutdown();
+      }
     }
 
     return NextResponse.json({ received: true });

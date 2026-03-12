@@ -28,6 +28,8 @@
     "lucide-react": "^0.563.0",
     "marked": "^17.0.1",
     "next": "16.1.4",
+    "posthog-js": "^1.360.1",
+    "posthog-node": "^5.28.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "stripe": "^20.3.1",
