@@ -40,7 +40,7 @@ jobs:
               continue
             fi
 
-            if [ "$date_prefix" \<= "$TODAY" ]; then
+            if [[ "$date_prefix" <= "$TODAY" ]]; then
               # Strip the date prefix and the following hyphen
               new_filename=$(echo "$filename" | sed "s/^${date_prefix}-//")
               echo "Publishing: $filename -> $new_filename"

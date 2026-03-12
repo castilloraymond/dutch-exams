@@ -6,6 +6,7 @@ import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { JsonLd } from "@/components/JsonLd";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { CookieConsent } from "@/components/CookieConsent";
+import { PostHogProvider } from "@/components/PostHogProvider";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
@@ -116,6 +117,7 @@ export default function RootLayout({
       >
         <GoogleAnalytics />
         <ClerkProvider>
+          <PostHogProvider />
           {children}
           <FeedbackWidget />
           <CookieConsent />

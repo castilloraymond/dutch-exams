@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Check, ShieldCheck } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
 import { usePremium } from "@/hooks/usePremium";
+import { trackPurchaseInitiated } from "@/lib/analytics";
 
 const features = [
   "1,200+ Drill Questions",
@@ -24,6 +25,7 @@ export function PricingCard({ compact }: { compact?: boolean }) {
 
   const handleCheckout = useCallback(async () => {
     if (!isLoaded) return;
+    trackPurchaseInitiated();
 
     if (!user) {
       router.push(
