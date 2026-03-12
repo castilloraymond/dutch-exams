@@ -14,7 +14,7 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
       "img-src 'self' data: blob: https://media.giphy.com https://images.unsplash.com https://images.pexels.com https://www.google-analytics.com https://www.googletagmanager.com https://img.clerk.com https://img.clerk.com",
-      "connect-src 'self' https://*.supabase.co https://*.google-analytics.com https://www.googletagmanager.com https://*.tts.speech.microsoft.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.passinburgering.com https://accounts.passinburgering.com https://challenges.cloudflare.com",
+      "connect-src 'self' https://*.supabase.co https://*.google-analytics.com https://www.googletagmanager.com https://*.tts.speech.microsoft.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.passinburgering.com https://accounts.passinburgering.com https://challenges.cloudflare.com https://eu.i.posthog.com",
       "media-src 'self' blob:",
       "frame-src 'self' https://*.clerk.accounts.dev https://*.clerk.com https://accounts.passinburgering.com https://challenges.cloudflare.com",
       "worker-src 'self' blob:",
