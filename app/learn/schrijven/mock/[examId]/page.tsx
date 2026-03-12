@@ -9,6 +9,7 @@ import type { FormAnswer, WritingAttempt, WritingSubmission } from "@/lib/types"
 import { WritingInput } from "@/components/schrijven/WritingInput";
 import { FormInput } from "@/components/schrijven/FormInput";
 import { WritingResults } from "@/components/schrijven/WritingResults";
+import { ExamIntroScreen } from "@/components/ExamIntroScreen";
 import { useExitWarning } from "@/hooks/useExitWarning";
 import { ExamHeader } from "@/components/ExamHeader";
 import { ExamBottomNav } from "@/components/ExamBottomNav";
@@ -28,6 +29,7 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
   const { isPremium, loading: premiumLoading } = usePremium();
   const questions = exam?.questions || [];
 
+  const [started, setStarted] = useState(false);
   const [stage, setStage] = useState<Stage>("writing");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [drafts, setDrafts] = useState<Record<string, string | FormAnswer>>({});
@@ -134,6 +136,7 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
   }, [exam, allSubmissions, checkedCriteria, modelAnswerRevealed, elapsedTime, saveWritingAttempt, examId]);
 
   const handleRetry = () => {
+    setStarted(false);
     setStage("writing");
     setCurrentQuestionIndex(0);
     setDrafts({});
@@ -154,6 +157,18 @@ export default function SchrijvenMockExamPage({ params }: PageProps) {
   if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
     router.replace("/learn/schrijven/select?locked=true");
     return null;
+  }
+
+  if (!started) {
+    return (
+      <ExamIntroScreen
+        title={exam.title}
+        questionCount={exam.questionCount}
+        recommendedTime={exam.recommendedTime}
+        onStart={() => setStarted(true)}
+        module="schrijven"
+      />
+    );
   }
 
   // Construct a WritingTask-compatible object for WritingResults

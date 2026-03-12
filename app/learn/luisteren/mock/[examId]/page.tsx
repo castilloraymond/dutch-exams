@@ -185,6 +185,7 @@ export default function LuisterenMockExamPage({ params }: PageProps) {
         recommendedTime={exam.recommendedTime}
         onStart={() => setStarted(true)}
         showAudioTest={true}
+        module="luisteren"
       />
     );
   }

@@ -185,6 +185,7 @@ export default function LezenMockExamPage({ params }: PageProps) {
         questionCount={exam.questionCount}
         recommendedTime={exam.recommendedTime}
         onStart={() => setStarted(true)}
+        module="lezen"
       />
     );
   }

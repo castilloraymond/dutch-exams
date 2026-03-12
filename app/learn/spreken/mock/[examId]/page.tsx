@@ -11,6 +11,7 @@ import type { SpeakingAttempt, SpeakingTask } from "@/lib/types";
 import { SpeakingPrompt } from "@/components/spreken/SpeakingPrompt";
 import { AudioRecorder } from "@/components/spreken/AudioRecorder";
 import { SpeakingResults } from "@/components/spreken/SpeakingResults";
+import { ExamIntroScreen } from "@/components/ExamIntroScreen";
 import { ExamHeader } from "@/components/ExamHeader";
 import { ExamBottomNav } from "@/components/ExamBottomNav";
 import { QuestionGrid } from "@/components/QuestionGrid";
@@ -36,6 +37,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
   const { isPremium, loading: premiumLoading } = usePremium();
   const questions = exam?.questions || [];
 
+  const [started, setStarted] = useState(false);
   const [stage, setStage] = useState<Stage>("prompt");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [modelAnswerPlayed, setModelAnswerPlayed] = useState(false);
@@ -205,6 +207,7 @@ export default function SprekenMockExamPage({ params }: PageProps) {
   }, [exam, recordingTime, modelAnswerPlayed, attemptCount, saveSpeakingAttempt, examId]);
 
   const handleRetry = () => {
+    setStarted(false);
     resetRecording();
     setStage("prompt");
     setCurrentQuestionIndex(0);
@@ -253,6 +256,19 @@ export default function SprekenMockExamPage({ params }: PageProps) {
   if (!premiumLoading && !isPremium && exam && !exam.isFreePreview) {
     router.replace('/learn/spreken/select?locked=true');
     return null;
+  }
+
+  if (!started) {
+    return (
+      <ExamIntroScreen
+        title={exam.title}
+        questionCount={exam.questionCount}
+        recommendedTime={exam.recommendedTime}
+        onStart={() => setStarted(true)}
+        showAudioTest={true}
+        module="spreken"
+      />
+    );
   }
 
   // Construct SpeakingTask-compatible object for SpeakingPrompt and SpeakingResults
