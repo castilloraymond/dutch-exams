@@ -58,7 +58,7 @@ export function ResultsSummary({
   const { user } = useUser();
   const { isPremium } = usePremium();
   const showUpgradeCTA = isFreePreview && user && !isPremium;
-  const [showReview, setShowReview] = useState(false);
+  const [showReview, setShowReview] = useState(true);
   const percentage = Math.round((correctAnswers / totalQuestions) * 100);
   const isPassing = percentage >= 60;
 

@@ -13,8 +13,7 @@ interface ExamHeaderProps {
 }
 
 export function ExamHeader({ title, startTime, backHref, timeLimitSeconds, onTimeUp }: ExamHeaderProps) {
-  // Use lazy initializer to compute initial elapsed time
-  const [elapsed, setElapsed] = useState(() => Math.floor((Date.now() - startTime) / 1000));
+  const [elapsed, setElapsed] = useState(0);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeUpCalledRef = useRef(false);
 
