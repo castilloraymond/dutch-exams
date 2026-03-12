@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import Image from "next/image";
-import { Volume2, User } from "lucide-react";
+import { Volume2, Square, User } from "lucide-react";
 import type { SpeakingTask, SpeakingQuestion } from "@/lib/types";
 import { useAzureTTS } from "@/hooks/useAzureTTS";
 
@@ -119,24 +119,25 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
                 {personStatementNl}
               </p>
             </div>
-            <button
-              onClick={() => {
-                if (isPlaying) {
-                  stop();
-                } else {
-                  play(personStatementAudioFile, personStatementNl);
-                }
-              }}
-              className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${
-                isPlaying
-                  ? "bg-[var(--accent)] text-white"
-                  : "bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20"
-              }`}
-              aria-label={isPlaying ? "Stop audio" : "Play audio"}
-            >
-              <Volume2 className="h-5 w-5" />
-            </button>
           </div>
+          <button
+            onClick={() => {
+              if (isPlaying) {
+                stop();
+              } else {
+                play(personStatementAudioFile, personStatementNl);
+              }
+            }}
+            className={`mt-3 w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm transition-colors cursor-pointer ${
+              isPlaying
+                ? "bg-[var(--accent)] text-white"
+                : "bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20"
+            }`}
+            aria-label={isPlaying ? "Stop audio" : "Play audio"}
+          >
+            {isPlaying ? <Square className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+            {isPlaying ? "Stop" : "Luister"}
+          </button>
         </div>
 
         {/* Question */}
@@ -144,6 +145,24 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
           <h2 className="font-bold text-[var(--ink)] mb-1">
             {questionNl}
           </h2>
+          <button
+            onClick={() => {
+              if (isPlaying) {
+                stop();
+              } else {
+                play(questionAudioFile, questionNl);
+              }
+            }}
+            className={`mt-2 w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm transition-colors cursor-pointer ${
+              isPlaying
+                ? "bg-[var(--ink)] text-white"
+                : "bg-[var(--ink)]/10 text-[var(--ink)] hover:bg-[var(--ink)]/20"
+            }`}
+            aria-label={isPlaying ? "Stop audio" : "Luister naar de vraag"}
+          >
+            {isPlaying ? <Square className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+            {isPlaying ? "Stop" : "Luister naar de vraag"}
+          </button>
           {questionParts && (
             <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
               <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
@@ -220,28 +239,27 @@ export function SpeakingPrompt({ task, question, compact = false, autoPlay = fal
 
       {/* Question with play button */}
       <div className={compact ? "" : "pt-2"}>
-        <div className="flex items-start gap-2">
-          <h2 className="font-bold text-[var(--ink)] mb-1 flex-1">
-            {questionNl}
-          </h2>
-          <button
-            onClick={() => {
-              if (isPlaying) {
-                stop();
-              } else {
-                play(questionAudioFile, questionNl);
-              }
-            }}
-            className={`flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
-              isPlaying
-                ? "bg-[var(--accent)] text-white"
-                : "bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20"
-            }`}
-            aria-label={isPlaying ? "Stop audio" : "Play question audio"}
-          >
-            <Volume2 className="h-4 w-4" />
-          </button>
-        </div>
+        <h2 className="font-bold text-[var(--ink)] mb-2">
+          {questionNl}
+        </h2>
+        <button
+          onClick={() => {
+            if (isPlaying) {
+              stop();
+            } else {
+              play(questionAudioFile, questionNl);
+            }
+          }}
+          className={`w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm transition-colors cursor-pointer ${
+            isPlaying
+              ? "bg-[var(--accent)] text-white"
+              : "bg-[var(--accent)]/10 text-[var(--accent)] hover:bg-[var(--accent)]/20"
+          }`}
+          aria-label={isPlaying ? "Stop audio" : "Luister naar de vraag"}
+        >
+          {isPlaying ? <Square className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+          {isPlaying ? "Stop" : "Luister naar de vraag"}
+        </button>
         {questionParts && (
           <div className="mt-3 p-3 bg-[var(--accent)]/10 rounded-lg">
             <p className="text-xs font-medium text-[var(--ink)]/70 mb-2">
