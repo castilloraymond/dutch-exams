@@ -167,6 +167,7 @@ export default function KNMMockExamPage({ params }: PageProps) {
         questionCount={exam.questionCount}
         recommendedTime={exam.recommendedTime}
         onStart={() => setStarted(true)}
+        module="knm"
       />
     );
   }
